@@ -19,8 +19,17 @@ section {
   padding: 40px;
 }
 
+.image-nav-link {
+    opacity: 0.6;
+    margin-left: 4px;
+}
+
+.nav-link:hover {
+    opacity: 0.9;
+}
+
 .section-title {
-    margin: 10px 10px 50px 10px ;
+    margin: 10px 10px 50px 10px;
 }
 
 h1 {

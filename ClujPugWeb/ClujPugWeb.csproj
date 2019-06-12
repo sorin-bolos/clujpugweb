@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Analytics\googleAnalytics.js" />
+    <Content Include="Images\GitHub-Mark-Light-32px.png" />
     <Content Include="Images\Legend\EchivalentMonumentIstoric.png" />
     <Content Include="Images\Legend\IncintaRomana.png" />
     <Content Include="Images\Legend\IntravilanPropus.png" />
