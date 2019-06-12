@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{407C9C00-E6F5-4A26-B6CB-B6723B7E9923}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClujPugWeb</RootNamespace>
+    <AssemblyName>ClujPugWeb</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Analytics\googleAnalytics.js" />
+    <Content Include="Images\Legend\EchivalentMonumentIstoric.png" />
+    <Content Include="Images\Legend\IncintaRomana.png" />
+    <Content Include="Images\Legend\IntravilanPropus.png" />
+    <Content Include="Images\Legend\LimitaUtr.png" />
+    <Content Include="Images\Legend\MijloaceNavigareAeriana.png" />
+    <Content Include="Images\Legend\MonumentIstoric.png" />
+    <Content Include="Images\Legend\ParcariPropuse.png" />
+    <Content Include="Images\Legend\PistaAeroportExistenta.png" />
+    <Content Include="Images\Legend\PistaAeroportExtinsa.png" />
+    <Content Include="Images\Legend\PodPropus.png" />
+    <Content Include="Images\Legend\ProtectieAeronautica.png" />
+    <Content Include="Images\Legend\ProtectieApa.png" />
+    <Content Include="Images\Legend\ProtectieArmata.png" />
+    <Content Include="Images\Legend\ProtectieGaz.png" />
+    <Content Include="Images\Legend\ProtectieInaltaTensiune.png" />
+    <Content Include="Images\Legend\ProtectieSanitara.png" />
+    <Content Include="Images\Legend\ReconfigurareSpatiuPublicUrban.png" />
+    <Content Include="Images\Legend\RiscMareAlunecariDeTeren.png" />
+    <Content Include="Images\Legend\RiscMediuAlunecariDeTeren.png" />
+    <Content Include="Images\Legend\ServituteAeronautica.png" />
+    <Content Include="Images\Legend\ServituteDeUtilitatePublica.png" />
+    <Content Include="Images\Legend\SigurantaTransport.png" />
+    <Content Include="Images\Legend\SubzonaUtr.png" />
+    <Content Include="Images\Legend\TeritoriulAdministrativ.png" />
+    <Content Include="Images\Legend\ValoareArtistica.png" />
+    <Content Include="Images\Legend\ZonaArheologicaProtejata.png" />
+    <Content Include="Images\Legend\ZonaCentrala.png" />
+    <Content Include="Images\Legend\ZonaConstruitaProtejata.png" />
+    <Content Include="Images\Legend\ZonaNaturalaProtejataExistenta.png" />
+    <Content Include="Images\Legend\ZonaNaturalaProtejataPropusa.png" />
+    <Content Include="Images\Legend\ZoneConstruibile.png" />
+    <Content Include="Index.html" />
+    <Content Include="Scripts.js" />
+    <Content Include="pug-styles.css" />
+    <Content Include="sitemap.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="sitemap_www.xml" />
+    <Content Include="slider-style.css" />
+    <Content Include="Theme\bootstrap\css\bootstrap-grid.css" />
+    <Content Include="Theme\bootstrap\css\bootstrap-grid.min.css" />
+    <Content Include="Theme\bootstrap\css\bootstrap-reboot.css" />
+    <Content Include="Theme\bootstrap\css\bootstrap-reboot.min.css" />
+    <Content Include="Theme\bootstrap\css\bootstrap.css" />
+    <Content Include="Theme\bootstrap\css\bootstrap.min.css" />
+    <Content Include="Theme\bootstrap\js\bootstrap.bundle.js" />
+    <Content Include="Theme\bootstrap\js\bootstrap.bundle.min.js" />
+    <Content Include="Theme\bootstrap\js\bootstrap.js" />
+    <Content Include="Theme\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Theme\jquery-easing\jquery.easing.compatibility.js" />
+    <Content Include="Theme\jquery-easing\jquery.easing.js" />
+    <Content Include="Theme\jquery-easing\jquery.easing.min.js" />
+    <Content Include="Theme\jquery\jquery.js" />
+    <Content Include="Theme\jquery\jquery.min.js" />
+    <Content Include="Theme\scrolling-nav\scrolling-nav.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Documente\141218_MEMORIU GENERAL_PUGCJ_final.pdf" />
+    <Content Include="Documente\Regulament Local de Urbanism_Cluj-Napoca.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 1.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 10.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 2.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 3.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 4.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 5.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 6.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 7.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 8.pdf" />
+    <Content Include="Documente\RLU Cluj_Anexa 9.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR A.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Aapp.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR AL.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Ec.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ED.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Ei.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR EL.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Em.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Et.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR G_c.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR G_d.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR G_p.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR G_t.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Is_A.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Lc.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Lcs.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Lc_A.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Lid.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Lip.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Lir %281%29.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Lir.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Liu.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR M1.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR M2.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR M3.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR M4.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR RiM.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR RrEm.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR RrEt.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR RrM1.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR RrM2.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR RrM3.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR RrM4.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Sp_UTR TDS_MApN.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Ta UTa.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR TDA.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR TDA_L.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR TDF.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Tf.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Tr.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UEc.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UED.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UEi.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UEmm.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UEt.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UG_c.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UG_cmid.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UIs_A.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ULc.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ULid.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ULiu.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ULi_c.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UM1.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UM2.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UM3.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UM4.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UVa.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UVs.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR UVt.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Va.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Ve.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Vp.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Vpr.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR Vs.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_C1.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_C2.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_G_c.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_Is_A.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_Liu.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_L_A.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_M1.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_M2.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_M3.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_M4.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_RiM.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_Sp ZCP_TDS_MApN.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_Va.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_Ve.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_Vs.pdf" />
+    <Content Include="Documente\RLU Cluj_UTR ZCP_Vt.pdf" />
+    <Content Include="Documente\RLU Cluj__DISPOZITII GENERALE_REGULI DE BAZA.pdf" />
+    <Content Include="Seo\Breadcrumbs.json" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57857</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:57857/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
