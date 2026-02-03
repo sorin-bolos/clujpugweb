@@ -10,24 +10,36 @@ ClujPUG.ro este o platformă interactivă care permite vizualizarea Planului Urb
 - **Documente oficiale** ale Regulamentului Local de Urbanism (RLU)
 - **Legenda completă** a simbolurilor și codurilor de pe hartă
 
-## Unități Teritoriale de Referință (UTR)
+## Despre Planul Urbanistic General (PUG)
+
+Planul Urbanistic General este documentul de planificare urbană care stabilește:
+- Zonarea funcțională a teritoriului
+- Regulile de construire pentru fiecare zonă
+- Înălțimea maximă a clădirilor
+- Procentul de ocupare a terenului (POT)
+- Coeficientul de utilizare a terenului (CUT)
+- Retragerile față de limitele de proprietate
+- Spațiile verzi obligatorii
+
+## Unități Teritoriale de Referință (UTR) - Lista Completă
 
 UTR-urile definesc tipurile de zone din municipiul Cluj-Napoca:
 
 ### Zone de Locuințe
-- **Lid** - Locuințe cu densitate mică
-- **Lim** - Locuințe cu densitate medie  
-- **Liu** - Locuințe cu densitate mare (urban)
-- **Lc** - Locuințe colective
+- **Lid** - Locuințe cu densitate mică (case individuale)
+- **Lim** - Locuințe cu densitate medie (case înșiruite, duplex)
+- **Liu** - Locuințe cu densitate mare (urban, blocuri mici)
+- **Lc** - Locuințe colective (blocuri de apartamente)
+- **Lcs** - Locuințe colective și servicii
 
 ### Zone Mixte
-- **M1** - Zonă mixtă cu regim de construire continuu
+- **M1** - Zonă mixtă cu regim de construire continuu (centru)
 - **M2** - Zonă mixtă cu regim de construire discontinuu
 - **M3** - Zonă mixtă cu clădiri de înălțime medie
 - **M4** - Zonă mixtă periurbană
 
 ### Zone Centrale
-- **ZCP** - Zona Centrală Protejată
+- **ZCP** - Zona Centrală Protejată (centrul istoric)
 - **C1** - Centru civic
 - **C2** - Centru de cartier
 
@@ -35,39 +47,84 @@ UTR-urile definesc tipurile de zone din municipiul Cluj-Napoca:
 - **Ei** - Zonă de activități economice cu caracter industrial
 - **Ec** - Zonă de activități economice cu caracter comercial
 - **Et** - Zonă de activități economice cu caracter terțiar
+- **Em** - Zonă de activități economice mixte
 
 ### Zone Verzi și Recreere
-- **Va** - Spații verzi amenajate
-- **Vp** - Parcuri
+- **Va** - Spații verzi amenajate (parcuri)
+- **Vp** - Parcuri publice
 - **Vs** - Spații verzi de protecție
 - **Ve** - Vegetație existentă
+- **Vpr** - Spații verzi de protecție a râurilor
 
-### Infrastructură
-- **TDS** - Teren destinat serviciilor
+### Instituții și Servicii
+- **Is_A** - Instituții și servicii de interes public - Administrație
+- **TDS** - Teren destinat serviciilor publice
 - **TDA** - Teren destinat administrației
-- **Tr** - Transport rutier
-- **Tf** - Transport feroviar
+- **ED** - Echipamente publice - Educație
+- **EL** - Echipamente publice - Locuire socială
+
+### Transport și Infrastructură
+- **Tr** - Transport rutier (drumuri, străzi)
+- **Tf** - Transport feroviar (căi ferate)
+- **Ta** - Transport aerian (aeroport)
+
+### Zone Agricole
+- **A** - Zonă agricolă
+- **Aapp** - Zonă agricolă cu potențial peisagistic
+
+### Zone Naturale
+- **AL** - Păduri și vegetație forestieră
+- **G_c** - Grădini și livezi
+- **G_p** - Pepinieră
+- **G_t** - Terenuri cu vegetație naturală
+
+### Zone de Protecție
+- **RiM** - Risc mare (alunecări de teren, inundații)
+- **Sp** - Servitute de protecție
+- **MApN** - Zone ale Ministerului Apărării Naționale
 
 ## Documente Disponibile
 
 Site-ul oferă acces la documentele oficiale ale RLU Cluj-Napoca:
 
 - Memoriu General PUG
-- Regulament Local de Urbanism
-- Fișe pentru fiecare UTR
-- Anexe și planșe
+- Regulament Local de Urbanism complet
+- Fișe detaliate pentru fiecare UTR
+- Anexe cu reglementări specifice
+- Planșe urbanistice
+
+## Cum se folosește harta?
+
+1. Accesați harta interactivă pe pagina principală
+2. Folosiți zoom pentru a vedea detaliile zonei dorite
+3. Consultați legenda pentru înțelegerea codurilor de culori
+4. Descărcați documentele PDF pentru informații detaliate
 
 ## Informații Tehnice
 
 - **Domeniu**: clujpug.ro
 - **Limbă**: Română
-- **Actualizat**: 2024
+- **Actualizat**: 2026
 - **Sursa datelor**: Primăria Cluj-Napoca
+- **Coordonate**: 46.770008°N, 23.590125°E
+
+## Întrebări Frecvente
+
+**Ce pot afla de pe acest site?**
+Puteți afla ce tip de construcții sunt permise pe o anumită parcelă din Cluj-Napoca, ce înălțime maximă este permisă, și ce restricții se aplică.
+
+**Este informația oficială?**
+Da, datele sunt preluate din documentele oficiale ale Primăriei Cluj-Napoca.
+
+**Cum pot obține un certificat de urbanism?**
+Certificatul de urbanism se obține de la Primăria Cluj-Napoca. Acest site oferă doar informații orientative.
 
 ## Contact
 
 Acest site este un proiect independent pentru facilitarea accesului la informații urbanistice.
+Email: postmaster@clujpug.ro
 
 ---
 
 *PUG Cluj-Napoca - Planul Urbanistic General al municipiului Cluj-Napoca*
+*© ClujPUG 2017-2026*
