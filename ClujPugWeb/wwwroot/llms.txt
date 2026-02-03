@@ -1,0 +1,73 @@
+# Cluj PUG - Plan Urbanistic General Cluj-Napoca
+
+> Planul Urbanistic General (PUG) al municipiului Cluj-Napoca într-o hartă interactivă.
+
+## Ce este acest site?
+
+ClujPUG.ro este o platformă interactivă care permite vizualizarea Planului Urbanistic General al municipiului Cluj-Napoca. Site-ul oferă acces la:
+
+- **Harta interactivă** cu zonele urbanistice (UTR-uri)
+- **Documente oficiale** ale Regulamentului Local de Urbanism (RLU)
+- **Legenda completă** a simbolurilor și codurilor de pe hartă
+
+## Unități Teritoriale de Referință (UTR)
+
+UTR-urile definesc tipurile de zone din municipiul Cluj-Napoca:
+
+### Zone de Locuințe
+- **Lid** - Locuințe cu densitate mică
+- **Lim** - Locuințe cu densitate medie  
+- **Liu** - Locuințe cu densitate mare (urban)
+- **Lc** - Locuințe colective
+
+### Zone Mixte
+- **M1** - Zonă mixtă cu regim de construire continuu
+- **M2** - Zonă mixtă cu regim de construire discontinuu
+- **M3** - Zonă mixtă cu clădiri de înălțime medie
+- **M4** - Zonă mixtă periurbană
+
+### Zone Centrale
+- **ZCP** - Zona Centrală Protejată
+- **C1** - Centru civic
+- **C2** - Centru de cartier
+
+### Zone Economice
+- **Ei** - Zonă de activități economice cu caracter industrial
+- **Ec** - Zonă de activități economice cu caracter comercial
+- **Et** - Zonă de activități economice cu caracter terțiar
+
+### Zone Verzi și Recreere
+- **Va** - Spații verzi amenajate
+- **Vp** - Parcuri
+- **Vs** - Spații verzi de protecție
+- **Ve** - Vegetație existentă
+
+### Infrastructură
+- **TDS** - Teren destinat serviciilor
+- **TDA** - Teren destinat administrației
+- **Tr** - Transport rutier
+- **Tf** - Transport feroviar
+
+## Documente Disponibile
+
+Site-ul oferă acces la documentele oficiale ale RLU Cluj-Napoca:
+
+- Memoriu General PUG
+- Regulament Local de Urbanism
+- Fișe pentru fiecare UTR
+- Anexe și planșe
+
+## Informații Tehnice
+
+- **Domeniu**: clujpug.ro
+- **Limbă**: Română
+- **Actualizat**: 2024
+- **Sursa datelor**: Primăria Cluj-Napoca
+
+## Contact
+
+Acest site este un proiect independent pentru facilitarea accesului la informații urbanistice.
+
+---
+
+*PUG Cluj-Napoca - Planul Urbanistic General al municipiului Cluj-Napoca*
