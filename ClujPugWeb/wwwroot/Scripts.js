@@ -39,9 +39,9 @@ function getMapTiles(tileUrlProvider) {
 }
 
 function getPugTileUrl(coord, zoom) {
-    return "http://mapwarper.net/mosaics/tile/869/" +
+    return "https://mapwarper.net/mosaics/tile/869/" +
            zoom + "/" + coord.x + "/" + coord.y + ".png";
-    //return "http://clujpug.ro/tiles/" +
+    //return "https://clujpug.ro/tiles/" +
     //       zoom + "_" + coord.x + "_" + coord.y + ".png";
 }
 
