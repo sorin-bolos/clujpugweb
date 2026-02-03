@@ -4,6 +4,16 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <AspNetCoreHostingModel>OutOfProcess</AspNetCoreHostingModel>
+    
+    <!-- Don't include debug symbols in Release -->
+    <DebugSymbols Condition="'$(Configuration)' == 'Release'">false</DebugSymbols>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
   </PropertyGroup>
+
+  <!-- Exclude Development config from publish -->
+  <ItemGroup>
+    <Content Remove="appsettings.Development.json" Condition="'$(Configuration)' == 'Release'" />
+  </ItemGroup>
 
 </Project>
