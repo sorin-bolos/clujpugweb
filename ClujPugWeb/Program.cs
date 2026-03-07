@@ -2,8 +2,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 
-// Redirect ads.txt to Ezoic's managed ads.txt
-app.MapGet("/ads.txt", () => Results.Redirect("https://srv.adstxtmanager.com/19390/clujpug.ro", permanent: true));
+// Serve privacy policy at clean URL
+app.MapGet("/privacy-policy", async context =>
+{
+    context.Response.ContentType = "text/html; charset=utf-8";
+    await context.Response.SendFileAsync(Path.Combine(app.Environment.WebRootPath, "privacy-policy.html"));
+});
 
 // Configure the HTTP request pipeline
 if (!app.Environment.IsDevelopment())
