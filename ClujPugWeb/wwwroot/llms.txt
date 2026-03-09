@@ -25,63 +25,119 @@ Planul Urbanistic General este documentul de planificare urbană care stabileșt
 
 UTR-urile definesc tipurile de zone din municipiul Cluj-Napoca:
 
-### Zone de Locuințe
-- **Lid** - Locuințe cu densitate mică (case individuale)
-- **Lim** - Locuințe cu densitate medie (case înșiruite, duplex)
-- **Liu** - Locuințe cu densitate mare (urban, blocuri mici)
-- **Lc** - Locuințe colective (blocuri de apartamente)
-- **Lcs** - Locuințe colective și servicii
+### M - Zone Mixte
+- **M1** - Zona mixtă cu regim de construire închis, adiacentă principalelor artere de trafic
+- **M2** - Zona mixtă cu regim de construire închis, adiacentă arterelor de importanță locală
+- **M3** - Zona mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic
+- **M4** - Zona mixtă cu regim de construire deschis, adiacentă arterelor de importanță locală
 
-### Zone Mixte
-- **M1** - Zonă mixtă cu regim de construire continuu (centru)
-- **M2** - Zonă mixtă cu regim de construire discontinuu
-- **M3** - Zonă mixtă cu clădiri de înălțime medie
-- **M4** - Zonă mixtă periurbană
+### Is - Zone de Instituții și Servicii Publice
+- **Is_A** - Zona de instituții și servicii publice și de interes public constituite în ansambluri independente
 
-### Zone Centrale
-- **ZCP** - Zona Centrală Protejată (centrul istoric)
-- **C1** - Centru civic
-- **C2** - Centru de cartier
+### L - Zone de Locuire
+- **Liu** - Zona de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban
+- **Lip** - Zona de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip periferic
+- **Lir** - Zona de locuințe cu regim redus de înălțime cu caracter rural
+- **Lc_A** - Ansambluri de locuințe colective realizate înainte de 1990
+- **Lc** - Zona de locuințe colective realizate după 1990
+- **Lcs** - Zona de cămine studențești
+- **Lid** - Zona de locuințe individuale de mică densitate pe teritoriu fără infrastructură completă
 
-### Zone Economice
-- **Ei** - Zonă de activități economice cu caracter industrial
-- **Ec** - Zonă de activități economice cu caracter comercial
-- **Et** - Zonă de activități economice cu caracter terțiar
-- **Em** - Zonă de activități economice mixte
+### E - Zone de Activități Economice
+- **Ei** - Zona de activități economice cu caracter industrial
+- **EL** - Zona de depozitare, logistică
+- **Em** - Zona de mică producție, servicii de tip industrial sau cvasi-industrial, comerț en-gros
+- **Ec** - Zona de activități economice de tip retail, cash&carry, showroom, comerț de tip big box
+- **Et** - Zona de activități economice cu caracter terțiar
 
-### Zone Verzi și Recreere
-- **Va** - Spații verzi amenajate (parcuri)
-- **Vp** - Parcuri publice
-- **Vs** - Spații verzi de protecție
-- **Ve** - Vegetație existentă
-- **Vpr** - Spații verzi de protecție a râurilor
+### G - Zone de Gospodărire Comunală
+- **G_p** - Piață agro-alimentară, piață de vechituri, obor
+- **G_c** - Cimitir, capele, clădiri administrative și anexe ale cimitirului
+- **G_d** - Rampă de depozitare a deșeurilor
+- **G_t** - Depou pentru vehiculele transportului public și ale serviciilor de salubritate
 
-### Instituții și Servicii
-- **Is_A** - Instituții și servicii de interes public - Administrație
-- **TDS** - Teren destinat serviciilor publice
-- **TDA** - Teren destinat administrației
-- **ED** - Echipamente publice - Educație
-- **EL** - Echipamente publice - Locuire socială
+### ED - Zone de Construcții Aferente Lucrărilor Edilitare
+- **ED** - Zona de construcții aferente lucrărilor edilitare
 
-### Transport și Infrastructură
-- **Tr** - Transport rutier (drumuri, străzi)
-- **Tf** - Transport feroviar (căi ferate)
-- **Ta** - Transport aerian (aeroport)
+### Sp - Zone cu Destinație Specială
+- **TDS_MApN** - Zona cu destinație specială - imobile ce aparțin Ministerului Apărării Naționale
+- **Sp** - Zona cu destinație specială
 
-### Zone Agricole
-- **A** - Zonă agricolă
-- **Aapp** - Zonă agricolă cu potențial peisagistic
+### T - Zone de Căi de Comunicație
+- **Tr** - Zona de circulație rutieră și amenajări aferente
+- **Ta** - Zona de circulație aeriană și amenajări aferente (Aeroportul Cluj-Napoca)
+- **Tf** - Zona de circulație feroviară și amenajări aferente
 
-### Zone Naturale
-- **AL** - Păduri și vegetație forestieră
-- **G_c** - Grădini și livezi
-- **G_p** - Pepinieră
-- **G_t** - Terenuri cu vegetație naturală
+### A - Zone de Unități și Terenuri Agricole în Intravilan
+- **A** - Zona de unități și terenuri agricole în intravilan - pășuni, fânețe, teren arabil
+- **AL** - Zona teren agricol - livezi
 
-### Zone de Protecție
-- **RiM** - Risc mare (alunecări de teren, inundații)
-- **Sp** - Servitute de protecție
-- **MApN** - Zone ale Ministerului Apărării Naționale
+### Aapp - Zone de Agrement
+- **Aapp** - Zona de agrement pentru public / privat
+
+### V - Zone Verzi
+- **Va** - Zona verde - scuaruri, grădini, parcuri cu acces public nelimitat
+- **Vs** - Zona verde cu rol de complex sportiv
+- **Ve** - Zona verde de protecție a apelor sau cu rol de coridor ecologic
+- **VPr** - Zona verde cu rol de protecție față de infrastructura majoră, plantații cu rol de stabilizare a versanților, de protecție sanitară și de reconstrucție ecologică
+- **VP** - Zona verde - păduri în intravilan
+
+### ZCP - Zone Construite Protejate
+- **ZCP_C1** - Zona centrală suprapusă peste incinta fortificată
+- **ZCP_C2** - Zona centrală situată în afara incintei fortificate
+- **ZCP_M1** - Zona mixtă cu regim de construire închis, adiacentă principalelor artere de trafic (protejată)
+- **ZCP_M2** - Zona mixtă cu regim de construire închis, adiacentă arterelor de importanță locală (protejată)
+- **ZCP_M3** - Zona mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic (protejată)
+- **ZCP_M4** - Zona mixtă cu regim de construire deschis, adiacentă arterelor de importanță locală (protejată)
+- **ZCP_RiM** - Zona industrială restructurabilă - zonă mixtă (protejată)
+- **ZCP_Is_A** - Zona de instituții și servicii publice și de interes public constituite în ansambluri independente (protejată)
+- **ZCP_Liu** - Zona de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (protejată)
+- **ZCP_L_A** - Zona ansambluri de locuințe unitare (protejată)
+- **ZCP_G_c** - Zona de gospodărire comunală - cimitire (protejată)
+- **ZCP_Sp** - Zona cu destinație specială (protejată)
+- **ZCP_TDS_MApN** - Zona cu destinație specială - imobile ce aparțin Ministerului Apărării Naționale (protejată)
+- **ZCP_Va** - Zona verde - scuaruri, grădini, parcuri publice (protejată)
+- **ZCP_Vt** - Zona verde cu caracter tematic (protejată)
+- **ZCP_Vs** - Zona verde cu rol de complex sportiv (protejată)
+- **ZCP_Ve** - Zona verde de protecție a apelor sau cu rol de coridor ecologic (protejată)
+
+### Ri - Zone de Restructurare a Suprafețelor Industriale
+- **RiM** - Zona industrială restructurabilă - zonă mixtă
+
+### Rr - Parcelar Riveran Arterelor de Circulație, Destinat Restructurării
+- **RrM1** - Zona mixtă cu regim de construire închis, adiacentă principalelor artere de trafic (restructurare)
+- **RrM2** - Zona mixtă cu regim de construire închis, adiacentă arterelor de importanță locală (restructurare)
+- **RrM3** - Zona mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic (restructurare)
+- **RrM4** - Zona mixtă cu regim de construire deschis, adiacentă arterelor de importanță locală (restructurare)
+- **RrEm** - Zona de mică producție, servicii de tip industrial sau cvasi-industrial, comerț en-gros (restructurare)
+- **RrEt** - Zona de activități economice cu caracter terțiar (restructurare)
+
+### U - Zone de Urbanizare
+- **UM1** - Zona mixtă cu regim de construire închis, adiacentă principalelor artere de trafic (urbanizare)
+- **UM2** - Zona mixtă cu regim de construire închis, adiacentă arterelor de importanță locală (urbanizare)
+- **UM3** - Zona mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic (urbanizare)
+- **UM4** - Zona mixtă cu regim de construire deschis, adiacentă arterelor de importanță locală (urbanizare)
+- **UIs_A** - Zona de instituții și servicii publice și de interes public constituite în ansambluri independente (urbanizare)
+- **ULiu** - Zona de locuințe cu regim redus de înălțime (urbanizare)
+- **ULc** - Zona de locuințe colective (urbanizare)
+- **ULi/c** - Zona de locuințe individuale, semicolective și colective mici (urbanizare)
+- **ULid** - Zona de locuințe individuale de mică densitate pe teritoriu fără infrastructură completă (urbanizare)
+- **UEc** - Zona de activități economice de tip retail, cash&carry, showroom, comerț de tip big box (urbanizare)
+- **UEt** - Zona de activități economice cu caracter terțiar (urbanizare)
+- **UEi** - Zona de activități economice cu caracter industrial (urbanizare)
+- **UEmm** - Zona de activități economice mici și mijlocii (urbanizare)
+- **UED** - Zona de construcții aferente lucrărilor edilitare (urbanizare)
+- **UG_c** - Zona de gospodărire comunală - cimitir (urbanizare)
+- **UG_cmid** - Zona de gospodărire comunală - centru de management integrat al deșeurilor (urbanizare)
+- **UTa** - Zona de circulație aeriană și amenajări aferente (urbanizare)
+- **UVa** - Zona verde - scuaruri, grădini, parcuri publice (urbanizare)
+- **UVs** - Zona verde cu rol de complex sportiv (urbanizare)
+- **UVt** - Zona verde cu caracter tematic (urbanizare)
+
+### TD - Ocuparea Terenurilor din Extravilan
+- **TDA** - Terenuri cu destinație agricolă - arabil, pășuni, fânețe
+- **TDA_L** - Terenuri cu destinație agricolă - livezi
+- **TDF** - Terenuri cu destinație forestieră
 
 ## Documente Disponibile
 

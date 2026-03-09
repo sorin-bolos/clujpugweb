@@ -95,6 +95,7 @@
     <link href="Theme/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="slider-style.css" rel="stylesheet" />
     <link href="pug-styles.css" rel="stylesheet" />
+    <link href="ad-card-style.css" rel="stylesheet" />
     <script src="Scripts.js"></script>
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3wScRBmC6iO7FOC8UhMkwlukfU9dX8VM&callback=initMapElementToCluj">
@@ -139,6 +140,38 @@
     </nav>
 
     <header id="map" class="bg-primary text-white"></header>
+
+    <!-- Reclamă birouri Tetarom I -->
+    <a href="https://YOUR-DOMAIN.ro" target="_blank"
+    rel="noopener" class="cpug-ad-card">
+    <img class="cpug-ad-card-img"
+        src="URL_IMAGINE"
+        alt="Birouri de închiriat Tetarom I">
+    <div class="cpug-ad-card-body">
+        <div class="cpug-ad-card-badge">
+        &#9679; Disponibil acum
+        </div>
+        <div class="cpug-ad-card-title">
+        Birouri de Închiriat &mdash; Parcul Industrial Tetarom I
+        </div>
+        <div class="cpug-ad-card-features">
+        <span class="cpug-ad-card-feat">60–800 mp</span>
+        <span class="cpug-ad-card-feat">Mobilat</span>
+        <span class="cpug-ad-card-feat">Parcare</span>
+        <span class="cpug-ad-card-feat">Fibră optică</span>
+        <span class="cpug-ad-card-feat">Cantină</span>
+        </div>
+        <div class="cpug-ad-card-bottom">
+        <div class="cpug-ad-card-price">
+            €8<span>/mp · fără admin</span>
+        </div>
+        <div class="cpug-ad-card-cta">
+            Vezi Detalii &#8594;
+        </div>
+        </div>
+    </div>
+    <div class="cpug-ad-card-sponsor">anunț</div>
+    </a>
 
     <section id="legenda">
         <div class="container-fluid">
@@ -712,11 +745,12 @@
                             <dd class="col-sm-9">Zona verde cu rol de protectie fata de infrastructura majora,
                                                  plantatii cu rol de stabilizare a versantilor, de protectie sanitara
                                                  si de reconstructie ecologica
+                                <a target="_blank" href="Documente/RLU Cluj_UTR Vpr.pdf">Detalii</a>
                             </dd>
 
                             <dt class="col-sm-3">VP</dt>
                             <dd class="col-sm-9">Zona verde - paduri în intravilan
-                                <a target="_blank" href="Documente/RLU Cluj_UTR VP.pdf">Detalii</a></dd>
+                                <a target="_blank" href="Documente/RLU Cluj_UTR Vp.pdf">Detalii</a></dd>
 
                             <dt class="col-sm-3 subzona">S_VPa</dt>
                             <dd class="col-sm-9 subzona">Subzona paduri cu rol de agrement</dd>
@@ -945,8 +979,9 @@
                             <dd class="col-sm-9">Zona de locuinte individuale de mica densitate pe teritoriu fara infrastructura completa
                                 <a target="_blank" href="Documente/RLU Cluj_UTR ULid.pdf">Detalii</a></dd>
 
-                            <dt class="col-sm-3 subzona">UEc</dt>
-                            <dd class="col-sm-9 subzona">Zona de activitati economice de tip retail, cash&carry, showroom, comert de tip big box</dd>
+                            <dt class="col-sm-3">UEc</dt>
+                            <dd class="col-sm-9">Zona de activitati economice de tip retail, cash&carry, showroom, comert de tip big box
+                                <a target="_blank" href="Documente/RLU Cluj_UTR UEc.pdf">Detalii</a></dd>
 
                             <dt class="col-sm-3">UEt</dt>
                             <dd class="col-sm-9">Zona de activitati economice cu caracter tertiar
@@ -961,7 +996,7 @@
                                 <a target="_blank" href="Documente/RLU Cluj_UTR UEmm.pdf">Detalii</a></dd>
 
                             <dt class="col-sm-3">UED</dt>
-                            <dd class="col-sm-9">Zona de constructii aferente lucrarilor edilitarE
+                            <dd class="col-sm-9">Zona de constructii aferente lucrarilor edilitare
                                 <a target="_blank" href="Documente/RLU Cluj_UTR UED.pdf">Detalii</a></dd>
 
                             <dt class="col-sm-3">UG_c</dt>
@@ -969,12 +1004,12 @@
                                 <a target="_blank" href="Documente/RLU Cluj_UTR UG_c.pdf">Detalii</a></dd>
 
                             <dt class="col-sm-3">UG_cmid</dt>
-                            <dd class="col-sm-9">Zona de gospogarire comunala - centru de management integrat al deseurilor
+                            <dd class="col-sm-9">Zona de gospodarire comunala - centru de management integrat al deseurilor
                                 <a target="_blank" href="Documente/RLU Cluj_UTR UG_cmid.pdf">Detalii</a></dd>
 
                             <dt class="col-sm-3">UTa</dt>
                             <dd class="col-sm-9">Zona de circulatie aeriana si amenajari aferente
-                                <a target="_blank" href="Documente/RLU Cluj_UTR Ta Uta.pdf">Detalii</a></dd>
+                                <a target="_blank" href="Documente/RLU Cluj_UTR Ta UTa.pdf">Detalii</a></dd>
 
                             <dt class="col-sm-3 subzona">UTa_Z.S.M</dt>
                             <dd class="col-sm-9 subzona">Subzona suprafetei de miscare</dd>
@@ -1056,6 +1091,39 @@
     <script src="Theme/jquery-easing/jquery.easing.min.js"></script>
     <script src="Theme/scrolling-nav/scrolling-nav.js"></script>
 
-
+    <!-- Banner sticky birouri Tetarom I -->
+    <div class="cpug-sticky-banner" id="cpugBanner">
+    <div class="cpug-banner-inner">
+        <div class="cpug-banner-left">
+        <div class="cpug-banner-icon">&#127970;</div>
+        <div class="cpug-banner-text">
+            <div class="cpug-banner-title">
+            Birouri de Închiriat în Tetarom I, Cluj-Napoca
+            </div>
+            <div class="cpug-banner-subtitle">
+            60–800 mp · Mobilate · Parcare · Fibră optică · Fără costuri admin
+            </div>
+        </div>
+        </div>
+        <div class="cpug-banner-price">
+        €8<span>/mp/lună</span>
+        </div>
+        <a href="https://YOUR-DOMAIN.ro" target="_blank"
+        rel="noopener" class="cpug-banner-cta">
+        Vezi Spațiile &#8594;
+        </a>
+        <button class="cpug-banner-close"
+        onclick="document.getElementById('cpugBanner').style.display='none';
+        try{sessionStorage.setItem('cpugBannerClosed','1')}catch(e){}"
+        title="Închide">&#10005;</button>
+    </div>
+    </div>
+    <script>
+    try {
+    if (sessionStorage.getItem('cpugBannerClosed') === '1') {
+        document.getElementById('cpugBanner').style.display = 'none';
+    }
+    } catch(e) {}
+    </script>
 </body>
 </html>
