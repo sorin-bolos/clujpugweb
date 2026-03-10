@@ -1,0 +1,253 @@
+================================================================================
+  REGULAMENTUL LOCAL DE URBANISM - CLUJ-NAPOCA
+  Cuprins UTR-uri (Unităţi Teritoriale de Referinţă)
+================================================================================
+
+════════════════════════════════════════════════════════════════════════════════
+  ZONE ŞI SUBZONE FUNCŢIONALE CONSTITUITE
+════════════════════════════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────────────────────────
+  M - ZONA MIXTĂ
+────────────────────────────────────────────────────────────────────────────────
+  M1        Zonă mixtă cu regim de construire închis, adiacentă              20
+            principalelor artere de trafic
+  M2        Zonă mixtă cu regim de construire închis, adiacentă              28
+            arterelor de importanţă locală
+  M3        Zonă mixtă cu regim de construire deschis, adiacentă             36
+            principalelor artere de trafic
+  M4        Zonă mixtă cu regim de construire deschis, adiacentă             43
+            arterelor de importanţă locală
+
+────────────────────────────────────────────────────────────────────────────────
+  Is - ZONA DE INSTITUŢII ŞI SERVICII PUBLICE ŞI DE INTERES PUBLIC
+────────────────────────────────────────────────────────────────────────────────
+  Is_A      Zonă de instituţii şi servicii publice şi de interes            50
+            public constituite în ansambluri independente
+    S_Is    Subzonă de instituţii şi servicii publice şi de interes          -
+            public constituite în clădiri dedicate situate în afara
+            zonei centrale
+
+────────────────────────────────────────────────────────────────────────────────
+  L - ZONA DE LOCUINŢE
+────────────────────────────────────────────────────────────────────────────────
+  Liu       Locuinţe cu regim redus de înălţime dispuse pe un               57
+            parcelar de tip urban
+  Lip       Locuinţe cu regim redus de înălţime dispuse pe un               65
+            parcelar de tip periferic
+  Lir       Locuinţe cu regim redus de înălţime cu caracter rural           72
+  Lid       Locuinţe cu regim redus de înălţime, de mică densitate,         80
+            pe teritorii fără infrastructură completă
+  Lc_A      Ansambluri de locuinţe colective realizate înainte              87
+            de anul 1990
+    S_P     Subzonă parcaje colective de cartier                              -
+    S_L     Subzonă de locuinţe cu regim redus de înălţime dispuse            -
+            pe parcele izolate în interiorul ansamblurilor de
+            locuinţe colective cu interdicţie de construire
+  Lc        Zonă de locuinţe colective realizate după anul 1990             95
+  Lcs       Zona căminelor studenţeşti                                     104
+
+────────────────────────────────────────────────────────────────────────────────
+  E - ZONA DE ACTIVITĂŢI ECONOMICE
+────────────────────────────────────────────────────────────────────────────────
+  Ei        Zonă de activităţi economice cu caracter industrial            111
+    S_Ei    Subzonă de activităţi economice cu caracter industrial -          -
+            mari unităţi industriale
+  EL        Zonă de depozitare, logistică                                  117
+  Em        Zonă de mică producţie, servicii de tip industrial sau         123
+            cvasi-industrial, comerţ en-gros
+    S_Em    Subzona de activităţi economice – mică producţie                  -
+  Ec        Zonă de activităţi economice de tip comercial - en             130
+            detail - desfăşurate în unităţi de mari dimensiuni -
+            big box, mall, showroom
+  Et        Zonă activităţi economice cu caracter terţiar                  135
+    S_Et    Subzonă de activităţi economice cu caracter terţiar               -
+            situate în zone cu caracter rezidenţial
+
+────────────────────────────────────────────────────────────────────────────────
+  G - ZONA DE GOSPODĂRIRE COMUNALĂ
+────────────────────────────────────────────────────────────────────────────────
+  G_p       Piaţă agro-alimentară, piaţă de vechituri, obor               143
+    S_G_p   Subzona de gospodărire comunală, situată în zone cu               -
+            alt caracter
+  G_c       Cimitire, capele, clădiri administrative şi anexe              148
+            ale cimitirelor
+  G_d       Rampă de depozitare a deşeurilor                               152
+  G_t       Depouri pentru transportul urban, salubritate                   155
+
+────────────────────────────────────────────────────────────────────────────────
+  ED - ZONĂ AFERENTĂ INFRASTRUCTURII EDILITARE
+────────────────────────────────────────────────────────────────────────────────
+  ED        Zonă aferentă infrastructurii edilitare                        160
+    S_ED    Subzonă de construcţii aferente lucrărilor edilitare               -
+            situată în zone cu alt caracter
+
+────────────────────────────────────────────────────────────────────────────────
+  Sp - ZONA CU DESTINAŢIE SPECIALĂ
+────────────────────────────────────────────────────────────────────────────────
+  Sp /      Zonă cu destinaţie specială / Terenuri cu destinaţie           165
+  TDS_MAPN  specială aparţinând Ministerului Apărării Naţionale
+    S_Sp    Subzona cu destinaţie specială situată în zone cu                 -
+            alt caracter
+
+────────────────────────────────────────────────────────────────────────────────
+  T - ZONĂ DE CĂI DE COMUNICAŢIE
+────────────────────────────────────────────────────────────────────────────────
+  Tr        Zonă de circulaţie rutieră şi amenajări aferente               170
+  Ta / UTa  Zonă de circulaţie aeriană şi amenajări aferente               173
+    Ta_Z.S.M  Zona suprafeţei de mişcare                                      -
+    Ta_Z.T.A  Zona tehnică aeroport                                           -
+    Ta_Z.P.A  Zona publică aeroport                                           -
+    Ta_Z.M    Zona militară                                                    -
+  Tf        Zonă de circulaţie feroviară şi amenajări aferente             178
+
+────────────────────────────────────────────────────────────────────────────────
+  A - ZONĂ A TERENURILOR ŞI UNITĂŢILOR AGRICOLE SITUATE ÎN INTRAVILAN
+────────────────────────────────────────────────────────────────────────────────
+  A         Păşuni, fânaţe, terenuri arabile                               182
+  AL        Livezi                                                         186
+  Aapp      Zonă de agrement pentru public / privat                        190
+
+────────────────────────────────────────────────────────────────────────────────
+  V - ZONA VERDE
+────────────────────────────────────────────────────────────────────────────────
+  Va        Scuaruri, grădini, parcuri cu acces public nelimitat            196
+    S_Va    Subzonă spaţii verzi publice aferente arterelor de                -
+            circulaţie
+  Vs        Zonă verde cu rol de complex sportiv                           201
+  Ve        Zonă verde de protecţie a apelor sau cu rol de                 206
+            culoar ecologic
+  VPr       Zonă verde de protecţie faţă de infrastructura                 210
+            majoră, de protecţie sanitară, plantaţii cu rol de
+            stabilizare a versanţilor şi de reconstrucţie ecologică
+  Vp        Zona verde - păduri în intravilan                              214
+    S_Vpa   Subzonă păduri cu rol de agrement                                 -
+    S_VPf/ps  Subzona de păşuni, fânaţe în interiorul zonelor                 -
+              împădurite
+
+════════════════════════════════════════════════════════════════════════════════
+  ZONE CONSTRUITE PROTEJATE (ZCP)
+════════════════════════════════════════════════════════════════════════════════
+  ZCP_C1    Zona centrală suprapusă peste incinta fortificată              218
+    ZCP_C1_a  Subzona aferentă principalelor spaţii publice din               -
+              interiorul incintei fortificate
+    ZCP_C1_b  Subzona aferentă tramei stradale minore din                     -
+              interiorul incintei fortificate
+  ZCP_C2    Zona centrală situată în afara incintei fortificate            226
+  ZCP_M1    Zonă mixtă cu regim de construire închis, adiacentă            234
+            principalelor artere de trafic
+  ZCP_M2    Zonă mixtă cu regim de construire închis, adiacentă            243
+            arterelor de importanţă locală
+  ZCP_M3    Zonă mixtă cu regim de construire deschis, adiacentă           251
+            principalelor artere de trafic
+  ZCP_M4    Zonă mixtă cu regim de construire deschis, adiacentă           259
+            arterelor de importanţă locală
+  ZCP_Is_A  Zonă de instituţii şi servicii publice şi de interes          267
+            public constituite în ansambluri independente
+    SZCP_Is Subzonă de instituţii şi servicii publice şi de                   -
+            interes public constituite în clădiri dedicate
+            situate în afara zonei centrale
+  ZCP_Liu   Zonă de locuinţe cu regim redus de înălţime dispuse            274
+            pe un parcelar de tip urban
+  ZCP_L_A   Ansambluri de locuinţe unitare                                 282
+    SZCP_Et Subzonă de activităţi economice cu caracter terţiar               -
+            situate în zone cu alt caracter
+  ZCP_G_c   Zonă de gospodărire comunală - cimitire                        288
+  ZCP_Sp    Zonă cu destinaţie specială                                    293
+  ZCP_TDS_MApN  Terenuri cu destinaţie specială aparţinând                 293
+                Ministerului Apărării Naţionale
+    SZCP_Sp     Subzone cu destinaţie specială situate în zone cu             -
+                alt caracter
+    SZCP_TDS_M.Ap.N.  Terenuri cu destinaţie specială - imobile              -
+                       aparţinând M.Ap.N. situate în zone cu
+                       alt caracter
+  ZCP_Va    Zonă verde - scuaruri, grădini, parcuri publice                299
+  ZCP_Vt    Zonă verde cu caracter tematic                                 304
+  ZCP_Vs    Zonă verde cu rol de complex sportiv                           309
+  ZCP_Ve    Zonă verde de protecţie a apelor sau cu rol de                 314
+            coridor ecologic
+  ZCP_RiM   Restructurarea zonelor cu caracter industrial -                318
+            zonă mixtă
+  ZCP_Et    Zonă de activități economice cu caracter terțiar                352
+
+════════════════════════════════════════════════════════════════════════════════
+  ZONE DE RESTRUCTURARE
+════════════════════════════════════════════════════════════════════════════════
+
+────────────────────────────────────────────────────────────────────────────────
+  Ri - RESTRUCTURAREA ZONELOR CU CARACTER INDUSTRIAL
+────────────────────────────────────────────────────────────────────────────────
+  RiM       Zonă mixtă                                                     333
+
+────────────────────────────────────────────────────────────────────────────────
+  Rr - PARCELAR RIVERAN ARTERELOR DE CIRCULAŢIE, DESTINAT RESTRUCTURĂRII
+────────────────────────────────────────────────────────────────────────────────
+  RrM1      Parcelar riveran principalelor artere de trafic,               340
+            destinat restructurării - zonă mixtă cu regim de
+            construire închis
+  RrM2      Parcelar riveran arterelor de importanţă locală,               348
+            destinat restructurării - zonă mixtă cu regim de
+            construire închis
+  RrM3      Parcelar riveran principalelor artere de trafic,               356
+            destinat restructurării - zonă mixtă cu regim de
+            construire deschis
+  RrM4      Parcelar riveran arterelor de importanţă locală,               364
+            destinat restructurării - zonă mixtă cu regim de
+            construire deschis
+  RrEm      Parcelar riveran arterelor de circulaţie, destinat            372
+            restructurării - zonă de mică producţie, servicii
+            de tip industrial şi cvasiindustrial, comerţ engros
+  RrEt      Parcelar riveran principalelor artere de trafic,               379
+            destinat restructurării - zonă de activităţi
+            economice cu caracter terţiar
+
+════════════════════════════════════════════════════════════════════════════════
+  ZONE DE URBANIZARE
+════════════════════════════════════════════════════════════════════════════════
+  UM1       Zonă mixtă cu regim de construire închis, adiacentă            387
+            principalelor artere de trafic
+  UM2       Zonă mixtă cu regim de construire închis, adiacentă            395
+            arterelor de importanţă locală
+  UM3       Zonă mixtă cu regim de construire deschis, adiacentă           403
+            principalelor artere de trafic
+  UM4       Zonă mixtă cu regim de construire deschis, adiacentă           411
+            arterelor de importanţă locală
+  UIs_A     Zonă de instituţii şi servicii publice şi de interes          419
+            public constituite în ansambluri independente
+    S_UIs   Subzona de instituţii şi servicii publice şi de                   -
+            interes public constituite în clădiri dedicate
+            situate în zone de urbanizare cu alt caracter
+  ULiu      Locuinţe cu regim redus de înălţime dispuse pe un             424
+            parcelar de tip urban
+  ULi/c     Locuinţe cu regim redus de înălţime – individuale             432
+            şi colective mici
+  ULc       Ansambluri care includ locuirea colectivă şi                   441
+            dotările aferente
+  ULid      Locuinţe cu regim redus de înălţime, de mică                   449
+            densitate, pe teritorii fără infrastructură completă
+  UEc       Zonă de activităţi economice de tip comercial -                456
+            en detail - desfăşurate în unităţi de mari
+            dimensiuni - big box, mall, showroom
+  UEt       Zonă de activităţi economice cu caracter terţiar               462
+  UEi       Zonă de activităţi economice cu caracter industrial            469
+  UEm       Zonă de activităţi economice dedicată                          475
+            întreprinderilor mici şi mijlocii
+  UED       Gospodărire comunală - elemente ale infrastructurii            481
+            edilitare; pieţe agroalimentare, de vechituri, obor;
+            elemente ale infrastructurii pentru transportul
+            urban, salubritate etc
+  UG_c      Gospodărire comunală - cimitire                                486
+  UG_cmid   Gospodărire comunală - centru de management                    491
+            integrat al deşeurilor
+  UVa       Zonă verde - scuaruri, grădini, parcuri publice                495
+    S_UVa   Subzonă verde - scuar, grădină, parc public                       -
+  UVs       Zonă verde cu rol de complex sportiv                           500
+  UVt       Zonă verde cu caracter tematic                                 505
+
+════════════════════════════════════════════════════════════════════════════════
+  OCUPAREA TERENURILOR DIN EXTRAVILAN
+════════════════════════════════════════════════════════════════════════════════
+  TDA       Terenuri cu destinaţie agricolă - arabil, păşuni,              510
+            fâneţe
+  TDA_L     Terenuri cu destinaţie agricolă – livezi                       514
+  TDF       Terenuri cu destinaţie forestieră                              517

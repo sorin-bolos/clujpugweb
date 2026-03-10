@@ -47,17 +47,17 @@ UTR-urile definesc tipurile de zone din municipiul Cluj-Napoca:
 - **Ei** - Zona de activități economice cu caracter industrial
 - **EL** - Zona de depozitare, logistică
 - **Em** - Zona de mică producție, servicii de tip industrial sau cvasi-industrial, comerț en-gros
-- **Ec** - Zona de activități economice de tip retail, cash&carry, showroom, comerț de tip big box
+- **Ec** - Zona de activități economice de tip comercial - en detail - desfășurate în unități de mari dimensiuni - big box, mall, showroom
 - **Et** - Zona de activități economice cu caracter terțiar
 
 ### G - Zone de Gospodărire Comunală
 - **G_p** - Piață agro-alimentară, piață de vechituri, obor
 - **G_c** - Cimitir, capele, clădiri administrative și anexe ale cimitirului
 - **G_d** - Rampă de depozitare a deșeurilor
-- **G_t** - Depou pentru vehiculele transportului public și ale serviciilor de salubritate
+- **G_t** - Depouri pentru transportul urban, salubritate
 
-### ED - Zone de Construcții Aferente Lucrărilor Edilitare
-- **ED** - Zona de construcții aferente lucrărilor edilitare
+### ED - Zonă Aferentă Infrastructurii Edilitare
+- **ED** - Zona aferentă infrastructurii edilitare
 
 ### Sp - Zone cu Destinație Specială
 - **TDS_MApN** - Zona cu destinație specială - imobile ce aparțin Ministerului Apărării Naționale
@@ -101,6 +101,8 @@ UTR-urile definesc tipurile de zone din municipiul Cluj-Napoca:
 - **ZCP_Vs** - Zona verde cu rol de complex sportiv (protejată)
 - **ZCP_Ve** - Zona verde de protecție a apelor sau cu rol de coridor ecologic (protejată)
 
+- **ZCP_Et** - Zona de activități economice cu caracter terțiar (protejată)
+
 ### Ri - Zone de Restructurare a Suprafețelor Industriale
 - **RiM** - Zona industrială restructurabilă - zonă mixtă
 
@@ -118,15 +120,15 @@ UTR-urile definesc tipurile de zone din municipiul Cluj-Napoca:
 - **UM3** - Zona mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic (urbanizare)
 - **UM4** - Zona mixtă cu regim de construire deschis, adiacentă arterelor de importanță locală (urbanizare)
 - **UIs_A** - Zona de instituții și servicii publice și de interes public constituite în ansambluri independente (urbanizare)
-- **ULiu** - Zona de locuințe cu regim redus de înălțime (urbanizare)
-- **ULc** - Zona de locuințe colective (urbanizare)
-- **ULi/c** - Zona de locuințe individuale, semicolective și colective mici (urbanizare)
+- **ULiu** - Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (urbanizare)
+- **ULc** - Ansambluri care includ locuirea colectivă și dotările aferente (urbanizare)
+- **ULi/c** - Locuințe cu regim redus de înălțime – individuale și colective mici (urbanizare)
 - **ULid** - Zona de locuințe individuale de mică densitate pe teritoriu fără infrastructură completă (urbanizare)
-- **UEc** - Zona de activități economice de tip retail, cash&carry, showroom, comerț de tip big box (urbanizare)
+- **UEc** - Zona de activități economice de tip comercial - en detail - desfășurate în unități de mari dimensiuni - big box, mall, showroom (urbanizare)
 - **UEt** - Zona de activități economice cu caracter terțiar (urbanizare)
 - **UEi** - Zona de activități economice cu caracter industrial (urbanizare)
-- **UEmm** - Zona de activități economice mici și mijlocii (urbanizare)
-- **UED** - Zona de construcții aferente lucrărilor edilitare (urbanizare)
+- **UEmm** - Zona de activități economice dedicată întreprinderilor mici și mijlocii (urbanizare)
+- **UED** - Gospodărire comunală - elemente ale infrastructurii edilitare; piețe agroalimentare, de vechituri, obor; elemente ale infrastructurii pentru transportul urban, salubritate etc (urbanizare)
 - **UG_c** - Zona de gospodărire comunală - cimitir (urbanizare)
 - **UG_cmid** - Zona de gospodărire comunală - centru de management integrat al deșeurilor (urbanizare)
 - **UTa** - Zona de circulație aeriană și amenajări aferente (urbanizare)

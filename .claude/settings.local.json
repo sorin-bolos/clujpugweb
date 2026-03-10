@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.primariaclujnapoca.ro)",
+      "Bash(python -c \"import pypdf; print\\(''pypdf ok''\\)\")",
+      "Bash(python -c \"import PyPDF2; print\\(''PyPDF2 ok''\\)\")",
+      "Bash(pip install pypdf -q)",
+      "Bash(python -c \":*)"
+    ]
+  }
+}
