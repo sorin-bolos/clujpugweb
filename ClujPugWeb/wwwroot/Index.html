@@ -98,7 +98,7 @@
     <link href="ad-card-style.css" rel="stylesheet" />
     <script src="Scripts.js"></script>
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC3wScRBmC6iO7FOC8UhMkwlukfU9dX8VM&callback=initMapElementToCluj">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCiEpXJMJEE2qVcKbNPgyAjZOnnxf-DBhY&callback=initMapElementToCluj">
     </script>
 </head>
 <body id="page-top">
@@ -143,38 +143,50 @@
 
     <!-- Reclamă birouri Tetarom I -->
     <a href="https://egh-offices.ro" target="_blank"
-    rel="noopener" class="cpug-ad-card">
-    <div class="cpug-ad-card-img-wrap">
-        <img class="cpug-ad-card-img"
-            src="Images/Ads/birou-departament-tetarom-cluj.jpg"
-            alt="Birouri de închiriat Tetarom I">
-    </div>
-    <div class="cpug-ad-card-body">
-        <div class="cpug-ad-card-badge">
-        &#9679; Disponibil acum
+        rel="noopener" class="cpug-ad-card">
+        <div class="cpug-ad-card-img-wrap">
+            <img class="cpug-ad-card-img"
+                src="Images/Ads/showroom2.jpg"
+                alt="Showroom flexibil Tetarom I">
         </div>
-        <div class="cpug-ad-card-title">
-        Birouri de Închiriat &mdash; Parcul Industrial
-        Tetarom I, Cluj-Napoca
+        <div class="cpug-ad-card-body">
+            <div class="cpug-ad-card-eyebrow">
+            &#9670; Parcul Industrial Tetarom I
+            </div>
+            <div class="cpug-ad-card-title">
+            Showroom flexibil lângă 110+ companii
+            </div>
+            <div class="cpug-ad-card-sub">
+            Spațiu profesional pentru prezentări,
+            întâlniri cu clienții sau birou permanent
+            &mdash; în cel mai mare hub de afaceri din Cluj.
+            </div>
+            <div class="cpug-ad-card-stats">
+            <div>
+                <div class="cpug-ad-card-stat-num">€8</div>
+                <div class="cpug-ad-card-stat-label">per mp/lună</div>
+            </div>
+            <div>
+                <div class="cpug-ad-card-stat-num">0</div>
+                <div class="cpug-ad-card-stat-label">costuri admin</div>
+            </div>
+            <div>
+                <div class="cpug-ad-card-stat-num">60-200</div>
+                <div class="cpug-ad-card-stat-label">mp disponibili</div>
+            </div>
+            </div>
+            <div class="cpug-ad-card-bottom">
+            <div class="cpug-ad-card-features">
+                <span class="cpug-ad-card-feat">Sală întâlniri</span>
+                <span class="cpug-ad-card-feat">Mobilat</span>
+                <span class="cpug-ad-card-feat">Parcare</span>
+            </div>
+            <div class="cpug-ad-card-cta">
+                Vezi Spațiul &rarr;
+            </div>
+            </div>
         </div>
-        <div class="cpug-ad-card-features">
-        <span class="cpug-ad-card-feat">60–800 mp</span>
-        <span class="cpug-ad-card-feat">Mobilat</span>
-        <span class="cpug-ad-card-feat">Parcare</span>
-        <span class="cpug-ad-card-feat">Fibră optică</span>
-        <span class="cpug-ad-card-feat">Cantină</span>
-        <span class="cpug-ad-card-feat">Stații EV</span>
-        </div>
-        <div class="cpug-ad-card-bottom">
-        <div class="cpug-ad-card-price">
-            €8<span>/mp · fără costuri admin</span>
-        </div>
-        <div class="cpug-ad-card-cta">
-            Vezi Detalii &#8594;
-        </div>
-        </div>
-    </div>
-    </a>
+        </a>
 
     <section id="legenda">
         <div class="container-fluid">
@@ -1107,40 +1119,53 @@
 
     <!-- Banner sticky birouri Tetarom I -->
     <div class="cpug-sticky-banner" id="cpugBanner">
-    <div class="cpug-banner-inner">
-        <div class="cpug-banner-left">
-        <div class="cpug-banner-icon">&#127970;</div>
-        <div class="cpug-banner-text">
-            <div class="cpug-banner-title">
-            Birouri de Închiriat în Tetarom I, Cluj-Napoca
+        <div class="cpug-banner-inner">
+            <div class="cpug-banner-left">
+            <div class="cpug-banner-icon">&#127970;</div>
+            <div class="cpug-banner-text">
+                <div class="cpug-banner-title">
+                Showroom flexibil în Tetarom I
+                &mdash; lângă 110+ companii
+                </div>
+                <div class="cpug-banner-subtitle">
+                Spațiu profesional pentru prezentări,
+                întâlniri sau birou permanent
+                </div>
             </div>
-            <div class="cpug-banner-subtitle">
-            60–800 mp · Mobilate · Parcare · Fibră optică · Fără costuri admin
             </div>
+            <div class="cpug-banner-stats">
+            <div class="cpug-banner-stat">
+                <div class="cpug-banner-stat-num">€8</div>
+                <div class="cpug-banner-stat-label">per mp</div>
+            </div>
+            <div class="cpug-banner-stat">
+                <div class="cpug-banner-stat-num">0</div>
+                <div class="cpug-banner-stat-label">admin</div>
+            </div>
+            <div class="cpug-banner-stat">
+                <div class="cpug-banner-stat-num">60-200</div>
+                <div class="cpug-banner-stat-label">mp</div>
+            </div>
+            </div>
+            <a href="https://egh-offices.ro" target="_blank"
+            rel="noopener" class="cpug-banner-cta">
+            Vezi Spațiul &rarr;
+            </a>
+            <button class="cpug-banner-close"
+            onclick="document.getElementById('cpugBanner').style.display='none';
+            document.body.classList.remove('cpug-banner-open');
+            try{sessionStorage.setItem('cpugBannerClosed','1')}catch(e){}"
+            title="Închide">&#10005;</button>
         </div>
         </div>
-        <div class="cpug-banner-price">
-        €8<span>/mp/lună</span>
-        </div>
-        <a href="https://egh-offices.ro" target="_blank"
-        rel="noopener" class="cpug-banner-cta">
-        Vezi Spațiile &#8594;
-        </a>
-        <button class="cpug-banner-close"
-        onclick="document.getElementById('cpugBanner').style.display='none';
-        document.body.classList.remove('cpug-banner-open');
-        try{sessionStorage.setItem('cpugBannerClosed','1')}catch(e){}"
-        title="Închide">&#10005;</button>
-    </div>
-    </div>
-    <script>
-    try {
-    if (sessionStorage.getItem('cpugBannerClosed') === '1') {
-        document.getElementById('cpugBanner').style.display = 'none';
-    } else {
-        document.body.classList.add('cpug-banner-open');
-    }
-    } catch(e) {}
-    </script>
+        <script>
+        try {
+            if (sessionStorage.getItem('cpugBannerClosed') === '1') {
+                document.getElementById('cpugBanner').style.display = 'none';
+            } else {
+                document.body.classList.add('cpug-banner-open');
+            }
+        } catch(e) {}
+        </script>
 </body>
 </html>
