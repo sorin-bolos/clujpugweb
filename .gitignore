@@ -30,3 +30,10 @@ Deploy/
 .vs/
 *.zip
 publish/
+#TLS material - never commit private keys
+*.key
+*.pfx
+*.p12
+*.csr
+*.crs
+*.tmp

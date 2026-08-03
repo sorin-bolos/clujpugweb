@@ -15,8 +15,45 @@ body.cpug-banner-open header {
     width: 50px;
 }
 
+/* Floresti swatches are cropped straight off the plate, so they are wider than tall
+   and their aspect ratio varies between the main and the edilitare blocks. */
+.legend-image-wide {
+    width: 60px;
+    height: 26px;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.column-legend-image-wide {
+    width: 70px;
+}
+
 .legend-table {
     margin: 0px;
+}
+
+.legend-group-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 24px 0px 6px 0px;
+}
+
+.legend-group-note {
+    font-size: 0.85rem;
+    margin-bottom: 6px;
+}
+
+.locality-tabs {
+    margin: 0px 10px 20px 10px;
+}
+
+.locality-tabs .nav-link {
+    cursor: pointer;
+}
+
+.locality-tabs li[hidden],
+.locality-pane[hidden] {
+    display: none !important;
 }
 
 section {
