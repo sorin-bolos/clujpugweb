@@ -3,19 +3,59 @@ var initialZoom = 12
 var mapElementName = 'map'
 var mapTopPadding = '50px'
 
-// One entry per PUG overlay. Adding a village means adding an entry here and giving
-// its Legenda/UTR markup a matching data-locality attribute in Index.html.
+// One entry per Legenda/UTR tab. A locality is drawn from one or more plates, each
+// with its own tile source and extent - Baciu's PUG comes as five separate sheets but
+// is presented as a single tab. Adding a locality means adding an entry here and
+// giving its markup a matching data-locality attribute in Index.html.
 // Bounds are the warped extents reported by mapwarper.net/api/v1/{maps,layers}/<id>.
 var localities = [
     {
         id: 'cluj',
-        tileUrl: 'https://mapwarper.net/mosaics/tile/869/{z}/{x}/{y}.png',
-        bounds: { west: 23.492424, south: 46.681901, east: 23.775069, north: 46.878403 }
+        layers: [
+            {
+                tileUrl: 'https://mapwarper.net/mosaics/tile/869/{z}/{x}/{y}.png',
+                bounds: { west: 23.492424, south: 46.681901, east: 23.775069, north: 46.878403 }
+            }
+        ]
     },
     {
         id: 'floresti',
-        tileUrl: 'https://mapwarper.net/maps/tile/110221/{z}/{x}/{y}.png',
-        bounds: { west: 23.4428958, south: 46.7006942, east: 23.5412404, north: 46.7735126 }
+        layers: [
+            {
+                tileUrl: 'https://mapwarper.net/maps/tile/110221/{z}/{x}/{y}.png',
+                bounds: { west: 23.4428958, south: 46.7006942, east: 23.5412404, north: 46.7735126 }
+            }
+        ]
+    },
+    {
+        id: 'baciu',
+        layers: [
+            {
+                // Baciu
+                tileUrl: 'https://mapwarper.net/maps/tile/110485/{z}/{x}/{y}.png',
+                bounds: { west: 23.4669701, south: 46.776173, east: 23.5519751, north: 46.8150693 }
+            },
+            {
+                // Corusu
+                tileUrl: 'https://mapwarper.net/maps/tile/110487/{z}/{x}/{y}.png',
+                bounds: { west: 23.480516, south: 46.8354363, east: 23.5181946, north: 46.8672193 }
+            },
+            {
+                // Popesti
+                tileUrl: 'https://mapwarper.net/maps/tile/110488/{z}/{x}/{y}.png',
+                bounds: { west: 23.5112377, south: 46.802834, east: 23.5500514, north: 46.836888 }
+            },
+            {
+                // Salistea Noua
+                tileUrl: 'https://mapwarper.net/maps/tile/110490/{z}/{x}/{y}.png',
+                bounds: { west: 23.4764526, south: 46.8626812, east: 23.4999941, north: 46.8805755 }
+            },
+            {
+                // Mera, Radaia, Suceagu
+                tileUrl: 'https://mapwarper.net/maps/tile/110493/{z}/{x}/{y}.png',
+                bounds: { west: 23.4336002, south: 46.7701425, east: 23.4914099, north: 46.83031 }
+            }
+        ]
     }
 ]
 
@@ -27,10 +67,13 @@ function initMapElementToCluj() {
     addPaddingDivToMap(map, 0, google.maps.ControlPosition.TOP_LEFT)
     addPaddingDivToMap(map, 0, google.maps.ControlPosition.TOP_RIGHT)
 
-    var overlays = localities.map(function (locality, index) {
-        var overlay = getMapTiles(getTileUrlProvider(locality));
-        map.overlayMapTypes.insertAt(index, overlay);
-        return overlay;
+    var overlays = [];
+    localities.forEach(function (locality) {
+        locality.layers.forEach(function (layer) {
+            var overlay = getMapTiles(getTileUrlProvider(layer));
+            map.overlayMapTypes.insertAt(overlays.length, overlay);
+            overlays.push(overlay);
+        });
     });
 
     addSlideControlToMap(map, overlays, google.maps.ControlPosition.BOTTOM_CENTER);
@@ -61,12 +104,12 @@ function getMapTiles(tileUrlProvider) {
 
 // Returning null from getTileUrl tells Google Maps to skip the request, so mapwarper
 // is only ever asked for tiles the plate actually covers.
-function getTileUrlProvider(locality) {
+function getTileUrlProvider(layer) {
     return function (coord, zoom) {
-        if (!tileIntersectsBounds(coord, zoom, locality.bounds)) {
+        if (!tileIntersectsBounds(coord, zoom, layer.bounds)) {
             return null;
         }
-        return locality.tileUrl
+        return layer.tileUrl
             .replace('{z}', zoom)
             .replace('{x}', coord.x)
             .replace('{y}', coord.y);
@@ -136,7 +179,9 @@ function followVisibleLocalities(map) {
             return;
         }
         showTabsFor(localities.filter(function (locality) {
-            return viewport.intersects(toLatLngBounds(locality.bounds));
+            return locality.layers.some(function (layer) {
+                return viewport.intersects(toLatLngBounds(layer.bounds));
+            });
         }));
     });
 }
