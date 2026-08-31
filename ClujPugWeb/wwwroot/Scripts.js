@@ -56,6 +56,41 @@ var localities = [
                 bounds: { west: 23.4336002, south: 46.7701425, east: 23.4914099, north: 46.83031 }
             }
         ]
+    },
+    {
+        id: 'apahida',
+        layers: [
+            {
+                // Apahida
+                tileUrl: 'https://mapwarper.net/maps/tile/111266/{z}/{x}/{y}.png',
+                bounds: { west: 23.7184408, south: 46.77038, east: 23.7737552, north: 46.846541 }
+            },
+            {
+                // Sannicoara (si Sub Coasta)
+                tileUrl: 'https://mapwarper.net/maps/tile/111087/{z}/{x}/{y}.png',
+                bounds: { west: 23.6849889, south: 46.7743611, east: 23.7610294, north: 46.813191 }
+            },
+            {
+                // Dezmir
+                tileUrl: 'https://mapwarper.net/maps/tile/111267/{z}/{x}/{y}.png',
+                bounds: { west: 23.6851848, south: 46.7492618, east: 23.7490789, north: 46.7868384 }
+            },
+            {
+                // Campenesti
+                tileUrl: 'https://mapwarper.net/maps/tile/111268/{z}/{x}/{y}.png',
+                bounds: { west: 23.634262, south: 46.8327783, east: 23.7486055, north: 46.8694435 }
+            },
+            {
+                // Corpadea
+                tileUrl: 'https://mapwarper.net/maps/tile/111269/{z}/{x}/{y}.png',
+                bounds: { west: 23.8104626, south: 46.7805793, east: 23.8739716, north: 46.8183101 }
+            },
+            {
+                // Pata (si Bodrog)
+                tileUrl: 'https://mapwarper.net/maps/tile/111270/{z}/{x}/{y}.png',
+                bounds: { west: 23.7169046, south: 46.7127197, east: 23.7799914, north: 46.7501777 }
+            }
+        ]
     }
 ]
 
