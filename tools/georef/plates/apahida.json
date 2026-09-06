@@ -1,0 +1,46 @@
+{
+  "locality": "apahida",
+  "plates": [
+    {
+      "file": "puguri/Apahida/PUG-DEZMIR-SC-1-5000.tif",
+      "title": "PUG Apahida - Dezmir",
+      "west": "23 41 15",
+      "south": "46 45 00",
+      "issue_year": 2004,
+      "_read_from": "south-west corner; the title block covers the east side"
+    },
+    {
+      "file": "puguri/Apahida/PUG-PATA.tif",
+      "title": "PUG Apahida - Pata, Bodrog",
+      "west": "23 43 07,5",
+      "east": "23 46 52,5",
+      "north": "46 45 00",
+      "issue_year": 2004,
+      "_read_from": "both north corners"
+    },
+    {
+      "file": "puguri/Apahida/PUG-SINNICOARA-SC-1-5000.tif",
+      "title": "PUG Apahida - Sannicoara, Sub Coasta",
+      "issue_year": 2004,
+      "_todo": "north-west label runs off the left edge of the scan; read another corner"
+    },
+    {
+      "file": "puguri/Apahida/PUG-CAMPENESTI-SC1-5000.tif",
+      "title": "PUG Apahida - Campenesti",
+      "issue_year": 2004,
+      "_todo": "corners not yet read"
+    },
+    {
+      "file": "puguri/Apahida/PUG-CORPADEA-SC1-5000.tif",
+      "title": "PUG Apahida - Corpadea",
+      "issue_year": 2004,
+      "_todo": "corners not yet read"
+    },
+    {
+      "file": "puguri/Apahida/PUG-APAHIDA.tif",
+      "title": "PUG Apahida - Apahida",
+      "issue_year": 2004,
+      "_todo": "margins were trimmed off this scan, so it carries no printed coordinates; anchor it against the neighbouring plates"
+    }
+  ]
+}
