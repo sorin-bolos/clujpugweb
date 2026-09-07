@@ -91,6 +91,31 @@ var localities = [
                 bounds: { west: 23.7169046, south: 46.7127197, east: 23.7799914, north: 46.7501777 }
             }
         ]
+    },
+    {
+        id: 'feleacu',
+        layers: [
+            {
+                // Feleacu
+                tileUrl: 'https://mapwarper.net/maps/tile/111508/{z}/{x}/{y}.png',
+                bounds: { west: 23.5799064, south: 46.6901630, east: 23.6564052, north: 46.7300605 }
+            },
+            {
+                // Valcele (si Saradis)
+                tileUrl: 'https://mapwarper.net/maps/tile/111518/{z}/{x}/{y}.png',
+                bounds: { west: 23.6117891, south: 46.6654320, east: 23.6682281, north: 46.7152617 }
+            },
+            {
+                // Gheorgheni
+                tileUrl: 'https://mapwarper.net/maps/tile/111519/{z}/{x}/{y}.png',
+                bounds: { west: 23.6582121, south: 46.7025632, east: 23.7138693, north: 46.7294237 }
+            },
+            {
+                // Casele Micesti
+                tileUrl: 'https://mapwarper.net/maps/tile/111520/{z}/{x}/{y}.png',
+                bounds: { west: 23.5583361, south: 46.6866518, east: 23.5944070, north: 46.7087381 }
+            }
+        ]
     }
 ]
 

@@ -1,0 +1,104 @@
+{
+  "locality": "feleacu",
+  "plates": [
+    {
+      "file": "puguri/Feleacu/PUG_Feleacu_-_sat_Feleacu.pdf",
+      "upload_file": "export/PUG_Feleacu_-_sat_Feleacu.jpg",
+      "title": "PUG Feleacu - sat Feleacu",
+      "issue_year": 2005,
+      "grid_anchor": {
+        "easting": 396000,
+        "at_x": 12448,
+        "northing": 581000,
+        "at_y": 2892,
+        "res_x": 0.35386,
+        "res_y": 0.35868,
+        "snap": false
+      },
+      "_read_from": "kilometre grid: easting 96,0 / 96,5 on the top margin (ticks at x=12373, 13786), northing 81,0 / 80,5 on the right (ticks at y=2759, 4153); sheet L-34-48-C-d-1-I/IV",
+      "_note": "uploaded by hand at mapwarper.net (the API's base64 upload returns 500); map_id set so publish only re-fits. upload_file must stay the same image that was uploaded, so control points rescale correctly.",
+      "map_id": 111508,
+      "_registration": "at_x/at_y are shifted +75 and +133 px from the printed ticks. The sheet's drawn content sits about 27 m east and 48 m north of its own grid annotation - the base map appears to have been mounted slightly off the printed frame. Measured by correlating the plate's road corridors against OSM at 8 windows across the sheet; the shift is constant, and with it applied the residual is -0.1 m east, +1.7 m north.",
+      "mask": {
+        "open_px": 14,
+        "close_px": 120,
+        "scale": 0.4903,
+        "exclude": [
+          [
+            10300,
+            7600,
+            16317,
+            12084
+          ]
+        ],
+        "_note": "exclude covers the legend, balance-sheet colour column and objectives list, which carry zone colours too"
+      }
+    },
+    {
+      "file": "puguri/Feleacu/PUG_Feleacu_-_sat_Gheorgheni.pdf",
+      "title": "PUG Feleacu - sat Gheorgheni",
+      "issue_year": 2005,
+      "mask": {
+        "open_px": 8,
+        "close_px": 70,
+        "exclude": [
+          [
+            0,
+            3000,
+            1800,
+            4488
+          ],
+          [
+            4700,
+            3600,
+            6597,
+            4488
+          ]
+        ]
+      },
+      "map_id": 111519
+    },
+    {
+      "file": "puguri/Feleacu/PUG_Feleacu_-_Casele_Micesti.pdf",
+      "title": "PUG Feleacu - Casele Micesti",
+      "issue_year": 2005,
+      "mask": {
+        "open_px": 8,
+        "close_px": 70,
+        "exclude": [
+          [
+            0,
+            3100,
+            700,
+            3920
+          ]
+        ]
+      },
+      "map_id": 111520
+    },
+    {
+      "file": "puguri/Feleacu/PUG_Feleacu_-_satele_Valcele_si_Saradis.pdf",
+      "title": "PUG Feleacu - Valcele, Saradis",
+      "issue_year": 2005,
+      "mask": {
+        "open_px": 8,
+        "close_px": 70,
+        "exclude": [
+          [
+            0,
+            6600,
+            1400,
+            8735
+          ],
+          [
+            4400,
+            6600,
+            6620,
+            8735
+          ]
+        ]
+      },
+      "map_id": 111518
+    }
+  ]
+}

@@ -9,9 +9,7 @@ Credentials come from the environment, MAPWARPER_EMAIL and MAPWARPER_PASSWORD,
 so they stay out of the repository and out of shell history.
 """
 
-import base64
 import json
-import mimetypes
 import os
 import time
 import urllib.error
@@ -87,29 +85,17 @@ class MapWarper:
 
     # -- maps -------------------------------------------------------------
 
-    # Uploads go up as base64 inside a JSON body, which inflates them by a third.
-    # The raw plates run to 95 MB, so warn before pushing one at full size.
-    LARGE_UPLOAD_BYTES = 40 * 1024 * 1024
+    def create_map(self, upload_url, title, **attributes):
+        """Create a map from an image the server can fetch, and return its id.
 
-    def create_map(self, image_path, title, **attributes):
-        """Upload a plate and return its map id."""
-        size = os.path.getsize(image_path)
-        if size > self.LARGE_UPLOAD_BYTES:
-            print(
-                f"  warning: {os.path.basename(image_path)} is {size/1e6:.0f} MB and "
-                f"goes up as ~{size*4/3/1e6:.0f} MB of base64. If this times out, "
-                "point the plate's \"upload_file\" at a downsampled copy - the frame "
-                "and grid are still measured on the original and the control points "
-                "are rescaled to match."
-            )
-        mime = mimetypes.guess_type(image_path)[0] or "image/tiff"
-        with open(image_path, "rb") as fh:
-            encoded = base64.b64encode(fh.read()).decode()
-        attrs = {
-            "title": title,
-            "upload": f"data:{mime};base64,{encoded}",
-            "upload_file_name": os.path.basename(image_path),
-        }
+        Map Warper documents two ways in: a base64 `upload`, or an `upload_url`
+        it fetches itself. As of this writing every base64 variant - jpeg or png
+        mime, data URI or bare, wrapped or not - comes back HTTP 500 from
+        mapwarper.net, while an otherwise identical request carrying only a
+        title succeeds. The base64 path is broken server-side, so the image has
+        to be somewhere the server can reach.
+        """
+        attrs = {"title": title, "upload_url": upload_url}
         attrs.update({k: v for k, v in attributes.items() if v is not None})
         result = self._request(
             "POST", "/api/v1/maps", {"data": {"type": "maps", "attributes": attrs}}
@@ -119,23 +105,47 @@ class MapWarper:
             raise MapWarperError(f"upload returned no map id: {result}")
         return map_id
 
+    def delete_map(self, map_id):
+        return self._request("DELETE", f"/api/v1/maps/{map_id}")
+
     def get_map(self, map_id):
         return self._request("GET", f"/api/v1/maps/{map_id}")
 
     def add_gcps(self, map_id, gcps):
-        """Post control points in one call.
+        """Post control points, one request each.
+
+        There is a bulk endpoint, `/api/v1/gcps/add_many`, but it is restricted
+        to accounts with the editor role and answers 401 without it. Posting
+        individually needs only ownership of the map, and a plate carries a few
+        dozen points at most, so the bulk call is tried first and this is the
+        fallback rather than the exception.
 
         Map Warper refuses a duplicate point rather than replacing it, so a
         re-run against a map that already has points needs them cleared first.
         """
-        payload = {
-            "gcps": [
-                {"mapid": int(map_id), "x": p["x"], "y": p["y"],
-                 "lat": str(p["lat"]), "lon": str(p["lon"])}
-                for p in gcps
-            ]
-        }
-        return self._request("POST", "/api/v1/gcps/add_many", payload)
+        try:
+            return self._request("POST", "/api/v1/gcps/add_many", {
+                "gcps": [
+                    {"mapid": int(map_id), "x": p["x"], "y": p["y"],
+                     "lat": str(p["lat"]), "lon": str(p["lon"])}
+                    for p in gcps
+                ]
+            })
+        except MapWarperError as exc:
+            if "401" not in str(exc):
+                raise
+
+        added = []
+        for point in gcps:
+            result = self._request("POST", "/api/v1/gcps", {"data": {
+                "type": "gcps",
+                "attributes": {
+                    "map_id": int(map_id), "x": point["x"], "y": point["y"],
+                    "lat": str(point["lat"]), "lon": str(point["lon"]),
+                },
+            }})
+            added.append(result.get("data"))
+        return {"data": added}
 
     def list_gcps(self, map_id):
         result = self._request("GET", f"/api/v1/maps/{map_id}/gcps")
@@ -150,6 +160,44 @@ class MapWarper:
             self.delete_gcp(gcp["id"])
             removed += 1
         return removed
+
+    def _form(self, method, path, fields):
+        """Form-encoded request.
+
+        The mask endpoints take the GML as an ordinary form field rather than
+        JSON, unlike the rest of the API.
+        """
+        body = urllib.parse.urlencode(fields).encode()
+        req = urllib.request.Request(f"{self.base_url}{path}", data=body, method=method)
+        req.add_header("Content-Type", "application/x-www-form-urlencoded")
+        req.add_header("Accept", "application/json")
+        if self.token:
+            req.add_header("X-User-Id", str(self.user_id))
+            req.add_header("X-User-Token", self.token)
+        try:
+            with urllib.request.urlopen(req, timeout=self.timeout) as resp:
+                return resp.read().decode("utf-8", "replace")
+        except urllib.error.HTTPError as exc:
+            detail = exc.read().decode("utf-8", "replace")[:600]
+            raise MapWarperError(f"{method} {path} -> HTTP {exc.code}: {detail}") from exc
+        except urllib.error.URLError as exc:
+            raise MapWarperError(f"{method} {path} failed: {exc.reason}") from exc
+
+    def save_mask(self, map_id, gml):
+        """Store a mask without applying it."""
+        return self._form("POST", f"/api/v1/maps/{map_id}/mask",
+                          {"format": "json", "output": gml})
+
+    def delete_mask(self, map_id):
+        return self._request("DELETE", f"/api/v1/maps/{map_id}/mask")
+
+    def get_mask(self, map_id):
+        return self._raw("GET", f"/mapimages/{map_id}.gml.ol")
+
+    def mask_crop_rectify(self, map_id, gml):
+        """Save the mask, apply it, and warp - in one call."""
+        return self._form("PATCH", f"/api/v1/maps/{map_id}/mask_crop_rectify",
+                          {"format": "json", "output": gml})
 
     def rectify(self, map_id, resample="cubic", transform="p1"):
         """Warp the map from its control points.

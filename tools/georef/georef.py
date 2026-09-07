@@ -247,6 +247,149 @@ class Frame:
                 "east": self.east, "north": self.north}
 
 
+STEREO70_CRS = "EPSG:3844"
+
+
+class GridFrame:
+    """A plate placed from its Stereo 70 kilometre grid rather than its corners.
+
+    The 2005 Feleacu sheets print no graticule coordinates, but `sat_Feleacu`
+    ticks its margins with grid values - `96,0` and `96,5` along the top for
+    easting, `81,0` and `80,5` down the right for northing. One labelled tick on
+    each axis fixes the plate absolutely, because the ticks are a 500 m lattice
+    and the spacing between them is already measured off the image.
+
+    Working straight in Stereo 70 also gets the sheet's rotation for free.
+    The grid is what the plate is drawn to, so its axes are the image's axes;
+    the roughly 0.9° tilt against the graticule falls out of the projection
+    rather than having to be modelled.
+    """
+
+    def __init__(self, pixels, res_x, res_y, easting, at_x, northing, at_y):
+        self.pixels = tuple(int(v) for v in pixels)
+        self.res_x, self.res_y = float(res_x), float(res_y)
+        self.easting, self.at_x = float(easting), float(at_x)
+        self.northing, self.at_y = float(northing), float(at_y)
+        self.crs = STEREO70_CRS
+        if self.res_x <= 0 or self.res_y <= 0:
+            raise GeorefError("resolution must be positive")
+
+    def to_stereo70(self, px, py):
+        return (self.easting + (px - self.at_x) * self.res_x,
+                self.northing - (py - self.at_y) * self.res_y)
+
+    def to_lonlat(self, px, py):
+        return _to_wgs84(self.crs).transform(*self.to_stereo70(px, py))
+
+    def pixels_lrtb_box(self):
+        left, right, top, bottom = self.pixels
+        return (left, top, right, bottom)
+
+    def gcps(self, nx=4, ny=4, inset=0.0):
+        if nx < 2 or ny < 2:
+            raise GeorefError("need at least a 2x2 grid of control points")
+        left, right, top, bottom = self.pixels
+        pts = []
+        for j in range(ny):
+            for i in range(nx):
+                u = inset + (1 - 2 * inset) * i / (nx - 1)
+                v = inset + (1 - 2 * inset) * j / (ny - 1)
+                px = left + u * (right - left)
+                py = top + v * (bottom - top)
+                lon, lat = self.to_lonlat(px, py)
+                pts.append({"x": round(px, 2), "y": round(py, 2),
+                            "lon": round(lon, 8), "lat": round(lat, 8)})
+        return pts
+
+    def bounds(self):
+        left, right, top, bottom = self.pixels
+        corners = [self.to_lonlat(x, y)
+                   for x in (left, right) for y in (top, bottom)]
+        lons = [lon for lon, _ in corners]
+        lats = [lat for _, lat in corners]
+        return {"west": min(lons), "south": min(lats),
+                "east": max(lons), "north": max(lats)}
+
+
+# How far the detected phase may pull the anchor before the correction is
+# refused. The phase comes from a circular mean over the whole margin, and the
+# tick labels sit between the ticks, so on a busy margin it can land between two
+# of them rather than on one. A snap that large is a sign the phase is wrong,
+# not that the reading was: accepting it would move the plate a couple of
+# hundred metres without saying so.
+MAX_SNAP_FRACTION = 0.20
+
+
+def _snap_to_tick(value_px, phase, period, origin):
+    """Nudge a roughly-placed anchor onto the nearest tick actually detected.
+
+    Returns (position, correction, refused). A refused snap keeps the position
+    as read and leaves the caller to say so.
+    """
+    if phase is None or not period:
+        return float(value_px), None, False
+    first = origin + phase
+    k = round((value_px - first) / period)
+    snapped = first + k * period
+    delta = snapped - value_px
+    if abs(delta) > MAX_SNAP_FRACTION * period:
+        return float(value_px), delta, True
+    return snapped, delta, False
+
+
+def build_grid_frame(analysis, anchor):
+    """Place a plate from one labelled grid tick on each axis.
+
+    `anchor` carries `easting`/`at_x` and `northing`/`at_y` - the value printed
+    beside a tick, and roughly where along the margin that tick sits.
+    """
+    grid = analysis["grid"]
+    res_x = anchor.get("res_x") or grid["res_x_m_px"] or grid["res_y_m_px"]
+    res_y = anchor.get("res_y") or grid["res_y_m_px"] or grid["res_x_m_px"]
+    if res_x is None:
+        raise GeorefError(
+            "no kilometre grid could be measured, so there is nothing to anchor "
+            "against - this plate needs a control point instead"
+        )
+
+    for key in ("easting", "at_x", "northing", "at_y"):
+        if anchor.get(key) is None:
+            raise GeorefError(f"grid anchor is missing {key}")
+
+    notes = []
+    if grid["res_x_m_px"] is None or grid["res_y_m_px"] is None:
+        notes.append("only one axis of the grid was measurable; assuming square pixels")
+
+    axes = (
+        ("easting", "at_x", ("top", "bottom"), grid["period_x_px"] or grid["period_y_px"]),
+        ("northing", "at_y", ("left", "right"), grid["period_y_px"] or grid["period_x_px"]),
+    )
+    placed = {}
+    snap = anchor.get("snap", True)
+    if not snap:
+        notes.append("anchor taken as given; tick snapping disabled")
+    for label, key, edge_names, period in axes:
+        edge = next((grid["edges"][e] for e in edge_names if e in grid["edges"]), {})
+        pos, delta, refused = _snap_to_tick(
+            anchor[key], edge.get("phase_px") if snap else None,
+            period, edge.get("origin", 0))
+        placed[key] = pos
+        if refused:
+            notes.append(
+                f"{label} anchor left where you put it: the detected tick phase "
+                f"wanted to move it {delta:+.0f} px ({abs(delta) * (grid['res_x_m_px'] or 0):.0f} m), "
+                "which is too far to be a correction - check the anchor against "
+                "the preview"
+            )
+        elif delta is not None and abs(delta) > 0.5:
+            notes.append(f"{label} anchor snapped {delta:+.0f} px onto the nearest tick")
+
+    frame = GridFrame(analysis["frame"], res_x, res_y,
+                      anchor["easting"], placed["at_x"],
+                      anchor["northing"], placed["at_y"])
+    return frame, notes
+
+
 def build_frame(analysis, edges, snap=True, crs=PLATE_CRS):
     """Assemble a Frame from image analysis plus whatever edges could be read.
 

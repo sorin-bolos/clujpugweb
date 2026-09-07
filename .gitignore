@@ -37,3 +37,12 @@ publish/
 *.csr
 *.crs
 *.tmp
+# Python
+__pycache__/
+*.pyc
+
+# georef tool output
+preview/
+corners/
+export/
+*_layers.json

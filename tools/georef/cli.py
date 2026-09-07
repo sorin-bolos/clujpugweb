@@ -45,8 +45,13 @@ for stream in (sys.stdout, sys.stderr):
     if hasattr(stream, "reconfigure"):
         stream.reconfigure(encoding="utf-8", errors="replace")
 
+from PIL import Image
+
 import georef
+import mask as mask_mod
 import plate as plate_mod
+
+Image.MAX_IMAGE_PIXELS = None
 from mapwarper import MapWarper, MapWarperError
 
 EDGE_KEYS = ("west", "east", "north", "south")
@@ -107,7 +112,7 @@ def cmd_corners(args):
             print(f"{os.path.basename(path)}: {exc}")
             continue
         left, right, top, bottom = analysis["frame"]
-        image = Image.open(path).convert("RGB")
+        image = plate_mod.open_plate(path)[0].convert("RGB")
         w, h = image.size
         stem = os.path.splitext(os.path.basename(path))[0]
         for name, (cx, cy) in {
@@ -149,9 +154,21 @@ def _rescale_gcps(gcps, measured_size, upload_path, notes):
     return [dict(p, x=round(p["x"] * sx, 2), y=round(p["y"] * sy, 2)) for p in gcps]
 
 
-def _solve(path, edges, gcp_grid, upload_path=None):
+def _anchor_from_args(args):
+    """A Stereo 70 grid anchor from the command line, if one was given."""
+    parts = {k: getattr(args, k, None)
+             for k in ("easting", "at_x", "northing", "at_y")}
+    if all(v is None for v in parts.values()):
+        return None
+    return parts
+
+
+def _solve(path, edges, gcp_grid, upload_path=None, anchor=None):
     analysis = _analyse(path)
-    frame, notes = georef.build_frame(analysis, edges)
+    if anchor:
+        frame, notes = georef.build_grid_frame(analysis, anchor)
+    else:
+        frame, notes = georef.build_frame(analysis, edges)
     nx, ny = gcp_grid
     gcps = frame.gcps(nx, ny)
     if upload_path and os.path.abspath(upload_path) != os.path.abspath(path):
@@ -161,19 +178,26 @@ def _solve(path, edges, gcp_grid, upload_path=None):
 
 def _report(path, analysis, frame, notes, gcps):
     b = frame.bounds()
-    dx, dy = frame.datum_shift()
     print(f"{os.path.basename(path)}")
     print(f"   grid    {_describe_grid(analysis)}")
-    print(f"   frame   {georef.format_dms(frame.west)} .. {georef.format_dms(frame.east)}  /  "
-          f"{georef.format_dms(frame.south)} .. {georef.format_dms(frame.north)}   "
-          f"(as printed, {frame.crs})")
+    if isinstance(frame, georef.GridFrame):
+        left, right, top, bottom = frame.pixels
+        e0, n0 = frame.to_stereo70(left, bottom)
+        e1, n1 = frame.to_stereo70(right, top)
+        print(f"   stereo70 E {e0:.0f}..{e1:.0f}  N {n0:.0f}..{n1:.0f}  "
+              f"(anchored on the kilometre grid)")
+    else:
+        dx, dy = frame.datum_shift()
+        print(f"   frame   {georef.format_dms(frame.west)} .. {georef.format_dms(frame.east)}  /  "
+              f"{georef.format_dms(frame.south)} .. {georef.format_dms(frame.north)}   "
+              f"(as printed, {frame.crs})")
+        print(f"   datum   shifted {dx:+.0f} m east, {dy:+.0f} m north to WGS84")
+        res_x, res_y = frame.resolution()
+        print(f"   implied {res_x:.4f} x {res_y:.4f} m/px from those coordinates")
+        print(f"   spans   {(frame.east-frame.west)*3600/georef.LON_STEP_SEC:.3f} lon x "
+              f"{(frame.north-frame.south)*3600/georef.LAT_STEP_SEC:.3f} lat lattice steps")
     print(f"   wgs84   {georef.format_dms(b['west'])} .. {georef.format_dms(b['east'])}  /  "
           f"{georef.format_dms(b['south'])} .. {georef.format_dms(b['north'])}")
-    print(f"   datum   shifted {dx:+.0f} m east, {dy:+.0f} m north to WGS84")
-    res_x, res_y = frame.resolution()
-    print(f"   implied {res_x:.4f} x {res_y:.4f} m/px from those coordinates")
-    print(f"   spans   {(frame.east-frame.west)*3600/georef.LON_STEP_SEC:.3f} lon x "
-          f"{(frame.north-frame.south)*3600/georef.LAT_STEP_SEC:.3f} lat lattice steps")
     for note in notes:
         print(f"   note    {note}")
     print(f"   {len(gcps)} control points")
@@ -182,7 +206,8 @@ def _report(path, analysis, frame, notes, gcps):
 def cmd_solve(args):
     edges = {k: getattr(args, k) for k in EDGE_KEYS}
     try:
-        analysis, frame, notes, gcps = _solve(args.plate, edges, args.gcp_grid)
+        analysis, frame, notes, gcps = _solve(
+            args.plate, edges, args.gcp_grid, anchor=_anchor_from_args(args))
     except (georef.GeorefError, plate_mod.PlateError) as exc:
         raise SystemExit(f"{args.plate}: {exc}")
     _report(args.plate, analysis, frame, notes, gcps)
@@ -319,7 +344,8 @@ def cmd_preview(args):
     Image.MAX_IMAGE_PIXELS = None
     edges = {k: getattr(args, k) for k in EDGE_KEYS}
     try:
-        analysis, frame, notes, gcps = _solve(args.plate, edges, args.gcp_grid)
+        analysis, frame, notes, gcps = _solve(
+            args.plate, edges, args.gcp_grid, anchor=_anchor_from_args(args))
     except (georef.GeorefError, plate_mod.PlateError) as exc:
         raise SystemExit(f"{args.plate}: {exc}")
 
@@ -330,8 +356,8 @@ def cmd_preview(args):
 
     # Crop to the frame - the margins and title block are not part of the map,
     # and leaving them in would push the drawing off its coordinates.
-    with Image.open(args.plate) as src:
-        crop = src.convert("RGB").crop(frame.pixels_lrtb_box())
+    src = plate_mod.open_plate(args.plate)[0]
+    crop = src.convert("RGB").crop(frame.pixels_lrtb_box())
     if crop.width > args.max_width:
         scale = args.max_width / crop.width
         crop = crop.resize((args.max_width, round(crop.height * scale)), Image.LANCZOS)
@@ -387,6 +413,143 @@ def _serve(directory, page, port):
             print("\n   stopped")
 
 
+def cmd_extract(args):
+    """Pull the embedded images out of PDFs.
+
+    Council PDFs come in two shapes. Some are scanned documents - one full-page
+    raster per page, so the "images" are just the pages. Others carry real
+    figures, and a plan sheet arrives as a single big raster on one page, which
+    is what the rest of this tool wants.
+
+    Images are deduplicated by xref: the same logo repeated on every page is one
+    file, not eighty.
+    """
+    import fitz
+
+    for path in args.pdfs:
+        stem = os.path.splitext(os.path.basename(path))[0]
+        out_dir = os.path.join(args.out_dir, stem)
+        doc = fitz.open(path)
+        try:
+            first_page = {}
+            for number, page in enumerate(doc, start=1):
+                for info in page.get_images(full=True):
+                    first_page.setdefault(info[0], number)
+
+            written, skipped = 0, 0
+            for xref, page_no in sorted(first_page.items(), key=lambda kv: kv[1]):
+                raw = doc.extract_image(xref)
+                width, height = raw["width"], raw["height"]
+                if width * height < args.min_pixels:
+                    skipped += 1
+                    continue
+                if not written:
+                    os.makedirs(out_dir, exist_ok=True)
+                name = f"p{page_no:03d}_x{xref}_{width}x{height}.{raw['ext']}"
+                with open(os.path.join(out_dir, name), "wb") as fh:
+                    fh.write(raw["image"])
+                written += 1
+            note = f", {skipped} below {args.min_pixels} px skipped" if skipped else ""
+            print(f"{os.path.basename(path)}: {written} images{note}"
+                  + (f" -> {out_dir}" if written else ""))
+        finally:
+            doc.close()
+
+
+def cmd_export(args):
+    """Write a web-sized copy of a plate, for uploading.
+
+    The originals run to 95 MB, and a PDF is not something to hand the API at
+    all. Control points are computed on the original and rescaled onto whatever
+    is uploaded, so the copy only has to be a uniform scaling of the whole
+    plate - not cropped.
+    """
+    os.makedirs(args.out_dir, exist_ok=True)
+    for path in args.plates:
+        image = plate_mod.open_plate(path)[0].convert("RGB")
+        scale = min(1.0, args.max_dim / max(image.size))
+        if scale < 1.0:
+            image = image.resize(
+                (round(image.width * scale), round(image.height * scale)),
+                Image.LANCZOS)
+        stem = os.path.splitext(os.path.basename(path))[0]
+        out = os.path.join(args.out_dir, f"{stem}.jpg")
+        image.save(out, quality=args.quality, optimize=True)
+        print(f"{out}  {image.width}x{image.height}  "
+              f"{os.path.getsize(out)/1e6:.1f} MB")
+
+
+def cmd_mask(args):
+    """Mask a plate to its proposed built-up area and re-warp.
+
+    Overlaid on a slippy map, a whole plate covers real geography with its
+    title block, legend and balance-sheet table, plus a lot of countryside that
+    the plan says nothing about. Masking leaves the zoned area.
+    """
+    import numpy as np
+
+    spec = _load_plates_file(args.plates_file)
+    warper = None
+    if not args.dry_run:
+        warper = MapWarper()
+        try:
+            warper.sign_in()
+        except MapWarperError as exc:
+            raise SystemExit(str(exc))
+
+    for entry in spec["plates"]:
+        path = entry["file"]
+        title = entry.get("title") or os.path.basename(path)
+        cfg = entry.get("mask")
+        if not cfg:
+            print(f"{title}: no \"mask\" settings, skipped")
+            continue
+        map_id = entry.get("map_id")
+        if not map_id and not args.dry_run:
+            print(f"{title}: no map_id, skipped")
+            continue
+
+        image = plate_mod.open_plate(path)[0].convert("RGB")
+        rgb = np.asarray(image)
+        try:
+            regs = mask_mod.regions(
+                rgb,
+                open_px=cfg.get("open_px", 8),
+                close_px=cfg.get("close_px", 70),
+                min_area_px=cfg.get("min_area_px", 20000),
+                exclude=[tuple(b) for b in cfg.get("exclude", [])],
+            )
+        except mask_mod.MaskError as exc:
+            print(f"{title}: {exc}")
+            continue
+
+        # The mask is in the uploaded image's pixels, which may be a scaled copy.
+        scale = cfg.get("scale", 1.0)
+        rings, covered = [], 0
+        for region in regs:
+            ring, tol = mask_mod.simplify(mask_mod.trace(region), cfg.get("tolerance", 6.0))
+            rings.append([(x * scale, y * scale) for x, y in ring])
+            covered += int(region.sum())
+        height = int(round(rgb.shape[0] * scale))
+        gml = mask_mod.to_gml(rings, height, flip_y=not args.no_flip)
+
+        pct = 100.0 * covered / (rgb.shape[0] * rgb.shape[1])
+        print(f"{title}: {len(rings)} area(s), {pct:.1f}% of the sheet, "
+              f"{sum(len(r) for r in rings)} points, {len(gml)/1024:.0f} KB of GML")
+        if args.dry_run:
+            continue
+        try:
+            warper.mask_crop_rectify(map_id, gml)
+            state = warper.wait_until_warped(map_id)
+            bounds = warper.bbox(map_id)
+        except MapWarperError as exc:
+            print(f"{title}: {exc}")
+            continue
+        print(f"   {state}; new bounds "
+              f"{{ west: {bounds['west']:.7f}, south: {bounds['south']:.7f}, "
+              f"east: {bounds['east']:.7f}, north: {bounds['north']:.7f} }}")
+
+
 def _load_plates_file(path):
     with open(path, encoding="utf-8") as fh:
         spec = json.load(fh)
@@ -429,7 +592,8 @@ def cmd_publish(args):
             blocked.append((path, f"upload_file {upload} not found"))
             continue
         try:
-            analysis, frame, notes, gcps = _solve(path, edges, args.gcp_grid, upload)
+            analysis, frame, notes, gcps = _solve(
+                path, edges, args.gcp_grid, upload, entry.get("grid_anchor"))
         except (georef.GeorefError, plate_mod.PlateError) as exc:
             # Report every plate that needs attention, rather than stopping at
             # the first - reading corners is a batch job.
@@ -472,10 +636,17 @@ def cmd_publish(args):
                 removed = warper.clear_gcps(map_id)
                 print(f"{title}: reusing map {map_id} ({removed} old control points cleared)")
             else:
-                source = entry.get("upload_file") or path
-                print(f"{title}: uploading {os.path.basename(source)} ...")
+                upload_url = entry.get("upload_url")
+                if not upload_url:
+                    raise MapWarperError(
+                        "no upload_url. Map Warper's base64 upload returns 500, so "
+                        "the image has to be somewhere the server can fetch it - "
+                        "put the file from `export` on the site and give its URL, "
+                        "or upload it through mapwarper.net and set \"map_id\" instead"
+                    )
+                print(f"{title}: creating from {upload_url} ...")
                 map_id = warper.create_map(
-                    source, title,
+                    upload_url, title,
                     description=entry.get("description"),
                     source_uri=entry.get("source_uri"),
                     scale=entry.get("scale", "1:5000"),
@@ -552,6 +723,14 @@ def main(argv=None):
     p.add_argument("plate")
     for key in EDGE_KEYS:
         p.add_argument(f"--{key}", help=f"coordinate printed on the {key} edge")
+    p.add_argument("--easting", type=float,
+                   help="Stereo 70 easting printed beside a tick, in metres")
+    p.add_argument("--at-x", type=float, dest="at_x",
+                   help="roughly where along the top margin that tick sits, in pixels")
+    p.add_argument("--northing", type=float,
+                   help="Stereo 70 northing printed beside a tick, in metres")
+    p.add_argument("--at-y", type=float, dest="at_y",
+                   help="roughly where down the side margin that tick sits, in pixels")
     p.add_argument("--json", help="write bounds and control points here")
     p.set_defaults(func=cmd_solve)
 
@@ -559,6 +738,14 @@ def main(argv=None):
     p.add_argument("plate")
     for key in EDGE_KEYS:
         p.add_argument(f"--{key}", help=f"coordinate printed on the {key} edge")
+    p.add_argument("--easting", type=float,
+                   help="Stereo 70 easting printed beside a tick, in metres")
+    p.add_argument("--at-x", type=float, dest="at_x",
+                   help="roughly where along the top margin that tick sits, in pixels")
+    p.add_argument("--northing", type=float,
+                   help="Stereo 70 northing printed beside a tick, in metres")
+    p.add_argument("--at-y", type=float, dest="at_y",
+                   help="roughly where down the side margin that tick sits, in pixels")
     p.add_argument("--out-dir", default="preview")
     p.add_argument("--max-width", type=int, default=2600,
                    help="downsample the overlay to this width (default 2600)")
@@ -568,6 +755,28 @@ def main(argv=None):
                    help="serve the preview over localhost and open it")
     p.add_argument("--port", type=int, default=8000)
     p.set_defaults(func=cmd_preview)
+
+    p = sub.add_parser("extract", help="pull embedded images out of PDFs")
+    p.add_argument("pdfs", nargs="+")
+    p.add_argument("--out-dir", default="export/pdf-images")
+    p.add_argument("--min-pixels", type=int, default=160000,
+                   help="skip images smaller than this many pixels (default 400x400)")
+    p.set_defaults(func=cmd_extract)
+
+    p = sub.add_parser("mask", help="crop plates to the proposed built-up area")
+    p.add_argument("plates_file")
+    p.add_argument("--dry-run", action="store_true", help="trace but do not upload")
+    p.add_argument("--no-flip", action="store_true",
+                   help="send mask y as image rows rather than flipped")
+    p.set_defaults(func=cmd_mask)
+
+    p = sub.add_parser("export", help="write a web-sized copy of a plate for upload")
+    p.add_argument("plates", nargs="+")
+    p.add_argument("--out-dir", default="export")
+    p.add_argument("--max-dim", type=int, default=8000,
+                   help="longest side of the exported copy (default 8000)")
+    p.add_argument("--quality", type=int, default=88)
+    p.set_defaults(func=cmd_export)
 
     p = sub.add_parser("publish", help="georeference and upload a locality's plates")
     p.add_argument("plates_file")

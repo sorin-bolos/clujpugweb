@@ -48,6 +48,47 @@ pyproj's Helmert transformation is used, which leaves a few metres of residual.
 ANCPI's grid-based TransDatRO would be tighter, but the remainder is already
 well under the drawing accuracy of a 2004 blueprint.
 
+## Two plate formats, two ways in
+
+What a sheet carries depends on who drew it, and the tool takes whichever
+anchor is present.
+
+**Printed graticule corners** - the 2004 Apahida sheets. Read one corner, and
+`build_frame` does the rest. See above.
+
+**Kilometre grid labels** - the 2005 Feleacu `sat_Feleacu` sheet prints no
+graticule at all, but ticks its margins with Stereo 70 values: `96,0` and `96,5`
+along the top for easting, `81,0` and `80,5` down the right for northing. One
+labelled tick per axis fixes the plate, since the ticks are a 500 m lattice
+whose spacing is already measured off the image:
+
+```sh
+python tools/georef/cli.py preview "puguri/Feleacu/PUG_Feleacu_-_sat_Feleacu.pdf" \
+    --easting 396000 --at-x 12373 --northing 581000 --at-y 2745 --serve
+```
+
+`at-x` and `at-y` are roughly where along the margin you saw that tick; they only
+need to be good to a fraction of a tick. Anchoring straight in Stereo 70 also
+gets the sheet's rotation for free - the grid is what the plate is drawn to, so
+its axes are the image's axes.
+
+**Neither** - Gheorgheni, Casele Micești and Vâlcele carry no grid and no
+graticule; checked on all four margins, the corners and the interior. The
+printed scale still fixes the ground resolution, so scale and rotation are
+known and only the translation is missing, but that needs a control point picked
+against imagery. The tool says so rather than guessing.
+
+### Other formats
+
+Plates load from TIFF, ordinary images, or a single-page PDF wrapping one scan,
+which is how Feleacu's arrive. The search for the grid is bracketed by the
+resolution the file itself implies - page geometry for a PDF, the dpi tag for a
+TIFF - because a range wide enough to span a 200 dpi Apahida sheet and a 360 dpi
+Feleacu one is wide enough to lock onto hatching instead of ticks.
+
+`export` writes a web-sized copy for uploading; control points are rescaled onto
+it automatically.
+
 ## What is automatic and what is not
 
 Automatic:
@@ -131,6 +172,25 @@ frame and grid on the original.
 That last one matters - the plates run to 95 MB, and the API takes uploads as
 base64 inside a JSON body, which inflates them by a third. Control points are
 rescaled onto the smaller image automatically.
+
+## Two things the Map Warper API does not do as documented
+
+Both were found by probing the live service against a real account, and both are
+worked around in `mapwarper.py`.
+
+**Base64 upload is broken.** The docs offer either a base64 `upload` or an
+`upload_url` the server fetches for itself. Every base64 variant - jpeg or png
+mime, data URI or bare, newline-wrapped or not, 2 KB or 15 MB - comes back HTTP
+500, while an otherwise identical request carrying only a title succeeds. So a
+plate has to be somewhere Map Warper can reach: put the file `export` produces
+on the site and set `upload_url` on the plate, or upload it through
+mapwarper.net by hand and set `map_id` instead, which skips creation and only
+re-fits.
+
+**`gcps/add_many` needs the editor role** and answers 401 without it. Posting
+control points one at a time needs only ownership of the map, so `add_gcps`
+tries the bulk call and quietly falls back. A plate carries a few dozen points,
+so the extra requests cost nothing worth saving.
 
 ## How far to trust it
 
