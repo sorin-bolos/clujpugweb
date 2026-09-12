@@ -166,6 +166,26 @@ var localities = [
                 bounds: { west: 23.8635036, south: 46.5648398, east: 23.8834674, north: 46.5727610 }
             }
         ]
+    },
+    {
+        id: 'chinteni',
+        layers: [
+            {
+                // Chinteni - reglementari urbanistice, unitati teritoriale de referinta (revizuire PUG 2023)
+                tileUrl: 'https://mapwarper.net/maps/tile/111729/{z}/{x}/{y}.png',
+                bounds: { west: 23.5025249, south: 46.8177108, east: 23.5841035, north: 46.8923814 }
+            }
+        ]
+    },
+    {
+        id: 'gherla',
+        layers: [
+            {
+                // Gherla - plansa 3 Situatie propusa, unitati teritoriale de referinta (reactualizare PUG 1998)
+                tileUrl: 'https://mapwarper.net/maps/tile/111734/{z}/{x}/{y}.png',
+                bounds: { west: 23.8669095, south: 47.0052648, east: 23.9499954, north: 47.0585802 }
+            }
+        ]
     }
 ]
 
