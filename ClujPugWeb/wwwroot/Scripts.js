@@ -116,6 +116,36 @@ var localities = [
                 bounds: { west: 23.5583361, south: 46.6866518, east: 23.5944070, north: 46.7087381 }
             }
         ]
+    },
+    {
+        id: 'gilau',
+        layers: [
+            {
+                // Gilau
+                tileUrl: 'https://mapwarper.net/maps/tile/111709/{z}/{x}/{y}.png',
+                bounds: { west: 23.3278708, south: 46.7402189, east: 23.4317613, north: 46.7785154 }
+            },
+            {
+                // Somesu Rece - plansa 6.2a
+                tileUrl: 'https://mapwarper.net/maps/tile/111699/{z}/{x}/{y}.png',
+                bounds: { west: 23.3211550, south: 46.6943706, east: 23.3757983, north: 46.7438122 }
+            },
+            {
+                // Somesu Rece - plansa 6.2b
+                tileUrl: 'https://mapwarper.net/maps/tile/111706/{z}/{x}/{y}.png',
+                bounds: { west: 23.2249869, south: 46.6637142, east: 23.3285109, north: 46.7021238 }
+            },
+            {
+                // Somesu Cald
+                tileUrl: 'https://mapwarper.net/maps/tile/111695/{z}/{x}/{y}.png',
+                bounds: { west: 23.2626127, south: 46.7121026, east: 23.3445072, north: 46.7503330 }
+            },
+            {
+                // Somesu Cald - detaliul din coltul plansei 6.3, la scara mai mare
+                tileUrl: 'https://mapwarper.net/maps/tile/111698/{z}/{x}/{y}.png',
+                bounds: { west: 23.2867630, south: 46.7072581, east: 23.3007370, north: 46.7137812 }
+            }
+        ]
     }
 ]
 
