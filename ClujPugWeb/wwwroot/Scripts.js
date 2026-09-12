@@ -146,6 +146,26 @@ var localities = [
                 bounds: { west: 23.2867630, south: 46.7072581, east: 23.3007370, north: 46.7137812 }
             }
         ]
+    },
+    {
+        id: 'turda',
+        layers: [
+            {
+                // Turda - plansa 8 Unitati teritoriale de referinta
+                tileUrl: 'https://mapwarper.net/maps/tile/111710/{z}/{x}/{y}.png',
+                bounds: { west: 23.7455068, south: 46.5414293, east: 23.8872834, north: 46.5941816 }
+            },
+            {
+                // Petrilaca I (LR1) - detaliul din coltul plansei, desenat separat
+                tileUrl: 'https://mapwarper.net/maps/tile/111722/{z}/{x}/{y}.png',
+                bounds: { west: 23.8605210, south: 46.5746283, east: 23.8727950, north: 46.5816202 }
+            },
+            {
+                // Petrilaca II (LR2) - detaliul din coltul plansei, desenat separat
+                tileUrl: 'https://mapwarper.net/maps/tile/111723/{z}/{x}/{y}.png',
+                bounds: { west: 23.8635036, south: 46.5648398, east: 23.8834674, north: 46.5727610 }
+            }
+        ]
     }
 ]
 
