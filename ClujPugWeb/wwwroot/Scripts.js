@@ -186,6 +186,51 @@ var localities = [
                 bounds: { west: 23.8669095, south: 47.0052648, east: 23.9499954, north: 47.0585802 }
             }
         ]
+    },
+    {
+        id: 'dej',
+        layers: [
+            {
+                // Dej si Somcutu Mic - plansa 3.0 Reglementari urbanistice - zonificare (reactualizare PUG 2009)
+                tileUrl: 'https://mapwarper.net/maps/tile/111846/{z}/{x}/{y}.png',
+                bounds: { west: 23.7156314, south: 47.0950358, east: 23.9415487, north: 47.1794315 }
+            },
+            {
+                // Pintic - desenat pe plansa 3.0 intr-un chenar separat
+                tileUrl: 'https://mapwarper.net/maps/tile/111847/{z}/{x}/{y}.png',
+                bounds: { west: 23.7699493, south: 47.0639024, east: 23.8082238, north: 47.0846186 }
+            }
+        ]
+    },
+    {
+        id: 'jucu',
+        layers: [
+            {
+                // Jucu de Sus (resedinta de comuna) - plansa 6.1
+                tileUrl: 'https://mapwarper.net/maps/tile/111909/{z}/{x}/{y}.png',
+                bounds: { west: 23.7637560, south: 46.8180675, east: 23.8281837, north: 46.8889113 }
+            },
+            {
+                // Visea - plansa 6.2
+                tileUrl: 'https://mapwarper.net/maps/tile/111912/{z}/{x}/{y}.png',
+                bounds: { west: 23.8622489, south: 46.8457900, east: 23.9019928, north: 46.8733808 }
+            },
+            {
+                // Gadalin - plansa 6.3
+                tileUrl: 'https://mapwarper.net/maps/tile/111911/{z}/{x}/{y}.png',
+                bounds: { west: 23.8256458, south: 46.8138090, east: 23.8816835, north: 46.8595957 }
+            },
+            {
+                // Jucu de Mijloc - plansa 6.4
+                tileUrl: 'https://mapwarper.net/maps/tile/111908/{z}/{x}/{y}.png',
+                bounds: { west: 23.7284932, south: 46.8245439, east: 23.8077068, north: 46.8631749 }
+            },
+            {
+                // Jucu Herghelie - plansa 6.5
+                tileUrl: 'https://mapwarper.net/maps/tile/111905/{z}/{x}/{y}.png',
+                bounds: { west: 23.7509736, south: 46.8498450, east: 23.8069820, north: 46.8882570 }
+            }
+        ]
     }
 ]
 
