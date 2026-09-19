@@ -231,6 +231,31 @@ var localities = [
                 bounds: { west: 23.7509736, south: 46.8498450, east: 23.8069820, north: 46.8882570 }
             }
         ]
+    },
+    {
+        id: 'bontida',
+        layers: [
+            {
+                // Bontida (resedinta de comuna) - plansa 5.1
+                tileUrl: 'https://mapwarper.net/maps/tile/112015/{z}/{x}/{y}.png',
+                bounds: { west: 23.7766726, south: 46.8901963, east: 23.8340301, north: 46.9471023 }
+            },
+            {
+                // Rascruci - plansa 5.2
+                tileUrl: 'https://mapwarper.net/maps/tile/112017/{z}/{x}/{y}.png',
+                bounds: { west: 23.7515744, south: 46.8708055, east: 23.8078991, north: 46.9252074 }
+            },
+            {
+                // Coasta - plansa 5.3
+                tileUrl: 'https://mapwarper.net/maps/tile/112018/{z}/{x}/{y}.png',
+                bounds: { west: 23.8810267, south: 46.8735118, east: 23.9214424, north: 46.9002989 }
+            },
+            {
+                // Tauseni - plansa 5.4
+                tileUrl: 'https://mapwarper.net/maps/tile/112020/{z}/{x}/{y}.png',
+                bounds: { west: 23.9019713, south: 46.8648854, east: 23.9412841, north: 46.8887904 }
+            }
+        ]
     }
 ]
 
