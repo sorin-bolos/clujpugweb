@@ -256,6 +256,51 @@ var localities = [
                 bounds: { west: 23.9019713, south: 46.8648854, east: 23.9412841, north: 46.8887904 }
             }
         ]
+    },
+    {
+        id: 'ciurila',
+        layers: [
+            {
+                // Ciurila (resedinta de comuna) - plansa 6.1
+                tileUrl: 'https://mapwarper.net/maps/tile/112062/{z}/{x}/{y}.png',
+                bounds: { west: 23.5147669, south: 46.6280834, east: 23.5707527, north: 46.6612277 }
+            },
+            {
+                // Salicea - plansa 6.2
+                tileUrl: 'https://mapwarper.net/maps/tile/112063/{z}/{x}/{y}.png',
+                bounds: { west: 23.5107975, south: 46.6535811, east: 23.5946197, north: 46.6976631 }
+            },
+            {
+                // Saliste - plansa 6.3
+                tileUrl: 'https://mapwarper.net/maps/tile/112064/{z}/{x}/{y}.png',
+                bounds: { west: 23.567004, south: 46.6367478, east: 23.6063665, north: 46.6639013 }
+            },
+            {
+                // Prunis - plansa 6.4
+                tileUrl: 'https://mapwarper.net/maps/tile/112065/{z}/{x}/{y}.png',
+                bounds: { west: 23.5479745, south: 46.6183339, east: 23.5944638, north: 46.6456985 }
+            },
+            {
+                // Padureni - plansa 6.5
+                tileUrl: 'https://mapwarper.net/maps/tile/112066/{z}/{x}/{y}.png',
+                bounds: { west: 23.5524138, south: 46.5992943, east: 23.5920132, north: 46.6188402 }
+            },
+            {
+                // Sutu - plansa 6.6
+                tileUrl: 'https://mapwarper.net/maps/tile/112067/{z}/{x}/{y}.png',
+                bounds: { west: 23.5296502, south: 46.6076173, east: 23.5692714, north: 46.6270367 }
+            },
+            {
+                // Filea de Jos - plansa 6.7
+                tileUrl: 'https://mapwarper.net/maps/tile/112068/{z}/{x}/{y}.png',
+                bounds: { west: 23.4873919, south: 46.6102775, east: 23.5431092, north: 46.6376197 }
+            },
+            {
+                // Filea de Sus - plansa 6.8
+                tileUrl: 'https://mapwarper.net/maps/tile/112069/{z}/{x}/{y}.png',
+                bounds: { west: 23.4701619, south: 46.5984477, east: 23.5093845, north: 46.617928 }
+            }
+        ]
     }
 ]
 
