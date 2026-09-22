@@ -301,6 +301,36 @@ var localities = [
                 bounds: { west: 23.4701619, south: 46.5984477, east: 23.5093845, north: 46.617928 }
             }
         ]
+    },
+    {
+        id: 'garbau',
+        layers: [
+            {
+                // Garbau (resedinta de comuna) - plansa 3.1
+                tileUrl: 'https://mapwarper.net/maps/tile/112185/{z}/{x}/{y}.png',
+                bounds: { west: 23.3285661, south: 46.8141824, east: 23.3819187, north: 46.8420024 }
+            },
+            {
+                // Cornesti - plansa 3.2
+                tileUrl: 'https://mapwarper.net/maps/tile/112188/{z}/{x}/{y}.png',
+                bounds: { west: 23.3032658, south: 46.8771508, east: 23.3435543, north: 46.8963197 }
+            },
+            {
+                // Nadaselu - plansa 3.3
+                tileUrl: 'https://mapwarper.net/maps/tile/112181/{z}/{x}/{y}.png',
+                bounds: { west: 23.401349, south: 46.8088023, east: 23.4297123, north: 46.8360182 }
+            },
+            {
+                // Turea - plansa 3.4
+                tileUrl: 'https://mapwarper.net/maps/tile/112186/{z}/{x}/{y}.png',
+                bounds: { west: 23.3410063, south: 46.8418433, east: 23.3803189, north: 46.8609151 }
+            },
+            {
+                // Vistea - plansa 3.5
+                tileUrl: 'https://mapwarper.net/maps/tile/112184/{z}/{x}/{y}.png',
+                bounds: { west: 23.3787523, south: 46.7916647, east: 23.4347265, north: 46.819034 }
+            }
+        ]
     }
 ]
 
