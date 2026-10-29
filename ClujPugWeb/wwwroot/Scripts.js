@@ -331,6 +331,46 @@ var localities = [
                 bounds: { west: 23.3787523, south: 46.7916647, east: 23.4347265, north: 46.819034 }
             }
         ]
+    },
+    {
+        id: 'cojocna',
+        layers: [
+            {
+                // Cojocna (resedinta de comuna) - plansa R/1
+                tileUrl: 'https://mapwarper.net/maps/tile/112242/{z}/{x}/{y}.png',
+                bounds: { west: 23.8032208, south: 46.7307682, east: 23.9112828, north: 46.7610282 }
+            },
+            {
+                // Boju - plansa R/2
+                tileUrl: 'https://mapwarper.net/maps/tile/112246/{z}/{x}/{y}.png',
+                bounds: { west: 23.7647365, south: 46.7014353, east: 23.8278743, north: 46.720994 }
+            },
+            {
+                // Cara - plansa R/3
+                tileUrl: 'https://mapwarper.net/maps/tile/112245/{z}/{x}/{y}.png',
+                bounds: { west: 23.7578392, south: 46.747807, east: 23.8371097, north: 46.7679583 }
+            },
+            {
+                // Iuriu de Campie - plansa R/4
+                tileUrl: 'https://mapwarper.net/maps/tile/112248/{z}/{x}/{y}.png',
+                bounds: { west: 23.8987633, south: 46.6902215, east: 23.9590204, north: 46.7103397 }
+            },
+            {
+                // Boj Catun - plansa R/5
+                tileUrl: 'https://mapwarper.net/maps/tile/112247/{z}/{x}/{y}.png',
+                bounds: { west: 23.8143736, south: 46.6870339, east: 23.888113, north: 46.7074863 }
+            },
+            {
+                // Moristi - plansa R/6
+                tileUrl: 'https://mapwarper.net/maps/tile/112244/{z}/{x}/{y}.png',
+                bounds: { west: 23.7688786, south: 46.7613059, east: 23.8363748, north: 46.7942159 }
+            },
+            {
+                // Straja si Huci - plansa R/7
+                tileUrl: 'https://mapwarper.net/maps/tile/112249/{z}/{x}/{y}.png',
+                bounds: { west: 23.8492437, south: 46.6576807, east: 23.9488734, north: 46.7208635 }
+            }
+        ]
     }
 ]
 
