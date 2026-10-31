@@ -371,6 +371,36 @@ var localities = [
                 bounds: { west: 23.8492437, south: 46.6576807, east: 23.9488734, north: 46.7208635 }
             }
         ]
+    },
+    {
+        id: 'iclod',
+        layers: [
+            {
+                // Iclod (resedinta de comuna) - plansa 1.2
+                tileUrl: 'https://mapwarper.net/maps/tile/113977/{z}/{x}/{y}.png',
+                bounds: { west: 23.7844208, south: 46.9642586, east: 23.8445221, north: 47.0022979 }
+            },
+            {
+                // Iclozel - plansa 2.2
+                tileUrl: 'https://mapwarper.net/maps/tile/113978/{z}/{x}/{y}.png',
+                bounds: { west: 23.8072731, south: 46.9549702, east: 23.8464021, north: 46.9928378 }
+            },
+            {
+                // Livada - plansa 3.2
+                tileUrl: 'https://mapwarper.net/maps/tile/113980/{z}/{x}/{y}.png',
+                bounds: { west: 23.8157631, south: 46.9801677, east: 23.8608652, north: 47.0166359 }
+            },
+            {
+                // Orman - plansa 4.2
+                tileUrl: 'https://mapwarper.net/maps/tile/113981/{z}/{x}/{y}.png',
+                bounds: { west: 23.7964342, south: 47.0285077, east: 23.8361665, north: 47.0666454 }
+            },
+            {
+                // Fundatura - plansa 5.2
+                tileUrl: 'https://mapwarper.net/maps/tile/113979/{z}/{x}/{y}.png',
+                bounds: { west: 23.7552502, south: 46.9374562, east: 23.8092348, north: 46.9753707 }
+            }
+        ]
     }
 ]
 
