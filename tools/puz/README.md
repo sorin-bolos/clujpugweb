@@ -30,9 +30,9 @@ Two checks catch mistakes:
 
 ## Steps for one PUZ
 
-1. **Recipe skeleton.** Take `id`, `hcl` (nr, an, data_sedinta, pagina, pdf) and
-   `titlu` from the council decision listing. Write the title **without the
-   beneficiaries' names**.
+1. **Recipe skeleton.** `puz.py new <an> <nr>` reads the council listing and
+   writes `id`, `hcl` (nr, an, data_sedinta, pagina, pdf) and `titlu`. The title is
+   cleaned: no "Aprobarea", and **no beneficiaries' names**.
 2. `puz.py fetch` downloads the decision's documents: the recipe's PDF plus any
    other PDF linked from the decision page. It lists pages and images, and writes a
    contact sheet (`puz_cache/<id>/pages.png`). Find the *Reglementări urbanistice* plate.
@@ -41,14 +41,32 @@ Two checks catch mistakes:
 3. `puz.py render` renders that page at its native dpi, plus an overview with a
    pixel grid.
 4. **Transcribe the coordinate table** into `coordonate.puncte`, as printed:
-   `[Nord (x), Est (Y)]`. Add `suprafata_declarata_m2`. If the vertex numbers do not
-   run in boundary order, set `coordonate.ordine`.
+   `[Nord (x), Est (Y)]`, and add `suprafata_declarata_m2`.
+   - **Order.** Tables list vertices in boundary order, but the numbers need not
+     run that way (HCL 604/2023: 500, 501, …, 110, 504, 505, 48, 506, …). If they
+     don't, copy the table order into `coordonate.ordine`.
+   - **Extra checks.** If the table prints side lengths `D(i,i+1)` and a perimeter,
+     add `laturi_declarate_m` and `perimetru_declarat_m`. A misread digit then
+     shows on the two sides touching that vertex. With two sides known, a hidden
+     digit can be solved for; see the note in `2020-4.json`.
+   - **Area only.** Large tables (HCL 571/2024 has 138 points) often print only
+     the area. Then also look for spikes, and draw the result with `overlay`.
 5. **Pick points.** Pick two well-separated corners from the overview into
    `gcp_px`. `puz.py predict` then says where every other vertex should be, and
    `puz.py vertices <names…>` shows zoomed, grid-labelled crops around them. Prefer
    sharp corners for `gcp_px` (at least 4, spread out). Put a few more in
-   `verificare_px`: they are checked but not used in the fit. Points along a smooth
-   curve are poor control points.
+   `verificare_px`: they are checked but not used in the fit.
+   - **Poor control points.** Vertices along a smooth curve or a straight run make
+     poor control points. So do vertices inside dark fills, or a few pixels apart
+     at small scales.
+   - **Thick lines.** Pick the centre of the boundary line, not its edge. At 1:2500
+     the line is ~2 m wide.
+   - **`overlay x0 y0 x1 y1`** draws the boundary the current fit predicts over the
+     plate. Where it leaves the drawn line, a pick is off. When the residual gate
+     fails, `build` prints a leave-one-out table: the point whose removal drops
+     everyone else's error is the bad one (HCL 571/2024: point 84 was 15 px off).
+   - **Rotation.** Plates can be rotated against the Stereo 70 grid (571/2024 by
+     6.4°). The affine fit handles that, so don't assume north-up when predicting.
 6. **Crops.** Set `legenda_px` (one or more `[x0, y0, x1, y1]` boxes, stacked into
    one image) and `decupaj`. The overlay is the boundary plus `buffer_m`, minus any
    `exclude_px` boxes, such as tables or title blocks that the buffer reaches into.
@@ -66,6 +84,32 @@ Two checks catch mistakes:
    zoomed to it.
 10. **Commit** the recipe, `ClujPugWeb/wwwroot/puz/<id>/` and `puz/puz.json`, as
     `PUZ HCL <nr>/<an> – <location>`. `puz_cache/` stays out of git.
+
+## Plates without a coordinate inventory
+
+Some designers print no inventory. HCL 621/2022 is one: a Spanish firm, 17 ha at
+1:1000. That plate carries a **Stereo 70 grid** of small crosses every 100 m, each
+labelled with Est (vertical text) and Nord (horizontal). Then:
+
+- list the crosses you pick under `repere` as `"C<E>_<N>": [N, E]`, and use those
+  names in `gcp_px` and `verificare_px`;
+- trace the PUZ boundary ("Limita zonei de reglementare") on the plate as
+  `limita_px`, a list of `[x, y]`. The fit carries it into Stereo 70;
+- put the total from the plate's balance table (`Bilanț teritorial`) in
+  `suprafata_declarata_m2`. A traced boundary is held to 3% instead of 1%.
+
+The published entry records which method was used.
+
+## Quality gates
+
+| Check | Limit |
+|---|---|
+| area vs plate | 1 % (inventory), 3 % (traced boundary) |
+| side lengths, perimeter | 1 cm / 0.1 % |
+| worst control/check residual | 1 m or 4 plate pixels, whichever is larger |
+
+The pixel term exists because picking is good to 2-3 pixels at any scale: 1 m
+covers 1:250-1:1000 plates, and 1:2500 at 200 dpi gets ~1.3 m.
 
 ## Where files live
 
@@ -97,4 +141,10 @@ else too.
 - Decisions from 2017-2019 are published as text only, with no plates in the PDF.
   Links for 2015-2016 return 404. Those PUZ-uri need another source.
 - Legends are not standardised. Each designer draws their own symbols, so every PUZ
-  keeps its own legend crop. The UTR codes are the PUG's.
+  keeps its own legend crop. The UTR codes are the PUG's, or PUZ-specific variants
+  such as `Rim_Carbochim`.
+- POT/CUT are sometimes given per parcel, not per UTR (571/2024). The recipe's
+  `utr` then names the zones and leaves the figures to the PDF.
+- PDFs vary a lot: 15 to 91 pages, 5 to 55 MB. The plate can sit anywhere in them
+  and may come in several copies (597/2026 pages 6 and 13). A neighbouring page is
+  often a different plate, such as land ownership, that looks similar.

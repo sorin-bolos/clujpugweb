@@ -12,6 +12,7 @@ is derived from it and can be rebuilt at any time:
     py -3.13 tools/puz/puz.py grid     puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--scale S --step N]
     py -3.13 tools/puz/puz.py predict  puzuri/cluj-napoca/2026-597.json   # where the other points should be
     py -3.13 tools/puz/puz.py vertices puzuri/cluj-napoca/2026-597.json 10 12 13 ...
+    py -3.13 tools/puz/puz.py overlay  puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--without 84]
     py -3.13 tools/puz/puz.py build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
 
 The decision's documents are kept as a backup in puzuri/<localitate>/documente/<id>/
@@ -386,6 +387,37 @@ def cmd_vertices(r, args):
     print(out, sheet.size)
 
 
+def cmd_overlay(r, args):
+    """Draw the boundary the current fit predicts over a crop of the plate. Where it
+    leaves the drawn boundary line, a control point is off - or the line is not the
+    one the coordinates describe."""
+    names = [n for n in r["gcp_px"] if n not in args.without]
+    if len(names) < 3:
+        sys.exit("need at least three control points")
+    pe, pn = fit_affine(r, names)
+    M = np.array([[pe[0], pe[1]], [pn[0], pn[1]]]); t = np.array([pe[2], pn[2]]); Mi = np.linalg.inv(M)
+    to_px = lambda E, N: tuple(Mi @ (np.array([E, N]) - t))
+    box = (args.x0, args.y0, args.x1, args.y1); s = args.scale
+    im = grid_image(Image.open(plate_path(r)), None, box, s, args.step)
+    d = ImageDraw.Draw(im); f = font(12)
+    pts = points_en(r)
+    order = r["coordonate"].get("ordine") or sorted(pts, key=lambda k: int(re.sub(r"\D", "", k) or 0))
+    ring = [pts[k] for k in order] if pts else ring_en(r, pe, pn)
+    labels = order if pts else [""] * len(ring)
+    P = [((to_px(*p)[0] - args.x0) * s, (to_px(*p)[1] - args.y0) * s) for p in ring]
+    d.line(P + P[:1], fill=(0, 170, 0), width=1)
+    for k, (X, Y) in zip(labels, P):
+        if -20 < X < im.width + 20 and -20 < Y < im.height + 20:
+            d.ellipse([X - 2, Y - 2, X + 2, Y + 2], outline=(0, 120, 0))
+            d.text((X + 3, Y - 13), k, fill=(0, 110, 0), font=f)
+    for k, (x, y) in r["gcp_px"].items():   # picked control points as blue crosses
+        X, Y = (x - args.x0) * s, (y - args.y0) * s
+        d.line([(X - 6, Y), (X + 6, Y)], fill=(0, 0, 255)); d.line([(X, Y - 6), (X, Y + 6)], fill=(0, 0, 255))
+    out = os.path.join(cache_dir(r), "overlay_%d_%d.png" % (args.x0, args.y0))
+    im.save(out)
+    print(out, im.size)
+
+
 # --- build ---------------------------------------------------------------------------
 
 def check_area(r, ring):
@@ -444,6 +476,17 @@ def check_fit(r):
     limit = max(MAX_RESIDUAL_M, MAX_RESIDUAL_PX * sx)
     ok = worst <= limit
     print("rms %.2f m, worst %.2f m, limit %.2f m -> %s" % (rms, worst, limit, "OK" if ok else "TOO LARGE"))
+    if not ok and len(names) >= 4:
+        # A single misplaced point drags the whole fit; refitting without each one in
+        # turn shows which: leaving it out drops everyone else's error.
+        print("  leave-one-out (refit without the point -> rms of the others, its own residual):")
+        for out in names:
+            rest = [n for n in names if n != out]
+            qe, qn = fit_affine(r, rest)
+            err = {n: math.hypot(qe @ [*r["gcp_px"][n], 1] - pts[n][0], qn @ [*r["gcp_px"][n], 1] - pts[n][1])
+                   for n in names}
+            print("    without %-14s rms %.2f m, its residual %.2f m" % (
+                out, math.sqrt(sum(err[n] ** 2 for n in rest) / len(rest)), err[out]))
     return ok, pe, pn, rms, worst
 
 
@@ -629,6 +672,12 @@ def main():
     for a in ("x0", "y0", "x1", "y1"):
         s.add_argument(a, type=int)
     s.add_argument("--scale", type=float, default=1.0); s.add_argument("--step", type=int, default=50)
+    s = sub.add_parser("overlay", help="draw the fitted boundary over a crop of the plate")
+    s.add_argument("recipe")
+    for a in ("x0", "y0", "x1", "y1"):
+        s.add_argument(a, type=int)
+    s.add_argument("--scale", type=float, default=1.0); s.add_argument("--step", type=int, default=100)
+    s.add_argument("--without", nargs="*", default=[], help="control points to leave out of the fit")
     s = sub.add_parser("vertices"); s.add_argument("recipe"); s.add_argument("names", nargs="+")
     s.add_argument("--radius", type=int, default=90); s.add_argument("--scale", type=float, default=2.6)
     s.add_argument("--step", type=int, default=20)
@@ -640,7 +689,7 @@ def main():
         return cmd_new(args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
-     "vertices": cmd_vertices, "build": cmd_build}[args.cmd](r, args)
+     "vertices": cmd_vertices, "overlay": cmd_overlay, "build": cmd_build}[args.cmd](r, args)
 
 
 if __name__ == "__main__":
