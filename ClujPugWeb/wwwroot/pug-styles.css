@@ -121,6 +121,9 @@ body.mode-puz #legenda .locality-pane {
    white text on their white background. Give the PUZ window its own colours. */
 .puz-info {
     max-width: 340px;
+    max-height: 55vh;
+    overflow-y: auto;
+    padding-right: 4px;
     font-size: 13px;
     line-height: 1.45;
     color: #212529;
