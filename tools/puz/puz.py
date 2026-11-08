@@ -14,6 +14,7 @@ is derived from it and can be rebuilt at any time:
     py -3.13 tools/puz/puz.py vertices puzuri/cluj-napoca/2026-597.json 10 12 13 ...
     py -3.13 tools/puz/puz.py overlay  puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--without 84]
     py -3.13 tools/puz/puz.py hcl      puzuri/cluj-napoca/2026-597.json   # the decision text, laid out
+    py -3.13 tools/puz/puz.py related  puzuri/cluj-napoca/2026-597.json   # later decisions extending/amending it
     py -3.13 tools/puz/puz.py build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
 
 The decision's documents are kept as a backup in puzuri/<localitate>/documente/<id>/
@@ -295,6 +296,31 @@ def cmd_hcl(r, args):
         print("  - " + a.strip()[:300])
     print("\nUn articol scurt pus după lista anexelor, sau unul care contrazice planșa, e de obicei un amendament"
           "\nvotat în ședință: procesul-verbal al ședinței spune cine l-a propus și de ce.")
+
+
+def cmd_related(r, args):
+    """Decisions in the index whose title points at this PUZ - extensions of validity,
+    amendments, corrections - and the decision this one amends, if its title says so."""
+    nr, an = r["hcl"]["nr"], r["hcl"]["an"]
+    path = os.path.join(os.path.dirname(os.path.abspath(r["_path"])), "hotarari-puz.json")
+    with open(path, encoding="utf-8") as f:
+        index = json.load(f)
+    ref = re.compile(r"Hot[ăa]r[âa]r(?:ea|ii)\s+nr\.?\s*%d\s*(?:/\s*%d|din\s+[\d.\s]+\.?\s*%d)" % (nr, an, an), re.I)
+    hits = [h for h in index["hotarari"] if ref.search(h["titlu"]) and (h["an"], h["nr"]) != (an, nr)]
+    print("index:", path, "- updated", index.get("actualizat"), "- %d decisions" % len(index["hotarari"]))
+    print("\nLater decisions referring to HCL %d/%d:" % (nr, an))
+    for h in hits:
+        kind = ("PRELUNGIRE" if re.search(r"Prelungirea valabilit", h["titlu"], re.I) else
+                "MODIFICARE" if re.search(r"Modific", h["titlu"], re.I) else
+                "RECTIFICARE" if re.search(r"rectific|[îi]ndrept|eroare", h["titlu"], re.I) else "ALTA")
+        print("  %-11s HCL %d/%d  %s" % (kind, h["nr"], h["an"], h["titlu"][:200]))
+    if not hits:
+        print("  none")
+    own = re.findall(r"Hot[ăa]r[âa]r(?:ea|ii)\s+nr\.?\s*(\d+)\s*(?:/\s*(\d{4})|din\s+[\d.]+?(\d{4}))", r.get("titlu", ""), re.I)
+    if own:
+        print("\nThis PUZ's own title refers to:", ", ".join("HCL %s/%s" % (n, a or b) for n, a, b in own),
+              "- if it amends that PUZ, list it under `modifica`.")
+    print("\nThe index only knows titles up to its update date; for newer decisions check the council listing.")
 
 
 # --- fetch / render ----------------------------------------------------------------
@@ -799,7 +825,7 @@ def main():
     s = sub.add_parser("new", help="recipe skeleton from the decision listing")
     s.add_argument("an", type=int); s.add_argument("nr", type=int)
     s.add_argument("--folder", default="cluj-napoca"); s.add_argument("--localitate", default="cluj")
-    for name in ("fetch", "render", "predict", "hcl"):
+    for name in ("fetch", "render", "predict", "hcl", "related"):
         s = sub.add_parser(name); s.add_argument("recipe")
     s = sub.add_parser("grid"); s.add_argument("recipe")
     for a in ("x0", "y0", "x1", "y1"):
@@ -822,7 +848,8 @@ def main():
         return cmd_new(args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
-     "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "build": cmd_build}[args.cmd](r, args)
+     "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "related": cmd_related,
+     "build": cmd_build}[args.cmd](r, args)
 
 
 if __name__ == "__main__":
