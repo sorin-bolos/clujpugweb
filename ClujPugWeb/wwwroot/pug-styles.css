@@ -117,10 +117,60 @@ body.mode-puz #legenda .locality-pane {
     border: 1px solid #eee;
 }
 
+/* The map element carries Bootstrap's .text-white, which Google's info windows inherit:
+   white text on their white background. Give the PUZ window its own colours. */
 .puz-info {
-    max-width: 280px;
+    max-width: 340px;
     font-size: 13px;
     line-height: 1.45;
+    color: #212529;
+}
+
+.puz-info a,
+.puz-card a {
+    color: #0b5ed7;
+}
+
+.puz-valid {
+    margin: 6px 0;
+}
+
+.puz-expired {
+    color: #a12a2a;
+    font-weight: 600;
+}
+
+.puz-muted {
+    color: #6c757d;
+    font-weight: 400;
+}
+
+.puz-mod {
+    margin: 6px 0;
+    color: #495057;
+}
+
+.puz-diff {
+    margin: 6px 0;
+    padding: 6px 8px;
+    background: #fff4e5;
+    border-left: 3px solid #e8890c;
+    color: #212529;
+}
+
+.puz-diff ul,
+.puz-cond ul {
+    margin: 4px 0 0 0;
+    padding-left: 18px;
+}
+
+.puz-cond {
+    margin: 6px 0 8px 0;
+}
+
+.puz-cond summary {
+    cursor: pointer;
+    color: #0b5ed7;
 }
 
 section {

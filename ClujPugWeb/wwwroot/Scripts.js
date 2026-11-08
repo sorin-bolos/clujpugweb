@@ -629,7 +629,7 @@ function loadPuz() {
             puzOverlays = list.map(createPuzOverlay);
             setPlanMode(planMode);
             if (requestedPuz) {
-                zoomToPuz(requestedPuz);
+                showPuz(requestedPuz);
             }
         });
 }
@@ -663,18 +663,76 @@ function createPuzOverlay(puz) {
 
 function openPuzInfo(puz, position) {
     if (!puzInfoWindow) {
-        puzInfoWindow = new google.maps.InfoWindow();
+        puzInfoWindow = new google.maps.InfoWindow({ maxWidth: 360 });
     }
     puzInfoWindow.setContent(
         '<div class="puz-info">' +
         '<strong>HCL ' + escapeHtml(puz.hcl) + '</strong> &middot; ' + escapeHtml(formatDate(puz.data)) + '<br>' +
         escapeHtml(puz.titlu) + '<br>' +
         utrSummaryHtml(puz) +
-        'Suprafață reglementată: ' + puz.suprafata_m2.toLocaleString('ro-RO') + ' m&sup2;<br>' +
+        'Suprafață reglementată: ' + puz.suprafata_m2.toLocaleString('ro-RO') + ' m&sup2;' +
+        decisionNotesHtml(puz) +
         '<a href="' + escapeHtml(puz.pdf) + '" target="_blank" rel="noopener">Hotărârea și anexele (PDF)</a>' +
         '</div>');
     puzInfoWindow.setPosition(position);
     puzInfoWindow.open(theMap);
+}
+
+// What the decision's text says beyond the plate: how long the PUZ is valid, which
+// other PUZ it amends or was amended by, where the text overrides the drawing (the
+// council can amend a PUZ in session without the plate changing), and the
+// conditions and obligations it sets. Expired PUZ-uri stay on the map; the date says so.
+function decisionNotesHtml(puz) {
+    return validityHtml(puz) + amendmentsHtml(puz) + differencesHtml(puz) + conditionsHtml(puz);
+}
+
+function validityHtml(puz) {
+    var v = puz.valabilitate;
+    if (!v || !v.pana_la) {
+        return '';
+    }
+    var expired = v.pana_la < todayIso();
+    var text = (expired ? 'Valabilitate expirată la ' : 'Valabil până la ') + formatDate(v.pana_la);
+    var extensions = (v.prelungiri || []).map(function (p) { return 'HCL ' + p.hcl; });
+    return '<div class="puz-valid' + (expired ? ' puz-expired' : '') + '">' + escapeHtml(text) +
+        (v.ani && !extensions.length ? ' <span class="puz-muted">(' + v.ani + ' ani de la aprobare)</span>' : '') +
+        (extensions.length ? ' <span class="puz-muted">(prelungit prin ' + escapeHtml(extensions.join(', ')) + ')</span>' : '') +
+        '</div>';
+}
+
+function amendmentsHtml(puz) {
+    var parts = [];
+    if (puz.modifica && puz.modifica.length) {
+        parts.push('Modifică: ' + puz.modifica.join(', '));
+    }
+    if (puz.modificat_de && puz.modificat_de.length) {
+        parts.push('Modificat prin: ' + puz.modificat_de.join(', '));
+    }
+    return parts.length ? '<div class="puz-mod">' + escapeHtml(parts.join(' · ')) + '</div>' : '';
+}
+
+function differencesHtml(puz) {
+    var items = puz.diferente_fata_de_plansa || [];
+    return items.length
+        ? '<div class="puz-diff"><strong>Textul hotărârii diferă de planșă:</strong>' + itemsHtml(items) + '</div>'
+        : '';
+}
+
+function conditionsHtml(puz) {
+    var items = puz.conditii || [];
+    return items.length
+        ? '<details class="puz-cond"><summary>Condiții și obligații din hotărâre (' + items.length + ')</summary>' +
+          itemsHtml(items) + '</details>'
+        : '';
+}
+
+function itemsHtml(items) {
+    return '<ul>' + items.map(function (item) { return '<li>' + escapeHtml(item) + '</li>'; }).join('') + '</ul>';
+}
+
+function todayIso() {
+    var d = new Date();
+    return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2);
 }
 
 function utrSummaryHtml(puz) {
@@ -748,6 +806,7 @@ function puzCardHtml(puz) {
         ' <small class="text-muted">' + escapeHtml(formatDate(puz.data)) + '</small></h3>' +
         '<p>' + escapeHtml(puz.titlu) + '</p>' +
         '<p class="puz-card-utr">' + utrSummaryHtml(puz) + '</p>' +
+        decisionNotesHtml(puz) +
         (puz.legenda
             ? '<img class="puz-legend-image" loading="lazy" src="' + escapeHtml(puz.legenda) +
               '" alt="Legenda planșei de reglementări, HCL ' + escapeHtml(puz.hcl) + '" />'
@@ -759,14 +818,17 @@ function puzCardHtml(puz) {
         '</p></div>';
 }
 
-function zoomToPuz(id) {
+// Zooms to a PUZ and opens its details, from a legend card or a ?puz=<id> link.
+function showPuz(id) {
     var puz = puzList.filter(function (p) { return p.id === id; })[0];
     if (puz && theMap) {
-        theMap.fitBounds(toLatLngBounds(puz.bounds));
+        var bounds = toLatLngBounds(puz.bounds);
+        theMap.fitBounds(bounds);
+        openPuzInfo(puz, bounds.getCenter());
     }
 }
 
-// ?plan=puz opens on the PUZ plates; ?puz=<id> also zooms to that PUZ.
+// ?plan=puz opens on the PUZ plates; ?puz=<id> also zooms to that PUZ and opens it.
 var requestedPuz = new URLSearchParams(window.location.search).get('puz');
 
 function initPlanToggle() {
@@ -782,7 +844,7 @@ function initPlanToggle() {
     document.addEventListener('click', function (event) {
         var link = event.target.closest && event.target.closest('[data-puz-zoom]');
         if (link) {
-            zoomToPuz(link.dataset.puzZoom);
+            showPuz(link.dataset.puzZoom);
         }
     });
     setPlanMode(planMode);
