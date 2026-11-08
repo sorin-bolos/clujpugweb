@@ -22,8 +22,8 @@
     "suprafata_declarata_m2": 2447,
     "puncte": {
       "10": [590806.691, 396702.593],
-      "11": [590806.800, 396719.070],
-      "12": [590811.840, 396783.970],
+      "11": [590806.8, 396719.07],
+      "12": [590811.84, 396783.97],
       "13": [590771.358, 396778.662],
       "14": [590775.718, 396745.407],
       "15": [590770.121, 396739.456],
@@ -31,7 +31,7 @@
       "17": [590775.726, 396735.289],
       "18": [590779.114, 396731.094],
       "19": [590781.321, 396726.414],
-      "20": [590782.538, 396721.500],
+      "20": [590782.538, 396721.5],
       "21": [590782.682, 396715.784],
       "22": [590781.546, 396710.508],
       "23": [590781.152, 396709.253]
@@ -53,10 +53,36 @@
   },
   "decupaj": {
     "buffer_m": 1.5,
-    "exclude_px": [[2425, 1718, 2830, 2330]]
+    "exclude_px": [
+      [2425, 1718, 2830, 2330]
+    ]
   },
-  "legenda_px": [[143, 1793, 662, 2322]],
+  "legenda_px": [
+    [143, 1793, 662, 2322]
+  ],
   "utr": [
-    {"cod": "Liu*", "denumire": "Locuințe individuale", "pot_max": "35%", "cut_max": "0,9"}
-  ]
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe individuale (unifamiliale), regim izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m (cornișă 8 m)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-09-04",
+    "verificat": "2026-11-08: nicio prelungire sau modificare în hotărârile din 2024–2026"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Aleea de interes local (parcela 6, ampriză 7,65 m) se înscrie în CF ca „drum” înainte de emiterea autorizațiilor de construire pe parcele; până la recepția locuințelor e echipată edilitar și asfaltată.",
+    "Parcela 7 se înscrie în CF ca „spațiu verde” și se amenajează înainte de recepția locuințelor, cu cel puțin un arbore.",
+    "Fiecare parcelă are bazin subteran de retenție a apei pluviale și spațiu pentru colectarea selectivă a deșeurilor (5 fracții).",
+    "Toate investițiile sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-597/hotarare.txt"
 }

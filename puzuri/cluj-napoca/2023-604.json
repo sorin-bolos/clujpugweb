@@ -20,66 +20,21 @@
     "sursa": "Coordonate pct. de contur, planșa AA022, X(Nord) / Y(Est)",
     "suprafata_declarata_m2": 9501.68,
     "puncte": {
-      "500": [
-        583484.54,
-        397335.14
-      ],
-      "501": [
-        583486.685,
-        397154.304
-      ],
-      "502": [
-        583483.876,
-        397163.001
-      ],
-      "503": [
-        583481.349,
-        397170.762
-      ],
-      "110": [
-        583476.776,
-        397174.879
-      ],
-      "504": [
-        583452.873,
-        397189.119
-      ],
-      "505": [
-        583441.793,
-        397197.565
-      ],
-      "48": [
-        583439.865,
-        397199.47
-      ],
-      "506": [
-        583411.08,
-        397227.91
-      ],
-      "507": [
-        583392.289,
-        397246.479
-      ],
-      "508": [
-        583417.391,
-        397265.045
-      ],
-      "509": [
-        583408.087,
-        397278.606
-      ],
-      "262": [
-        583399.18,
-        397292.051
-      ],
-      "511": [
-        583467.686,
-        397326.626
-      ],
-      "239": [
-        583468.78,
-        397327.18
-      ]
+      "500": [583484.54, 397335.14],
+      "501": [583486.685, 397154.304],
+      "502": [583483.876, 397163.001],
+      "503": [583481.349, 397170.762],
+      "110": [583476.776, 397174.879],
+      "504": [583452.873, 397189.119],
+      "505": [583441.793, 397197.565],
+      "48": [583439.865, 397199.47],
+      "506": [583411.08, 397227.91],
+      "507": [583392.289, 397246.479],
+      "508": [583417.391, 397265.045],
+      "509": [583408.087, 397278.606],
+      "262": [583399.18, 397292.051],
+      "511": [583467.686, 397326.626],
+      "239": [583468.78, 397327.18]
     },
     "perimetru_declarat_m": 475.07,
     "ordine": [
@@ -118,26 +73,11 @@
     }
   },
   "gcp_px": {
-    "501": [
-      338,
-      270
-    ],
-    "500": [
-      4742,
-      338
-    ],
-    "507": [
-      2614,
-      2559
-    ],
-    "508": [
-      3040,
-      1955
-    ],
-    "262": [
-      3700,
-      2392
-    ]
+    "501": [338, 270],
+    "500": [4742, 338],
+    "507": [2614, 2559],
+    "508": [3040, 1955],
+    "262": [3700, 2392]
   },
   "verificare_px": {},
   "decupaj": {
@@ -145,29 +85,42 @@
     "exclude_px": []
   },
   "legenda_px": [
-    [
-      221,
-      1221,
-      1125,
-      2540
-    ],
-    [
-      221,
-      2540,
-      850,
-      2650
-    ]
+    [221, 1221, 1125, 2540],
+    [221, 2540, 850, 2650]
   ],
   "utr": [
     {
       "cod": "Lid*",
-      "denumire": "Zonă de locuințe individuale (parcelă minimă 300 m²)",
+      "denumire": "Locuințe individuale, o singură unitate locativă pe parcelă, izolat sau cuplat",
       "pot_max": "20%",
-      "cut_max": "0,4"
+      "cut_max": "0,4",
+      "h_max": "8 m la atic, 12 m la coamă ((S)+P+E, (S)+P+M, D+P)"
     },
     {
       "cod": "S_Va*",
-      "denumire": "Spațiu verde amenajat"
+      "denumire": "Subzonă verde – scuar cu acces public nelimitat",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "4 m"
     }
-  ]
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-07-12",
+    "verificat": "2026-11-08: nicio prelungire sau modificare în hotărârile din 2024–2026"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Art. 2, introdus prin amendament în ședința din 12 iulie 2023: autorizațiile de construire pentru locuințe se emit doar pe parcele de cel puțin 800 m². Planșa împarte terenul în 10 parcele cu suprafața minimă de 300 m², deci parcelele mai mici de 800 m² nu pot primi autorizație de locuință așa cum sunt desenate."
+  ],
+  "conditii": [
+    "Autorizațiile de construire (în afară de rețele și spații verzi) se emit doar după ce Primăria reamenajează și lărgește intersecția Brâncuși–Fagului–Romul Ladea–Borhanci, dar nu mai târziu de 31 decembrie 2026.",
+    "Terenul pentru lărgirea străzii de acces la 16 m se dezmembrează și se înscrie în CF ca „drum” înainte de autorizarea parcelelor cu acces din ea; strada se asfaltează, cu două locuri de parcare pentru vizitatori, înainte de recepție.",
+    "Strada nouă A (9,75 m, apoi 6 m carosabil cu loc de întoarcere) se înscrie în CF ca „drum”, se echipează edilitar și se asfaltează înainte de autorizarea parcelelor cu acces din ea.",
+    "Înainte de recepția locuințelor: trotuare, cel puțin 6 arbori de aliniament și scuarul S_Va* amenajat, cu minimum 5 arbori.",
+    "Toate investițiile sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2023-604/hotarare.txt"
 }

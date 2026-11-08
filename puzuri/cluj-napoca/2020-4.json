@@ -25,32 +25,78 @@
       "11": [584595.658, 392910.752],
       "12": [584597.402, 392906.128],
       "13": [584601.634, 392894.241],
-      "14": [584614.966, 392857.200],
+      "14": [584614.966, 392857.2],
       "15": [584615.154, 392857.234],
-      "16": [584621.058, 392840.490],
+      "16": [584621.058, 392840.49],
       "17": [584636.232, 392845.783],
       "18": [584619.121, 392893.189],
       "19": [584612.859, 392909.902],
-      "20": [584605.642, 392930.250],
+      "20": [584605.642, 392930.25],
       "21": [584598.928, 392926.211],
       "22": [584591.231, 392921.439],
       "23": [584594.869, 392912.097]
     },
     "laturi_declarate_m": {
-      "10": 0.260, "11": 4.942, "12": 12.618, "13": 39.367, "14": 0.191, "15": 17.754, "16": 16.071,
-      "17": 50.400, "18": 17.848, "19": 21.590, "20": 7.835, "21": 9.056, "22": 10.025, "23": 1.507
+      "10": 0.26,
+      "11": 4.942,
+      "12": 12.618,
+      "13": 39.367,
+      "14": 0.191,
+      "15": 17.754,
+      "16": 16.071,
+      "17": 50.4,
+      "18": 17.848,
+      "19": 21.59,
+      "20": 7.835,
+      "21": 9.056,
+      "22": 10.025,
+      "23": 1.507
     },
     "nota": "Pct. 23: a treia zecimală a lui Nord e acoperită de o dungă de scanare; 584594.869 e singura valoare care dă ambele laturi din tabel (10.025 și 1.507)."
   },
-  "gcp_px": {"17": [3076, 549], "16": [2987, 785], "20": [4375, 1045], "22": [4236, 1270]},
+  "gcp_px": {
+    "17": [3076, 549],
+    "16": [2987, 785],
+    "20": [4375, 1045],
+    "22": [4236, 1270]
+  },
   "verificare_px": {},
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
   },
-  "legenda_px": [[5438, 480, 6200, 2035], [4882, 945, 5415, 1780]],
+  "legenda_px": [
+    [5438, 480, 6200, 2035],
+    [4882, 945, 5415, 1780]
+  ],
   "utr": [
-    {"cod": "Is_A*", "denumire": "Instituții și servicii publice și de interes public – funcțiuni de sănătate și activități complementare", "pot_max": "60%", "cut_max": "2,2", "h_max": "24 m"},
-    {"cod": "Ve", "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic"}
-  ]
+    {
+      "cod": "Is_A*",
+      "denumire": "Instituții și servicii de interes public – funcțiuni de sănătate și activități complementare",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "25 m (cornișă 21 m)"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (rămâne ca în PUG)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-01-10",
+    "verificat": "2026-11-08: nicio prelungire sau modificare în hotărârile din 2024–2026"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea în Is_A*: planșa scrie H maxim = 24 m, hotărârea stabilește H la cornișă max. 21 m și H max. 25 m."
+  ],
+  "conditii": [
+    "Fâșia grevată de servitutea de utilitate publică din PUG, spre Calea Turzii, se dezmembrează din parcelă și se înscrie în CF ca teren rezervat pentru servitute de utilitate publică.",
+    "Accesul se face din Calea Turzii; parcarea se organizează în interiorul parcelei.",
+    "Toate investițiile sunt suportate de beneficiar."
+  ],
+  "hotarare_text": "documente/2020-4/hotarare.txt"
 }
