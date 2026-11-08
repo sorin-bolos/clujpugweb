@@ -68,7 +68,8 @@ Two checks catch mistakes:
    - **Rotation.** Plates can be rotated against the Stereo 70 grid (571/2024 by
      6.4°). The affine fit handles that, so don't assume north-up when predicting.
 6. **Crops.** Set `legenda_px` (one or more `[x0, y0, x1, y1]` boxes, stacked into
-   one image) and `decupaj`. The overlay is the boundary plus `buffer_m`, minus any
+   one image; a fifth number turns a box clockwise, for sideways plates) and
+   `decupaj`. The overlay is the boundary plus `buffer_m`, minus any
    `exclude_px` boxes, such as tables or title blocks that the buffer reaches into.
    Use `puz.py grid <x0 y0 x1 y1>` to read box coordinates.
 7. **Read the decision's text.** `puz.py hcl` prints it laid out for the recipe:

@@ -100,7 +100,9 @@ where `<id>` is `<an>-<nr>`.
      points just to pass.
 6. **Crops.**
    - `legenda_px`: one or more boxes stacked into one image, holding the legend and
-     useful tables (UTR indicators), but no signatures or stamps.
+     useful tables (UTR indicators), but no signatures or stamps. On a plate printed
+     sideways, add a fifth number to each box: degrees to turn it clockwise (90 when
+     the text reads upwards). Check the result in `legenda.webp`.
    - `decupaj.exclude_px`: tables or title blocks that the boundary buffer reaches
      into.
 7. **Decision text.** Run `hcl` and `related`, and read the full text in

@@ -374,8 +374,7 @@ def street_lines(pattern):
     as Stereo 70 lines. A regex copes with diacritics: "Scor.arilor"."""
     from shapely.geometry import LineString, MultiLineString
     q = '[out:json][timeout:60];way["highway"]["name"~"%s",i](%f,%f,%f,%f);out tags geom;' % ((pattern,) + CLUJ_BBOX)
-    req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({"data": q}).encode(), headers=UA)
-    data = json.loads(urllib.request.urlopen(req, timeout=90).read().decode("utf-8"))
+    data = overpass(q)
     lines, names = [], set()
     for el in data.get("elements", []):
         pts = [to_stereo70(p["lon"], p["lat"]) for p in el.get("geometry", [])]
@@ -1035,8 +1034,16 @@ def warp(r, pe, pn, ring):
 
 
 def legend_image(r):
+    """Legend boxes [x0, y0, x1, y1], stacked. A fifth number turns a box clockwise by
+    that many degrees, for plates printed sideways (24/2026: text reading upwards
+    needs 90)."""
     src = Image.open(plate_path(r)).convert("RGB")
-    crops = [src.crop(tuple(b)) for b in r.get("legenda_px", [])]
+    crops = []
+    for b in r.get("legenda_px", []):
+        c = src.crop(tuple(b[:4]))
+        if len(b) > 4 and b[4]:
+            c = c.rotate(-float(b[4]), expand=True, fillcolor="white")
+        crops.append(c)
     if not crops:
         return None
     w = max(c.width for c in crops); h = sum(c.height for c in crops) + 12 * (len(crops) - 1)

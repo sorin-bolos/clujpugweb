@@ -61,7 +61,7 @@
     "nota": "Legenda e decupată așa cum e pe planșă, rotită cu 90° (textul se citește de jos în sus): `legenda_px` nu are opțiune de rotire."
   },
   "legenda_px": [
-    [515, 558, 1705, 1266]
+    [515, 558, 1705, 1266, 90]
   ],
   "utr": [
     {
