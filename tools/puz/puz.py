@@ -90,14 +90,32 @@ def plate_path(r):
 
 
 def points_en(r):
-    """{name: (E, N)} from the recipe's [N, E] pairs."""
-    return {k: (v[1], v[0]) for k, v in r["coordonate"]["puncte"].items()}
+    """Boundary vertices from the coordinate inventory, {name: (E, N)} from [N, E] pairs."""
+    return {k: (v[1], v[0]) for k, v in r["coordonate"].get("puncte", {}).items()}
 
 
-def ring_en(r):
+def known_en(r):
+    """Every point with known ground coordinates: the boundary vertices plus `repere`,
+    such as labelled Stereo 70 grid crosses on plates that print no inventory."""
     pts = points_en(r)
-    order = r["coordonate"].get("ordine") or sorted(pts, key=lambda k: int(re.sub(r"\D", "", k) or 0))
-    return [pts[k] for k in order]
+    pts.update({k: (v[1], v[0]) for k, v in r.get("repere", {}).items()})
+    return pts
+
+
+def boundary_digitized(r):
+    return not points_en(r) and bool(r.get("limita_px"))
+
+
+def ring_en(r, pe=None, pn=None):
+    """The PUZ boundary in Stereo 70: the inventory if the plate has one, otherwise the
+    boundary traced on the plate (`limita_px`) carried over by the pixel fit."""
+    pts = points_en(r)
+    if pts:
+        order = r["coordonate"].get("ordine") or sorted(pts, key=lambda k: int(re.sub(r"\D", "", k) or 0))
+        return [pts[k] for k in order]
+    if r.get("limita_px") and pe is not None:
+        return [(float(pe @ [x, y, 1]), float(pn @ [x, y, 1])) for x, y in r["limita_px"]]
+    sys.exit("recipe has neither coordonate.puncte nor limita_px")
 
 
 def font(size, bold=False):
@@ -302,7 +320,7 @@ def cmd_grid(r, args):
 
 def fit_affine(r, names):
     """Least-squares affine pixel -> Stereo70 from the named control points."""
-    pts = points_en(r)
+    pts = known_en(r)
     px = {**r.get("gcp_px", {}), **r.get("verificare_px", {})}
     A = np.array([[px[n][0], px[n][1], 1.0] for n in names])
     pe = np.linalg.lstsq(A, [pts[n][0] for n in names], rcond=None)[0]
@@ -312,7 +330,7 @@ def fit_affine(r, names):
 
 def similarity_from_two(r, a, b):
     """North-up-agnostic similarity from two points, enough to predict the rest."""
-    pts = points_en(r); px = r["gcp_px"]
+    pts = known_en(r); px = r["gcp_px"]
     za = complex(*px[a]); zb = complex(*px[b])
     wa = complex(pts[a][0], -pts[a][1]); wb = complex(pts[b][0], -pts[b][1])   # flip N so both are y-down
     k = (zb - za) / (wb - wa)
@@ -329,7 +347,7 @@ def cmd_predict(r, args):
         pe, pn = fit_affine(r, names)
         M = np.array([[pe[0], pe[1]], [pn[0], pn[1]]]); t = np.array([pe[2], pn[2]]); Mi = np.linalg.inv(M)
         f = lambda E, N: tuple(Mi @ (np.array([E, N]) - t))
-    for n, (E, N) in points_en(r).items():
+    for n, (E, N) in known_en(r).items():
         x, y = f(E, N)
         tag = "gcp" if n in r.get("gcp_px", {}) else ("chk" if n in r.get("verificare_px", {}) else "")
         print("  %-4s %7.0f %7.0f  %s" % (n, x, y, tag))
@@ -348,7 +366,7 @@ def cmd_vertices(r, args):
     rad, s, step = args.radius, args.scale, args.step
     tiles = []
     for n in args.names:
-        x, y = map(int, f(*points_en(r)[n]))
+        x, y = map(int, f(*known_en(r)[n]))
         box = (x - rad, y - rad, x + rad, y + rad)
         tmp = grid_image(src, None, box, s, step)
         d = ImageDraw.Draw(tmp)
@@ -367,18 +385,21 @@ def cmd_vertices(r, args):
 
 # --- build ---------------------------------------------------------------------------
 
-def check_area(r):
+def check_area(r, ring):
     """Area, and - where the table prints them - side lengths and perimeter. A side
-    that disagrees points at the misread vertex: both sides touching it are off."""
-    ring = ring_en(r)
+    that disagrees points at the misread vertex: both sides touching it are off.
+    A boundary traced by hand is held to a looser area tolerance than an inventory."""
     a = 0.0
     for (x1, y1), (x2, y2) in zip(ring, ring[1:] + ring[:1]):
         a += x1 * y2 - x2 * y1
     a = abs(a) / 2
     c = r["coordonate"]
     declared = c.get("suprafata_declarata_m2")
-    ok = declared is None or abs(a - declared) <= max(2.0, declared * AREA_TOLERANCE)
-    print("area from coordinates: %.1f m2, declared: %s -> %s" % (a, declared, "OK" if ok else "MISMATCH"))
+    tol = 0.03 if boundary_digitized(r) else AREA_TOLERANCE
+    ok = declared is None or abs(a - declared) <= max(2.0, declared * tol)
+    print("area of %s: %.1f m2, declared: %s (%.1f%%) -> %s" % (
+        "traced boundary" if boundary_digitized(r) else "coordinates", a, declared,
+        100 * (a - declared) / declared if declared else 0, "OK" if ok else "MISMATCH"))
 
     sides = c.get("laturi_declarate_m")   # {"10": length from 10 to the next vertex, ...}
     if sides:
@@ -405,7 +426,7 @@ def check_area(r):
 def check_fit(r):
     names = list(r["gcp_px"])
     pe, pn = fit_affine(r, names)
-    pts = points_en(r)
+    pts = known_en(r)
     sx = math.hypot(pe[0], pn[0]); rot = math.degrees(math.atan2(pn[0], pe[0]))
     print("fit: %d control points, %.1f px/m, rotation %.2f deg" % (len(names), 1 / sx, rot))
     res = {}
@@ -422,7 +443,7 @@ def check_fit(r):
     return ok, pe, pn, rms, worst
 
 
-def warp(r, pe, pn):
+def warp(r, pe, pn, ring):
     import rasterio
     from rasterio.control import GroundControlPoint
     from rasterio.crs import CRS
@@ -434,7 +455,7 @@ def warp(r, pe, pn):
 
     img = np.array(Image.open(plate_path(r)).convert("RGB"))
     H, W, _ = img.shape
-    pts = points_en(r)
+    pts = known_en(r)
     gcps = [GroundControlPoint(row=y, col=x, x=pts[n][0], y=pts[n][1]) for n, (x, y) in r["gcp_px"].items()]
     src_crs, dst_crs = CRS.from_epsg(3844), CRS.from_epsg(3857)
 
@@ -445,7 +466,7 @@ def warp(r, pe, pn):
         return p[0], p[1]
 
     cut = r.get("decupaj", {})
-    clip = Polygon(ring_en(r)).buffer(cut.get("buffer_m", 1.5), join_style=2)
+    clip = Polygon(ring).buffer(cut.get("buffer_m", 1.5), join_style=2)
     clip_px = shp_transform(to_px, clip)
     for b in cut.get("exclude_px", []):
         clip_px = clip_px.difference(box(*b))
@@ -468,7 +489,6 @@ def warp(r, pe, pn):
     right, bottom = left + w * res, top - h * res
     lons, lats = tr(dst_crs, "EPSG:4326", [left, right], [bottom, top])
     bounds = dict(west=round(lons[0], 7), south=round(lats[0], 7), east=round(lons[1], 7), north=round(lats[1], 7))
-    ring = ring_en(r)
     pl, pa = tr(src_crs, "EPSG:4326", [p[0] for p in ring], [p[1] for p in ring])
     boundary = [[round(a, 7), round(b, 7)] for a, b in zip(pl, pa)]
     merc = dict(left=left, top=top, res=res)
@@ -548,7 +568,10 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
         "imagine": "puz/%s/plansa.webp" % r["id"],
         "bounds": bounds,
         "limita": boundary,
-        "georeferentiere": {"metoda": "inventar de coordonate Stereo70", "puncte": len(r["gcp_px"]), "rms_m": round(rms, 2)},
+        "georeferentiere": {
+            "metoda": ("caroiaj Stereo70, limită trasată pe planșă" if boundary_digitized(r)
+                       else "inventar de coordonate Stereo70"),
+            "puncte": len(r["gcp_px"]), "rms_m": round(rms, 2)},
     }
     if legend is not None:
         legend.save(os.path.join(d, "legenda.webp"), quality=85, method=6)
@@ -570,11 +593,12 @@ def cmd_build(r, args):
         if not os.path.exists(pdf_path(r)):
             cmd_fetch(r, args)
         cmd_render(r, args)
-    ok_area, area = check_area(r)
     ok_fit, pe, pn, rms, worst = check_fit(r)
+    ring = ring_en(r, pe, pn)
+    ok_area, area = check_area(r, ring)
     if not (ok_area and ok_fit) and not args.force:
         sys.exit("quality gate failed - fix the recipe (or --force to build anyway)")
-    overlay, bounds, boundary, merc = warp(r, pe, pn)
+    overlay, bounds, boundary, merc = warp(r, pe, pn, ring)
     legend = legend_image(r)
     print("overlay %dx%d px, bounds %s" % (overlay.width, overlay.height, bounds))
     if not args.no_check:
