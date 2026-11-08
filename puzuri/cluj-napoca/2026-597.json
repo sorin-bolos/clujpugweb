@@ -1,0 +1,62 @@
+{
+  "id": "2026-597",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 597,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-597-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-597.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Clopoțeilor-est",
+  "plansa": {
+    "pagina_pdf": 13,
+    "dpi": 200,
+    "denumire": "A.2 Reglementări urbanistice - zonificare",
+    "scara": "1:250",
+    "nota": "Pagina 6 e aceeași planșă, dar scanată mult mai slab; tabelul de coordonate e lizibil doar pe pagina 13."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate (Teren), planșa A.2, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": 2447,
+    "puncte": {
+      "10": [590806.691, 396702.593],
+      "11": [590806.800, 396719.070],
+      "12": [590811.840, 396783.970],
+      "13": [590771.358, 396778.662],
+      "14": [590775.718, 396745.407],
+      "15": [590770.121, 396739.456],
+      "16": [590771.998, 396738.455],
+      "17": [590775.726, 396735.289],
+      "18": [590779.114, 396731.094],
+      "19": [590781.321, 396726.414],
+      "20": [590782.538, 396721.500],
+      "21": [590782.682, 396715.784],
+      "22": [590781.546, 396710.508],
+      "23": [590781.152, 396709.253]
+    }
+  },
+  "gcp_px": {
+    "10": [209, 584],
+    "12": [2763, 423],
+    "13": [2597, 1700],
+    "14": [1556, 1560],
+    "15": [1360, 1745],
+    "23": [400, 1387]
+  },
+  "verificare_px": {
+    "11": [726, 583],
+    "19": [963, 1389],
+    "21": [628, 1347],
+    "22": [452, 1378]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [[2425, 1718, 2830, 2330]]
+  },
+  "legenda_px": [[143, 1793, 662, 2322]],
+  "utr": [
+    {"cod": "Liu*", "denumire": "Locuințe individuale", "pot_max": "35%", "cut_max": "0,9"}
+  ]
+}

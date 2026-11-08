@@ -1,0 +1,91 @@
+[
+ {
+  "id": "2026-597",
+  "localitate": "cluj",
+  "hcl": "597/2026",
+  "data": "2026-09-04",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Clopoțeilor-est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-597-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-597.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe individuale",
+    "pot_max": "35%",
+    "cut_max": "0,9"
+   }
+  ],
+  "suprafata_m2": 2447,
+  "imagine": "puz/2026-597/plansa.webp",
+  "bounds": {
+   "west": 23.6447308,
+   "south": 46.8084915,
+   "east": 23.6458558,
+   "north": 46.8089167
+  },
+  "limita": [
+   [
+    23.6447577,
+    46.8088429
+   ],
+   [
+    23.6449736,
+    46.8088464
+   ],
+   [
+    23.6458227,
+    46.8089017
+   ],
+   [
+    23.6457623,
+    46.8085368
+   ],
+   [
+    23.6453256,
+    46.8085709
+   ],
+   [
+    23.6452489,
+    46.8085196
+   ],
+   [
+    23.6452354,
+    46.8085363
+   ],
+   [
+    23.6451931,
+    46.8085694
+   ],
+   [
+    23.6451373,
+    46.8085992
+   ],
+   [
+    23.6450755,
+    46.8086183
+   ],
+   [
+    23.6450109,
+    46.8086285
+   ],
+   [
+    23.644936,
+    46.8086289
+   ],
+   [
+    23.6448671,
+    46.8086179
+   ],
+   [
+    23.6448507,
+    46.8086142
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.21
+  },
+  "legenda": "puz/2026-597/legenda.webp"
+ }
+]
