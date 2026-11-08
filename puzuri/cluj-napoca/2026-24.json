@@ -1,0 +1,64 @@
+{
+  "id": "2026-24",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 24,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-24-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/24.pdf"
+  },
+  "titlu": "P.U.Z. – de restructurare urbană, str. Buftea nr. 2 – str. Scorțarilor nr. 26",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 300,
+    "denumire": "U.6 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Singura planșă de reglementări din PDF (Anexa 3; hotărârea o numește „Planșa 01.03”, cartușul scrie U.6). E redusă la A4 și rotită cu 90°. Pagina 16 e Anexa 4, U.8 „Obiective de utilitate publică – circulația terenurilor”, același fond topografic."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "",
+    "suprafata_declarata_m2": 2345.0,
+    "puncte": {},
+    "nota": "OPRIT: nici planșa de reglementări (p. 15), nici cea de circulația terenurilor (p. 16), nici textele (contract, regulament, pp. 1-14) nu au inventar de coordonate. Fondul topografic are cruci de caroiaj Stereo 70 la ~50 m (~770 px la 300 dpi), dar fără nicio etichetă de coordonate: chenarul planului topografic e tăiat. Suprafața: 2345 mp (CF 330345: 1074 mp, CF 330344: 1271 mp), din bilanțul planșei și din Art. 1."
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "Rim_Digger",
+      "denumire": "Zonă mixtă – structură funcțională mixtă (locuire colectivă, funcțiuni terțiare), regim de construire închis",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "22 m la cornișă, 25 m în total ((1-2)S+P+5E+R; ultimul nivel retras cu cel puțin 1,80 m de la fațadă)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-01-20",
+    "verificat": "2026-11-08: Art. 2, șapte ani de la aprobare; nicio hotărâre ulterioară în indexul de titluri P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime: planșa scrie 2S+P+5E+R; hotărârea dă (1-2)S+P+5E+R (unul sau două subsoluri). Înălțimile (22 m la cornișă, 25 m total), POT 60% și CUT 2,8 sunt aceleași.",
+    "Hotărârea limitează aria construită a nivelurilor de locuit la 50% din suprafața terenului; planșa nu arată această limită."
+  ],
+  "conditii": [
+    "Investitorul transferă gratuit Municipiului un apartament de cel puțin 38 mp utili, finisat, pentru fondul locativ public, în cel mult 6 luni de la recepția clădirii.",
+    "Terenul pentru lărgirea str. Scorțarilor (171,50 mp) și a str. Buftea (175,89 mp), pe tronsoanele de lângă P.U.Z., se amenajează după proiectul autorizat, se dezmembrează, se înscrie în CF ca „drum” și se transferă gratuit în domeniul public înainte de recepția clădirii.",
+    "La faza D.T.A.C. proiectul trece prin Comisia de Estetică Urbană.",
+    "Clădirea se racordează la rețeaua publică de termoficare.",
+    "Parcarea se face în subteran, în parcelă (după Anexa 2 a R.L.U.), cu un singur loc la sol, pentru aprovizionare.",
+    "Toate investițiile sunt suportate de beneficiar."
+  ],
+  "stare": "oprit",
+  "motiv": "Planșa nu are inventar de coordonate, iar crucile caroiajului Stereo70 nu au etichete (chenarul planului topografic e tăiat)."
+}
