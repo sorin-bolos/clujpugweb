@@ -1,0 +1,276 @@
+{
+  "id": "2022-621",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 621,
+    "an": 2022,
+    "data_sedinta": "2022-08-24",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-621-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2022/08/24/HCL-621-din-24.08.2022.pdf"
+  },
+  "titlu": "P.U.Z. – „Spitalul Clinic de Urgență pentru Copii – Cluj-Napoca”, str. Borhanciului",
+  "plansa": {
+    "pagina_pdf": 38,
+    "dpi": 200,
+    "denumire": "P03 Reglementări urbanistice / zonificare",
+    "scara": "1:1000",
+    "nota": "Planșa nu are inventar de coordonate. Are caroiaj Stereo70 cu cruci etichetate la 100 m (Est vertical, Nord orizontal)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate; georeferențiere pe caroiajul Stereo70 (cruci la 100 m, etichetate), limita trasată pe planșă",
+    "suprafata_declarata_m2": 169700,
+    "puncte": {}
+  },
+  "gcp_px": {
+    "C395100_585400": [
+      654,
+      231
+    ],
+    "C395200_585400": [
+      1445,
+      233
+    ],
+    "C395100_585300": [
+      654,
+      1018
+    ],
+    "C395500_585400": [
+      3803,
+      236
+    ],
+    "C395500_585000": [
+      3807,
+      3379
+    ],
+    "C395300_584900": [
+      2224,
+      4161
+    ],
+    "C395100_584900": [
+      650,
+      4161
+    ]
+  },
+  "verificare_px": {
+    "C395200_585300": [
+      1445,
+      1020
+    ],
+    "C395300_585200": [
+      2228,
+      1802
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2840,
+      4796,
+      4630,
+      6505
+    ],
+    [
+      3800,
+      4356,
+      4630,
+      4762
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Is_A*",
+      "denumire": "Instituții și servicii publice și de interes public constituite în ansambluri independente",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "33 m (S+P+5)"
+    },
+    {
+      "cod": "VPr",
+      "denumire": "Zonă verde de protecție față de infrastructura majoră, de protecție sanitară, plantații de stabilizare a versanților și de reconstrucție ecologică",
+      "pot_max": "0%",
+      "cut_max": "0"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic",
+      "pot_max": "1%",
+      "cut_max": "0,01"
+    },
+    {
+      "cod": "Tr",
+      "denumire": "Zonă de circulație rutieră și amenajări aferente"
+    }
+  ],
+  "repere": {
+    "C395100_585400": [
+      585400,
+      395100
+    ],
+    "C395200_585400": [
+      585400,
+      395200
+    ],
+    "C395100_585300": [
+      585300,
+      395100
+    ],
+    "C395200_585300": [
+      585300,
+      395200
+    ],
+    "C395500_585400": [
+      585400,
+      395500
+    ],
+    "C395500_585000": [
+      585000,
+      395500
+    ],
+    "C395300_584900": [
+      584900,
+      395300
+    ],
+    "C395100_584900": [
+      584900,
+      395100
+    ],
+    "C395300_585200": [
+      585200,
+      395300
+    ]
+  },
+  "limita_px": [
+    [
+      4276,
+      162
+    ],
+    [
+      4246,
+      1000
+    ],
+    [
+      4250,
+      1700
+    ],
+    [
+      4290,
+      2400
+    ],
+    [
+      4350,
+      3080
+    ],
+    [
+      4448,
+      4172
+    ],
+    [
+      1900,
+      3782
+    ],
+    [
+      1461,
+      3723
+    ],
+    [
+      1268,
+      3690
+    ],
+    [
+      1139,
+      3529
+    ],
+    [
+      977,
+      3379
+    ],
+    [
+      784,
+      3260
+    ],
+    [
+      631,
+      3169
+    ],
+    [
+      658,
+      3053
+    ],
+    [
+      727,
+      2868
+    ],
+    [
+      784,
+      2650
+    ],
+    [
+      1295,
+      1050
+    ],
+    [
+      1580,
+      936
+    ],
+    [
+      1909,
+      800
+    ],
+    [
+      2091,
+      766
+    ],
+    [
+      2239,
+      732
+    ],
+    [
+      2364,
+      743
+    ],
+    [
+      2477,
+      782
+    ],
+    [
+      2591,
+      823
+    ],
+    [
+      2693,
+      852
+    ],
+    [
+      2818,
+      850
+    ],
+    [
+      2920,
+      818
+    ],
+    [
+      3045,
+      750
+    ],
+    [
+      3182,
+      682
+    ],
+    [
+      3409,
+      577
+    ],
+    [
+      3727,
+      425
+    ],
+    [
+      4023,
+      286
+    ]
+  ]
+}

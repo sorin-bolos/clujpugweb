@@ -89,6 +89,184 @@
   "legenda": "puz/2026-597/legenda.webp"
  },
  {
+  "id": "2022-621",
+  "localitate": "cluj",
+  "hcl": "621/2022",
+  "data": "2022-08-24",
+  "titlu": "P.U.Z. – „Spitalul Clinic de Urgență pentru Copii – Cluj-Napoca”, str. Borhanciului",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-621-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2022/08/24/HCL-621-din-24.08.2022.pdf",
+  "utr": [
+   {
+    "cod": "Is_A*",
+    "denumire": "Instituții și servicii publice și de interes public constituite în ansambluri independente",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "33 m (S+P+5)"
+   },
+   {
+    "cod": "VPr",
+    "denumire": "Zonă verde de protecție față de infrastructura majoră, de protecție sanitară, plantații de stabilizare a versanților și de reconstrucție ecologică",
+    "pot_max": "0%",
+    "cut_max": "0"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic",
+    "pot_max": "1%",
+    "cut_max": "0,01"
+   },
+   {
+    "cod": "Tr",
+    "denumire": "Zonă de circulație rutieră și amenajări aferente"
+   }
+  ],
+  "suprafata_m2": 171938,
+  "imagine": "puz/2022-621/plansa.webp",
+  "bounds": {
+   "west": 23.6249336,
+   "south": 46.7554366,
+   "east": 23.631437,
+   "north": 46.7601416
+  },
+  "limita": [
+   [
+    23.6310068,
+    46.7601158
+   ],
+   [
+    23.6309824,
+    46.7591557
+   ],
+   [
+    23.6310104,
+    46.7583544
+   ],
+   [
+    23.6310981,
+    46.7575538
+   ],
+   [
+    23.6312185,
+    46.7567765
+   ],
+   [
+    23.6314145,
+    46.7555284
+   ],
+   [
+    23.6271703,
+    46.7559208
+   ],
+   [
+    23.6264393,
+    46.755979
+   ],
+   [
+    23.6261177,
+    46.7560126
+   ],
+   [
+    23.6258985,
+    46.7561942
+   ],
+   [
+    23.6256248,
+    46.7563625
+   ],
+   [
+    23.6253006,
+    46.7564946
+   ],
+   [
+    23.6250437,
+    46.7565956
+   ],
+   [
+    23.625085,
+    46.756729
+   ],
+   [
+    23.625194,
+    46.7569422
+   ],
+   [
+    23.625282,
+    46.757193
+   ],
+   [
+    23.6260819,
+    46.7590358
+   ],
+   [
+    23.6265519,
+    46.7591723
+   ],
+   [
+    23.6270942,
+    46.7593351
+   ],
+   [
+    23.6273955,
+    46.7593779
+   ],
+   [
+    23.6276404,
+    46.7594199
+   ],
+   [
+    23.6278483,
+    46.75941
+   ],
+   [
+    23.6280372,
+    46.7593677
+   ],
+   [
+    23.6282279,
+    46.7593232
+   ],
+   [
+    23.6283982,
+    46.7592922
+   ],
+   [
+    23.6286058,
+    46.7592971
+   ],
+   [
+    23.6287742,
+    46.7593359
+   ],
+   [
+    23.6289798,
+    46.7594165
+   ],
+   [
+    23.6292053,
+    46.7594972
+   ],
+   [
+    23.6295792,
+    46.7596223
+   ],
+   [
+    23.6301028,
+    46.759803
+   ],
+   [
+    23.6305903,
+    46.7599685
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 7,
+   "rms_m": 0.31
+  },
+  "legenda": "puz/2022-621/legenda.webp"
+ },
+ {
   "id": "2020-4",
   "localitate": "cluj",
   "hcl": "4/2020",
