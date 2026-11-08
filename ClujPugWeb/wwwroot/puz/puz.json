@@ -89,6 +89,103 @@
   "legenda": "puz/2026-597/legenda.webp"
  },
  {
+  "id": "2023-604",
+  "localitate": "cluj",
+  "hcl": "604/2023",
+  "data": "2023-07-12",
+  "titlu": "P.U.Z. – de urbanizare, Colonia Sopor – nord",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-604-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/08/01/HCL-604.pdf",
+  "utr": [
+   {
+    "cod": "Lid*",
+    "denumire": "Zonă de locuințe individuale (parcelă minimă 300 m²)",
+    "pot_max": "20%",
+    "cut_max": "0,4"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Spațiu verde amenajat"
+   }
+  ],
+  "suprafata_m2": 9502,
+  "imagine": "puz/2023-604/plansa.webp",
+  "bounds": {
+   "west": 23.6522114,
+   "south": 46.7421944,
+   "east": 23.6547292,
+   "north": 46.7431079
+  },
+  "limita": [
+   [
+    23.6546762,
+    46.743074
+   ],
+   [
+    23.6523094,
+    46.7430656
+   ],
+   [
+    23.6524238,
+    46.7430416
+   ],
+   [
+    23.652526,
+    46.7430201
+   ],
+   [
+    23.6525809,
+    46.7429796
+   ],
+   [
+    23.6527725,
+    46.7427668
+   ],
+   [
+    23.6528855,
+    46.7426684
+   ],
+   [
+    23.6529109,
+    46.7426513
+   ],
+   [
+    23.6532894,
+    46.7423967
+   ],
+   [
+    23.6535366,
+    46.7422306
+   ],
+   [
+    23.6537739,
+    46.7424592
+   ],
+   [
+    23.6539535,
+    46.7423776
+   ],
+   [
+    23.6541314,
+    46.7422995
+   ],
+   [
+    23.6545686,
+    46.7429211
+   ],
+   [
+    23.6545756,
+    46.742931
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.33
+  },
+  "legenda": "puz/2023-604/legenda.webp"
+ },
+ {
   "id": "2022-621",
   "localitate": "cluj",
   "hcl": "621/2022",
