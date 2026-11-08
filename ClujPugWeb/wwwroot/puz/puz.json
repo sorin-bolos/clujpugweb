@@ -1015,6 +1015,307 @@
   ]
  },
  {
+  "id": "2021-24",
+  "localitate": "cluj",
+  "hcl": "24/2021",
+  "data": "2021-01-20",
+  "titlu": "P.U.Z. de urbanizare – str. Romul Ladea–str. Cezar Bolliac",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-24-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/2021/02/10/HCL-nr.-24-din-20-01-2021-PUZ-de-urbanizare-str-Romul-Ladea-str.-Cezar-Bolliac.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban – unifamiliale și familiale (cel mult două unități locative), izolat, cuplat sau înșiruit",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras (trei niveluri supraterane: S+P+E+M, S+P+E+R, D+P+M, D+P+R)"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice sau de interes public (sănătate, învățământ și cercetare) – dotare de cartier",
+    "pot_max": "75%",
+    "cut_max": "2,8",
+    "h_max": "16 m (2S+P+2E+R)"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+    "h_max": "9 m la cornișă ((D)+P+E)"
+   }
+  ],
+  "suprafata_m2": 38869,
+  "imagine": "puz/2021-24/plansa.webp",
+  "bounds": {
+   "west": 23.6275617,
+   "south": 46.7489509,
+   "east": 23.6312471,
+   "north": 46.751694
+  },
+  "limita": [
+   [
+    23.6295934,
+    46.7516562
+   ],
+   [
+    23.6296664,
+    46.7516135
+   ],
+   [
+    23.6297314,
+    46.7515743
+   ],
+   [
+    23.6298159,
+    46.751525
+   ],
+   [
+    23.6298323,
+    46.7515147
+   ],
+   [
+    23.629963,
+    46.7514391
+   ],
+   [
+    23.6300609,
+    46.7513835
+   ],
+   [
+    23.6301051,
+    46.7513573
+   ],
+   [
+    23.6301585,
+    46.7513187
+   ],
+   [
+    23.6302919,
+    46.7512459
+   ],
+   [
+    23.6303523,
+    46.7512907
+   ],
+   [
+    23.6303783,
+    46.7512781
+   ],
+   [
+    23.6305167,
+    46.7511921
+   ],
+   [
+    23.6305754,
+    46.7511529
+   ],
+   [
+    23.6305037,
+    46.7510875
+   ],
+   [
+    23.6306633,
+    46.7509971
+   ],
+   [
+    23.6307679,
+    46.7509394
+   ],
+   [
+    23.6308585,
+    46.7508824
+   ],
+   [
+    23.6309759,
+    46.7508108
+   ],
+   [
+    23.6310657,
+    46.7507558
+   ],
+   [
+    23.631177,
+    46.7506873
+   ],
+   [
+    23.6295153,
+    46.7492523
+   ],
+   [
+    23.6293647,
+    46.7491275
+   ],
+   [
+    23.6293126,
+    46.7490869
+   ],
+   [
+    23.6292159,
+    46.7490242
+   ],
+   [
+    23.6291419,
+    46.7489876
+   ],
+   [
+    23.6291107,
+    46.7490135
+   ],
+   [
+    23.6290005,
+    46.7491238
+   ],
+   [
+    23.6289358,
+    46.7491975
+   ],
+   [
+    23.6289254,
+    46.7492058
+   ],
+   [
+    23.6288981,
+    46.7492323
+   ],
+   [
+    23.6288325,
+    46.7493019
+   ],
+   [
+    23.6287912,
+    46.7493367
+   ],
+   [
+    23.628753,
+    46.749375
+   ],
+   [
+    23.6286049,
+    46.7495018
+   ],
+   [
+    23.6285595,
+    46.7495289
+   ],
+   [
+    23.6284797,
+    46.7495791
+   ],
+   [
+    23.6283868,
+    46.7496371
+   ],
+   [
+    23.6283524,
+    46.7496616
+   ],
+   [
+    23.6282399,
+    46.7497324
+   ],
+   [
+    23.6280855,
+    46.7498213
+   ],
+   [
+    23.6280316,
+    46.7498531
+   ],
+   [
+    23.6278953,
+    46.7499327
+   ],
+   [
+    23.627884,
+    46.7499431
+   ],
+   [
+    23.6278297,
+    46.7499764
+   ],
+   [
+    23.6277626,
+    46.7500167
+   ],
+   [
+    23.6276287,
+    46.7500959
+   ],
+   [
+    23.6278729,
+    46.7502903
+   ],
+   [
+    23.6280077,
+    46.7503974
+   ],
+   [
+    23.6283598,
+    46.750674
+   ],
+   [
+    23.6286053,
+    46.7508669
+   ],
+   [
+    23.6288452,
+    46.7510579
+   ],
+   [
+    23.6290318,
+    46.7512037
+   ],
+   [
+    23.6292225,
+    46.7513553
+   ],
+   [
+    23.6293335,
+    46.7514433
+   ],
+   [
+    23.6294292,
+    46.7515236
+   ],
+   [
+    23.6294572,
+    46.7515477
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.19
+  },
+  "legenda": "puz/2021-24/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-01-20",
+   "initial_pana_la": "2026-01-20",
+   "prelungiri": [
+    {
+     "hcl": "514/2025",
+     "pana_la": "2029-01-20",
+     "nota": "HCL 514 din 4 august 2025 prelungește valabilitatea cu 3 ani; termenul e socotit de la expirarea inițială, 20.01.2026."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "S_Is* (dotare de cartier): planșa scrie regim 1-3S+P+2+R, POT 75% și CUT 2,0; hotărârea stabilește regim 2S+P+2E+R, H max. 16 m, POT max. 75% și CUT max. 2,8 (la fel și regulamentul din Anexa 2).",
+   "Liu*: pe loturi planșa scrie doar regimul (S)+P+E+M sau DS+P+M; hotărârea permite și S+P+E+R și D+P+R (cu nivel retras) și limitează înălțimea la 8 m la cornișă și 12 m la coamă sau la aticul retras. Planșa nu dă POT/CUT pentru Liu*; hotărârea stabilește POT 35% și CUT 0,9."
+  ],
+  "conditii": [
+   "Autorizațiile de construire (în afară de cele pentru rețele) se emit doar după ce Primăria reamenajează și lărgește intersecția Constantin Brâncuși–Fagului–Romul Ladea, prin care se ajunge din Gheorgheni la teren, dar nu mai târziu de 2026.",
+   "Terenul pentru lărgirea str. Romul Ladea la profilul de 18 m (III.B) se dezmembrează din parcele, se înscrie în CF ca „drum” și se asfaltează la fel ca strada, înainte de autorizarea parcelelor cu acces direct din ea.",
+   "Terenul pentru lărgirea str. Cezar Bolliac la 15 m (III.F) și pentru strada nouă C (15 m) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele; strada C și tronsonul din str. Cezar Bolliac de lângă P.U.Z. se echipează edilitar, cu iluminat, și se asfaltează (strat de uzură) înainte de autorizarea parcelelor cu acces din ele, pe baza unui proiect tehnic.",
+   "Străzile noi A, B și D (12 m, III.H) și aleile E, F și G (6 m, IV.2) se înscriu în CF ca „drum”, se echipează edilitar, cu iluminat, și se asfaltează (strat de uzură) înainte de autorizarea parcelelor cu acces direct din ele.",
+   "Pe străzile de 12 m și 15 m se plantează arbori de aliniament: cel puțin 70, cu circumferința de 35 cm la 1 m de colet, până la recepția clădirilor.",
+   "Spațiile verzi cu acces public nelimitat se amenajează, pe baza unui proiect de specialitate, înainte de recepția clădirilor de pe strada C.",
+   "Toate investițiile sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2020-4",
   "localitate": "cluj",
   "hcl": "4/2020",

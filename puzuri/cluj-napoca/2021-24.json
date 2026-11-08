@@ -1,0 +1,433 @@
+{
+  "id": "2021-24",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 24,
+    "an": 2021,
+    "data_sedinta": "2021-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-24-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/02/10/HCL-nr.-24-din-20-01-2021-PUZ-de-urbanizare-str-Romul-Ladea-str.-Cezar-Bolliac.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – str. Romul Ladea–str. Cezar Bolliac",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 150,
+    "denumire": "U4 Plan de situație - Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Pagina 4 e aceeași planșă (Anexa 1, semnată de arhitectul-șef), dar redusă la A4 și alb-negru; pagina 17 e planșa color la format mare."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Mun. Cluj-Napoca, PUZ str. Romul Ladea, X(Nord) / Y(Est)",
+    "suprafata_declarata_m2": 38751.0,
+    "puncte": {
+      "114": [
+        584251.169,
+        395336.749
+      ],
+      "118": [
+        584241.829,
+        395346.312
+      ],
+      "119": [
+        584248.398,
+        395339.33
+      ],
+      "120": [
+        584175.225,
+        395395.76
+      ],
+      "121": [
+        584178.144,
+        395393.421
+      ],
+      "124": [
+        584179.192,
+        395401.481
+      ],
+      "126": [
+        584202.741,
+        395377.604
+      ],
+      "127": [
+        584198.822,
+        395380.419
+      ],
+      "128": [
+        584199.761,
+        395379.639
+      ],
+      "134": [
+        584190.545,
+        395385.221
+      ],
+      "172": [
+        584214.477,
+        395369.636
+      ],
+      "173": [
+        584210.556,
+        395372.725
+      ],
+      "204": [
+        584236.152,
+        395352.313
+      ],
+      "206": [
+        584233.074,
+        395355.728
+      ],
+      "207": [
+        584218.791,
+        395366.795
+      ],
+      "313": [
+        584375.411,
+        395539.357
+      ],
+      "314": [
+        584383.525,
+        395530.534
+      ],
+      "317": [
+        584389.981,
+        395523.716
+      ],
+      "319": [
+        584396.528,
+        395515.844
+      ],
+      "321": [
+        584406.789,
+        395503.824
+      ],
+      "322": [
+        584413.967,
+        395509.424
+      ],
+      "323": [
+        584418.398,
+        395505.016
+      ],
+      "381": [
+        584186.027,
+        395408.987
+      ],
+      "382": [
+        584190.471,
+        395413.046
+      ],
+      "384": [
+        584204.139,
+        395424.792
+      ],
+      "470": [
+        584361.425,
+        395554.485
+      ],
+      "481": [
+        584369.184,
+        395546.112
+      ],
+      "539": [
+        584440.271,
+        395470.567
+      ],
+      "540": [
+        584437.298,
+        395473.893
+      ],
+      "544": [
+        584432.945,
+        395477.899
+      ],
+      "545": [
+        584424.675,
+        395487.953
+      ],
+      "546": [
+        584429.573,
+        395492.651
+      ],
+      "547": [
+        584428.138,
+        395494.609
+      ],
+      "548": [
+        584446.576,
+        395463.197
+      ],
+      "549": [
+        584455.155,
+        395453.363
+      ],
+      "556": [
+        584461.908,
+        395445.766
+      ],
+      "557": [
+        584456.324,
+        395452.125
+      ],
+      "563": [
+        584438.244,
+        395406.471
+      ],
+      "566": [
+        584447.874,
+        395415.119
+      ],
+      "567": [
+        584456.681,
+        395422.586
+      ],
+      "568": [
+        584459.318,
+        395424.773
+      ],
+      "570": [
+        584466.356,
+        395440.875
+      ],
+      "571": [
+        584471.193,
+        395435.385
+      ],
+      "602": [
+        584421.654,
+        395391.614
+      ],
+      "604": [
+        584405.7,
+        395377.083
+      ],
+      "613": [
+        584384.785,
+        395358.387
+      ],
+      "614": [
+        584363.668,
+        395339.264
+      ],
+      "637": [
+        584333.398,
+        395311.833
+      ],
+      "638": [
+        584321.676,
+        395301.326
+      ],
+      "639": [
+        584300.4,
+        395282.301
+      ],
+      "640": [
+        584291.411,
+        395292.374
+      ],
+      "645": [
+        584281.901,
+        395302.35
+      ],
+      "651": [
+        584283.072,
+        395301.507
+      ],
+      "652": [
+        584286.848,
+        395297.425
+      ],
+      "703": [
+        584259.192,
+        395328.29
+      ],
+      "706": [
+        584269.267,
+        395316.664
+      ],
+      "707": [
+        584272.881,
+        395312.612
+      ]
+    },
+    "ordine": [
+      "571",
+      "570",
+      "556",
+      "557",
+      "549",
+      "548",
+      "539",
+      "540",
+      "544",
+      "545",
+      "546",
+      "547",
+      "323",
+      "322",
+      "321",
+      "319",
+      "317",
+      "314",
+      "313",
+      "481",
+      "470",
+      "384",
+      "382",
+      "381",
+      "124",
+      "120",
+      "121",
+      "134",
+      "127",
+      "128",
+      "126",
+      "173",
+      "172",
+      "207",
+      "206",
+      "204",
+      "118",
+      "119",
+      "114",
+      "703",
+      "706",
+      "707",
+      "645",
+      "651",
+      "652",
+      "640",
+      "639",
+      "638",
+      "637",
+      "614",
+      "613",
+      "604",
+      "602",
+      "563",
+      "566",
+      "567",
+      "568"
+    ],
+    "nota": "Tabelul e ordonat după număr, nu pe contur; 'ordine' urmează conturul. Planșa nu dă laturi sau perimetru. Suprafața declarată e cea din bilanțul teritorial (38751 m²; nota planșei spune 38752 m²); din coordonate ies 38869 m² (+0,3%). Punctele sunt puncte topo (cotă + număr), iar cotele de pe planșă se potrivesc cu tabelul (571: 352.14, 546: 355.03, 544: 354.57, 481: 352.42, 707: 365.23). Linia roșie punctată a planșei e trasă de mână peste ele și nu urmează inventarul peste tot: la colțul de est (str. Cezar Bolliac) inventarul merge pe limita cadastrală 313-481-470, iar linia roșie face o retragere de ~11 m, lăsând afară ~230 m²; pe latura de SE, lângă colț, linia roșie e cu 2-3 m în afara inventarului; la colțul de sud (120-121-134) e cu 2-3 m înăuntru. Pe restul conturului diferența e sub 1 m. Punctele de control sunt punctele topo vizibile (322, 546, 544), capetele liniilor de hotar vecine (639, 638, 614, 613, 604, 637) și poziția dată de etichete (571, 384, 707, 703); 120 și 470 nu au semn lizibil."
+  },
+  "gcp_px": {
+    "571": [
+      2031,
+      232
+    ],
+    "639": [
+      214,
+      2235
+    ],
+    "322": [
+      2892,
+      916
+    ],
+    "546": [
+      2703,
+      727
+    ],
+    "384": [
+      1877,
+      3386
+    ]
+  },
+  "verificare_px": {
+    "544": [
+      2530,
+      684
+    ],
+    "638": [
+      442,
+      1986
+    ],
+    "614": [
+      886,
+      1493
+    ],
+    "613": [
+      1116,
+      1241
+    ],
+    "604": [
+      1338,
+      999
+    ],
+    "637": [
+      570,
+      1849
+    ],
+    "707": [
+      569,
+      2562
+    ],
+    "703": [
+      755,
+      2725
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      88,
+      4128,
+      824,
+      4882
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban – unifamiliale și familiale (cel mult două unități locative), izolat, cuplat sau înșiruit",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras (trei niveluri supraterane: S+P+E+M, S+P+E+R, D+P+M, D+P+R)"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice sau de interes public (sănătate, învățământ și cercetare) – dotare de cartier",
+      "pot_max": "75%",
+      "cut_max": "2,8",
+      "h_max": "16 m (2S+P+2E+R)"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat",
+      "pot_max": "5%",
+      "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+      "h_max": "9 m la cornișă ((D)+P+E)"
+    }
+  ],
+  "prelungiri": [
+    {
+      "hcl": "514/2025",
+      "pana_la": "2029-01-20",
+      "nota": "HCL 514 din 4 august 2025 prelungește valabilitatea cu 3 ani; termenul e socotit de la expirarea inițială, 20.01.2026."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "S_Is* (dotare de cartier): planșa scrie regim 1-3S+P+2+R, POT 75% și CUT 2,0; hotărârea stabilește regim 2S+P+2E+R, H max. 16 m, POT max. 75% și CUT max. 2,8 (la fel și regulamentul din Anexa 2).",
+    "Liu*: pe loturi planșa scrie doar regimul (S)+P+E+M sau DS+P+M; hotărârea permite și S+P+E+R și D+P+R (cu nivel retras) și limitează înălțimea la 8 m la cornișă și 12 m la coamă sau la aticul retras. Planșa nu dă POT/CUT pentru Liu*; hotărârea stabilește POT 35% și CUT 0,9."
+  ],
+  "conditii": [
+    "Autorizațiile de construire (în afară de cele pentru rețele) se emit doar după ce Primăria reamenajează și lărgește intersecția Constantin Brâncuși–Fagului–Romul Ladea, prin care se ajunge din Gheorgheni la teren, dar nu mai târziu de 2026.",
+    "Terenul pentru lărgirea str. Romul Ladea la profilul de 18 m (III.B) se dezmembrează din parcele, se înscrie în CF ca „drum” și se asfaltează la fel ca strada, înainte de autorizarea parcelelor cu acces direct din ea.",
+    "Terenul pentru lărgirea str. Cezar Bolliac la 15 m (III.F) și pentru strada nouă C (15 m) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele; strada C și tronsonul din str. Cezar Bolliac de lângă P.U.Z. se echipează edilitar, cu iluminat, și se asfaltează (strat de uzură) înainte de autorizarea parcelelor cu acces din ele, pe baza unui proiect tehnic.",
+    "Străzile noi A, B și D (12 m, III.H) și aleile E, F și G (6 m, IV.2) se înscriu în CF ca „drum”, se echipează edilitar, cu iluminat, și se asfaltează (strat de uzură) înainte de autorizarea parcelelor cu acces direct din ele.",
+    "Pe străzile de 12 m și 15 m se plantează arbori de aliniament: cel puțin 70, cu circumferința de 35 cm la 1 m de colet, până la recepția clădirilor.",
+    "Spațiile verzi cu acces public nelimitat se amenajează, pe baza unui proiect de specialitate, înainte de recepția clădirilor de pe strada C.",
+    "Toate investițiile sunt suportate de beneficiari."
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-01-20",
+    "verificat": "2026-11-08: prelungită prin HCL 514/2025; nicio hotărâre care să o modifice în indexul de titluri P.U.Z. (actualizat 2026-11-08)"
+  },
+  "hotarare_text": "PDF, paginile 1-3 (scanate): pagina hotărârii de pe site nu are text, iar documente/2021-24/hotarare.txt conține doar adresa sursei."
+}
