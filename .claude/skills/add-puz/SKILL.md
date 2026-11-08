@@ -78,8 +78,11 @@ where `<id>` is `<an>-<nr>`.
      `limita_px` on the boundary line, and take the area from the balance table
      (README, "Plates without a coordinate inventory").
    - **Grid crosses without labels.** Follow "Unlabelled grids" below, and trace
-     `limita_px` if there is no inventory either.
-   - **Neither coordinates nor grid crosses.** Stop.
+     `limita_px` if there is no inventory either. First make sure the crosses
+     belong to the drawing: if the PDF has another plate on the same base map,
+     the crosses must move with the drawing.
+   - **No usable coordinates at all** (illegible table, crosses not tied to the
+     drawing, nothing printed): follow "OpenStreetMap control points" below.
    - **Check before going on.** Run `build --dry-run --no-check`. The area, the
      side lengths and the perimeter must pass. A failed side points at a misread
      vertex: re-read that row, zooming harder. If a digit is hidden, solve it from
@@ -197,12 +200,42 @@ good to under half a step, fixes every label:
    whole plate shifted by one step against roads and buildings. Fix the anchor and
    redo it. Say in `coordonate.sursa` that the grid was labelled this way.
 
+## OpenStreetMap control points
+
+The fallback when the plate has no usable coordinates. The result is published as
+approximate (±3-5 m), and the info window says so.
+
+1. Set `"georef_metoda": "osm"`. The fit becomes a similarity and the residual
+   gate 5 m.
+2. **Anchor.**
+   - Run `geocode --streets "<A>" "<B>"` for two streets meeting on the plate, and
+     pick the same centreline crossing on the plate.
+   - Measure `px_per_m` on a dimension line and read `nord` off the north arrow
+     (degrees clockwise from up).
+   - Set `osm_ancora` = `{px: [x, y], en: [E, N], px_per_m, nord}`.
+3. **Overlay.** Run `osm`. OSM streets and buildings should land near the drawn
+   ones. If they are rotated or scaled wrong, fix `nord` or `px_per_m`.
+4. **Control points.** Pick 4-8 points spread over the plate:
+   - existing buildings' corners drawn on the plate, and street crossings;
+   - never proposed buildings, never stamps or text.
+
+   For each, read its pixel position with `grid` or `vertices`, then run
+   `osm-snap NAME x y --write` (`--check` for check points). Read what it snapped
+   to: a corner of the same building, the same crossing. If two candidates are
+   close, look at `osm` again and use `--pick N`. After the first two points the
+   fit replaces the anchor: run `osm` again to see it tighten.
+5. **Boundary.** Trace `limita_px` (unless an inventory is legible). The area
+   comes from the balance table, with a 3% tolerance.
+6. **Build and imagery check** as usual. Put the method and the points used in
+   `coordonate.sursa`.
+
 ## When to stop instead
 
 Stop without building if any of these holds, and report what you saw:
 
 - there is no plate in the PDF, and the decision amends no PUZ;
-- there are no coordinates and no grid crosses at all;
+- not even the OpenStreetMap method works: no existing street or building on the
+  plate can be matched to OSM;
 - the coordinate table is illegible where it matters and the checks cannot
   settle it;
 - the quality gates fail and re-picking does not fix them;

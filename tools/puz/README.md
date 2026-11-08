@@ -154,6 +154,29 @@ The imagery check confirms: a wrong label shows as the whole plate shifted by on
 step. Tested on HCL 621/2022's labelled crosses, with an anchor off by up to 46 m on
 a 100 m grid, it recovered all six labels.
 
+## Plates without usable coordinates: OpenStreetMap control points
+
+When a plate's coordinates cannot be used, its streets and buildings are still drawn
+to scale. That happens when the table is illegible in a reduced scan (754/2021), or
+when the crosses belong to the sheet template and not to the drawing (24/2026: they
+sit in the same places on two plates whose drawings are offset). OpenStreetMap has
+the same streets and buildings, good to a few metres:
+
+- `"georef_metoda": "osm"` switches the fit to a similarity (scale, rotation,
+  shift) and the residual gate to 5 m;
+- `osm_ancora` = `{px, en, px_per_m, nord}` gives a first placement: one street
+  crossing from `geocode`, the scale from a dimension line, and the north arrow;
+- `osm [x0 y0 x1 y1]` draws OSM streets (green), buildings (red) and street
+  crossings (magenta) over the plate, from the anchor or from the current fit;
+- `osm-snap NAME x y --write` takes a corner picked on the plate and stores the
+  nearest OSM building corner or street crossing as a control point (`--check`
+  for a check point). It warns when two candidates are too close to tell apart.
+
+Use 4-8 points spread over the plate. Buildings that exist both on the plate and
+in OSM are best; drawn proposed buildings don't exist yet. The boundary is traced
+(`limita_px`) unless an inventory is legible. The published entry is marked
+approximate, with a precision of at least 3 m, and the info window says so.
+
 ## Amending decisions
 
 A decision may amend an earlier PUZ ("Modificare P.U.Z. aprobat prin Hotărârea nr.

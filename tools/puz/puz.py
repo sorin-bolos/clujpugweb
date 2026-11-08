@@ -17,6 +17,8 @@ is derived from it and can be rebuilt at any time:
     py -3.13 tools/puz/puz.py related  puzuri/cluj-napoca/2026-597.json   # later decisions extending/amending it
     py -3.13 tools/puz/puz.py geocode  --streets "Buftea" "Scor.arilor"   # rough position, for unlabelled grids
     py -3.13 tools/puz/puz.py caroiaj  puzuri/cluj-napoca/2026-24.json [--write]   # label unlabelled grid crosses
+    py -3.13 tools/puz/puz.py osm      puzuri/cluj-napoca/2026-24.json [x0 y0 x1 y1]  # OSM drawn over the plate
+    py -3.13 tools/puz/puz.py osm-snap puzuri/cluj-napoca/2026-24.json NAME x y [--write]  # OSM control point
     py -3.13 tools/puz/puz.py build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
 
 The decision's documents are kept as a backup in puzuri/<localitate>/documente/<id>/
@@ -58,6 +60,9 @@ AREA_TOLERANCE = 0.01          # relative
 # 1 m or 4 plate pixels, whichever is larger: 1 m at 1:250-1:1000, ~1.3 m at 1:2500.
 MAX_RESIDUAL_M = 1.0
 MAX_RESIDUAL_PX = 4
+# Control points from OpenStreetMap: street centrelines and building outlines are
+# good to a few metres, and the result is published as approximate.
+MAX_RESIDUAL_OSM_M = 5.0
 OUTPUT_RES_3857 = 0.07         # metres (EPSG:3857 units) per output pixel, ~z21
 
 Image.MAX_IMAGE_PIXELS = None
@@ -479,6 +484,166 @@ def cmd_caroiaj(r, args):
         print("written to repere and gcp_px")
 
 
+# --- OpenStreetMap control points ---------------------------------------------------
+# When a plate has no usable coordinates - an illegible table (754/2021), crosses that
+# belong to the sheet rather than the drawing (24/2026) - its streets and buildings are
+# still drawn to scale. OSM has the same streets and buildings, good to a few metres.
+# `osm` draws OSM over the plate from a rough anchor or the current fit; `osm-snap`
+# turns a corner picked on the plate into a control point at the nearest OSM building
+# corner or street crossing. The fit is a similarity and the result is published as
+# approximate (MAX_RESIDUAL_OSM_M).
+
+def plate_transform(r):
+    """(pe, pn) for pixel -> Stereo70: from the control points once there are enough
+    (2 for the OSM similarity, 3 otherwise), else from `osm_ancora` = {px, en,
+    px_per_m, nord}."""
+    names = list(r.get("gcp_px", {}))
+    if len(names) >= (2 if osm_method(r) else 3):
+        return fit_affine(r, names)
+    a = r.get("osm_ancora") or sys.exit("need `osm_ancora` {px, en, px_per_m, nord} or two control points")
+    t = math.radians(float(a.get("nord", 0))); s = float(a["px_per_m"])
+    uN = (math.sin(t), -math.cos(t)); uE = (math.sin(t + math.pi / 2), -math.cos(t + math.pi / 2))
+    (ax, ay), (aE, aN) = a["px"], a["en"]
+    pe = np.array([uE[0] / s, uE[1] / s, aE - (ax * uE[0] + ay * uE[1]) / s])
+    pn = np.array([uN[0] / s, uN[1] / s, aN - (ax * uN[0] + ay * uN[1]) / s])
+    return pe, pn
+
+
+def ground_to_px(pe, pn):
+    M = np.array([[pe[0], pe[1]], [pn[0], pn[1]]]); t = np.array([pe[2], pn[2]]); Mi = np.linalg.inv(M)
+    return lambda E, N: tuple(Mi @ (np.array([E, N]) - t))
+
+
+def overpass(query, tries=4):
+    import time
+    for k in range(tries):
+        try:
+            req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({"data": query}).encode(), headers=UA)
+            return json.loads(urllib.request.urlopen(req, timeout=120).read().decode("utf-8"))
+        except Exception as e:
+            print("Overpass: %s%s" % (e, " - retrying" if k < tries - 1 else ""))
+            time.sleep(10 * (k + 1))
+    sys.exit("Overpass unavailable - try again later")
+
+
+def osm_features(r, center, radius):
+    """Buildings and streets around a Stereo 70 point, cached in puz_cache/<id>/osm.json."""
+    from pyproj import Transformer
+    path = os.path.join(cache_dir(r), "osm.json")
+    if os.path.exists(path):
+        with open(path, encoding="utf-8") as f:
+            cached = json.load(f)
+        if math.dist(cached["center"], center) + radius <= cached["radius"] + 1:
+            return cached
+    lon, lat = Transformer.from_crs(3844, 4326, always_xy=True).transform(*center)
+    q = ('[out:json][timeout:90];(way["building"](around:{r},{la},{lo});way["highway"](around:{r},{la},{lo}););'
+         'out tags geom;').format(r=int(radius), la=lat, lo=lon)
+    data = overpass(q)
+    feats = {"center": list(center), "radius": radius, "buildings": [], "streets": []}
+    for el in data.get("elements", []):
+        pts = [list(to_stereo70(p["lon"], p["lat"])) for p in el.get("geometry", [])]
+        tags = el.get("tags", {})
+        if "building" in tags and len(pts) >= 3:
+            feats["buildings"].append({"id": el["id"], "pts": pts})
+        elif "highway" in tags and len(pts) >= 2:
+            feats["streets"].append({"id": el["id"], "name": tags.get("name", ""), "kind": tags["highway"], "pts": pts})
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(feats, f)
+    print("OSM: %d buildings, %d street segments within %d m" % (len(feats["buildings"]), len(feats["streets"]), radius))
+    return feats
+
+
+def osm_candidates(feats):
+    """Points a control point can snap to: building corners and street crossings."""
+    from shapely.geometry import LineString
+    cands = []
+    for b in feats["buildings"]:
+        for k, p in enumerate(b["pts"][:-1] if b["pts"][0] == b["pts"][-1] else b["pts"]):
+            cands.append(("b%d_%d" % (b["id"], k), p, "colț de clădire"))
+    named = [s for s in feats["streets"] if s["kind"] not in ("footway", "path", "steps", "cycleway", "service")]
+    lines = [(s, LineString(s["pts"])) for s in named]
+    for i, (s1, l1) in enumerate(lines):
+        for s2, l2 in lines[i + 1:]:
+            if s1["name"] and s1["name"] == s2["name"]:
+                continue        # consecutive segments of one street
+            inter = l1.intersection(l2)
+            for g in ([inter] if inter.geom_type == "Point" else getattr(inter, "geoms", [])):
+                if g.geom_type == "Point":
+                    cands.append(("x%d_%d" % (s1["id"], s2["id"]), [g.x, g.y],
+                                  "intersecție %s / %s" % (s1["name"] or s1["kind"], s2["name"] or s2["kind"])))
+    # One physical point may come out several times: three streets meeting in a node,
+    # or a corner shared by two buildings. Keep one, listing what meets there.
+    merged = {}
+    for k, p, kind in cands:
+        key = (round(p[0] * 2) / 2, round(p[1] * 2) / 2)
+        if key in merged:
+            mk, mp, mkind = merged[key]
+            if kind.startswith("intersecție") and mkind.startswith("intersecție"):
+                names = sorted(set(mkind[len("intersecție "):].split(" / ") + kind[len("intersecție "):].split(" / ")))
+                merged[key] = (mk, mp, "intersecție " + " / ".join(names))
+        else:
+            merged[key] = (k, p, kind)
+    return list(merged.values())
+
+
+def plate_radius(r, pe, pn):
+    W, H = Image.open(plate_path(r)).size
+    corners = [(pe @ [x, y, 1], pn @ [x, y, 1]) for x, y in ((0, 0), (W, 0), (0, H), (W, H))]
+    c = (pe @ [W / 2, H / 2, 1], pn @ [W / 2, H / 2, 1])
+    return c, min(800.0, max(math.dist(c, k) for k in corners) + 30)
+
+
+def cmd_osm(r, args):
+    pe, pn = plate_transform(r)
+    center, radius = plate_radius(r, pe, pn)
+    feats = osm_features(r, center, radius)
+    to_px = ground_to_px(pe, pn)
+    src = Image.open(plate_path(r))
+    box = (args.x0, args.y0, args.x1, args.y1) if args.x1 else (0, 0, src.width, src.height)
+    s = args.scale or min(1.0, 1500 / max(box[2] - box[0], box[3] - box[1]))
+    im = grid_image(src, None, box, s, args.step).convert("RGB")
+    d = ImageDraw.Draw(im)
+    P = lambda p: ((to_px(*p)[0] - box[0]) * s, (to_px(*p)[1] - box[1]) * s)
+    for st in feats["streets"]:
+        d.line([P(p) for p in st["pts"]], fill=(0, 170, 0), width=2)
+    for b in feats["buildings"]:
+        d.line([P(p) for p in b["pts"]], fill=(220, 0, 0), width=2)
+    for k, p, kind in osm_candidates(feats):
+        if k.startswith("x"):
+            X, Y = P(p); d.ellipse([X - 4, Y - 4, X + 4, Y + 4], outline=(200, 0, 200), width=2)
+    for k, (x, y) in {**r.get("gcp_px", {}), **r.get("verificare_px", {})}.items():
+        X, Y = (x - box[0]) * s, (y - box[1]) * s
+        d.line([(X - 7, Y), (X + 7, Y)], fill=(0, 0, 255), width=2); d.line([(X, Y - 7), (X, Y + 7)], fill=(0, 0, 255), width=2)
+    out = os.path.join(cache_dir(r), "osm_%d_%d.png" % box[:2])
+    im.save(out)
+    print(out, im.size, "- OSM streets green, buildings red, street crossings magenta, control points blue")
+
+
+def cmd_osm_snap(r, args):
+    pe, pn = plate_transform(r)
+    E, N = pe @ [args.x, args.y, 1], pn @ [args.x, args.y, 1]
+    center, radius = plate_radius(r, pe, pn)
+    cands = [(math.dist(p, (E, N)), k, p, kind) for k, p, kind in osm_candidates(osm_features(r, center, radius))]
+    cands = sorted(c for c in cands if c[0] <= args.max and (args.kind == "any" or c[3].startswith(
+        "colț" if args.kind == "building" else "intersecție")))
+    print("pixel (%d, %d) -> E %.1f N %.1f with the current fit" % (args.x, args.y, E, N))
+    for i, (dist, k, p, kind) in enumerate(cands[:6]):
+        print("  [%d] %5.1f m  %-24s %s" % (i, dist, k, kind))
+    if not cands:
+        sys.exit("nothing within %g m - pick a clearer corner, or improve the fit first" % args.max)
+    if len(cands) > 1 and cands[1][0] - cands[0][0] < 1.5 and args.pick is None:
+        print("WARNING: two candidates within 1.5 m of each other - pass --pick N after looking at the overlay")
+        if args.write:
+            sys.exit("not written")
+    if args.write:
+        dist, k, p, kind = cands[args.pick or 0]
+        r.setdefault("repere", {})[args.name] = [round(p[1], 2), round(p[0], 2)]
+        r.setdefault("verificare_px" if args.check else "gcp_px", {})[args.name] = [args.x, args.y]
+        r.setdefault("repere_osm", {})[args.name] = "%s (%s)" % (kind, k)
+        dump_recipe(r, r["_path"])
+        print("written: %s = %s, %s" % (args.name, kind, "check point" if args.check else "control point"))
+
+
 # --- fetch / render ----------------------------------------------------------------
 
 # Linked from every page of primariaclujnapoca.ro, not part of any decision.
@@ -629,10 +794,28 @@ def cmd_grid(r, args):
     print(out, im.size)
 
 
+def osm_method(r):
+    """Control points taken from OpenStreetMap features (street crossings, building
+    corners) instead of coordinates printed on the plate."""
+    return r.get("georef_metoda") == "osm"
+
+
 def fit_affine(r, names):
-    """Least-squares affine pixel -> Stereo70 from the named control points."""
+    """Least-squares pixel -> Stereo70 from the named control points: affine, or for
+    OSM control points a similarity (scale, rotation, shift). A plate's scale is the
+    same in every direction, and with points good only to a few metres an affine
+    fit would turn their noise into shear."""
     pts = known_en(r)
     px = {**r.get("gcp_px", {}), **r.get("verificare_px", {})}
+    if osm_method(r):
+        # E = p*x + q*y + c,  N = q*x - p*y + d  (image y runs down)
+        A, b = [], []
+        for n in names:
+            x, y = px[n]
+            A.append([x, y, 1, 0]); b.append(pts[n][0])
+            A.append([-y, x, 0, 1]); b.append(pts[n][1])
+        p, q, c, d = np.linalg.lstsq(np.array(A, float), np.array(b, float), rcond=None)[0]
+        return np.array([p, q, c]), np.array([q, -p, d])
     A = np.array([[px[n][0], px[n][1], 1.0] for n in names])
     pe = np.linalg.lstsq(A, [pts[n][0] for n in names], rcond=None)[0]
     pn = np.linalg.lstsq(A, [pts[n][1] for n in names], rcond=None)[0]
@@ -780,7 +963,7 @@ def check_fit(r):
     ctrl = [res[n] for n in names]
     rms = math.sqrt(sum(v * v for v in ctrl) / len(ctrl))
     worst = max(res.values())
-    limit = max(MAX_RESIDUAL_M, MAX_RESIDUAL_PX * sx)
+    limit = max(MAX_RESIDUAL_OSM_M if osm_method(r) else MAX_RESIDUAL_M, MAX_RESIDUAL_PX * sx)
     ok = worst <= limit
     print("rms %.2f m, worst %.2f m, limit %.2f m -> %s" % (rms, worst, limit, "OK" if ok else "TOO LARGE"))
     if not ok and len(names) >= 4:
@@ -809,8 +992,10 @@ def warp(r, pe, pn, ring):
 
     img = np.array(Image.open(plate_path(r)).convert("RGB"))
     H, W, _ = img.shape
-    pts = known_en(r)
-    gcps = [GroundControlPoint(row=y, col=x, x=pts[n][0], y=pts[n][1]) for n, (x, y) in r["gcp_px"].items()]
+    # GDAL gets the fitted model itself, as the plate's four corners: it then warps
+    # with exactly the transform the checks judged, affine or similarity alike.
+    gcps = [GroundControlPoint(row=y, col=x, x=float(pe @ [x, y, 1]), y=float(pn @ [x, y, 1]))
+            for x, y in ((0, 0), (W, 0), (0, H), (W, H))]
     src_crs, dst_crs = CRS.from_epsg(3844), CRS.from_epsg(3857)
 
     M = np.array([[pe[0], pe[1]], [pn[0], pn[1]]]); t = np.array([pe[2], pn[2]]); Mi = np.linalg.inv(M)
@@ -923,10 +1108,14 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
         "bounds": bounds,
         "limita": boundary,
         "georeferentiere": {
-            "metoda": ("caroiaj Stereo70, limită trasată pe planșă" if boundary_digitized(r)
+            "metoda": ("repere OpenStreetMap, limită trasată pe planșă" if osm_method(r)
+                       else "caroiaj Stereo70, limită trasată pe planșă" if boundary_digitized(r)
                        else "inventar de coordonate Stereo70"),
             "puncte": len(r["gcp_px"]), "rms_m": round(rms, 2)},
     }
+    if osm_method(r):
+        # OSM's own error comes on top of the fit's: never claim better than 3 m.
+        entry["georeferentiere"].update({"aproximativ": True, "precizie_m": int(round(max(3.0, 2 * rms)))})
     if legend is not None:
         legend.save(os.path.join(d, "legenda.webp"), quality=85, method=6)
         entry["legenda"] = "puz/%s/legenda.webp" % r["id"]
@@ -1016,6 +1205,17 @@ def main():
     g = s.add_mutually_exclusive_group(required=True)
     g.add_argument("--streets", nargs=2, metavar="REGEX", help='two street names meeting on the plate, e.g. "Buftea" "Scor.arilor"')
     g.add_argument("--address", help="an address, e.g. \"Strada Buftea 2, Cluj-Napoca\"")
+    s = sub.add_parser("osm", help="draw OpenStreetMap streets and buildings over the plate")
+    s.add_argument("recipe")
+    for a in ("x0", "y0", "x1", "y1"):
+        s.add_argument(a, type=int, nargs="?", default=None)
+    s.add_argument("--scale", type=float, default=None); s.add_argument("--step", type=int, default=100)
+    s = sub.add_parser("osm-snap", help="control point at the OSM corner/crossing nearest a picked plate pixel")
+    s.add_argument("recipe"); s.add_argument("name"); s.add_argument("x", type=int); s.add_argument("y", type=int)
+    s.add_argument("--max", type=float, default=6.0, help="metres to search around the predicted position")
+    s.add_argument("--kind", choices=("any", "building", "street"), default="any")
+    s.add_argument("--pick", type=int, default=None); s.add_argument("--check", action="store_true")
+    s.add_argument("--write", action="store_true")
     s = sub.add_parser("caroiaj", help="label the crosses of an unlabelled Stereo70 grid")
     s.add_argument("recipe"); s.add_argument("--write", action="store_true", help="store the labelled crosses as repere/gcp_px")
     args = ap.parse_args()
@@ -1026,7 +1226,7 @@ def main():
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
      "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "related": cmd_related,
-     "caroiaj": cmd_caroiaj, "build": cmd_build}[args.cmd](r, args)
+     "caroiaj": cmd_caroiaj, "osm": cmd_osm, "osm-snap": cmd_osm_snap, "build": cmd_build}[args.cmd](r, args)
 
 
 if __name__ == "__main__":

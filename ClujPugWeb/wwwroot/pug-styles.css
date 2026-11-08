@@ -145,6 +145,11 @@ body.mode-puz #legenda .locality-pane {
     font-weight: 400;
 }
 
+.puz-approx {
+    margin: 6px 0;
+    color: #8a5a00;
+}
+
 .puz-mod {
     margin: 6px 0;
     color: #495057;

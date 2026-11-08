@@ -683,7 +683,17 @@ function openPuzInfo(puz, position) {
 // council can amend a PUZ in session without the plate changing), and the
 // conditions and obligations it sets. Expired PUZ-uri stay on the map; the date says so.
 function decisionNotesHtml(puz) {
-    return validityHtml(puz) + amendmentsHtml(puz) + differencesHtml(puz) + conditionsHtml(puz);
+    return approximateHtml(puz) + validityHtml(puz) + amendmentsHtml(puz) + differencesHtml(puz) + conditionsHtml(puz);
+}
+
+// Plates without usable coordinates are placed on OpenStreetMap streets and buildings;
+// say how far off they may be.
+function approximateHtml(puz) {
+    var g = puz.georeferentiere;
+    return g && g.aproximativ
+        ? '<div class="puz-approx">Poziționare aproximativă (±' + escapeHtml(g.precizie_m) +
+          ' m), după străzi și clădiri din OpenStreetMap: planșa nu are coordonate utilizabile.</div>'
+        : '';
 }
 
 function validityHtml(puz) {
