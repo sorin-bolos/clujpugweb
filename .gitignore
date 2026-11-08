@@ -46,3 +46,6 @@ preview/
 corners/
 export/
 *_layers.json
+
+# PUZ pipeline downloads and renders (rebuilt from puzuri/ recipes)
+puz_cache/

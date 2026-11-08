@@ -406,23 +406,30 @@ var localities = [
 
 var selectedLocality = null
 
+// The map shows either the PUG plates or the PUZ plates; the switch in the top bar
+// picks which. overlayOpacity is shared, so the slider keeps its setting across it.
+var planMode = 'pug';
+var overlayOpacity = 0.7;
+var theMap = null;
+var pugOverlays = [];
+
 function initMapElementToCluj() {
     var map = getMapCenteredOnCluj();
+    theMap = map;
 
     addPaddingDivToMap(map, 0, google.maps.ControlPosition.TOP_LEFT)
     addPaddingDivToMap(map, 0, google.maps.ControlPosition.TOP_RIGHT)
 
-    var overlays = [];
     localities.forEach(function (locality) {
         locality.layers.forEach(function (layer) {
-            var overlay = getMapTiles(getTileUrlProvider(layer));
-            map.overlayMapTypes.insertAt(overlays.length, overlay);
-            overlays.push(overlay);
+            pugOverlays.push(getMapTiles(getTileUrlProvider(layer)));
         });
     });
 
-    addSlideControlToMap(map, overlays, google.maps.ControlPosition.BOTTOM_CENTER);
+    addSlideControlToMap(map, google.maps.ControlPosition.BOTTOM_CENTER);
     followVisibleLocalities(map);
+    loadPuz(map);
+    setPlanMode(planMode);
 }
 
 function getMapCenteredOnCluj() {
@@ -443,7 +450,7 @@ function getMapTiles(tileUrlProvider) {
         tileSize: new google.maps.Size(256, 256),
         maxZoom: 25,
         minZoom: 0,
-        opacity: 0.7
+        opacity: overlayOpacity
     });
 }
 
@@ -485,32 +492,237 @@ function addPaddingDivToMap(map, index, position) {
     map.controls[position].push(paddingDiv);
 }
 
-function addSlideControlToMap(map, overlayMapTypes, position) {
+function addSlideControlToMap(map, position) {
     var slideControlDiv = document.createElement('div');
     slideControlDiv.style.width = '75%';
     slideControlDiv.style.marginBottom = '50px';
-    var slideControl = new SlideControl(slideControlDiv, overlayMapTypes);
+    SlideControl(slideControlDiv);
 
     slideControlDiv.index = 1;
     map.controls[position].push(slideControlDiv);
 }
 
-function SlideControl(controlDiv, overlayMaps) {
+function SlideControl(controlDiv) {
 
     var slideBar = document.createElement('input');
     slideBar.type = 'range';
     slideBar.min = '0';
     slideBar.max = '100';
-    slideBar.value = '70';
+    slideBar.value = String(Math.round(overlayOpacity * 100));
     slideBar.className = 'slider';
 
     controlDiv.appendChild(slideBar);
 
     slideBar.addEventListener('input', function () {
-        var opacity = this.value / 100;
-        overlayMaps.forEach(function (overlayMap) {
-            overlayMap.setOpacity(opacity);
+        setOverlayOpacity(this.value / 100);
+    });
+}
+
+function setOverlayOpacity(opacity) {
+    overlayOpacity = opacity;
+    pugOverlays.forEach(function (overlay) {
+        overlay.setOpacity(opacity);
+    });
+    puzOverlays.forEach(function (item) {
+        item.image.setOpacity(opacity);
+    });
+}
+
+// --- PUG / PUZ switch ---------------------------------------------------------
+// PUZ-uri come from puz/puz.json, written by tools/puz/puz.py from the recipes in
+// puzuri/. Each plate is already warped to Web Mercator, so a GroundOverlay over its
+// bounds lines up exactly; its boundary comes from the plate's coordinate inventory.
+
+var puzList = [];
+var puzOverlays = [];   // { puz, image: GroundOverlay, outline: Polygon }
+var puzInfoWindow = null;
+var PUZ_COLOR = '#d6007e';
+var MONTHS = ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie',
+    'august', 'septembrie', 'octombrie', 'noiembrie', 'decembrie'];
+
+function setPlanMode(mode) {
+    planMode = mode === 'puz' ? 'puz' : 'pug';
+    if (document.body) {
+        document.body.classList.toggle('mode-puz', planMode === 'puz');
+    }
+    eachElement('.plan-toggle [data-plan]', function (button) {
+        var isOn = button.dataset.plan === planMode;
+        button.classList.toggle('active', isOn);
+        button.setAttribute('aria-pressed', isOn);
+    });
+    if (!theMap) {
+        return;
+    }
+
+    // Hidden PUG plates are taken off the map rather than made transparent, so their
+    // tiles stop loading.
+    theMap.overlayMapTypes.clear();
+    if (planMode === 'pug') {
+        pugOverlays.forEach(function (overlay) { theMap.overlayMapTypes.push(overlay); });
+    }
+    puzOverlays.forEach(function (item) {
+        item.image.setMap(planMode === 'puz' ? theMap : null);
+        item.outline.setMap(planMode === 'puz' ? theMap : null);
+    });
+    if (puzInfoWindow) {
+        puzInfoWindow.close();
+    }
+    updatePuzLegend();
+}
+
+function loadPuz(map) {
+    fetch('puz/puz.json')
+        .then(function (response) { return response.ok ? response.json() : []; })
+        .catch(function () { return []; })
+        .then(function (list) {
+            puzList = list;
+            puzOverlays = list.map(createPuzOverlay);
+            setPlanMode(planMode);
+            if (requestedPuz) {
+                zoomToPuz(requestedPuz);
+            }
         });
+
+    map.addListener('idle', updatePuzLegend);
+    // A PUZ is a few hundred metres at most, so at city zoom its outline would be a
+    // speck; a thicker stroke keeps it findable until the plate itself is legible.
+    map.addListener('zoom_changed', function () {
+        var weight = map.getZoom() < 16 ? 6 : 2;
+        puzOverlays.forEach(function (item) { item.outline.setOptions({ strokeWeight: weight }); });
+    });
+}
+
+function createPuzOverlay(puz) {
+    var image = new google.maps.GroundOverlay(puz.imagine, toLatLngBounds(puz.bounds), {
+        opacity: overlayOpacity,
+        clickable: true
+    });
+    var outline = new google.maps.Polygon({
+        paths: puz.limita.map(function (p) { return { lat: p[1], lng: p[0] }; }),
+        strokeColor: PUZ_COLOR,
+        strokeOpacity: 0.9,
+        strokeWeight: theMap && theMap.getZoom() >= 16 ? 2 : 6,
+        fillColor: PUZ_COLOR,
+        fillOpacity: 0.06,
+        zIndex: 2
+    });
+    var open = function (event) { openPuzInfo(puz, event.latLng); };
+    image.addListener('click', open);
+    outline.addListener('click', open);
+    return { puz: puz, image: image, outline: outline };
+}
+
+function openPuzInfo(puz, position) {
+    if (!puzInfoWindow) {
+        puzInfoWindow = new google.maps.InfoWindow();
+    }
+    puzInfoWindow.setContent(
+        '<div class="puz-info">' +
+        '<strong>HCL ' + escapeHtml(puz.hcl) + '</strong> &middot; ' + escapeHtml(formatDate(puz.data)) + '<br>' +
+        escapeHtml(puz.titlu) + '<br>' +
+        utrSummaryHtml(puz) +
+        'Suprafață reglementată: ' + puz.suprafata_m2.toLocaleString('ro-RO') + ' m&sup2;<br>' +
+        '<a href="' + escapeHtml(puz.pdf) + '" target="_blank" rel="noopener">Hotărârea și anexele (PDF)</a>' +
+        '</div>');
+    puzInfoWindow.setPosition(position);
+    puzInfoWindow.open(theMap);
+}
+
+function utrSummaryHtml(puz) {
+    return (puz.utr || []).map(function (utr) {
+        var parts = ['UTR <strong>' + escapeHtml(utr.cod) + '</strong> &ndash; ' + escapeHtml(utr.denumire)];
+        if (utr.pot_max) { parts.push('POT max. ' + escapeHtml(utr.pot_max)); }
+        if (utr.cut_max) { parts.push('CUT max. ' + escapeHtml(utr.cut_max)); }
+        if (utr.h_max) { parts.push('H max. ' + escapeHtml(utr.h_max)); }
+        return parts.join(' &middot; ') + '<br>';
+    }).join('');
+}
+
+// The Legenda section lists the PUZ-uri in view, each with the legend cropped from
+// its own plate: designers draw their own symbols, so there is no common legend.
+function updatePuzLegend() {
+    var list = document.getElementById('puz-legend-list');
+    var note = document.getElementById('puz-legend-note');
+    if (!list || !note || planMode !== 'puz') {
+        return;
+    }
+    var viewport = theMap && theMap.getBounds();
+    var visible = puzList.filter(function (puz) {
+        return viewport && viewport.intersects(toLatLngBounds(puz.bounds));
+    });
+    if (puzList.length === 0) {
+        note.textContent = 'Nu a fost adăugat încă niciun PUZ.';
+    } else if (visible.length === 0) {
+        note.textContent = 'Niciun PUZ în zona vizibilă a hărții. Mai jos sunt toate PUZ-urile adăugate până acum ('
+            + puzList.length + ').';
+        visible = puzList;
+    } else {
+        note.textContent = visible.length === 1
+            ? 'Un PUZ în zona vizibilă a hărții.'
+            : visible.length + ' PUZ-uri în zona vizibilă a hărții.';
+    }
+    var key = visible.map(function (puz) { return puz.id; }).join(',');
+    if (list.dataset.key === key) {
+        return;
+    }
+    list.dataset.key = key;
+    list.innerHTML = visible.map(puzCardHtml).join('');
+}
+
+function puzCardHtml(puz) {
+    return '<div class="puz-card">' +
+        '<h3 class="puz-card-title">HCL ' + escapeHtml(puz.hcl) +
+        ' <small class="text-muted">' + escapeHtml(formatDate(puz.data)) + '</small></h3>' +
+        '<p>' + escapeHtml(puz.titlu) + '</p>' +
+        '<p class="puz-card-utr">' + utrSummaryHtml(puz) + '</p>' +
+        (puz.legenda
+            ? '<img class="puz-legend-image" loading="lazy" src="' + escapeHtml(puz.legenda) +
+              '" alt="Legenda planșei de reglementări, HCL ' + escapeHtml(puz.hcl) + '" />'
+            : '') +
+        '<p class="puz-card-links">' +
+        '<a href="#map" data-puz-zoom="' + escapeHtml(puz.id) + '">Arată pe hartă</a> &middot; ' +
+        '<a href="' + escapeHtml(puz.pdf) + '" target="_blank" rel="noopener">Hotărârea și anexele (PDF)</a>' +
+        (puz.pagina ? ' &middot; <a href="' + escapeHtml(puz.pagina) + '" target="_blank" rel="noopener">Pagina hotărârii</a>' : '') +
+        '</p></div>';
+}
+
+function zoomToPuz(id) {
+    var puz = puzList.filter(function (p) { return p.id === id; })[0];
+    if (puz && theMap) {
+        theMap.fitBounds(toLatLngBounds(puz.bounds));
+    }
+}
+
+// ?plan=puz opens on the PUZ plates; ?puz=<id> also zooms to that PUZ.
+var requestedPuz = new URLSearchParams(window.location.search).get('puz');
+
+function initPlanToggle() {
+    var requested = new URLSearchParams(window.location.search).get('plan');
+    if (requested || requestedPuz) {
+        planMode = requested === 'pug' ? 'pug' : 'puz';
+    }
+    eachElement('.plan-toggle [data-plan]', function (button) {
+        button.addEventListener('click', function () {
+            setPlanMode(button.dataset.plan);
+        });
+    });
+    document.addEventListener('click', function (event) {
+        var link = event.target.closest && event.target.closest('[data-puz-zoom]');
+        if (link) {
+            zoomToPuz(link.dataset.puzZoom);
+        }
+    });
+    setPlanMode(planMode);
+}
+
+function formatDate(iso) {
+    var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    return m ? parseInt(m[3], 10) + ' ' + MONTHS[parseInt(m[2], 10) - 1] + ' ' + m[1] : (iso || '');
+}
+
+function escapeHtml(text) {
+    return String(text == null ? '' : text).replace(/[&<>"']/g, function (c) {
+        return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
     });
 }
 
@@ -581,3 +793,4 @@ function eachElement(selector, callback) {
 }
 
 document.addEventListener('DOMContentLoaded', initLocalityTabs);
+document.addEventListener('DOMContentLoaded', initPlanToggle);

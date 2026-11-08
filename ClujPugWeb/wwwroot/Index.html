@@ -106,6 +106,10 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
         <div class="container">
             <h1><a id="page-title" class="navbar-brand js-scroll-trigger" href="#page-top">Cluj Napoca - Plan Urbanistic General</a></h1>
+            <div class="btn-group btn-group-sm plan-toggle" role="group" aria-label="Planul afișat pe hartă">
+                <button type="button" class="btn btn-outline-light active" data-plan="pug" aria-pressed="true" title="Planul Urbanistic General">PUG</button>
+                <button type="button" class="btn btn-outline-light" data-plan="puz" aria-pressed="false" title="Planuri Urbanistice Zonale aprobate">PUZ</button>
+            </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -186,6 +190,16 @@
     <section id="legenda">
         <div class="container-fluid">
             <h2 class="section-title">Legendă</h2>
+
+            <div id="puz-legend" class="puz-legend">
+                <p class="legend-group-note">
+                    Fiecare PUZ are legenda lui, decupată din planșa de reglementări aprobată prin hotărârea de consiliu.
+                    Pe hartă, conturul <span class="puz-swatch"></span> marchează limita zonei reglementate; un click pe
+                    PUZ deschide detaliile. Codurile UTR sunt cele din PUG (secțiunea UTR-uri).
+                </p>
+                <p id="puz-legend-note" class="legend-group-note"></p>
+                <div id="puz-legend-list" class="puz-legend-list"></div>
+            </div>
 
             <ul class="nav nav-tabs locality-tabs" role="tablist">
                 <li class="nav-item"><a class="nav-link locality-tab" href="#legenda" role="tab" data-locality="cluj">Cluj-Napoca</a></li>

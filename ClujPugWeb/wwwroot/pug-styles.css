@@ -56,6 +56,69 @@ body.cpug-banner-open header {
     display: none !important;
 }
 
+/* PUG / PUZ switch */
+.plan-toggle {
+    margin: 0 12px;
+}
+
+.plan-toggle .btn {
+    min-width: 52px;
+}
+
+.puz-legend {
+    display: none;
+    margin: 0 10px;
+}
+
+body.mode-puz .puz-legend {
+    display: block;
+}
+
+body.mode-puz #legenda .locality-tabs,
+body.mode-puz #legenda .locality-pane {
+    display: none !important;
+}
+
+.puz-swatch {
+    display: inline-block;
+    width: 22px;
+    border-top: 3px solid #d6007e;
+    vertical-align: middle;
+}
+
+.puz-legend-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-top: 16px;
+}
+
+.puz-card {
+    flex: 1 1 320px;
+    max-width: 600px;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+    padding: 16px;
+}
+
+.puz-card-title {
+    font-size: 1.1rem;
+}
+
+.puz-legend-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 8px 0 12px 0;
+    border: 1px solid #eee;
+}
+
+.puz-info {
+    max-width: 280px;
+    font-size: 13px;
+    line-height: 1.45;
+}
+
 section {
   padding: 40px;
 }
