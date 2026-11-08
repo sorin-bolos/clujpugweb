@@ -15,6 +15,8 @@ is derived from it and can be rebuilt at any time:
     py -3.13 tools/puz/puz.py overlay  puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--without 84]
     py -3.13 tools/puz/puz.py hcl      puzuri/cluj-napoca/2026-597.json   # the decision text, laid out
     py -3.13 tools/puz/puz.py related  puzuri/cluj-napoca/2026-597.json   # later decisions extending/amending it
+    py -3.13 tools/puz/puz.py geocode  --streets "Buftea" "Scor.arilor"   # rough position, for unlabelled grids
+    py -3.13 tools/puz/puz.py caroiaj  puzuri/cluj-napoca/2026-24.json [--write]   # label unlabelled grid crosses
     py -3.13 tools/puz/puz.py build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
 
 The decision's documents are kept as a backup in puzuri/<localitate>/documente/<id>/
@@ -96,8 +98,14 @@ def doc_name(url):
     return urllib.parse.unquote(os.path.basename(url.split("?")[0]))
 
 
+def plate_pdf_url(r):
+    """The PDF the plate comes from: the decision's own, unless an amending decision
+    replaced the plate (`plansa.pdf`, with `plansa.sursa_hcl`)."""
+    return (r.get("plansa") or {}).get("pdf") or r["hcl"]["pdf"]
+
+
 def pdf_path(r):
-    return os.path.join(docs_dir(r), doc_name(r["hcl"]["pdf"]))
+    return os.path.join(docs_dir(r), doc_name(plate_pdf_url(r)))
 
 
 def plate_path(r):
@@ -222,16 +230,26 @@ def text_path(r):
     return os.path.join(docs_dir(r), "hotarare.txt")
 
 
+NO_PAGE_TEXT = "[Pagina hotărârii nu are text."
+NO_PAGE_TEXT_NOTE = (NO_PAGE_TEXT + " Transcrie aici, din PDF-ul scanat, preambulul pe scurt și articolele"
+                     " integral, apoi înlocuiește acest paragraf cu: Transcris din PDF, paginile N-M.]")
+
+
 def save_decision_text(r):
     """The decision as published on its page, wrapped for reading. Kept once: like the
-    PDFs, it is a backup of what was published, not refreshed."""
+    PDFs, it is a backup of what was published, not refreshed. Some pages carry no
+    text (HCL 24/2021); the file then says so, and the decision has to be transcribed
+    from the scanned PDF into it."""
     p = text_path(r)
     if not os.path.exists(p):
         import textwrap
         txt = decision_text_from_page(r["hcl"]["pagina"])
         with open(p, "w", encoding="utf-8", newline="\n") as f:
             f.write("Sursa: %s\n\n" % r["hcl"]["pagina"])
-            f.write("\n".join(textwrap.wrap(txt, 110, break_long_words=False, break_on_hyphens=False)) + "\n")
+            if len(txt) < 400:
+                f.write("\n".join(textwrap.wrap(NO_PAGE_TEXT_NOTE, 110)) + "\n")
+            else:
+                f.write("\n".join(textwrap.wrap(txt, 110, break_long_words=False, break_on_hyphens=False)) + "\n")
     return p
 
 
@@ -243,7 +261,12 @@ def read_decision_text(r):
         return ""
     with open(p, encoding="utf-8") as f:
         lines = f.read().split("\n")
-    return " ".join(l for l in lines[2:] if l)
+    text = " ".join(l for l in lines[2:] if l)
+    if text.startswith(NO_PAGE_TEXT):
+        print("WARNING: the decision's page has no text. Read the decision in the scanned PDF and transcribe it"
+              " into %s (see the note inside)." % p)
+        return ""
+    return text
 
 
 def parse_validity_years(text):
@@ -323,6 +346,139 @@ def cmd_related(r, args):
     print("\nThe index only knows titles up to its update date; for newer decisions check the council listing.")
 
 
+# --- unlabelled grids --------------------------------------------------------------
+# Some plates show Stereo 70 grid crosses with their labels cut off (HCL 24/2026).
+# The crosses still sit on exact multiples of the grid step, so knowing roughly where
+# the plate is - within half a step - pins every label. `geocode` gives that rough
+# position from OpenStreetMap (two streets that meet on the plate); `caroiaj` turns
+# picked crosses plus that anchor into labelled control points. The imagery check then
+# has the last word: a label off by one step shows as the whole plate shifted 50 m.
+
+OVERPASS = "https://overpass-api.de/api/interpreter"
+NOMINATIM = "https://nominatim.openstreetmap.org/search"
+CLUJ_BBOX = (46.70, 23.45, 46.86, 23.75)   # S, W, N, E
+
+
+def to_stereo70(lon, lat):
+    from pyproj import Transformer
+    return Transformer.from_crs(4326, 3844, always_xy=True).transform(lon, lat)
+
+
+def street_lines(pattern):
+    """All OSM ways in Cluj-Napoca whose name matches the regex (case-insensitive),
+    as Stereo 70 lines. A regex copes with diacritics: "Scor.arilor"."""
+    from shapely.geometry import LineString, MultiLineString
+    q = '[out:json][timeout:60];way["highway"]["name"~"%s",i](%f,%f,%f,%f);out tags geom;' % ((pattern,) + CLUJ_BBOX)
+    req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({"data": q}).encode(), headers=UA)
+    data = json.loads(urllib.request.urlopen(req, timeout=90).read().decode("utf-8"))
+    lines, names = [], set()
+    for el in data.get("elements", []):
+        pts = [to_stereo70(p["lon"], p["lat"]) for p in el.get("geometry", [])]
+        if len(pts) >= 2:
+            lines.append(LineString(pts))
+            names.add(el.get("tags", {}).get("name", "?"))
+    return MultiLineString(lines) if lines else None, sorted(names)
+
+
+def cmd_geocode(args):
+    from shapely.ops import nearest_points
+    from pyproj import Transformer
+    back = Transformer.from_crs(3844, 4326, always_xy=True)
+    if args.streets:
+        a, na = street_lines(args.streets[0])
+        b, nb = street_lines(args.streets[1])
+        if a is None or b is None:
+            sys.exit("street not found in OSM: %s" % (args.streets[0] if a is None else args.streets[1]))
+        print("OSM names:", na, "/", nb)
+        inter = a.intersection(b)
+        if not inter.is_empty:
+            pts = [inter] if inter.geom_type == "Point" else list(getattr(inter, "geoms", [inter.centroid]))
+            for p in pts:
+                lon, lat = back.transform(p.x, p.y)
+                print("intersection: E %.1f  N %.1f   (lat %.6f, lon %.6f)" % (p.x, p.y, lat, lon))
+        else:
+            p, q = nearest_points(a, b)
+            m = ((p.x + q.x) / 2, (p.y + q.y) / 2)
+            lon, lat = back.transform(*m)
+            print("streets do not cross; closest approach %.1f m apart, midpoint E %.1f  N %.1f   (lat %.6f, lon %.6f)"
+                  % (p.distance(q), m[0], m[1], lat, lon))
+        print("OSM street centrelines are good to a few metres; pick the same point (centreline crossing) on the plate.")
+    else:
+        url = NOMINATIM + "?" + urllib.parse.urlencode({"q": args.address, "format": "json", "countrycodes": "ro", "limit": 3})
+        for res in json.loads(urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read()):
+            E, N = to_stereo70(float(res["lon"]), float(res["lat"]))
+            print("%-12s E %.1f  N %.1f   %s" % (res.get("type"), E, N, res.get("display_name", "")[:120]))
+        print("An address point may be the building or the street's middle; prefer --streets when two streets meet on the plate.")
+
+
+def cmd_caroiaj(r, args):
+    """Label the picked crosses of an unlabelled grid. Needs in the recipe:
+    caroiaj = {pas_m, nord (direction of north on the plate, degrees clockwise from up),
+               ancora: {px: [x, y], en: [E, N]}, cruci_px: {name: [x, y], ...}}."""
+    c = r.get("caroiaj") or sys.exit("no `caroiaj` in the recipe")
+    step = float(c["pas_m"]); crosses = c["cruci_px"]
+    if len(crosses) < 2:
+        sys.exit("pick at least two crosses (four or more, spread out, is better)")
+    P = {k: np.array(v, float) for k, v in crosses.items()}
+    names = list(P)
+    # The grid lines run exactly north-south and east-west, so two crosses on the same
+    # grid line give the plate's rotation. With the north arrow as a hint (+-8 deg),
+    # those pairs are the ones whose direction is a multiple of 90 deg from it.
+    ang = lambda v: math.atan2(v[0], -v[1])          # clockwise from "up"
+    hint = math.radians(float(c.get("nord", 0)))
+    axis_pairs = []
+    for i, a in enumerate(names):
+        for b in names[i + 1:]:
+            v = P[b] - P[a]; d = float(np.hypot(*v))
+            dev = (math.degrees(ang(v) - hint) + 45) % 90 - 45
+            if d > 5 and abs(dev) <= 8:
+                axis_pairs.append((d, dev))
+    if not axis_pairs:
+        sys.exit("no two crosses on the same grid line - pick crosses that share a row or a column")
+    devs = sorted(x for _, x in axis_pairs)
+    north = hint + math.radians(devs[len(devs) // 2])
+    uN = np.array([math.sin(north), -math.cos(north)]); uE = np.array([math.sin(north + math.pi / 2), -math.cos(north + math.pi / 2)])
+    # Scale: whole steps between crosses on a line. `px_per_m`, measured on the plate
+    # (a dimension line, or the printed scale and the dpi), settles how many steps;
+    # without it the closest such pair is taken as one step.
+    unit = step * float(c["px_per_m"]) if c.get("px_per_m") else min(d for d, _ in axis_pairs)
+    ks = [max(1, round(d / unit)) for d, _ in axis_pairs]
+    s = sum(d / k for (d, _), k in zip(axis_pairs, ks)) / len(ks) / step   # px per metre
+    print("grid: %d cross pairs on grid lines; north at %.2f deg clockwise from up; %.2f px/m (one %g m step = %.0f px)"
+          % (len(axis_pairs), math.degrees(north), s, step, step * s))
+    if not c.get("px_per_m"):
+        print("      no px_per_m given: check it against a dimension line on the plate before trusting the labels")
+    elif abs(s / float(c["px_per_m"]) - 1) > 0.05:
+        print("WARNING: crosses imply %.2f px/m, the plate %.2f - wrong step or a wrong cross?" % (s, float(c["px_per_m"])))
+    ax, ay = c["ancora"]["px"]; aE, aN = c["ancora"]["en"]
+    labels, worst = {}, 0.0
+    for k, p in P.items():
+        v = p - np.array([ax, ay], float)
+        E = aE + (v @ uE) / s; N = aN + (v @ uN) / s
+        gE, gN = round(E / step) * step, round(N / step) * step
+        off = math.hypot(E - gE, N - gN)
+        worst = max(worst, off)
+        labels[k] = (gE, gN)
+        print("  %-6s px %-12s -> E %.0f N %.0f  (predicted %.1f, %.1f; %.1f m from the node)" % (k, list(p.astype(int)), gE, gN, E, N, off))
+    # Each cross lands off its node by the anchor's error (modulo a step). With an
+    # anchor good to well under half a step, a small offset means the labels are right.
+    print("crosses land up to %.1f m from grid nodes - that is the anchor's error, provided the anchor is good to"
+          " under %g m (half a step)" % (worst, step / 2))
+    if worst > step / 4:
+        print("WARNING: more than a quarter step - the labels may be one step off; get a better anchor"
+              " (street centrelines crossing, picked carefully on the plate)")
+    else:
+        print("labels safe; confirm with the imagery check (a one-step error shows as the plate shifted %g m)" % step)
+    if args.write:
+        r.setdefault("repere", {}); r.setdefault("gcp_px", {})
+        for k, (gE, gN) in labels.items():
+            name = "C%d_%d" % (gE, gN)
+            r["repere"][name] = [gN, gE]
+            r["gcp_px"][name] = [int(P[k][0]), int(P[k][1])]
+        dump_recipe(r, r["_path"])
+        print("written to repere and gcp_px")
+
+
 # --- fetch / render ----------------------------------------------------------------
 
 # Linked from every page of primariaclujnapoca.ro, not part of any decision.
@@ -330,8 +486,11 @@ SITE_WIDE_PDF = re.compile(r"Politica-Anti-Mita", re.I)
 
 
 def decision_documents(r):
-    """The recipe's PDF plus every other PDF linked from the decision's page."""
+    """The recipe's PDF plus every other PDF linked from the decision's page, and the
+    PDF of an amending decision whose plate replaced the original."""
     urls = [r["hcl"]["pdf"]]
+    if plate_pdf_url(r) not in urls:
+        urls.append(plate_pdf_url(r))
     page = r["hcl"].get("pagina")
     if page:
         try:
@@ -356,7 +515,9 @@ def sha256(path):
 
 def record_checksums(r, paths):
     """Keep documente/SHA256SUMS (sha256sum format) in step with the backup.
-    A file that no longer matches its recorded sum is reported, not re-recorded."""
+    A downloaded file that no longer matches its recorded sum is reported, not
+    re-recorded. hotarare.txt is the exception: it may be a transcription, completed
+    after the first fetch."""
     manifest = os.path.join(os.path.dirname(docs_dir(r)), "SHA256SUMS")
     sums = {}
     if os.path.exists(manifest):
@@ -368,7 +529,7 @@ def record_checksums(r, paths):
     for p in paths:
         name = r["id"] + "/" + os.path.basename(p)
         digest = sha256(p)
-        if name in sums and sums[name] != digest:
+        if name in sums and sums[name] != digest and not name.endswith("/hotarare.txt"):
             print("WARNING: %s does not match its recorded checksum" % name)
             continue
         sums[name] = digest
@@ -793,6 +954,13 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
 
 
 def cmd_build(r, args):
+    # `stare`: absent while being worked on; "oprit" when it cannot be done (with
+    # `motiv`), "integrat" when it is an amendment folded into its base PUZ
+    # (`integrat_in`). Neither has a map entry of its own.
+    stare = r.get("stare")
+    if stare in ("oprit", "integrat") and not args.force:
+        sys.exit("recipe is '%s' (%s) - nothing to build" % (
+            stare, r.get("motiv") or ("integrat în " + str(r.get("integrat_in")))))
     if not os.path.exists(plate_path(r)):
         if not os.path.exists(pdf_path(r)):
             cmd_fetch(r, args)
@@ -820,6 +988,7 @@ def cmd_build(r, args):
 
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
+    sys.stderr.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("new", help="recipe skeleton from the decision listing")
@@ -843,13 +1012,21 @@ def main():
     s = sub.add_parser("build"); s.add_argument("recipe")
     s.add_argument("--force", action="store_true"); s.add_argument("--dry-run", action="store_true")
     s.add_argument("--no-check", action="store_true"); s.add_argument("--zoom", type=int, default=18)
+    s = sub.add_parser("geocode", help="rough Stereo70 position from OpenStreetMap")
+    g = s.add_mutually_exclusive_group(required=True)
+    g.add_argument("--streets", nargs=2, metavar="REGEX", help='two street names meeting on the plate, e.g. "Buftea" "Scor.arilor"')
+    g.add_argument("--address", help="an address, e.g. \"Strada Buftea 2, Cluj-Napoca\"")
+    s = sub.add_parser("caroiaj", help="label the crosses of an unlabelled Stereo70 grid")
+    s.add_argument("recipe"); s.add_argument("--write", action="store_true", help="store the labelled crosses as repere/gcp_px")
     args = ap.parse_args()
     if args.cmd == "new":
         return cmd_new(args)
+    if args.cmd == "geocode":
+        return cmd_geocode(args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
      "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "related": cmd_related,
-     "build": cmd_build}[args.cmd](r, args)
+     "caroiaj": cmd_caroiaj, "build": cmd_build}[args.cmd](r, args)
 
 
 if __name__ == "__main__":

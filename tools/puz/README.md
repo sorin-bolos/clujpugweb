@@ -138,6 +138,46 @@ labelled with Est (vertical text) and Nord (horizontal). Then:
 
 The published entry records which method was used.
 
+## Plates with an unlabelled grid
+
+Some plates keep the grid crosses but lose their labels with the topographic plan's
+frame (HCL 24/2026). The crosses still sit on exact multiples of the step, so a
+rough position good to under half a step fixes every label:
+
+- `geocode --streets "<A>" "<B>"` takes two streets that meet on the plate from
+  OpenStreetMap and gives their centrelines' crossing in Stereo 70;
+- `caroiaj` takes the picked crosses, the step, the north direction, the measured
+  px/m and that anchor, and labels each cross. It warns when a label could be one
+  step off, and `--write` stores the result as `repere` and `gcp_px`.
+
+The imagery check confirms: a wrong label shows as the whole plate shifted by one
+step. Tested on HCL 621/2022's labelled crosses, with an anchor off by up to 46 m on
+a 100 m grid, it recovered all six labels.
+
+## Amending decisions
+
+A decision may amend an earlier PUZ ("Modificare P.U.Z. aprobat prin Hotărârea nr.
+…"). Such decisions often carry no plate: HCL 642/2025 changes only obligations of
+754/2021. The map shows the base PUZ as amended:
+
+- the base recipe's `modificat_de` holds `{hcl, data, rezumat, plansa_noua}`;
+- its `utr`, `conditii` and differences are written as they stand after the
+  amendment;
+- if the amendment brings a new regulations plate, `plansa.pdf` and
+  `plansa.sursa_hcl` point at it and the base shows that plate.
+
+The amendment's own recipe gets `"stare": "integrat"` and `"integrat_in"`.
+
+## Recipe states
+
+| `stare` | Meaning | `build` |
+|---|---|---|
+| absent | being worked on, or published | builds |
+| `"oprit"` + `motiv` | cannot be done with what was published; kept as a record, and the next attempt starts from it | refuses |
+| `"integrat"` + `integrat_in` | an amendment folded into its base PUZ | refuses |
+
+Stopped recipes are committed, so the working tree stays clean for the next run.
+
 ## Quality gates
 
 | Check | Limit |

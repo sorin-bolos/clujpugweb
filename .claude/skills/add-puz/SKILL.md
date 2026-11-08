@@ -21,14 +21,22 @@ checklist; the README is the reference.
   Check with `git branch --show-current` and `git status --short` before starting.
   If the branch is different or the tree has changes you did not make, stop and
   report. Never push, never switch branches.
+- If `puzuri/cluj-napoca/<id>.json` already exists, check its `stare`:
+  - `"oprit"`: an earlier attempt stopped. Read `motiv` and the notes, keep
+    everything still valid, and pick up from where it stopped. Usually a new method
+    now covers the case.
+  - `"integrat"`: the decision was folded into its base PUZ. Stop.
+  - no `stare`, and the PUZ is in `ClujPugWeb/wwwroot/puz/puz.json`: already
+    published. Stop.
 - Touch only this PUZ's files:
   - `puzuri/cluj-napoca/<id>.json`;
   - `puzuri/cluj-napoca/documente/SHA256SUMS`;
   - `ClujPugWeb/wwwroot/puz/<id>/`;
   - `ClujPugWeb/wwwroot/puz/puz.json`.
 
-  Do not edit the tools, the site code or other recipes. If a tool is in your way,
-  say so in your report.
+  When the decision amends another PUZ, also that base PUZ's recipe and published
+  folder (see "Amending decisions"). Do not edit the tools, the site code or other
+  recipes. If a tool is in your way, say so in your report.
 - **No beneficiaries' names**: not in the recipe, not in conditions, not in the
   commit message. Companies and public bodies named as the PUZ's purpose (for
   example "Spitalul ...") are fine; owners are not.
@@ -54,7 +62,10 @@ where `<id>` is `<an>-<nr>`.
      and read their title blocks.
    - Choose the clearest copy of the regulations plate. Set `plansa.pagina_pdf`,
      and `plansa.dpi` to the native ppi from `pdfimages -list -f N -l N <pdf>`.
-   - **No plate in the PDF** (2017-2019 decisions are text only): stop and report.
+   - **No plate in the PDF.** If the decision amends another PUZ ("Modificare
+     P.U.Z. aprobat prin Hotărârea nr. …"; `related` also says so), follow
+     "Amending decisions". Otherwise, as with the text-only 2017-2019 decisions,
+     stop.
 3. **Render.** Run `render`, then look at `plate-overview.png`. Fill
    `plansa.denumire` and `plansa.scara` from the title block.
 4. **Coordinates.**
@@ -66,7 +77,9 @@ where `<id>` is `<an>-<nr>`.
    - **No inventory but a labelled Stereo 70 grid.** Use `repere`, trace
      `limita_px` on the boundary line, and take the area from the balance table
      (README, "Plates without a coordinate inventory").
-   - **Neither.** Stop and report.
+   - **Grid crosses without labels.** Follow "Unlabelled grids" below, and trace
+     `limita_px` if there is no inventory either.
+   - **Neither coordinates nor grid crosses.** Stop.
    - **Check before going on.** Run `build --dry-run --no-check`. The area, the
      side lengths and the perimeter must pass. A failed side points at a misread
      vertex: re-read that row, zooming harder. If a digit is hidden, solve it from
@@ -88,8 +101,11 @@ where `<id>` is `<an>-<nr>`.
    - `decupaj.exclude_px`: tables or title blocks that the boundary buffer reaches
      into.
 7. **Decision text.** Run `hcl` and `related`, and read the full text in
-   `puzuri/cluj-napoca/documente/<id>/hotarare.txt`. Fill these from the text, not
-   from the plate:
+   `puzuri/cluj-napoca/documente/<id>/hotarare.txt`. If the decision's page had no
+   text, the file says so. Then transcribe the decision from the scanned PDF into
+   it: the preamble briefly, the articles in full, and a line saying which pages you
+   transcribed. Run `fetch` again to record its checksum. Fill these from the text,
+   not from the plate:
    - `utr`: `cod`, `denumire`, `pot_max`, `cut_max`, `h_max`, plainly worded;
    - `valabilitate`: check what `new` filled in;
    - `prelungiri`: each extension found by `related`, as `{hcl, pana_la}`. Read the
@@ -121,25 +137,91 @@ where `<id>` is `<an>-<nr>`.
      residuals, and anything notable (differences, extensions, amendments). End
      with the line `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
 
+## Amending decisions
+
+A decision may amend an earlier PUZ: change its obligations, its indicators, or its
+plate. The map shows the base PUZ with the amendment applied, not the amendment on
+its own.
+
+1. Find the base decision, `<an>-<nr>`, in the title or the text. `related` prints
+   it.
+2. **Base not yet published.** Add the base PUZ with this whole procedure (`new`
+   for the base's year and number), taking the amendment into account:
+   - If the amendment's PDF carries a new plate of the same kind (regulations),
+     georeference that plate instead of the base's. Set `plansa.pdf` to the
+     amendment's PDF URL, `plansa.sursa_hcl` to `"<nr>/<an>"`, and `pagina_pdf`
+     to the page in that PDF. Otherwise use the base's own plate.
+   - Where the amendment changes something, its text wins: indicators,
+     conditions, obligations. Write the base's `utr`, `conditii` and
+     `diferente_fata_de_plansa` as they stand after the amendment, and mark
+     changed items "(modificat prin HCL <nr>/<an>)".
+3. **Base already published.** Update it if the amendment changes published
+   fields (`utr`, `conditii`, validity) or is otherwise notable. If it brings a new
+   regulations plate, replace the plate, re-georeferencing as in step 2. Rebuild
+   the base.
+4. Either way, add the amendment to the base's `modificat_de` as `{hcl, data,
+   rezumat, plansa_noua}`:
+   - `rezumat`: one or two sentences on what changed;
+   - `plansa_noua`: true if the shown plate is the amendment's;
+   - mention the amendment's own validity in the summary if it differs.
+
+   Then mark the amendment's recipe `"stare": "integrat"`, `"integrat_in": "<base
+   id>"`, keeping its notes and conditions. It gets no build.
+5. Commit everything in one commit: both recipes, the base's published files,
+   `puz.json` and `SHA256SUMS`. Message: `PUZ HCL <base nr>/<an> – <place> (cu
+   modificarea HCL <nr>/<an>)`, or `… – actualizat cu modificarea HCL …` when the
+   base was already published.
+
+## Unlabelled grids
+
+Some plates show the Stereo 70 grid crosses but with their labels cut off. The
+crosses sit on exact multiples of the grid step, so a rough position of the plate,
+good to under half a step, fixes every label:
+
+1. **Crosses.** Pick at least 4, spread out, including pairs on the same grid line
+   (same row or column). Put them in `caroiaj.cruci_px`, as `{name: [x, y]}`.
+2. **Step and scale.** `caroiaj.pas_m` is usually 50 m on 1:500 plans and 100 m on
+   1:1000-1:2000. Measure `caroiaj.px_per_m` on a dimension line: pixels between
+   its ticks divided by the metres it reads. Plates are often printed reduced, so
+   don't trust the printed scale. `caroiaj` warns if the crosses disagree.
+3. **North.** `caroiaj.nord` is the north arrow's direction in degrees, clockwise
+   from up: 0 up, 90 right, 270 left.
+4. **Anchor.** Run `geocode --streets "<street A regex>" "<street B regex>"` for
+   two streets that meet on the plate; it gives their centrelines' crossing in
+   Stereo 70. Pick the same crossing on the plate. Set `caroiaj.ancora` to
+   `{px: [x, y], en: [E, N], sursa: "..."}`.
+5. **Labels.** Run `caroiaj` and read its verdict. If it says the labels are safe,
+   run `caroiaj --write`: the labelled crosses go into `repere` and `gcp_px`. If
+   it warns, get a better anchor.
+6. **Build.** The imagery check is decisive. A label one step off shows as the
+   whole plate shifted by one step against roads and buildings. Fix the anchor and
+   redo it. Say in `coordonate.sursa` that the grid was labelled this way.
+
 ## When to stop instead
 
-Stop without building or committing if any of these holds, and report what you saw:
+Stop without building if any of these holds, and report what you saw:
 
-- there is no plate in the PDF, or no coordinates and no labelled grid;
+- there is no plate in the PDF, and the decision amends no PUZ;
+- there are no coordinates and no grid crosses at all;
 - the coordinate table is illegible where it matters and the checks cannot
   settle it;
 - the quality gates fail and re-picking does not fix them;
 - the imagery check looks wrong and you cannot find why.
 
 If you already ran a publishing `build`, remove `ClujPugWeb/wwwroot/puz/<id>/`
-and restore `ClujPugWeb/wwwroot/puz/puz.json` with `git checkout -- <path>`. Leave
-the recipe in place, uncommitted, for review.
+and restore `ClujPugWeb/wwwroot/puz/puz.json` with `git checkout -- <path>`.
+
+Then set in the recipe `"stare": "oprit"` and `"motiv": "<what is missing, in a
+sentence>"`, keeping everything you did fill in. Commit the recipe and
+`SHA256SUMS` as `PUZ HCL <nr>/<an> – oprit: <motiv scurt>`. A stopped recipe is a
+record: the next attempt starts from it, and a batch run won't retry it blindly.
 
 ## Report
 
 End with a short report in Romanian:
 
-- PUZ and outcome: committed (with hash) or stopped (with reason);
+- PUZ and outcome: published, integrated into its base, or stopped (with reason);
+  the commit hash;
 - plate page and why that one; method (inventory / grid);
 - area, sides and perimeter checks; residuals (rms, worst, limit);
 - imagery check, in a sentence;

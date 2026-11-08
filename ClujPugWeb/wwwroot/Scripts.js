@@ -700,15 +700,24 @@ function validityHtml(puz) {
         '</div>';
 }
 
+// `modificat_de` entries are a decision number, or {hcl, data, rezumat, plansa_noua}
+// when the amendment changed something worth saying.
 function amendmentsHtml(puz) {
-    var parts = [];
+    var html = '';
     if (puz.modifica && puz.modifica.length) {
-        parts.push('Modifică: ' + puz.modifica.join(', '));
+        html += '<div class="puz-mod">Modifică PUZ-ul aprobat prin HCL ' + escapeHtml(puz.modifica.join(', ')) + '</div>';
     }
-    if (puz.modificat_de && puz.modificat_de.length) {
-        parts.push('Modificat prin: ' + puz.modificat_de.join(', '));
-    }
-    return parts.length ? '<div class="puz-mod">' + escapeHtml(parts.join(' · ')) + '</div>' : '';
+    (puz.modificat_de || []).forEach(function (m) {
+        if (typeof m === 'string') {
+            html += '<div class="puz-mod">Modificat prin HCL ' + escapeHtml(m) + '</div>';
+            return;
+        }
+        html += '<div class="puz-mod"><strong>Modificat prin HCL ' + escapeHtml(m.hcl) + '</strong>' +
+            (m.data ? ' (' + escapeHtml(formatDate(m.data)) + ')' : '') +
+            (m.plansa_noua ? ' &ndash; planșa afișată e cea din modificare' : '') +
+            (m.rezumat ? ': ' + escapeHtml(m.rezumat) : '') + '</div>';
+    });
+    return html;
 }
 
 function differencesHtml(puz) {
