@@ -18,10 +18,10 @@
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, a treia încercare, 2026-11-09): colțuri de clădiri existente desenate pe planșă (fondul topografic GEOMODEL) și prezente în OSM. Control: Serv_NV (clădirea Servicii P+5E), P_NE (Locuință și servicii P, str. Buftea), LcA_SE (blocul Lc_A P+4E de peste str. Scorțarilor), Bl_SE (blocul P+4E de peste str. Buftea), D2E_NV (blocul D+P+2E+P), LI_SV (locuința individuală P din spate); verificare: D2E_SV, LI_SE, P_NV, LcA_treapta, Bl_NV. Ancora de pornire: intersecția axelor str. Buftea / str. Scorțarilor (OSM), la (460, 1626) pe planșă; după potrivire cade la 1,7 m de intersecția OSM. Potrivirea dă 15,5 px/m (cotele de pe planșă: 15,4-15,5) și o rotație de -90,8°. Limita e trasată pe linia de proprietate (`limita_px`), nu pe linia punctată groasă „limita zonă studiată și reglementată”, care e desenată cu ~1 m spre exterior (în jurul fâșiilor hașurate de lărgire a străzilor); pe latura vestică limita face un decroș de ~6,5 m pe latura sudică a unei anexe vecine, ca linia de proprietate (anexa rămâne în afară). Aria trasată: 2350 mp față de 2345 mp din bilanț și din Art. 1.",
     "suprafata_declarata_m2": 2345.0,
     "puncte": {},
-    "nota": "OPRIT (a doua încercare, 2026-11-08). Nicio planșă (p. 15 reglementări, p. 16 circulația terenurilor) și niciun text (contract, regulament, pp. 1-14) nu are inventar de coordonate. Pe p. 15 se văd 4 cruci de caroiaj fără etichete (A, B, C, D în `caroiaj.cruci_px`; celelalte noduri sunt sub legendă, sub etichete sau lipsesc), la 771 px = 50 m (15,42 px/m; cotele 15,00 m ale str. Scorțarilor și 12,00 m = 2,80+7,00+2,20 ale str. Buftea dau 15,4-15,5 px/m). Nordul e la stânga (270°). Ancora: intersecția axelor str. Buftea și str. Scorțarilor din OSM (E 393704,1, N 587532,0), aleasă pe planșă la (460, 1626). `caroiaj` pune crucile la ~21 m de nodurile de 50 m (≈14 m pe E, ≈15,5 m pe N) și avertizează. Nu ancora e de vină: cu ea, clădirile și străzile OSM cad pe cele desenate pe toată planșa (în câțiva metri), iar cu etichetele cele mai apropiate (C = E 393700, N 587550) tot desenul ar fi mutat cu ~21 m. Crucile nu țin de desen: pe p. 16 stau în aceleași locuri pe foaie (≈(410, 700), (1180, 700), (1950, 700), (410, 1470), (1950, 1470)), deși acolo desenul e mutat cu ~440 px și e cu ~9% mai mare. Sunt un caroiaj al machetei foii, nu al planului topografic, deci nu pot fi etichetate. Suprafața: 2345 mp (CF 330345: 1074 mp, CF 330344: 1271 mp), din bilanțul planșei și din Art. 1. Ar ajuta: coordonatele cadastrale ale imobilelor 330344 și 330345 sau planul topografic GEOMODEL cu coordonate."
+    "nota": "Nicio planșă (p. 15 reglementări, p. 16 circulația terenurilor) și niciun text (contract, regulament, pp. 1-14) nu are inventar de coordonate. Pe p. 15 se văd 4 cruci de caroiaj fără etichete (în `caroiaj.cruci_px`), dar nu țin de desen: pe p. 16 stau în aceleași locuri pe foaie ((410, 700), (1180, 700), (1950, 700), (410, 1470), (1950, 1470)), deși acolo desenul e mutat cu ~440 px și e cu ~9% mai mare, iar cu o ancoră verificată pe clădirile OSM cad la ~21 m de nodurile Stereo 70 de 50 m. Sunt un caroiaj al machetei foii, deci au fost lăsate deoparte (încercările din 2026-11-08 s-au oprit aici). Poziționarea e aproximativă (±3-5 m), după OpenStreetMap. Ar fi mai precisă cu coordonatele cadastrale ale imobilelor 330344 și 330345 sau cu planul topografic GEOMODEL cu coordonate. Suprafața: 2345 mp (CF 330345: 1074 mp, CF 330344: 1271 mp), din bilanțul planșei și din Art. 1."
   },
   "caroiaj": {
     "pas_m": 50,
@@ -38,15 +38,31 @@
       "en": [393704.1, 587532.0],
       "sursa": "OSM: intersecția axelor str. Buftea și str. Scorțarilor (geocode --streets), aleasă pe planșă la axul carosabilului str. Buftea (profil 2,80+7,00+2,20) și între axele celor două tronsoane ale str. Scorțarilor"
     },
-    "nota": "Crucile sunt ale machetei foii, nu ale planului topografic (vezi coordonate.nota): `caroiaj` le pune la ~21 m de noduri cu o ancoră verificată pe clădirile OSM. Nu se scriu în repere."
+    "nota": "Crucile sunt ale machetei foii, nu ale planului topografic (vezi coordonate.nota): `caroiaj` le pune la ~21 m de noduri cu o ancoră verificată pe clădirile OSM. Nu se scriu în repere; georeferențierea folosește reperele OSM."
   },
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "Serv_NV": [1820, 2210],
+    "P_NE": [643, 1731],
+    "LcA_SE": [422, 2635],
+    "Bl_SE": [1711, 1259],
+    "D2E_NV": [707, 3150],
+    "LI_SV": [1712, 2910]
+  },
+  "verificare_px": {
+    "D2E_SV": [869, 3142],
+    "LI_SE": [1684, 2763],
+    "P_NV": [639, 1885],
+    "LcA_treapta": [204, 2692],
+    "Bl_NV": [729, 1518]
+  },
   "decupaj": {
     "buffer_m": 1.5,
-    "exclude_px": []
+    "exclude_px": [],
+    "nota": "Legenda e decupată așa cum e pe planșă, rotită cu 90° (textul se citește de jos în sus): `legenda_px` nu are opțiune de rotire."
   },
-  "legenda_px": [],
+  "legenda_px": [
+    [515, 558, 1705, 1266]
+  ],
   "utr": [
     {
       "cod": "Rim_Digger",
@@ -59,7 +75,7 @@
   "valabilitate": {
     "ani": 7,
     "pana_la": "2033-01-20",
-    "verificat": "2026-11-08: Art. 2, șapte ani de la aprobare; nicio hotărâre ulterioară în indexul de titluri P.U.Z. (actualizat 2026-11-08)"
+    "verificat": "2026-11-09: Art. 2, șapte ani de la aprobare; nicio hotărâre ulterioară în indexul de titluri P.U.Z. (actualizat 2026-11-08)"
   },
   "prelungiri": [],
   "modifica": [],
@@ -76,6 +92,47 @@
     "Parcarea se face în subteran, în parcelă (după Anexa 2 a R.L.U.), cu un singur loc la sol, pentru aprovizionare.",
     "Toate investițiile sunt suportate de beneficiar."
   ],
-  "stare": "oprit",
-  "motiv": "Planșa nu are inventar de coordonate, iar crucile caroiajului nu sunt legate de desen: cad la ~21 m de nodurile Stereo 70 de 50 m față de străzile și clădirile planșei (verificate cu OSM) și stau în aceleași locuri pe foaie și pe planșa U.8, unde desenul e mutat, deci nu pot fi etichetate."
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [460, 1626],
+    "en": [393704.1, 587532.0],
+    "px_per_m": 15.45,
+    "nord": 270
+  },
+  "repere": {
+    "Serv_NV": [587443.87, 393665.95],
+    "P_NE": [587520.03, 393697.79],
+    "LcA_SE": [587534.7, 393641.15],
+    "Bl_SE": [587449.58, 393728.69],
+    "D2E_NV": [587516.08, 393607.16],
+    "LI_SV": [587451.05, 393621.03],
+    "D2E_SV": [587506.36, 393607.31],
+    "LI_SE": [587452.69, 393630.39],
+    "P_NV": [587520.53, 393688.26],
+    "LcA_treapta": [587548.43, 393636.25],
+    "Bl_NV": [587512.51, 393712.4]
+  },
+  "repere_osm": {
+    "Serv_NV": "colț de clădire (b217333035_0)",
+    "P_NE": "colț de clădire (b276472403_3)",
+    "LcA_SE": "colț de clădire (b217330196_4)",
+    "Bl_SE": "colț de clădire (b276187585_6)",
+    "D2E_NV": "colț de clădire (b276472644_0)",
+    "LI_SV": "colț de clădire (b276472688_3)",
+    "D2E_SV": "colț de clădire (b276472644_1)",
+    "LI_SE": "colț de clădire (b276472688_2)",
+    "P_NV": "colț de clădire (b276472403_0)",
+    "LcA_treapta": "colț de clădire (b217330196_18)",
+    "Bl_NV": "colț de clădire (b276187585_10)"
+  },
+  "limita_px": [
+    [622, 2129],
+    [1100, 2078],
+    [1182, 1748],
+    [1413, 1764],
+    [1611, 2507],
+    [1270, 2624],
+    [1247, 2521],
+    [681, 2694]
+  ]
 }

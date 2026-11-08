@@ -100,6 +100,90 @@
   ]
  },
  {
+  "id": "2026-24",
+  "localitate": "cluj",
+  "hcl": "24/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z. – de restructurare urbană, str. Buftea nr. 2 – str. Scorțarilor nr. 26",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-24-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/24.pdf",
+  "utr": [
+   {
+    "cod": "Rim_Digger",
+    "denumire": "Zonă mixtă – structură funcțională mixtă (locuire colectivă, funcțiuni terțiare), regim de construire închis",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "22 m la cornișă, 25 m în total ((1-2)S+P+5E+R; ultimul nivel retras cu cel puțin 1,80 m de la fațadă)"
+   }
+  ],
+  "suprafata_m2": 2350,
+  "imagine": "puz/2026-24/plansa.webp",
+  "bounds": {
+   "west": 23.6053183,
+   "south": 46.7782193,
+   "east": 23.6061756,
+   "north": 46.7788331
+  },
+  "limita": [
+   [
+    23.6058236,
+    46.7788144
+   ],
+   [
+    23.6058681,
+    46.7785362
+   ],
+   [
+    23.606148,
+    46.7784891
+   ],
+   [
+    23.606135,
+    46.7783546
+   ],
+   [
+    23.605506,
+    46.7782379
+   ],
+   [
+    23.6054059,
+    46.7784362
+   ],
+   [
+    23.6054931,
+    46.7784498
+   ],
+   [
+    23.6053449,
+    46.778779
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 6,
+   "rms_m": 0.72,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-24/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime: planșa scrie 2S+P+5E+R; hotărârea dă (1-2)S+P+5E+R (unul sau două subsoluri). Înălțimile (22 m la cornișă, 25 m total), POT 60% și CUT 2,8 sunt aceleași.",
+   "Hotărârea limitează aria construită a nivelurilor de locuit la 50% din suprafața terenului; planșa nu arată această limită."
+  ],
+  "conditii": [
+   "Investitorul transferă gratuit Municipiului un apartament de cel puțin 38 mp utili, finisat, pentru fondul locativ public, în cel mult 6 luni de la recepția clădirii.",
+   "Terenul pentru lărgirea str. Scorțarilor (171,50 mp) și a str. Buftea (175,89 mp), pe tronsoanele de lângă P.U.Z., se amenajează după proiectul autorizat, se dezmembrează, se înscrie în CF ca „drum” și se transferă gratuit în domeniul public înainte de recepția clădirii.",
+   "La faza D.T.A.C. proiectul trece prin Comisia de Estetică Urbană.",
+   "Clădirea se racordează la rețeaua publică de termoficare.",
+   "Parcarea se face în subteran, în parcelă (după Anexa 2 a R.L.U.), cu un singur loc la sol, pentru aprovizionare.",
+   "Toate investițiile sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2024-571",
   "localitate": "cluj",
   "hcl": "571/2024",
