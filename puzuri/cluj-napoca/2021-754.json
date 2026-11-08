@@ -14,22 +14,39 @@
     "dpi": 300,
     "denumire": "A.08 Plan reglementări urbanistice - zonificare",
     "scara": "1:500",
-    "nota": "Anexa 3, p. 34. PDF-ul are trei planșe, toate scanate redus pe o foaie A4 la 300 ppi (3508×2480 px, JPEG la ~2% din mărimea brută): p. 34 A.08 Reglementări urbanistice - zonificare (Anexa 3), p. 35 A.10 Proprietatea asupra terenurilor (Anexa 4), p. 36 A.11 Mobilare urbanistică (Anexa 5). Se citesc titlurile, scara și etichetele mari (UTR RiM* „ZONA MIXTĂ POTmax = 60,00%, CUTmax = 2,80”, S_Va*, S_Is*), dar nu și cifrele mici: legenda, bilanțul și cotele sunt ilizibile. Pe nicio planșă nu se văd cruci de caroiaj Stereo 70. P. 36 are și o schiță „Cote generale” a limitei, cu laturile principale, doar parțial lizibilă."
+    "nota": "Anexa 3, p. 34. PDF-ul are trei planșe, toate scanate redus pe o foaie A4 la 300 ppi (3508×2480 px, JPEG la ~2% din mărimea brută): p. 34 A.08 Reglementări urbanistice - zonificare (Anexa 3), p. 35 A.10 Proprietatea asupra terenurilor (Anexa 4), p. 36 A.11 Mobilare urbanistică (Anexa 5). Se citesc titlurile, scara și etichetele mari (UTR RiM* „ZONA MIXTĂ POTmax = 60,00%, CUTmax = 2,80”, S_Va*, S_Is*), dar nu și cifrele mici: legenda, bilanțul și cotele sunt ilizibile. Pe nicio planșă nu se văd cruci de caroiaj Stereo 70. P. 36 are și o schiță „Cote generale” a limitei, cu laturile principale, doar parțial lizibilă. Planșa e tipărită culcat: textul se citește de jos în sus, iar nordul e spre stânga (potrivirea dă o rotație de -90,0°). Scara reală a scanării: 5,2 px/m (planșa 1:500 redusă la ~21%). Din tabelele UTR se citesc doar titlurile; comparația text-planșă se poate face numai pe etichetele mari (RiM*: POT 60%, CUT 2,80, la fel ca în hotărâre). Legenda publicată (`legenda_px`) cuprinde tabelele UTR și legenda, rotite cu 90°, la fel de neclare ca pe planșă. Ștampila Consiliului Local acoperă colțul de sud-est al zonei."
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "Tabel de coordonate Stereo 70 (Nume punct, X(m), Y(m), Z(m)), pe planșele A.08, A.10 și A.11",
-    "suprafata_declarata_m2": null,
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, a doua încercare, 2026-11-09): colțuri de clădiri existente desenate pe fondul topografic al planșei și prezente în OSM, toate în afara zonei (în interior s-au construit între timp clădiri noi, care nu sunt pe planșă). Control: Hala_NV, Hala_SE (hala cu decroșuri de la est de str. Fabricii), B1_SE, B2_NV (cele două clădiri de la est de str. Fabricii, lângă sensul giratoriu), Lc1_SE (blocul de lângă str. Sobarilor, la sud-vest), S1_NV (clădirea de peste str. Sobarilor, la sud), Lc2_SE (blocul de la vest); verificare: B1_NV, B2_SV, Lc1_NV, S1_NE, Lc2_SV. Ancora de pornire: centrul sensului giratoriu B-dul Muncii–str. Fabricii (OSM), la (685, 1730) pe planșă; după potrivire cade la 4 m de el. Planșa întreagă proiectată peste ortofoto se suprapune cu B-dul Muncii, str. Fabricii, str. Sobarilor, sensul giratoriu, clădirile și loturile din jur la 1-3 m. Limita e trasată (`limita_px`) pe linia groasă punctată a zonei reglementate (urmărită pe planșa filtrată de liniile subțiri): pe B-dul Muncii și pe str. Fabricii e linia dinspre teren, colțul dinspre sensul giratoriu e rotunjit, iar latura de vest are decroșurile din schița „Cote generale” de pe planșa A.11 (p. 36). Laturile trasate se potrivesc cu cotele din schiță, citite aproximativ: 117,8 m (115), 238,4 m (2?3,13), 229,4 m (227,45), 72,6 m (72,16), 42,4 m (45,60). Aria trasată: 55.109 mp față de 55.331 mp declarați (-0,4%).",
+    "suprafata_declarata_m2": 55331.0,
     "puncte": {},
-    "nota": "Netranscris: tabelul (~45 de puncte) are cifre de 4-7 px înălțime, înecate în artefacte JPEG, în toate cele trei copii (cea mai clară e p. 35, cu rânduri la 15 px). Nici numerele punctelor nu se pot citi sigur, iar cifrele care contează (metrii și zecile de metri) nu se disting. Pentru o nouă încercare e nevoie de planșa la mărimea originală."
+    "nota": "Tabelul de coordonate nu se poate transcrie: are ~45 de puncte cu cifre de 4-7 px înălțime, înecate în artefacte JPEG, în toate cele trei copii (cea mai clară e p. 35, cu rânduri la 15 px); nici numerele punctelor nu se citesc sigur. Planșa nu are cruci de caroiaj. De aceea poziționarea e aproximativă (±3-5 m), după OpenStreetMap; ar fi exactă cu planșa la mărimea originală sau cu coordonatele cadastrale ale imobilului 329458. Suprafața: 55.331 mp (CF 329458), din contractul de restructurare (Anexa 1, p. 5) și din R.L.U. (Anexa 2, p. 19); bilanțul de pe planșă e ilizibil."
   },
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "Hala_NV": [1298, 1308],
+    "Hala_SE": [1627, 1017],
+    "B1_SE": [1084, 1296],
+    "B2_NV": [826, 1587],
+    "Lc1_SE": [2026, 2615],
+    "S1_NV": [2208, 2450],
+    "Lc2_SE": [1172, 3176]
+  },
+  "verificare_px": {
+    "B1_NV": [892, 1400],
+    "B2_SV": [1031, 1555],
+    "Lc1_NV": [1795, 2766],
+    "S1_NE": [2182, 2172],
+    "Lc2_SV": [1195, 3229]
+  },
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
   },
-  "legenda_px": [],
+  "legenda_px": [
+    [150, 158, 1370, 515, 90],
+    [700, 515, 1030, 772, 90]
+  ],
   "utr": [
     {
       "cod": "RiM*",
@@ -72,7 +89,7 @@
     "Obligațiile de pe cei ~160 m² din nr. cad. 345990 de la B-dul Muncii – în parte lărgirea bulevardului cu o bandă de 3,5 m, pistă de biciclete de 1,5 m și trotuar de 3 m, cu mutarea stâlpilor tramvaiului și a rețelelor – se transformă în echivalent bănesc, după devizul proiectantului, corelat cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului. Banii se plătesc 50% înainte de orice autorizație de construire din etapa 2 și 50% înainte de recepția primului imobil din etapa 2, actualizați la data plății (modificat prin HCL 642/2025).",
     "Intrările și ieșirile auto din B-dul Muncii și din str. Fabricii se fac doar cu viraje la dreapta.",
     "Terenul pentru lărgirea B-dului Muncii și a str. Fabricii se dezmembrează și se înscrie în CF ca drum înainte de orice autorizație de construire, se amenajează pe cheltuiala investitorului și trece gratuit în domeniul public până la recepția finală a primei construcții din etapa 2. Cei ~160 m² din nr. cad. 345990 trec gratuit în domeniul public până la 15 noiembrie 2025 (modificat prin HCL 642/2025).",
-    "Terenul subzonei S_Is* se dezmembrează înainte de orice autorizație de construire.",
+    "Terenul subzonei S_Is* (5.801 mp, după contractul de restructurare) se dezmembrează înainte de orice autorizație de construire.",
     "Etapa 1 (la sud și la vest de strada A): înainte de autorizațiile pe parcele, strada A și prelungirea str. Cărămidarilor se echipează edilitar și se asfaltează, cu benzile de staționare; stația de autobuz se mută înainte de realizarea străzii A, iar banda de accelerare de pe str. Fabricii se face înainte de recepția clădirii GP2; trotuarele și fâșiile verzi, înainte de recepția fiecărei clădiri.",
     "Înainte de recepția ultimei clădiri din zona mixtă a etapei 1, școala cu sală de sport, finisată, și parcela ei trec gratuit în domeniul public.",
     "Etapa 2 (restul terenului): autorizații de construire (în afară de rețele) doar după recepția lucrărilor din etapa 1 și nu mai devreme de 2025; trotuarele, inclusiv pe str. Cărămidarilor și pe strada A, înainte de recepția fiecărei clădiri.",
@@ -83,9 +100,64 @@
   "valabilitate": {
     "ani": 7,
     "pana_la": "2028-12-06",
-    "verificat": "2026-11-08: nicio prelungire; modificată prin HCL 642/2025 (indexul hotărârilor PUZ)"
+    "verificat": "2026-11-09: Art. 3, șapte ani; nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08); modificată prin HCL 642/2025"
   },
   "hotarare_text": "documente/2021-754/hotarare.txt",
-  "stare": "oprit",
-  "motiv": "Planșa de reglementări (p. 34) e scanată redus pe A4 la 300 ppi și puternic comprimată: tabelul de coordonate Stereo 70 (~45 de puncte) e ilizibil în toate cele trei copii (p. 34-36), iar planșa nu are cruci de caroiaj."
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [685, 1730],
+    "en": [394213.1, 589604.4],
+    "px_per_m": 4.95,
+    "nord": 270
+  },
+  "repere": {
+    "Hala_NV": [589484.12, 394297.75],
+    "Hala_SE": [589420.95, 394354.18],
+    "B1_SE": [589526.67, 394300.09],
+    "B2_NV": [589578.53, 394243.81],
+    "B1_NV": [589563.7, 394279.31],
+    "B2_SV": [589537.67, 394249.02],
+    "Lc1_SE": [589344.11, 394046.85],
+    "Lc1_NV": [589389.39, 394017.71],
+    "S1_NV": [589309.56, 394078.4],
+    "S1_NE": [589314.61, 394132.11],
+    "Lc2_SE": [589510.67, 393940.21],
+    "Lc2_SV": [589506.44, 393929.92]
+  },
+  "repere_osm": {
+    "Hala_NV": "colț de clădire (b277371935_0)",
+    "Hala_SE": "colț de clădire (b277371935_12)",
+    "B1_SE": "colț de clădire (b283371548_3)",
+    "B2_NV": "colț de clădire (b283370680_0)",
+    "B1_NV": "colț de clădire (b283371548_0)",
+    "B2_SV": "colț de clădire (b283370680_3)",
+    "Lc1_SE": "colț de clădire (b277372124_1)",
+    "Lc1_NV": "colț de clădire (b277372124_3)",
+    "S1_NV": "colț de clădire (b277372310_0)",
+    "S1_NE": "colț de clădire (b277372310_3)",
+    "Lc2_SE": "colț de clădire (b277372051_2)",
+    "Lc2_SV": "colț de clădire (b277372051_3)"
+  },
+  "limita_px": [
+    [1756, 1384],
+    [1838, 1700],
+    [1960, 2300],
+    [2004, 2549],
+    [1744, 2656],
+    [1712, 2605],
+    [1391, 2746],
+    [1407, 2800],
+    [1060, 2951],
+    [944, 2592],
+    [744, 2656],
+    [711, 2588],
+    [463, 2659],
+    [392, 2448],
+    [612, 1965],
+    [645, 1910],
+    [680, 1880],
+    [720, 1857],
+    [800, 1822],
+    [1000, 1737]
+  ]
 }

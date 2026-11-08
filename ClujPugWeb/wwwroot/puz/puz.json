@@ -1099,6 +1099,165 @@
   ]
  },
  {
+  "id": "2021-754",
+  "localitate": "cluj",
+  "hcl": "754/2021",
+  "data": "2021-12-06",
+  "titlu": "P.U.Z. de restructurare urbană – B-dul Muncii nr. 4-6 – str. Fabricii (front vestic) Ansamblu „Noroc”",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-754-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/02/09/HCL-754-din-2021.pdf",
+  "utr": [
+   {
+    "cod": "RiM*",
+    "denumire": "Zonă mixtă – restructurarea fostei zone industriale: locuire colectivă, birouri, servicii",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "33 m la cornișă, 35 m total ((1-4S)+P+9E) pe aliniamentul B-dul Muncii și str. Fabricii; 27 m la cornișă, 30 m total ((1-3S)+P+7E) în interiorul ansamblului; clădirea de colț B-dul Muncii–str. Cărămidarilor, (1-4S)+P+9E, cu înălțimea dată de programul de arhitectură"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice – învățământ (școală cu sală de sport)",
+    "pot_max": "75%",
+    "cut_max": "2,8",
+    "h_max": "12 m la cornișă, 16 m total ((1-2S)+P+2E+R(M))"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "9 m la cornișă ((S/D)+P+1)"
+   }
+  ],
+  "suprafata_m2": 55109,
+  "imagine": "puz/2021-754/plansa.webp",
+  "bounds": {
+   "west": 23.6093522,
+   "south": 46.795293,
+   "east": 23.6134287,
+   "north": 46.7981633
+  },
+  "limita": [
+   [
+    23.6133891,
+    46.7957855
+   ],
+   [
+    23.6125959,
+    46.7956343
+   ],
+   [
+    23.6110884,
+    46.7954056
+   ],
+   [
+    23.6104625,
+    46.7953222
+   ],
+   [
+    23.6101817,
+    46.7957692
+   ],
+   [
+    23.6103089,
+    46.7958261
+   ],
+   [
+    23.6099398,
+    46.7963778
+   ],
+   [
+    23.6098043,
+    46.7963485
+   ],
+   [
+    23.6094089,
+    46.7969449
+   ],
+   [
+    23.610309,
+    46.7971562
+   ],
+   [
+    23.6101392,
+    46.7975006
+   ],
+   [
+    23.6103092,
+    46.7975598
+   ],
+   [
+    23.6101197,
+    46.7979871
+   ],
+   [
+    23.6106486,
+    46.7981162
+   ],
+   [
+    23.6118757,
+    46.7977494
+   ],
+   [
+    23.6120158,
+    46.7976938
+   ],
+   [
+    23.6120929,
+    46.7976341
+   ],
+   [
+    23.6121526,
+    46.7975655
+   ],
+   [
+    23.6122443,
+    46.797428
+   ],
+   [
+    23.6124671,
+    46.7970842
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 7,
+   "rms_m": 1.42,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2021-754/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2028-12-06"
+  },
+  "diferente_fata_de_plansa": [
+   "Amenajarea B-dului Muncii din dreptul P.U.Z. (o bandă în plus de 3,5 m, pistă de biciclete de 1,5 m, trotuar de 3 m) nu mai e în sarcina beneficiarei, ci se plătește în bani, iar reglementările circulației pe bulevard se corelează cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului. Planșa rămâne cea aprobată în 2021 (modificat prin HCL 642/2025, Art. 1)."
+  ],
+  "conditii": [
+   "Străzi în sarcina beneficiarei: prelungirea și modernizarea str. Cărămidarilor până la intersecția B-dul Muncii–str. Fabricii (sens unic de intrare dinspre str. Fabricii), sens giratoriu B-dul Muncii–str. Fabricii–str. Cărămidarilor cu bandă separată de viraj la dreapta spre str. Cărămidarilor, și strada nouă „A”, racordată la str. Fabricii.",
+   "Pe str. Fabricii, tot în sarcina beneficiarei: o bandă în plus de 3,5 m (decelerare și accelerare) la strada A, stația de autobuz mutată într-o alveolă nouă, cu copertina existentă mutată fără a fi deteriorată, bandă verde de 3,5 m, pistă de biciclete de 1,5 m și trotuar nou de 3 m până la limita spre str. Sobarilor nr. 35, cu lărgirea străzii din terenul propriu și mutarea stâlpilor și a rețelelor.",
+   "Obligațiile de pe cei ~160 m² din nr. cad. 345990 de la B-dul Muncii – în parte lărgirea bulevardului cu o bandă de 3,5 m, pistă de biciclete de 1,5 m și trotuar de 3 m, cu mutarea stâlpilor tramvaiului și a rețelelor – se transformă în echivalent bănesc, după devizul proiectantului, corelat cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului. Banii se plătesc 50% înainte de orice autorizație de construire din etapa 2 și 50% înainte de recepția primului imobil din etapa 2, actualizați la data plății (modificat prin HCL 642/2025).",
+   "Intrările și ieșirile auto din B-dul Muncii și din str. Fabricii se fac doar cu viraje la dreapta.",
+   "Terenul pentru lărgirea B-dului Muncii și a str. Fabricii se dezmembrează și se înscrie în CF ca drum înainte de orice autorizație de construire, se amenajează pe cheltuiala investitorului și trece gratuit în domeniul public până la recepția finală a primei construcții din etapa 2. Cei ~160 m² din nr. cad. 345990 trec gratuit în domeniul public până la 15 noiembrie 2025 (modificat prin HCL 642/2025).",
+   "Terenul subzonei S_Is* (5.801 mp, după contractul de restructurare) se dezmembrează înainte de orice autorizație de construire.",
+   "Etapa 1 (la sud și la vest de strada A): înainte de autorizațiile pe parcele, strada A și prelungirea str. Cărămidarilor se echipează edilitar și se asfaltează, cu benzile de staționare; stația de autobuz se mută înainte de realizarea străzii A, iar banda de accelerare de pe str. Fabricii se face înainte de recepția clădirii GP2; trotuarele și fâșiile verzi, înainte de recepția fiecărei clădiri.",
+   "Înainte de recepția ultimei clădiri din zona mixtă a etapei 1, școala cu sală de sport, finisată, și parcela ei trec gratuit în domeniul public.",
+   "Etapa 2 (restul terenului): autorizații de construire (în afară de rețele) doar după recepția lucrărilor din etapa 1 și nu mai devreme de 2025; trotuarele, inclusiv pe str. Cărămidarilor și pe strada A, înainte de recepția fiecărei clădiri.",
+   "Străzile A și Cărămidarilor și scuarul S_Va* au acces public nelimitat, garantat prin declarație notarială. Scuarul se amenajează după un proiect de specialitate, se recepționează înainte de ultimul imobil din etapa 2 și are un loc pentru placa comemorativă dedicată deportării evreilor din ghetoul de la Cluj, înființat la 3 mai 1944.",
+   "Toate investițiile sunt suportate de beneficiară; pentru nr. cad. 345990 (fără cei ~160 m²), 345991 și 345992 rămân reglementările și investițiile din 2021 (confirmat prin HCL 642/2025).",
+   "Contractul de restructurare nr. 697548/14.12.2021 se completează cu un act adițional (HCL 642/2025, Art. 2)."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "642/2025",
+    "data": "2025-10-29",
+    "rezumat": "Obligațiile beneficiarei de pe cei ~160 m² din nr. cad. 345990 de la B-dul Muncii (în parte lărgirea bulevardului) se transformă în echivalent bănesc, corelat cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului, iar terenul trece gratuit în domeniul public până la 15 noiembrie 2025; pentru restul terenului rămân reglementările din 2021. Modificarea are valabilitate proprie de 7 ani, până la 29 octombrie 2032.",
+    "plansa_noua": false
+   }
+  ]
+ },
+ {
   "id": "2021-24",
   "localitate": "cluj",
   "hcl": "24/2021",
