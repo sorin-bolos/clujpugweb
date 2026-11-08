@@ -49,3 +49,7 @@ export/
 
 # PUZ pipeline downloads and renders (rebuilt from puzuri/ recipes)
 puz_cache/
+# Backup of the PUZ decisions' original documents - kept locally, not in git, not served.
+# Their checksums (SHA256SUMS) are tracked.
+puzuri/*/documente/*
+!puzuri/*/documente/SHA256SUMS

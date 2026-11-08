@@ -13,7 +13,10 @@ is derived from it and can be rebuilt at any time:
     py -3.13 tools/puz/puz.py vertices puzuri/cluj-napoca/2026-597.json 10 12 13 ...
     py -3.13 tools/puz/puz.py build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
 
-Downloads and renders go to puz_cache/<id>/ (not tracked). Published files go to
+The decision's documents are kept as a backup in puzuri/<localitate>/documente/<id>/
+(ignored by git, never served), in case the city hall moves or removes them; their
+checksums go in puzuri/<localitate>/documente/SHA256SUMS, which is tracked. Renders
+and checks go to puz_cache/<id>/ (ignored, rebuildable). Published files go to
 ClujPugWeb/wwwroot/puz/<id>/ and an entry in ClujPugWeb/wwwroot/puz/puz.json.
 
 Coordinates in recipes are written the way Romanian plates print them:
@@ -21,6 +24,7 @@ Coordinates in recipes are written the way Romanian plates print them:
 """
 
 import argparse
+import hashlib
 import io
 import json
 import math
@@ -64,8 +68,18 @@ def cache_dir(r):
     return d
 
 
+def docs_dir(r):
+    d = os.path.join(os.path.dirname(os.path.abspath(r["_path"])), "documente", r["id"])
+    os.makedirs(d, exist_ok=True)
+    return d
+
+
+def doc_name(url):
+    return urllib.parse.unquote(os.path.basename(url.split("?")[0]))
+
+
 def pdf_path(r):
-    return os.path.join(cache_dir(r), os.path.basename(r["hcl"]["pdf"].split("?")[0]))
+    return os.path.join(docs_dir(r), doc_name(r["hcl"]["pdf"]))
 
 
 def plate_path(r):
@@ -93,13 +107,72 @@ def font(size, bold=False):
 
 # --- fetch / render ----------------------------------------------------------------
 
+# Linked from every page of primariaclujnapoca.ro, not part of any decision.
+SITE_WIDE_PDF = re.compile(r"Politica-Anti-Mita", re.I)
+
+
+def decision_documents(r):
+    """The recipe's PDF plus every other PDF linked from the decision's page."""
+    urls = [r["hcl"]["pdf"]]
+    page = r["hcl"].get("pagina")
+    if page:
+        try:
+            html = urllib.request.urlopen(urllib.request.Request(page, headers=UA), timeout=60).read().decode("utf-8", "replace")
+        except Exception as e:  # the page may be gone - that is what the backup is for
+            print("decision page not reachable (%s); keeping to the recipe's PDF" % e)
+            html = ""
+        for href in re.findall(r'href="([^"]+\.pdf)"', html, re.I):
+            u = urllib.parse.urljoin(page, href)
+            if not SITE_WIDE_PDF.search(u) and doc_name(u) not in [doc_name(x) for x in urls]:
+                urls.append(u)
+    return urls
+
+
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, "rb") as f:
+        for block in iter(lambda: f.read(1 << 20), b""):
+            h.update(block)
+    return h.hexdigest()
+
+
+def record_checksums(r, paths):
+    """Keep documente/SHA256SUMS (sha256sum format) in step with the backup.
+    A file that no longer matches its recorded sum is reported, not re-recorded."""
+    manifest = os.path.join(os.path.dirname(docs_dir(r)), "SHA256SUMS")
+    sums = {}
+    if os.path.exists(manifest):
+        with open(manifest, encoding="utf-8") as f:
+            for line in f:
+                digest, _, name = line.rstrip("\n").partition("  ")
+                if name:
+                    sums[name] = digest
+    for p in paths:
+        name = r["id"] + "/" + os.path.basename(p)
+        digest = sha256(p)
+        if name in sums and sums[name] != digest:
+            print("WARNING: %s does not match its recorded checksum" % name)
+            continue
+        sums[name] = digest
+    with open(manifest, "w", encoding="utf-8", newline="\n") as f:
+        for name in sorted(sums):
+            f.write("%s  %s\n" % (sums[name], name))
+
+
 def cmd_fetch(r, args):
+    paths = []
+    for url in decision_documents(r):
+        dst = os.path.join(docs_dir(r), doc_name(url))
+        if not os.path.exists(dst):
+            quoted = urllib.parse.quote(url, safe=":/()%?=&")
+            with urllib.request.urlopen(urllib.request.Request(quoted, headers=UA), timeout=180) as resp:
+                data = resp.read()
+            with open(dst, "wb") as f:
+                f.write(data)
+        print("document:", dst, os.path.getsize(dst) // 1024, "KB")
+        paths.append(dst)
+    record_checksums(r, paths)
     dst = pdf_path(r)
-    if not os.path.exists(dst):
-        url = urllib.parse.quote(r["hcl"]["pdf"], safe=":/()%?=&")
-        with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=120) as resp:
-            open(dst, "wb").write(resp.read())
-    print("pdf:", dst, os.path.getsize(dst) // 1024, "KB")
     info = subprocess.run(["pdfinfo", "-f", "1", "-l", "999", dst], capture_output=True, text=True).stdout
     sizes = dict(re.findall(r"Page\s+(\d+) size:\s+(.+)", info))
     imgs = subprocess.run(["pdfimages", "-list", dst], capture_output=True, text=True).stdout.splitlines()[2:]

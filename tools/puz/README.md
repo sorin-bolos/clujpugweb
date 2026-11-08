@@ -33,8 +33,9 @@ Two checks catch mistakes:
 1. **Recipe skeleton.** Take `id`, `hcl` (nr, an, data_sedinta, pagina, pdf) and
    `titlu` from the council decision listing. Write the title **without the
    beneficiaries' names**.
-2. `puz.py fetch` downloads the PDF, lists pages and images, and writes a contact
-   sheet (`puz_cache/<id>/pages.png`). Find the *Reglementări urbanistice* plate.
+2. `puz.py fetch` downloads the decision's documents: the recipe's PDF plus any
+   other PDF linked from the decision page. It lists pages and images, and writes a
+   contact sheet (`puz_cache/<id>/pages.png`). Find the *Reglementări urbanistice* plate.
    PDFs often contain it **twice**, scanned differently. On HCL 597/2026, page 6 is
    unreadable and page 13 is clean. Use the clearest copy as `plansa.pagina_pdf`.
 3. `puz.py render` renders that page at its native dpi, plus an overview with a
@@ -65,6 +66,22 @@ Two checks catch mistakes:
    zoomed to it.
 10. **Commit** the recipe, `ClujPugWeb/wwwroot/puz/<id>/` and `puz/puz.json`, as
     `PUZ HCL <nr>/<an> – <location>`. `puz_cache/` stays out of git.
+
+## Where files live
+
+| Folder | What | In git | Served |
+|---|---|---|---|
+| `puzuri/<localitate>/<id>.json` | the recipe | yes | no |
+| `puzuri/<localitate>/documente/<id>/` | backup of the decision's original documents | no | no |
+| `puzuri/<localitate>/documente/SHA256SUMS` | their checksums | yes | no |
+| `puz_cache/<id>/` | renders, picking aids, imagery checks; rebuildable | no | no |
+| `ClujPugWeb/wwwroot/puz/` | what the site shows | yes | yes |
+
+The documents are kept in case the city hall moves or removes them. `fetch` only
+downloads what is missing, so a rebuild still works once the links are dead. Check
+the backup with `cd puzuri/cluj-napoca/documente && sha256sum -c SHA256SUMS`. Being
+ignored by git, the backup exists only on this machine: copy `documente/` somewhere
+else too.
 
 ## What is published
 
