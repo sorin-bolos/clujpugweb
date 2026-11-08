@@ -101,6 +101,10 @@ body.mode-puz #legenda .locality-pane {
     padding: 16px;
 }
 
+.puz-list-item {
+    flex: 1 1 100%;
+}
+
 .puz-card-title {
     font-size: 1.1rem;
 }

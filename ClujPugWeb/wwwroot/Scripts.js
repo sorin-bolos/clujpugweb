@@ -428,7 +428,7 @@ function initMapElementToCluj() {
 
     addSlideControlToMap(map, google.maps.ControlPosition.BOTTOM_CENTER);
     followVisibleLocalities(map);
-    loadPuz(map);
+    watchPuz(map);
     setPlanMode(planMode);
 }
 
@@ -524,7 +524,9 @@ function setOverlayOpacity(opacity) {
         overlay.setOpacity(opacity);
     });
     puzOverlays.forEach(function (item) {
-        item.image.setOpacity(opacity);
+        if (item.image) {
+            item.image.setOpacity(opacity);
+        }
     });
 }
 
@@ -534,9 +536,13 @@ function setOverlayOpacity(opacity) {
 // bounds lines up exactly; its boundary comes from the plate's coordinate inventory.
 
 var puzList = [];
-var puzOverlays = [];   // { puz, image: GroundOverlay, outline: Polygon }
+var puzOverlays = [];   // { puz, outline: Polygon, image: GroundOverlay, created when first needed }
 var puzInfoWindow = null;
+var puzState = 'none';  // 'none' -> 'loading' -> 'ready'
 var PUZ_COLOR = '#d6007e';
+// Plates are only fetched for PUZ-uri in view from this zoom on; below it a plate
+// is a few pixels wide and the outline says as much. Outlines are always drawn.
+var PUZ_IMAGE_MIN_ZOOM = 15;
 var MONTHS = ['ianuarie', 'februarie', 'martie', 'aprilie', 'mai', 'iunie', 'iulie',
     'august', 'septembrie', 'octombrie', 'noiembrie', 'decembrie'];
 
@@ -554,6 +560,10 @@ function setPlanMode(mode) {
         return;
     }
 
+    if (planMode === 'puz') {
+        loadPuz();
+    }
+
     // Hidden PUG plates are taken off the map rather than made transparent, so their
     // tiles stop loading.
     theMap.overlayMapTypes.clear();
@@ -561,20 +571,60 @@ function setPlanMode(mode) {
         pugOverlays.forEach(function (overlay) { theMap.overlayMapTypes.push(overlay); });
     }
     puzOverlays.forEach(function (item) {
-        item.image.setMap(planMode === 'puz' ? theMap : null);
         item.outline.setMap(planMode === 'puz' ? theMap : null);
     });
+    syncPuzImages();
     if (puzInfoWindow) {
         puzInfoWindow.close();
     }
     updatePuzLegend();
 }
 
-function loadPuz(map) {
+// Puts on the map the plates of the PUZ-uri in view and takes off the rest, so the
+// number of PUZ-uri on the site does not decide how much a visitor downloads.
+// A plate taken off stays in the browser's cache for when it comes back into view.
+function syncPuzImages() {
+    if (!theMap) {
+        return;
+    }
+    var viewport = theMap.getBounds();
+    var showPlates = planMode === 'puz' && viewport && theMap.getZoom() >= PUZ_IMAGE_MIN_ZOOM;
+    puzOverlays.forEach(function (item) {
+        var wanted = showPlates && viewport.intersects(toLatLngBounds(item.puz.bounds));
+        if (wanted) {
+            ensurePuzImage(item);
+            if (item.image.getMap() !== theMap) {
+                item.image.setMap(theMap);
+            }
+        } else if (item.image && item.image.getMap()) {
+            item.image.setMap(null);
+        }
+    });
+}
+
+function ensurePuzImage(item) {
+    if (item.image) {
+        return;
+    }
+    item.image = new google.maps.GroundOverlay(item.puz.imagine, toLatLngBounds(item.puz.bounds), {
+        opacity: overlayOpacity,
+        clickable: true
+    });
+    item.image.addListener('click', function (event) { openPuzInfo(item.puz, event.latLng); });
+}
+
+// puz.json is only fetched the first time PUZ mode is switched on, so visitors who
+// stay on the PUG never download it.
+function loadPuz() {
+    if (puzState !== 'none') {
+        return;
+    }
+    puzState = 'loading';
     fetch('puz/puz.json')
         .then(function (response) { return response.ok ? response.json() : []; })
         .catch(function () { return []; })
         .then(function (list) {
+            puzState = 'ready';
             puzList = list;
             puzOverlays = list.map(createPuzOverlay);
             setPlanMode(planMode);
@@ -582,8 +632,13 @@ function loadPuz(map) {
                 zoomToPuz(requestedPuz);
             }
         });
+}
 
-    map.addListener('idle', updatePuzLegend);
+function watchPuz(map) {
+    map.addListener('idle', function () {
+        syncPuzImages();
+        updatePuzLegend();
+    });
     // A PUZ is a few hundred metres at most, so at city zoom its outline would be a
     // speck; a thicker stroke keeps it findable until the plate itself is legible.
     map.addListener('zoom_changed', function () {
@@ -593,10 +648,6 @@ function loadPuz(map) {
 }
 
 function createPuzOverlay(puz) {
-    var image = new google.maps.GroundOverlay(puz.imagine, toLatLngBounds(puz.bounds), {
-        opacity: overlayOpacity,
-        clickable: true
-    });
     var outline = new google.maps.Polygon({
         paths: puz.limita.map(function (p) { return { lat: p[1], lng: p[0] }; }),
         strokeColor: PUZ_COLOR,
@@ -606,10 +657,8 @@ function createPuzOverlay(puz) {
         fillOpacity: 0.06,
         zIndex: 2
     });
-    var open = function (event) { openPuzInfo(puz, event.latLng); };
-    image.addListener('click', open);
-    outline.addListener('click', open);
-    return { puz: puz, image: image, outline: outline };
+    outline.addListener('click', function (event) { openPuzInfo(puz, event.latLng); });
+    return { puz: puz, outline: outline, image: null };
 }
 
 function openPuzInfo(puz, position) {
@@ -650,23 +699,47 @@ function updatePuzLegend() {
     var visible = puzList.filter(function (puz) {
         return viewport && viewport.intersects(toLatLngBounds(puz.bounds));
     });
-    if (puzList.length === 0) {
+    // Legend images follow the plates: only for PUZ-uri in view, and only once the
+    // map is close enough to show their plates. Otherwise a short list to pick from.
+    var detailed = theMap && theMap.getZoom() >= PUZ_IMAGE_MIN_ZOOM;
+    var shown = visible;
+    if (puzState !== 'ready') {
+        note.textContent = 'Se încarcă PUZ-urile…';
+    } else if (puzList.length === 0) {
         note.textContent = 'Nu a fost adăugat încă niciun PUZ.';
     } else if (visible.length === 0) {
-        note.textContent = 'Niciun PUZ în zona vizibilă a hărții. Mai jos sunt toate PUZ-urile adăugate până acum ('
-            + puzList.length + ').';
-        visible = puzList;
+        note.textContent = 'Niciun PUZ în zona vizibilă a hărții. Mai jos, toate cele ' + puzCount(puzList.length)
+            + ' adăugate până acum.';
+        shown = puzList;
+        detailed = false;
     } else {
-        note.textContent = visible.length === 1
-            ? 'Un PUZ în zona vizibilă a hărții.'
-            : visible.length + ' PUZ-uri în zona vizibilă a hărții.';
+        note.textContent = capitalize(puzCount(visible.length)) + ' în zona vizibilă a hărții.'
+            + (detailed ? '' : ' Apropie harta ca să vezi planșele și legendele lor.');
     }
-    var key = visible.map(function (puz) { return puz.id; }).join(',');
+    var key = (detailed ? 'card:' : 'list:') + shown.map(function (puz) { return puz.id; }).join(',');
     if (list.dataset.key === key) {
         return;
     }
     list.dataset.key = key;
-    list.innerHTML = visible.map(puzCardHtml).join('');
+    list.innerHTML = shown.map(detailed ? puzCardHtml : puzListItemHtml).join('');
+}
+
+function puzListItemHtml(puz) {
+    return '<div class="puz-list-item"><strong>HCL ' + escapeHtml(puz.hcl) + '</strong> &ndash; ' +
+        escapeHtml(puz.titlu) + ' &middot; <a href="#map" data-puz-zoom="' + escapeHtml(puz.id) + '">Arată pe hartă</a></div>';
+}
+
+// "un PUZ", "5 PUZ-uri", "20 de PUZ-uri", "101 PUZ-uri"
+function puzCount(n) {
+    if (n === 1) {
+        return 'un PUZ';
+    }
+    var lastTwo = n % 100;
+    return n + (lastTwo === 0 || lastTwo >= 20 ? ' de' : '') + ' PUZ-uri';
+}
+
+function capitalize(text) {
+    return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
 function puzCardHtml(puz) {
