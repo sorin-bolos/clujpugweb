@@ -49,7 +49,10 @@ UA = {"User-Agent": "clujpug.ro PUZ pipeline"}
 # Quality gates. A transcription error shows up as an area mismatch; a misplaced
 # control point or a misread digit shows up as a residual of metres, not decimetres.
 AREA_TOLERANCE = 0.01          # relative
+# Picking a vertex is good to 2-3 pixels whatever the scale, so the residual gate is
+# 1 m or 4 plate pixels, whichever is larger: 1 m at 1:250-1:1000, ~1.3 m at 1:2500.
 MAX_RESIDUAL_M = 1.0
+MAX_RESIDUAL_PX = 4
 OUTPUT_RES_3857 = 0.07         # metres (EPSG:3857 units) per output pixel, ~z21
 
 Image.MAX_IMAGE_PIXELS = None
@@ -438,8 +441,9 @@ def check_fit(r):
     ctrl = [res[n] for n in names]
     rms = math.sqrt(sum(v * v for v in ctrl) / len(ctrl))
     worst = max(res.values())
-    ok = worst <= MAX_RESIDUAL_M
-    print("rms %.2f m, worst %.2f m -> %s" % (rms, worst, "OK" if ok else "TOO LARGE"))
+    limit = max(MAX_RESIDUAL_M, MAX_RESIDUAL_PX * sx)
+    ok = worst <= limit
+    print("rms %.2f m, worst %.2f m, limit %.2f m -> %s" % (rms, worst, limit, "OK" if ok else "TOO LARGE"))
     return ok, pe, pn, rms, worst
 
 
