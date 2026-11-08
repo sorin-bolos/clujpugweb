@@ -87,5 +87,99 @@
    "rms_m": 0.21
   },
   "legenda": "puz/2026-597/legenda.webp"
+ },
+ {
+  "id": "2020-4",
+  "localitate": "cluj",
+  "hcl": "4/2020",
+  "data": "2020-01-10",
+  "titlu": "P.U.Z. de urbanizare – instituire subzonă de instituții și servicii de interes public în zonă de activități economice de tip comercial, Calea Turzii nr. 173",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-4-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/01/10/HCL-4-din-10.01.2020.pdf",
+  "utr": [
+   {
+    "cod": "Is_A*",
+    "denumire": "Instituții și servicii publice și de interes public – funcțiuni de sănătate și activități complementare",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "24 m"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic"
+   }
+  ],
+  "suprafata_m2": 1417,
+  "imagine": "puz/2020-4/plansa.webp",
+  "bounds": {
+   "west": 23.5955692,
+   "south": 46.7523097,
+   "east": 23.5968095,
+   "north": 46.7527635
+  },
+  "limita": [
+   [
+    23.5965228,
+    46.7523755
+   ],
+   [
+    23.5965236,
+    46.7523778
+   ],
+   [
+    23.5964627,
+    46.7523927
+   ],
+   [
+    23.5963061,
+    46.7524289
+   ],
+   [
+    23.5958183,
+    46.7525429
+   ],
+   [
+    23.5958187,
+    46.7525446
+   ],
+   [
+    23.5955981,
+    46.752595
+   ],
+   [
+    23.5956639,
+    46.7527324
+   ],
+   [
+    23.5962883,
+    46.752586
+   ],
+   [
+    23.5965085,
+    46.7525323
+   ],
+   [
+    23.5967765,
+    46.7524707
+   ],
+   [
+    23.5967252,
+    46.7524096
+   ],
+   [
+    23.5966645,
+    46.7523396
+   ],
+   [
+    23.5965414,
+    46.7523709
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.08
+  },
+  "legenda": "puz/2020-4/legenda.webp"
  }
 ]
