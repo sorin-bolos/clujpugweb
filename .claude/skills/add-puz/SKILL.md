@@ -28,6 +28,11 @@ checklist; the README is the reference.
   - `"integrat"`: the decision was folded into its base PUZ. Stop.
   - no `stare`, and the PUZ is in `ClujPugWeb/wwwroot/puz/puz.json`: already
     published. Stop.
+  - no `stare`, and not in `puz.json`: an earlier run was interrupted. The recipe
+    may be uncommitted; any leftover published files under
+    `ClujPugWeb/wwwroot/puz/<id>/` are its, too. Resume: check each filled field
+    against the documents before relying on it, then carry on from the first step
+    that is not done.
 - Touch only this PUZ's files:
   - `puzuri/cluj-napoca/<id>.json`;
   - `puzuri/cluj-napoca/documente/SHA256SUMS`;
@@ -53,7 +58,7 @@ where `<id>` is `<an>-<nr>`.
 
 1. **Skeleton.** `py -3.13 tools/puz/puz.py new <an> <nr>`. It prints the title,
    session date, PDF and the validity it found in the decision's text. If the
-   recipe already exists, stop: someone did this PUZ.
+   recipe already exists, the ground rules above say whether to resume or stop.
 2. **Documents.** `fetch`. Look at `puz_cache/<id>/pages.png` and the page list.
    - Find the regulations plate ("Reglementări urbanistice", "Plan reglementări",
      "zonificare"). It is usually the large-format page.
