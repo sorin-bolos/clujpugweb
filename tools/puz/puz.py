@@ -6,6 +6,7 @@ transcribed from the plate's "Inventar de coordonate", the pixel position of som
 those points on the plate, and the crops (legend, areas to mask out). Everything else
 is derived from it and can be rebuilt at any time:
 
+    py -3.13 tools/puz/puz.py new      2026 597                           # recipe skeleton from the listing
     py -3.13 tools/puz/puz.py fetch    puzuri/cluj-napoca/2026-597.json   # PDF + page contact sheet
     py -3.13 tools/puz/puz.py render   puzuri/cluj-napoca/2026-597.json   # plate page at full resolution
     py -3.13 tools/puz/puz.py grid     puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--scale S --step N]
@@ -25,6 +26,7 @@ Coordinates in recipes are written the way Romanian plates print them:
 
 import argparse
 import hashlib
+import html as htmlmod
 import io
 import json
 import math
@@ -103,6 +105,59 @@ def font(size, bold=False):
         return ImageFont.truetype("arialbd.ttf" if bold else "arial.ttf", size)
     except OSError:
         return ImageFont.load_default()
+
+
+# --- new recipe ----------------------------------------------------------------------
+
+LISTING = "https://primariaclujnapoca.ro/consiliu-local/hotarari-de-consiliu/?_sfm_hotarare_an={an}&_sfm_hotarare_nr={nr}"
+MONTHS_RO = ["ianuarie", "februarie", "martie", "aprilie", "mai", "iunie", "iulie", "august",
+             "septembrie", "octombrie", "noiembrie", "decembrie"]
+
+
+def page_lines(url):
+    html_text = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read().decode("utf-8", "replace")
+    txt = re.sub(r"<script.*?</script>|<style.*?</style>", "", html_text, flags=re.S)
+    return html_text, [l.strip() for l in htmlmod.unescape(re.sub(r"<[^>]+>", "\n", txt)).split("\n") if l.strip()]
+
+
+def cmd_new(args):
+    """Recipe skeleton from the council's decision listing: title, session date, page, PDF."""
+    out = os.path.join(ROOT, "puzuri", args.folder, "%d-%d.json" % (args.an, args.nr))
+    if os.path.exists(out):
+        sys.exit("already exists: " + out)
+    raw, lines = page_lines(LISTING.format(an=args.an, nr=args.nr))
+    i = next((k for k, l in enumerate(lines) if l == "Hotărârea %d/%d" % (args.nr, args.an)), None)
+    if i is None:
+        sys.exit("decision %d/%d not found in the listing" % (args.nr, args.an))
+    title, date_ro = lines[i + 2], lines[i - 1]
+    m = re.match(r"(\d{1,2}) (\w+) (\d{4})$", date_ro)
+    date = "%s-%02d-%02d" % (m.group(3), MONTHS_RO.index(m.group(2).lower()) + 1, int(m.group(1))) if m else None
+    page = "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-%d-din-%d/" % (args.nr, args.an)
+    page_html, _ = page_lines(page)
+    pdfs = [urllib.parse.urljoin(page, h) for h in re.findall(r'href="([^"]+\.pdf)"', page_html, re.I)
+            if not SITE_WIDE_PDF.search(h)]
+    if not pdfs:
+        sys.exit("no PDF linked from " + page)
+    recipe = {
+        "id": "%d-%d" % (args.an, args.nr),
+        "localitate": args.localitate,
+        "hcl": {"nr": args.nr, "an": args.an, "data_sedinta": date, "pagina": page, "pdf": pdfs[0]},
+        "titlu": clean_title(title),
+        "plansa": {"pagina_pdf": None, "dpi": 200, "denumire": "", "scara": ""},
+        "coordonate": {"crs": "EPSG:3844", "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+                       "suprafata_declarata_m2": None, "puncte": {}},
+        "gcp_px": {},
+        "verificare_px": {},
+        "decupaj": {"buffer_m": 1.5, "exclude_px": []},
+        "legenda_px": [],
+        "utr": [],
+    }
+    os.makedirs(os.path.dirname(out), exist_ok=True)
+    with open(out, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(recipe, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    print("recipe:", out)
+    print("  ", recipe["titlu"]); print("   session", date, "| pdf", pdfs[0], "| other pdfs:", len(pdfs) - 1)
 
 
 # --- fetch / render ----------------------------------------------------------------
@@ -313,14 +368,37 @@ def cmd_vertices(r, args):
 # --- build ---------------------------------------------------------------------------
 
 def check_area(r):
+    """Area, and - where the table prints them - side lengths and perimeter. A side
+    that disagrees points at the misread vertex: both sides touching it are off."""
     ring = ring_en(r)
     a = 0.0
     for (x1, y1), (x2, y2) in zip(ring, ring[1:] + ring[:1]):
         a += x1 * y2 - x2 * y1
     a = abs(a) / 2
-    declared = r["coordonate"].get("suprafata_declarata_m2")
+    c = r["coordonate"]
+    declared = c.get("suprafata_declarata_m2")
     ok = declared is None or abs(a - declared) <= max(2.0, declared * AREA_TOLERANCE)
     print("area from coordinates: %.1f m2, declared: %s -> %s" % (a, declared, "OK" if ok else "MISMATCH"))
+
+    sides = c.get("laturi_declarate_m")   # {"10": length from 10 to the next vertex, ...}
+    if sides:
+        pts = points_en(r)
+        order = c.get("ordine") or sorted(pts, key=lambda k: int(re.sub(r"\D", "", k) or 0))
+        bad = []
+        for i, n in enumerate(order):
+            if n in sides:
+                m = order[(i + 1) % len(order)]
+                d = math.dist(pts[n], pts[m])
+                if abs(d - sides[n]) > 0.01:
+                    bad.append("%s->%s %.3f (table %.3f)" % (n, m, d, sides[n]))
+        print("side lengths: %d checked -> %s" % (len(sides), "OK" if not bad else "MISMATCH " + "; ".join(bad)))
+        ok = ok and not bad
+    per = c.get("perimetru_declarat_m")
+    if per:
+        p = sum(math.dist(u, v) for u, v in zip(ring, ring[1:] + ring[:1]))
+        p_ok = abs(p - per) <= max(0.05, per * 0.001)
+        print("perimeter: %.3f m, declared %.3f -> %s" % (p, per, "OK" if p_ok else "MISMATCH"))
+        ok = ok and p_ok
     return ok, a
 
 
@@ -376,7 +454,11 @@ def warp(r, pe, pn):
 
     minE, minN, maxE, maxN = clip.bounds
     xs, ys = tr(src_crs, dst_crs, [minE, maxE, minE, maxE], [minN, minN, maxN, maxN])
-    res = OUTPUT_RES_3857
+    # No finer than the scan itself: ground metres per plate pixel, times the Web
+    # Mercator stretch at this latitude.
+    _, lat_c = tr(src_crs, "EPSG:4326", [(minE + maxE) / 2], [(minN + maxN) / 2])
+    src_m_per_px = math.hypot(pe[0], pn[0])
+    res = max(OUTPUT_RES_3857, src_m_per_px / math.cos(math.radians(lat_c[0])))
     left, top = min(xs), max(ys)
     w = int(math.ceil((max(xs) - left) / res)); h = int(math.ceil((top - min(ys)) / res))
     dt = from_origin(left, top, res, res)
@@ -507,8 +589,12 @@ def cmd_build(r, args):
 
 
 def main():
+    sys.stdout.reconfigure(encoding="utf-8")
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
+    s = sub.add_parser("new", help="recipe skeleton from the decision listing")
+    s.add_argument("an", type=int); s.add_argument("nr", type=int)
+    s.add_argument("--folder", default="cluj-napoca"); s.add_argument("--localitate", default="cluj")
     for name in ("fetch", "render", "predict"):
         s = sub.add_parser(name); s.add_argument("recipe")
     s = sub.add_parser("grid"); s.add_argument("recipe")
@@ -522,6 +608,8 @@ def main():
     s.add_argument("--force", action="store_true"); s.add_argument("--dry-run", action="store_true")
     s.add_argument("--no-check", action="store_true"); s.add_argument("--zoom", type=int, default=18)
     args = ap.parse_args()
+    if args.cmd == "new":
+        return cmd_new(args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
      "vertices": cmd_vertices, "build": cmd_build}[args.cmd](r, args)
