@@ -71,8 +71,23 @@ Two checks catch mistakes:
    one image) and `decupaj`. The overlay is the boundary plus `buffer_m`, minus any
    `exclude_px` boxes, such as tables or title blocks that the buffer reaches into.
    Use `puz.py grid <x0 y0 x1 y1>` to read box coordinates.
-7. **Regulations as text.** Put the UTR code, its name, POT and CUT (and H max if
-   given) in `utr`. They show in the info window and in the legend card.
+7. **Read the decision's text.** `puz.py hcl` prints it laid out for the recipe:
+   validity, each UTR paragraph with its indicators, and the sentences that set
+   conditions. The text is authoritative, so fill these from it, not from the plate:
+   - `utr`: code, name, `pot_max`, `cut_max`, `h_max`;
+   - `valabilitate`: `{ani, pana_la}`, counted from the session date. `new` fills
+     it when the text states it;
+   - `prelungiri`: extensions, each `{hcl, pana_la}`. Search the decision listing
+     for "Prelungirea valabilității" and the PUZ's name or decision number;
+   - `modifica` / `modificat_de`: other PUZ decisions this one amends or that
+     amend it;
+   - `diferente_fata_de_plansa`: everything where the text says something other
+     than the plate. Compare indicators, heights and parcel sizes one by one;
+   - `conditii`: conditions and obligations, in plain words: what must happen
+     before permits or before reception, land to transfer, works the investor
+     pays for.
+
+   Expired PUZ-uri stay on the map; the info window shows the date.
 8. `puz.py build` runs both checks, warps with GDAL, writes the legend, and draws
    `puz_cache/<id>/check_imagery.png`: Esri imagery next to the overlay on top of
    it. **Look at it.** The boundary should sit on the real plot, with drawn roads
@@ -84,6 +99,29 @@ Two checks catch mistakes:
    zoomed to it.
 10. **Commit** the recipe, `ClujPugWeb/wwwroot/puz/<id>/` and `puz/puz.json`, as
     `PUZ HCL <nr>/<an> – <location>`. `puz_cache/` stays out of git.
+
+## The decision's text vs the plate
+
+The council can amend a PUZ in session. An amendment changes the decision's
+articles, but the annexed plate stays as the chief architect endorsed it. Two
+examples:
+
+- **HCL 604/2023.** It got an Art. 2, proposed by the urbanism committee and
+  passed 15-0 with 3 abstentions (minutes of 12.07.2023, pp. 32-33). Houses are
+  allowed only on parcels of at least 800 m², as the PUG requires for ULid, while
+  the plate draws ten lots from 300 m². The chief architect said in session that
+  the amendment "demolează parțial avizul".
+- **HCL 4/2020.** The plate prints H max 24 m; the text sets 21 m at the cornice
+  and 25 m overall.
+
+Signs of an amendment: a short article placed after the list of annexes, or one
+that contradicts the plate. The session's minutes (`proces-verbal`, linked from the
+session page as "Minută") say who proposed it and why. They are scanned PDFs, so
+read the relevant pages as images.
+
+`fetch` saves the text as `documente/<id>/hotarare.txt` next to the PDFs, with a
+checksum. The site shows validity, differences and conditions in the info window
+and the legend card.
 
 ## Plates without a coordinate inventory
 

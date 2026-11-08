@@ -13,6 +13,7 @@ is derived from it and can be rebuilt at any time:
     py -3.13 tools/puz/puz.py predict  puzuri/cluj-napoca/2026-597.json   # where the other points should be
     py -3.13 tools/puz/puz.py vertices puzuri/cluj-napoca/2026-597.json 10 12 13 ...
     py -3.13 tools/puz/puz.py overlay  puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--without 84]
+    py -3.13 tools/puz/puz.py hcl      puzuri/cluj-napoca/2026-597.json   # the decision text, laid out
     py -3.13 tools/puz/puz.py build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
 
 The decision's documents are kept as a backup in puzuri/<localitate>/documente/<id>/
@@ -66,6 +67,16 @@ def load(recipe_path):
         r = json.load(f)
     r["_path"] = recipe_path
     return r
+
+
+def dump_recipe(r, path):
+    """JSON with two-space indent, but number lists - coordinate pairs, pixel boxes -
+    kept on one line, so a recipe stays readable and diffs stay small."""
+    r = {k: v for k, v in r.items() if not k.startswith("_")}
+    s = json.dumps(r, ensure_ascii=False, indent=2)
+    s = re.sub(r"\[\s+([-\d.,\s]+?)\s+\]", lambda m: "[" + ", ".join(x.strip() for x in m.group(1).split(",")) + "]", s)
+    with open(path, "w", encoding="utf-8", newline="\n") as f:
+        f.write(s + "\n")
 
 
 def cache_dir(r):
@@ -175,11 +186,115 @@ def cmd_new(args):
         "utr": [],
     }
     os.makedirs(os.path.dirname(out), exist_ok=True)
-    with open(out, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(recipe, f, ensure_ascii=False, indent=2)
-        f.write("\n")
+    recipe["_path"] = out
+    years = parse_validity_years(read_decision_text(recipe))
+    if years and date:
+        recipe["valabilitate"] = {"ani": years, "pana_la": add_years(date, years)}
+    recipe.update({"prelungiri": [], "modifica": [], "modificat_de": [], "diferente_fata_de_plansa": [], "conditii": []})
+    dump_recipe(recipe, out)
     print("recipe:", out)
     print("  ", recipe["titlu"]); print("   session", date, "| pdf", pdfs[0], "| other pdfs:", len(pdfs) - 1)
+    print("   valid:", recipe.get("valabilitate", "not found in the decision text - set it by hand"))
+
+
+# --- the decision's text -------------------------------------------------------------
+# The council can amend a PUZ in session. Amendments change the decision's articles,
+# not the annexed plates: HCL 604/2023 got an Art. 2 allowing houses only on parcels of
+# at least 800 m2 while its plate still draws lots of 326 m2. So the text is read next
+# to the plate, and kept in the backup with the PDFs.
+
+NUMBERS_RO = {"un": 1, "unu": 1, "doi": 2, "doua": 2, "două": 2, "trei": 3, "patru": 4, "cinci": 5,
+              "sase": 6, "șase": 6, "şase": 6, "sapte": 7, "șapte": 7, "şapte": 7, "opt": 8,
+              "noua": 9, "nouă": 9, "zece": 10}
+
+
+def decision_text_from_page(url):
+    raw = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60).read().decode("utf-8", "replace")
+    m = re.search(r"<main.*?</main>", raw, re.S)
+    body = re.sub(r"<script.*?</script>|<style.*?</style>", "", m.group(0) if m else raw, flags=re.S)
+    txt = re.sub(r"\s+", " ", htmlmod.unescape(re.sub(r"<[^>]+>", " ", body))).strip()
+    txt = re.sub(r"^.*?Vezi document oficial\s*", "", txt)
+    return re.sub(r"\s*\d{4}-\d\d-\d\dT\d\d:\d\d:\d\d[+-]\d\d:\d\d\s*$", "", txt)
+
+
+def text_path(r):
+    return os.path.join(docs_dir(r), "hotarare.txt")
+
+
+def save_decision_text(r):
+    """The decision as published on its page, wrapped for reading. Kept once: like the
+    PDFs, it is a backup of what was published, not refreshed."""
+    p = text_path(r)
+    if not os.path.exists(p):
+        import textwrap
+        txt = decision_text_from_page(r["hcl"]["pagina"])
+        with open(p, "w", encoding="utf-8", newline="\n") as f:
+            f.write("Sursa: %s\n\n" % r["hcl"]["pagina"])
+            f.write("\n".join(textwrap.wrap(txt, 110, break_long_words=False, break_on_hyphens=False)) + "\n")
+    return p
+
+
+def read_decision_text(r):
+    try:
+        p = save_decision_text(r)
+    except Exception as e:
+        print("decision text not available (%s)" % e)
+        return ""
+    with open(p, encoding="utf-8") as f:
+        lines = f.read().split("\n")
+    return " ".join(l for l in lines[2:] if l)
+
+
+def parse_validity_years(text):
+    m = re.search(r"valabilitate a documenta\w+ de (\w+) ani", text, re.I)
+    if not m:
+        return None
+    w = m.group(1).lower()
+    return int(w) if w.isdigit() else NUMBERS_RO.get(w)
+
+
+def add_years(iso, years):
+    y, mo, d = map(int, iso.split("-"))
+    if mo == 2 and d == 29:
+        d = 28
+    return "%04d-%02d-%02d" % (y + years, mo, d)
+
+
+def cmd_hcl(r, args):
+    """What the decision's text says, laid out for writing the recipe: validity, each
+    UTR's paragraph with its indicators, and the sentences that set conditions. Read it
+    against the plate: anything the text adds, restricts or changes goes in the recipe."""
+    text = read_decision_text(r)
+    if not text:
+        sys.exit("no decision text")
+    print("text:", text_path(r), "(%d characters)" % len(text))
+    years = parse_validity_years(text)
+    date = r["hcl"].get("data_sedinta")
+    print("\nVALABILITATE: %s ani -> până la %s" % (years, add_years(date, years) if years and date else "?"))
+    art = r"(?=\bA\s?rt\s?\.\s?%s\s?[.–-])"
+    m1 = re.search(art % "1", text)
+    body = text[m1.start():] if m1 else text
+    print("\nUTR:")
+    blocks = re.split(r"(?=U\.\s?T\.\s?R\.\s)", body)
+    for b in blocks[1:]:
+        b = re.split(art % r"\d+", b)[0]
+        head = re.match(r"U\.\s?T\.\s?R\.\s*(.{1,40}?)\s*[–-]\s*(.{0,140})", b)
+        ind = re.findall(r"(P\.\s?O\.\s?T\.?[^;]{0,60}|C\.\s?U\.\s?T\.?[^;,]{0,30}|[îi]n[ăa]l[țţ]imea maxim[ăa][^;]{0,160}"
+                         r"|H\s?max[^;]{0,40}|suprafa[țţ]a (?:minim|parcelei)[^;]{0,80})", b, re.I)
+        print("  - %s | %s" % (head.group(1) if head else "?", (head.group(2) if head else b[:140]).strip()))
+        for i in ind:
+            print("      " + re.sub(r"\s+", " ", i).strip())
+    print("\nCONDIȚII (fraze care condiționează, obligă sau restrâng):")
+    keys = re.compile(r"anterior|condi[țţ]ion|prin grija|pe cheltuiala|obliga|interzis|doar |numai |nu mai târziu|"
+                      r"ulterior|se rectific|modific|derog|excep[țţ]", re.I)
+    for s in re.split(r"(?<=[.;])\s+(?=[A-ZĂÂÎȘŞȚŢ])", body):
+        if keys.search(s) and not s.startswith("U.T.R"):
+            print("  - " + s.strip()[:400])
+    print("\nARTICOLE:")
+    for a in re.split(art % r"\d+", body)[1:]:
+        print("  - " + a.strip()[:300])
+    print("\nUn articol scurt pus după lista anexelor, sau unul care contrazice planșa, e de obicei un amendament"
+          "\nvotat în ședință: procesul-verbal al ședinței spune cine l-a propus și de ce.")
 
 
 # --- fetch / render ----------------------------------------------------------------
@@ -248,6 +363,11 @@ def cmd_fetch(r, args):
                 f.write(data)
         print("document:", dst, os.path.getsize(dst) // 1024, "KB")
         paths.append(dst)
+    try:
+        paths.append(save_decision_text(r))
+        print("decision text:", text_path(r))
+    except Exception as e:
+        print("decision text not saved (%s)" % e)
     record_checksums(r, paths)
     dst = pdf_path(r)
     info = subprocess.run(["pdfinfo", "-f", "1", "-l", "999", dst], capture_output=True, text=True).stdout
@@ -623,6 +743,17 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
     if legend is not None:
         legend.save(os.path.join(d, "legenda.webp"), quality=85, method=6)
         entry["legenda"] = "puz/%s/legenda.webp" % r["id"]
+    # What the decision's text adds to the plate. Validity runs to the last extension.
+    v = r.get("valabilitate") or {}
+    ext = r.get("prelungiri", [])
+    ends = [x for x in [v.get("pana_la")] + [p.get("pana_la") for p in ext] if x]
+    if ends:
+        entry["valabilitate"] = {"ani": v.get("ani"), "pana_la": max(ends)}
+        if ext:
+            entry["valabilitate"].update({"initial_pana_la": v.get("pana_la"), "prelungiri": ext})
+    for key in ("diferente_fata_de_plansa", "conditii", "modifica", "modificat_de"):
+        if r.get(key):
+            entry[key] = r[key]
     index = []
     if os.path.exists(INDEX):
         with open(INDEX, encoding="utf-8") as f:
@@ -640,6 +771,8 @@ def cmd_build(r, args):
         if not os.path.exists(pdf_path(r)):
             cmd_fetch(r, args)
         cmd_render(r, args)
+    if not (r.get("valabilitate") or {}).get("pana_la"):
+        print("WARNING: no validity in the recipe - run `hcl` and set `valabilitate`")
     ok_fit, pe, pn, rms, worst = check_fit(r)
     ring = ring_en(r, pe, pn)
     ok_area, area = check_area(r, ring)
@@ -666,7 +799,7 @@ def main():
     s = sub.add_parser("new", help="recipe skeleton from the decision listing")
     s.add_argument("an", type=int); s.add_argument("nr", type=int)
     s.add_argument("--folder", default="cluj-napoca"); s.add_argument("--localitate", default="cluj")
-    for name in ("fetch", "render", "predict"):
+    for name in ("fetch", "render", "predict", "hcl"):
         s = sub.add_parser(name); s.add_argument("recipe")
     s = sub.add_parser("grid"); s.add_argument("recipe")
     for a in ("x0", "y0", "x1", "y1"):
@@ -689,7 +822,7 @@ def main():
         return cmd_new(args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
-     "vertices": cmd_vertices, "overlay": cmd_overlay, "build": cmd_build}[args.cmd](r, args)
+     "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "build": cmd_build}[args.cmd](r, args)
 
 
 if __name__ == "__main__":
