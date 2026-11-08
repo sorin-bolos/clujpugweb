@@ -1,5 +1,98 @@
 [
  {
+  "id": "2026-628",
+  "localitate": "cluj",
+  "hcl": "628/2026",
+  "data": "2026-10-01",
+  "titlu": "P.U.Z. – corectare limită U.T.R. între U.T.R. ULiu și U.T.R. Liu (construire locuințe cu regim redus de înălțime), str. Lombului nr. 28B-28C",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-628-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/10/14/HCL-628.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime, individuale sau semicolective, regim izolat, pe parcelar de tip urban",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m (cornișă 8 m); trei niveluri supraterane: (S)+P+1+M/R sau D+P+M/R"
+   }
+  ],
+  "suprafata_m2": 1659,
+  "imagine": "puz/2026-628/plansa.webp",
+  "bounds": {
+   "west": 23.5598901,
+   "south": 46.78722,
+   "east": 23.5607363,
+   "north": 46.7878209
+  },
+  "limita": [
+   [
+    23.5599241,
+    46.7874834
+   ],
+   [
+    23.5601763,
+    46.7876195
+   ],
+   [
+    23.5605068,
+    46.787798
+   ],
+   [
+    23.5606991,
+    46.7875647
+   ],
+   [
+    23.5604852,
+    46.7875002
+   ],
+   [
+    23.5604362,
+    46.7873821
+   ],
+   [
+    23.5603978,
+    46.7874293
+   ],
+   [
+    23.5603749,
+    46.7874205
+   ],
+   [
+    23.5602836,
+    46.7873852
+   ],
+   [
+    23.5603481,
+    46.7873069
+   ],
+   [
+    23.5601232,
+    46.7872405
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 8,
+   "rms_m": 0.25
+  },
+  "legenda": "puz/2026-628/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-10-01"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru Liu* regimul maxim de înălțime (S)+P+E+R; hotărârea admite (S)+P+1+M/R sau D+P+M/R, cel mult trei niveluri supraterane, cu H cornișă max. 8 m și H max. 12 m (Art. 1)."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii aleii de interes local (nr. cad. 296780) la 9 m – 23 mp pe planșă – se dezmembrează din nr. cad. 308233 și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepția construcției se asfaltează sau se dalează.",
+   "Accesul pe parcele se face din aleea de interes local (nr. cad. 296780), care pornește din str. Lombului; de regulă câte un singur acces pietonal și unul carosabil pe parcelă, carosabilul de cel mult 5 m lățime.",
+   "Toate construcțiile stau în fâșia de 25 m de lângă aliniament, în afară de edicule de grădină (cel mult 15 mp în total); garajele se retrag cel puțin 6 m de la aliniament și de la limita posterioară și se pot alipi limitelor laterale cu calcan de cel mult 2,80 m.",
+   "Parcarea se face în interiorul parcelelor: cel puțin un loc pentru o locuință cu AU sub 100 mp și două peste 100 mp.",
+   "Toate utilitățile se racordează la rețelele publice, cablurile se îngroapă, iar apele pluviale nu se scurg spre domeniul public sau spre vecini; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public.",
+   "Toate investițiile sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-597",
   "localitate": "cluj",
   "hcl": "597/2026",

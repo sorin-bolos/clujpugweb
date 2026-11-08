@@ -1,0 +1,246 @@
+{
+  "id": "2026-628",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 628,
+    "an": 2026,
+    "data_sedinta": "2026-10-01",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-628-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/10/14/HCL-628.pdf"
+  },
+  "titlu": "P.U.Z. – corectare limită U.T.R. între U.T.R. ULiu și U.T.R. Liu (construire locuințe cu regim redus de înălțime), str. Lombului nr. 28B-28C",
+  "plansa": {
+    "pagina_pdf": 11,
+    "dpi": 96,
+    "denumire": "U 03 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 3 e copia anexată hotărârii (A3, alb-negru, cu semnăturile, ștampilată „Anexa nr. 1”), iar p. 11 e aceeași planșă color, la format A2, cu viza Arhitectului șef; s-a folosit p. 11, mai clară. Ambele sunt scanate la 96 ppi (7,5 px/m la 1:500), așa că liniile groase ale limitei au 6-10 px și colțurile mici din sud (3, 54, 4, 1, 2) se citesc greu. Art. 1 numește regulamentul Anexa 1 și planșa Anexa 2, dar în PDF ștampilele sunt invers: planșa e Anexa 1 (p. 3), R.L.U. e Anexa 2 (p. 4-10)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Două inventare de coordonate pe planșa U 03 (imobil C.F. 308233, S=800 mp, și imobil C.F. 311356, S=859 mp), Nord X / Est Y; zona reglementată e reuniunea celor două imobile. Potrivirea folosește colțurile 40, 18, 7, 5 și patru cruci ale caroiajului Stereo 70 etichetat de pe planșă (Est 390150/390250 × Nord 588500/588550); verificare: colțurile 26 și 6 și crucile Est 390200 × Nord 588500/588550. Crucile, fitate doar din colțurile limitei, cad la 0,1-0,9 m de pozițiile lor, deci inventarul, desenul și caroiajul se potrivesc.",
+    "suprafata_declarata_m2": 1659,
+    "puncte": {
+      "40": [
+        588547.3,
+        390186.14
+      ],
+      "26": [
+        588562.083,
+        390205.666
+      ],
+      "18": [
+        588581.456,
+        390231.255
+      ],
+      "7": [
+        588555.262,
+        390245.465
+      ],
+      "6": [
+        588548.392,
+        390229.004
+      ],
+      "1": [
+        588535.34,
+        390225.024
+      ],
+      "54": [
+        588540.629,
+        390222.19
+      ],
+      "3": [
+        588539.682,
+        390220.428
+      ],
+      "4": [
+        588535.89,
+        390213.38
+      ],
+      "2": [
+        588527.1,
+        390218.15
+      ],
+      "5": [
+        588520.03,
+        390200.85
+      ]
+    },
+    "ordine": [
+      "40",
+      "26",
+      "18",
+      "7",
+      "6",
+      "1",
+      "54",
+      "3",
+      "4",
+      "2",
+      "5"
+    ],
+    "laturi_declarate_m": {
+      "40": 24.491,
+      "26": 32.095,
+      "18": 29.8,
+      "7": 17.837,
+      "6": 13.645,
+      "1": 6.0,
+      "54": 2.0,
+      "3": 8.003,
+      "4": 10.001,
+      "2": 18.689,
+      "5": 30.984
+    },
+    "nota": "Zona reglementată (1659 mp în bilanțul teritorial și în hotărâre) e reuniunea celor două imobile: punctele 3 și 26 sunt comune, iar latura comună 3-26 (26,828 m) dispare. `ordine` e ordinea conturului reunit; toate cele 11 laturi ale lui sunt tipărite în cele două tabele. Perimetrul reunit (193,546 m) nu e tipărit, deci nu e trecut (tabelele dau 118,996 m și 128,206 m pentru fiecare imobil). Ariile calculate: 800,06 mp (308233, declarat 800) și 858,61 mp (311356, declarat 859). Punctele 54, 3 și 4 sunt coliniare."
+  },
+  "gcp_px": {
+    "40": [
+      700,
+      663
+    ],
+    "18": [
+      1034,
+      410
+    ],
+    "7": [
+      1144,
+      603
+    ],
+    "5": [
+      807,
+      868
+    ],
+    "C390150_588550": [
+      427,
+      643
+    ],
+    "C390250_588550": [
+      1178,
+      645
+    ],
+    "C390150_588500": [
+      427,
+      1020
+    ],
+    "C390250_588500": [
+      1178,
+      1022
+    ]
+  },
+  "verificare_px": {
+    "26": [
+      845,
+      552
+    ],
+    "6": [
+      1021,
+      653
+    ],
+    "C390200_588550": [
+      803,
+      644
+    ],
+    "C390200_588500": [
+      802,
+      1021
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      90,
+      20,
+      756,
+      222
+    ],
+    [
+      1552,
+      28,
+      2218,
+      750
+    ],
+    [
+      1552,
+      750,
+      2048,
+      937
+    ],
+    [
+      1552,
+      937,
+      2218,
+      1082
+    ],
+    [
+      1552,
+      1082,
+      2077,
+      1236
+    ],
+    [
+      1552,
+      1236,
+      2218,
+      1422
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime, individuale sau semicolective, regim izolat, pe parcelar de tip urban",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m (cornișă 8 m); trei niveluri supraterane: (S)+P+1+M/R sau D+P+M/R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-10-01",
+    "verificat": "2026-11-09: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pentru Liu* regimul maxim de înălțime (S)+P+E+R; hotărârea admite (S)+P+1+M/R sau D+P+M/R, cel mult trei niveluri supraterane, cu H cornișă max. 8 m și H max. 12 m (Art. 1)."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii aleii de interes local (nr. cad. 296780) la 9 m – 23 mp pe planșă – se dezmembrează din nr. cad. 308233 și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepția construcției se asfaltează sau se dalează.",
+    "Accesul pe parcele se face din aleea de interes local (nr. cad. 296780), care pornește din str. Lombului; de regulă câte un singur acces pietonal și unul carosabil pe parcelă, carosabilul de cel mult 5 m lățime.",
+    "Toate construcțiile stau în fâșia de 25 m de lângă aliniament, în afară de edicule de grădină (cel mult 15 mp în total); garajele se retrag cel puțin 6 m de la aliniament și de la limita posterioară și se pot alipi limitelor laterale cu calcan de cel mult 2,80 m.",
+    "Parcarea se face în interiorul parcelelor: cel puțin un loc pentru o locuință cu AU sub 100 mp și două peste 100 mp.",
+    "Toate utilitățile se racordează la rețelele publice, cablurile se îngroapă, iar apele pluviale nu se scurg spre domeniul public sau spre vecini; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public.",
+    "Toate investițiile sunt suportate de beneficiari."
+  ],
+  "repere": {
+    "C390150_588550": [
+      588550,
+      390150
+    ],
+    "C390200_588550": [
+      588550,
+      390200
+    ],
+    "C390250_588550": [
+      588550,
+      390250
+    ],
+    "C390150_588500": [
+      588500,
+      390150
+    ],
+    "C390200_588500": [
+      588500,
+      390200
+    ],
+    "C390250_588500": [
+      588500,
+      390250
+    ]
+  },
+  "hotarare_text": "documente/2026-628/hotarare.txt"
+}
