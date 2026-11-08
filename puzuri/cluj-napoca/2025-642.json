@@ -14,7 +14,7 @@
     "dpi": 200,
     "denumire": "",
     "scara": "",
-    "nota": "Oprit la pasul 2: PDF-ul hotărârii (642.pdf, 2 pagini A4 scanate la 300 ppi) conține doar textul hotărârii, semnat și ștampilat; pagina hotărârii nu mai leagă alt PDF. Art. 1 pct. 2 lit. a) trimite la „Planșa Reglementări urbanistice - zonificare”, dar hotărârea nu aprobă anexe și nu are planșă atașată. Fără planșă și fără inventar de coordonate nu se poate georeferenția. Conținutul e o modificare a obligațiilor din P.U.Z. aprobat prin HCL 754/2021 (ansamblul de la B-dul Muncii nr. 4-6 – str. Fabricii), nu o zonificare nouă; reglementările HCL 754/2021 se mențin pentru nr. cad. 345990 (fără ~160 m²), 345991 și 345992."
+    "nota": "Prima încercare s-a oprit la pasul 2: PDF-ul hotărârii (642.pdf, 2 pagini A4 scanate la 300 ppi) conține doar textul hotărârii, semnat și ștampilat; pagina hotărârii nu mai leagă alt PDF. Art. 1 pct. 2 lit. a) trimite la „Planșa Reglementări urbanistice - zonificare”, dar hotărârea nu aprobă anexe și nu are planșă atașată. Fără planșă și fără inventar de coordonate nu se poate georeferenția. Conținutul e o modificare a obligațiilor din P.U.Z. aprobat prin HCL 754/2021 (ansamblul de la B-dul Muncii nr. 4-6 – str. Fabricii), nu o zonificare nouă; reglementările HCL 754/2021 se mențin pentru nr. cad. 345990 (fără ~160 m²), 345991 și 345992. Integrată pe 2026-11-08 în rețeta P.U.Z. de bază, 2021-754 (modificat_de, condiții, diferențe). Baza e oprită: planșa ei are tabelul de coordonate ilizibil, așa că până nu se poate georeferenția nici modificarea nu apare pe hartă."
   },
   "coordonate": {
     "crs": "EPSG:3844",
@@ -48,6 +48,6 @@
     "Se încheie un act adițional la contractul de restructurare din 14.12.2021."
   ],
   "hotarare_text": "documente/2025-642/hotarare.txt",
-  "stare": "oprit",
-  "motiv": "PDF-ul hotărârii are doar textul (2 pagini A4), fără planșă; hotărârea modifică obligațiile P.U.Z. aprobat prin HCL 754/2021."
+  "stare": "integrat",
+  "integrat_in": "2021-754"
 }
