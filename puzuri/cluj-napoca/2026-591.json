@@ -1,0 +1,202 @@
+{
+  "id": "2026-591",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 591,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-591-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-591.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă dedicată activităților de agrement, Drumul Sfântul Ioan – latura sudică",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 300,
+    "denumire": "U.03 Plan reglementări",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 8 e copia anexată hotărârii (A3, 200 ppi, în tonuri de gri, ștampilată „Anexa 2 la Hotărârea nr. 591/2026” și semnată), iar p. 15 e aceeași planșă U.03 (proiect nr. 44/2025, 20.03.2026), color, la 300 ppi, cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 40 din 30.03.2026) și mențiunea de mână „H.C.L. nr. 591 din 4 septembrie 2026”; s-a folosit p. 15, mai clară. Viza și mențiunea stau la est de parcelă, în afara decupajului. Planșa e tipărită ușor micșorată: 23,2 px/m în loc de 23,6 px/m cât ar da 1:500 la 300 ppi (~98 %); secțiunile sunt la 1:400. Legenda cuprinde cheia simbolurilor, caseta U.T.R. Aapp* cu indicii și nota despre calculul CUT; bilanțurile (U.T.R., teritorial propus, grădina de fațadă, arbori), necesarul de parcaje, secțiunile și cartușul au rămas afară. Pe planșă, nota calculează CUT pe un teren de referință de 1997,2 mp din U.T.R. Aapp*, deși bilanțul U.T.R. dă 2003,2 mp pentru U.T.R. Aapp* (2072 mp minus 68,8 mp U.T.R. VP). Fâșia hașurată din nord, „teren dezmembrat și rezervat pentru lărgire Drumul Sf. Ioan”, are 43,9 mp și e socotită în U.T.R. Aapp*; U.T.R. VP (68,8 mp) e vârful sudic al parcelei, la sud de limita U.T.R. desenată."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Parcela (2072mp)” pe planșa U.03 (13 puncte, Nord X / Est Y, în ordinea conturului: 32, 31, 30, 29, 85, 97, 1, 1, 2-6), cu lungimile laturilor D(i,i+1), S=2072,42 mp și P=204,938 m. Inventarul descrie parcela nr. cad. 353592 (linia roșie punctată, „limita terenului studiat”), care e toată zona reglementată (bilanț U.T.R.: 2072 mp = 2003,2 mp U.T.R. Aapp* + 68,8 mp U.T.R. VP). Puncte de control: colțurile 30, 31, 1 și 6, la mijlocul liniei punctate; puncte de verificare: frângerile 29, 97 și 32, citite ca intersecție a dreptelor duse prin punctele liniei de o parte și de alta.",
+    "suprafata_declarata_m2": 2072.42,
+    "puncte": {
+      "32": [
+        581097.914,
+        391116.418
+      ],
+      "31": [
+        581090.747,
+        391103.797
+      ],
+      "30": [
+        581157.029,
+        391076.939
+      ],
+      "29": [
+        581158.918,
+        391083.856
+      ],
+      "85": [
+        581162.7,
+        391091.756
+      ],
+      "97": [
+        581164.949,
+        391096.452
+      ],
+      "1": [
+        581173.166,
+        391103.534
+      ],
+      "1'": [
+        581173.37,
+        391103.699
+      ],
+      "2": [
+        581157.871,
+        391109.576
+      ],
+      "3": [
+        581142.94,
+        391114.67
+      ],
+      "4": [
+        581132.835,
+        391118.289
+      ],
+      "5": [
+        581115.307,
+        391125.337
+      ],
+      "6": [
+        581106.782,
+        391129.01
+      ]
+    },
+    "ordine": [
+      "32",
+      "31",
+      "30",
+      "29",
+      "85",
+      "97",
+      "1",
+      "1'",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "laturi_declarate_m": {
+      "32": 14.514,
+      "31": 71.517,
+      "30": 7.17,
+      "29": 8.759,
+      "85": 5.207,
+      "97": 10.848,
+      "1": 0.262,
+      "1'": 16.576,
+      "2": 15.776,
+      "3": 10.734,
+      "4": 18.892,
+      "5": 9.283,
+      "6": 15.401
+    },
+    "perimetru_declarat_m": 204.938,
+    "nota": "Tabelul numerotează „1” două vârfuri vecine, la 0,262 m unul de altul (581173,166 / 391103,534 și 581173,370 / 391103,699); al doilea e notat aici „1'”. Pe planșă nu se pot deosebi, așa că doar primul e punct de control. Aria, toate cele 13 laturi și perimetrul se potrivesc cu tabelul (2072,4 mp; 204,938 m). Latura de est, de la 1 la 6, e aproape dreaptă (frângeri de 1-2°), iar 29, 97 și 32 sunt frângeri de 10°, 24° și 6°, deci bune doar ca puncte de verificare. Linia neagră groasă („limita UTR-urilor”) trece pe latura de est cam pe linia parcelei în nord și la ~1,3 m în afara ei spre sud; vârfurile inventarului cad pe linia roșie punctată."
+  },
+  "gcp_px": {
+    "31": [
+      1747,
+      3025
+    ],
+    "30": [
+      1116,
+      1476
+    ],
+    "1": [
+      1728,
+      1090
+    ],
+    "6": [
+      2331,
+      2646
+    ]
+  },
+  "verificare_px": {
+    "29": [
+      1279,
+      1429
+    ],
+    "97": [
+      1572,
+      1283
+    ],
+    "32": [
+      2033,
+      2859
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3302,
+      1500,
+      3960,
+      2428
+    ],
+    [
+      3302,
+      2470,
+      3930,
+      2780
+    ],
+    [
+      3305,
+      824,
+      4180,
+      962
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Aapp*",
+      "denumire": "Zonă de agrement pentru public – ansamblu de cazare turistică (pensiune), alimentație publică și amenajări pentru activități în aer liber: picnic, sport, terenuri de sport, platforme pentru spectacole, picnic sau grătare, alei, parcaje și edicule care le deservesc; regim de construire deschis",
+      "pot_max": "10%",
+      "cut_max": "0,25",
+      "h_max": "8 m la cornișa superioară sau la aticul etajului neretras, 12 m la coamă sau la aticul etajului retras; cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "Vp",
+      "denumire": "Zonă verde („Vp – zona verde – păduri în intravilan” în regulamentul PUZ) – vârful sudic al parcelei (68,8 mp după planșă); rămân prevederile RLU PUG pentru U.T.R. Vp, fără derogări. Planșa trece POT max 0% și CUT max 0; hotărârea nu dă indici."
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-09-04",
+    "verificat": "2026-11-09: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Fâșia necesară regularizării Drumului Sfântul Ioan (43,9 mp pe planșă, hașurată, în nordul parcelei) se dezmembrează și se înscrie în CF cu titlu de „drum” înainte de autorizația de construire; până când municipalitatea modernizează drumul, e întreținută ca spațiu verde, cu dalaj în dreptul accesului.",
+    "Accesul se face din Drumul Sfântul Ioan. Amenajarea accesului auto nu trebuie să afecteze semnalizarea rutieră de curbă existentă, iar intrarea și ieșirea din incintă se fac numai prin viraje la dreapta. Pentru aleile și drumurile din incintă se recomandă învelitori permeabile.",
+    "Clădirile se retrag cel puțin 8 m de la Drumul Sfântul Ioan regularizat conform PUG, 6 m de la limita laterală vestică, 12 m de la cea estică și 20 m de la limita posterioară. Între două clădiri de pe parcelă distanța e cel puțin înălțimea celei mai înalte, minim 4,5 m (6 m dacă încăperi principale dau spre spațiul dintre ele; regulament, art. 7).",
+    "Parcela e construibilă doar dacă are front la drum de cel puțin 30 m și cel puțin 2000 mp (regulament, art. 4). Sunt admise doar funcțiunile de agrement listate; comerțul și serviciile doar ca activități complementare, pentru utilizatorii zonei și fără poluare fonică, chimică sau vizuală.",
+    "Parcarea se face în incintă, de regulă la sol, cu necesarul din Anexa 2 a RLU PUG, însumat pe funcțiuni (pensiuni: locuri = 30% din numărul de camere); vehiculele de marfă și cele care nu sunt autoturisme staționează numai în incintă.",
+    "Racordarea la rețelele publice disponibile e obligatorie. Până la extinderea canalizării publice, apele uzate menajere merg într-un bazin vidanjabil; apele pluviale se captează prin rigole și tuburi într-un rezervor și nu se conduc spre domeniul public sau spre parcelele vecine. Firidele de branșament se integrează în împrejmuire, iar cablurile nu se montează aerian.",
+    "În incintă se amplasează o platformă îngropată de colectare selectivă a deșeurilor, pe 5 fracții, neintegrată în împrejmuire; ca platformă subterană, nu e supusă distanței minime de 10 m față de ferestrele locuințelor.",
+    "Cel puțin 60% din parcelă și din grădina de fațadă rămâne spațiu verde pe sol natural. Arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică construcția; se plantează cel puțin 15 arbori, cu circumferința de cel puțin 35 cm la 1 m de colet (regulament, art. 13; planșa prevede 15 arbori și 20 de arbuști).",
+    "Spre drum, aliniamentul se închide pe toată lungimea cu împrejmuire din materiale naturale (lemn, piatră) sau gard viu, iar porțile se deschid spre interior; spre vecini, împrejmuirile sunt transparente și de cel mult 2,20 m (regulament, art. 14).",
+    "Pe terenul din U.T.R. Vp se aplică în continuare regulamentul PUG.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-591/hotarare.txt"
+}
