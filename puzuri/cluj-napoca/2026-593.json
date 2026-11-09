@@ -1,0 +1,151 @@
+{
+  "id": "2026-593",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 593,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-593-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-593.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Măceșului – latura vestică",
+  "plansa": {
+    "pagina_pdf": 8,
+    "dpi": 96,
+    "denumire": "A4 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 7 e copia anexată hotărârii (A3, aproape alb-negru, cu hașurile zonelor peste desen, ștampilată „Anexa 2 la Hotărârea nr. 593 din 4 septembrie 2026” și semnată), iar p. 8 e aceeași planșă A4, color, cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 125 din 19.08.2025) și mențiunea de mână „HCL 593 din 4.09.2026”; s-a folosit p. 8, mai clară. Ambele sunt scanate la 96 ppi, pe A3, cu planșa întoarsă cu 90° (textul se citește de sus în jos). Planșa e tipărită micșorată: 5,4 px/m în loc de 7,56 px/m cât ar da 1:500 la 96 ppi (~71 %, adică un A2 adus pe A3). Legenda e decupată pe bucăți, ca să ocolească viza Arhitectului-șef și desenul; din nota care explică linia mov punctată (limita PUZ-ului vecin avizat cu nr. 24/21.02.2022 și aprobat prin HCL 116/2024) s-au lăsat afară ultimele trei rânduri (titlul acelui PUZ și numele inițiatorilor lui, persoane fizice)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Parcela (318594)” pe planșa A4 (20 de puncte, Nord X / Est Y, cu lungimile laturilor D(i,i+1); S = 4725,25 mp, P = 489,003 m). Tabelul listează punctele în ordinea conturului, dar numerotarea nu urmează conturul (7, 53, 8, 9, 10, 54, 11, 50, 51, 14-19, 1, 3-6), de unde `ordine`. Inventarul descrie parcela cu nr. cad. 318594, care e și zona reglementată (linia roșie punctată, 4725 mp în bilanțul teritorial și în hotărâre). Puncte de control: colțurile 8, 50, 1 și 17; puncte de verificare: colțurile 51 și 3 și punctul 9 (frântură de ~11° pe latura de vest). Fiecare e la intersecția dreptelor potrivite prin centrele punctelor roșii ale limitei de pe cele două laturi vecine (3-16 puncte pe latură, abatere 0,01-0,34 px), apoi verificat pe decupaje.",
+    "suprafata_declarata_m2": 4725.25,
+    "puncte": {
+      "7": [583586.384, 393378.256],
+      "53": [583587.946, 393369.467],
+      "8": [583595.17, 393328.83],
+      "9": [583619.25, 393344.7],
+      "10": [583631.15, 393356.24],
+      "54": [583651.342, 393378.065],
+      "11": [583657.36, 393384.57],
+      "50": [583664.021, 393393.162],
+      "51": [583650.08, 393419.907],
+      "14": [583640.655, 393414.994],
+      "15": [583622.84, 393401.01],
+      "16": [583619.51, 393399.0],
+      "17": [583597.11, 393385.5],
+      "18": [583586.209, 393446.846],
+      "19": [583582.682, 393466.231],
+      "1": [583576.144, 393501.542],
+      "3": [583566.402, 393499.086],
+      "4": [583569.739, 393479.408],
+      "5": [583577.211, 393433.686],
+      "6": [583582.981, 393397.891]
+    },
+    "ordine": [
+      "7",
+      "53",
+      "8",
+      "9",
+      "10",
+      "54",
+      "11",
+      "50",
+      "51",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "1",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "laturi_declarate_m": {
+      "7": 8.927,
+      "53": 41.274,
+      "8": 28.839,
+      "9": 16.577,
+      "10": 29.733,
+      "54": 8.862,
+      "11": 10.872,
+      "50": 30.16,
+      "51": 10.629,
+      "14": 22.648,
+      "15": 3.89,
+      "16": 26.154,
+      "17": 62.307,
+      "18": 19.703,
+      "19": 35.911,
+      "1": 10.047,
+      "3": 19.959,
+      "4": 46.329,
+      "5": 36.257,
+      "6": 19.928
+    },
+    "perimetru_declarat_m": 489.003,
+    "nota": "Toate cele 20 de laturi se potrivesc cu tabelul la milimetru, iar aria și perimetrul cu cele tipărite. Latura de sud, 3-4-5-6-7-53-8 (172,7 m), e practic o singură dreaptă, la fel 14-15-16-17 și 17-18-19-1, așa că doar 8, 50, 51, 17, 1 și 3 sunt colțuri bune. Nordul cade pe planșă la 20,8° în sensul acelor de ceas față de verticală; săgeata nordului desenată arată ~26°, deci doar aproximativ."
+  },
+  "gcp_px": {
+    "8": [168.8, 403.9],
+    "50": [626.7, 179.0],
+    "1": [1003.5, 832.1],
+    "17": [458.2, 503.1]
+  },
+  "verificare_px": {
+    "51": [734.4, 301.2],
+    "3": [971.8, 876.2],
+    "9": [294.9, 312.8]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [1445, 151, 1555, 565, 270],
+    [1360, 151, 1445, 482, 270],
+    [1222, 151, 1360, 367, 270],
+    [1180, 151, 1222, 430, 270],
+    [1040, 151, 1180, 418, 270],
+    [962, 151, 1040, 545, 270],
+    [882, 151, 965, 368, 270],
+    [740, 151, 771, 270, 270],
+    [810, 151, 876, 420, 270]
+  ],
+  "utr": [
+    {
+      "cod": "Liu/A",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe individuale (unifamiliale) izolate și anexele lor, câte una pe parcelă, pe parcelele P1-P5 (490-655 mp după planșă); parcelele P6-P10 (290-375 mp) sunt spațiu verde/grădină de utilitate privată, cu interdicție de construire",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-09-04",
+    "verificat": "2026-11-09: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Circulațiile P11 (9 m) și P12 (3 m): nota de pe planșă cere ca ele să fie înscrise în CF ca drum, echipate edilitar și aduse la strat de uzură înainte de autorizațiile de construire pe parcele; hotărârea (Art. 1) cere înainte de autorizații doar înscrierea în CF, iar echiparea edilitară și stratul de uzură până la recepția locuințelor."
+  ],
+  "conditii": [
+    "Parcelele P1-P5 sunt pentru câte o singură locuință unifamilială izolată (anexele alipite sau separate); parcelele P6-P10 rămân spațiu verde/grădină de utilitate privată, cu interdicție de construire, folosite doar pentru grădinărit, și se înscriu în CF cu destinația „spațiu verde de utilitate privată” înainte de autorizațiile de construire pentru locuințe.",
+    "Circulațiile propuse – P11, cu ampriza de 9 m (1,5 + 6 + 1,5 m pe planșă), și P12, aleea de 3 m spre viitorul Parc Bună Ziua – se înscriu în CF cu titlul de „drum” înainte de autorizațiile de construire pe parcele; până la recepția locuințelor se echipează edilitar și se aduc la strat de uzură, după un proiect de specialitate, și au acces public nelimitat.",
+    "Accesul la teren se face din str. Măceșului, pe aleea de interes local existentă; P1-P5 și P6 au acces din circulația P11, iar P7-P10 prin servitute de trecere peste P11. Pe o parcelă de locuit se admit un singur acces pietonal și un singur acces carosabil, de cel mult 4 m.",
+    "Locuințele se retrag cel puțin 5 m de la circulația P11, iar garajele cel puțin 6 m, ca să încapă o mașină în față; toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de ediculele provizorii de grădină (pavilioane, magazii de unelte), de cel mult 15 mp în total.",
+    "Retrageri: cel puțin 3 m de la limitele laterale (garajele se pot alipi limitei laterale dacă calcanul are cel mult 2,8 m) și de la limita posterioară cel puțin înălțimea clădirii, dar minim 6 m (garajele minim 6 m). Demisolul e numai pentru garaje și funcțiuni conexe, nu pentru locuit.",
+    "Parcarea se face pe parcelă: minim un loc pentru o locuință cu aria utilă sub 100 mp și două peste 100 mp.",
+    "Racordarea la rețelele edilitare existente e obligatorie; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament se integrează în împrejmuire, cablurile nu se montează aerian, iar deșeurile se colectează pe 5 fracții, pe o platformă sau într-un spațiu din parcelă accesibil din spațiul public.",
+    "Cel puțin 40% din fiecare parcelă rămâne spațiu verde pe sol natural; arborii maturi nu se taie decât dacă sunt un pericol sau împiedică construcția. Sunt interzise terasamentele și sistematizarea verticală care afectează spațiile publice sau parcelele vecine (regulament, art. 3 și 13).",
+    "Împrejmuirile spre stradă au soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,20 m; spre vecini, cel mult 2,20 m, transparente sau opace (regulament, art. 14).",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-593/hotarare.txt"
+}

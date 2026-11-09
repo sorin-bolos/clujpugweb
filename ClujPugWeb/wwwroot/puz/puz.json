@@ -760,6 +760,139 @@
   ]
  },
  {
+  "id": "2026-593",
+  "localitate": "cluj",
+  "hcl": "593/2026",
+  "data": "2026-09-04",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Măceșului – latura vestică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-593-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-593.pdf",
+  "utr": [
+   {
+    "cod": "Liu/A",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe individuale (unifamiliale) izolate și anexele lor, câte una pe parcelă, pe parcelele P1-P5 (490-655 mp după planșă); parcelele P6-P10 (290-375 mp) sunt spațiu verde/grădină de utilitate privată, cu interdicție de construire",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 4725,
+  "imagine": "puz/2026-593/plansa.webp",
+  "bounds": {
+   "west": 23.6021774,
+   "south": 46.7431686,
+   "east": 23.6045201,
+   "north": 46.7441076
+  },
+  "limita": [
+   [
+    23.6028753,
+    46.7433734
+   ],
+   [
+    23.6027599,
+    46.743386
+   ],
+   [
+    23.6022265,
+    46.7434445
+   ],
+   [
+    23.6024286,
+    46.7436637
+   ],
+   [
+    23.6025769,
+    46.7437726
+   ],
+   [
+    23.6028578,
+    46.7439577
+   ],
+   [
+    23.6029415,
+    46.7440128
+   ],
+   [
+    23.6030524,
+    46.7440741
+   ],
+   [
+    23.6034056,
+    46.7439529
+   ],
+   [
+    23.6033435,
+    46.7438674
+   ],
+   [
+    23.6031646,
+    46.7437049
+   ],
+   [
+    23.6031391,
+    46.7436746
+   ],
+   [
+    23.6029676,
+    46.743471
+   ],
+   [
+    23.6037729,
+    46.7433827
+   ],
+   [
+    23.6040274,
+    46.743354
+   ],
+   [
+    23.6044909,
+    46.7433008
+   ],
+   [
+    23.604461,
+    46.7432128
+   ],
+   [
+    23.6042028,
+    46.7432397
+   ],
+   [
+    23.6036028,
+    46.7432997
+   ],
+   [
+    23.603133,
+    46.7433459
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.03
+  },
+  "legenda": "puz/2026-593/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-09-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Circulațiile P11 (9 m) și P12 (3 m): nota de pe planșă cere ca ele să fie înscrise în CF ca drum, echipate edilitar și aduse la strat de uzură înainte de autorizațiile de construire pe parcele; hotărârea (Art. 1) cere înainte de autorizații doar înscrierea în CF, iar echiparea edilitară și stratul de uzură până la recepția locuințelor."
+  ],
+  "conditii": [
+   "Parcelele P1-P5 sunt pentru câte o singură locuință unifamilială izolată (anexele alipite sau separate); parcelele P6-P10 rămân spațiu verde/grădină de utilitate privată, cu interdicție de construire, folosite doar pentru grădinărit, și se înscriu în CF cu destinația „spațiu verde de utilitate privată” înainte de autorizațiile de construire pentru locuințe.",
+   "Circulațiile propuse – P11, cu ampriza de 9 m (1,5 + 6 + 1,5 m pe planșă), și P12, aleea de 3 m spre viitorul Parc Bună Ziua – se înscriu în CF cu titlul de „drum” înainte de autorizațiile de construire pe parcele; până la recepția locuințelor se echipează edilitar și se aduc la strat de uzură, după un proiect de specialitate, și au acces public nelimitat.",
+   "Accesul la teren se face din str. Măceșului, pe aleea de interes local existentă; P1-P5 și P6 au acces din circulația P11, iar P7-P10 prin servitute de trecere peste P11. Pe o parcelă de locuit se admit un singur acces pietonal și un singur acces carosabil, de cel mult 4 m.",
+   "Locuințele se retrag cel puțin 5 m de la circulația P11, iar garajele cel puțin 6 m, ca să încapă o mașină în față; toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de ediculele provizorii de grădină (pavilioane, magazii de unelte), de cel mult 15 mp în total.",
+   "Retrageri: cel puțin 3 m de la limitele laterale (garajele se pot alipi limitei laterale dacă calcanul are cel mult 2,8 m) și de la limita posterioară cel puțin înălțimea clădirii, dar minim 6 m (garajele minim 6 m). Demisolul e numai pentru garaje și funcțiuni conexe, nu pentru locuit.",
+   "Parcarea se face pe parcelă: minim un loc pentru o locuință cu aria utilă sub 100 mp și două peste 100 mp.",
+   "Racordarea la rețelele edilitare existente e obligatorie; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament se integrează în împrejmuire, cablurile nu se montează aerian, iar deșeurile se colectează pe 5 fracții, pe o platformă sau într-un spațiu din parcelă accesibil din spațiul public.",
+   "Cel puțin 40% din fiecare parcelă rămâne spațiu verde pe sol natural; arborii maturi nu se taie decât dacă sunt un pericol sau împiedică construcția. Sunt interzise terasamentele și sistematizarea verticală care afectează spațiile publice sau parcelele vecine (regulament, art. 3 și 13).",
+   "Împrejmuirile spre stradă au soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,20 m; spre vecini, cel mult 2,20 m, transparente sau opace (regulament, art. 14).",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
