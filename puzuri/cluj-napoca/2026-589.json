@@ -1,0 +1,93 @@
+{
+  "id": "2026-589",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Planșa nu are inventar de coordonate și nici caroiaj, iar metoda cu repere OpenStreetMap n-a putut rula: din sesiunea cloud, Overpass (overpass-api.de) a închis fiecare conexiune timp de peste o oră; de reluat cu metoda OSM când Overpass răspunde.",
+  "hcl": {
+    "nr": 589,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-589-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-589.pdf"
+  },
+  "titlu": "P.U.Z. – Restructurare zonă industrială, str. Calea Dezmirului nr. 16-18",
+  "plansa": {
+    "pagina_pdf": 22,
+    "dpi": 200,
+    "denumire": "U.02 Reglementări urbanistice – zonificare",
+    "scara": "1:1000",
+    "nota": "Planșa apare de două ori în PDF: p. 14 e copia anexată hotărârii (A3, 200 ppi, în tonuri de gri, ștampilată „Anexa 2 la Hotărârea nr. 589/2026”), iar p. 22 e aceeași planșă U.02 (proiect LP 03/23, 05/24), color, A2 la 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 157 din 29.09.2025, cu mențiunea „68 din 25.05.2026”) și mențiunea de mână „HCL nr. 589 din 4 septembrie 2026”; s-a ales p. 22, mai mare și mai clară. P. 34 e planșa U.02.4 Etapa 4 (mobilare, 2025, 96 ppi), iar p. 21 extrasul din PUG anexat avizului de oportunitate. Scara reală a imaginii: 7,755 px/m (cota 72,225 m = 560 px, cota 15,79 m = 122 px), adică planșa e tipărită la ~98% din 1:1000; nordul e în sus. Legenda cuprinde cheia simbolurilor, U.T.R.-urile existente și cel propus, blocul U.T.R. Ei* cu tabelul de indicatori și nota despre etapizarea investițiilor; schema etapelor, tabelul „Suprafețe rezultate prin PUZ”, calculul parcărilor, profilele de drum și cartușul au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa U.02 nu are inventar de coordonate și nici caroiaj Stereo 70; nici celelalte planșe din PDF (U.02.4, extrasul din PUG) nu au. Singurul rând de cruci mici (y≈3131, la ~155 px = 20 m una de alta, în zona A de la sud) nu se repetă nicăieri pe planșă, deci nu e un caroiaj. Rămâne metoda cu repere OpenStreetMap (georef_metoda osm) și limita trasată pe planșă.",
+    "suprafata_declarata_m2": 47076.0,
+    "puncte": {},
+    "nota": "Pregătit pentru metoda OSM, încercarea din 2026-11-09 (sesiune cloud), oprită pentru că Overpass nu răspundea: px_per_m 7,755 (din cote), nord 0°. Ancore posibile (axe de străzi): Calea Dezmirului × str. Cantonului, la ~(2558, 247) pe planșă; Calea Dezmirului × str. Turnului, lângă colțul NE al zonei (~1540, 320); str. Augustin Bena × str. Turnului (~1790, 1050) și × str. Cantonului (~2700, 790). Repere bune: casele desenate la est de str. Turnului (347097-C1, 347098-C1, 347099-C1, 328603-C1, 328604-C1, 302214-C1, 295200-C1, 252073-C1) și clădirile de la sud-est (267399-C26…C35, 267843-C1); în interiorul zonei planșa nu desenează clădiri existente. Limita zonei e lanțul de buline roșii; bulinele sunt desenate cu ~1-1,5 m spre exterior față de linia de proprietate (pe Calea Dezmirului stau pe fâșia oliv, deasupra fâșiei hașurate de lărgire): poligonul centrelor lor are ~49.540 mp la 7,755 px/m (+5,2% față de 47.076 mp), deci limita trebuie trasată pe linia de proprietate, ca la HCL 24/2026. Colțuri: NV ~(820, 575), NE ~(1546, 366); latura estică urmează str. Turnului până la ~(2135, 2180); lobul de sud-est are colțurile ~(2370, 2185), ~(2390, 2625), ~(2230, 2650), apoi latura oblică spre sud-est până la colțul de sud ~(2430, 3075); latura sudică are o treaptă la x≈1490 (y 2945→3046), lobul de sud-vest colțurile ~(668, 3100) și ~(672, 3235); latura vestică urmează drumul industrial, cu un decroș spre vest la y≈1990."
+  },
+  "georef_metoda": "osm",
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3450,
+      28,
+      3880,
+      1260
+    ],
+    [
+      3885,
+      28,
+      4630,
+      935
+    ],
+    [
+      3885,
+      985,
+      4640,
+      1645
+    ],
+    [
+      2902,
+      905,
+      3442,
+      1243
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Ei*",
+      "denumire": "Zonă de activități economice cu caracter industrial (parcelele 1-5 de pe planșă) – producție industrială și activități complementare direct legate de ea (administrative, de depozitare, de cercetare), servicii de tip industrial sau cvasiindustrial; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "1,2",
+      "h_max": "(1-2)S+P+3E+R; 21 m la cornișă, 25 m maxim"
+    }
+  ],
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimile: tabelul de indicatori al planșei le inversează (H total maxim 21 m, H cornișă 25 m); hotărârea și regulamentul (art. 10), ca și eticheta U.T.R. din desen și legenda, dau 21 m la cornișă și 25 m înălțime totală.",
+    "Retragerea față de aliniament: tabelul planșei scrie 9,00 m; hotărârea cere minim 3 m față de str. Turnului, 6 m față de Calea Dezmirului și 2 m față de drumul industrial din vest (toate regularizate), cum le și desenează planșa."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii Căii Dezmirului și a străzii Turnului (planșa U.02) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire pe parcele; până la recepția construcțiilor se aduce la strat de uzură și trece în domeniul public (planșa Proprietatea asupra terenurilor).",
+    "Terenul necesar lărgirii drumului industrial din vest se dezmembrează din parcele înainte de autorizația de construire și se aduce la strat de uzură până la recepția construcțiilor.",
+    "Clădirile noi se retrag cel puțin 3 m de la str. Turnului, 6 m de la Calea Dezmirului și 2 m de la drumul industrial din vest (după regularizare); la parcelele de colț, de la ambele laturi spre domeniul public. Față de limitele laterale și posterioare, cel puțin 6 m (la parcela 4, laterale cel puțin 3 m); față de parcelele vecine cu calea ferată industrială, cel puțin 3 m.",
+    "Parcelele construibile au cel puțin 3000 mp și front la o stradă publică sau privată; spațiile verzi pe sol natural ocupă cel puțin 20% din fiecare parcelă (regulament, art. 4 și 13).",
+    "Accesul în zonă se face din Calea Dezmirului; accesele carosabile pe parcele se fac, unde se poate, de pe străzile de rang inferior. Bretelele de acces existente nu pot fi desființate sau transformate în parcări; accesele pentru personal, vizitatori și tehnologice (trafic greu) sunt de regulă separate, iar vehiculele care așteaptă intrarea staționează în afara circulațiilor publice.",
+    "Parcarea se face în incintă, de regulă la sol (sau în clădiri dedicate): 1 loc la 80 mp arie utilă pentru birouri fără acces public, plus 1 loc de bicicletă la 80 mp; câte un loc pentru fiecare vehicul al activității și locuri pentru autovehicule de mare tonaj; depozitarea și logistica nu cer locuri. Se plantează câte un arbore la fiecare 3 locuri de parcare la sol.",
+    "Echiparea edilitară e completă pe Calea Dezmirului; amenajările se fac după proiecte autorizate, cu respectarea Legii 101/2020, NP 051/2012 și NP 24/2022.",
+    "Zona e împărțită în 4 zone de implementare (etape) independente; recepția oricărei construcții dintr-o zonă e condiționată de încheierea operațiunilor notariale și cadastrale, a dezmembrărilor pentru obiectivele de utilitate publică și a construcțiilor și branșamentelor la rețelele existente din acea zonă (nota de pe planșa U.02).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-09-04",
+    "verificat": "2026-11-09: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  }
+}
