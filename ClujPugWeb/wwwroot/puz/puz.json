@@ -196,6 +196,186 @@
   ]
  },
  {
+  "id": "2026-626",
+  "localitate": "cluj",
+  "hcl": "626/2026",
+  "data": "2026-10-01",
+  "titlu": "P.U.Z. – de urbanizare, strada Eugen Ionesco – Est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-626-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/10/14/HCL-626.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe individuale sau semicolective (cel mult două unități locative pe parcelă), regim izolat sau cuplat; 19 parcele",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "10 m la coamă sau la aticul nivelului retras, 8 m la cornișă; două niveluri supraterane: (S)+P+1, (S)+P+R, (S)+P+M sau D+P"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzona spațiilor verzi, cu acces public nelimitat – plantații și mobilier urban",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "4 m (P)"
+   }
+  ],
+  "suprafata_m2": 10412,
+  "imagine": "puz/2026-626/plansa.webp",
+  "bounds": {
+   "west": 23.5825238,
+   "south": 46.7470907,
+   "east": 23.586254,
+   "north": 46.7476009
+  },
+  "limita": [
+   [
+    23.5826782,
+    46.7473129
+   ],
+   [
+    23.5826673,
+    46.7473287
+   ],
+   [
+    23.5826877,
+    46.7473287
+   ],
+   [
+    23.5826677,
+    46.7473705
+   ],
+   [
+    23.5826437,
+    46.7473706
+   ],
+   [
+    23.5826408,
+    46.747376
+   ],
+   [
+    23.5825521,
+    46.7475414
+   ],
+   [
+    23.5826853,
+    46.74754
+   ],
+   [
+    23.5831792,
+    46.7475348
+   ],
+   [
+    23.5834329,
+    46.7475364
+   ],
+   [
+    23.5846814,
+    46.7475323
+   ],
+   [
+    23.5850573,
+    46.7475311
+   ],
+   [
+    23.5851194,
+    46.7475309
+   ],
+   [
+    23.585119,
+    46.7473869
+   ],
+   [
+    23.5854462,
+    46.7473859
+   ],
+   [
+    23.5854466,
+    46.7475298
+   ],
+   [
+    23.58551,
+    46.7475296
+   ],
+   [
+    23.5859224,
+    46.7475291
+   ],
+   [
+    23.5862238,
+    46.7475287
+   ],
+   [
+    23.5862262,
+    46.7473708
+   ],
+   [
+    23.5862269,
+    46.7473391
+   ],
+   [
+    23.5862322,
+    46.7471502
+   ],
+   [
+    23.585926,
+    46.7471511
+   ],
+   [
+    23.5858475,
+    46.7471513
+   ],
+   [
+    23.5853159,
+    46.7471529
+   ],
+   [
+    23.5853163,
+    46.7473051
+   ],
+   [
+    23.5848388,
+    46.7473057
+   ],
+   [
+    23.5848384,
+    46.7471544
+   ],
+   [
+    23.5834898,
+    46.7471584
+   ],
+   [
+    23.5827835,
+    46.7471605
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.27
+  },
+  "legenda": "puz/2026-626/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-10-01"
+  },
+  "diferente_fata_de_plansa": [
+   "Tabelul „Reglementări urbanistice” de pe planșă dă pentru zona propusă P.O.T. max. 30%; hotărârea (Art. 1) și regulamentul (Anexa 1, Art. 15) dau P.O.T. max. 35% pentru U.T.R. Liu*, la fel ca etichetele U.T.R. Liu* din desen.",
+   "Același tabel dă spații verzi pe sol de minimum 40%; regulamentul (Anexa 1, Art. 13) cere ca spațiile verzi pe sol natural să ocupe minimum 50% din fiecare parcelă (și 60% din grădina de fațadă)."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării str. Eugen Ionesco în dreptul P.U.Z. (fâșia hașurată cu roșu pe planșă, 118,02 mp) se dezmembrează din parcele și se înscrie în CF ca „drum” înainte de autorizațiile de construire; până la recepția locuințelor se aduce la strat de uzură (asfalt sau dalaj).",
+   "Strada propusă, cu ampriză de 8 m și de 9 m, care pornește din str. Eugen Ionesco și are acces public nelimitat, se echipează edilitar și i se face partea carosabilă la strat de uzură înainte de autorizațiile de construire pe parcelele cu acces din ea; trotuarele se fac până la recepția construcțiilor.",
+   "Subzona verde S_Va, cu acces public nelimitat, se amenajează pe baza unui proiect de specialitate înainte de recepția locuințelor.",
+   "Clădirile se retrag cel puțin 3 m de la str. Eugen Ionesco regularizată și cel puțin 2 m de la strada propusă; garajele cel puțin 6 m de la aliniament și de la limita posterioară. Față de limitele laterale, minimum 3 m (la cuplate, față de limita opusă); față de limita posterioară, cel puțin înălțimea la cornișă, dar minimum 6 m. Garajele se pot alipi limitelor laterale cu calcan de cel mult 2,8 m.",
+   "Accesul se face din str. Eugen Ionesco și din strada propusă: de regulă un acces pietonal și unul carosabil pe parcelă (două la locuințele semicolective alipite).",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o clădire cu AU sub 100 mp și două peste 100 mp; două locuri pentru servicii de proximitate.",
+   "Toate utilitățile se racordează la rețelele publice, cablurile se îngroapă, apele pluviale nu se scurg spre domeniul public sau spre vecini; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 50% din parcelă, iar arborii maturi nu se taie decât dacă sunt un pericol sau împiedică construirea (Anexa 1, Art. 13).",
+   "Toate investițiile propuse sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-597",
   "localitate": "cluj",
   "hcl": "597/2026",
