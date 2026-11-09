@@ -1,0 +1,217 @@
+{
+  "id": "2026-595",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 595,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-595-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-595.pdf"
+  },
+  "titlu": "P.U.Z. – Zonă de locuințe colective, str. Badea Cârțan nr. 8A",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 200,
+    "denumire": "U.04 Reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 8 e copia anexată hotărârii (A3, micșorată, aproape alb-negru, ștampilată „Anexa 2 la HCL nr. 595/2026”), iar p. 17 e aceeași planșă U.04, color, la format mare, cu viza „spre neschimbare” a Arhitectului-șef (avizele nr. 195/30.12.2025 și 78/08.06.2026); s-a folosit p. 17, mai clară. Ambele sunt scanate la 200 ppi. Planșa e tipărită ușor micșorată: 15,4 px/m în loc de 15,75 px/m cât ar da 1:500 la 200 ppi (~98 %)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pct. de contur pe planșa U.04 (16 puncte, Nord X / Est Y, cu cote Z și lungimile laturilor D(i,i+1); S = 1206,79 mp, P = 148,906 m). Tabelul listează punctele în ordinea conturului, dar descrescător de la 8 la 1 și apoi de la 16 la 9, de unde `ordine`. Puncte de control: colțurile 8, 1, 16 și 9, fiecare la intersecția liniilor de mijloc ale limitei roșii de pe laturile vecine, măsurate pe profile transversale; puncte de verificare: 11, 10 și 14, alese din ochi pe crestătura și treptele laturii de sud. Pe laturile mai lungi de 4 m, linia desenată cade la cel mult 1,6 px (0,1 m) de limita calculată; pe cele de ~3 m (16-15, 10-9), la 2-3 px; laturile sub 2,5 m nu s-au măsurat.",
+    "suprafata_declarata_m2": 1206.79,
+    "puncte": {
+      "8": [
+        588139.858,
+        390870.531
+      ],
+      "7": [
+        588138.674,
+        390868.823
+      ],
+      "6": [
+        588134.603,
+        390862.334
+      ],
+      "5": [
+        588133.669,
+        390860.25
+      ],
+      "4": [
+        588131.775,
+        390856.028
+      ],
+      "3": [
+        588126.434,
+        390845.904
+      ],
+      "2": [
+        588123.24,
+        390839.18
+      ],
+      "1": [
+        588121.147,
+        390833.492
+      ],
+      "16": [
+        588096.543,
+        390840.387
+      ],
+      "15": [
+        588097.161,
+        390843.287
+      ],
+      "14": [
+        588098.095,
+        390843.14
+      ],
+      "13": [
+        588098.1,
+        390843.966
+      ],
+      "12": [
+        588098.654,
+        390865.523
+      ],
+      "11": [
+        588099.523,
+        390866.658
+      ],
+      "10": [
+        588095.744,
+        390872.884
+      ],
+      "9": [
+        588096.294,
+        390875.701
+      ]
+    },
+    "ordine": [
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1",
+      "16",
+      "15",
+      "14",
+      "13",
+      "12",
+      "11",
+      "10",
+      "9"
+    ],
+    "laturi_declarate_m": {
+      "8": 2.078,
+      "7": 7.66,
+      "6": 2.284,
+      "5": 4.627,
+      "4": 11.446,
+      "3": 7.444,
+      "2": 6.061,
+      "1": 25.552,
+      "16": 2.965,
+      "15": 0.945,
+      "14": 0.826,
+      "13": 21.564,
+      "12": 1.429,
+      "11": 7.283,
+      "10": 2.87,
+      "9": 43.87
+    },
+    "perimetru_declarat_m": 148.906,
+    "nota": "Verificare independentă: clădirile din OpenStreetMap (blocurile CFR 1-4 de pe str. Badea Cârțan, depoul de locomotive) și axul străzii, aduse pe planșă prin potrivirea afină, cad pe cele desenate. Pe ortofoto, blocurile de la sud și rândul de garaje de la vest sunt unde le arată planșa."
+  },
+  "gcp_px": {
+    "8": [
+      1438,
+      835
+    ],
+    "1": [
+      866,
+      1124
+    ],
+    "16": [
+      972,
+      1505
+    ],
+    "9": [
+      1515,
+      1507
+    ]
+  },
+  "verificare_px": {
+    "11": [
+      1374,
+      1461
+    ],
+    "10": [
+      1470,
+      1517
+    ],
+    "14": [
+      1012,
+      1482
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3206,
+      35,
+      4585,
+      548
+    ],
+    [
+      3206,
+      548,
+      3870,
+      830
+    ],
+    [
+      3206,
+      1185,
+      4245,
+      2105
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lc-r",
+      "denumire": "Zonă de locuințe colective realizate după anul 1990, restructurată – locuințe colective, regim de construire deschis (prin excepție, cuplat pe calcan pe una din laturi)",
+      "pot_max": "35% (calculat la suprafața parcelei inițiale, 1207 mp, înainte de dezmembrări)",
+      "cut_max": "1,0 (calculat la suprafața parcelei inițiale)",
+      "h_max": "15 m la cornișă sau la aticul ultimului nivel (S+P+2E+R; ultimul nivel retras cu cel puțin 1,80 m față de fațada spre pârâul Nadăș)"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic – fâșia de-a lungul pârâului Nadăș (54,61 mp după planșă); rămâne ca în PUG și trece în domeniul public"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-09-04",
+    "verificat": "2026-11-09: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Terenul din U.T.R. Ve – fâșia de-a lungul pârâului Nadăș, 54,61 mp după planșă – se dezmembrează din parcelă (nr. cad. 299821), se înscrie în CF cu titlu de „spațiu verde” și se transferă gratuit în domeniul public înainte de recepția clădirii. Pe el se aplică în continuare regulamentul PUG.",
+    "Terenul necesar unei viitoare legături în rețeaua de străzi – pe planșă, 80,39 mp în sud-vestul parcelei, în regim carosabil și pietonal – se dezmembrează din parcelă, se înscrie în CF cu titlu de „drum”, se aduce la strat de uzură și se transferă gratuit în domeniul public înainte de recepția clădirii.",
+    "Accesul carosabil și pietonal se face din str. Badea Cârțan, printr-o servitute de trecere de 7 m lățime pe imobilele vecine cu nr. cad. 331813 și 331644 (pe planșă 119 mp și 40 mp), amenajată ca „shared space”, cu viteza limitată la 30 km/h.",
+    "Clădirile se retrag față de limitele laterale și posterioară cu cel puțin jumătate din înălțime, dar minim 6 m (retragerea în trepte e admisă, cu aceeași regulă la fiecare cornișă; prin excepție, se pot cupla pe calcan pe o latură). Față de pârâul Nadăș se retrag cel puțin 12 m de la mal și 15 m de la axul cursului de apă.",
+    "Cel puțin 75% din locurile de parcare sunt în spații specializate la subsolul sau parterul clădirilor; necesarul pentru locuințe este un loc pentru fiecare apartament cu suprafața utilă sub 100 mp și două pentru cele peste 100 mp, iar pentru alte funcțiuni se calculează după Anexa 2 a regulamentului PUG.",
+    "Toate utilitățile se racordează la rețelele publice. Apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în clădire; cablurile nu se montează aerian. Deșeurile se colectează pe 5 fracții, într-un spațiu interior accesibil din spațiul public sau pe o platformă îngropată în incintă.",
+    "Parcela rămâne neîmprejmuită pe toate laturile, ca să permită trecerea liberă spre zona verde de lângă pârâu, iar spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă (Regulamentul local, Anexa 1, art. 13-14; împrejmuirea e notată și pe planșă).",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-595/hotarare.txt"
+}
