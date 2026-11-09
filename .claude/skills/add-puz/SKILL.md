@@ -104,10 +104,28 @@ where `<id>` is `<an>-<nr>`.
      leave-one-out table and re-pick the culprit. Never loosen a gate or delete
      points just to pass.
 6. **Crops.**
-   - `legenda_px`: one or more boxes stacked into one image, holding the legend and
-     useful tables (UTR indicators), but no signatures or stamps. On a plate printed
+   - `legenda_px`: one or more boxes stacked into one image. Put in:
+     - the symbol key;
+     - the UTR blocks: codes, names, and the POT/CUT/height/regime they allow,
+       including a "posibilități maxime" or "reglementări urbanistice" table;
+     - short regulatory notes printed with the legend.
+
+     Leave out:
+     - bilanțuri teritoriale (existing/proposed areas);
+     - zonificare tables that only give areas;
+     - parking calculations;
+     - street profiles;
+     - the title block and the plate's name/scale header;
+     - signatures and stamps.
+
+     Box each part you keep, with no gap above or below. When the legend sits
+     between left-out tables, split it into several boxes. On a plate printed
      sideways, add a fifth number to each box: degrees to turn it clockwise (90 when
-     the text reads upwards). Check the result in `legenda.webp`.
+     the text reads upwards).
+   - Look at `legenda.webp` (`legend <recipe> --dry-run` rebuilds only it) at the
+     size the site shows it, about 600 px wide. If the legend can't be read in the
+     PDF itself (754/2021: a plate shrunk onto A4), leave `legenda_px` empty and
+     say why in `plansa.nota`. An unreadable image doesn't help anyone.
    - `decupaj.exclude_px`: tables or title blocks that the boundary buffer reaches
      into.
 7. **Decision text.** Run `hcl` and `related`, and read the full text in

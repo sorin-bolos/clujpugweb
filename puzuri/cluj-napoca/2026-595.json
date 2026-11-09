@@ -21,70 +21,22 @@
     "sursa": "Inventar de coordonate pct. de contur pe planșa U.04 (16 puncte, Nord X / Est Y, cu cote Z și lungimile laturilor D(i,i+1); S = 1206,79 mp, P = 148,906 m). Tabelul listează punctele în ordinea conturului, dar descrescător de la 8 la 1 și apoi de la 16 la 9, de unde `ordine`. Puncte de control: colțurile 8, 1, 16 și 9, fiecare la intersecția liniilor de mijloc ale limitei roșii de pe laturile vecine, măsurate pe profile transversale; puncte de verificare: 11, 10 și 14, alese din ochi pe crestătura și treptele laturii de sud. Pe laturile mai lungi de 4 m, linia desenată cade la cel mult 1,6 px (0,1 m) de limita calculată; pe cele de ~3 m (16-15, 10-9), la 2-3 px; laturile sub 2,5 m nu s-au măsurat.",
     "suprafata_declarata_m2": 1206.79,
     "puncte": {
-      "8": [
-        588139.858,
-        390870.531
-      ],
-      "7": [
-        588138.674,
-        390868.823
-      ],
-      "6": [
-        588134.603,
-        390862.334
-      ],
-      "5": [
-        588133.669,
-        390860.25
-      ],
-      "4": [
-        588131.775,
-        390856.028
-      ],
-      "3": [
-        588126.434,
-        390845.904
-      ],
-      "2": [
-        588123.24,
-        390839.18
-      ],
-      "1": [
-        588121.147,
-        390833.492
-      ],
-      "16": [
-        588096.543,
-        390840.387
-      ],
-      "15": [
-        588097.161,
-        390843.287
-      ],
-      "14": [
-        588098.095,
-        390843.14
-      ],
-      "13": [
-        588098.1,
-        390843.966
-      ],
-      "12": [
-        588098.654,
-        390865.523
-      ],
-      "11": [
-        588099.523,
-        390866.658
-      ],
-      "10": [
-        588095.744,
-        390872.884
-      ],
-      "9": [
-        588096.294,
-        390875.701
-      ]
+      "8": [588139.858, 390870.531],
+      "7": [588138.674, 390868.823],
+      "6": [588134.603, 390862.334],
+      "5": [588133.669, 390860.25],
+      "4": [588131.775, 390856.028],
+      "3": [588126.434, 390845.904],
+      "2": [588123.24, 390839.18],
+      "1": [588121.147, 390833.492],
+      "16": [588096.543, 390840.387],
+      "15": [588097.161, 390843.287],
+      "14": [588098.095, 390843.14],
+      "13": [588098.1, 390843.966],
+      "12": [588098.654, 390865.523],
+      "11": [588099.523, 390866.658],
+      "10": [588095.744, 390872.884],
+      "9": [588096.294, 390875.701]
     },
     "ordine": [
       "8",
@@ -126,60 +78,24 @@
     "nota": "Verificare independentă: clădirile din OpenStreetMap (blocurile CFR 1-4 de pe str. Badea Cârțan, depoul de locomotive) și axul străzii, aduse pe planșă prin potrivirea afină, cad pe cele desenate. Pe ortofoto, blocurile de la sud și rândul de garaje de la vest sunt unde le arată planșa."
   },
   "gcp_px": {
-    "8": [
-      1438,
-      835
-    ],
-    "1": [
-      866,
-      1124
-    ],
-    "16": [
-      972,
-      1505
-    ],
-    "9": [
-      1515,
-      1507
-    ]
+    "8": [1438, 835],
+    "1": [866, 1124],
+    "16": [972, 1505],
+    "9": [1515, 1507]
   },
   "verificare_px": {
-    "11": [
-      1374,
-      1461
-    ],
-    "10": [
-      1470,
-      1517
-    ],
-    "14": [
-      1012,
-      1482
-    ]
+    "11": [1374, 1461],
+    "10": [1470, 1517],
+    "14": [1012, 1482]
   },
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
   },
   "legenda_px": [
-    [
-      3206,
-      35,
-      4585,
-      548
-    ],
-    [
-      3206,
-      548,
-      3870,
-      830
-    ],
-    [
-      3206,
-      1185,
-      4245,
-      2105
-    ]
+    [3206, 35, 4585, 548],
+    [3206, 548, 3870, 830],
+    [3206, 1832, 4245, 2105]
   ],
   "utr": [
     {

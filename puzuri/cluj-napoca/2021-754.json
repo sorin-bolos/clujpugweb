@@ -14,7 +14,7 @@
     "dpi": 300,
     "denumire": "A.08 Plan reglementări urbanistice - zonificare",
     "scara": "1:500",
-    "nota": "Anexa 3, p. 34. PDF-ul are trei planșe, toate scanate redus pe o foaie A4 la 300 ppi (3508×2480 px, JPEG la ~2% din mărimea brută): p. 34 A.08 Reglementări urbanistice - zonificare (Anexa 3), p. 35 A.10 Proprietatea asupra terenurilor (Anexa 4), p. 36 A.11 Mobilare urbanistică (Anexa 5). Se citesc titlurile, scara și etichetele mari (UTR RiM* „ZONA MIXTĂ POTmax = 60,00%, CUTmax = 2,80”, S_Va*, S_Is*), dar nu și cifrele mici: legenda, bilanțul și cotele sunt ilizibile. Pe nicio planșă nu se văd cruci de caroiaj Stereo 70. P. 36 are și o schiță „Cote generale” a limitei, cu laturile principale, doar parțial lizibilă. Planșa e tipărită culcat: textul se citește de jos în sus, iar nordul e spre stânga (potrivirea dă o rotație de -90,0°). Scara reală a scanării: 5,2 px/m (planșa 1:500 redusă la ~21%). Din tabelele UTR se citesc doar titlurile; comparația text-planșă se poate face numai pe etichetele mari (RiM*: POT 60%, CUT 2,80, la fel ca în hotărâre). Legenda publicată (`legenda_px`) cuprinde tabelele UTR și legenda, rotite cu 90°, la fel de neclare ca pe planșă. Ștampila Consiliului Local acoperă colțul de sud-est al zonei."
+    "nota": "Anexa 3, p. 34. PDF-ul are trei planșe, toate scanate redus pe o foaie A4 la 300 ppi (3508×2480 px, JPEG la ~2% din mărimea brută): p. 34 A.08 Reglementări urbanistice - zonificare (Anexa 3), p. 35 A.10 Proprietatea asupra terenurilor (Anexa 4), p. 36 A.11 Mobilare urbanistică (Anexa 5). Se citesc titlurile, scara și etichetele mari (UTR RiM* „ZONA MIXTĂ POTmax = 60,00%, CUTmax = 2,80”, S_Va*, S_Is*), dar nu și cifrele mici: legenda, bilanțul și cotele sunt ilizibile. Pe nicio planșă nu se văd cruci de caroiaj Stereo 70. P. 36 are și o schiță „Cote generale” a limitei, cu laturile principale, doar parțial lizibilă. Planșa e tipărită culcat: textul se citește de jos în sus, iar nordul e spre stânga (potrivirea dă o rotație de -90,0°). Scara reală a scanării: 5,2 px/m (planșa 1:500 redusă la ~21%). Din tabelele UTR se citesc doar titlurile; comparația text-planșă se poate face numai pe etichetele mari (RiM*: POT 60%, CUT 2,80, la fel ca în hotărâre). Legenda nu e publicată: pe planșă e ilizibilă, iar o imagine pe care nu o poate citi nimeni nu ajută. Ștampila Consiliului Local acoperă colțul de sud-est al zonei."
   },
   "coordonate": {
     "crs": "EPSG:3844",
@@ -43,10 +43,7 @@
     "buffer_m": 1.5,
     "exclude_px": []
   },
-  "legenda_px": [
-    [150, 158, 1370, 515, 90],
-    [700, 515, 1030, 772, 90]
-  ],
+  "legenda_px": [],
   "utr": [
     {
       "cod": "RiM*",

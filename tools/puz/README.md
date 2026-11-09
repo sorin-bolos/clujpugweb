@@ -72,6 +72,21 @@ Two checks catch mistakes:
    `decupaj`. The overlay is the boundary plus `buffer_m`, minus any
    `exclude_px` boxes, such as tables or title blocks that the buffer reaches into.
    Use `puz.py grid <x0 y0 x1 y1>` to read box coordinates.
+   - **What goes in the legend.** The symbol key and the UTR blocks: codes, names
+     and allowed POT/CUT/height. Leave out bilanțuri teritoriale, area-only
+     zonificare tables, parking calculations, street profiles, the title block, and
+     stamps. 627/2026 first went out with all of these, which made it three times
+     longer.
+   - **An unreadable legend is left out.** 754/2021's plate is shrunk onto A4 and
+     its legend can't be read even in the PDF, so `legenda_px` stays empty and
+     `plansa.nota` says why.
+   - **Image clean-up.** A 3×3 median filter removes scan grain, but it also
+     removes strokes thinner than 2 px. So it runs only on scans of 250 ppi or
+     more, and before downscaling. Levels are then stretched so the paper turns
+     white. On the 96 ppi scan of 594/2026, the old fixed threshold had erased
+     the small print.
+   - `puz.py legend <recipe>` rebuilds only the legend, also for a PUZ already
+     published. `--dry-run` writes it to the cache instead.
 7. **Read the decision's text.** `puz.py hcl` prints it laid out for the recipe:
    validity, each UTR paragraph with its indicators, and the sentences that set
    conditions. The text is authoritative, so fill these from it, not from the plate:

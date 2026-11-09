@@ -65,6 +65,7 @@ MAX_RESIDUAL_PX = 4
 MAX_RESIDUAL_OSM_M = 5.0
 OUTPUT_RES_3857 = 0.07         # metres (EPSG:3857 units) per output pixel, ~z21
 LEGEND_MAX_W = 1000            # px
+LEGEND_MEDIAN_MIN_DPI = 250    # despeckle legends only from this scan resolution up
 
 Image.MAX_IMAGE_PIXELS = None
 
@@ -1052,15 +1053,67 @@ def legend_image(r):
     y = 0
     for c in crops:
         out.paste(c, (0, y)); y += c.height + 12
+    # Scan grain compresses badly. A 3x3 median removes it, but it also removes any
+    # stroke thinner than 2 px: on a 96 ppi scan that is all the small print (594/2026
+    # came out unreadable). So only on fine scans, and before downscaling, while the
+    # strokes are still several pixels wide.
+    from PIL import ImageFilter
+    if (r.get("plansa") or {}).get("dpi", 0) >= LEGEND_MEDIAN_MIN_DPI:
+        out = out.filter(ImageFilter.MedianFilter(3))
     # The legend card shows it at most ~600 px wide; 300 ppi scans gave 1 MB legends
     # (627/2026). 1000 px keeps small print legible when zoomed.
     if out.width > LEGEND_MAX_W:
         out = out.resize((LEGEND_MAX_W, round(out.height * LEGEND_MAX_W / out.width)), Image.LANCZOS)
-    # Scan grain compresses badly: a 3x3 median and paper lifted to white halve the
-    # file without touching the print.
-    from PIL import ImageFilter
-    out = out.filter(ImageFilter.MedianFilter(3)).point([255 if v > 215 else v for v in range(256)] * 3)
-    return out
+    return paper_to_white(out)
+
+
+def paper_to_white(im):
+    """Stretch levels so that the paper (the brightest quarter of a legend, which is
+    mostly paper) becomes white. Faint grey print gets darker with it instead of being
+    cut away, as a fixed threshold did."""
+    a = np.asarray(im).astype(np.float32)
+    paper = max(float(np.percentile(a.mean(axis=2), 75)), 160.0)
+    a = np.clip(a * (255.0 / paper), 0, 255)
+    a[a > 246] = 255
+    return Image.fromarray(a.astype(np.uint8))
+
+
+def legend_target(r):
+    return os.path.join(WWW, "puz", r["id"], "legenda.webp")
+
+
+def cmd_legend(r, args):
+    """Rebuild only the legend of a PUZ, after changing `legenda_px`. Published PUZ:
+    rewrites its legenda.webp and its puz.json entry; otherwise (or with --dry-run)
+    writes to the cache for a look."""
+    legend = legend_image(r)
+    index = []
+    if os.path.exists(INDEX):
+        with open(INDEX, encoding="utf-8") as f:
+            index = json.load(f)
+    entry = next((e for e in index if e["id"] == r["id"]), None)
+    if args.dry_run or entry is None:
+        if legend is None:
+            print("no legend boxes in the recipe")
+            return
+        path = os.path.join(cache_dir(r), "legenda.webp")
+        legend.save(path, quality=80, method=6)
+        print("%s (%dx%d) - %s" % (path, legend.width, legend.height,
+                                    "dry run" if entry else "not published, nothing else changed"))
+        return
+    target = legend_target(r)
+    if legend is None:
+        if os.path.exists(target):
+            os.remove(target)
+        entry.pop("legenda", None)
+        print("legend removed:", r["id"])
+    else:
+        legend.save(target, quality=80, method=6)
+        entry["legenda"] = "puz/%s/legenda.webp" % r["id"]
+        print("%s (%dx%d, %d kB)" % (target, legend.width, legend.height, os.path.getsize(target) // 1024))
+    with open(INDEX, "w", encoding="utf-8") as f:
+        json.dump(index, f, ensure_ascii=False, indent=1)
+        f.write("\n")
 
 
 def imagery_check(r, overlay, merc, boundary, zoom=18, pad=30.0):
@@ -1223,6 +1276,8 @@ def main():
     s = sub.add_parser("build"); s.add_argument("recipe")
     s.add_argument("--force", action="store_true"); s.add_argument("--dry-run", action="store_true")
     s.add_argument("--no-check", action="store_true"); s.add_argument("--zoom", type=int, default=18)
+    s = sub.add_parser("legend", help="rebuild only the legend (published PUZ: legenda.webp + puz.json)")
+    s.add_argument("recipe"); s.add_argument("--dry-run", action="store_true")
     s = sub.add_parser("geocode", help="rough Stereo70 position from OpenStreetMap")
     g = s.add_mutually_exclusive_group(required=True)
     g.add_argument("--streets", nargs=2, metavar="REGEX", help='two street names meeting on the plate, e.g. "Buftea" "Scor.arilor"')
@@ -1248,7 +1303,8 @@ def main():
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
      "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "related": cmd_related,
-     "caroiaj": cmd_caroiaj, "osm": cmd_osm, "osm-snap": cmd_osm_snap, "build": cmd_build}[args.cmd](r, args)
+     "caroiaj": cmd_caroiaj, "osm": cmd_osm, "osm-snap": cmd_osm_snap, "build": cmd_build,
+     "legend": cmd_legend}[args.cmd](r, args)
 
 
 if __name__ == "__main__":
