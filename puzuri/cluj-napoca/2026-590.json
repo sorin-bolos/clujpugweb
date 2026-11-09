@@ -1,0 +1,246 @@
+{
+  "id": "2026-590",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 590,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-590-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-590.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, Calea Turzii nr. 235-237",
+  "plansa": {
+    "pagina_pdf": 30,
+    "dpi": 96,
+    "denumire": "A.04 Reglementări urbanistice – zonificare",
+    "scara": "1:700",
+    "nota": "Planșa apare de două ori în PDF: p. 20 e copia anexată hotărârii (A3, 96 ppi, în tonuri de gri, ștampilată „Anexa 2 la Hotărârea nr. 590/2026” și semnată), iar p. 30 e aceeași planșă A.04 (proiect nr. 110/2021, 21.05.2026), color, cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 58 din 21.04.2026) și mențiunea de mână „H.C.L. nr. 590 din 4 septembrie 2026”; s-a folosit p. 30, mai mare și mai clară. Pagina e și ea la doar 96 ppi, scanată după o foaie îndoită (se văd pliurile), dar e la scară: 5,40 px/m, adică exact 1:700 la 96 ppi. P. 31 (și copia ei anexată, p. 21) e planșa A.07 Proprietatea asupra terenurilor, pe aceeași bază topografică. Legenda cuprinde cheia simbolurilor, lista U.T.R.-urilor propuse și tabelul „Teren reglementat” cu indicii fiecărui U.T.R. și notele despre suprafața de referință pentru POT și CUT; bilanțul teritorial, tabelul plantațiilor de arbori, bilanțul parcărilor, profilele de drum și cartușul au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.04: șapte tabele „Parcela (1)”–„Parcela (7)” (Nord X / Est Y, cu lungimile laturilor D(i,i+1), aria și perimetrul fiecărei parcele), câte unul pentru fiecare din cele șapte imobile cuprinse în P.U.Z. Conturul zonei e învelitoarea lor exterioară, 18 vârfuri (186-194, 200-204, 207, 208, 211, 199); laturile lui sunt laturi de parcelă, verificate cu tabelele, mai puțin segmentul 194-200 (0,78 m). Puncte de control: colțurile 186 (NV) și 203 (SE), la intersecția dreptelor duse prin linia roșie cu buline a conturului, și două cruci ale caroiajului Stereo 70 de 100 m de pe planșă (E 392700 / N 583800 și E 392700 / N 583700; etichetele lor nu se văd, dar crucile stau la 100 m una de alta, exact unde le pun colțurile 186, 207 și 203, la sub 0,4 m); puncte de verificare: colțul 207 (SV) și crucea E 392600 / N 583800. Crucile țin de desen, nu de foaia-șablon: o potrivire doar pe cele trei cruci duce colțurile desenate 186, 207 și 203 la 0,15-0,37 m de coordonatele lor din inventar.",
+    "suprafata_declarata_m2": 11274.0,
+    "puncte": {
+      "186": [
+        583773.09,
+        392597.053
+      ],
+      "187": [
+        583769.55,
+        392636.879
+      ],
+      "188": [
+        583769.147,
+        392636.841
+      ],
+      "189": [
+        583766.431,
+        392669.542
+      ],
+      "190": [
+        583766.826,
+        392669.579
+      ],
+      "191": [
+        583764.056,
+        392697.804
+      ],
+      "192": [
+        583761.952,
+        392716.473
+      ],
+      "193": [
+        583744.278,
+        392882.826
+      ],
+      "194": [
+        583723.014,
+        392889.781
+      ],
+      "200": [
+        583722.266,
+        392890.016
+      ],
+      "201": [
+        583710.908,
+        392893.541
+      ],
+      "202": [
+        583706.563,
+        392888.582
+      ],
+      "203": [
+        583702.446,
+        392883.136
+      ],
+      "204": [
+        583714.895,
+        392785.596
+      ],
+      "207": [
+        583739.621,
+        392591.861
+      ],
+      "208": [
+        583742.586,
+        392592.328
+      ],
+      "211": [
+        583743.574,
+        392592.483
+      ],
+      "199": [
+        583757.991,
+        392594.753
+      ]
+    },
+    "ordine": [
+      "186",
+      "187",
+      "188",
+      "189",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "200",
+      "201",
+      "202",
+      "203",
+      "204",
+      "207",
+      "208",
+      "211",
+      "199"
+    ],
+    "laturi_declarate_m": {
+      "186": 39.983,
+      "187": 0.405,
+      "188": 32.814,
+      "189": 0.397,
+      "190": 28.361,
+      "191": 18.787,
+      "192": 167.289,
+      "193": 22.373,
+      "200": 11.892,
+      "201": 6.593,
+      "202": 6.827,
+      "203": 98.331,
+      "204": 195.308,
+      "207": 3.002,
+      "208": 1.0,
+      "211": 14.595,
+      "199": 15.273
+    },
+    "nota": "Toate coordonatele conturului sunt verificate de câte două laturi din tabele; ariile celor șapte parcele se potrivesc cu cele tipărite la 0,1 mp, perimetrele la 3 mm. Cifrele mici se citesc greu la 96 ppi; unde 6 și 8 se confundau (193: 392882,826, nu 392862,826), au decis laturile. Suma celor șapte parcele e 11274,8 mp (11274,0 mp pe planșă), dar între parcelele 1 și 2 rămâne o pană îngustă de 36,6 mp: vârful 194 al parcelei 1 e la 0,7 m de latura 195-200 a parcelei 2. Conturul publicat o închide (194-200), de aceea are 11311,4 mp (+0,3%). La capătul estic, linia desenată a conturului nu urmează inventarul: colțul NE desenat e la 1,7 m de vârful 193, iar latura de est desenată trece prin două frângeri în loc de patru, cu vârful estic la ~5 m în interiorul vârfului 201 (cotele planșei: 285,54 m nord, 34,13 m est, 10,94 m sud-est, față de 287,2 m, 35,1 m și 13,4 m după inventar; conturul desenat ar avea ~11241 mp). Laturile de vest și de sud și partea vestică a laturii de nord (186-192) cad pe linia desenată la 0,1-0,2 m; pe latura 192-193 linia desenată se abate treptat, cu ~0,6 m, până la 1,7 m în colțul NE. Aria tipărită (11274,0 mp) e suma parcelelor, deci s-a publicat conturul din inventar; 193 nu e punct de control."
+  },
+  "gcp_px": {
+    "186": [
+      257.8,
+      408.1
+    ],
+    "203": [
+      1802.4,
+      789.8
+    ],
+    "C392700_583800": [
+      814.0,
+      262.1
+    ],
+    "C392700_583700": [
+      812.8,
+      802.0
+    ]
+  },
+  "verificare_px": {
+    "207": [
+      229.3,
+      587.6
+    ],
+    "C392600_583800": [
+      274.65,
+      262.0
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      72,
+      872,
+      490,
+      1574
+    ],
+    [
+      497,
+      886,
+      826,
+      1557
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M_SKY",
+      "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic – locuire colectivă, activități administrative, de administrare a afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate și de turism; pe parcelă unul sau două corpuri de clădire, legate funcțional (legătură de cel puțin 10 m), cu subsol comun",
+      "pot_max": "40%",
+      "cut_max": "2",
+      "h_max": "corpul dinspre Calea Turzii: 2S+P+4E+R, 22 m la cornișă, 25 m maxim; corpul din interiorul parcelei: 2S+P+4E, 22 m la cornișă și maxim (variație admisă 0,50 m)"
+    },
+    {
+      "cod": "Li/c_b SKY",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime – colective mici, de cel mult 6 apartamente pe clădire, în regim deschis; clădirile pot fi grupate în două grupuri de câte cinci, în jurul unor spații verzi comune",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la atic sau la coamă; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+2E, D+P+E+M sau D+P+2E (demisolul doar pentru garaje și funcțiuni conexe, nu pentru locuire)"
+    },
+    {
+      "cod": "S_Va SKY",
+      "denumire": "Subzonă de spații verzi cu acces public nelimitat – plantații înalte, medii și joase, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport; capătul estic al zonei, spre viitorul Parc Bună Ziua",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "P, maxim 3 m (indicii privesc doar clădirile cu spații interioare)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-09-04",
+    "verificat": "2026-11-09: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08). Un proiect de hotărâre cu același titlu fusese respins prin HCL 630/2025."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerea clădirilor din U.T.R. M_SKY față de limita estică a U.T.R.-ului: hotărârea cere cel puțin 5,5 m, planșa scrie „retragere min 5.55m” (cota 5,55)."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pentru clădiri se face proiectul și se obține autorizația pentru amenajarea și echiparea circulației auto, pietonale și velo din nordul parcelei (planșa A.04), care face legătura cu viitorul Parc Bună Ziua.",
+    "Înainte de recepția construcțiilor: circulația din nord, amenajată după proiectul autorizat, se dezmembrează, se înscrie în CF ca „drum” și trece gratuit în domeniul public (planșa A.07).",
+    "Înainte de recepție, terenul necesar lărgirii Căii Turzii la profilul de 54 m (315,7 mp pe planșă) se dezmembrează și se înscrie în CF ca „drum”; proprietarii îl întrețin până când municipalitatea lărgește strada.",
+    "Înainte de recepție se amenajează subzona verde cu acces public nelimitat (S_Va SKY), după un proiect autorizat: plantații înalte, medii și joase, mobilier urban. Aleile ei sunt din materiale permeabile și asigură continuitatea traseelor pietonale și velo spre viitorul Parc Bună Ziua; parcarea e interzisă, iar accesul auto e permis doar pentru intervenții, întreținere și acces local.",
+    "Accesul se face din Calea Turzii (pentru U.T.R. Li/c_b SKY și S_Va SKY, conform planșei A.04); accesele auto au bordură teșită (NP 051/2012), iar semnalizarea și marcajele rutiere se fac pe baza avizelor Serviciului Siguranța circulației și Poliției rutiere.",
+    "M_SKY: clădirile se retrag cel puțin 14,25 m de la aliniamentul existent (după realinierea din PUG pentru profilul de 54 m al Căii Turzii), 12 m de la limita nordică, jumătate din înălțime dar minim 6 m de la limita sudică și 5,5 m de la limita estică a U.T.R.-ului; subsolurile, minim 2 m de la limita sudică.",
+    "Li/c_b SKY: clădirile se retrag cel puțin 12,95 m de la limita vestică a U.T.R.-ului, 12 m de la limita nordică, jumătate din înălțime dar minim 6 m de la limita sudică și 9,8 m de la limita posterioară; subsolurile, minim 2 m de la limita sudică. În S_Va SKY, eventualele edicule stau la minim 12 m de limita nordică și 3 m de cea sudică și de cea posterioară.",
+    "Parcarea se face în incintă, cu necesarul din Anexa 2 a regulamentului PUG, însumat pe funcțiuni.",
+    "Clădirile se racordează la rețelele publice; apele pluviale nu se conduc spre domeniul public sau spre vecini, branșamentele și contoarele se integrează în clădiri, iar cablurile nu se montează aerian. Fiecare grup de clădiri are spații de colectare selectivă a deșeurilor pe 5 fracții (subterane sau în clădire), accesibile din spațiul public; în zona verde, iluminat public, puncte de apă, un spațiu pentru deșeuri și unul pentru compost.",
+    "La faza D.T.A.C., proiectul se avizează în Comisia de Estetică Urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "repere": {
+    "C392600_583800": [
+      583800,
+      392600
+    ],
+    "C392700_583800": [
+      583800,
+      392700
+    ],
+    "C392700_583700": [
+      583700,
+      392700
+    ]
+  },
+  "hotarare_text": "documente/2026-590/hotarare.txt"
+}

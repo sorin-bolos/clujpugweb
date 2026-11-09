@@ -1146,6 +1146,146 @@
   ]
  },
  {
+  "id": "2026-590",
+  "localitate": "cluj",
+  "hcl": "590/2026",
+  "data": "2026-09-04",
+  "titlu": "P.U.Z. de urbanizare, Calea Turzii nr. 235-237",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-590-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-590.pdf",
+  "utr": [
+   {
+    "cod": "M_SKY",
+    "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic – locuire colectivă, activități administrative, de administrare a afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate și de turism; pe parcelă unul sau două corpuri de clădire, legate funcțional (legătură de cel puțin 10 m), cu subsol comun",
+    "pot_max": "40%",
+    "cut_max": "2",
+    "h_max": "corpul dinspre Calea Turzii: 2S+P+4E+R, 22 m la cornișă, 25 m maxim; corpul din interiorul parcelei: 2S+P+4E, 22 m la cornișă și maxim (variație admisă 0,50 m)"
+   },
+   {
+    "cod": "Li/c_b SKY",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime – colective mici, de cel mult 6 apartamente pe clădire, în regim deschis; clădirile pot fi grupate în două grupuri de câte cinci, în jurul unor spații verzi comune",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la atic sau la coamă; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+2E, D+P+E+M sau D+P+2E (demisolul doar pentru garaje și funcțiuni conexe, nu pentru locuire)"
+   },
+   {
+    "cod": "S_Va SKY",
+    "denumire": "Subzonă de spații verzi cu acces public nelimitat – plantații înalte, medii și joase, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport; capătul estic al zonei, spre viitorul Parc Bună Ziua",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "P, maxim 3 m (indicii privesc doar clădirile cu spații interioare)"
+   }
+  ],
+  "suprafata_m2": 11311,
+  "imagine": "puz/2026-590/plansa.webp",
+  "bounds": {
+   "west": 23.5925187,
+   "south": 46.7442772,
+   "east": 23.5965298,
+   "north": 46.7449905
+  },
+  "limita": [
+   [
+    23.5926095,
+    46.7449283
+   ],
+   [
+    23.5931315,
+    46.7449029
+   ],
+   [
+    23.5931311,
+    46.7448992
+   ],
+   [
+    23.5935596,
+    46.74488
+   ],
+   [
+    23.59356,
+    46.7448836
+   ],
+   [
+    23.59393,
+    46.7448632
+   ],
+   [
+    23.5941748,
+    46.7448472
+   ],
+   [
+    23.5963558,
+    46.7447148
+   ],
+   [
+    23.5964517,
+    46.7445247
+   ],
+   [
+    23.596455,
+    46.744518
+   ],
+   [
+    23.5965037,
+    46.7444164
+   ],
+   [
+    23.5964398,
+    46.7443765
+   ],
+   [
+    23.5963695,
+    46.7443386
+   ],
+   [
+    23.5950903,
+    46.744435
+   ],
+   [
+    23.5925494,
+    46.7446264
+   ],
+   [
+    23.5925548,
+    46.7446532
+   ],
+   [
+    23.5925566,
+    46.7446621
+   ],
+   [
+    23.5925829,
+    46.7447922
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.08
+  },
+  "legenda": "puz/2026-590/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-09-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Retragerea clădirilor din U.T.R. M_SKY față de limita estică a U.T.R.-ului: hotărârea cere cel puțin 5,5 m, planșa scrie „retragere min 5.55m” (cota 5,55)."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire pentru clădiri se face proiectul și se obține autorizația pentru amenajarea și echiparea circulației auto, pietonale și velo din nordul parcelei (planșa A.04), care face legătura cu viitorul Parc Bună Ziua.",
+   "Înainte de recepția construcțiilor: circulația din nord, amenajată după proiectul autorizat, se dezmembrează, se înscrie în CF ca „drum” și trece gratuit în domeniul public (planșa A.07).",
+   "Înainte de recepție, terenul necesar lărgirii Căii Turzii la profilul de 54 m (315,7 mp pe planșă) se dezmembrează și se înscrie în CF ca „drum”; proprietarii îl întrețin până când municipalitatea lărgește strada.",
+   "Înainte de recepție se amenajează subzona verde cu acces public nelimitat (S_Va SKY), după un proiect autorizat: plantații înalte, medii și joase, mobilier urban. Aleile ei sunt din materiale permeabile și asigură continuitatea traseelor pietonale și velo spre viitorul Parc Bună Ziua; parcarea e interzisă, iar accesul auto e permis doar pentru intervenții, întreținere și acces local.",
+   "Accesul se face din Calea Turzii (pentru U.T.R. Li/c_b SKY și S_Va SKY, conform planșei A.04); accesele auto au bordură teșită (NP 051/2012), iar semnalizarea și marcajele rutiere se fac pe baza avizelor Serviciului Siguranța circulației și Poliției rutiere.",
+   "M_SKY: clădirile se retrag cel puțin 14,25 m de la aliniamentul existent (după realinierea din PUG pentru profilul de 54 m al Căii Turzii), 12 m de la limita nordică, jumătate din înălțime dar minim 6 m de la limita sudică și 5,5 m de la limita estică a U.T.R.-ului; subsolurile, minim 2 m de la limita sudică.",
+   "Li/c_b SKY: clădirile se retrag cel puțin 12,95 m de la limita vestică a U.T.R.-ului, 12 m de la limita nordică, jumătate din înălțime dar minim 6 m de la limita sudică și 9,8 m de la limita posterioară; subsolurile, minim 2 m de la limita sudică. În S_Va SKY, eventualele edicule stau la minim 12 m de limita nordică și 3 m de cea sudică și de cea posterioară.",
+   "Parcarea se face în incintă, cu necesarul din Anexa 2 a regulamentului PUG, însumat pe funcțiuni.",
+   "Clădirile se racordează la rețelele publice; apele pluviale nu se conduc spre domeniul public sau spre vecini, branșamentele și contoarele se integrează în clădiri, iar cablurile nu se montează aerian. Fiecare grup de clădiri are spații de colectare selectivă a deșeurilor pe 5 fracții (subterane sau în clădire), accesibile din spațiul public; în zona verde, iluminat public, puncte de apă, un spațiu pentru deșeuri și unul pentru compost.",
+   "La faza D.T.A.C., proiectul se avizează în Comisia de Estetică Urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
