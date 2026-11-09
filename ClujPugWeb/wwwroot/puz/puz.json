@@ -476,6 +476,73 @@
   ]
  },
  {
+  "id": "2026-596",
+  "localitate": "cluj",
+  "hcl": "596/2026",
+  "data": "2026-09-04",
+  "titlu": "P.U.Z. – Construire locuință individuală cu regim redus de înălțime, str. Gheorgheni nr. 42",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-596-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-596.pdf",
+  "utr": [
+   {
+    "cod": "Lid1",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: o locuință individuală (unifamilială) izolată, cu o singură unitate locativă pe parcelă, și anexele ei (garaj, filigorie, împrejmuire, platforme, piscină)",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "10 m (cornișă 8 m); două niveluri supraterane: (S)+P+E, (S)+P+M sau D+P"
+   }
+  ],
+  "suprafata_m2": 1455,
+  "imagine": "puz/2026-596/plansa.webp",
+  "bounds": {
+   "west": 23.666654,
+   "south": 46.7563964,
+   "east": 23.6674397,
+   "north": 46.7567882
+  },
+  "limita": [
+   [
+    23.6666813,
+    46.7566973
+   ],
+   [
+    23.6672825,
+    46.7567714
+   ],
+   [
+    23.667411,
+    46.7565219
+   ],
+   [
+    23.6668126,
+    46.7564145
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.03
+  },
+  "legenda": "puz/2026-596/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-09-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa notează retragerea față de limita laterală „H/2, dar nu mai puțin de 4,50 m”; hotărârea cere minim 4,5 m, fără regula H/2 (Art. 1).",
+   "Legenda planșei descrie simbolul de zonă ca „UTR ULid – urbanizare – locuințe cu regim redus de înălțime…”; desenul, bilanțul teritorial și hotărârea numesc zona reglementată Lid1."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii străzilor – 47,90 mp pentru str. Gheorgheni (profil III F, 15 m) și 183,36 mp pentru strada din sudul parcelei (profil 12 m), după planșă – se dezmembrează din parcelă și se înscrie în CF cu titlu de „drum” înainte de autorizația de construire; până la recepția lucrărilor se aduce la strat de uzură (spațiu verde, cu asfalt sau dalaj în dreptul acceselor) și se transferă în domeniul public.",
+   "Construcțiile se retrag cel puțin 3 m de la aliniament, iar garajele 6 m; la parcela de colț, de la ambele aliniamente. Față de limitele laterale se retrag cel puțin 4,5 m, dar garajele se pot alipi lor cu calcan de cel mult 2,8 m; față de limita posterioară, cel puțin înălțimea clădirii și minim 12 m (garajele tot 12 m).",
+   "Accesul se face din str. Gheorgheni; accesul carosabil are cel mult 5 m lățime.",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o clădire cu AU sub 100 mp și două de la 100 mp în sus.",
+   "Construcțiile se racordează la rețelele publice disponibile. Apele uzate menajere se epurează în sisteme individuale (pe planșă, o microstație de epurare) și se folosesc local sau se infiltrează în sol pe parcelă; apele pluviale se gestionează prin acumulare sau retenție și apoi se evacuează în emisari locali, niciodată spre domeniul public sau spre vecini. Firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian.",
+   "Parcela are o platformă sau un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public.",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
