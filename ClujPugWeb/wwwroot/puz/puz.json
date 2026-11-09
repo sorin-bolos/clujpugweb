@@ -1286,6 +1286,70 @@
   ]
  },
  {
+  "id": "2026-588",
+  "localitate": "cluj",
+  "hcl": "588/2026",
+  "data": "2026-09-04",
+  "titlu": "P.U.Z. – Construire locuință cu regim redus de înălțime, str. Dinicu Golescu nr. 12",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-588-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-588.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime: locuințe individuale (unifamiliale) în regim de construire izolat și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); fără parcelări",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m (cornișă 8 m); trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 453,
+  "imagine": "puz/2026-588/plansa.webp",
+  "bounds": {
+   "west": 23.573699,
+   "south": 46.7449042,
+   "east": 23.5740952,
+   "north": 46.7452653
+  },
+  "limita": [
+   [
+    23.5737311,
+    46.7450881
+   ],
+   [
+    23.5739595,
+    46.7452391
+   ],
+   [
+    23.5740703,
+    46.745003
+   ],
+   [
+    23.5739519,
+    46.7449266
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.05
+  },
+  "legenda": "puz/2026-588/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-09-04"
+  },
+  "conditii": [
+   "Terenul pentru locul de întoarcere de la capătul străzii Dinicu Golescu (32 mp în colțul nordic al parcelei, hașurat pe planșa A.03 ca „teren rezervat pentru lărgire”) se înscrie în CF cu titlul de „drum” și se aduce la strat de uzură înainte de autorizația de construire; trece gratuit în domeniul public când municipalitatea preia strada (planșa A.04).",
+   "POT și CUT se calculează pe suprafața inițială a parcelei, nedezmembrată pentru alveola auto; în PUZ nu se fac parcelări (regulament).",
+   "Clădirile se retrag cel puțin 5 m de la aliniament (garajele 6 m, ca să se poată parca o mașină în față), 3 m de la limitele laterale și 1 m de la alveola auto; garajele se pot alipi limitelor laterale cu un calcan de cel mult 2,8 m. De la limita posterioară, cel puțin înălțimea clădirii și minim 6 m (garajele tot 6 m). Ultimul nivel se retrage cel puțin 1,80 m față de fațada spre stradă.",
+   "Accesul auto și pietonal se face din str. Dinicu Golescu; accesul carosabil are 3-5 m lățime, iar pentru aleile din parcelă se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o clădire cu AU sub 100 mp și două peste 100 mp.",
+   "Utilitățile se racordează la rețelele publice (strada are echipare completă). Apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire, cablurile nu se montează aerian, iar parcela are o platformă pentru deșeuri accesibilă din spațiul public.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă; arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (regulament).",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

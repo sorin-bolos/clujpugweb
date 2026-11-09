@@ -1,0 +1,102 @@
+{
+  "id": "2026-588",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 588,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-588-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-588.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuință cu regim redus de înălțime, str. Dinicu Golescu nr. 12",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 300,
+    "denumire": "A.03 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 8 e copia anexată hotărârii (A3, 200 ppi, aproape alb-negru, ștampilată „Anexa 2 la Hotărârea nr. 588/2026”), iar p. 16 e aceeași planșă A.03, color, la 300 ppi, cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 61 din 30.04.2026) și mențiunea de mână „H.C.L. nr. 588 din 4 septembrie 2026”; s-a ales p. 16, mai clară. P. 9 și p. 17 sunt planșa A.04 Proprietatea asupra terenurilor (copia anexată și cea color), cu același inventar de coordonate. Scara imaginii: 23,5 px/m (1:500 la 300 ppi ar da 23,6 px/m); nordul e în sus. Pe planșă, limita zonei arheologice protejate (linia albastră punctată) traversează partea estică a parcelei; hotărârea nu o pomenește. Legenda cuprinde cheia simbolurilor, utilizarea funcțională și blocul „Situație propusă” cu utilizările, înălțimile și indicatorii U.T.R. Liu*; estimarea traficului (locurile de parcare), inventarul de coordonate, tabelul de zonificare, profilul străzii și cartușul au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.03 (4 puncte, 301-304, Nord X / Est Y, cu lungimile laturilor; S = 453 mp), repetat identic pe planșa A.04. Puncte de control: cele patru colțuri, fiecare la intersecția liniilor de mijloc ale limitei roșii întrerupte de pe cele două laturi vecine, măsurate pe 140-290 de profile transversale pe latură (abatere standard 0,4-1,1 px). Puncte de verificare: șapte cruci ale caroiajului Stereo 70 de 20 m al ridicării topografice, etichetate pe planșă (391.140, 391.180, 391.200 / 583.800, 583.820), trecute la `repere` ca C<E>_<N>.",
+    "suprafata_declarata_m2": 453,
+    "puncte": {
+      "301": [583816.669, 391155.165],
+      "302": [583833.133, 391172.917],
+      "303": [583806.741, 391180.905],
+      "304": [583798.409, 391171.708]
+    },
+    "laturi_declarate_m": {
+      "301": 24.21,
+      "302": 27.57,
+      "303": 12.41,
+      "304": 24.64
+    },
+    "nota": "Laturile calculate din coordonate (24,21 / 27,57 / 12,41 / 24,64 m) se potrivesc cu tabelul la 1 cm; perimetrul nu e tipărit. Crucile caroiajului cad la 0,14-0,29 m de locul în care le pune potrivirea afină prin cele patru colțuri (toate puțin spre stânga-sus, 3-6 px), deci caroiajul ține de desen și confirmă inventarul și colțurile alese."
+  },
+  "repere": {
+    "C391140_583800": [583800.0, 391140.0],
+    "C391160_583820": [583820.0, 391160.0],
+    "C391180_583800": [583800.0, 391180.0],
+    "C391180_583840": [583840.0, 391180.0],
+    "C391200_583800": [583800.0, 391200.0],
+    "C391200_583820": [583820.0, 391200.0],
+    "C391200_583840": [583840.0, 391200.0]
+  },
+  "gcp_px": {
+    "301": [2381.6, 1472.3],
+    "302": [2801.5, 1083.0],
+    "303": [2986.6, 1706.1],
+    "304": [2771.5, 1900.5]
+  },
+  "verificare_px": {
+    "C391140_583800": [2021, 1862],
+    "C391160_583820": [2490, 1390],
+    "C391180_583800": [2962, 1863],
+    "C391180_583840": [2965, 921],
+    "C391200_583800": [3432, 1865],
+    "C391200_583820": [3433, 1394],
+    "C391200_583840": [3435, 922]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [3955, 200, 4480, 245],
+    [3955, 252, 4903, 1093],
+    [3955, 1095, 4903, 1625],
+    [3955, 1625, 4595, 1747],
+    [3955, 1868, 4770, 1997],
+    [3955, 1997, 4430, 2264]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime: locuințe individuale (unifamiliale) în regim de construire izolat și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); fără parcelări",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m (cornișă 8 m); trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-09-04",
+    "verificat": "2026-11-09: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Terenul pentru locul de întoarcere de la capătul străzii Dinicu Golescu (32 mp în colțul nordic al parcelei, hașurat pe planșa A.03 ca „teren rezervat pentru lărgire”) se înscrie în CF cu titlul de „drum” și se aduce la strat de uzură înainte de autorizația de construire; trece gratuit în domeniul public când municipalitatea preia strada (planșa A.04).",
+    "POT și CUT se calculează pe suprafața inițială a parcelei, nedezmembrată pentru alveola auto; în PUZ nu se fac parcelări (regulament).",
+    "Clădirile se retrag cel puțin 5 m de la aliniament (garajele 6 m, ca să se poată parca o mașină în față), 3 m de la limitele laterale și 1 m de la alveola auto; garajele se pot alipi limitelor laterale cu un calcan de cel mult 2,8 m. De la limita posterioară, cel puțin înălțimea clădirii și minim 6 m (garajele tot 6 m). Ultimul nivel se retrage cel puțin 1,80 m față de fațada spre stradă.",
+    "Accesul auto și pietonal se face din str. Dinicu Golescu; accesul carosabil are 3-5 m lățime, iar pentru aleile din parcelă se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o clădire cu AU sub 100 mp și două peste 100 mp.",
+    "Utilitățile se racordează la rețelele publice (strada are echipare completă). Apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire, cablurile nu se montează aerian, iar parcela are o platformă pentru deșeuri accesibilă din spațiul public.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă; arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (regulament).",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-588/hotarare.txt"
+}
