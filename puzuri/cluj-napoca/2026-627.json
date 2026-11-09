@@ -1,0 +1,110 @@
+{
+  "id": "2026-627",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 627,
+    "an": 2026,
+    "data_sedinta": "2026-10-01",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-627-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/10/14/HCL-627.pdf"
+  },
+  "titlu": "P.U.Z. – restructurare unitate industrială, str. Cheile Baciului nr. 2",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 300,
+    "denumire": "A.04 Plan reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Planșa apare de două ori în PDF: p. 9 e copia anexată hotărârii (A3, alb-negru, ștampilată „Anexa 2”), iar p. 16 e aceeași planșă A.04 (1:1000, 02.04.2026), color, la format A2, scanată la 300 ppi, cu viza Arhitectului-șef nr. 56/16.04.2026; s-a folosit p. 16. P. 15 e un extras din P.U.G. cu teritoriul de reglementat. Art. 1 numește planșa anexată „A.03 Reglementări Urbanistice”, dar planșa din anexă (p. 9) și trimiterile din același articol sunt la „A.04 – Plan reglementări urbanistice”. Cartușul dă adresa „str. Cheile Baciului nr. 924B”; hotărârea spune nr. 2. Antetul planșei, cu numele proprietarului, nu e inclus în legendă."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.04 („Parcela (1)”, 12 puncte, Nord X / Est Y, cu lungimile laturilor; S(1)=22911,39 mp, P=609,444 m). Potrivirea folosește colțurile 1, 6, 7 și 11, singurele colțuri ascuțite: celelalte puncte stau pe laturi aproape drepte (1-2-3-4-5-6, 7-8-9-10-11, 11-12-1). Fiecare colț e intersecția liniilor de mijloc ale benzii albastre a limitei de pe cele două laturi, măsurate pe 130-190 de profile transversale pe latură (abatere standard 0,5 px). Verificare: punctele 3, 9 și 12, luate pe mijlocul benzii; fiind pe laturi drepte, ele verifică doar abaterea transversală a desenului față de inventar.",
+    "suprafata_declarata_m2": 22911.39,
+    "puncte": {
+      "1": [588364.7, 387738.605],
+      "2": [588351.96, 387752.03],
+      "3": [588333.96, 387770.7],
+      "4": [588317.35, 387788.94],
+      "5": [588312.9, 387793.6],
+      "6": [588278.157, 387829.764],
+      "7": [588143.654, 387725.15],
+      "8": [588147.17, 387722.29],
+      "9": [588180.06, 387694.11],
+      "10": [588212.87, 387666.01],
+      "11": [588264.823, 387621.517],
+      "12": [588279.602, 387639.145]
+    },
+    "laturi_declarate_m": {
+      "1": 18.508,
+      "2": 25.934,
+      "3": 24.67,
+      "4": 6.443,
+      "5": 50.149,
+      "6": 170.397,
+      "7": 4.532,
+      "8": 43.311,
+      "9": 43.198,
+      "10": 68.401,
+      "11": 23.004,
+      "12": 130.897
+    },
+    "perimetru_declarat_m": 609.444,
+    "nota": "Pe rândul 7, o cruce a caroiajului acoperă o cifră din Est (387725,150); laturile 6-7 (170,397 m) și 7-8 (4,532 m) o confirmă. Scara potrivirii, 11,8 px/m, e cea nominală pentru 1:1000 la 300 ppi (11,81 px/m); colțurile alese întâi din ochi ieșeau cu ~0,5 m spre interior (11,7 px/m), abatere pe care reziduurile nu o arătau, așa că au fost înlocuite cu intersecțiile măsurate. Crucile de pe planșă (la ~50 m) cad pe multipli de 50 m în Est, dar la ~15 m de ei în Nord, deci nu țin de sistemul inventarului; nu au fost folosite."
+  },
+  "gcp_px": {
+    "1": [2604, 1222],
+    "6": [3692, 2225],
+    "7": [2477, 3826],
+    "11": [1236, 2415]
+  },
+  "verificare_px": {
+    "3": [2987, 1579],
+    "9": [2105, 3402],
+    "12": [1442, 2238]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [5722, 288, 6958, 2340],
+    [5722, 2878, 6420, 2922],
+    [5722, 2922, 6958, 4399],
+    [4785, 2695, 5615, 3605]
+  ],
+  "utr": [
+    {
+      "cod": "Ei*",
+      "denumire": "Zonă de activități economice cu caracter industrial – producție industrială și activități complementare legate direct de ea (administrative, depozitare, cercetare, sociale), servicii de tip industrial, IMM-uri, incubatoare de afaceri, formare profesională; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "1,2",
+      "h_max": "12 m la coamă (S+P+2E)"
+    },
+    {
+      "cod": "Tr",
+      "denumire": "Zonă de circulație rutieră și amenajări aferente – terenul pentru lărgirea str. Triajului (660 mp); rămâne ca în PUG"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-10-01",
+    "verificat": "2026-11-09: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Eticheta U.T.R. Ei* din interiorul zonei, pe planșă, dă „H MAX = 25 m”; hotărârea (Art. 1) și regulamentul (Anexa 1, Art. 10) dau H max. 12 m la coamă și regim maxim S+P+2E, la fel ca legenda planșei („UTR propus”)."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii str. Triajului (660 mp, U.T.R. Tr pe planșa A.04) se dezmembrează din parcelă și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepția lucrărilor se aduce la strat de uzură.",
+    "Înainte de recepția lucrărilor se repară/modernizează partea din str. Cheile Baciului din dreptul frontului parcelei, până la str. Triajului (pe planșă, 1214,51 mp de stradă modernizată de investitor).",
+    "Accesul se face din str. Cheile Baciului și, după modernizare, din str. Triajului: cel mult două accese pietonale și două carosabile, accesul carosabil de 6-10 m lățime.",
+    "Clădirile noi se retrag cel puțin 8 m de la aliniament, atât spre str. Triajului regularizată, cât și spre str. Cheile Baciului, și cu H/2, dar cel puțin 6 m, de la limitele laterale și posterioară. Clădirile existente se mențin; intervențiile asupra lor respectă regulamentul U.T.R. Ei*.",
+    "Parcarea se face exclusiv în incintă: 1 loc la 80 mp AU pentru producție și 1 la 200 mp AU pentru depozitare (plus tot atâtea locuri pentru biciclete), 1 loc pentru fiecare vehicul al activității și 4 pentru vizitatori; camioanele și celelalte vehicule în afară de autoturisme staționează doar în incintă.",
+    "Toate clădirile se racordează la rețelele publice, cablurile se îngroapă, apele pluviale nu se scurg spre domeniul public sau spre vecini și se face un bazin de retenție; pe acoperișuri se montează panouri fotovoltaice, iar pe parcelă platforme îngropate pentru colectarea selectivă a deșeurilor pe 5 fracții.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă; se plantează cel puțin 15 arbori maturi (tei) de-a lungul str. Triajului și Cheile Baciului și un arbore la 3 locuri de parcare (25 de arbori), iar arborii maturi nu se taie decât dacă sunt un pericol (Anexa 1, Art. 13).",
+    "Toate investițiile propuse sunt suportate de beneficiar."
+  ],
+  "hotarare_text": "documente/2026-627/hotarare.txt"
+}

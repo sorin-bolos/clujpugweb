@@ -93,6 +93,109 @@
   ]
  },
  {
+  "id": "2026-627",
+  "localitate": "cluj",
+  "hcl": "627/2026",
+  "data": "2026-10-01",
+  "titlu": "P.U.Z. – restructurare unitate industrială, str. Cheile Baciului nr. 2",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-627-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/10/14/HCL-627.pdf",
+  "utr": [
+   {
+    "cod": "Ei*",
+    "denumire": "Zonă de activități economice cu caracter industrial – producție industrială și activități complementare legate direct de ea (administrative, depozitare, cercetare, sociale), servicii de tip industrial, IMM-uri, incubatoare de afaceri, formare profesională; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "12 m la coamă (S+P+2E)"
+   },
+   {
+    "cod": "Tr",
+    "denumire": "Zonă de circulație rutieră și amenajări aferente – terenul pentru lărgirea str. Triajului (660 mp); rămâne ca în PUG"
+   }
+  ],
+  "suprafata_m2": 22911,
+  "imagine": "puz/2026-627/plansa.webp",
+  "bounds": {
+   "west": 23.5263547,
+   "south": 46.7834055,
+   "east": 23.529191,
+   "north": 46.7854694
+  },
+  "limita": [
+   [
+    23.5279163,
+    46.7854356
+   ],
+   [
+    23.5280952,
+    46.7853233
+   ],
+   [
+    23.5283441,
+    46.7851645
+   ],
+   [
+    23.528587,
+    46.7850181
+   ],
+   [
+    23.5286491,
+    46.7849789
+   ],
+   [
+    23.5291311,
+    46.7846724
+   ],
+   [
+    23.527794,
+    46.7834451
+   ],
+   [
+    23.5277557,
+    46.7834762
+   ],
+   [
+    23.5273786,
+    46.7837673
+   ],
+   [
+    23.5270027,
+    46.7840578
+   ],
+   [
+    23.5264074,
+    46.7845176
+   ],
+   [
+    23.5266346,
+    46.7846535
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.05
+  },
+  "legenda": "puz/2026-627/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-10-01"
+  },
+  "diferente_fata_de_plansa": [
+   "Eticheta U.T.R. Ei* din interiorul zonei, pe planșă, dă „H MAX = 25 m”; hotărârea (Art. 1) și regulamentul (Anexa 1, Art. 10) dau H max. 12 m la coamă și regim maxim S+P+2E, la fel ca legenda planșei („UTR propus”)."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii str. Triajului (660 mp, U.T.R. Tr pe planșa A.04) se dezmembrează din parcelă și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepția lucrărilor se aduce la strat de uzură.",
+   "Înainte de recepția lucrărilor se repară/modernizează partea din str. Cheile Baciului din dreptul frontului parcelei, până la str. Triajului (pe planșă, 1214,51 mp de stradă modernizată de investitor).",
+   "Accesul se face din str. Cheile Baciului și, după modernizare, din str. Triajului: cel mult două accese pietonale și două carosabile, accesul carosabil de 6-10 m lățime.",
+   "Clădirile noi se retrag cel puțin 8 m de la aliniament, atât spre str. Triajului regularizată, cât și spre str. Cheile Baciului, și cu H/2, dar cel puțin 6 m, de la limitele laterale și posterioară. Clădirile existente se mențin; intervențiile asupra lor respectă regulamentul U.T.R. Ei*.",
+   "Parcarea se face exclusiv în incintă: 1 loc la 80 mp AU pentru producție și 1 la 200 mp AU pentru depozitare (plus tot atâtea locuri pentru biciclete), 1 loc pentru fiecare vehicul al activității și 4 pentru vizitatori; camioanele și celelalte vehicule în afară de autoturisme staționează doar în incintă.",
+   "Toate clădirile se racordează la rețelele publice, cablurile se îngroapă, apele pluviale nu se scurg spre domeniul public sau spre vecini și se face un bazin de retenție; pe acoperișuri se montează panouri fotovoltaice, iar pe parcelă platforme îngropate pentru colectarea selectivă a deșeurilor pe 5 fracții.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă; se plantează cel puțin 15 arbori maturi (tei) de-a lungul str. Triajului și Cheile Baciului și un arbore la 3 locuri de parcare (25 de arbori), iar arborii maturi nu se taie decât dacă sunt un pericol (Anexa 1, Art. 13).",
+   "Toate investițiile propuse sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2026-597",
   "localitate": "cluj",
   "hcl": "597/2026",
