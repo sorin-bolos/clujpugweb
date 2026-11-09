@@ -658,6 +658,13 @@ function watchPuz(map) {
         var weight = map.getZoom() < 16 ? 6 : 2;
         puzOverlays.forEach(function (item) { item.outline.setOptions({ strokeWeight: weight }); });
     });
+    // A click on the map outside every PUZ closes the details. Clicks on an outline or
+    // a plate are theirs alone (both are clickable), so they never reach the map.
+    map.addListener('click', function () {
+        if (puzInfoWindow) {
+            puzInfoWindow.close();
+        }
+    });
 }
 
 // The list is newest first; later PUZ-uri get higher outlines, so a click where two
@@ -781,12 +788,19 @@ function utrSummaryHtml(puz) {
 
 // The Legenda section lists the PUZ-uri in view, each with the legend cropped from
 // its own plate: designers draw their own symbols, so there is no common legend.
+// A search looks through all of them, wherever the map is; long lists come in pages.
+var PUZ_PAGE_SIZE = { card: 6, list: 15 };
+var puzSearch = '';
+var puzPage = 0;
+var puzShownKey = '';
+
 function updatePuzLegend() {
     var list = document.getElementById('puz-legend-list');
     var note = document.getElementById('puz-legend-note');
     if (!list || !note || planMode !== 'puz') {
         return;
     }
+    var query = searchTokens(puzSearch);
     var viewport = theMap && theMap.getBounds();
     var visible = puzList.filter(function (puz) {
         return viewport && viewport.intersects(toLatLngBounds(puz.bounds));
@@ -799,6 +813,13 @@ function updatePuzLegend() {
         note.textContent = 'Se încarcă PUZ-urile…';
     } else if (puzList.length === 0) {
         note.textContent = 'Nu a fost adăugat încă niciun PUZ.';
+    } else if (query.length) {
+        shown = puzList.filter(function (puz) { return matchesSearch(puz, query); });
+        detailed = false;
+        note.textContent = shown.length
+            ? capitalize(puzCount(shown.length)) + (shown.length === 1 ? ' găsit' : ' găsite') +
+              ' printre toate cele ' + puzCount(puzList.length) + ', oriunde pe hartă.'
+            : 'Niciun PUZ nu se potrivește căutării.';
     } else if (visible.length === 0) {
         note.textContent = 'Niciun PUZ în zona vizibilă a hărții. Mai jos, toate cele ' + puzCount(puzList.length)
             + ' adăugate până acum.';
@@ -808,12 +829,87 @@ function updatePuzLegend() {
         note.textContent = capitalize(puzCount(visible.length)) + ' în zona vizibilă a hărții.'
             + (detailed ? '' : ' Apropie harta ca să vezi planșele și legendele lor.');
     }
-    var key = (detailed ? 'card:' : 'list:') + shown.map(function (puz) { return puz.id; }).join(',');
-    if (list.dataset.key === key) {
+    if (puzState !== 'ready') {
+        shown = [];
+    }
+    var mode = detailed ? 'card' : 'list';
+    // A new set of PUZ-uri starts again from its first page; panning that keeps the
+    // same set in view keeps the page.
+    var key = mode + ':' + shown.map(function (puz) { return puz.id; }).join(',');
+    if (key !== puzShownKey) {
+        puzShownKey = key;
+        puzPage = 0;
+    }
+    var size = PUZ_PAGE_SIZE[mode];
+    var pages = Math.max(1, Math.ceil(shown.length / size));
+    puzPage = Math.min(puzPage, pages - 1);
+    var renderKey = key + '#' + puzPage;
+    if (list.dataset.key === renderKey) {
         return;
     }
-    list.dataset.key = key;
-    list.innerHTML = shown.map(detailed ? puzCardHtml : puzListItemHtml).join('');
+    list.dataset.key = renderKey;
+    var first = puzPage * size;
+    list.innerHTML = shown.slice(first, first + size).map(detailed ? puzCardHtml : puzListItemHtml).join('');
+    renderPuzPager(shown.length, first, size, pages);
+}
+
+function renderPuzPager(total, first, size, pages) {
+    var pager = document.getElementById('puz-legend-pager');
+    if (!pager) {
+        return;
+    }
+    if (pages <= 1) {
+        pager.innerHTML = '';
+        return;
+    }
+    pager.innerHTML =
+        '<button type="button" class="btn btn-outline-secondary btn-sm" data-puz-page="-1"' +
+        (puzPage === 0 ? ' disabled' : '') + '>&lsaquo; Înapoi</button>' +
+        '<span>' + (first + 1) + '&ndash;' + Math.min(first + size, total) + ' din ' + total +
+        ' <span class="puz-muted">(pagina ' + (puzPage + 1) + ' din ' + pages + ')</span></span>' +
+        '<button type="button" class="btn btn-outline-secondary btn-sm" data-puz-page="1"' +
+        (puzPage === pages - 1 ? ' disabled' : '') + '>Înainte &rsaquo;</button>';
+}
+
+// Lower case, without diacritics: "Cârțan" is found by "cartan", "594" by "594/2026".
+function normalizeText(text) {
+    return String(text || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+}
+
+function searchTokens(text) {
+    return normalizeText(text).split(/[\s,;]+/).filter(function (token) { return token; });
+}
+
+function matchesSearch(puz, tokens) {
+    if (!puz.searchText) {
+        puz.searchText = normalizeText([
+            'HCL ' + puz.hcl, formatDate(puz.data), puz.titlu
+        ].concat((puz.utr || []).map(function (utr) { return utr.cod + ' ' + utr.denumire; })).join(' '));
+    }
+    return tokens.every(function (token) { return puz.searchText.indexOf(token) >= 0; });
+}
+
+function initPuzSearch() {
+    var input = document.getElementById('puz-search');
+    if (input) {
+        input.addEventListener('input', function () {
+            puzSearch = input.value;
+            updatePuzLegend();
+        });
+    }
+    document.addEventListener('click', function (event) {
+        var button = event.target.closest && event.target.closest('[data-puz-page]');
+        if (!button) {
+            return;
+        }
+        puzPage += parseInt(button.dataset.puzPage, 10);
+        updatePuzLegend();
+        // The pager is under the list; bring the top of the new page into view.
+        var top = document.getElementById('puz-legend-note');
+        if (top && top.getBoundingClientRect().top < 0) {
+            top.scrollIntoView({ block: 'start' });
+        }
+    });
 }
 
 function puzListItemHtml(puz) {
@@ -842,8 +938,9 @@ function puzCardHtml(puz) {
         '<p class="puz-card-utr">' + utrSummaryHtml(puz) + '</p>' +
         decisionNotesHtml(puz) +
         (puz.legenda
-            ? '<img class="puz-legend-image" loading="lazy" src="' + escapeHtml(puz.legenda) +
-              '" alt="Legenda planșei de reglementări, HCL ' + escapeHtml(puz.hcl) + '" />'
+            ? '<a href="' + escapeHtml(puz.legenda) + '" target="_blank" rel="noopener" title="Deschide legenda separat, ca s-o poți mări">' +
+              '<img class="puz-legend-image" loading="lazy" src="' + escapeHtml(puz.legenda) +
+              '" alt="Legenda planșei de reglementări, HCL ' + escapeHtml(puz.hcl) + '" /></a>'
             : '') +
         '<p class="puz-card-links">' +
         '<a href="#map" data-puz-zoom="' + escapeHtml(puz.id) + '">Arată pe hartă</a> &middot; ' +
@@ -881,6 +978,7 @@ function initPlanToggle() {
             showPuz(link.dataset.puzZoom);
         }
     });
+    initPuzSearch();
     setPlanMode(planMode);
 }
 

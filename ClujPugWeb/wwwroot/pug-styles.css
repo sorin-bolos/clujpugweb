@@ -109,12 +109,30 @@ body.mode-puz #legenda .locality-pane {
     font-size: 1.1rem;
 }
 
+/* Full card width, also for legends scanned small (96 ppi): larger is easier to read. */
 .puz-legend-image {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 8px 0 12px 0;
     border: 1px solid #eee;
+}
+
+.puz-search {
+    max-width: 420px;
+    margin: 12px 0 8px 0;
+}
+
+.puz-pager {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.puz-pager:empty {
+    display: none;
 }
 
 /* The map element carries Bootstrap's .text-white, which Google's info windows inherit:
