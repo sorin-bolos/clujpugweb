@@ -1,0 +1,210 @@
+{
+  "id": "2026-594",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 594,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-594-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-594.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă dedicată activităților de agrement, Drumul Sfântul Ioan – sud",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 96,
+    "denumire": "U.03 Plan reglementări urbanistice",
+    "scara": "1:200",
+    "nota": "Planșa apare de două ori în PDF: p. 9 e copia anexată hotărârii (A3, micșorată, aproape alb-negru, întoarsă cu 180°, ștampilată „Anexa 2 la Hotărârea nr. 594 din 4 septembrie 2026”), iar p. 16 e aceeași planșă U.03 (SQMA_206, 6/12/2025), color, la format mare, cu viza „spre neschimbare” a Arhitectului-șef (nr. 40 din 30.03.2026) și mențiunea de mână „HCL nr. 594 din 4 septembrie 2026”; s-a folosit p. 16, mai clară. Ambele sunt scanate la 96 ppi; la 1:200 asta dă 18,9 px/m, cât măsoară și caroiajul. Hotărârea numește anexa „Planșa A.04 Plan Reglementări Urbanistice”, dar planșa anexată poartă nr. U.03, cum o citează și textul la regularizarea drumului. Pe planșă, fâșia rezervată regularizării drumului are 218,98 mp în desen și 219,98 mp în bilanț."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U.03 (10 puncte, 101-110, Nord X / Est Y, în ordinea conturului; fără laturi sau perimetru). Suprafața, 3000 mp, e cea din bilanțul teritorial și din cartușul parcelei (nr. cad. 327319). Inventarul descrie limita de proprietate a terenului studiat (linia roșie punctată), care e și limita zonei reglementate. Puncte de control: colțurile 101, 102, 103 și 107, la mijlocul liniei roșii; puncte de verificare: colțurile 106 și 108 și șase cruci ale caroiajului Stereo 70 etichetat de pe planșă (E 388750 / 388800 / 388850 × N 583350 / 583300).",
+    "suprafata_declarata_m2": 3000,
+    "puncte": {
+      "101": [
+        583355.777,
+        388786.043
+      ],
+      "102": [
+        583342.462,
+        388820.644
+      ],
+      "103": [
+        583280.878,
+        388801.581
+      ],
+      "104": [
+        583275.875,
+        388796.335
+      ],
+      "105": [
+        583270.78,
+        388794.275
+      ],
+      "106": [
+        583269.023,
+        388792.538
+      ],
+      "107": [
+        583266.688,
+        388772.047
+      ],
+      "108": [
+        583272.583,
+        388770.91
+      ],
+      "109": [
+        583273.404,
+        388762.315
+      ],
+      "110": [
+        583275.526,
+        388762.181
+      ]
+    },
+    "nota": "Verificare independentă: caroiajul tipărit e exact nord-sus, la 18,9 px/m; crucile lui cad la 0,14-0,49 m de potrivirea făcută numai pe inventar, deși stau până la ~50 m în afara parcelei. Colțurile 104-105 și 109-110 sunt pe laturi scurte (2-7 m) și nu s-au folosit; acolo linia desenată cade la 0,2-0,4 m de limita calculată."
+  },
+  "gcp_px": {
+    "101": [
+      818,
+      351
+    ],
+    "102": [
+      1466,
+      603
+    ],
+    "103": [
+      1106,
+      1771
+    ],
+    "107": [
+      549,
+      2031
+    ]
+  },
+  "verificare_px": {
+    "106": [
+      935,
+      1990
+    ],
+    "108": [
+      530,
+      1921
+    ],
+    "C388750_583350": [
+      138,
+      461
+    ],
+    "C388800_583350": [
+      1082,
+      461
+    ],
+    "C388850_583350": [
+      2025,
+      461
+    ],
+    "C388750_583300": [
+      137,
+      1407
+    ],
+    "C388800_583300": [
+      1081,
+      1407
+    ],
+    "C388850_583300": [
+      2024,
+      1408
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2115,
+      1582,
+      2572,
+      2200
+    ],
+    [
+      2115,
+      486,
+      2575,
+      962
+    ],
+    [
+      2115,
+      964,
+      2575,
+      1322
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Aapp*",
+      "denumire": "Zonă de agrement public – alimentație publică, amenajări pentru activități în aer liber (terenuri de sport, platforme pentru spectacol, picnic, grătare, joacă, odihnă, loisir), grupuri sanitare, alei, parcaje și edicule care le deservesc; regim de construire deschis",
+      "pot_max": "10%",
+      "cut_max": "0,25",
+      "h_max": "8 m la cornișa superioară sau la aticul etajului neretras, 12 m la coamă sau la aticul etajului retras; cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic – fâșia cu vegetație existentă care traversează parcela pe diagonală (622,68 mp după planșă); rămân prevederile RLU PUG",
+      "pot_max": "1% (RLU PUG)",
+      "cut_max": "0,01 (RLU PUG)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-09-04",
+    "verificat": "2026-11-09: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: planșa tipărește doar H max 12 m (la coamă); Art. 1 al hotărârii și regulamentul (Anexa 1, art. 10) pun în plus o limită de 8 m la cornișa superioară sau la aticul etajului neretras.",
+    "Regimul de înălțime: eticheta U.T.R. Aapp* desenată pe planșă trece ca ultimă variantă „D+P+R+M/R”; hotărârea (Art. 1) și tabelul de pe planșă admit D+P+R, cu cel mult trei niveluri supraterane.",
+    "Zona edificabilă: planșa o desenează doar în partea de nord-vest a parcelei, între drum și U.T.R. Ve, retrasă 8 m de la drum, 6 m de la limitele laterale și 6 m de la limita U.T.R. Ve; partea de U.T.R. Aapp* de la sud-est de Ve nu e marcată edificabilă. Hotărârea cere 8 m de la aliniament și minim 6 m de la limitele laterale și posterioară, dar nu pomenește o retragere față de U.T.R. Ve."
+  ],
+  "conditii": [
+    "Fâșia necesară regularizării Drumului Sfântul Ioan (circa 219 mp pe planșă, în nordul parcelei) se dezmembrează și se înscrie în CF cu titlu de „drum” înainte de autorizația de construire, iar până la recepția lucrărilor se aduce la strat de uzură (spațiu verde și asfalt sau dalaj în dreptul acceselor). La faza D.T.A.C., planul de amenajări exterioare tratează și această fâșie, în vederea lărgirii drumului.",
+    "Clădirile se retrag 8 m de la aliniamentul Drumului Sfântul Ioan regularizat și cel puțin 6 m de la limitele laterale și posterioară. Între două clădiri de pe parcelă distanța e cel puțin înălțimea celei mai înalte, minim 4,5 m (6 m dacă încăperi principale dau spre spațiul dintre ele).",
+    "Parcela e construibilă doar dacă are front la Drumul Sfântul Ioan, cel puțin 2000 mp și front la stradă de peste 30 m. Sunt admise doar funcțiunile de agrement listate; comerțul și serviciile doar ca activități complementare, fără poluare fonică, chimică sau vizuală.",
+    "Accesul se face direct din Drumul Sfântul Ioan; pentru aleile și drumurile din incintă se recomandă învelitori permeabile. Parcarea se face pe parcelă, la sol, cu necesarul din Anexa 2 a RLU PUG (însumat pe funcțiuni); vehiculele de marfă și cele care nu sunt autoturisme staționează numai în incintă.",
+    "Racordarea la rețelele publice disponibile e obligatorie; cablurile nu se montează aerian, firidele de branșament se integrează în împrejmuire, iar deșeurile se colectează pe 5 fracții, pe o platformă sau într-un spațiu din incintă accesibil din domeniul public.",
+    "Apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine: se rețin sau se acumulează și se evacuează cu debitele stabilite de Apele Române (ABA Someș-Tisa). Cele de pe parcări trec printr-un separator de produse petroliere și, cu restul apelor pluviale curate, se dirijează spre pârâul Gârbău. Apele uzate menajere merg într-un rezervor vidanjabil.",
+    "Cel puțin 60% din parcelă și din fâșia dintre drum și clădiri rămâne spațiu verde pe sol natural. Arborii maturi nu se taie decât dacă sunt un pericol sau împiedică construcția, și se plantează 5 arbori (circumferință de cel puțin 35 cm la 1 m de colet) pentru fiecare 1000 mp de teren (regulament, art. 13; nota e și pe planșă).",
+    "Spre drum, aliniamentul se închide pe toată lungimea cu împrejmuire din materiale naturale (lemn, piatră) sau gard viu; spre vecini, împrejmuirile sunt transparente și de cel mult 2,20 m (regulament, art. 14).",
+    "Pe terenul din U.T.R. Ve se aplică în continuare regulamentul PUG.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiar."
+  ],
+  "repere": {
+    "C388750_583350": [
+      583350,
+      388750
+    ],
+    "C388800_583350": [
+      583350,
+      388800
+    ],
+    "C388850_583350": [
+      583350,
+      388850
+    ],
+    "C388750_583300": [
+      583300,
+      388750
+    ],
+    "C388800_583300": [
+      583300,
+      388800
+    ],
+    "C388850_583300": [
+      583300,
+      388850
+    ]
+  },
+  "hotarare_text": "documente/2026-594/hotarare.txt"
+}
