@@ -1,0 +1,8 @@
+# PUZ pipeline (tools/puz/puz.py). rasterio's wheels bundle GDAL, so no system GDAL
+# is needed. Also needs poppler-utils (pdfinfo, pdfimages, pdftoppm) on PATH.
+# Tested with rasterio 1.5.2, shapely 2.1.2, pyproj 3.7.2, pillow 12.1.1, numpy 2.4.2.
+rasterio>=1.4,<2
+shapely>=2.0,<3
+pyproj>=3.6,<4
+pillow>=10.1
+numpy>=1.26

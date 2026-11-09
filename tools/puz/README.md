@@ -6,8 +6,11 @@ from a **recipe** - `puzuri/<localitate>/<an>-<nr>.json` - by `tools/puz/puz.py`
 The recipe holds what someone (or an agent) has to read off the documents. The
 script does the rest and checks the reading.
 
-Needs Python 3.13 with `rasterio` (it bundles GDAL 3.12), `shapely`, `pyproj`,
-`numpy` and `pillow`, plus `pdfinfo`/`pdfimages`/`pdftoppm` on PATH.
+Needs Python with `rasterio` (it bundles GDAL), `shapely`, `pyproj`, `numpy` and
+`pillow` (`requirements.txt`), plus `pdfinfo`/`pdfimages`/`pdftoppm` (poppler) on
+PATH. Run it through `tools/puz/puz.sh`: it uses `py -3.13` on the Windows laptop
+and `python3` elsewhere. `setup.sh` installs everything on a Linux machine, and
+`puz.sh doctor` checks packages, poppler and the network.
 
 ## Why no clicking
 
@@ -244,6 +247,12 @@ the backup with `cd puzuri/cluj-napoca/documente && sha256sum -c SHA256SUMS`. Be
 ignored by git, the backup exists only on this machine: copy `documente/` somewhere
 else too.
 
+PUZ-uri added in a cloud session leave their documents behind on the cloud machine.
+After pulling, `puz.sh sync-docs` downloads whatever is missing for every recipe and
+checks it against `SHA256SUMS`, without changing the manifest. A transcription
+written into `hotarare.txt` in the cloud can't be recovered; the page text is saved
+instead. That's why the recipe has to carry everything the map needs.
+
 ## What is published
 
 - `ClujPugWeb/wwwroot/puz/<id>/plansa.webp` - the plate, warped to Web Mercator,
@@ -252,6 +261,68 @@ else too.
 - `ClujPugWeb/wwwroot/puz/<id>/legenda.webp` - the legend crop.
 - An entry in `ClujPugWeb/wwwroot/puz/puz.json`: decision, title, UTR/POT/CUT,
   bounds, boundary in WGS84, fit quality.
+
+## Batch runs, on the laptop or in the cloud
+
+The `/puz-batch N` skill (`.claude/skills/puz-batch`) coordinates a batch. For each
+of the next N decisions it runs one fresh agent on the `/add-puz` skill, waits for
+it, audits its commit, and moves on. Agents never run in parallel: they share
+`puz.json` and `SHA256SUMS`. The batch uses these commands:
+
+- `puz.sh next [--count N] [--retry-stopped]` lists the decisions still to do in
+  2020-2026, newest first, and how many are published, integrated or stopped. It
+  takes approvals and amendments of PUZ-uri. Extensions are left out: the base
+  PUZ's agent finds them with `related`. Interrupted runs (a recipe with no map
+  entry and no `stare`) come back first.
+- `puz.sh audit <recipe> [--commit C]` checks one agent's work:
+  - the outcome matches the recipe (published / `oprit` with a reason /
+    `integrat` and listed by its base);
+  - the quality gates pass, and `puz.json` is up to date;
+  - the commit touches only that PUZ's files (and a base or amendment folded in);
+  - the tree is clean;
+  - no owner is named. The names after "beneficiar(i):" in the decision's text are
+    looked for in the recipe, the map entry and the commit message.
+
+  It exits 0 (`OK`), 1 (`PROBLEME`: the batch moves the commit aside to
+  `puz-review/<id>`) or 2 (`DE VERIFICAT`). Exit 2 means a word of an owner's name
+  turned up, maybe in a street name or the project's own name (Ansamblu „Noroc”).
+  It is printed in context, for someone to judge.
+
+### In a Claude Code cloud session
+
+The laptop can be off. The session runs on an Anthropic Ubuntu 24.04 machine, works
+on a fresh clone, and pushes each PUZ to `puz-cluj` as soon as it is audited.
+Setting up the cloud environment (claude.ai/code, environment settings):
+
+1. **GitHub.** The repository must be connected (Claude GitHub app). The session
+   clones it and needs push access to `puz-cluj`.
+2. **Setup script.** Upload `tools/puz/setup.sh`. It installs poppler-utils,
+   DejaVu fonts and the Python packages, and the environment is cached with them.
+   Alternatively, add a SessionStart hook to `.claude/settings.json` running
+   `bash "$CLAUDE_PROJECT_DIR"/tools/puz/setup.sh`. It skips what is installed, so
+   it costs little on resume.
+3. **Network.** Choose "Custom", keep "Also include default list of common package
+   managers" (PyPI, Ubuntu, GitHub), and allow:
+   ```
+   primariaclujnapoca.ro
+   *.primariaclujnapoca.ro
+   overpass-api.de
+   nominatim.openstreetmap.org
+   server.arcgisonline.com
+   ```
+4. **Run.** Start a session on the repository, branch `puz-cluj`, with
+   `/puz-batch 6`. Or make it a scheduled task (at most hourly; each run is a new
+   session) whose prompt says: `/puz-batch 4 - lucrează pe branch-ul puz-cluj și
+   împinge acolo fiecare PUZ`. The session can be followed, or stopped, from the
+   web or the Claude app.
+5. **After.** On the laptop, `git pull`, then `puz.sh sync-docs` for the documents
+   backup.
+
+What the cloud costs: a PUZ takes about 15-25 minutes and 200 k tokens of an
+agent's work, counted against the plan's usage like a local session. A batch
+stops on its own when two agents in a row are cut off, as happens at a usage
+limit. Nothing is lost when it stops: every audited PUZ is already pushed, and an
+interrupted one is committed as unfinished, so the next run resumes it.
 
 ## Known gaps
 

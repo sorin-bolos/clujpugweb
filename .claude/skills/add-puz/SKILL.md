@@ -17,10 +17,10 @@ checklist; the README is the reference.
 
 ## Ground rules
 
-- Work from the repository root, `c:\Repositories\clujpugweb`, on branch `puz-cluj`.
-  Check with `git branch --show-current` and `git status --short` before starting.
-  If the branch is different or the tree has changes you did not make, stop and
-  report. Never push, never switch branches.
+- Work from the repository root, on branch `puz-cluj`: on the Windows laptop or in
+  a Claude Code cloud session (Linux). Check with `git branch --show-current` and
+  `git status --short` before starting. If the branch is different or the tree has
+  changes you did not make, stop and report. Never push, never switch branches.
 - If `puzuri/cluj-napoca/<id>.json` already exists, check its `stare`:
   - `"oprit"`: an earlier attempt stopped. Read `motiv` and the notes, keep
     everything still valid, and pick up from where it stopped. Usually a new method
@@ -45,18 +45,20 @@ checklist; the README is the reference.
 - **No beneficiaries' names**: not in the recipe, not in conditions, not in the
   commit message. Companies and public bodies named as the PUZ's purpose (for
   example "Spitalul ...") are fine; owners are not.
-- Shell: use the Bash tool. Run Python as `py -3.13` (it has rasterio/GDAL,
-  shapely, pyproj and pillow). `pdfinfo`, `pdfimages` and `pdftoppm` are on PATH.
+- Shell: use the Bash tool. Run the pipeline as `tools/puz/puz.sh`. It picks
+  `py -3.13` on the laptop and `python3` elsewhere; both have rasterio/GDAL,
+  shapely, pyproj and pillow. `pdfinfo`, `pdfimages` and `pdftoppm` are on PATH.
+  `tools/puz/puz.sh doctor` checks all of it, and the network.
 - Look at images with the Read tool. Crops made by `grid`, `vertices` and
   `overlay` carry a pixel grid labelled in full-plate coordinates; read positions
   off those labels.
 
-All commands are `py -3.13 tools/puz/puz.py <command> puzuri/cluj-napoca/<id>.json ...`,
+All commands are `tools/puz/puz.sh <command> puzuri/cluj-napoca/<id>.json ...`,
 where `<id>` is `<an>-<nr>`.
 
 ## Steps
 
-1. **Skeleton.** `py -3.13 tools/puz/puz.py new <an> <nr>`. It prints the title,
+1. **Skeleton.** `tools/puz/puz.sh new <an> <nr>`. It prints the title,
    session date, PDF and the validity it found in the decision's text. If the
    recipe already exists, the ground rules above say whether to resume or stop.
 2. **Documents.** `fetch`. Look at `puz_cache/<id>/pages.png` and the page list.
@@ -132,8 +134,12 @@ where `<id>` is `<an>-<nr>`.
    `puzuri/cluj-napoca/documente/<id>/hotarare.txt`. If the decision's page had no
    text, the file says so. Then transcribe the decision from the scanned PDF into
    it: the preamble briefly, the articles in full, and a line saying which pages you
-   transcribed. Run `fetch` again to record its checksum. Fill these from the text,
-   not from the plate:
+   transcribed. Run `fetch` again to record its checksum.
+   - In a cloud session, `documente/` is gone when the session ends: git ignores it.
+     The laptop gets the PDFs back with `sync-docs`, but not your transcription.
+     So whatever the map needs from the text goes into the recipe.
+
+   Fill these from the text, not from the plate:
    - `utr`: `cod`, `denumire`, `pot_max`, `cut_max`, `h_max`, plainly worded;
    - `valabilitate`: check what `new` filled in;
    - `prelungiri`: each extension found by `related`, as `{hcl, pana_la}`. Read the
@@ -153,8 +159,8 @@ where `<id>` is `<an>-<nr>`.
      buildings drawn on the plate must fall on the real ones within a few metres.
    - If it is plainly off (wrong place, mirrored, scaled wrong), you made a
      mistake. Find it; don't commit.
-   - Optional: `http://localhost:5077/?puz=<id>` shows it on the site, if the
-     local server runs. Screenshot it with headless Chrome:
+   - Optional, on the laptop only: `http://localhost:5077/?puz=<id>` shows it on
+     the site, if the local server runs. Screenshot it with headless Chrome:
      `"/c/Program Files/Google/Chrome/Application/chrome.exe" --headless=new --disable-gpu --user-data-dir=<scratch dir> --window-size=1200,800 --virtual-time-budget=20000 --screenshot=<png> "http://localhost:5077/?puz=<id>"`.
 9. **Commit.**
    - `git add` exactly: `puzuri/cluj-napoca/<id>.json`,
@@ -164,6 +170,12 @@ where `<id>` is `<an>-<nr>`.
      zone(s) and key indicators, plate and page, the method, the area check, the
      residuals, and anything notable (differences, extensions, amendments). End
      with the line `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`.
+   - Then run `audit puzuri/cluj-napoca/<id>.json`. It re-checks the gates and the
+     files the commit touched, and looks for the owners' names.
+     - `PROBLEMĂ`: fix it and `git commit --amend`. Your commit isn't pushed yet.
+     - `VERIFICĂ`: a word of an owner's name appears somewhere. Fine in a street
+       name or the project's own name; an owner named is a problem.
+     - Say in your report what the audit printed.
 
 ## Amending decisions
 

@@ -6,20 +6,28 @@ transcribed from the plate's "Inventar de coordonate", the pixel position of som
 those points on the plate, and the crops (legend, areas to mask out). Everything else
 is derived from it and can be rebuilt at any time:
 
-    py -3.13 tools/puz/puz.py new      2026 597                           # recipe skeleton from the listing
-    py -3.13 tools/puz/puz.py fetch    puzuri/cluj-napoca/2026-597.json   # PDF + page contact sheet
-    py -3.13 tools/puz/puz.py render   puzuri/cluj-napoca/2026-597.json   # plate page at full resolution
-    py -3.13 tools/puz/puz.py grid     puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--scale S --step N]
-    py -3.13 tools/puz/puz.py predict  puzuri/cluj-napoca/2026-597.json   # where the other points should be
-    py -3.13 tools/puz/puz.py vertices puzuri/cluj-napoca/2026-597.json 10 12 13 ...
-    py -3.13 tools/puz/puz.py overlay  puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--without 84]
-    py -3.13 tools/puz/puz.py hcl      puzuri/cluj-napoca/2026-597.json   # the decision text, laid out
-    py -3.13 tools/puz/puz.py related  puzuri/cluj-napoca/2026-597.json   # later decisions extending/amending it
-    py -3.13 tools/puz/puz.py geocode  --streets "Buftea" "Scor.arilor"   # rough position, for unlabelled grids
-    py -3.13 tools/puz/puz.py caroiaj  puzuri/cluj-napoca/2026-24.json [--write]   # label unlabelled grid crosses
-    py -3.13 tools/puz/puz.py osm      puzuri/cluj-napoca/2026-24.json [x0 y0 x1 y1]  # OSM drawn over the plate
-    py -3.13 tools/puz/puz.py osm-snap puzuri/cluj-napoca/2026-24.json NAME x y [--write]  # OSM control point
-    py -3.13 tools/puz/puz.py build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
+    tools/puz/puz.sh new      2026 597                           # recipe skeleton from the listing
+    tools/puz/puz.sh fetch    puzuri/cluj-napoca/2026-597.json   # PDF + page contact sheet
+    tools/puz/puz.sh render   puzuri/cluj-napoca/2026-597.json   # plate page at full resolution
+    tools/puz/puz.sh grid     puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--scale S --step N]
+    tools/puz/puz.sh predict  puzuri/cluj-napoca/2026-597.json   # where the other points should be
+    tools/puz/puz.sh vertices puzuri/cluj-napoca/2026-597.json 10 12 13 ...
+    tools/puz/puz.sh overlay  puzuri/cluj-napoca/2026-597.json x0 y0 x1 y1 [--without 84]
+    tools/puz/puz.sh hcl      puzuri/cluj-napoca/2026-597.json   # the decision text, laid out
+    tools/puz/puz.sh related  puzuri/cluj-napoca/2026-597.json   # later decisions extending/amending it
+    tools/puz/puz.sh geocode  --streets "Buftea" "Scor.arilor"   # rough position, for unlabelled grids
+    tools/puz/puz.sh caroiaj  puzuri/cluj-napoca/2026-24.json [--write]   # label unlabelled grid crosses
+    tools/puz/puz.sh osm      puzuri/cluj-napoca/2026-24.json [x0 y0 x1 y1]  # OSM drawn over the plate
+    tools/puz/puz.sh osm-snap puzuri/cluj-napoca/2026-24.json NAME x y [--write]  # OSM control point
+    tools/puz/puz.sh build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
+    tools/puz/puz.sh legend   puzuri/cluj-napoca/2026-597.json   # rebuild only the legend
+    tools/puz/puz.sh audit    puzuri/cluj-napoca/2026-597.json   # check an agent's commit (batch runs)
+    tools/puz/puz.sh next     [--count 6]                        # what a batch does next, and progress
+    tools/puz/puz.sh doctor                                      # packages, poppler, network, git
+    tools/puz/puz.sh sync-docs                                   # fill this machine's documents backup
+
+puz.sh runs this file with `py -3.13` on the Windows laptop and `python3` elsewhere
+(Claude Code cloud sessions); setup.sh installs the dependencies on Linux.
 
 The decision's documents are kept as a backup in puzuri/<localitate>/documente/<id>/
 (ignored by git, never served), in case the city hall moves or removes them; their
@@ -43,6 +51,7 @@ import subprocess
 import sys
 import urllib.parse
 import urllib.request
+import warnings
 
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont
@@ -68,6 +77,9 @@ LEGEND_MAX_W = 1000            # px
 LEGEND_MEDIAN_MIN_DPI = 250    # despeckle legends only from this scan resolution up
 
 Image.MAX_IMAGE_PIXELS = None
+# shapely 2.2 deprecates ops.transform (still fine below 3, see requirements.txt); the
+# warning would only distract whoever reads the output.
+warnings.filterwarnings("ignore", message=r".*shapely\.ops\.transform", category=DeprecationWarning)
 
 
 # --- recipe and paths ------------------------------------------------------------
@@ -150,9 +162,18 @@ def ring_en(r, pe=None, pn=None):
 
 
 def font(size, bold=False):
+    """Arial on Windows, DejaVu on Linux (cloud sessions), else Pillow's own scalable
+    font. The grid labels on crops must stay readable: they are how positions are read."""
+    names = ["arialbd.ttf", "DejaVuSans-Bold.ttf"] if bold else ["arial.ttf", "DejaVuSans.ttf"]
+    names.append("/usr/share/fonts/truetype/dejavu/" + names[1])
+    for name in names:
+        try:
+            return ImageFont.truetype(name, size)
+        except OSError:
+            pass
     try:
-        return ImageFont.truetype("arialbd.ttf" if bold else "arial.ttf", size)
-    except OSError:
+        return ImageFont.load_default(size)
+    except TypeError:
         return ImageFont.load_default()
 
 
@@ -704,7 +725,8 @@ def record_checksums(r, paths):
             f.write("%s  %s\n" % (sums[name], name))
 
 
-def cmd_fetch(r, args):
+def download_documents(r, verbose=True):
+    """Download whatever is missing of the decision's documents into documente/<id>/."""
     paths = []
     for url in decision_documents(r):
         dst = os.path.join(docs_dir(r), doc_name(url))
@@ -714,8 +736,14 @@ def cmd_fetch(r, args):
                 data = resp.read()
             with open(dst, "wb") as f:
                 f.write(data)
-        print("document:", dst, os.path.getsize(dst) // 1024, "KB")
+        if verbose:
+            print("document:", dst, os.path.getsize(dst) // 1024, "KB")
         paths.append(dst)
+    return paths
+
+
+def cmd_fetch(r, args):
+    paths = download_documents(r)
     try:
         paths.append(save_decision_text(r))
         print("decision text:", text_path(r))
@@ -1250,6 +1278,307 @@ def cmd_build(r, args):
     publish(r, overlay, legend, bounds, boundary, area, rms)
 
 
+# --- batch runs: what to do next, checking an agent's commit, the local backup ---------
+# A batch (the puz-batch skill) runs one fresh agent per PUZ, locally or in a Claude Code
+# cloud session. `next` picks the work, `audit` checks each agent's commit before it is
+# pushed, `doctor` checks a new machine, and `sync-docs` fills the laptop's backup of the
+# documents downloaded in the cloud, which git does not carry.
+
+PUZ_APPROVAL = re.compile(r"\baprob\w*\s+(?:a\s+)?(?:P\.?\s?U\.?\s?Z|Planului\s+Urbanistic\s+Zonal)", re.I)
+NOT_A_PUZ = re.compile(r"^Aprobarea\s+încheierii", re.I)
+
+
+def load_index():
+    if not os.path.exists(INDEX):
+        return []
+    with open(INDEX, encoding="utf-8") as f:
+        return json.load(f)
+
+
+def recipe_paths(folder):
+    d = os.path.join(ROOT, "puzuri", folder)
+    return sorted(os.path.join(d, f) for f in os.listdir(d) if re.match(r"\d{4}-\d+\.json$", f))
+
+
+def batch_candidates(folder):
+    """Decisions that approve a PUZ or amend one. Extensions are not here: the base
+    PUZ's agent finds them with `related`. Neither are street names, land transfers,
+    association agreements or rejected drafts."""
+    with open(os.path.join(ROOT, "puzuri", folder, "hotarari-puz.json"), encoding="utf-8") as f:
+        listing = json.load(f)["hotarari"]
+    return [h for h in listing if not NOT_A_PUZ.search(h["titlu"])
+            and (PUZ_APPROVAL.search(h["titlu"]) or re.match(r"Modificarea\b", h["titlu"], re.I))]
+
+
+def recipe_state(folder, pid, published):
+    """None (no recipe), "publicat", "oprit", "integrat", or "început" (a recipe
+    without a map entry or a stop: an interrupted run)."""
+    p = os.path.join(ROOT, "puzuri", folder, pid + ".json")
+    if not os.path.exists(p):
+        return None
+    with open(p, encoding="utf-8") as f:
+        r = json.load(f)
+    return r.get("stare") or ("publicat" if pid in published else "început")
+
+
+def cmd_next(args):
+    """The next decisions to process, newest first, and how far the batch has come."""
+    import collections
+    published = {e["id"] for e in load_index()}
+    cands = sorted((h for h in batch_candidates(args.folder) if args.from_year <= h["an"] <= args.to_year),
+                   key=lambda h: (h["an"], h["nr"]), reverse=True)
+    counts = collections.Counter()
+    todo = []
+    for h in cands:
+        pid = "%d-%d" % (h["an"], h["nr"])
+        state = recipe_state(args.folder, pid, published)
+        counts[state or "de făcut"] += 1
+        if state in (None, "început") or (state == "oprit" and args.retry_stopped):
+            todo.append((h, state))
+    print("%d-%d, cele mai noi întâi: %s" % (args.from_year, args.to_year, ", ".join(
+        "%s %d" % (k, counts[k]) for k in ("publicat", "integrat", "oprit", "început", "de făcut") if counts[k])))
+    for h, state in todo[:args.count]:
+        print("%d %d  %s%s" % (h["an"], h["nr"], clean_title(h["titlu"])[:110],
+                               "  [reluare: rulare întreruptă]" if state == "început" else
+                               "  [reluare: oprit]" if state == "oprit" else ""))
+
+
+def git(*cmd):
+    return subprocess.run(["git"] + list(cmd), cwd=ROOT, capture_output=True, text=True, encoding="utf-8").stdout
+
+
+def normalize_ro(text):
+    import unicodedata
+    return "".join(c for c in unicodedata.normalize("NFD", text) if not unicodedata.combining(c)).lower()
+
+
+# "beneficiari: A B, C D și E F, pentru un teren ...": the names run until the first
+# part with a lower-case word.
+# The pages' text breaks words: "beneficiar ă : S.C. ...".
+BENEFICIARY_CLAUSE = re.compile(r"beneficiar\w*(?:\s[ăai]{1,2}\b)?\s*:?\s+(.{3,300})", re.I | re.S)
+NAME_TOKEN = re.compile(r"^(?:[A-ZĂÂÎȘŞȚŢ][\wăâîșşțţĂÂÎȘŞȚŢ.\-]*|S\.?C\.?|S\.?R\.?L\.?|S\.?A\.?)$")
+NOT_A_NAME = {normalize_ro(w) for w in (
+    "S.R.L", "SRL", "S.A", "SA", "S.C", "SC", "SNC", "PFA", "II", "Cluj", "Napoca", "Cluj-Napoca", "Municipiul",
+    "Municipiului", "Consiliul", "Local", "Hotărâre", "Hotărârea", "Art", "Având", "Vezi", "Pagina", "Strada",
+    "Str", "P.U.Z", "PUZ", "U.T.R", "UTR", "Prin", "Prezenta", "Primarul", "Primăria", "Direcția", "Ordinul",
+    "Legea", "Nr", "Proiectant", "Elaborator", "Beneficiar", "Beneficiari", "Examinând", "Proiectul", "Referatul",
+    "Raportul", "Comisia", "Arhitect", "Arhitectul", "Șef", "Avizul", "Planul", "Urbanistic", "Zonal", "Aprobarea",
+    "Statul", "Român", "Județul", "Ministerul", "Agenția", "Compania", "Societatea", "Asociația", "Parohia")}
+
+
+def beneficiary_words(r):
+    """Words of the names after "beneficiar(i):" in the decision's text: the owners,
+    which must not appear on the public map or in the repository."""
+    try:
+        with open(text_path(r), encoding="utf-8") as f:
+            text = f.read()
+    except OSError:
+        try:
+            text = decision_text_from_page(r["hcl"]["pagina"])
+        except Exception:
+            return None
+    if NO_PAGE_TEXT in text or len(text) < 400:
+        return None
+    words = set()
+    for m in BENEFICIARY_CLAUSE.finditer(text):
+        for part in re.split(r",|;|\s+și\s+", re.sub(r"\s+", " ", m.group(1))):
+            tokens = part.strip(" .").split()
+            if not tokens or not all(NAME_TOKEN.match(t) for t in tokens):
+                break
+            for t in tokens:
+                n = normalize_ro(t.strip(".-"))
+                if len(n) >= 3 and n not in NOT_A_NAME:
+                    words.add(n)
+    return words
+
+
+def cmd_audit(r, args):
+    """Checks an agent's work on one PUZ before it is pushed: the outcome, the quality
+    gates, which files the commit touched, and that no owner is named."""
+    pid, folder = r["id"], os.path.dirname(os.path.relpath(r["_path"], ROOT)).replace("\\", "/")
+    problems, checks, notes = [], [], []
+    entry = next((e for e in load_index() if e["id"] == pid), None)
+    stare = r.get("stare")
+    pub_dir = "ClujPugWeb/wwwroot/puz/%s/" % pid
+    if stare == "oprit":
+        checks.append("oprit: %s" % r.get("motiv"))
+        if not r.get("motiv"):
+            problems.append("oprit fără `motiv`")
+        if entry or os.path.isdir(os.path.join(ROOT, pub_dir)):
+            problems.append("oprit, dar a rămas publicat (puz.json sau %s)" % pub_dir)
+    elif stare == "integrat":
+        base = r.get("integrat_in")
+        base_entry = next((e for e in load_index() if e["id"] == base), None)
+        ref = "%d/%d" % (r["hcl"]["nr"], r["hcl"]["an"])
+        mods = [m if isinstance(m, str) else m.get("hcl") for m in (base_entry or {}).get("modificat_de", [])]
+        checks.append("integrat în %s" % base)
+        if not base_entry:
+            problems.append("integrat în %s, care nu e publicat" % base)
+        elif ref not in mods:
+            problems.append("%s nu apare în `modificat_de` la %s" % (ref, base))
+    elif not entry:
+        problems.append("fără `stare` și nepublicat: rulare neterminată")
+    else:
+        ok_fit, pe, pn, rms, worst = check_fit(r)
+        ok_area, area = check_area(r, ring_en(r, pe, pn))
+        checks.append("porți: potrivire %s (rms %.2f m), arie %s" % (
+            "OK" if ok_fit else "EȘUAT", rms, "OK" if ok_area else "EȘUAT"))
+        if not (ok_fit and ok_area):
+            problems.append("porțile de calitate nu trec")
+        if abs(entry.get("suprafata_m2", 0) - area) > 1:
+            problems.append("puz.json are altă arie (%s) decât rețeta (%.0f): build nerulat după ultima modificare"
+                            % (entry.get("suprafata_m2"), area))
+        if not os.path.exists(os.path.join(ROOT, pub_dir, "plansa.webp")):
+            problems.append("lipsește %splansa.webp" % pub_dir)
+        if bool(r.get("legenda_px")) != bool(entry.get("legenda")):
+            problems.append("legenda din puz.json nu corespunde cu `legenda_px`")
+
+    # The commit: this PUZ's files only, plus a base or amendment it was folded into.
+    commit = args.commit
+    msg = git("log", "-1", "--format=%B", commit)
+    files = [f for f in git("show", "--name-only", "--format=", commit).splitlines() if f]
+    related = {pid, r.get("integrat_in")} | {"%s-%s" % (m.split("/")[1], m.split("/")[0])
+                                             for m in r.get("modifica", []) if isinstance(m, str) and "/" in m}
+    for p in recipe_paths(os.path.basename(folder)):
+        with open(p, encoding="utf-8") as f:
+            if json.load(f).get("integrat_in") == pid:
+                related.add(os.path.basename(p)[:-5])
+    allowed = {"%s/documente/SHA256SUMS" % folder, "ClujPugWeb/wwwroot/puz/puz.json"}
+    allowed |= {"%s/%s.json" % (folder, x) for x in related if x}
+    outside = [f for f in files if f not in allowed
+               and not any(f.startswith("ClujPugWeb/wwwroot/puz/%s/" % x) for x in related if x)]
+    ref = "HCL %d/%d" % (r["hcl"]["nr"], r["hcl"]["an"])
+    checks.append("commit %s: %d fișiere" % (git("rev-parse", "--short", commit).strip(), len(files)))
+    if not msg.startswith("PUZ "):
+        problems.append("ultimul commit nu e al unui PUZ: %s" % (msg.splitlines() or [""])[0])
+    elif ref not in msg and not stare == "integrat":
+        notes.append("mesajul commit-ului nu pomenește %s" % ref)
+    if outside:
+        problems.append("commit-ul atinge fișiere din afara PUZ-ului: %s" % ", ".join(outside))
+    if "Co-Authored-By:" not in msg:
+        notes.append("mesajul commit-ului n-are linia Co-Authored-By")
+    dirty = [l for l in git("status", "--porcelain").splitlines() if l.strip()]
+    if dirty:
+        problems.append("modificări necomise: %s" % ", ".join(l[3:] for l in dirty[:8]))
+
+    # Owners' names. A word of an owner's name can also be a street's or the project's
+    # (Ansamblu „Noroc” is built by Noroc Com), so a hit is shown in context, to judge.
+    words = beneficiary_words(r)
+    raw = (json.dumps({k: v for k, v in r.items() if not k.startswith("_")}, ensure_ascii=False) + "\n"
+           + json.dumps(entry or {}, ensure_ascii=False) + "\n" + msg)
+    published_text = normalize_ro(re.sub(r"\S+@\S+|https?://\S+", " ", raw))
+    to_check = []
+    if words is None:
+        notes.append("textul hotărârii nu e disponibil: numele beneficiarilor nu au putut fi verificate")
+    else:
+        checks.append("nume de beneficiari căutate: %d cuvinte" % len(words))
+        for w in sorted(words):
+            for m in list(re.finditer(r"\b%s\b" % re.escape(w), published_text))[:2]:
+                to_check.append("„%s”: …%s…" % (w, published_text[max(0, m.start() - 50):m.end() + 50].replace("\n", " ")))
+    if re.search(r"beneficiar\w*\s*:\s*(?:S\.?C\.?\s+)?[A-ZĂÂÎȘŞȚŢ]", raw):
+        problems.append("rețeta, puz.json sau commit-ul conține „beneficiar(i): <Nume>”")
+
+    for c in checks:
+        print("     ", c)
+    for n in notes:
+        print("NOTĂ ", n)
+    for c in to_check:
+        print("VERIFICĂ", c)
+    for p in problems:
+        print("PROBLEMĂ", p)
+    verdict = "PROBLEME" if problems else "DE VERIFICAT" if to_check else "OK"
+    print("AUDIT %s: %s" % (pid, verdict))
+    sys.exit(1 if problems else 2 if to_check else 0)
+
+
+def cmd_sync_docs(args):
+    """Download the documents of every recipe that are missing here (after cloud runs,
+    which do not keep them), and check them against SHA256SUMS. The manifest itself is
+    not changed. A transcription written into hotarare.txt in a cloud session is not
+    recoverable; the page text is saved in its place."""
+    manifest = os.path.join(ROOT, "puzuri", args.folder, "documente", "SHA256SUMS")
+    sums = {}
+    if os.path.exists(manifest):
+        with open(manifest, encoding="utf-8") as f:
+            for line in f:
+                digest, _, name = line.rstrip("\n").partition("  ")
+                sums[name] = digest
+    bad = 0
+    for p in recipe_paths(args.folder):
+        r = load(p)
+        before = set(os.listdir(docs_dir(r)))
+        try:
+            paths = download_documents(r, verbose=False)
+            if not os.path.exists(text_path(r)):
+                save_decision_text(r)
+            paths.append(text_path(r))
+        except Exception as e:
+            print("%-10s EROARE: %s" % (r["id"], e)); bad += 1
+            continue
+        new = [os.path.basename(x) for x in paths if os.path.basename(x) not in before]
+        issues = []
+        for x in paths:
+            name = r["id"] + "/" + os.path.basename(x)
+            if name not in sums:
+                issues.append("%s nu e în SHA256SUMS" % os.path.basename(x))
+            elif sha256(x) != sums[name]:
+                issues.append("hotarare.txt diferă de cel înregistrat (transcriere făcută în altă sesiune?)"
+                              if name.endswith("/hotarare.txt") else
+                              "%s NU corespunde sumei înregistrate" % os.path.basename(x))
+        bad += bool(issues)
+        print("%-10s %s%s" % (r["id"], ("descărcat: " + ", ".join(new)) if new else "complet",
+                              "".join("\n           - " + i for i in issues)))
+    print("gata; %s" % ("toate în regulă" if not bad else "%d cu observații" % bad))
+
+
+def cmd_doctor(args):
+    """Is this machine ready for the pipeline: packages, poppler, network, git."""
+    import importlib
+    import shutil
+    ok = True
+
+    def line(good, text, fatal=True):
+        nonlocal ok
+        ok = ok and (good or not fatal)
+        print("%-5s %s" % ("OK" if good else ("FAIL" if fatal else "WARN"), text))
+    print("python", sys.version.split()[0], sys.executable)
+    for mod in ("numpy", "PIL", "rasterio", "shapely", "pyproj"):
+        try:
+            m = importlib.import_module(mod)
+            line(True, "%s %s" % (mod, getattr(m, "__version__", "")))
+        except Exception as e:
+            line(False, "%s: %s" % (mod, e))
+    for tool in ("pdfinfo", "pdfimages", "pdftoppm"):
+        where = shutil.which(tool)
+        line(bool(where), "%s %s" % (tool, where or "lipsește (poppler-utils)"))
+    # The OSM services are only needed by the OpenStreetMap method (and retried there).
+    for name, url, method, fatal in (
+            ("primăria, pagini", "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-594-din-2026/", "GET", True),
+            ("primăria, PDF-uri", "https://files.primariaclujnapoca.ro/2026/09/18/HCL-594.pdf", "HEAD", True),
+            ("Esri World Imagery", "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=json", "GET", True),
+            ("Overpass (OSM)", "https://overpass-api.de/api/status", "GET", False),
+            ("Nominatim (OSM)", "https://nominatim.openstreetmap.org/status", "GET", False)):
+        host = urllib.parse.urlparse(url).netloc
+        try:
+            with urllib.request.urlopen(urllib.request.Request(url, headers=UA, method=method), timeout=30) as resp:
+                line(resp.status == 200, "%s (%s): HTTP %d" % (name, host, resp.status), fatal)
+        except urllib.error.HTTPError as e:
+            if e.code >= 500:   # the server answered: reachable, just busy right now
+                line(False, "%s (%s): HTTP %d - serverul răspunde, dar e ocupat acum" % (name, host, e.code), False)
+            else:
+                line(False, "%s (%s): HTTP %d - în cloud, verifică lista de domenii permise a mediului"
+                     % (name, host, e.code), fatal)
+        except Exception as e:
+            line(False, "%s (%s): %s - în cloud, adaugă domeniul în lista de domenii permise a mediului"
+                 % (name, host, e), fatal)
+    branch = git("branch", "--show-current").strip()
+    line(branch == "puz-cluj", "branch %s" % (branch or "?"), fatal=False)
+    dirty = [l for l in git("status", "--porcelain").splitlines() if l.strip()]
+    line(not dirty, "arbore curat" if not dirty else "modificări necomise: %d fișiere" % len(dirty), fatal=False)
+    print("cloud session" if os.environ.get("CLAUDE_CODE_REMOTE") == "true" else "local machine")
+    sys.exit(0 if ok else 1)
+
+
 def main():
     sys.stdout.reconfigure(encoding="utf-8")
     sys.stderr.reconfigure(encoding="utf-8")
@@ -1278,6 +1607,15 @@ def main():
     s.add_argument("--no-check", action="store_true"); s.add_argument("--zoom", type=int, default=18)
     s = sub.add_parser("legend", help="rebuild only the legend (published PUZ: legenda.webp + puz.json)")
     s.add_argument("recipe"); s.add_argument("--dry-run", action="store_true")
+    s = sub.add_parser("next", help="the next decisions for a batch, newest first, and progress")
+    s.add_argument("--count", type=int, default=6); s.add_argument("--folder", default="cluj-napoca")
+    s.add_argument("--from-year", type=int, default=2020); s.add_argument("--to-year", type=int, default=2026)
+    s.add_argument("--retry-stopped", action="store_true", help="also list recipes marked oprit")
+    s = sub.add_parser("audit", help="check an agent's commit for one PUZ before pushing it")
+    s.add_argument("recipe"); s.add_argument("--commit", default="HEAD")
+    s = sub.add_parser("sync-docs", help="download the documents missing here and check them against SHA256SUMS")
+    s.add_argument("--folder", default="cluj-napoca")
+    sub.add_parser("doctor", help="is this machine ready: packages, poppler, network, git")
     s = sub.add_parser("geocode", help="rough Stereo70 position from OpenStreetMap")
     g = s.add_mutually_exclusive_group(required=True)
     g.add_argument("--streets", nargs=2, metavar="REGEX", help='two street names meeting on the plate, e.g. "Buftea" "Scor.arilor"')
@@ -1298,13 +1636,13 @@ def main():
     args = ap.parse_args()
     if args.cmd == "new":
         return cmd_new(args)
-    if args.cmd == "geocode":
-        return cmd_geocode(args)
+    if args.cmd in ("geocode", "next", "sync-docs", "doctor"):
+        return {"geocode": cmd_geocode, "next": cmd_next, "sync-docs": cmd_sync_docs, "doctor": cmd_doctor}[args.cmd](args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
      "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "related": cmd_related,
      "caroiaj": cmd_caroiaj, "osm": cmd_osm, "osm-snap": cmd_osm_snap, "build": cmd_build,
-     "legend": cmd_legend}[args.cmd](r, args)
+     "legend": cmd_legend, "audit": cmd_audit}[args.cmd](r, args)
 
 
 if __name__ == "__main__":
