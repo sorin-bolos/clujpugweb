@@ -1,0 +1,403 @@
+{
+  "id": "2026-592",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 592,
+    "an": 2026,
+    "data_sedinta": "2026-09-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-592-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-592.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuință cu regim redus de înălțime, Aleea Cisnădie nr. 8",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 300,
+    "denumire": "A.03 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 8 e copia anexată hotărârii (A3, 200 ppi, aproape alb-negru, ștampilată „Anexa 2 la Hotărârea nr. 592/2026” și semnată), iar p. 15 e aceeași planșă A.03 (proiect nr. 38/2025, 27.02.2026), color, la 300 ppi, cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 46 din 30.03.2026) și mențiunea de mână „H.C.L. nr. 592 din 4 septembrie 2026”; s-a folosit p. 15, mai clară. Planșa e tipărită ușor micșorată: 22,8 px/m în loc de 23,6 px/m cât ar da 1:500 la 300 ppi (~96,5 %). Legenda cuprinde cheia simbolurilor și, din tabelul „Indici urbanistici”, coloana parcelei 2 (suprafețele și indicii maximi admiși); coloanele parcelei 1 și a imobilului 311846 (suprafețe existente și propuse), bilanțul și caseta cu necesarul de parcaje (reluat în hotărâre) au rămas afară. În coloana parcelei 1, suma construcțiilor existente e scrisă „328(C1)+57(C2)+30(C3)+321(C4)=706 mp”, deși termenii dau 736 mp, iar C4 e iazul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Calculul suprafețelor” pe planșa A.03, pentru imobilul nr. cad. 311845, în două tabele: Parcela (1) L (16 puncte, S=3286 mp, P=230,164 m) și Parcela (2) A (9 puncte, S=1135 mp, P=154,250 m), Nord X / Est Y, cu lungimile laturilor D(i,i+1); „Supraf. totală = 4421 mp”. Cele două tabele au în comun latura 800-801 (37,770 m), care nu e pe limita zonei. Zona reglementată (4612 mp în bilanțul teritorial; Art. 1: nr. cad. 311845 și 311846) cuprinde și imobilul 311846 (191 mp), fâșia de acces dinspre Aleea Cisnădie, care nu are coordonate pe planșă. De aceea vârfurile inventarului sunt la `repere` (puncte de control și de verificare), iar limita e `limita_px`: cele 21 de vârfuri ale conturului reunit al imobilului 311845 (800, 714-701, 801, 700, 718-715), duse pe planșă prin potrivirea afină, plus cele două colțuri ale imobilului 311846 dinspre Aleea Cisnădie, citite pe linia albastră punctată a planșei (px 979,1554 și 1010,1725). Vârfurile 720 și 719, din scobitura în care intră 311846, rămân în interior. Puncte de control: colțurile 707, 710, 717, 700 și 718, pe mijlocul liniei albastre punctate (parcelar propus), unde ajung și liniile cadastrale subțiri ale vecinilor; puncte de verificare: 716, 719, 720 și 712.",
+    "suprafata_declarata_m2": 4612,
+    "puncte": {},
+    "inventar_cf_311845": {
+      "ordine": [
+        "800",
+        "714",
+        "713",
+        "712",
+        "711",
+        "710",
+        "709",
+        "708",
+        "707",
+        "706",
+        "705",
+        "704",
+        "703",
+        "702",
+        "701",
+        "801",
+        "700",
+        "720",
+        "719",
+        "718",
+        "717",
+        "716",
+        "715"
+      ],
+      "laturi_declarate_m": {
+        "800": 6.798,
+        "714": 0.553,
+        "713": 29.073,
+        "712": 3.442,
+        "711": 34.737,
+        "710": 0.057,
+        "709": 13.108,
+        "708": 33.545,
+        "707": 20.022,
+        "706": 1.116,
+        "705": 13.278,
+        "704": 0.125,
+        "703": 28.007,
+        "702": 4.398,
+        "701": 4.135,
+        "801": 19.285,
+        "700": 12.101,
+        "720": 6.001,
+        "719": 10.492,
+        "718": 27.477,
+        "717": 25.656,
+        "716": 12.172,
+        "715": 3.296
+      },
+      "suprafata_declarata_m2": 4421,
+      "parcele": {
+        "(1) L": {
+          "puncte": [
+            "800",
+            "714",
+            "713",
+            "712",
+            "711",
+            "710",
+            "709",
+            "708",
+            "707",
+            "706",
+            "705",
+            "704",
+            "703",
+            "702",
+            "701",
+            "801"
+          ],
+          "suprafata_m2": 3286,
+          "perimetru_m": 230.164
+        },
+        "(2) A": {
+          "puncte": [
+            "800",
+            "715",
+            "716",
+            "717",
+            "718",
+            "719",
+            "720",
+            "700",
+            "801"
+          ],
+          "suprafata_m2": 1135,
+          "perimetru_m": 154.25
+        }
+      }
+    },
+    "nota": "Verificat cu vârfurile în `coordonate.puncte`, înainte de mutarea lor la `repere`: aria conturului reunit e 4420,5 mp (tipărit 4421 mp), fiecare tabel dă 3285,8 mp / 230,164 m și 1134,6 mp / 154,250 m, iar toate cele 23 de laturi ale conturului reunit se potrivesc cu tabelele la 1 cm. Ultima cifră a lui Nord 711 seamănă cu un 9, dar 584118,894 potrivește la milimetru ambele laturi vecine, 712-711 (3,442 m) și 711-710 (34,737 m), pe când cu 584118,899 ar ieși 3,444 m și 34,735 m; s-a folosit 584118,894. Fâșia 311846 iese de 190,6 mp (C.F.: 191 mp); latura ei de nord, de 18,06 m, e în prelungirea laturii 801-700 și se potrivește cu cota „18,00” de pe planșă. Toată zona: 4611,1 mp, față de 4612 mp în bilanț. Linia neagră groasă („Limita UTR”) e desenată la 1,5-2 m în afara liniei albastre punctate și a celei roșu-albe („Limita zonă reglementată”), pe tot conturul; vârfurile inventarului cad pe linia albastră. Inventarul transcris, cu ordinea conturului reunit și laturile lui, e la `coordonate.inventar_cf_311845`."
+  },
+  "repere": {
+    "800": [
+      584113.784,
+      396779.287
+    ],
+    "714": [
+      584114.261,
+      396786.068
+    ],
+    "713": [
+      584114.3,
+      396786.62
+    ],
+    "712": [
+      584117.701,
+      396815.493
+    ],
+    "711": [
+      584118.894,
+      396818.722
+    ],
+    "710": [
+      584136.729,
+      396848.531
+    ],
+    "709": [
+      584136.746,
+      396848.585
+    ],
+    "708": [
+      584147.816,
+      396841.565
+    ],
+    "707": [
+      584177.339,
+      396825.638
+    ],
+    "706": [
+      584168.814,
+      396807.522
+    ],
+    "705": [
+      584168.226,
+      396806.573
+    ],
+    "704": [
+      584162.526,
+      396794.581
+    ],
+    "703": [
+      584162.468,
+      396794.47
+    ],
+    "702": [
+      584150.625,
+      396769.09
+    ],
+    "701": [
+      584148.764,
+      396765.105
+    ],
+    "801": [
+      584147.025,
+      396761.354
+    ],
+    "700": [
+      584138.911,
+      396743.859
+    ],
+    "720": [
+      584127.937,
+      396748.959
+    ],
+    "719": [
+      584125.412,
+      396743.515
+    ],
+    "718": [
+      584125.625,
+      396733.025
+    ],
+    "717": [
+      584099.372,
+      396741.133
+    ],
+    "716": [
+      584110.648,
+      396764.179
+    ],
+    "715": [
+      584113.553,
+      396775.999
+    ]
+  },
+  "limita_px": [
+    [
+      2159.9,
+      1954.4
+    ],
+    [
+      2314.7,
+      1943.6
+    ],
+    [
+      2327.3,
+      1942.7
+    ],
+    [
+      2986.6,
+      1865.3
+    ],
+    [
+      3060.4,
+      1838.0
+    ],
+    [
+      3741.6,
+      1430.0
+    ],
+    [
+      3742.8,
+      1429.6
+    ],
+    [
+      3583.0,
+      1175.8
+    ],
+    [
+      3220.7,
+      499.1
+    ],
+    [
+      2806.7,
+      694.1
+    ],
+    [
+      2785.1,
+      707.5
+    ],
+    [
+      2511.1,
+      837.9
+    ],
+    [
+      2508.5,
+      839.2
+    ],
+    [
+      1928.6,
+      1110.1
+    ],
+    [
+      1837.6,
+      1152.6
+    ],
+    [
+      1751.9,
+      1192.4
+    ],
+    [
+      1352.2,
+      1378.0
+    ],
+    [
+      979,
+      1554
+    ],
+    [
+      1010,
+      1725
+    ],
+    [
+      1104.3,
+      1682.2
+    ],
+    [
+      1288.3,
+      2283.8
+    ],
+    [
+      1814.9,
+      2025.9
+    ],
+    [
+      2084.8,
+      1959.6
+    ]
+  ],
+  "gcp_px": {
+    "707": [
+      3219,
+      497
+    ],
+    "710": [
+      3743,
+      1432
+    ],
+    "717": [
+      1286,
+      2280
+    ],
+    "700": [
+      1353,
+      1377
+    ],
+    "718": [
+      1106,
+      1687
+    ]
+  },
+  "verificare_px": {
+    "716": [
+      1812,
+      2023
+    ],
+    "719": [
+      1336,
+      1689
+    ],
+    "720": [
+      1461,
+      1627
+    ],
+    "712": [
+      2989,
+      1865
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      352,
+      2476,
+      1198,
+      3445
+    ],
+    [
+      1200,
+      2835,
+      1808,
+      2902
+    ],
+    [
+      1200,
+      2945,
+      1950,
+      3378
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective (familiale), cu cel mult două unități locative (suprapuse sau alipite), și anexele lor; regim de construire izolat. Imobilul nr. cad. 311845 se împarte în parcela 1 (3576 mp după planșă), care păstrează locuința și cele trei anexe existente, și parcela 2 (845 mp), pentru o locuință nouă; imobilul 311846 (191 mp) e drumul de acces",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-09-04",
+    "verificat": "2026-11-09: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Pentru parcela 2 (845 mp), tabelul „Indici urbanistici” de pe planșă dă o suprafață construită maximă de 299,60 mp și o suprafață desfășurată maximă de 770,40 mp, adică POT 35 % și CUT 0,9 aplicate la 856 mp; cu indicii din hotărâre (P.O.T. max. 35 %, C.U.T. max. 0,9), pe 845 mp rezultă cel mult 295,75 mp, respectiv 760,50 mp.",
+    "Planșa dezmembrează din imobilul 311846, de-a lungul Aleii Cisnădie, o fâșie de 37,52 mp pentru lărgirea drumului (bilanț: 0,81 %); nici hotărârea, nici regulamentul din Anexa 1 nu pomenesc această dezmembrare.",
+    "Caseta „Zonă reglementată” de pe planșă numește doar imobilul 311845 (4421 mp); bilanțul planșei (4612 mp) și hotărârea (Art. 1: nr. cad. 311845 și 311846) cuprind și imobilul 311846, iar limita zonei reglementate de pe planșă îl înconjoară."
+  ],
+  "conditii": [
+    "Accesul la ambele parcele se face din Aleea Cisnădie, peste imobilul cu nr. cad. 311846, care are destinația de drum. Pe o parcelă se admit, de regulă, un singur acces pietonal și un singur acces auto; accesul carosabil are cel mult 3 m lățime, iar pentru aleile din parcele se recomandă învelitori permeabile.",
+    "Construcțiile se retrag cel puțin 3 m de la aliniament, cu respectarea obiceiului locului, iar garajele cel puțin 6 m, ca să încapă o mașină în față. Față de limitele laterale se retrag cel puțin 3 m (garajele, inclusiv cele din corpul clădirii, se pot alipi limitelor laterale dacă calcanul are cel mult 2,8 m); față de limita posterioară, cel puțin înălțimea clădirii și minim 6 m (garajele minim 6 m).",
+    "Parcarea se face în interiorul parcelelor: minim un loc pentru o locuință cu aria utilă sub 100 mp și două peste 100 mp; serviciile de proximitate cu acces public au nevoie de cel puțin două locuri.",
+    "Serviciile cu acces public (de proximitate) și cele profesionale sau manufacturiere ale locatarilor se admit numai în interiorul clădirii, fără poluare fonică, chimică sau vizuală și fără a afecta intimitatea vecinilor, altfel doar cu acordul vecinilor de parcelă; alimentația publică cere acordul vecinilor pe o rază de 50 m. Funcțiunile de turism se admit numai fără alimentație publică și cu acordul vecinilor (regulament, art. 2).",
+    "Toate utilitățile se asigură prin racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuire, iar cablurile nu se montează aerian.",
+    "Fiecare parcelă are o platformă sau un spațiu (eventual integrat în împrejmuire) pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+    "Cel puțin 40 % din fiecare parcelă rămâne spațiu verde pe sol natural, iar grădina de fațadă cel puțin 60 %; arborii maturi nu se taie decât dacă sunt un pericol sau împiedică construcția. Sunt interzise terasamentele și sistematizarea verticală care afectează spațiile publice sau parcelele vecine (regulament, art. 3 și 13).",
+    "Împrejmuirea spre stradă e obligatorie, cu soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,20 m; spre vecini, cel mult 2,20 m, transparentă sau opacă; porțile se deschid spre interiorul parcelei (regulament, art. 14).",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+}

@@ -893,6 +893,152 @@
   ]
  },
  {
+  "id": "2026-592",
+  "localitate": "cluj",
+  "hcl": "592/2026",
+  "data": "2026-09-04",
+  "titlu": "P.U.Z. – Parcelare și construire locuință cu regim redus de înălțime, Aleea Cisnădie nr. 8",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-592-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-592.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective (familiale), cu cel mult două unități locative (suprapuse sau alipite), și anexele lor; regim de construire izolat. Imobilul nr. cad. 311845 se împarte în parcela 1 (3576 mp după planșă), care păstrează locuința și cele trei anexe existente, și parcela 2 (845 mp), pentru o locuință nouă; imobilul 311846 (191 mp) e drumul de acces",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 4611,
+  "imagine": "puz/2026-592/plansa.webp",
+  "bounds": {
+   "west": 23.6465478,
+   "south": 46.748492,
+   "east": 23.6482028,
+   "north": 46.7492495
+  },
+  "limita": [
+   [
+    23.6472618,
+    46.7486491
+   ],
+   [
+    23.6473505,
+    46.7486544
+   ],
+   [
+    23.6473577,
+    46.7486549
+   ],
+   [
+    23.6477348,
+    46.7486899
+   ],
+   [
+    23.6477768,
+    46.7487012
+   ],
+   [
+    23.6481629,
+    46.7488661
+   ],
+   [
+    23.6481636,
+    46.7488663
+   ],
+   [
+    23.6480692,
+    46.7489648
+   ],
+   [
+    23.6478542,
+    46.7492279
+   ],
+   [
+    23.647619,
+    46.7491485
+   ],
+   [
+    23.6476068,
+    46.749143
+   ],
+   [
+    23.6474511,
+    46.7490899
+   ],
+   [
+    23.6474496,
+    46.7490894
+   ],
+   [
+    23.6471201,
+    46.7489789
+   ],
+   [
+    23.6470684,
+    46.7489616
+   ],
+   [
+    23.6470197,
+    46.7489454
+   ],
+   [
+    23.6467926,
+    46.7488697
+   ],
+   [
+    23.6465806,
+    46.7487979
+   ],
+   [
+    23.6466002,
+    46.748731
+   ],
+   [
+    23.6466538,
+    46.7487485
+   ],
+   [
+    23.6467658,
+    46.7485136
+   ],
+   [
+    23.6470648,
+    46.7486186
+   ],
+   [
+    23.6472188,
+    46.7486465
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 5,
+   "rms_m": 0.15
+  },
+  "legenda": "puz/2026-592/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-09-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Pentru parcela 2 (845 mp), tabelul „Indici urbanistici” de pe planșă dă o suprafață construită maximă de 299,60 mp și o suprafață desfășurată maximă de 770,40 mp, adică POT 35 % și CUT 0,9 aplicate la 856 mp; cu indicii din hotărâre (P.O.T. max. 35 %, C.U.T. max. 0,9), pe 845 mp rezultă cel mult 295,75 mp, respectiv 760,50 mp.",
+   "Planșa dezmembrează din imobilul 311846, de-a lungul Aleii Cisnădie, o fâșie de 37,52 mp pentru lărgirea drumului (bilanț: 0,81 %); nici hotărârea, nici regulamentul din Anexa 1 nu pomenesc această dezmembrare.",
+   "Caseta „Zonă reglementată” de pe planșă numește doar imobilul 311845 (4421 mp); bilanțul planșei (4612 mp) și hotărârea (Art. 1: nr. cad. 311845 și 311846) cuprind și imobilul 311846, iar limita zonei reglementate de pe planșă îl înconjoară."
+  ],
+  "conditii": [
+   "Accesul la ambele parcele se face din Aleea Cisnădie, peste imobilul cu nr. cad. 311846, care are destinația de drum. Pe o parcelă se admit, de regulă, un singur acces pietonal și un singur acces auto; accesul carosabil are cel mult 3 m lățime, iar pentru aleile din parcele se recomandă învelitori permeabile.",
+   "Construcțiile se retrag cel puțin 3 m de la aliniament, cu respectarea obiceiului locului, iar garajele cel puțin 6 m, ca să încapă o mașină în față. Față de limitele laterale se retrag cel puțin 3 m (garajele, inclusiv cele din corpul clădirii, se pot alipi limitelor laterale dacă calcanul are cel mult 2,8 m); față de limita posterioară, cel puțin înălțimea clădirii și minim 6 m (garajele minim 6 m).",
+   "Parcarea se face în interiorul parcelelor: minim un loc pentru o locuință cu aria utilă sub 100 mp și două peste 100 mp; serviciile de proximitate cu acces public au nevoie de cel puțin două locuri.",
+   "Serviciile cu acces public (de proximitate) și cele profesionale sau manufacturiere ale locatarilor se admit numai în interiorul clădirii, fără poluare fonică, chimică sau vizuală și fără a afecta intimitatea vecinilor, altfel doar cu acordul vecinilor de parcelă; alimentația publică cere acordul vecinilor pe o rază de 50 m. Funcțiunile de turism se admit numai fără alimentație publică și cu acordul vecinilor (regulament, art. 2).",
+   "Toate utilitățile se asigură prin racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuire, iar cablurile nu se montează aerian.",
+   "Fiecare parcelă are o platformă sau un spațiu (eventual integrat în împrejmuire) pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+   "Cel puțin 40 % din fiecare parcelă rămâne spațiu verde pe sol natural, iar grădina de fațadă cel puțin 60 %; arborii maturi nu se taie decât dacă sunt un pericol sau împiedică construcția. Sunt interzise terasamentele și sistematizarea verticală care afectează spațiile publice sau parcelele vecine (regulament, art. 3 și 13).",
+   "Împrejmuirea spre stradă e obligatorie, cu soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,20 m; spre vecini, cel mult 2,20 m, transparentă sau opacă; porțile se deschid spre interiorul parcelei (regulament, art. 14).",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
