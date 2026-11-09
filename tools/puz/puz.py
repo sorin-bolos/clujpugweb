@@ -64,6 +64,7 @@ MAX_RESIDUAL_PX = 4
 # good to a few metres, and the result is published as approximate.
 MAX_RESIDUAL_OSM_M = 5.0
 OUTPUT_RES_3857 = 0.07         # metres (EPSG:3857 units) per output pixel, ~z21
+LEGEND_MAX_W = 1000            # px
 
 Image.MAX_IMAGE_PIXELS = None
 
@@ -1051,6 +1052,14 @@ def legend_image(r):
     y = 0
     for c in crops:
         out.paste(c, (0, y)); y += c.height + 12
+    # The legend card shows it at most ~600 px wide; 300 ppi scans gave 1 MB legends
+    # (627/2026). 1000 px keeps small print legible when zoomed.
+    if out.width > LEGEND_MAX_W:
+        out = out.resize((LEGEND_MAX_W, round(out.height * LEGEND_MAX_W / out.width)), Image.LANCZOS)
+    # Scan grain compresses badly: a 3x3 median and paper lifted to white halve the
+    # file without touching the print.
+    from PIL import ImageFilter
+    out = out.filter(ImageFilter.MedianFilter(3)).point([255 if v > 215 else v for v in range(256)] * 3)
     return out
 
 
@@ -1124,7 +1133,7 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
         # OSM's own error comes on top of the fit's: never claim better than 3 m.
         entry["georeferentiere"].update({"aproximativ": True, "precizie_m": int(round(max(3.0, 2 * rms)))})
     if legend is not None:
-        legend.save(os.path.join(d, "legenda.webp"), quality=85, method=6)
+        legend.save(os.path.join(d, "legenda.webp"), quality=80, method=6)
         entry["legenda"] = "puz/%s/legenda.webp" % r["id"]
     # What the decision's text adds to the plate. Validity runs to the last extension.
     v = r.get("valabilitate") or {}
@@ -1163,6 +1172,12 @@ def cmd_build(r, args):
         cmd_render(r, args)
     if not (r.get("valabilitate") or {}).get("pana_la"):
         print("WARNING: no validity in the recipe - run `hcl` and set `valabilitate`")
+    if not r.get("gcp_px"):
+        # Right after transcribing an inventory, before any point is picked: the
+        # area, side and perimeter checks need no fit, so run them alone.
+        if points_en(r):
+            check_area(r, ring_en(r))
+        sys.exit("no control points yet - geometry checks above; pick gcp_px to go on")
     ok_fit, pe, pn, rms, worst = check_fit(r)
     ring = ring_en(r, pe, pn)
     ok_area, area = check_area(r, ring)
@@ -1176,7 +1191,7 @@ def cmd_build(r, args):
     if args.dry_run:
         overlay.save(os.path.join(cache_dir(r), "plansa.webp"), quality=82)
         if legend is not None:
-            legend.save(os.path.join(cache_dir(r), "legenda.webp"), quality=85)
+            legend.save(os.path.join(cache_dir(r), "legenda.webp"), quality=80)
         print("dry run: outputs left in", cache_dir(r))
         return
     publish(r, overlay, legend, bounds, boundary, area, rms)
