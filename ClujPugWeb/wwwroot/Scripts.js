@@ -583,22 +583,35 @@ function setPlanMode(mode) {
 // Puts on the map the plates of the PUZ-uri in view and takes off the rest, so the
 // number of PUZ-uri on the site does not decide how much a visitor downloads.
 // A plate taken off stays in the browser's cache for when it comes back into view.
+//
+// Where two PUZ-uri overlap, the later one is what applies, so it must be drawn on
+// top. Ground overlays stack in the order they are added and puz.json lists the
+// newest first; so whenever the set in view changes, the plates in view are re-added
+// oldest first.
 function syncPuzImages() {
     if (!theMap) {
         return;
     }
     var viewport = theMap.getBounds();
     var showPlates = planMode === 'puz' && viewport && theMap.getZoom() >= PUZ_IMAGE_MIN_ZOOM;
+    var wanted = puzOverlays.filter(function (item) {
+        return showPlates && viewport.intersects(toLatLngBounds(item.puz.bounds));
+    });
+    var changed = puzOverlays.some(function (item) {
+        var onMap = !!(item.image && item.image.getMap());
+        return onMap !== (wanted.indexOf(item) >= 0);
+    });
+    if (!changed) {
+        return;
+    }
     puzOverlays.forEach(function (item) {
-        var wanted = showPlates && viewport.intersects(toLatLngBounds(item.puz.bounds));
-        if (wanted) {
-            ensurePuzImage(item);
-            if (item.image.getMap() !== theMap) {
-                item.image.setMap(theMap);
-            }
-        } else if (item.image && item.image.getMap()) {
+        if (item.image && item.image.getMap()) {
             item.image.setMap(null);
         }
+    });
+    wanted.slice().reverse().forEach(function (item) {
+        ensurePuzImage(item);
+        item.image.setMap(theMap);
     });
 }
 
@@ -647,7 +660,9 @@ function watchPuz(map) {
     });
 }
 
-function createPuzOverlay(puz) {
+// The list is newest first; later PUZ-uri get higher outlines, so a click where two
+// overlap opens the one that applies.
+function createPuzOverlay(puz, index, list) {
     var outline = new google.maps.Polygon({
         paths: puz.limita.map(function (p) { return { lat: p[1], lng: p[0] }; }),
         strokeColor: PUZ_COLOR,
@@ -655,7 +670,7 @@ function createPuzOverlay(puz) {
         strokeWeight: theMap && theMap.getZoom() >= 16 ? 2 : 6,
         fillColor: PUZ_COLOR,
         fillOpacity: 0.06,
-        zIndex: 2
+        zIndex: 2 + (list ? list.length - index : 0)
     });
     outline.addListener('click', function (event) { openPuzInfo(puz, event.latLng); });
     return { puz: puz, outline: outline, image: null };
