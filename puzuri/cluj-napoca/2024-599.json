@@ -1,0 +1,372 @@
+{
+  "id": "2024-599",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 599,
+    "an": 2024,
+    "data_sedinta": "2024-08-29",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-599-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/12/04/HCL-599-2024.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Povârnișului – latura estică",
+  "plansa": {
+    "pagina_pdf": 34,
+    "dpi": 200,
+    "denumire": "U03 Reglementări urbanistice - zonificare",
+    "scara": "1:500",
+    "nota": "Planșa nu dă indicatori POT/CUT/înălțimi; ei sunt doar în hotărâre. Inventarul de coordonate („Calculul analitic al suprafeței delimitate prin PUZ”) urmează limita de proprietate (linia roșie) și include cele două parcele vecine construite din colțul de nord-est (nr. topo 8396/3/2, 253 mp, și nr. cad. 334004, 426 mp), lăsate în afara UTR-urilor propuse."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Calculul analitic al suprafeței delimitate prin PUZ, planșa U03, X(Nord) / Y(Est), Stereo 70",
+    "suprafata_declarata_m2": 15604.98,
+    "puncte": {
+      "536": [
+        587593.577,
+        390328.973
+      ],
+      "500": [
+        587589.54,
+        390329.199
+      ],
+      "501": [
+        587576.491,
+        390329.348
+      ],
+      "502": [
+        587576.55,
+        390329.83
+      ],
+      "540": [
+        587561.961,
+        390329.966
+      ],
+      "503": [
+        587545.314,
+        390329.989
+      ],
+      "504": [
+        587545.348,
+        390330.918
+      ],
+      "505": [
+        587546.283,
+        390338.867
+      ],
+      "506": [
+        587550.185,
+        390375.3
+      ],
+      "507": [
+        587555.743,
+        390414.411
+      ],
+      "508": [
+        587560.925,
+        390452.272
+      ],
+      "509": [
+        587562.146,
+        390462.929
+      ],
+      "510": [
+        587564.949,
+        390484.854
+      ],
+      "511": [
+        587566.849,
+        390499.07
+      ],
+      "512": [
+        587570.449,
+        390527.964
+      ],
+      "513": [
+        587575.759,
+        390570.559
+      ],
+      "514": [
+        587576.104,
+        390574.283
+      ],
+      "515": [
+        587611.34,
+        390572.748
+      ],
+      "541": [
+        587611.32,
+        390572.589
+      ],
+      "516": [
+        587624.061,
+        390572.246
+      ],
+      "517": [
+        587619.697,
+        390531.18
+      ],
+      "518": [
+        587613.474,
+        390487.892
+      ],
+      "519": [
+        587636.523,
+        390484.356
+      ],
+      "520": [
+        587635.035,
+        390475.216
+      ],
+      "521": [
+        587632.377,
+        390458.612
+      ],
+      "522": [
+        587630.107,
+        390445.609
+      ],
+      "523": [
+        587629.523,
+        390442.261
+      ],
+      "524": [
+        587630.451,
+        390442.134
+      ],
+      "525": [
+        587628.745,
+        390425.939
+      ],
+      "600": [
+        587628.431,
+        390422.956
+      ],
+      "526": [
+        587627.48,
+        390413.935
+      ],
+      "601": [
+        587627.438,
+        390413.537
+      ],
+      "527": [
+        587626.289,
+        390402.626
+      ],
+      "528": [
+        587626.254,
+        390402.195
+      ],
+      "530": [
+        587615.787,
+        390321.387
+      ],
+      "531": [
+        587614.67,
+        390312.392
+      ],
+      "533": [
+        587610.57,
+        390318.11
+      ],
+      "534": [
+        587607.047,
+        390322.21
+      ],
+      "535": [
+        587600.489,
+        390325.274
+      ],
+      "532": [
+        587593.372,
+        390327.412
+      ]
+    },
+    "perimetru_declarat_m": 654.59,
+    "ordine": [
+      "536",
+      "500",
+      "501",
+      "502",
+      "540",
+      "503",
+      "504",
+      "505",
+      "506",
+      "507",
+      "508",
+      "509",
+      "510",
+      "511",
+      "512",
+      "513",
+      "514",
+      "515",
+      "541",
+      "516",
+      "517",
+      "518",
+      "519",
+      "520",
+      "521",
+      "522",
+      "523",
+      "524",
+      "525",
+      "600",
+      "526",
+      "601",
+      "527",
+      "528",
+      "530",
+      "531",
+      "533",
+      "534",
+      "535",
+      "532"
+    ],
+    "laturi_declarate_m": {
+      "536": 4.043,
+      "500": 13.05,
+      "501": 0.486,
+      "502": 14.59,
+      "540": 16.647,
+      "503": 0.93,
+      "504": 8.004,
+      "505": 36.641,
+      "506": 39.504,
+      "507": 38.214,
+      "508": 10.727,
+      "509": 22.103,
+      "510": 14.342,
+      "511": 29.117,
+      "512": 42.925,
+      "513": 3.74,
+      "514": 35.269,
+      "515": 0.16,
+      "541": 12.746,
+      "516": 41.297,
+      "517": 43.733,
+      "518": 23.319,
+      "519": 9.26,
+      "520": 16.815,
+      "521": 13.2,
+      "522": 3.399,
+      "523": 0.937,
+      "524": 16.285,
+      "525": 2.999,
+      "600": 9.071,
+      "526": 0.4,
+      "601": 10.971,
+      "527": 0.432,
+      "528": 81.483,
+      "530": 9.064,
+      "531": 7.036,
+      "533": 5.406,
+      "534": 7.238,
+      "535": 7.431,
+      "532": 1.574
+    },
+    "nota": "S(T)=15604,98 mp este suprafața delimitată prin PUZ; terenul reglementat (hotărâre, cartuș, bilanț) are 14.926 mp. Diferența, 679 mp, sunt cele două parcele vecine din colțul de nord-est (253 + 426 mp), cuprinse în contur."
+  },
+  "gcp_px": {
+    "531": [
+      736,
+      1011
+    ],
+    "516": [
+      4806,
+      874
+    ],
+    "514": [
+      4836,
+      1627
+    ],
+    "503": [
+      1003,
+      2103
+    ],
+    "519": [
+      3431,
+      673
+    ]
+  },
+  "verificare_px": {
+    "518": [
+      3481,
+      1033
+    ],
+    "532": [
+      964,
+      1345
+    ],
+    "536": [
+      990,
+      1345
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      5195,
+      316,
+      6552,
+      1572
+    ],
+    [
+      5195,
+      1600,
+      6552,
+      3214
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: individuale sau familiale (două unități), izolat sau cuplat (20 de parcele)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă/atic, 10 m la coamă; (S)+P+M, (S)+P+1 sau D+P"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Instituții și servicii publice sau de interes public în clădiri dedicate (parcela de colț spre str. Vasile Cârlova)",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "15 m; (1-3S)+P+2E"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (spre str. Povârnișului)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "5 m la cornișă; P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-08-29",
+    "verificat": "2026-11-10: nicio prelungire sau modificare în indexul hotărârilor PUZ (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "S_Is*: planșa desenează o retragere posterioară de minim 6 m și una laterală de minim 6 m; hotărârea spune că retragerea posterioară „nu e cazul” (parcelă de colț), iar cea laterală e de cel puțin H/2, dar nu mai puțin de 6 m (7,5 m la o clădire de 15 m).",
+    "Parcela (lotul) 9: planșa scrie „retragere 3 m față de limita posterioară, minim h/2”; hotărârea spune doar că, prin excepție, retragerea posterioară va fi de minim 3 m.",
+    "Suprafața: hotărârea aprobă PUZ-ul pentru un teren de 14.926 mp; conturul din inventarul de coordonate al planșei, desenat pe hartă, închide 15.605 mp, pentru că include și două parcele vecine construite din colțul de nord-est (253 mp și 426 mp), rămase în afara UTR-urilor propuse."
+  ],
+  "conditii": [
+    "Înainte de autorizarea primei construcții: terenul necesar lărgirii străzii Povârnișului la 9 m se dezmembrează și se înscrie în CF ca „drum”; strada Povârnișului regularizată se aduce la strat de uzură, cu semnalizare rutieră, de la intersecția cu str. Tăietura Turcului pe tronsonul de lângă PUZ, pe bază de proiect autorizat.",
+    "Tot înainte de prima autorizație: strada „A” propusă (9 m, între str. Vasile Cârlova și str. Povârnișului) se înscrie în CF ca „drum”, se echipează edilitar (inclusiv canalizare pluvială și iluminat) și se realizează la strat de uzură, cu semnalizare, pe bază de proiect autorizat; are acces public nelimitat.",
+    "Înainte de recepția locuințelor: spațiul verde cu acces public nelimitat (S_Va*) se amenajează pe bază de proiect autorizat, cu cel puțin 8 arbori cu circumferința de minim 35 cm măsurată la 1 m de colet.",
+    "Liu*: parcela construibilă are minim 360 mp pentru locuințe izolate și 300 mp pentru cuplate; sub 500 mp se admit doar locuințe unifamiliale, de la 500 mp și locuințe cu două unități.",
+    "Liu*: retragere de minim 3 m de la aliniament (garajele 6 m), 3 m de la limitele laterale (calcanul la cuplare max. 25 m adâncime) și minim înălțimea clădirii, dar cel puțin 6 m, de la limita posterioară (parcela 9: minim 3 m).",
+    "Accesul pe parcelele Liu* se face din strada „A”, la S_Is* din strada „A” și/sau str. Vasile Cârlova, la S_Va* din str. Povârnișului; parcarea se face în interiorul parcelelor, iar în spațiul verde e interzisă.",
+    "Rețelele se racordează la cele publice, cablurile aeriene sunt interzise, iar apele pluviale nu se descarcă spre domeniul public sau spre vecini.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+}
