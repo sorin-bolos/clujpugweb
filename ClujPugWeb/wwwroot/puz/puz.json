@@ -6614,6 +6614,186 @@
   ]
  },
  {
+  "id": "2020-870",
+  "localitate": "cluj",
+  "hcl": "870/2020",
+  "data": "2020-12-15",
+  "titlu": "P.U.Z. de urbanizare și parcelare, str. Mihai Românu – Nord",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-870-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/12/15/HCL-nr-870-din-15-12-2020-PUZ-Salajan-str-Mihai-Romanu-n.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe familiale sau cu cel mult două unități locative, izolate sau cuplate, retrase de la aliniament",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la coamă sau la aticul nivelului retras, 8 m la cornișă; (S)+P+1+M sau (S)+P+1+R"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public: activități medicale, recuperare medicală, stomatologie, medicină de familie",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "20 m, cornișa 16 m; (1-3S)+P+3E+R"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Spații verzi, scuar, grădină, parc cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 15271,
+  "imagine": "puz/2020-870/plansa.webp",
+  "bounds": {
+   "west": 23.6011886,
+   "south": 46.7409431,
+   "east": 23.6032092,
+   "north": 46.7434126
+  },
+  "limita": [
+   [
+    23.6018853,
+    46.7423278
+   ],
+   [
+    23.6019747,
+    46.7425119
+   ],
+   [
+    23.6020299,
+    46.7426258
+   ],
+   [
+    23.6022788,
+    46.7426018
+   ],
+   [
+    23.6024572,
+    46.7430039
+   ],
+   [
+    23.6022279,
+    46.7430242
+   ],
+   [
+    23.602405,
+    46.7433888
+   ],
+   [
+    23.6026741,
+    46.7433673
+   ],
+   [
+    23.6026762,
+    46.7433675
+   ],
+   [
+    23.6028197,
+    46.7433522
+   ],
+   [
+    23.6029673,
+    46.7433366
+   ],
+   [
+    23.6030449,
+    46.7433283
+   ],
+   [
+    23.6031227,
+    46.7433201
+   ],
+   [
+    23.6021799,
+    46.7409702
+   ],
+   [
+    23.6020937,
+    46.7409762
+   ],
+   [
+    23.6020077,
+    46.7409822
+   ],
+   [
+    23.6018094,
+    46.741002
+   ],
+   [
+    23.6016313,
+    46.7410198
+   ],
+   [
+    23.601594,
+    46.7410273
+   ],
+   [
+    23.6012746,
+    46.7410622
+   ],
+   [
+    23.6012826,
+    46.7410788
+   ],
+   [
+    23.6015932,
+    46.7417199
+   ],
+   [
+    23.6018781,
+    46.7416958
+   ],
+   [
+    23.6020151,
+    46.7420084
+   ],
+   [
+    23.6017485,
+    46.7420315
+   ],
+   [
+    23.6018882,
+    46.7423274
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.2
+  },
+  "legenda": "puz/2020-870/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-12-15",
+   "initial_pana_la": "2025-12-15",
+   "prelungiri": [
+    {
+     "hcl": "673/2025",
+     "pana_la": "2027-12-15",
+     "nota": "HCL 673 din 20 noiembrie 2025 prelungește valabilitatea cu 2 ani; termenul e socotit de la expirarea inițială, 15.12.2025."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Hotărârea numește planșa anexată „217/PUZ/A/D/003a”; cartușul ei poartă „271/PUZ/A/D/003a” (proiectul nr. 271).",
+   "Hotărârea numește subzona de instituții „U.T.R. S_Is*”; planșa o numește „S_Is”.",
+   "Regimul de înălțime în S_Is: caseta U.T.R. a planșei admite (1-2S)+P+3E+(R) (iar pe loturi scrie 2S+P+3+R); hotărârea și notele de reglementări ale planșei admit (1-3S)+P+3E+R.",
+   "Regimul de înălțime în Liu*: legenda și caseta U.T.R. ale planșei admit (S/D)+P+1E+(M/R), deci și demisol; hotărârea și notele de reglementări ale planșei admit (S)+P+1+M sau (S)+P+1+R.",
+   "Planșa cere în S_Is o retragere de min. 6 m față de limitele laterale; Art. 1 nu stabilește retragere laterală pentru S_Is.",
+   "Pe latura de vest, desenul are și un lot de 254 mp (din parcela cu nr. cad. 301892, de 269 mp), fără construcție desenată, sub suprafața de cca. 340 mp (cuplate) sau min. 360 mp (izolate) pe care hotărârea o dă loturilor de locuințe."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Străzile noi A (profil 9 m) și B (profil 6 m) se echipează edilitar și se realizează la strat de uzură înainte de autorizarea construcțiilor pe parcelele cu acces direct din ele; străzile reglementate prin P.U.Z. au acces public nelimitat.",
+   "Terenul pentru lărgirea str. Mihai Românu (la ampriza de 16 m) se dezmembrează, se înscrie în CF ca „drum” și trece gratuit în domeniul public înainte de autorizarea construcțiilor pe parcelele cu acces direct din str. Mihai Românu; până la recepția acestor construcții, lărgirea se aduce la strat de uzură și se face o alveolă pentru transportul în comun.",
+   "Spațiul verde cu acces public nelimitat (S_Va) trece gratuit în domeniul public după amenajare, pe baza unui proiect de specialitate.",
+   "Construcțiile de pe parcelele cu acces direct din strada A se recepționează numai după transferul spațiului verde amenajat în proprietate publică.",
+   "Parcarea se face în interiorul parcelelor, după Anexa 2 a Regulamentului P.U.G.; în spațiul verde parcarea e interzisă. În Liu*, o parcelă are un singur acces pietonal și un singur acces carosabil."
+  ]
+ },
+ {
   "id": "2020-4",
   "localitate": "cluj",
   "hcl": "4/2020",

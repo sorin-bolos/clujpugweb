@@ -1,0 +1,321 @@
+{
+  "id": "2020-870",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 870,
+    "an": 2020,
+    "data_sedinta": "2020-12-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-870-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/12/15/HCL-nr-870-din-15-12-2020-PUZ-Salajan-str-Mihai-Romanu-n.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare și parcelare, str. Mihai Românu – Nord",
+  "plansa": {
+    "pagina_pdf": 27,
+    "dpi": 150,
+    "denumire": "Reglementări urbanistice – zonificare (271/PUZ/A/D/003a)",
+    "scara": "1:1000",
+    "nota": "Planșa apare de două ori în PDF: p. 3 e copia anexată hotărârii (A4, în tonuri de gri, cu mențiunea de mână „Anexa 1 la Hotărârea nr. 870/2020”), iar p. 27 e aceeași planșă 271/PUZ/A/D/003a (proiect nr. 271, 23.06.2020), color, la format A2 (3505×2494 px la 150 ppi), cu viza Comisiei tehnice de amenajare a teritoriului și de urbanism („HCL nr. 870 din 15.12.2020”, aviz nr. 116 din 13.05.2020); s-a folosit p. 27. Celelalte pagini: hotărârea (p. 1-2), regulamentul local de urbanism (Anexa 2, p. 4-20), avizul de oportunitate nr. 408/2018 (p. 21-22), avizul Arhitectului-șef nr. 116/2020 (p. 23-26) și raportul informării și consultării publicului (p. 28-40). Planșa e la scară (5,9 px/m, cât dă 1:1000 la 150 ppi) și e rotită cu ~10,5° față de nordul Stereo 70: strada nouă, care pe planșă e aproape verticală, merge spre NNE. Limita P.U.Z. e linia roșie întreruptă groasă („contur perimetru grup proprietari”); linia portocalie întreruptă e zona de studiu. Legenda cuprinde cheia simbolurilor, notele „Reglementări urbanistice” (retrageri și regim de înălțime pentru Liu* și S_Is) și caseta U.T.R. cu regimul de înălțime și P.O.T./C.U.T.; bilanțul teritorial, inventarul de coordonate, profilurile stradale, viza și cartușul au rămas afară. Din legendă s-au tăiat, ca să nu apară nume de persoane, numele de după „P.U.Z.” din primul rând și rândul cu perimetrul unui P.U.Z. vecin aflat în elaborare (în afara limitei, deci invizibil pe hartă)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă („Parcela (1) – Coordonate pct. de contur”, 26 de puncte, coloanele X [m] (Nord) și Y [m] (Est), cu lungimile laturilor D(i,i+1); S(1)=15271,44 mp, P=748,157 m). Numerele punctelor nu urmează conturul, dar tabelul e în ordinea conturului; s-a copiat ordinea tabelului în `ordine`. Fiecare punct ales e intersecția dreptelor potrivite pe pixelii roșii închiși ai liniei de limită de pe cele două laturi vecine (centrul liniei, 20-35 de profile pe latură), verificată din ochi pe decupaje. Control: 202 (colțul de NV) și 18 (NE), 19 (SE) și 208 (SV, la str. Mihai Românu), plus treptele 203, 206 și 54 de pe latura de vest. Verificare: 56, 255, 22, 116 și 200, celelalte trepte ale laturii de vest. Punctele de pe laturile de nord și de sud (201, 10, 11, 14, 16; 5, 13, 12, 15, 17) și 34, 204, 205, 207 stau pe aliniamente sau în frângeri mici și nu pot fi localizate de-a lungul liniei.",
+    "suprafata_declarata_m2": 15271.44,
+    "perimetru_declarat_m": 748.157,
+    "puncte": {
+      "204": [
+        583471.517,
+        393300.573
+      ],
+      "34": [
+        583491.86,
+        393307.758
+      ],
+      "203": [
+        583504.441,
+        393312.201
+      ],
+      "255": [
+        583501.443,
+        393331.168
+      ],
+      "54": [
+        583545.891,
+        393345.589
+      ],
+      "56": [
+        583548.453,
+        393328.108
+      ],
+      "202": [
+        583588.736,
+        393342.359
+      ],
+      "201": [
+        583585.983,
+        393362.874
+      ],
+      "10": [
+        583585.998,
+        393363.036
+      ],
+      "11": [
+        583584.111,
+        393373.966
+      ],
+      "14": [
+        583582.17,
+        393385.215
+      ],
+      "16": [
+        583581.15,
+        393391.125
+      ],
+      "18": [
+        583580.127,
+        393397.05
+      ],
+      "19": [
+        583320.246,
+        393320.413
+      ],
+      "17": [
+        583321.031,
+        393313.84
+      ],
+      "15": [
+        583321.816,
+        393307.276
+      ],
+      "12": [
+        583324.285,
+        393292.166
+      ],
+      "13": [
+        583326.502,
+        393278.599
+      ],
+      "5": [
+        583327.386,
+        393275.762
+      ],
+      "208": [
+        583331.696,
+        393251.428
+      ],
+      "207": [
+        583333.526,
+        393252.073
+      ],
+      "200": [
+        583404.357,
+        393277.06
+      ],
+      "116": [
+        583401.295,
+        393298.779
+      ],
+      "206": [
+        583435.849,
+        393309.862
+      ],
+      "22": [
+        583438.779,
+        393289.535
+      ],
+      "205": [
+        583471.479,
+        393300.793
+      ]
+    },
+    "ordine": [
+      "204",
+      "34",
+      "203",
+      "255",
+      "54",
+      "56",
+      "202",
+      "201",
+      "10",
+      "11",
+      "14",
+      "16",
+      "18",
+      "19",
+      "17",
+      "15",
+      "12",
+      "13",
+      "5",
+      "208",
+      "207",
+      "200",
+      "116",
+      "206",
+      "22",
+      "205"
+    ],
+    "laturi_declarate_m": {
+      "204": 21.575,
+      "34": 13.342,
+      "203": 19.202,
+      "255": 46.729,
+      "54": 17.668,
+      "56": 42.73,
+      "202": 20.699,
+      "201": 0.163,
+      "10": 11.092,
+      "11": 11.415,
+      "14": 5.997,
+      "16": 6.013,
+      "18": 270.945,
+      "19": 6.62,
+      "17": 6.611,
+      "15": 15.31,
+      "12": 13.747,
+      "13": 2.972,
+      "5": 24.713,
+      "208": 1.94,
+      "207": 75.109,
+      "200": 21.934,
+      "116": 36.288,
+      "206": 20.537,
+      "22": 34.584,
+      "205": 0.223
+    }
+  },
+  "gcp_px": {
+    "202": [
+      980.4,
+      545.2
+    ],
+    "18": [
+      1304.4,
+      537.2
+    ],
+    "19": [
+      1143.5,
+      2137
+    ],
+    "208": [
+      732,
+      2145.5
+    ],
+    "203": [
+      897.3,
+      1070.4
+    ],
+    "206": [
+      957.6,
+      1473.6
+    ],
+    "54": [
+      1044.8,
+      789.2
+    ]
+  },
+  "verificare_px": {
+    "56": [
+      941.2,
+      794.6
+    ],
+    "255": [
+      1009.8,
+      1067.1
+    ],
+    "22": [
+      837.4,
+      1478.9
+    ],
+    "116": [
+      929.3,
+      1687.4
+    ],
+    "200": [
+      801.1,
+      1694.6
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2705,
+      97,
+      3076,
+      116
+    ],
+    [
+      2705,
+      116,
+      3260,
+      397
+    ],
+    [
+      2705,
+      473,
+      3260,
+      1292
+    ],
+    [
+      2540,
+      1325,
+      2915,
+      1710
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe familiale sau cu cel mult două unități locative, izolate sau cuplate, retrase de la aliniament",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la coamă sau la aticul nivelului retras, 8 m la cornișă; (S)+P+1+M sau (S)+P+1+R"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public: activități medicale, recuperare medicală, stomatologie, medicină de familie",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "20 m, cornișa 16 m; (1-3S)+P+3E+R"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Spații verzi, scuar, grădină, parc cu acces public nelimitat",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-12-15"
+  },
+  "prelungiri": [
+    {
+      "hcl": "673/2025",
+      "pana_la": "2027-12-15",
+      "nota": "HCL 673 din 20 noiembrie 2025 prelungește valabilitatea cu 2 ani; termenul e socotit de la expirarea inițială, 15.12.2025."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Hotărârea numește planșa anexată „217/PUZ/A/D/003a”; cartușul ei poartă „271/PUZ/A/D/003a” (proiectul nr. 271).",
+    "Hotărârea numește subzona de instituții „U.T.R. S_Is*”; planșa o numește „S_Is”.",
+    "Regimul de înălțime în S_Is: caseta U.T.R. a planșei admite (1-2S)+P+3E+(R) (iar pe loturi scrie 2S+P+3+R); hotărârea și notele de reglementări ale planșei admit (1-3S)+P+3E+R.",
+    "Regimul de înălțime în Liu*: legenda și caseta U.T.R. ale planșei admit (S/D)+P+1E+(M/R), deci și demisol; hotărârea și notele de reglementări ale planșei admit (S)+P+1+M sau (S)+P+1+R.",
+    "Planșa cere în S_Is o retragere de min. 6 m față de limitele laterale; Art. 1 nu stabilește retragere laterală pentru S_Is.",
+    "Pe latura de vest, desenul are și un lot de 254 mp (din parcela cu nr. cad. 301892, de 269 mp), fără construcție desenată, sub suprafața de cca. 340 mp (cuplate) sau min. 360 mp (izolate) pe care hotărârea o dă loturilor de locuințe."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Străzile noi A (profil 9 m) și B (profil 6 m) se echipează edilitar și se realizează la strat de uzură înainte de autorizarea construcțiilor pe parcelele cu acces direct din ele; străzile reglementate prin P.U.Z. au acces public nelimitat.",
+    "Terenul pentru lărgirea str. Mihai Românu (la ampriza de 16 m) se dezmembrează, se înscrie în CF ca „drum” și trece gratuit în domeniul public înainte de autorizarea construcțiilor pe parcelele cu acces direct din str. Mihai Românu; până la recepția acestor construcții, lărgirea se aduce la strat de uzură și se face o alveolă pentru transportul în comun.",
+    "Spațiul verde cu acces public nelimitat (S_Va) trece gratuit în domeniul public după amenajare, pe baza unui proiect de specialitate.",
+    "Construcțiile de pe parcelele cu acces direct din strada A se recepționează numai după transferul spațiului verde amenajat în proprietate publică.",
+    "Parcarea se face în interiorul parcelelor, după Anexa 2 a Regulamentului P.U.G.; în spațiul verde parcarea e interzisă. În Liu*, o parcelă are un singur acces pietonal și un singur acces carosabil."
+  ]
+}
