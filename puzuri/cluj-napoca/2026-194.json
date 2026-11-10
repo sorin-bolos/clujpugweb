@@ -1,0 +1,274 @@
+{
+  "id": "2026-194",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 194,
+    "an": 2026,
+    "data_sedinta": "2026-05-19",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-194-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-194.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, strada Augustin Maior – latura sudică",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 300,
+    "denumire": "U/P.U.Z./02 Reglementări urbanistice – Zonificare",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 9 e copia anexată hotărârii (A3, 200 ppi, în tonuri de gri, ștampilată „Anexa 2 la Hotărârea nr. 194/2026” și semnată), iar p. 18 e aceeași planșă U/P.U.Z./02 (proiect 04.2022, datată 01.2026), color, la format mare (8298×7026 px la 300 ppi), cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 190 din 18.12.2025) și mențiunea de mână „H.C.L. nr. 194 din 19 mai 2026”; s-a folosit p. 18, mai clară. P. 10 și p. 19 sunt Anexa 3, planșa U/P.U.Z./04 „Proprietăți asupra terenurilor și obiective de utilitate publică”, pe același fond și cu același tabel de coordonate. Planșa e tipărită micșorată: 20,2 px/m în loc de 23,62 px/m cât ar da 1:500 la 300 ppi (~86 %); nordul e în sus (rotație 0,67°). Limita P.U.Z. e linia roz cu pătrățele („parcele reglementate prin PUZ, S=1473 mp”), în două bucăți: P1+P2 la vest și P3 la est, despărțite de imobilele 323384 și 323385 (casă P+E, garaj), care rămân în ULiu. Cifrele negre ale punctelor stau lângă cruci negre care, la 13, 14, 19, 21, 22 și 23, sunt pe liniile negre ale limitelor de proprietate, la 0,3-2 m de colțurile liniei roz; colțurile din inventar sunt cele ale liniei roz (la 7, 9, 11 și 12 crucile și colțurile coincid). Pe latura de vest a lui P1 linia roz se frânge cu ~2,5 m mai la nord decât pct. 25 și se abate de la conturul din inventar cu cel mult ~0,6 m. Legenda cuprinde cheia simbolurilor (limite, zonificare, circulații), U.T.R. Liu* (P.O.T. 35%, C.U.T. 0,9, regim de înălțime, H max 12 m), zona construibilă, U.T.R. Ve (P.O.T. 1%, C.U.T. 0,01) și retragerile; indicii cu suprafețele parcelelor și numerele de CF, numărul locurilor de parcare, bilanțul teritorial, tabelul de coordonate, profilele stradale și cartușul au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabel de coordonate „Parcela (1)” pe planșă (identic pe planșa Proprietăți, p. 19): 30 de puncte, coloanele X [m] (Nord) și Y [m] (Est), cu lungimile laturilor D(i,i+1); S(1)=3490,55 mp, P=532,208 m. Poligonul tabelului e mai mare decât P.U.Z.: pe lângă cele trei parcele din Art. 1 (nr. cad. 301620, 302533, 303498 = P1, P2, P3) cuprinde imobilele 323384-323385 dintre P2 și P3 (pct. 10, 16, 17, 18) și, la sud-vest, o fâșie de ~1195 mp de-a lungul laturii de sud a drumului 270575 / str. Valter Mărăcineanu, peste imobilele 270572-270574 (pct. 1-5 și 26-30, nedesenate pe planșă). Conturul P.U.Z. e format din vârfurile tabelului care sunt pe linia roz a parcelelor reglementate: P1+P2 = 7, 8, 9, 19, 20, 21, 22, 23, 24, 25 (1127,8 mp; CF 623 + 500 mp) și P3 = 11, 12, 13, 14, 15 (350,2 mp; CF 350 mp). Laturile 9-19 (18,587 m) și 11-15 (11,372 m) nu sunt în tabel, dar sunt cotate pe planșe (11,16 + 7,43 = 18,59 m; 11,37 m). Cele două bucăți sunt legate printr-o punte de lățime zero, 9-11 (53,5 m, pe marginea de sud a str. Augustin Maior, adică pe linia 9-10-11 a tabelului), parcursă dus-întors: capetele ei apar a doua oară în `ordine` ca 11b și 9b (aceleași coordonate). Puncte de control: colțurile liniei roz 7 (NV), 23 (SV), 9 (NE la P2), 19 (SE la P2), 12 (NE la P3) și 15 (SV la P3); de verificare: 11 (NV la P3) și 13 (SE la P3).",
+    "suprafata_declarata_m2": 1473,
+    "puncte": {
+      "1": [
+        589101.915,
+        388906.649
+      ],
+      "2": [
+        589115.698,
+        388921.249
+      ],
+      "3": [
+        589123.021,
+        388926.613
+      ],
+      "4": [
+        589127.395,
+        388933.311
+      ],
+      "5": [
+        589137.842,
+        388949.307
+      ],
+      "6": [
+        589163.629,
+        388988.791
+      ],
+      "7": [
+        589162.533,
+        388989.523
+      ],
+      "8": [
+        589170.14,
+        389020.156
+      ],
+      "9": [
+        589176.468,
+        389045.639
+      ],
+      "10": [
+        589186.543,
+        389086.215
+      ],
+      "11": [
+        589189.355,
+        389097.538
+      ],
+      "12": [
+        589197.934,
+        389132.084
+      ],
+      "13": [
+        589190.768,
+        389135.799
+      ],
+      "14": [
+        589183.701,
+        389115.707
+      ],
+      "15": [
+        589178.478,
+        389100.856
+      ],
+      "16": [
+        589177.127,
+        389097.015
+      ],
+      "17": [
+        589170.291,
+        389079.714
+      ],
+      "18": [
+        589161.192,
+        389059.796
+      ],
+      "19": [
+        589158.429,
+        389050.119
+      ],
+      "20": [
+        589153.346,
+        389032.314
+      ],
+      "21": [
+        589151.217,
+        389024.855
+      ],
+      "22": [
+        589148.236,
+        389014.413
+      ],
+      "23": [
+        589140.896,
+        388995.315
+      ],
+      "24": [
+        589152.72,
+        388993.786
+      ],
+      "25": [
+        589153.959,
+        388993.626
+      ],
+      "26": [
+        589129.346,
+        388955.918
+      ],
+      "27": [
+        589126.539,
+        388958.103
+      ],
+      "28": [
+        589115.79,
+        388946.249
+      ],
+      "29": [
+        589114.422,
+        388943.409
+      ],
+      "30": [
+        589098.135,
+        388909.591
+      ],
+      "11b": [
+        589189.355,
+        389097.538
+      ],
+      "9b": [
+        589176.468,
+        389045.639
+      ]
+    },
+    "laturi_declarate_m": {
+      "7": 31.563,
+      "8": 26.257,
+      "11": 35.595,
+      "12": 8.072,
+      "13": 21.299,
+      "14": 15.743,
+      "19": 18.516,
+      "20": 7.757,
+      "21": 10.859,
+      "22": 20.46,
+      "23": 11.922,
+      "24": 1.249
+    },
+    "ordine": [
+      "7",
+      "8",
+      "9",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "11b",
+      "9b",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25"
+    ],
+    "nota": "Toate cele 30 de laturi din tabel ies la cel mult 1 mm de cele tipărite, de la prima citire; aria tabelului iese 3490,55 mp (tipărit 3490,55), perimetrul 532,208 m (identic). Suprafața declarată e cea a P.U.Z.: 1473 mp în „S total teren reglementat”, în legendă („parcele reglementate prin PUZ, S=1473 mp”) și în bilanțul teritorial (623 + 500 + 350 mp după CF); conturul din inventar dă 1477,9 mp (+0,3 %). În `laturi_declarate_m` sunt doar laturile tabelului care sunt și laturi ale conturului (7-8, 8-9, 11-12, 12-13, 13-14, 14-15, 19-20 ... 24-25); perimetrul tabelului nu se aplică. Vârful 6 (la 1,3 m de 7, colțul drumului 270575) nu intră: linia roz pornește din 7 (triunghiul 6-7-25 are 0,9 mp). `puz.py` primește un singur inel, de aceea puntea: pe hartă conturul o arată ca un segment de 53 m pe marginea străzii, iar planșa decupată are de-a lungul ei o fâșie de ~3 m (zona tampon de 1,5 m)."
+  },
+  "gcp_px": {
+    "7": [
+      3195.8,
+      2364.0
+    ],
+    "23": [
+      3308.8,
+      2807.0
+    ],
+    "9": [
+      4329.0,
+      2089.5
+    ],
+    "19": [
+      4419.7,
+      2460.8
+    ],
+    "12": [
+      6080.0,
+      1672.0
+    ],
+    "15": [
+      5450.0,
+      2064.5
+    ]
+  },
+  "verificare_px": {
+    "11": [
+      5382.5,
+      1839.2
+    ],
+    "13": [
+      6155.0,
+      1821.0
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      5860,
+      3235,
+      7090,
+      5150
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele P1, P2 și P3): pe P1 și P2 locuințe individuale (unifamiliale) și/sau semicolective (familiale), cu cel mult două unități locative suprapuse sau alipite, și anexele lor; pe P3 servicii cu acces public, profesionale, manufacturiere sau garare/parcare; regim de construire izolat (1161 mp după bilanțul planșei, din care 114 mp rezervați lărgirii str. Augustin Maior)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "P1 și P2: 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R. P3: doar parter (cu subsol, dacă terenul permite), 4 m la cornișă, 6 m la coamă"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (312 mp după bilanțul planșei, în partea de sud a parcelelor P1 și P2, spre pârâu); rămân prevederile R.L.U. al P.U.G.",
+      "pot_max": "1% (planșa, după P.U.G.)",
+      "cut_max": "0,01 (planșa, după P.U.G.)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-05-19",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pentru toată zona Liu* același regim de înălțime – (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R – și H max 12 m; hotărârea (Art. 1) îl păstrează doar pentru P1 și P2, cu cel mult 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras și etajul retras cu cel puțin 1,80 m, iar pe P3 admite doar parter (cu subsol, dacă terenul permite), cu cel mult 4 m la cornișă și 6 m la coamă.",
+    "Legenda planșei descrie Liu* doar ca zonă de locuințe; hotărârea admite locuințele (cel mult două unități locative pe parcelă) numai pe P1 și P2, iar pe P3 servicii cu acces public, profesionale, manufacturiere sau garare/parcare.",
+    "Planșa arată retrageri de 3 m față de limitele laterale și de 6 m față de limita posterioară (cu excepția P3); hotărârea cere pentru P1 și P2 cel puțin jumătate din înălțimea clădirii, minimum 3 m, față de limitele laterale (garajele pot fi alipite dacă calcanul nu depășește 2,8 m) și cel puțin înălțimea clădirii, minimum 6 m, față de limita posterioară. Pentru P3, 3 m față de limita de vest, 20,5 m față de cea de est și 1,5 m față de cea posterioară, cum arată și cotele desenului.",
+    "Planșa propune 6 locuri de parcare, câte 2 pe parcelă; hotărârea cere minimum un loc pentru locuințele cu AU sub 100 mp și două peste 100 mp, iar pentru servicii (P3) minimum două locuri."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii str. Augustin Maior la profil de 9 m (114 mp pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele; până la recepția construcțiilor se aduce la strat de uzură și se transferă gratuit în domeniul public (cum propune planșa Proprietăți asupra terenurilor și obiective de utilitate publică).",
+    "La faza D.T.A.C. se obține avizul de gospodărire a apelor (cerut de avizul nr. 123-CJ din 16.12.2024, confirmat prin adresa nr. 3941 din 17.09.2025), pe baza unei documentații tehnice întocmite după normativul aprobat prin Ordinul M.A.P. nr. 828/2019 de un proiectant certificat de Ministerul Apelor și Pădurilor.",
+    "Tot atunci se prezintă soluția de colectare și evacuare a apelor din epuisment pe durata lucrărilor, studiul de inundabilitate pentru parcele și lucrările de consolidare a malului pârâului necadastrat de lângă parcela P3 (C.F. nr. 303498).",
+    "Accesul pe parcele se face din str. Augustin Maior: de regulă un singur acces pietonal și un singur acces carosabil pe parcelă, cel carosabil de 3-6 m lățime; pentru circulațiile din interiorul parcelelor se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelelor: minimum un loc pentru locuințele cu AU sub 100 mp și două pentru cele peste 100 mp, minimum două pentru servicii; alte activități după Anexa 2 la P.U.G.",
+    "Toate construcțiile se racordează la rețelele edilitare existente; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuire; cablurile nu se montează aerian; fiecare parcelă are o platformă sau un spațiu pentru deșeurile menajere, accesibil din spațiul public.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}

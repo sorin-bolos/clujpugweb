@@ -4084,6 +4084,133 @@
   ]
  },
  {
+  "id": "2026-194",
+  "localitate": "cluj",
+  "hcl": "194/2026",
+  "data": "2026-05-19",
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, strada Augustin Maior – latura sudică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-194-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-194.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele P1, P2 și P3): pe P1 și P2 locuințe individuale (unifamiliale) și/sau semicolective (familiale), cu cel mult două unități locative suprapuse sau alipite, și anexele lor; pe P3 servicii cu acces public, profesionale, manufacturiere sau garare/parcare; regim de construire izolat (1161 mp după bilanțul planșei, din care 114 mp rezervați lărgirii str. Augustin Maior)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "P1 și P2: 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R. P3: doar parter (cu subsol, dacă terenul permite), 4 m la cornișă, 6 m la coamă"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (312 mp după bilanțul planșei, în partea de sud a parcelelor P1 și P2, spre pârâu); rămân prevederile R.L.U. al P.U.G.",
+    "pot_max": "1% (planșa, după P.U.G.)",
+    "cut_max": "0,01 (planșa, după P.U.G.)"
+   }
+  ],
+  "suprafata_m2": 1478,
+  "imagine": "puz/2026-194/plansa.webp",
+  "bounds": {
+   "west": 23.5440681,
+   "south": 46.7926063,
+   "east": 23.5460547,
+   "north": 46.7931791
+  },
+  "limita": [
+   [
+    23.5441052,
+    46.7928204
+   ],
+   [
+    23.5445045,
+    46.7928939
+   ],
+   [
+    23.5448368,
+    46.7929551
+   ],
+   [
+    23.5455134,
+    46.7930796
+   ],
+   [
+    23.5459638,
+    46.7931625
+   ],
+   [
+    23.5460141,
+    46.7930986
+   ],
+   [
+    23.5457527,
+    46.7930317
+   ],
+   [
+    23.5455595,
+    46.7929823
+   ],
+   [
+    23.5455134,
+    46.7930796
+   ],
+   [
+    23.5448368,
+    46.7929551
+   ],
+   [
+    23.5448998,
+    46.7927936
+   ],
+   [
+    23.5446678,
+    46.7927449
+   ],
+   [
+    23.5445706,
+    46.7927245
+   ],
+   [
+    23.5444346,
+    46.792696
+   ],
+   [
+    23.5441862,
+    46.7926268
+   ],
+   [
+    23.5441634,
+    46.7927329
+   ],
+   [
+    23.544161,
+    46.792744
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.08
+  },
+  "legenda": "puz/2026-194/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-05-19"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru toată zona Liu* același regim de înălțime – (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R – și H max 12 m; hotărârea (Art. 1) îl păstrează doar pentru P1 și P2, cu cel mult 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras și etajul retras cu cel puțin 1,80 m, iar pe P3 admite doar parter (cu subsol, dacă terenul permite), cu cel mult 4 m la cornișă și 6 m la coamă.",
+   "Legenda planșei descrie Liu* doar ca zonă de locuințe; hotărârea admite locuințele (cel mult două unități locative pe parcelă) numai pe P1 și P2, iar pe P3 servicii cu acces public, profesionale, manufacturiere sau garare/parcare.",
+   "Planșa arată retrageri de 3 m față de limitele laterale și de 6 m față de limita posterioară (cu excepția P3); hotărârea cere pentru P1 și P2 cel puțin jumătate din înălțimea clădirii, minimum 3 m, față de limitele laterale (garajele pot fi alipite dacă calcanul nu depășește 2,8 m) și cel puțin înălțimea clădirii, minimum 6 m, față de limita posterioară. Pentru P3, 3 m față de limita de vest, 20,5 m față de cea de est și 1,5 m față de cea posterioară, cum arată și cotele desenului.",
+   "Planșa propune 6 locuri de parcare, câte 2 pe parcelă; hotărârea cere minimum un loc pentru locuințele cu AU sub 100 mp și două peste 100 mp, iar pentru servicii (P3) minimum două locuri."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii str. Augustin Maior la profil de 9 m (114 mp pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele; până la recepția construcțiilor se aduce la strat de uzură și se transferă gratuit în domeniul public (cum propune planșa Proprietăți asupra terenurilor și obiective de utilitate publică).",
+   "La faza D.T.A.C. se obține avizul de gospodărire a apelor (cerut de avizul nr. 123-CJ din 16.12.2024, confirmat prin adresa nr. 3941 din 17.09.2025), pe baza unei documentații tehnice întocmite după normativul aprobat prin Ordinul M.A.P. nr. 828/2019 de un proiectant certificat de Ministerul Apelor și Pădurilor.",
+   "Tot atunci se prezintă soluția de colectare și evacuare a apelor din epuisment pe durata lucrărilor, studiul de inundabilitate pentru parcele și lucrările de consolidare a malului pârâului necadastrat de lângă parcela P3 (C.F. nr. 303498).",
+   "Accesul pe parcele se face din str. Augustin Maior: de regulă un singur acces pietonal și un singur acces carosabil pe parcelă, cel carosabil de 3-6 m lățime; pentru circulațiile din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelelor: minimum un loc pentru locuințele cu AU sub 100 mp și două pentru cele peste 100 mp, minimum două pentru servicii; alte activități după Anexa 2 la P.U.G.",
+   "Toate construcțiile se racordează la rețelele edilitare existente; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuire; cablurile nu se montează aerian; fiecare parcelă are o platformă sau un spațiu pentru deșeurile menajere, accesibil din spațiul public.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
