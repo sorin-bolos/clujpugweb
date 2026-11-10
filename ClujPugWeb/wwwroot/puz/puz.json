@@ -3223,6 +3223,112 @@
   ]
  },
  {
+  "id": "2026-473",
+  "localitate": "cluj",
+  "hcl": "473/2026",
+  "data": "2026-06-09",
+  "titlu": "P.U.Z. – dezvoltare zonă de activități economice cu caracter terțiar, Bd. Muncii nr. 80 (provizoriu)",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-473-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/06/18/473.pdf",
+  "utr": [
+   {
+    "cod": "Et*",
+    "denumire": "Zonă de activități economice cu caracter terțiar (parcelele 1-4): birouri și sedii de companii, financiar-bancare, comerț cu ADC de cel mult 1000 mp, alimentație publică, servicii cu acces public, servicii profesionale și manufacturiere, cazare turistică, cercetare științifică, cultură, sănătate; regim de construire deschis. Înlocuiește, pe tot imobilul, U.T.R. UEt și G_t din P.U.G., a căror limită comună o corectează",
+    "pot_max": "50%",
+    "cut_max": "2,4",
+    "h_max": "21 m la cornișă, 25 m în total; (1-3S)+P+5+R"
+   }
+  ],
+  "suprafata_m2": 3600,
+  "imagine": "puz/2026-473/plansa.webp",
+  "bounds": {
+   "west": 23.6592044,
+   "south": 46.7964598,
+   "east": 23.6601885,
+   "north": 46.7969912
+  },
+  "limita": [
+   [
+    23.6596915,
+    46.7969496
+   ],
+   [
+    23.6598497,
+    46.7969591
+   ],
+   [
+    23.6601339,
+    46.7969762
+   ],
+   [
+    23.6601671,
+    46.7964896
+   ],
+   [
+    23.6599985,
+    46.7964837
+   ],
+   [
+    23.6598549,
+    46.7964811
+   ],
+   [
+    23.6597256,
+    46.7964835
+   ],
+   [
+    23.6595085,
+    46.7964832
+   ],
+   [
+    23.659237,
+    46.7964857
+   ],
+   [
+    23.6592498,
+    46.7968723
+   ],
+   [
+    23.6592715,
+    46.796916
+   ],
+   [
+    23.6593067,
+    46.796933
+   ],
+   [
+    23.659351,
+    46.7969419
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.03
+  },
+  "legenda": "puz/2026-473/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-06-09"
+  },
+  "diferente_fata_de_plansa": [
+   "Bilanțul teritorial de pe planșă (propunerea de mobilare) are 259,70 mp de spații verzi, 7,21% din cei 3600 mp; regulamentul aprobat (Anexa 1, pct. 13) cere spații verzi pe sol natural de cel puțin 20% din fiecare parcelă și 30% din grădina de fațadă."
+  ],
+  "conditii": [
+   "Fâșia pentru regularizarea Bd. Muncii (parcela 4, 387,79 mp, servitute de utilitate publică) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizațiile de construire; până la modernizarea bulevardului de către municipalitate rămâne spațiu verde, cu asfalt sau dalaj în dreptul acceselor.",
+   "Parcela 3, aleea de acces din str. Dumitru Georgescu Kiriac (carosabil de 7 m, parcaje, trotuar; 45,10 m lungime pe planșă), se înscrie în CF ca „drum” și se amenajează pe baza unui proiect autorizat înainte de autorizațiile de construire pe parcelele 1 și 2.",
+   "Accesul auto se amenajează prin grija și pe cheltuiala investitorului, de o firmă autorizată, fără a schimba cota trotuarului existent, cu bordură teșită și conform NP 051/2012 (avizul Serviciului Siguranța circulației nr. 792223/446/24.10.2025).",
+   "Parcelele 1 și 2 au acces auto doar din aleea de acces (parcela 3), câte un singur acces carosabil de cel mult 6 m; accesele pietonale se fac din Bd. Muncii și din alee.",
+   "Clădirile se retrag cel puțin 5 m de la aliniament, 4,5 m de la limitele laterale și 6 m de la limita posterioară; două clădiri de pe aceeași parcelă stau la cel puțin două treimi din înălțimea celei mai înalte, minim 6 m.",
+   "Sunt construibile doar parcelele cu front la stradă de cel puțin 25 m și suprafață de cel puțin 1000 mp (regulament).",
+   "Parcarea se face în interiorul parcelelor 1 și 2 și/sau pe parcela 3 (cu drept real de folosință), cu numărul de locuri cerut de Anexa 2 a RLU al P.U.G., însumat pe funcțiuni.",
+   "Clădirile se racordează la rețelele publice; apele meteorice nu se scurg spre domeniul public sau spre vecini; cablurile nu se montează aerian.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 20% din fiecare parcelă și 30% din grădina de fațadă; arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (regulament).",
+   "Sunt interzise locuirea de orice tip, activitățile industriale sau poluante, depozitarea en gros, comerțul în clădiri independente de tip supermarket, hypermarket sau mall și construcțiile provizorii (regulament).",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

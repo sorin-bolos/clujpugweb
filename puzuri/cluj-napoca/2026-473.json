@@ -1,0 +1,170 @@
+{
+  "id": "2026-473",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 473,
+    "an": 2026,
+    "data_sedinta": "2026-06-09",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-473-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/06/18/473.pdf"
+  },
+  "titlu": "P.U.Z. – dezvoltare zonă de activități economice cu caracter terțiar, Bd. Muncii nr. 80 (provizoriu)",
+  "plansa": {
+    "pagina_pdf": 12,
+    "dpi": 200,
+    "denumire": "A.03. Plan reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări, A.03 „Plan reglementări urbanistice – zonificare” (Anexa 2, ștampilată și semnată), e p. 12 a PDF-ului (A3, 200 ppi). P. 13 e planșa A.03' „Plan reglementări/parcelare” (Anexa 3), pe aceeași bază și cu același inventar de coordonate, tipărit acolo mai clar; pp. 1-2 sunt hotărârea, pp. 3-11 regulamentul local de urbanism (Anexa 1). Cartușul: proiect 1373/2019, faza P.U.Z., scara 1:500, 19.11.2025. Scara imaginii e 12,9 px/m (1:500 la 200 ppi ar da 15,7 px/m: planșa e tipărită micșorată); nordul e aproape în sus (rotație -0,5° față de Stereo 70). Art. 1 trimite, pentru parcela 4, la „Planșa A.06 Plan reglementări urbanistice – zonificare”, dar planșa de zonificare anexată (Anexa 2, numită așa și în același articol) e A.03. Legenda cuprinde cheia simbolurilor și tabelul „Indici urbanistici maximi admiși conform PUZ” (POT/CUT pentru U.T.R. UEt și G_t existente și Et* propus); au rămas afară inventarul de coordonate, tabelul suprafețelor U.T.R., bilanțul teritorial, caseta de sus cu datele imobilului și ale beneficiarului, profilurile stradale, cartușul și ștampilele. Simbolurile legendei și-au pierdut culorile la scanare."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.03: 13 puncte, numerotate 2-14 în ordinea limitei, cu Nordul în coloana „Y” și Estul în coloana „X” (etichete inversate față de convenția X = Nord), și „Suprafața totală măsurată = 3600 mp”. Transcris din copia de pe p. 13 (planșa A.03', același tabel, mai lizibil) și verificat cifră cu cifră pe p. 12. Potrivirea folosește colțurile 4, 5 și 10, singurele colțuri drepte ale limitei, și punctul 11, unde latura dinspre str. Dumitru Georgescu Kiriac intră în racordarea cu Bd. Muncii; verificare: punctele 2, 3, 6, 7 și 14, pe mijlocul liniei punctate a limitei (pe laturi aproape drepte, deci verifică mai ales abaterea transversală).",
+    "suprafata_declarata_m2": 3600,
+    "puncte": {
+      "2": [
+        589465.503,
+        397819.724
+      ],
+      "3": [
+        589466.352,
+        397831.817
+      ],
+      "4": [
+        589467.892,
+        397853.542
+      ],
+      "5": [
+        589413.766,
+        397855.154
+      ],
+      "6": [
+        589413.323,
+        397842.276
+      ],
+      "7": [
+        589413.223,
+        397831.314
+      ],
+      "8": [
+        589413.664,
+        397821.452
+      ],
+      "9": [
+        589413.911,
+        397804.876
+      ],
+      "10": [
+        589414.54,
+        397784.164
+      ],
+      "11": [
+        589457.489,
+        397785.864
+      ],
+      "12": [
+        589462.315,
+        397787.606
+      ],
+      "13": [
+        589464.154,
+        397790.322
+      ],
+      "14": [
+        589465.085,
+        397793.722
+      ]
+    },
+    "nota": "Tabelul nu dă laturile și nici perimetrul, doar aria. Cotele de pe desen se potrivesc cu laturile inventarului (54,15; 21,78; 20,72; 12,88; 10,96; 5,13; 3,28 m), în afară de două perechi cu aceeași sumă: 26,05 + 12,07 m pe desen față de 26,005 + 12,123 m (14-2, 2-3) și 9,55 + 16,89 m față de 9,872 + 16,578 m (7-8, 8-9). Diferența ține doar de poziția punctelor 2 și 8 pe laturi aproape drepte (0,05 și 0,32 m) și nu schimbă limita."
+  },
+  "gcp_px": {
+    "4": [
+      2151,
+      925
+    ],
+    "5": [
+      2173,
+      1625
+    ],
+    "10": [
+      1259,
+      1623
+    ],
+    "11": [
+      1279,
+      1068
+    ]
+  },
+  "verificare_px": {
+    "2": [
+      1714,
+      958
+    ],
+    "3": [
+      1867,
+      948
+    ],
+    "6": [
+      2007,
+      1630
+    ],
+    "7": [
+      1866,
+      1631
+    ],
+    "14": [
+      1381,
+      967
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      220,
+      333,
+      525,
+      1258
+    ],
+    [
+      203,
+      2003,
+      1034,
+      2116
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Et*",
+      "denumire": "Zonă de activități economice cu caracter terțiar (parcelele 1-4): birouri și sedii de companii, financiar-bancare, comerț cu ADC de cel mult 1000 mp, alimentație publică, servicii cu acces public, servicii profesionale și manufacturiere, cazare turistică, cercetare științifică, cultură, sănătate; regim de construire deschis. Înlocuiește, pe tot imobilul, U.T.R. UEt și G_t din P.U.G., a căror limită comună o corectează",
+      "pot_max": "50%",
+      "cut_max": "2,4",
+      "h_max": "21 m la cornișă, 25 m în total; (1-3S)+P+5+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-06-09",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Bilanțul teritorial de pe planșă (propunerea de mobilare) are 259,70 mp de spații verzi, 7,21% din cei 3600 mp; regulamentul aprobat (Anexa 1, pct. 13) cere spații verzi pe sol natural de cel puțin 20% din fiecare parcelă și 30% din grădina de fațadă."
+  ],
+  "conditii": [
+    "Fâșia pentru regularizarea Bd. Muncii (parcela 4, 387,79 mp, servitute de utilitate publică) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizațiile de construire; până la modernizarea bulevardului de către municipalitate rămâne spațiu verde, cu asfalt sau dalaj în dreptul acceselor.",
+    "Parcela 3, aleea de acces din str. Dumitru Georgescu Kiriac (carosabil de 7 m, parcaje, trotuar; 45,10 m lungime pe planșă), se înscrie în CF ca „drum” și se amenajează pe baza unui proiect autorizat înainte de autorizațiile de construire pe parcelele 1 și 2.",
+    "Accesul auto se amenajează prin grija și pe cheltuiala investitorului, de o firmă autorizată, fără a schimba cota trotuarului existent, cu bordură teșită și conform NP 051/2012 (avizul Serviciului Siguranța circulației nr. 792223/446/24.10.2025).",
+    "Parcelele 1 și 2 au acces auto doar din aleea de acces (parcela 3), câte un singur acces carosabil de cel mult 6 m; accesele pietonale se fac din Bd. Muncii și din alee.",
+    "Clădirile se retrag cel puțin 5 m de la aliniament, 4,5 m de la limitele laterale și 6 m de la limita posterioară; două clădiri de pe aceeași parcelă stau la cel puțin două treimi din înălțimea celei mai înalte, minim 6 m.",
+    "Sunt construibile doar parcelele cu front la stradă de cel puțin 25 m și suprafață de cel puțin 1000 mp (regulament).",
+    "Parcarea se face în interiorul parcelelor 1 și 2 și/sau pe parcela 3 (cu drept real de folosință), cu numărul de locuri cerut de Anexa 2 a RLU al P.U.G., însumat pe funcțiuni.",
+    "Clădirile se racordează la rețelele publice; apele meteorice nu se scurg spre domeniul public sau spre vecini; cablurile nu se montează aerian.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 20% din fiecare parcelă și 30% din grădina de fațadă; arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (regulament).",
+    "Sunt interzise locuirea de orice tip, activitățile industriale sau poluante, depozitarea en gros, comerțul în clădiri independente de tip supermarket, hypermarket sau mall și construcțiile provizorii (regulament).",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiar."
+  ]
+}
