@@ -1,0 +1,219 @@
+{
+  "id": "2023-824",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 824,
+    "an": 2023,
+    "data_sedinta": "2023-12-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-824-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-824.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Făgetului – vest",
+  "plansa": {
+    "pagina_pdf": 11,
+    "dpi": 96,
+    "denumire": "Planșa 04 – Reglementări urbanistice – Zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul are 22 de pagini: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism (p. 4-8), Anexa 2 – planșa 04 „Reglementări urbanistice – Zonificare” redusă pe A4 cu semnătura Arhitectului-șef (p. 9), Anexa 3 – planșa 05 „Proprietatea asupra terenurilor” redusă pe A4 (p. 10, o versiune mai veche a planșei, datată 15.10.2021), planșa 04 la format mare (p. 11, aleasă: aceeași planșă ca Anexa 2, datată 18.08.2022 și vizată cu HCL 824/2023, cu de trei ori mai mulți pixeli și cu inventarele de coordonate lizibile), planșa 05 la format mare (p. 12, datată 18.08.2022), avizul de oportunitate nr. 90/2020 (p. 13-14), un extras din P.U.G. (p. 15), avizul Arhitectului-șef nr. 166/2022 (p. 16-18) și raportul informării și consultării publicului (p. 19-22). Scanare de doar 96 ppi; planșa e tipărită puțin sub scară (7,3 px/m, cam 1:520 în loc de 1:500), așa că liniile au 2-3 px și un pixel are circa 14 cm. Legenda ia, în două casete, legenda planșei (limite, zonificare, circulații) și eticheta U.T.R. Liu_F din desen (P.O.T. max 35%, C.U.T. max 0,9); lasă deoparte tabelul proprietarilor, bilanțul teritorial, inventarele de coordonate, profilul de drum T1, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa are două tabele „Inventar de coordonate”, câte unul pentru fiecare imobil (Nord X / Est Y, Stereo 70): N.C. 267465, punctele 20, 21, 22, 23, 12, 24-35, S=9747 mp, și N.C. 294424 (fâșia îngustă de pe latura de nord), punctele 10, 11, 12, 13, S=2800 mp. Zona reglementată e reuniunea lor, 12.547 mp, cât dau hotărârea, tabelul proprietarilor și bilanțul planșei (12547,00 mp).",
+    "suprafata_declarata_m2": 12547,
+    "puncte": {
+      "20": [
+        582514.001,
+        391984.108
+      ],
+      "21": [
+        582528.554,
+        391983.073
+      ],
+      "22": [
+        582542.214,
+        392001.205
+      ],
+      "23": [
+        582552.648,
+        392015.194
+      ],
+      "12": [
+        582507.152,
+        392178.722
+      ],
+      "24": [
+        582498.515,
+        392175.737
+      ],
+      "25": [
+        582484.449,
+        392171.327
+      ],
+      "26": [
+        582489.795,
+        392148.929
+      ],
+      "27": [
+        582464.606,
+        392144.32
+      ],
+      "28": [
+        582466.347,
+        392136.342
+      ],
+      "29": [
+        582470.132,
+        392116.713
+      ],
+      "30": [
+        582475.862,
+        392087.005
+      ],
+      "31": [
+        582481.578,
+        392057.366
+      ],
+      "32": [
+        582485.634,
+        392036.331
+      ],
+      "33": [
+        582489.691,
+        392015.297
+      ],
+      "34": [
+        582492.571,
+        392000.362
+      ],
+      "35": [
+        582495.451,
+        391985.428
+      ],
+      "10": [
+        582554.37,
+        392017.385
+      ],
+      "11": [
+        582536.559,
+        392188.777
+      ],
+      "13": [
+        582552.648,
+        392015.196
+      ]
+    },
+    "ordine": [
+      "20",
+      "21",
+      "22",
+      "23",
+      "10",
+      "11",
+      "12",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35"
+    ],
+    "nota": "Cele două imobile au în comun latura 13-12 (13 = 23, la 2 mm diferență între tabele; 12 apare cu aceleași coordonate în ambele). Conturul zonei, în `ordine`, ocolește latura comună: 20, 21, 22, 23, apoi 10 și 11 din N.C. 294424, apoi 12, 24 … 35; punctul 13 rămâne în `puncte` doar ca înregistrare. Fiecare tabel verifică separat: 9747,0 mp (tabel S=9747 mp) și 2800,2 mp (tabel S=2800 mp); reuniunea face 12547,2 mp. Tabelele nu tipăresc laturi sau perimetru. Cifrele neclare la 96 ppi (21, 24, 28, 11) sunt fixate de arii: o cifră citită greșit (de pildă 6 în loc de 8) ar muta aria cu 7-160 mp. Punctele 31-35 sunt identice, la milimetru, cu punctele 269, 90, 268, 92 și 17 din inventarul P.U.Z. HCL 867/2020 (vecinul de la sud), ceea ce confirmă citirea lor."
+  },
+  "gcp_px": {
+    "21": [
+      154,
+      329
+    ],
+    "10": [
+      400,
+      139
+    ],
+    "11": [
+      1650,
+      269
+    ],
+    "27": [
+      1328,
+      792
+    ],
+    "35": [
+      170,
+      570
+    ]
+  },
+  "verificare_px": {
+    "25": [
+      1522,
+      651
+    ],
+    "26": [
+      1361,
+      614
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1748,
+      282,
+      2022,
+      626
+    ],
+    [
+      843,
+      300,
+      988,
+      396
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu_F",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: 17 parcele pentru locuințe individuale (unifamiliale), izolate sau cuplate, regim de construire deschis; zona cuprinde și strada nouă",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă (sau la aticul ultimului nivel neretras), 12 m la coamă (sau la aticul nivelului retras); două niveluri supraterane plus mansardă sau nivel retras: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Vpa",
+      "denumire": "Subzonă a pădurilor cu rol de agrement, cu acces public nelimitat (o parcelă de spațiu verde): promenadă, alergare, odihnă, călărie, deplasări velo",
+      "pot_max": "0",
+      "cut_max": "0",
+      "h_max": "nu este cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-12-04",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pentru Liu_F doar P.O.T. max 35% și C.U.T. max 0,9, fără înălțimi; hotărârea (Art. 1) adaugă 8 m la cornișă, 12 m la coamă și configurațiile de niveluri admise ((S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R).",
+    "Pentru S_Vpa planșa nu tipărește indicatori; hotărârea fixează P.O.T. = 0 și C.U.T. = 0.",
+    "Anexa 3 a hotărârii (planșa 05 „Proprietatea asupra terenurilor”, datată 15.10.2021) mai desenează lângă str. Făgetului o subzonă „S_Et*F” (P.O.T. max 50%, C.U.T. max 2,4), pe care nici textul hotărârii, nici planșa de reglementări din Anexa 2, nici planșa 05 la format mare (datată 18.08.2022) nu o mai au: acolo toată zona de locuințe e Liu_F."
+  ],
+  "conditii": [
+    "Se reglementează 12.547 mp de teren proprietate privată (nr. cad. 267465 și 294424) pe latura de vest a str. Făgetului: 17 parcele de locuințe (Liu_F), o parcelă de spațiu verde public (S_Vpa) și o stradă nouă.",
+    "Retrageri la Liu_F: 6 m de la aliniamentul străzii noi și 5 m de la str. Făgetului (la parcelele de lângă girație, cele din planșa de reglementări); cel puțin 3 m de la limitele laterale, sau pe o limită laterală, cuplat, cu convenție de vecinătate; garajele se pot alipi limitelor laterale cu calcan de cel mult 2,8 m, fără convenție; cel puțin 6 m de la limita posterioară, inclusiv garajele.",
+    "Toate construcțiile stau în fâșia de 28 m de la aliniament; în spate se admit doar edicule provizorii de grădină (filigorii, depozite de unelte), de cel mult 15 mp în total.",
+    "Accesul pe parcele se face direct dintr-un drum reglementat: de regulă un singur acces pietonal și unul carosabil, cel carosabil de cel mult 5 m; parcarea se face pe parcelă, un loc pentru locuințe cu aria utilă sub 100 mp, două peste 100 mp.",
+    "Construcțiile se racordează la apă, canalizare, electricitate și gaz; apele pluviale nu se scurg spre domeniul public sau spre vecini; cablurile aeriene sunt interzise; fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public.",
+    "Strada nouă, cu ampriza de 9 m, girație și platformă de staționare, se echipează edilitar și se asfaltează (strat de uzură), după un proiect de specialitate, înainte de autorizațiile de construire pe parcele.",
+    "Înainte de recepția construcțiilor se fac trotuarele și semnalizarea rutieră, iar strada trece gratuit în domeniul public, cum arată planșa „Proprietatea asupra terenurilor”.",
+    "Spațiul verde S_Vpa se dezmembrează și se înscrie în cartea funciară ca „spațiu verde” înainte de autorizațiile de construire pe parcele; se amenajează după un proiect de specialitate (cel puțin 5 arbori cu circumferința de minimum 35 cm la 1 m de colet, plantații medii și joase, mobilier urban, iluminat) și trece gratuit în domeniul public înainte de recepția ultimei construcții din zona de locuințe.",
+    "În S_Vpa: acces din strada nouă, cu accese de serviciu pentru deșeuri și pompieri; aleile pietonale și velo din agregate compactate (sau asfalt cu aspect asemănător); parcarea mașinilor e interzisă.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}

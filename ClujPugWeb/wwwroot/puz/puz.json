@@ -8556,6 +8556,144 @@
   ]
  },
  {
+  "id": "2023-824",
+  "localitate": "cluj",
+  "hcl": "824/2023",
+  "data": "2023-12-04",
+  "titlu": "P.U.Z. de urbanizare, str. Făgetului – vest",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-824-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-824.pdf",
+  "utr": [
+   {
+    "cod": "Liu_F",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: 17 parcele pentru locuințe individuale (unifamiliale), izolate sau cuplate, regim de construire deschis; zona cuprinde și strada nouă",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă (sau la aticul ultimului nivel neretras), 12 m la coamă (sau la aticul nivelului retras); două niveluri supraterane plus mansardă sau nivel retras: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Vpa",
+    "denumire": "Subzonă a pădurilor cu rol de agrement, cu acces public nelimitat (o parcelă de spațiu verde): promenadă, alergare, odihnă, călărie, deplasări velo",
+    "pot_max": "0",
+    "cut_max": "0",
+    "h_max": "nu este cazul"
+   }
+  ],
+  "suprafata_m2": 12547,
+  "imagine": "puz/2023-824/plansa.webp",
+  "bounds": {
+   "west": 23.5848396,
+   "south": 46.733042,
+   "east": 23.5875995,
+   "north": 46.7339144
+  },
+  "limita": [
+   [
+    23.5848833,
+    46.7335041
+   ],
+   [
+    23.5848663,
+    46.7336348
+   ],
+   [
+    23.5851004,
+    46.7337606
+   ],
+   [
+    23.5852809,
+    46.7338567
+   ],
+   [
+    23.5853092,
+    46.7338725
+   ],
+   [
+    23.5875557,
+    46.7337399
+   ],
+   [
+    23.587431,
+    46.7334737
+   ],
+   [
+    23.587394,
+    46.7333955
+   ],
+   [
+    23.5873396,
+    46.7332683
+   ],
+   [
+    23.5870453,
+    46.7333128
+   ],
+   [
+    23.5869909,
+    46.7330855
+   ],
+   [
+    23.5868861,
+    46.7330999
+   ],
+   [
+    23.5866284,
+    46.7331307
+   ],
+   [
+    23.5862384,
+    46.7331775
+   ],
+   [
+    23.5858493,
+    46.7332242
+   ],
+   [
+    23.5855731,
+    46.7332573
+   ],
+   [
+    23.585297,
+    46.7332904
+   ],
+   [
+    23.5851009,
+    46.7333139
+   ],
+   [
+    23.5849049,
+    46.7333374
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.17
+  },
+  "legenda": "puz/2023-824/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-12-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru Liu_F doar P.O.T. max 35% și C.U.T. max 0,9, fără înălțimi; hotărârea (Art. 1) adaugă 8 m la cornișă, 12 m la coamă și configurațiile de niveluri admise ((S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R).",
+   "Pentru S_Vpa planșa nu tipărește indicatori; hotărârea fixează P.O.T. = 0 și C.U.T. = 0.",
+   "Anexa 3 a hotărârii (planșa 05 „Proprietatea asupra terenurilor”, datată 15.10.2021) mai desenează lângă str. Făgetului o subzonă „S_Et*F” (P.O.T. max 50%, C.U.T. max 2,4), pe care nici textul hotărârii, nici planșa de reglementări din Anexa 2, nici planșa 05 la format mare (datată 18.08.2022) nu o mai au: acolo toată zona de locuințe e Liu_F."
+  ],
+  "conditii": [
+   "Se reglementează 12.547 mp de teren proprietate privată (nr. cad. 267465 și 294424) pe latura de vest a str. Făgetului: 17 parcele de locuințe (Liu_F), o parcelă de spațiu verde public (S_Vpa) și o stradă nouă.",
+   "Retrageri la Liu_F: 6 m de la aliniamentul străzii noi și 5 m de la str. Făgetului (la parcelele de lângă girație, cele din planșa de reglementări); cel puțin 3 m de la limitele laterale, sau pe o limită laterală, cuplat, cu convenție de vecinătate; garajele se pot alipi limitelor laterale cu calcan de cel mult 2,8 m, fără convenție; cel puțin 6 m de la limita posterioară, inclusiv garajele.",
+   "Toate construcțiile stau în fâșia de 28 m de la aliniament; în spate se admit doar edicule provizorii de grădină (filigorii, depozite de unelte), de cel mult 15 mp în total.",
+   "Accesul pe parcele se face direct dintr-un drum reglementat: de regulă un singur acces pietonal și unul carosabil, cel carosabil de cel mult 5 m; parcarea se face pe parcelă, un loc pentru locuințe cu aria utilă sub 100 mp, două peste 100 mp.",
+   "Construcțiile se racordează la apă, canalizare, electricitate și gaz; apele pluviale nu se scurg spre domeniul public sau spre vecini; cablurile aeriene sunt interzise; fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public.",
+   "Strada nouă, cu ampriza de 9 m, girație și platformă de staționare, se echipează edilitar și se asfaltează (strat de uzură), după un proiect de specialitate, înainte de autorizațiile de construire pe parcele.",
+   "Înainte de recepția construcțiilor se fac trotuarele și semnalizarea rutieră, iar strada trece gratuit în domeniul public, cum arată planșa „Proprietatea asupra terenurilor”.",
+   "Spațiul verde S_Vpa se dezmembrează și se înscrie în cartea funciară ca „spațiu verde” înainte de autorizațiile de construire pe parcele; se amenajează după un proiect de specialitate (cel puțin 5 arbori cu circumferința de minimum 35 cm la 1 m de colet, plantații medii și joase, mobilier urban, iluminat) și trece gratuit în domeniul public înainte de recepția ultimei construcții din zona de locuințe.",
+   "În S_Vpa: acces din strada nouă, cu accese de serviciu pentru deșeuri și pompieri; aleile pietonale și velo din agregate compactate (sau asfalt cu aspect asemănător); parcarea mașinilor e interzisă.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-604",
   "localitate": "cluj",
   "hcl": "604/2023",
