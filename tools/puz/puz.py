@@ -1352,8 +1352,10 @@ def normalize_ro(text):
 
 # "beneficiari: A B, C D și E F, pentru un teren ...": the names run until the first
 # part with a lower-case word.
-# The pages' text breaks words: "beneficiar ă : S.C. ...".
-BENEFICIARY_CLAUSE = re.compile(r"beneficiar\w*(?:\s[ăai]{1,2}\b)?\s*:?\s+(.{3,300})", re.I | re.S)
+# The pages' text breaks words, the keyword too: "beneficiar ă :", "beneficiar e :",
+# "beneficia ri:", "beneficia re:".
+BENEFICIARY_WORD = r"benefici\s?a\s?r\w*(?:\s[ăaie]{1,2}\b)?"
+BENEFICIARY_CLAUSE = re.compile(BENEFICIARY_WORD + r"\s*:?\s+(.{3,300})", re.I | re.S)
 NAME_TOKEN = re.compile(r"^(?:[A-ZĂÂÎȘŞȚŢ][\wăâîșşțţĂÂÎȘŞȚŢ.\-]*|S\.?C\.?|S\.?R\.?L\.?|S\.?A\.?)$")
 NOT_A_NAME = {normalize_ro(w) for w in (
     "S.R.L", "SRL", "S.A", "SA", "S.C", "SC", "SNC", "PFA", "II", "Cluj", "Napoca", "Cluj-Napoca", "Municipiul",
@@ -1486,7 +1488,10 @@ def cmd_audit(r, args):
     # (Ansamblu „Noroc” is built by Noroc Com), so a hit is shown in context, to judge.
     text = decision_text(r)
     raw = (json.dumps({k: v for k, v in r.items() if not k.startswith("_")}, ensure_ascii=False) + "\n"
-           + json.dumps(entry or {}, ensure_ascii=False) + "\n" + msg)
+           # Not "bounds": numbers under the keys north/south/east/west, which an
+           # owner's name can contain (North Area Development).
+           + json.dumps({k: v for k, v in (entry or {}).items() if k != "bounds"}, ensure_ascii=False)
+           + "\n" + msg)
     published_text = normalize_ro(re.sub(r"\S+@\S+|https?://\S+", " ", raw))
     to_check = []
     if text is None:
@@ -1495,7 +1500,7 @@ def cmd_audit(r, args):
         words, unread = beneficiary_words(text)
         checks.append("nume de beneficiari căutate: %d cuvinte" % len(words))
         if unread and not words:
-            m = re.search(r"beneficiar\w*(?:\s[ăai]{1,2}\b)?\s*:\s*(.{0,80})", text, re.S)
+            m = re.search(BENEFICIARY_WORD + r"\s*:\s*(.{0,80})", text, re.I | re.S)
             to_check.append("numele beneficiarilor n-au putut fi citite din textul hotărârii (…%s…): "
                             "caută-le de mână în rețetă, în puz.json și în mesajul commit-ului"
                             % re.sub(r"\s+", " ", m.group(1) if m else "").strip())
