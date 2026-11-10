@@ -83,7 +83,10 @@ where `<id>` is `<an>-<nr>`.
      `perimetru_declarat_m`. Use the plate's own figures.
    - **No inventory but a labelled Stereo 70 grid.** Use `repere`, trace
      `limita_px` on the boundary line, and take the area from the balance table
-     (README, "Plates without a coordinate inventory").
+     (README, "Plates without a coordinate inventory"). Keep at least one
+     labelled cross out of `gcp_px`, in `verificare_px`. When the labels are only
+     on the frame, each crossing of two labelled lines is a point; one you would
+     have to extend a grid step to reach is not.
    - **Grid crosses without labels.** Follow "Unlabelled grids" below, and trace
      `limita_px` if there is no inventory either. First make sure the crosses
      belong to the drawing: if the PDF has another plate on the same base map,
@@ -99,6 +102,21 @@ where `<id>` is `<an>-<nr>`.
      should be; `vertices <names>` shows zoomed crops around them.
    - Pick at least 4 sharp corners spread over the whole boundary, on the centre
      of the boundary line. Put 2 or more others in `verificare_px`.
+   - **Every point is read off the plate** (an inventory vertex, a grid cross, the
+     crossing of two labelled grid lines) or snapped to OSM. Never construct one,
+     for example by stepping a grid interval from a point you have: the fit would
+     test itself. Four points in a parallelogram fit an affine model exactly
+     wherever they sit, and 0 m residuals then say nothing.
+   - **A traced boundary needs a check point.** When `limita_px` gives the boundary
+     (or with OSM control points), the fit places the boundary itself on the map,
+     and the gate fails without at least one point in `verificare_px`. It must be
+     another point of the same kind as the control points, not one of them. If the
+     plate has none to spare, take one from OSM: an existing building's corner or a
+     street crossing, with `osm-snap NAME x y --check`. If even that is impossible
+     (Overpass down, nothing existing drawn nearby), stop: the stop note says what
+     a person should look at.
+   - Never set `verificare_umana`. Only a person sets it, after checking the
+     position on the imagery; the audit flags a commit that adds it.
    - Don't trust a north-up assumption: plates can be rotated.
    - `overlay x0 y0 x1 y1` draws the fitted boundary over the plate. It must follow
      the drawn PUZ boundary everywhere.
@@ -233,7 +251,8 @@ good to under half a step, fixes every label:
    `{px: [x, y], en: [E, N], sursa: "..."}`.
 5. **Labels.** Run `caroiaj` and read its verdict. If it says the labels are safe,
    run `caroiaj --write`: the labelled crosses go into `repere` and `gcp_px`. If
-   it warns, get a better anchor.
+   it warns, get a better anchor. Then move one or two crosses, away from the
+   others, from `gcp_px` to `verificare_px`: `--write` keeps none for checking.
 6. **Build.** The imagery check is decisive. A label one step off shows as the
    whole plate shifted by one step against roads and buildings. Fix the anchor and
    redo it. Say in `coordonate.sursa` that the grid was labelled this way.
@@ -261,7 +280,8 @@ approximate (±3-5 m), and the info window says so.
    `osm-snap NAME x y --write` (`--check` for check points). Read what it snapped
    to: a corner of the same building, the same crossing. If two candidates are
    close, look at `osm` again and use `--pick N`. After the first two points the
-   fit replaces the anchor: run `osm` again to see it tighten.
+   fit replaces the anchor: run `osm` again to see it tighten. At least one point
+   must be a check point (`--check`): the gate fails without one.
 5. **Boundary.** Trace `limita_px` (unless an inventory is legible). The area
    comes from the balance table, with a 3% tolerance.
 6. **Build and imagery check** as usual. Put the method and the points used in
@@ -276,7 +296,9 @@ Stop without building if any of these holds, and report what you saw:
   plate can be matched to OSM;
 - the coordinate table is illegible where it matters and the checks cannot
   settle it;
-- the quality gates fail and re-picking does not fix them;
+- the quality gates fail and re-picking does not fix them, including a traced
+  boundary with no check point to be had (say in `motiv` what you checked
+  instead, so a person can confirm the position);
 - the imagery check looks wrong and you cannot find why.
 
 If you already ran a publishing `build`, remove `ClujPugWeb/wwwroot/puz/<id>/`

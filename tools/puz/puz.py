@@ -977,6 +977,21 @@ def check_area(r, ring):
     return ok, a
 
 
+def independent_checks(r):
+    """Check points that are not also control points: the only test of a fit beyond
+    its own residuals. Four control points leave an affine fit two equations to
+    spare, and four built as a parallelogram none: their residuals come out 0
+    wherever the points sit (496/2026)."""
+    gcp = r.get("gcp_px", {})
+    return [n for n in r.get("verificare_px", {}) if n not in gcp]
+
+
+def fit_places_boundary(r):
+    """True when the fit carries the boundary itself onto the map (a boundary traced on
+    the plate, or OSM control points), not just the plate's image under an inventory."""
+    return boundary_digitized(r) or osm_method(r)
+
+
 def check_fit(r):
     names = list(r["gcp_px"])
     pe, pn = fit_affine(r, names)
@@ -1006,6 +1021,15 @@ def check_fit(r):
                    for n in names}
             print("    without %-14s rms %.2f m, its residual %.2f m" % (
                 out, math.sqrt(sum(err[n] ** 2 for n in rest) / len(rest)), err[out]))
+    if not independent_checks(r):
+        if not fit_places_boundary(r):
+            print("no check points: the boundary comes from the inventory; only the plate's placement is untested")
+        elif r.get("verificare_umana"):
+            print("no check points; position confirmed by a person: %s" % r["verificare_umana"])
+        else:
+            print("no check points: the traced boundary is placed by this fit alone and nothing tests it"
+                  " -> NOT VERIFIED (add a check point read off the plate, or from OSM with osm-snap --check)")
+            ok = False
     return ok, pe, pn, rms, worst
 
 
@@ -1448,6 +1472,13 @@ def cmd_audit(r, args):
             "OK" if ok_fit else "EȘUAT", rms, "OK" if ok_area else "EȘUAT"))
         if not (ok_fit and ok_area):
             problems.append("porțile de calitate nu trec")
+        if not independent_checks(r):
+            if not fit_places_boundary(r):
+                notes.append("niciun punct de verificare: limita vine din inventar, dar așezarea planșei nu e verificată")
+            elif r.get("verificare_umana"):
+                notes.append("niciun punct de verificare; poziția confirmată de un om: %s" % r["verificare_umana"])
+            else:
+                problems.append("limita trasată nu e verificată de nimic independent: niciun punct în `verificare_px`")
         if abs(entry.get("suprafata_m2", 0) - area) > 1:
             problems.append("puz.json are altă arie (%s) decât rețeta (%.0f): build nerulat după ultima modificare"
                             % (entry.get("suprafata_m2"), area))
@@ -1480,6 +1511,10 @@ def cmd_audit(r, args):
         problems.append("commit-ul atinge fișiere din afara PUZ-ului: %s" % ", ".join(outside))
     if "Co-Authored-By:" not in msg:
         notes.append("mesajul commit-ului n-are linia Co-Authored-By")
+    # Only a person confirms a position no check point tests; an agent's commit must not.
+    recipe_diff = git("show", "--format=", commit, "--", os.path.relpath(r["_path"], ROOT).replace("\\", "/"))
+    if re.search(r'^\+\s*"verificare_umana"', recipe_diff, re.M):
+        problems.append("commit-ul adaugă `verificare_umana`: o confirmare pe care doar un om o poate da")
     dirty = [l for l in git("status", "--porcelain").splitlines() if l.strip()]
     if dirty:
         problems.append("modificări necomise: %s" % ", ".join(l[3:] for l in dirty[:8]))

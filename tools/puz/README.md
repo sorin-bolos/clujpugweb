@@ -29,6 +29,18 @@ Two checks catch mistakes:
   At 1:250 scanned at 200 dpi a pixel is 3 cm, so a misplaced point shows up in
   metres.
 
+Control points alone can't show a bad fit. An affine fit has six unknowns, so four
+points leave two equations to spare, and four built as a parallelogram leave none:
+their residuals come out 0 wherever the points sit (496/2026). Check points, which
+the fit doesn't use, are what test it. Under an inventory the boundary comes from
+the coordinates, and the fit only places the plate's image, so missing check points
+are only noted. When the boundary is traced (`limita_px`) or the control points come
+from OSM, the fit places the boundary itself: the gate then fails without at least
+one check point. A person who has checked such a position on the imagery can record
+it in the recipe as `verificare_umana` (a date and what was checked), and the gate
+lets it through, showing that line. Agents never set it, and `audit` flags a commit
+that adds it.
+
 `build` refuses to publish if either check fails.
 
 ## Steps for one PUZ
@@ -149,7 +161,9 @@ Some designers print no inventory. HCL 621/2022 is one: a Spanish firm, 17 ha at
 labelled with Est (vertical text) and Nord (horizontal). Then:
 
 - list the crosses you pick under `repere` as `"C<E>_<N>": [N, E]`, and use those
-  names in `gcp_px` and `verificare_px`;
+  names in `gcp_px` and `verificare_px`. At least one goes to `verificare_px`: the
+  boundary is traced, so the gate needs a check point. Every cross is read off the
+  plate; none is built by stepping a grid interval from another;
 - trace the PUZ boundary ("Limita zonei de reglementare") on the plate as
   `limita_px`, a list of `[x, y]`. The fit carries it into Stereo 70;
 - put the total from the plate's balance table (`Bilanț teritorial`) in
@@ -167,7 +181,8 @@ rough position good to under half a step fixes every label:
   OpenStreetMap and gives their centrelines' crossing in Stereo 70;
 - `caroiaj` takes the picked crosses, the step, the north direction, the measured
   px/m and that anchor, and labels each cross. It warns when a label could be one
-  step off, and `--write` stores the result as `repere` and `gcp_px`.
+  step off, and `--write` stores the result as `repere` and `gcp_px`. Move one or
+  two crosses to `verificare_px` afterwards.
 
 The imagery check confirms: a wrong label shows as the whole plate shifted by one
 step. Tested on HCL 621/2022's labelled crosses, with an anchor off by up to 46 m on
@@ -191,8 +206,9 @@ the same streets and buildings, good to a few metres:
   nearest OSM building corner or street crossing as a control point (`--check`
   for a check point). It warns when two candidates are too close to tell apart.
 
-Use 4-8 points spread over the plate. Buildings that exist both on the plate and
-in OSM are best; drawn proposed buildings don't exist yet. The boundary is traced
+Use 4-8 points spread over the plate, at least one of them a check point.
+Buildings that exist both on the plate and in OSM are best; drawn proposed
+buildings don't exist yet. The boundary is traced
 (`limita_px`) unless an inventory is legible. The published entry is marked
 approximate, with a precision of at least 3 m, and the info window says so.
 
@@ -277,7 +293,9 @@ it, audits its commit, and moves on. Agents never run in parallel: they share
 - `puz.sh audit <recipe> [--commit C]` checks one agent's work:
   - the outcome matches the recipe (published / `oprit` with a reason /
     `integrat` and listed by its base);
-  - the quality gates pass, and `puz.json` is up to date;
+  - the quality gates pass, and `puz.json` is up to date. A traced boundary needs
+    a check point or a person's `verificare_umana`, and the commit must not be the
+    one adding `verificare_umana`;
   - the commit touches only that PUZ's files (and a base or amendment folded in);
   - the tree is clean;
   - no owner is named. The names after "beneficiar(i):" in the decision's text are
