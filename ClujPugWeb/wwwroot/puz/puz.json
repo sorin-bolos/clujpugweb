@@ -9046,6 +9046,232 @@
   ]
  },
  {
+  "id": "2020-867",
+  "localitate": "cluj",
+  "hcl": "867/2020",
+  "data": "2020-12-15",
+  "titlu": "P.U.Z. de urbanizare, str. Făgetului – latura vestică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-867-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/2021/01/20/HCL-nr-867-din-15-12-2020-PUZ-Salanta-Adelina-Fgetului-Uliu.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe familiale, regim de construire deschis; 8 parcele de 420-650 mp; retrageri: de la aliniament min. 3 m (5 m pe parcelele vecine cu zona verde), laterale min. 3 m, posterioare min. 6 m (3 m pe parcelele de colț)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane (S(D)+P+1+M/R), H cornișă/atic 9 m, H max (coamă sau atic retras) 12 m"
+   },
+   {
+    "cod": "Va*",
+    "denumire": "Terenuri împădurite situate în intravilan – pădure; parcela de zonă verde cu acces public (pe planșă VP*)",
+    "pot_max": "0%",
+    "cut_max": "0",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 7701,
+  "imagine": "puz/2020-867/plansa.webp",
+  "bounds": {
+   "west": 23.5848831,
+   "south": 46.732407,
+   "east": 23.5872541,
+   "north": 46.7333825
+  },
+  "limita": [
+   [
+    23.5865612,
+    46.7327218
+   ],
+   [
+    23.5866526,
+    46.7327173
+   ],
+   [
+    23.586634,
+    46.7325364
+   ],
+   [
+    23.5869293,
+    46.7325119
+   ],
+   [
+    23.587231,
+    46.732487
+   ],
+   [
+    23.5872261,
+    46.7324508
+   ],
+   [
+    23.5869722,
+    46.7324719
+   ],
+   [
+    23.5867183,
+    46.7324929
+   ],
+   [
+    23.5864783,
+    46.7325128
+   ],
+   [
+    23.5864263,
+    46.7325172
+   ],
+   [
+    23.5858719,
+    46.7325631
+   ],
+   [
+    23.5858172,
+    46.7325677
+   ],
+   [
+    23.5852279,
+    46.7326166
+   ],
+   [
+    23.5852004,
+    46.7326551
+   ],
+   [
+    23.5851862,
+    46.7326698
+   ],
+   [
+    23.5850971,
+    46.7327626
+   ],
+   [
+    23.5849585,
+    46.7329241
+   ],
+   [
+    23.5849049,
+    46.7333374
+   ],
+   [
+    23.5851009,
+    46.7333139
+   ],
+   [
+    23.585297,
+    46.7332904
+   ],
+   [
+    23.5855731,
+    46.7332573
+   ],
+   [
+    23.5858493,
+    46.7332242
+   ],
+   [
+    23.5861633,
+    46.7331865
+   ],
+   [
+    23.5861198,
+    46.733015
+   ],
+   [
+    23.5862865,
+    46.7329951
+   ],
+   [
+    23.586453,
+    46.7329752
+   ],
+   [
+    23.5865857,
+    46.7329593
+   ],
+   [
+    23.586586,
+    46.7329624
+   ],
+   [
+    23.5866774,
+    46.732958
+   ],
+   [
+    23.5866756,
+    46.7329412
+   ],
+   [
+    23.5866526,
+    46.7327174
+   ],
+   [
+    23.5865612,
+    46.7327218
+   ],
+   [
+    23.5865801,
+    46.7329052
+   ],
+   [
+    23.5862803,
+    46.732941
+   ],
+   [
+    23.5862592,
+    46.7327366
+   ],
+   [
+    23.586224,
+    46.7327383
+   ],
+   [
+    23.5862287,
+    46.7327634
+   ],
+   [
+    23.586205,
+    46.7327662
+   ],
+   [
+    23.5861738,
+    46.7325881
+   ],
+   [
+    23.5863765,
+    46.7325714
+   ],
+   [
+    23.5865443,
+    46.7325575
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.08
+  },
+  "legenda": "puz/2020-867/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-12-15",
+   "initial_pana_la": "2025-12-15",
+   "prelungiri": [
+    {
+     "hcl": "29/2026",
+     "pana_la": "2027-12-15",
+     "nota": "HCL 29 din 20 ianuarie 2026 prelungește valabilitatea cu 2 ani. A fost adoptată după expirarea termenului inițial (15.12.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 20.01.2028)."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Zona verde de la vest: planșa (desenul, legenda „Teren UTR VP” și bilanțul) și regulamentul din Anexa 3 o numesc U.T.R. VP*/Vp*; hotărârea o numește „U.T.R Va* – terenuri împădurite situate în intravilan” (funcțiune: pădure, P.O.T. 0 %, C.U.T. 0), deși în paragraful Liu* vorbește tot de „UTR Vp”, iar în Art. 1 de „o parcelă cu destinația de zonă verde cu acces public”."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Terenul se parcelează în 9 parcele: 8 pentru locuințe familiale, de 420-650 mp, și una de zonă verde cu acces public.",
+   "Accesul se face din str. Făgetului, pe un drum de interes local propus cu ampriza de 7 m și pe un drum de interes local cu ampriza de 6 m.",
+   "Parcarea se organizează în interiorul parcelelor; echiparea edilitară se face din rețelele existente pe str. Făgetului."
+  ]
+ },
+ {
   "id": "2020-4",
   "localitate": "cluj",
   "hcl": "4/2020",

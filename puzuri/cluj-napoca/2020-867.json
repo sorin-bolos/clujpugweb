@@ -1,0 +1,344 @@
+{
+  "id": "2020-867",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 867,
+    "an": 2020,
+    "data_sedinta": "2020-12-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-867-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/01/20/HCL-nr-867-din-15-12-2020-PUZ-Salanta-Adelina-Fgetului-Uliu.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Făgetului – latura vestică",
+  "plansa": {
+    "pagina_pdf": 20,
+    "dpi": 200,
+    "denumire": "A.03 Plan reglementări",
+    "scara": "1:500",
+    "nota": "PDF-ul are 23 de pagini: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii), Anexa 1 – planșa A.03 micșorată pe A4, culcată, alb-negru, cu mențiunea „Anexa 1 la Hotărârea nr. 867/2020” (p. 3, 300 ppi), Anexa 2 – planșa A.07 „Plan profile străzi – sensuri circulație”, pe același fond (p. 4), Anexa 3 – regulamentul local de urbanism (p. 5-15), avizul Arhitectului-șef nr. 946 din 3.10.2019 (p. 16-19), planșa A.03 „Plan reglementari” color, la format A3 (p. 20, 200 ppi), cu viza „HCL nr. 867 din 15.12.2020” și avizul nr. 946 din 3.10.2019, și raportul informării și consultării publicului (p. 21-23). S-a folosit p. 20, mai clară. Cartușul: proiect nr. 270/2016, faza P.U.Z., 07/2018, scara 1:500; scara reală a imaginii e 15,3 px/m (1:500 tipărit la ~97 %), nordul în sus (rotație -0,04°). Indicatorii U.T.R. Liu* (P.O.T. max 35 %, C.U.T. max 0,9) sunt scriși pe desen; planșa nu are tabel de indicatori. Legenda ia doar cheia simbolurilor; bilanțul teritorial, inventarul de coordonate, profilul aleii IV.2, cartușul și ștampilele au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Parcela (Suprafata_delimitata_prin_P.U.Z.)”, X = Nord / Y = Est (Stereo 70), cu cote Z; 41 de puncte, S = 7701 mp, P = 651,90 m",
+    "suprafata_declarata_m2": 7701,
+    "puncte": {
+      "638": [
+        582424.772,
+        392110.766
+      ],
+      "639": [
+        582424.154,
+        392117.739
+      ],
+      "644": [
+        582404.071,
+        392115.96
+      ],
+      "645": [
+        582400.951,
+        392138.475
+      ],
+      "646": [
+        582397.763,
+        392161.483
+      ],
+      "647": [
+        582393.754,
+        392161.036
+      ],
+      "648": [
+        582396.441,
+        392141.677
+      ],
+      "649": [
+        582399.127,
+        392122.32
+      ],
+      "650": [
+        582401.667,
+        392104.018
+      ],
+      "651": [
+        582402.218,
+        392100.053
+      ],
+      "201": [
+        582408.085,
+        392057.781
+      ],
+      "652": [
+        582408.663,
+        392053.61
+      ],
+      "653": [
+        582414.9,
+        392008.677
+      ],
+      "256": [
+        582419.219,
+        392006.649
+      ],
+      "654": [
+        582420.879,
+        392005.595
+      ],
+      "257": [
+        582431.313,
+        391998.97
+      ],
+      "258": [
+        582449.445,
+        391988.702
+      ],
+      "17": [
+        582495.451,
+        391985.428
+      ],
+      "92": [
+        582492.571,
+        392000.362
+      ],
+      "268": [
+        582489.691,
+        392015.297
+      ],
+      "90": [
+        582485.634,
+        392036.331
+      ],
+      "269": [
+        582481.578,
+        392057.366
+      ],
+      "618": [
+        582476.965,
+        392081.284
+      ],
+      "563": [
+        582457.966,
+        392077.62
+      ],
+      "554": [
+        582455.522,
+        392090.318
+      ],
+      "552": [
+        582453.082,
+        392103.002
+      ],
+      "634": [
+        582451.138,
+        392113.108
+      ],
+      "635": [
+        582451.485,
+        392113.139
+      ],
+      "541": [
+        582450.867,
+        392120.112
+      ],
+      "655": [
+        582449.003,
+        392119.946
+      ],
+      "636": [
+        582424.158,
+        392117.739
+      ],
+      "507": [
+        582424.776,
+        392110.766
+      ],
+      "658": [
+        582445.131,
+        392112.574
+      ],
+      "657": [
+        582449.525,
+        392089.736
+      ],
+      "656": [
+        582426.831,
+        392087.719
+      ],
+      "641": [
+        582427.07,
+        392085.034
+      ],
+      "642": [
+        582429.857,
+        392085.446
+      ],
+      "643": [
+        582430.2,
+        392083.637
+      ],
+      "319": [
+        582410.447,
+        392080.901
+      ],
+      "327": [
+        582408.309,
+        392096.356
+      ],
+      "334": [
+        582406.536,
+        392109.151
+      ]
+    },
+    "perimetru_declarat_m": 651.9,
+    "ordine": [
+      "638",
+      "639",
+      "644",
+      "645",
+      "646",
+      "647",
+      "648",
+      "649",
+      "650",
+      "651",
+      "201",
+      "652",
+      "653",
+      "256",
+      "654",
+      "257",
+      "258",
+      "17",
+      "92",
+      "268",
+      "90",
+      "269",
+      "618",
+      "563",
+      "554",
+      "552",
+      "634",
+      "635",
+      "541",
+      "655",
+      "636",
+      "507",
+      "658",
+      "657",
+      "656",
+      "641",
+      "642",
+      "643",
+      "319",
+      "327",
+      "334"
+    ],
+    "nota": "Tabelul e în ordinea conturului, dar numerele nu (638, 639, 644, …, 334), așa că ordinea e copiată în `ordine`. Aria calculată e 7700,5 mp (7701 mp pe planșă), perimetrul 651,902 m (651,90 m). Inventarul nu e doar terenul reglementat: cuprinde parcelele 323583 și 309352 (linia verde „Limita teren reglementat”, 6375 mp, cât bilanțul teritorial; din aceleași vârfuri ies 6375,3 mp) plus drumurile de acces – nr. cad. 323581 (219 mp), 308055 (188 mp), 306575 (249 mp), 314776 (47 mp) și nr. topo 22369/1/2/4 (623 mp), în total exact 7701 mp, adică imobilele care „generează” P.U.Z.-ul după avizul Arhitectului-șef nr. 946/2019. Pe sud, conturul merge pe drumul de acces până aproape de str. Făgetului (pct. 646-647). Conturul trece de două ori pe linia 638-639 (pct. 507 și 636 sunt la 4 mm de 638 și 639): blocul de loturi dintre drumuri (nr. cad. 331631, 331632 și vecinele, ~1000 mp) rămâne afară, legat de exterior prin această tăietură. Regulamentul dă „suprafața totală: 6375 mp”, iar mai jos 7678 mp. Pe laturile exterioare ale parcelelor coordonatele cad pe linia roșie („Limita de proprietate propusă”), nu pe linia verde întreruptă, desenată la ~0,5 m în afara ei: cu colțurile liniei verzi scara iese 15,42 px/m față de 15,26 px/m din punctele de pe liniile cadastrale negre, iar reziduurile urcă la 0,7 m; cu colțurile roșii, rms 0,08 m. Pe drumuri, conturul urmează liniile cadastrale negre, iar etichetele punctelor (număr + cotă, ca în tabel) stau lângă vârfuri. Puncte de control: 17, 618, 657, 319 (colțuri ale liniei roșii), 653 (colț pe linia neagră), 658 și 647 (îmbinări de linii cadastrale); verificare: 644, 541, 258, 654 și 646."
+  },
+  "gcp_px": {
+    "17": [
+      282,
+      91
+    ],
+    "618": [
+      1746,
+      372
+    ],
+    "657": [
+      1872,
+      789
+    ],
+    "319": [
+      1739,
+      1385
+    ],
+    "653": [
+      636,
+      1320
+    ],
+    "658": [
+      2223,
+      858
+    ],
+    "647": [
+      2962,
+      1641
+    ]
+  },
+  "verificare_px": {
+    "644": [
+      2273,
+      1484
+    ],
+    "541": [
+      2338,
+      770
+    ],
+    "258": [
+      329,
+      797
+    ],
+    "654": [
+      591,
+      1231
+    ],
+    "646": [
+      2970,
+      1580
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1215,
+      1648,
+      1805,
+      1803
+    ],
+    [
+      1215,
+      1803,
+      1864,
+      2258
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe familiale, regim de construire deschis; 8 parcele de 420-650 mp; retrageri: de la aliniament min. 3 m (5 m pe parcelele vecine cu zona verde), laterale min. 3 m, posterioare min. 6 m (3 m pe parcelele de colț)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane (S(D)+P+1+M/R), H cornișă/atic 9 m, H max (coamă sau atic retras) 12 m"
+    },
+    {
+      "cod": "Va*",
+      "denumire": "Terenuri împădurite situate în intravilan – pădure; parcela de zonă verde cu acces public (pe planșă VP*)",
+      "pot_max": "0%",
+      "cut_max": "0",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-12-15",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; prelungită cu 2 ani prin HCL 29/2026; nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [
+    {
+      "hcl": "29/2026",
+      "pana_la": "2027-12-15",
+      "nota": "HCL 29 din 20 ianuarie 2026 prelungește valabilitatea cu 2 ani. A fost adoptată după expirarea termenului inițial (15.12.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 20.01.2028)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Zona verde de la vest: planșa (desenul, legenda „Teren UTR VP” și bilanțul) și regulamentul din Anexa 3 o numesc U.T.R. VP*/Vp*; hotărârea o numește „U.T.R Va* – terenuri împădurite situate în intravilan” (funcțiune: pădure, P.O.T. 0 %, C.U.T. 0), deși în paragraful Liu* vorbește tot de „UTR Vp”, iar în Art. 1 de „o parcelă cu destinația de zonă verde cu acces public”."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Terenul se parcelează în 9 parcele: 8 pentru locuințe familiale, de 420-650 mp, și una de zonă verde cu acces public.",
+    "Accesul se face din str. Făgetului, pe un drum de interes local propus cu ampriza de 7 m și pe un drum de interes local cu ampriza de 6 m.",
+    "Parcarea se organizează în interiorul parcelelor; echiparea edilitară se face din rețelele existente pe str. Făgetului."
+  ]
+}
