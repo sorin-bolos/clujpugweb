@@ -1,0 +1,184 @@
+{
+  "id": "2026-198",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 198,
+    "an": 2026,
+    "data_sedinta": "2026-05-19",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-198-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-198.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și de interes public constituite în clădiri dedicate și subzonă verde, str. Mihai Românul nr. 2-6",
+  "plansa": {
+    "pagina_pdf": 29,
+    "dpi": 300,
+    "denumire": "U.04 Plan reglementări – zonificare",
+    "scara": "1:1000",
+    "nota": "Planșa apare de două ori în PDF: p. 20 e copia anexată hotărârii (A3, 200 ppi, în tonuri de gri, ștampilată „Anexa 2 la Hotărârea nr. 198/2026” și semnată), iar p. 29 e aceeași planșă U.04, color, la 300 ppi, cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 175 din 12.11.2025) și mențiunea de mână „H.C.L. nr. 198 din 19 mai 2026”; s-a folosit p. 29, mai clară. P. 28 e extrasul din P.U.G. al certificatului de urbanism. Viza și mențiunea stau la est de parcelă, în afara decupajului. Planșa e tipărită foarte puțin micșorată: 11,7 px/m în loc de 11,81 px/m cât ar da 1:1000 la 300 ppi (~99 %); nordul e în sus (rotație 0,25°). Legenda cuprinde cheia simbolurilor, tabelul cu spațiul verde minim și P.O.T./C.U.T. maxime pe U.T.R. (S_Is*, S_Va*, Ve) și notele despre arborii de plantat; bilanțul teritorial, bilanțul parcărilor cu notele despre locurile de parcare, inventarul de coordonate și cartușul au rămas afară. Bilanțul teritorial arată încadrarea existentă după P.U.G. (ULiu 5821 mp, Ve 94 mp, lărgire stradă 126 mp) și după P.U.Z. aprobat prin HCL 575/2019 (S_Et* 5174 mp, S_Va* 580 mp, alveolă transport public 67 mp); propus: S_Is* 5207 mp, S_Va* 580 mp, Ve 94 mp, lărgire stradă 126 mp, alveolă 34 mp, total 6041 mp. Pe desen, eticheta „UTR Ve” stă la est de limita zonei reglementate, pe culoarul pârâului; cei 94 mp de Ve din bilanț nu se disting ca suprafață separată în interiorul limitei."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U.04 („Coordonate pct. de contur”, 13 puncte, Nord X / Est Y, cu lungimile laturilor D(i,i+1); S=6041,16 mp, P=316,346 m). Numerele 3 și 4 lipsesc din tabel; ordinea numerică e ordinea conturului. Limita zonei reglementate e o linie roșie întreruptă; fiecare colț ales e intersecția dreptelor potrivite pe pixelii roșii ai celor două laturi, verificată din ochi pe decupaje (la 8, latura 7-8 are doar 5,4 m, așa că poziția a fost citită și pe decupaj). Control: 1 (colțul de NV, la str. Mihai Românul), 8 (colțul de E), 11 (colțul de S) și 15 (colțul de V), singurele colțuri ascuțite. Verificare: 5 (frângerea de 27° de pe latura dinspre stradă, sub simbolul alveolei). Celelalte puncte (2, 6, 7, 9, 10, 12, 13, 14) stau pe aliniamente sau în frângeri sub 10° și nu pot fi localizate de-a lungul liniei; în schimb, fiecare latură desenată se abate cu cel mult 2,5 px (0,2 m) de limita calculată din coordonate.",
+    "suprafata_declarata_m2": 6041.16,
+    "puncte": {
+      "1": [
+        583547.729,
+        392687.977
+      ],
+      "2": [
+        583537.665,
+        392710.495
+      ],
+      "5": [
+        583532.52,
+        392722.0
+      ],
+      "6": [
+        583520.72,
+        392731.41
+      ],
+      "7": [
+        583511.93,
+        392739.01
+      ],
+      "8": [
+        583507.36,
+        392741.81
+      ],
+      "9": [
+        583493.54,
+        392735.33
+      ],
+      "10": [
+        583451.44,
+        392715.94
+      ],
+      "11": [
+        583426.22,
+        392704.29
+      ],
+      "12": [
+        583433.54,
+        392687.61
+      ],
+      "13": [
+        583439.95,
+        392676.489
+      ],
+      "14": [
+        583439.918,
+        392676.478
+      ],
+      "15": [
+        583450.992,
+        392654.868
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 24.665,
+      "2": 12.6,
+      "5": 15.093,
+      "6": 11.62,
+      "7": 5.36,
+      "8": 15.264,
+      "9": 46.351,
+      "10": 27.781,
+      "11": 18.216,
+      "12": 12.836,
+      "13": 0.034,
+      "14": 24.282,
+      "15": 102.246
+    },
+    "perimetru_declarat_m": 316.346
+  },
+  "gcp_px": {
+    "1": [
+      2153.0,
+      1052.9
+    ],
+    "8": [
+      2784.0,
+      1532.0
+    ],
+    "11": [
+      2348.1,
+      2485.7
+    ],
+    "15": [
+      1765.8,
+      2191.8
+    ]
+  },
+  "verificare_px": {
+    "5": [
+      2553.4,
+      1231.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3610,
+      50,
+      4920,
+      1228
+    ],
+    [
+      3615,
+      1838,
+      4920,
+      2296
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public constituite în clădiri dedicate situate în afara zonei centrale – funcțiuni de sănătate și activități complementare; regim de construire izolat (5207 mp după bilanțul planșei; terenul era încadrat în S_Et* prin P.U.Z. aprobat prin HCL 575/2019)",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "25 m în punctul cel mai înalt (28 m la structura de mascare a echipamentelor de pe acoperiș); (1-3)S+P+4E+R(M) sau (1-3)S+D+P+3E+R(M), etajul retras cu cel puțin 1,80 m față de fațada spre aliniament"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – parc cu acces public nelimitat (~580 mp; se menține încadrarea în subzonă verde din P.U.Z. aprobat prin HCL 575/2019): plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, construcții pentru activități culturale și alimentație publică, grupuri sanitare",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "9 m; (D)+P+1"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (94 mp după bilanțul planșei); rămân prevederile R.L.U. al P.U.G.",
+      "pot_max": "1% (planșa, după P.U.G.)",
+      "cut_max": "0,01 (planșa, după P.U.G.)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-05-19",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pentru S_Is* doar regimul de înălțime „(1-3S)+P+4+ER”; hotărârea (Art. 1) admite (1-3)S+P+4E+R(M) sau (1-3)S+D+P+3E+R(M), cu înălțimea maximă de 25 m de la cota terenului natural (28 m la structura de mascare a echipamentelor de pe acoperiș) și etajul retras cu cel puțin 1,80 m.",
+    "Planșa cere un spațiu verde minim pe sol natural de 20% în S_Is* și de 60% în S_Va* și plantarea a cel puțin 10 arbori în S_Is*, respectiv 5 arbori în S_Va* (circumferința de minimum 35 cm la 1 m de la colet; arbori de foioase de talie mică și medie); textul hotărârii nu reia aceste cerințe.",
+    "Planșa propune cel mult 113 locuri de parcare (cca. 13 la sol și cca. 100 în subsol; minimum 6 pentru persoane cu dizabilități, 5 „Mama și copilul”, 3 cu punct de încărcare electrică, plus un loc pentru ambulanță); hotărârea cere doar ca necesarul să se calculeze după Anexa 2 a R.L.U. al P.U.G.",
+    "Planșa dă pentru S_Va* doar P.O.T. 5% și C.U.T. 0,1; hotărârea adaugă înălțimea maximă (D)+P+1, H max 9 m, și retragerile."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii str. Mihai Românul și alveolei pentru stația de transport în comun (126 mp și 34 mp pe planșă) se dezmembrează din parcela inițială și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepția construcției se aduce la strat de uzură (asfalt), pe baza unui proiect autorizat.",
+    "Accesul auto se amenajează prin grija și pe cheltuiala beneficiarilor, de o firmă specializată, după normativul NP 051/2012, fără modificarea cotei trotuarului existent, înainte de recepția lucrărilor.",
+    "La faza D.T.A.C., proiectul trece prin Comisia de Estetică Urbană.",
+    "Echipamentele și instalațiile de pe acoperiș se maschează obligatoriu, ca să nu se vadă din spațiul public.",
+    "Retrageri în S_Is*: minimum 10 m (respectiv 5 m, cum arată planșa) față de aliniament; față de limita de vest cel puțin jumătate din înălțime, minimum 4,5 m; față de limita de est minimum 12 m și minimum 20 m față de împrejmuirea stației electrice de transformare a DEER S.A.; față de limita posterioară cel puțin jumătate din înălțime, minimum 18 m. În S_Va*: minimum 5 m față de aliniament, cel puțin jumătate din înălțime (minimum 4,5 m) față de limitele laterale și minimum 18 m față de limita posterioară.",
+    "Accesele auto și pietonale se fac din str. Mihai Românul; parcarea se face în interiorul parcelei, în garaje sau pe locuri amenajate, cu necesarul după Anexa 2 a R.L.U. al P.U.G.; în subzona verde parcarea e interzisă.",
+    "Toate clădirile se racordează la rețelele publice; apele pluviale nu se scurg spre domeniul public sau spre vecini; cablurile nu se montează aerian; fiecare imobil are un spațiu pentru colectarea selectivă a deșeurilor menajere (5 fracții), accesibil din spațiul public, iar deșeurile biologice din activitatea medicală se colectează și se depozitează separat.",
+    "În subzona verde: alei pietonale și velo din agregate compactate, pavaje din piatră naturală sau îmbrăcăminți asfaltice permeabile; iluminat public pe baza unor studii de specialitate, puncte de alimentare cu apă, firide de branșament integrate în împrejmuiri sau clădiri, un spațiu pentru deșeuri și unul pentru compost.",
+    "Toate investițiile propuse sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-198/hotarare.txt"
+}

@@ -3617,6 +3617,126 @@
   ]
  },
  {
+  "id": "2026-198",
+  "localitate": "cluj",
+  "hcl": "198/2026",
+  "data": "2026-05-19",
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și de interes public constituite în clădiri dedicate și subzonă verde, str. Mihai Românul nr. 2-6",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-198-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-198.pdf",
+  "utr": [
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public constituite în clădiri dedicate situate în afara zonei centrale – funcțiuni de sănătate și activități complementare; regim de construire izolat (5207 mp după bilanțul planșei; terenul era încadrat în S_Et* prin P.U.Z. aprobat prin HCL 575/2019)",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "25 m în punctul cel mai înalt (28 m la structura de mascare a echipamentelor de pe acoperiș); (1-3)S+P+4E+R(M) sau (1-3)S+D+P+3E+R(M), etajul retras cu cel puțin 1,80 m față de fațada spre aliniament"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – parc cu acces public nelimitat (~580 mp; se menține încadrarea în subzonă verde din P.U.Z. aprobat prin HCL 575/2019): plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, construcții pentru activități culturale și alimentație publică, grupuri sanitare",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "9 m; (D)+P+1"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (94 mp după bilanțul planșei); rămân prevederile R.L.U. al P.U.G.",
+    "pot_max": "1% (planșa, după P.U.G.)",
+    "cut_max": "0,01 (planșa, după P.U.G.)"
+   }
+  ],
+  "suprafata_m2": 6041,
+  "imagine": "puz/2026-198/plansa.webp",
+  "bounds": {
+   "west": 23.5933939,
+   "south": 46.7417987,
+   "east": 23.5946076,
+   "north": 46.7429429
+  },
+  "limita": [
+   [
+    23.5938517,
+    46.7429157
+   ],
+   [
+    23.5941487,
+    46.7428287
+   ],
+   [
+    23.5943005,
+    46.7427843
+   ],
+   [
+    23.5944263,
+    46.7426797
+   ],
+   [
+    23.5945278,
+    46.7426018
+   ],
+   [
+    23.5945655,
+    46.7425611
+   ],
+   [
+    23.5944839,
+    46.7424358
+   ],
+   [
+    23.59424,
+    46.742054
+   ],
+   [
+    23.5940934,
+    46.7418253
+   ],
+   [
+    23.5938735,
+    46.7418884
+   ],
+   [
+    23.5937265,
+    46.7419443
+   ],
+   [
+    23.5937263,
+    46.741944
+   ],
+   [
+    23.593441,
+    46.7420402
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.08
+  },
+  "legenda": "puz/2026-198/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-05-19"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru S_Is* doar regimul de înălțime „(1-3S)+P+4+ER”; hotărârea (Art. 1) admite (1-3)S+P+4E+R(M) sau (1-3)S+D+P+3E+R(M), cu înălțimea maximă de 25 m de la cota terenului natural (28 m la structura de mascare a echipamentelor de pe acoperiș) și etajul retras cu cel puțin 1,80 m.",
+   "Planșa cere un spațiu verde minim pe sol natural de 20% în S_Is* și de 60% în S_Va* și plantarea a cel puțin 10 arbori în S_Is*, respectiv 5 arbori în S_Va* (circumferința de minimum 35 cm la 1 m de la colet; arbori de foioase de talie mică și medie); textul hotărârii nu reia aceste cerințe.",
+   "Planșa propune cel mult 113 locuri de parcare (cca. 13 la sol și cca. 100 în subsol; minimum 6 pentru persoane cu dizabilități, 5 „Mama și copilul”, 3 cu punct de încărcare electrică, plus un loc pentru ambulanță); hotărârea cere doar ca necesarul să se calculeze după Anexa 2 a R.L.U. al P.U.G.",
+   "Planșa dă pentru S_Va* doar P.O.T. 5% și C.U.T. 0,1; hotărârea adaugă înălțimea maximă (D)+P+1, H max 9 m, și retragerile."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii str. Mihai Românul și alveolei pentru stația de transport în comun (126 mp și 34 mp pe planșă) se dezmembrează din parcela inițială și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepția construcției se aduce la strat de uzură (asfalt), pe baza unui proiect autorizat.",
+   "Accesul auto se amenajează prin grija și pe cheltuiala beneficiarilor, de o firmă specializată, după normativul NP 051/2012, fără modificarea cotei trotuarului existent, înainte de recepția lucrărilor.",
+   "La faza D.T.A.C., proiectul trece prin Comisia de Estetică Urbană.",
+   "Echipamentele și instalațiile de pe acoperiș se maschează obligatoriu, ca să nu se vadă din spațiul public.",
+   "Retrageri în S_Is*: minimum 10 m (respectiv 5 m, cum arată planșa) față de aliniament; față de limita de vest cel puțin jumătate din înălțime, minimum 4,5 m; față de limita de est minimum 12 m și minimum 20 m față de împrejmuirea stației electrice de transformare a DEER S.A.; față de limita posterioară cel puțin jumătate din înălțime, minimum 18 m. În S_Va*: minimum 5 m față de aliniament, cel puțin jumătate din înălțime (minimum 4,5 m) față de limitele laterale și minimum 18 m față de limita posterioară.",
+   "Accesele auto și pietonale se fac din str. Mihai Românul; parcarea se face în interiorul parcelei, în garaje sau pe locuri amenajate, cu necesarul după Anexa 2 a R.L.U. al P.U.G.; în subzona verde parcarea e interzisă.",
+   "Toate clădirile se racordează la rețelele publice; apele pluviale nu se scurg spre domeniul public sau spre vecini; cablurile nu se montează aerian; fiecare imobil are un spațiu pentru colectarea selectivă a deșeurilor menajere (5 fracții), accesibil din spațiul public, iar deșeurile biologice din activitatea medicală se colectează și se depozitează separat.",
+   "În subzona verde: alei pietonale și velo din agregate compactate, pavaje din piatră naturală sau îmbrăcăminți asfaltice permeabile; iluminat public pe baza unor studii de specialitate, puncte de alimentare cu apă, firide de branșament integrate în împrejmuiri sau clădiri, un spațiu pentru deșeuri și unul pentru compost.",
+   "Toate investițiile propuse sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
