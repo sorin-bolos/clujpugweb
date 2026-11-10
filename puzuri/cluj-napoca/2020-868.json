@@ -1,0 +1,266 @@
+{
+  "id": "2020-868",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 868,
+    "an": 2020,
+    "data_sedinta": "2020-12-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-868-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/12/15/HCL-nr-868-din-15.12.2020-PUZ-Havadi-str-Oasului-151-153.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – str. Oașului nr. 151-153",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 150,
+    "denumire": "U.09 Plan situația propusă – circulații",
+    "scara": "1:500",
+    "nota": "PDF-ul are 25 de pagini și o singură planșă, p. 17 (format mare, 1805×1726 pt, scanată color la 150 ppi): U.09 „Plan situația propusă – circulații” (proiect U02/2016, faza P.U.Z., ediție inițială, 2019), cu viza Arhitectului-șef „HCL nr. 868 din 15.12.2020 – vizat” (avizele nr. 88 din 31.03.2020 și nr. 172 din 22.06.2020). Hotărârea numește Anexa 1 „Planșa Reglementări urbanistice”, dar PDF-ul nu conține o planșă cu acest titlu; U.09 e singura planșă anexată și poartă reglementările: limita reglementată prin P.U.Z., parcelarea propusă (16 loturi de 300-366 mp, P.O.T. 35%), aliniamentele și retragerile minime, zona verde și lotul mixt de la str. Oașului, bilanțul pe U.T.R. (Liu-1, Va-1, M3*) și profilurile stradale. Celelalte pagini: hotărârea (p. 1-3), regulamentul local de urbanism (Anexa 2, p. 4-16) și avize (p. 18-25). Cartușul dă scara „1:500, 1:1000”: planul e la 1:500 (11,8 px/m, cât dă 1:500 la 150 ppi, la fel ca grila de 50 m și cota de 9,00 m a str. Ștefan Pascu), secțiunile la 1:500. Nordul e în sus (rotație -0,07°). Planșa e un montaj: în colțul din stânga-jos sunt lipite cartușul și ștampilele planului topografic (recepție O.C.P.I. 2017), cu două cruci etichetate „589.650” care nu cad pe grila desenului; nu au fost folosite. Limita P.U.Z. e linia „Limita reglementată prin PUZ”, cu triunghiuri roșii îndreptate spre interior; pe latura de est ea nu e linia roșie de la marginea vestică a str. Ștefan Pascu (aliniamentul nou, cu împrejmuirea propusă), ci linia din carosabil pe care stau bazele triunghiurilor, la ~3 m spre est în nord și ~6 m în sud: între ele e fâșia de teren cedată pentru lărgirea străzii la 9 m (593,30 mp în bilanț), cum arată și secțiunea 1-1. Legenda cuprinde cheia simbolurilor („Legenda propunere mobilare urbană”, în două coloane; ultimul rând, „Foraj geotehnic”, e decupat separat ca să nu prindă secțiunea 1-1); planșa nu are tabel de indicatori pe U.T.R. (P.O.T./C.U.T. apar doar pe loturi și în text), iar bilanțurile, necesarul de locuri de parcare, secțiunile, cartușul și ștampilele au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Caroiaj Stereo 70 fără etichete (cruci la 50 m), etichetat cu `caroiaj`: 8 cruci citite pe planșă, pas 50 m, 11,8 px/m, nordul în sus; ancora: intersecția axelor str. Oașului și str. Ștefan Pascu din OSM (extrasul din 2026-11-08), aleasă pe planșă pe axul str. Ștefan Pascu – str. Codru Drăgușanu, la mijlocul carosabilului str. Oașului; toate crucile cad la 0,9-1,5 m de nodurile de 50 m, deci etichetele sunt sigure. Control: crucile C393550_589750, C393550_589600, C393550_589550, C393650_589550, C393700_589600, C393650_589700; verificare: C393550_589650 și C393600_589550. Limita e trasată (`limita_px`) pe linia „Limita reglementată prin PUZ”: laturile de nord, vest și est sunt dreptele potrivite prin bazele triunghiurilor roșii ale liniei (10, 30 și 30 de triunghiuri; abatere standard 0,4-2 px), latura de est cu o frângere la mijloc (bazele se abat de la o dreaptă cu până la ~4 px), iar latura de sud urmează bordura str. Odobești (curbă) și a str. Oașului până la colțul cu str. Ștefan Pascu; colțul de nord-est cade lângă un punct topografic desenat. Aria trasată: 10003 mp, față de 9951 mp din bilanțul teritorial (zona reglementată). Verificări independente: clădirile din OSM se suprapun pe cele desenate, iar limita de vest a P.U.Z. vecin aprobat prin HCL 103/2026 (din inventarul lui de coordonate) cade la ~4,1 m est de latura de est, cât lățimea străzii existente dintre cele două proprietăți (3,66 m în secțiunea 1-1).",
+    "suprafata_declarata_m2": 9951.0,
+    "puncte": {},
+    "nota": "Planșa nu are inventar de coordonate și nici etichete pe caroiaj. Crucile caroiajului țin de fondul topografic, nu de macheta foii: sunt la exact 50 m una de alta (588-592 px), cu aceeași rotație ca desenul, și cu o ancoră OSM independentă cad la cel mult 1,5 m de nodurile Stereo 70. Colțul de sud-est (str. Oașului × str. Ștefan Pascu) e acoperit de un indicator rutier și de un panou de informare: e intersecția celor două laturi prelungite."
+  },
+  "gcp_px": {
+    "C393550_589750": [
+      676,
+      449.5
+    ],
+    "C393550_589600": [
+      680,
+      2223.5
+    ],
+    "C393550_589550": [
+      679.6,
+      2815.8
+    ],
+    "C393650_589550": [
+      1855.6,
+      2814.4
+    ],
+    "C393700_589600": [
+      2443.4,
+      2221.8
+    ],
+    "C393650_589700": [
+      1853,
+      1039.2
+    ]
+  },
+  "verificare_px": {
+    "C393550_589650": [
+      678.4,
+      1633.4
+    ],
+    "C393600_589550": [
+      1268,
+      2815.2
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2650,
+      1392,
+      3050,
+      2105
+    ],
+    [
+      3046,
+      1392,
+      3442,
+      1764
+    ],
+    [
+      3046,
+      1764,
+      3215,
+      1794
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu_1",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe unifamiliale, iar familiale/semicolective pe parcele de peste 400 mp; regim izolat sau cuplat; retragere de la aliniament de cel puțin 5 m, clădirile în fâșia de 25 m de la aliniament",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane ((S)+P+E+M/R, D+P+M/R), H cornișă 8 m, H max 12 m"
+    },
+    {
+      "cod": "Va_1",
+      "denumire": "Scuaruri, grădini, parcuri cu acces public nelimitat – spații verzi, alei pietonale și velo, mobilier urban, locuri de joacă, odihnă, sport",
+      "pot_max": "5%",
+      "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+      "h_max": "(S)+P+E, D+P+M/R, H cornișă 8 m, H max 12 m"
+    },
+    {
+      "cod": "M3*",
+      "denumire": "Zonă mixtă cu regim de construire deschis – locuire colectivă, administrație, birouri, servicii financiar-bancare, comerț, cultură, învățământ, sănătate ambulatorie, turism",
+      "pot_max": "40%; 50% pe parcelele de colț (lotul de la str. Oașului e de colț); pentru nivelurile de locuire AC max = 40% din suprafața terenului",
+      "cut_max": "2; 2,4 pe parcelele de colț",
+      "h_max": "(1-3S)+P+5E+R, H cornișă 22 m, H max 25 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-12-15",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; prelungită cu 2 ani prin HCL 672/2025; nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [
+    {
+      "hcl": "672/2025",
+      "pana_la": "2027-12-15",
+      "nota": "HCL 672 din 20 noiembrie 2025 prelungește valabilitatea cu 2 ani; termenul e socotit de la expirarea inițială, 15.12.2025."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Pe desen, zona de la str. Oașului e etichetată „Va+RrM3” (și „Limita UTR Va – RrM3”), cu numele U.T.R.-ului din P.U.G.; hotărârea și bilanțul aceleiași planșe o numesc U.T.R. M3* (3027,36 mp), iar zona verde Va_1 (800,37 mp).",
+    "Hotărârea admite în Liu_1 locuințe familiale/semicolective doar pe parcele de peste 400 mp; toate cele 16 loturi desenate au 300-366 mp (locuințe cuplate), deci pe ele rămân doar locuințe unifamiliale.",
+    "Hotărârea numește anexa „Planșa Reglementări urbanistice”; planșa anexată în PDF e U.09 „Plan situația propusă – circulații”."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Terenul necesar regularizării str. Oașului și str. Ștefan Pascu (fâșiile din planșă; pe str. Ștefan Pascu 593,30 mp, pentru o ampriză de 9 m) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de emiterea autorizațiilor de construire pe parcele.",
+    "Aleile A și B (străzi de interes local, ampriză 9 m, 12 m la alveola de întoarcere) se înscriu în CF ca „drum”, se realizează la strat de uzură și se echipează edilitar înainte de autorizarea construcțiilor pe parcelele cu acces din ele.",
+    "Spațiul verde cu acces public nelimitat de lângă str. Ștefan Pascu (Va_1) se amenajează pe baza unui proiect de specialitate până la recepția construcțiilor de pe parcelele cu front la aleile A și B.",
+    "Parcarea se face în interiorul parcelelor; în M3* cel puțin 75% din locuri în spații specializate la subsol, demisol sau parter. Garajele din Liu_1 se retrag cu cel puțin 6 m de la aliniament."
+  ],
+  "caroiaj": {
+    "pas_m": 50,
+    "px_per_m": 11.8,
+    "nord": 0,
+    "cruci_px": {
+      "A": [
+        676,
+        449.5
+      ],
+      "F": [
+        678.4,
+        1633.4
+      ],
+      "G": [
+        680,
+        2223.5
+      ],
+      "B": [
+        679.6,
+        2815.8
+      ],
+      "H": [
+        1268,
+        2815.2
+      ],
+      "C": [
+        1855.6,
+        2814.4
+      ],
+      "D": [
+        2443.4,
+        2221.8
+      ],
+      "E": [
+        1853,
+        1039.2
+      ]
+    },
+    "ancora": {
+      "px": [
+        1950,
+        2340
+      ],
+      "en": [
+        393656.9,
+        589590.7
+      ],
+      "sursa": "OSM: intersecția axelor str. Oașului și str. Ștefan Pascu (geocode --streets), aleasă pe planșă pe axul str. Ștefan Pascu – str. Codru Drăgușanu, la mijlocul carosabilului str. Oașului"
+    },
+    "nota": "Crucile citite pe planșă, cu centrul măsurat pe brațe (zoom 5×); `caroiaj --write` le-a pus în `repere` și `gcp_px`, iar C393550_589650 și C393600_589550 au fost mutate în `verificare_px`."
+  },
+  "repere": {
+    "C393550_589750": [
+      589750.0,
+      393550.0
+    ],
+    "C393550_589650": [
+      589650.0,
+      393550.0
+    ],
+    "C393550_589600": [
+      589600.0,
+      393550.0
+    ],
+    "C393550_589550": [
+      589550.0,
+      393550.0
+    ],
+    "C393600_589550": [
+      589550.0,
+      393600.0
+    ],
+    "C393650_589550": [
+      589550.0,
+      393650.0
+    ],
+    "C393700_589600": [
+      589600.0,
+      393700.0
+    ],
+    "C393650_589700": [
+      589700.0,
+      393650.0
+    ]
+  },
+  "limita_px": [
+    [
+      570.5,
+      563.7
+    ],
+    [
+      1130.6,
+      311.0
+    ],
+    [
+      1395.1,
+      1012.2
+    ],
+    [
+      1856.6,
+      2291.9
+    ],
+    [
+      1549.3,
+      2583.3
+    ],
+    [
+      1489.4,
+      2534.8
+    ],
+    [
+      1439.4,
+      2498.8
+    ],
+    [
+      1345.6,
+      2428.0
+    ],
+    [
+      1294.6,
+      2400.5
+    ],
+    [
+      1238.0,
+      2383.5
+    ],
+    [
+      1159.0,
+      2386.0
+    ]
+  ]
+}
