@@ -5914,6 +5914,109 @@
   ]
  },
  {
+  "id": "2026-64",
+  "localitate": "cluj",
+  "hcl": "64/2026",
+  "data": "2026-02-16",
+  "titlu": "P.U.Z. – dezvoltare zonă cu funcțiuni mixte – Bd. Muncii nr. 197",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-64-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/03/03/HCL-64.pdf",
+  "utr": [
+   {
+    "cod": "M3_B*",
+    "denumire": "Zonă mixtă (parcela 1, 2612,75 mp după planșă): structură funcțională mixtă, cu locuire colectivă la etajele superioare; la parter (eventual și la etajele următoare) funcțiuni de sănătate, de turism și servicii terțiare; regim de construire deschis",
+    "pot_max": "40%",
+    "cut_max": "2 ADC/mp",
+    "h_max": "2S+P+5E+ER; H cornișă max. 22 m, H max. 25 m, măsurate din punctul de pe perimetrul clădirii unde terenul natural e cel mai sus"
+   },
+   {
+    "cod": "S_Va_B*",
+    "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat (parcela 2, 724,60 mp după planșă): plantații înalte, medii și joase, alei și platforme pietonale și velo, mobilier urban, amenajări de joacă, odihnă și sport, edicule, construcții pentru activități culturale și alimentație publică, grupuri sanitare, spații de administrare și întreținere, ziduri de sprijin",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "P; H cornișă max. 3 m"
+   }
+  ],
+  "suprafata_m2": 3381,
+  "imagine": "puz/2026-64/plansa.webp",
+  "bounds": {
+   "west": 23.6305661,
+   "south": 46.7960437,
+   "east": 23.6311525,
+   "north": 46.7972605
+  },
+  "limita": [
+   [
+    23.6305914,
+    46.797163
+   ],
+   [
+    23.6310725,
+    46.7972432
+   ],
+   [
+    23.6311162,
+    46.7967089
+   ],
+   [
+    23.6311158,
+    46.7967015
+   ],
+   [
+    23.6309137,
+    46.7966364
+   ],
+   [
+    23.6307823,
+    46.796598
+   ],
+   [
+    23.6308241,
+    46.7963756
+   ],
+   [
+    23.6308663,
+    46.7960614
+   ],
+   [
+    23.6306161,
+    46.7960653
+   ],
+   [
+    23.6306159,
+    46.7964756
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.15
+  },
+  "legenda": "puz/2026-64/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-02-16"
+  },
+  "diferente_fata_de_plansa": [
+   "Subzona verde S_Va_B*: planșa o numește „subzona verde-scuar, grădini cu acces public nelimitat, parcaje la sol”; Art. 1 nu trece parcajele printre funcțiunile ei, iar regulamentul (Anexa 1, cap. 9 la S_Va_B*) spune că parcarea automobilelor nu e permisă în zonă.",
+   "Înălțimea în S_Va_B*: planșa nu dă regim de înălțime („Regim de înălțime/H max: -”); Art. 1 admite parter, cu H la cornișă de cel mult 3 m, și retrageri de minimum 5 m față de aliniament și 3 m față de limitele laterale și posterioare, care pe planșă lipsesc.",
+   "Înălțimea în M3_B*: planșa dă „H maxim atic = 22,00 m” și H maxim 25 m; Art. 1 dă 22 m la cornișă și 25 m în total, măsurate din punctul de pe perimetrul clădirii unde terenul natural e cel mai sus.",
+   "Planșa adaugă la M3_B* „pentru nivelele cu destinația de locuire AC maximă = 40% × St” și estimează circa 55 de locuri de parcare; Art. 1 nu are aceste precizări: cere ca 75% din parcaje să fie în spații specializate (subsol, demisol, parter) și calculul lor după Anexa 2 a R.L.U."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire pe parcela 1: parcela 3 (43,65 mp după planșă), terenul necesar lărgirii circulației publice din nord (str. Ciucea, nr. cad. 346479), se dezmembrează și se înscrie în C.F. cu titlu de „drum”; până la recepția clădirii, drumul se aduce la strat de uzură.",
+   "Înainte de recepția construcției de pe parcela 1: parcela 2, spațiul verde S_Va_B*, se amenajează pe baza unui proiect autorizat.",
+   "La faza D.T.A.C., proiectul tehnic se avizează în Comisia de estetică urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Retrageri în M3_B*: minimum 6 m față de str. Ciucea (nu pentru nivelurile subterane; balcoanele pot depăși alinierea cu cel mult 1,5 m); față de limitele laterale estică și vestică jumătate din înălțimea clădirii, dar minimum 4,5 m (subsolurile se pot construi pe limita vestică, spre parcela nr. cad. 341302); spre sud, aliniere cu construcția de pe parcela nr. cad. 341302, conform P.U.Z. aprobat cu HCL 631/2020 (nu pentru nivelurile subterane).",
+   "Retrageri în S_Va_B*: minimum 5 m față de aliniament și minimum 3 m față de limitele laterale și posterioare.",
+   "Accesul: din Bd. Muncii, prin drumul de interes local nr. cad. 341305, comun cu accesul auto la subsolul clădirii de pe parcela nr. cad. 341302; vehiculele de intervenție pot folosi spațiile pietonale propuse.",
+   "Parcarea: 75% din locuri în spații specializate la subsolul, demisolul sau parterul clădirilor; necesarul se calculează după Anexa 2 a R.L.U. aferent P.U.G.",
+   "Utilitățile: racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuiri; cablurile nu se montează aerian.",
+   "Deșeurile: un punct gospodăresc îngropat, cu acționare hidraulică, pentru colectarea selectivă pe cinci fracții, amplasat pe teren și accesibil din spațiul public."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

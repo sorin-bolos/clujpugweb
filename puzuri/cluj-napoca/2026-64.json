@@ -1,0 +1,184 @@
+{
+  "id": "2026-64",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 64,
+    "an": 2026,
+    "data_sedinta": "2026-02-16",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-64-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/03/03/HCL-64.pdf"
+  },
+  "titlu": "P.U.Z. – dezvoltare zonă cu funcțiuni mixte – Bd. Muncii nr. 197",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 200,
+    "denumire": "U/P.U.Z./02 Plan reglementări urbanistice – zonificare (în hotărâre „Planșa U/P.U.Z./02 – Plan Reglementări Urbanistice Zonificare”, Anexa 2)",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 12 (Anexa 2 la hotărâre, redusă pe A3, cu semnăturile președintelui de ședință și secretarului general) și p. 19 (format A2, color, 200 ppi, cu viza „spre neschimbare”, anexă la avizul Arhitectului-șef nr. 135 din 1.09.2025, și mențiunea de mână „HCL nr. 64 din 16 februarie 2026”); e același desen și s-a folosit p. 19, mai mare și mai clară. Celelalte pagini: hotărârea (1-2), regulamentul local de urbanism (Anexa 1, p. 3-11), avizul Arhitectului-șef nr. 135/2025 (13-15), avizul de oportunitate nr. 130 din 11.08.2023 și planul lui (16-18), raportul informării și consultării publicului (20-21). Cartușul: planșa U/P.U.Z./02 „Plan reglementări urbanistice-zonificare”, faza P.U.Z., scara 1:500, data 07.2025, proiect nr. 04/2021. Potrivirea dă 15,8 px/m (1:500 la 200 ppi ar da 15,75), nordul aproape în sus (rotație 0,4°). Planșa desenează și vecinătatea vestică reglementată prin P.U.Z. aprobat cu HCL 631/20.08.2020 (Bd. Muncii nr. 191-195; U.T.R. M3_B și S_Va_B), după care s-au numit U.T.R.-urile cu asterisc de aici; HCL 64/2026 nu modifică acel P.U.Z., doar îi preia alinierea spre sud. Legenda: limitele, zonificarea (U.T.R.-urile existente și vecine), obiectivele propuse cu regimul de înălțime și POT/CUT pentru M3_B* și S_Va_B*, retragerile și aliniamentele, circulațiile și accesele; au rămas afară indicii de sus (suprafața și numărul cadastral), lista suprafețelor parcelelor, bilanțul teritorial, profilurile stradale, inventarul de coordonate, săgeata nordului, ștampilele și cartușul. Parcela e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate de pe planșă (pct. 301-310), X (m) = Nord, Y (m) = Est, cu lungimile laturilor",
+    "suprafata_declarata_m2": 3381,
+    "puncte": {
+      "301": [
+        589527.26,
+        395599.149
+      ],
+      "302": [
+        589535.542,
+        395636.026
+      ],
+      "303": [
+        589476.1,
+        395638.33
+      ],
+      "304": [
+        589475.274,
+        395638.29
+      ],
+      "305": [
+        589468.307,
+        395622.736
+      ],
+      "306": [
+        589464.211,
+        395612.638
+      ],
+      "307": [
+        589439.449,
+        395615.397
+      ],
+      "308": [
+        589404.469,
+        395618.011
+      ],
+      "309": [
+        589405.231,
+        395598.921
+      ],
+      "310": [
+        589450.83,
+        395599.7
+      ]
+    },
+    "laturi_declarate_m": {
+      "301": 37.8,
+      "302": 59.49,
+      "303": 0.83,
+      "304": 17.04,
+      "305": 10.9,
+      "306": 24.92,
+      "307": 35.08,
+      "308": 19.11,
+      "309": 45.61,
+      "310": 76.43
+    },
+    "nota": "Laturile calculate din coordonate se potrivesc cu tabelul la 1 cm; aria, 3381,3 mp (S=3.381 mp pe planșă, 3381 mp în hotărâre). Perimetrul nu e tipărit. Punctele 303 și 304 sunt la 0,83 m unul de altul, pe latura estică: colțul vizibil e 304, deci 303 nu e folosit. 305, 307 și 310 sunt frângeri ușoare pe laturi drepte și nu sunt folosite. Puncte de control: colțurile 301, 302, 308 și 309; de verificare: colțurile 306 și 304."
+  },
+  "gcp_px": {
+    "301": [
+      1575,
+      621
+    ],
+    "302": [
+      2156,
+      490
+    ],
+    "308": [
+      1886,
+      2550
+    ],
+    "309": [
+      1585,
+      2546
+    ]
+  },
+  "verificare_px": {
+    "306": [
+      1797,
+      1620
+    ],
+    "304": [
+      2194,
+      1438
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2860,
+      112,
+      4105,
+      625
+    ],
+    [
+      2860,
+      625,
+      4600,
+      935
+    ],
+    [
+      2860,
+      935,
+      4100,
+      1090
+    ],
+    [
+      2860,
+      1090,
+      3540,
+      1225
+    ],
+    [
+      2860,
+      1225,
+      3680,
+      1395
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M3_B*",
+      "denumire": "Zonă mixtă (parcela 1, 2612,75 mp după planșă): structură funcțională mixtă, cu locuire colectivă la etajele superioare; la parter (eventual și la etajele următoare) funcțiuni de sănătate, de turism și servicii terțiare; regim de construire deschis",
+      "pot_max": "40%",
+      "cut_max": "2 ADC/mp",
+      "h_max": "2S+P+5E+ER; H cornișă max. 22 m, H max. 25 m, măsurate din punctul de pe perimetrul clădirii unde terenul natural e cel mai sus"
+    },
+    {
+      "cod": "S_Va_B*",
+      "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat (parcela 2, 724,60 mp după planșă): plantații înalte, medii și joase, alei și platforme pietonale și velo, mobilier urban, amenajări de joacă, odihnă și sport, edicule, construcții pentru activități culturale și alimentație publică, grupuri sanitare, spații de administrare și întreținere, ziduri de sprijin",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "P; H cornișă max. 3 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-02-16"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Subzona verde S_Va_B*: planșa o numește „subzona verde-scuar, grădini cu acces public nelimitat, parcaje la sol”; Art. 1 nu trece parcajele printre funcțiunile ei, iar regulamentul (Anexa 1, cap. 9 la S_Va_B*) spune că parcarea automobilelor nu e permisă în zonă.",
+    "Înălțimea în S_Va_B*: planșa nu dă regim de înălțime („Regim de înălțime/H max: -”); Art. 1 admite parter, cu H la cornișă de cel mult 3 m, și retrageri de minimum 5 m față de aliniament și 3 m față de limitele laterale și posterioare, care pe planșă lipsesc.",
+    "Înălțimea în M3_B*: planșa dă „H maxim atic = 22,00 m” și H maxim 25 m; Art. 1 dă 22 m la cornișă și 25 m în total, măsurate din punctul de pe perimetrul clădirii unde terenul natural e cel mai sus.",
+    "Planșa adaugă la M3_B* „pentru nivelele cu destinația de locuire AC maximă = 40% × St” și estimează circa 55 de locuri de parcare; Art. 1 nu are aceste precizări: cere ca 75% din parcaje să fie în spații specializate (subsol, demisol, parter) și calculul lor după Anexa 2 a R.L.U."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pe parcela 1: parcela 3 (43,65 mp după planșă), terenul necesar lărgirii circulației publice din nord (str. Ciucea, nr. cad. 346479), se dezmembrează și se înscrie în C.F. cu titlu de „drum”; până la recepția clădirii, drumul se aduce la strat de uzură.",
+    "Înainte de recepția construcției de pe parcela 1: parcela 2, spațiul verde S_Va_B*, se amenajează pe baza unui proiect autorizat.",
+    "La faza D.T.A.C., proiectul tehnic se avizează în Comisia de estetică urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Retrageri în M3_B*: minimum 6 m față de str. Ciucea (nu pentru nivelurile subterane; balcoanele pot depăși alinierea cu cel mult 1,5 m); față de limitele laterale estică și vestică jumătate din înălțimea clădirii, dar minimum 4,5 m (subsolurile se pot construi pe limita vestică, spre parcela nr. cad. 341302); spre sud, aliniere cu construcția de pe parcela nr. cad. 341302, conform P.U.Z. aprobat cu HCL 631/2020 (nu pentru nivelurile subterane).",
+    "Retrageri în S_Va_B*: minimum 5 m față de aliniament și minimum 3 m față de limitele laterale și posterioare.",
+    "Accesul: din Bd. Muncii, prin drumul de interes local nr. cad. 341305, comun cu accesul auto la subsolul clădirii de pe parcela nr. cad. 341302; vehiculele de intervenție pot folosi spațiile pietonale propuse.",
+    "Parcarea: 75% din locuri în spații specializate la subsolul, demisolul sau parterul clădirilor; necesarul se calculează după Anexa 2 a R.L.U. aferent P.U.G.",
+    "Utilitățile: racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuiri; cablurile nu se montează aerian.",
+    "Deșeurile: un punct gospodăresc îngropat, cu acționare hidraulică, pentru colectarea selectivă pe cinci fracții, amplasat pe teren și accesibil din spațiul public."
+  ]
+}
