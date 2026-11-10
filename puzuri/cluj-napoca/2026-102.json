@@ -1,0 +1,277 @@
+{
+  "id": "2026-102",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 102,
+    "an": 2026,
+    "data_sedinta": "2026-03-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-102-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-102.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, str. Giuseppe Verdi – str. J.S. Bach",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 300,
+    "denumire": "Reglementări urbanistice (planșa nr. 06)",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 16 e copia anexată hotărârii (A3, 200 ppi, alb-negru, ștampilată „Anexa 2 la H.C.L. nr. 102/2026” și semnată), iar p. 17 e aceeași planșă nr. 06 „Reglementări urbanistice” (proiect nr. 6/2022, datată VIII.2025), color, la format mare (8310×7045 px la 300 ppi), cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizele nr. 35/13.03.2023 și 108/15.07.2025) și mențiunea de mână „HCL nr. 102 din 20.03.2026”; s-a folosit p. 17, mai clară. Planșa e la scară: 23,6 px/m, cât dă 1:500 la 300 ppi; nordul e în sus (rotație 0,11°). Limita P.U.Z. („limita zonei reglementate prin P.U.Z. conf. aviz oportunitate nr. 35/13.03.2023”) e o linie subțire însoțită de pătrățele albastre desenate spre exterior; în interiorul ei, fâșiile hașurate cu roșu de-a lungul străzilor Giuseppe Verdi și J. S. Bach sunt terenul rezervat modernizării străzilor (1857 mp după bilanț). Legenda cuprinde zonificarea (ULiu, A, Liu*, S_Et*, Va*), limitele, construcțiile, casetele U.T.R. S_Et* (P.O.T. 40%, C.U.T. 2,2), Va* (P.O.T. 5%, C.U.T. 0,1) și Liu* (P.O.T. 35%, C.U.T. 0,9) și circulațiile; tabelul parcelelor (suprafețe, tip de construcție, locuri de parcare), bilanțul teritorial, lista parcelelor care au generat P.U.Z.-ul, tabelul de coordonate și cartușul au rămas afară. Ștampilele din colțul din dreapta-jos ating rândurile „Locuri parcare biciclete” și „Indicatoare rutiere”, care rămân lizibile."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa nr. 06, în colțul din stânga-sus (Nord X / Est Y, cu lungimile laturilor D(i,i+1)): 29 de puncte, S=15896,82 mp, P=575,074 m, cât suma celor trei parcele din bilanț (4387 + 5037 + 6473 mp) și cei 15.897 mp din Art. 1. Puncte de control: colțurile 25 (vest), 2 (nord), 8 (est) și 9 (sud-est), singurele colțuri ascuțite; celelalte puncte stau pe laturi aproape drepte (2-3-4-5-6-7-8 sunt coliniare). Colțurile 2, 8 și 9 sunt intersecțiile liniei subțiri roșii a limitei, măsurate pe sute de profile transversale pe latură (abatere standard 0,4-0,5 px); colțul 25 e intersecția laturii de sud (linia subțire de deasupra pătrățelelor) cu latura de nord-vest, așezată după marginea interioară a pătrățelelor. Verificare: punctele 5 și 7 de pe latura de nord-est, capetele liniei negre a parcelei vecine care mărginește limita între ele (la 5, colțul liniei duble care vine dinspre nord; la 7, capătul liniei negre groase, unde o întâlnește linia neagră dinspre nord).",
+    "suprafata_declarata_m2": 15896.82,
+    "puncte": {
+      "1": [
+        590232.305,
+        394787.5
+      ],
+      "2": [
+        590243.635,
+        394801.871
+      ],
+      "3": [
+        590237.776,
+        394817.858
+      ],
+      "4": [
+        590223.942,
+        394855.603
+      ],
+      "5": [
+        590216.334,
+        394876.363
+      ],
+      "6": [
+        590208.4,
+        394898.012
+      ],
+      "7": [
+        590205.199,
+        394906.745
+      ],
+      "8": [
+        590200.032,
+        394920.843
+      ],
+      "9": [
+        590136.518,
+        394912.893
+      ],
+      "10": [
+        590136.962,
+        394907.271
+      ],
+      "11": [
+        590137.751,
+        394889.169
+      ],
+      "12": [
+        590138.212,
+        394878.575
+      ],
+      "13": [
+        590138.431,
+        394873.563
+      ],
+      "14": [
+        590139.502,
+        394846.753
+      ],
+      "15": [
+        590139.57,
+        394845.042
+      ],
+      "16": [
+        590140.876,
+        394812.099
+      ],
+      "17": [
+        590141.087,
+        394807.09
+      ],
+      "18": [
+        590141.144,
+        394805.762
+      ],
+      "19": [
+        590142.417,
+        394776.248
+      ],
+      "20": [
+        590143.824,
+        394748.012
+      ],
+      "21": [
+        590144.491,
+        394734.625
+      ],
+      "22": [
+        590146.147,
+        394704.132
+      ],
+      "23": [
+        590146.426,
+        394699.756
+      ],
+      "24": [
+        590147.479,
+        394687.641
+      ],
+      "25": [
+        590148.691,
+        394681.929
+      ],
+      "26": [
+        590168.885,
+        394706.694
+      ],
+      "27": [
+        590191.622,
+        394735.293
+      ],
+      "28": [
+        590208.027,
+        394756.049
+      ],
+      "29": [
+        590218.828,
+        394769.715
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 18.3,
+      "2": 17.027,
+      "3": 40.2,
+      "4": 22.11,
+      "5": 23.057,
+      "6": 9.301,
+      "7": 15.015,
+      "8": 64.01,
+      "9": 5.64,
+      "10": 18.119,
+      "11": 10.604,
+      "12": 5.017,
+      "13": 26.831,
+      "14": 1.712,
+      "15": 32.969,
+      "16": 5.013,
+      "17": 1.329,
+      "18": 29.541,
+      "19": 28.271,
+      "20": 13.404,
+      "21": 30.538,
+      "22": 4.385,
+      "23": 12.161,
+      "24": 5.839,
+      "25": 31.955,
+      "26": 36.536,
+      "27": 26.456,
+      "28": 17.419,
+      "29": 22.314
+    },
+    "perimetru_declarat_m": 575.074,
+    "nota": "Pătrățelele albastre ale limitei sunt desenate spre exterior pe toate laturile, cu marginea interioară la ~0,25 m de linie; după potrivire, marginea lor exterioară cade la 42-46 px (1,8-1,9 m) de conturul din inventar pe toate laturile, și pe cea de nord-vest, unde linia limitei se vede greu printre hașurile roșii. Linia subțire care prelungește latura de sud spre vest, până la ~(1905, 3922) px, ține de strada J. S. Bach și nu e colțul 25: colțul e cu ~1,8 m mai la est, unde se întâlnesc laturile, cum arată și cifrele roșii 23 și 24 de lângă vârfuri. Linia gri-oliv care trece prin pătrățelele laturii de nord-vest e marginea trotuarului străzii Giuseppe Verdi și nu e paralelă cu limita. Planșa nu are caroiaj Stereo 70."
+  },
+  "gcp_px": {
+    "25": [
+      1947,
+      3930
+    ],
+    "2": [
+      4784,
+      1684
+    ],
+    "8": [
+      7587,
+      2726
+    ],
+    "9": [
+      7395,
+      4227
+    ]
+  },
+  "verificare_px": {
+    "5": [
+      6539,
+      2333
+    ],
+    "7": [
+      7250,
+      2599
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      4340,
+      5160,
+      6170,
+      6730
+    ],
+    [
+      1560,
+      6320,
+      2060,
+      6935
+    ],
+    [
+      6280,
+      5180,
+      7760,
+      6110
+    ],
+    [
+      6280,
+      6110,
+      7360,
+      6290
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele P1-P15): locuințe semicolective (familiale) cu două unități locative pe parcelă, suprapuse sau alipite, sau locuințe individuale (unifamiliale), cu anexele lor; pe P1-P4, cu front la două străzi, se admit și două locuințe unifamiliale izolate; regim de construire izolat sau cuplat; clădirile retrase cu 5 m față de aliniament (P13 și P14: 5 m față de str. J. S. Bach și minimum 3 m față de strada „A”)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M/R sau D+P+M/R; 8 m la cornișă, 12 m în total"
+    },
+    {
+      "cod": "S_Et*",
+      "denumire": "Subzonă de activități economice cu caracter terțiar situate în zone cu caracter rezidențial (parcela P16): activități administrative, financiar-bancare, comerciale (cu ADC de cel mult 1000 mp), alimentație publică, servicii cu acces public, cazare turistică, culturale, sănătate; regim de construire izolat; cel mult 24 de locuri de parcare pe parcelă",
+      "pot_max": "40%",
+      "cut_max": "2,2",
+      "h_max": "(1-3)S+P+2E; 12 m la cornișă, 16 m în total"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuar, grădină, parc – cu acces public nelimitat (parcelele P17, P18 și P19): plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule; parcarea interzisă",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "parter, 3 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-03-20",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Casetele U.T.R. ale planșei dau doar P.O.T. și C.U.T.; regimul de înălțime (Liu*: trei niveluri supraterane, 8 m la cornișă, 12 m în total; S_Et*: (1-3)S+P+2E, 12 m la cornișă, 16 m în total; S_Va*: parter, 3 m) e doar în hotărâre (Art. 1).",
+    "Legenda și caseta U.T.R. a planșei numesc subzona verde „Va*”; hotărârea (și eticheta de pe desen) „S_Va*”."
+  ],
+  "conditii": [
+    "Terenul necesar regularizării străzilor Giuseppe Verdi și J. S. Bach pe tronsonul de lângă P.U.Z. și cel pentru strada nouă „A” se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizația de construire a primei clădiri din ansamblu.",
+    "Fâșia dezmembrată pentru lărgirea străzii Giuseppe Verdi se întreține ca spațiu verde, cu dale sau asfalt în dreptul acceselor pe parcele, până când municipalitatea lărgește strada la ampriza de 18 m.",
+    "Strada „A” (ampriză de 9 m) se echipează cu utilități și se aduce la strat de uzură, după un proiect de specialitate, înainte de autorizația de construire a primei clădiri; strada are acces public nelimitat.",
+    "Strada J. S. Bach se echipează cu utilități, se regularizează la 9,5 m lățime, cu alveolă pentru autobuz, cum arată planșa, și se amenajează după un proiect de specialitate, înainte de autorizația de construire a primei clădiri.",
+    "Spațiile verzi publice P17 și P18 se amenajează după un proiect de specialitate înainte de recepția clădirii din S_Et*, iar P19 până la recepția clădirilor de pe parcelele vecine P10-P13.",
+    "Investițiile se fac în două etape, după avizul Serviciului Siguranța Circulației nr. 542028/446/29.05.2025: etapa 1 – subzona S_Et* și străzile propuse; etapa 2 – parcelele de locuințe (Liu*). Autorizațiile de construire pentru etapa 2 se dau abia după realizarea pasajului rutier de la intersecția str. Oașului – b-dul Muncii – str. Fânațelor; cele pentru S_Et* (P16), străzi, utilități și spațiile verzi (P17-P19) nu depind de pasaj.",
+    "Toate investițiile propuse sunt suportate de beneficiari."
+  ]
+}

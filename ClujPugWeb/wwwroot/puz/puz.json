@@ -4295,6 +4295,187 @@
   ]
  },
  {
+  "id": "2026-102",
+  "localitate": "cluj",
+  "hcl": "102/2026",
+  "data": "2026-03-20",
+  "titlu": "P.U.Z. – de urbanizare, str. Giuseppe Verdi – str. J.S. Bach",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-102-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-102.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele P1-P15): locuințe semicolective (familiale) cu două unități locative pe parcelă, suprapuse sau alipite, sau locuințe individuale (unifamiliale), cu anexele lor; pe P1-P4, cu front la două străzi, se admit și două locuințe unifamiliale izolate; regim de construire izolat sau cuplat; clădirile retrase cu 5 m față de aliniament (P13 și P14: 5 m față de str. J. S. Bach și minimum 3 m față de strada „A”)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane: (S)+P+1+M/R sau D+P+M/R; 8 m la cornișă, 12 m în total"
+   },
+   {
+    "cod": "S_Et*",
+    "denumire": "Subzonă de activități economice cu caracter terțiar situate în zone cu caracter rezidențial (parcela P16): activități administrative, financiar-bancare, comerciale (cu ADC de cel mult 1000 mp), alimentație publică, servicii cu acces public, cazare turistică, culturale, sănătate; regim de construire izolat; cel mult 24 de locuri de parcare pe parcelă",
+    "pot_max": "40%",
+    "cut_max": "2,2",
+    "h_max": "(1-3)S+P+2E; 12 m la cornișă, 16 m în total"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuar, grădină, parc – cu acces public nelimitat (parcelele P17, P18 și P19): plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule; parcarea interzisă",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "parter, 3 m"
+   }
+  ],
+  "suprafata_m2": 15897,
+  "imagine": "puz/2026-102/plansa.webp",
+  "bounds": {
+   "west": 23.6183687,
+   "south": 46.8024848,
+   "east": 23.6215895,
+   "north": 46.8035166
+  },
+  "limita": [
+   [
+    23.6197989,
+    46.8033782
+   ],
+   [
+    23.6199845,
+    46.8034824
+   ],
+   [
+    23.6201953,
+    46.8034322
+   ],
+   [
+    23.6206929,
+    46.8033137
+   ],
+   [
+    23.6209666,
+    46.8032485
+   ],
+   [
+    23.621252,
+    46.8031805
+   ],
+   [
+    23.6213672,
+    46.8031531
+   ],
+   [
+    23.621553,
+    46.8031088
+   ],
+   [
+    23.6214634,
+    46.8025362
+   ],
+   [
+    23.6213896,
+    46.8025394
+   ],
+   [
+    23.6211523,
+    46.8025436
+   ],
+   [
+    23.6210134,
+    46.8025461
+   ],
+   [
+    23.6209477,
+    46.8025473
+   ],
+   [
+    23.6205963,
+    46.8025527
+   ],
+   [
+    23.6205739,
+    46.8025531
+   ],
+   [
+    23.620142,
+    46.8025596
+   ],
+   [
+    23.6200763,
+    46.8025607
+   ],
+   [
+    23.6200589,
+    46.802561
+   ],
+   [
+    23.619672,
+    46.8025679
+   ],
+   [
+    23.6193018,
+    46.8025761
+   ],
+   [
+    23.6191263,
+    46.80258
+   ],
+   [
+    23.6187265,
+    46.8025901
+   ],
+   [
+    23.6186691,
+    46.8025919
+   ],
+   [
+    23.6185101,
+    46.8025995
+   ],
+   [
+    23.618435,
+    46.8026095
+   ],
+   [
+    23.6187548,
+    46.802795
+   ],
+   [
+    23.6191243,
+    46.8030041
+   ],
+   [
+    23.6193924,
+    46.8031549
+   ],
+   [
+    23.619569,
+    46.8032542
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.06
+  },
+  "legenda": "puz/2026-102/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-03-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Casetele U.T.R. ale planșei dau doar P.O.T. și C.U.T.; regimul de înălțime (Liu*: trei niveluri supraterane, 8 m la cornișă, 12 m în total; S_Et*: (1-3)S+P+2E, 12 m la cornișă, 16 m în total; S_Va*: parter, 3 m) e doar în hotărâre (Art. 1).",
+   "Legenda și caseta U.T.R. a planșei numesc subzona verde „Va*”; hotărârea (și eticheta de pe desen) „S_Va*”."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării străzilor Giuseppe Verdi și J. S. Bach pe tronsonul de lângă P.U.Z. și cel pentru strada nouă „A” se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizația de construire a primei clădiri din ansamblu.",
+   "Fâșia dezmembrată pentru lărgirea străzii Giuseppe Verdi se întreține ca spațiu verde, cu dale sau asfalt în dreptul acceselor pe parcele, până când municipalitatea lărgește strada la ampriza de 18 m.",
+   "Strada „A” (ampriză de 9 m) se echipează cu utilități și se aduce la strat de uzură, după un proiect de specialitate, înainte de autorizația de construire a primei clădiri; strada are acces public nelimitat.",
+   "Strada J. S. Bach se echipează cu utilități, se regularizează la 9,5 m lățime, cu alveolă pentru autobuz, cum arată planșa, și se amenajează după un proiect de specialitate, înainte de autorizația de construire a primei clădiri.",
+   "Spațiile verzi publice P17 și P18 se amenajează după un proiect de specialitate înainte de recepția clădirii din S_Et*, iar P19 până la recepția clădirilor de pe parcelele vecine P10-P13.",
+   "Investițiile se fac în două etape, după avizul Serviciului Siguranța Circulației nr. 542028/446/29.05.2025: etapa 1 – subzona S_Et* și străzile propuse; etapa 2 – parcelele de locuințe (Liu*). Autorizațiile de construire pentru etapa 2 se dau abia după realizarea pasajului rutier de la intersecția str. Oașului – b-dul Muncii – str. Fânațelor; cele pentru S_Et* (P16), străzi, utilități și spațiile verzi (P17-P19) nu depind de pasaj.",
+   "Toate investițiile propuse sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
