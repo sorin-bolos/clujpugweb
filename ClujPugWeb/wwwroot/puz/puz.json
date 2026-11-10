@@ -7161,6 +7161,125 @@
   ]
  },
  {
+  "id": "2020-869",
+  "localitate": "cluj",
+  "hcl": "869/2020",
+  "data": "2020-12-15",
+  "titlu": "P.U.Z. restructurare platformă industrială, str. Câmpina nr. 51-53",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-869-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/2021/01/20/HCL-nr-869-din-15-12-2020-PUZ-Active-Conexe-Campina.pdf",
+  "utr": [
+   {
+    "cod": "Em",
+    "denumire": "Subzonă de activități economice – mică producție: activități de mică producție și servicii de tip industrial și cvasiindustrial (spălătorie auto, parc modular – centru de date, stație de alimentare GPL), cu spații complementare și parcări; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "8 m, cornișa 6 m; regim de înălțime P"
+   }
+  ],
+  "suprafata_m2": 5000,
+  "imagine": "puz/2020-869/plansa.webp",
+  "bounds": {
+   "west": 23.6223825,
+   "south": 46.7880801,
+   "east": 23.6236858,
+   "north": 46.7887655
+  },
+  "limita": [
+   [
+    23.6235417,
+    46.788748
+   ],
+   [
+    23.6236589,
+    46.7882323
+   ],
+   [
+    23.6233446,
+    46.788251
+   ],
+   [
+    23.623326,
+    46.7881128
+   ],
+   [
+    23.6232642,
+    46.788108
+   ],
+   [
+    23.6232003,
+    46.7881043
+   ],
+   [
+    23.6231665,
+    46.7881029
+   ],
+   [
+    23.6230969,
+    46.7881071
+   ],
+   [
+    23.6230099,
+    46.7881128
+   ],
+   [
+    23.6228445,
+    46.7881234
+   ],
+   [
+    23.6225314,
+    46.7881422
+   ],
+   [
+    23.6225102,
+    46.788224
+   ],
+   [
+    23.6224822,
+    46.7883304
+   ],
+   [
+    23.6224505,
+    46.788445
+   ],
+   [
+    23.6224096,
+    46.7885902
+   ],
+   [
+    23.6226277,
+    46.7886091
+   ],
+   [
+    23.6228868,
+    46.7886488
+   ],
+   [
+    23.623323,
+    46.7887154
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.19
+  },
+  "legenda": "puz/2020-869/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2025-12-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Retragerea față de limitele laterale: planșa scrie „min 3 m”; Art. 1 cere o retragere egală cu înălțimea clădirii (H), dar nu mai mică de 3 m.",
+   "Retragerea față de limita posterioară: planșa scrie „min 6 m”; Art. 1 cere H, dar nu mai puțin de 6 m."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară.",
+   "Terenul necesar lărgirii str. Câmpina (pe planșă, fâșia de 148,07 mp „cedată pentru servitute conform P.U.G.”, de-a lungul străzii) se dezmembrează din parcelă și se înscrie în CF ca „drum” înainte de emiterea autorizației de construire pe parcelă.",
+   "Accesele și circulațiile se fac din str. Câmpina; parcarea se face pe locuri amenajate la sol, cu necesarul calculat după Anexa 2 a Regulamentului P.U.G."
+  ]
+ },
+ {
   "id": "2020-4",
   "localitate": "cluj",
   "hcl": "4/2020",

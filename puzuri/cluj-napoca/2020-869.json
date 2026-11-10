@@ -1,0 +1,169 @@
+{
+  "id": "2020-869",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 869,
+    "an": 2020,
+    "data_sedinta": "2020-12-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-869-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/01/20/HCL-nr-869-din-15-12-2020-PUZ-Active-Conexe-Campina.pdf"
+  },
+  "titlu": "P.U.Z. restructurare platformă industrială, str. Câmpina nr. 51-53",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 200,
+    "denumire": "Reglementări urbanistice (planșa U4)",
+    "scara": "necompletată în cartuș (≈1:520 după inventar: 15,2 px/m la 200 ppi, deci 1:500 tipărit ușor micșorat)",
+    "nota": "Planșa apare de două ori în PDF: p. 10 e copia anexată hotărârii (A4 culcat, scanat la 300 ppi, alb-negru, cu mențiunea de mână „Anexa 2 la Hotărârea nr. 869/2020” și ștampila Consiliului Local), iar p. 15 e aceeași planșă U4 (proiect nr. 169/2018, martie 2018), color, la format A3 (200 ppi), cu viza arhitectului-șef („HCL nr. 869 din 15.12.2020”, aviz nr. 98 din 8.04.2020) și recepția O.C.P.I. Cluj nr. 78724/2018; s-a folosit p. 15, unde limita roșie se distinge de restul desenului. Celelalte pagini: hotărârea (p. 1-2), regulamentul local de urbanism (Anexa 1, p. 3-9), avizul arhitectului-șef nr. 98/2020 și avizul de oportunitate nr. 1299/2019 (p. 11-14) și raportul informării și consultării publicului (p. 16-18). Planșa e orientată cu nordul în sus (rotație 0,3°). Limita P.U.Z. e „limita parcelei studiate prin P.U.Z.” (linie roșie întreruptă, cu o linie neagră subțire vizibilă între liniuțe); lângă ea, aproape suprapusă, e „limita zonei studiate” (linie roșie din puncte). Legenda cuprinde cheia simbolurilor și caseta „Reglementări urbanistice” (indicatori, regim de înălțime, retrageri, UTR Em); bilanțul teritorial, inventarul de coordonate, cartușul și ștampilele au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă (tabelul „1Cc”, 18 puncte, 500-517, coloanele X (m) = Nord și Y (m) = Est, plus Z; „Suprafața totală: 5000 mp”), în ordinea conturului; laturile și perimetrul nu sunt tipărite, deci verificarea e doar aria (5000,3 mp calculat). Punctele alese stau pe centrul liniei roșii întrerupte a limitei de parcelă (peste linia cadastrală neagră), la intersecția celor două laturi vecine, verificate pe decupaje mărite. Control: 500 (colțul NE), 501 (SE), 510 (SV, la str. Câmpina) și 514 (NV). Verificare: 502 și 503, colțurile decupajului din jurul clădirii restaurantului de pe latura de sud-est. Celelalte puncte stau pe aliniamente (latura de vest 510-514, frontul la str. Câmpina 503-510) sau în frângeri mici (515-517 pe latura de nord) și nu pot fi localizate de-a lungul liniei.",
+    "suprafata_declarata_m2": 5000,
+    "puncte": {
+      "500": [
+        588601.392,
+        395044.832
+      ],
+      "501": [
+        588543.928,
+        395052.779
+      ],
+      "502": [
+        588546.42,
+        395028.828
+      ],
+      "503": [
+        588531.092,
+        395027.138
+      ],
+      "504": [
+        588530.636,
+        395022.416
+      ],
+      "505": [
+        588530.311,
+        395017.526
+      ],
+      "506": [
+        588530.196,
+        395014.948
+      ],
+      "507": [
+        588530.756,
+        395009.641
+      ],
+      "508": [
+        588531.514,
+        395003.008
+      ],
+      "509": [
+        588532.91,
+        394990.404
+      ],
+      "510": [
+        588535.408,
+        394966.538
+      ],
+      "511": [
+        588544.528,
+        394965.078
+      ],
+      "512": [
+        588556.399,
+        394963.151
+      ],
+      "513": [
+        588569.173,
+        394960.95
+      ],
+      "514": [
+        588585.365,
+        394958.108
+      ],
+      "515": [
+        588587.179,
+        394974.795
+      ],
+      "516": [
+        588591.243,
+        394994.649
+      ],
+      "517": [
+        588598.069,
+        395028.079
+      ]
+    }
+  },
+  "gcp_px": {
+    "500": [
+      1978,
+      701
+    ],
+    "501": [
+      2093,
+      1572
+    ],
+    "510": [
+      776,
+      1697
+    ],
+    "514": [
+      663,
+      935.5
+    ]
+  },
+  "verificare_px": {
+    "502": [
+      1736,
+      1535
+    ],
+    "503": [
+      1703,
+      1762
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2380,
+      68,
+      2832,
+      368
+    ],
+    [
+      2380,
+      936,
+      2832,
+      1250
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Em",
+      "denumire": "Subzonă de activități economice – mică producție: activități de mică producție și servicii de tip industrial și cvasiindustrial (spălătorie auto, parc modular – centru de date, stație de alimentare GPL), cu spații complementare și parcări; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "1,2",
+      "h_max": "8 m, cornișa 6 m; regim de înălțime P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-12-15"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerea față de limitele laterale: planșa scrie „min 3 m”; Art. 1 cere o retragere egală cu înălțimea clădirii (H), dar nu mai mică de 3 m.",
+    "Retragerea față de limita posterioară: planșa scrie „min 6 m”; Art. 1 cere H, dar nu mai puțin de 6 m."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară.",
+    "Terenul necesar lărgirii str. Câmpina (pe planșă, fâșia de 148,07 mp „cedată pentru servitute conform P.U.G.”, de-a lungul străzii) se dezmembrează din parcelă și se înscrie în CF ca „drum” înainte de emiterea autorizației de construire pe parcelă.",
+    "Accesele și circulațiile se fac din str. Câmpina; parcarea se face pe locuri amenajate la sol, cu necesarul calculat după Anexa 2 a Regulamentului P.U.G."
+  ]
+}
