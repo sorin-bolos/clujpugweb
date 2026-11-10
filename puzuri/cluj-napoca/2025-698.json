@@ -1,0 +1,253 @@
+{
+  "id": "2025-698",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 698,
+    "an": 2025,
+    "data_sedinta": "2025-12-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-698-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/12/18/698.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare (parcelare și construire locuințe individuale cu regim redus de înălțime), str. Arțarului nr. 27 – latura sudică",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 96,
+    "denumire": "A-03 Plan reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 9 (Anexa 2 la hotărâre, micșorată pe A4, rotită, ștampilată) și p. 17 (format A3, color, 96 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 28 din 11.03.2025, și mențiunea de mână „HCL nr. 698 din 4 decembrie 2025”); s-a folosit p. 17, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-8 regulamentul local de urbanism (Anexa 1), p. 10 planșa A-06 „Plan Circulația terenurilor” (Anexa 3, pe A4), pp. 11-13 avizul de oportunitate nr. 206/14.11.2023 cu extrasul din P.U.G., pp. 14-16 avizul Arhitectului-șef nr. 28/11.03.2025, p. 18 planșa A-06 în format A3 (aceeași bază, același inventar de coordonate), pp. 19-21 raportul informării și consultării publicului, apoi observațiile publicului, planșe alb-negru pe ortofoto (pp. 25-26), avize și acte. Cartușul: proiect 1021/2021, faza P.U.Z., pag. A-03 „Plan reglementari urbanistice”, scara 1:1000, revizia V01_REV02, data 25.03.2025. Scara imaginii: 3,8 px/m (1:1000 la 96 ppi), nordul în sus (rotație 0,7° față de Stereo 70). Legenda cuprinde cheia simbolurilor (limite, suprafețe, limita construibilă, construcții în vecinătate) și „Indici urbanistici propuși” (POT/CUT pentru Liu_Art și S_Va_Art), în două casete; au rămas afară săgeata nordului, locurile de parcare, profilul stradal IV.2, bilanțul parcelar, tabelul proprietății, bilanțul teritorial, inventarul de coordonate, ștampilele și cartușul. Nicio casetă nu intră în zona tampon a limitei, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, X(Nord) / Y(Est), 26 de puncte (tabelul din colțul stânga-jos, x≈85-300, y≈765-1100), cu „Suprafata = 6200mp”; bilanțul teritorial dă 6.200,17 mp. Numerotarea sare peste 2, 14, 15, 18, iar punctul 30 stă între 13 și 16: ordinea din tabel e ordinea conturului (în sensul acelor de ceasornic), copiată în `ordine`. Același tabel, identic cifră cu cifră, e și pe planșa A-06 (p. 18).",
+    "suprafata_declarata_m2": 6200.17,
+    "puncte": {
+      "1": [
+        584495.098,
+        394108.855
+      ],
+      "3": [
+        584502.949,
+        394121.43
+      ],
+      "4": [
+        584505.697,
+        394125.676
+      ],
+      "5": [
+        584515.883,
+        394141.414
+      ],
+      "6": [
+        584482.738,
+        394161.193
+      ],
+      "7": [
+        584471.965,
+        394171.358
+      ],
+      "8": [
+        584455.88,
+        394177.057
+      ],
+      "9": [
+        584439.5,
+        394182.86
+      ],
+      "10": [
+        584415.31,
+        394189.292
+      ],
+      "11": [
+        584394.754,
+        394192.585
+      ],
+      "12": [
+        584383.747,
+        394196.024
+      ],
+      "13": [
+        584374.731,
+        394196.726
+      ],
+      "30": [
+        584372.628,
+        394155.817
+      ],
+      "16": [
+        584384.773,
+        394152.367
+      ],
+      "17": [
+        584391.852,
+        394150.418
+      ],
+      "19": [
+        584407.799,
+        394145.221
+      ],
+      "20": [
+        584421.003,
+        394140.53
+      ],
+      "21": [
+        584436.123,
+        394134.871
+      ],
+      "22": [
+        584441.151,
+        394132.648
+      ],
+      "23": [
+        584452.369,
+        394127.338
+      ],
+      "24": [
+        584453.933,
+        394126.725
+      ],
+      "25": [
+        584454.091,
+        394126.911
+      ],
+      "26": [
+        584465.165,
+        394122.327
+      ],
+      "27": [
+        584468.694,
+        394120.666
+      ],
+      "28": [
+        584481.577,
+        394114.914
+      ],
+      "29": [
+        584490.731,
+        394110.898
+      ]
+    },
+    "ordine": [
+      "1",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "30",
+      "16",
+      "17",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29"
+    ],
+    "nota": "Aria coordonatelor, 6200,16 mp, se potrivește cu 6.200,17 mp din bilanțul teritorial și din bilanțul parcelar (6200 mp rotunjit în inventar); tabelul nu dă lungimile laturilor sau perimetrul. Pe planșă vârfurile poartă altă numerotare decât tabelul (1 în colțul nord-vestic, apoi în sens invers acelor de ceasornic: 2-15 pe latura vestică până în colțul sud-vestic, 16 colțul sud-estic, 17-23 pe latura estică, 24 colțul nord-estic, 25-26 pe latura nordică); potrivirea s-a făcut după formă: colțul NE „24” = 5, SE „16” = 13, SV „15” = 30, NV „1” = 1, iar etichetele planșei cad lângă toate vârfurile prezise. Puncte de control: cele patru colțuri ascuțite 1, 5, 13, 30 (unghiuri de 77-92°). De verificare: 6 (frângere de 12,5° unde vine limita cadastrală dinspre est), 7 (frângere de 24°), 8 (unde se întâlnesc limita cadastrală dinspre est și o cotă) și 12 (frângere de 13°); pe frângerile line poziția de-a lungul liniei se citește doar cu 2-3 px (0,5-0,8 m), de aici reziduul de 0,85 m la 6. Punctele 23-24-25 fac pe latura vestică un mic decroș (1,68 m și 0,24 m), prea mic pentru planșa la 3,8 px/m."
+  },
+  "gcp_px": {
+    "1": [
+      297,
+      427
+    ],
+    "5": [
+      421,
+      350
+    ],
+    "13": [
+      622,
+      886
+    ],
+    "30": [
+      469,
+      892
+    ]
+  },
+  "verificare_px": {
+    "6": [
+      494,
+      473
+    ],
+    "7": [
+      531,
+      519
+    ],
+    "8": [
+      552,
+      576
+    ],
+    "12": [
+      620,
+      851
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      780,
+      50,
+      1045,
+      308
+    ],
+    [
+      780,
+      388,
+      1175,
+      452
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu_Art",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime: locuințe individuale (unifamiliale), în regim izolat sau cuplat, cu anexele lor, pe parcelele 1-6",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la coamă, 8 m la cornișă sau atic; (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Va_Art",
+      "denumire": "Subzonă verde, scuaruri, grădini cu acces public nelimitat (parcela 7)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "4 m, un singur nivel"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-12-04",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Parcela 9 (245,65 mp): planșa A-03 o trece în U.T.R. Liu_Art, ca „teren liber de construcții” cu 0 niveluri (și bilanțul teritorial numără în Liu_Art, 5.713,52 mp, și strada, parcela 8); hotărârea (Art. 1) definește Liu_Art doar pe parcelele 1-6 și spune că parcela 9 se înscrie în CF ca „drum”, rezervă de teren pentru legătura cu viitoarea tramă stradală a U.T.R.-ului, și trece gratuit în domeniul public, cum arată și planșa A-06.",
+    "Planșa nu dă înălțimi, ci doar 3 niveluri supraterane pentru parcelele 1-6 (bilanțul parcelar); hotărârea: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, cel mult 8 m la cornișă sau atic și 12 m la coamă.",
+    "Bilanțul parcelar dă 0 niveluri pentru parcela 7 (S_Va_Art); hotărârea admite construcții de cel mult un nivel și 4 m înălțime, cu POT 5% și CUT 0,1, ca pe planșă."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcele: strada de interes local propusă (parcela 8, ampriză de 9 m, profil IV.2 pe planșă) se înscrie în CF ca „drum”; până la recepția locuințelor se echipează edilitar și se aduce la strat de uzură, pe baza unui proiect autorizat.",
+    "Înainte de autorizațiile de construire pentru locuințe: parcela 9 se înscrie în CF ca „drum”; e o rezervă de teren pentru legătura cu viitoarea tramă stradală a U.T.R.-ului, reglementată în etapele următoare de urbanizare.",
+    "Înainte de recepția locuințelor: spațiul verde cu acces public nelimitat (parcela 7, S_Va_Art) se amenajează pe baza unui proiect de specialitate.",
+    "Înainte de certificatele de atestare a edificării locuințelor: parcelele 7, 8 și 9 trec gratuit în domeniul public (planșa A-06, circulația terenurilor).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară.",
+    "Liu_Art: retragere de 5 m de la aliniament pentru locuințe și de minimum 6 m pentru garaje; minimum 3 m față de limitele laterale și 6 m față de limita posterioară.",
+    "Liu_Art: accesul se face din strada de interes local propusă; de regulă un singur acces pietonal și unul carosabil pe parcelă, cel carosabil de cel mult 5 m lățime; parcarea în parcelă: minimum 1 loc pentru clădiri cu aria utilă sub 100 mp, 2 locuri peste.",
+    "Liu_Art: utilitățile se asigură prin racordare la rețelele publice; fiecare parcelă are o platformă sau un spațiu pentru colectarea deșeurilor, accesibil din spațiul public.",
+    "S_Va_Art: retrageri de minimum 5 m de la aliniament și de la limitele laterale și posterioară; accese de serviciu; alei pietonale și velo din agregate compactate (sau îmbrăcăminți asfaltice care le imită); parcarea interzisă; iluminat public, puncte de apă, cabluri doar subterane, spațiu pentru deșeuri și compost."
+  ]
+}

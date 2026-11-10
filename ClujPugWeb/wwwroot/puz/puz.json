@@ -5907,6 +5907,171 @@
   ]
  },
  {
+  "id": "2025-698",
+  "localitate": "cluj",
+  "hcl": "698/2025",
+  "data": "2025-12-04",
+  "titlu": "P.U.Z. – de urbanizare (parcelare și construire locuințe individuale cu regim redus de înălțime), str. Arțarului nr. 27 – latura sudică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-698-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/12/18/698.pdf",
+  "utr": [
+   {
+    "cod": "Liu_Art",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime: locuințe individuale (unifamiliale), în regim izolat sau cuplat, cu anexele lor, pe parcelele 1-6",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la coamă, 8 m la cornișă sau atic; (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Va_Art",
+    "denumire": "Subzonă verde, scuaruri, grădini cu acces public nelimitat (parcela 7)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "4 m, un singur nivel"
+   }
+  ],
+  "suprafata_m2": 6200,
+  "imagine": "puz/2025-698/plansa.webp",
+  "bounds": {
+   "west": 23.6121966,
+   "south": 46.7505467,
+   "east": 23.6134285,
+   "north": 46.7518833
+  },
+  "limita": [
+   [
+    23.612227,
+    46.7516633
+   ],
+   [
+    23.6123898,
+    46.7517359
+   ],
+   [
+    23.6124447,
+    46.7517612
+   ],
+   [
+    23.6126484,
+    46.7518554
+   ],
+   [
+    23.6129148,
+    46.7515603
+   ],
+   [
+    23.6130503,
+    46.751465
+   ],
+   [
+    23.6131286,
+    46.7513212
+   ],
+   [
+    23.6132083,
+    46.7511748
+   ],
+   [
+    23.613298,
+    46.7509582
+   ],
+   [
+    23.6133458,
+    46.7507738
+   ],
+   [
+    23.6133934,
+    46.7506753
+   ],
+   [
+    23.6134046,
+    46.7505944
+   ],
+   [
+    23.6128697,
+    46.750569
+   ],
+   [
+    23.6128218,
+    46.7506777
+   ],
+   [
+    23.6127947,
+    46.7507411
+   ],
+   [
+    23.612723,
+    46.7508837
+   ],
+   [
+    23.6126586,
+    46.7510017
+   ],
+   [
+    23.612581,
+    46.7511369
+   ],
+   [
+    23.6125508,
+    46.7511817
+   ],
+   [
+    23.6124787,
+    46.7512818
+   ],
+   [
+    23.6124703,
+    46.7512958
+   ],
+   [
+    23.6124727,
+    46.7512972
+   ],
+   [
+    23.6124102,
+    46.7513961
+   ],
+   [
+    23.6123876,
+    46.7514276
+   ],
+   [
+    23.6123094,
+    46.7515426
+   ],
+   [
+    23.6122547,
+    46.7516243
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.1
+  },
+  "legenda": "puz/2025-698/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2032-12-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Parcela 9 (245,65 mp): planșa A-03 o trece în U.T.R. Liu_Art, ca „teren liber de construcții” cu 0 niveluri (și bilanțul teritorial numără în Liu_Art, 5.713,52 mp, și strada, parcela 8); hotărârea (Art. 1) definește Liu_Art doar pe parcelele 1-6 și spune că parcela 9 se înscrie în CF ca „drum”, rezervă de teren pentru legătura cu viitoarea tramă stradală a U.T.R.-ului, și trece gratuit în domeniul public, cum arată și planșa A-06.",
+   "Planșa nu dă înălțimi, ci doar 3 niveluri supraterane pentru parcelele 1-6 (bilanțul parcelar); hotărârea: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, cel mult 8 m la cornișă sau atic și 12 m la coamă.",
+   "Bilanțul parcelar dă 0 niveluri pentru parcela 7 (S_Va_Art); hotărârea admite construcții de cel mult un nivel și 4 m înălțime, cu POT 5% și CUT 0,1, ca pe planșă."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcele: strada de interes local propusă (parcela 8, ampriză de 9 m, profil IV.2 pe planșă) se înscrie în CF ca „drum”; până la recepția locuințelor se echipează edilitar și se aduce la strat de uzură, pe baza unui proiect autorizat.",
+   "Înainte de autorizațiile de construire pentru locuințe: parcela 9 se înscrie în CF ca „drum”; e o rezervă de teren pentru legătura cu viitoarea tramă stradală a U.T.R.-ului, reglementată în etapele următoare de urbanizare.",
+   "Înainte de recepția locuințelor: spațiul verde cu acces public nelimitat (parcela 7, S_Va_Art) se amenajează pe baza unui proiect de specialitate.",
+   "Înainte de certificatele de atestare a edificării locuințelor: parcelele 7, 8 și 9 trec gratuit în domeniul public (planșa A-06, circulația terenurilor).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară.",
+   "Liu_Art: retragere de 5 m de la aliniament pentru locuințe și de minimum 6 m pentru garaje; minimum 3 m față de limitele laterale și 6 m față de limita posterioară.",
+   "Liu_Art: accesul se face din strada de interes local propusă; de regulă un singur acces pietonal și unul carosabil pe parcelă, cel carosabil de cel mult 5 m lățime; parcarea în parcelă: minimum 1 loc pentru clădiri cu aria utilă sub 100 mp, 2 locuri peste.",
+   "Liu_Art: utilitățile se asigură prin racordare la rețelele publice; fiecare parcelă are o platformă sau un spațiu pentru colectarea deșeurilor, accesibil din spațiul public.",
+   "S_Va_Art: retrageri de minimum 5 m de la aliniament și de la limitele laterale și posterioară; accese de serviciu; alei pietonale și velo din agregate compactate (sau îmbrăcăminți asfaltice care le imită); parcarea interzisă; iluminat public, puncte de apă, cabluri doar subterane, spațiu pentru deșeuri și compost."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
