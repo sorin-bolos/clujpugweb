@@ -1,0 +1,153 @@
+{
+  "id": "2026-553",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 553,
+    "an": 2026,
+    "data_sedinta": "2026-08-06",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-553-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/553.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe colective mici – str. Eta Boeriu",
+  "plansa": {
+    "pagina_pdf": 12,
+    "dpi": 200,
+    "denumire": "PUZ.03 Plan reglementări urbanistice - zonificare",
+    "scara": "1:500",
+    "nota": "Planșa e singura din PDF: p. 12, A3 rotit, 200 ppi, ștampilată „Anexa 2 la Hotărârea nr. 553/2026”; p. 1-2 sunt hotărârea, p. 3-11 regulamentul (Anexa 1). Cartușul o numește „PUZ.03 Plan reglementări urbanistice - zonificare”, 1:500; hotărârea o anexează ca „Planșa 03 - Plan Reglementări Urbanistice - Zonificare”. Scara imaginii: 10,7 px/m (1:500 la 200 ppi ar da 15,7 px/m, deci planșa e tipărită la ~68%); săgeata nordului arată în sus, dar desenul e rotit cu ~6,4° față de caroiajul Stereo 70 (latura vestică a parcelei e verticală pe planșă). Legenda cuprinde blocul U.T.R. din caseta „Zona reglementată” (fără rândurile de sus, care numesc beneficiarul și dau datele de CF), tabelul U.T.R. existent/propus cu indicii și caracteristicile tehnice și cheia simbolurilor; au rămas afară bilanțurile pe parcele, bilanțul teritorial, tabelul „Suprafețe zonificare”, tabelul suprafețelor parcelelor, secțiunea A-A, inventarul de coordonate și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa PUZ.03 (punctele 101-106, E / N, Stereografic 1970), în ordinea conturului; lungimile laturilor sunt scrise pe desen, lângă fiecare latură. Puncte de control: cele patru colțuri 101, 103, 104 și 106, pe mijlocul liniei hașurate a limitei (101-102-103 trec prin fâșia închisă la culoare a străzii Eta Boeriu, unde linia se vede ca un șir de pătrățele negre); puncte de verificare: 102 (pe latura nordică, practic dreaptă) și 105 (semnul de vârf de pe latura sudică).",
+    "suprafata_declarata_m2": 5100,
+    "puncte": {
+      "101": [
+        583203.82,
+        393894.014
+      ],
+      "102": [
+        583197.965,
+        393914.748
+      ],
+      "103": [
+        583191.394,
+        393937.884
+      ],
+      "104": [
+        583086.732,
+        393926.169
+      ],
+      "105": [
+        583086.072,
+        393901.957
+      ],
+      "106": [
+        583085.367,
+        393879.87
+      ]
+    },
+    "laturi_declarate_m": {
+      "101": 21.54,
+      "103": 105.32,
+      "104": 24.22,
+      "105": 22.09
+    },
+    "nota": "Tabelul e mic și neclar (cifre de ~8 px). Pct. 105: Nord se citește 583086,?72, cu prima zecimală ștearsă (pare 6). Cu 583086,072 aria iese 5100,2 mp, cât scriu planșa și hotărârea (5100 mp, nr. cad. 300144), laturile 104-105 și 105-106 ies 24,221 și 22,098 m (pe desen 24,22 și 22,09), iar latura sudică e aproape dreaptă, cum e desenată; cu 583086,672 ar ieși 5086,3 mp, 24,212 și 22,126 m și un frânt de 0,65 m spre interior pe care desenul nu-l are. Laturile scrise pe desen: 21,54 (101-102), 24,0x (102-103, ultima cifră ilizibilă; calculat 24,051), 105,32 (103-104), 24,22 (104-105), 22,09 (105-106), 119,xx (106-101, zecimalele ilizibile; calculat 119,294); în `laturi_declarate_m` sunt doar cele citite sigur. Planșa nu dă perimetrul."
+  },
+  "gcp_px": {
+    "101": [
+      905,
+      442
+    ],
+    "103": [
+      1384,
+      522
+    ],
+    "104": [
+      1377,
+      1634
+    ],
+    "106": [
+      887,
+      1704
+    ]
+  },
+  "verificare_px": {
+    "102": [
+      1133,
+      480
+    ],
+    "105": [
+      1127,
+      1670
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      260,
+      216,
+      552,
+      523
+    ],
+    [
+      2176,
+      1153,
+      2852,
+      1380
+    ],
+    [
+      170,
+      1160,
+      458,
+      2172
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Li/c_b*",
+      "denumire": "Zonă de locuințe colective mici (parcelele 3-6): cel mult 6 unități locative pe parcelă și funcțiunile de echipare tehnico-edilitară; regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m; S+P+2E"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă de spații verzi cu acces public nelimitat (parcela 2): plantații înalte, medii și joase, alei pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "9 m la cornișă; (D)+P+1"
+    },
+    {
+      "cod": "Tr",
+      "denumire": "Zonă de circulație rutieră, în corelare cu traseul avizat al Centurii Metropolitane; rămân prevederile R.L.U. al P.U.G. pentru UTR Tr"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-08-06",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "U.T.R. S_Va*: hotărârea permite POT maxim 5%, CUT maxim 0,1 și cel mult 9 m la cornișă, (D)+P+1; planșa dă POT 0,00% și CUT 0,00 („conf. P.U.G.”), în caseta zonei reglementate și pe desen, iar în tabelul U.T.R. are liniuțe.",
+    "Zonele: hotărârea pune în Li/c_b* parcelele 3-6, în S_Va* parcela 2 și stabilește și o zonă Tr, în corelare cu traseul avizat al Centurii Metropolitane, cu prevederile R.L.U. al P.U.G. Pe planșă, tabelul „Suprafețe zonificare” dă Tr propus 0 mp și Li/c_b* 4218,90 mp, adică parcelele 3-6 împreună cu strada „A” (parcela 1, 1119,42 mp), deși desenul scrie „UTR Tr” pe colțul de sud-est, dincolo de limita UTR din P.U.G."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pentru locuințe, terenul necesar regularizării străzii Eta Boeriu (după planșa de reglementări) se dezmembrează din parcelă și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la strat de uzură și se transferă în domeniul public.",
+    "Înainte de autorizații, strada Eta Boeriu se modernizează (asfaltează) la o ampriză de 9 m (6 m carosabil și trotuare de 1,5 m) pe tronsonul de lângă PUZ și de cel puțin 7,5 m (6 m carosabil și un trotuar de 1,5 m pe partea cu construcțiile existente) de la intersecția cu str. Măceșului până la amplasament.",
+    "Înainte de autorizații, strada „A” propusă (ampriză 10 m, cu loc de întoarcere) se înscrie în CF ca „drum”, se echipează edilitar (apă-canal, canalizare pluvială, electricitate), iar carosabilul se aduce la strat de uzură pe baza unui proiect autorizat; strada are acces public nelimitat.",
+    "Până la recepția construcțiilor se fac trotuarele și fâșiile verzi ale străzii „A”, cu iluminatul stradal.",
+    "Până la recepție, spațiul verde cu acces public nelimitat (parcela 2) se amenajează pe baza unui proiect autorizat, cu cel puțin 4 arbori cu circumferința de minimum 30 cm măsurată la 1 m de la colet.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiar.",
+    "În Li/c_b*, clădirile se retrag cel puțin 6 m de la aliniamentul străzii „A” și 5 m de la str. Eta Boeriu, față de limitele laterale jumătate din înălțime, dar minimum 6 m (pentru nivelurile supraterane), și cel puțin 6 m față de limita posterioară. În S_Va*: minimum 6 m față de aliniament și de limita posterioară, 3 m față de cele laterale.",
+    "Accesul pe parcele se face din strada „A”, cu un singur acces pietonal și unul carosabil pe parcelă; pentru căile din parcelă se recomandă pavimente permeabile. Aleile din spațiul verde se fac din agregate compactate, piatră naturală sau asfalt permeabil.",
+    "Parcarea se face de regulă la subsolul clădirilor, cu necesarul calculat după Anexa 2 a R.L.U. al P.U.G.",
+    "Utilitățile se racordează la rețelele publice. Apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în împrejmuiri; cablurile nu se montează aerian; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor pe cinci fracții, accesibil din spațiul public."
+  ]
+}
