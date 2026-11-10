@@ -12523,6 +12523,106 @@
   ]
  },
  {
+  "id": "2022-650",
+  "localitate": "cluj",
+  "hcl": "650/2022",
+  "data": "2022-09-07",
+  "titlu": "P.U.Z. – Dezvoltare centru de agrement drumul Sfântul Ion",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-650-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-650-din-7-septembrie-2022.pdf",
+  "utr": [
+   {
+    "cod": "Aapp",
+    "denumire": "Zonă de agrement pentru public/privat: agrement pentru public (alimentație publică, cazare turistică, sport în aer liber, spații de joacă, echitație, terenuri de sport și platforme, alei, parcaje, edicule) și agrement privat (grădinărit, culturi pomicole și viticole, apicultură, petrecerea timpului liber); regim de construire deschis; retrageri pentru agrementul public: cel puțin 8 m de la aliniamentul drumului Sfântul Ion regularizat după P.U.G. și cel puțin 6 m față de limitele laterale și posterioară (agrement privat: min. 5 m de la aliniamentul străzilor și aleilor de acces local, 8 m în celelalte cazuri, și min. 3 m față de limite); între două clădiri de pe aceeași parcelă cel puțin înălțimea celei mai înalte, min. 4,5 m (6 m dacă au încăperi principale spre spațiul dintre ele)",
+    "pot_max": "10%",
+    "cut_max": "0,25",
+    "h_max": "agrement public: trei niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R), max. 8 m la cornișă sau la aticul etajului neretras și max. 12 m la coamă sau la aticul etajului retras; agrement privat: (S)+P"
+   },
+   {
+    "cod": "Ve_Ag",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic și agrement urban: plantații înalte, medii și joase, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport în aer liber, edicule, amenajări peisagere și hidrotehnice; parcarea e interzisă",
+    "pot_max": "1%",
+    "cut_max": "0,01",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 3642,
+  "imagine": "puz/2022-650/plansa.webp",
+  "bounds": {
+   "west": 23.5437829,
+   "south": 46.7392472,
+   "east": 23.5447952,
+   "north": 46.7402231
+  },
+  "limita": [
+   [
+    23.5441693,
+    46.7401978
+   ],
+   [
+    23.5443518,
+    46.7401473
+   ],
+   [
+    23.5447479,
+    46.7400378
+   ],
+   [
+    23.5445925,
+    46.7397721
+   ],
+   [
+    23.5442016,
+    46.7394287
+   ],
+   [
+    23.5440576,
+    46.7392769
+   ],
+   [
+    23.5439434,
+    46.7394244
+   ],
+   [
+    23.5438213,
+    46.739582
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.1
+  },
+  "legenda": "puz/2022-650/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2026-09-07",
+   "initial_pana_la": "2025-09-07",
+   "prelungiri": [
+    {
+     "hcl": "595/2025",
+     "pana_la": "2026-09-07",
+     "nota": "HCL 595 din 5 septembrie 2025 prelungește valabilitatea „cu o perioadă de 12 luni”; termenul e socotit de la expirarea inițială, 7.09.2025."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa numește zona verde „UTR=Ve Zonă verde de protecție a apelor sau cu rol de culoar ecologic” și nu-i dă indicatori proprii; Art. 1 (și Anexa 1) o numește U.T.R. Ve_Ag „… și agrement urban”, cu POT max. 1% și CUT max. 0,01.",
+   "Tabelul U.T.R. de pe planșă aplică POT 10% și CUT 0,25 întregii suprafețe de referință de 3642,25 mp, inclusiv cei 474,65 mp din Ve și fâșia rezervată lărgirii drumului: AC maximă 364,22 mp, ADC maximă 910,56 mp. Art. 1 dă POT 10% și CUT 0,25 doar pentru U.T.R. Aapp (3167,58 mp pe planșă), iar pentru Ve_Ag POT 1% și CUT 0,01.",
+   "Planșa cere „spațiu verde minim pe sol natural 60%”; Art. 1 nu fixează un procent de spațiu verde.",
+   "Planșa dă pentru Aapp doar „3 niveluri supraterane”, H max. 8 m la cornișă și 12 m total; Art. 1 limitează configurațiile la (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R și, pentru agrementul privat, la (S)+P."
+  ],
+  "conditii": [
+   "Suprafața necesară lărgirii și modernizării drumului Sfântul Ion (266,96 mp pe planșă: 190,46 mp rezervați prin P.U.G. și 76,50 mp separați în plus) se dezmembrează din parcelă și se înscrie în C.F. ca „drum” înainte de emiterea autorizației de construire; se amenajează ca spațiu verde, cu dalaj/asfalt în dreptul acceselor, și se transferă gratuit în domeniul public înainte de recepția lucrărilor (planșa A.6 Proprietatea asupra terenurilor).",
+   "Toate investițiile propuse prin documentație sunt suportate de beneficiară.",
+   "La faza D.T.A.C. se asigură cel puțin 20 de locuri de parcare pentru biciclete în interiorul parcelei.",
+   "Accesul auto și pietonal se face din drumul Sfântul Ion; construcțiile pentru agrementul public se autorizează numai dacă există acces direct la drumurile publice. La divizarea parcelelor (agrement privat) se prevăd alei comune de cel puțin 5,5 m.",
+   "Parcarea se face în interiorul parcelei, după Anexa 2 a Regulamentului local de urbanism aferent P.U.G. (la agrementul privat, cel puțin un loc pe parcelă); pe zona verde Ve_Ag parcarea e interzisă.",
+   "Pentru agrementul public racordarea la rețelele edilitare publice e obligatorie; unde nu există canalizare publică, apele uzate se pot epura local; apele pluviale se rețin pe parcelă și se evacuează în emisari locali cu debitele din avizul Apelor Române, fără a fi dirijate spre domeniul public sau spre vecini.",
+   "Cablurile aeriene de orice fel sunt interzise; firidele de branșament se integrează în împrejmuire, iar deșeurile se colectează pe o platformă din interiorul parcelei, accesibilă din domeniul public."
+  ]
+ },
+ {
   "id": "2022-621",
   "localitate": "cluj",
   "hcl": "621/2022",
