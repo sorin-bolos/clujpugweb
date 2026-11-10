@@ -1,0 +1,117 @@
+{
+  "id": "2021-790",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 790,
+    "an": 2021,
+    "data_sedinta": "2021-12-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-790-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/01/20/HCL-790-din-22-12-2021.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare urbană str. Beiușului – latura vestică",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 150,
+    "denumire": "U4 Plan de situație – Reglementări",
+    "scara": "1:250",
+    "nota": "Planșa de reglementări apare de două ori: p. 3 e Anexa 1, ștampilată, micșorată pe A4 și culcată, iar p. 19 e aceeași planșă U4 la format mare (3632×2563 px, 150 ppi), cu viza Arhitectului-șef „HCL nr. 790 din 22.12.2021 – vizat”; s-a folosit p. 19, mult mai clară. Pp. 4 și 20 sunt planșa U6 „Plan de situație – Circulația terenurilor” (Anexa 2), pe același fond și cu același inventar de coordonate; pp. 5-8 sunt regulamentul (Anexa 3), pp. 9-14 contractul de restructurare (Anexa 4). Cartuș: P.U.Z. conform Legii 350/2001, str. Beiușului nr. 1B, pr. nr. 9/2019, faza PUZ, planșa U4, data 01.2021. Nordul e spre dreapta (planșa e rotită cu 90°): str. Beiușului e jos (est), calea ferată uzinală sus (vest). Scara 1:250 la 150 ppi dă 23,6 px/m, cât dă și potrivirea. Legenda cuprinde cheia simbolurilor și blocul „Indicatori urbanistici reglementați”; au rămas afară situația existentă și cea propusă, circulația terenurilor (bilanț), secțiunile A-A, inventarul de coordonate și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U4 (4 puncte, 1-4, X [Nord] / Y [Est], cu lungimile laturilor D(i,i+1), S(1Cc) = 629,48 mp și P = 104,901 m), repetat pe planșa U6. Inventarul are doar cele patru colțuri ale parcelei, așa că toate patru sunt puncte de control și nu rămâne niciun punct de verificare; planșa nu are caroiaj Stereo 70. Fiecare colț e luat pe mijlocul liniei roșii întrerupte „zona reglementată”, la intersecția celor două laturi vecine.",
+    "suprafata_declarata_m2": 629.48,
+    "puncte": {
+      "1": [
+        588144.587,
+        396221.468
+      ],
+      "2": [
+        588145.429,
+        396204.689
+      ],
+      "3": [
+        588178.639,
+        396202.24
+      ],
+      "4": [
+        588178.76,
+        396222.84
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 16.8,
+      "2": 33.3,
+      "3": 20.6,
+      "4": 34.201
+    },
+    "perimetru_declarat_m": 104.901,
+    "nota": "Laturile și perimetrul calculate din coordonate se potrivesc cu tabelul la 1 mm; aria, 629,5 mp. În lipsa punctelor de verificare: lăsând pe rând câte un colț afară, potrivirea afină prin celelalte trei îl prezice la 0,23-0,29 m; o asemănare (scară, rotație, translație) prin toate patru lasă reziduuri de cel mult 0,11 m, la 23,59 px/m, iar anizotropia potrivirii afine e 0,6 %. Pe latura din spate (vest) mai e o linie neagră, la ~1,2-1,4 m în afara celei roșii; măsurată pe linia roșie, scara iese aceeași pe toate laturile (23,5-23,7 px/m), pe cea neagră nu (~25 px/m pe laturile scurte), deci inventarul descrie linia roșie."
+  },
+  "gcp_px": {
+    "1": [
+      1356,
+      866
+    ],
+    "2": [
+      1372,
+      468
+    ],
+    "3": [
+      2157,
+      413
+    ],
+    "4": [
+      2161,
+      896
+    ]
+  },
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2668,
+      1843,
+      3147,
+      2212
+    ],
+    [
+      3147,
+      772,
+      3560,
+      942
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "RiM*",
+      "denumire": "Zonă de activități urbane cu caracter mixt (restructurarea zonelor cu caracter industrial): funcțiune predominantă mixtă – locuire colectivă și funcțiuni comerciale (terțiare); regim de construire deschis, izolat; o singură parcelă, nr. cad. 305910 (str. Beiușului nr. 1B)",
+      "pot_max": "60% (pentru nivelurile cu locuințe, suprafața construită cel mult 40% din teren, după regulament)",
+      "cut_max": "2,8",
+      "h_max": "16 m total, 12 m la cornișă; S+P+2E+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2024-12-22",
+    "verificat": "2026-11-10: Art. 2, trei ani de la aprobare (expirat la 22.12.2024); nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa trasează limita arealului construibil la 6 m de limita posterioară (vestică); hotărârea cere H/2, dar nu mai puțin de 6 m (Art. 1), iar regulamentul măsoară H la cornișa superioară sau la atic, în punctul cel mai înalt. Cei 6 m de pe planșă ajung doar pentru o înălțime de cel mult 12 m."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari (avizul Arhitectului-șef nr. 5/13.01.2021).",
+    "Suprafața necesară lărgirii și modernizării străzii Beiușului (114 mp după planșa U6, o fâșie de ~2,9-3,7 m de-a lungul străzii) se dezmembrează din parcelă și se înscrie în CF cu titlu de „drum” înainte de autorizația de construire. Înainte de recepția construcției se amenajează – patru arbori cu circumferința de cel puțin 35 cm (măsurată la 1 m de colet) și aceeași îmbrăcăminte rutieră ca strada Beiușului – și se transferă cu titlu gratuit în proprietatea publică.",
+    "Contractul de restructurare cu Consiliul local (Anexa 4) obligă investitorul să realizeze aceste obiective publice înainte de recepția clădirii și să le întrețină până la predare; obligațiile trec și asupra viitorilor proprietari ai terenului. Tema-program din contract: un imobil cu funcțiuni mixte S+P+2E+R, cu spațiu comercial la parter și 5 apartamente la etaje.",
+    "Clădirea se amplasează în aliniament, la cel puțin 5 m de limita laterală nordică, 6 m de cea sudică și H/2, dar cel puțin 6 m, de limita posterioară; ultimul nivel se retrage cel puțin 1,80 m față de planul fațadei (regulament).",
+    "Accesul se face din str. Beiușului. Locurile de parcare pentru autovehicule se amenajează la sol și la subsol, cele pentru biciclete la subsol, după Anexa 2 a Regulamentului P.U.G.; cel puțin 75% din locuri în spații specializate (subsol, demisol, parter). Contractul prevede 8 locuri în garajul de la subsol și unul la sol, pentru aprovizionarea spațiului comercial.",
+    "Locuirea ocupă cel mult 70% din suprafața construită desfășurată, iar parterul spre spațiul public are funcțiuni de interes public; spațiile verzi pe sol natural ocupă cel puțin 30% din parcelă (regulament).",
+    "Clădirea se racordează la rețelele edilitare publice, cablurile doar în subteran, iar apele meteorice nu se conduc spre domeniul public sau spre vecini; punctul gospodăresc de colectare selectivă a deșeurilor, pe patru fracții, e îngropat.",
+    "La faza D.T.A.C. documentația se avizează în Comisia de Estetică Urbană."
+  ]
+}

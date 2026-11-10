@@ -5950,6 +5950,73 @@
   ]
  },
  {
+  "id": "2021-790",
+  "localitate": "cluj",
+  "hcl": "790/2021",
+  "data": "2021-12-22",
+  "titlu": "P.U.Z. de restructurare urbană str. Beiușului – latura vestică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-790-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/01/20/HCL-790-din-22-12-2021.pdf",
+  "utr": [
+   {
+    "cod": "RiM*",
+    "denumire": "Zonă de activități urbane cu caracter mixt (restructurarea zonelor cu caracter industrial): funcțiune predominantă mixtă – locuire colectivă și funcțiuni comerciale (terțiare); regim de construire deschis, izolat; o singură parcelă, nr. cad. 305910 (str. Beiușului nr. 1B)",
+    "pot_max": "60% (pentru nivelurile cu locuințe, suprafața construită cel mult 40% din teren, după regulament)",
+    "cut_max": "2,8",
+    "h_max": "16 m total, 12 m la cornișă; S+P+2E+R"
+   }
+  ],
+  "suprafata_m2": 629,
+  "imagine": "puz/2021-790/plansa.webp",
+  "bounds": {
+   "west": 23.6387734,
+   "south": 46.7848045,
+   "east": 23.6390935,
+   "north": 46.7851434
+  },
+  "limita": [
+   [
+    23.6390544,
+    46.784822
+   ],
+   [
+    23.6388345,
+    46.7848269
+   ],
+   [
+    23.6387949,
+    46.7851253
+   ],
+   [
+    23.6390647,
+    46.7851296
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.06
+  },
+  "legenda": "puz/2021-790/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2024-12-22"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa trasează limita arealului construibil la 6 m de limita posterioară (vestică); hotărârea cere H/2, dar nu mai puțin de 6 m (Art. 1), iar regulamentul măsoară H la cornișa superioară sau la atic, în punctul cel mai înalt. Cei 6 m de pe planșă ajung doar pentru o înălțime de cel mult 12 m."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari (avizul Arhitectului-șef nr. 5/13.01.2021).",
+   "Suprafața necesară lărgirii și modernizării străzii Beiușului (114 mp după planșa U6, o fâșie de ~2,9-3,7 m de-a lungul străzii) se dezmembrează din parcelă și se înscrie în CF cu titlu de „drum” înainte de autorizația de construire. Înainte de recepția construcției se amenajează – patru arbori cu circumferința de cel puțin 35 cm (măsurată la 1 m de colet) și aceeași îmbrăcăminte rutieră ca strada Beiușului – și se transferă cu titlu gratuit în proprietatea publică.",
+   "Contractul de restructurare cu Consiliul local (Anexa 4) obligă investitorul să realizeze aceste obiective publice înainte de recepția clădirii și să le întrețină până la predare; obligațiile trec și asupra viitorilor proprietari ai terenului. Tema-program din contract: un imobil cu funcțiuni mixte S+P+2E+R, cu spațiu comercial la parter și 5 apartamente la etaje.",
+   "Clădirea se amplasează în aliniament, la cel puțin 5 m de limita laterală nordică, 6 m de cea sudică și H/2, dar cel puțin 6 m, de limita posterioară; ultimul nivel se retrage cel puțin 1,80 m față de planul fațadei (regulament).",
+   "Accesul se face din str. Beiușului. Locurile de parcare pentru autovehicule se amenajează la sol și la subsol, cele pentru biciclete la subsol, după Anexa 2 a Regulamentului P.U.G.; cel puțin 75% din locuri în spații specializate (subsol, demisol, parter). Contractul prevede 8 locuri în garajul de la subsol și unul la sol, pentru aprovizionarea spațiului comercial.",
+   "Locuirea ocupă cel mult 70% din suprafața construită desfășurată, iar parterul spre spațiul public are funcțiuni de interes public; spațiile verzi pe sol natural ocupă cel puțin 30% din parcelă (regulament).",
+   "Clădirea se racordează la rețelele edilitare publice, cablurile doar în subteran, iar apele meteorice nu se conduc spre domeniul public sau spre vecini; punctul gospodăresc de colectare selectivă a deșeurilor, pe patru fracții, e îngropat.",
+   "La faza D.T.A.C. documentația se avizează în Comisia de Estetică Urbană."
+  ]
+ },
+ {
   "id": "2021-754",
   "localitate": "cluj",
   "hcl": "754/2021",
