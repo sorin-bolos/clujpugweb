@@ -30,11 +30,25 @@ if ! command -v pdftoppm >/dev/null 2>&1 || [ ! -d /usr/share/fonts/truetype/dej
 fi
 
 if ! python3 -c "import numpy, PIL, rasterio, shapely, pyproj" >/dev/null 2>&1; then
-  # Ubuntu's own Python refuses system-wide pip installs (PEP 668); the image's may not.
-  # shellcheck disable=SC2086
-  python3 -m pip install -q $PACKAGES >/tmp/puz-pip.log 2>&1 \
-    || python3 -m pip install -q --break-system-packages $PACKAGES >>/tmp/puz-pip.log 2>&1 \
-    || echo "puz setup: pip install failed (see /tmp/puz-pip.log)" >&2
+  # A download can stall: once rasterio's 39 MB wheel crawled at a few kB/s until the
+  # setup was cut off, with nothing installed and nothing said. So each attempt has a
+  # time limit, a failed one is tried again, and a failure shows the end of the log.
+  # Ubuntu's own Python refuses system-wide pip installs (PEP 668) unless
+  # PIP_BREAK_SYSTEM_PACKAGES is set; the image's may not, and an older pip ignores it.
+  : >/tmp/puz-pip.log
+  for attempt in 1 2; do
+    # shellcheck disable=SC2086
+    PIP_BREAK_SYSTEM_PACKAGES=1 timeout "${PUZ_PIP_TIMEOUT:-300}" \
+      python3 -m pip install -q --progress-bar off $PACKAGES >>/tmp/puz-pip.log 2>&1
+    status=$?
+    [ "$status" = 0 ] && break
+    echo "puz setup: pip attempt $attempt ended with exit $status$([ "$status" = 124 ] && echo ' (time limit)')" \
+      >>/tmp/puz-pip.log
+  done
+  if [ "$status" != 0 ]; then
+    echo "puz setup: pip install failed; end of /tmp/puz-pip.log:" >&2
+    tail -n 15 /tmp/puz-pip.log >&2
+  fi
 fi
 
 # One line saying what is ready (a SessionStart hook's output reaches the session).

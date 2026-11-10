@@ -301,6 +301,9 @@ Setting up the cloud environment (claude.ai/code, environment settings):
    clones it and needs push access to `puz-cluj`.
 2. **Setup script.** Upload `tools/puz/setup.sh`. It installs poppler-utils,
    DejaVu fonts and the Python packages, and the environment is cached with them.
+   Each pip attempt has a time limit and a failed one is retried once. If it still
+   fails, the end of `/tmp/puz-pip.log` is printed, and `doctor` names what is
+   missing. The environment keeps its own copy, so upload it again after a change.
    Alternatively, add a SessionStart hook to `.claude/settings.json` running
    `bash "$CLAUDE_PROJECT_DIR"/tools/puz/setup.sh`. It skips what is installed, so
    it costs little on resume.
