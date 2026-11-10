@@ -1,0 +1,204 @@
+{
+  "id": "2025-671",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 671,
+    "an": 2025,
+    "data_sedinta": "2025-11-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-671-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/02/17/HCL-671.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de servicii de interes public, în zonă de activități economice cu caracter comercial, Calea Turzii nr. 247",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 200,
+    "denumire": "U.03 Reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 8 (Anexa 2 la hotărâre, micșorată pe A4, rotită, alb-negru, ștampilată) și p. 15 (format mare, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 96 din 7.07.2025, și mențiunea de mână „HCL nr. 671 din 20.11.2025”); s-a folosit p. 15, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-7 regulamentul local de urbanism (Anexa 1), pp. 9-14 și 16-17 avizele (al Arhitectului-șef și de oportunitate, cu planșa de la p. 11) și raportul informării și consultării publicului (p. 13). Cartușul: planșa U.03 „Reglementări urbanistice – zonificare”, faza P.U.Z., scara 1:500, data 01.2025. Scara imaginii: 15,7 px/m (1:500 la 200 ppi, ușor neuniform: 15,64 px/m pe Est, 15,78 pe Nord), nordul în sus (rotație -0,3° față de Stereo 70). Legenda cuprinde cheia simbolurilor (zona de studiu, limitele de proprietate, UTR Ec și subzona S_Is, construcția existentă, terasa, clădirile vecine, accesele), caseta „Indici urbanistici (parcela de reglementat)” cu POT/CUT maxime și nota „suprafața construită și construită desfășurată nu se modifică”, în trei casete; au rămas afară săgeata nordului, bilanțul teritorial, indicatorii existenți/propuși cu locurile de parcare, cele două inventare de coordonate, ștampilele și cartușul. Parcela e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Coordonate pct. pe contur 1 Cc”, X(Nord) / Y(Est), 8 puncte în ordinea conturului, cu lungimile laturilor, „S = 649 m.p.” și „P=104.461m” (tabelul de jos, x≈1905-2360, y≈1925-2290); zona de reglementare e parcela nr. cad. 267799, albastră pe planșă. Planșa mai are inventarul clădirii existente C1 („Coordonate pct. pe contur C1”, punctele 9-12, S = 187 m.p., P = 54,983 m, x≈1905-2360, y≈1640-1900), trecut în `repere` ca C1_9…C1_12, și caroiajul Stereo 70 de 50 m, cu etichete pe ramă (Nord 583700, 583650, 583600; Est 392550, 392600, 392650) și cruci desenate la intersecții, din care trei sunt în `repere`. Control: colțurile 1, 4, 5 și 8, fiecare la intersecția a două drepte potrivite pe mijlocul benzii roșii a limitei (pe laturile de vest și de sud limita e sub banda punctată a zonei de studiu). Verificare: colțurile clădirii C1 (intersecțiile dreptelor potrivite pe conturul negru gros, lângă etichetele roșii 9-12) și crucile E 392600 / N 583650, E 392650 / N 583650 și E 392650 / N 583600 (centrul brațelor măsurat pe profile de pixeli), toate citite pe planșă. Crucea E 392600 / N 583600 e acoperită de colțul 5 (la 0,8 m de ea) și nu s-a folosit.",
+    "suprafata_declarata_m2": 649,
+    "puncte": {
+      "1": [
+        583629.884,
+        392575.081
+      ],
+      "2": [
+        583623.549,
+        392574.257
+      ],
+      "3": [
+        583612.529,
+        392572.633
+      ],
+      "4": [
+        583611.217,
+        392572.445
+      ],
+      "5": [
+        583599.175,
+        392599.858
+      ],
+      "6": [
+        583611.968,
+        392603.326
+      ],
+      "7": [
+        583621.937,
+        392606.08
+      ],
+      "8": [
+        583622.001,
+        392606.098
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 6.388,
+      "2": 11.139,
+      "3": 1.325,
+      "4": 29.941,
+      "5": 13.255,
+      "6": 10.342,
+      "7": 0.066,
+      "8": 32.003
+    },
+    "perimetru_declarat_m": 104.461,
+    "nota": "Aria coordonatelor, 649,36 mp, se potrivește cu 649 mp din inventar și din bilanțul teritorial (649,00 mp); toate cele 8 laturi și perimetrul (104,461 m) ies la milimetru. Și inventarul C1 se verifică: 187,12 mp față de 187, laturi și perimetru la milimetru. Punctele 2 și 3 stau pe latura de vest, spre Calea Turzii, aproape în prelungire (frângeri de 1,0° și 0,2°; 3-4 are 1,33 m), iar 6 pe latura de est (frângere de 0,3°); 7 și 8 sunt la 6,6 cm unul de altul, în colțul nord-estic. De aceea s-au luat ca puncte de control doar cele patru colțuri (unghiuri interioare de 81-106°); pe planșă 2 și 3 cad pe capetele cotelor 6,39 și 11,14."
+  },
+  "repere": {
+    "C1_9": [
+      583620.817,
+      392601.655
+    ],
+    "C1_10": [
+      583624.019,
+      392589.158
+    ],
+    "C1_11": [
+      583610.99,
+      392585.819
+    ],
+    "C1_12": [
+      583605.744,
+      392597.792
+    ],
+    "C392600_583650": [
+      583650,
+      392600
+    ],
+    "C392650_583650": [
+      583650,
+      392650
+    ],
+    "C392650_583600": [
+      583600,
+      392650
+    ]
+  },
+  "gcp_px": {
+    "1": [
+      601.1,
+      1219.2
+    ],
+    "4": [
+      559.8,
+      1515.5
+    ],
+    "5": [
+      991.1,
+      1704.4
+    ],
+    "8": [
+      1088.9,
+      1341.8
+    ]
+  },
+  "verificare_px": {
+    "C1_9": [
+      1019.2,
+      1360.8
+    ],
+    "C1_10": [
+      823.2,
+      1310.7
+    ],
+    "C1_11": [
+      771.2,
+      1516.3
+    ],
+    "C1_12": [
+      958.9,
+      1599.2
+    ],
+    "C392600_583650": [
+      992.6,
+      901.2
+    ],
+    "C392650_583650": [
+      1774.8,
+      899.0
+    ],
+    "C392650_583600": [
+      1777.0,
+      1688.0
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2470,
+      75,
+      3155,
+      503
+    ],
+    [
+      2486,
+      1524,
+      3150,
+      1655
+    ],
+    [
+      2486,
+      2266,
+      3150,
+      2300
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public, în zona de activități economice cu caracter comercial (pe planșă „UTR Ec, subzona S_Is”): funcțiuni de sănătate și asistență socială, administrative; regim de construire izolat. Regulamentul (Anexa 1) propune conversia funcțională a clădirii de birouri existente C1 (S+D+P+2E+R) în clădire de cabinete medicale.",
+      "pot_max": "60% (clădiri noi)",
+      "cut_max": "1,2 (clădiri noi)",
+      "h_max": "6 niveluri supraterane, (S)+P+4E+R/M; cornișa cel mult 18 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-11-20",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Denumirea zonei: planșa trece parcela în „UTR Ec, subzona S_Is”, regulamentul (Anexa 1) vorbește de zona Is_A* cu subzona S_Is, iar hotărârea (Art. 1) o definește ca U.T.R. S_Is*, „subzonă de instituții și servicii publice și de interes public, situată în zonă cu caracter rezidențial”, deși în același articol, ca și în titlu, subzona se instituie „în zonă de activități economice de tip comercial”.",
+    "Indicatori: planșa dă pentru clădirea existentă C1 (S+D+P+2E+1R, 187 mp construiți, 1.360,35 mp desfășurați) POT 28,81% și CUT 1,32, existent și propus, peste C.U.T. max. 1,2 din aceeași casetă; hotărârea fixează POT 60% și CUT 1,2 doar pentru clădiri noi, iar la clădirile existente care depășesc indicatorii admite numai intervenții care nu-i amplifică. Planșa notează că suprafața construită și cea desfășurată nu se modifică.",
+    "Înălțimea: planșa dă doar regimul existent și propus S+D+P+2E+1R (neschimbat), fără o înălțime maximă; hotărârea admite cel mult 6 niveluri supraterane, (S)+P+4E+R/M, cu cornișa de cel mult 18 m.",
+    "Retrageri: după inventar, clădirea C1 stă la ~5,2 m de limita spre str. Mihai Românul și la ~2,2 m de limita nordică; hotărârea cere clădirilor noi minimum 10 m de la aliniament și minimum 4,5 m (jumătate din înălțime) de la limitele laterale, iar pentru cele existente care nu se încadrează admite doar intervenții care nu le amplifică. Planșa nu desenează o limită de implantare."
+  ],
+  "conditii": [
+    "Clădiri noi: POT max. 60%, CUT max. 1,2, regim izolat, cel mult 6 niveluri supraterane ((S)+P+4E+R/M) și cornișa de cel mult 18 m.",
+    "Clădirile existente care depășesc indicatorii sau nu respectă retragerile: numai intervenții care nu le amplifică (refațadizare, modificări interioare, conversie funcțională etc.).",
+    "Retrageri: minimum 10 m de la aliniament; de la limitele laterale cel puțin jumătate din înălțimea clădirii, dar minimum 4,5 m (lângă un calcan vecin clădirea se alipește de el și păstrează aceeași distanță față de limita opusă); limită posterioară nu există (parcelă de colț).",
+    "Accesele: din Calea Turzii și din str. Mihai Românul.",
+    "Parcarea: în interiorul parcelei, la sol sau în spații specializate, cu necesarul după Anexa 2 a R.L.U. aferent P.U.G.; pentru clădirile noi, numai în garaje colective subterane sau supraterane.",
+    "Echipare tehnico-edilitară completă pe parcelă; la faza DTAC se prevede un punct gospodăresc pentru colectarea selectivă a deșeurilor pe cinci fracții, dimensionat corespunzător, care să nu aducă riscuri pentru sănătate sau disconfort, cu rigolă de scurgere.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}

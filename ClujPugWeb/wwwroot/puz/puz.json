@@ -6243,6 +6243,91 @@
   ]
  },
  {
+  "id": "2025-671",
+  "localitate": "cluj",
+  "hcl": "671/2025",
+  "data": "2025-11-20",
+  "titlu": "P.U.Z. – Instituire subzonă de servicii de interes public, în zonă de activități economice cu caracter comercial, Calea Turzii nr. 247",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-671-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/02/17/HCL-671.pdf",
+  "utr": [
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public, în zona de activități economice cu caracter comercial (pe planșă „UTR Ec, subzona S_Is”): funcțiuni de sănătate și asistență socială, administrative; regim de construire izolat. Regulamentul (Anexa 1) propune conversia funcțională a clădirii de birouri existente C1 (S+D+P+2E+R) în clădire de cabinete medicale.",
+    "pot_max": "60% (clădiri noi)",
+    "cut_max": "1,2 (clădiri noi)",
+    "h_max": "6 niveluri supraterane, (S)+P+4E+R/M; cornișa cel mult 18 m"
+   }
+  ],
+  "suprafata_m2": 649,
+  "imagine": "puz/2025-671/plansa.webp",
+  "bounds": {
+   "west": 23.5922988,
+   "south": 46.7433405,
+   "east": 23.5927932,
+   "north": 46.7436587
+  },
+  "limita": [
+   [
+    23.5923553,
+    46.7436366
+   ],
+   [
+    23.592346,
+    46.7435795
+   ],
+   [
+    23.5923273,
+    46.7434801
+   ],
+   [
+    23.5923252,
+    46.7434683
+   ],
+   [
+    23.5926867,
+    46.7433644
+   ],
+   [
+    23.5927291,
+    46.74348
+   ],
+   [
+    23.5927628,
+    46.7435701
+   ],
+   [
+    23.592763,
+    46.7435707
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.0
+  },
+  "legenda": "puz/2025-671/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2032-11-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Denumirea zonei: planșa trece parcela în „UTR Ec, subzona S_Is”, regulamentul (Anexa 1) vorbește de zona Is_A* cu subzona S_Is, iar hotărârea (Art. 1) o definește ca U.T.R. S_Is*, „subzonă de instituții și servicii publice și de interes public, situată în zonă cu caracter rezidențial”, deși în același articol, ca și în titlu, subzona se instituie „în zonă de activități economice de tip comercial”.",
+   "Indicatori: planșa dă pentru clădirea existentă C1 (S+D+P+2E+1R, 187 mp construiți, 1.360,35 mp desfășurați) POT 28,81% și CUT 1,32, existent și propus, peste C.U.T. max. 1,2 din aceeași casetă; hotărârea fixează POT 60% și CUT 1,2 doar pentru clădiri noi, iar la clădirile existente care depășesc indicatorii admite numai intervenții care nu-i amplifică. Planșa notează că suprafața construită și cea desfășurată nu se modifică.",
+   "Înălțimea: planșa dă doar regimul existent și propus S+D+P+2E+1R (neschimbat), fără o înălțime maximă; hotărârea admite cel mult 6 niveluri supraterane, (S)+P+4E+R/M, cu cornișa de cel mult 18 m.",
+   "Retrageri: după inventar, clădirea C1 stă la ~5,2 m de limita spre str. Mihai Românul și la ~2,2 m de limita nordică; hotărârea cere clădirilor noi minimum 10 m de la aliniament și minimum 4,5 m (jumătate din înălțime) de la limitele laterale, iar pentru cele existente care nu se încadrează admite doar intervenții care nu le amplifică. Planșa nu desenează o limită de implantare."
+  ],
+  "conditii": [
+   "Clădiri noi: POT max. 60%, CUT max. 1,2, regim izolat, cel mult 6 niveluri supraterane ((S)+P+4E+R/M) și cornișa de cel mult 18 m.",
+   "Clădirile existente care depășesc indicatorii sau nu respectă retragerile: numai intervenții care nu le amplifică (refațadizare, modificări interioare, conversie funcțională etc.).",
+   "Retrageri: minimum 10 m de la aliniament; de la limitele laterale cel puțin jumătate din înălțimea clădirii, dar minimum 4,5 m (lângă un calcan vecin clădirea se alipește de el și păstrează aceeași distanță față de limita opusă); limită posterioară nu există (parcelă de colț).",
+   "Accesele: din Calea Turzii și din str. Mihai Românul.",
+   "Parcarea: în interiorul parcelei, la sol sau în spații specializate, cu necesarul după Anexa 2 a R.L.U. aferent P.U.G.; pentru clădirile noi, numai în garaje colective subterane sau supraterane.",
+   "Echipare tehnico-edilitară completă pe parcelă; la faza DTAC se prevede un punct gospodăresc pentru colectarea selectivă a deșeurilor pe cinci fracții, dimensionat corespunzător, care să nu aducă riscuri pentru sănătate sau disconfort, cu rigolă de scurgere.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
