@@ -1,0 +1,321 @@
+{
+  "id": "2026-65",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 65,
+    "an": 2026,
+    "data_sedinta": "2026-02-16",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-65-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/03/03/HCL-65.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă de activități economice, Centura Ocolitoare Cluj N-E – latura sudică",
+  "plansa": {
+    "pagina_pdf": 21,
+    "dpi": 300,
+    "denumire": "Plan reglementări urbanistice (A04)",
+    "scara": "1:1200",
+    "nota": "Pagina 21 din PDF: planșa A04 în format mare, la 300 ppi, cu ștampila HCL 65/2026 și „Vizat spre neschimbare”; pagina 10 (Anexa 2) e aceeași planșă redusă pe A3. Planșa A07 Circulația terenurilor e la paginile 11 (Anexa 3) și 22. Legenda: cheia simbolurilor și, pentru fiecare U.T.R., titlul din bilanț și POT/CUT maxim reglementat."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate (zona de lucru), Nord(X) / Est(Y), 33 de puncte (100-132) cu lungimile laturilor și S=112781 mp. E tipărit și pe planșa de reglementări (p. 21), dar foarte șters; transcris de pe copia clară de pe planșa A07 Circulația terenurilor (p. 22), aceleași valori.",
+    "suprafata_declarata_m2": 112781,
+    "puncte": {
+      "100": [
+        589504.629,
+        399176.794
+      ],
+      "101": [
+        589479.38,
+        399176.124
+      ],
+      "102": [
+        589454.131,
+        399175.454
+      ],
+      "103": [
+        589453.992,
+        399171.35
+      ],
+      "104": [
+        589404.364,
+        399170.69
+      ],
+      "105": [
+        589404.491,
+        399174.964
+      ],
+      "106": [
+        589354.155,
+        399174.572
+      ],
+      "107": [
+        589303.986,
+        399174.181
+      ],
+      "108": [
+        589286.017,
+        399174.041
+      ],
+      "109": [
+        589291.818,
+        399405.835
+      ],
+      "110": [
+        589310.964,
+        399405.928
+      ],
+      "111": [
+        589310.985,
+        399406.631
+      ],
+      "112": [
+        589330.26,
+        399406.217
+      ],
+      "113": [
+        589360.946,
+        399405.559
+      ],
+      "114": [
+        589360.028,
+        399407.719
+      ],
+      "115": [
+        589356.192,
+        399738.011
+      ],
+      "116": [
+        589374.148,
+        399737.937
+      ],
+      "117": [
+        589386.848,
+        399738.583
+      ],
+      "118": [
+        589417.415,
+        399739.162
+      ],
+      "119": [
+        589427.747,
+        399739.686
+      ],
+      "120": [
+        589438.534,
+        399740.421
+      ],
+      "121": [
+        589438.525,
+        399741.683
+      ],
+      "122": [
+        589455.833,
+        399742.566
+      ],
+      "123": [
+        589464.473,
+        399743.023
+      ],
+      "124": [
+        589473.103,
+        399743.479
+      ],
+      "125": [
+        589490.294,
+        399744.149
+      ],
+      "126": [
+        589507.512,
+        399744.819
+      ],
+      "127": [
+        589515.955,
+        399745.148
+      ],
+      "128": [
+        589541.696,
+        399746.15
+      ],
+      "129": [
+        589544.082,
+        399408.648
+      ],
+      "130": [
+        589537.372,
+        399408.544
+      ],
+      "131": [
+        589511.491,
+        399408.142
+      ],
+      "132": [
+        589511.489,
+        399406.695
+      ]
+    },
+    "laturi_declarate_m": {
+      "100": 25.26,
+      "101": 25.26,
+      "102": 4.11,
+      "103": 49.63,
+      "104": 4.28,
+      "105": 50.34,
+      "106": 50.17,
+      "107": 17.97,
+      "108": 231.87,
+      "109": 19.15,
+      "110": 0.7,
+      "111": 19.28,
+      "112": 30.69,
+      "113": 2.35,
+      "114": 330.31,
+      "115": 17.96,
+      "116": 12.72,
+      "117": 30.57,
+      "118": 10.35,
+      "119": 10.81,
+      "120": 1.26,
+      "121": 17.33,
+      "122": 8.65,
+      "123": 8.64,
+      "124": 17.2,
+      "125": 17.23,
+      "126": 8.45,
+      "127": 25.76,
+      "128": 337.51,
+      "129": 6.71,
+      "130": 25.88,
+      "131": 1.45,
+      "132": 230.0
+    },
+    "nota": "Punctele de pe planșă poartă altă numerotare (1-36, a parcelelor); vârfurile inventarului au fost găsite după geometrie. Pozițiile pe planșă: centrul liniei roșii a limitei, ca intersecție a dreptelor ajustate pe cele două laturi. Hotărârea dă 11,27 ha; inventarul, 112.781 mp (11,28 ha)."
+  },
+  "gcp_px": {
+    "100": [
+      573.0,
+      789.1
+    ],
+    "103": [
+      527.5,
+      1268.3
+    ],
+    "104": [
+      526.0,
+      1739.7
+    ],
+    "108": [
+      574.1,
+      2861.6
+    ],
+    "109": [
+      2784.5,
+      2783.3
+    ],
+    "115": [
+      5942.1,
+      2140.7
+    ],
+    "128": [
+      6005.1,
+      379.0
+    ],
+    "129": [
+      2785.6,
+      390.1
+    ]
+  },
+  "verificare_px": {
+    "102": [
+      566.2,
+      1267.2
+    ],
+    "105": [
+      567.0,
+      1739.3
+    ],
+    "131": [
+      2785.0,
+      697.8
+    ],
+    "121": [
+      5969.9,
+      1359.0
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      6185,
+      150,
+      7178,
+      732
+    ],
+    [
+      7395,
+      640,
+      7808,
+      683
+    ],
+    [
+      8545,
+      762,
+      8962,
+      810
+    ],
+    [
+      7400,
+      934,
+      7810,
+      975
+    ],
+    [
+      8545,
+      1052,
+      8962,
+      1100
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Em_S",
+      "denumire": "Zonă de activități economice dedicată întreprinderilor mici și mijlocii (parcelele 2 și 5): activități economice, industriale, cvasiindustriale, manufacturiere, servicii, depozitare, logistică; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "1,2",
+      "h_max": "hale modulare: max. 3 niveluri supraterane, H max. 18 m; clădiri pentru funcțiuni complementare: (1-3S)+P+4, H max. 21 m"
+    },
+    {
+      "cod": "S_Va_S",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (parcelele 3, 6 și 7): plantații, alei pietonale și velo, mobilier urban, terenuri de sport de max. 1000 mp, edicule și alimentație publică în pavilioane",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "edicule: 1 nivel, max. 4 m; alimentație publică: 1 nivel suprateran, max. 5 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-02-16"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: planșa nu dă înălțimi sau regim de înălțime pentru nicio zonă; Art. 1 admite în U.T.R. Em_S hale modulare de cel mult 3 niveluri supraterane și H max. 18 m, clădiri pentru funcțiuni complementare (1-3S)+P+4 și H max. 21 m, iar în S_Va_S edicule de un nivel și cel mult 4 m și construcții pentru alimentație publică de un nivel și cel mult 5 m.",
+    "Parcarea: planșa propune cel mult 378 de locuri (271 pentru autoturisme, 79 pentru TIR, 28 pentru autocamioane sub 7,5 t), 14 stații de încărcare și 271 de locuri pentru biciclete, pornind de la 1570 de locuri calculate după Anexa 2 a R.L.U.; Art. 1 cere, prin excepție, pentru funcțiunile industriale, de producție, depozitare și logistică, un loc de parcare și un loc pentru biciclete la circa 500 mp arie utilă, cu avizul Serviciului Siguranța circulației, fără un număr total."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pe parcelele 2 și 5: parcelele 1 și 4 (terenul pentru regularizarea la 18 m a circulațiilor din Masterplanul „Zonă industrială B-dul Muncii sud și teritoriile adiacente”, HCL 451/2022) se dezmembrează și se înscriu în C.F. cu titlu de „drum”.",
+    "Înainte de autorizația de construire pe parcelele 2 și 5, conform avizului Serviciului Siguranța circulației nr. 592723/446/2.08.2024: proiectele și execuția amenajării și asfaltării rețelei stradale propuse, cu structură pentru trafic greu, semnalizare orizontală și verticală, rețea pluvială, rețele edilitare și iluminat public (NP 24/2022, NP 051/2012, Legea 101/2020). Toată rețeaua stradală are acces public nelimitat.",
+    "Înainte de autorizația de construire pe parcelele 2 și 5: drumul de acces din Centura Ocolitoare Cluj N-E (traseul De 2787 și De 774/1, nr. cad. 358784), cu ampriză de minim 9 m și supralărgit pe tronsonul din P.U.Z., se echipează edilitar și se aduce la strat de uzură, pe baza unui proiect de specialitate.",
+    "Înainte de recepția construcțiilor de pe parcelele 2 și 5: se amenajează spațiile verzi (parcelele 3, 6 și 7) cu vegetație înaltă, medie și joasă, iar parcela 1 (lărgirea drumului de acces), amenajată, se transferă gratuit în domeniul public.",
+    "Accesul: din Centura Ocolitoare Cluj N-E, pe drumul public existent regularizat la ampriza de 18 m (parcela 1); P.U.Z. reglementează și o circulație de 18 m pe traseul De 2783 (parcela 4), conform Masterplanului aprobat prin HCL 451/2022. Toate construcțiile au accese pentru pompieri și mentenanță.",
+    "Em_S – retrageri: minim 8 m față de aliniament (acolo se admit împrejmuiri, branșamente, colectarea deșeurilor, mobilier urban, parcaje de scurtă durată, stații de transport în comun și de încărcare); minim 6 m față de limitele laterale și posterioare, cu clădiri pe limită numai dacă vecina e parcelă S_Va_S a aceluiași proprietar, domeniu public, cu acordul vecinului sau lângă construcții alipite ori spații libere accesibile publicului.",
+    "Em_S – parcarea: la sol, pe terenul unității, după necesități și cu avizul Serviciului Siguranța circulației; pentru funcțiunile industriale, de producție, depozitare și logistică, un loc de parcare și un loc pentru biciclete la circa 500 mp arie utilă; la funcțiuni diferite pe aceeași parcelă, necesarele se însumează. În S_Va_S sunt interzise staționarea și parcarea.",
+    "Echipare: toate construcțiile se racordează la rețelele edilitare; cablurile nu se montează aerian; parcările au deznisipatoare și separatoare de hidrocarburi pentru apele pluviale; apele pluviale trec printr-un sistem de retenție-infiltrare (rezervoare modulare), se evacuează treptat în sol și pot fi refolosite (acoperișuri verzi, irigare, spălarea camioanelor). În S_Va_S se prevăd racorduri pentru irigare.",
+    "S_Va_S: edicule (toalete, întreținere, alimentație publică) la minim 3 m de limitele de proprietate sau pe limită unde vecina are spații libere amenajate cu acces public; terenuri de sport cu suprafața de joc de cel mult 1000 mp.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}

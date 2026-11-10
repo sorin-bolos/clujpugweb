@@ -5721,6 +5721,199 @@
   ]
  },
  {
+  "id": "2026-65",
+  "localitate": "cluj",
+  "hcl": "65/2026",
+  "data": "2026-02-16",
+  "titlu": "P.U.Z. – Dezvoltare zonă de activități economice, Centura Ocolitoare Cluj N-E – latura sudică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-65-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/03/03/HCL-65.pdf",
+  "utr": [
+   {
+    "cod": "Em_S",
+    "denumire": "Zonă de activități economice dedicată întreprinderilor mici și mijlocii (parcelele 2 și 5): activități economice, industriale, cvasiindustriale, manufacturiere, servicii, depozitare, logistică; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "hale modulare: max. 3 niveluri supraterane, H max. 18 m; clădiri pentru funcțiuni complementare: (1-3S)+P+4, H max. 21 m"
+   },
+   {
+    "cod": "S_Va_S",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (parcelele 3, 6 și 7): plantații, alei pietonale și velo, mobilier urban, terenuri de sport de max. 1000 mp, edicule și alimentație publică în pavilioane",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "edicule: 1 nivel, max. 4 m; alimentație publică: 1 nivel suprateran, max. 5 m"
+   }
+  ],
+  "suprafata_m2": 112781,
+  "imagine": "puz/2026-65/plansa.webp",
+  "bounds": {
+   "west": 23.6773498,
+   "south": 46.7955246,
+   "east": 23.6849851,
+   "north": 46.7979611
+  },
+  "limita": [
+   [
+    23.6774587,
+    46.797507
+   ],
+   [
+    23.6774554,
+    46.7972798
+   ],
+   [
+    23.6774522,
+    46.7970526
+   ],
+   [
+    23.6773985,
+    46.7970507
+   ],
+   [
+    23.6774007,
+    46.7966042
+   ],
+   [
+    23.6774567,
+    46.796606
+   ],
+   [
+    23.6774625,
+    46.7961531
+   ],
+   [
+    23.6774684,
+    46.7957018
+   ],
+   [
+    23.6774705,
+    46.7955401
+   ],
+   [
+    23.6805053,
+    46.7956271
+   ],
+   [
+    23.6805024,
+    46.7957993
+   ],
+   [
+    23.6805116,
+    46.7957996
+   ],
+   [
+    23.680502,
+    46.795973
+   ],
+   [
+    23.6804866,
+    46.7962489
+   ],
+   [
+    23.6805151,
+    46.796241
+   ],
+   [
+    23.6848423,
+    46.7962559
+   ],
+   [
+    23.6848374,
+    46.7964174
+   ],
+   [
+    23.6848431,
+    46.7965318
+   ],
+   [
+    23.684844,
+    46.7968068
+   ],
+   [
+    23.6848486,
+    46.7968999
+   ],
+   [
+    23.6848559,
+    46.796997
+   ],
+   [
+    23.6848725,
+    46.7969971
+   ],
+   [
+    23.6848803,
+    46.7971529
+   ],
+   [
+    23.6848844,
+    46.7972307
+   ],
+   [
+    23.6848885,
+    46.7973084
+   ],
+   [
+    23.6848935,
+    46.7974632
+   ],
+   [
+    23.6848985,
+    46.7976181
+   ],
+   [
+    23.684901,
+    46.7976941
+   ],
+   [
+    23.6849085,
+    46.7979258
+   ],
+   [
+    23.6804871,
+    46.7978968
+   ],
+   [
+    23.6804872,
+    46.7978364
+   ],
+   [
+    23.6804876,
+    46.7976035
+   ],
+   [
+    23.6804686,
+    46.7976033
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 8,
+   "rms_m": 0.23
+  },
+  "legenda": "puz/2026-65/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-02-16"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: planșa nu dă înălțimi sau regim de înălțime pentru nicio zonă; Art. 1 admite în U.T.R. Em_S hale modulare de cel mult 3 niveluri supraterane și H max. 18 m, clădiri pentru funcțiuni complementare (1-3S)+P+4 și H max. 21 m, iar în S_Va_S edicule de un nivel și cel mult 4 m și construcții pentru alimentație publică de un nivel și cel mult 5 m.",
+   "Parcarea: planșa propune cel mult 378 de locuri (271 pentru autoturisme, 79 pentru TIR, 28 pentru autocamioane sub 7,5 t), 14 stații de încărcare și 271 de locuri pentru biciclete, pornind de la 1570 de locuri calculate după Anexa 2 a R.L.U.; Art. 1 cere, prin excepție, pentru funcțiunile industriale, de producție, depozitare și logistică, un loc de parcare și un loc pentru biciclete la circa 500 mp arie utilă, cu avizul Serviciului Siguranța circulației, fără un număr total."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire pe parcelele 2 și 5: parcelele 1 și 4 (terenul pentru regularizarea la 18 m a circulațiilor din Masterplanul „Zonă industrială B-dul Muncii sud și teritoriile adiacente”, HCL 451/2022) se dezmembrează și se înscriu în C.F. cu titlu de „drum”.",
+   "Înainte de autorizația de construire pe parcelele 2 și 5, conform avizului Serviciului Siguranța circulației nr. 592723/446/2.08.2024: proiectele și execuția amenajării și asfaltării rețelei stradale propuse, cu structură pentru trafic greu, semnalizare orizontală și verticală, rețea pluvială, rețele edilitare și iluminat public (NP 24/2022, NP 051/2012, Legea 101/2020). Toată rețeaua stradală are acces public nelimitat.",
+   "Înainte de autorizația de construire pe parcelele 2 și 5: drumul de acces din Centura Ocolitoare Cluj N-E (traseul De 2787 și De 774/1, nr. cad. 358784), cu ampriză de minim 9 m și supralărgit pe tronsonul din P.U.Z., se echipează edilitar și se aduce la strat de uzură, pe baza unui proiect de specialitate.",
+   "Înainte de recepția construcțiilor de pe parcelele 2 și 5: se amenajează spațiile verzi (parcelele 3, 6 și 7) cu vegetație înaltă, medie și joasă, iar parcela 1 (lărgirea drumului de acces), amenajată, se transferă gratuit în domeniul public.",
+   "Accesul: din Centura Ocolitoare Cluj N-E, pe drumul public existent regularizat la ampriza de 18 m (parcela 1); P.U.Z. reglementează și o circulație de 18 m pe traseul De 2783 (parcela 4), conform Masterplanului aprobat prin HCL 451/2022. Toate construcțiile au accese pentru pompieri și mentenanță.",
+   "Em_S – retrageri: minim 8 m față de aliniament (acolo se admit împrejmuiri, branșamente, colectarea deșeurilor, mobilier urban, parcaje de scurtă durată, stații de transport în comun și de încărcare); minim 6 m față de limitele laterale și posterioare, cu clădiri pe limită numai dacă vecina e parcelă S_Va_S a aceluiași proprietar, domeniu public, cu acordul vecinului sau lângă construcții alipite ori spații libere accesibile publicului.",
+   "Em_S – parcarea: la sol, pe terenul unității, după necesități și cu avizul Serviciului Siguranța circulației; pentru funcțiunile industriale, de producție, depozitare și logistică, un loc de parcare și un loc pentru biciclete la circa 500 mp arie utilă; la funcțiuni diferite pe aceeași parcelă, necesarele se însumează. În S_Va_S sunt interzise staționarea și parcarea.",
+   "Echipare: toate construcțiile se racordează la rețelele edilitare; cablurile nu se montează aerian; parcările au deznisipatoare și separatoare de hidrocarburi pentru apele pluviale; apele pluviale trec printr-un sistem de retenție-infiltrare (rezervoare modulare), se evacuează treptat în sol și pot fi refolosite (acoperișuri verzi, irigare, spălarea camioanelor). În S_Va_S se prevăd racorduri pentru irigare.",
+   "S_Va_S: edicule (toalete, întreținere, alimentație publică) la minim 3 m de limitele de proprietate sau pe limită unde vecina are spații libere amenajate cu acces public; terenuri de sport cu suprafața de joc de cel mult 1000 mp.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
