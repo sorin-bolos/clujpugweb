@@ -6931,6 +6931,134 @@
   ]
  },
  {
+  "id": "2021-753",
+  "localitate": "cluj",
+  "hcl": "753/2021",
+  "data": "2021-12-06",
+  "titlu": "P.U.Z. de dezvoltare ansamblu rezidențial, str. Fagului nr. 27 – str. Alexandru Macedonski",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-753-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/12/06/hcl-753-din-2021-si-anexe.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale cu cel mult 2 unități locative, pe parcele de cel puțin 500 mp; regim de construire izolat; 6 parcele pentru locuire, din parcela nr. cad. 304683",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane (P+E+M/R sau D+P+M/R)"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat: spații verzi cu plantații înalte, medii și joase; o parcelă de 123,8 mp în mijlocul ansamblului; condițiile de amplasare a clădirilor se stabilesc prin P.U.D.",
+    "pot_max": "5%",
+    "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+    "h_max": "se stabilește prin P.U.D."
+   }
+  ],
+  "suprafata_m2": 3877,
+  "imagine": "puz/2021-753/plansa.webp",
+  "bounds": {
+   "west": 23.6148968,
+   "south": 46.753857,
+   "east": 23.6160074,
+   "north": 46.7548542
+  },
+  "limita": [
+   [
+    23.6151043,
+    46.7546605
+   ],
+   [
+    23.615143,
+    46.7546754
+   ],
+   [
+    23.615097,
+    46.7547301
+   ],
+   [
+    23.615348,
+    46.7548282
+   ],
+   [
+    23.6154212,
+    46.7547366
+   ],
+   [
+    23.6155037,
+    46.7546384
+   ],
+   [
+    23.615605,
+    46.7545165
+   ],
+   [
+    23.6157439,
+    46.7543596
+   ],
+   [
+    23.6158268,
+    46.7542684
+   ],
+   [
+    23.6159722,
+    46.7541142
+   ],
+   [
+    23.6158592,
+    46.754079
+   ],
+   [
+    23.6156644,
+    46.7540082
+   ],
+   [
+    23.6154041,
+    46.7538822
+   ],
+   [
+    23.6151563,
+    46.7541387
+   ],
+   [
+    23.6150521,
+    46.7542301
+   ],
+   [
+    23.6149385,
+    46.7543298
+   ],
+   [
+    23.6152723,
+    46.754476
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.23
+  },
+  "legenda": "puz/2021-753/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2026-12-06"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa trasează limita edificabilului la 6 m (6,00 / 6,01) de limita posterioară a parcelelor; hotărârea cere ca clădirile și garajele să se retragă de la limita posterioară cel puțin cât înălțimea clădirii, dar nu mai puțin de 6 m (Art. 1). Cum înălțimea permisă e de 8 m la cornișă și 12 m la coamă, cei 6 m de pe planșă ajung doar pentru clădiri de cel mult 6 m.",
+   "Planșa dă doar regimul de înălțime S+P+1+M / P+1+M, fără înălțimi în metri; hotărârea permite trei niveluri supraterane (P+E+M sau nivel retras, ori D+P+M sau nivel retras), cu cel mult 8 m la cornișă și 12 m la coamă (Art. 1)."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară (Art. 1).",
+   "Terenul se parcelează în 6 parcele pentru locuințe, fiecare de cel puțin 500 mp (pe planșă 500,4-545,8 mp), și una pentru spațiul verde cu acces public nelimitat (S_Va, 123,8 mp). Pe o parcelă sunt permise cel mult 2 unități locative, în regim izolat.",
+   "Înainte de autorizațiile de construire pe parcele se dezmembrează din parcela inițială și se înscrie în CF cu titlul de „drum” terenul necesar regularizării str. Alexandru Macedonski (93,2 mp după bilanțul planșei) și aleii de deservire locală propuse prin P.U.Z.",
+   "Înainte de recepția construcțiilor, aleea de deservire locală se echipează edilitar și se aduce la strat de uzură, iar spațiul verde cu acces public nelimitat (S_Va) se amenajează pe baza unui proiect de specialitate.",
+   "Înainte de recepția construcțiilor se asfaltează (strat de uzură) str. Alexandru Macedonski, de la intersecția cu str. Arțarului până la amplasament.",
+   "Retrageri: 2-5 m față de str. Alexandru Macedonski, iar în interiorul ansamblului față de suprafețele de folosință comună; cel puțin 3 m față de limitele laterale (garajele pot fi alipite limitelor laterale doar cu un calcan de cel mult 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar minimum 6 m, atât pentru clădiri cât și pentru garaje. Ultimul nivel se retrage cel puțin 1,8 m față de fațada spre stradă sau spațiul public.",
+   "Accesul la parcele se face din str. Alexandru Macedonski sau dinspre str. Fagului, cu un singur acces auto și unul pietonal pe parcelă; ansamblul are acces dintr-un drum public cu carosabil de cel puțin 6 m, iar aleile carosabile interioare deservesc toate parcelele.",
+   "Parcarea se face în interiorul parcelelor; echiparea edilitară e completă pe str. Alexandru Macedonski.",
+   "În zona verde S_Va, condițiile de amplasare, utilizare și configurare a eventualelor clădiri se stabilesc printr-un P.U.D."
+  ]
+ },
+ {
   "id": "2021-24",
   "localitate": "cluj",
   "hcl": "24/2021",

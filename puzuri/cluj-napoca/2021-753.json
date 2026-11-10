@@ -1,0 +1,210 @@
+{
+  "id": "2021-753",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 753,
+    "an": 2021,
+    "data_sedinta": "2021-12-06",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-753-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/12/06/hcl-753-din-2021-si-anexe.pdf"
+  },
+  "titlu": "P.U.Z. de dezvoltare ansamblu rezidențial, str. Fagului nr. 27 – str. Alexandru Macedonski",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 200,
+    "denumire": "2C Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări apare de două ori: p. 13 e Anexa 2, ștampilată, micșorată pe A4 și culcată, cu inventarul de coordonate ilizibil; p. 14 e aceeași planșă 2C la format A3 (3312×2339 px, 200 ppi, scanare alb-negru), cu viza Arhitectului-șef „HCL nr. 753 din 6.12.2021 – VIZAT” și „Aviz nr. 138 din 27.05.2020”; s-a folosit p. 14. Pp. 3-5 sunt Avizul Arhitectului-șef nr. 138/27.05.2020, pp. 6-12 Regulamentul local de urbanism (Anexa 1). Cartuș: Ansamblu rezidențial, str. Fagului nr. 27, pr. nr. 40/2017, faza P.U.Z., planșa 2C, data X.2020; hotărârea trimite la „planșa 5B – Reglementări urbanistice” (numerotarea din avizul din mai 2020), dar planșa anexată e numerotată 2C. Planșa e rotită cu ~59°: nordul e spre stânga-sus, iar str. Alexandru Macedonski, desenată în dreapta, mărginește terenul la sud-est. Scara 1:500 la 200 ppi ar da 15,7 px/m; potrivirea dă 15,4 px/m, deci planșa e tipărită ușor micșorată. Marginea stângă a paginii taie o parte din vecinătăți, nu și zona reglementată. Legenda cuprinde cheia simbolurilor, blocul „Indici urbanistici” (POT 35%, CUT 0,9) și regimul de înălțime; au rămas afară bilanțul teritorial, suprafețele pe UTR, locurile de parcare, profilul transversal, inventarul de coordonate și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa 2C, „Parcela (1)” (17 puncte, 1-17, X [Nord] / Y [Est], cu lungimile laturilor D(i,i+1), S(1) = 3876,?7 mp și P = 291,357 m). Numerele 5, 6, 7 sunt scrise și lângă vârfuri, pe latura nord-estică. Colțurile 4, 10, 16 și 17 sunt puncte de control, colțurile 1, 2 și 3 (treapta din dreptul servituții de trecere) puncte de verificare, toate luate pe mijlocul liniei groase a limitei.",
+    "suprafata_declarata_m2": 3876.87,
+    "puncte": {
+      "1": [
+        584824.339,
+        394334.464
+      ],
+      "2": [
+        584825.948,
+        394337.453
+      ],
+      "3": [
+        584832.09,
+        394334.044
+      ],
+      "4": [
+        584842.652,
+        394353.408
+      ],
+      "5": [
+        584832.38,
+        394358.82
+      ],
+      "6": [
+        584821.35,
+        394364.93
+      ],
+      "7": [
+        584807.67,
+        394372.43
+      ],
+      "8": [
+        584790.05,
+        394382.74
+      ],
+      "9": [
+        584779.8,
+        394388.89
+      ],
+      "10": [
+        584762.475,
+        394399.699
+      ],
+      "11": [
+        584758.71,
+        394391.0
+      ],
+      "12": [
+        584751.105,
+        394375.982
+      ],
+      "13": [
+        584737.442,
+        394355.856
+      ],
+      "14": [
+        584766.279,
+        394337.428
+      ],
+      "15": [
+        584776.58,
+        394329.647
+      ],
+      "16": [
+        584787.813,
+        394321.163
+      ],
+      "17": [
+        584803.615,
+        394346.938
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 3.395,
+      "2": 7.025,
+      "3": 22.05,
+      "4": 11.611,
+      "5": 12.616,
+      "6": 15.601,
+      "7": 20.415,
+      "8": 11.953,
+      "9": 20.42,
+      "10": 9.479,
+      "11": 16.835,
+      "12": 24.324,
+      "13": 34.222,
+      "14": 12.909,
+      "15": 14.077,
+      "16": 30.233,
+      "17": 24.189
+    },
+    "perimetru_declarat_m": 291.357,
+    "nota": "Tabelul e scanat alb-negru la 200 ppi, cu cifre de ~9 px: 5/6/8/9/0/3 se confundă între ele, iar prima cifră din „584…” apare uneori ca 6. Cifrele nesigure au fost rezolvate din laturile tabelului, fiecare vârf din cele două laturi vecine, alegând varianta de cifră cea mai apropiată de ce se vede: pct. 2 N 584825,948 (se vede .910/.848); pct. 5 N 584832,380 și E 394358,820 (se văd .390 și .620); pct. 9 E 394388,890 (386,690); pct. 10 E 394399,699; pct. 11 N 584758,710 (756,710) și E 394391,000 (.090); pct. 12 N 584751,105 (se vede 584761,105 – 10 m mai la nord, ceea ce ar strica ambele laturi vecine, 16,835 și 24,324); pct. 13 E 394355,856 (.850). Două laturi au fost citite la fel: 6-7 = 15,601 (se vede 16,601; 5 citit ca 6, iar perimetrul P = 291,357 confirmă 15,601) și 17-1 = 24,189 (se vede 24,169). Cu aceste valori toate cele 17 laturi se potrivesc cu tabelul la cel mult 7 mm (3-4: 22,057 față de 22,050; 5-6: 12,609 față de 12,616), perimetrul la 3 mm, aria la 0,2 mp. Zecimala ariei din tabel nu se poate citi (3876,07 sau 3876,87); legenda și bilanțul dau 3877 mp. Pct. 5 stă aproape pe dreapta 4-6, așa că laturile îl fixează doar la câțiva centimetri pe direcția perpendiculară: incertitudinea rămasă e de ordinul centimetrilor, fără efect pe hartă. Alegerile la nivel de decimetri și metri (pct. 9-12) sunt confirmate și de planșă: limita calculată urmează linia desenată de-a lungul str. Alexandru Macedonski. Verificare independentă: cu potrivirea finală, clădirile existente din OpenStreetMap (extrasul din 2026-11-08) cad pe cele desenate pe planșă în jurul zonei la ~0,3-1 m, iar str. Alexandru Macedonski și aleea interioară din OSM pe cele desenate; cele șase case deja construite stau în zonele edificabile."
+  },
+  "gcp_px": {
+    "4": [
+      417,
+      584
+    ],
+    "10": [
+      1840,
+      605
+    ],
+    "16": [
+      892,
+      1463
+    ],
+    "17": [
+      891,
+      983
+    ]
+  },
+  "verificare_px": {
+    "1": [
+      512,
+      985
+    ],
+    "2": [
+      512,
+      933
+    ],
+    "3": [
+      405,
+      932
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2262,
+      44,
+      3090,
+      672
+    ],
+    [
+      2268,
+      982,
+      2505,
+      1074
+    ],
+    [
+      2268,
+      1290,
+      2680,
+      1322
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale cu cel mult 2 unități locative, pe parcele de cel puțin 500 mp; regim de construire izolat; 6 parcele pentru locuire, din parcela nr. cad. 304683",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane (P+E+M/R sau D+P+M/R)"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat: spații verzi cu plantații înalte, medii și joase; o parcelă de 123,8 mp în mijlocul ansamblului; condițiile de amplasare a clădirilor se stabilesc prin P.U.D.",
+      "pot_max": "5%",
+      "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+      "h_max": "se stabilește prin P.U.D."
+    }
+  ],
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa trasează limita edificabilului la 6 m (6,00 / 6,01) de limita posterioară a parcelelor; hotărârea cere ca clădirile și garajele să se retragă de la limita posterioară cel puțin cât înălțimea clădirii, dar nu mai puțin de 6 m (Art. 1). Cum înălțimea permisă e de 8 m la cornișă și 12 m la coamă, cei 6 m de pe planșă ajung doar pentru clădiri de cel mult 6 m.",
+    "Planșa dă doar regimul de înălțime S+P+1+M / P+1+M, fără înălțimi în metri; hotărârea permite trei niveluri supraterane (P+E+M sau nivel retras, ori D+P+M sau nivel retras), cu cel mult 8 m la cornișă și 12 m la coamă (Art. 1)."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară (Art. 1).",
+    "Terenul se parcelează în 6 parcele pentru locuințe, fiecare de cel puțin 500 mp (pe planșă 500,4-545,8 mp), și una pentru spațiul verde cu acces public nelimitat (S_Va, 123,8 mp). Pe o parcelă sunt permise cel mult 2 unități locative, în regim izolat.",
+    "Înainte de autorizațiile de construire pe parcele se dezmembrează din parcela inițială și se înscrie în CF cu titlul de „drum” terenul necesar regularizării str. Alexandru Macedonski (93,2 mp după bilanțul planșei) și aleii de deservire locală propuse prin P.U.Z.",
+    "Înainte de recepția construcțiilor, aleea de deservire locală se echipează edilitar și se aduce la strat de uzură, iar spațiul verde cu acces public nelimitat (S_Va) se amenajează pe baza unui proiect de specialitate.",
+    "Înainte de recepția construcțiilor se asfaltează (strat de uzură) str. Alexandru Macedonski, de la intersecția cu str. Arțarului până la amplasament.",
+    "Retrageri: 2-5 m față de str. Alexandru Macedonski, iar în interiorul ansamblului față de suprafețele de folosință comună; cel puțin 3 m față de limitele laterale (garajele pot fi alipite limitelor laterale doar cu un calcan de cel mult 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar minimum 6 m, atât pentru clădiri cât și pentru garaje. Ultimul nivel se retrage cel puțin 1,8 m față de fațada spre stradă sau spațiul public.",
+    "Accesul la parcele se face din str. Alexandru Macedonski sau dinspre str. Fagului, cu un singur acces auto și unul pietonal pe parcelă; ansamblul are acces dintr-un drum public cu carosabil de cel puțin 6 m, iar aleile carosabile interioare deservesc toate parcelele.",
+    "Parcarea se face în interiorul parcelelor; echiparea edilitară e completă pe str. Alexandru Macedonski.",
+    "În zona verde S_Va, condițiile de amplasare, utilizare și configurare a eventualelor clădiri se stabilesc printr-un P.U.D."
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-12-06",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare (până la 06.12.2026); nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  }
+}
