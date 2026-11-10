@@ -3513,6 +3513,110 @@
   ]
  },
  {
+  "id": "2026-199",
+  "localitate": "cluj",
+  "hcl": "199/2026",
+  "data": "2026-05-19",
+  "titlu": "P.U.Z. – de urbanizare (Construire locuințe cu regim redus de înălțime), str. Rubinului nr. 21-25",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-199-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-199.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe individuale (unifamiliale) și anexele lor, sau locuințe semicolective cu cel mult două unități locative pe parcelă; două locuințe individuale izolate doar pe parcele de cel puțin 800 mp; regim de construire izolat",
+    "pot_max": "35% (instituții de educație/învățământ: 25%)",
+    "cut_max": "0,9 (instituții de educație/învățământ: 0,5)",
+    "h_max": "12 m (cornișa max. 8 m); cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 3704,
+  "imagine": "puz/2026-199/plansa.webp",
+  "bounds": {
+   "west": 23.56771,
+   "south": 46.7975584,
+   "east": 23.5688216,
+   "north": 46.7983417
+  },
+  "limita": [
+   [
+    23.5680026,
+    46.7977287
+   ],
+   [
+    23.5677406,
+    46.7981522
+   ],
+   [
+    23.5684218,
+    46.7983203
+   ],
+   [
+    23.568666,
+    46.7979822
+   ],
+   [
+    23.5686555,
+    46.7979782
+   ],
+   [
+    23.5686559,
+    46.7979776
+   ],
+   [
+    23.5686731,
+    46.7979842
+   ],
+   [
+    23.5687872,
+    46.7978424
+   ],
+   [
+    23.56877,
+    46.7978359
+   ],
+   [
+    23.568324,
+    46.7976667
+   ],
+   [
+    23.5681165,
+    46.797588
+   ],
+   [
+    23.5680991,
+    46.7975814
+   ],
+   [
+    23.5679858,
+    46.7977223
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.01
+  },
+  "legenda": "puz/2026-199/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-05-19"
+  },
+  "diferente_fata_de_plansa": [
+   "Hotărârea (Art. 1) numește planșa de reglementări din Anexa 2 „U.4 – Plan reglementări urbanistice”; planșa anexată poartă în cartuș numărul U.3 („Reglementări urbanistice – zonificare funcțională”).",
+   "Hotărârea (Art. 1) adaugă pentru instituții de educație/învățământ P.O.T. max. 25% și C.U.T. max. 0,5; planșa dă pentru Liu* doar P.O.T. 35% și C.U.T. 0,9.",
+   "Planșa nu dă înălțimea pentru Liu* (doar H max = 12 m la U.T.R. ULiu din jur); hotărârea stabilește H max = 12 m, cornișa max. 8 m și cel mult trei niveluri supraterane."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcele: terenul necesar lărgirii străzilor Rubinului și Perlei (145 mp pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la strat de uzură și trece gratuit în domeniul public, cum propune planșa U.5.",
+   "Pe terenul pentru lărgirea str. Rubinului se plantează arbori de aliniament: cel puțin 3, cu circumferința de 35 cm la 1 m de la colet.",
+   "Pe o parcelă se face fie o locuință unifamilială, fie una semicolectivă (cel mult două unități locative), fie două locuințe individuale izolate, acestea doar dacă parcela are cel puțin 800 mp.",
+   "Clădirile se retrag cel puțin 5 m de la aliniament (str. Rubinului și str. Perlei), garajele cel puțin 6 m; 3 m de la limitele laterale (garajele se alipesc limitelor laterale dacă calcanul nu trece de 2,80 m); de la limita posterioară cel puțin înălțimea clădirii, minim 6 m; ultimul nivel se retrage cel puțin 1,80 m față de fațada spre stradă.",
+   "Accesul se face direct din circulațiile publice: de regulă un acces pietonal și unul carosabil pe parcelă, de cel mult 3 m (la locuințele semicolective, două de fiecare); parcarea se face în parcelă (1 loc sub 100 mp AU, 2 locuri peste 100 mp AU; servicii de proximitate: minim 2).",
+   "Toate clădirile se racordează la rețelele publice, apele pluviale nu se scurg spre domeniul public sau spre vecini, cablurile nu se montează aerian, firidele de branșament se integrează în împrejmuire, iar fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor (5 fracții).",
+   "Toate investițiile propuse sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

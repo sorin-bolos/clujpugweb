@@ -1,0 +1,197 @@
+{
+  "id": "2026-199",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 199,
+    "an": 2026,
+    "data_sedinta": "2026-05-19",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-199-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-199.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare (Construire locuințe cu regim redus de înălțime), str. Rubinului nr. 21-25",
+  "plansa": {
+    "pagina_pdf": 24,
+    "dpi": 200,
+    "denumire": "U.3 Reglementări urbanistice – zonificare funcțională",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 10 e copia anexată hotărârii (alb-negru, ștampilată „Anexa 2 la hotărârea nr.”, semnată), iar p. 24 e aceeași planșă U.3, color, cu viza „spre neschimbare” a Arhitectului-șef (Aviz nr. 111 din 18.07.2025); ambele sunt A3 scanate la 200 ppi, cu același desen și același inventar de coordonate; s-a folosit p. 24, unde culorile deosebesc limitele. P. 11 și p. 25 sunt planșa U.5 Proprietatea asupra terenurilor (Anexa 3). Hotărârea numește planșa anexată „U.4 – Plan reglementări urbanistice”, dar cartușul ei scrie „Planșa nr. U.3, Reglementări urbanistice – zonificare funcțională”. Planșa e la scara reală: potrivirea dă 15,7 px/m, nominal 15,75 px/m (1:500 la 200 ppi). Legenda cuprinde cheia simbolurilor, blocurile U.T.R. (ULiu existent, Liu* propus, cu P.O.T./C.U.T.) și tabelul cu posibilitățile maxime de ocupare pe parcele; nu sunt incluse necesarul de parcări, bilanțul teritorial, profilurile stradale, amplasamentul și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U.3 („Coordonate pct. de contur”, nr. cad. 301216, 307017, 307018; 13 puncte, Nord X / Est Y, cu lungimile laturilor D(i,i+1); S=3703,83 mp, P=248,19 m). Numerele punctelor (din ridicarea topografică) nu urmează conturul, așa că ordinea tabelului, care e ordinea conturului, e în `ordine`. Pe planșă, limita zonei reglementate e desenată cu pătrate mov, iar linia punctată albastră a zonei studiate (același contur) e trasă cu ~1 m mai în afară; pe laturile de vest și sud limita coincide cu limita cadastrală a parcelelor propuse (linie maro cu x). Fiecare punct ales e colțul în care se întâlnesc liniile desenate, localizat prin dreptele potrivite pe pixelii fiecărei laturi și verificat din ochi pe decupaje. Control: 454 (NV), 96 (NE, la capătul limitei cadastrale vecine dinspre est), 458 (SE) și 452 (SV). Verificare: 420 și 453 (decroșul de 1,46 m de pe latura de vest, unde pornește limita dintre parcelele 3 și 4) și 459 (colțul de SE al limitei parcelelor propuse, la 1,5 m de 458).",
+    "suprafata_declarata_m2": 3703.83,
+    "puncte": {
+      "420": [
+        589674.714,
+        390823.42
+      ],
+      "454": [
+        589722.145,
+        390804.278
+      ],
+      "96": [
+        589739.887,
+        390856.606
+      ],
+      "73": [
+        589701.977,
+        390874.56
+      ],
+      "455": [
+        589701.545,
+        390873.7496
+      ],
+      "456": [
+        589701.478,
+        390873.785
+      ],
+      "457": [
+        589702.179,
+        390875.111
+      ],
+      "458": [
+        589686.268,
+        390883.528
+      ],
+      "459": [
+        589685.567,
+        390882.202
+      ],
+      "460": [
+        589667.383,
+        390847.828
+      ],
+      "461": [
+        589658.921,
+        390831.832
+      ],
+      "452": [
+        589658.213,
+        390830.493
+      ],
+      "453": [
+        589674.0253,
+        390822.1282
+      ]
+    },
+    "ordine": [
+      "420",
+      "454",
+      "96",
+      "73",
+      "455",
+      "456",
+      "457",
+      "458",
+      "459",
+      "460",
+      "461",
+      "452",
+      "453"
+    ],
+    "laturi_declarate_m": {
+      "420": 51.15,
+      "454": 55.25,
+      "96": 41.95,
+      "73": 0.92,
+      "455": 0.08,
+      "456": 1.5,
+      "457": 18.0,
+      "458": 1.5,
+      "459": 38.89,
+      "460": 18.1,
+      "461": 1.51,
+      "452": 17.89,
+      "453": 1.46
+    },
+    "perimetru_declarat_m": 248.19
+  },
+  "gcp_px": {
+    "454": [
+      620.7,
+      754.2
+    ],
+    "96": [
+      1444.9,
+      471.3
+    ],
+    "458": [
+      1868.2,
+      1314.4
+    ],
+    "452": [
+      1032.7,
+      1758.8
+    ]
+  },
+  "verificare_px": {
+    "420": [
+      922.1,
+      1498.4
+    ],
+    "453": [
+      902.7,
+      1508.8
+    ],
+    "459": [
+      1846.1,
+      1326.2
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2400,
+      228,
+      3240,
+      1160
+    ],
+    [
+      2412,
+      1162,
+      3240,
+      1389
+    ],
+    [
+      2412,
+      1416,
+      3078,
+      1543
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe individuale (unifamiliale) și anexele lor, sau locuințe semicolective cu cel mult două unități locative pe parcelă; două locuințe individuale izolate doar pe parcele de cel puțin 800 mp; regim de construire izolat",
+      "pot_max": "35% (instituții de educație/învățământ: 25%)",
+      "cut_max": "0,9 (instituții de educație/învățământ: 0,5)",
+      "h_max": "12 m (cornișa max. 8 m); cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-05-19",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Hotărârea (Art. 1) numește planșa de reglementări din Anexa 2 „U.4 – Plan reglementări urbanistice”; planșa anexată poartă în cartuș numărul U.3 („Reglementări urbanistice – zonificare funcțională”).",
+    "Hotărârea (Art. 1) adaugă pentru instituții de educație/învățământ P.O.T. max. 25% și C.U.T. max. 0,5; planșa dă pentru Liu* doar P.O.T. 35% și C.U.T. 0,9.",
+    "Planșa nu dă înălțimea pentru Liu* (doar H max = 12 m la U.T.R. ULiu din jur); hotărârea stabilește H max = 12 m, cornișa max. 8 m și cel mult trei niveluri supraterane."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcele: terenul necesar lărgirii străzilor Rubinului și Perlei (145 mp pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la strat de uzură și trece gratuit în domeniul public, cum propune planșa U.5.",
+    "Pe terenul pentru lărgirea str. Rubinului se plantează arbori de aliniament: cel puțin 3, cu circumferința de 35 cm la 1 m de la colet.",
+    "Pe o parcelă se face fie o locuință unifamilială, fie una semicolectivă (cel mult două unități locative), fie două locuințe individuale izolate, acestea doar dacă parcela are cel puțin 800 mp.",
+    "Clădirile se retrag cel puțin 5 m de la aliniament (str. Rubinului și str. Perlei), garajele cel puțin 6 m; 3 m de la limitele laterale (garajele se alipesc limitelor laterale dacă calcanul nu trece de 2,80 m); de la limita posterioară cel puțin înălțimea clădirii, minim 6 m; ultimul nivel se retrage cel puțin 1,80 m față de fațada spre stradă.",
+    "Accesul se face direct din circulațiile publice: de regulă un acces pietonal și unul carosabil pe parcelă, de cel mult 3 m (la locuințele semicolective, două de fiecare); parcarea se face în parcelă (1 loc sub 100 mp AU, 2 locuri peste 100 mp AU; servicii de proximitate: minim 2).",
+    "Toate clădirile se racordează la rețelele publice, apele pluviale nu se scurg spre domeniul public sau spre vecini, cablurile nu se montează aerian, firidele de branșament se integrează în împrejmuire, iar fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor (5 fracții).",
+    "Toate investițiile propuse sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-199/hotarare.txt"
+}
