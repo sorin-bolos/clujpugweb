@@ -1,0 +1,147 @@
+{
+  "id": "2024-762",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 762,
+    "an": 2024,
+    "data_sedinta": "2024-12-02",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-762-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/12/05/762.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar, în zonă cu caracter rezidențial, str. Romulus Vuia nr. 227",
+  "plansa": {
+    "pagina_pdf": 6,
+    "dpi": 300,
+    "denumire": "A.03 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul hotărârii are 6 pagini A4 scanate la 300 ppi: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii, fără articole adăugate), Anexa 1 R.L.U. (p. 3-5) și Anexa 2, planșa (p. 6, singura copie). Hotărârea o numește „Planșa U.03 – Reglementări Urbanistice”; cartușul scrie „Plan reglementări urbanistice”, pag. A.03, pr. nr. 1127/2022, faza P.U.Z., revizia 02, 29.03.2024, scara 1:500. Planșa e redusă pe A4 (15,2 px/m în loc de 23,6 px/m, cam 64 %) și tipărită culcat: textul se citește în sus, nordul e spre stânga paginii (rotație -89,6°), de unde rotirea cu 90° a casetelor legendei. Limita zonei reglementate e linia groasă cu perle de pe conturul parcelei nr. cad. 336450; legenda planșei n-o trece. Legenda ia cheia simbolurilor (U.T.R. propus, U.T.R. existente, limita construibilă, retrageri/aliniament) și caseta U.T.R. cu P.O.T. și C.U.T.; lasă deoparte bilanțul teritorial, inventarul de coordonate, cartușul și ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.03 („Inventar de coordonate N.C. 336450”: 13 puncte, 10-22, Nord (X) / Est (Y), în ordinea conturului; S = 1237 mp, fără lungimile laturilor). Potrivirea folosește cele patru colțuri ale parcelei, singurele colțuri ascuțite: 10 (nord-vest) și 14 (nord-est), la capetele laturii spre str. Romulus Vuia, 18 (sud-est) și 19 (sud-vest), la capetele limitei posterioare; fiecare e intersecția liniilor de mijloc ale limitei cu perle de pe cele două laturi, citită pe decupaje mărite. Nu rămâne niciun punct de verificare: celelalte nouă vârfuri (11-13 pe latura dinspre stradă, 15-17 pe latura estică, 20-22 pe cea vestică) stau pe laturi aproape drepte, cu frângeri sub 7°, și nu pot fi localizate de-a lungul liniei, iar planșa nu are caroiaj Stereo 70. În schimb, suprapunerea arată limita calculată din coordonate pe linia desenată pe toate laturile, inclusiv la frângerile de la 11-13 și 21, iar clădirile din extrasul OSM (2026-11-08), desenate cu aceeași potrivire, cad pe clădirile vecine desenate pe planșă la câțiva metri.",
+    "suprafata_declarata_m2": 1237,
+    "puncte": {
+      "10": [
+        587764.788,
+        390353.712
+      ],
+      "11": [
+        587760.849,
+        390361.485
+      ],
+      "12": [
+        587758.236,
+        390366.426
+      ],
+      "13": [
+        587757.041,
+        390368.359
+      ],
+      "14": [
+        587754.69,
+        390373.311
+      ],
+      "15": [
+        587735.906,
+        390373.44
+      ],
+      "16": [
+        587727.279,
+        390374.014
+      ],
+      "17": [
+        587712.215,
+        390375.015
+      ],
+      "18": [
+        587695.729,
+        390376.088
+      ],
+      "19": [
+        587693.164,
+        390355.915
+      ],
+      "20": [
+        587707.942,
+        390355.906
+      ],
+      "21": [
+        587715.606,
+        390356.079
+      ],
+      "22": [
+        587727.245,
+        390355.519
+      ]
+    },
+    "nota": "Tabelul e clar; toate cele 13 rânduri au fost citite pe un decupaj rotit și mărit. Aria calculată, 1237,5 mp, se potrivește cu S = 1237 mp de sub tabel, cu bilanțul de pe planșă (1237 mp) și cu caseta proprietarului (1237 mp din acte)."
+  },
+  "gcp_px": {
+    "10": [
+      852,
+      2091
+    ],
+    "14": [
+      1006,
+      1786
+    ],
+    "18": [
+      1904,
+      1749
+    ],
+    "19": [
+      1941,
+      2066
+    ]
+  },
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      383,
+      603,
+      990,
+      1085,
+      90
+    ],
+    [
+      1516,
+      2155,
+      1667,
+      2537,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Et_Printman",
+      "denumire": "Subzonă de activități economice cu caracter terțiar, situată în zonă cu caracter rezidențial – funcțiune predominantă: activități terțiare administrative (birouri, sedii de companii), financiar-bancare, comerț cu ADC de cel mult 1000 mp, alimentație publică, servicii cu acces public, servicii profesionale și manufacturiere, cazare turistică, cercetare științifică, cultură, sănătate, mică producție și activități complementare direct legate de acestea; regim de construire deschis",
+      "pot_max": "40%",
+      "cut_max": "1,8",
+      "h_max": "12 m la cornișă, 15 m în total; trei niveluri supraterane (S+P+2E); etaje tehnice doar pe cel mult 20% din amprenta clădirii, în înălțimea maximă"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-12-02"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea maximă (trei niveluri supraterane, S+P+2E, cel mult 12 m la cornișă și 15 m în total) și regimul de construire deschis le dă doar Art. 1 (și R.L.U., art. 10); caseta U.T.R. de pe planșă are numai P.O.T. 40 % și C.U.T. 1,8."
+  ],
+  "conditii": [
+    "Se reglementează o parcelă de 1237 mp, proprietate privată (nr. cad. 336450), pe frontul impar al str. Romulus Vuia; din cele patru clădiri existente se păstrează doar corpul cu funcțiunea de depozit (hala), iar clădirea propusă are birouri și, la ultimul nivel, locuințe de serviciu (R.L.U., secțiunea 1).",
+    "Clădirile se retrag cel puțin 8 m de la aliniamentul str. Romulus Vuia, cel puțin 3 m de limitele laterale (construcțiile noi; hala de depozitare existentă rămâne la cel puțin 2,25 m de limita vestică) și cel puțin 2,8 m de limita posterioară; pe limita de proprietate se admit doar edicule (întreținere, infrastructură edilitară, garaje) de cel mult 2,8 m înălțime.",
+    "Sunt interzise locuirea de orice tip individual, activitățile industriale sau poluante, depozitarea en gros și a materialelor refolosibile, comerțul în clădiri independente de tip supermarket, hypermarket sau mall și construcțiile provizorii (R.L.U., secțiunea 2).",
+    "Accesul auto și pietonal se face din str. Romulus Vuia; accesele existente pe parcelă se păstrează.",
+    "Parcarea se face în interiorul parcelei, cu necesarul calculat după Anexa 2 a R.L.U. al P.U.G., însumat pe funcțiuni când sunt mai multe.",
+    "Toate construcțiile se racordează la rețelele edilitare; cablurile nu se montează aerian (în afară de iluminatul decorativ pentru sărbători sau evenimente autorizate).",
+    "Spațiile libere plantate pe sol natural ocupă cel puțin 20% din parcelă; împrejmuirile au cel mult 2,20 m, iar spre stradă au soclu opac de cel mult 80 cm și parte transparentă (R.L.U., art. 13-14).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}

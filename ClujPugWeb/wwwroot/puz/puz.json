@@ -6435,6 +6435,109 @@
   ]
  },
  {
+  "id": "2024-762",
+  "localitate": "cluj",
+  "hcl": "762/2024",
+  "data": "2024-12-02",
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar, în zonă cu caracter rezidențial, str. Romulus Vuia nr. 227",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-762-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/12/05/762.pdf",
+  "utr": [
+   {
+    "cod": "S_Et_Printman",
+    "denumire": "Subzonă de activități economice cu caracter terțiar, situată în zonă cu caracter rezidențial – funcțiune predominantă: activități terțiare administrative (birouri, sedii de companii), financiar-bancare, comerț cu ADC de cel mult 1000 mp, alimentație publică, servicii cu acces public, servicii profesionale și manufacturiere, cazare turistică, cercetare științifică, cultură, sănătate, mică producție și activități complementare direct legate de acestea; regim de construire deschis",
+    "pot_max": "40%",
+    "cut_max": "1,8",
+    "h_max": "12 m la cornișă, 15 m în total; trei niveluri supraterane (S+P+2E); etaje tehnice doar pe cel mult 20% din amprenta clădirii, în înălțimea maximă"
+   }
+  ],
+  "suprafata_m2": 1237,
+  "imagine": "puz/2024-762/plansa.webp",
+  "bounds": {
+   "west": 23.562283,
+   "south": 46.7798116,
+   "east": 23.5626365,
+   "north": 46.7804984
+  },
+  "limita": [
+   [
+    23.5623048,
+    46.780472
+   ],
+   [
+    23.5624076,
+    46.7804378
+   ],
+   [
+    23.5624729,
+    46.7804151
+   ],
+   [
+    23.5624985,
+    46.7804047
+   ],
+   [
+    23.5625639,
+    46.7803843
+   ],
+   [
+    23.56257,
+    46.7802154
+   ],
+   [
+    23.5625796,
+    46.7801379
+   ],
+   [
+    23.5625963,
+    46.7800025
+   ],
+   [
+    23.5626143,
+    46.7798544
+   ],
+   [
+    23.5623507,
+    46.779828
+   ],
+   [
+    23.5623471,
+    46.779961
+   ],
+   [
+    23.5623475,
+    46.7800299
+   ],
+   [
+    23.5623374,
+    46.7801345
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2024-762/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-12-02"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea maximă (trei niveluri supraterane, S+P+2E, cel mult 12 m la cornișă și 15 m în total) și regimul de construire deschis le dă doar Art. 1 (și R.L.U., art. 10); caseta U.T.R. de pe planșă are numai P.O.T. 40 % și C.U.T. 1,8."
+  ],
+  "conditii": [
+   "Se reglementează o parcelă de 1237 mp, proprietate privată (nr. cad. 336450), pe frontul impar al str. Romulus Vuia; din cele patru clădiri existente se păstrează doar corpul cu funcțiunea de depozit (hala), iar clădirea propusă are birouri și, la ultimul nivel, locuințe de serviciu (R.L.U., secțiunea 1).",
+   "Clădirile se retrag cel puțin 8 m de la aliniamentul str. Romulus Vuia, cel puțin 3 m de limitele laterale (construcțiile noi; hala de depozitare existentă rămâne la cel puțin 2,25 m de limita vestică) și cel puțin 2,8 m de limita posterioară; pe limita de proprietate se admit doar edicule (întreținere, infrastructură edilitară, garaje) de cel mult 2,8 m înălțime.",
+   "Sunt interzise locuirea de orice tip individual, activitățile industriale sau poluante, depozitarea en gros și a materialelor refolosibile, comerțul în clădiri independente de tip supermarket, hypermarket sau mall și construcțiile provizorii (R.L.U., secțiunea 2).",
+   "Accesul auto și pietonal se face din str. Romulus Vuia; accesele existente pe parcelă se păstrează.",
+   "Parcarea se face în interiorul parcelei, cu necesarul calculat după Anexa 2 a R.L.U. al P.U.G., însumat pe funcțiuni când sunt mai multe.",
+   "Toate construcțiile se racordează la rețelele edilitare; cablurile nu se montează aerian (în afară de iluminatul decorativ pentru sărbători sau evenimente autorizate).",
+   "Spațiile libere plantate pe sol natural ocupă cel puțin 20% din parcelă; împrejmuirile au cel mult 2,20 m, iar spre stradă au soclu opac de cel mult 80 cm și parte transparentă (R.L.U., art. 13-14).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2024-571",
   "localitate": "cluj",
   "hcl": "571/2024",
