@@ -1,0 +1,269 @@
+{
+  "id": "2026-555",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 555,
+    "an": 2026,
+    "data_sedinta": "2026-08-06",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-555-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/555.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, str. Ciucea – latura vestică – aleea Horezu",
+  "plansa": {
+    "pagina_pdf": 11,
+    "dpi": 200,
+    "denumire": "U04 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa e singura din PDF: p. 11, A3 rotit, 200 ppi, scanare aproape alb-negru, ștampilată „Anexa 2 la Hotărârea nr. 555/2026”; p. 1-2 sunt hotărârea, p. 3-10 regulamentul. Cartușul o numește „Plan reglementari urbanistice”, planșa U04; hotărârea o anexează ca „U.04 – Plan reglementari urbanistice”. Scara imaginii: 15,2 px/m (1:500 la 200 ppi ar da 15,7 px/m, deci planșa e tipărită la ~97%); desenul e rotit cu ~17° față de nord (săgeata nordului arată în sus-stânga). Legenda cuprinde cheia simbolurilor și rândurile cu POT/CUT maxime pentru U.T.R. Lic/a* de sub bilanțul teritorial; au rămas afară bilanțul, necesarul de parcări, inventarul de coordonate și cartușul (care numește investitorul). Textul vertical „Arhitect șef” de lângă colțul de nord-est e scos din decupaj."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U04 („Teren reglementat prin PUZ”: punctele 318-346, X = Nord / Y = Est, cu lungimile laturilor D(i,i+1); S(PUZ) = 4659,91 mp, P = 462,13 m), în ordinea conturului. Puncte de control: colțurile de vest 346 și 318, colțurile crestăturii din jurul parcelei 324146 (339, 335, 336), vârful de nord-est 333 (aleea Broșteni cu str. Ciucea) și treptele de pe latura sudică (321, 323), fiecare pe mijlocul liniei gri groase întrerupte a limitei; puncte de verificare: 338, 320, 322 și 324.",
+    "suprafata_declarata_m2": 4659.91,
+    "puncte": {
+      "318": [
+        589564.474,
+        394967.515
+      ],
+      "319": [
+        589557.097,
+        394988.824
+      ],
+      "320": [
+        589554.757,
+        394995.58
+      ],
+      "321": [
+        589557.144,
+        394996.323
+      ],
+      "322": [
+        589548.436,
+        395021.793
+      ],
+      "323": [
+        589546.029,
+        395021.129
+      ],
+      "324": [
+        589538.859,
+        395041.759
+      ],
+      "325": [
+        589540.328,
+        395042.201
+      ],
+      "326": [
+        589540.255,
+        395042.227
+      ],
+      "327": [
+        589533.438,
+        395062.759
+      ],
+      "328": [
+        589525.655,
+        395081.288
+      ],
+      "330": [
+        589531.346,
+        395083.115
+      ],
+      "331": [
+        589543.815,
+        395094.725
+      ],
+      "332": [
+        589559.983,
+        395120.292
+      ],
+      "333": [
+        589567.501,
+        395126.373
+      ],
+      "334": [
+        589574.462,
+        395096.914
+      ],
+      "335": [
+        589579.046,
+        395076.988
+      ],
+      "336": [
+        589535.893,
+        395063.525
+      ],
+      "337": [
+        589542.709,
+        395042.992
+      ],
+      "338": [
+        589542.693,
+        395042.912
+      ],
+      "339": [
+        589582.859,
+        395054.999
+      ],
+      "340": [
+        589587.779,
+        395034.119
+      ],
+      "341": [
+        589587.979,
+        395032.699
+      ],
+      "342": [
+        589586.703,
+        395023.474
+      ],
+      "343": [
+        589585.62,
+        395017.2
+      ],
+      "344": [
+        589588.002,
+        395005.924
+      ],
+      "345": [
+        589589.522,
+        394998.633
+      ],
+      "346": [
+        589595.882,
+        394977.112
+      ]
+    },
+    "laturi_declarate_m": {
+      "337": 0.08,
+      "338": 41.95,
+      "339": 21.45,
+      "340": 1.43,
+      "341": 9.31,
+      "342": 6.37,
+      "343": 11.52,
+      "344": 7.45,
+      "345": 22.44,
+      "346": 32.84
+    },
+    "perimetru_declarat_m": 462.13,
+    "nota": "Tabelul are rândul „330” de două ori, cu aceleași coordonate și latura 0,00 între ele; numărul 329 lipsește din tabel, dar e scris pe planșă lângă 330. S-a păstrat un singur punct 330. Pe jumătatea de sus a coloanei lungimilor e suprapus textul vertical al ștampilei de anexă, așa că se citesc sigur doar laturile 337-346 și 346-318 (în `laturi_declarate_m`); pentru celelalte se văd părțile întregi, care se potrivesc toate cu cele calculate. Punctul 336 pare 589585,893, dar laturile 335-336 (4x,xx m) și 336-337 (21,xx m) cer 589535,893; la 339, Est e 395054,999 (pare ,959), confirmat de laturile 41,95 și 21,45 m. Cu acestea aria calculată e 4659,91 mp, exact ca pe planșă, iar perimetrul 462,135 m. Limita ocolește parcela 324146, cu casa existentă S+P+2; din ea intră în PUZ doar fâșia 324147 de la aleea Horezu (crestătura 335-336-337-338-339). Pe imagini casa și curtea ei cad exact în crestătură."
+  },
+  "gcp_px": {
+    "346": [
+      335,
+      532
+    ],
+    "318": [
+      335,
+      1035
+    ],
+    "339": [
+      1528,
+      372
+    ],
+    "336": [
+      1859,
+      1012
+    ],
+    "335": [
+      1862,
+      331
+    ],
+    "333": [
+      2628,
+      279
+    ],
+    "321": [
+      789,
+      1013
+    ],
+    "323": [
+      1200,
+      1061
+    ]
+  },
+  "verificare_px": {
+    "338": [
+      1530,
+      1012
+    ],
+    "320": [
+      788,
+      1050
+    ],
+    "322": [
+      1199,
+      1022
+    ],
+    "324": [
+      1530,
+      1071
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        2641,
+        20,
+        2720,
+        345
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      2368,
+      990,
+      3170,
+      1376
+    ],
+    [
+      2372,
+      1857,
+      3170,
+      1940
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lic/a*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine) și locuințe semicolective (familiale), cu cel mult două unități locative pe parcelă; regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la coamă sau la aticul nivelului retras (8 m la cornișă sau la aticul ultimului nivel neretras); două niveluri supraterane plus mansardă sau nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde: scuaruri, parcuri cu acces public nelimitat (plantații înalte, medii și joase)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "4 m la cornișă; parter (P)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-08-06",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerea față de limitele laterale: hotărârea cere cel puțin 3 m, cu o singură excepție, limita sudică a parcelei cu acces direct din str. Ciucea (cel puțin 2 m față de parcela din S_Va*). Pe planșă, zona construibilă de pe parcela 311238 e retrasă doar 2,00 m de limita ei estică, spre S_Va*."
+  ],
+  "conditii": [
+    "Terenul necesar regularizării aleii Horezu și a străzii Ciucea, pe tronsonul de lângă PUZ (469,2 mp, respectiv 23,5 mp după bilanțul planșei), se dezmembrează din parcele și se înscrie în CF ca „drum” înainte de autorizațiile de construire, iar până la recepția locuințelor se aduce la strat de uzură (asfalt sau dalaj).",
+    "Partea carosabilă a aleii Horezu se aduce la strat de uzură (asfalt sau dalaj) înainte de autorizațiile de construire pe parcele, iar trotuarul de pe latura ei nordică se face până la recepția locuințelor.",
+    "Spațiul verde cu acces public nelimitat (U.T.R. S_Va*, 274 mp după bilanț) se amenajează pe baza unui proiect de specialitate, înainte de recepția locuințelor. Pe el parcarea e interzisă (în afara vehiculelor de întreținere), iar construcțiile se retrag cel puțin 3 m de toate limitele.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari.",
+    "Clădirile, inclusiv garajele, se aliniază obligatoriu la 7 m de noul aliniament al aleii Horezu și se retrag cel puțin 3 m de la aliniamentul străzii Ciucea, cel puțin 3 m de la limitele laterale și, față de limita posterioară (nordică), cel puțin înălțimea clădirii la cornișă, dar minimum 6 m.",
+    "Pe parcela cu acces direct din str. Ciucea, clădirea se retrage cel puțin 3 m de toate limitele și cel puțin 2 m de limita sudică, comună cu S_Va*; garajul, chiar inclus în clădire, se poate alipi limitei sudice și celei vestice.",
+    "Garajele, inclusiv cele din corpul clădirii, se pot alipi limitelor laterale dacă zidul rezultat (calcanul) nu depășește 2,80 m înălțime.",
+    "Accesul se face din aleea Horezu și din str. Ciucea; se autorizează doar construcții cu acces la drum public. Pe fiecare parcelă, un singur acces pietonal și unul carosabil, de cel mult 4 m lățime; pentru aleile din parcelă se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei: cel puțin un loc pentru clădiri cu aria utilă sub 100 mp și două peste 100 mp.",
+    "Utilitățile se racordează la rețelele publice. Apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în clădire sau în împrejmuire; cablurile nu se montează aerian; fiecare parcelă are un spațiu pentru colectarea deșeurilor menajere, accesibil din spațiul public."
+  ],
+  "hotarare_text": "documente/2026-555/hotarare.txt"
+}
