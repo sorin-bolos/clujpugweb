@@ -5662,6 +5662,97 @@
   ]
  },
  {
+  "id": "2025-699",
+  "localitate": "cluj",
+  "hcl": "699/2025",
+  "data": "2025-12-04",
+  "titlu": "P.U.Z. – de urbanizare (Construire locuințe cu regim redus de înălțime), str. Augustin Maior – latura nordică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-699-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/12/18/699.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe unifamiliale și semicolective (acestea numai pe parcele de peste 450 mp), 8 parcele; regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m, 8 m la cornișă; 3 niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde cu acces public nelimitat (spațiu verde și loc de joacă), situată în zonă rezidențială",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "4 m, (D)+P"
+   }
+  ],
+  "suprafata_m2": 4500,
+  "imagine": "puz/2025-699/plansa.webp",
+  "bounds": {
+   "west": 23.5459145,
+   "south": 46.7932101,
+   "east": 23.5471328,
+   "north": 46.7938614
+  },
+  "limita": [
+   [
+    23.5465309,
+    46.7933214
+   ],
+   [
+    23.5459556,
+    46.7932283
+   ],
+   [
+    23.5460096,
+    46.7934593
+   ],
+   [
+    23.5460415,
+    46.7935884
+   ],
+   [
+    23.5460868,
+    46.7938337
+   ],
+   [
+    23.5470948,
+    46.7937767
+   ],
+   [
+    23.5469903,
+    46.7932703
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.09
+  },
+  "legenda": "puz/2025-699/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2032-12-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime: planșa scrie „(S)+P+E+R(M) sau D+E+R(M)”; hotărârea (Art. 1) admite 3 niveluri supraterane, (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, cu ultimul nivel retras cu cel puțin 1,8 m de la fațada spre stradă. Înălțimile sunt aceleași (8 m la cornișă, 12 m maxim).",
+   "Planșa nu dă indicatori pentru S_Va*; hotărârea: POT 5%, CUT 0,1, înălțime maximă 4 m ((D)+P), retrageri de minimum 4 m de la aliniament și de la limitele laterale și posterioară.",
+   "Legenda planșei dă o singură retragere laterală (3 m) și una posterioară (6 m); hotărârea le dă pe parcele: laterale minimum 3 m (parcelele 1, 3, 5, 6, 7), respectiv minimum 3 m și minimum 6 m (parcelele 2, 4, 8); posterioară cel puțin cât înălțimea clădirii, minimum 6 m (parcelele 1, 5, 6, 7), respectiv minimum 3 m (parcelele 4 și 8), trimițând în rest la planșa U03."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pentru locuințe: terenul necesar lărgirii străzii Augustin Maior la profilul de 9 m (216,77 mp pe planșă) se dezmembrează din parcela inițială și se înscrie în CF ca „drum”.",
+   "Înainte de autorizațiile de construire: aleea de interes local propusă prin P.U.Z. (drumul de incintă, profil 7 m, 601,04 mp pe planșă) se înscrie în CF ca „drum” și se echipează edilitar (apă-canal, electricitate), pe baza unui proiect autorizat.",
+   "Înainte de recepția locuințelor: aleea se aduce la strat de uzură, cu acces public nelimitat și iluminat stradal.",
+   "Înainte de recepția locuințelor: fâșia dezmembrată pentru lărgirea străzii Augustin Maior se aduce la strat de uzură și trece gratuit în domeniul public (planșa U.05, proprietatea asupra terenurilor).",
+   "Înainte de recepția locuințelor: spațiul verde cu acces public nelimitat (S_Va*, 446,22 mp pe planșă) se amenajează pe baza unui proiect autorizat, cu cel puțin 6 arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet, plantați pe sol natural.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Liu*: locuințele semicolective sunt admise numai pe parcelele de peste 450 mp (pe planșă, doar parcelele 4 și 8, de 518,35 și 483,36 mp).",
+   "Liu*: retragere de 4 m de la aliniamentul străzii Augustin Maior (regularizate) și de 3 m, respectiv 4 m de la alee, după planșă; garajele, la minimum 6 m de la aliniament, pot fi alipite limitelor laterale dacă înălțimea calcanului nu depășește 2,8 m.",
+   "Liu*: pe o parcelă, un singur acces auto (lat de cel mult 4 m) și un singur acces pietonal; parcarea se face în parcelă: minimum 1 loc pentru clădiri cu aria utilă sub 100 mp, 2 locuri peste.",
+   "S_Va*: accesul se face din strada Augustin Maior; parcarea e interzisă în subzona verde; aleile se fac din agregate compactate, pavaje din piatră sau îmbrăcăminți asfaltice permeabile.",
+   "Utilitățile se asigură prin racordare la rețelele edilitare publice."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

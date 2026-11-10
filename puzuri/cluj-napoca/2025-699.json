@@ -1,0 +1,166 @@
+{
+  "id": "2025-699",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 699,
+    "an": 2025,
+    "data_sedinta": "2025-12-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-699-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/12/18/699.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare (Construire locuințe cu regim redus de înălțime), str. Augustin Maior – latura nordică",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 96,
+    "denumire": "U.PUZ.03 Plan – Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 10 (Anexa 2 la hotărâre, micșorată pe A4, rotită, ștampilată) și p. 18 (format mare, color, 96 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 18 din 25.02.2025, și mențiunea de mână „HCL nr. 699 din 4 decembrie 2025”); s-a folosit p. 18, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-9 regulamentul local de urbanism (Anexa 1), p. 11 planșa U.PUZ.05 a proprietății (Anexa 3, pe A4), pp. 12-14 avizul de oportunitate nr. 187/31.10.2023 cu extrasul din P.U.G., pp. 15-17 avizul Arhitectului-șef nr. 18/25.02.2025, p. 19 planșa U.PUZ.05 „Plan – Proprietăți asupra terenurilor și obiective de utilitate publică” în format mare, pp. 20-21 raportul informării și consultării publicului. Cartușul: proiect 07/2018, faza P.U.Z., data 08.2024, planșa U.PUZ.03 „Plan – Reglementări urbanistice”, scara 1:500. Scara imaginii: 7,5 px/m (1:500 la 96 ppi), nordul în sus (rotație -0,25° față de Stereo 70). Legenda cuprinde cheia simbolurilor (limite, parcele, S_Va*, lărgirea străzii Augustin Maior) și „Reglementări urbanistice propuse” (accese, retrageri, regim de înălțime, POT 35%, CUT 0,9), în trei casete; au rămas afară bilanțul teritorial, lista suprafețelor parcelelor, numărul locurilor de parcare, profilurile stradale A-A și B-B, ștampilele și cartușul. Caseta cu proprietarii de lângă colțul nord-estic e scoasă din decupaj (`exclude_px`)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y), 7 puncte (tabelul din mijlocul legendei, x≈1310-1530, y≈1080-1220), cu lungimile laturilor D(i,i+1), S(PUZ)=4500,32 mp și P=282,746 m. Tabelul începe cu 05; ordinea 05, 06, 07, 01-04 e chiar ordinea conturului, la fel ca ordinea numerică.",
+    "suprafata_declarata_m2": 4500.32,
+    "puncte": {
+      "01": [
+        589214.8,
+        389175.694
+      ],
+      "02": [
+        589205.267,
+        389131.595
+      ],
+      "03": [
+        589230.855,
+        389136.19
+      ],
+      "04": [
+        589245.157,
+        389138.888
+      ],
+      "05": [
+        589272.354,
+        389142.844
+      ],
+      "06": [
+        589264.611,
+        389219.666
+      ],
+      "07": [
+        589208.478,
+        389210.658
+      ]
+    },
+    "laturi_declarate_m": {
+      "05": 77.211,
+      "06": 56.851,
+      "07": 35.531,
+      "01": 45.118,
+      "02": 25.997,
+      "03": 14.554,
+      "04": 27.483
+    },
+    "perimetru_declarat_m": 282.746,
+    "nota": "Toate cele 7 laturi, perimetrul și aria se potrivesc cu tabelul. Pe planșă sunt etichetate doar vârfurile de pe laturile de vest și nord, cu numere cu unu mai mici decât în tabel: „4” e colțul nord-vestic (05 în tabel), „5” colțul nord-estic (06), „3”, „2”, „1” punctele 04, 03, 02 de pe latura vestică; potrivirea s-a făcut după formă și lungimi, iar ajustarea o confirmă. Latura sudică (02-01-07) e limita parcelei, pe conturul existent al străzii Augustin Maior (linia întreruptă roșu-alb), cu fâșia de lărgire la 9 m în interiorul P.U.Z. Puncte de control: colțurile 05, 06, 07, 02; de verificare: 04 (unde limita intravilanului dinspre vest întâlnește latura vestică) și 01 (vârful laturii sudice, pe linia întreruptă, cel mai neclar). 03 e pe o latură aproape dreaptă (0,5°) și n-a fost folosit. Verificarea pe ortofoto (Esri) și pe OSM: casele vecine desenate pe planșă (P+M la nord, S+P+M și S+P+E 277978 la vest) cad pe casele reale la 1-2 m; drumul de pământ al străzii Augustin Maior se vede însă cu vreo 5 m mai la nord decât drumul desenat, pe fâșia pe care P.U.Z. o rezervă lărgirii, adică pe marginea sudică a terenului, ceea ce pare a fi starea reală a drumului, nu o eroare de georeferențiere."
+  },
+  "gcp_px": {
+    "05": [
+      1290,
+      249
+    ],
+    "06": [
+      1868,
+      306
+    ],
+    "07": [
+      1802,
+      726
+    ],
+    "02": [
+      1208,
+      754
+    ]
+  },
+  "verificare_px": {
+    "04": [
+      1261,
+      451
+    ],
+    "01": [
+      1540,
+      686
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        1876,
+        322,
+        2015,
+        485
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      1595,
+      1012,
+      1806,
+      1158
+    ],
+    [
+      1595,
+      1158,
+      1840,
+      1312
+    ],
+    [
+      1595,
+      1318,
+      1840,
+      1484
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe unifamiliale și semicolective (acestea numai pe parcele de peste 450 mp), 8 parcele; regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m, 8 m la cornișă; 3 niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde cu acces public nelimitat (spațiu verde și loc de joacă), situată în zonă rezidențială",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "4 m, (D)+P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-12-04",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime: planșa scrie „(S)+P+E+R(M) sau D+E+R(M)”; hotărârea (Art. 1) admite 3 niveluri supraterane, (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, cu ultimul nivel retras cu cel puțin 1,8 m de la fațada spre stradă. Înălțimile sunt aceleași (8 m la cornișă, 12 m maxim).",
+    "Planșa nu dă indicatori pentru S_Va*; hotărârea: POT 5%, CUT 0,1, înălțime maximă 4 m ((D)+P), retrageri de minimum 4 m de la aliniament și de la limitele laterale și posterioară.",
+    "Legenda planșei dă o singură retragere laterală (3 m) și una posterioară (6 m); hotărârea le dă pe parcele: laterale minimum 3 m (parcelele 1, 3, 5, 6, 7), respectiv minimum 3 m și minimum 6 m (parcelele 2, 4, 8); posterioară cel puțin cât înălțimea clădirii, minimum 6 m (parcelele 1, 5, 6, 7), respectiv minimum 3 m (parcelele 4 și 8), trimițând în rest la planșa U03."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pentru locuințe: terenul necesar lărgirii străzii Augustin Maior la profilul de 9 m (216,77 mp pe planșă) se dezmembrează din parcela inițială și se înscrie în CF ca „drum”.",
+    "Înainte de autorizațiile de construire: aleea de interes local propusă prin P.U.Z. (drumul de incintă, profil 7 m, 601,04 mp pe planșă) se înscrie în CF ca „drum” și se echipează edilitar (apă-canal, electricitate), pe baza unui proiect autorizat.",
+    "Înainte de recepția locuințelor: aleea se aduce la strat de uzură, cu acces public nelimitat și iluminat stradal.",
+    "Înainte de recepția locuințelor: fâșia dezmembrată pentru lărgirea străzii Augustin Maior se aduce la strat de uzură și trece gratuit în domeniul public (planșa U.05, proprietatea asupra terenurilor).",
+    "Înainte de recepția locuințelor: spațiul verde cu acces public nelimitat (S_Va*, 446,22 mp pe planșă) se amenajează pe baza unui proiect autorizat, cu cel puțin 6 arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet, plantați pe sol natural.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Liu*: locuințele semicolective sunt admise numai pe parcelele de peste 450 mp (pe planșă, doar parcelele 4 și 8, de 518,35 și 483,36 mp).",
+    "Liu*: retragere de 4 m de la aliniamentul străzii Augustin Maior (regularizate) și de 3 m, respectiv 4 m de la alee, după planșă; garajele, la minimum 6 m de la aliniament, pot fi alipite limitelor laterale dacă înălțimea calcanului nu depășește 2,8 m.",
+    "Liu*: pe o parcelă, un singur acces auto (lat de cel mult 4 m) și un singur acces pietonal; parcarea se face în parcelă: minimum 1 loc pentru clădiri cu aria utilă sub 100 mp, 2 locuri peste.",
+    "S_Va*: accesul se face din strada Augustin Maior; parcarea e interzisă în subzona verde; aleile se fac din agregate compactate, pavaje din piatră sau îmbrăcăminți asfaltice permeabile.",
+    "Utilitățile se asigură prin racordare la rețelele edilitare publice."
+  ]
+}
