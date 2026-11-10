@@ -42,6 +42,7 @@
     ]
   },
   "verificare_px": {},
+  "verificare_umana": "2026-11-10: proprietarul hărții a confirmat poziția pe ortofoto; planșa are doar etichetele caroiajului pe ramă, deci niciun punct de verificare independent",
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
