@@ -1,0 +1,117 @@
+{
+  "id": "2026-554",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 554,
+    "an": 2026,
+    "data_sedinta": "2026-08-06",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-554-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/554.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, str. Voroneț – latura vestică",
+  "plansa": {
+    "pagina_pdf": 10,
+    "dpi": 200,
+    "denumire": "U-03 Plan Reglementări Urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e pagina 10 (Anexa 2, A3 scanat la 200 ppi); p. 11 e Anexa 3, U-05 „Plan circulația terenurilor”, pe același fond, iar pp. 1-9 sunt hotărârea și regulamentul (Anexa 1). Scara reală a imaginii: ~12,9 px/m (cota „Adâncime max. 25,00 m” = 322 px; parcelele 3-9, de ~13 m front, au ~170 px), adică planșa e tipărită la ~82% din 1:500; nordul e în sus. Legenda cuprinde cheia simbolurilor, notele despre suprafața rezervată modernizării str. Voroneț (47 mp) și despre CAD 322113 / 322096 (scoase din zona reglementată) și blocurile U.T.R. Liu* și S_Va* cu POT/CUT; bilanțul locurilor de parcare, bilanțul teritorial, profilul stradal, inventarul de coordonate și cartușul au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei (pp. 10 și 11, colțul din stânga jos, puncte 10…59 și înapoi la 10, cu lungimile laturilor) e ilizibil: cifrele au ~6 px în scanarea de 200 ppi, încețoșate de JPEG; pe p. 11 jumătatea de jos e și sub ștampila topografului. Nici partea întreagă nu se poate citi sigur (0 și 6 se confundă: nordurile par „589012…”, dar locul e la N ≈ 5896xx după OSM și ortofoto). Planșa nu are caroiaj Stereo 70. Rămâne metoda cu repere OpenStreetMap (georef_metoda osm) și limita trasată pe planșă (`limita_px`).",
+    "suprafata_declarata_m2": 6837.84,
+    "puncte": {},
+    "nota": "Suprafața: 6837,84 mp din bilanțul teritorial și tabelul de circulație a terenurilor (parcelele 1-10: 4716,47 mp; strada nouă, parcela 12: 1436,87 mp; subzona verde, parcela 11: 684,48 mp); Art. 1 scrie 6838 mp. Limita trasată (`limita_px`) urmează conturul parcelelor 1-12: latura nordică în trepte (limitele de proprietate ale loturilor de pe str. Voroneț), latura vestică oblică, latura sudică dreaptă a străzii noi, curba ei spre str. Voroneț și, la est, marginea interioară a fâșiei cu hașură în rețea (CAD 322113 și 322096, 106 + 89 mp, dezmembrate înainte de P.U.Z. pentru regularizarea str. Voroneț și scoase din zona reglementată). Latura estică și curba au fost citite pe p. 11 (Anexa 3, mai curată, fără hașuri de construibilitate) și duse pe p. 10 printr-o transformare afină pe 9 colțuri comune (abatere ~3 px). La 12,88 px/m aria trasată e 6888 mp (+0,7%)."
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [505, 1060, 945, 1874],
+    [968, 1028, 1555, 1296],
+    [972, 1638, 2012, 1925]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele 1-10 de pe planșă): locuințe individuale și semicolective cu cel mult două unități locative (semicolectivele doar pe parcele de cel puțin 450 mp), în regim izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane (S+D+P+M, S+D+P+R, S+P+E+R sau S+P+E+M); 8 m la cornișă, 12 m maxim"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat (parcela 11 de pe planșă)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "4 m, parter"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-08-06",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcele: terenul necesar modernizării străzii Voroneț, inclusiv pentru o stație de transport în comun (47 mp pe planșă), se dezmembrează, se înscrie în CF ca „drum” și se aduce la strat de uzură.",
+    "Înainte de autorizațiile de construire: subzona verde cu acces public nelimitat (parcela 11) se dezmembrează și se înscrie în CF ca „alei și spații verzi”.",
+    "Înainte de autorizațiile de construire: se execută lucrările de stabilizare a versantului și de consolidare a amplasamentului, după un proiect autorizat, conform NP 126-2010 și concluziilor studiului geotehnic.",
+    "Înainte de autorizațiile de construire: strada nouă (parcela 12, ampriză 9 m, cu loc de întoarcere, din str. Voroneț) se înscrie în CF ca „drum”, se echipează edilitar și se aduce la strat de uzură, după un proiect autorizat; are acces public nelimitat. Racordul auto la str. Voroneț e în sarcina investitorului, conform NP 051/2012, fără modificarea cotei trotuarului existent.",
+    "Înainte de recepția construcțiilor: se amenajează subzona verde S_Va* după un proiect autorizat (plantații înalte, medii și joase, mobilier urban).",
+    "Strada nouă, terenul pentru modernizarea str. Voroneț și subzona verde sunt amenajate și întreținute de beneficiari până la trecerea lor în domeniul public, odată cu strada Voroneț; toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Liu*: clădirile se retrag cel puțin 3 m de la aliniament, iar garajele cel puțin 6 m (la parcela 10 garajul poate sta pe aliniament); toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule de grădină (cel mult 25 mp în total) și amenajări neacoperite; parcelele 1, 2 și 10 respectă retragerile de pe planșă. Față de limitele laterale cel puțin 3 m (cuplare pe o limită doar cu convenție de vecinătate; garajele se pot alipi limitelor laterale cu calcan de cel mult 2,8 m), față de limita posterioară cel puțin 6 m.",
+    "Liu*: accesul pe parcele se face din strada nouă; parcelele 1 și 2 au acces din str. Voroneț; accesul carosabil are cel mult 6 m lățime. Parcarea se face pe parcelă: cel puțin un loc pentru o locuință cu arie utilă sub 100 mp și două peste 100 mp.",
+    "Liu*: toate clădirile se racordează la rețele; apele meteorice nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire sau clădire, cablurile nu se montează aerian, iar fiecare parcelă are un spațiu pentru colectarea deșeurilor.",
+    "S_Va*: retrageri de cel puțin 3 m față de aliniament și de limitele laterale și posterioară; acces din strada nouă și acces pietonal de serviciu; parcarea e interzisă în spațiul verde; se prevede iluminat public, iar cablurile nu se montează aerian."
+  ],
+  "georef_metoda": "osm",
+  "limita_px": [
+    [428, 376],
+    [895, 373],
+    [895, 341],
+    [1163, 343],
+    [1163, 367],
+    [1362, 368],
+    [1362, 343],
+    [1945, 350],
+    [1945, 363],
+    [2376, 367],
+    [2376, 352],
+    [2617, 355],
+    [2390, 634],
+    [2340, 706],
+    [2303, 726],
+    [2228, 808],
+    [2136, 938],
+    [2078, 1020],
+    [2033, 1095],
+    [1985, 1150],
+    [1980, 1145],
+    [1975, 1125],
+    [1967, 1105],
+    [1957, 1085],
+    [1940, 1057],
+    [1915, 1035],
+    [1890, 1015],
+    [1860, 990],
+    [1830, 977],
+    [1800, 966],
+    [1765, 955],
+    [1720, 952],
+    [544, 950],
+    [533, 840]
+  ],
+  "osm_ancora": {
+    "px": [2480, 700],
+    "en": [396817.1, 589616.5],
+    "px_per_m": 12.88,
+    "nord": 0
+  }
+}
