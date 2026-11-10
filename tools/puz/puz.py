@@ -26,6 +26,7 @@ is derived from it and can be rebuilt at any time:
     tools/puz/puz.sh next     [--count 6]                        # what a batch does next, and progress
     tools/puz/puz.sh doctor                                      # packages, poppler, network, git
     tools/puz/puz.sh sync-docs                                   # fill this machine's documents backup
+    tools/puz/puz.sh merge-index BASE OURS THEIRS                # git merge driver for puz.json
 
 puz.sh runs this file with `py -3.13` on the Windows laptop and `python3` elsewhere
 (Claude Code cloud sessions); setup.sh installs the dependencies on Linux.
@@ -1392,7 +1393,6 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
         if r.get(key):
             entry[key] = r[key]
     index = [e for e in load_index() if e["id"] != r["id"]] + [entry]
-    index.sort(key=lambda e: (e.get("data") or "", e["id"]), reverse=True)
     save_index(index)
     print("published:", d, "| index entries:", len(index))
 
@@ -1453,13 +1453,49 @@ def load_index():
         return json.load(f)
 
 
-def save_index(index):
-    """Writes puz.json with CRLF line ends, the ones it has had in git since the laptop
-    first wrote it: left to the system, a build on Linux writes LF and the diff covers
-    the whole file."""
-    with open(INDEX, "w", encoding="utf-8", newline="\r\n") as f:
+def save_index(index, path=INDEX):
+    """Writes puz.json newest first, with CRLF line ends, the ones it has had in git
+    since the laptop first wrote it: left to the system, a build on Linux writes LF and
+    the diff covers the whole file."""
+    index.sort(key=lambda e: (e.get("data") or "", e["id"]), reverse=True)
+    with open(path, "w", encoding="utf-8", newline="\r\n") as f:
         json.dump(index, f, ensure_ascii=False, indent=1)
         f.write("\n")
+
+
+def cmd_merge_index(args):
+    """Git merge driver for puz.json (see .gitattributes). Parallel batch sessions each
+    add their own PUZ-uri; when two add an entry at the same place, a line merge
+    conflicts, but entry by entry the merge is plain: keep what each side added or
+    changed. Exits 1, leaving the file alone, when both sides changed the same entry
+    differently, or a file doesn't parse."""
+    def read(path):
+        try:
+            with open(path, encoding="utf-8") as f:
+                return {e["id"]: e for e in json.load(f)}
+        except (OSError, ValueError, KeyError, TypeError):
+            return None
+    base, ours, theirs = read(args.base), read(args.ours), read(args.theirs)
+    if ours is None or theirs is None:
+        print("merge-index: puz.json doesn't parse on one side", file=sys.stderr)
+        sys.exit(1)
+    base = base or {}
+    merged, clashes = [], []
+    for pid in sorted(set(base) | set(ours) | set(theirs)):
+        b, o, t = base.get(pid), ours.get(pid), theirs.get(pid)
+        if o == t or t == b:
+            pick = o
+        elif o == b:
+            pick = t
+        else:
+            clashes.append(pid)
+            continue
+        if pick is not None:
+            merged.append(pick)
+    if clashes:
+        print("merge-index: both sides changed %s" % ", ".join(clashes), file=sys.stderr)
+        sys.exit(1)
+    save_index(merged, args.ours)
 
 
 def recipe_paths(folder):
@@ -1864,14 +1900,16 @@ def main():
     s.add_argument("--write", action="store_true"); s.add_argument("--live", action="store_true", help=LIVE_HELP)
     s = sub.add_parser("osm-extract", help="refresh the OSM extract from Geofabrik (laptop; needs pyosmium)")
     s.add_argument("--pbf", help="an already downloaded romania-latest.osm.pbf")
+    s = sub.add_parser("merge-index", help="git merge driver for puz.json (set up by the batch skill)")
+    s.add_argument("base"); s.add_argument("ours"); s.add_argument("theirs")
     s = sub.add_parser("caroiaj", help="label the crosses of an unlabelled Stereo70 grid")
     s.add_argument("recipe"); s.add_argument("--write", action="store_true", help="store the labelled crosses as repere/gcp_px")
     args = ap.parse_args()
     if args.cmd == "new":
         return cmd_new(args)
-    if args.cmd in ("geocode", "next", "sync-docs", "doctor", "osm-extract"):
+    if args.cmd in ("geocode", "next", "sync-docs", "doctor", "osm-extract", "merge-index"):
         return {"geocode": cmd_geocode, "next": cmd_next, "sync-docs": cmd_sync_docs, "doctor": cmd_doctor,
-                "osm-extract": cmd_osm_extract}[args.cmd](args)
+                "osm-extract": cmd_osm_extract, "merge-index": cmd_merge_index}[args.cmd](args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
      "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "related": cmd_related,

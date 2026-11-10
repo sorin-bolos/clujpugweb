@@ -6,7 +6,11 @@ description: Add the next N PUZ-uri of Cluj-Napoca to the clujpug.ro map, one fr
 # PUZ batch
 
 Input: how many PUZ-uri (default 6). Optional: `--retry-stopped` to retry recipes
-marked `oprit`, or a year range (default 2020-2026).
+marked `oprit`, and a year or year range such as `2025` or `2022-2023` (default
+2020-2026).
+
+Other batch sessions may be running at the same time, each on its own years and
+pushing to `puz-cluj`. Never take years you weren't given.
 
 You are the coordinator. You don't process PUZ-uri yourself. Each one is done by a
 fresh general-purpose subagent following `.claude/skills/add-puz/SKILL.md`. You
@@ -25,6 +29,10 @@ and on Linux. "Cloud" below means `CLAUDE_CODE_REMOTE` is `true`.
 2. `git status --short` must be empty. If it isn't, stop and report.
    - In the cloud, also run `git pull --rebase origin puz-cluj`: a scheduled run
      must start from what earlier runs pushed.
+   - In the cloud, set the merge driver that `.gitattributes` names for `puz.json`:
+     `git config merge.puzindex.driver "tools/puz/puz.sh merge-index %O %A %B"`.
+     Parallel sessions add entries at the same places in `puz.json`; with the
+     driver, rebasing onto them merges entry by entry instead of conflicting.
 3. Run `tools/puz/puz.sh doctor`.
    - Any `FAIL`: stop and report what is missing.
      - Python packages or poppler missing: the environment's setup script didn't
@@ -34,9 +42,10 @@ and on Linux. "Cloud" below means `CLAUDE_CODE_REMOTE` is `true`.
    - `WARN` for Overpass or Nominatim: go on. OpenStreetMap comes from the extract
      in the repository; those servers are only a fallback.
    - `WARN` for the OSM extract (missing or old): go on, and put it in the report.
-4. Run `tools/puz/puz.sh next --count N` (add `--retry-stopped` if asked). Keep its
-   progress line for the report. If the list is empty, report that the range is
-   done.
+4. Run `tools/puz/puz.sh next --count N`. Add `--retry-stopped` if asked, and
+   `--from-year A --to-year B` for the years given (`2025` is
+   `--from-year 2025 --to-year 2025`). Keep its progress line for the report. If
+   the list is empty, report that the range is done.
 
 ## 2. One agent per PUZ, one at a time
 
@@ -98,7 +107,9 @@ Never run two agents at once: they share `puz.json` and `SHA256SUMS`. For each
    session can end at any moment, and unpushed work is lost with it.
    - Rejected because someone pushed meanwhile: `git pull --rebase origin puz-cluj`
      and push again.
-   - The rebase conflicts: `git rebase --abort`, stop and report.
+   - The rebase conflicts: `git rebase --abort`, stop and report. Say which files
+     conflicted. In `puz.json`, check `git config merge.puzindex.driver` was set;
+     in a recipe, another session is working on the same years.
    - On the laptop, never push. The owner pushes.
 5. Note for the report:
    - the outcome: publicat, integrat în `<base>`, oprit (with the reason), pus
@@ -122,7 +133,8 @@ Stop, and report, when:
 - Commits moved aside (`puz-review/<id>`), each with what the audit found.
 - For a human, PUZ by PUZ: the agents' interpretations, notable text-vs-plate
   differences, `VERIFICĂ` lines you judged fine.
-- Progress: the line from `tools/puz/puz.sh next --count 0`.
+- Progress: the line from `tools/puz/puz.sh next --count 0`, for your years and
+  for all of 2020-2026.
 - In the cloud, a reminder: the PDFs downloaded here are not kept (git ignores
   them). On the laptop, after `git pull`, `tools/puz/puz.sh sync-docs` downloads
   them into the backup and checks them against `SHA256SUMS`.

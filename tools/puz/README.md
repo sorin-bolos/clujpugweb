@@ -302,11 +302,21 @@ instead. That's why the recipe has to carry everything the map needs.
 
 The `/puz-batch N` skill (`.claude/skills/puz-batch`) coordinates a batch. For each
 of the next N decisions it runs one fresh agent on the `/add-puz` skill, waits for
-it, audits its commit, and moves on. Agents never run in parallel: they share
-`puz.json` and `SHA256SUMS`. The batch uses these commands:
+it, audits its commit, and moves on. Within a session agents never run in
+parallel: they share `puz.json` and `SHA256SUMS`.
 
-- `puz.sh next [--count N] [--retry-stopped]` lists the decisions still to do in
-  2020-2026, newest first, and how many are published, integrated or stopped. It
+Several cloud sessions can run at once if each takes its own years
+(`/puz-batch 30 2025`), so that no two pick the same PUZ. Each pushes to `puz-cluj`
+and rebases onto the others. Their additions to `puz.json` and `SHA256SUMS` can
+land at the same place, so `.gitattributes` merges both files as sets:
+`SHA256SUMS` line by line (git's `union`), `puz.json` entry by entry
+(`puz.sh merge-index`, a merge driver the batch configures). Two sessions on the
+same years would still clash, on the same recipe.
+
+The batch uses these commands:
+
+- `puz.sh next [--count N] [--retry-stopped] [--from-year A --to-year B]` lists the
+  decisions still to do in 2020-2026 or the years given, newest first, and how many are published, integrated or stopped. It
   takes approvals and amendments of PUZ-uri. Extensions are left out: the base
   PUZ's agent finds them with `related`. Interrupted runs (a recipe with no map
   entry and no `stare`) come back first.
@@ -361,7 +371,9 @@ Setting up the cloud environment (claude.ai/code, environment settings):
    `/puz-batch 6`. Or make it a scheduled task (at most hourly; each run is a new
    session) whose prompt says: `/puz-batch 4 - lucrează pe branch-ul puz-cluj și
    împinge acolo fiecare PUZ`. The session can be followed, or stopped, from the
-   web or the Claude app.
+   web or the Claude app. To go faster, start one session per year (or range of
+   years): `/puz-batch 30 2025 - lucrează pe branch-ul puz-cluj și împinge acolo
+   fiecare PUZ`.
 5. **After.** On the laptop, `git pull`, then `puz.sh sync-docs` for the documents
    backup.
 

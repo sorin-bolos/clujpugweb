@@ -1,0 +1,8 @@
+# Parallel PUZ batch sessions, one per year, each push their own PUZ-uri to puz-cluj
+# and rebase onto the others' (see .claude/skills/puz-batch). Their additions can land
+# at the same place in these two files; both are merged as sets instead of conflicting.
+# The puzindex driver is configured by the skill:
+#   git config merge.puzindex.driver "tools/puz/puz.sh merge-index %O %A %B"
+# Without it, git merges puz.json line by line as usual.
+puzuri/*/documente/SHA256SUMS merge=union
+ClujPugWeb/wwwroot/puz/puz.json merge=puzindex
