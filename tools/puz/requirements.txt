@@ -6,3 +6,5 @@ shapely>=2.0,<3
 pyproj>=3.6,<4
 pillow>=10.1
 numpy>=1.26
+# Only `osm-extract` (refreshing the OSM extract, on the laptop) needs pyosmium:
+#   py -3.13 -m pip install "osmium>=4"

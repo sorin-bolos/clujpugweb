@@ -113,8 +113,8 @@ where `<id>` is `<an>-<nr>`.
      another point of the same kind as the control points, not one of them. If the
      plate has none to spare, take one from OSM: an existing building's corner or a
      street crossing, with `osm-snap NAME x y --check`. If even that is impossible
-     (Overpass down, nothing existing drawn nearby), stop: the stop note says what
-     a person should look at.
+     (nothing existing drawn nearby, in the extract or with `--live`), stop: the
+     stop note says what a person should look at.
    - Never set `verificare_umana`. Only a person sets it, after checking the
      position on the imagery; the audit flags a commit that adds it.
    - Don't trust a north-up assumption: plates can be rotated.
@@ -261,6 +261,14 @@ good to under half a step, fixes every label:
 
 The fallback when the plate has no usable coordinates. The result is published as
 approximate (±3-5 m), and the info window says so.
+
+`geocode`, `osm` and `osm-snap` read OSM from the extract in the repository
+(`puzuri/cluj-napoca/osm.json.gz`), so they need no network. Each prints the date
+of its data. A building or street newer than that is missing: if one the plate
+relies on isn't there, add `--live` to the same commands to ask the public Overpass
+servers. They are often busy or unreachable; if they fail, stop, and say in the
+stop note which feature was missing, so the owner can refresh the extract
+(`osm-extract`). Don't edit the extract.
 
 1. Set `"georef_metoda": "osm"`. The fit becomes a similarity and the residual
    gate 5 m.

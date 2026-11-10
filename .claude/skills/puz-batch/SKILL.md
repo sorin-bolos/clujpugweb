@@ -31,8 +31,9 @@ and on Linux. "Cloud" below means `CLAUDE_CODE_REMOTE` is `true`.
        run.
      - A domain unreachable: it is missing from the environment's allowed domains.
        Name it.
-   - `WARN` for Overpass or Nominatim: go on. Agents that need OpenStreetMap retry
-     by themselves.
+   - `WARN` for Overpass or Nominatim: go on. OpenStreetMap comes from the extract
+     in the repository; those servers are only a fallback.
+   - `WARN` for the OSM extract (missing or old): go on, and put it in the report.
 4. Run `tools/puz/puz.sh next --count N` (add `--retry-stopped` if asked). Keep its
    progress line for the report. If the list is empty, report that the range is
    done.
@@ -61,8 +62,8 @@ Never run two agents at once: they share `puz.json` and `SHA256SUMS`. For each
 
    Run the pipeline as `tools/puz/puz.sh <command> ...` with the Bash tool. Look at
    images (renders and crops in puz_cache/) with the Read tool. The OpenStreetMap
-   commands use the public Overpass API, which can be busy; they retry and cache by
-   themselves.
+   commands read the OSM extract in the repository; `--live` asks the public
+   Overpass servers, which are often busy, only for features newer than it.
 
    End with the report the skill asks for, in Romanian.
    ```

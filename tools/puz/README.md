@@ -212,6 +212,26 @@ buildings don't exist yet. The boundary is traced
 (`limita_px`) unless an inventory is legible. The published entry is marked
 approximate, with a precision of at least 3 m, and the info window says so.
 
+### Where the OSM data comes from
+
+`geocode`, `osm` and `osm-snap` read `puzuri/cluj-napoca/osm.json.gz`: every OSM
+building and street with a node in the Cluj-Napoca box (46.70-46.86 N,
+23.45-23.75 E), about 48 000 buildings and 21 000 streets in 2.8 MB. The public
+Overpass servers proved unreliable for unattended runs: busy for hours, and at
+times unreachable from cloud sessions, which stopped PUZ-uri without coordinates.
+
+- `--live` on those commands asks Overpass instead (overpass-api.de, then
+  maps.mail.ru), for a building or street newer than the extract. A place outside
+  the box goes to Overpass by itself.
+- `osm-extract` refreshes the file on the laptop: it downloads Geofabrik's daily
+  Romania extract (about 330 MB, into `puz_cache/osm/`) and cuts the box out of it
+  in about seven minutes. It needs pyosmium (`py -3.13 -m pip install osmium`),
+  which the rest of the pipeline doesn't. Refresh every month or two, or when an
+  agent reports something missing, and commit the file. `doctor` warns when the
+  data is more than 120 days old.
+- The data is © OpenStreetMap contributors, under the ODbL. The file says so, and
+  so does any copy of it.
+
 ## Amending decisions
 
 A decision may amend an earlier PUZ ("Modificare P.U.Z. aprobat prin Hotărârea nr.
@@ -330,10 +350,13 @@ Setting up the cloud environment (claude.ai/code, environment settings):
    ```
    primariaclujnapoca.ro
    *.primariaclujnapoca.ro
-   overpass-api.de
-   nominatim.openstreetmap.org
    server.arcgisonline.com
+   nominatim.openstreetmap.org
+   overpass-api.de
+   maps.mail.ru
    ```
+   The two Overpass servers are only a fallback: OSM data comes from the extract in
+   the repository.
 4. **Run.** Start a session on the repository, branch `puz-cluj`, with
    `/puz-batch 6`. Or make it a scheduled task (at most hourly; each run is a new
    session) whose prompt says: `/puz-batch 4 - lucrează pe branch-ul puz-cluj și

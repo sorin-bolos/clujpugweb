@@ -19,6 +19,7 @@ is derived from it and can be rebuilt at any time:
     tools/puz/puz.sh caroiaj  puzuri/cluj-napoca/2026-24.json [--write]   # label unlabelled grid crosses
     tools/puz/puz.sh osm      puzuri/cluj-napoca/2026-24.json [x0 y0 x1 y1]  # OSM drawn over the plate
     tools/puz/puz.sh osm-snap puzuri/cluj-napoca/2026-24.json NAME x y [--write]  # OSM control point
+    tools/puz/puz.sh osm-extract                                 # refresh the OSM extract (laptop)
     tools/puz/puz.sh build    puzuri/cluj-napoca/2026-597.json   # checks, warp, legend, publish
     tools/puz/puz.sh legend   puzuri/cluj-napoca/2026-597.json   # rebuild only the legend
     tools/puz/puz.sh audit    puzuri/cluj-napoca/2026-597.json   # check an agent's commit (batch runs)
@@ -382,22 +383,89 @@ def cmd_related(r, args):
 # picked crosses plus that anchor into labelled control points. The imagery check then
 # has the last word: a label off by one step shows as the whole plate shifted 50 m.
 
-OVERPASS = "https://overpass-api.de/api/interpreter"
+# The OSM commands read OpenStreetMap from an extract kept in the repository: the
+# buildings and streets of the Cluj-Napoca area, cut from Geofabrik's daily Romania
+# extract by `osm-extract`. Public Overpass servers are often busy, and cloud sessions
+# sometimes can't reach them at all, so they are only the fallback: for a place
+# outside the extract, or with --live for features newer than it.
+OSM_EXTRACT = os.path.join(ROOT, "puzuri", "cluj-napoca", "osm.json.gz")
+GEOFABRIK_PBF = "https://download.geofabrik.de/europe/romania-latest.osm.pbf"
+OSM_EXTRACT_MAX_AGE_DAYS = 120
+OVERPASS_SERVERS = ("https://overpass-api.de/api/interpreter",
+                    "https://maps.mail.ru/osm/tools/overpass/api/interpreter")
 NOMINATIM = "https://nominatim.openstreetmap.org/search"
 CLUJ_BBOX = (46.70, 23.45, 46.86, 23.75)   # S, W, N, E
+LIVE_HELP = "ask the public Overpass servers instead of the extract (for features newer than it)"
+
+_to70 = None
 
 
 def to_stereo70(lon, lat):
-    from pyproj import Transformer
-    return Transformer.from_crs(4326, 3844, always_xy=True).transform(lon, lat)
+    global _to70
+    if _to70 is None:
+        from pyproj import Transformer
+        _to70 = Transformer.from_crs(4326, 3844, always_xy=True)
+    return _to70.transform(lon, lat)
 
 
-def street_lines(pattern):
+_osm_extract = None
+
+
+def osm_extract():
+    """The extract ({bbox, data_osm, buildings: [[id, [lon, lat, ...]]],
+    streets: [[id, name, highway, [lon, lat, ...]]]}), or None when it is missing."""
+    global _osm_extract
+    if _osm_extract is None:
+        _osm_extract = False
+        if os.path.exists(OSM_EXTRACT):
+            import gzip
+            with gzip.open(OSM_EXTRACT, "rt", encoding="utf-8") as f:
+                _osm_extract = json.load(f)
+    return _osm_extract or None
+
+
+def extract_elements(box=None, name=None, buildings=True):
+    """Ways of the extract shaped like Overpass's `out tags geom` elements: those whose
+    bounds meet box (S, W, N, E), or the streets whose name matches the regex `name`.
+    None when there is no extract or it doesn't cover the box."""
+    x = osm_extract()
+    if not x:
+        return None
+    if box:
+        bs, bw, bn, be = x["bbox"]
+        if not (bs <= box[0] and bw <= box[1] and box[2] <= bn and box[3] <= be):
+            return None
+    rx = re.compile(name, re.I) if name else None
+
+    def meets(flat):
+        lons, lats = flat[0::2], flat[1::2]
+        return not (max(lats) < box[0] or min(lats) > box[2] or max(lons) < box[1] or min(lons) > box[3])
+
+    def element(wid, tags, flat):
+        return {"type": "way", "id": wid, "tags": tags,
+                "geometry": [{"lon": flat[i], "lat": flat[i + 1]} for i in range(0, len(flat), 2)]}
+    out = []
+    for wid, nm, kind, flat in x["streets"]:
+        if (rx is None or (nm and rx.search(nm))) and (box is None or meets(flat)):
+            out.append(element(wid, {"highway": kind, **({"name": nm} if nm else {})}, flat))
+    if buildings and rx is None:
+        out += [element(wid, {"building": "yes"}, flat) for wid, flat in x["buildings"] if box is None or meets(flat)]
+    return {"elements": out}
+
+
+def osm_extract_note():
+    x = osm_extract()
+    return "extrasul OSM din %s" % x.get("data_osm", "?")[:10] if x else "Overpass"
+
+
+def street_lines(pattern, live=False):
     """All OSM ways in Cluj-Napoca whose name matches the regex (case-insensitive),
     as Stereo 70 lines. A regex copes with diacritics: "Scor.arilor"."""
     from shapely.geometry import LineString, MultiLineString
-    q = '[out:json][timeout:60];way["highway"]["name"~"%s",i](%f,%f,%f,%f);out tags geom;' % ((pattern,) + CLUJ_BBOX)
-    data = overpass(q)
+    data = None if live else extract_elements(name=pattern, buildings=False)
+    if data is None:
+        q = '[out:json][timeout:60];way["highway"]["name"~"%s",i](%f,%f,%f,%f);out tags geom;' % ((pattern,) + CLUJ_BBOX)
+        data = overpass(q)
     lines, names = [], set()
     for el in data.get("elements", []):
         pts = [to_stereo70(p["lon"], p["lat"]) for p in el.get("geometry", [])]
@@ -412,11 +480,13 @@ def cmd_geocode(args):
     from pyproj import Transformer
     back = Transformer.from_crs(3844, 4326, always_xy=True)
     if args.streets:
-        a, na = street_lines(args.streets[0])
-        b, nb = street_lines(args.streets[1])
+        a, na = street_lines(args.streets[0], args.live)
+        b, nb = street_lines(args.streets[1], args.live)
         if a is None or b is None:
-            sys.exit("street not found in OSM: %s" % (args.streets[0] if a is None else args.streets[1]))
-        print("OSM names:", na, "/", nb)
+            sys.exit("street not found in OSM (%s): %s%s" % (
+                "Overpass" if args.live else osm_extract_note(), args.streets[0] if a is None else args.streets[1],
+                "" if args.live else " - a new street may be missing from the extract: try --live"))
+        print("OSM names (%s):" % ("Overpass" if args.live else osm_extract_note()), na, "/", nb)
         inter = a.intersection(b)
         if not inter.is_empty:
             pts = [inter] if inter.geom_type == "Point" else list(getattr(inter, "geoms", [inter.centroid]))
@@ -536,42 +606,59 @@ def ground_to_px(pe, pn):
     return lambda E, N: tuple(Mi @ (np.array([E, N]) - t))
 
 
-def overpass(query, tries=4):
+def overpass(query, tries=2):
+    """A query to the public Overpass servers, each in turn. The fallback for the
+    extract: these servers are often busy, and cloud sessions can't always reach them."""
     import time
     for k in range(tries):
-        try:
-            req = urllib.request.Request(OVERPASS, data=urllib.parse.urlencode({"data": query}).encode(), headers=UA)
-            return json.loads(urllib.request.urlopen(req, timeout=120).read().decode("utf-8"))
-        except Exception as e:
-            print("Overpass: %s%s" % (e, " - retrying" if k < tries - 1 else ""))
-            time.sleep(10 * (k + 1))
-    sys.exit("Overpass unavailable - try again later")
+        for url in OVERPASS_SERVERS:
+            try:
+                req = urllib.request.Request(url, data=urllib.parse.urlencode({"data": query}).encode(), headers=UA)
+                return json.loads(urllib.request.urlopen(req, timeout=90).read().decode("utf-8"))
+            except Exception as e:
+                print("Overpass %s: %s" % (urllib.parse.urlparse(url).netloc, e))
+        if k < tries - 1:
+            print("Overpass: retrying in %d s" % (20 * (k + 1)))
+            time.sleep(20 * (k + 1))
+    sys.exit("Overpass unavailable on every server - try again later (the extract covers Cluj-Napoca without it)")
 
 
-def osm_features(r, center, radius):
-    """Buildings and streets around a Stereo 70 point, cached in puz_cache/<id>/osm.json."""
+def osm_features(r, center, radius, live=False):
+    """Buildings and streets within radius of a Stereo 70 point: from the extract, or
+    from Overpass (live, or outside the extract), written to puz_cache/<id>/osm.json.
+    Overpass answers are reused from there while they cover the circle."""
     from pyproj import Transformer
+    from shapely.geometry import LineString, Point
     path = os.path.join(cache_dir(r), "osm.json")
-    if os.path.exists(path):
-        with open(path, encoding="utf-8") as f:
-            cached = json.load(f)
-        if math.dist(cached["center"], center) + radius <= cached["radius"] + 1:
-            return cached
     lon, lat = Transformer.from_crs(3844, 4326, always_xy=True).transform(*center)
-    q = ('[out:json][timeout:90];(way["building"](around:{r},{la},{lo});way["highway"](around:{r},{la},{lo}););'
-         'out tags geom;').format(r=int(radius), la=lat, lo=lon)
-    data = overpass(q)
-    feats = {"center": list(center), "radius": radius, "buildings": [], "streets": []}
+    dlat = radius / 111000.0 * 1.05
+    dlon = dlat / math.cos(math.radians(lat))
+    data = None if live else extract_elements((lat - dlat, lon - dlon, lat + dlat, lon + dlon))
+    source = osm_extract_note()
+    if data is None:
+        if os.path.exists(path):
+            with open(path, encoding="utf-8") as f:
+                cached = json.load(f)
+            if cached.get("sursa", "Overpass") == "Overpass" and math.dist(cached["center"], center) + radius <= cached["radius"] + 1:
+                return cached
+        q = ('[out:json][timeout:90];(way["building"](around:{r},{la},{lo});way["highway"](around:{r},{la},{lo}););'
+             'out tags geom;').format(r=int(radius), la=lat, lo=lon)
+        data, source = overpass(q), "Overpass"
+    feats = {"center": list(center), "radius": radius, "sursa": source, "buildings": [], "streets": []}
+    c = Point(center)
     for el in data.get("elements", []):
         pts = [list(to_stereo70(p["lon"], p["lat"])) for p in el.get("geometry", [])]
         tags = el.get("tags", {})
+        if len(pts) < 2 or (source != "Overpass" and LineString(pts).distance(c) > radius):
+            continue        # the extract is cut by bounds; Overpass's `around` is a distance
         if "building" in tags and len(pts) >= 3:
             feats["buildings"].append({"id": el["id"], "pts": pts})
-        elif "highway" in tags and len(pts) >= 2:
+        elif "highway" in tags:
             feats["streets"].append({"id": el["id"], "name": tags.get("name", ""), "kind": tags["highway"], "pts": pts})
     with open(path, "w", encoding="utf-8") as f:
         json.dump(feats, f)
-    print("OSM: %d buildings, %d street segments within %d m" % (len(feats["buildings"]), len(feats["streets"]), radius))
+    print("OSM (%s): %d buildings, %d street segments within %d m"
+          % (source, len(feats["buildings"]), len(feats["streets"]), radius))
     return feats
 
 
@@ -618,7 +705,7 @@ def plate_radius(r, pe, pn):
 def cmd_osm(r, args):
     pe, pn = plate_transform(r)
     center, radius = plate_radius(r, pe, pn)
-    feats = osm_features(r, center, radius)
+    feats = osm_features(r, center, radius, args.live)
     to_px = ground_to_px(pe, pn)
     src = Image.open(plate_path(r))
     box = (args.x0, args.y0, args.x1, args.y1) if args.x1 else (0, 0, src.width, src.height)
@@ -645,7 +732,7 @@ def cmd_osm_snap(r, args):
     pe, pn = plate_transform(r)
     E, N = pe @ [args.x, args.y, 1], pn @ [args.x, args.y, 1]
     center, radius = plate_radius(r, pe, pn)
-    cands = [(math.dist(p, (E, N)), k, p, kind) for k, p, kind in osm_candidates(osm_features(r, center, radius))]
+    cands = [(math.dist(p, (E, N)), k, p, kind) for k, p, kind in osm_candidates(osm_features(r, center, radius, args.live))]
     cands = sorted(c for c in cands if c[0] <= args.max and (args.kind == "any" or c[3].startswith(
         "colț" if args.kind == "building" else "intersecție")))
     print("pixel (%d, %d) -> E %.1f N %.1f with the current fit" % (args.x, args.y, E, N))
@@ -664,6 +751,64 @@ def cmd_osm_snap(r, args):
         r.setdefault("repere_osm", {})[args.name] = "%s (%s)" % (kind, k)
         dump_recipe(r, r["_path"])
         print("written: %s = %s, %s" % (args.name, kind, "check point" if args.check else "control point"))
+
+
+def cmd_osm_extract(args):
+    """Refresh OSM_EXTRACT: download Geofabrik's Romania extract (~330 MB, into
+    puz_cache/osm/) and keep the buildings and highways with a node in CLUJ_BBOX. Takes
+    some minutes; run on the laptop every month or two, or when an agent finds the
+    extract missing something, and commit the file."""
+    import gzip
+    import time
+    try:
+        import osmium
+    except ImportError:
+        sys.exit("osm-extract needs pyosmium: py -3.13 -m pip install osmium")
+    t0 = time.time()
+    pbf = args.pbf
+    if not pbf:
+        pbf = os.path.join(CACHE, "osm", "romania-latest.osm.pbf")
+        os.makedirs(os.path.dirname(pbf), exist_ok=True)
+        print("downloading", GEOFABRIK_PBF)
+        with urllib.request.urlopen(urllib.request.Request(GEOFABRIK_PBF, headers=UA), timeout=120) as resp, \
+                open(pbf + ".part", "wb") as f:
+            while True:
+                block = resp.read(1 << 20)
+                if not block:
+                    break
+                f.write(block)
+        os.replace(pbf + ".part", pbf)
+    stamp = osmium.io.Reader(pbf, osmium.osm.osm_entity_bits.NOTHING).header().get("osmosis_replication_timestamp", "")
+    print("cutting %s (OSM data of %s) to %s" % (os.path.basename(pbf), stamp or "?", CLUJ_BBOX))
+    S, W, N, E = CLUJ_BBOX
+    buildings, streets = [], []
+    fp = (osmium.FileProcessor(pbf, osmium.osm.NODE | osmium.osm.WAY)
+          .with_locations("flex_mem")
+          .with_filter(osmium.filter.EntityFilter(osmium.osm.WAY))
+          .with_filter(osmium.filter.KeyFilter("building", "highway")))
+    for w in fp:
+        try:
+            pts = [(round(n.lon, 6), round(n.lat, 6)) for n in w.nodes]
+        except osmium.InvalidLocationError:
+            continue
+        if len(pts) < 2 or not any(S <= la <= N and W <= lo <= E for lo, la in pts):
+            continue
+        flat = [c for p in pts for c in p]
+        if "building" in w.tags:
+            buildings.append([w.id, flat])
+        else:
+            streets.append([w.id, w.tags.get("name", ""), w.tags["highway"], flat])
+    buildings.sort(); streets.sort()
+    doc = {"bbox": list(CLUJ_BBOX), "data_osm": stamp, "sursa": GEOFABRIK_PBF,
+           "licenta": "© OpenStreetMap contributors, ODbL 1.0 (https://www.openstreetmap.org/copyright)",
+           "buildings": buildings, "streets": streets}
+    tmp = OSM_EXTRACT + ".part"
+    with open(tmp, "wb") as raw, gzip.GzipFile(filename="", mode="wb", fileobj=raw, compresslevel=9, mtime=0) as f:
+        f.write(json.dumps(doc, ensure_ascii=False, separators=(",", ":")).encode("utf-8"))
+    os.replace(tmp, OSM_EXTRACT)
+    print("%s: %d buildings, %d streets, %.1f MB, %.0f s"
+          % (os.path.relpath(OSM_EXTRACT, ROOT), len(buildings), len(streets), os.path.getsize(OSM_EXTRACT) / 1e6,
+             time.time() - t0))
 
 
 # --- fetch / render ----------------------------------------------------------------
@@ -1618,12 +1763,26 @@ def cmd_doctor(args):
     for tool in ("pdfinfo", "pdfimages", "pdftoppm"):
         where = shutil.which(tool)
         line(bool(where), "%s %s" % (tool, where or "lipsește (poppler-utils)"))
-    # The OSM services are only needed by the OpenStreetMap method (and retried there).
+    # OpenStreetMap comes from the extract; the public servers are only a fallback.
+    try:
+        x = osm_extract()
+        if x:
+            import datetime
+            age = (datetime.datetime.now(datetime.timezone.utc)
+                   - datetime.datetime.fromisoformat(x["data_osm"].replace("Z", "+00:00"))).days
+            line(age <= OSM_EXTRACT_MAX_AGE_DAYS, "extras OSM: %d clădiri, %d străzi, date din %s%s"
+                 % (len(x["buildings"]), len(x["streets"]), x["data_osm"][:10],
+                    "" if age <= OSM_EXTRACT_MAX_AGE_DAYS else " - vechi de %d zile: osm-extract pe laptop" % age), False)
+        else:
+            line(False, "extras OSM lipsește (%s): metoda OSM depinde de Overpass" % os.path.relpath(OSM_EXTRACT, ROOT), False)
+    except Exception as e:
+        line(False, "extras OSM ilizibil: %s" % e, False)
     for name, url, method, fatal in (
             ("primăria, pagini", "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-594-din-2026/", "GET", True),
             ("primăria, PDF-uri", "https://files.primariaclujnapoca.ro/2026/09/18/HCL-594.pdf", "HEAD", True),
             ("Esri World Imagery", "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer?f=json", "GET", True),
-            ("Overpass (OSM)", "https://overpass-api.de/api/status", "GET", False),
+            ("Overpass, rezervă (OSM)", "https://overpass-api.de/api/status", "GET", False),
+            ("Overpass, rezervă 2 (OSM)", "https://maps.mail.ru/osm/tools/overpass/api/status", "GET", False),
             ("Nominatim (OSM)", "https://nominatim.openstreetmap.org/status", "GET", False)):
         host = urllib.parse.urlparse(url).netloc
         try:
@@ -1636,8 +1795,11 @@ def cmd_doctor(args):
                 line(False, "%s (%s): HTTP %d - în cloud, verifică lista de domenii permise a mediului"
                      % (name, host, e.code), fatal)
         except Exception as e:
-            line(False, "%s (%s): %s - în cloud, adaugă domeniul în lista de domenii permise a mediului"
-                 % (name, host, e), fatal)
+            if "timed out" in str(e):
+                line(False, "%s (%s): nu răspunde în 30 s - ocupat acum, sau blocat" % (name, host), fatal)
+            else:
+                line(False, "%s (%s): %s - în cloud, adaugă domeniul în lista de domenii permise a mediului"
+                     % (name, host, e), fatal)
     branch = git("branch", "--show-current").strip()
     line(branch == "puz-cluj", "branch %s" % (branch or "?"), fatal=False)
     dirty = [l for l in git("status", "--porcelain").splitlines() if l.strip()]
@@ -1687,24 +1849,29 @@ def main():
     g = s.add_mutually_exclusive_group(required=True)
     g.add_argument("--streets", nargs=2, metavar="REGEX", help='two street names meeting on the plate, e.g. "Buftea" "Scor.arilor"')
     g.add_argument("--address", help="an address, e.g. \"Strada Buftea 2, Cluj-Napoca\"")
+    s.add_argument("--live", action="store_true", help=LIVE_HELP)
     s = sub.add_parser("osm", help="draw OpenStreetMap streets and buildings over the plate")
     s.add_argument("recipe")
     for a in ("x0", "y0", "x1", "y1"):
         s.add_argument(a, type=int, nargs="?", default=None)
     s.add_argument("--scale", type=float, default=None); s.add_argument("--step", type=int, default=100)
+    s.add_argument("--live", action="store_true", help=LIVE_HELP)
     s = sub.add_parser("osm-snap", help="control point at the OSM corner/crossing nearest a picked plate pixel")
     s.add_argument("recipe"); s.add_argument("name"); s.add_argument("x", type=int); s.add_argument("y", type=int)
     s.add_argument("--max", type=float, default=6.0, help="metres to search around the predicted position")
     s.add_argument("--kind", choices=("any", "building", "street"), default="any")
     s.add_argument("--pick", type=int, default=None); s.add_argument("--check", action="store_true")
-    s.add_argument("--write", action="store_true")
+    s.add_argument("--write", action="store_true"); s.add_argument("--live", action="store_true", help=LIVE_HELP)
+    s = sub.add_parser("osm-extract", help="refresh the OSM extract from Geofabrik (laptop; needs pyosmium)")
+    s.add_argument("--pbf", help="an already downloaded romania-latest.osm.pbf")
     s = sub.add_parser("caroiaj", help="label the crosses of an unlabelled Stereo70 grid")
     s.add_argument("recipe"); s.add_argument("--write", action="store_true", help="store the labelled crosses as repere/gcp_px")
     args = ap.parse_args()
     if args.cmd == "new":
         return cmd_new(args)
-    if args.cmd in ("geocode", "next", "sync-docs", "doctor"):
-        return {"geocode": cmd_geocode, "next": cmd_next, "sync-docs": cmd_sync_docs, "doctor": cmd_doctor}[args.cmd](args)
+    if args.cmd in ("geocode", "next", "sync-docs", "doctor", "osm-extract"):
+        return {"geocode": cmd_geocode, "next": cmd_next, "sync-docs": cmd_sync_docs, "doctor": cmd_doctor,
+                "osm-extract": cmd_osm_extract}[args.cmd](args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
      "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "related": cmd_related,
