@@ -7592,6 +7592,416 @@
   ]
  },
  {
+  "id": "2023-826",
+  "localitate": "cluj",
+  "hcl": "826/2023",
+  "data": "2023-12-04",
+  "titlu": "P.U.Z. parcelare și construire locuințe unifamiliale, str. Liviu Rusu-str. Sfânta Maria",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-826-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-826.pdf",
+  "utr": [
+   {
+    "cod": "Lid1",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: locuințe individuale (unifamiliale) izolate, cu o unitate locativă pe parcelă, și anexele lor",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "două niveluri supraterane, (S)+P+M sau (S)+P+1E; 8 m la cornișă sau atic, 10 m la coamă"
+   }
+  ],
+  "suprafata_m2": 13934,
+  "imagine": "puz/2023-826/plansa.webp",
+  "bounds": {
+   "west": 23.5756702,
+   "south": 46.7146068,
+   "east": 23.577885,
+   "north": 46.7171042
+  },
+  "limita": [
+   [
+    23.5766741,
+    46.7170328
+   ],
+   [
+    23.57638,
+    46.7170694
+   ],
+   [
+    23.5761137,
+    46.7170696
+   ],
+   [
+    23.575883,
+    46.7170413
+   ],
+   [
+    23.5758143,
+    46.7170258
+   ],
+   [
+    23.5757014,
+    46.7170001
+   ],
+   [
+    23.5757982,
+    46.7168887
+   ],
+   [
+    23.5758468,
+    46.7168263
+   ],
+   [
+    23.5758825,
+    46.7167851
+   ],
+   [
+    23.5761212,
+    46.7165591
+   ],
+   [
+    23.5762139,
+    46.7164399
+   ],
+   [
+    23.5762368,
+    46.7163511
+   ],
+   [
+    23.5762446,
+    46.7163193
+   ],
+   [
+    23.5762572,
+    46.7162696
+   ],
+   [
+    23.5762394,
+    46.7161775
+   ],
+   [
+    23.5762328,
+    46.7161619
+   ],
+   [
+    23.5761786,
+    46.7160341
+   ],
+   [
+    23.5761672,
+    46.7160073
+   ],
+   [
+    23.5760788,
+    46.715823
+   ],
+   [
+    23.5760322,
+    46.715726
+   ],
+   [
+    23.5760108,
+    46.7156926
+   ],
+   [
+    23.5759747,
+    46.7156429
+   ],
+   [
+    23.5758331,
+    46.7154484
+   ],
+   [
+    23.575954,
+    46.7154304
+   ],
+   [
+    23.576126,
+    46.7154536
+   ],
+   [
+    23.5762307,
+    46.7153876
+   ],
+   [
+    23.5764353,
+    46.7152587
+   ],
+   [
+    23.5764743,
+    46.7152341
+   ],
+   [
+    23.5766587,
+    46.7152148
+   ],
+   [
+    23.5768224,
+    46.7151976
+   ],
+   [
+    23.5769137,
+    46.7151531
+   ],
+   [
+    23.5771011,
+    46.7150618
+   ],
+   [
+    23.5772844,
+    46.7149724
+   ],
+   [
+    23.5773246,
+    46.7149048
+   ],
+   [
+    23.5773858,
+    46.7148019
+   ],
+   [
+    23.577412,
+    46.714696
+   ],
+   [
+    23.5773696,
+    46.7149503
+   ],
+   [
+    23.5773109,
+    46.7152371
+   ],
+   [
+    23.5773055,
+    46.715259
+   ],
+   [
+    23.5772935,
+    46.7152757
+   ],
+   [
+    23.5772661,
+    46.7152923
+   ],
+   [
+    23.5770851,
+    46.7153484
+   ],
+   [
+    23.5768323,
+    46.7154242
+   ],
+   [
+    23.5767061,
+    46.715462
+   ],
+   [
+    23.5765796,
+    46.715505
+   ],
+   [
+    23.5765677,
+    46.7155091
+   ],
+   [
+    23.5766015,
+    46.7155543
+   ],
+   [
+    23.577189,
+    46.7153739
+   ],
+   [
+    23.5772771,
+    46.7153751
+   ],
+   [
+    23.5772552,
+    46.715484
+   ],
+   [
+    23.5772182,
+    46.7156553
+   ],
+   [
+    23.5773363,
+    46.715989
+   ],
+   [
+    23.5777802,
+    46.7160061
+   ],
+   [
+    23.577803,
+    46.716132
+   ],
+   [
+    23.5778093,
+    46.7161828
+   ],
+   [
+    23.5778127,
+    46.7162102
+   ],
+   [
+    23.5778194,
+    46.7163745
+   ],
+   [
+    23.5778065,
+    46.7164934
+   ],
+   [
+    23.5778074,
+    46.716574
+   ],
+   [
+    23.5778088,
+    46.7166606
+   ],
+   [
+    23.5774653,
+    46.7165089
+   ],
+   [
+    23.577362,
+    46.716492
+   ],
+   [
+    23.5773363,
+    46.715989
+   ],
+   [
+    23.5772182,
+    46.7156553
+   ],
+   [
+    23.5767307,
+    46.7158068
+   ],
+   [
+    23.5766015,
+    46.7155543
+   ],
+   [
+    23.5765677,
+    46.7155091
+   ],
+   [
+    23.5764782,
+    46.7155405
+   ],
+   [
+    23.5764273,
+    46.7155581
+   ],
+   [
+    23.5764062,
+    46.7155652
+   ],
+   [
+    23.5763836,
+    46.7155659
+   ],
+   [
+    23.5763631,
+    46.71556
+   ],
+   [
+    23.5763498,
+    46.7155505
+   ],
+   [
+    23.5763385,
+    46.7155362
+   ],
+   [
+    23.5763283,
+    46.715522
+   ],
+   [
+    23.5762981,
+    46.7154799
+   ],
+   [
+    23.5762288,
+    46.7155043
+   ],
+   [
+    23.5762787,
+    46.7155728
+   ],
+   [
+    23.5763059,
+    46.7156087
+   ],
+   [
+    23.5763343,
+    46.7156598
+   ],
+   [
+    23.5764172,
+    46.7158323
+   ],
+   [
+    23.5765602,
+    46.7161503
+   ],
+   [
+    23.576572,
+    46.7161642
+   ],
+   [
+    23.5765902,
+    46.7161798
+   ],
+   [
+    23.576608,
+    46.716188
+   ],
+   [
+    23.5766351,
+    46.7161972
+   ],
+   [
+    23.5766661,
+    46.7162026
+   ],
+   [
+    23.576861,
+    46.7162075
+   ],
+   [
+    23.5768435,
+    46.716511
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 11,
+   "rms_m": 0.07
+  },
+  "legenda": "puz/2023-826/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-12-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Hotărârea (Art. 1) spune că accesul pe parcele se face din str. Sfânta Maria și din aleea Garofiței; planșa desenează accesele parcelelor S1-S4 din str. Liviu Rusu, singura stradă la care au front."
+  ],
+  "conditii": [
+   "Se reglementează 13.951 mp de teren proprietate privată (nr. cad. 337485, 321434, 320254, 319800, 319803, 319804, 314059, 319810, 271064, 263205): 14 parcele de locuințe de cel puțin 800 mp, în U.T.R. Lid1, și terenul pentru circulații.",
+   "Indicatorii se calculează pe toată parcela, și la extinderi, mansardări, supraetajări sau corpuri noi; mansarda are cel mult 60% din suprafața nivelului curent.",
+   "Clădirile se aliniază obligatoriu la 5 m de aliniament (la parcelele de colț, față de ambele aliniamente); garajele se retrag cel puțin 6 m, ca să se poată parca o mașină în față.",
+   "Față de limitele laterale fără calcan, retragere de cel puțin jumătate din înălțime, minimum 3 m (garajele se pot alipi, cu calcan de cel mult 2,80 m); față de limita posterioară, cel puțin înălțimea clădirii, minimum 6 m, iar garajele minimum 6 m; între casă și anexă, cel puțin înălțimea celei mai înalte, minimum 4,5 m, sau 6 m dacă spre spațiul dintre ele dau camere de zi sau dormitoare.",
+   "Accesul pe parcele: din str. Sfânta Maria (regularizată la 6 m carosabil cu trotuare de 1,5 m) și din aleea Garofiței (ampriză 6 m: 3 m carosabil și trotuare de 1,5 m); un singur acces pietonal și unul carosabil pe parcelă, cel carosabil de 3-5 m lățime.",
+   "Parcarea se face pe parcelă: un loc pentru locuințe cu aria utilă sub 100 mp, două peste 100 mp; serviciile de proximitate, cel puțin două locuri.",
+   "Utilități: racord la rețelele publice disponibile; în zonă nu există canalizare publică, deci apele uzate se epurează în sisteme individuale și se folosesc local sau se infiltrează pe parcelă; apele pluviale se rețin sau se acumulează și se evacuează în emisari locali, nu spre domeniul public sau vecini; firidele de branșament în împrejmuire; fără cabluri aeriene; pe fiecare parcelă, un loc pentru deșeuri accesibil din domeniul public.",
+   "Înainte de autorizațiile de construire pe parcele: terenul pentru lărgirea str. Liviu Rusu și a str. Sfânta Maria la ampriza de 9 m (cu raza de viraj de 9 m la intersecție), pentru prelungirea aleii Garofiței cu ampriza de 6 m și pentru lărgirea ei la intersecția cu str. Sfânta Maria (raza de 9 m), marcat pe planșa U03, se dezmembrează și se înscrie în CF ca „drum”.",
+   "Tot înainte de autorizații: str. Liviu Rusu se asfaltează de la str. Făgetului până la str. Sfânta Maria, iar str. Sfânta Maria și aleea Garofiței primesc apă, electricitate și gaz și carosabil asfaltat.",
+   "Înainte de recepția construcțiilor: se fac trotuarele str. Sfânta Maria și ale aleii Garofiței, iar terenul pentru regularizarea str. Liviu Rusu, pe tronsonul de lângă P.U.Z., trece gratuit în domeniul public (planșa U05 – Regimul juridic și circulația terenurilor).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-604",
   "localitate": "cluj",
   "hcl": "604/2023",
