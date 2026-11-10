@@ -1,0 +1,163 @@
+{
+  "id": "2024-763",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 763,
+    "an": 2024,
+    "data_sedinta": "2024-12-02",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-763-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/12/05/763.pdf"
+  },
+  "titlu": "P.U.Z. – de restructurare urbană – str. Fabricii nr. 90-92-94",
+  "plansa": {
+    "pagina_pdf": 9,
+    "dpi": 300,
+    "denumire": "U 03 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Pagina hotărârii nu are niciun PDF legat; PDF-ul e în același dosar de încărcare ca hotărârile 762 și 767 din aceeași ședință (files.primariaclujnapoca.ro/2024/12/05/763.pdf) și pagina lui 1 e chiar HCL 763/2024. Are 9 pagini A4 scanate la 300 ppi: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii), Anexa 1 R.L.U. (p. 3-8) și Anexa 2, planșa (p. 9, singura copie). Hotărârea o numește „Planșa 03a Plan Reglementări Urbanistice – Zonificare”; cartușul scrie „Reglementari urbanistice”, pl. nr. U 03, pr. nr. 33/2020, ianuarie 2024, cu titlul proiectului „P.U.Z. pentru corectare limită U.T.R.”. Planșa 1:1000 e redusă pe A4 (5,8 px/m în loc de 11,8 px/m, cam 49 %) și tipărită culcat: textul se citește în sus, nordul e spre stânga paginii (rotație -92,3°), de unde rotirea cu 90° a casetelor legendei. Scanul e neclar; limita zonei e linia groasă gri cu perle („limite UTR”), care urmează parcela nr. cad. 341036. Legenda ia cheia simbolurilor, tabelul „Unități teritoriale de referință” (fără sigla proiectantului) și caseta U.T.R. RrM1*; lasă deoparte tabelul de coordonate, profilurile stradale, calculul parcajelor și al spațiilor verzi, bilanțul teritorial și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U 03 („Calcul analitic suprafață imobil C.F. 341036 Cj.Np.”: 25 de puncte, X (Nord) / Y (Est), cu lungimile laturilor D(i,i+1); S(1) = 1766,70 mp, P = 186,554 m). Potrivirea folosește patru colțuri ale parcelei: 36 (nord-est), 58 (capătul sudic al laturii estice, înainte de teșitura spre 64a), A29 (nord-vest, la aliniamentul spre str. Fabricii) și 48 (sud-vest). Verificare: 35A, colțul interior al laturii sudice; 64a, capătul teșiturii; 33, 60 și 24, pe latura nordică, unde liniile cadastrale ale vecinilor întâlnesc limita. Colțul 56 nu se poate citi sigur (peretele garajului vecin trece peste el), iar celelalte vârfuri sunt frânturi mici pe laturi aproape drepte; suprapunerea arată că toate cad pe limita desenată.",
+    "suprafata_declarata_m2": 1766.7,
+    "puncte": {
+      "A29": [588656.854, 394464.576],
+      "24": [588654.589, 394484.489],
+      "59": [588653.306, 394494.23],
+      "60": [588652.911, 394496.852],
+      "61": [588651.961, 394504.941],
+      "33": [588651.499, 394509.21],
+      "36": [588650.093, 394521.23],
+      "34": [588641.957, 394520.219],
+      "30": [588636.503, 394519.574],
+      "A16": [588634.167, 394519.298],
+      "58": [588628.353, 394518.421],
+      "64a": [588625.005, 394511.035],
+      "35A": [588628.838, 394487.931],
+      "35": [588627.837, 394487.701],
+      "63": [588617.803, 394486.023],
+      "56": [588617.446, 394486.421],
+      "25": [588619.344, 394476.953],
+      "26": [588619.873, 394473.982],
+      "64b": [588620.505, 394470.867],
+      "48": [588623.301, 394457.074],
+      "12": [588633.784, 394459.421],
+      "18": [588636.933, 394460.108],
+      "A27": [588641.974, 394461.291],
+      "A32": [588646.647, 394462.387],
+      "A30": [588652.334, 394463.554]
+    },
+    "ordine": [
+      "A29",
+      "24",
+      "59",
+      "60",
+      "61",
+      "33",
+      "36",
+      "34",
+      "30",
+      "A16",
+      "58",
+      "64a",
+      "35A",
+      "35",
+      "63",
+      "56",
+      "25",
+      "26",
+      "64b",
+      "48",
+      "12",
+      "18",
+      "A27",
+      "A32",
+      "A30"
+    ],
+    "laturi_declarate_m": {
+      "A29": 20.041,
+      "24": 9.825,
+      "59": 2.652,
+      "60": 8.145,
+      "61": 4.294,
+      "33": 12.102,
+      "36": 8.199,
+      "34": 5.492,
+      "30": 2.352,
+      "A16": 5.88,
+      "58": 8.109,
+      "64a": 23.42,
+      "35A": 1.027,
+      "35": 10.173,
+      "63": 0.535,
+      "56": 9.656,
+      "25": 3.018,
+      "26": 3.178,
+      "64b": 14.074,
+      "48": 10.743,
+      "12": 3.223,
+      "18": 5.178,
+      "A27": 4.8,
+      "A32": 5.806,
+      "A30": 4.634
+    },
+    "perimetru_declarat_m": 186.554,
+    "nota": "Tabelul e în ordinea conturului, dar numerele nu (A29, 24, 59, …, A30), așa că ordinea e copiată în `ordine`. Numărul 64 apare de două ori în tabel (rândurile 12 și 19, citite la zoom puternic, ambele „64”): în rețetă sunt 64a (588625,005 / 394511,035) și 64b (588620,505 / 394470,867). La A30, Est se citește în scan „394403,554”; latura A30-A29 tipărită (4,634 m) și A32-A30 (5,806 m) dau 394463,554, valoarea păstrată. Toate cele 25 de laturi tipărite și perimetrul se verifică la milimetru; aria calculată e 1766,70 mp, iar hotărârea și cartușul dau 1767 mp."
+  },
+  "gcp_px": {
+    "36": [569, 1372],
+    "58": [693, 1384],
+    "A29": [541, 1695],
+    "48": [737, 1729]
+  },
+  "verificare_px": {
+    "35A": [700, 1559],
+    "64a": [711, 1421],
+    "33": [561, 1438],
+    "60": [557, 1511],
+    "24": [550, 1578]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [1346, 2360, 2150, 3278, 90],
+    [1086, 688, 1131, 1106, 90],
+    [1131, 120, 1603, 1106, 90],
+    [1603, 380, 1815, 1106, 90],
+    [1340, 1420, 2033, 2340, 90]
+  ],
+  "utr": [
+    {
+      "cod": "RrM1*",
+      "denumire": "Parcelar riveran principalelor artere de trafic – zonă mixtă cu regim de construire închis; funcțiune mixtă: locuire colectivă, activități administrative, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; spre spațiile publice locuințele doar la etaje, parterul cu funcțiuni de interes public",
+      "pot_max": "50%",
+      "cut_max": "2,6",
+      "h_max": "25 m; cornișa aliniată la 18 m (±0,5 m), pentru clădirile comune cel mult 22 m; regim maxim (1-3S)+P+5E+R, ultimul nivel retras cel puțin 1,80 m față de planul fațadei"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-12-02",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Art. 1 (ca și R.L.U., art. 6) cere o clădire în tipologie „T”: pe limitele laterale nordică și sudică, calcan pe o adâncime de 12,20 m de la aliniament, iar mai adânc un tronson central, până la 65 % din adâncimea parcelei. Caseta RrM1* de pe planșă reia regula generală a zonei: clădiri între limitele laterale pe cel mult 18 m adâncime, până la 40 m de-a lungul unei laturi dacă vecinii au calcane, sau central până la 65 %, cu retrageri de cel puțin jumătate din înălțimea la cornișă, minimum 4,50 m.",
+    "Art. 1 aliniază cornișa la 18 m de la trotuar (±0,5 m) și retrage ultimul nivel cu cel puțin 1,80 m față de fațadă și cu cel puțin 3 m față de limita sudică; planșa dă doar plafonul: cornișa cel mult 22 m, înălțimea totală cel mult 25 m, regim (1-3S)+P+5+1R.",
+    "Art. 1 limitează amprenta nivelurilor de locuit la 40 % din suprafața terenului; planșa dă doar P.O.T. 50 % și C.U.T. 2,6."
+  ],
+  "conditii": [
+    "Se reglementează un teren de 1767 mp, proprietate privată (nr. cad. 341036), pentru un imobil cu funcțiuni mixte, construit în aliniament, în front continuu închis.",
+    "Accesele auto și pietonale se fac din str. Fabricii; parcela are un singur acces carosabil, de cel mult 6 m lățime (R.L.U., art. 8).",
+    "Avizul Serviciului Siguranța Circulației nr. 287400/446/2023: accesul auto se amenajează și accesul pietonal se reconfigurează înainte de recepția lucrărilor; intrarea și ieșirea din incintă se fac numai prin viraje de dreapta.",
+    "Cel puțin 75 % din locurile de parcare sunt în spații specializate la subsol, demisol sau parter; numărul lor se calculează după Anexa 2 a R.L.U. al P.U.G.",
+    "Clădirea se racordează la rețelele edilitare publice.",
+    "La faza D.T.A.C., documentația se avizează de Comisia de estetică urbană.",
+    "Pe spațiul verde pe sol natural se plantează cel puțin 7 arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}

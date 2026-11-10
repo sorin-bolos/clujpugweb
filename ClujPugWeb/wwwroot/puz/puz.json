@@ -6117,6 +6117,159 @@
   ]
  },
  {
+  "id": "2024-763",
+  "localitate": "cluj",
+  "hcl": "763/2024",
+  "data": "2024-12-02",
+  "titlu": "P.U.Z. – de restructurare urbană – str. Fabricii nr. 90-92-94",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-763-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/12/05/763.pdf",
+  "utr": [
+   {
+    "cod": "RrM1*",
+    "denumire": "Parcelar riveran principalelor artere de trafic – zonă mixtă cu regim de construire închis; funcțiune mixtă: locuire colectivă, activități administrative, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; spre spațiile publice locuințele doar la etaje, parterul cu funcțiuni de interes public",
+    "pot_max": "50%",
+    "cut_max": "2,6",
+    "h_max": "25 m; cornișa aliniată la 18 m (±0,5 m), pentru clădirile comune cel mult 22 m; regim maxim (1-3S)+P+5E+R, ultimul nivel retras cel puțin 1,80 m față de planul fațadei"
+   }
+  ],
+  "suprafata_m2": 1767,
+  "imagine": "puz/2024-763/plansa.webp",
+  "bounds": {
+   "west": 23.6158075,
+   "south": 46.788776,
+   "east": 23.6167046,
+   "north": 46.7891797
+  },
+  "limita": [
+   [
+    23.6159297,
+    46.7891558
+   ],
+   [
+    23.616191,
+    46.7891386
+   ],
+   [
+    23.6163189,
+    46.7891285
+   ],
+   [
+    23.6163533,
+    46.7891254
+   ],
+   [
+    23.6164595,
+    46.7891181
+   ],
+   [
+    23.6165155,
+    46.7891146
+   ],
+   [
+    23.6166732,
+    46.7891039
+   ],
+   [
+    23.6166618,
+    46.7890305
+   ],
+   [
+    23.6166546,
+    46.7889814
+   ],
+   [
+    23.6166516,
+    46.7889603
+   ],
+   [
+    23.6166414,
+    46.7889079
+   ],
+   [
+    23.6165454,
+    46.7888766
+   ],
+   [
+    23.616242,
+    46.7889075
+   ],
+   [
+    23.6162392,
+    46.7888984
+   ],
+   [
+    23.6162195,
+    46.7888079
+   ],
+   [
+    23.6162248,
+    46.7888047
+   ],
+   [
+    23.6161004,
+    46.7888203
+   ],
+   [
+    23.6160614,
+    46.7888246
+   ],
+   [
+    23.6160204,
+    46.7888298
+   ],
+   [
+    23.6158391,
+    46.7888528
+   ],
+   [
+    23.6158675,
+    46.7889475
+   ],
+   [
+    23.6158757,
+    46.7889759
+   ],
+   [
+    23.6158901,
+    46.7890214
+   ],
+   [
+    23.6159034,
+    46.7890636
+   ],
+   [
+    23.6159173,
+    46.789115
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.15
+  },
+  "legenda": "puz/2024-763/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-12-02"
+  },
+  "diferente_fata_de_plansa": [
+   "Art. 1 (ca și R.L.U., art. 6) cere o clădire în tipologie „T”: pe limitele laterale nordică și sudică, calcan pe o adâncime de 12,20 m de la aliniament, iar mai adânc un tronson central, până la 65 % din adâncimea parcelei. Caseta RrM1* de pe planșă reia regula generală a zonei: clădiri între limitele laterale pe cel mult 18 m adâncime, până la 40 m de-a lungul unei laturi dacă vecinii au calcane, sau central până la 65 %, cu retrageri de cel puțin jumătate din înălțimea la cornișă, minimum 4,50 m.",
+   "Art. 1 aliniază cornișa la 18 m de la trotuar (±0,5 m) și retrage ultimul nivel cu cel puțin 1,80 m față de fațadă și cu cel puțin 3 m față de limita sudică; planșa dă doar plafonul: cornișa cel mult 22 m, înălțimea totală cel mult 25 m, regim (1-3S)+P+5+1R.",
+   "Art. 1 limitează amprenta nivelurilor de locuit la 40 % din suprafața terenului; planșa dă doar P.O.T. 50 % și C.U.T. 2,6."
+  ],
+  "conditii": [
+   "Se reglementează un teren de 1767 mp, proprietate privată (nr. cad. 341036), pentru un imobil cu funcțiuni mixte, construit în aliniament, în front continuu închis.",
+   "Accesele auto și pietonale se fac din str. Fabricii; parcela are un singur acces carosabil, de cel mult 6 m lățime (R.L.U., art. 8).",
+   "Avizul Serviciului Siguranța Circulației nr. 287400/446/2023: accesul auto se amenajează și accesul pietonal se reconfigurează înainte de recepția lucrărilor; intrarea și ieșirea din incintă se fac numai prin viraje de dreapta.",
+   "Cel puțin 75 % din locurile de parcare sunt în spații specializate la subsol, demisol sau parter; numărul lor se calculează după Anexa 2 a R.L.U. al P.U.G.",
+   "Clădirea se racordează la rețelele edilitare publice.",
+   "La faza D.T.A.C., documentația se avizează de Comisia de estetică urbană.",
+   "Pe spațiul verde pe sol natural se plantează cel puțin 7 arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2024-571",
   "localitate": "cluj",
   "hcl": "571/2024",
