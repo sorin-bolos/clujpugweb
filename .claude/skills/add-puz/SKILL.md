@@ -174,7 +174,8 @@ where `<id>` is `<an>-<nr>`.
      files the commit touched, and looks for the owners' names.
      - `PROBLEMĂ`: fix it and `git commit --amend`. Your commit isn't pushed yet.
      - `VERIFICĂ`: a word of an owner's name appears somewhere. Fine in a street
-       name or the project's own name; an owner named is a problem.
+       name or the project's own name; an owner named is a problem. If it says the
+       names couldn't be read, look for them yourself and say so in your report.
      - Say in your report what the audit printed.
 
 ## Amending decisions

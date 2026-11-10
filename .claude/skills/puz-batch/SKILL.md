@@ -76,6 +76,9 @@ Never run two agents at once: they share `puz.json` and `SHA256SUMS`. For each
        sits in a street name, in the project's own name as the decision's title
        gives it, or is an ordinary word. Keep the commit and mention it in the
        report. If a landowner, person or company, is named, treat it as below.
+       When the line says the names couldn't be read, read them in the decision's
+       text and look for them yourself in the recipe, the `puz.json` entry and the
+       commit message; keep the commit if none is there.
      - Exit 1, `PROBLEME`: don't fix it and don't push it to `puz-cluj`. Move it
        aside: `git branch puz-review/<id>`, then `git reset --hard <start>`. In the
        cloud, run `git push origin puz-review/<id>`. Go on with the next PUZ.

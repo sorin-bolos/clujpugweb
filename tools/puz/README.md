@@ -281,12 +281,15 @@ it, audits its commit, and moves on. Agents never run in parallel: they share
   - the commit touches only that PUZ's files (and a base or amendment folded in);
   - the tree is clean;
   - no owner is named. The names after "beneficiar(i):" in the decision's text are
-    looked for in the recipe, the map entry and the commit message.
+    looked for in the recipe, the map entry and the commit message. Words the
+    page's text breaks up ("R oșca") are put back together first.
 
   It exits 0 (`OK`), 1 (`PROBLEME`: the batch moves the commit aside to
   `puz-review/<id>`) or 2 (`DE VERIFICAT`). Exit 2 means a word of an owner's name
   turned up, maybe in a street name or the project's own name (Ansamblu „Noroc”).
-  It is printed in context, for someone to judge.
+  It is printed in context, for someone to judge. Exit 2 also comes when the
+  decision has a "beneficiar(i):" but no name could be read after it: then nothing
+  was checked, and someone looks for the names by hand.
 
 ### In a Claude Code cloud session
 

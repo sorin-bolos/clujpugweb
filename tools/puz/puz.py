@@ -1364,9 +1364,9 @@ NOT_A_NAME = {normalize_ro(w) for w in (
     "Statul", "Român", "Județul", "Ministerul", "Agenția", "Compania", "Societatea", "Asociația", "Parohia")}
 
 
-def beneficiary_words(r):
-    """Words of the names after "beneficiar(i):" in the decision's text: the owners,
-    which must not appear on the public map or in the repository."""
+def decision_text(r):
+    """The decision's text, from hotarare.txt or else the decision's page; None when
+    there is none."""
     try:
         with open(text_path(r), encoding="utf-8") as f:
             text = f.read()
@@ -1377,17 +1377,40 @@ def beneficiary_words(r):
             return None
     if NO_PAGE_TEXT in text or len(text) < 400:
         return None
-    words = set()
+    return text
+
+
+def name_tokens(part):
+    """The words of one name, with the pieces the pages' text breaks words into put
+    back together: "R oșca" -> "Roșca", "R i mbașiu" -> "Rimbașiu". A piece is a
+    lower-case word after one of at most two letters, or a lone lower-case letter."""
+    tokens = []
+    for t in part.strip(" .").split():
+        if tokens and t[:1].islower() and (len(tokens[-1]) <= 2 or len(t) == 1):
+            tokens[-1] += t
+        else:
+            tokens.append(t)
+    return tokens
+
+
+def beneficiary_words(text):
+    """Words of the names after "beneficiar(i):" in the decision's text: the owners,
+    which must not appear on the public map or in the repository. Also says whether
+    some "beneficiar(i):" was followed by something not read as a name, so that an
+    empty set can tell "no owners named" from "owners not read"."""
+    words, unread = set(), False
     for m in BENEFICIARY_CLAUSE.finditer(text):
-        for part in re.split(r",|;|\s+și\s+", re.sub(r"\s+", " ", m.group(1))):
-            tokens = part.strip(" .").split()
+        for i, part in enumerate(re.split(r",|;|\s+și\s+", re.sub(r"\s+", " ", m.group(1)))):
+            tokens = name_tokens(part)
             if not tokens or not all(NAME_TOKEN.match(t) for t in tokens):
+                # Only a clause with a colon: "suportate de beneficiarii acesteia" is prose.
+                unread |= i == 0 and ":" in text[m.start():m.start(1)]
                 break
             for t in tokens:
                 n = normalize_ro(t.strip(".-"))
                 if len(n) >= 3 and n not in NOT_A_NAME:
                     words.add(n)
-    return words
+    return words, unread
 
 
 def cmd_audit(r, args):
@@ -1461,15 +1484,21 @@ def cmd_audit(r, args):
 
     # Owners' names. A word of an owner's name can also be a street's or the project's
     # (Ansamblu „Noroc” is built by Noroc Com), so a hit is shown in context, to judge.
-    words = beneficiary_words(r)
+    text = decision_text(r)
     raw = (json.dumps({k: v for k, v in r.items() if not k.startswith("_")}, ensure_ascii=False) + "\n"
            + json.dumps(entry or {}, ensure_ascii=False) + "\n" + msg)
     published_text = normalize_ro(re.sub(r"\S+@\S+|https?://\S+", " ", raw))
     to_check = []
-    if words is None:
+    if text is None:
         notes.append("textul hotărârii nu e disponibil: numele beneficiarilor nu au putut fi verificate")
     else:
+        words, unread = beneficiary_words(text)
         checks.append("nume de beneficiari căutate: %d cuvinte" % len(words))
+        if unread and not words:
+            m = re.search(r"beneficiar\w*(?:\s[ăai]{1,2}\b)?\s*:\s*(.{0,80})", text, re.S)
+            to_check.append("numele beneficiarilor n-au putut fi citite din textul hotărârii (…%s…): "
+                            "caută-le de mână în rețetă, în puz.json și în mesajul commit-ului"
+                            % re.sub(r"\s+", " ", m.group(1) if m else "").strip())
         for w in sorted(words):
             for m in list(re.finditer(r"\b%s\b" % re.escape(w), published_text))[:2]:
                 to_check.append("„%s”: …%s…" % (w, published_text[max(0, m.start() - 50):m.end() + 50].replace("\n", " ")))
