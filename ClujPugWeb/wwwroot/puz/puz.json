@@ -1909,6 +1909,98 @@
   ]
  },
  {
+  "id": "2026-550",
+  "localitate": "cluj",
+  "hcl": "550/2026",
+  "data": "2026-08-06",
+  "titlu": "P.U.Z. de urbanizare – zona str. Dealul Fânațelor (parcelare și construire locuințe cu regim redus de înălțime)",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-550-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/550.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele 1-31 de pe planșă): locuințe individuale (unifamiliale) și semicolective (familiale), cu cel mult două unități locative pe parcelă, și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine); regim de construire izolat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m (8 m la cornișă); trei niveluri supraterane: (S)+P+E+M/R sau D+P+R/M"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice sau de interes public în clădiri dedicate, în afara zonei centrale (parcela 32 de pe planșă): administrație, cultură, învățământ și cercetare, sănătate și asistență socială, cult; regim de construire deschis",
+    "pot_max": "60% (cel stabilit de R.G.U. sau de normele programului, fără a depăși 60%)",
+    "cut_max": "2,2",
+    "h_max": "12 m la cornișă; (S)+P+2E sau D+P+E (niveluri parțiale admise sub cornișă)"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă de spații verzi cu acces public aferente arterelor de circulație (parcelele 35 și 36 de pe planșă): plantații, alei pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, mici construcții pentru cultură și alimentație publică, grupuri sanitare",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "9 m; (D)+P+E"
+   }
+  ],
+  "suprafata_m2": 21027,
+  "imagine": "puz/2026-550/plansa.webp",
+  "bounds": {
+   "west": 23.5966863,
+   "south": 46.8213786,
+   "east": 23.5993618,
+   "north": 46.8233484
+  },
+  "limita": [
+   [
+    23.5967319,
+    46.8225556
+   ],
+   [
+    23.5983099,
+    46.8233172
+   ],
+   [
+    23.5988672,
+    46.8227277
+   ],
+   [
+    23.5993214,
+    46.8220832
+   ],
+   [
+    23.598608,
+    46.8214218
+   ],
+   [
+    23.5968244,
+    46.8224463
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 6,
+   "rms_m": 0.13
+  },
+  "legenda": "puz/2026-550/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-08-06"
+  },
+  "diferente_fata_de_plansa": [
+   "Caseta de text din stânga jos a planșei dă pentru S_Va* „P.O.T. max conf. P.U.G. = 60,00%; C.U.T. max conf. P.U.G. = 2,2” (aceleași cifre ca la S_Is*); hotărârea, regulamentul și tabelul U.T.R. al planșei dau pentru S_Va* POT 5% și CUT 0,1."
+  ],
+  "conditii": [
+   "Prima etapă, conform avizului Serviciului Siguranța circulației (nr. 792226/446/22.10.2025): se proiectează, se autorizează și se execută amenajarea și asfaltarea străzii noi din PUZ (parcela 33, cu raze de viraj de 9 m), semnalizarea rutieră orizontală și verticală (cu avizul Poliției rutiere), rețeaua pluvială și rețelele edilitare, inclusiv iluminatul public; proiectele respectă NP 051/2012.",
+   "Tot în prima etapă se realizează investiția de interes public din U.T.R. S_Is* (parcela 32) și un trotuar de 1,5 m lățime între str. Oașului și teritoriul PUZ.",
+   "A doua etapă: locuințele din U.T.R. Liu* se construiesc „după realizarea de către Municipalitate a pasajului rutier de la intersecția str. Oașului – Bd. Muncii – Fânațelor, dar nu mai târziu de 31.12.2028”.",
+   "Spațiile verzi cu acces public (parcelele 35 și 36, U.T.R. S_Va*) se amenajează pe baza unor proiecte de specialitate până la recepția locuințelor.",
+   "Înainte de autorizația de construire pe parcela 33 (strada nouă), parcela 34 se înscrie în CF ca „drum”: e o rezervă de teren pentru accesul la parcelele vecine.",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari.",
+   "Liu*: clădirile se retrag cel puțin 6 m de la aliniament (la parcelele de colț, de la ambele aliniamente), cel puțin 3 m de limitele laterale și cel puțin 6 m de limita posterioară; garajele, și cele din corpul clădirii, se pot alipi unei limite laterale dacă zidul rezultat (calcanul) nu depășește 2,8 m.",
+   "Liu*: accesul pe parcele se face din strada nouă (parcela 33), desprinsă din str. Dealul Fânațelor; pe fiecare parcelă un singur acces pietonal și unul auto, de cel mult 3 m lățime (pentru aleile din parcelă se recomandă învelitori permeabile). Parcarea se face pe parcelă: cel puțin un loc pentru clădiri cu aria utilă sub 100 mp și două peste 100 mp; serviciile de proximitate cu acces public au cel puțin două locuri.",
+   "Liu*: construcțiile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian; fiecare parcelă are o platformă pentru colectarea deșeurilor pe 5 fracții, accesibilă din spațiul public.",
+   "S_Is*: clădirile se retrag cel puțin 6 m de la aliniament și, față de limitele laterale, cel puțin jumătate din înălțime, dar minimum 4,5 m; accesul se face din strada nouă; parcarea se face pe parcelă, în garaje colective subterane sau supraterane, după Anexa 2 a R.L.U.; aceleași reguli pentru rețele, ape meteorice, cabluri și deșeuri (5 fracții).",
+   "S_Va*: construcțiile se retrag cel puțin 3 m de la aliniament și de limitele laterale și posterioară; accesul se face din străzile reglementate prin PUZ; aleile pietonale și velo se fac din agregate compactate, piatră naturală sau asfalt permeabil."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

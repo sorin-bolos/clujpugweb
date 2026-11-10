@@ -1,0 +1,262 @@
+{
+  "id": "2026-550",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 550,
+    "an": 2026,
+    "data_sedinta": "2026-08-06",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-550-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/550.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – zona str. Dealul Fânațelor (parcelare și construire locuințe cu regim redus de înălțime)",
+  "plansa": {
+    "pagina_pdf": 23,
+    "dpi": 300,
+    "denumire": "1476-A-PUZ-1-0-03 Plan reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "Planșa e singura din PDF: p. 23, A3 (vertical, desenul pe lat), 300 ppi, ștampilată „Anexa 2 la Hotărârea nr. 550/2026”; pp. 1-3 sunt hotărârea, pp. 4-22 regulamentul local de urbanism (Anexa 1). Cartușul: proiect 1476-A, planșa A-PUZ-1-0-03 „Plan reglementări urbanistice – zonificare”, scara 1:500; hotărârea o anexează ca „Planșa 03 – Plan Reglementări Urbanistice – Zonificare”. Scara imaginii: 8,2 px/m (1:500 la 300 ppi ar da 23,6 px/m, deci desenul e tipărit la ~35%); nordul e în sus (rotație -0,3°). Legenda cuprinde cheia simbolurilor (coloana din dreapta sus) și tabelul U.T.R. existent/propus cu POT, CUT, regim de înălțime, H max și procentul de spații verzi; au rămas afară bilanțul teritorial, tabelul suprafețelor parcelelor, cartușul și caseta de text din stânga jos a desenului (numește proprietarii)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate. Georeferențiere pe caroiajul Stereo 70 al desenului: cruci la 50 m (409 px), fără etichete, etichetate cu `caroiaj` pornind de la axul str. Dealul Fânațelor din OpenStreetMap (vezi `caroiaj.ancora`); crucile cad toate la ~3 m de nodurile de 50 m, cu aceeași abatere (eroarea OSM + transformarea Stereo 70), deci etichetele sunt sigure. Control: crucile C393250_592500, C393050_592450, C393300_592450, C393100_592350, C393300_592350, C393100_592300; verificare: C393200_592500, C393250_592450, C393250_592400, C393300_592400. Limita e trasată pe planșă (`limita_px`), pe linia continuă de proprietate de pe marginea interioară a liniei punctate groase „limita zonei reglementate”; aria trasată se compară cu cei 21.011 mp din tabelul parcelelor și din Art. 1.",
+    "suprafata_declarata_m2": 21011.0,
+    "puncte": {},
+    "nota": "Crucile caroiajului se văd doar pe fondul alb din jurul zonei (în desenul hașurat se pierd); s-au folosit 10, pe 5 rânduri și 5 coloane; potrivirea afină le lasă la 0,13 m rms. Scara lor (8,18 px/m) se potrivește cu desenul: axul drumului desenat urmează axul OSM al str. Dealul Fânațelor la 0,8 m rms pe ~300 m, iar aria trasată iese 21.027 mp față de 21.011 mp declarați (+0,1%). Suprafața: 21.011,00 mp din tabelul parcelelor de pe planșă (P1-P31 locuințe, P32 S_Is* 2.001,27 mp, P33 strada 4.054,99 mp, P34 rezervă de drum 327,10 mp, P35 și P36 S_Va* 188,34 și 152,83 mp); Art. 1 scrie 21.011 mp. Overpass n-a răspuns din sesiunea cloud (2026-11-10, 03:00-04:00 UTC: fiecare conexiune resetată), așa că geometria străzii a fost luată prin Nominatim (polygon_geojson), nu prin `geocode --streets`."
+  },
+  "gcp_px": {
+    "C393250_592500": [
+      3237,
+      676
+    ],
+    "C393050_592450": [
+      1602,
+      1092
+    ],
+    "C393300_592450": [
+      3652,
+      1084
+    ],
+    "C393100_592350": [
+      2018,
+      1908
+    ],
+    "C393300_592350": [
+      3660,
+      1899
+    ],
+    "C393100_592300": [
+      2021,
+      2317
+    ]
+  },
+  "verificare_px": {
+    "C393200_592500": [
+      2827,
+      678
+    ],
+    "C393250_592450": [
+      3241,
+      1085
+    ],
+    "C393250_592400": [
+      3245,
+      1493
+    ],
+    "C393300_592400": [
+      3655,
+      1491
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      4655,
+      512,
+      4935,
+      1412
+    ],
+    [
+      3928,
+      618,
+      4602,
+      836
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele 1-31 de pe planșă): locuințe individuale (unifamiliale) și semicolective (familiale), cu cel mult două unități locative pe parcelă, și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine); regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m (8 m la cornișă); trei niveluri supraterane: (S)+P+E+M/R sau D+P+R/M"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice sau de interes public în clădiri dedicate, în afara zonei centrale (parcela 32 de pe planșă): administrație, cultură, învățământ și cercetare, sănătate și asistență socială, cult; regim de construire deschis",
+      "pot_max": "60% (cel stabilit de R.G.U. sau de normele programului, fără a depăși 60%)",
+      "cut_max": "2,2",
+      "h_max": "12 m la cornișă; (S)+P+2E sau D+P+E (niveluri parțiale admise sub cornișă)"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă de spații verzi cu acces public aferente arterelor de circulație (parcelele 35 și 36 de pe planșă): plantații, alei pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, mici construcții pentru cultură și alimentație publică, grupuri sanitare",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "9 m; (D)+P+E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-08-06",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Caseta de text din stânga jos a planșei dă pentru S_Va* „P.O.T. max conf. P.U.G. = 60,00%; C.U.T. max conf. P.U.G. = 2,2” (aceleași cifre ca la S_Is*); hotărârea, regulamentul și tabelul U.T.R. al planșei dau pentru S_Va* POT 5% și CUT 0,1."
+  ],
+  "conditii": [
+    "Prima etapă, conform avizului Serviciului Siguranța circulației (nr. 792226/446/22.10.2025): se proiectează, se autorizează și se execută amenajarea și asfaltarea străzii noi din PUZ (parcela 33, cu raze de viraj de 9 m), semnalizarea rutieră orizontală și verticală (cu avizul Poliției rutiere), rețeaua pluvială și rețelele edilitare, inclusiv iluminatul public; proiectele respectă NP 051/2012.",
+    "Tot în prima etapă se realizează investiția de interes public din U.T.R. S_Is* (parcela 32) și un trotuar de 1,5 m lățime între str. Oașului și teritoriul PUZ.",
+    "A doua etapă: locuințele din U.T.R. Liu* se construiesc „după realizarea de către Municipalitate a pasajului rutier de la intersecția str. Oașului – Bd. Muncii – Fânațelor, dar nu mai târziu de 31.12.2028”.",
+    "Spațiile verzi cu acces public (parcelele 35 și 36, U.T.R. S_Va*) se amenajează pe baza unor proiecte de specialitate până la recepția locuințelor.",
+    "Înainte de autorizația de construire pe parcela 33 (strada nouă), parcela 34 se înscrie în CF ca „drum”: e o rezervă de teren pentru accesul la parcelele vecine.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari.",
+    "Liu*: clădirile se retrag cel puțin 6 m de la aliniament (la parcelele de colț, de la ambele aliniamente), cel puțin 3 m de limitele laterale și cel puțin 6 m de limita posterioară; garajele, și cele din corpul clădirii, se pot alipi unei limite laterale dacă zidul rezultat (calcanul) nu depășește 2,8 m.",
+    "Liu*: accesul pe parcele se face din strada nouă (parcela 33), desprinsă din str. Dealul Fânațelor; pe fiecare parcelă un singur acces pietonal și unul auto, de cel mult 3 m lățime (pentru aleile din parcelă se recomandă învelitori permeabile). Parcarea se face pe parcelă: cel puțin un loc pentru clădiri cu aria utilă sub 100 mp și două peste 100 mp; serviciile de proximitate cu acces public au cel puțin două locuri.",
+    "Liu*: construcțiile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian; fiecare parcelă are o platformă pentru colectarea deșeurilor pe 5 fracții, accesibilă din spațiul public.",
+    "S_Is*: clădirile se retrag cel puțin 6 m de la aliniament și, față de limitele laterale, cel puțin jumătate din înălțime, dar minimum 4,5 m; accesul se face din strada nouă; parcarea se face pe parcelă, în garaje colective subterane sau supraterane, după Anexa 2 a R.L.U.; aceleași reguli pentru rețele, ape meteorice, cabluri și deșeuri (5 fracții).",
+    "S_Va*: construcțiile se retrag cel puțin 3 m de la aliniament și de limitele laterale și posterioară; accesul se face din străzile reglementate prin PUZ; aleile pietonale și velo se fac din agregate compactate, piatră naturală sau asfalt permeabil."
+  ],
+  "caroiaj": {
+    "pas_m": 50,
+    "px_per_m": 8.21,
+    "nord": 0,
+    "cruci_px": {
+      "A": [
+        2827,
+        678
+      ],
+      "B": [
+        3237,
+        676
+      ],
+      "C": [
+        1602,
+        1092
+      ],
+      "E": [
+        3241,
+        1085
+      ],
+      "F": [
+        3652,
+        1084
+      ],
+      "G": [
+        3245,
+        1493
+      ],
+      "H": [
+        3655,
+        1491
+      ],
+      "I": [
+        2018,
+        1908
+      ],
+      "J": [
+        3660,
+        1899
+      ],
+      "K": [
+        2021,
+        2317
+      ]
+    },
+    "ancora": {
+      "px": [
+        1900,
+        2090
+      ],
+      "en": [
+        393083.2,
+        592330.8
+      ],
+      "sursa": "OSM: axul str. Dealul Fânațelor (căile 694988922 și 926319048, geometria luată prin Nominatim, pentru că Overpass nu răspundea, deci `geocode --streets` n-a putut rula). Axul carosabilului desenat (18 puncte, de la marginea vestică a planșei până la bucla de la (1900, 2090) și în sus spre NNV) a fost potrivit pe axul OSM doar prin translație, cu scara și orientarea caroiajului: abatere 0,8 m rms, 1,5 m maxim. Ancora e vârful buclei."
+    }
+  },
+  "repere": {
+    "C393200_592500": [
+      592500.0,
+      393200.0
+    ],
+    "C393250_592500": [
+      592500.0,
+      393250.0
+    ],
+    "C393050_592450": [
+      592450.0,
+      393050.0
+    ],
+    "C393250_592450": [
+      592450.0,
+      393250.0
+    ],
+    "C393300_592450": [
+      592450.0,
+      393300.0
+    ],
+    "C393250_592400": [
+      592400.0,
+      393250.0
+    ],
+    "C393300_592400": [
+      592400.0,
+      393300.0
+    ],
+    "C393100_592350": [
+      592350.0,
+      393100.0
+    ],
+    "C393300_592350": [
+      592350.0,
+      393300.0
+    ],
+    "C393100_592300": [
+      592300.0,
+      393100.0
+    ]
+  },
+  "limita_px": [
+    [
+      1728,
+      1545
+    ],
+    [
+      2722,
+      866
+    ],
+    [
+      3066,
+      1406
+    ],
+    [
+      3345,
+      1995
+    ],
+    [
+      2893,
+      2590
+    ],
+    [
+      1785,
+      1645
+    ]
+  ],
+  "hotarare_text": "documente/2026-550/hotarare.txt"
+}
