@@ -1,8 +1,6 @@
 {
   "id": "2026-549",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Planșa nu are inventar de coordonate și nici caroiaj Stereo 70, iar metoda cu repere OpenStreetMap n-a putut rula: din sesiunea cloud, Overpass (overpass-api.de) a resetat fiecare conexiune la negocierea TLS (2026-11-10, între 03:59 și 04:15 UTC, inclusiv `geocode --streets` cu reîncercările lui); de reluat cu metoda OSM când Overpass răspunde.",
   "hcl": {
     "nr": 549,
     "an": 2026,
@@ -20,13 +18,26 @@
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "Planșa nu are inventar de coordonate și nici caroiaj Stereo 70 (nici cruci fără etichete); celelalte pagini ale PDF-ului sunt text. Rămâne metoda cu repere OpenStreetMap (georef_metoda osm) și limita trasată pe planșă (`limita_px`).",
+    "sursa": "Planșa nu are inventar de coordonate și nici caroiaj Stereo 70 (nici cruci fără etichete); celelalte pagini ale PDF-ului sunt text. Georeferențiere cu repere OpenStreetMap (georef_metoda osm, extrasul OSM din repo, date din 2026-11-08), potrivire de similaritate, limita trasată pe planșă (`limita_px`). Repere de control, colțuri de clădiri joase existente desenate pe planșă și în OSM: HALL_NW și ATL_NE (hala P+1E și atelierul de la NV, latura nordică; OSM 277372294), LL_NW și LL_SE (clădirea P de la SV; OSM 277372338), P1_SW (colțul SV al halei P+1E de la sud; OSM 277371924), H2_NE și H2_SE (colțurile estice ale corpului P+2E din capătul estic al aceleiași hale, lângă bretea; aceeași clădire OSM). Repere de verificare, în afara potrivirii: BOT_NE și BOT_SE (clădirea P de lângă Someș, latura estică; OSM 277372343), ATL_SE și LL_SW. Rezultat: 11,23 px/m (cotele laturilor parcelei dau 11,2-11,3 px/m), rotație 0,70°.",
     "suprafata_declarata_m2": 5500,
     "puncte": {},
-    "nota": "Suprafața: 5500 mp, din Art. 1 (teren identificat prin nr. cad. 259849), din bilanțul teritorial al planșei (existent: S_RIM 5487,34 mp + RRM1 12,66 mp; propus: RIM_A 5500 mp) și din eticheta „Suprafața teren conform carte funciară = 5500 mp”. Zona reglementată e parcela 259849 întreagă, cu tot cu fâșiile hașurate care se dezmembrează pentru str. Antonius Pius (la nord) și pentru regularizarea str. Fabricii (la est); limita e linia de proprietate cu triunghiuri („Limita de proprietate”), nu linia groasă întreruptă („Limita zonei în studiu”, dreptunghiul mare). Limita trasată (`limita_px`), în sensul acelor de ceasornic: colțul NV (1005, 1736); latura nordică ușor oblică (cota 52,51) până la (1595, 1711); decroșul spre sud de lângă magazii (cota 11,68) până la (1601, 1836); spre est (cota 42,74) până la (2076, 1828); treapta de 3,44 m spre nord până la (2076, 1782); spre est pe fața de sud a Căminului de nefamiliști (cotele 18,41 + 14,77) până la colțul NE (2450, 1765), lângă str. Fabricii; latura estică, pe marginea exterioară a fâșiei de regularizare a str. Fabricii, prin (2545, 1895), (2605, 1985), (2668, 2085) până la (2685, 2118); latura scurtă spre SV (cota 17,74) până la (2470, 2203); latura sudică (cota 126,89) până la colțul SV (1038, 2250); latura vestică (cota 45,95). La 11,3 px/m aria trasată e 5509 mp (+0,2%). Latura estică e cea mai nesigură: în fotocopie linia de proprietate se confundă cu marginile fâșiei hașurate și ale trotuarului str. Fabricii; de verificat cu `overlay` după potrivire. Pregătit pentru metoda OSM (încercarea din 2026-11-10, sesiune cloud, oprită pentru că Overpass nu răspundea): px_per_m 11,3, nord 0°. `osm_ancora` e punctul de adresă Nominatim al casei str. Fabricii nr. 127 (E 394400,4, N 589108,7), pus pe centrul casei 127 de pe planșă (~(2400, 1295)), nu o intersecție de străzi: bun la ~5-10 m. Pe ortofotoul Esri locul se confirmă: zona industrială de la vest de str. Fabricii, la nord de Someșul Mic și de podul str. Fabricii, la sud de șirul de case 121-129; după poziția Căminului pe ortofoto, parcela ar fi pe la E 394285-394412, N 589019-589070 (estimare de ±10 m). Repere bune (clădiri existente desenate pe planșă): Căminul de nefamiliști P+4E (nr. cad. 268912, nr. 125A), dreptunghiul ~(2105, 1475)-(2280, 1745), pe ortofoto probabil clădirea cu acoperiș gri-albăstrui de lângă str. Fabricii; casele 125, 127, 129, oblice față de stradă, ~(2290-2500, 1080-1650); hala P+1E și atelierul din stânga sus, ~(430-750, 1390-1600); halele P+2E și P+1E și clădirea P+2E de la sud de parcelă, ~(1850-2330, 2300-2700); magaziile de la nord, ~(1600-1810, 1700-1840). Intersecții posibile: str. Fabricii cu drumul de acces spre vest de la nord de casa 129 (în afara planșei, sus) - de căutat cu `osm`. În interiorul parcelei planșa nu desenează clădiri, deși ortofotoul arată o hală mare acolo (probabil de demolat)."
+    "nota": "Suprafața: 5500 mp, din Art. 1 (teren identificat prin nr. cad. 259849), din bilanțul teritorial al planșei (existent: S_RIM 5487,34 mp + RRM1 12,66 mp; propus: RIM_A 5500 mp) și din eticheta „Suprafața teren conform carte funciară = 5500 mp”. Zona reglementată e parcela 259849 întreagă, cu tot cu fâșiile hașurate care se dezmembrează pentru str. Antonius Pius (la nord) și pentru regularizarea bretelei str. Fabricii (la est); limita e linia de proprietate cu triunghiuri („Limita de proprietate”), nu linia groasă întreruptă („Limita zonei în studiu”). Limita trasată (`limita_px`), în sensul acelor de ceasornic: colțul NV (1005, 1736); latura nordică (cota 52,51) până la (1595, 1711); decroșul spre sud de lângă magazii (cota 11,68) până la (1601, 1836); spre est (cota 42,74) până la (2076, 1828); treapta de 3,44 m spre nord până la (2076, 1782); spre est, sub fața de sud a Căminului de nefamiliști (cotele 18,41 + 14,77), până la colțul NE (2450, 1765); latura estică, pe marginea exterioară a fâșiei de regularizare, prin (2545, 1895), (2605, 1985), (2668, 2085) până la (2685, 2118); latura scurtă spre SV (cota 17,74) până la (2470, 2203); latura sudică (cota 126,89) până la colțul SV (1038, 2250); latura vestică (cota 45,95). La scara potrivirii aria trasată e 5575 mp (+1,4%); laturile trasate față de cote: 52,57/52,51, 11,14/11,68, 42,29/42,74, 4,10/3,44, 33,33/33,18 (18,41 + 14,77), 127,55/126,89 și 45,85/45,95 m, deci cel mult 0,7 m diferență. Cel mai nesigur e colțul SE: în fotocopie linia de proprietate se confundă cu marginile fâșiei hașurate și ale trotuarului, iar latura scurtă trasată are 20,58 m față de cota 17,74 (2-3 m de verificat de un om). Reperele: Căminul de nefamiliști (P+4E, nr. cad. 268912) a fost lăsat deoparte: conturul lui din OSM e deplasat uniform cu ~5 m spre NV (toate patru colțurile, cu aproximativ -3,5 m pe E și +3,8 m pe N), după acoperișul văzut oblic în ortofoto; pe ortofotoul Esri acoperișul gri cade exact pe căminul planșei poziționat cu clădirile joase, iar cu căminul în potrivire scara ar ieși 11,43 px/m, în dezacord cu cotele planșei. Tot deoparte: partea vestică a clădirii P de lângă Someș (OSM 277372415, ~6 m mai lungă spre vest decât pe planșă), magaziile de la nord (în OSM se întind ~4 m mai spre sud) și casele 121-129 (contururi OSM cu anexe, altă formă decât pe planșă). Ancora inițială (`osm_ancora`): punctul de adresă Nominatim al casei str. Fabricii nr. 127, cu 11,3 px/m și nordul în sus; folosită doar până la primele două repere. În interiorul parcelei planșa nu desenează clădiri, deși ortofotoul și OSM arată hale acolo (de demolat)."
   },
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "HALL_NW": [674, 1443],
+    "LL_NW": [312, 2369],
+    "ATL_NE": [1174, 1407],
+    "LL_SE": [437, 2636],
+    "P1_SW": [1717, 2706],
+    "H2_NE": [2558, 2222],
+    "H2_SE": [2579, 2706]
+  },
+  "verificare_px": {
+    "BOT_NE": [2129, 2894],
+    "BOT_SE": [2131, 3035],
+    "ATL_SE": [1184, 1582],
+    "LL_SW": [336, 2641]
+  },
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
@@ -96,5 +107,31 @@
     [2685, 2118],
     [2470, 2203],
     [1038, 2250]
-  ]
+  ],
+  "repere": {
+    "HALL_NW": [589092.89, 394248.14],
+    "LL_NW": [589008.96, 394216.28],
+    "ATL_NE": [589096.36, 394291.49],
+    "LL_SE": [588986.29, 394228.86],
+    "P1_SW": [588982.09, 394341.18],
+    "H2_NE": [589024.9, 394417.21],
+    "H2_SE": [588981.85, 394418.52],
+    "BOT_NE": [588966.12, 394377.17],
+    "BOT_SE": [588951.88, 394378.06],
+    "ATL_SE": [589081.89, 394292.61],
+    "LL_SW": [588985.36, 394218.16]
+  },
+  "repere_osm": {
+    "HALL_NW": "colț de clădire (b277372294_0)",
+    "LL_NW": "colț de clădire (b277372338_0)",
+    "ATL_NE": "colț de clădire (b277372294_3)",
+    "LL_SE": "colț de clădire (b277372338_2)",
+    "P1_SW": "colț de clădire (b277371924_1)",
+    "H2_NE": "colț de clădire (b277371924_5)",
+    "H2_SE": "colț de clădire (b277371924_4)",
+    "BOT_NE": "colț de clădire (b277372343_3)",
+    "BOT_SE": "colț de clădire (b277372343_2)",
+    "ATL_SE": "colț de clădire (b277372294_2)",
+    "LL_SW": "colț de clădire (b277372338_3)"
+  }
 }

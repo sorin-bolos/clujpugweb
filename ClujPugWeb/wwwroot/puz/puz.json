@@ -2373,6 +2373,109 @@
   ]
  },
  {
+  "id": "2026-549",
+  "localitate": "cluj",
+  "hcl": "549/2026",
+  "data": "2026-08-06",
+  "titlu": "P.U.Z. – de restructurare urbană, dezvoltare ansamblu cu funcțiuni mixte, str. Septimiu Severus nr. 4",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-549-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/549.pdf",
+  "utr": [
+   {
+    "cod": "Rim_A",
+    "denumire": "Zonă mixtă: structură funcțională mixtă, cu locuire colectivă, activități terțiare și administrative; locuirea ocupă cel mult 70% din suprafața construită desfășurată totală; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "33 m; (1-3)S+P+8E+R, respectiv (1-3)S+P+6E dincolo de 75 m de la aliniamentul str. Fabricii (nr. cad. 335629); în plus un nivel tehnic de cel mult 20% din suprafața construită a ultimului nivel"
+   }
+  ],
+  "suprafata_m2": 5575,
+  "imagine": "puz/2026-549/plansa.webp",
+  "bounds": {
+   "west": 23.6133643,
+   "south": 46.7923879,
+   "east": 23.6153897,
+   "north": 46.7928781
+  },
+  "limita": [
+   [
+    23.6133865,
+    46.7928141
+   ],
+   [
+    23.6140733,
+    46.7928482
+   ],
+   [
+    23.6140846,
+    46.7927483
+   ],
+   [
+    23.614638,
+    46.792766
+   ],
+   [
+    23.6146364,
+    46.7928028
+   ],
+   [
+    23.6150718,
+    46.7928253
+   ],
+   [
+    23.615187,
+    46.7927235
+   ],
+   [
+    23.6152601,
+    46.7926529
+   ],
+   [
+    23.615337,
+    46.7925743
+   ],
+   [
+    23.6153579,
+    46.7925483
+   ],
+   [
+    23.6151103,
+    46.7924751
+   ],
+   [
+    23.6134428,
+    46.7924034
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 7,
+   "rms_m": 0.82,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-549/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-08-06"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă doar regimul de înălțime („(1-3)S+P+8E+R” lângă str. Fabricii și „(1-3)S+P+6” dincolo de cota de 75 m); hotărârea scrie (1-3)S+P+6E și adaugă H maxim = 33 m și un nivel tehnic de cel mult 20% din ultimul nivel.",
+   "Hotărârea limitează, pentru nivelurile cu locuințe, aria construită la 40% din suprafața terenului, iar locuirea la cel mult 70% din suprafața construită desfășurată; planșa nu le arată."
+  ],
+  "conditii": [
+   "Prin grija și pe cheltuiala investitorului (conform contractului de restructurare, Anexa 1): un spațiu (unitate individuală) de cel puțin 200 mp utili la parterul imobilului, cu acces din exterior, trece gratuit în proprietatea Municipiului Cluj-Napoca, la stadiul semifinisat, în cel mult 6 luni de la recepția imobilului.",
+   "Terenul necesar regularizării str. Fabricii (circulația publică nr. cad. 335629) și realizării str. Antonius Pius se dezmembrează din parcela 259849 și se înscrie în CF ca „drum” înainte de autorizația de construire a imobilului mixt; până la recepția construcției trece gratuit în domeniul public.",
+   "Retrageri: cel puțin 10 m față de str. Fabricii (nr. cad. 335629) și 5 m față de str. Antonius Pius, conform planșei; cel puțin 6 m față de limitele laterale și posterioară.",
+   "Accesul auto și pietonal se face direct din str. Fabricii (nr. cad. 335629); accese suplimentare din str. Antonius Pius se admit într-o etapă ulterioară, după realizarea integrală a străzii.",
+   "Parcarea se face în parcelă, cel puțin 75% în spații subterane, cu necesarul din Anexa 2 a R.L.U. al P.U.G.; ~10% din locuri pentru vizitatori; parcajele de la sol stau la cel puțin 5 m de ferestrele camerelor de locuit.",
+   "Indicii (POT, CUT, aria construită de 40% pentru nivelurile cu locuințe) se calculează la suprafața parcelei inițiale (nr. cad. 259849), deci și după cedarea fâșiilor de drum.",
+   "Zona se echipează edilitar complet înainte de autorizarea oricărei construcții; clădirile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în clădiri; cablurile aeriene sunt interzise; un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public.",
+   "La faza D.T.A.C.: avizul Autorității Aeronautice Civile Române pentru construcțiile de peste 25 m și avizarea proiectului în Comisia de estetică urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiara documentației."
+  ]
+ },
+ {
   "id": "2026-548",
   "localitate": "cluj",
   "hcl": "548/2026",
