@@ -1,0 +1,674 @@
+{
+  "id": "2025-641",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 641,
+    "an": 2025,
+    "data_sedinta": "2025-10-29",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-641-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/10/29/641-2.pdf"
+  },
+  "titlu": "P.U.Z. – Realizare pasaj rutier la intersecția B-dul Muncii cu str. Oașului",
+  "plansa": {
+    "pagina_pdf": 9,
+    "dpi": 300,
+    "denumire": "A.04 Plan reglementări urbanistice – unități teritoriale de referință (UTR)",
+    "scara": "nespecificată în cartuș (desenul e la ~1:1070 pe pagina A3)",
+    "nota": "PDF-ul are 9 pagini: hotărârea (p. 1-2), regulamentul local de urbanism (Anexa 1, p. 3-8) și o singură planșă, p. 9 (A3, scanată color la 300 ppi), ștampilată „Anexa 2 la Hotărârea nr. 641/2025 conține 1 pagină”: A.04 „Plan reglementări urbanistice unități teritoriale de referință – UTR” (proiect 13.8/2023, martie 2025, faza documentație pentru avize, rev. 00; titlul proiectului: „Modificare și actualizare S.F./D.A.L.I. și elaborare P.U.Z. pentru obiectivul de investiții «Realizare pasaj rutier la intersecția Bulevardului Muncii cu strada Oașului în municipiul Cluj-Napoca»”). Câmpul SCARA din cartuș e gol; desenul e la 11,06 px/m la 300 ppi (crucile caroiajului la 50 m), adică ~1:1070, probabil un 1:1000 redus pe A3. Nordul e în sus (rotație -0,01°). Planșa nu are tabel de indicatori: U.T.R.-urile sunt doar etichetate pe desen (Tr_P de două ori, Ve cu contur gri în jurul văii Chintăului). Legenda păstrată e cheia simbolurilor proiectului, din dreapta-jos („Limită de intervenție” – linia roz a limitei P.U.Z. – și „Limite cadastrale”); au rămas afară legenda planului topografic (geiger, hidrant, cămine, firide, stâlpi – simbolurile ridicării topo, nu reglementări), tabelul de proprietate și expropriere din dreapta-sus, bilanțurile teritoriale, cartușul, semnăturile și ștampilele. Bilanțul existent dă 16362 mp (RrM3 6377, Em 1446, Ec 2339, RiM 1300, S_RiM 4900), cel propus 16453 mp pe două rânduri „UTR Tr_P” (14583 și 1870 mp), plus un bilanț separat pentru UTR Ve, 1800 mp existent și propus."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate și nici etichete pe caroiaj. Georeferențiere pe caroiajul Stereo 70 al planului topografic din desen: cruci roșii la 50 m (553 px), etichetate cu `caroiaj`: 7 cruci citite pe planșă (centrul măsurat pe brațele subțiri, zoom 6×), pas 50 m, 11,06 px/m, nordul în sus; ancora: centrul sensului giratoriu existent str. Oașului / B-dul Muncii / str. Fânațelor din OSM (extrasul din 2026-11-08; cerc potrivit prin cele 26 de noduri ale inelului, E 393859,7 N 589773,0), ales pe planșă în centrul insulei giratoriului desenat, (2080, 1176); toate crucile cad la 4,2-4,4 m de nodurile de 50 m, deci etichetele sunt sigure. Control: crucile C393800_589750, C393900_589750, C393950_589750, C394050_589700 și C393850_589800; verificare: C393850_589750 și C394000_589700. Limita e trasată (`limita_px`) pe linia roz „Limită de intervenție”: banda roz a fost izolată după culoare, vârfurile alese la frângeri și mutate pe mijlocul benzii (drepte potrivite pe fiecare latură), curbele urmărite din 4 în 4 px și simplificate la 3 px, apoi verificate pe planșă; latura de nord a brațului spre str. Fânațelor, o curbă lină, e o parabolă potrivită prin mijlocul benzii (abatere 2 px rms). Aria trasată: 18213 mp, față de 18253 mp din bilanțurile propuse (16453 mp Tr_P + 1800 mp Ve; hotărârea: ~1,8 ha), -0,2%.",
+    "suprafata_declarata_m2": 18253.0,
+    "puncte": {},
+    "nota": "Crucile țin de desen, nu de macheta foii: sunt la exact 50 m una de alta (551-554 px), aliniate cu desenul, și cu o ancoră OSM independentă cad la ~4 m de nodurile Stereo 70; străzile din OSM (B-dul Muncii, str. Oașului, giratoriul) cad peste cele desenate. Crucile C394050_589700 (lângă colțul unei construcții roșii) și C393850_589800 au un braț acoperit; centrul lor e citit pe brațele vizibile."
+  },
+  "gcp_px": {
+    "C393800_589750": [
+      1394,
+      1392
+    ],
+    "C393900_589750": [
+      2498.5,
+      1390
+    ],
+    "C393950_589750": [
+      3052.5,
+      1391
+    ],
+    "C394050_589700": [
+      4153,
+      1951
+    ],
+    "C393850_589800": [
+      1953,
+      833
+    ]
+  },
+  "verificare_px": {
+    "C393850_589750": [
+      1947,
+      1391
+    ],
+    "C394000_589700": [
+      3601,
+      1950
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      4200,
+      2640,
+      4790,
+      2810
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Tr_P",
+      "denumire": "Zonă de circulație rutieră și amenajări aferente: platforma căilor de circulație și fâșiile de protecție, sistematizare verticală, construcții de artă inginerească (pasajul rutier), noduri rutiere, iluminat public, semnalizare și orientare rutieră, spații verzi amenajate",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (valea Chintăului, 1800 mp): se mențin prevederile R.L.U. al P.U.G.",
+      "pot_max": "1% (R.L.U. P.U.G.)",
+      "cut_max": "0,01 (R.L.U. P.U.G.)",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-10-29",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Bilanțul propus de pe planșă are două rânduri numite la fel, „UTR Tr_P” (14583 mp și 1870 mp); hotărârea reglementează un singur U.T.R. Tr_P, plus U.T.R. Ve (1800 mp), păstrat din P.U.G.",
+    "Bilanțul existent de pe planșă însumează 16362 mp, cel propus 16453 mp, pentru același teren (fără Ve); hotărârea dă ~1,8 ha, cât suma bilanțurilor propuse (18253 mp)."
+  ],
+  "conditii": [
+    "În culoarul arterei oprirea, staționarea și parcarea sunt interzise; lângă nodurile de circulație și stațiile de transport în comun se recomandă parcaje publice, pentru transferul intermodal.",
+    "Nodurile cu celelalte artere majore se reglementează prin P.U.Z.-ul arterei; accese spre parcelele riverane doar pentru obiective de interes public major, iar intersecții cu străzile locale doar dacă nu există alternative rezonabile, cu studii de trafic și accesibilitate.",
+    "Rețelele edilitare din culoar se pun numai în subteran: sunt interzise cablurile aeriene de orice fel și conductele pe sol; traversările se fac în subteran, cu excepția liniilor aeriene de înaltă tensiune.",
+    "Apele pluviale se colectează numai în culoarul arterei și se duc la emisari sau în canalizarea publică; e interzisă descărcarea lor spre terenurile vecine.",
+    "Amenajările respectă normativul NP 051/2012 (accesibilitatea pentru persoanele cu dizabilități).",
+    "Indicatoarele rutiere, semaforizarea și mutarea camerelor de supraveghere se fac pe baza unor proiecte de specialitate avizate de Serviciul Siguranța Circulației.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar, Municipiul Cluj-Napoca."
+  ],
+  "caroiaj": {
+    "pas_m": 50,
+    "px_per_m": 11.06,
+    "nord": 0,
+    "ancora": {
+      "px": [
+        2080,
+        1176
+      ],
+      "en": [
+        393859.7,
+        589773.0
+      ],
+      "sursa": "OSM (extrasul din 2026-11-08): centrul sensului giratoriu existent str. Oașului / B-dul Muncii / str. Fânațelor (cerc potrivit prin cele 26 de noduri ale inelului), ales pe planșă în centrul insulei giratoriului desenat"
+    },
+    "cruci_px": {
+      "K1": [
+        1394,
+        1392
+      ],
+      "K2": [
+        1947,
+        1391
+      ],
+      "K3": [
+        2498.5,
+        1390
+      ],
+      "K4": [
+        3052.5,
+        1391
+      ],
+      "K5": [
+        3601,
+        1950
+      ],
+      "K6": [
+        4153,
+        1951
+      ],
+      "K7": [
+        1953,
+        833
+      ]
+    },
+    "nota": "Crucile citite pe planșă cu centrul măsurat pe brațe (zoom 6×); `caroiaj --write` le-a pus în `repere` și `gcp_px`, iar C393850_589750 și C394000_589700 au fost mutate în `verificare_px`."
+  },
+  "repere": {
+    "C393800_589750": [
+      589750.0,
+      393800.0
+    ],
+    "C393850_589750": [
+      589750.0,
+      393850.0
+    ],
+    "C393900_589750": [
+      589750.0,
+      393900.0
+    ],
+    "C393950_589750": [
+      589750.0,
+      393950.0
+    ],
+    "C394000_589700": [
+      589700.0,
+      394000.0
+    ],
+    "C394050_589700": [
+      589700.0,
+      394050.0
+    ],
+    "C393850_589800": [
+      589800.0,
+      393850.0
+    ]
+  },
+  "limita_px": [
+    [
+      1976.4,
+      467.5
+    ],
+    [
+      2152.2,
+      456.5
+    ],
+    [
+      2156.9,
+      580.5
+    ],
+    [
+      2154.6,
+      700.2
+    ],
+    [
+      2162.1,
+      796.0
+    ],
+    [
+      2177.0,
+      903.0
+    ],
+    [
+      2280,
+      889.3
+    ],
+    [
+      2360,
+      877.2
+    ],
+    [
+      2440,
+      862.0
+    ],
+    [
+      2520,
+      843.6
+    ],
+    [
+      2600,
+      822.1
+    ],
+    [
+      2680,
+      797.5
+    ],
+    [
+      2760,
+      769.7
+    ],
+    [
+      2851.9,
+      724.7
+    ],
+    [
+      2868.7,
+      723.2
+    ],
+    [
+      2895.0,
+      788.3
+    ],
+    [
+      3125.0,
+      719.5
+    ],
+    [
+      3146.0,
+      796.5
+    ],
+    [
+      3016.3,
+      830.8
+    ],
+    [
+      2997.9,
+      870.8
+    ],
+    [
+      3009.0,
+      913.2
+    ],
+    [
+      2986.6,
+      970.6
+    ],
+    [
+      2950.3,
+      1050.8
+    ],
+    [
+      2901.5,
+      1032.8
+    ],
+    [
+      2854.1,
+      1115.1
+    ],
+    [
+      2832.7,
+      1160.1
+    ],
+    [
+      2843.4,
+      1212.3
+    ],
+    [
+      2953.0,
+      1268.7
+    ],
+    [
+      2954.0,
+      1285.4
+    ],
+    [
+      2963.3,
+      1295.7
+    ],
+    [
+      2969.3,
+      1317.9
+    ],
+    [
+      3269.0,
+      1445.4
+    ],
+    [
+      3400.8,
+      1513.0
+    ],
+    [
+      3918.0,
+      1801.0
+    ],
+    [
+      4103.0,
+      1912.8
+    ],
+    [
+      4134.8,
+      1929.8
+    ],
+    [
+      4144.4,
+      1928.8
+    ],
+    [
+      4205.8,
+      1966.6
+    ],
+    [
+      4207.3,
+      1972.1
+    ],
+    [
+      4258.4,
+      2003.7
+    ],
+    [
+      4315.7,
+      2048.9
+    ],
+    [
+      4761.9,
+      2287.6
+    ],
+    [
+      4620.1,
+      2549.4
+    ],
+    [
+      2799.5,
+      1597.8
+    ],
+    [
+      2421.2,
+      1397.4
+    ],
+    [
+      2316.0,
+      1343.3
+    ],
+    [
+      2196.5,
+      1368.9
+    ],
+    [
+      2132.0,
+      1412.5
+    ],
+    [
+      2078.6,
+      1452.5
+    ],
+    [
+      2083.9,
+      1499.4
+    ],
+    [
+      2090.8,
+      1563.6
+    ],
+    [
+      2175.2,
+      1763.0
+    ],
+    [
+      1995.3,
+      1841.1
+    ],
+    [
+      1824.9,
+      1425.3
+    ],
+    [
+      1798.5,
+      1435.2
+    ],
+    [
+      1756.4,
+      1461.3
+    ],
+    [
+      1705.4,
+      1495.8
+    ],
+    [
+      1684.7,
+      1508.3
+    ],
+    [
+      1658.1,
+      1533.2
+    ],
+    [
+      1607.2,
+      1587.1
+    ],
+    [
+      1547.7,
+      1647.7
+    ],
+    [
+      1479.6,
+      1714.9
+    ],
+    [
+      1414.3,
+      1779.9
+    ],
+    [
+      1344.9,
+      1847.2
+    ],
+    [
+      1350.7,
+      1896.1
+    ],
+    [
+      1522.0,
+      2326.5
+    ],
+    [
+      1373.0,
+      2395.2
+    ],
+    [
+      1329.2,
+      2278.7
+    ],
+    [
+      1309.2,
+      2261.0
+    ],
+    [
+      1292.9,
+      2250.4
+    ],
+    [
+      1206.0,
+      2009.8
+    ],
+    [
+      1138.8,
+      2045.2
+    ],
+    [
+      1118.9,
+      2050.4
+    ],
+    [
+      1104.0,
+      2062.7
+    ],
+    [
+      1093.2,
+      2075.0
+    ],
+    [
+      1004.8,
+      2136.2
+    ],
+    [
+      995.3,
+      2149.5
+    ],
+    [
+      957.7,
+      2173.8
+    ],
+    [
+      901.0,
+      2236.0
+    ],
+    [
+      816.1,
+      2323.2
+    ],
+    [
+      881.2,
+      2453.9
+    ],
+    [
+      799.3,
+      2516.0
+    ],
+    [
+      777.5,
+      2482.4
+    ],
+    [
+      775.2,
+      2469.9
+    ],
+    [
+      739.2,
+      2406.2
+    ],
+    [
+      640.9,
+      2509.6
+    ],
+    [
+      504.5,
+      2374.4
+    ],
+    [
+      497.1,
+      2353.2
+    ],
+    [
+      499.6,
+      2350.0
+    ],
+    [
+      697.6,
+      2144.7
+    ],
+    [
+      729.6,
+      2119.0
+    ],
+    [
+      787.5,
+      2052.6
+    ],
+    [
+      853.7,
+      1951.9
+    ],
+    [
+      879.5,
+      1900.9
+    ],
+    [
+      925.8,
+      1835.5
+    ],
+    [
+      949.0,
+      1816.1
+    ],
+    [
+      958.7,
+      1798.0
+    ],
+    [
+      1016.9,
+      1737.6
+    ],
+    [
+      1033.0,
+      1650.6
+    ],
+    [
+      1056.8,
+      1541.5
+    ],
+    [
+      1077.9,
+      1441.5
+    ],
+    [
+      1090.5,
+      1358.7
+    ],
+    [
+      1168.3,
+      1373.8
+    ],
+    [
+      1189.4,
+      1235.9
+    ],
+    [
+      1276.5,
+      1220.9
+    ],
+    [
+      1333.1,
+      1211.3
+    ],
+    [
+      1390.7,
+      1193.6
+    ],
+    [
+      1444.6,
+      1170.1
+    ],
+    [
+      1501.7,
+      1144.2
+    ],
+    [
+      1562.3,
+      1120.5
+    ],
+    [
+      1620.3,
+      1095.7
+    ],
+    [
+      1664.8,
+      1077.0
+    ],
+    [
+      1688.7,
+      1069.3
+    ],
+    [
+      1722.5,
+      1031.4
+    ],
+    [
+      1746.5,
+      991.8
+    ],
+    [
+      1774.5,
+      939.8
+    ],
+    [
+      1804.1,
+      883.4
+    ],
+    [
+      1828.0,
+      824.1
+    ],
+    [
+      1851.1,
+      764.5
+    ],
+    [
+      1865.0,
+      718.8
+    ],
+    [
+      1938.8,
+      712.4
+    ],
+    [
+      1973.2,
+      567.0
+    ]
+  ]
+}
