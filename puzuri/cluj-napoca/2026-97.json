@@ -1,0 +1,161 @@
+{
+  "id": "2026-97",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 97,
+    "an": 2026,
+    "data_sedinta": "2026-03-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-97-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-97.pdf"
+  },
+  "titlu": "P.U.Z. – dezvoltare zonă mixtă – str. Frunzișului nr. 117",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 200,
+    "denumire": "Plan reglementări (planșa A.03; în hotărâre „Planșa A.03 – Plan Reglementări Urbanistice”, Anexa 2)",
+    "scara": "1:1000",
+    "nota": "PDF-ul are planșa de două ori, ambele pe A3 la 200 ppi (3307×2339 px): p. 11, scanată în tonuri șterse, cu mențiunea „Anexa 2 la Hotărârea nr. 97/2026” și semnăturile președintelui de ședință și secretarului general, și p. 15, color și mai clară, cu ștampila „Vizat spre neschimbare” (anexă la avizul Arhitectului-șef nr. 97 din 7.07.2025) și mențiunea de mână „H.C.L. nr. 97 din 20 martie 2026”. E același desen (A.03 „Plan reglementari”, proiect nr. 1280/2017, datat 11/24/2025); s-a folosit p. 15. Celelalte pagini sunt A4: hotărârea (1-2), regulamentul local de urbanism (Anexa 1, p. 3-10), avizul Arhitectului-șef (12-14), raportul informării și consultării publicului (16-17) și anexele lui (18-21). Cartușul scrie „Scara 1:1000, 1:1.79”; potrivirea dă 7,8 px/m, adică 1:1000 aproape întocmai la 200 ppi (7,87 px/m), cu planșa rotită cu circa 7° față de nordul Stereo 70. Legenda cuprinde coloana „LEGENDA” din dreapta (simbolurile), rândurile despre U.T.R. din caseta de text din mijloc (UM3 și Lc_A existente, cu POT/CUT după P.U.G.; rândurile de deasupra, cu beneficiarul și cartea funciară, au rămas afară) și tabelul de jos cu POT/CUT pe U.T.R., existent (UM3, LCa) și propus (M3*: POT 40%, CUT 2), intitulat pe planșă „Bilanț teritorial zona reglementată”, dar singurul tabel cu indicii propuși. Au rămas afară bilanțul teritorial pe parcelă, tabelul suprafețelor construite pe niveluri, tabelul parcărilor și nota despre locurile de parcare pentru biciclete, tabelul suprafețelor pe U.T.R., inventarul de coordonate, cartușul și ștampilele. Planșa se contrazice la U.T.R. UM3 existent: caseta de text dă POT 40% după P.U.G., tabelul de jos 50%."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă: tabelul „Coordonate pct. de contur” al parcelei (1F+2A) (X [m] = Nord, Y [m] = Est, Stereo 70), 7 puncte în ordinea conturului, dar nu în ordinea numerelor (142, 255, 263, 293, 269, 183, 288), cu lungimile laturilor D(i,i+1) și perimetrul P = 313,930 m. Suprafața: S = 2550,42 mp, din tabel (2550 mp în Art. 1 și în eticheta parcelei, nr. cad. 324882). Puncte de control, pe mijlocul liniei punctate a limitei zonei reglementate: 183 (vârful nord-vestic, sub triunghiurile albastre ale zonei studiate), 288 (colțul nordic, unde coboară „limita de proprietate”), 263 (colțul estic, spre str. Frunzișului) și 269 (vârful sudic). Puncte de verificare: 142 și 255 (colțurile laturii nordice a părții late a parcelei) și 293 (o frântură mică a laturii estice, pe o porțiune aproape dreaptă, de aceea mai puțin precisă).",
+    "suprafata_declarata_m2": 2550.42,
+    "puncte": {
+      "142": [
+        584585.623,
+        391261.133
+      ],
+      "255": [
+        584591.686,
+        391279.423
+      ],
+      "263": [
+        584555.465,
+        391292.668
+      ],
+      "293": [
+        584530.245,
+        391279.459
+      ],
+      "269": [
+        584507.971,
+        391270.074
+      ],
+      "183": [
+        584640.792,
+        391233.445
+      ],
+      "288": [
+        584633.459,
+        391247.633
+      ]
+    },
+    "laturi_declarate_m": {
+      "142": 19.269,
+      "255": 38.567,
+      "263": 28.47,
+      "293": 24.17,
+      "269": 137.779,
+      "183": 15.971,
+      "288": 49.704
+    },
+    "perimetru_declarat_m": 313.93,
+    "ordine": [
+      "142",
+      "255",
+      "263",
+      "293",
+      "269",
+      "183",
+      "288"
+    ],
+    "nota": "Numărul celui de-al doilea punct se citește 255 la mărire (la rezoluție mică pare 256). Laturile, perimetrul și suprafața calculate din inventar se potrivesc cu cele tipărite. Pe latura 288-142, textul roșu „limita de proprietate” e scris lângă linia limitei, spre est; suprapunerea limitei calculate urmează linia subțire, nu textul."
+  },
+  "gcp_px": {
+    "183": [
+      421,
+      668
+    ],
+    "288": [
+      538,
+      708
+    ],
+    "263": [
+      940,
+      1270
+    ],
+    "269": [
+      800,
+      1657
+    ]
+  },
+  "verificare_px": {
+    "142": [
+      675,
+      1065
+    ],
+    "255": [
+      808,
+      1003
+    ],
+    "293": [
+      861,
+      1477
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2384,
+      56,
+      2782,
+      1260
+    ],
+    [
+      1178,
+      1601,
+      1762,
+      1826
+    ],
+    [
+      1100,
+      2040,
+      2312,
+      2256
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M3*",
+      "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic: structură funcțională mixtă, incluzând funcțiuni de sănătate, servicii profesionale medicale și funcțiuni turistice (aparthotel), acestea din urmă de cel mult 30% din suprafața utilă a imobilului; regim de construire deschis",
+      "pot_max": "40%",
+      "cut_max": "2",
+      "h_max": "2S+D+P+6E; H cornișă max. 25 m, H max. 28 m; un etaj tehnic (numai funcțiuni tehnice, cel mult 30% din suprafața utilă a ultimului etaj) și niveluri parțiale (supante, mezanine) numai în limita acestor înălțimi"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-03-20",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare (ședința din 20.03.2026); nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: eticheta U.T.R. de pe planșă dă numai regimul Rh = 2S+D+P+6+Th, iar bilanțul pe parcelă (propunerea de mobilare) dă regimul 2S+D+P+6 și H maxim 24 m; Art. 1 dă 2S+D+P+6E, H la cornișă de cel mult 25 m și H maxim 28 m, cu etajul tehnic încadrat în înălțimea maximă.",
+    "Funcțiunile: bilanțul pe parcelă trece 1165,90 mp ca „Scd locuire” (în tabelul suprafețelor pe niveluri aceeași suprafață e „Sd Aparthotel”) și 2726,36 mp clinică; Art. 1 numește funcțiuni de sănătate, servicii medicale și turistice (aparthotel), cele turistice de cel mult 30% din suprafața utilă, fără să numească locuirea."
+  ],
+  "conditii": [
+    "Funcțiunile turistice (aparthotel) nu pot depăși 30% din suprafața utilă a imobilului.",
+    "Retrageri: minim 6 m față de aliniament; față de limitele laterale cel puțin jumătate din înălțimea clădirii, dar minim 4,5 m, cu retragere în trepte admisă dacă regula se respectă la fiecare cornișă sau atic intermediar; prin excepție, pentru accentul volumetric dinspre str. Frunzișului, minim 6 m față de limita laterală estică; minim 4 m față de limita posterioară.",
+    "Accesul se face din str. Frunzișului, cu intrarea și ieșirea din incintă numai prin viraje la dreapta; cele două accese auto (unul de intrare, unul de ieșire) au bordură teșită, fără modificarea cotei trotuarului existent (NP 051/2012). Pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+    "Parcarea: cel puțin 60% din locuri în spații dedicate la subsol, demisol sau parter, numărul lor după Anexa 2 a R.L.U. al P.U.G.; se rezervă 2 locuri pentru persoane cu dizabilități și 2 pentru femei însărcinate și persoane însoțite de copii de până la 5 ani.",
+    "Toate utilitățile se asigură prin racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contoarele se integrează în împrejmuiri; cablurile nu se montează aerian; parcela are un spațiu interior pentru colectarea selectivă a deșeurilor pe cinci fracții, accesibil din spațiul public.",
+    "Recepția finală a construcției se face după H.G. nr. 343/2017, numai după acordul Serviciului Siguranța Circulației, care verifică îndeplinirea condițiilor din avizul de trafic nr. 739983/446/8.10.2024 dat pentru P.U.Z.",
+    "La faza D.T.A.C. proiectul trece prin Comisia de Estetică Urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}

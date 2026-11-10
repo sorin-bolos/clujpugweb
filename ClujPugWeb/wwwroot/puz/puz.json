@@ -5166,6 +5166,86 @@
   ]
  },
  {
+  "id": "2026-97",
+  "localitate": "cluj",
+  "hcl": "97/2026",
+  "data": "2026-03-20",
+  "titlu": "P.U.Z. – dezvoltare zonă mixtă – str. Frunzișului nr. 117",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-97-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-97.pdf",
+  "utr": [
+   {
+    "cod": "M3*",
+    "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic: structură funcțională mixtă, incluzând funcțiuni de sănătate, servicii profesionale medicale și funcțiuni turistice (aparthotel), acestea din urmă de cel mult 30% din suprafața utilă a imobilului; regim de construire deschis",
+    "pot_max": "40%",
+    "cut_max": "2",
+    "h_max": "2S+D+P+6E; H cornișă max. 25 m, H max. 28 m; un etaj tehnic (numai funcțiuni tehnice, cel mult 30% din suprafața utilă a ultimului etaj) și niveluri parțiale (supante, mezanine) numai în limita acestor înălțimi"
+   }
+  ],
+  "suprafata_m2": 2550,
+  "imagine": "puz/2026-97/plansa.webp",
+  "bounds": {
+   "west": 23.5745297,
+   "south": 46.751277,
+   "east": 23.5753902,
+   "north": 46.7525501
+  },
+  "limita": [
+   [
+    23.5749366,
+    46.7520223
+   ],
+   [
+    23.5751745,
+    46.7520798
+   ],
+   [
+    23.5753564,
+    46.7517561
+   ],
+   [
+    23.5751895,
+    46.7515271
+   ],
+   [
+    23.5750719,
+    46.7513252
+   ],
+   [
+    23.5745612,
+    46.7525141
+   ],
+   [
+    23.5747486,
+    46.7524504
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.18
+  },
+  "legenda": "puz/2026-97/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-03-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: eticheta U.T.R. de pe planșă dă numai regimul Rh = 2S+D+P+6+Th, iar bilanțul pe parcelă (propunerea de mobilare) dă regimul 2S+D+P+6 și H maxim 24 m; Art. 1 dă 2S+D+P+6E, H la cornișă de cel mult 25 m și H maxim 28 m, cu etajul tehnic încadrat în înălțimea maximă.",
+   "Funcțiunile: bilanțul pe parcelă trece 1165,90 mp ca „Scd locuire” (în tabelul suprafețelor pe niveluri aceeași suprafață e „Sd Aparthotel”) și 2726,36 mp clinică; Art. 1 numește funcțiuni de sănătate, servicii medicale și turistice (aparthotel), cele turistice de cel mult 30% din suprafața utilă, fără să numească locuirea."
+  ],
+  "conditii": [
+   "Funcțiunile turistice (aparthotel) nu pot depăși 30% din suprafața utilă a imobilului.",
+   "Retrageri: minim 6 m față de aliniament; față de limitele laterale cel puțin jumătate din înălțimea clădirii, dar minim 4,5 m, cu retragere în trepte admisă dacă regula se respectă la fiecare cornișă sau atic intermediar; prin excepție, pentru accentul volumetric dinspre str. Frunzișului, minim 6 m față de limita laterală estică; minim 4 m față de limita posterioară.",
+   "Accesul se face din str. Frunzișului, cu intrarea și ieșirea din incintă numai prin viraje la dreapta; cele două accese auto (unul de intrare, unul de ieșire) au bordură teșită, fără modificarea cotei trotuarului existent (NP 051/2012). Pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+   "Parcarea: cel puțin 60% din locuri în spații dedicate la subsol, demisol sau parter, numărul lor după Anexa 2 a R.L.U. al P.U.G.; se rezervă 2 locuri pentru persoane cu dizabilități și 2 pentru femei însărcinate și persoane însoțite de copii de până la 5 ani.",
+   "Toate utilitățile se asigură prin racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contoarele se integrează în împrejmuiri; cablurile nu se montează aerian; parcela are un spațiu interior pentru colectarea selectivă a deșeurilor pe cinci fracții, accesibil din spațiul public.",
+   "Recepția finală a construcției se face după H.G. nr. 343/2017, numai după acordul Serviciului Siguranța Circulației, care verifică îndeplinirea condițiilor din avizul de trafic nr. 739983/446/8.10.2024 dat pentru P.U.Z.",
+   "La faza D.T.A.C. proiectul trece prin Comisia de Estetică Urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2026-103",
   "localitate": "cluj",
   "hcl": "103/2026",
