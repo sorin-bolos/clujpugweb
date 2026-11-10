@@ -1,0 +1,191 @@
+{
+  "id": "2023-827",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 827,
+    "an": 2023,
+    "data_sedinta": "2023-12-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-827-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-827.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare unitate economică, str. Cheile Baciului nr. 4",
+  "plansa": {
+    "pagina_pdf": 24,
+    "dpi": 200,
+    "denumire": "Planșa 2 – Reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul are 26 de pagini: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii), Anexa 1 – copia planșei redusă pe A4 (p. 3, 300 ppi), documentația și Anexa 2 R.L.U. (p. 4-18), avize (p. 19-22), extrasul din P.U.G. (p. 23), planșa 2 „Reglementări urbanistice – zonificare” la format mare (p. 24, 200 ppi, aleasă: e mai clară decât copia de pe p. 3) și alte pagini de aviz (p. 25-26). Planșa nu are inventar de coordonate; are caroiaj Stereo70 cu cruci la 100 m, etichetate pe margini (Est vertical, sus și jos; Nord orizontal, stânga și dreapta). Scara 1:500, tipărită la circa 99% (15,6 px/m la 200 ppi). Linia roșie punctată („Limita zonei studiate”, terenul CF 308484) e desenată cu un decalaj de circa 1 m spre exterior față de linia neagră a parcelei; limita a fost trasată pe linia neagră, marginea zonei galbene (aria iese 21591 mp, față de 21601 mp; pe linia punctată ar fi ieșit cu circa 3% mai mult). Pe latura dinspre str. Molidului, la circa 1,8 m în afara limitei, e o a doua linie neagră (marginea drumului), care nu face parte din parcelă. Legenda ia cheia simbolurilor, rândul de titlu și rândurile P.O.T./C.U.T. din tabelul „Indicatori suprafețe propuse”; lasă deoparte suprafețele din același tabel, datele parcelei, indicatorii tehnico-spațiali, bilanțul teritorial și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate; georeferențiere pe caroiajul Stereo70 (cruci la 100 m, etichetate pe margini): control în cele patru colțuri ale pătratului E 387500-387700 / N 588100-588300, verificare pe crucile E 387600 / N 588300 și E 387600 / N 588100, toate citite pe planșă. Limita e trasată pe linia neagră a parcelei CF 308484 (14 vârfuri, cu treapta de pe latura nord-estică și decroșurile de la colțul estic și de lângă colțul nordic).",
+    "suprafata_declarata_m2": 21601,
+    "puncte": {}
+  },
+  "repere": {
+    "C387500_588300": [
+      588300,
+      387500
+    ],
+    "C387600_588300": [
+      588300,
+      387600
+    ],
+    "C387700_588300": [
+      588300,
+      387700
+    ],
+    "C387500_588100": [
+      588100,
+      387500
+    ],
+    "C387600_588100": [
+      588100,
+      387600
+    ],
+    "C387700_588100": [
+      588100,
+      387700
+    ]
+  },
+  "gcp_px": {
+    "C387500_588300": [
+      2824,
+      316.5
+    ],
+    "C387700_588300": [
+      5946,
+      327
+    ],
+    "C387500_588100": [
+      2809,
+      3429
+    ],
+    "C387700_588100": [
+      5933,
+      3437.5
+    ]
+  },
+  "verificare_px": {
+    "C387600_588300": [
+      4385,
+      322.5
+    ],
+    "C387600_588100": [
+      4369.5,
+      3432.5
+    ]
+  },
+  "limita_px": [
+    [
+      4179.2,
+      281.7
+    ],
+    [
+      4669.3,
+      835.7
+    ],
+    [
+      4697.5,
+      846.5
+    ],
+    [
+      6284.8,
+      2704.8
+    ],
+    [
+      6065.3,
+      2890.9
+    ],
+    [
+      6068.0,
+      2918.2
+    ],
+    [
+      6145.4,
+      3030.4
+    ],
+    [
+      5752.2,
+      3555.8
+    ],
+    [
+      5322.2,
+      4026.5
+    ],
+    [
+      3072.2,
+      1199.4
+    ],
+    [
+      3302.8,
+      1021.0
+    ],
+    [
+      3776.1,
+      607.1
+    ],
+    [
+      4029.6,
+      390.0
+    ],
+    [
+      4059.6,
+      381.9
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      7258,
+      452,
+      8685,
+      1730
+    ],
+    [
+      7258,
+      1915,
+      8685,
+      1968
+    ],
+    [
+      7258,
+      2244,
+      8685,
+      2402
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Ei*",
+      "denumire": "Subzonă de activități economice cu caracter industrial – mari unități industriale; funcțiunea predominantă: unități industriale de producție și de depozitare; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "1,2",
+      "h_max": "clădirile noi: 9 m la cornișă, 13 m total, regim maxim S+P+E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-12-04",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Se reglementează un teren de 21601 mp, proprietate privată, nr. cad. 308484, pe care există clădiri; se construiește o hală de depozitare și producție cu spații administrative, corpurile C4 și C8 își schimbă funcțiunea; parcelarul existent se păstrează.",
+    "Înălțimile de 9 m la cornișă și 13 m total (regim S+P+E) privesc clădirile noi; P.U.Z.-ul nu propune supraetajarea clădirilor existente (R.L.U., art. 3.7).",
+    "Aliniamentul existent se păstrează; clădirile noi și extinderile se retrag față de ambele aliniamente (parcelă de colț, str. Cheile Baciului și str. Molidului) cel puțin cât clădirile învecinate existente, dar minimum 8 m; în zona accesului din str. Cheile Baciului retragerea poate fi mai mică de 8 m.",
+    "Față de limitele laterale, clădirile se retrag cel puțin jumătate din înălțimea lor, minimum 6 m; față de limita posterioară, cel puțin înălțimea lor, minimum 6 m; între două clădiri de pe parcelă, cel puțin două treimi din înălțimea celei mai înalte, minimum 6 m (R.L.U., art. 3.4).",
+    "Accesele existente din str. Cheile Baciului și str. Molidului se păstrează; accesul principal în incintă se face din str. Cheile Baciului, cu loc de staționare pentru vehiculele care așteaptă intrarea, în afara circulației publice (R.L.U., art. 3.5).",
+    "Parcare: 1 loc la 80 mp arie utilă, de regulă la sol în incintă (sau în clădiri dedicate); vehiculele de marfă și orice alt vehicul decât autoturismele staționează numai în incintă, nu pe spațiul public.",
+    "Echipare edilitară completă: racord la rețelele publice, apele pluviale nu se scurg spre domeniul public sau spre parcelele vecine, branșamentele și contorizarea integrate în împrejmuiri sau în clădiri din incintă, fără cabluri aeriene pe spațiul public, spațiu pentru colectarea deșeurilor în incintă, accesibil din spațiul public.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă, iar grădina de fațadă cel puțin 50%; parcajele la sol se plantează cu un arbore la 6 locuri; arborii maturi nu se taie decât dacă sunt un pericol (R.L.U., art. 3.10). Planșa prevede 12 arbori noi și 20,59% spații verzi.",
+    "Împrejmuirile spre spațiul public au soclu opac de cel mult 80 cm și parte transparentă, înalte de cel mult 2,20 m; spre vecini, cel mult 2,20 m (R.L.U., art. 3.11).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}

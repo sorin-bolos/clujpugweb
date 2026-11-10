@@ -6729,6 +6729,112 @@
   ]
  },
  {
+  "id": "2023-827",
+  "localitate": "cluj",
+  "hcl": "827/2023",
+  "data": "2023-12-04",
+  "titlu": "P.U.Z. – Dezvoltare unitate economică, str. Cheile Baciului nr. 4",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-827-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-827.pdf",
+  "utr": [
+   {
+    "cod": "S_Ei*",
+    "denumire": "Subzonă de activități economice cu caracter industrial – mari unități industriale; funcțiunea predominantă: unități industriale de producție și de depozitare; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "clădirile noi: 9 m la cornișă, 13 m total, regim maxim S+P+E"
+   }
+  ],
+  "suprafata_m2": 21591,
+  "imagine": "puz/2023-827/plansa.webp",
+  "bounds": {
+   "west": 23.5249905,
+   "south": 46.7826545,
+   "east": 23.5278058,
+   "north": 46.7848929
+  },
+  "limita": [
+   [
+    23.5259437,
+    46.784851
+   ],
+   [
+    23.5263654,
+    46.7845369
+   ],
+   [
+    23.5263893,
+    46.784531
+   ],
+   [
+    23.5277564,
+    46.7834765
+   ],
+   [
+    23.527576,
+    46.7833661
+   ],
+   [
+    23.5275788,
+    46.7833504
+   ],
+   [
+    23.5276459,
+    46.7832865
+   ],
+   [
+    23.5273264,
+    46.7829778
+   ],
+   [
+    23.526975,
+    46.7827003
+   ],
+   [
+    23.5250332,
+    46.7843066
+   ],
+   [
+    23.5252231,
+    46.7844127
+   ],
+   [
+    23.525612,
+    46.7846579
+   ],
+   [
+    23.5258203,
+    46.7847865
+   ],
+   [
+    23.5258453,
+    46.7847916
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.05
+  },
+  "legenda": "puz/2023-827/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-12-04"
+  },
+  "conditii": [
+   "Se reglementează un teren de 21601 mp, proprietate privată, nr. cad. 308484, pe care există clădiri; se construiește o hală de depozitare și producție cu spații administrative, corpurile C4 și C8 își schimbă funcțiunea; parcelarul existent se păstrează.",
+   "Înălțimile de 9 m la cornișă și 13 m total (regim S+P+E) privesc clădirile noi; P.U.Z.-ul nu propune supraetajarea clădirilor existente (R.L.U., art. 3.7).",
+   "Aliniamentul existent se păstrează; clădirile noi și extinderile se retrag față de ambele aliniamente (parcelă de colț, str. Cheile Baciului și str. Molidului) cel puțin cât clădirile învecinate existente, dar minimum 8 m; în zona accesului din str. Cheile Baciului retragerea poate fi mai mică de 8 m.",
+   "Față de limitele laterale, clădirile se retrag cel puțin jumătate din înălțimea lor, minimum 6 m; față de limita posterioară, cel puțin înălțimea lor, minimum 6 m; între două clădiri de pe parcelă, cel puțin două treimi din înălțimea celei mai înalte, minimum 6 m (R.L.U., art. 3.4).",
+   "Accesele existente din str. Cheile Baciului și str. Molidului se păstrează; accesul principal în incintă se face din str. Cheile Baciului, cu loc de staționare pentru vehiculele care așteaptă intrarea, în afara circulației publice (R.L.U., art. 3.5).",
+   "Parcare: 1 loc la 80 mp arie utilă, de regulă la sol în incintă (sau în clădiri dedicate); vehiculele de marfă și orice alt vehicul decât autoturismele staționează numai în incintă, nu pe spațiul public.",
+   "Echipare edilitară completă: racord la rețelele publice, apele pluviale nu se scurg spre domeniul public sau spre parcelele vecine, branșamentele și contorizarea integrate în împrejmuiri sau în clădiri din incintă, fără cabluri aeriene pe spațiul public, spațiu pentru colectarea deșeurilor în incintă, accesibil din spațiul public.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă, iar grădina de fațadă cel puțin 50%; parcajele la sol se plantează cu un arbore la 6 locuri; arborii maturi nu se taie decât dacă sunt un pericol (R.L.U., art. 3.10). Planșa prevede 12 arbori noi și 20,59% spații verzi.",
+   "Împrejmuirile spre spațiul public au soclu opac de cel mult 80 cm și parte transparentă, înalte de cel mult 2,20 m; spre vecini, cel mult 2,20 m (R.L.U., art. 3.11).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2023-604",
   "localitate": "cluj",
   "hcl": "604/2023",
