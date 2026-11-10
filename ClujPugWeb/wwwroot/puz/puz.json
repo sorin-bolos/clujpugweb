@@ -8655,6 +8655,148 @@
   ]
  },
  {
+  "id": "2024-558",
+  "localitate": "cluj",
+  "hcl": "558/2024",
+  "data": "2024-07-22",
+  "titlu": "P.U.Z. – de urbanizare, str. Odobești-str. Anton Bacalbașa",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-558-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/08/01/HCL-558.pdf",
+  "utr": [
+   {
+    "cod": "Liu-1",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale cuplate și anexele lor; 14 parcele",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă/atic, 12 m la coamă sau la aticul nivelului retras; max. 3 niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R"
+   },
+   {
+    "cod": "Va-1",
+    "denumire": "Subzonă verde cu acces public nelimitat: spații verzi, mobilier urban, accese auto și pietonale pentru parcelele de pe frontul sudic al str. Anton Bacalbașa",
+    "pot_max": "0%",
+    "cut_max": "0",
+    "h_max": "nu este cazul"
+   }
+  ],
+  "suprafata_m2": 7301,
+  "imagine": "puz/2024-558/plansa.webp",
+  "bounds": {
+   "west": 23.6012983,
+   "south": 46.799414,
+   "east": 23.6036322,
+   "north": 46.8003854
+  },
+  "limita": [
+   [
+    23.6013374,
+    46.7997814
+   ],
+   [
+    23.60135,
+    46.7997557
+   ],
+   [
+    23.601395,
+    46.7996641
+   ],
+   [
+    23.6015137,
+    46.7994347
+   ],
+   [
+    23.6015385,
+    46.7994414
+   ],
+   [
+    23.6019618,
+    46.7995561
+   ],
+   [
+    23.6023107,
+    46.7996508
+   ],
+   [
+    23.6025503,
+    46.7997161
+   ],
+   [
+    23.6026425,
+    46.7997412
+   ],
+   [
+    23.6029847,
+    46.799833
+   ],
+   [
+    23.6030171,
+    46.799842
+   ],
+   [
+    23.6033226,
+    46.7999265
+   ],
+   [
+    23.6035914,
+    46.7999981
+   ],
+   [
+    23.6034773,
+    46.8001732
+   ],
+   [
+    23.6034451,
+    46.8002225
+   ],
+   [
+    23.603449,
+    46.8002236
+   ],
+   [
+    23.6034451,
+    46.8002311
+   ],
+   [
+    23.6033887,
+    46.8003396
+   ],
+   [
+    23.6033755,
+    46.8003651
+   ],
+   [
+    23.6025664,
+    46.800146
+   ],
+   [
+    23.6021576,
+    46.8000298
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.11
+  },
+  "legenda": "puz/2024-558/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-07-22"
+  },
+  "conditii": [
+   "Înainte de autorizațiile de construire pentru locuințe: terenul necesar regularizării străzilor Anton Bacalbașa, Ștefan Pascu și Odobești (conform planșei U.09) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”.",
+   "Tot înainte de autorizații: str. Anton Bacalbașa se echipează edilitar complet (inclusiv rețea pluvială) și partea ei carosabilă, de 6 m, se aduce la strat de uzură; la fel suprafața necesară lărgirii carosabilului str. Odobești.",
+   "Înainte de recepția construcțiilor: se fac trotuarele str. Anton Bacalbașa, cu mobilier urban (coșuri de gunoi, bănci, stâlpi de iluminat, indicatoare rutiere), trotuarul de pe latura estică a str. Odobești și cel de pe latura vestică a str. Ștefan Pascu, pe tronsoanele PUZ-ului.",
+   "Înainte de recepție se amenajează spațiul verde cu acces public nelimitat (Va-1), pe bază de proiect de specialitate.",
+   "Terenurile amenajate pentru străzi, spațiul verde Va-1 și imobilul stației de pompare apă existente se transferă în domeniul public, cu titlu gratuit (conform planșei U.11 „Circulația terenurilor”).",
+   "Autorizarea construcțiilor e permisă numai după echiparea edilitară completă a teritoriului reglementat; clădirile se racordează la rețelele publice.",
+   "Retrageri în Liu-1: min. 8 m față de Va-1 și min. 5 m față de str. Odobești și str. Ștefan Pascu; garajele la min. 6 m de aceste străzi; lateral, pe o limită și la min. 3 m de cealaltă (calcan de max. 20 m); posterior, cel puțin înălțimea clădirii, dar min. 6 m.",
+   "Pe fiecare parcelă un singur acces pietonal și un singur acces carosabil; parcarea în interiorul parcelei: min. 1 loc pentru locuințe sub 100 mp AU, 2 peste, 2 pentru servicii de proximitate. În Va-1 parcarea e interzisă.",
+   "Apele pluviale nu se descarcă spre domeniul public sau spre vecini; cablurile nu se montează aerian; fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public.",
+   "La faza DTAC documentația trece prin comisia de estetică urbană.",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",

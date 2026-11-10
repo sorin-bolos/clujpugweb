@@ -1,0 +1,222 @@
+{
+  "id": "2024-558",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 558,
+    "an": 2024,
+    "data_sedinta": "2024-07-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-558-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/08/01/HCL-558.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, str. Odobești-str. Anton Bacalbașa",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 96,
+    "denumire": "Reglementări urbanistice – zonificare (planșa U.09)",
+    "scara": "1:500",
+    "nota": "PDF-ul are 22 de pagini: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism (p. 4-8), Anexa 2 – planșa U.09 redusă pe A4 (p. 9) și Anexa 3 – planșa U.11 „Circulația terenurilor” redusă pe A4 (p. 10), avizele Arhitectului-șef și de oportunitate (p. 11-17), un plan de încadrare (p. 18), planșa U.09 „Reglementări urbanistice – zonificare” color, pe format mare (p. 19, aleasă: copia lizibilă, vizată spre neschimbare ca anexă la HCL 558/2024), planșa U.11 „Circulația terenurilor” pe format mare (p. 20, aceeași bază, altă temă) și raportul informării și consultării publicului (p. 21-22). Scanare de numai 96 ppi, la scara nominală 1:500 (potrivirea dă 7,5 px/m). Legenda ia, în două casete, legenda planșei și tabelul „Posibilități maxime de ocupare și utilizare a terenului” (Liu-1: P.O.T. 35%, C.U.T. 0,90; Va-1: 0%, 0); lasă deoparte bilanțurile teritoriale, inventarul de coordonate, necesarul de parcaje, profilurile stradale, ștampilele și cartușul. Textul legendei e tăiat la dreapta de cartuș chiar pe planșă."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabelul „Parcela (1) – Coordonate pct. de contur” din partea de sus a planșei (21 de puncte, X = Nord, Y = Est, Stereo 70, plus cota Z, netranscrisă), în ordinea conturului dar cu numere cadastrale nesuccesive (222, 8, 7, 2, 460, 160, 400, 356, 355, 90, 72, 288, 267, 47, 61, 46, 43, 38, 461, 462, 463), de aceea `ordine`. Conturul e terenul reglementat: 7.301 mp, cât „Suprafața teren conform carte funciară = 7301 mp” și „Zona reglementată” din bilanț, cu tot cu fâșiile pentru lărgirea străzilor Odobești, Anton Bacalbașa și Ștefan Pascu; pe planșă cade pe „Limita de proprietate reglementată prin P.U.Z.” (linia cu triunghiuri roșii).",
+    "suprafata_declarata_m2": 7301,
+    "puncte": {
+      "222": [
+        589857.316,
+        393371.581
+      ],
+      "8": [
+        589854.451,
+        393372.493
+      ],
+      "7": [
+        589844.21,
+        393375.753
+      ],
+      "2": [
+        589818.555,
+        393384.359
+      ],
+      "460": [
+        589819.267,
+        393386.261
+      ],
+      "160": [
+        589831.444,
+        393418.794
+      ],
+      "400": [
+        589841.499,
+        393445.608
+      ],
+      "356": [
+        589848.431,
+        393464.024
+      ],
+      "355": [
+        589851.096,
+        393471.11
+      ],
+      "90": [
+        589860.838,
+        393497.403
+      ],
+      "72": [
+        589861.791,
+        393499.896
+      ],
+      "288": [
+        589870.766,
+        393523.373
+      ],
+      "267": [
+        589878.369,
+        393544.033
+      ],
+      "47": [
+        589897.976,
+        393535.664
+      ],
+      "61": [
+        589903.5,
+        393533.306
+      ],
+      "46": [
+        589903.613,
+        393533.604
+      ],
+      "43": [
+        589904.454,
+        393533.321
+      ],
+      "38": [
+        589916.593,
+        393529.227
+      ],
+      "461": [
+        589919.441,
+        393528.273
+      ],
+      "462": [
+        589896.188,
+        393466.097
+      ],
+      "463": [
+        589883.823,
+        393434.666
+      ]
+    },
+    "ordine": [
+      "222",
+      "8",
+      "7",
+      "2",
+      "460",
+      "160",
+      "400",
+      "356",
+      "355",
+      "90",
+      "72",
+      "288",
+      "267",
+      "47",
+      "61",
+      "46",
+      "43",
+      "38",
+      "461",
+      "462",
+      "463"
+    ],
+    "nota": "Aria celor 21 de puncte transcrise dă 7.301,07 mp față de 7.301 mp declarați. Tabelul nu tipărește lungimile laturilor sau perimetrul; latura de sud (2-267) e dreaptă, cu abateri sub 0,13 m, iar cotele roșii de pe planșă 22.01 (288-267), 25.13 (72-288), 28.04 (355-90) și 27.25 (400-355) se potrivesc cu laturile calculate din coordonate; cota 22.28 pornește de la un punct al laturii de sud care nu e în tabel (unde se termină limita unui vecin, la ~43,4 m de colțul 2) și, latura fiind dreaptă, nu schimbă conturul. Punctele de control sunt cele patru colțuri, citite pe planșă la marginea exterioară a șirului de triunghiuri roșii (triunghiurile stau spre interior): 2 (sud-vest), 267 (sud-est), 461 (nord-est), 222 (nord-vest). Triunghiurile negre de pe laturile de vest și est sunt accese pietonale, nu limita. Punctele de verificare 400, 355 și 90 sunt vârfuri ale laturii de sud unde se termină pe ea limitele (cu hașuri de gard) ale parcelelor vecine dinspre sud. Lungimea 2-267 pe planșă (1.289 px) dă 7,56 px/m, exact scara 1:500 la 96 ppi."
+  },
+  "gcp_px": {
+    "2": [
+      349.3,
+      1220.0
+    ],
+    "267": [
+      1555.7,
+      764.6
+    ],
+    "222": [
+      254.5,
+      924.5
+    ],
+    "461": [
+      1435.2,
+      451.6
+    ]
+  },
+  "verificare_px": {
+    "400": [
+      813.5,
+      1045.0
+    ],
+    "355": [
+      1007.5,
+      971.7
+    ],
+    "90": [
+      1203.5,
+      897.7
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1697,
+      72,
+      2038,
+      820
+    ],
+    [
+      1584,
+      1184,
+      2044,
+      1289
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu-1",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale cuplate și anexele lor; 14 parcele",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă/atic, 12 m la coamă sau la aticul nivelului retras; max. 3 niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R"
+    },
+    {
+      "cod": "Va-1",
+      "denumire": "Subzonă verde cu acces public nelimitat: spații verzi, mobilier urban, accese auto și pietonale pentru parcelele de pe frontul sudic al str. Anton Bacalbașa",
+      "pot_max": "0%",
+      "cut_max": "0",
+      "h_max": "nu este cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-07-22",
+    "verificat": "2026-11-10: nicio prelungire sau modificare în indexul hotărârilor PUZ (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Înainte de autorizațiile de construire pentru locuințe: terenul necesar regularizării străzilor Anton Bacalbașa, Ștefan Pascu și Odobești (conform planșei U.09) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”.",
+    "Tot înainte de autorizații: str. Anton Bacalbașa se echipează edilitar complet (inclusiv rețea pluvială) și partea ei carosabilă, de 6 m, se aduce la strat de uzură; la fel suprafața necesară lărgirii carosabilului str. Odobești.",
+    "Înainte de recepția construcțiilor: se fac trotuarele str. Anton Bacalbașa, cu mobilier urban (coșuri de gunoi, bănci, stâlpi de iluminat, indicatoare rutiere), trotuarul de pe latura estică a str. Odobești și cel de pe latura vestică a str. Ștefan Pascu, pe tronsoanele PUZ-ului.",
+    "Înainte de recepție se amenajează spațiul verde cu acces public nelimitat (Va-1), pe bază de proiect de specialitate.",
+    "Terenurile amenajate pentru străzi, spațiul verde Va-1 și imobilul stației de pompare apă existente se transferă în domeniul public, cu titlu gratuit (conform planșei U.11 „Circulația terenurilor”).",
+    "Autorizarea construcțiilor e permisă numai după echiparea edilitară completă a teritoriului reglementat; clădirile se racordează la rețelele publice.",
+    "Retrageri în Liu-1: min. 8 m față de Va-1 și min. 5 m față de str. Odobești și str. Ștefan Pascu; garajele la min. 6 m de aceste străzi; lateral, pe o limită și la min. 3 m de cealaltă (calcan de max. 20 m); posterior, cel puțin înălțimea clădirii, dar min. 6 m.",
+    "Pe fiecare parcelă un singur acces pietonal și un singur acces carosabil; parcarea în interiorul parcelei: min. 1 loc pentru locuințe sub 100 mp AU, 2 peste, 2 pentru servicii de proximitate. În Va-1 parcarea e interzisă.",
+    "Apele pluviale nu se descarcă spre domeniul public sau spre vecini; cablurile nu se montează aerian; fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public.",
+    "La faza DTAC documentația trece prin comisia de estetică urbană.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+}
