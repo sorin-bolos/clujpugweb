@@ -13541,6 +13541,154 @@
   ]
  },
  {
+  "id": "2023-647",
+  "localitate": "cluj",
+  "hcl": "647/2023",
+  "data": "2023-08-03",
+  "titlu": "P.U.Z. – Dezvoltare subzonă de activități economice cu caracter terțiar (extindere hotel), Aleea Stadionului nr. 1",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-647-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/08/09/647.pdf",
+  "utr": [
+   {
+    "cod": "SZCP_Et**",
+    "denumire": "Zonă construită protejată – subzonă de activități economice cu caracter terțiar situate în zone cu alt caracter: activități terțiare, servicii de cazare turistică (extinderea hotelului existent), regim de construire izolat (deschis)",
+    "pot_max": "40%",
+    "cut_max": "2,2",
+    "h_max": "36 m la cornișă, 39 m total; (1-2S)+P+8E+R, cu niveluri parțiale (supante, mezanine) în limita înălțimii la cornișă"
+   }
+  ],
+  "suprafata_m2": 5697,
+  "imagine": "puz/2023-647/plansa.webp",
+  "bounds": {
+   "west": 23.5729011,
+   "south": 46.766897,
+   "east": 23.5744071,
+   "north": 46.767759
+  },
+  "limita": [
+   [
+    23.5729536,
+    46.7673443
+   ],
+   [
+    23.5738331,
+    46.7677363
+   ],
+   [
+    23.5739235,
+    46.7677012
+   ],
+   [
+    23.5740343,
+    46.7676685
+   ],
+   [
+    23.5741154,
+    46.7677298
+   ],
+   [
+    23.5741914,
+    46.7677173
+   ],
+   [
+    23.57426,
+    46.7676888
+   ],
+   [
+    23.5743133,
+    46.7676497
+   ],
+   [
+    23.5743362,
+    46.767592
+   ],
+   [
+    23.5743373,
+    46.7675604
+   ],
+   [
+    23.5743165,
+    46.7675034
+   ],
+   [
+    23.5742868,
+    46.7674782
+   ],
+   [
+    23.5742388,
+    46.7674477
+   ],
+   [
+    23.5741611,
+    46.7674419
+   ],
+   [
+    23.5742917,
+    46.7672257
+   ],
+   [
+    23.5743598,
+    46.7671806
+   ],
+   [
+    23.5740112,
+    46.7671287
+   ],
+   [
+    23.5737824,
+    46.7670662
+   ],
+   [
+    23.5734103,
+    46.7669557
+   ],
+   [
+    23.5733225,
+    46.7669215
+   ],
+   [
+    23.5732487,
+    46.7670252
+   ],
+   [
+    23.572999,
+    46.7673143
+   ],
+   [
+    23.5730034,
+    46.7673218
+   ],
+   [
+    23.5729585,
+    46.7673429
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.12
+  },
+  "legenda": "puz/2023-647/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2026-08-03"
+  },
+  "diferente_fata_de_plansa": [
+   "POT și CUT: Art. 1 dă POT maxim 40% și CUT maxim 2,2 fără să spună la ce suprafață se raportează; regulamentul (Anexa 1, art. 15-16) și planșa le calculează pe 6504 mp (parcela inițială de 6235 mp plus jumătate din cei 538 mp cedați pentru modernizarea Aleii Stadionului), nu pe cei 5697 mp rămași. De aceea bilanțul planșei arată 2601 mp construiți la sol, adică 45,66% din terenul de 5697 mp, și 14 308,80 mp desfășurați (2,2 × 6504 mp).",
+   "Regimul de înălțime: planșa scrie 2S+P+M+8E+R, Hmax 39 m (36 m pe corpul S+P+M+8E); hotărârea dă (1-2S)+P+8E+R, 36 m la cornișă și 39 m total, și admite mezaninul ca nivel parțial în limita înălțimii la cornișă: aceleași limite, altfel scrise.",
+   "Planșa mai marchează o „suprafață rezervată” spre Canalul Morii, care să poată fi pusă la dispoziția publicului în contextul amenajării culoarului canalului; hotărârea nu impune nimic pentru ea."
+  ],
+  "conditii": [
+   "Aliniamentul existent se păstrează; clădirile noi și extinderile se retrag față de aliniament, în front discontinuu (deschis).",
+   "Retragere de minimum 4,5 m față de limitele laterale și de minimum 7 m față de limita posterioară.",
+   "Se păstrează accesele existente pe parcelă din Aleea Stadionului.",
+   "Parcarea pe zonele verzi e interzisă; mașinile staționează numai în interiorul parcelei, în subteran sau în parcaje la sol, cu necesarul de locuri calculat după Anexa 2 a regulamentului.",
+   "Echiparea tehnico-edilitară se face prin extinderea rețelelor existente în incintă.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 20% din teren (regulament, art. 13); împrejmuirile sunt interzise spre Aleea Stadionului, spre Canalul Morii și spre spațiile verzi de la est (art. 14).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2023-604",
   "localitate": "cluj",
   "hcl": "604/2023",

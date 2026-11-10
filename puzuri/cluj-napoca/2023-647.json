@@ -1,0 +1,157 @@
+{
+  "id": "2023-647",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 647,
+    "an": 2023,
+    "data_sedinta": "2023-08-03",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-647-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/08/09/647.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare subzonă de activități economice cu caracter terțiar (extindere hotel), Aleea Stadionului nr. 1",
+  "plansa": {
+    "pagina_pdf": 8,
+    "dpi": 300,
+    "denumire": "01.3 Plan reglementări urbanistice – zonificare (Anexa 2 la hotărâre)",
+    "scara": "1:500",
+    "nota": "Pagina hotărârii nu are niciun PDF legat (verificat 2026-11-10). PDF-ul e în același dosar cu hotărârile 640, 644, 645, 648-650/2023 din aceeași ședință (files.primariaclujnapoca.ro/2023/08/09/), sub numele 647.pdf; conținutul confirmă: p. 2 „Nr. 647 din 3 august 2023”, p. 7 „Anexa 1 la Hotărârea nr. 647/2023”, p. 8 planșa ștampilată de Consiliul Local și de arhitectul-șef. PDF-ul are 8 pagini A4 scanate la 300 ppi: hotărârea (pp. 1-2), regulamentul local de urbanism (Anexa 1, pp. 3-7) și singura planșă, cea de reglementări (Anexa 2, p. 8). Cartușul scrie 1:500, dar planșa e redusă pe A4: pe p. 8 desenul e la ~1:1050 (11,2 px/m la 300 ppi). E tipărită culcată, cu nordul spre dreapta (rotație 89,7°); legenda e rotită la decupare. Scanarea e granulată: inventarul de coordonate e greu de citit (vezi coordonate.nota). În legendă: blocul U.T.R., zonele vecine, nota despre suprafața de calcul a POT/CUT, indicii urbanistici și legenda simbolurilor; bilanțul teritorial, numărul de camere și parcările sunt lăsate deoparte. Pe același amplasament a fost aprobat anterior P.U.Z. „Extindere și modernizare Hotel Sport – Aleea Stadionului nr. 1” (HCL 648/2018, fără planșă publicată); hotărârea din 2023 nu îl pomenește. Pe ortofoto Esri, sala de evenimente (joasă) și aleea pavată de pe latura de vest cad peste cele desenate; clădirile înalte apar împinse spre est (se vede fațada de vest a turnului hotelului, ~10-15 m), iar acoperișul clădirii noi de la est, cu macara alături, apare peste limita de est din acest motiv."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y), 24 de puncte (528, 530, 506-527) în ordinea limitei, cu laturile D(i,i+1)",
+    "suprafata_declarata_m2": 5697,
+    "puncte": {
+      "528": [586291.143, 391140.37],
+      "530": [586333.5, 391208.316],
+      "506": [586329.469, 391215.156],
+      "507": [586325.68, 391223.545],
+      "508": [586332.385, 391229.862],
+      "509": [586330.889, 391235.641],
+      "510": [586327.631, 391240.824],
+      "511": [586323.21, 391244.818],
+      "512": [586316.77, 391246.446],
+      "513": [586313.255, 391246.47],
+      "514": [586306.952, 391244.767],
+      "515": [586304.184, 391242.45],
+      "516": [586300.862, 391238.719],
+      "517": [586300.328, 391232.78],
+      "518": [586276.116, 391242.318],
+      "519": [586271.011, 391247.43],
+      "520": [586265.72, 391220.7],
+      "521": [586259.093, 391203.109],
+      "522": [586247.33, 391174.472],
+      "523": [586243.641, 391167.696],
+      "524": [586255.272, 391162.268],
+      "525": [586287.747, 391143.777],
+      "526": [586288.57, 391144.13],
+      "527": [586290.98, 391140.744]
+    },
+    "ordine": [
+      "528",
+      "530",
+      "506",
+      "507",
+      "508",
+      "509",
+      "510",
+      "511",
+      "512",
+      "513",
+      "514",
+      "515",
+      "516",
+      "517",
+      "518",
+      "519",
+      "520",
+      "521",
+      "522",
+      "523",
+      "524",
+      "525",
+      "526",
+      "527"
+    ],
+    "laturi_declarate_m": {
+      "528": 80.07,
+      "530": 7.94,
+      "506": 9.21,
+      "507": 9.21,
+      "508": 5.97,
+      "509": 6.12,
+      "510": 5.96,
+      "511": 6.64,
+      "512": 3.52,
+      "513": 6.53,
+      "514": 3.61,
+      "515": 5.0,
+      "516": 5.96,
+      "517": 26.02,
+      "518": 7.23,
+      "519": 27.25,
+      "520": 18.8,
+      "521": 30.96,
+      "522": 7.72,
+      "523": 12.83,
+      "524": 37.37,
+      "525": 0.9,
+      "526": 4.16,
+      "527": 0.4
+    },
+    "nota": "Tabelul e o scanare redusă și granulată; multe cifre (3/8/6/9/0, 2/7) se confundă, așa că valorile au fost alese astfel încât toate cele 24 de laturi din tabel să iasă (±1 cm), iar aria să dea 5697 mp: pct. 506 N 586329.469 (nu 586320.409); 507 N 586325.680; 512 586316.770 / 391246.446; 513 E 391246.470; 514 N 586306.952 (a treia zecimală stabilită din laturile 6,53 și 3,61, orice valoare între .942 și .960 le respectă); 521 E 391203.109; 523 586243.641 / 391167.696 (din laturile 7,72 și 12,83, ±1 cm); laturile 511-512 = 6,64, 516-517 = 5,96, 519-520 = 27,25, 520-521 = 18,80, 521-522 = 30,96, 523-524 = 12,83. Vârfurile corectate cad pe planșă unde le dă potrivirea (523 e punct de control, 507 punct de verificare, la 0,1 și 0,4 m). Aria din coordonate: 5696,8 mp față de 5697 mp (Art. 1, bilanț); perimetrul nu e tipărit. Verificare independentă: crucile caroiajului Stereo 70 de 50 m ale planului topografic (una etichetată „391.150”) cad la 0-0,6 m de unde le pune potrivirea, la E 391150, 391200 și 391250 pe N 586250, 586300 și 586350."
+  },
+  "gcp_px": {
+    "528": [933, 528],
+    "523": [401, 833],
+    "519": [717, 1724],
+    "530": [1415, 1283],
+    "508": [1402, 1523]
+  },
+  "verificare_px": {
+    "517": [1047, 1559],
+    "507": [1331, 1457],
+    "518": [774, 1669]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [2100, 2458, 2222, 2975, 270],
+    [1766, 2458, 2102, 2915, 270],
+    [1537, 2458, 1617, 2990, 270],
+    [1184, 2458, 1336, 2990, 270],
+    [100, 2462, 1004, 3008, 270]
+  ],
+  "utr": [
+    {
+      "cod": "SZCP_Et**",
+      "denumire": "Zonă construită protejată – subzonă de activități economice cu caracter terțiar situate în zone cu alt caracter: activități terțiare, servicii de cazare turistică (extinderea hotelului existent), regim de construire izolat (deschis)",
+      "pot_max": "40%",
+      "cut_max": "2,2",
+      "h_max": "36 m la cornișă, 39 m total; (1-2S)+P+8E+R, cu niveluri parțiale (supante, mezanine) în limita înălțimii la cornișă"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2026-08-03",
+    "verificat": "2026-11-10: Art. 2, trei ani de la aprobare (expirat la 2026-08-03); nicio prelungire în indexul de titluri P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "POT și CUT: Art. 1 dă POT maxim 40% și CUT maxim 2,2 fără să spună la ce suprafață se raportează; regulamentul (Anexa 1, art. 15-16) și planșa le calculează pe 6504 mp (parcela inițială de 6235 mp plus jumătate din cei 538 mp cedați pentru modernizarea Aleii Stadionului), nu pe cei 5697 mp rămași. De aceea bilanțul planșei arată 2601 mp construiți la sol, adică 45,66% din terenul de 5697 mp, și 14 308,80 mp desfășurați (2,2 × 6504 mp).",
+    "Regimul de înălțime: planșa scrie 2S+P+M+8E+R, Hmax 39 m (36 m pe corpul S+P+M+8E); hotărârea dă (1-2S)+P+8E+R, 36 m la cornișă și 39 m total, și admite mezaninul ca nivel parțial în limita înălțimii la cornișă: aceleași limite, altfel scrise.",
+    "Planșa mai marchează o „suprafață rezervată” spre Canalul Morii, care să poată fi pusă la dispoziția publicului în contextul amenajării culoarului canalului; hotărârea nu impune nimic pentru ea."
+  ],
+  "conditii": [
+    "Aliniamentul existent se păstrează; clădirile noi și extinderile se retrag față de aliniament, în front discontinuu (deschis).",
+    "Retragere de minimum 4,5 m față de limitele laterale și de minimum 7 m față de limita posterioară.",
+    "Se păstrează accesele existente pe parcelă din Aleea Stadionului.",
+    "Parcarea pe zonele verzi e interzisă; mașinile staționează numai în interiorul parcelei, în subteran sau în parcaje la sol, cu necesarul de locuri calculat după Anexa 2 a regulamentului.",
+    "Echiparea tehnico-edilitară se face prin extinderea rețelelor existente în incintă.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 20% din teren (regulament, art. 13); împrejmuirile sunt interzise spre Aleea Stadionului, spre Canalul Morii și spre spațiile verzi de la est (art. 14).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+}
