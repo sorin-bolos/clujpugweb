@@ -1,0 +1,175 @@
+{
+  "id": "2024-557",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Planșa n-are inventar de coordonate și nici caroiaj Stereo 70 (doar o etichetă de Est, „395350”, pe rama de jos, care contrazice și OSM, și imaginea satelitară), iar clădirile OSM din jur (way 818680306, 189640832, 189640814) stau la 8-10 m spre nord-vest de acoperișurile din imaginea Esri, care se potrivește cu PUZ-ul 2026-547 georeferențiat din inventar la 150 m distanță: potrivirea pe OSM trece porțile (rms 0,96 m, max 2,85 m, aria +1,9%), dar pune limita cu ~5-8 m în str. Regina Maria și peste curtea vecinului de la nr. 11A/11B.",
+  "hcl": {
+    "nr": 557,
+    "an": 2024,
+    "data_sedinta": "2024-07-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-557-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/08/01/HCL-557.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – Construire imobil locuință semicolectivă, str. Regina Maria nr. 11",
+  "plansa": {
+    "pagina_pdf": 12,
+    "dpi": 200,
+    "denumire": "Reglementări urbanistice (U.03)",
+    "scara": "1:200",
+    "nota": "PDF-ul are 15 pagini: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), regulamentul local de urbanism (Anexa 1, pp. 3-5), Anexa 2 – planșa U.03 „Reglementări urbanistice” scanată alb-negru, rotită și redusă pe A4 (p. 6), avizul Arhitectului-șef nr. 73/27.02.2024 (pp. 7-8), avizul de oportunitate nr. 78/23.05.2023 (pp. 9-10) cu extrasul din PUG și zona de reglementat (p. 11), aceeași planșă U.03 color, pe format mare, cu ștampila „Vizat spre neschimbare” a avizului nr. 73/27.02.2024 (p. 12, aleasă: 200 ppi, mult mai clară) și raportul informării și consultării publicului (pp. 13-15). Scara reală a imaginii: ~39,3 px/m (laturile parcelei: frontul 14,98 m = 588 px, latura NE 46,60 m = 1830 px, latura SV 46,30 m = 1822 px, spatele 16,29 m = 638 px), adică 1:200 la 200 ppi; nordul e în sus (săgeata din cartuș; laturile clădirilor vecine sunt la ~128°, ca în OSM). Liniile verticale portocalii la fiecare ~167 px sunt un artefact de tipărire, nu caroiaj (nu au pereche orizontală). Fondul e ridicarea topografică din 27.06.2023, în Stereo 70. Legenda: cheia simbolurilor (cu regimul de înălțime și numărul de unități locative) și tabelul „Indicatori urbanistici” cu POT/CUT; bilanțul teritorial, secțiunile, cartușul și ștampilele au rămas afară. În interiorul parcelei planșa scrie numele proprietarilor: la o încercare viitoare, de pus un `decupaj.exclude_px` peste acel text (în jur de x 1640-1960, y 1270-1700) dacă nu taie limita."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Nicio sursă de coordonate sigură. Planșa U.03 (p. 12) nu are inventar de coordonate și nici cruci de caroiaj; singura coordonată tipărită e eticheta de Est „395350”, verticală, lângă o liniuță pe rama de jos a desenului la x≈1364 (y 2228-2300). S-a încercat metoda cu repere OpenStreetMap (extrasul din 2026-11-08), cu limita trasată (`limita_px`, cele patru colțuri ale liniei roșii) și suprafața de 726 mp din legendă, bilanț și Art. 1. Repere: colțurile clădirilor vecine desenate pe planșă și existente în OSM: blocul de la nr. 11A/11B (way 818680306, 14,1 × 20,0 m; pe planșă 13,6 × 19,3 m), capătul dinspre stradă al pensiunii de la nr. 15 (way 189640832) și casa de la nr. 17 (way 189640814); vezi `repere_osm`. Identificarea e sigură: distanța dintre peretele SV al blocului 11A/11B și peretele NE al pensiunii e 22 m pe planșă și 22,1 m în OSM, iar extrasul din PUG (p. 11) pune parcela între aceleași clădiri. Potrivirea (asemănare, 38,8 px/m, rotație -1,56°) trece porțile: rms 0,96 m, cel mai mare rest 2,85 m (V3, la limita de 5 m), aria trasată 739,9 mp față de 726 (+1,9%). Dar verificarea pe imaginea Esri (check_imagery) o arată greșit așezată: colțul de front al parcelei cade în carosabilul str. Regina Maria, iar latura NE pe peretele blocului 11A/11B (pe planșă, la 3,1 m de el). Cauza: clădirile OSM de aici sunt decalate față de imagine cu 8-10 m spre nord-vest (colțurile acoperișului blocului 11A/11B, citite pe imagine, sunt la (+4…+8 m E, -6…-9 m N) față de way 818680306; la fel pensiunea, casa de la nr. 17, casa cu acoperiș roșu de la colțul cu str. Borhanciului și casele înșiruite din est), iar imaginea Esri e cea corectă: PUZ-ul 2026-547 (str. Borhanciului – nord, la ~150 m, din inventar și cruci etichetate) cade pe ea exact, pe marginea drumului și pe gardurile din spatele grădinilor, în timp ce contururile OSM de acolo sunt și ele decalate spre nord-vest. Eticheta „395350” nu ajută: potrivirea pe OSM dă E 395356,7 în acel punct, iar corectată după imagine ~395362, deci eticheta e la 7-12 m de amândouă (rama ridicării a fost probabil mutată la paginare); fiind o singură coordonată, nici n-ar fi putut fi punct de control. Ce ar rezolva cazul: coordonatele parcelei cu nr. cad. 342997 (sau ale fâșiei 342969) dintr-o sursă cadastrală, ori corectarea clădirilor OSM din cartier (aliniate la imagine) și reîmprospătarea extrasului; punctele de mai jos rămân ca înregistrare a încercării.",
+    "suprafata_declarata_m2": 726,
+    "puncte": {}
+  },
+  "gcp_px": {
+    "G1": [
+      1113,
+      429
+    ],
+    "G2": [
+      2046,
+      459
+    ],
+    "G3": [
+      605,
+      1199
+    ],
+    "G4": [
+      219,
+      1700
+    ]
+  },
+  "verificare_px": {
+    "V1": [
+      1724,
+      891
+    ],
+    "V2": [
+      426,
+      1420
+    ],
+    "V3": [
+      599,
+      1994
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2720,
+      40,
+      3286,
+      842
+    ],
+    [
+      2720,
+      1262,
+      3286,
+      1596
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe semicolective (familiale), cu două unități locative pe parcelă, și anexele lor; regim de construire izolat; retrageri: 5 m de la aliniament, cel puțin 3 m de la limitele laterale, cel puțin 21 m de la limita posterioară",
+      "pot_max": "35%",
+      "cut_max": "0,9 ADC/mp",
+      "h_max": "trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+R); max. 8 m la cornișa superioară sau la aticul ultimului nivel, 12 m la coamă"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2027-07-22",
+    "verificat": "2026-11-10: Art. 2, trei ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Legenda planșei admite regimurile (S)+P+1+M, (S)+P+1+R, D+P+M și D+P+R; Art. 1 le numește doar pe (S)+P+1+M, (S)+P+1+R și D+P+R (fără D+P+M).",
+    "Secțiunile planșei desenează clădirea propusă P+1E+Er cu cornișa etajului 1 la +7,50 m și aticul etajului retras la +9,70 m; Art. 1 limitează înălțimea la cornișa superioară sau la aticul ultimului nivel la 8 m (12 m la coamă)."
+  ],
+  "conditii": [
+    "Suprafața dezmembrată pentru lărgirea str. Regina Maria (CF nr. 342969, 58 mp după planșă) se aduce la strat de uzură (asfalt) înainte de recepția construcției.",
+    "Pe parcelă se construiește o locuință semicolectivă cu cel mult două unități locative; accesul se face direct din str. Regina Maria, cu cel mult două accese auto și două accese pietonale.",
+    "Parcarea se face în interiorul parcelei: patru locuri, câte două pentru fiecare unitate locativă.",
+    "Toate utilitățile se asigură prin racordare la rețelele edilitare publice.",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiari."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      1113,
+      429
+    ],
+    "en": [
+      395351.4,
+      584652.3
+    ],
+    "px_per_m": 38.6,
+    "nord": -0.9
+  },
+  "repere": {
+    "G1": [
+      584652.28,
+      395351.39
+    ],
+    "G2": [
+      584651.41,
+      395375.82
+    ],
+    "G3": [
+      584634.95,
+      395337.56
+    ],
+    "G4": [
+      584620.0,
+      395327.98
+    ],
+    "V1": [
+      584640.22,
+      395367.3
+    ],
+    "V2": [
+      584628.04,
+      395332.09
+    ],
+    "V3": [
+      584611.79,
+      395339.83
+    ]
+  },
+  "repere_osm": {
+    "G1": "colț de clădire (b818680306_2)",
+    "G2": "colț de clădire (b818680306_0)",
+    "G3": "colț de clădire (b189640832_1)",
+    "G4": "colț de clădire (b189640814_0)",
+    "V1": "colț de clădire (b818680306_1)",
+    "V2": "colț de clădire (b189640832_0)",
+    "V3": "colț de clădire (b189640814_3)"
+  },
+  "limita_px": [
+    [
+      888,
+      411
+    ],
+    [
+      2350,
+      1511
+    ],
+    [
+      1971,
+      2022
+    ],
+    [
+      547,
+      888
+    ]
+  ]
+}
