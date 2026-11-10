@@ -1,8 +1,6 @@
 {
   "id": "2026-589",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Planșa nu are inventar de coordonate și nici caroiaj, iar metoda cu repere OpenStreetMap n-a putut rula: din sesiunea cloud, Overpass (overpass-api.de) a închis fiecare conexiune timp de peste o oră; de reluat cu metoda OSM când Overpass răspunde.",
   "hcl": {
     "nr": 589,
     "an": 2026,
@@ -20,14 +18,52 @@
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "Planșa U.02 nu are inventar de coordonate și nici caroiaj Stereo 70; nici celelalte planșe din PDF (U.02.4, extrasul din PUG) nu au. Singurul rând de cruci mici (y≈3131, la ~155 px = 20 m una de alta, în zona A de la sud) nu se repetă nicăieri pe planșă, deci nu e un caroiaj. Rămâne metoda cu repere OpenStreetMap (georef_metoda osm) și limita trasată pe planșă.",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, a doua încercare, 2026-11-10, din extrasul OSM din repo, date din 2026-11-08): colțuri de clădiri existente desenate pe planșă (fondul topografic) și prezente în OSM. Control: B314900_SE și B314900_NV (hala 314900-C1 de la vest de drumul industrial, colțurile SE și NV), HalaV_NV și HalaV_SE (hala de la vest de drumul industrial, în dreptul parcelei 01), C347098_NV și C347098_SE (casa 347098-C1 de la est de str. Turnului), C267843_NV (hala 267843-C1 de la sud-est); verificare: C267399C30_NE și C267399C30_SV (clădirea 267399-C30 de la est de lobul de sud-est). Ancora de pornire: intersecția axelor Calea Dezmirului / str. Cantonului (OSM), la (2560, 245) pe planșă. Potrivirea dă 7,82 px/m și o rotație de -0,5°; cotele planșei (72,225 m = 559,6 px; 15,79 m ≈ 122-124 px) dau ~7,75 px/m, deci scara potrivirii e cu ~1% mai mare decât a desenului (cel mult ~1,5 m la capetele zonei), în precizia metodei. Limita e trasată (`limita_px`) pe linia albastră cu pătrățele „Limita UTR”, care stă pe linia de proprietate, nu pe lanțul de buline roșii „Limită zonă reglementată prin PUZ”, desenat cu ~1,5-2 m spre exterior (pe Calea Dezmirului, pe fâșia oliv de dincolo de fâșia hașurată de lărgire). Aria trasată: 46.308 mp la scara potrivirii (-1,6% față de 47.076 mp din Art. 1 și din bilanț); la scara cotelor ar fi 47.198 mp (+0,3%).",
     "suprafata_declarata_m2": 47076.0,
     "puncte": {},
-    "nota": "Pregătit pentru metoda OSM, încercarea din 2026-11-09 (sesiune cloud), oprită pentru că Overpass nu răspundea: px_per_m 7,755 (din cote), nord 0°. Ancore posibile (axe de străzi): Calea Dezmirului × str. Cantonului, la ~(2558, 247) pe planșă; Calea Dezmirului × str. Turnului, lângă colțul NE al zonei (~1540, 320); str. Augustin Bena × str. Turnului (~1790, 1050) și × str. Cantonului (~2700, 790). Repere bune: casele desenate la est de str. Turnului (347097-C1, 347098-C1, 347099-C1, 328603-C1, 328604-C1, 302214-C1, 295200-C1, 252073-C1) și clădirile de la sud-est (267399-C26…C35, 267843-C1); în interiorul zonei planșa nu desenează clădiri existente. Limita zonei e lanțul de buline roșii; bulinele sunt desenate cu ~1-1,5 m spre exterior față de linia de proprietate (pe Calea Dezmirului stau pe fâșia oliv, deasupra fâșiei hașurate de lărgire): poligonul centrelor lor are ~49.540 mp la 7,755 px/m (+5,2% față de 47.076 mp), deci limita trebuie trasată pe linia de proprietate, ca la HCL 24/2026. Colțuri: NV ~(820, 575), NE ~(1546, 366); latura estică urmează str. Turnului până la ~(2135, 2180); lobul de sud-est are colțurile ~(2370, 2185), ~(2390, 2625), ~(2230, 2650), apoi latura oblică spre sud-est până la colțul de sud ~(2430, 3075); latura sudică are o treaptă la x≈1490 (y 2945→3046), lobul de sud-vest colțurile ~(668, 3100) și ~(672, 3235); latura vestică urmează drumul industrial, cu un decroș spre vest la y≈1990."
+    "nota": "Prima încercare (2026-11-09, sesiune cloud) s-a oprit pentru că Overpass nu răspundea; acum datele OSM vin din extrasul din repo. Planșa U.02 nu are inventar de coordonate și nici caroiaj Stereo 70; nici U.02.4 (p. 34) sau extrasul din PUG (p. 21) nu au. Singurul rând de cruci mici (y≈3131, la ~155 px = 20 m una de alta, în zona A de la sud) nu se repetă nicăieri pe planșă, deci nu e un caroiaj. În interiorul zonei planșa nu desenează clădiri existente, deci reperele sunt în jur. Alte clădiri din OSM s-au potrivit mai slab cu desenul și au rămas afară: 295200-C1 și 302214-C1 (la est de str. Turnului, 3-7 m), 347100-C1 (colțul SV la ~5 m). Colțurile limitei: NV (831, 587) la bariera drumului industrial; latura nordică dreaptă până la colțul NE (1522, 381); latura estică pe str. Turnului până la (2118, 2194); lobul de sud-est (2366, 2179), (2378, 2607), (2196, 2639), apoi latura oblică până la (2444, 3004) și (2384, 3066); latura sudică are o treaptă la x≈1470 (2932→3031); lobul de sud-vest are colțurile (690, 3226) și (684, 3106); latura vestică urmează drumul industrial, cu decroșuri la (904-947, 2686) și (902-940, 1968-2020)."
   },
   "georef_metoda": "osm",
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "B314900_SE": [
+      857,
+      2278
+    ],
+    "C347098_NV": [
+      1843,
+      351
+    ],
+    "B314900_NV": [
+      453,
+      2114
+    ],
+    "HalaV_NV": [
+      746,
+      791
+    ],
+    "HalaV_SE": [
+      877,
+      1162
+    ],
+    "C347098_SE": [
+      1931,
+      405
+    ],
+    "C267843_NV": [
+      2450,
+      2882
+    ]
+  },
+  "verificare_px": {
+    "C267399C30_NE": [
+      2610,
+      2289
+    ],
+    "C267399C30_SV": [
+      2545,
+      2509
+    ]
+  },
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
@@ -88,6 +124,281 @@
   "valabilitate": {
     "ani": 7,
     "pana_la": "2033-09-04",
-    "verificat": "2026-11-09: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
-  }
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08)."
+  },
+  "osm_ancora": {
+    "px": [
+      2560,
+      245
+    ],
+    "en": [
+      400347.5,
+      587466.8
+    ],
+    "px_per_m": 7.755,
+    "nord": 0
+  },
+  "repere": {
+    "B314900_SE": [
+      587209.96,
+      400123.96
+    ],
+    "C347098_NV": [
+      587454.64,
+      400250.96
+    ],
+    "B314900_NV": [
+      587233.19,
+      400070.27
+    ],
+    "HalaV_NV": [
+      587401.43,
+      400107.65
+    ],
+    "HalaV_SE": [
+      587354.47,
+      400124.14
+    ],
+    "C347098_SE": [
+      587446.43,
+      400263.73
+    ],
+    "C267843_NV": [
+      587132.79,
+      400326.52
+    ],
+    "C267399C30_NE": [
+      587209.73,
+      400346.27
+    ],
+    "C267399C30_SV": [
+      587181.61,
+      400339.16
+    ]
+  },
+  "repere_osm": {
+    "B314900_SE": "colț de clădire (b980693979_3)",
+    "C347098_NV": "colț de clădire (b1339105690_3)",
+    "B314900_NV": "colț de clădire (b980693979_1)",
+    "HalaV_NV": "colț de clădire (b277372069_0)",
+    "HalaV_SE": "colț de clădire (b277372069_2)",
+    "C347098_SE": "colț de clădire (b1339105690_1)",
+    "C267843_NV": "colț de clădire (b277372112_0)",
+    "C267399C30_NE": "colț de clădire (b277372286_1)",
+    "C267399C30_SV": "colț de clădire (b277372286_3)"
+  },
+  "limita_px": [
+    [
+      831,
+      587
+    ],
+    [
+      907,
+      568
+    ],
+    [
+      1522,
+      381
+    ],
+    [
+      1541,
+      392
+    ],
+    [
+      1555,
+      415
+    ],
+    [
+      1579,
+      465
+    ],
+    [
+      1605,
+      514
+    ],
+    [
+      1626,
+      563
+    ],
+    [
+      1638,
+      617
+    ],
+    [
+      1655,
+      680
+    ],
+    [
+      1670,
+      740
+    ],
+    [
+      1680,
+      780
+    ],
+    [
+      1743,
+      1000
+    ],
+    [
+      1795,
+      1180
+    ],
+    [
+      1831,
+      1300
+    ],
+    [
+      1891,
+      1500
+    ],
+    [
+      1956,
+      1714
+    ],
+    [
+      2028,
+      1947
+    ],
+    [
+      2072,
+      2085
+    ],
+    [
+      2092,
+      2156
+    ],
+    [
+      2105,
+      2180
+    ],
+    [
+      2118,
+      2194
+    ],
+    [
+      2366,
+      2179
+    ],
+    [
+      2378,
+      2607
+    ],
+    [
+      2196,
+      2639
+    ],
+    [
+      2344,
+      2880
+    ],
+    [
+      2430,
+      2980
+    ],
+    [
+      2444,
+      3004
+    ],
+    [
+      2384,
+      3066
+    ],
+    [
+      1610,
+      2906
+    ],
+    [
+      1466,
+      2932
+    ],
+    [
+      1480,
+      3031
+    ],
+    [
+      1161,
+      3123
+    ],
+    [
+      690,
+      3226
+    ],
+    [
+      684,
+      3106
+    ],
+    [
+      962,
+      3041
+    ],
+    [
+      941,
+      2850
+    ],
+    [
+      926,
+      2790
+    ],
+    [
+      904,
+      2686
+    ],
+    [
+      947,
+      2686
+    ],
+    [
+      941,
+      2560
+    ],
+    [
+      934,
+      2440
+    ],
+    [
+      925,
+      2320
+    ],
+    [
+      902,
+      2020
+    ],
+    [
+      907,
+      2003
+    ],
+    [
+      940,
+      1968
+    ],
+    [
+      940,
+      1800
+    ],
+    [
+      934,
+      1740
+    ],
+    [
+      912,
+      1440
+    ],
+    [
+      901,
+      1260
+    ],
+    [
+      893,
+      1200
+    ],
+    [
+      866,
+      900
+    ],
+    [
+      846,
+      720
+    ]
+  ]
 }

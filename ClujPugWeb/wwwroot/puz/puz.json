@@ -1286,6 +1286,273 @@
   ]
  },
  {
+  "id": "2026-589",
+  "localitate": "cluj",
+  "hcl": "589/2026",
+  "data": "2026-09-04",
+  "titlu": "P.U.Z. – Restructurare zonă industrială, str. Calea Dezmirului nr. 16-18",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-589-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-589.pdf",
+  "utr": [
+   {
+    "cod": "Ei*",
+    "denumire": "Zonă de activități economice cu caracter industrial (parcelele 1-5 de pe planșă) – producție industrială și activități complementare direct legate de ea (administrative, de depozitare, de cercetare), servicii de tip industrial sau cvasiindustrial; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "(1-2)S+P+3E+R; 21 m la cornișă, 25 m maxim"
+   }
+  ],
+  "suprafata_m2": 46308,
+  "imagine": "puz/2026-589/plansa.webp",
+  "bounds": {
+   "west": 23.6899675,
+   "south": 46.7759034,
+   "east": 23.6930389,
+   "north": 46.7792319
+  },
+  "limita": [
+   [
+    23.6902774,
+    46.778957
+   ],
+   [
+    23.6904044,
+    46.7789795
+   ],
+   [
+    23.6914314,
+    46.7791999
+   ],
+   [
+    23.6914633,
+    46.7791874
+   ],
+   [
+    23.6914871,
+    46.7791611
+   ],
+   [
+    23.6915279,
+    46.7791038
+   ],
+   [
+    23.691572,
+    46.7790477
+   ],
+   [
+    23.6916078,
+    46.7789916
+   ],
+   [
+    23.6916285,
+    46.7789296
+   ],
+   [
+    23.6916578,
+    46.7788573
+   ],
+   [
+    23.6916837,
+    46.7787884
+   ],
+   [
+    23.6917009,
+    46.7787425
+   ],
+   [
+    23.6918092,
+    46.7784901
+   ],
+   [
+    23.6918985,
+    46.7782836
+   ],
+   [
+    23.6919603,
+    46.7781459
+   ],
+   [
+    23.6920632,
+    46.7779165
+   ],
+   [
+    23.6921747,
+    46.777671
+   ],
+   [
+    23.6922982,
+    46.7774037
+   ],
+   [
+    23.6923736,
+    46.7772454
+   ],
+   [
+    23.692408,
+    46.7771639
+   ],
+   [
+    23.69243,
+    46.7771364
+   ],
+   [
+    23.692452,
+    46.7771204
+   ],
+   [
+    23.6928669,
+    46.7771399
+   ],
+   [
+    23.6928924,
+    46.7766478
+   ],
+   [
+    23.6925882,
+    46.7766094
+   ],
+   [
+    23.6928389,
+    46.7763336
+   ],
+   [
+    23.6929841,
+    46.7762194
+   ],
+   [
+    23.6930079,
+    46.7761919
+   ],
+   [
+    23.6929082,
+    46.7761201
+   ],
+   [
+    23.6916108,
+    46.7762973
+   ],
+   [
+    23.6913701,
+    46.7762662
+   ],
+   [
+    23.6913948,
+    46.7761525
+   ],
+   [
+    23.690862,
+    46.7760439
+   ],
+   [
+    23.690075,
+    46.7759213
+   ],
+   [
+    23.6900635,
+    46.7760593
+   ],
+   [
+    23.6905279,
+    46.7761364
+   ],
+   [
+    23.6904903,
+    46.7763559
+   ],
+   [
+    23.6904645,
+    46.7764247
+   ],
+   [
+    23.6904263,
+    46.7765441
+   ],
+   [
+    23.6904983,
+    46.7765445
+   ],
+   [
+    23.6904867,
+    46.7766893
+   ],
+   [
+    23.6904734,
+    46.7768273
+   ],
+   [
+    23.6904568,
+    46.7769652
+   ],
+   [
+    23.6904145,
+    46.7773099
+   ],
+   [
+    23.6904227,
+    46.7773295
+   ],
+   [
+    23.6904774,
+    46.77737
+   ],
+   [
+    23.6904753,
+    46.7775632
+   ],
+   [
+    23.6904645,
+    46.7776321
+   ],
+   [
+    23.6904239,
+    46.7779769
+   ],
+   [
+    23.6904032,
+    46.7781838
+   ],
+   [
+    23.690389,
+    46.7782527
+   ],
+   [
+    23.69034,
+    46.7785974
+   ],
+   [
+    23.6903042,
+    46.7788042
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 7,
+   "rms_m": 2.06,
+   "aproximativ": true,
+   "precizie_m": 4
+  },
+  "legenda": "puz/2026-589/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-09-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimile: tabelul de indicatori al planșei le inversează (H total maxim 21 m, H cornișă 25 m); hotărârea și regulamentul (art. 10), ca și eticheta U.T.R. din desen și legenda, dau 21 m la cornișă și 25 m înălțime totală.",
+   "Retragerea față de aliniament: tabelul planșei scrie 9,00 m; hotărârea cere minim 3 m față de str. Turnului, 6 m față de Calea Dezmirului și 2 m față de drumul industrial din vest (toate regularizate), cum le și desenează planșa."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii Căii Dezmirului și a străzii Turnului (planșa U.02) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire pe parcele; până la recepția construcțiilor se aduce la strat de uzură și trece în domeniul public (planșa Proprietatea asupra terenurilor).",
+   "Terenul necesar lărgirii drumului industrial din vest se dezmembrează din parcele înainte de autorizația de construire și se aduce la strat de uzură până la recepția construcțiilor.",
+   "Clădirile noi se retrag cel puțin 3 m de la str. Turnului, 6 m de la Calea Dezmirului și 2 m de la drumul industrial din vest (după regularizare); la parcelele de colț, de la ambele laturi spre domeniul public. Față de limitele laterale și posterioare, cel puțin 6 m (la parcela 4, laterale cel puțin 3 m); față de parcelele vecine cu calea ferată industrială, cel puțin 3 m.",
+   "Parcelele construibile au cel puțin 3000 mp și front la o stradă publică sau privată; spațiile verzi pe sol natural ocupă cel puțin 20% din fiecare parcelă (regulament, art. 4 și 13).",
+   "Accesul în zonă se face din Calea Dezmirului; accesele carosabile pe parcele se fac, unde se poate, de pe străzile de rang inferior. Bretelele de acces existente nu pot fi desființate sau transformate în parcări; accesele pentru personal, vizitatori și tehnologice (trafic greu) sunt de regulă separate, iar vehiculele care așteaptă intrarea staționează în afara circulațiilor publice.",
+   "Parcarea se face în incintă, de regulă la sol (sau în clădiri dedicate): 1 loc la 80 mp arie utilă pentru birouri fără acces public, plus 1 loc de bicicletă la 80 mp; câte un loc pentru fiecare vehicul al activității și locuri pentru autovehicule de mare tonaj; depozitarea și logistica nu cer locuri. Se plantează câte un arbore la fiecare 3 locuri de parcare la sol.",
+   "Echiparea edilitară e completă pe Calea Dezmirului; amenajările se fac după proiecte autorizate, cu respectarea Legii 101/2020, NP 051/2012 și NP 24/2022.",
+   "Zona e împărțită în 4 zone de implementare (etape) independente; recepția oricărei construcții dintr-o zonă e condiționată de încheierea operațiunilor notariale și cadastrale, a dezmembrărilor pentru obiectivele de utilitate publică și a construcțiilor și branșamentelor la rețelele existente din acea zonă (nota de pe planșa U.02).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-588",
   "localitate": "cluj",
   "hcl": "588/2026",
