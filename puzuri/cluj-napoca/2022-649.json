@@ -1,0 +1,220 @@
+{
+  "id": "2022-649",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 649,
+    "an": 2022,
+    "data_sedinta": "2022-09-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-649-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-649-din-7-septembrie-2022.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Colonia Sopor nr. 37G",
+  "plansa": {
+    "pagina_pdf": 26,
+    "dpi": 300,
+    "denumire": "U.09 Reglementări urbanistice",
+    "scara": "1:1000 (în cartuș; potrivirea dă 11,6 px/m la 300 ppi, adică planșa e redusă la ~98% față de 1:1000)",
+    "nota": "PDF-ul are 30 de pagini: pp. 1-3 hotărârea, pp. 4-16 regulamentul local de urbanism (Anexa 1), p. 17 Anexa 2, planșa U.09 „Reglementări urbanistice” micșorată pe A4, rotită și în tonuri de gri, cu ștampila arhitectului-șef, p. 18 Anexa 3 (U.11 „Proprietăți asupra terenurilor”), la fel, pp. 19-21 avizul arhitectului-șef nr. 190/15.12.2021, p. 22 avizul nr. 129/11.07.2022 care îl completează, pp. 23-25 avizul de oportunitate nr. 436/3.06.2019 cu planul anexat, p. 26 planșa U.09 color pe format A2, p. 27 planșa U.11 color pe A3, pp. 28-30 raportul informării și consultării publicului. S-a folosit p. 26: planșa U.09 color (proiect nr. 16/2016, data ian. 2021, faza P.U.Z., scara 1:1000), cu ștampila „VIZAT” și mențiunea de mână „HCL nr. 649 din 7 septembrie 2022”, avizele nr. 190/15.12.2021 și nr. 129/11.07.2022; copia de pe p. 17 e mult mai mică și fără culori. Nordul e în sus (rotație 0,7°). Legenda cuprinde cheia simbolurilor (limite, zonificarea funcțională Lid / S_Va / S_Is*, reglementări existente și propuse), tabelul indicatorilor pe U.T.R. (POT, CUT, înălțimi, regim de înălțime) și notele despre dotarea zonei verzi și a străzii „A”; au rămas afară bilanțul teritorial, rândul „S teren = 11900 mp”, calculul locurilor de parcare, profilele stradale, inventarul de coordonate, cartușul și ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Calculul suprafețelor (inventar de coordonate), Nord(X) / Est(Y), Stereo 70, 18 puncte (1058-1075), S=11900 mp, P=711,846 m, cu lungimile laturilor D(i,i+1).",
+    "suprafata_declarata_m2": 11900,
+    "puncte": {
+      "1058": [
+        583201.874,
+        398110.284
+      ],
+      "1059": [
+        583189.518,
+        398110.099
+      ],
+      "1060": [
+        583176.669,
+        398109.289
+      ],
+      "1061": [
+        583153.517,
+        398106.871
+      ],
+      "1062": [
+        583139.182,
+        398105.387
+      ],
+      "1063": [
+        583098.271,
+        398103.722
+      ],
+      "1064": [
+        583023.31,
+        398099.32
+      ],
+      "1065": [
+        582950.821,
+        398091.228
+      ],
+      "1066": [
+        582882.811,
+        398083.026
+      ],
+      "1067": [
+        582885.079,
+        398045.359
+      ],
+      "1068": [
+        582945.768,
+        398052.74
+      ],
+      "1069": [
+        582998.261,
+        398058.247
+      ],
+      "1070": [
+        583054.626,
+        398063.775
+      ],
+      "1071": [
+        583103.657,
+        398067.607
+      ],
+      "1072": [
+        583176.653,
+        398072.351
+      ],
+      "1073": [
+        583200.55,
+        398073.986
+      ],
+      "1074": [
+        583204.338,
+        398094.084
+      ],
+      "1075": [
+        583203.938,
+        398100.328
+      ]
+    },
+    "perimetru_declarat_m": 711.846,
+    "laturi_declarate_m": {
+      "1058": 12.357,
+      "1059": 12.875,
+      "1060": 23.278,
+      "1061": 14.412,
+      "1062": 40.945,
+      "1063": 75.09,
+      "1064": 72.939,
+      "1065": 68.503,
+      "1066": 37.735,
+      "1067": 61.136,
+      "1068": 52.781,
+      "1069": 56.635,
+      "1070": 49.181,
+      "1071": 73.15,
+      "1072": 23.953,
+      "1073": 20.452,
+      "1074": 6.257,
+      "1075": 10.168
+    },
+    "nota": "Aria coordonatelor (11900,0 mp), toate cele 18 laturi și perimetrul (711,846 m) ies exact cât în tabel; S=11900 mp și în bilanț și în Art. 1 (nr. cad. 302598). Limita zonei reglementate e desenată ca o bandă de pătrate roșii de ~1,7 m lățime, cu limita U.T.R. (pătrate negre) lipită de ea pe exterior. Coordonatele cad pe marginea interioară a benzii roșii, nu pe mijlocul ei: acolo se opresc liniile loturilor, iar cu marginea interioară scara iese aceeași pe lățime și pe lungime (11,57 px/m pe ambele laturi lungi, 11,70 și 11,44 px/m pe laturile scurte), pe când cu mijlocul benzii lățimea ar ieși cu 4-5% mai mare decât lungimea. Puncte de control: cele patru colțuri ale fâșiei (1058, 1066, 1067, 1073; frângeri de 75-94°), fiecare ca intersecție a dreptelor potrivite pe marginea interioară a benzii pe cele două laturi alăturate. Verificare: 1074 și 1075, frângerile de 14° și 8° de pe latura de nord, luate la fel; pe latura scurtă 1074-1075 (6,3 m), acoperită parțial de săgeata nordului, poziția lor de-a lungul laturii e sigură doar la ~0,5 m, de unde reziduurile de 0,5-0,6 m. Celelalte puncte (1059-1065, 1068-1072) sunt frângeri de 0,1-3,6° pe laturile lungi și nu au marcă pe planșă; liniile gardurilor vecinilor de pe latura de est ajung la 1-6 m de ele (1064, 1065 la ~1,5 m, 1063 la ~6 m), deci nu sunt folosite. Planșa nu are caroiaj Stereo 70."
+  },
+  "gcp_px": {
+    "1058": [
+      4202.5,
+      711.2
+    ],
+    "1066": [
+      3923.5,
+      4405.7
+    ],
+    "1067": [
+      3492.2,
+      4384.5
+    ],
+    "1073": [
+      3778.0,
+      731.4
+    ]
+  },
+  "verificare_px": {
+    "1074": [
+      4005.8,
+      687.0
+    ],
+    "1075": [
+      4090.2,
+      688.6
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      5835,
+      192,
+      6862,
+      1697
+    ],
+    [
+      5866,
+      2179,
+      6862,
+      2629
+    ],
+    [
+      5866,
+      2852,
+      6862,
+      3068
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lid",
+      "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: zece parcele pentru locuințe individuale (unifamiliale) izolate, cu o singură unitate locativă pe parcelă, și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine); clădirile se retrag cu 3-6 m de la aliniament (garajele cu cel puțin 6 m) și stau toate în fâșia de 30 m de la aliniament, în afara ediculelor provizorii de grădină (max. 25 mp însumat); retragere față de limitele laterale H/2, min. 4,5 m, și față de limita posterioară H, min. 12 m",
+      "pot_max": "20%",
+      "cut_max": "0,4",
+      "h_max": "două niveluri supraterane: (S)+P+M, (S)+P+1 sau D+P; max. 8 m la cornișă sau atic și max. 10 m la coamă"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public (o parcelă): servicii de interes public – sănătate și asistență socială; regim izolat; retragere min. 4 m de la strada „A”, față de limita laterală sudică H/2 dar min. 4,5 m, min. 1 m față de limita nordică (spre spațiul verde), față de limita posterioară H/2 dar min. 4,5 m",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "(S)+P+2E, max. 12 m"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzonă verde – scuar, grădină cu acces public nelimitat: plantații, mobilier urban, amenajări pentru joacă, odihnă și sport în aer liber, edicule, amenajări peisagere, grup sanitar, spații pentru administrare și întreținere; regim izolat; retrageri de min. 4 m față de aliniament și de limitele laterale și posterioară, în afara circulației pietonale și velo",
+      "pot_max": "5%",
+      "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+      "h_max": "parter, max. 3 m la cornișă și 4,5 m total"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-09-07"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Pentru U.T.R. Lid planșa scrie regimul de înălțime „(S)+P+M / (S)+P+M / D+P”, cu (S)+P+M de două ori; Art. 1 admite (S)+P+M, (S)+P+1 sau D+P.",
+    "Planșa socotește parcarea cu „maxim 2 locuri” pe fiecare din cele 10 parcele de locuințe (20 de locuri) și 4 locuri pentru parcela de servicii, 24 în total; Art. 1 cere pentru locuințe cel puțin un loc (sub 100 mp suprafață utilă) sau cel puțin două (peste 100 mp), iar pentru S_Is* necesarul după Anexa 2 a Regulamentului, fără un număr fix.",
+    "Legenda planșei descrie S_Is* generic, ca subzonă de instituții și servicii publice și de interes public; Art. 1 restrânge funcțiunea predominantă la servicii de interes public de sănătate și asistență socială.",
+    "Planșa dă pentru S_Va CUT 0,1 fără altă precizare; Art. 1 îl aplică doar clădirilor care includ spații interioare.",
+    "Notele planșei cer în zona verde 5 arbori maturi (circumferință de 38 cm la colet), 4 coșuri de gunoi și 4 stâlpi de iluminat, iar de-a lungul străzii „A” încă 4 coșuri și 4 stâlpi; textul hotărârii nu le repetă."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiară.",
+    "Suprafața necesară regularizării străzii din nord (str. Colonia Sopor, C.F. nr. 343950, nr. topo./cad. 14461) la profilul III.E de 16 m se dezmembrează din parcelă și se înscrie în C.F. ca „drum” înainte de emiterea autorizațiilor de construire pe parcele, și se transferă gratuit în domeniul public înainte de recepția clădirii din S_Is*.",
+    "Strada „A” (ampriză 7,5 m: carosabil de 6 m și trotuar de 1,5 m pe latura estică, cu lărgire posibilă la 9 m printr-un trotuar pe latura vestică, odată cu urbanizarea terenurilor din vest) se echipează edilitar și se realizează la strat de uzură înainte de autorizarea construcțiilor pe parcelele cu acces din ea, și se transferă gratuit în domeniul public, după planșa U.11, înainte de recepția ultimei construcții de pe aceste parcele.",
+    "Subzona verde S_Va se amenajează pe baza unui proiect de specialitate și se transferă gratuit în domeniul public înainte de recepția clădirii din S_Is*.",
+    "Pentru că accesul dinspre Gheorgheni trece prin intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, a cărei capacitate e depășită, autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară și serviciile de proximitate/dotările de cartier) se emit numai după ce Municipalitatea realizează lucrările rutiere care îi sporesc capacitatea, dar nu mai târziu de 31.12.2026.",
+    "Construcțiile existente pe teren (C1-C5 ale nr. cad. 302598) sunt propuse pentru desființare.",
+    "Parcarea se face în interiorul parcelei: la locuințe cel puțin un loc sub 100 mp suprafață utilă și cel puțin două peste; la S_Is*, preponderent în spații specializate, după Anexa 2 a Regulamentului local de urbanism.",
+    "Clădirile se racordează la rețelele edilitare publice disponibile; apele uzate menajere se epurează local și se infiltrează în sol în interiorul parcelei; apele pluviale se rețin (individual sau colectiv) și se evacuează în emisari locali, fără a fi dirijate spre domeniul public sau spre vecini.",
+    "Firidele de branșament se integrează în împrejmuiri sau clădiri, cablurile aeriene de orice fel sunt interzise, iar fiecare parcelă are o platformă pentru deșeuri accesibilă din stradă."
+  ]
+}
