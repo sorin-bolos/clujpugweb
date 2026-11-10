@@ -13655,6 +13655,191 @@
   ]
  },
  {
+  "id": "2024-514",
+  "localitate": "cluj",
+  "hcl": "514/2024",
+  "data": "2024-06-25",
+  "titlu": "P.U.Z. de restructurare urbană (platformă industrială TDR), dezvoltare ansamblu mixt – str. Oașului-str. Gării (str. Oașului nr. 27)",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-514-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/07/03/HCL-514.pdf",
+  "utr": [
+   {
+    "cod": "RiM*",
+    "denumire": "Zonă mixtă – restructurarea fostei platforme industriale TDR (str. Oașului nr. 27): locuire colectivă, birouri și activități administrative, financiar-bancare, terțiare, comerț en detail și servicii de mari dimensiuni, cultură, învățământ, sănătate și asistență socială, turism; locuirea și birourile ocupă cel mult 30% din suprafața utilă totală; parterele spre spațiile publice principale au funcțiuni de interes public; regim de construire închis",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "(1-2)S+P+7E, max. 32 m (la cornișă și total); corpul din poziția dominantă, la intersecția str. Oașului cu str. Oașului Fundătură: (1-2)S+P+9E, max. 37 m"
+   }
+  ],
+  "suprafata_m2": 13324,
+  "imagine": "puz/2024-514/plansa.webp",
+  "bounds": {
+   "west": 23.5947844,
+   "south": 46.7878313,
+   "east": 23.5966621,
+   "north": 46.7893982
+  },
+  "limita": [
+   [
+    23.59486,
+    46.7893612
+   ],
+   [
+    23.5949327,
+    46.7893566
+   ],
+   [
+    23.5950671,
+    46.7893404
+   ],
+   [
+    23.5953905,
+    46.7892426
+   ],
+   [
+    23.5955117,
+    46.7891824
+   ],
+   [
+    23.5957734,
+    46.7890617
+   ],
+   [
+    23.5963621,
+    46.7887901
+   ],
+   [
+    23.5963331,
+    46.7887611
+   ],
+   [
+    23.5963909,
+    46.7887366
+   ],
+   [
+    23.5964899,
+    46.7886948
+   ],
+   [
+    23.5965449,
+    46.7886805
+   ],
+   [
+    23.5965319,
+    46.7886567
+   ],
+   [
+    23.5966159,
+    46.7886365
+   ],
+   [
+    23.5963532,
+    46.7881156
+   ],
+   [
+    23.596305,
+    46.788127
+   ],
+   [
+    23.5962637,
+    46.7880452
+   ],
+   [
+    23.5953673,
+    46.7878549
+   ],
+   [
+    23.5953479,
+    46.7879011
+   ],
+   [
+    23.5953445,
+    46.7879084
+   ],
+   [
+    23.5953349,
+    46.7879301
+   ],
+   [
+    23.5952305,
+    46.7881668
+   ],
+   [
+    23.5951159,
+    46.7884238
+   ],
+   [
+    23.5950964,
+    46.7884676
+   ],
+   [
+    23.5950858,
+    46.7884915
+   ],
+   [
+    23.5950233,
+    46.7886322
+   ],
+   [
+    23.5950202,
+    46.7886392
+   ],
+   [
+    23.5949531,
+    46.7887902
+   ],
+   [
+    23.5949424,
+    46.7888134
+   ],
+   [
+    23.5949336,
+    46.7888326
+   ],
+   [
+    23.5949226,
+    46.7888565
+   ],
+   [
+    23.5948151,
+    46.7890908
+   ],
+   [
+    23.5949406,
+    46.7891396
+   ],
+   [
+    23.5948617,
+    46.7893555
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 8,
+   "rms_m": 0.22
+  },
+  "legenda": "puz/2024-514/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-06-25"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: planșa înscrie pentru toată zona RiM* H max = 37,00 m și regim maxim 2S+P+9 (și bilanțul: înălțime maximă 37 m); Art. 1 permite în general (1-2)S+P+7E cu cel mult 32 m la cornișă și 32 m în total, iar 37 m și (1-2)S+P+9E doar pentru corpul de clădire din poziția dominantă, la intersecția str. Oașului cu str. Oașului Fundătură.",
+   "Retragerea față de limitele laterale: planșa trasează linia „retragere laterală minim 4,5 m”; Art. 1 cere jumătate din înălțimea la cornișă, dar nu mai puțin de 4,5 m.",
+   "Art. 1 adaugă reguli care nu apar pe planșă: pentru nivelurile cu locuințe, aria construită cel mult 50% din suprafața terenului; cel puțin 75% din parcări în spații specializate la subsol, demisol sau parter."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire a ansamblului se execută, pe bază de proiecte de specialitate: lărgirea și reamenajarea str. Gării, a sensului giratoriu Oașului–Gării și a str. Oașului între str. Oașului Fundătură și str. Gării, reamenajarea str. Oașului Fundătură și a intersecției ei cu str. Oașului, cu semaforizare, asfaltarea, semnalizarea rutieră, rețeaua pluvială și rețelele edilitare, refacerea aliniamentului, stâlpii de iluminat public și linia de tramvai; tema de proiectare o avizează Direcția Tehnică. Trotuarele de lângă str. Oașului Fundătură și str. Gării se pot face până la recepția imobilului.",
+   "Etapizare: la recepție intră întâi în funcțiune (cu efect asupra traficului) numai comerțul en detail și serviciile de mari dimensiuni, cultura, învățământul, sănătatea și asistența socială și turismul; restul funcțiunilor (locuințe, birouri etc.) într-o a doua etapă, după anul 2026 sau numai după lucrări de infrastructură care cresc capacitatea de circulație a zonei, cu studiul de trafic actualizat de investitori.",
+   "Fâșiile de teren pentru lărgirea str. Oașului, str. Gării și str. Oașului Fundătură (planșa de reglementări) se dezmembrează și se înscriu în CF ca „drum” înainte de autorizația de construire și trec gratuit în domeniul public până la recepția construcției.",
+   "Beneficiarul modernizează pe cheltuiala lui infrastructura rutieră și edilitară a străzilor Oașului, Gării și Oașului Fundătură pe tronsoanele de lângă P.U.Z.",
+   "Un spațiu de cel puțin 450 mp utili la parter, spre spațiul public și cu acces direct din exterior, trece gratuit în proprietatea municipiului, semifinisat (uși, tâmplării, șape, tencuieli), în cel mult 6 luni de la recepția imobilului.",
+   "Clădirile se așază pe aliniamentul străzilor Gării și Oașului, în front continuu închis, și la cel puțin 3 m de aliniamentul str. Oașului Fundătură; accesele se fac din str. Gării și din str. Oașului Fundătură.",
+   "Parcările (auto și velo) se dimensionează după Anexa 2 a regulamentului P.U.G., însumând necesarul fiecărei funcțiuni; cel puțin 75% în spații specializate la subsol, demisol sau parter.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar; odată cu P.U.Z. se aprobă și contractul de restructurare dintre municipiu și investitor (Anexa 1)."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",

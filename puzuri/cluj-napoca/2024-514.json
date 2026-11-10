@@ -1,0 +1,352 @@
+{
+  "id": "2024-514",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 514,
+    "an": 2024,
+    "data_sedinta": "2024-06-25",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-514-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/07/03/HCL-514.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare urbană (platformă industrială TDR), dezvoltare ansamblu mixt – str. Oașului-str. Gării (str. Oașului nr. 27)",
+  "plansa": {
+    "pagina_pdf": 29,
+    "dpi": 200,
+    "denumire": "ARH-03 Plan reglementări urbanistice",
+    "scara": "1:500 (15,7 px/m la 200 ppi, măsurat pe caroiaj)",
+    "nota": "PDF-ul are 33 de pagini: pp. 1-2 hotărârea, pp. 3-12 Anexa 1 (contractul de restructurare), pp. 13-20 Anexa 2 (regulamentul local de urbanism), p. 21 o copie alb-negru a planșei de reglementări, redusă pe A4 și întoarsă, pp. 22-28 avize, p. 29 planșa ARH-03 „Plan reglementări urbanistice”, color, format A1 (200 ppi), cu ștampila „Vizat spre neschimbare” a avizelor arhitectului-șef nr. 155/22.09.2023 și nr. 53/15.02.2024 și mențiunea de mână „H.C.L. nr. 514 din 25 iunie 2024”, pp. 30-33 raportul informării publicului. S-a folosit p. 29, mult mai clară decât copia de pe A4. Hotărârea numește planșa „A.6 – Reglementări urbanistice” (Anexa 3); cartușul de pe p. 29 o numește ARH-03 (proiect 1387/2020, iulie 2023). Legenda: cheia simbolurilor; indicatorii zonei RiM* (POT 60%, CUT 2,80, H max 37 m, 2S+P+9) sunt scriși mare pe desen, în interiorul limitei; bilanțul, calculul suprafeței, profilele stradale, lista imobilelor și cartușul au rămas pe dinafară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Calculul suprafeței” (33 de puncte, Nord X / Est Y, lungimile laturilor, S = 13324 mp), în colțul din stânga-jos al planșei. Așezarea planșei mai folosește crucile caroiajului Stereo 70 (pas 50 m) desenate pe planșă, numai la intersecții de linii etichetate: Est sus (392.900, 392.950, 393.000), Nord în stânga (588.700, 588.600, 588.550). Crucile rândului dintre 588.700 și 588.600 nu sunt folosite: eticheta lui e acoperită de alt text și nu se citește.",
+    "suprafata_declarata_m2": 13324,
+    "puncte": {
+      "701": [
+        588708.04,
+        392856.672
+      ],
+      "702": [
+        588707.42,
+        392862.215
+      ],
+      "703": [
+        588705.438,
+        392872.443
+      ],
+      "704": [
+        588694.134,
+        392896.933
+      ],
+      "705": [
+        588687.285,
+        392906.064
+      ],
+      "816": [
+        588673.512,
+        392925.803
+      ],
+      "706": [
+        588642.529,
+        392970.205
+      ],
+      "707": [
+        588639.342,
+        392967.933
+      ],
+      "818": [
+        588636.548,
+        392972.298
+      ],
+      "708": [
+        588631.762,
+        392979.776
+      ],
+      "709": [
+        588630.101,
+        392983.947
+      ],
+      "710": [
+        588627.477,
+        392982.902
+      ],
+      "713": [
+        588625.111,
+        392989.28
+      ],
+      "714": [
+        588567.58,
+        392968.194
+      ],
+      "715": [
+        588568.912,
+        392964.538
+      ],
+      "716": [
+        588559.883,
+        392961.228
+      ],
+      "848": [
+        588539.95,
+        392892.427
+      ],
+      "849": [
+        588545.11,
+        392891.035
+      ],
+      "721": [
+        588545.923,
+        392890.788
+      ],
+      "722": [
+        588548.347,
+        392890.101
+      ],
+      "723": [
+        588574.795,
+        392882.599
+      ],
+      "724": [
+        588603.516,
+        392874.36
+      ],
+      "725": [
+        588608.4,
+        392872.957
+      ],
+      "726": [
+        588611.07,
+        392872.193
+      ],
+      "727": [
+        588626.796,
+        392867.698
+      ],
+      "728": [
+        588627.579,
+        392867.474
+      ],
+      "729": [
+        588644.451,
+        392862.65
+      ],
+      "730": [
+        588647.041,
+        392861.884
+      ],
+      "731": [
+        588649.194,
+        392861.246
+      ],
+      "732": [
+        588651.864,
+        392860.458
+      ],
+      "733": [
+        588678.048,
+        392852.715
+      ],
+      "734": [
+        588683.293,
+        392862.39
+      ],
+      "735": [
+        588707.403,
+        392856.788
+      ]
+    },
+    "laturi_declarate_m": {
+      "701": 5.58,
+      "702": 10.42,
+      "703": 26.97,
+      "704": 11.41,
+      "705": 24.07,
+      "816": 54.14,
+      "706": 3.91,
+      "707": 5.18,
+      "818": 8.88,
+      "708": 4.49,
+      "709": 2.82,
+      "710": 6.8,
+      "713": 61.27,
+      "714": 3.89,
+      "715": 9.62,
+      "716": 71.63,
+      "848": 5.34,
+      "849": 0.85,
+      "721": 2.52,
+      "722": 27.49,
+      "723": 29.88,
+      "724": 5.08,
+      "725": 2.78,
+      "726": 16.36,
+      "727": 0.81,
+      "728": 17.55,
+      "729": 2.7,
+      "730": 2.25,
+      "731": 2.78,
+      "732": 27.3,
+      "733": 11.01,
+      "734": 24.75,
+      "735": 0.65
+    },
+    "ordine": [
+      "701",
+      "702",
+      "703",
+      "704",
+      "705",
+      "816",
+      "706",
+      "707",
+      "818",
+      "708",
+      "709",
+      "710",
+      "713",
+      "714",
+      "715",
+      "716",
+      "848",
+      "849",
+      "721",
+      "722",
+      "723",
+      "724",
+      "725",
+      "726",
+      "727",
+      "728",
+      "729",
+      "730",
+      "731",
+      "732",
+      "733",
+      "734",
+      "735"
+    ],
+    "nota": "Limita din inventar e terenul de 13324 mp, inclusiv fâșiile de dezmembrat pentru lărgirea străzilor Oașului Fundătură, Oașului și Gării (427 + 269 + 21 mp din bilanț); pe planșă urmează marginea exterioară a fâșiilor hașurate, nu linia punctată maro de la marginea lor interioară. Numerotarea nu urmează conturul (701-705, 816, 706, 707, 818, ...), de aceea `ordine` copiază ordinea din tabel. Liniile desenate ale limitei stau la 0,2-0,6 m de pozițiile pe care caroiajul le dă vârfurilor din inventar."
+  },
+  "repere": {
+    "C392950_588700": [
+      588700.0,
+      392950.0
+    ],
+    "C393000_588700": [
+      588700.0,
+      393000.0
+    ],
+    "C392900_588600": [
+      588600.0,
+      392900.0
+    ],
+    "C392950_588600": [
+      588600.0,
+      392950.0
+    ],
+    "C392900_588550": [
+      588550.0,
+      392900.0
+    ]
+  },
+  "gcp_px": {
+    "701": [
+      1482,
+      1179
+    ],
+    "734": [
+      1570,
+      1566
+    ],
+    "713": [
+      3566,
+      2471
+    ],
+    "716": [
+      3138,
+      3503
+    ],
+    "C392950_588700": [
+      2952.7,
+      1295
+    ],
+    "C393000_588700": [
+      3737.3,
+      1291
+    ],
+    "C392900_588600": [
+      2175,
+      2877
+    ],
+    "C392900_588550": [
+      2177,
+      3666
+    ]
+  },
+  "verificare_px": {
+    "733": [
+      1423,
+      1642
+    ],
+    "709": [
+      3484,
+      2399
+    ],
+    "714": [
+      3249,
+      3382
+    ],
+    "848": [
+      2052,
+      3820
+    ],
+    "C392950_588600": [
+      2960.7,
+      2873
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      4710,
+      3298,
+      5248,
+      4510
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "RiM*",
+      "denumire": "Zonă mixtă – restructurarea fostei platforme industriale TDR (str. Oașului nr. 27): locuire colectivă, birouri și activități administrative, financiar-bancare, terțiare, comerț en detail și servicii de mari dimensiuni, cultură, învățământ, sănătate și asistență socială, turism; locuirea și birourile ocupă cel mult 30% din suprafața utilă totală; parterele spre spațiile publice principale au funcțiuni de interes public; regim de construire închis",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "(1-2)S+P+7E, max. 32 m (la cornișă și total); corpul din poziția dominantă, la intersecția str. Oașului cu str. Oașului Fundătură: (1-2)S+P+9E, max. 37 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-06-25",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: planșa înscrie pentru toată zona RiM* H max = 37,00 m și regim maxim 2S+P+9 (și bilanțul: înălțime maximă 37 m); Art. 1 permite în general (1-2)S+P+7E cu cel mult 32 m la cornișă și 32 m în total, iar 37 m și (1-2)S+P+9E doar pentru corpul de clădire din poziția dominantă, la intersecția str. Oașului cu str. Oașului Fundătură.",
+    "Retragerea față de limitele laterale: planșa trasează linia „retragere laterală minim 4,5 m”; Art. 1 cere jumătate din înălțimea la cornișă, dar nu mai puțin de 4,5 m.",
+    "Art. 1 adaugă reguli care nu apar pe planșă: pentru nivelurile cu locuințe, aria construită cel mult 50% din suprafața terenului; cel puțin 75% din parcări în spații specializate la subsol, demisol sau parter."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire a ansamblului se execută, pe bază de proiecte de specialitate: lărgirea și reamenajarea str. Gării, a sensului giratoriu Oașului–Gării și a str. Oașului între str. Oașului Fundătură și str. Gării, reamenajarea str. Oașului Fundătură și a intersecției ei cu str. Oașului, cu semaforizare, asfaltarea, semnalizarea rutieră, rețeaua pluvială și rețelele edilitare, refacerea aliniamentului, stâlpii de iluminat public și linia de tramvai; tema de proiectare o avizează Direcția Tehnică. Trotuarele de lângă str. Oașului Fundătură și str. Gării se pot face până la recepția imobilului.",
+    "Etapizare: la recepție intră întâi în funcțiune (cu efect asupra traficului) numai comerțul en detail și serviciile de mari dimensiuni, cultura, învățământul, sănătatea și asistența socială și turismul; restul funcțiunilor (locuințe, birouri etc.) într-o a doua etapă, după anul 2026 sau numai după lucrări de infrastructură care cresc capacitatea de circulație a zonei, cu studiul de trafic actualizat de investitori.",
+    "Fâșiile de teren pentru lărgirea str. Oașului, str. Gării și str. Oașului Fundătură (planșa de reglementări) se dezmembrează și se înscriu în CF ca „drum” înainte de autorizația de construire și trec gratuit în domeniul public până la recepția construcției.",
+    "Beneficiarul modernizează pe cheltuiala lui infrastructura rutieră și edilitară a străzilor Oașului, Gării și Oașului Fundătură pe tronsoanele de lângă P.U.Z.",
+    "Un spațiu de cel puțin 450 mp utili la parter, spre spațiul public și cu acces direct din exterior, trece gratuit în proprietatea municipiului, semifinisat (uși, tâmplării, șape, tencuieli), în cel mult 6 luni de la recepția imobilului.",
+    "Clădirile se așază pe aliniamentul străzilor Gării și Oașului, în front continuu închis, și la cel puțin 3 m de aliniamentul str. Oașului Fundătură; accesele se fac din str. Gării și din str. Oașului Fundătură.",
+    "Parcările (auto și velo) se dimensionează după Anexa 2 a regulamentului P.U.G., însumând necesarul fiecărei funcțiuni; cel puțin 75% în spații specializate la subsol, demisol sau parter.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar; odată cu P.U.Z. se aprobă și contractul de restructurare dintre municipiu și investitor (Anexa 1)."
+  ],
+  "hotarare_text": "documente/2024-514/hotarare.txt"
+}
