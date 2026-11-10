@@ -1,0 +1,314 @@
+{
+  "id": "2026-200",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 200,
+    "an": 2026,
+    "data_sedinta": "2026-05-19",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-200-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-200.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, strada Antonio Gaudi nr. 16",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 300,
+    "denumire": "A-03 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 9 e copia anexată hotărârii (A3, alb-negru, 200 ppi, ștampilată „Anexa 2”, datată 03.06.2025), iar p. 19 e aceeași planșă A-03 (1:500, revizia V01_REV03, datată 13.08.2025), color, la format mare (~30×64 cm), scanată la 300 ppi, cu viza „spre neschimbare” a Arhitectului-șef (avizele nr. 51/14.04.2025 și nr. 123/18.08.2025); s-a folosit p. 19. Cele două copii au același contur și același inventar de coordonate, dar diferă la fâșia de ~71 mp din nr. cad. 357284: p. 9 o desenează ca „Parcela 08, UTR Liu_AG, S: 71,39” (strada fiind „Parcela 09”), p. 19 ca „UTR Liu, S: ~71,00” (strada fiind „Parcela 08”), ca în textul hotărârii. P. 10 și p. 20 sunt planșa A-06 Plan circulația terenurilor (Anexa 3). Planșa e la scara reală: potrivirea dă 23,7 px/m, nominal 23,6 px/m. Legenda cuprinde cheia simbolurilor și titlurile celor două U.T.R.; tabelul cu indicatorii U.T.R. (arie, P.O.T., C.U.T.) e lat de ~1850 px, cu valorile la capătul din dreapta, și ar fi micșorat cheia până la ilizibil, așa că nu e inclus: indicatorii sunt în fișa P.U.Z. Antetul planșei, cu numele proprietarilor, nu e inclus în legendă."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A-03 („Contur PUZ”, 30 de puncte, 10-39, în ordinea conturului, Nord X / Est Y, cu lungimile laturilor; S=5825 mp; perimetrul nu e tipărit). Vârfurile sunt marcate pe planșă cu puncte roșii; fiecare punct ales e centrul unui astfel de marcaj (pixelul cel mai adânc în masca roșie a discului, ~24 px diametru), verificat din ochi pe decupaje. Potrivirea folosește colțurile 33 (NV), 34 și 36 (capătul de vest), 26 (latura de nord), 23 (colțul de 90° de lângă str. Antonio Gaudi), 21 și 19 (capătul de est) și 12 (latura de sud); verificare: 37, 38, 13, 15, 17 (latura de sud), 22, 29 și 32.",
+    "suprafata_declarata_m2": 5825,
+    "puncte": {
+      "10": [
+        584734.579,
+        394585.217
+      ],
+      "11": [
+        584722.544,
+        394600.808
+      ],
+      "12": [
+        584713.055,
+        394613.101
+      ],
+      "13": [
+        584695.296,
+        394641.958
+      ],
+      "14": [
+        584693.087,
+        394645.548
+      ],
+      "15": [
+        584680.777,
+        394668.248
+      ],
+      "16": [
+        584676.48,
+        394675.202
+      ],
+      "17": [
+        584662.541,
+        394698.949
+      ],
+      "18": [
+        584651.392,
+        394718.914
+      ],
+      "19": [
+        584650.593,
+        394720.34
+      ],
+      "20": [
+        584655.13,
+        394722.352
+      ],
+      "21": [
+        584658.943,
+        394723.852
+      ],
+      "22": [
+        584670.468,
+        394703.475
+      ],
+      "23": [
+        584687.56,
+        394674.393
+      ],
+      "24": [
+        584714.883,
+        394684.434
+      ],
+      "25": [
+        584715.629,
+        394682.837
+      ],
+      "26": [
+        584728.675,
+        394653.004
+      ],
+      "27": [
+        584737.845,
+        394634.773
+      ],
+      "28": [
+        584740.591,
+        394629.314
+      ],
+      "29": [
+        584745.872,
+        394618.815
+      ],
+      "30": [
+        584749.673,
+        394611.257
+      ],
+      "31": [
+        584751.237,
+        394610.024
+      ],
+      "32": [
+        584757.099,
+        394603.557
+      ],
+      "33": [
+        584793.668,
+        394563.212
+      ],
+      "34": [
+        584786.79,
+        394532.419
+      ],
+      "35": [
+        584782.925,
+        394533.461
+      ],
+      "36": [
+        584780.989,
+        394524.794
+      ],
+      "37": [
+        584765.633,
+        394545.228
+      ],
+      "38": [
+        584739.3,
+        394579.131
+      ],
+      "39": [
+        584735.59,
+        394583.908
+      ]
+    },
+    "laturi_declarate_m": {
+      "10": 19.7,
+      "11": 15.53,
+      "12": 33.88,
+      "13": 4.22,
+      "14": 25.82,
+      "15": 8.17,
+      "16": 27.54,
+      "17": 22.87,
+      "18": 1.63,
+      "19": 4.96,
+      "20": 4.1,
+      "21": 23.41,
+      "22": 33.73,
+      "23": 29.11,
+      "24": 1.76,
+      "25": 32.56,
+      "26": 20.41,
+      "27": 6.11,
+      "28": 11.75,
+      "29": 8.46,
+      "30": 1.99,
+      "31": 8.73,
+      "32": 54.45,
+      "33": 31.55,
+      "34": 4.0,
+      "35": 8.88,
+      "36": 25.56,
+      "37": 42.93,
+      "38": 6.05,
+      "39": 1.65
+    }
+  },
+  "gcp_px": {
+    "33": [
+      1051,
+      749
+    ],
+    "34": [
+      537,
+      1286
+    ],
+    "36": [
+      468,
+      1497
+    ],
+    "26": [
+      3676,
+      844
+    ],
+    "23": [
+      4636,
+      1370
+    ],
+    "21": [
+      5990,
+      1284
+    ],
+    "19": [
+      6030,
+      1494
+    ],
+    "12": [
+      3099,
+      1673
+    ]
+  },
+  "verificare_px": {
+    "37": [
+      1067,
+      1532
+    ],
+    "38": [
+      2077,
+      1603
+    ],
+    "13": [
+      3901,
+      1644
+    ],
+    "15": [
+      4604,
+      1583
+    ],
+    "17": [
+      5452,
+      1538
+    ],
+    "22": [
+      5437,
+      1325
+    ],
+    "29": [
+      2780,
+      956
+    ],
+    "32": [
+      2326,
+      936
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      6165,
+      195,
+      6865,
+      1755
+    ],
+    [
+      290,
+      2992,
+      1240,
+      3036
+    ],
+    [
+      290,
+      3153,
+      1240,
+      3196
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu_AG",
+      "denumire": "Zonă de locuințe individuale (unifamiliale) – parcelele 1-6: locuințe unifamiliale și anexele lor, regim de construire izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m (cornișa max. 8 m); cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "Va_AG",
+      "denumire": "Subzonă verde – scuar, grădină cu acces public nelimitat (parcela 7): plantații, mobilier urban, amenajări pentru joacă, odihnă și sport",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "3 m (parter)"
+    },
+    {
+      "cod": "Liu",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime pe parcelar de tip urban – fâșia de ~71 mp din imobilul nr. cad. 357284, trecută din U.T.R. ULiu în U.T.R. Liu; se aplică regulamentul P.U.G. pentru Liu"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-05-19",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Eticheta „UTR Va_AG” din colțul de nord-vest al planșei dă „POT: 35.0 %, CUT: 0.9” (valorile pentru Liu_AG); hotărârea (Art. 1) dă pentru Va_AG P.O.T. max. 5% și C.U.T. max. 0,1, la fel ca tabelul U.T.R. de pe aceeași planșă.",
+    "Pe planșă, strada nou propusă (Parcela 08, 2099,42 mp) poartă eticheta „UTR Liu_AG” și e socotită în suprafața Liu_AG din bilanț (5217,18 mp); hotărârea încadrează în Liu_AG doar parcelele 1-6, iar strada se înscrie în CF ca „drum” și trece în domeniul public.",
+    "Planșa anexată hotărârii (Anexa 2, p. 9 din PDF, datată 03.06.2025) încadrează fâșia de ~71 mp din nr. cad. 357284 în Liu_AG („Parcela 08, UTR Liu_AG”, bilanț Liu_AG 5288 mp, Liu 0); hotărârea (Art. 1) o încadrează în U.T.R. Liu, ca planșa vizată în august 2025 (p. 19) care e afișată pe hartă."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcele: strada nou propusă, cu ampriză de 9 m, se înscrie în CF ca „drum”, se echipează edilitar, iar partea carosabilă se face la strat de uzură, pe baza unui proiect de specialitate.",
+    "Înainte de recepția construcțiilor: se fac trotuarele străzii propuse, cu iluminatul stradal și racordul cu str. Alexandru Macedonski, și se amenajează subzona verde cu acces public nelimitat (Va_AG) pe baza unui proiect autorizat (plantații înalte, medii și joase, mobilier urban).",
+    "Înainte de recepția construcțiilor: strada nou propusă și terenul subzonei verzi trec gratuit în domeniul public, cum propune planșa A-06.",
+    "Accesul la parcele se face numai din strada propusă (9 m), care se desprinde din str. Antonio Gaudi: de regulă un acces pietonal și unul carosabil pe parcelă, cel carosabil de cel mult 5 m; parcarea se face în parcelă (1 loc sub 100 mp AU, 2 locuri peste 100 mp AU).",
+    "Clădirile se retrag 5 m de la aliniament (alinierea e obligatorie), garajele cel puțin 6 m; toate clădirile stau în fâșia de 25 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total; retragere minimă 3 m de la limitele laterale (cuplare pe o limită doar cu convenție de vecinătate; garajele se pot alipi dacă calcanul nu trece de 2,8 m) și 6 m de la limita posterioară.",
+    "Toate clădirile se racordează la rețele, cablurile se îngroapă, apele pluviale nu se scurg spre domeniul public sau spre vecini, iar fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public.",
+    "În subzona verde e interzisă parcarea; se fac iluminat public, puncte de apă, un spațiu pentru deșeuri și unul pentru compost, cu retrageri de cel puțin 3 m față de toate limitele.",
+    "Toate investițiile propuse sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-200/hotarare.txt"
+}
