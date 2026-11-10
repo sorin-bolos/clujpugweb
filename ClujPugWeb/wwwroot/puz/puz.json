@@ -5900,6 +5900,161 @@
   ]
  },
  {
+  "id": "2022-903",
+  "localitate": "cluj",
+  "hcl": "903/2022",
+  "data": "2022-12-05",
+  "titlu": "P.U.Z. – Corectare limită U.T.R. între U.T.R. ULid și Lid, str. Făgetului nr. 62",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-903-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2022/12/05/HCL-903.pdf",
+  "utr": [
+   {
+    "cod": "Lid",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: o singură locuință unifamilială izolată pe parcelă, cu anexe (garaj, filigorie, piscină, împrejmuiri); 2.551 mp după corectarea limitei față de ULid",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "8 m la cornișă, 10 m maxim; două niveluri supraterane ((S)+P+1, (S)+P+M, D+P)"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (879,5 mp); rămân prevederile regulamentului P.U.G."
+   }
+  ],
+  "suprafata_m2": 3489,
+  "imagine": "puz/2022-903/plansa.webp",
+  "bounds": {
+   "west": 23.5845207,
+   "south": 46.7276975,
+   "east": 23.5862562,
+   "north": 46.7283973
+  },
+  "limita": [
+   [
+    23.5846985,
+    46.7277197
+   ],
+   [
+    23.584655,
+    46.7278261
+   ],
+   [
+    23.5845934,
+    46.7279837
+   ],
+   [
+    23.5845484,
+    46.7281048
+   ],
+   [
+    23.584576,
+    46.7281496
+   ],
+   [
+    23.5848229,
+    46.7281947
+   ],
+   [
+    23.585361,
+    46.7282785
+   ],
+   [
+    23.5853615,
+    46.728277
+   ],
+   [
+    23.5854164,
+    46.7282804
+   ],
+   [
+    23.5855454,
+    46.7282969
+   ],
+   [
+    23.5856409,
+    46.7283093
+   ],
+   [
+    23.585737,
+    46.728322
+   ],
+   [
+    23.5858478,
+    46.7283364
+   ],
+   [
+    23.5859584,
+    46.7283509
+   ],
+   [
+    23.5860473,
+    46.7283625
+   ],
+   [
+    23.5861233,
+    46.728373
+   ],
+   [
+    23.5861935,
+    46.7283816
+   ],
+   [
+    23.5862137,
+    46.7283432
+   ],
+   [
+    23.5859351,
+    46.7282633
+   ],
+   [
+    23.5854953,
+    46.7281804
+   ],
+   [
+    23.5855397,
+    46.7280527
+   ],
+   [
+    23.5854979,
+    46.7279628
+   ],
+   [
+    23.5854453,
+    46.7279499
+   ],
+   [
+    23.5851487,
+    46.7278711
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.22
+  },
+  "legenda": "puz/2022-903/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2027-12-05",
+   "initial_pana_la": "2025-12-05",
+   "prelungiri": [
+    {
+     "hcl": "674/2025",
+     "pana_la": "2027-12-05"
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Retragerea față de limita posterioară (latura de nord): planșa desenează linia „Retragere minimă 6 m față de limita posterioară”, iar hotărârea (Art. 1) și regulamentul din Anexa 2 cer cel puțin înălțimea clădirii, dar nu mai puțin de 12 m; garajele, tot la cel puțin 12 m. În plus, hotărârea ține toate construcțiile în fâșia de 30 m de la aliniament, limită pe care planșa nu o desenează. Zona construibilă e deci mai mică decât arată liniile de pe planșă."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării străzii Făgetului (58 mp, „zona de utilitate publică”) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepția construcției se aduce la aceeași îmbrăcăminte rutieră ca strada Făgetului.",
+   "Pe parcelă se construiește o singură locuință unifamilială izolată, cu toate construcțiile în fâșia de 30 m de la aliniament.",
+   "Retrageri: cel puțin 5 m de la aliniament (garajele 6 m); de la limitele laterale cel puțin jumătate din înălțime, dar minimum 4,50 m la est și 9 m la vest; de la limita posterioară cel puțin înălțimea, minimum 12 m; 3 m față de zona verde Ve.",
+   "Un singur acces pietonal și unul carosabil, din strada Făgetului; parcarea în interiorul parcelei (1 loc sub 100 mp arie utilă, 2 locuri peste).",
+   "Pe suprafața din UTR Ve rămân prevederile regulamentului P.U.G."
+  ]
+ },
+ {
   "id": "2022-621",
   "localitate": "cluj",
   "hcl": "621/2022",

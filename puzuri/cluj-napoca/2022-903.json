@@ -1,0 +1,230 @@
+{
+  "id": "2022-903",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 903,
+    "an": 2022,
+    "data_sedinta": "2022-12-05",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-903-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2022/12/05/HCL-903.pdf"
+  },
+  "titlu": "P.U.Z. – Corectare limită U.T.R. între U.T.R. ULid și Lid, str. Făgetului nr. 62",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 96,
+    "denumire": "Reglementări urbanistice – zonificare (planșa U.04)",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e pagina 15 (A3 culcat, color, 96 ppi, 1587×1123 px): U.04 „Reglementări urbanistice – zonificare”, proiect U05/2019, data 09.2019, ștampilată de Comisia tehnică de amenajare a teritoriului (aviz arhitect-șef nr. 25 din 21.02.2022). Pagina 3 e aceeași planșă ca Anexa 1, fotocopiată alb-negru și micșorată pe A4 (tot 96 ppi), mult mai greu de citit; p. 11 e un extras din P.U.G., pp. 1-2 hotărârea, pp. 4-8 regulamentul (Anexa 2, regulamentul UTR Lid din P.U.G.). Scara reală a imaginii: 7,3 px/m (1:500 tipărit la ~97%), nordul în sus (rotație 0,1°). Legenda e caseta „Legenda reglementări urbanistice” din dreapta jos, cu blocurile UTR Ve, Lid (propus) și Lid (conform PUG); planșa nu are tabel de indicatori (POT/CUT/înălțimi), iar bilanțurile, necesarul de parcări, profilul stradal și cartușul au rămas afară. La 96 ppi legenda se citește, dar e mică."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Parcela (1F)” de pe planșa U.04, X(Nord) / Y(Est), S(1F)=3489,40 mp, P=330,670 m",
+    "suprafata_declarata_m2": 3489.4,
+    "puncte": {
+      "1": [
+        581871.424,
+        391958.496
+      ],
+      "2": [
+        581883.304,
+        391955.379
+      ],
+      "3": [
+        581900.909,
+        391950.985
+      ],
+      "4": [
+        581914.42,
+        391947.788
+      ],
+      "5": [
+        581919.363,
+        391949.988
+      ],
+      "6": [
+        581924.046,
+        391968.943
+      ],
+      "7": [
+        581932.618,
+        392010.23
+      ],
+      "8": [
+        581932.456,
+        392010.263
+      ],
+      "9": [
+        581932.755,
+        392014.472
+      ],
+      "10": [
+        581934.415,
+        392024.361
+      ],
+      "11": [
+        581935.663,
+        392031.678
+      ],
+      "12": [
+        581936.943,
+        392039.049
+      ],
+      "13": [
+        581938.388,
+        392047.549
+      ],
+      "14": [
+        581939.844,
+        392056.028
+      ],
+      "15": [
+        581941.018,
+        392062.845
+      ],
+      "16": [
+        581942.08,
+        392068.674
+      ],
+      "17": [
+        581942.941,
+        392074.05
+      ],
+      "18": [
+        581938.643,
+        392075.522
+      ],
+      "19": [
+        581930.149,
+        392054.072
+      ],
+      "20": [
+        581921.536,
+        392020.296
+      ],
+      "21": [
+        581907.283,
+        392023.436
+      ],
+      "22": [
+        581897.352,
+        392020.069
+      ],
+      "23": [
+        581895.98,
+        392016.024
+      ],
+      "24": [
+        581887.631,
+        391993.196
+      ]
+    },
+    "perimetru_declarat_m": 330.67,
+    "laturi_declarate_m": {
+      "1": 12.282,
+      "2": 18.145,
+      "3": 13.884,
+      "4": 5.41,
+      "5": 19.525,
+      "6": 42.167,
+      "7": 0.165,
+      "8": 4.22,
+      "9": 10.027,
+      "10": 7.423,
+      "11": 7.481,
+      "12": 8.622,
+      "13": 8.603,
+      "14": 6.917,
+      "15": 5.925,
+      "16": 5.445,
+      "17": 4.543,
+      "18": 23.071,
+      "19": 34.857,
+      "20": 14.595,
+      "21": 10.486,
+      "22": 4.271,
+      "23": 24.307,
+      "24": 38.298
+    },
+    "nota": "Punctele de pe planșă sunt luate pe colțurile liniei roșii „Limita reglementată prin P.U.Z.”, care e chiar limita parcelei. Linia subțire neagră cu numerele punctelor și lungimile laturilor (1…24, 12,28 … 38,30) e o linie de cotă trasă la ~1,5-2 m în afara limitei, cu linii de extensie spre colțuri; nu e limita. Colțuri folosite: 4 (vest), 17 și 18 (capătul de est), 20 (colțul nordic al decroșului), 22 (spre str. Făgetului); verificare: 5 și 21. Celelalte puncte sunt pe laturi aproape drepte (2, 3, 6-16, 19, 23, 24) sau nu se văd (1, sub hașura roșie a lărgirii străzii)."
+  },
+  "gcp_px": {
+    "4": [
+      168,
+      598
+    ],
+    "17": [
+      1094,
+      390
+    ],
+    "18": [
+      1102,
+      420
+    ],
+    "20": [
+      701,
+      544
+    ],
+    "22": [
+      697,
+      725
+    ]
+  },
+  "verificare_px": {
+    "5": [
+      182,
+      562
+    ],
+    "21": [
+      719,
+      646
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1130,
+      705,
+      1350,
+      1090
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lid",
+      "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: o singură locuință unifamilială izolată pe parcelă, cu anexe (garaj, filigorie, piscină, împrejmuiri); 2.551 mp după corectarea limitei față de ULid",
+      "pot_max": "20%",
+      "cut_max": "0,4",
+      "h_max": "8 m la cornișă, 10 m maxim; două niveluri supraterane ((S)+P+1, (S)+P+M, D+P)"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (879,5 mp); rămân prevederile regulamentului P.U.G."
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2025-12-05",
+    "verificat": "2026-11-10: Art. 2, trei ani de la aprobare; prelungită cu 2 ani prin HCL 674/2025 (20.11.2025), adoptată înainte de expirare. Hotărârea de prelungire spune doar „cu o perioadă de 2 ani”; termenul e socotit de la expirarea inițială (5.12.2025). Nicio altă hotărâre în indexul P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [
+    {
+      "hcl": "674/2025",
+      "pana_la": "2027-12-05"
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerea față de limita posterioară (latura de nord): planșa desenează linia „Retragere minimă 6 m față de limita posterioară”, iar hotărârea (Art. 1) și regulamentul din Anexa 2 cer cel puțin înălțimea clădirii, dar nu mai puțin de 12 m; garajele, tot la cel puțin 12 m. În plus, hotărârea ține toate construcțiile în fâșia de 30 m de la aliniament, limită pe care planșa nu o desenează. Zona construibilă e deci mai mică decât arată liniile de pe planșă."
+  ],
+  "conditii": [
+    "Terenul necesar regularizării străzii Făgetului (58 mp, „zona de utilitate publică”) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepția construcției se aduce la aceeași îmbrăcăminte rutieră ca strada Făgetului.",
+    "Pe parcelă se construiește o singură locuință unifamilială izolată, cu toate construcțiile în fâșia de 30 m de la aliniament.",
+    "Retrageri: cel puțin 5 m de la aliniament (garajele 6 m); de la limitele laterale cel puțin jumătate din înălțime, dar minimum 4,50 m la est și 9 m la vest; de la limita posterioară cel puțin înălțimea, minimum 12 m; 3 m față de zona verde Ve.",
+    "Un singur acces pietonal și unul carosabil, din strada Făgetului; parcarea în interiorul parcelei (1 loc sub 100 mp arie utilă, 2 locuri peste).",
+    "Pe suprafața din UTR Ve rămân prevederile regulamentului P.U.G."
+  ]
+}
