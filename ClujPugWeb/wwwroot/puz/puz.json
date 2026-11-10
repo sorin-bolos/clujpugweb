@@ -9734,6 +9734,145 @@
   ]
  },
  {
+  "id": "2023-742",
+  "localitate": "cluj",
+  "hcl": "742/2023",
+  "data": "2023-10-17",
+  "titlu": "P.U.Z. de urbanizare, strada Ciucea-vest",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-742-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2023/10/17/HCL-742.pdf",
+  "utr": [
+   {
+    "cod": "Lic/a",
+    "denumire": "Locuințe individuale în regim izolat, cu anexele lor (garaje, filigorii, împrejmuiri, piscine)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă, 12 m la coamă; două niveluri supraterane plus mansardă sau nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1 (numai pentru clădiri cu spații interioare)",
+    "h_max": "4 m la cornișă, parter"
+   }
+  ],
+  "suprafata_m2": 3883,
+  "imagine": "puz/2023-742/plansa.webp",
+  "bounds": {
+   "west": 23.6221334,
+   "south": 46.7965706,
+   "east": 23.6238904,
+   "north": 46.7973998
+  },
+  "limita": [
+   [
+    23.6221658,
+    46.7970575
+   ],
+   [
+    23.6222934,
+    46.7973636
+   ],
+   [
+    23.6233794,
+    46.7971226
+   ],
+   [
+    23.6232763,
+    46.7968855
+   ],
+   [
+    23.6236492,
+    46.7968049
+   ],
+   [
+    23.6238379,
+    46.7970209
+   ],
+   [
+    23.6238488,
+    46.7970192
+   ],
+   [
+    23.6237232,
+    46.7968652
+   ],
+   [
+    23.6237068,
+    46.7968491
+   ],
+   [
+    23.6236863,
+    46.7968313
+   ],
+   [
+    23.6236707,
+    46.7968175
+   ],
+   [
+    23.6236501,
+    46.7968015
+   ],
+   [
+    23.623641,
+    46.796794
+   ],
+   [
+    23.6236344,
+    46.7967911
+   ],
+   [
+    23.623589,
+    46.796801
+   ],
+   [
+    23.6232069,
+    46.7965985
+   ],
+   [
+    23.6230264,
+    46.7966349
+   ],
+   [
+    23.6231076,
+    46.7968377
+   ],
+   [
+    23.623,
+    46.796862
+   ],
+   [
+    23.6229243,
+    46.7968871
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.01
+  },
+  "legenda": "puz/2023-742/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-10-17"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: hotărârea fixează 8 m la cornișă și 12 m la coamă și admite (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; planșa notează doar regimul (S)P+E+M pe fiecare lot, fără înălțimi în metri.",
+   "Legenda planșei notează terenul pentru lărgirea străzilor ca „propus să rămână în proprietate privată”; hotărârea nu cere transferul lui în domeniul public, dar cere ca terenul pentru lărgirea str. Ciucea să fie dezmembrat, înscris în CF ca „drum” și asfaltat înainte de recepție."
+  ],
+  "conditii": [
+   "Strada „A” (proprietate privată, ampriza 9 m) se deschide circulației publice și asigură accesul la spațiul verde public S_Va.",
+   "Înainte de autorizațiile de construire: terenul pentru lărgirea și modernizarea str. Ciucea la ampriza de 12 m, pe tronsonul de lângă P.U.Z., se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”.",
+   "Înainte de autorizațiile de construire: strada „A” se înscrie în CF ca „drum”.",
+   "Înainte de recepția construcțiilor: strada „A” se echipează edilitar (inclusiv iluminat stradal), se aduce la strat de uzură și primește mobilier urban (coșuri de gunoi, bănci).",
+   "Înainte de recepție: pe strada „A” se plantează cel puțin 8 arbori de aliniament, cu circumferința de minimum 35 cm măsurată la 1 m de colet.",
+   "Înainte de recepție: terenul dezmembrat pentru lărgirea str. Ciucea se asfaltează.",
+   "Înainte de recepție: spațiul verde cu acces public nelimitat din S_Va se amenajează după un proiect de specialitate (plantații înalte, medii și joase, mobilier urban).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-604",
   "localitate": "cluj",
   "hcl": "604/2023",

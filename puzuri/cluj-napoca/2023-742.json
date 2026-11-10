@@ -1,0 +1,251 @@
+{
+  "id": "2023-742",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 742,
+    "an": 2023,
+    "data_sedinta": "2023-10-17",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-742-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2023/10/17/HCL-742.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, strada Ciucea-vest",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 200,
+    "denumire": "A.04 Plan reglementări urbanistice (planșa U.4 din hotărâre)",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări apare de două ori: p. 10 (Anexa 2, redusă pe A4) și p. 17 (A3, 200 ppi, aceeași planșă, de două ori mai mare); s-a folosit p. 17. Cartușul scrie 1:1000, dar pe p. 17 desenul e la ~1:500 (15,7-15,8 px/m la 200 ppi: crucile caroiajului la 20 m și cotele străzilor). Planșa e tipărită culcată, cu nordul spre dreapta; legenda e rotită la decupare. Bilanțul teritorial dă 3891 mp total, deși rândurile lui însumează 3901,5 mp. În legendă sunt adăugați, sub simboluri, indicatorii POT/CUT tipăriți sub bilanț (parțial acoperiți de o ștampilă)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate. Georeferențiere pe caroiajul Stereo 70 al planului topografic din desen: cruci la 20 m (~315 px), fără etichete, vizibile doar în zona str. Ciucea (6 cruci pe 2 coloane și 4 rânduri; una prea ștearsă, la (935, 1771), a fost lăsată deoparte), etichetate cu `caroiaj` pornind de la intersecția axelor str. Ciucea / Aleea Cozia din OSM (extrasul din 2026-11-08), aleasă pe planșă la (769, 1772): crucile cad la 4,0 m de nodurile de 20 m; cu ancora la intersecția str. Ciucea / Strada Horezu (aleea din dreapta loturilor, (1597, 2550)) etichetele ies aceleași (5,2 m de noduri). Control: crucile C395020_589480, C395060_589480, C395060_589500, C395080_589500, cu centrul măsurat pe brațe; verificare: C395040_589500. Verificări independente ale etichetelor: aria trasată (3883 mp față de 3891 mp) confirmă pasul de 20 m; cu potrivirea pe cruci, casele existente din OSM dintre Aleea Cozia și strada A, casa D+P de lângă gura străzii A și clădirea D+P+E+M cad peste cele desenate la ~1-2 m, axul Aleii Cozia din OSM urmează axul aleii desenate, iar pe ortofoto Esri cele cinci case în construcție de pe loturi cad în zonele construibile. Limita e trasată (`limita_px`) pe linia roșie punctată „Teren reglementat prin P.U.Z.”, inclusiv fâșia hașurată de lărgire a str. Ciucea din fața parcelei 308683 și pana hașurată din gura străzii A.",
+    "suprafata_declarata_m2": 3891,
+    "puncte": {},
+    "nota": "Crucile acoperă doar o fâșie de ~20 × 60 m lângă str. Ciucea, iar limita se întinde până la ~100 m de ele: potrivirea afină (15,66 / 15,80 px/m, 0,2° forfecare) și o similaritate prin aceleași cruci diferă cu cel mult 0,8 m pe limită. Suprafața: 3891 mp, din Art. 1 și din bilanțul planșei."
+  },
+  "gcp_px": {
+    "C395020_589480": [
+      931,
+      1459
+    ],
+    "C395060_589480": [
+      936,
+      2086
+    ],
+    "C395060_589500": [
+      1252,
+      2085
+    ],
+    "C395080_589500": [
+      1254,
+      2398
+    ]
+  },
+  "verificare_px": {
+    "C395040_589500": [
+      1249,
+      1773
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1382,
+      2640,
+      2040,
+      3185,
+      270
+    ],
+    [
+      800,
+      2485,
+      952,
+      3195,
+      270
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lic/a",
+      "denumire": "Locuințe individuale în regim izolat, cu anexele lor (garaje, filigorii, împrejmuiri, piscine)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă, 12 m la coamă; două niveluri supraterane plus mansardă sau nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat",
+      "pot_max": "5%",
+      "cut_max": "0,1 (numai pentru clădiri cu spații interioare)",
+      "h_max": "4 m la cornișă, parter"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-10-17",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio hotărâre ulterioară în indexul de titluri P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: hotărârea fixează 8 m la cornișă și 12 m la coamă și admite (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; planșa notează doar regimul (S)P+E+M pe fiecare lot, fără înălțimi în metri.",
+    "Legenda planșei notează terenul pentru lărgirea străzilor ca „propus să rămână în proprietate privată”; hotărârea nu cere transferul lui în domeniul public, dar cere ca terenul pentru lărgirea str. Ciucea să fie dezmembrat, înscris în CF ca „drum” și asfaltat înainte de recepție."
+  ],
+  "conditii": [
+    "Strada „A” (proprietate privată, ampriza 9 m) se deschide circulației publice și asigură accesul la spațiul verde public S_Va.",
+    "Înainte de autorizațiile de construire: terenul pentru lărgirea și modernizarea str. Ciucea la ampriza de 12 m, pe tronsonul de lângă P.U.Z., se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”.",
+    "Înainte de autorizațiile de construire: strada „A” se înscrie în CF ca „drum”.",
+    "Înainte de recepția construcțiilor: strada „A” se echipează edilitar (inclusiv iluminat stradal), se aduce la strat de uzură și primește mobilier urban (coșuri de gunoi, bănci).",
+    "Înainte de recepție: pe strada „A” se plantează cel puțin 8 arbori de aliniament, cu circumferința de minimum 35 cm măsurată la 1 m de colet.",
+    "Înainte de recepție: terenul dezmembrat pentru lărgirea str. Ciucea se asfaltează.",
+    "Înainte de recepție: spațiul verde cu acces public nelimitat din S_Va se amenajează după un proiect de specialitate (plantații înalte, medii și joase, mobilier urban).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "caroiaj": {
+    "pas_m": 20,
+    "px_per_m": 15.3,
+    "nord": 90,
+    "ancora": {
+      "px": [
+        769,
+        1772
+      ],
+      "en": [
+        395035.9,
+        589469.1
+      ],
+      "sursa": "OSM (extras 2026-11-08): intersecția axelor str. Ciucea / Aleea Cozia; verificat și cu intersecția Ciucea / Strada Horezu, care dă aceleași etichete"
+    },
+    "cruci_px": {
+      "k1": [
+        931,
+        1459
+      ],
+      "k3": [
+        1249,
+        1773
+      ],
+      "k4": [
+        936,
+        2086
+      ],
+      "k5": [
+        1252,
+        2085
+      ],
+      "k6": [
+        1254,
+        2398
+      ]
+    },
+    "nota": "Crucile citite pe planșă cu centrul măsurat pe brațe (zoom 12×); `caroiaj --write` le-a pus în `repere` și `gcp_px`, iar C395040_589500 a fost mutată în `verificare_px`. Crucile nu sunt o machetă a foii: apar doar în fâșia ridicării topografice a str. Ciucea, nu pe tot desenul, și se potrivesc cu clădirile și străzile din OSM."
+  },
+  "repere": {
+    "C395020_589480": [
+      589480.0,
+      395020.0
+    ],
+    "C395040_589500": [
+      589500.0,
+      395040.0
+    ],
+    "C395060_589480": [
+      589480.0,
+      395060.0
+    ],
+    "C395060_589500": [
+      589500.0,
+      395060.0
+    ],
+    "C395080_589500": [
+      589500.0,
+      395080.0
+    ]
+  },
+  "limita_px": [
+    [
+      1661,
+      452
+    ],
+    [
+      2197,
+      612
+    ],
+    [
+      1761,
+      1905
+    ],
+    [
+      1346,
+      1776
+    ],
+    [
+      1200,
+      2220
+    ],
+    [
+      1577,
+      2451
+    ],
+    [
+      1574,
+      2464
+    ],
+    [
+      1305,
+      2310
+    ],
+    [
+      1277,
+      2290
+    ],
+    [
+      1246,
+      2265
+    ],
+    [
+      1222,
+      2246
+    ],
+    [
+      1194,
+      2221
+    ],
+    [
+      1181,
+      2210
+    ],
+    [
+      1176,
+      2202
+    ],
+    [
+      1194,
+      2148
+    ],
+    [
+      843,
+      1686
+    ],
+    [
+      909,
+      1471
+    ],
+    [
+      1264,
+      1573
+    ],
+    [
+      1308,
+      1445
+    ],
+    [
+      1353,
+      1355
+    ]
+  ]
+}
