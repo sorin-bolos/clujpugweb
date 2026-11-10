@@ -4951,6 +4951,144 @@
   ]
  },
  {
+  "id": "2026-101",
+  "localitate": "cluj",
+  "hcl": "101/2026",
+  "data": "2026-03-20",
+  "titlu": "P.U.Z. – Extindere hală industrială, str. Cheile Baciului nr. 5 prov",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-101-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-101.pdf",
+  "utr": [
+   {
+    "cod": "S_Ei-R",
+    "denumire": "Subzonă de activități economice cu caracter industrial – mari unități industriale (incinta economică în integralitatea ei, nr. cad. 314636); funcțiuni dedicate activităților economice de tip industrial, regim de construire izolat",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "S/D+P+E, H cornișă maxim 15 m, H max 20 m"
+   }
+  ],
+  "suprafata_m2": 6975,
+  "imagine": "puz/2026-101/plansa.webp",
+  "bounds": {
+   "west": 23.5273435,
+   "south": 46.7820412,
+   "east": 23.5289182,
+   "north": 46.7831491
+  },
+  "limita": [
+   [
+    23.5288741,
+    46.7826378
+   ],
+   [
+    23.5279254,
+    46.7831171
+   ],
+   [
+    23.5279135,
+    46.7831037
+   ],
+   [
+    23.5278112,
+    46.7829881
+   ],
+   [
+    23.5276555,
+    46.7828156
+   ],
+   [
+    23.5275508,
+    46.7827012
+   ],
+   [
+    23.5273924,
+    46.7825294
+   ],
+   [
+    23.5273819,
+    46.7825074
+   ],
+   [
+    23.5273811,
+    46.7824839
+   ],
+   [
+    23.5274974,
+    46.7824234
+   ],
+   [
+    23.5277503,
+    46.7822942
+   ],
+   [
+    23.5278029,
+    46.782267
+   ],
+   [
+    23.527908,
+    46.7822129
+   ],
+   [
+    23.5280968,
+    46.7821175
+   ],
+   [
+    23.5281992,
+    46.7820664
+   ],
+   [
+    23.5282321,
+    46.7820712
+   ],
+   [
+    23.5282933,
+    46.7821265
+   ],
+   [
+    23.5283321,
+    46.7821607
+   ],
+   [
+    23.5284146,
+    46.782231
+   ],
+   [
+    23.5284932,
+    46.7823032
+   ],
+   [
+    23.5286779,
+    46.7824632
+   ],
+   [
+    23.5287973,
+    46.7825697
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.01
+  },
+  "legenda": "puz/2026-101/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-03-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: planșa nu tipărește o înălțime maximă; tabelul ei de indici dă doar regimul existent și propus, „P+E parțial (P extindere)”, iar extinderea halei e desenată parter. Art. 1 admite S/D+P+E, cu H cornișă maxim 15 m și H max 20 m.",
+   "Arborii: planșa desenează doar vegetația înaltă existentă (păstrată); cei cel puțin 9 arbori noi pe care Art. 1 îi cere pe spațiul verde pe sol natural nu apar pe ea."
+  ],
+  "conditii": [
+   "Aliniamentul existent se păstrează; clădirile noi și extinderile se retrag cel puțin 8 m de la aliniament, iar de la limitele laterale și posterioară cel puțin H/2, dar minim 6 m. Regim de construire izolat.",
+   "Accesul în incintă se face din str. Cheile Baciului: accesul existent se păstrează și se amenajează un al doilea, tot din str. Cheile Baciului. La accesul carosabil, parcela asigură, în afara circulațiilor publice, spațiul pentru staționarea și manevrarea vehiculelor care așteaptă să intre; pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+   "Parcarea se face în incintă, de regulă la sol: pe parcelă se amenajează 21 de locuri, inclusiv cele existente.",
+   "Toate clădirile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuiri; cablurile nu se montează aerian; deșeurile se colectează selectiv, pe 5 fracții, într-un spațiu din incintă (eventual în clădire) accesibil din spațiul public.",
+   "Pe spațiul verde pe sol natural se plantează cel puțin 9 arbori (circumferință de minim 35 cm la 1 m de colet), în plus față de vegetația înaltă existentă.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
