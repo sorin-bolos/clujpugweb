@@ -1350,6 +1350,89 @@
   ]
  },
  {
+  "id": "2026-587",
+  "localitate": "cluj",
+  "hcl": "587/2026",
+  "data": "2026-09-04",
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, str. Valea Chintăului nr. 94",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-587-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/09/18/HCL-587.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) în regim de construire izolat și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la coamă (8 m la cornișă sau atic); trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 899,
+  "imagine": "puz/2026-587/plansa.webp",
+  "bounds": {
+   "west": 23.5768658,
+   "south": 46.8327656,
+   "east": 23.5775493,
+   "north": 46.8331485
+  },
+  "limita": [
+   [
+    23.5771733,
+    46.833126
+   ],
+   [
+    23.577342,
+    46.8330424
+   ],
+   [
+    23.5775151,
+    46.8329567
+   ],
+   [
+    23.5773055,
+    46.8327895
+   ],
+   [
+    23.5771312,
+    46.8328743
+   ],
+   [
+    23.5770785,
+    46.8328323
+   ],
+   [
+    23.576901,
+    46.8329202
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.02
+  },
+  "legenda": "puz/2026-587/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-09-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Suprafața: Art. 1 aprobă PUZ-ul pentru un teren de 1000 mp, nr. cad. 323114, 305800 și 323115; inventarul de coordonate de pe planșă („limita P.U.Z.-ului”) are 899 mp și lasă afară parcela 323115 (101 mp, fâșia cu destinație de drum din fața parcelei 323114). Pe hartă limita e cea din inventar.",
+   "Accesul auto: hotărârea (Art. 1) limitează accesul carosabil la cel mult 3 m lățime, unul singur pe parcelă; nota de pe planșă prevede alei de acces auto de 6,00 m lățime, asfaltate, de la limita trotuarului până la limita de proprietate.",
+   "Legenda și desenul planșei numesc zona „U.T.R. Liu”; hotărârea și regulamentul o numesc U.T.R. Liu*."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii străzii Valea Chintăului la profilul de 25 m (tip II.G; 100,82 mp din parcela 305800 după nota 1 de pe planșă, hașurat) se dezmembrează și se înscrie în CF cu destinația de „drum” înainte de autorizația de construire pe parcelă și se aduce la strat de uzură (spațiu verde cu dalaj sau asfalt în dreptul acceselor) până la recepția construcției. Restul de 399,18 mp rămâne lot construibil.",
+   "Parcela 323115, deja înscrisă în CF cu destinația de „drum”, se aduce la strat de uzură (spațiu verde cu dalaj sau asfalt în dreptul acceselor) înainte de recepția construcției de pe parcela 323114.",
+   "Accesele auto se amenajează fără modificarea cotei trotuarului existent, cu bordură teșită, conform NP 051/2012.",
+   "Clădirile se retrag cel puțin 4 m de la aliniamentul regularizat al străzii Valea Chintăului și 3 m de la str. Traian Dorz; garajele cel puțin 6 m de la aliniament, ca să se poată parca o mașină în față. Față de limitele laterale, cel puțin 3 m; față de limita posterioară, cel puțin înălțimea clădirii și minimum 6 m.",
+   "Accesul pe parcele se face din str. Valea Chintăului: pe fiecare parcelă un singur acces pietonal și unul carosabil, de cel mult 3 m lățime; pentru aleile din parcelă se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o locuință cu AU sub 100 mp și două peste 100 mp; serviciile de proximitate, cel puțin două locuri.",
+   "Utilitățile se racordează la rețelele publice. Apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în împrejmuire, cablurile nu se montează aerian, iar fiecare parcelă are o platformă pentru colectarea selectivă a deșeurilor (cinci fracții), accesibilă din spațiul public.",
+   "Parcelele construibile au front la stradă de cel puțin 12 m, adâncimea mai mare decât frontul, cel puțin 350 mp și formă regulată; divizările se admit numai dacă parcelele rezultate respectă aceste condiții (regulament și legenda planșei).",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă, iar în grădina de fațadă cel puțin 60%; arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (regulament).",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
