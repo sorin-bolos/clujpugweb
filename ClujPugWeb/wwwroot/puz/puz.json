@@ -5173,6 +5173,120 @@
   ]
  },
  {
+  "id": "2024-765",
+  "localitate": "cluj",
+  "hcl": "765/2024",
+  "data": "2024-12-02",
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și de interes public, în zonă de locuințe cu regim redus de înălțime, B-dul 1 Decembrie 1918 nr. 31",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-765-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/12/05/765.pdf",
+  "utr": [
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public, situată în zonă cu caracter rezidențial; funcțiunea predominantă: sănătate și asistență socială, învățământ, cercetare, cultură, funcțiuni administrative",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "12 m (cornișă 8 m); trei niveluri supraterane: (S)+P+1+M/R sau D+P+M/R, ultimul nivel retras cel puțin 1,80 m față de fațada spre stradă"
+   }
+  ],
+  "suprafata_m2": 406,
+  "imagine": "puz/2024-765/plansa.webp",
+  "bounds": {
+   "west": 23.5668238,
+   "south": 46.7682288,
+   "east": 23.5672987,
+   "north": 46.7686162
+  },
+  "limita": [
+   [
+    23.5668529,
+    46.7685416
+   ],
+   [
+    23.5669668,
+    46.7685934
+   ],
+   [
+    23.5670377,
+    46.7685175
+   ],
+   [
+    23.5671529,
+    46.7684034
+   ],
+   [
+    23.567242,
+    46.7683177
+   ],
+   [
+    23.5672694,
+    46.7682925
+   ],
+   [
+    23.5672452,
+    46.7682796
+   ],
+   [
+    23.5672356,
+    46.7682919
+   ],
+   [
+    23.5671401,
+    46.7682519
+   ],
+   [
+    23.5671383,
+    46.7682544
+   ],
+   [
+    23.5670674,
+    46.7683256
+   ],
+   [
+    23.5670249,
+    46.7683671
+   ],
+   [
+    23.5669464,
+    46.7684491
+   ],
+   [
+    23.5669244,
+    46.7684708
+   ],
+   [
+    23.5668658,
+    46.7685287
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.07
+  },
+  "legenda": "puz/2024-765/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2027-12-02"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa notează pentru clădirea propusă S+P+E+Er, fără înălțimi; hotărârea admite cel mult trei niveluri supraterane – (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R –, cu H cornișă max. 8 m și H max. 12 m, ultimul nivel retras cel puțin 1,80 m față de fațada spre stradă (Art. 1).",
+   "Art. 1 trece „regimul de construire: izolat”, dar tot Art. 1 (și R.L.U., art. 6) cere clădiri pe limitele laterale de proprietate, în front continuu închis, cum sunt desenate și pe planșă.",
+   "Hotărârea menține prevederile R.L.U. al P.U.G. pentru suprafața de teren încadrată în UTR Va (Art. 1); pe planșă toată zona reglementată (406 mp) trece din Liu în S_Is*, iar UTR Va apare doar în afara limitei, în spatele parcelei."
+  ],
+  "conditii": [
+   "Se reglementează doar imobilul cu nr. cad. 284203, cu construcții existente; corpul existent din spate (C2), S+P+E, nu poate fi mărit.",
+   "Clădirea nouă stă în aliniere cu clădirile vecine de la nr. 29 și 33, pe limitele laterale, în front continuu închis: acoperă integral calcanul existent de la nr. 33 și face calcan spre nr. 29; spre spate se păstrează alinierea posterioară a clădirii medicale existente pe parcelă.",
+   "Între clădirile de pe parcelă rămâne cel puțin jumătate din înălțimea celei mai înalte, minim 4,50 m; ele se pot lega doar printr-un corp care conține numai circulații (coridor, scară).",
+   "Accesul se face din b-dul 1 Decembrie 1918, printr-un gang auto semaforizat, cu prioritate la intrarea în incintă față de ieșire (avizul Serviciului Siguranța Circulației nr. 87650/446/2023); semaforul trebuie să funcționeze la recepția lucrărilor și pe toată durata existenței clădirii.",
+   "Parcarea se face în incintă, în sistem suprapus cu utilaj mecanizat, cu numărul de locuri după Anexa 2 a R.L.U. al P.U.G.",
+   "Echipare tehnico-edilitară completă pe parcelă: racorduri la rețelele din b-dul 1 Decembrie 1918, branșamente subterane, apele pluviale nu se scurg spre spațiul public sau spre vecini, spațiu pentru colectarea selectivă a deșeurilor.",
+   "Cel puțin 12% din parcelă rămâne spațiu verde pe sol natural.",
+   "La faza D.T.A.C. documentația trece prin Comisia de Estetică Urbană.",
+   "Toate investițiile propuse sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2024-571",
   "localitate": "cluj",
   "hcl": "571/2024",
