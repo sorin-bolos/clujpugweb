@@ -5173,6 +5173,104 @@
   ]
  },
  {
+  "id": "2025-701",
+  "localitate": "cluj",
+  "hcl": "701/2025",
+  "data": "2025-12-04",
+  "titlu": "P.U.Z. – Corectare limită U.T.R. între U.T.R. ULi/c și U.T.R. Lc, str. Mărișel nr. 3",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-701-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/12/18/701.pdf",
+  "utr": [
+   {
+    "cod": "Lc*",
+    "denumire": "Zonă de locuințe colective (pe planșă „de mici dimensiuni”) – un imobil de locuințe colective cu 5 apartamente; regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "1",
+    "h_max": "(S)+P+2+R/M; 12 m la cornișă, 16 m maxim"
+   }
+  ],
+  "suprafata_m2": 779,
+  "imagine": "puz/2025-701/plansa.webp",
+  "bounds": {
+   "west": 23.5560867,
+   "south": 46.7488945,
+   "east": 23.5566359,
+   "north": 46.7492348
+  },
+  "limita": [
+   [
+    23.5561629,
+    46.7490925
+   ],
+   [
+    23.5564378,
+    46.7491
+   ],
+   [
+    23.5564364,
+    46.7491568
+   ],
+   [
+    23.5564544,
+    46.749157
+   ],
+   [
+    23.5564488,
+    46.7492185
+   ],
+   [
+    23.5565448,
+    46.7492171
+   ],
+   [
+    23.5565488,
+    46.7490568
+   ],
+   [
+    23.5565988,
+    46.749059
+   ],
+   [
+    23.556614,
+    46.7489373
+   ],
+   [
+    23.5561238,
+    46.7489095
+   ],
+   [
+    23.5561125,
+    46.7490288
+   ],
+   [
+    23.5561645,
+    46.7490315
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 3,
+   "rms_m": 0.0
+  },
+  "legenda": "puz/2025-701/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-12-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Zona construibilă de pe planșă e trasă la distanțele minime: 3 m de limita nordică, 4,5 m de cea sudică, 9 m de limita posterioară (est) și 9 m de blocul vecin. Hotărârea (Art. 1) le leagă de înălțime: față de limita sudică cel puțin Hcornișă/2 (6 m la cornișa maximă de 12 m), iar față de blocul de locuințe colective vecin cel puțin înălțimea clădirii propuse (până la 16 m), nu doar 9 m.",
+   "Planșa dă doar regimul de înălțime ((S)+P+2+1R sau (S)+P+2+M); hotărârea adaugă 12 m la cornișă și 16 m înălțime maximă."
+  ],
+  "conditii": [
+   "Accesul se face din str. Mărișel pe aleea de interes local nr. cad. 322528, care va fi semaforizată, cu prioritate pentru intrare față de ieșirea în str. Mărișel; parcela are un singur acces carosabil, de cel mult 6 m lățime.",
+   "Clădirea se retrage cel puțin Hcornișă/2, dar minim 4,5 m, de limita sudică, minim 3 m de cea nordică și minim 9 m de limita posterioară; față de blocul de locuințe colective vecin (nr. cad. 251054) păstrează o distanță cel puțin egală cu înălțimea ei, dar minim 9 m. Un ultim nivel retras se retrage cel puțin 1,80 m față de fațadă.",
+   "Cel puțin 75% din locurile de parcare sunt în spații specializate la subsol, demisol sau parter; necesarul e 1 loc pentru fiecare apartament sub 100 mp utili și 2 peste 100 mp. Parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit; nu se parchează în curtea din spatele clădirii (regulament, art. 9).",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă; arborii maturi nu pot fi tăiați decât dacă sunt un pericol sau împiedică construirea (regulament, art. 13).",
+   "Utilitățile se asigură prin racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament se integrează în clădire sau în împrejmuire; cablurile aeriene sunt interzise; un spațiu pentru colectarea deșeurilor, accesibil din spațiul public, se amenajează pe parcelă.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

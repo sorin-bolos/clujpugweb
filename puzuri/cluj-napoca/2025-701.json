@@ -1,0 +1,161 @@
+{
+  "id": "2025-701",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 701,
+    "an": 2025,
+    "data_sedinta": "2025-12-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-701-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/12/18/701.pdf"
+  },
+  "titlu": "P.U.Z. – Corectare limită U.T.R. între U.T.R. ULi/c și U.T.R. Lc, str. Mărișel nr. 3",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 200,
+    "denumire": "U.02 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 9 (Anexa 2 la hotărâre, scanată pe A4, rotită și aproape alb-negru, ștampilată și semnată) și p. 17 (format mare, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 15 din 12.02.2025, și mențiunea de mână „HCL nr. 701 din 4 decembrie 2025”); s-a folosit p. 17, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-8 regulamentul local de urbanism (Anexa 1), pp. 10-15 avizul Arhitectului-șef, p. 16 extrasul din P.U.G., restul avize, extrase CF, planuri de amplasament, fotografii și raportul informării publicului. Cartușul: proiect 588/22, faza P.U.Z., febr. 2025, planșa U.02 „Reglementări urbanistice”, scara 1:500. Scara imaginii: 15,7 px/m (1:500 la 200 ppi), nordul în sus (rotație -0,05° față de Stereo 70). Legenda cuprinde cheia simbolurilor și caseta „Indici urbanistici” (POT 35%, CUT 1, regim (S)+P+2+1R sau (S)+P+2+M, spațiu verde 40%, 5 apartamente, 5 locuri de parcare); au rămas afară caseta „Zona reglementată” (doar suprafețe: 782 mp, din care 780,70 mp U.T.R. Lc* și 1,30 mp teren rezervat pentru regularizarea Aleii Negoiu), bilanțul teritorial, calculul locurilor de parcare, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate; are caroiajul Stereo 70 de 50 m, cu cruci în desen și etichete în interiorul lui: Nord 584300 și 584250 (orizontal, subliniate, 584250 de două ori) și Est 389850 și 389900 (vertical, 389850 sus și jos). Crucile citite pe planșă (centrul brațelor măsurat pe profile de pixeli): C389850_584250 (1893,1; 1451,5), C389900_584250 (2679,7; 1450,8) și C389900_584300 (2678,8; 661,3), toate la intersecția a două linii etichetate, sunt punctele de control; C389800_584300 (1108,4; 663,8) e crucea desenată sub eticheta 584300, pe linia Est 389800, care nu are etichetă proprie (389850 − 50 m, la 786 px = 50 m spre vest): e punct de verificare. Crucea C389850_584300 e acoperită de texte, iar pe linia 584250 la Est 389800 e doar sublinierea etichetei, fără braț vertical; nu s-au folosit. Limita e trasată pe planșă (`limita_px`): imobilul nr. cad. 345596, linia roșie a limitei cadastrale (dublată de liniuțele albastre ale limitei U.T.R.), 12 vârfuri, care se potrivesc cu schița din extrasul CF (p. 36: vârfurile 1, 2, 9-16 și colțurile de sud), inclusiv fâșia îngustă spre Aleea Negoiu din nord-est.",
+    "suprafata_declarata_m2": 782,
+    "puncte": {},
+    "nota": "Trei puncte de control determină exact transformarea afină (reziduuri 0 prin construcție); singurul test e punctul de verificare C389800_584300, care cade la 0,19 m de poziția prezisă, la vest de zonă (zona e între el și C389850_584250). Scara pe Est (786,6 px / 50 m) și pe Nord (789,5 px / 50 m) diferă cu 0,4%. Aria limitei trasate, 779,1 mp, față de 782 mp din caseta „Zona reglementată” și din extrasul CF (-0,4%). Laturile limitei trasate față de cotele roșii de pe planșă: sud 37,58 m (13,86 + 8,47 + 15,40 = 37,73), est 13,58 m (10,41 + 3,31 = 13,72), 17,82 m (17,73), 3,83 m (3,78), 21,01 m (21,27), 6,78 m (6,76); doar latura scurtă dintre vârfurile 2 și 1 iese 3,98 m față de cota 4,39. S-a urmat linia roșie cadastrală; liniuțele albastre ale limitei U.T.R. stau lipite de ea, spre exterior."
+  },
+  "repere": {
+    "C389850_584250": [
+      584250,
+      389850
+    ],
+    "C389900_584250": [
+      584250,
+      389900
+    ],
+    "C389900_584300": [
+      584300,
+      389900
+    ],
+    "C389800_584300": [
+      584300,
+      389800
+    ]
+  },
+  "gcp_px": {
+    "C389850_584250": [
+      1893.1,
+      1451.5
+    ],
+    "C389900_584250": [
+      2679.7,
+      1450.8
+    ],
+    "C389900_584300": [
+      2678.8,
+      661.3
+    ]
+  },
+  "verificare_px": {
+    "C389800_584300": [
+      1108.4,
+      663.8
+    ]
+  },
+  "limita_px": [
+    [
+      1439,
+      883.1
+    ],
+    [
+      1769.5,
+      875.7
+    ],
+    [
+      1769.5,
+      776
+    ],
+    [
+      1791.2,
+      776
+    ],
+    [
+      1786.3,
+      668
+    ],
+    [
+      1901.6,
+      672.5
+    ],
+    [
+      1901.6,
+      953.9
+    ],
+    [
+      1961.8,
+      951.0
+    ],
+    [
+      1976.4,
+      1164.9
+    ],
+    [
+      1386.5,
+      1203.5
+    ],
+    [
+      1376.5,
+      993.9
+    ],
+    [
+      1439,
+      990.2
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      4010,
+      46,
+      4596,
+      1163
+    ],
+    [
+      3160,
+      205,
+      3970,
+      388
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lc*",
+      "denumire": "Zonă de locuințe colective (pe planșă „de mici dimensiuni”) – un imobil de locuințe colective cu 5 apartamente; regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "1",
+      "h_max": "(S)+P+2+R/M; 12 m la cornișă, 16 m maxim"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-12-04",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Zona construibilă de pe planșă e trasă la distanțele minime: 3 m de limita nordică, 4,5 m de cea sudică, 9 m de limita posterioară (est) și 9 m de blocul vecin. Hotărârea (Art. 1) le leagă de înălțime: față de limita sudică cel puțin Hcornișă/2 (6 m la cornișa maximă de 12 m), iar față de blocul de locuințe colective vecin cel puțin înălțimea clădirii propuse (până la 16 m), nu doar 9 m.",
+    "Planșa dă doar regimul de înălțime ((S)+P+2+1R sau (S)+P+2+M); hotărârea adaugă 12 m la cornișă și 16 m înălțime maximă."
+  ],
+  "conditii": [
+    "Accesul se face din str. Mărișel pe aleea de interes local nr. cad. 322528, care va fi semaforizată, cu prioritate pentru intrare față de ieșirea în str. Mărișel; parcela are un singur acces carosabil, de cel mult 6 m lățime.",
+    "Clădirea se retrage cel puțin Hcornișă/2, dar minim 4,5 m, de limita sudică, minim 3 m de cea nordică și minim 9 m de limita posterioară; față de blocul de locuințe colective vecin (nr. cad. 251054) păstrează o distanță cel puțin egală cu înălțimea ei, dar minim 9 m. Un ultim nivel retras se retrage cel puțin 1,80 m față de fațadă.",
+    "Cel puțin 75% din locurile de parcare sunt în spații specializate la subsol, demisol sau parter; necesarul e 1 loc pentru fiecare apartament sub 100 mp utili și 2 peste 100 mp. Parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit; nu se parchează în curtea din spatele clădirii (regulament, art. 9).",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă; arborii maturi nu pot fi tăiați decât dacă sunt un pericol sau împiedică construirea (regulament, art. 13).",
+    "Utilitățile se asigură prin racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament se integrează în clădire sau în împrejmuire; cablurile aeriene sunt interzise; un spațiu pentru colectarea deșeurilor, accesibil din spațiul public, se amenajează pe parcelă.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
