@@ -6166,6 +6166,466 @@
   ]
  },
  {
+  "id": "2026-62",
+  "localitate": "cluj",
+  "hcl": "62/2026",
+  "data": "2026-02-16",
+  "titlu": "P.U.Z. – de urbanizare, strada Borhanciului Est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-62-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/03/03/HCL-62.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (163 de parcele): locuințe individuale izolate și semicolective cu două unități locative, regim deschis; parcele de cel puțin 360 mp (individuale), 500 mp (semicolective), 1000 mp (două clădiri izolate); retragere 6 m de la aliniament (3 m pentru trei parcele de lângă str. „G”, cu câte cel puțin 2 garaje la subsol), cel puțin 3 m de la limitele laterale, de la limita posterioară cel puțin înălțimea clădirii, minimum 6 m",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "două niveluri plus mansardă sau nivel retras ((S)+P+E+M/R, D+P+M/R); max. 8 m la cornișă sau atic, 12 m la coamă"
+   },
+   {
+    "cod": "S_Liu_I*",
+    "denumire": "Locuințe unifamiliale de tip înșiruit (16 parcele, două șiruri de câte 8), regim închis; retragere 6 m de la aliniament, construcțiile în fâșia de 25 m de la aliniament, capetele de șir la cel puțin 3 m de limitele laterale",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane (D+P+M/R, (S)+P+E+R/M); max. 8 m la cornișă sau atic, 12 m la coamă"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public: învățământ (creșă, grădiniță, after-school, centru educațional, cazare elevi/studenți), sănătate și asistență socială (centru rezidențial pentru vârstnici); regim deschis, retragere 6 m de la aliniament",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "parcele sub 1000 mp: (S)+P+1E+R/M, D+P+R/M, max. 8 m la cornișă, 12 m la coamă; parcele de cel puțin 1000 mp: (S)+P+2E+R/M, D+P+E+R/M, max. 15 m la cornișă, 18 m la coamă"
+   },
+   {
+    "cod": "S_Et*",
+    "denumire": "Subzonă de activități economice cu caracter terțiar: birouri, servicii, cazare turistică, alimentație publică, cercetare, sănătate, cultură, comerț cu ADC de cel mult 1000 mp, showroom; regim deschis; parcarea numai în garaje colective subterane",
+    "pot_max": "40% (parcele comune), 50% (parcele de colț)",
+    "cut_max": "1,2 (parcele sub 1000 mp și/sau front sub 30 m), 1,8 (parcele peste 1000 mp și/sau front peste 30 m)",
+    "h_max": "(S)+P+2E+R/M, D+P+E+R/M (ultimul nivel retras cu cel puțin 1,80 m); max. 15 m la cornișă, 18 m la coamă"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (alei, joacă, sport, edicule, construcții pentru activități culturale și alimentație publică)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "(D)+P+1E, max. 9 m la cornișă"
+   }
+  ],
+  "suprafata_m2": 146192,
+  "imagine": "puz/2026-62/plansa.webp",
+  "bounds": {
+   "west": 23.6481188,
+   "south": 46.7450648,
+   "east": 23.6539159,
+   "north": 46.7508926
+  },
+  "limita": [
+   [
+    23.6526678,
+    46.7508641
+   ],
+   [
+    23.6529157,
+    46.7504678
+   ],
+   [
+    23.6534359,
+    46.7496708
+   ],
+   [
+    23.6536128,
+    46.7491831
+   ],
+   [
+    23.6538272,
+    46.747896
+   ],
+   [
+    23.6538162,
+    46.747755
+   ],
+   [
+    23.6537426,
+    46.7476206
+   ],
+   [
+    23.6536918,
+    46.7475557
+   ],
+   [
+    23.653634,
+    46.7474978
+   ],
+   [
+    23.6535009,
+    46.7473843
+   ],
+   [
+    23.6531203,
+    46.7471466
+   ],
+   [
+    23.6529998,
+    46.7470976
+   ],
+   [
+    23.6529066,
+    46.7470681
+   ],
+   [
+    23.6527517,
+    46.7470021
+   ],
+   [
+    23.6520637,
+    46.7466849
+   ],
+   [
+    23.6520244,
+    46.74657
+   ],
+   [
+    23.6522017,
+    46.7463962
+   ],
+   [
+    23.6522983,
+    46.746427
+   ],
+   [
+    23.6523843,
+    46.7464637
+   ],
+   [
+    23.6530759,
+    46.7467785
+   ],
+   [
+    23.6531764,
+    46.7467866
+   ],
+   [
+    23.6533271,
+    46.7462247
+   ],
+   [
+    23.6534228,
+    46.7457983
+   ],
+   [
+    23.6534188,
+    46.745655
+   ],
+   [
+    23.6533925,
+    46.7455831
+   ],
+   [
+    23.6533557,
+    46.7455183
+   ],
+   [
+    23.6531893,
+    46.7453352
+   ],
+   [
+    23.6530124,
+    46.7451568
+   ],
+   [
+    23.6529468,
+    46.745137
+   ],
+   [
+    23.6515695,
+    46.7464843
+   ],
+   [
+    23.6514744,
+    46.7464619
+   ],
+   [
+    23.6513848,
+    46.74643
+   ],
+   [
+    23.6510337,
+    46.7462761
+   ],
+   [
+    23.6506002,
+    46.7460784
+   ],
+   [
+    23.6505213,
+    46.7460347
+   ],
+   [
+    23.6504666,
+    46.7459936
+   ],
+   [
+    23.6503806,
+    46.7459521
+   ],
+   [
+    23.6495135,
+    46.7455616
+   ],
+   [
+    23.64944,
+    46.7455919
+   ],
+   [
+    23.6493729,
+    46.7456438
+   ],
+   [
+    23.6493022,
+    46.7457027
+   ],
+   [
+    23.6492734,
+    46.7457526
+   ],
+   [
+    23.6495242,
+    46.7458816
+   ],
+   [
+    23.6495719,
+    46.7459274
+   ],
+   [
+    23.6493739,
+    46.7460926
+   ],
+   [
+    23.6493521,
+    46.7461425
+   ],
+   [
+    23.6499014,
+    46.7464488
+   ],
+   [
+    23.6497171,
+    46.7466236
+   ],
+   [
+    23.6496881,
+    46.7466806
+   ],
+   [
+    23.6499355,
+    46.7468096
+   ],
+   [
+    23.6499866,
+    46.7468555
+   ],
+   [
+    23.649632,
+    46.7472053
+   ],
+   [
+    23.6495574,
+    46.7472046
+   ],
+   [
+    23.6493941,
+    46.7471242
+   ],
+   [
+    23.6492254,
+    46.7470533
+   ],
+   [
+    23.649193,
+    46.7471055
+   ],
+   [
+    23.6494476,
+    46.7472226
+   ],
+   [
+    23.6497776,
+    46.7473858
+   ],
+   [
+    23.6497904,
+    46.7474384
+   ],
+   [
+    23.6496871,
+    46.747564
+   ],
+   [
+    23.6496546,
+    46.7476233
+   ],
+   [
+    23.650472,
+    46.7480635
+   ],
+   [
+    23.6505382,
+    46.7480522
+   ],
+   [
+    23.6506776,
+    46.747865
+   ],
+   [
+    23.6508233,
+    46.7478736
+   ],
+   [
+    23.6512497,
+    46.7480783
+   ],
+   [
+    23.651259,
+    46.748131
+   ],
+   [
+    23.65108,
+    46.7483894
+   ],
+   [
+    23.6511555,
+    46.7484331
+   ],
+   [
+    23.6512135,
+    46.7484815
+   ],
+   [
+    23.6507642,
+    46.7488757
+   ],
+   [
+    23.6506912,
+    46.748875
+   ],
+   [
+    23.6497913,
+    46.748391
+   ],
+   [
+    23.6494,
+    46.7481699
+   ],
+   [
+    23.6489088,
+    46.7479072
+   ],
+   [
+    23.6488525,
+    46.7479425
+   ],
+   [
+    23.6485064,
+    46.7483831
+   ],
+   [
+    23.6484738,
+    46.7484473
+   ],
+   [
+    23.6483266,
+    46.7486774
+   ],
+   [
+    23.6481872,
+    46.748867
+   ],
+   [
+    23.6481867,
+    46.7488909
+   ],
+   [
+    23.6482657,
+    46.7489322
+   ],
+   [
+    23.6484989,
+    46.7490754
+   ],
+   [
+    23.6486609,
+    46.7491319
+   ],
+   [
+    23.648747,
+    46.7491686
+   ],
+   [
+    23.6488109,
+    46.7492671
+   ],
+   [
+    23.649507,
+    46.7496965
+   ],
+   [
+    23.6496649,
+    46.7497864
+   ],
+   [
+    23.6501894,
+    46.7501211
+   ],
+   [
+    23.6506558,
+    46.7504074
+   ],
+   [
+    23.6507321,
+    46.7504105
+   ],
+   [
+    23.6510851,
+    46.750143
+   ],
+   [
+    23.6511679,
+    46.7501689
+   ],
+   [
+    23.6526193,
+    46.7508565
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 5,
+   "rms_m": 0.79,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-62/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-02-16"
+  },
+  "diferente_fata_de_plansa": [
+   "Legenda planșei scrie CUT-ul cu procent la S_Is* („CUT max = 1,2 %”) și la S_Va* („CUT max = 0,1%”); hotărârea dă coeficienții 1,2 și 0,1. Celelalte valori (POT, CUT, regim, înălțimi) sunt aceleași în legendă și în Art. 1.",
+   "Planșa nu dă suprafețele minime ale parcelelor; Art. 1 cere pentru Liu* cel puțin 360 mp (locuințe individuale), 500 mp (semicolective) și 1000 mp (două clădiri izolate pe parcelă)."
+  ],
+  "conditii": [
+   "Etapa I (avizul Siguranța circulației nr. 766878/446/1.10.2025): se realizează numai construcțiile cu funcțiuni comerciale, servicii, dotări, spații cu acces public, învățământ școlar și preșcolar și clădirile mixte cu cel mult 30% locuire și/sau birouri din suprafața utilă; la recepție intră în trafic doar funcțiunile nerezidențiale.",
+   "Etapa II: restul locuințelor se realizează abia după anul 2026 sau numai după lucrări de infrastructură care cresc capacitatea de circulație a zonei (sensuri giratorii, lărgirea străzilor la profilele din P.U.G., centura metropolitană etc.).",
+   "Se realizează rețeaua de străzi propusă prin P.U.Z., inclusiv modernizarea str. Bicaz și legătura ei cu străzile noi, și reamenajarea str. Borhanci (lărgită la 3 benzi); se modernizează la strat de uzură str. Bicaz și una din străzile dintre str. Bicaz și zonă (de preferat Aleea Târnăveni).",
+   "Strada nouă „G” are 12 m lățime, iar pe ultimii 30 m dinaintea str. Borhanci 3 benzi (două de ieșire, una de intrare) și două trotuare de 1,5 m; pe str. Borhanci se face o bandă suplimentară de viraj la stânga spre str. „G”, de cel puțin 25 m sau 6 autovehicule.",
+   "Străzile noi au 9 m și 12 m lățime, raze de viraj de 9 m, sunt asfaltate, cu acces public nelimitat și legate de străzile existente; se amenajează o alveolă de transport în comun spre str. Soporului, în afara profilului străzii, la cel puțin 50 m de intersecții, lungă de cel puțin 30 m (25 m utili) și lată de cel puțin 3 m.",
+   "Proiectele pentru străzi, alei, semnalizare, canalizare pluvială, rețele edilitare și iluminat respectă NP 051/2012; planul de semnalizare rutieră are nevoie de avizul Poliției rutiere.",
+   "Lucrările de infrastructură se fac înainte de autorizația de construire a primei clădiri din ansamblu, iar străzile propuse se transferă în domeniul public înainte de recepția oricărei construcții.",
+   "Toate clădirile se racordează la rețelele publice și au sisteme de colectare și bazine subterane de stocare a apelor pluviale; cablurile aeriene sunt interzise; firidele de branșament se integrează în împrejmuire; fiecare parcelă are platformă sau spațiu pentru deșeuri (pe 5 fracții în S_Is* și S_Et*).",
+   "Parcarea se face în parcelă: la locuințele individuale un loc pentru AU sub 100 mp și două peste, la cele semicolective și înșiruite un loc pe unitate locativă, la S_Et* numai în garaje colective subterane, iar la celelalte funcțiuni după Anexa 2 a R.L.U.",
+   "Toate investițiile propuse prin documentație sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
