@@ -16581,6 +16581,86 @@
   ]
  },
  {
+  "id": "2022-648",
+  "localitate": "cluj",
+  "hcl": "648/2022",
+  "data": "2022-09-07",
+  "titlu": "P.U.Z. – Corectare limită U.T.R. între U.T.R. ZCP_Liu și U.T.R. ZCP_Is_A, str. Onisifor Ghibu nr. 25A",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-648-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-648-din-7-septembrie-2022.pdf",
+  "utr": [
+   {
+    "cod": "ZCP_Liu",
+    "denumire": "Zonă construită protejată. Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – toată parcela nr. cad. 304744 (1403 mp), din care circa 440 mp treceau până acum în U.T.R. ZCP_Is_A (zonă de instituții și servicii publice); se aplică regulamentul P.U.G. pentru ZCP_Liu: funcțiune rezidențială de densitate mică, predominant locuințe unifamiliale; regim de construire izolat",
+    "pot_max": "35% pentru locuințe; 25% pentru instituții de educație / învățământ (creșe, grădinițe, școli)",
+    "cut_max": "0,9 pentru locuințe; 0,5 pentru instituții de educație / învățământ",
+    "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R), ultimul nivel retras cel puțin 1,80 m (R.L.U. al P.U.G., reluat în Avizul Arhitectului-șef nr. 26/2022)"
+   }
+  ],
+  "suprafata_m2": 1403,
+  "imagine": "puz/2022-648/plansa.webp",
+  "bounds": {
+   "west": 23.6004308,
+   "south": 46.7768278,
+   "east": 23.6011615,
+   "north": 46.7773975
+  },
+  "limita": [
+   [
+    23.6011295,
+    46.776992
+   ],
+   [
+    23.6009181,
+    46.7771983
+   ],
+   [
+    23.6008145,
+    46.7772864
+   ],
+   [
+    23.600693,
+    46.7773731
+   ],
+   [
+    23.6004609,
+    46.7772255
+   ],
+   [
+    23.6005625,
+    46.7771259
+   ],
+   [
+    23.6006794,
+    46.7769923
+   ],
+   [
+    23.6008093,
+    46.776851
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2022-648/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2025-09-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa nu dă înălțimea maximă pentru ZCP_Liu; hotărârea (Art. 1) trimite la regulamentul P.U.G. pentru ZCP_Liu, din care vin cei 8 m la cornișă și 12 m la coamă (reluați în Avizul Arhitectului-șef nr. 26/2022)."
+  ],
+  "conditii": [
+   "P.U.Z.-ul nu are regulament propriu: corectează doar limita dintre U.T.R. ZCP_Liu și ZCP_Is_A, astfel încât toată parcela nr. cad. 304744 (1403 mp, proprietate privată) să fie în ZCP_Liu, cu regulamentul P.U.G. al acestei zone (Art. 1).",
+   "Clădirile existente de pe parcelă, C1 (casă), C2 (magazin) și C3 (casă), se mențin (Avizul Arhitectului-șef nr. 26/2022).",
+   "Accesul auto se face din str. Onisifor Ghibu, iar parcarea se organizează în interiorul parcelei (Avizul de oportunitate nr. 262/2020).",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă (Avizul de oportunitate nr. 262/2020).",
+   "Echiparea edilitară și toate investițiile propuse prin P.U.Z. sunt în sarcina proprietarilor, inițiatorii P.U.Z.-ului (Avizul de oportunitate nr. 262/2020)."
+  ]
+ },
+ {
   "id": "2022-621",
   "localitate": "cluj",
   "hcl": "621/2022",

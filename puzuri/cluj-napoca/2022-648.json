@@ -1,0 +1,104 @@
+{
+  "id": "2022-648",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 648,
+    "an": 2022,
+    "data_sedinta": "2022-09-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-648-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-648-din-7-septembrie-2022.pdf"
+  },
+  "titlu": "P.U.Z. – Corectare limită U.T.R. între U.T.R. ZCP_Liu și U.T.R. ZCP_Is_A, str. Onisifor Ghibu nr. 25A",
+  "plansa": {
+    "pagina_pdf": 8,
+    "dpi": 300,
+    "denumire": "03 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Pagina hotărârii nu are niciun PDF legat. PDF-ul e în același dosar de încărcare ca hotărârile 649-652 din aceeași ședință, cu același tipar de nume (files.primariaclujnapoca.ro/2022/10/04/HCL-648-din-7-septembrie-2022.pdf), iar pagina lui 1 e chiar HCL 648/2022, semnată și ștampilată. Are 10 pagini: hotărârea (p. 1), Anexa – planșa alb-negru, micșorată pe A4 și culcată, cu antetul „Anexa la Hotărârea nr. 648/2022” (p. 2), Avizul Arhitectului-șef nr. 26/21.02.2022 (p. 3-4, doar foile 1 și 3 ale avizului), Avizul de oportunitate nr. 262/7.09.2020 (p. 5-6), un extras din P.U.G. (p. 7), aceeași planșă color pe A3 la 300 ppi (p. 8) și raportul informării publicului (p. 9-10). E folosită p. 8, copia clară a aceleiași planșe (același desen, aceeași legendă, aceiași indici, aceeași ștampilă a comisiei cu „HCL 648”). Hotărârea o numește „A03 Reglementări Urbanistice”; cartușul scrie „Reglementări urbanistice”, planșa 03, pr. nr. 10/2020, decembrie 2020, scara 1:500, tipărită la 100% (23,6 px/m la 300 ppi). Pe planșă, limita zonei reglementate e linia albastră „Limita parcelei studiate – nr. cad. 304744”; linia roșie de lângă ea, pe laturile de nord-vest și nord-est, e „Limita propusă între UTR-uri”, iar bulinele roșii mari, „Zona studiată”, nu sunt limita P.U.Z.-ului. Eticheta cadastrală din mijlocul parcelei scrie numele proprietarilor: rândul acela e scos din imaginea publicată cu `decupaj.exclude_px`. Legenda ia cheia simbolurilor și caseta „Indici urbanistici – parcela studiată” (U.T.R. ZCP_Liu); ștampila Direcției pentru Cultură și ștampila comisiei se suprapun peste text și nu se pot tăia fără el. Au rămas afară tabelul „Zonă funcțională” (bilanțul existent/propus), inventarul de coordonate și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa 03 („Parcela (1Cc) – Nr. cad. 304744”: 8 puncte, X (Nord) / Y (Est), cu lungimile laturilor D(i,i+1); S(1Cc) = 1403,04 mp, P = 156,629 m). Potrivirea folosește cele patru colțuri ascuțite ale parcelei: 151 (nord), 159 (vest), 89 (sud) și 10 (est). Fiecare colț e intersecția axelor liniei albastre de limită pe cele două laturi care se întâlnesc acolo, măsurate pe profile perpendiculare de-a lungul laturilor (abatere standard sub 0,6 px pe fiecare latură); la 159 linia albastră a laturii de sud-vest e acoperită pe primii ~7 m de linia gri a limitei U.T.R. existente. Verificare: 5, 98, 72 și 88, frânturile mici ale laturilor (1-5°), luate la fel; lângă ele poziția de-a lungul laturii e nesigură cu 10-15 px, de unde reziduurile de 0,6 m la 98 și 72, toate de-a lungul liniei. Verificare independentă: cele patru repere ale caroiajului Stereo 70 de pe rama planului topografic (E 393250 și 393350 sus, N 587400 și 587350 în stânga) cad la cel mult 0,1 m de unde le pune potrivirea; caroiajul nu e desenat în interior, deci nu dă puncte de control.",
+    "suprafata_declarata_m2": 1403.04,
+    "puncte": {
+      "10": [587324.911, 393310.93],
+      "98": [587348.116, 393295.197],
+      "5": [587358.055, 393287.459],
+      "151": [587367.854, 393278.357],
+      "159": [587351.758, 393260.343],
+      "72": [587340.554, 393267.909],
+      "88": [587325.549, 393276.566],
+      "89": [587309.668, 393286.206]
+    },
+    "ordine": [
+      "10",
+      "98",
+      "5",
+      "151",
+      "159",
+      "72",
+      "88",
+      "89"
+    ],
+    "laturi_declarate_m": {
+      "10": 28.036,
+      "98": 12.596,
+      "5": 13.374,
+      "151": 24.158,
+      "159": 13.519,
+      "72": 17.323,
+      "88": 18.578,
+      "89": 29.045
+    },
+    "perimetru_declarat_m": 156.629,
+    "nota": "Tabelul e în ordinea conturului (10, 98, 5, 151, 159, 72, 88, 89), dar numerele nu, așa că ordinea e copiată în `ordine`. Toate cele 8 laturi tipărite și perimetrul se verifică la milimetru; aria calculată e 1403,04 mp, cât scrie sub tabel, iar pe desen și în bilanț (0,14 ha) parcela are 1403 mp."
+  },
+  "gcp_px": {
+    "151": [1177, 1503],
+    "159": [748, 1883],
+    "89": [1355, 2876],
+    "10": [1939, 2518]
+  },
+  "verificare_px": {
+    "5": [1394, 1740],
+    "98": [1580, 1982],
+    "72": [919, 2134],
+    "88": [1128, 2500]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [1124, 2021, 1488, 2064]
+    ]
+  },
+  "legenda_px": [
+    [3625, 416, 4905, 1852]
+  ],
+  "utr": [
+    {
+      "cod": "ZCP_Liu",
+      "denumire": "Zonă construită protejată. Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – toată parcela nr. cad. 304744 (1403 mp), din care circa 440 mp treceau până acum în U.T.R. ZCP_Is_A (zonă de instituții și servicii publice); se aplică regulamentul P.U.G. pentru ZCP_Liu: funcțiune rezidențială de densitate mică, predominant locuințe unifamiliale; regim de construire izolat",
+      "pot_max": "35% pentru locuințe; 25% pentru instituții de educație / învățământ (creșe, grădinițe, școli)",
+      "cut_max": "0,9 pentru locuințe; 0,5 pentru instituții de educație / învățământ",
+      "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R), ultimul nivel retras cel puțin 1,80 m (R.L.U. al P.U.G., reluat în Avizul Arhitectului-șef nr. 26/2022)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2025-09-07",
+    "verificat": "2026-11-10: Art. 2, trei ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa nu dă înălțimea maximă pentru ZCP_Liu; hotărârea (Art. 1) trimite la regulamentul P.U.G. pentru ZCP_Liu, din care vin cei 8 m la cornișă și 12 m la coamă (reluați în Avizul Arhitectului-șef nr. 26/2022)."
+  ],
+  "conditii": [
+    "P.U.Z.-ul nu are regulament propriu: corectează doar limita dintre U.T.R. ZCP_Liu și ZCP_Is_A, astfel încât toată parcela nr. cad. 304744 (1403 mp, proprietate privată) să fie în ZCP_Liu, cu regulamentul P.U.G. al acestei zone (Art. 1).",
+    "Clădirile existente de pe parcelă, C1 (casă), C2 (magazin) și C3 (casă), se mențin (Avizul Arhitectului-șef nr. 26/2022).",
+    "Accesul auto se face din str. Onisifor Ghibu, iar parcarea se organizează în interiorul parcelei (Avizul de oportunitate nr. 262/2020).",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă (Avizul de oportunitate nr. 262/2020).",
+    "Echiparea edilitară și toate investițiile propuse prin P.U.Z. sunt în sarcina proprietarilor, inițiatorii P.U.Z.-ului (Avizul de oportunitate nr. 262/2020)."
+  ]
+}
