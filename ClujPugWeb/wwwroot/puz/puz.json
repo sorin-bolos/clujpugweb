@@ -8132,6 +8132,380 @@
   ]
  },
  {
+  "id": "2024-559",
+  "localitate": "cluj",
+  "hcl": "559/2024",
+  "data": "2024-07-22",
+  "titlu": "P.U.Z. – de restructurare urbană, str. Fabricii de Zahăr-str. Câmpul Pâinii",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-559-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/08/01/HCL-559.pdf",
+  "utr": [
+   {
+    "cod": "UTR 1",
+    "denumire": "Zonă de servicii, supermarket, birouri, spații de învățământ, lăcaș de cult, locuire colectivă; regim de construire deschis. Etapa 1: parcelele 1, 2 (lăcaș de cult) și 4 construibile, parcela 3 drum (prelungirea str. Ghioceilor); etapa 2: se reglementează prin PUD sau PUZ, după caz, cu regulamentul UTR 1",
+    "pot_max": "40%",
+    "cut_max": "2",
+    "h_max": "32 m; (1-2S)+P+8E"
+   }
+  ],
+  "suprafata_m2": 24583,
+  "imagine": "puz/2024-559/plansa.webp",
+  "bounds": {
+   "west": 23.6217257,
+   "south": 46.7846538,
+   "east": 23.6263165,
+   "north": 46.7862013
+  },
+  "limita": [
+   [
+    23.6240936,
+    46.7848841
+   ],
+   [
+    23.6240932,
+    46.7848734
+   ],
+   [
+    23.622636,
+    46.7849469
+   ],
+   [
+    23.6226371,
+    46.7849573
+   ],
+   [
+    23.6223111,
+    46.7849739
+   ],
+   [
+    23.6223211,
+    46.7850844
+   ],
+   [
+    23.6220432,
+    46.7850983
+   ],
+   [
+    23.6220342,
+    46.7849879
+   ],
+   [
+    23.6219629,
+    46.7849911
+   ],
+   [
+    23.621834,
+    46.784996
+   ],
+   [
+    23.6218106,
+    46.7849967
+   ],
+   [
+    23.6219703,
+    46.7850792
+   ],
+   [
+    23.6219703,
+    46.7850813
+   ],
+   [
+    23.6221015,
+    46.7851288
+   ],
+   [
+    23.622111,
+    46.7851376
+   ],
+   [
+    23.6221983,
+    46.7851646
+   ],
+   [
+    23.6223501,
+    46.7852137
+   ],
+   [
+    23.6225381,
+    46.785277
+   ],
+   [
+    23.6227032,
+    46.7853371
+   ],
+   [
+    23.6227359,
+    46.7853387
+   ],
+   [
+    23.62286,
+    46.7853415
+   ],
+   [
+    23.6229076,
+    46.7853433
+   ],
+   [
+    23.6230663,
+    46.7853487
+   ],
+   [
+    23.6231594,
+    46.7853918
+   ],
+   [
+    23.6234962,
+    46.7855578
+   ],
+   [
+    23.6235459,
+    46.785583
+   ],
+   [
+    23.6237241,
+    46.7856711
+   ],
+   [
+    23.6238646,
+    46.7857417
+   ],
+   [
+    23.6238942,
+    46.7857514
+   ],
+   [
+    23.6239794,
+    46.785784
+   ],
+   [
+    23.6240597,
+    46.7858073
+   ],
+   [
+    23.6242966,
+    46.7858917
+   ],
+   [
+    23.6243273,
+    46.7859041
+   ],
+   [
+    23.6243246,
+    46.7859072
+   ],
+   [
+    23.6244998,
+    46.7859817
+   ],
+   [
+    23.624497,
+    46.7859866
+   ],
+   [
+    23.6245119,
+    46.7859924
+   ],
+   [
+    23.6246115,
+    46.7860298
+   ],
+   [
+    23.6246044,
+    46.7860394
+   ],
+   [
+    23.6249475,
+    46.7861689
+   ],
+   [
+    23.6252325,
+    46.7859813
+   ],
+   [
+    23.6252394,
+    46.7859979
+   ],
+   [
+    23.6252656,
+    46.785984
+   ],
+   [
+    23.6253089,
+    46.7859612
+   ],
+   [
+    23.6253574,
+    46.7859356
+   ],
+   [
+    23.6256177,
+    46.785762
+   ],
+   [
+    23.6259624,
+    46.7855131
+   ],
+   [
+    23.6259669,
+    46.785512
+   ],
+   [
+    23.6262722,
+    46.7854397
+   ],
+   [
+    23.6261891,
+    46.7852731
+   ],
+   [
+    23.626101,
+    46.785168
+   ],
+   [
+    23.6260431,
+    46.7851259
+   ],
+   [
+    23.6258538,
+    46.7849919
+   ],
+   [
+    23.6258571,
+    46.7849905
+   ],
+   [
+    23.6257382,
+    46.7849054
+   ],
+   [
+    23.6255842,
+    46.7847924
+   ],
+   [
+    23.625537,
+    46.7847682
+   ],
+   [
+    23.6255291,
+    46.7847664
+   ],
+   [
+    23.6254661,
+    46.7847241
+   ],
+   [
+    23.6254024,
+    46.7848926
+   ],
+   [
+    23.6252245,
+    46.7851304
+   ],
+   [
+    23.6251741,
+    46.7851873
+   ],
+   [
+    23.6251073,
+    46.7851877
+   ],
+   [
+    23.6250754,
+    46.7851876
+   ],
+   [
+    23.6250122,
+    46.7851759
+   ],
+   [
+    23.6250117,
+    46.7851768
+   ],
+   [
+    23.6249562,
+    46.7851555
+   ],
+   [
+    23.6248427,
+    46.7851114
+   ],
+   [
+    23.6248143,
+    46.7851021
+   ],
+   [
+    23.6247856,
+    46.7850923
+   ],
+   [
+    23.6247251,
+    46.7850722
+   ],
+   [
+    23.6246938,
+    46.7850674
+   ],
+   [
+    23.6246991,
+    46.7850511
+   ],
+   [
+    23.624834,
+    46.7848451
+   ],
+   [
+    23.6246971,
+    46.7848522
+   ],
+   [
+    23.6246142,
+    46.7848571
+   ],
+   [
+    23.624597,
+    46.7848578
+   ],
+   [
+    23.6245311,
+    46.7848604
+   ],
+   [
+    23.6244583,
+    46.7848646
+   ],
+   [
+    23.6242238,
+    46.7848769
+   ],
+   [
+    23.6240959,
+    46.7848835
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.29
+  },
+  "legenda": "puz/2024-559/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-07-22"
+  },
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcelele (1) și (4): partea carosabilă a prelungirii străzii Ghioceilor (propusă la profil de 16 m) se realizează la strat de uzură, împreună cu infrastructura edilitară aferentă; până la recepția lucrărilor se fac trotuarele, benzile velo, locurile de staționare/banda verde și amenajarea intersecției cu str. Câmpul Pâinii, pe bază de proiect de specialitate.",
+   "Clădirile de pe parcelele (1) și (4) se recepționează numai după emiterea autorizației de construire pe parcela (2) (lăcașul de cult).",
+   "Etapa 2 (nr. cad. 280639, 353633, 353632, 271326 și 297021) se reglementează specific prin PUD sau PUZ, după caz, cu respectarea regulamentului UTR 1.",
+   "Înainte de autorizațiile din etapa 2: terenul necesar regularizării str. Fabricii de Zahăr (ampriză de 21 m) pe tronsonul de lângă PUZ se dezmembrează din parcele și se înscrie în CF ca „drum”.",
+   "Retrageri: min. 1 m de la str. Câmpul Pâinii (regularizată), min. 2,75 m de la prelungirea str. Ghioceilor, min. 1 m de la str. Fabricii de Zahăr, în front deschis; de la limitele laterale și posterioare min. 6 m pentru parcelele (1) și (4), conform PUD pentru parcela (2) și conform PUD sau PUZ în etapa 2.",
+   "Acces auto din str. Câmpul Pâinii și str. Ghioceilor; parcarea se face în interiorul parcelelor, după Anexa 2 a RLU din PUG (de ex. 1 loc pe apartament sub 100 mp AU, 2 peste), iar pe străzile de acces local se fac în plus parcaje publice în lung.",
+   "La faza DTAC, pentru clădirile mai înalte de 28 m, se cere avizul Autorității Aeronautice Civile Române.",
+   "Spațiul verde pe sol natural are vegetație joasă, medie și înaltă și mobilier urban: se plantează minim 50 de arbori cu circumferința de cel puțin 35 cm la 1 m de colet și se amenajează două locuri de joacă pentru copii.",
+   "Utilitățile se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor pe patru fracții, accesibil din spațiul public.",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",

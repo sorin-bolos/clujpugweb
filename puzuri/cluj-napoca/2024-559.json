@@ -1,0 +1,467 @@
+{
+  "id": "2024-559",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 559,
+    "an": 2024,
+    "data_sedinta": "2024-07-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-559-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/08/01/HCL-559.pdf"
+  },
+  "titlu": "P.U.Z. – de restructurare urbană, str. Fabricii de Zahăr-str. Câmpul Pâinii",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 96,
+    "denumire": "Planșa PUZ_03 – Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "PDF-ul are 23 de pagini: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii), Anexa 1 – planșa PUZ_03 redusă pe A4 și fotocopiată (p. 4, ilizibilă), Anexa 2 – regulamentul local de urbanism al U.T.R. 1 (p. 5-8), avizul Arhitectului-șef nr. 131/2023 (p. 9-13), avizul nr. 137/2024 care îl completează (p. 14), avizul de oportunitate nr. 125/2023 cu extrasul din PUG al zonei de studiu (p. 15-17), planșa PUZ_03 „Reglementări urbanistice” color, pe format mare (p. 18, aleasă: singura copie lizibilă, datată 24.11.2023, vizată spre neschimbare ca anexă la HCL 559/2024) și raportul informării și consultării publicului cu anexele lui (p. 19-23). Scanare de numai 96 ppi, aproape de scara nominală 1:1000 (potrivirea dă 3,7 px/m), dar cifrele inventarului se citesc. Planșa desenează două etape: etapa 1 (parcelele 1-4, 9.915 mp) și etapa 2 (14.668 mp, de reglementat prin PUD sau PUZ). Legenda ia, în șase casete, legenda planșei, caseta U.T.R. 1 (P.O.T. 40%, C.U.T. 2) și, din „Etape de dezvoltare”, rândurile cu P.O.T., C.U.T. și regimul de înălțime ale etapei 1 și P.O.T./C.U.T. ale etapei 2; lasă deoparte suprafețele (S.C., S.C.D., suprafața reglementată), bilanțul teritorial al etapei 1, inventarele de coordonate, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabelul „Inventar de coordonate Stereo – zona reglementată” din stânga planșei (Pct. 10-90, Nord(X) / Est(Y), Stereo 70; punctul 10 apare la început și la sfârșit, deci conturul e închis), numerotat în ordinea conturului. Tabelul are în interior titlul „zona de studiu”, dar suprafața lui, S=24583mp, e cea a teritoriului reglementat (~2,4 ha în hotărâre; „Suprafața teren studiat = 24 583 mp” în coloana din dreapta), iar conturul cade pe linia „contur PUZ conform limite cadastrale, zona reglementată”, nu pe linia punctată a zonei studiate (~3,2 ha).",
+    "suprafata_declarata_m2": 24583,
+    "puncte": {
+      "10": [
+        588171.244,
+        395079.492
+      ],
+      "11": [
+        588170.065,
+        395079.444
+      ],
+      "12": [
+        588180.159,
+        394968.347
+      ],
+      "13": [
+        588181.321,
+        394968.444
+      ],
+      "14": [
+        588183.601,
+        394943.592
+      ],
+      "15": [
+        588195.861,
+        394944.57
+      ],
+      "16": [
+        588197.78,
+        394923.385
+      ],
+      "17": [
+        588185.524,
+        394922.484
+      ],
+      "18": [
+        588185.966,
+        394917.047
+      ],
+      "19": [
+        588186.688,
+        394907.216
+      ],
+      "20": [
+        588186.801,
+        394905.433
+      ],
+      "21": [
+        588195.747,
+        394917.782
+      ],
+      "22": [
+        588195.988,
+        394917.788
+      ],
+      "23": [
+        588201.086,
+        394927.889
+      ],
+      "24": [
+        588202.058,
+        394928.637
+      ],
+      "25": [
+        588204.943,
+        394935.35
+      ],
+      "26": [
+        588210.191,
+        394947.033
+      ],
+      "27": [
+        588216.98,
+        394961.508
+      ],
+      "28": [
+        588223.443,
+        394974.226
+      ],
+      "29": [
+        588223.574,
+        394976.727
+      ],
+      "30": [
+        588223.72,
+        394986.21
+      ],
+      "31": [
+        588223.861,
+        394989.841
+      ],
+      "32": [
+        588224.246,
+        395001.97
+      ],
+      "33": [
+        588228.908,
+        395009.163
+      ],
+      "34": [
+        588246.909,
+        395035.195
+      ],
+      "35": [
+        588249.653,
+        395039.035
+      ],
+      "36": [
+        588259.204,
+        395052.807
+      ],
+      "37": [
+        588266.86,
+        395063.67
+      ],
+      "38": [
+        588267.904,
+        395065.948
+      ],
+      "39": [
+        588271.409,
+        395072.516
+      ],
+      "40": [
+        588273.889,
+        395078.69
+      ],
+      "41": [
+        588282.964,
+        395096.939
+      ],
+      "42": [
+        588284.296,
+        395099.306
+      ],
+      "43": [
+        588284.639,
+        395099.102
+      ],
+      "44": [
+        588292.688,
+        395112.624
+      ],
+      "45": [
+        588293.243,
+        395112.417
+      ],
+      "46": [
+        588293.86,
+        395113.567
+      ],
+      "47": [
+        588297.886,
+        395121.246
+      ],
+      "48": [
+        588298.961,
+        395120.72
+      ],
+      "49": [
+        588312.9,
+        395147.161
+      ],
+      "50": [
+        588291.675,
+        395168.553
+      ],
+      "51": [
+        588293.51,
+        395169.11
+      ],
+      "52": [
+        588291.934,
+        395171.089
+      ],
+      "53": [
+        588289.337,
+        395174.349
+      ],
+      "54": [
+        588286.43,
+        395178.0
+      ],
+      "55": [
+        588266.79,
+        395197.54
+      ],
+      "56": [
+        588238.67,
+        395223.37
+      ],
+      "57": [
+        588238.544,
+        395223.714
+      ],
+      "58": [
+        588230.11,
+        395246.88
+      ],
+      "59": [
+        588211.704,
+        395240.211
+      ],
+      "60": [
+        588200.14,
+        395233.282
+      ],
+      "61": [
+        588195.531,
+        395228.782
+      ],
+      "62": [
+        588180.891,
+        395214.07
+      ],
+      "63": [
+        588180.737,
+        395214.324
+      ],
+      "64": [
+        588171.431,
+        395205.078
+      ],
+      "65": [
+        588159.081,
+        395193.105
+      ],
+      "66": [
+        588156.45,
+        395189.459
+      ],
+      "67": [
+        588156.259,
+        395188.852
+      ],
+      "68": [
+        588151.649,
+        395183.957
+      ],
+      "69": [
+        588170.451,
+        395179.421
+      ],
+      "70": [
+        588197.123,
+        395166.3
+      ],
+      "71": [
+        588203.508,
+        395162.561
+      ],
+      "72": [
+        588203.644,
+        395157.466
+      ],
+      "73": [
+        588203.672,
+        395155.028
+      ],
+      "74": [
+        588202.463,
+        395150.181
+      ],
+      "75": [
+        588202.563,
+        395150.145
+      ],
+      "76": [
+        588200.266,
+        395145.867
+      ],
+      "77": [
+        588195.51,
+        395137.118
+      ],
+      "78": [
+        588194.517,
+        395134.931
+      ],
+      "79": [
+        588193.473,
+        395132.726
+      ],
+      "80": [
+        588191.32,
+        395128.067
+      ],
+      "81": [
+        588190.827,
+        395125.667
+      ],
+      "82": [
+        588189.005,
+        395126.042
+      ],
+      "83": [
+        588165.934,
+        395135.938
+      ],
+      "84": [
+        588166.907,
+        395125.502
+      ],
+      "85": [
+        588167.552,
+        395119.184
+      ],
+      "86": [
+        588167.653,
+        395117.868
+      ],
+      "87": [
+        588168.038,
+        395112.848
+      ],
+      "88": [
+        588168.598,
+        395107.293
+      ],
+      "89": [
+        588170.271,
+        395089.421
+      ],
+      "90": [
+        588171.179,
+        395079.667
+      ]
+    },
+    "nota": "Aria celor 81 de puncte transcrise dă 24.582,98 mp față de 24.583 mp declarați. Tabelul nu tipărește lungimile laturilor sau perimetrul. Al doilea tabel, „Inventar de coordonate Stereo – Etapa 1” (Nr. Pct. 1-49, cu lungimi, S=9915,03 mp), e conturul etapei 1 și nu a fost transcris. Punctele de control și de verificare sunt vârfuri ale inventarului, citite pe planșă la centrul liniei de contur: colțurile ascuțite 20 (vest), 49 (nord), 58 (est), 68 (sud-est), 83 și 16 la control; 17, 15, 14 (colțurile decupajului parcelei nr. cad. 256176, lăsată în afara PUZ) și 71 la verificare."
+  },
+  "gcp_px": {
+    "20": [
+      959,
+      991
+    ],
+    "49": [
+      1857,
+      518
+    ],
+    "58": [
+      2225,
+      827
+    ],
+    "68": [
+      1993,
+      1120
+    ],
+    "16": [
+      1025,
+      949
+    ],
+    "83": [
+      1812,
+      1066
+    ]
+  },
+  "verificare_px": {
+    "17": [
+      1022,
+      995
+    ],
+    "15": [
+      1103,
+      956
+    ],
+    "14": [
+      1100,
+      1001
+    ],
+    "71": [
+      1914,
+      927
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1982,
+      168,
+      2368,
+      540
+    ],
+    [
+      2388,
+      44,
+      2780,
+      102
+    ],
+    [
+      2388,
+      264,
+      2780,
+      299
+    ],
+    [
+      2388,
+      458,
+      2780,
+      628
+    ],
+    [
+      2388,
+      648,
+      2780,
+      666
+    ],
+    [
+      2388,
+      737,
+      2780,
+      793
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "UTR 1",
+      "denumire": "Zonă de servicii, supermarket, birouri, spații de învățământ, lăcaș de cult, locuire colectivă; regim de construire deschis. Etapa 1: parcelele 1, 2 (lăcaș de cult) și 4 construibile, parcela 3 drum (prelungirea str. Ghioceilor); etapa 2: se reglementează prin PUD sau PUZ, după caz, cu regulamentul UTR 1",
+      "pot_max": "40%",
+      "cut_max": "2",
+      "h_max": "32 m; (1-2S)+P+8E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-07-22",
+    "verificat": "2026-11-10: nicio prelungire sau modificare în indexul hotărârilor PUZ (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcelele (1) și (4): partea carosabilă a prelungirii străzii Ghioceilor (propusă la profil de 16 m) se realizează la strat de uzură, împreună cu infrastructura edilitară aferentă; până la recepția lucrărilor se fac trotuarele, benzile velo, locurile de staționare/banda verde și amenajarea intersecției cu str. Câmpul Pâinii, pe bază de proiect de specialitate.",
+    "Clădirile de pe parcelele (1) și (4) se recepționează numai după emiterea autorizației de construire pe parcela (2) (lăcașul de cult).",
+    "Etapa 2 (nr. cad. 280639, 353633, 353632, 271326 și 297021) se reglementează specific prin PUD sau PUZ, după caz, cu respectarea regulamentului UTR 1.",
+    "Înainte de autorizațiile din etapa 2: terenul necesar regularizării str. Fabricii de Zahăr (ampriză de 21 m) pe tronsonul de lângă PUZ se dezmembrează din parcele și se înscrie în CF ca „drum”.",
+    "Retrageri: min. 1 m de la str. Câmpul Pâinii (regularizată), min. 2,75 m de la prelungirea str. Ghioceilor, min. 1 m de la str. Fabricii de Zahăr, în front deschis; de la limitele laterale și posterioare min. 6 m pentru parcelele (1) și (4), conform PUD pentru parcela (2) și conform PUD sau PUZ în etapa 2.",
+    "Acces auto din str. Câmpul Pâinii și str. Ghioceilor; parcarea se face în interiorul parcelelor, după Anexa 2 a RLU din PUG (de ex. 1 loc pe apartament sub 100 mp AU, 2 peste), iar pe străzile de acces local se fac în plus parcaje publice în lung.",
+    "La faza DTAC, pentru clădirile mai înalte de 28 m, se cere avizul Autorității Aeronautice Civile Române.",
+    "Spațiul verde pe sol natural are vegetație joasă, medie și înaltă și mobilier urban: se plantează minim 50 de arbori cu circumferința de cel puțin 35 cm la 1 m de colet și se amenajează două locuri de joacă pentru copii.",
+    "Utilitățile se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor pe patru fracții, accesibil din spațiul public.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+}
