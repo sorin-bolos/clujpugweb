@@ -1,0 +1,287 @@
+{
+  "id": "2025-700",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 700,
+    "an": 2025,
+    "data_sedinta": "2025-12-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-700-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/12/18/700.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, B-dul Muncii – sud",
+  "plansa": {
+    "pagina_pdf": 23,
+    "dpi": 200,
+    "denumire": "A-03 Plan reglementări urbanistice – zonificare",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 15 (Anexa 2 la hotărâre, micșorată pe A4, rotită, ștampilată) și p. 23 (format mare, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 302 din 20.12.2024, și mențiunea de mână „H.C.L. nr. 700 din 4 decembrie 2025”); s-a folosit p. 23, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-14 regulamentul local de urbanism (Anexa 1), pp. 16-19 avizul Arhitectului-șef nr. 302/20.12.2024, pp. 20-21 avizul de oportunitate nr. 4/3.01.2024, p. 22 extrasul din P.U.G. (planșa 3.2, U.T.R. UEmm), pp. 24-25 raportul informării și consultării publicului. Cartușul: proiect 1410/2020, faza P.U.Z., data 10.04.2025, planșa A-03 „Plan reglementări urbanistice – zonificare”, scara 1:1000. Scara imaginii: 7,9 px/m (1:1000 la 200 ppi), nordul în sus (rotație -0,39° față de Stereo 70). Legenda cuprinde cheia simbolurilor și casetele U.T.R. Em* (POT 60%, CUT 1,2) și S_Va* (POT 5%, CUT 0,1), fără rândurile cu beneficiarul și suprafețele parcelelor; au rămas afară bilanțurile teritoriale (pe parcele și total, cu indicii existenți UEmm și propuși), profilurile stradale III.B și A-A, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y), 26 de puncte (tabelul din dreapta sus al planșei, x≈4180-4640, y≈650-1290), cu lungimile laturilor D(i,i+1), S(A)=19360,87 mp și P=1236,470 m. Numerotarea nu urmează conturul: ordinea din tabel e 1, 2, 3, 26, 4-12, 25, 13-24 (copiată în `ordine`).",
+    "suprafata_declarata_m2": 19360.87,
+    "puncte": {
+      "1": [
+        589649.749,
+        399748.457
+      ],
+      "2": [
+        589654.474,
+        399408.433
+      ],
+      "3": [
+        589645.853,
+        399408.406
+      ],
+      "26": [
+        589645.854,
+        399408.212
+      ],
+      "4": [
+        589702.389,
+        399408.383
+      ],
+      "5": [
+        589717.333,
+        399408.482
+      ],
+      "6": [
+        589717.152,
+        399405.494
+      ],
+      "7": [
+        589713.791,
+        399381.188
+      ],
+      "8": [
+        589710.13,
+        399356.937
+      ],
+      "9": [
+        589704.937,
+        399332.76
+      ],
+      "10": [
+        589706.883,
+        399332.357
+      ],
+      "11": [
+        589705.602,
+        399326.044
+      ],
+      "12": [
+        589702.978,
+        399313.497
+      ],
+      "25": [
+        589599.163,
+        399313.83
+      ],
+      "13": [
+        589534.053,
+        399314.039
+      ],
+      "14": [
+        589534.227,
+        399326.597
+      ],
+      "15": [
+        589537.396,
+        399406.991
+      ],
+      "16": [
+        589600.464,
+        399407.734
+      ],
+      "17": [
+        589639.334,
+        399408.192
+      ],
+      "18": [
+        589645.844,
+        399408.212
+      ],
+      "19": [
+        589645.843,
+        399408.406
+      ],
+      "20": [
+        589645.807,
+        399416.835
+      ],
+      "21": [
+        589644.141,
+        399520.315
+      ],
+      "22": [
+        589642.98,
+        399627.292
+      ],
+      "23": [
+        589641.504,
+        399747.569
+      ],
+      "24": [
+        589645.968,
+        399748.265
+      ]
+    },
+    "ordine": [
+      "1",
+      "2",
+      "3",
+      "26",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "25",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24"
+    ],
+    "laturi_declarate_m": {
+      "1": 340.057,
+      "2": 8.621,
+      "3": 0.194,
+      "26": 56.535,
+      "4": 14.944,
+      "5": 2.993,
+      "6": 24.537,
+      "7": 24.526,
+      "8": 24.728,
+      "9": 1.987,
+      "10": 6.442,
+      "11": 12.818,
+      "12": 103.816,
+      "25": 65.11,
+      "13": 12.559,
+      "14": 80.456,
+      "15": 63.072,
+      "16": 38.873,
+      "17": 6.51,
+      "18": 0.194,
+      "19": 8.429,
+      "20": 103.493,
+      "21": 106.983,
+      "22": 120.286,
+      "23": 4.518,
+      "24": 3.786
+    },
+    "perimetru_declarat_m": 1236.47,
+    "nota": "Toate cele 26 de laturi, perimetrul și aria se potrivesc cu tabelul. Punctele 3/19 și 26/18 sunt la 1 cm unul de altul (racordul fâșiei de drum, parcela 4, cu parcela principală); conturul trece de două ori pe acolo. Puncte de control: colțurile 12, 13, 15, 5 ale parcelei principale și capetele estice ale fâșiei, 1 și 23; de verificare: 2 și 3, colțurile unde fâșia se desprinde din latura estică."
+  },
+  "gcp_px": {
+    "12": [
+      357,
+      753
+    ],
+    "5": [
+      1104,
+      641
+    ],
+    "13": [
+      364,
+      2085
+    ],
+    "15": [
+      1098,
+      2059
+    ],
+    "1": [
+      3777,
+      1152
+    ],
+    "23": [
+      3773,
+      1216
+    ]
+  },
+  "verificare_px": {
+    "2": [
+      1104,
+      1132
+    ],
+    "3": [
+      1104,
+      1203
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3700,
+      1425,
+      4144,
+      2292
+    ],
+    [
+      703,
+      250,
+      1312,
+      420
+    ],
+    [
+      1660,
+      527,
+      2320,
+      676
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Em*",
+      "denumire": "Zonă de mică producție, servicii de tip industrial și cvasi-industrial, comerț en-gros (parcela 1); regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "1,2",
+      "h_max": "(1-2)S+P+4E+R; 21 m la cornișă, 25 m total"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (parcela 3, spre B-dul Muncii)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "4 m, P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-12-04",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Eticheta zonei Em* de pe planșă dă „RH max = P+1”; hotărârea (Art. 1) admite 21 m la cornișă, 25 m înălțime totală și regimul (1-2)S+P+4E+R, la fel ca regulamentul (Anexa 1) și bilanțul teritorial de pe aceeași planșă ((1-2S)+P+4+R, H max 25 m).",
+    "Planșa nu dă înălțimea pentru S_Va*; hotărârea: maximum 4 m, parter, cu retrageri de minimum 1 m față de toate limitele."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pe parcela 1: parcela 2 (terenul pentru circulațiile propuse prin P.U.G. și prin Masterplanul B-dul Muncii, HCL 451/2022) și parcela 3 (subzona verde) se dezmembrează și se înscriu în CF ca „drum”, respectiv „alei și spații verzi”; în CF nr. 328637 (parcela 4) se înscrie destinația „drum”.",
+    "Parcela 4 (nr. cad. 328637) devine circulație cu acces public, cu ampriza de 8,2 m, din care se face accesul pe amplasament; drumul existent nr. cad. 358784 (fost De 2787), propus ca circulație publică prin Masterplanul B-dul Muncii, e preluat ca circulație.",
+    "Înainte de recepția construcțiilor: străzile propuse prin P.U.Z. sunt echipate edilitar (inclusiv iluminat stradal și rețea pluvială), amenajate cu raze de viraj de 9 m, asfaltate și semnalizate orizontal și vertical, pe baza unui proiect autorizat.",
+    "Parcelele 2 și 3 trec în domeniul public înainte de recepția construcțiilor de pe parcela 1 (planșa A-06, proprietatea asupra terenurilor).",
+    "Pe parcela 1 se plantează cel puțin 30 de arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet; spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă (regulament).",
+    "Em*: retragere de minimum 6 m de la aliniament (pe parcelele de colț, de la ambele) și de cel puțin jumătate din înălțime, minimum 4,5 m, de la limitele laterale; parcarea se face în interiorul parcelei, după Anexa 2 a regulamentului P.U.G.",
+    "Construcțiile se racordează la rețelele publice; cablurile aeriene sunt interzise, apele meteorice nu se conduc spre domeniul public sau spre vecini; pe parcelă se amenajează un spațiu pentru deșeuri, accesibil din spațiul public.",
+    "S_Va* are acces din B-dul Muncii și poate primi alei pietonale și velo, mobilier urban și o stație de autobuz acoperită.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+}
