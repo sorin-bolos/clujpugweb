@@ -1,0 +1,389 @@
+{
+  "id": "2020-830",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 830,
+    "an": 2020,
+    "data_sedinta": "2020-11-27",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-830-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2020/12/28/HCL-nr-830-PUZ-MH-Invest-str-Eclipsei-str-Voivod-Glad.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, strada Eclipsei-strada Voievodul Glad",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 150,
+    "denumire": "U.P.1 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Planșa e pe p. 18 a PDF-ului, în format mare (2388x1259 pt, ~842x444 mm), color, la 150 ppi, cu ștampila „VIZAT” a comisiei tehnice și mențiunea de mână „HCL nr. 830 din 27.11.2020” (avizul arhitectului-șef nr. 241/10.08.2020). P. 17 e aceeași planșă ca Anexa 2, micșorată pe A4, monocromă, ilizibilă; p. 27 e alt plan, monocrom. Planșa e tipărită micșorată: 4,10 px/m în loc de 5,91 px/m cât ar da 1:1000 la 150 ppi (~69 %); e orientată cu nordul în sus (rotație 0,01°). Legenda cuprinde cheia simbolurilor (limite, circulații, funcțiuni, regim de înălțime) și caseta „Indici urbanistici caracteristice tehnice” (UTR Liu*, Ve, S_UIs); au rămas pe dinafară tabelele de indicatori pe parcele, bilanțul teritorial, suprafețele propuse și ale căilor de comunicație, profilele stradale, tabelul de coordonate și cartușul. În colțul din dreapta-jos al legendei se vede o bucată din banda verde a planului și un fragment de text al planului („propunere dezvoltare ulterioară a căilor”), care trec peste legendă pe planșă."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabel „Parcela (PUZ)” – „Coordonate pct. de contur” pe planșa U.P.1 (38 de puncte tipărite, X [m] = Nord / Y [m] = Est, cu lungimile laturilor D(i,i+1); sub tabel „S(PUZ)=43211.64mp P=1146.04m”), plus punctul X, lipsă din tabel și calculat (vezi nota). Puncte de control: colțurile 728 (NV), 738 (N), 742 (E, la str. Voievodul Glad), 51 (V) și 747 (SV); de verificare: 736 (la str. Eclipsei), 724 (S) și 751 (V). Fiecare e intersecția liniilor de mijloc ale liniei roșii „Limita parcelei studiate” de pe cele două laturi vecine, măsurate pe câte 25 de profile transversale pe latură (abatere 0,2-0,7 px). Planșa nu are caroiaj Stereo 70.",
+    "suprafata_declarata_m2": 43211.64,
+    "puncte": {
+      "727": [
+        583689.918,
+        395445.759
+      ],
+      "725": [
+        583701.2,
+        395452.75
+      ],
+      "726": [
+        583701.326,
+        395453.143
+      ],
+      "728": [
+        583751.152,
+        395485.193
+      ],
+      "729": [
+        583743.21,
+        395499.04
+      ],
+      "730": [
+        583735.109,
+        395513.164
+      ],
+      "731": [
+        583727.334,
+        395526.722
+      ],
+      "732": [
+        583718.965,
+        395541.314
+      ],
+      "733": [
+        583712.042,
+        395553.386
+      ],
+      "357": [
+        583711.038,
+        395552.834
+      ],
+      "734": [
+        583702.826,
+        395566.174
+      ],
+      "354": [
+        583694.693,
+        395579.387
+      ],
+      "735": [
+        583696.521,
+        395580.387
+      ],
+      "736": [
+        583680.113,
+        395608.922
+      ],
+      "737": [
+        583704.771,
+        395625.457
+      ],
+      "738": [
+        583757.181,
+        395660.601
+      ],
+      "739": [
+        583752.914,
+        395664.946
+      ],
+      "740": [
+        583710.456,
+        395707.342
+      ],
+      "741": [
+        583643.171,
+        395774.529
+      ],
+      "742": [
+        583617.661,
+        395798.256
+      ],
+      "721": [
+        583582.915,
+        395756.175
+      ],
+      "722": [
+        583582.59,
+        395756.91
+      ],
+      "743": [
+        583555.62,
+        395727.02
+      ],
+      "744": [
+        583559.987,
+        395715.496
+      ],
+      "745": [
+        583554.545,
+        395710.141
+      ],
+      "746": [
+        583533.044,
+        395688.99
+      ],
+      "747": [
+        583595.725,
+        395522.718
+      ],
+      "748": [
+        583622.139,
+        395531.627
+      ],
+      "723": [
+        583627.099,
+        395533.3
+      ],
+      "724": [
+        583627.1,
+        395533.3
+      ],
+      "749": [
+        583638.73,
+        395498.91
+      ],
+      "98": [
+        583646.23,
+        395476.732
+      ],
+      "750": [
+        583653.679,
+        395454.704
+      ],
+      "51": [
+        583661.166,
+        395432.562
+      ],
+      "751": [
+        583684.068,
+        395441.165
+      ],
+      "752": [
+        583691.474,
+        395418.862
+      ],
+      "41": [
+        583698.92,
+        395396.442
+      ],
+      "32": [
+        583706.406,
+        395373.901
+      ],
+      "X": [
+        583712.96,
+        395376.36
+      ]
+    },
+    "perimetru_declarat_m": 1146.04,
+    "ordine": [
+      "727",
+      "725",
+      "726",
+      "728",
+      "729",
+      "730",
+      "731",
+      "732",
+      "733",
+      "357",
+      "734",
+      "354",
+      "735",
+      "736",
+      "737",
+      "738",
+      "739",
+      "740",
+      "741",
+      "742",
+      "721",
+      "722",
+      "743",
+      "744",
+      "745",
+      "746",
+      "747",
+      "748",
+      "723",
+      "724",
+      "749",
+      "98",
+      "750",
+      "51",
+      "751",
+      "752",
+      "41",
+      "32",
+      "X"
+    ],
+    "laturi_declarate_m": {
+      "727": 13.27,
+      "725": 0.41,
+      "726": 59.24,
+      "728": 15.96,
+      "729": 16.28,
+      "730": 15.63,
+      "731": 16.82,
+      "732": 13.92,
+      "733": 1.15,
+      "357": 15.67,
+      "734": 15.52,
+      "354": 2.08,
+      "735": 32.92,
+      "736": 29.69,
+      "737": 63.1,
+      "738": 6.09,
+      "739": 60.0,
+      "740": 95.09,
+      "741": 34.84,
+      "742": 54.57,
+      "721": 0.8,
+      "722": 40.26,
+      "743": 12.32,
+      "744": 7.63,
+      "745": 30.16,
+      "746": 177.69,
+      "747": 27.88,
+      "748": 5.23,
+      "723": 0.0,
+      "724": 36.3,
+      "749": 23.41,
+      "98": 23.25,
+      "750": 23.37,
+      "51": 24.46,
+      "751": 23.5,
+      "752": 23.62,
+      "41": 23.75,
+      "32": 7.0
+    },
+    "nota": "Tabelul se oprește la punctul 32, iar latura lui, D = 7,00 m, nu duce înapoi la 727 (73,73 m): rândul punctului următor lipsește. L-am numit X și l-am calculat din două mărimi tipărite: 7,00 m de la 32 și 73,12 m până la 727 (perimetrul tipărit, 1146,04 m, minus celelalte laturi calculate din coordonate), luând soluția din afara laturii 32-727: X = N 583712.960, E 395376.360 (±0,01 m). Verificarea, independentă de calcul: aria inelului cu X iese 43211,5 mp, la 0,2 mp de S(PUZ) = 43211,64 mp (cealaltă soluție ar da 42700 mp, fără X 42956 mp); latura 32-X are aceeași orientare ca 51-751. X nu e punct de control. Cifre greu de citit, rezolvate din laturi: 727 N 583689.918 (a doua zecimală acoperită; doar 1 dă D 727-725 = 13,27), 729 N 583743.210 (doar 1 dă și 15,96, și 16,28), 722 E 395756.910 (doar 1 dă D 721-722 = 0,80); 735 N 583696.521 se confirmă prin D 354-735 = 2,08. Punctele 723 și 724 coincid (D = 0,00). Inventarul nu urmează linia roșie desenată în două locuri: (1) între 751 și 727 cuprinde o fâșie lată de ~7 m care merge ~74 m spre vest, prin 752, 41, 32 și X (~500 mp), desenată pe planul de bază ca parcelă îngustă cu nr. cadastral 260418 (Art. 1 enumeră nr. cad. 260418 printre parcelele P.U.Z.-ului), pe care linia roșie o lasă afară trecând drept de la 751 la 727; (2) în colțul de sud-est, la intersecția cu str. Voievodul Glad, ocolește prin 743-744-745-746 (pe liniile cadastrale ale unui lot mic), unde linia roșie merge drept până în colț (~400 mp lăsați afară). Harta arată conturul din inventar, cu care se potrivesc și S(PUZ), și bilanțul teritorial (43097 mp)."
+  },
+  "gcp_px": {
+    "728": [
+      2801.8,
+      1231.8
+    ],
+    "738": [
+      3520.5,
+      1208.2
+    ],
+    "51": [
+      2586.9,
+      1602.6
+    ],
+    "747": [
+      2953.9,
+      1870.6
+    ],
+    "742": [
+      4083.5,
+      1781.0
+    ]
+  },
+  "verificare_px": {
+    "724": [
+      2995.7,
+      1742.4
+    ],
+    "751": [
+      2624.3,
+      1509.2
+    ],
+    "736": [
+      3311.2,
+      1524.4
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1535,
+      212,
+      1915,
+      690
+    ],
+    [
+      1535,
+      690,
+      2030,
+      990
+    ],
+    [
+      1535,
+      990,
+      1915,
+      1140
+    ],
+    [
+      868,
+      1742,
+      1312,
+      2166
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) izolate sau cuplate și semicolective cu cel mult două unități locative",
+      "pot_max": "35%",
+      "cut_max": "0,9 ADC/mp",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă și 12 m la coamă/atic retras"
+    },
+    {
+      "cod": "S_UIs",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public în clădiri dedicate, în zone de urbanizare (administrație, cultură, învățământ și cercetare, sănătate, asistență socială, cult); clădiri izolate",
+      "pot_max": "60%",
+      "cut_max": "2,2 ADC/mp",
+      "h_max": "(1-3S)+P+4E+R, ultimul nivel retras cu min. 1,80 m"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: plantații, alei pietonale și velo, mobilier urban, locuri de joacă și sport în aer liber",
+      "pot_max": "1%",
+      "cut_max": "0,01",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-11-27",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; prelungită cu 2 ani prin HCL 469/2025 (7.07.2025), adoptată înainte de expirare; nicio modificare a P.U.Z.-ului în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [
+    {
+      "hcl": "469/2025",
+      "pana_la": "2027-11-27",
+      "nota": "HCL 469 din 7 iulie 2025 prelungește valabilitatea „cu o perioadă de 2 ani”; termenul e socotit de la expirarea inițială, 27.11.2025."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "S_UIs: Art. 1 permite cel mult (1-3S)+P+4E+R; caseta de indicatori a planșei dă „-1-3S+P+5+1R”, cu H max 22 m la cornișă și 25 m în total, deci un etaj în plus; textul nu dă înălțimi în metri.",
+    "Planșa numește subzona S_UIs „Centru îngrijire vârstnici UTR=IS”; Art. 1 o reglementează mai larg, ca subzonă de instituții și servicii publice (administrație, cultură, învățământ, sănătate, asistență socială, cult).",
+    "Planșa cere suprafețe verzi de min. 40% pe parcelele Liu* și de min. 60% în Ve; textul hotărârii nu dă procente de spațiu verde.",
+    "Art. 1 aprobă P.U.Z.-ul și pe parcela nr. cad. 260418: fâșia ei îngustă (~7 m) care iese ~74 m spre vest e cuprinsă în inventarul de coordonate și în suprafața de 43211,64 mp, dar nu și în conturul roșu desenat; harta arată conturul din inventar. Tot inventarul lasă afară un colț de ~400 mp la str. Voievodul Glad, pe care linia roșie îl cuprinde."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Străzile „A” (ampriză 9 m), „B” (12 m) și „C” (9 m), propuse prin P.U.Z., se realizează până la stratul de uzură înainte de autorizarea construcțiilor pe parcelele cu acces direct din ele.",
+    "Suprafețele necesare lărgirii străzilor Eclipsei și Voievodul Glad se dezmembrează din parcelele inițiale și se înscriu în CF ca „drum” înainte de emiterea autorizațiilor de construire pe parcele.",
+    "Spațiul verde cu acces public nelimitat de lângă str. Voievodul Glad se amenajează (plantații înalte, medii și joase, mobilier urban, alei pietonale) înainte de recepția construcțiilor din subzona S_UIs; plantațiile înalte înseamnă minim 25 de arbori cu circumferința de cel puțin 35 cm, măsurată la 1 m de la colet.",
+    "Pe străzile cu ampriză de 12 m se plantează arbori de aliniament (circumferință minimă 35 cm la 1 m de la colet), în dreptul limitelor laterale dintre parcele.",
+    "Prin grija și pe cheltuiala investitorului (avizul Serviciului Siguranța Circulației nr. 362709/466/6.08.2020 și adresa nr. 434905/446/10.09.2020): str. Eclipsei se reglementează la ampriza existentă pe primul tronson și la profil de 12 m de acolo până la parcelele din P.U.Z., iar str. Voievodul Glad la profilul din P.U.G.; amândouă se asfaltează înainte de recepția construcțiilor.",
+    "Rețeaua stradală propusă se realizează la profilele din P.U.Z., asfaltată, inclusiv legăturile cu str. Voievodul Glad (profil P.U.G., acces public nelimitat); la faza D.T.A.C. pentru drumuri se prezintă planul de semnalizare rutieră orizontală și verticală, realizat până la recepția construcțiilor.",
+    "Autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară sau amenajarea spațiilor verzi) se emit numai după ce municipalitatea reamenajează și lărgește intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, a cărei capacitate e depășită, dar nu mai târziu de 2026.",
+    "Liu*: retragere min. 5 m față de aliniament (garajele min. 6 m), min. H/2 la cornișă dar cel puțin 3 m față de limitele laterale (garajele se pot alipi, cu calcan de max. 2,8 m) și min. H dar cel puțin 6 m față de limita posterioară; cel mult un acces pietonal și un acces carosabil (max. 3 m) pe parcelă.",
+    "S_UIs: retragere min. 6 m față de aliniament și min. H/2, dar cel puțin 6 m, față de limitele laterale și posterioară; parcarea numai în interiorul parcelelor (garaje subterane/supraterane sau parcaje la sol).",
+    "Parcarea se face în interiorul parcelelor, după Anexa 2 a Regulamentului P.U.G.; în zona verde Ve parcarea e interzisă.",
+    "Toate construcțiile se racordează la rețelele edilitare existente (apă, canalizare, electricitate, gaz)."
+  ],
+  "hotarare_text": "documente/2020-830/hotarare.txt"
+}

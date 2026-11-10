@@ -12932,6 +12932,242 @@
   ]
  },
  {
+  "id": "2020-830",
+  "localitate": "cluj",
+  "hcl": "830/2020",
+  "data": "2020-11-27",
+  "titlu": "P.U.Z. de urbanizare, strada Eclipsei-strada Voievodul Glad",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-830-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/2020/12/28/HCL-nr-830-PUZ-MH-Invest-str-Eclipsei-str-Voivod-Glad.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) izolate sau cuplate și semicolective cu cel mult două unități locative",
+    "pot_max": "35%",
+    "cut_max": "0,9 ADC/mp",
+    "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă și 12 m la coamă/atic retras"
+   },
+   {
+    "cod": "S_UIs",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public în clădiri dedicate, în zone de urbanizare (administrație, cultură, învățământ și cercetare, sănătate, asistență socială, cult); clădiri izolate",
+    "pot_max": "60%",
+    "cut_max": "2,2 ADC/mp",
+    "h_max": "(1-3S)+P+4E+R, ultimul nivel retras cu min. 1,80 m"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: plantații, alei pietonale și velo, mobilier urban, locuri de joacă și sport în aer liber",
+    "pot_max": "1%",
+    "cut_max": "0,01",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 43211,
+  "imagine": "puz/2020-830/plansa.webp",
+  "bounds": {
+   "west": 23.6289246,
+   "south": 46.7431899,
+   "east": 23.6345842,
+   "north": 46.7453111
+  },
+  "limita": [
+   [
+    23.6299062,
+    46.7446299
+   ],
+   [
+    23.6299952,
+    46.7447324
+   ],
+   [
+    23.6300003,
+    46.7447336
+   ],
+   [
+    23.6304084,
+    46.7451868
+   ],
+   [
+    23.6305914,
+    46.7451175
+   ],
+   [
+    23.630778,
+    46.7450469
+   ],
+   [
+    23.6309572,
+    46.744979
+   ],
+   [
+    23.6311501,
+    46.744906
+   ],
+   [
+    23.6313096,
+    46.7448456
+   ],
+   [
+    23.6313026,
+    46.7448365
+   ],
+   [
+    23.631479,
+    46.7447647
+   ],
+   [
+    23.6316538,
+    46.7446936
+   ],
+   [
+    23.6316665,
+    46.7447102
+   ],
+   [
+    23.6320436,
+    46.744567
+   ],
+   [
+    23.6322544,
+    46.7447914
+   ],
+   [
+    23.6327024,
+    46.7452683
+   ],
+   [
+    23.6327602,
+    46.7452306
+   ],
+   [
+    23.6333246,
+    46.7448553
+   ],
+   [
+    23.634219,
+    46.7442605
+   ],
+   [
+    23.6345353,
+    46.7440347
+   ],
+   [
+    23.6339925,
+    46.7437156
+   ],
+   [
+    23.6340021,
+    46.7437128
+   ],
+   [
+    23.6336171,
+    46.7434655
+   ],
+   [
+    23.6334653,
+    46.743503
+   ],
+   [
+    23.6333965,
+    46.7434532
+   ],
+   [
+    23.6331246,
+    46.7432565
+   ],
+   [
+    23.6309346,
+    46.7437945
+   ],
+   [
+    23.6310452,
+    46.7440335
+   ],
+   [
+    23.631066,
+    46.7440784
+   ],
+   [
+    23.631066,
+    46.7440784
+   ],
+   [
+    23.6306133,
+    46.7441777
+   ],
+   [
+    23.6303214,
+    46.7442417
+   ],
+   [
+    23.6300315,
+    46.7443053
+   ],
+   [
+    23.62974,
+    46.7443692
+   ],
+   [
+    23.6298474,
+    46.7445765
+   ],
+   [
+    23.6295539,
+    46.7446397
+   ],
+   [
+    23.6292588,
+    46.7447032
+   ],
+   [
+    23.6289622,
+    46.744767
+   ],
+   [
+    23.6289929,
+    46.7448263
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.18
+  },
+  "legenda": "puz/2020-830/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-11-27",
+   "initial_pana_la": "2025-11-27",
+   "prelungiri": [
+    {
+     "hcl": "469/2025",
+     "pana_la": "2027-11-27",
+     "nota": "HCL 469 din 7 iulie 2025 prelungește valabilitatea „cu o perioadă de 2 ani”; termenul e socotit de la expirarea inițială, 27.11.2025."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "S_UIs: Art. 1 permite cel mult (1-3S)+P+4E+R; caseta de indicatori a planșei dă „-1-3S+P+5+1R”, cu H max 22 m la cornișă și 25 m în total, deci un etaj în plus; textul nu dă înălțimi în metri.",
+   "Planșa numește subzona S_UIs „Centru îngrijire vârstnici UTR=IS”; Art. 1 o reglementează mai larg, ca subzonă de instituții și servicii publice (administrație, cultură, învățământ, sănătate, asistență socială, cult).",
+   "Planșa cere suprafețe verzi de min. 40% pe parcelele Liu* și de min. 60% în Ve; textul hotărârii nu dă procente de spațiu verde.",
+   "Art. 1 aprobă P.U.Z.-ul și pe parcela nr. cad. 260418: fâșia ei îngustă (~7 m) care iese ~74 m spre vest e cuprinsă în inventarul de coordonate și în suprafața de 43211,64 mp, dar nu și în conturul roșu desenat; harta arată conturul din inventar. Tot inventarul lasă afară un colț de ~400 mp la str. Voievodul Glad, pe care linia roșie îl cuprinde."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Străzile „A” (ampriză 9 m), „B” (12 m) și „C” (9 m), propuse prin P.U.Z., se realizează până la stratul de uzură înainte de autorizarea construcțiilor pe parcelele cu acces direct din ele.",
+   "Suprafețele necesare lărgirii străzilor Eclipsei și Voievodul Glad se dezmembrează din parcelele inițiale și se înscriu în CF ca „drum” înainte de emiterea autorizațiilor de construire pe parcele.",
+   "Spațiul verde cu acces public nelimitat de lângă str. Voievodul Glad se amenajează (plantații înalte, medii și joase, mobilier urban, alei pietonale) înainte de recepția construcțiilor din subzona S_UIs; plantațiile înalte înseamnă minim 25 de arbori cu circumferința de cel puțin 35 cm, măsurată la 1 m de la colet.",
+   "Pe străzile cu ampriză de 12 m se plantează arbori de aliniament (circumferință minimă 35 cm la 1 m de la colet), în dreptul limitelor laterale dintre parcele.",
+   "Prin grija și pe cheltuiala investitorului (avizul Serviciului Siguranța Circulației nr. 362709/466/6.08.2020 și adresa nr. 434905/446/10.09.2020): str. Eclipsei se reglementează la ampriza existentă pe primul tronson și la profil de 12 m de acolo până la parcelele din P.U.Z., iar str. Voievodul Glad la profilul din P.U.G.; amândouă se asfaltează înainte de recepția construcțiilor.",
+   "Rețeaua stradală propusă se realizează la profilele din P.U.Z., asfaltată, inclusiv legăturile cu str. Voievodul Glad (profil P.U.G., acces public nelimitat); la faza D.T.A.C. pentru drumuri se prezintă planul de semnalizare rutieră orizontală și verticală, realizat până la recepția construcțiilor.",
+   "Autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară sau amenajarea spațiilor verzi) se emit numai după ce municipalitatea reamenajează și lărgește intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, a cărei capacitate e depășită, dar nu mai târziu de 2026.",
+   "Liu*: retragere min. 5 m față de aliniament (garajele min. 6 m), min. H/2 la cornișă dar cel puțin 3 m față de limitele laterale (garajele se pot alipi, cu calcan de max. 2,8 m) și min. H dar cel puțin 6 m față de limita posterioară; cel mult un acces pietonal și un acces carosabil (max. 3 m) pe parcelă.",
+   "S_UIs: retragere min. 6 m față de aliniament și min. H/2, dar cel puțin 6 m, față de limitele laterale și posterioară; parcarea numai în interiorul parcelelor (garaje subterane/supraterane sau parcaje la sol).",
+   "Parcarea se face în interiorul parcelelor, după Anexa 2 a Regulamentului P.U.G.; în zona verde Ve parcarea e interzisă.",
+   "Toate construcțiile se racordează la rețelele edilitare existente (apă, canalizare, electricitate, gaz)."
+  ]
+ },
+ {
   "id": "2020-4",
   "localitate": "cluj",
   "hcl": "4/2020",
