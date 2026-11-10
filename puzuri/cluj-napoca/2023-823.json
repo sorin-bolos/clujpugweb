@@ -1,0 +1,443 @@
+{
+  "id": "2023-823",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 823,
+    "an": 2023,
+    "data_sedinta": "2023-12-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-823-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-823.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Câmpului",
+  "plansa": {
+    "pagina_pdf": 26,
+    "dpi": 200,
+    "denumire": "Planșa A.04 – Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 36 de pagini: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism (p. 4-15), Anexa 2 – planșa A.04 „Plan reglementări urbanistice” redusă pe A4 și fotocopiată (p. 16, inventarul de coordonate nu se poate citi), Anexa 3 – planul de acțiune (p. 17), Anexa 4 – planșa A.06 „Plan proprietate asupra terenurilor și circulația juridică a terenurilor” redusă pe A4 (p. 18), avize (p. 19-25: avizul Arhitectului-șef nr. 21/2023, avizul nr. 118/2022, avizul de oportunitate nr. 962/2018 cu anexa lui), planșa A.04 color pe A3 (p. 26, aleasă: aceeași planșă, datată 22.12.2022, vizată spre neschimbare cu HCL 823/2023, avizul A.Ș. nr. 118/2022 și avizul nr. 21/2023, cu inventarul lizibil), planșa A.06 color (p. 27) și raportul informării și consultării publicului (p. 28-36). Scanare de 200 ppi, la scara nominală 1:500 (15,7 px/m). Planșa desenează două etape: etapa 1 (zona aprobată) și etapa 2 (terenul vecin de la nord). Legenda ia, în trei casete, legenda planșei, rândurile cu P.O.T./C.U.T. maxime pe U.T.R. de sub bilanțul teritorial și nota despre spațiul verde S_Va; lasă deoparte bilanțul, inventarul de coordonate, detaliul locului de întoarcere, profilul străzii A, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabelul „Coordonate pct. de contur” al planșei (Nr. Pct. 229-249, X [m] Nord / Y [m] Est, Stereo 70, cu lungimile laturilor D(i,i+1)) e conturul ambelor etape ale P.U.Z.: etapa 1 (zona aprobată) și etapa 2 (terenul vecin de la nord, nr. cad. 17953, 2.655 mp după regulament). Hotărârea aprobă numai etapa 1, așa că vârfurile sunt la `repere` (puncte de control și de verificare), iar limita e `limita_px`: linia „Limita reglementat prin PUZ în etapa 1”. Pe laturile de vest, sud și est ea trece prin vârfurile 231, 232, 233 … 248 ale inventarului (în `limita_px` sunt pozițiile lor prezise de potrivire, verificate cu `overlay` pe linia desenată), iar la nord, între 248 și 231, merge pe linia dintre etape, care nu are coordonate: trasată pe planșă prin detectarea liniei roșii, trei segmente drepte cu frângeri la (1315,796) și (1190,675). Suprafața declarată e cea a etapei 1: 8.246,3 mp (bilanțul teritorial, regulamentul: „Suprafața totală reglementată prin PUZ: 8246.3mp”; Art. 1: aprox. 0,8 ha).",
+    "suprafata_declarata_m2": 8246.3,
+    "puncte": {},
+    "inventar_etapele_1_2": {
+      "titlu": "Coordonate pct. de contur (Nr. Pct. 229-249, X [m] / Y [m], Stereo 70, cu lungimile laturilor D(i,i+1)), tabelul din dreapta planșei A.04",
+      "puncte": {
+        "229": [
+          583277.103,
+          390989.896
+        ],
+        "230": [
+          583272.171,
+          390988.905
+        ],
+        "231": [
+          583248.925,
+          390980.195
+        ],
+        "232": [
+          583253.336,
+          390964.101
+        ],
+        "233": [
+          583203.443,
+          390941.328
+        ],
+        "234": [
+          583202.672,
+          390940.593
+        ],
+        "235": [
+          583202.133,
+          390940.728
+        ],
+        "236": [
+          583184.085,
+          390945.233
+        ],
+        "237": [
+          583158.018,
+          390951.851
+        ],
+        "238": [
+          583107.555,
+          390965.079
+        ],
+        "239": [
+          583088.716,
+          390976.333
+        ],
+        "240": [
+          583086.85,
+          390977.254
+        ],
+        "241": [
+          583129.148,
+          390989.688
+        ],
+        "242": [
+          583145.738,
+          390995.543
+        ],
+        "243": [
+          583164.074,
+          391009.89
+        ],
+        "244": [
+          583177.781,
+          391025.618
+        ],
+        "245": [
+          583177.139,
+          391027.856
+        ],
+        "246": [
+          583178.488,
+          391029.576
+        ],
+        "247": [
+          583215.917,
+          391023.489
+        ],
+        "248": [
+          583221.901,
+          391031.336
+        ],
+        "249": [
+          583264.413,
+          391067.528
+        ]
+      },
+      "ordine": [
+        "229",
+        "230",
+        "231",
+        "232",
+        "233",
+        "234",
+        "235",
+        "236",
+        "237",
+        "238",
+        "239",
+        "240",
+        "241",
+        "242",
+        "243",
+        "244",
+        "245",
+        "246",
+        "247",
+        "248",
+        "249"
+      ],
+      "laturi_declarate_m": {
+        "229": 5.031,
+        "230": 24.824,
+        "231": 16.688,
+        "232": 54.845,
+        "233": 1.065,
+        "234": 0.556,
+        "235": 18.602,
+        "236": 26.894,
+        "237": 52.168,
+        "238": 21.944,
+        "239": 2.081,
+        "240": 44.088,
+        "241": 17.593,
+        "242": 23.282,
+        "243": 20.863,
+        "244": 2.328,
+        "245": 2.186,
+        "246": 37.921,
+        "247": 9.868,
+        "248": 55.831,
+        "249": 78.662
+      }
+    },
+    "nota": "Inventarul e transcris și verificat în `coordonate.inventar_etapele_1_2`: toate cele 21 de laturi ies la 1 mm (perimetrul 517,32 m); tabelul nu tipărește aria sau perimetrul. Aria conturului, 10.902,9 mp, e suma celor două etape din regulament (8.246,3 + 2.655 = 10.901,3 mp, +0,01%). Etapa 1 numai pe vârfurile inventarului (coarda 248-231) ar avea 8.181,5 mp; cu linia dintre etape trasată, limita are 8.245,9 mp față de 8.246,3 mp declarați (-0,005%). Puncte de control: colțurile ascuțite 229 (colțul NV al etapei 2), 232 (colțul NV), 233 (unde limita coboară pe str. Câmpului), 240 (vârful de sud), 248 (colțul NE al etapei 1). De verificare: 231 (unde linia etapei 2 se desprinde din latura de nord), 247 și 249 (colțul NE al etapei 2, la marginea planșei). Latura 247-248 e desenată cu ~0,5 m mai scurtă decât cei 9,868 m din tabel, de aici reziduul de 0,55 m la 247. Vârfurile 234-235 (decroș de 1 m), 236-239 și 241-246 sunt pe linii aproape drepte sau încâlcite cu alte desene și nu sunt folosite ca puncte."
+  },
+  "repere": {
+    "229": [
+      583277.103,
+      390989.896
+    ],
+    "230": [
+      583272.171,
+      390988.905
+    ],
+    "231": [
+      583248.925,
+      390980.195
+    ],
+    "232": [
+      583253.336,
+      390964.101
+    ],
+    "233": [
+      583203.443,
+      390941.328
+    ],
+    "234": [
+      583202.672,
+      390940.593
+    ],
+    "235": [
+      583202.133,
+      390940.728
+    ],
+    "236": [
+      583184.085,
+      390945.233
+    ],
+    "237": [
+      583158.018,
+      390951.851
+    ],
+    "238": [
+      583107.555,
+      390965.079
+    ],
+    "239": [
+      583088.716,
+      390976.333
+    ],
+    "240": [
+      583086.85,
+      390977.254
+    ],
+    "241": [
+      583129.148,
+      390989.688
+    ],
+    "242": [
+      583145.738,
+      390995.543
+    ],
+    "243": [
+      583164.074,
+      391009.89
+    ],
+    "244": [
+      583177.781,
+      391025.618
+    ],
+    "245": [
+      583177.139,
+      391027.856
+    ],
+    "246": [
+      583178.488,
+      391029.576
+    ],
+    "247": [
+      583215.917,
+      391023.489
+    ],
+    "248": [
+      583221.901,
+      391031.336
+    ],
+    "249": [
+      583264.413,
+      391067.528
+    ]
+  },
+  "gcp_px": {
+    "229": [
+      1062,
+      153
+    ],
+    "232": [
+      658,
+      519
+    ],
+    "233": [
+      300,
+      1299
+    ],
+    "240": [
+      873,
+      3127
+    ],
+    "248": [
+      1712,
+      1017
+    ]
+  },
+  "verificare_px": {
+    "231": [
+      911,
+      588
+    ],
+    "247": [
+      1594,
+      1103
+    ],
+    "249": [
+      2285,
+      355
+    ]
+  },
+  "limita_px": [
+    [
+      657.0,
+      520.5
+    ],
+    [
+      302.2,
+      1299.2
+    ],
+    [
+      290.7,
+      1311.2
+    ],
+    [
+      292.8,
+      1319.7
+    ],
+    [
+      364.4,
+      1602.4
+    ],
+    [
+      469.6,
+      2010.8
+    ],
+    [
+      679.7,
+      2801.5
+    ],
+    [
+      857.3,
+      3097.2
+    ],
+    [
+      871.8,
+      3126.4
+    ],
+    [
+      1064.8,
+      2465.7
+    ],
+    [
+      1155.8,
+      2206.6
+    ],
+    [
+      1380.0,
+      1921.0
+    ],
+    [
+      1626.1,
+      1707.8
+    ],
+    [
+      1661.2,
+      1718.1
+    ],
+    [
+      1688.2,
+      1697.1
+    ],
+    [
+      1590.7,
+      1111.0
+    ],
+    [
+      1713.6,
+      1018.0
+    ],
+    [
+      1315.3,
+      796.2
+    ],
+    [
+      1189.8,
+      675.0
+    ],
+    [
+      909.7,
+      590.9
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        1700,
+        1610,
+        2339,
+        2200
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      1700,
+      2180,
+      2295,
+      2872
+    ],
+    [
+      1700,
+      1994,
+      2285,
+      2175
+    ],
+    [
+      1438,
+      1925,
+      1680,
+      2125
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu/P.U.Z.",
+      "denumire": "Locuințe familiale: locuințe individuale (unifamiliale) și familiale (semicolective, cu două unități locative alipite sau suprapuse), pe parcele de cel puțin 550 mp; pe parcelele de cel puțin 800 mp se admit două locuințe unifamiliale; regim de construire izolat; 11 parcele",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă (sau la aticul ultimului nivel neretras), 12 m la coamă (sau la aticul nivelului retras); trei niveluri supraterane: S+P+1+M/R sau D+P+M/R"
+    },
+    {
+      "cod": "S_Is",
+      "denumire": "Subzona de instituții și servicii publice și de interes public constituite în ansambluri independente (funcțiuni de sănătate și asistență socială, funcțiuni educaționale); regim de construire deschis; o parcelă",
+      "pot_max": "50%",
+      "cut_max": "1,8",
+      "h_max": "S+P+2E+R"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (o parcelă)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "(S)+P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-12-04",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa reglementează și etapa 2 („Limita reglementat în etapa 2”): terenul vecin de la nord, nr. cad. 17953, de 2.655 mp, iar inventarul de coordonate al planșei (punctele 229-249) e conturul ambelor etape (10.903 mp). Hotărârea (Art. 1) aprobă numai imobilele nr. cad. 290053 și 317023, aprox. 0,8 ha (8.246,3 mp în bilanț și în regulament); regulamentul spune că terenul de la nord se va reglementa „în viitor într-o etapă ulterioară”, printr-un P.U.Z. de urbanizare. Harta arată doar etapa 1.",
+    "Planșa dă doar P.O.T. și C.U.T. maxime pe U.T.R., fără înălțimi; hotărârea (Art. 1) fixează pentru Liu/P.U.Z. 8 m la cornișă, 12 m la coamă și S+P+1+M/R sau D+P+M/R, pentru S_Is S+P+2E+R, iar pentru S_Va (S)+P.",
+    "Hotărârea cere pentru Liu/P.U.Z. parcele de cel puțin 550 mp și admite două locuințe doar pe parcelele de cel puțin 800 mp; planșa nu tipărește aceste praguri."
+  ],
+  "conditii": [
+    "Se reglementează 8.246,3 mp de teren proprietate privată (nr. cad. 290053 și 317023) pe latura estică a str. Câmpului: 11 parcele de locuințe (Liu/P.U.Z.), o parcelă pentru un imobil de servicii de interes public (S_Is), o parcelă de spațiu verde cu acces public nelimitat (S_Va), strada nouă „A” și fâșia pentru regularizarea str. Câmpului.",
+    "Retrageri la Liu/P.U.Z.: cel puțin 3 m de la aliniament, 3 m de la limitele laterale și 6 m de la limita posterioară; la S_Is: cel puțin 3 m de la aliniament, de la limitele laterale și de la limita posterioară.",
+    "Accesul se face din str. Câmpului, regularizată la ampriza de 12 m, și din strada nouă de interes local „A”, cu ampriza de 9 m (la S_Va doar din strada „A”); parcarea se face în interiorul parcelei (la S_Is, după Anexa 2 a P.U.G.); utilitățile există pe str. Câmpului.",
+    "Înainte de autorizațiile de construire pentru locuințe, fâșia necesară regularizării str. Câmpului la profilul de 12 m (6 m din axul drumului existent) se dezmembrează, se înscrie în CF ca „drum” și primește aceeași îmbrăcăminte rutieră ca str. Câmpului; planul de acțiune (Anexa 3) prevede și trecerea ei gratuită în proprietatea municipiului.",
+    "Tot înainte de autorizațiile pentru locuințe, terenul pentru alveola stației de autobuz se dezmembrează, se înscrie în CF ca „drum”, primește aceeași îmbrăcăminte ca str. Câmpului și trece gratuit în domeniul public.",
+    "Strada „A” se dezmembrează și se înscrie în CF ca „drum”, se asfaltează și primește profilul de 9 m (6 m parte carosabilă) și un loc de întoarcere, înainte de autorizațiile de construire pentru locuințe.",
+    "Semnalizarea rutieră orizontală și verticală, rețelele pluviale și edilitare și iluminatul public se fac după avizul Serviciului Siguranța Circulației nr. 912491/446/9.12.2022; planul de acțiune cere ca aceste lucrări (strada „A”, lărgirea str. Câmpului, alveola) să se facă înainte de autorizația de construire a primului imobil, cu proiect verificat și cu avizul Poliției rutiere pentru semnalizare.",
+    "Spațiul verde S_Va se amenajează cu vegetație joasă, medie și înaltă, cu cel puțin 7 arbori cu circumferința minimă de 35 cm măsurată la 1 m de colet (nota de pe planșă).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară: după planul de acțiune, întocmirea documentațiilor, operațiunile notariale de reparcelare, dezmembrarea și donarea terenului pentru strada „A” și pentru lărgirea str. Câmpului și racordarea la rețelele edilitare."
+  ]
+}

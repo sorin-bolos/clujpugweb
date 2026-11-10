@@ -8921,6 +8921,154 @@
   ]
  },
  {
+  "id": "2023-823",
+  "localitate": "cluj",
+  "hcl": "823/2023",
+  "data": "2023-12-04",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Câmpului",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-823-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-823.pdf",
+  "utr": [
+   {
+    "cod": "Liu/P.U.Z.",
+    "denumire": "Locuințe familiale: locuințe individuale (unifamiliale) și familiale (semicolective, cu două unități locative alipite sau suprapuse), pe parcele de cel puțin 550 mp; pe parcelele de cel puțin 800 mp se admit două locuințe unifamiliale; regim de construire izolat; 11 parcele",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă (sau la aticul ultimului nivel neretras), 12 m la coamă (sau la aticul nivelului retras); trei niveluri supraterane: S+P+1+M/R sau D+P+M/R"
+   },
+   {
+    "cod": "S_Is",
+    "denumire": "Subzona de instituții și servicii publice și de interes public constituite în ansambluri independente (funcțiuni de sănătate și asistență socială, funcțiuni educaționale); regim de construire deschis; o parcelă",
+    "pot_max": "50%",
+    "cut_max": "1,8",
+    "h_max": "S+P+2E+R"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (o parcelă)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "(S)+P"
+   }
+  ],
+  "suprafata_m2": 8246,
+  "imagine": "puz/2023-823/plansa.webp",
+  "bounds": {
+   "west": 23.5710344,
+   "south": 46.7384508,
+   "east": 23.5723201,
+   "north": 46.7400172
+  },
+  "limita": [
+   [
+    23.571364,
+    46.7399898
+   ],
+   [
+    23.5710778,
+    46.7395373
+   ],
+   [
+    23.5710684,
+    46.7395302
+   ],
+   [
+    23.5710702,
+    46.7395254
+   ],
+   [
+    23.5711334,
+    46.7393638
+   ],
+   [
+    23.5712262,
+    46.7391304
+   ],
+   [
+    23.5714112,
+    46.7386786
+   ],
+   [
+    23.5715629,
+    46.7385109
+   ],
+   [
+    23.5715754,
+    46.7384943
+   ],
+   [
+    23.5717281,
+    46.7388768
+   ],
+   [
+    23.5718008,
+    46.739027
+   ],
+   [
+    23.5719842,
+    46.7391942
+   ],
+   [
+    23.5721868,
+    46.7393201
+   ],
+   [
+    23.5722162,
+    46.7393147
+   ],
+   [
+    23.5722384,
+    46.7393271
+   ],
+   [
+    23.5721499,
+    46.7396628
+   ],
+   [
+    23.5722512,
+    46.7397179
+   ],
+   [
+    23.5719163,
+    46.7398401
+   ],
+   [
+    23.5718102,
+    46.7399081
+   ],
+   [
+    23.5715756,
+    46.7399527
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 5,
+   "rms_m": 0.13
+  },
+  "legenda": "puz/2023-823/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-12-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa reglementează și etapa 2 („Limita reglementat în etapa 2”): terenul vecin de la nord, nr. cad. 17953, de 2.655 mp, iar inventarul de coordonate al planșei (punctele 229-249) e conturul ambelor etape (10.903 mp). Hotărârea (Art. 1) aprobă numai imobilele nr. cad. 290053 și 317023, aprox. 0,8 ha (8.246,3 mp în bilanț și în regulament); regulamentul spune că terenul de la nord se va reglementa „în viitor într-o etapă ulterioară”, printr-un P.U.Z. de urbanizare. Harta arată doar etapa 1.",
+   "Planșa dă doar P.O.T. și C.U.T. maxime pe U.T.R., fără înălțimi; hotărârea (Art. 1) fixează pentru Liu/P.U.Z. 8 m la cornișă, 12 m la coamă și S+P+1+M/R sau D+P+M/R, pentru S_Is S+P+2E+R, iar pentru S_Va (S)+P.",
+   "Hotărârea cere pentru Liu/P.U.Z. parcele de cel puțin 550 mp și admite două locuințe doar pe parcelele de cel puțin 800 mp; planșa nu tipărește aceste praguri."
+  ],
+  "conditii": [
+   "Se reglementează 8.246,3 mp de teren proprietate privată (nr. cad. 290053 și 317023) pe latura estică a str. Câmpului: 11 parcele de locuințe (Liu/P.U.Z.), o parcelă pentru un imobil de servicii de interes public (S_Is), o parcelă de spațiu verde cu acces public nelimitat (S_Va), strada nouă „A” și fâșia pentru regularizarea str. Câmpului.",
+   "Retrageri la Liu/P.U.Z.: cel puțin 3 m de la aliniament, 3 m de la limitele laterale și 6 m de la limita posterioară; la S_Is: cel puțin 3 m de la aliniament, de la limitele laterale și de la limita posterioară.",
+   "Accesul se face din str. Câmpului, regularizată la ampriza de 12 m, și din strada nouă de interes local „A”, cu ampriza de 9 m (la S_Va doar din strada „A”); parcarea se face în interiorul parcelei (la S_Is, după Anexa 2 a P.U.G.); utilitățile există pe str. Câmpului.",
+   "Înainte de autorizațiile de construire pentru locuințe, fâșia necesară regularizării str. Câmpului la profilul de 12 m (6 m din axul drumului existent) se dezmembrează, se înscrie în CF ca „drum” și primește aceeași îmbrăcăminte rutieră ca str. Câmpului; planul de acțiune (Anexa 3) prevede și trecerea ei gratuită în proprietatea municipiului.",
+   "Tot înainte de autorizațiile pentru locuințe, terenul pentru alveola stației de autobuz se dezmembrează, se înscrie în CF ca „drum”, primește aceeași îmbrăcăminte ca str. Câmpului și trece gratuit în domeniul public.",
+   "Strada „A” se dezmembrează și se înscrie în CF ca „drum”, se asfaltează și primește profilul de 9 m (6 m parte carosabilă) și un loc de întoarcere, înainte de autorizațiile de construire pentru locuințe.",
+   "Semnalizarea rutieră orizontală și verticală, rețelele pluviale și edilitare și iluminatul public se fac după avizul Serviciului Siguranța Circulației nr. 912491/446/9.12.2022; planul de acțiune cere ca aceste lucrări (strada „A”, lărgirea str. Câmpului, alveola) să se facă înainte de autorizația de construire a primului imobil, cu proiect verificat și cu avizul Poliției rutiere pentru semnalizare.",
+   "Spațiul verde S_Va se amenajează cu vegetație joasă, medie și înaltă, cu cel puțin 7 arbori cu circumferința minimă de 35 cm măsurată la 1 m de colet (nota de pe planșă).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară: după planul de acțiune, întocmirea documentațiilor, operațiunile notariale de reparcelare, dezmembrarea și donarea terenului pentru strada „A” și pentru lărgirea str. Câmpului și racordarea la rețelele edilitare."
+  ]
+ },
+ {
   "id": "2023-604",
   "localitate": "cluj",
   "hcl": "604/2023",
