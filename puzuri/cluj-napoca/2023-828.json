@@ -1,0 +1,549 @@
+{
+  "id": "2023-828",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Hotărârea aprobă numai etapa 1 (nr. cad. 263693, 7.087 mp), a cărei limită (bulinele albastre) planșa U03 o desenează fără coordonate; trasată pe planșă și pusă pe hartă prin vârfurile inventarului și crucile caroiajului, ea închide 7.882 mp, cu 11,2% peste cei 7.087 mp din legendă, bilanț și Art. 1 (poarta e 3%), iar inventarul planșei (S=20.011,82 mp) e limita întregii zone, cu etapa 2 neaprobată și străzile.",
+  "hcl": {
+    "nr": 828,
+    "an": 2023,
+    "data_sedinta": "2023-12-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-828-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-828.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Drumul Sf. Ioan-str. Făgetului (etapa 1 – Colonia Făget nr. 10 prov.)",
+  "plansa": {
+    "pagina_pdf": 25,
+    "dpi": 144,
+    "denumire": "U03 Reglementări urbanistice - zonificare",
+    "scara": "1:500",
+    "nota": "Planșa U03 e pe p. 25 (A0 scanat la 144 ppi); p. 17 e aceeași planșă redusă pe A4. Planșa desenează ambele etape ale PUZ-ului: etapa 1 (linia cu buline albastre, „teren reglementat prin PUZ faza 1 - 7087.00 mp”, nr. cad. 263693, parcelele 1-7) și etapa 2 (linia cu buline roșii, „faza 2 - 9.921,00 mp”, parcelele altor proprietari), plus zona studiată (24.557 mp). Hotărârea aprobă numai etapa 1."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („Parcela (1UTR)”, 54 de vârfuri, Nord X / Est Y, cu lungimile laturilor; „S(1UTR)=20011.82mp P=717.657”) e limita întregii zone reglementate: etapele 1 și 2 plus fâșiile de stradă din Drumul Sf. Ioan și str. Făgetului. Hotărârea aprobă numai etapa 1, așa că vârfurile sunt la `repere` (puncte de control și de verificare), alături de trei cruci ale caroiajului Stereo 70 de 50 m citite pe planșă (C391450_581300 la (3007,241), C391450_581250 la (3008,811), C391400_581200 la (2456,1386), recunoscute după poziția prezisă de vârfuri; etichetele 391300 și 391350 de pe rama de sus confirmă coloanele), iar limita e `limita_px`: linia cu buline albastre „teren reglementat prin PUZ faza 1 - 7087.00 mp”, trasată prin detectarea bulinelor (300) și simplificată la 16 puncte; pe laturile NV (vârfurile 2-5) și 6-7 ea cade pe inventar, în rest merge pe limita de proprietate inițială (linia magenta cu x), cu ~0,4 m spre exterior.",
+    "suprafata_declarata_m2": 7087,
+    "puncte": {},
+    "inventar_1utr": {
+      "suprafata_declarata_m2": 20011.82,
+      "perimetru_declarat_m": 717.657,
+      "ordine": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "219",
+        "9",
+        "10",
+        "11",
+        "305",
+        "324",
+        "325",
+        "344",
+        "394",
+        "396",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "273",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46"
+      ],
+      "laturi_declarate_m": {
+        "1": 3.254,
+        "2": 35.515,
+        "3": 0.619,
+        "4": 9.924,
+        "5": 0.058,
+        "6": 41.202,
+        "7": 20.106,
+        "8": 23.101,
+        "219": 12.71,
+        "9": 9.703,
+        "10": 0.2,
+        "11": 11.324,
+        "305": 3.254,
+        "324": 4.363,
+        "325": 12.913,
+        "344": 7.999,
+        "394": 17.479,
+        "396": 4.069,
+        "12": 0.252,
+        "13": 11.704,
+        "14": 35.805,
+        "15": 5.031,
+        "16": 3.848,
+        "17": 3.124,
+        "18": 20.691,
+        "19": 14.437,
+        "20": 24.555,
+        "21": 59.724,
+        "273": 6.272,
+        "22": 7.485,
+        "23": 7.484,
+        "24": 3.028,
+        "25": 8.653,
+        "26": 8.655,
+        "27": 18.358,
+        "28": 15.863,
+        "29": 17.908,
+        "30": 12.394,
+        "31": 18.349,
+        "32": 12.354,
+        "33": 8.968,
+        "34": 1.296,
+        "35": 11.127,
+        "36": 11.127,
+        "37": 8.41,
+        "38": 27.101,
+        "39": 20.532,
+        "40": 21.017,
+        "41": 20.59,
+        "42": 15.228,
+        "43": 7.153,
+        "44": 7.152,
+        "45": 12.094,
+        "46": 12.094
+      }
+    },
+    "nota": "Inventarul e transcris și verificat cu el în `coordonate.puncte` (datele lui sunt în `coordonate.inventar_1utr`): aria 20.011,82 mp și perimetrul 717,657 m ca pe planșă, toate cele 54 de laturi la 1 mm. Două cifre citite greșit au fost găsite din laturi: Nord 16 = 581129.261 (nu .281; laturile 15-16 5,031 m și 16-17 3,848 m se potrivesc doar așa) și Nord 29 = 581174.663 (nu .683; laturile 28-29 15,863 m și 29-30 17,908 m). Aria trasată a etapei 1 iese 7.882 mp cu potrivirea din rețetă (7.900-8.130 mp cu alte seturi de puncte sau cu scara nominală 1:500 la 144 ppi, 11,34 px/m), față de 7.087 mp declarați: diferența (~800 mp) e a desenului, nu a citirii. Pentru comparație, linia etapei 2 (bulinele roșii) măsoară ~10.280 mp față de 9.921 mp (+3,6%), iar etichetele parcelelor 1-7 însumează 7.117 mp (parcela 2: 893 mp). Nicio parte a liniei albastre nu pare în plus: triunghiul de la NV (vârfurile 2-5-7, cu aleea de 7 m) are ~960 mp și ține de etapa 1 (zonificarea ei listează aleea, 210 mp). Potrivirea: 8 puncte de control (1, 7, 38, 13, 16, 19, C391450_581250, C391450_581300), rms 0,74 m, maxim 0,95 m; verificare C391400_581200 0,90 m, 20 0,95 m, 21 0,52 m. Planșa nu e consecventă cu ea însăși la nivel de 1-3 m: vârfurile 4 (citit la (1207,436)) și 22 (la (1652,2290)) ies la 3,7 și 3,3 m de această potrivire, de aceea nu sunt folosite. Verificarea pe imagini (build --dry-run --force, nepublicat) pune etapa 1 pe terenul liber dintre Drumul Sf. Ioan și str. Făgetului, cu racordul de colț pe intersecție: poziția pare bună; ce trebuie lămurit e doar aria. Un om ar trebui să decidă dacă 7.087 mp (suprafața din CF a imobilului 263693) poate fi comparată cu linia desenată, care pare să aibă suprafața măsurată."
+  },
+  "repere": {
+    "1": [
+      581312.885,
+      391316.075
+    ],
+    "2": [
+      581310.565,
+      391313.794
+    ],
+    "3": [
+      581285.048,
+      391289.092
+    ],
+    "4": [
+      581284.613,
+      391288.651
+    ],
+    "5": [
+      581277.349,
+      391281.889
+    ],
+    "6": [
+      581277.307,
+      391281.849
+    ],
+    "7": [
+      581249.381,
+      391312.143
+    ],
+    "8": [
+      581236.519,
+      391296.689
+    ],
+    "219": [
+      581221.831,
+      391278.859
+    ],
+    "9": [
+      581214.152,
+      391268.731
+    ],
+    "10": [
+      581208.14,
+      391261.115
+    ],
+    "11": [
+      581207.984,
+      391261.24
+    ],
+    "305": [
+      581200.135,
+      391253.077
+    ],
+    "324": [
+      581197.998,
+      391250.623
+    ],
+    "325": [
+      581194.714,
+      391247.75
+    ],
+    "344": [
+      581185.76,
+      391238.446
+    ],
+    "394": [
+      581179.939,
+      391232.96
+    ],
+    "396": [
+      581167.323,
+      391220.863
+    ],
+    "12": [
+      581164.46,
+      391217.971
+    ],
+    "13": [
+      581164.281,
+      391218.148
+    ],
+    "14": [
+      581156.59,
+      391226.97
+    ],
+    "15": [
+      581132.6,
+      391253.55
+    ],
+    "16": [
+      581129.261,
+      391257.313
+    ],
+    "17": [
+      581132.12,
+      391259.888
+    ],
+    "18": [
+      581134.087,
+      391262.315
+    ],
+    "19": [
+      581147.115,
+      391278.39
+    ],
+    "20": [
+      581158.331,
+      391269.3
+    ],
+    "21": [
+      581175.53,
+      391286.826
+    ],
+    "273": [
+      581128.428,
+      391323.546
+    ],
+    "22": [
+      581123.841,
+      391327.823
+    ],
+    "23": [
+      581130.15,
+      391331.85
+    ],
+    "24": [
+      581136.459,
+      391335.876
+    ],
+    "25": [
+      581138.848,
+      391337.737
+    ],
+    "26": [
+      581145.356,
+      391343.44
+    ],
+    "27": [
+      581151.355,
+      391349.678
+    ],
+    "28": [
+      581163.858,
+      391363.12
+    ],
+    "29": [
+      581174.663,
+      391374.734
+    ],
+    "30": [
+      581186.94,
+      391387.772
+    ],
+    "31": [
+      581195.446,
+      391396.787
+    ],
+    "32": [
+      581208.073,
+      391410.101
+    ],
+    "33": [
+      581217.115,
+      391418.519
+    ],
+    "34": [
+      581223.678,
+      391424.63
+    ],
+    "35": [
+      581224.627,
+      391425.513
+    ],
+    "36": [
+      581233.417,
+      391432.335
+    ],
+    "37": [
+      581242.208,
+      391439.156
+    ],
+    "38": [
+      581249.161,
+      391443.888
+    ],
+    "39": [
+      581261.831,
+      391419.931
+    ],
+    "40": [
+      581271.43,
+      391401.781
+    ],
+    "41": [
+      581281.256,
+      391383.202
+    ],
+    "42": [
+      581290.882,
+      391365.001
+    ],
+    "43": [
+      581298.001,
+      391351.54
+    ],
+    "44": [
+      581301.158,
+      391345.121
+    ],
+    "45": [
+      581304.138,
+      391338.619
+    ],
+    "46": [
+      581308.771,
+      391327.448
+    ],
+    "C391400_581200": [
+      581200,
+      391400
+    ],
+    "C391450_581250": [
+      581250,
+      391450
+    ],
+    "C391450_581300": [
+      581300,
+      391450
+    ]
+  },
+  "limita_px": [
+    [
+      1457,
+      130
+    ],
+    [
+      1465,
+      122
+    ],
+    [
+      1868,
+      298
+    ],
+    [
+      2413,
+      623
+    ],
+    [
+      2619,
+      737
+    ],
+    [
+      2813,
+      849
+    ],
+    [
+      2829,
+      892
+    ],
+    [
+      2805,
+      943
+    ],
+    [
+      2602,
+      1170
+    ],
+    [
+      2394,
+      1378
+    ],
+    [
+      2386,
+      1385
+    ],
+    [
+      2368,
+      1389
+    ],
+    [
+      1899,
+      1093
+    ],
+    [
+      1543,
+      863
+    ],
+    [
+      1449,
+      833
+    ],
+    [
+      1093,
+      521
+    ]
+  ],
+  "gcp_px": {
+    "1": [
+      1462,
+      101
+    ],
+    "38": [
+      2941,
+      821
+    ],
+    "7": [
+      1457,
+      826
+    ],
+    "C391450_581250": [
+      3008,
+      811
+    ],
+    "C391450_581300": [
+      3007,
+      241
+    ],
+    "13": [
+      398,
+      1803
+    ],
+    "16": [
+      868,
+      2203
+    ],
+    "19": [
+      1112,
+      1995
+    ]
+  },
+  "verificare_px": {
+    "C391400_581200": [
+      2456,
+      1386
+    ],
+    "20": [
+      1003,
+      1874
+    ],
+    "21": [
+      1186,
+      1677
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3226,
+      135,
+      3918,
+      718
+    ],
+    [
+      4205,
+      405,
+      4443,
+      835
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lid*",
+      "denumire": "Locuințe cu regim redus de înălțime, de mică densitate (parcelele 1-5): locuințe individuale (unifamiliale) izolate, cu o singură unitate locativă pe parcelă, și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine)",
+      "pot_max": "20%",
+      "cut_max": "0,4",
+      "h_max": "12 m (8 m la cornișă); două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public (parcela 6): învățământ, sănătate și asistență socială; regim de construire deschis, izolat",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "12 m (8 m la cornișă); trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde: scuar, grădină, parc cu acces public nelimitat (parcela 7)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "5 m la cornișă; (S/D)+P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-12-04",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa U03 reglementează și etapa 2 a PUZ-ului (linia cu buline roșii, 9.921 mp, parcele ale altor proprietari, cu zonificarea ei); Art. 1 aprobă numai etapa 1: parcela nr. cad. 263693, de 7.087 mp.",
+    "S_Va*: hotărârea limitează înălțimea la cornișă (max. 5 m, (S/D)+P); planșa scrie „Hmax propus = +5,00 m”.",
+    "Zonificarea etapei 1 de pe planșă dă aleii de 7 m (Profil IV.2, 210 mp) un „UTR Circulații” cu POT 5% și CUT 0,10; hotărârea nu are un asemenea UTR."
+  ],
+  "conditii": [
+    "Terenul pentru lărgirea Drumului Sf. Ioan și a str. Făgetului pe lungimea PUZ-ului (inclusiv alveola stației de transport în comun de pe str. Făgetului) se dezmembrează și se înscrie în CF ca „drum” înainte de emiterea autorizațiilor de construire pe parcele; se amenajează și se transferă gratuit în domeniul public (cf. planșei U06) înainte de recepția oricărei construcții.",
+    "Aleea de interes local cu ampriza de 7 m (5,5 m carosabil și un trotuar de 1,5 m) se dezmembrează, se înscrie în CF ca „drum” și se aduce la strat de uzură înainte de emiterea autorizațiilor de construire pe parcelele cu acces direct din ea.",
+    "Spațiul verde cu acces public nelimitat (parcela 7, S_Va*) se dezmembrează, se înscrie în CF ca „spațiu verde cu acces public nelimitat” și se amenajează pe baza unui proiect de specialitate înainte de recepția locuințelor; va avea vegetație joasă, medie și înaltă, cu cel puțin 3 arbori cu circumferința de minimum 35 cm la 1 m de la colet.",
+    "Accesul pe parcelele de locuințe se face numai din Drumul Sf. Ioan, iar pe parcela S_Is* din Drumul Sf. Ioan și din str. Făgetului; pe o parcelă, un singur acces pietonal și un singur acces carosabil, de cel mult 3 m.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+}
