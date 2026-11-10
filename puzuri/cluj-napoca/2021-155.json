@@ -1,0 +1,402 @@
+{
+  "id": "2021-155",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 155,
+    "an": 2021,
+    "data_sedinta": "2021-04-21",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-155-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/04/21/HCL-155-din-21-04-2021-1.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe unifamiliale, str. Pomet – latura vestică",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 150,
+    "denumire": "U.03 Reglementări urbanistice – zonificare, parte desenată",
+    "scara": "1:500",
+    "nota": "P. 17: planșa color A2 (150 ppi, 3501×2492 px), cu viza Comisiei tehnice „HCL nr. 155 din 21.04.2021” și avizele Arhitectului șef nr. 14/7.01.2020, 223/30.07.2020 și 29/1.02.2021. P. 3 e aceeași planșă, alb-negru, micșorată pe A4 și culcată, ștampilată „Anexa nr. 1 la H.C.L. nr. 155/2021”, iar p. 4 e Anexa 2, „Obiective de utilitate publică”, tot pe A4; s-a folosit p. 17, mai clară. Linia „Zona reglementată prin P.U.Z. (zona studiată)” de pe planșă (pătrățele roșii, ≈8.250 mp) nu e conturul terenului reglementat: lasă afară capătul vestic al aleii (zona de întoarcere și o parte din loturile 1-2 de pe alee) și cuprinde, la vest de loturi, zona „UTR ULiu existent – faza 2 a proiectului” (nr. topo 18654 și o fâșie din nr. cad. 302148). Pe hartă e conturul celor 23 de loturi, 7.099 mp: parcela 314801 (azi nr. cad. 322515 și 322516, cu inventarul de coordonate al planșei) plus terenul municipiului (nr. topo 18651, 18652) cu aleea de deservire locală și cele 4 loturi de pe ea. Legenda are doar cheia simbolurilor; indicatorii sunt scriși pe desen (UTR Liu* POT max 35%, CUT max 0,9; UTR S_Va*), iar „Nota explicativă” (bilanțul) și secțiunea A-A au rămas pe dinafară. Bilanțul: 7.099 mp = 5.912 mp pentru 14 loturi de locuințe + 642,62 mp drum (175,10 cale de acces la nr. cad. 302148 + 422,20 alee + 45,32 regularizarea str. Pomet; prima cifră a totalului e acoperită de chenar) + 544,38 mp spațiu verde (366,82 lângă str. Pomet + 177,56 lângă calea de acces)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Caroiaj Stereo 70 de 50 m, cu cruci în desen și etichete pe chenar (Est 393900, 393950, 394000 sus; Nord 590950, 590900, 590850, 590800 în dreapta), plus inventarul de coordonate al parcelei 314801. Control: crucile C393950_590950 (1740; 594), C393900_590850 (1163; 1780), C393950_590850 (1750,5; 1775; slabă, sub culoarea loturilor) și C393900_590800 (1167; 2370), fiecare la intersecția a două linii etichetate, citite pe planșă la 6-8× (centrul brațelor); nu formează un paralelogram. Verificare: crucea C393900_590900 (1158; 1189) și patru vârfuri ale inventarului citite pe linia roșie a limitei de proprietate desenate: 101 (colțul de sud-est, la str. Pomet), 115 (colțul de nord-vest al parcelei, unde linia neagră a lotului întâlnește linia roșie), 118 (frângerea laturii de vest, la eticheta „518”) și 123 (colțul de sud-vest, eticheta „523”); punctele topografice ale planșei poartă numerele inventarului cu 5 în loc de 1 (516, 518, 519, 521, 523, 526, 527). Limita e trasată (`limita_px`): pe latura de est, de sud și de vest a fâșiei de lângă str. Pomet sunt chiar vârfurile 101-127 ale inventarului, duse pe planșă prin potrivirea pe cruci (pe planșă cad pe linia roșie desenată, la 2-3 px); aleea municipiului e trasată pe planșă, pe marginea verde-albastră a terenului municipiului: latura de nord pe marginea aleii (din colțul de nord-est, unde ea întâlnește prelungirea laturii 110-111 a parcelei, în dreptul str. Pomet, până la colțul zonei de întoarcere, lângă punctul „561”), latura de vest a zonei de întoarcere până lângă punctul „562”, latura de sud a loturilor 1-2 de pe alee, cu o mică frângere, până la latura 115-116 a parcelei. Aria trasată: 7.141 mp, față de 7.099 mp din „Nota explicativă” și din Art. 1 (+0,6%).",
+    "suprafata_declarata_m2": 7099,
+    "puncte": {},
+    "inventar_parcela_314801": {
+      "suprafata_m2": 5547.19,
+      "perimetru_m": 346.115,
+      "laturi_m": {
+        "101": 19.27,
+        "102": 7.943,
+        "103": 7.214,
+        "104": 15.044,
+        "105": 5.859,
+        "106": 29.828,
+        "107": 17.394,
+        "108": 13.564,
+        "109": 12.595,
+        "110": 5.52,
+        "111": 9.272,
+        "112": 9.167,
+        "113": 8.618,
+        "114": 11.823,
+        "115": 26.375,
+        "116": 22.143,
+        "117": 20.571,
+        "118": 24.966,
+        "119": 12.646,
+        "120": 13.469,
+        "121": 12.923,
+        "122": 0.801,
+        "123": 10.873,
+        "124": 8.599,
+        "125": 5.375,
+        "126": 9.644,
+        "127": 4.619
+      }
+    },
+    "nota": "Inventarul de pe planșă („Parcela (314801)”, 27 de puncte 101-127, S=5547,19 mp, P=346,115 m, cu laturile D(i,i+1)) descrie doar parcela din str. Pomet, nu tot terenul P.U.Z.: transcris în `repere`, dă aria (5547,2 mp), toate cele 27 de laturi (la 1 cm) și perimetrul (346,115 m) exact; lungimile sunt în `inventar_parcela_314801`. Terenul municipiului de pe alee (≈1.552 mp, după bilanț) n-are coordonate pe planșă. Cele patru cruci de control se potrivesc între ele la 0,02-0,05 m, crucea de verificare la 0,05 m, iar vârfurile inventarului citite pe desen la 0,19-0,25 m: desenul, caroiajul și inventarul sunt în același sistem. Punctele negre mari de lângă str. Pomet (de ex. la (1607; 679) și (2101; 2202)) nu sunt vârfuri ale inventarului: cad la 0,9-2,3 m de ele (borne sau colțuri de gard). Clădirea existentă desenată la sud de zonă („P”, singura construcție existentă de pe planșă) cade la ~10-12 m sud-vest de clădirea cu aceeași formă din OSM (extrasul din 2026-11-08) și de casa de pe ortofoto, deși str. Pomet desenată, cu strada laterală de la sud-est, cade pe axul OSM la 1-2 m și pe drumul real: clădirea pare desenată greșit pe fondul topografic (sau a fost refăcută), nu planșa deplasată – o deplasare de 10 m ar fi mutat și strada."
+  },
+  "repere": {
+    "101": [
+      590812.976,
+      393980.225
+    ],
+    "102": [
+      590830.835,
+      393972.988
+    ],
+    "103": [
+      590838.233,
+      393970.097
+    ],
+    "104": [
+      590844.979,
+      393967.54
+    ],
+    "105": [
+      590859.398,
+      393963.25
+    ],
+    "106": [
+      590865.023,
+      393961.609
+    ],
+    "107": [
+      590893.728,
+      393953.503
+    ],
+    "108": [
+      590910.438,
+      393948.673
+    ],
+    "109": [
+      590923.453,
+      393944.854
+    ],
+    "110": [
+      590935.523,
+      393941.257
+    ],
+    "111": [
+      590940.775,
+      393939.559
+    ],
+    "112": [
+      590936.787,
+      393931.189
+    ],
+    "113": [
+      590932.844,
+      393922.913
+    ],
+    "114": [
+      590929.137,
+      393915.133
+    ],
+    "115": [
+      590924.051,
+      393904.46
+    ],
+    "116": [
+      590897.83,
+      393907.305
+    ],
+    "117": [
+      590876.488,
+      393913.208
+    ],
+    "118": [
+      590856.63,
+      393918.576
+    ],
+    "119": [
+      590833.739,
+      393928.542
+    ],
+    "120": [
+      590822.144,
+      393933.59
+    ],
+    "121": [
+      590809.794,
+      393938.966
+    ],
+    "122": [
+      590797.945,
+      393944.125
+    ],
+    "123": [
+      590797.216,
+      393944.457
+    ],
+    "124": [
+      590802.119,
+      393954.162
+    ],
+    "125": [
+      590805.248,
+      393962.172
+    ],
+    "126": [
+      590807.363,
+      393967.113
+    ],
+    "127": [
+      590811.158,
+      393975.979
+    ],
+    "C393950_590950": [
+      590950,
+      393950
+    ],
+    "C393900_590900": [
+      590900,
+      393900
+    ],
+    "C393900_590850": [
+      590850,
+      393900
+    ],
+    "C393950_590850": [
+      590850,
+      393950
+    ],
+    "C393900_590800": [
+      590800,
+      393900
+    ]
+  },
+  "gcp_px": {
+    "C393950_590950": [
+      1740,
+      594
+    ],
+    "C393900_590850": [
+      1163,
+      1780
+    ],
+    "C393950_590850": [
+      1750.5,
+      1775
+    ],
+    "C393900_590800": [
+      1167,
+      2370
+    ]
+  },
+  "verificare_px": {
+    "C393900_590900": [
+      1158,
+      1189
+    ],
+    "101": [
+      2107,
+      2208
+    ],
+    "115": [
+      1206,
+      903
+    ],
+    "118": [
+      1379,
+      1697
+    ],
+    "123": [
+      1689,
+      2397
+    ]
+  },
+  "limita_px": [
+    [
+      1551.4,
+      502.0
+    ],
+    [
+      1618.4,
+      704.1
+    ],
+    [
+      1638.9,
+      765.9
+    ],
+    [
+      1682.4,
+      908.1
+    ],
+    [
+      1728.6,
+      1061.4
+    ],
+    [
+      1787.1,
+      1258.2
+    ],
+    [
+      1885.2,
+      1596.4
+    ],
+    [
+      1905.1,
+      1662.6
+    ],
+    [
+      1956.9,
+      1832.5
+    ],
+    [
+      1987.7,
+      1911.9
+    ],
+    [
+      2022.4,
+      1998.9
+    ],
+    [
+      2109.3,
+      2209.1
+    ],
+    [
+      2059.5,
+      2231.0
+    ],
+    [
+      1955.7,
+      2276.7
+    ],
+    [
+      1897.8,
+      2302.1
+    ],
+    [
+      1804.0,
+      2339.9
+    ],
+    [
+      1690.4,
+      2398.7
+    ],
+    [
+      1686.4,
+      2390.1
+    ],
+    [
+      1624.6,
+      2250.7
+    ],
+    [
+      1560.1,
+      2105.4
+    ],
+    [
+      1499.6,
+      1969.0
+    ],
+    [
+      1380.2,
+      1699.7
+    ],
+    [
+      1315.1,
+      1465.7
+    ],
+    [
+      1243.6,
+      1214.3
+    ],
+    [
+      1217.7,
+      992.0
+    ],
+    [
+      962.0,
+      1126.0
+    ],
+    [
+      775.0,
+      1236.0
+    ],
+    [
+      716.0,
+      972.0
+    ],
+    [
+      1000.0,
+      813.0
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2922,
+      35,
+      3356,
+      708
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime, dispuse pe un parcelar de tip urban – locuințe unifamiliale; regim de construire cuplat pentru parcelele cu front la str. Pomet și la aleea de deservire locală",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane ((S)+P+E+M/R, D+P+M/R, D+P+E); 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat: plantații înalte, medii și joase, mobilier urban (fâșiile verzi de lângă str. Pomet și de lângă calea de acces)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "nu e cazul (fără clădiri)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-04-21",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08); HCL 671/2024 nu schimbă valabilitatea (Art. II: celelalte prevederi rămân neschimbate)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "671/2024",
+      "data": "2024-10-11",
+      "rezumat": "Modifică în Art. 1 condiția pentru aleea de deservire locală (ampriză 4,5 m) din str. Pomet: Municipiul Cluj-Napoca o echipează edilitar (inclusiv iluminat stradal) și o realizează la strat de uzură până la recepția construcțiilor cu acces direct din ea – nu mai trebuie făcută din piatră spartă cilindrată înainte de autorizațiile de construire pe acele parcele. Celelalte prevederi rămân neschimbate; nu are planșă și nici valabilitate proprie.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [
+    "Planșa desenează la vest de loturi și o zonă „UTR ULiu existent – faza 2 a proiectului” (POT existent 0%, CUT existent 0; nr. topo 18654 și o fâșie din nr. cad. 302148), cuprinsă în linia „Zona reglementată prin P.U.Z. (zona studiată)”; hotărârea reglementează doar U.T.R. Liu* și S_Va*, pe terenul de 7.099 mp al celor 23 de loturi (nr. cad. 322515, 322516, nr. topo 18651, 18652)."
+  ],
+  "conditii": [
+    "Suprafața de teren de lângă str. Pomet și suprafața de ~121,3 mp (planșa „Obiective de utilitate publică”), dezmembrate, trec gratuit în domeniul public înainte de emiterea autorizațiilor de construire pe parcele.",
+    "Aleea de deservire locală (ampriză 4,5 m), care pornește din str. Pomet, se echipează edilitar (inclusiv iluminat stradal) și se realizează la strat de uzură de către Municipiul Cluj-Napoca, până la recepția construcțiilor cu acces direct din ea (modificat prin HCL 671/2024; în 2021: piatră spartă cilindrată înainte de autorizațiile de construire pe parcelele cu acces din alee și strat de uzură până la recepție).",
+    "Calea de acces de 4 m spre parcela nr. cad. 302148 se înscrie în CF ca „drum” înainte de emiterea autorizațiilor de construire pe parcelele cu acces din str. Pomet.",
+    "Se prevăd 4 locuri de staționare pentru vizitatori lângă str. Pomet și se plantează cel puțin 5 arbori de aliniament, cu circumferința de minim 35 cm măsurată la 1 m de la colet.",
+    "Retrageri în Liu*: 5 m de la aliniamentul propus al str. Pomet și 2 m de la aleea de deservire locală; garajele la minim 6 m de la aliniament, pentru un autoturism parcat în față; minim 3 m față de limitele laterale fără calcan (garajele se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m); față de limita posterioară, pe parcelele cu acces din str. Pomet cel puțin înălțimea clădirii, minim 6 m, iar pe cele cu acces din alee minim 3 m.",
+    "Accesul se face din str. Pomet și din aleea de deservire locală de 4,5 m; staționarea autovehiculelor în interiorul parcelei; echipare tehnico-edilitară completă pe str. Pomet."
+  ],
+  "hotarare_text": "documente/2021-155/hotarare.txt"
+}

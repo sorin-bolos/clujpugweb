@@ -11573,6 +11573,186 @@
   ]
  },
  {
+  "id": "2021-155",
+  "localitate": "cluj",
+  "hcl": "155/2021",
+  "data": "2021-04-21",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe unifamiliale, str. Pomet – latura vestică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-155-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/04/21/HCL-155-din-21-04-2021-1.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime, dispuse pe un parcelar de tip urban – locuințe unifamiliale; regim de construire cuplat pentru parcelele cu front la str. Pomet și la aleea de deservire locală",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane ((S)+P+E+M/R, D+P+M/R, D+P+E); 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat: plantații înalte, medii și joase, mobilier urban (fâșiile verzi de lângă str. Pomet și de lângă calea de acces)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "nu e cazul (fără clădiri)"
+   }
+  ],
+  "suprafata_m2": 7141,
+  "imagine": "puz/2021-155/plansa.webp",
+  "bounds": {
+   "west": 23.6074926,
+   "south": 46.8082951,
+   "east": 23.6091205,
+   "north": 46.8097982
+  },
+  "limita": [
+   [
+    23.6084509,
+    46.8097709
+   ],
+   [
+    23.6085276,
+    46.8096174
+   ],
+   [
+    23.6085511,
+    46.8095705
+   ],
+   [
+    23.608601,
+    46.8094624
+   ],
+   [
+    23.608654,
+    46.809346
+   ],
+   [
+    23.6087212,
+    46.8091965
+   ],
+   [
+    23.608834,
+    46.8089395
+   ],
+   [
+    23.6088568,
+    46.8088892
+   ],
+   [
+    23.6089163,
+    46.8087601
+   ],
+   [
+    23.6089514,
+    46.8086999
+   ],
+   [
+    23.608991,
+    46.8086338
+   ],
+   [
+    23.6090899,
+    46.8084743
+   ],
+   [
+    23.6090346,
+    46.8084573
+   ],
+   [
+    23.6089194,
+    46.8084217
+   ],
+   [
+    23.6088551,
+    46.8084019
+   ],
+   [
+    23.608751,
+    46.8083725
+   ],
+   [
+    23.6086249,
+    46.8083269
+   ],
+   [
+    23.6086204,
+    46.8083334
+   ],
+   [
+    23.6085501,
+    46.8084392
+   ],
+   [
+    23.6084768,
+    46.8085494
+   ],
+   [
+    23.6084079,
+    46.8086529
+   ],
+   [
+    23.6082721,
+    46.8088572
+   ],
+   [
+    23.6081972,
+    46.809035
+   ],
+   [
+    23.608115,
+    46.809226
+   ],
+   [
+    23.6080839,
+    46.8093952
+   ],
+   [
+    23.6078002,
+    46.8092913
+   ],
+   [
+    23.6075929,
+    46.8092062
+   ],
+   [
+    23.6075245,
+    46.8094069
+   ],
+   [
+    23.6078394,
+    46.80953
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2021-155/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2026-04-21"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa desenează la vest de loturi și o zonă „UTR ULiu existent – faza 2 a proiectului” (POT existent 0%, CUT existent 0; nr. topo 18654 și o fâșie din nr. cad. 302148), cuprinsă în linia „Zona reglementată prin P.U.Z. (zona studiată)”; hotărârea reglementează doar U.T.R. Liu* și S_Va*, pe terenul de 7.099 mp al celor 23 de loturi (nr. cad. 322515, 322516, nr. topo 18651, 18652)."
+  ],
+  "conditii": [
+   "Suprafața de teren de lângă str. Pomet și suprafața de ~121,3 mp (planșa „Obiective de utilitate publică”), dezmembrate, trec gratuit în domeniul public înainte de emiterea autorizațiilor de construire pe parcele.",
+   "Aleea de deservire locală (ampriză 4,5 m), care pornește din str. Pomet, se echipează edilitar (inclusiv iluminat stradal) și se realizează la strat de uzură de către Municipiul Cluj-Napoca, până la recepția construcțiilor cu acces direct din ea (modificat prin HCL 671/2024; în 2021: piatră spartă cilindrată înainte de autorizațiile de construire pe parcelele cu acces din alee și strat de uzură până la recepție).",
+   "Calea de acces de 4 m spre parcela nr. cad. 302148 se înscrie în CF ca „drum” înainte de emiterea autorizațiilor de construire pe parcelele cu acces din str. Pomet.",
+   "Se prevăd 4 locuri de staționare pentru vizitatori lângă str. Pomet și se plantează cel puțin 5 arbori de aliniament, cu circumferința de minim 35 cm măsurată la 1 m de la colet.",
+   "Retrageri în Liu*: 5 m de la aliniamentul propus al str. Pomet și 2 m de la aleea de deservire locală; garajele la minim 6 m de la aliniament, pentru un autoturism parcat în față; minim 3 m față de limitele laterale fără calcan (garajele se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m); față de limita posterioară, pe parcelele cu acces din str. Pomet cel puțin înălțimea clădirii, minim 6 m, iar pe cele cu acces din alee minim 3 m.",
+   "Accesul se face din str. Pomet și din aleea de deservire locală de 4,5 m; staționarea autovehiculelor în interiorul parcelei; echipare tehnico-edilitară completă pe str. Pomet."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "671/2024",
+    "data": "2024-10-11",
+    "rezumat": "Modifică în Art. 1 condiția pentru aleea de deservire locală (ampriză 4,5 m) din str. Pomet: Municipiul Cluj-Napoca o echipează edilitar (inclusiv iluminat stradal) și o realizează la strat de uzură până la recepția construcțiilor cu acces direct din ea – nu mai trebuie făcută din piatră spartă cilindrată înainte de autorizațiile de construire pe acele parcele. Celelalte prevederi rămân neschimbate; nu are planșă și nici valabilitate proprie.",
+    "plansa_noua": false
+   }
+  ]
+ },
+ {
   "id": "2021-24",
   "localitate": "cluj",
   "hcl": "24/2021",

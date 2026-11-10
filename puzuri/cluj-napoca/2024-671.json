@@ -1,0 +1,49 @@
+{
+  "id": "2024-671",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 671,
+    "an": 2024,
+    "data_sedinta": "2024-10-11",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-671-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2024/10/11/HCL-671.pdf"
+  },
+  "titlu": "Modificarea Hotărârii nr. 155/2021 (aprobarea P.U.Z. – Parcelare și construire locuințe unifamiliale, str. Pomet – latura vestică)",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul hotărârii (HCL-671.pdf) are o singură pagină A4, culcată, scanată la 300 ppi: textul hotărârii, fără anexe și fără planșă; pagina hotărârii nu leagă alt PDF. Hotărârea modifică doar condiția din Art. 1 al HCL 155/2021 privind aleea de deservire locală, în baza art. 56 din Legea 350/2001 și a avizului Arhitectului șef nr. 212/16.09.2024. Integrată pe 2026-11-10 în rețeta P.U.Z. de bază, 2021-155 (modificat_de, condiții), publicată în același commit; pe hartă modificarea apare în fișa P.U.Z. 155/2021."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [
+    "155/2021"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Art. I: condiția din Art. 1 al HCL 155/2021 pentru aleea de deservire locală devine: aleea cu ampriză de 4,5 m, care se desprinde din str. Pomet, va fi echipată edilitar (inclusiv iluminat stradal) și realizată la strat de uzură de către Municipiul Cluj-Napoca, până la recepția construcțiilor propuse cu acces direct din ea (în 2021: piatră spartă cilindrată înainte de emiterea autorizațiilor de construire pe parcelele cu acces din alee, iar stratul de uzură până la recepție).",
+    "Art. II: celelalte prevederi și reglementări urbanistice stabilite prin HCL 155/2021 rămân neschimbate."
+  ],
+  "valabilitate": {
+    "nota": "Hotărârea nu are valabilitate proprie: Art. II spune că celelalte prevederi ale HCL 155/2021 rămân neschimbate (valabilitate 5 ani, până la 21.04.2026)."
+  },
+  "hotarare_text": "documente/2024-671/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2021-155"
+}
