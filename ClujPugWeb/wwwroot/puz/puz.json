@@ -8415,6 +8415,519 @@
   ]
  },
  {
+  "id": "2021-591",
+  "localitate": "cluj",
+  "hcl": "591/2021",
+  "data": "2021-09-02",
+  "titlu": "P.U.Z.C.P. – Amenajare ansamblul Clinicilor universitare și dezvoltare Centru integrat de transplant, str. Clinicilor–str. Victor Babeș",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-591-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/09/02/591.pdf",
+  "utr": [
+   {
+    "cod": "ZCP_M1*",
+    "denumire": "Zonă mixtă cu regim de construire închis, adiacentă principalelor artere de trafic, cu instituții și servicii publice de interes public constituite în ansambluri independente, pentru construirea Centrului integrat de transplant; regim de construire izolat",
+    "pot_max": "60% (parcele comune), 70% (parcele de colț)",
+    "cut_max": "2,2 (parcele comune), 3,6 (parcele de colț)",
+    "h_max": "(1-3)S+P+3+M(1R) pentru clădirile existente; (1-4)S+P+5E pentru Centrul integrat de transplant"
+   },
+   {
+    "cod": "ZCP_Is_A",
+    "denumire": "Zonă de instituții și servicii publice de interes public, constituite în ansambluri independente (ansamblul Clinicilor universitare)",
+    "pot_max": "60% (parcele comune), 75% (parcele de colț)",
+    "cut_max": "2,2 (parcele comune), 2,8 (parcele de colț)",
+    "h_max": "P+3+M(1R)"
+   },
+   {
+    "cod": "SZCP_Vt",
+    "denumire": "Subzona verde a zonelor ZCP_M1* și ZCP_Is_A",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "D+P+1E"
+   },
+   {
+    "cod": "ZCP_UMF",
+    "denumire": "Zonă de instituții și servicii publice de interes public, constituite în ansambluri independente – Zona Universității de Medicină și Farmacie",
+    "pot_max": "60% (parcele comune), 70% (parcele de colț)",
+    "cut_max": "2,2 (parcele comune), 2,8 (parcele de colț)",
+    "h_max": "S+P+6E"
+   }
+  ],
+  "suprafata_m2": 74134,
+  "imagine": "puz/2021-591/plansa.webp",
+  "bounds": {
+   "west": 23.5812638,
+   "south": 46.7634201,
+   "east": 23.58549,
+   "north": 46.7667165
+  },
+  "limita": [
+   [
+    23.5815595,
+    46.7649479
+   ],
+   [
+    23.5815909,
+    46.7649564
+   ],
+   [
+    23.5814556,
+    46.7651822
+   ],
+   [
+    23.5813862,
+    46.7652933
+   ],
+   [
+    23.5813649,
+    46.7653325
+   ],
+   [
+    23.581354,
+    46.7653497
+   ],
+   [
+    23.5813575,
+    46.7653508
+   ],
+   [
+    23.581334,
+    46.7653855
+   ],
+   [
+    23.5813214,
+    46.7654087
+   ],
+   [
+    23.5814044,
+    46.7654326
+   ],
+   [
+    23.5814056,
+    46.7654519
+   ],
+   [
+    23.5814266,
+    46.7654642
+   ],
+   [
+    23.5816364,
+    46.7655246
+   ],
+   [
+    23.5817432,
+    46.7655556
+   ],
+   [
+    23.5818519,
+    46.7655884
+   ],
+   [
+    23.5818259,
+    46.765642
+   ],
+   [
+    23.5818142,
+    46.7656661
+   ],
+   [
+    23.5822532,
+    46.7657872
+   ],
+   [
+    23.5828359,
+    46.7659513
+   ],
+   [
+    23.583399,
+    46.76611
+   ],
+   [
+    23.583856,
+    46.7662406
+   ],
+   [
+    23.5845948,
+    46.7664675
+   ],
+   [
+    23.5846243,
+    46.7664766
+   ],
+   [
+    23.5846818,
+    46.7664959
+   ],
+   [
+    23.5848118,
+    46.7665392
+   ],
+   [
+    23.5850701,
+    46.7666202
+   ],
+   [
+    23.5853031,
+    46.7666933
+   ],
+   [
+    23.585282,
+    46.7665741
+   ],
+   [
+    23.5853867,
+    46.766618
+   ],
+   [
+    23.5853902,
+    46.7664827
+   ],
+   [
+    23.5853937,
+    46.7663479
+   ],
+   [
+    23.5853962,
+    46.7662282
+   ],
+   [
+    23.5853877,
+    46.7661291
+   ],
+   [
+    23.585364,
+    46.7658514
+   ],
+   [
+    23.5852656,
+    46.7654295
+   ],
+   [
+    23.5852164,
+    46.7651228
+   ],
+   [
+    23.5851325,
+    46.7647804
+   ],
+   [
+    23.5850685,
+    46.7647847
+   ],
+   [
+    23.5849685,
+    46.7647825
+   ],
+   [
+    23.5848911,
+    46.7647805
+   ],
+   [
+    23.5847658,
+    46.7647774
+   ],
+   [
+    23.5847649,
+    46.7647809
+   ],
+   [
+    23.5847093,
+    46.7647792
+   ],
+   [
+    23.5847094,
+    46.7647761
+   ],
+   [
+    23.5845353,
+    46.7647717
+   ],
+   [
+    23.5845276,
+    46.7647697
+   ],
+   [
+    23.5845266,
+    46.7647591
+   ],
+   [
+    23.5843186,
+    46.764693
+   ],
+   [
+    23.5843193,
+    46.7646079
+   ],
+   [
+    23.5847334,
+    46.7645613
+   ],
+   [
+    23.5847448,
+    46.764567
+   ],
+   [
+    23.5847486,
+    46.7645767
+   ],
+   [
+    23.5847495,
+    46.7645878
+   ],
+   [
+    23.5850066,
+    46.7645774
+   ],
+   [
+    23.585025,
+    46.7646301
+   ],
+   [
+    23.5850441,
+    46.7646931
+   ],
+   [
+    23.5850539,
+    46.7647123
+   ],
+   [
+    23.5850684,
+    46.7647841
+   ],
+   [
+    23.5851322,
+    46.7647794
+   ],
+   [
+    23.5851128,
+    46.7647008
+   ],
+   [
+    23.5850959,
+    46.7646483
+   ],
+   [
+    23.5850098,
+    46.7643793
+   ],
+   [
+    23.5849425,
+    46.7641632
+   ],
+   [
+    23.5848877,
+    46.7639902
+   ],
+   [
+    23.5846753,
+    46.7638689
+   ],
+   [
+    23.5844737,
+    46.7637525
+   ],
+   [
+    23.5843789,
+    46.7636988
+   ],
+   [
+    23.5841302,
+    46.7636363
+   ],
+   [
+    23.5838153,
+    46.7635649
+   ],
+   [
+    23.5838131,
+    46.7635676
+   ],
+   [
+    23.5837526,
+    46.7635503
+   ],
+   [
+    23.5837002,
+    46.7635354
+   ],
+   [
+    23.5835258,
+    46.7635171
+   ],
+   [
+    23.5835103,
+    46.7635848
+   ],
+   [
+    23.5835283,
+    46.7636289
+   ],
+   [
+    23.5834363,
+    46.7637727
+   ],
+   [
+    23.5832932,
+    46.7637246
+   ],
+   [
+    23.5833911,
+    46.7635826
+   ],
+   [
+    23.5834561,
+    46.7635659
+   ],
+   [
+    23.5835087,
+    46.7635842
+   ],
+   [
+    23.5835243,
+    46.763517
+   ],
+   [
+    23.5833812,
+    46.7634993
+   ],
+   [
+    23.5831085,
+    46.7634775
+   ],
+   [
+    23.5829515,
+    46.7634725
+   ],
+   [
+    23.5828945,
+    46.7634697
+   ],
+   [
+    23.5828035,
+    46.7634652
+   ],
+   [
+    23.5826198,
+    46.7634585
+   ],
+   [
+    23.5823306,
+    46.7634467
+   ],
+   [
+    23.5822408,
+    46.7634489
+   ],
+   [
+    23.5819419,
+    46.7634584
+   ],
+   [
+    23.5818409,
+    46.7634594
+   ],
+   [
+    23.5816986,
+    46.7634591
+   ],
+   [
+    23.5817128,
+    46.7635585
+   ],
+   [
+    23.5817289,
+    46.7637277
+   ],
+   [
+    23.5817502,
+    46.7638852
+   ],
+   [
+    23.5817535,
+    46.7639096
+   ],
+   [
+    23.5818705,
+    46.7641238
+   ],
+   [
+    23.581895,
+    46.7641654
+   ],
+   [
+    23.582068,
+    46.7641898
+   ],
+   [
+    23.5820485,
+    46.7642024
+   ],
+   [
+    23.5820426,
+    46.764216
+   ],
+   [
+    23.5819773,
+    46.7643308
+   ],
+   [
+    23.5818782,
+    46.7645049
+   ],
+   [
+    23.5818543,
+    46.7645362
+   ],
+   [
+    23.5818243,
+    46.7645843
+   ],
+   [
+    23.58182,
+    46.7646103
+   ],
+   [
+    23.581804,
+    46.7646625
+   ],
+   [
+    23.5817678,
+    46.7647493
+   ],
+   [
+    23.5817354,
+    46.7648013
+   ],
+   [
+    23.5816498,
+    46.7647776
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.55
+  },
+  "legenda": "puz/2021-591/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2026-09-02"
+  },
+  "diferente_fata_de_plansa": [
+   "U.T.R. ZCP_UMF, parcele de colț: hotărârea (Art. 1) dă P.O.T. maxim 70%; planșa dă 75%.",
+   "U.T.R. ZCP_M1*: pentru Centrul integrat de transplant hotărârea dă doar regimul (1-4)S+P+5E; planșa precizează înălțimea maximă la cornișă: 28,50 m pentru corpul vertical (4S+P+5+Et) și 25,50 m pentru corpul orizontal (4S+P+4+Et). Regimul (1-3)S+P+3+M(1R) pentru clădirile existente din ZCP_M1* apare doar în hotărâre.",
+   "Planșa adaugă înălțimi maxime la cornișă pe care hotărârea nu le dă: 16 m în ZCP_Is_A (P+3+M(R)) și 9 m în SZCP_Vt ((D)+P+1); hotărârea dă doar regimul de înălțime (P+3+M(1R), respectiv D+P+1E)."
+  ],
+  "conditii": [
+   "Clădirea Centrului integrat de transplant se amplasează în front deschis, retrasă cu minimum 4,8 m față de limita vestică și minimum 6 m față de limita nordică; porticul clădirii poate fi la mai puțin de 3,5 m de limitele de proprietate, inclusiv pe limită.",
+   "Regim de construire izolat; funcțiuni predominante: dotări publice, de sănătate, urbane și spații verzi.",
+   "Circulațiile și accesele se fac din str. Victor Babeș, str. B.P. Hasdeu și Aleea Studenților; echiparea tehnico-edilitară prin racorduri la rețelele existente.",
+   "Toate investițiile propuse prin documentația de urbanism sunt suportate de beneficiarul ei, o autoritate publică.",
+   "Accesul la parcajul subteran dinspre str. Victor Babeș se face printr-o bandă carosabilă de decelerare suplimentară, iar pe partea opusă a străzii se amenajează o stație de transport în comun (Avizul Serviciului Siguranța Circulației nr. 292055/446/2021).",
+   "Înainte de autorizația de construire, proiectanții întocmesc planul de sistematizare rutieră orizontală și verticală la obiectiv, avizat de Serviciul Siguranța Circulației și de Poliția Rutieră.",
+   "Banda de decelerare și stația de transport în comun se amenajează de autoritatea publică beneficiară înainte de recepția centrului de transplant."
+  ]
+ },
+ {
   "id": "2021-24",
   "localitate": "cluj",
   "hcl": "24/2021",

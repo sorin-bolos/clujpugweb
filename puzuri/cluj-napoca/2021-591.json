@@ -1,0 +1,711 @@
+{
+  "id": "2021-591",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 591,
+    "an": 2021,
+    "data_sedinta": "2021-09-02",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-591-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/09/02/591.pdf"
+  },
+  "titlu": "P.U.Z.C.P. – Amenajare ansamblul Clinicilor universitare și dezvoltare Centru integrat de transplant, str. Clinicilor–str. Victor Babeș",
+  "plansa": {
+    "pagina_pdf": 27,
+    "dpi": 300,
+    "denumire": "348 Plan Reglementări urbanistice – zonificare",
+    "scara": "1:1000",
+    "nota": "Anexa 2, p. 27, singura planșă din PDF (pp. 1-2 hotărârea, pp. 3-26 Regulamentul local de urbanism): planșa nr. 348\\PUZ\\A\\D\\003a „Reglementări urbanistice – zonificare”, proiect 348, faza P.U.Z., data 10.02.2021, micșorată pe A4 și culcată (pagina e rotită în PDF), scanată color la 300 ppi (2480×3508 px după rotire), ștampilată „Anexa 2 la Hotărârea nr. 591/2021” și semnată de Arhitectul șef. Scara 1:1000 la 300 ppi ar da 11,8 px/m; potrivirea dă 4,0 px/m, deci planșa e tipărită la ~34% (A1 pe A4). Planșa e desenată cu nordul în sus; pe pagina randată nordul e spre stânga (rotație ~90°). Ștampila rotundă a Consiliului local acoperă colțul de sud-est al zonei (spre str. B.P. Hasdeu). Desenul e palid, dar limita P.U.Z. se vede peste tot; în dreptul ei sunt desenate clădirile existente ale Clinicilor (cu numerele CF), Centrul integrat de transplant propus (Hmax 28,50 m și 25,50 m), terenul exceptat „proprietate privată” (decupat din limită, pct. 37-61) și clădirea 327434-C… din dreptul str. B.P. Hasdeu (pct. 74-80). Legenda (în patru casete, rotite cu 90°): cheia simbolurilor, cu blocurile U.T.R. și descrierile lor, și blocul indicatorilor (POT, CUT, regim de înălțime pe U.T.R.). Au rămas afară bilanțul teritorial (total 74.134 mp), inventarul de coordonate, cartușul, săgeata nordului, ștampilele și semnăturile. Textul e mic (planșa e micșorată): legenda se citește deschisă separat, la mărime naturală."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă, „Parcela (1)”, 110 puncte (1-110, în ordinea conturului), X [Nord] / Y [Est], cu lungimile laturilor D(i,i+1), S(1) = 74134,15 mp (în legendă și în bilanț: 74.134 mp) și P = 1410,203 m. Puncte de control: 27 (colțul str. Clinicilor – str. Victor Babeș), 64 (colțul str. Victor Babeș – Aleea Studenților), 17 și 9 (treptele de pe latura dinspre str. Clinicilor, spre vest), 110 (treapta de pe latura de sud-vest), 49 (colțul sudic al terenului exceptat „proprietate privată”) și 77 (colțul clădirii 327434-C… din dreptul str. B.P. Hasdeu); puncte de verificare: 28 și 29 (crestătura de lângă colțul 27), 15, 109, 48 și 76. Toate pe mijlocul liniei limitei, citite pe planșă.",
+    "suprafata_declarata_m2": 74134.15,
+    "puncte": {
+      "1": [
+        586013.0,
+        391792.77
+      ],
+      "2": [
+        586013.9,
+        391795.189
+      ],
+      "3": [
+        586039.186,
+        391785.307
+      ],
+      "4": [
+        586051.625,
+        391780.225
+      ],
+      "5": [
+        586056.007,
+        391778.676
+      ],
+      "6": [
+        586057.939,
+        391777.877
+      ],
+      "7": [
+        586058.059,
+        391778.152
+      ],
+      "8": [
+        586061.943,
+        391776.423
+      ],
+      "9": [
+        586064.542,
+        391775.506
+      ],
+      "10": [
+        586067.08,
+        391781.897
+      ],
+      "11": [
+        586069.228,
+        391782.027
+      ],
+      "12": [
+        586070.559,
+        391783.653
+      ],
+      "13": [
+        586076.988,
+        391799.797
+      ],
+      "14": [
+        586080.287,
+        391808.009
+      ],
+      "15": [
+        586083.779,
+        391816.376
+      ],
+      "16": [
+        586089.781,
+        391814.495
+      ],
+      "17": [
+        586092.469,
+        391813.65
+      ],
+      "18": [
+        586105.329,
+        391847.419
+      ],
+      "19": [
+        586122.773,
+        391892.243
+      ],
+      "20": [
+        586139.631,
+        391935.562
+      ],
+      "21": [
+        586153.52,
+        391970.719
+      ],
+      "22": [
+        586177.734,
+        392027.585
+      ],
+      "23": [
+        586178.706,
+        392029.858
+      ],
+      "24": [
+        586180.765,
+        392034.292
+      ],
+      "25": [
+        586185.402,
+        392044.304
+      ],
+      "26": [
+        586194.05,
+        392064.186
+      ],
+      "27": [
+        586201.854,
+        392082.127
+      ],
+      "28": [
+        586188.639,
+        392080.275
+      ],
+      "29": [
+        586193.377,
+        392088.361
+      ],
+      "30": [
+        586178.334,
+        392088.36
+      ],
+      "31": [
+        586163.349,
+        392088.36
+      ],
+      "32": [
+        586150.043,
+        392088.312
+      ],
+      "33": [
+        586139.041,
+        392087.462
+      ],
+      "34": [
+        586108.209,
+        392085.1
+      ],
+      "35": [
+        586061.455,
+        392076.754
+      ],
+      "36": [
+        586027.436,
+        392072.383
+      ],
+      "37": [
+        585989.508,
+        392065.295
+      ],
+      "38": [
+        585990.064,
+        392060.416
+      ],
+      "39": [
+        585989.966,
+        392052.775
+      ],
+      "40": [
+        585989.845,
+        392046.859
+      ],
+      "41": [
+        585989.671,
+        392037.285
+      ],
+      "42": [
+        585990.065,
+        392037.229
+      ],
+      "43": [
+        585989.95,
+        392032.977
+      ],
+      "44": [
+        585989.6,
+        392032.976
+      ],
+      "45": [
+        585989.351,
+        392019.671
+      ],
+      "46": [
+        585989.142,
+        392019.084
+      ],
+      "47": [
+        585987.964,
+        392018.986
+      ],
+      "48": [
+        585980.899,
+        392002.966
+      ],
+      "49": [
+        585971.443,
+        392002.849
+      ],
+      "50": [
+        585965.697,
+        392034.383
+      ],
+      "51": [
+        585966.312,
+        392035.262
+      ],
+      "52": [
+        585967.388,
+        392035.576
+      ],
+      "53": [
+        585968.622,
+        392035.669
+      ],
+      "54": [
+        585967.118,
+        392055.278
+      ],
+      "55": [
+        585972.952,
+        392056.785
+      ],
+      "56": [
+        585979.92,
+        392058.37
+      ],
+      "57": [
+        585982.041,
+        392059.162
+      ],
+      "58": [
+        585990.004,
+        392060.407
+      ],
+      "59": [
+        585989.39,
+        392065.273
+      ],
+      "60": [
+        585980.685,
+        392063.638
+      ],
+      "61": [
+        585974.876,
+        392062.243
+      ],
+      "62": [
+        585945.09,
+        392055.133
+      ],
+      "63": [
+        585921.168,
+        392049.562
+      ],
+      "64": [
+        585902.015,
+        392045.03
+      ],
+      "65": [
+        585888.83,
+        392028.573
+      ],
+      "66": [
+        585876.17,
+        392012.94
+      ],
+      "67": [
+        585870.33,
+        392005.6
+      ],
+      "68": [
+        585863.72,
+        391986.48
+      ],
+      "69": [
+        585856.218,
+        391962.287
+      ],
+      "70": [
+        585856.519,
+        391962.125
+      ],
+      "71": [
+        585854.688,
+        391957.472
+      ],
+      "72": [
+        585853.102,
+        391953.442
+      ],
+      "73": [
+        585851.308,
+        391940.084
+      ],
+      "74": [
+        585858.85,
+        391939.039
+      ],
+      "75": [
+        585863.728,
+        391940.501
+      ],
+      "76": [
+        585879.835,
+        391933.76
+      ],
+      "77": [
+        585874.683,
+        391922.732
+      ],
+      "78": [
+        585858.768,
+        391929.926
+      ],
+      "79": [
+        585856.822,
+        391934.862
+      ],
+      "80": [
+        585858.789,
+        391938.914
+      ],
+      "81": [
+        585851.29,
+        391939.973
+      ],
+      "82": [
+        585849.525,
+        391929.005
+      ],
+      "83": [
+        585847.471,
+        391908.138
+      ],
+      "84": [
+        585847.135,
+        391896.139
+      ],
+      "85": [
+        585846.901,
+        391891.78
+      ],
+      "86": [
+        585846.528,
+        391884.819
+      ],
+      "87": [
+        585846.032,
+        391870.782
+      ],
+      "88": [
+        585845.116,
+        391848.672
+      ],
+      "89": [
+        585845.485,
+        391841.816
+      ],
+      "90": [
+        585846.941,
+        391819.005
+      ],
+      "91": [
+        585847.194,
+        391811.3
+      ],
+      "92": [
+        585847.362,
+        391800.431
+      ],
+      "93": [
+        585858.386,
+        391801.708
+      ],
+      "94": [
+        585877.167,
+        391803.277
+      ],
+      "95": [
+        585894.645,
+        391805.22
+      ],
+      "96": [
+        585897.346,
+        391805.52
+      ],
+      "97": [
+        585920.989,
+        391814.882
+      ],
+      "98": [
+        585925.584,
+        391816.831
+      ],
+      "99": [
+        585928.061,
+        391830.091
+      ],
+      "100": [
+        585929.486,
+        391828.63
+      ],
+      "101": [
+        585931.003,
+        391828.208
+      ],
+      "102": [
+        585943.851,
+        391823.446
+      ],
+      "103": [
+        585963.33,
+        391816.227
+      ],
+      "104": [
+        585966.85,
+        391814.462
+      ],
+      "105": [
+        585972.234,
+        391812.272
+      ],
+      "106": [
+        585975.126,
+        391811.996
+      ],
+      "107": [
+        585980.953,
+        391810.875
+      ],
+      "108": [
+        585990.651,
+        391808.28
+      ],
+      "109": [
+        585996.475,
+        391805.91
+      ],
+      "110": [
+        585993.95,
+        391799.329
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 2.581,
+      "2": 27.148,
+      "3": 13.437,
+      "4": 4.648,
+      "5": 2.091,
+      "6": 0.3,
+      "7": 4.251,
+      "8": 2.756,
+      "9": 6.877,
+      "10": 2.152,
+      "11": 2.101,
+      "12": 17.377,
+      "13": 8.85,
+      "14": 9.066,
+      "15": 6.29,
+      "16": 2.817,
+      "17": 36.135,
+      "18": 48.099,
+      "19": 46.484,
+      "20": 37.801,
+      "21": 61.807,
+      "22": 2.472,
+      "23": 4.889,
+      "24": 11.034,
+      "25": 21.681,
+      "26": 19.565,
+      "27": 13.344,
+      "28": 9.372,
+      "29": 15.043,
+      "30": 14.985,
+      "31": 13.306,
+      "32": 11.035,
+      "44": 13.307,
+      "45": 0.623,
+      "46": 1.182,
+      "47": 17.509,
+      "48": 9.457,
+      "49": 32.053,
+      "50": 1.073,
+      "51": 1.121,
+      "52": 1.237,
+      "53": 19.667,
+      "54": 6.025,
+      "55": 7.146,
+      "56": 2.264,
+      "57": 8.06,
+      "58": 4.905,
+      "59": 8.857,
+      "60": 5.974,
+      "61": 30.623,
+      "62": 24.562,
+      "63": 19.682,
+      "64": 21.087,
+      "65": 20.116,
+      "66": 9.38,
+      "67": 20.23,
+      "68": 25.329,
+      "69": 0.342,
+      "70": 5.0,
+      "71": 4.331,
+      "72": 13.478,
+      "73": 7.614,
+      "74": 5.092,
+      "75": 17.461,
+      "76": 12.172,
+      "77": 17.465,
+      "78": 5.306,
+      "79": 4.504,
+      "80": 7.573,
+      "81": 11.109,
+      "82": 20.968,
+      "83": 12.004,
+      "84": 4.365,
+      "85": 6.971,
+      "86": 14.046,
+      "87": 22.129,
+      "88": 6.866,
+      "89": 22.857,
+      "90": 7.709,
+      "91": 10.87,
+      "92": 11.098,
+      "93": 18.846,
+      "94": 17.586,
+      "95": 2.718,
+      "96": 25.429,
+      "97": 4.991,
+      "98": 13.489,
+      "99": 2.041,
+      "100": 1.575,
+      "101": 13.702,
+      "102": 20.774,
+      "103": 3.938,
+      "104": 5.812,
+      "105": 2.905,
+      "106": 5.934,
+      "107": 10.039,
+      "108": 6.288,
+      "109": 7.049,
+      "110": 20.148
+    },
+    "perimetru_declarat_m": 1410.203,
+    "nota": "Planșa e micșorată pe A4: cifrele tabelului au ~7-8 px și se confundă între ele (0/6/8, 3/5, 2/7). Toate cele 110 puncte au fost citite din tabel și verificate cu laturile tabelului: fiecare vârf intră în două laturi, așa că o cifră greșită strică ambele laturi vecine. Cifrele nesigure, rezolvate din cele două laturi vecine, alegând varianta cea mai apropiată de ce se vede: pct. 2 E 391795,189 (se vede 391793,189); pct. 21 E 391970,719 (391976,719); pct. 30 N 586178,334 (.434); pct. 40 N 585989,845 și E 392046,859 (.645, .839); pct. 43 N 585989,950 (.930); pct. 50 E 392034,383 (.363); pct. 62 N 585945,090 (.096); pct. 65 N 585888,830 și E 392028,573 (585886,830, .373); pct. 67 E 392005,600 (.680); pct. 70 N 585856,519 (.319); pct. 74 E 391939,039 (.939); pct. 84 N 585847,135 (585842,135); pct. 99 N 585928,061 (585925,461); pct. 102 E 391823,446 (391825,446). Câteva laturi au fost citite la fel: 23-24 = 4,889 (se vede 4,869), 59-60 = 8,857 (8,837), 70-71 = 5,000 (5,006), 74-75 = 5,092 (5,002), 107-108 = 10,039 și 109-110 = 7,049 (cifra 0 apare în scanare ca „G”, citită 10,639 și 7,649); perimetrul P = 1410,203 m confirmă aceste citiri. La laturile 33-34 … 43-44 prima zecimală e acoperită de linia punctată a unui chenar alăturat; ele nu sunt trecute în laturi_declarate_m, dar se potrivesc cu coordonatele pe cifrele vizibile (de ex. 36-37 = 38,585, 39-40 = 5,917, 40-41 = 9,576). Cu aceste valori, cele 99 de laturi verificate se potrivesc la cel mult 6 mm, perimetrul la 0,1 mm, aria la 0,02 mp. Reziduurile potrivirii (0,5 m rms, cel mult 0,8 m) sunt de ordinul a 2-3 px pe planșa micșorată (4 px/m, linia limitei are ~1,2 m grosime): imaginea planșei poate fi deplasată local cu ~1 m față de limită; limita însăși vine din coordonate."
+  },
+  "gcp_px": {
+    "27": [
+      298,
+      2036
+    ],
+    "64": [
+      1496,
+      2179
+    ],
+    "9": [
+      842,
+      3261
+    ],
+    "17": [
+      733,
+      3107
+    ],
+    "49": [
+      1219,
+      2350
+    ],
+    "77": [
+      1608,
+      2672
+    ],
+    "110": [
+      1130,
+      3167
+    ]
+  },
+  "verificare_px": {
+    "29": [
+      331,
+      2009
+    ],
+    "28": [
+      350,
+      2041
+    ],
+    "15": [
+      767,
+      3100
+    ],
+    "76": [
+      1587,
+      2627
+    ],
+    "48": [
+      1180,
+      2350
+    ],
+    "109": [
+      1120,
+      3141
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      70,
+      1130,
+      745,
+      1805,
+      90
+    ],
+    [
+      70,
+      440,
+      728,
+      1126,
+      90
+    ],
+    [
+      2147,
+      1122,
+      2379,
+      1818,
+      90
+    ],
+    [
+      2156,
+      730,
+      2292,
+      1128,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "ZCP_M1*",
+      "denumire": "Zonă mixtă cu regim de construire închis, adiacentă principalelor artere de trafic, cu instituții și servicii publice de interes public constituite în ansambluri independente, pentru construirea Centrului integrat de transplant; regim de construire izolat",
+      "pot_max": "60% (parcele comune), 70% (parcele de colț)",
+      "cut_max": "2,2 (parcele comune), 3,6 (parcele de colț)",
+      "h_max": "(1-3)S+P+3+M(1R) pentru clădirile existente; (1-4)S+P+5E pentru Centrul integrat de transplant"
+    },
+    {
+      "cod": "ZCP_Is_A",
+      "denumire": "Zonă de instituții și servicii publice de interes public, constituite în ansambluri independente (ansamblul Clinicilor universitare)",
+      "pot_max": "60% (parcele comune), 75% (parcele de colț)",
+      "cut_max": "2,2 (parcele comune), 2,8 (parcele de colț)",
+      "h_max": "P+3+M(1R)"
+    },
+    {
+      "cod": "SZCP_Vt",
+      "denumire": "Subzona verde a zonelor ZCP_M1* și ZCP_Is_A",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "D+P+1E"
+    },
+    {
+      "cod": "ZCP_UMF",
+      "denumire": "Zonă de instituții și servicii publice de interes public, constituite în ansambluri independente – Zona Universității de Medicină și Farmacie",
+      "pot_max": "60% (parcele comune), 70% (parcele de colț)",
+      "cut_max": "2,2 (parcele comune), 2,8 (parcele de colț)",
+      "h_max": "S+P+6E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-09-02",
+    "verificat": "2026-11-10: Art. 2, cinci ani; nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "U.T.R. ZCP_UMF, parcele de colț: hotărârea (Art. 1) dă P.O.T. maxim 70%; planșa dă 75%.",
+    "U.T.R. ZCP_M1*: pentru Centrul integrat de transplant hotărârea dă doar regimul (1-4)S+P+5E; planșa precizează înălțimea maximă la cornișă: 28,50 m pentru corpul vertical (4S+P+5+Et) și 25,50 m pentru corpul orizontal (4S+P+4+Et). Regimul (1-3)S+P+3+M(1R) pentru clădirile existente din ZCP_M1* apare doar în hotărâre.",
+    "Planșa adaugă înălțimi maxime la cornișă pe care hotărârea nu le dă: 16 m în ZCP_Is_A (P+3+M(R)) și 9 m în SZCP_Vt ((D)+P+1); hotărârea dă doar regimul de înălțime (P+3+M(1R), respectiv D+P+1E)."
+  ],
+  "conditii": [
+    "Clădirea Centrului integrat de transplant se amplasează în front deschis, retrasă cu minimum 4,8 m față de limita vestică și minimum 6 m față de limita nordică; porticul clădirii poate fi la mai puțin de 3,5 m de limitele de proprietate, inclusiv pe limită.",
+    "Regim de construire izolat; funcțiuni predominante: dotări publice, de sănătate, urbane și spații verzi.",
+    "Circulațiile și accesele se fac din str. Victor Babeș, str. B.P. Hasdeu și Aleea Studenților; echiparea tehnico-edilitară prin racorduri la rețelele existente.",
+    "Toate investițiile propuse prin documentația de urbanism sunt suportate de beneficiarul ei, o autoritate publică.",
+    "Accesul la parcajul subteran dinspre str. Victor Babeș se face printr-o bandă carosabilă de decelerare suplimentară, iar pe partea opusă a străzii se amenajează o stație de transport în comun (Avizul Serviciului Siguranța Circulației nr. 292055/446/2021).",
+    "Înainte de autorizația de construire, proiectanții întocmesc planul de sistematizare rutieră orizontală și verticală la obiectiv, avizat de Serviciul Siguranța Circulației și de Poliția Rutieră.",
+    "Banda de decelerare și stația de transport în comun se amenajează de autoritatea publică beneficiară înainte de recepția centrului de transplant."
+  ]
+}
