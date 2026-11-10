@@ -2176,6 +2176,111 @@
   ]
  },
  {
+  "id": "2026-551",
+  "localitate": "cluj",
+  "hcl": "551/2026",
+  "data": "2026-08-06",
+  "titlu": "P.U.Z. – Dezvoltare zonă rezidențială, prelungire strada Rozmarinului",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-551-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/551.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele 1-11): locuințe individuale sau semicolective (cel mult două unități locative pe parcelă), regim deschis; parcela construibilă de cel puțin 400 mp, iar semicolectivele sau două locuințe individuale doar pe parcele de cel puțin 600 mp",
+    "pot_max": "35% (locuințe); 25% (instituții de educație/învățământ)",
+    "cut_max": "0,9 (locuințe); 0,5 (instituții de educație/învățământ)",
+    "h_max": "trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R); 8 m la cornișă, 12 m maxim"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (parcela 12)",
+    "pot_max": "5%",
+    "cut_max": "0,1 (numai pentru clădiri cu spații interioare)",
+    "h_max": "4 m la cornișă; parter"
+   },
+   {
+    "cod": "Tr*",
+    "denumire": "Zonă de circulație rutieră și amenajări aferente: strada „A” (parcela 13), drumul de acces (parcela 15) și fâșia pentru lărgirea străzii Minervei (parcela 14)"
+   }
+  ],
+  "suprafata_m2": 9258,
+  "imagine": "puz/2026-551/plansa.webp",
+  "bounds": {
+   "west": 23.6353811,
+   "south": 46.7531599,
+   "east": 23.6377056,
+   "north": 46.7542184
+  },
+  "limita": [
+   [
+    23.6370169,
+    46.7541944
+   ],
+   [
+    23.6376646,
+    46.7537587
+   ],
+   [
+    23.6370676,
+    46.7531997
+   ],
+   [
+    23.6366036,
+    46.7534845
+   ],
+   [
+    23.636348,
+    46.7532551
+   ],
+   [
+    23.6354329,
+    46.753691
+   ],
+   [
+    23.6354887,
+    46.753709
+   ],
+   [
+    23.6358475,
+    46.7535417
+   ],
+   [
+    23.6360656,
+    46.7535886
+   ],
+   [
+    23.6357312,
+    46.753786
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 5,
+   "rms_m": 1.12,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-551/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-08-06"
+  },
+  "diferente_fata_de_plansa": [
+   "Hotărârea (Art. 1, 13 numere cadastrale), bilanțul teritorial și tabelul imobilelor de pe planșă dau 9661 mp; legenda planșei dă zonei reglementate (linia desenată) 9174 mp. Diferența, 487 mp, e cât are în tabel imobilul nr. cad. 280398, care e în Art. 1: probabil fâșia de lângă str. Minervei pentru lărgirea străzii (parcela 14), desenată în afara liniei zonei; limita de pe hartă o lasă și ea în afară."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "În sarcina investitorilor (avizul Serviciului Siguranța circulației nr. 579267/446/11.06.2026): modernizarea și asfaltarea străzilor propuse în incinta P.U.Z.; dezmembrarea ca „drum” a fâșiei necesare lărgirii străzii Minervei și modernizarea/asfaltarea străzii pe tot frontul P.U.Z.; proiectele pentru amenajarea și asfaltarea străzilor propuse și a străzii Minervei, semnalizarea rutieră (cu avizul Poliției Rutiere), rețeaua pluvială, rețelele edilitare și iluminatul public, conform NP 051/2012.",
+   "Înainte de autorizațiile de construire pe parcele: fâșia pentru lărgirea și modernizarea străzii Minervei (parcela 14) se dezmembrează, se înscrie în CF ca „drum” și se asfaltează; înainte de recepția construcțiilor se transferă cu titlu gratuit în domeniul public (planșa U.05).",
+   "Înainte de autorizațiile de construire pe parcele: străzile propuse (parcelele 13 și 15) și strada Minervei pe tronsonul de lângă P.U.Z. se echipează edilitar și se asfaltează.",
+   "Înainte de recepția construcțiilor: se amenajează spațiul verde cu acces public nelimitat (S_Va*, parcela 12) după un proiect de specialitate autorizat (plantații înalte, medii și joase, mobilier urban).",
+   "Accesul pe parcele se face din strada „A” (ampriză 6-9 m, cu acces public nelimitat, care leagă str. Rozmarinului de str. Minervei); parcela 11 are acces dintr-un drum de interes local. Câte un acces auto (3-6 m) și unul pietonal pe parcelă; două la locuințele semicolective cu unități alipite și la parcelele de colț.",
+   "Liu*: retragere de cel puțin 3 m de la aliniament (de la ambele, la parcelele de colț), de cel puțin 3 m față de limitele laterale (garajele se pot alipi, cu calcan de cel mult 2,8 m) și față de limita posterioară cât înălțimea clădirii, minimum 6 m; ultimul nivel se retrage cu cel puțin 1,8 m spre stradă.",
+   "Parcarea numai în interiorul parcelelor: un loc pentru fiecare unitate locativă, minimum două pentru servicii de proximitate, la educație un loc la cinci persoane (minimum două); în subzona verde parcarea e interzisă, cu excepția utilitarelor de întreținere.",
+   "Utilitățile se racordează la rețelele publice, cablurile doar în subteran, iar apele meteorice nu se conduc spre domeniul public sau spre vecini; fiecare parcelă are platformă pentru deșeuri accesibilă din spațiul public."
+  ]
+ },
+ {
   "id": "2026-550",
   "localitate": "cluj",
   "hcl": "550/2026",

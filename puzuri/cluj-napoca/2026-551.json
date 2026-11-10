@@ -1,8 +1,6 @@
 {
   "id": "2026-551",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Planșa nu are inventar de coordonate, iar crucile caroiajului Stereo 70 (etichetate din 50 în 50 m) nu sunt la scara desenului: au ~8 px/m, desenul ~15,5 px/m (planul topografic e inserat la aproape jumătate de scară), deci nu leagă desenul de teren; metoda cu repere OpenStreetMap n-a putut rula: din sesiunea cloud, Overpass (overpass-api.de) a resetat fiecare conexiune (2026-11-10, peste 15 încercări între 02:53 și 03:14 UTC); de reluat cu metoda OSM când Overpass răspunde.",
   "hcl": {
     "nr": 551,
     "an": 2026,
@@ -16,17 +14,51 @@
     "dpi": 300,
     "denumire": "U.03 Reglementări urbanistice",
     "scara": "1:500 (cartușul scrie „1:500, 1:1.08”)",
-    "nota": "Planșa de reglementări e pagina 11 (Anexa 2, A3 culcat, 300 ppi, ștampilată „Anexa 2 la Hotărârea nr. 551/2026” și semnată); p. 12 e Anexa 3, U.05 „Tipuri de proprietate asupra terenurilor”, pe același fond, dar desenată la altă scară (~1/1,35 din p. 11); pp. 1-3 sunt hotărârea, pp. 4-10 regulamentul (Anexa 1). Cartuș: P.U.Z. dezvoltare rezidențială, prelungire strada Rozmarinului, pr. nr. 37/2017, faza PUZ, planșa U.03, data 10.2018. Scara reală a imaginii: ~15,5 px/m (latura de sud-est a zonei, cota 68,67 m = ~1071 px; cota 15,63 m = ~240 px; parcela 12, de 1000 mp, are laturile de 25,81-32,56 m), adică ~1:770 la 300 ppi (1:500 tipărit la ~65%); nordul e în sus. Legenda cuprinde cheia simbolurilor și blocul „Zonificare - UTR propus” (Liu*, S_Va*, Tr) cu POT/CUT/înălțimi; au rămas afară profilele transversale, bilanțul teritorial, tabelul imobilelor din stânga jos (cu numele proprietarilor), roza vânturilor și cartușul."
+    "nota": "Planșa de reglementări e pagina 11 (Anexa 2, A3 culcat, 300 ppi, ștampilată „Anexa 2 la Hotărârea nr. 551/2026” și semnată); p. 12 e Anexa 3, U.05 „Tipuri de proprietate asupra terenurilor”, pe același fond, dar desenată la altă scară (~1/1,35 din p. 11); pp. 1-3 sunt hotărârea, pp. 4-10 regulamentul (Anexa 1). Cartuș: P.U.Z. dezvoltare rezidențială, prelungire strada Rozmarinului, pr. nr. 37/2017, faza PUZ, planșa U.03, data 10.2018. Scara reală a imaginii: ~15,5 px/m (latura de sud-est a zonei, cota 68,67 m = ~1071 px; cota 15,63 m = ~240 px; parcela 12, de 1000 mp, are laturile de 25,81-32,56 m), adică ~1:770 la 300 ppi (1:500 tipărit la ~65%); potrivirea pe OSM dă 15,8 px/m; nordul e în sus (rotație -1,4°). Legenda cuprinde cheia simbolurilor și blocul „Zonificare - UTR propus” (Liu*, S_Va*, Tr) cu POT/CUT/înălțimi; au rămas afară profilele transversale, bilanțul teritorial, tabelul imobilelor din stânga jos (cu numele proprietarilor), roza vânturilor și cartușul."
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "Planșa nu are inventar de coordonate. Are crucile planului topografic de bază (Stereo 70, etichetate pe rama planului: Est 395900/395950/396000/396050/396100 sus, la x ≈ 1510/1910/2310/2710/3110, Nord 584750/584700/584650/584600, la y ≈ 365/775/1180/1590; cruci găsite la (1508,369), (1907,369), (2708,363), (3110,364), (2711,775), (3112,773), doar în jumătatea de sus a desenului). Crucile sunt la 400 px pe Est și ~410 px pe Nord pentru 50 m, adică ~8,0-8,2 px/m, pe când desenul P.U.Z. are ~15,5 px/m (cotele de pe planșă). Proba pe ortofoto Esri: cu potrivirea pe cruci, planșa iese de ~2 ori prea mare (str. Minervei cade aproape de locul ei, dar intersecția cu str. Rozmarinului de la capătul sudic ajunge cu ~170 m prea la sud, iar parcelele noi peste casele existente). Planul topografic a fost deci inserat la aproape jumătate de scară față de desen, iar crucile nu pot georeferenția planșa (ca la 24/2026). Rămâne metoda cu repere OpenStreetMap (georef_metoda osm), cu limita trasată pe planșă (limita_px), încă netrasată.",
-    "suprafata_declarata_m2": 9661,
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, 2026-11-10, din extrasul OSM din 2026-11-08): colțuri de clădiri existente desenate pe planșă și prezente în OSM. Control: C299029_N (casa 299029-C1, colțul nordic), C278271_N și C278271_E (casa 278271-C1, la sud de zonă), C280401_S și C280401_V (casa de pe imobilul 280401, la est); verificare: C13591_N și C13591_E (casa de pe nr. topo 13591/1, lângă latura de sud-est) și C299029_V (colțul vestic al casei 299029-C1). Potrivirea dă 15,8 px/m (cotele de pe planșă: ~15,5-15,6 px/m) și o rotație de -1,4°; reziduuri: rms 1,12 m, maxim 1,91 m (C278271_E), la verificare 0,25-1,38 m. Ancora de pornire: nodul OSM al intersecției str. Rozmarinului cu drumul privat, la ≈ (3020, 2740) pe planșă. Crucile caroiajului Stereo 70 de pe planșă (etichetate pe rama planului topografic) nu sunt la scara desenului (~8 px/m față de ~15,5 px/m), deci au fost lăsate deoparte. Limita e trasată (`limita_px`) pe linia groasă gri întreruptă „Limita zonă reglementată”, cu laturile potrivite pe liniile desenate: latura nord-vestică pe marginea sudică a benzii închise a str. Minervei; ocolește pe trei laturi imobilul 299029 (hașurat „se ia ca atare”) și cuprinde drumul de acces (parcela 15); latura de sud-vest pe marginea parcelei 15, în prelungire pe a parcelei 11; latura de sud-est a parcelei 11; marginea de sud-vest a străzii „A” (parcela 13) până la drumul privat aprobat prin HCL 462/2012, unde limita traversează strada în prelungirea laturii de sud-est a zonei; apoi laturile de sud-est și nord-est. Aria trasată: 9258 mp, față de 9174 mp scriși în legendă pentru această linie (0,9%).",
+    "suprafata_declarata_m2": 9174,
     "puncte": {},
-    "nota": "Suprafața: 9661 mp în bilanțul teritorial (Liu* 6117 mp, S_Va* 1000 mp, Tr 2544 mp), în tabelul imobilelor de pe planșă („Suprafața terenuri reglementate 9661.00”, 13 imobile) și în Art. 1. Legenda scrie „Limita zonă reglementată - S teren = 9174.00 mp”, adică 9661 mp fără imobilul nr. cad. 280398 (487 mp în tabel): la trasare, de verificat pe care dintre cele două o închide linia groasă gri a zonei reglementate. Componența zonei (după planșă și Art. 1): parcelele 1-11 (Liu*), 12 (S_Va*), 13 (strada „A”, cu bucla de întoarcere), 14 (fâșia de ~4,3-4,9 m de lângă str. Minervei, pentru lărgirea ei; nu e limpede dacă e desenată în banda închisă a străzii sau sub ea) și 15 (drumul de acces de ~3,9 m, imobilul 257519, 136 mp, de-a lungul laturii de sud-vest a imobilului 299029). Imobilul 299029 (cu construcția 299029-C1, hașurat „se ia ca atare”) nu e în P.U.Z.: zona îl ocolește pe trei laturi. Drumul privat aprobat prin HCL 462/2012 (profil 6 m), spre str. Rozmarinului, e hașurat „se ia ca atare” și pare să rămână în afara zonei. Colțuri citite pe planșă: nord ≈ (2345, 443), unde latura de nord-est întâlnește linia groasă gri de la marginea de sud a benzii str. Minervei; est ≈ (3125, 1213); sud (latura de sud-est la drumul privat) ≈ (2490, 2098). Linia zonei reglementate (gri, groasă, întreruptă) se confundă pe planșă cu limitele parcelelor propuse (tot gri, groase): de urmărit cu grijă, mai ales lângă str. Minervei, în jurul imobilului 299029 și la capătul străzii „A”. Pentru ancoră: intersecția axelor str. Rozmarinului (cele două brațe, spre sud-sud-vest și spre sud-est) cu drumul privat e pe planșă la ≈ (3020, 2780); pe ortofoto Esri e la ≈ E 396045, N 584593 (de înlocuit cu `geocode --streets`); px_per_m ≈ 15,5, nord 0."
+    "nota": "Suprafața: 9661 mp în bilanțul teritorial (Liu* 6117 mp, S_Va* 1000 mp, Tr 2544 mp), în tabelul imobilelor de pe planșă (13 imobile, „Suprafața terenuri reglementate 9661.00”) și în Art. 1. Legenda dă însă liniei „Limita zonă reglementată” S teren = 9174.00 mp, cu 487 mp mai puțin, cât are în tabel imobilul nr. cad. 280398. Linia desenată merge pe marginea sudică a benzii închise a str. Minervei, iar eticheta „Parcela 14” (fâșia pentru lărgirea străzii, de transferat în domeniul public) stă în banda închisă, la nord de linie: fâșia, de ~4,5 m pe ~108 m (≈ 487 mp), e probabil imobilul 280398 și rămâne în afara limitei trasate. Limita publicată urmează linia desenată și e verificată cu 9174 mp. Porțiunea de ~48 m a străzii „A” dintre colțul parcelei 11 și drumul privat aprobat prin HCL 462/2012 e inclusă: continuă strada în linie dreaptă (aceeași margine de sud-vest), poartă eticheta „Parcela 13” și explică ampriza „variabilă, între 6 m și 9 m” din Art. 1; profilul 5-5 o numește însă „drum privat - 7.00m”. Fără ea aria ar fi ~8960 mp, tot în toleranță față de 9174, deci aria nu decide singură: de verificat de un om. Imobilul 299029 (cu construcția 299029-C1) nu e în P.U.Z. Tabelul imobilelor (nr. cad. / mp): 257521 / 700, 280004 / 1250, 280394 / 2128, 280395 / 1311, 280396 / 1426, 280397 / 66, 280399 / 1317, 257519 / 156 (parcela 15), 280003 / 96, 280392 / 377, 280393 / 268, 280398 / 487, 299030 / 79."
   },
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "C280401_S": [
+      3187,
+      1987
+    ],
+    "C278271_N": [
+      2425,
+      2291
+    ],
+    "C299029_N": [
+      828,
+      1263
+    ],
+    "C280401_V": [
+      3097,
+      1934
+    ],
+    "C278271_E": [
+      2549,
+      2388
+    ]
+  },
+  "verificare_px": {
+    "C13591_N": [
+      2871,
+      1716
+    ],
+    "C13591_E": [
+      2940,
+      1765
+    ],
+    "C299029_V": [
+      761,
+      1344
+    ]
+  },
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
@@ -74,7 +106,7 @@
   "modifica": [],
   "modificat_de": [],
   "diferente_fata_de_plansa": [
-    "Legenda planșei dă zonei reglementate „S teren = 9174.00 mp”; bilanțul teritorial, tabelul imobilelor de pe planșă și hotărârea (Art. 1, 13 numere cadastrale) dau 9661 mp. Diferența, 487 mp, e cât are în tabel imobilul nr. cad. 280398, care e în Art. 1."
+    "Hotărârea (Art. 1, 13 numere cadastrale), bilanțul teritorial și tabelul imobilelor de pe planșă dau 9661 mp; legenda planșei dă zonei reglementate (linia desenată) 9174 mp. Diferența, 487 mp, e cât are în tabel imobilul nr. cad. 280398, care e în Art. 1: probabil fâșia de lângă str. Minervei pentru lărgirea străzii (parcela 14), desenată în afara liniei zonei; limita de pe hartă o lasă și ea în afară."
   ],
   "conditii": [
     "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
@@ -87,5 +119,103 @@
     "Parcarea numai în interiorul parcelelor: un loc pentru fiecare unitate locativă, minimum două pentru servicii de proximitate, la educație un loc la cinci persoane (minimum două); în subzona verde parcarea e interzisă, cu excepția utilitarelor de întreținere.",
     "Utilitățile se racordează la rețelele publice, cablurile doar în subteran, iar apele meteorice nu se conduc spre domeniul public sau spre vecini; fiecare parcelă are platformă pentru deșeuri accesibilă din spațiul public."
   ],
-  "georef_metoda": "osm"
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      3020,
+      2740
+    ],
+    "en": [
+      396048.0,
+      584596.0
+    ],
+    "px_per_m": 15.5,
+    "nord": 0
+  },
+  "repere": {
+    "C280401_S": [
+      584644.97,
+      396057.18
+    ],
+    "C278271_N": [
+      584626.67,
+      396009.57
+    ],
+    "C299029_N": [
+      584695.33,
+      395909.21
+    ],
+    "C280401_V": [
+      584648.74,
+      396051.36
+    ],
+    "C278271_E": [
+      584620.51,
+      396018.86
+    ],
+    "C299029_V": [
+      584689.64,
+      395903.76
+    ],
+    "C13591_N": [
+      584662.88,
+      396037.62
+    ],
+    "C13591_E": [
+      584659.78,
+      396042.91
+    ]
+  },
+  "repere_osm": {
+    "C280401_S": "colț de clădire (b189640232_2)",
+    "C278271_N": "colț de clădire (b189640227_0)",
+    "C299029_N": "colț de clădire (b810652553_2)",
+    "C280401_V": "colț de clădire (b189640232_1)",
+    "C278271_E": "colț de clădire (b189640227_3)",
+    "C299029_V": "colț de clădire (b810652553_3)",
+    "C13591_N": "colț de clădire (b189640253_0)",
+    "C13591_E": "colț de clădire (b189640253_7)"
+  },
+  "limita_px": [
+    [
+      2350,
+      457
+    ],
+    [
+      3135,
+      1215
+    ],
+    [
+      2423,
+      2199
+    ],
+    [
+      1861,
+      1704
+    ],
+    [
+      1556,
+      2108
+    ],
+    [
+      449,
+      1352
+    ],
+    [
+      516,
+      1320
+    ],
+    [
+      950,
+      1610
+    ],
+    [
+      1212,
+      1526
+    ],
+    [
+      807,
+      1183
+    ]
+  ]
 }
