@@ -1,0 +1,233 @@
+{
+  "id": "2026-98",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 98,
+    "an": 2026,
+    "data_sedinta": "2026-03-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-98-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-98.pdf"
+  },
+  "titlu": "P.U.Z. – de restructurare urbană str. Vrancea nr. 24",
+  "plansa": {
+    "pagina_pdf": 20,
+    "dpi": 200,
+    "denumire": "Plan reglementări (planșa PUZ.04; în hotărâre „A.4 – Reglementări urbanistice”, Anexa 3)",
+    "scara": "1:500",
+    "nota": "PDF-ul are planșa de două ori: p. 16, pe A3, în tonuri de gri, cu mențiunea „Anexa 3 la Hotărârea nr. 98/2026” și ștampila Consiliului local (3307×2340 px la 200 ppi), și p. 20, color, la format mare (4672×3336 px la 200 ppi, A2), cu ștampila „Vizat spre neschimbare” (anexă la avizul Arhitectului-șef nr. 95 din 7.07.2025) și mențiunea de mână „H.C.L. nr. 98 din 20 martie 2026”. E același desen (PUZ.04 „Plan Reglementari”, proiect nr. 1395/2022, datat 07.2025); s-a folosit p. 20, mai clară. Celelalte pagini sunt A4: hotărârea (1-2), contractul de restructurare (Anexa 1, p. 3-7), regulamentul local de urbanism (Anexa 2, p. 8-15), avizul Arhitectului-șef (17-19) și raportul informării publicului (21-22). Scanarea e la scara 1:500 aproape întreagă (15,7 px/m față de 15,75), cu nordul în sus (rotație 0,36°). Legenda cuprinde „Legenda reglementari” din stânga-sus și tabelul U.T.R. din dreapta-sus (U.T.R. existent Rim / propus Rim*, P.O.T./C.U.T. maxime, regim de înălțime, H max, spații verzi); bilanțurile teritoriale (pe parcelă și pe zona reglementată, cu bilanțul parcărilor), tabelele de coordonate, cartușul și ștampilele au rămas afară. Legenda numește zona hașurată de la sud „zona destinată amenajării peisagere în relație cu Canalul Morii”, iar desenul și hotărârea vorbesc de pârâul Nadăș."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă: tabelul „Puncte pe contur teren” (Coordonate Stereo'70, X(m) = Nord, Y(m) = Est), 30 de puncte (10-39) în ordinea conturului, fără lungimile laturilor. Suprafața: 4932 mp, din eticheta parcelei de pe planșă („S teren = 4 932 mp”, nr. cad. 265086), din bilanțul teritorial și din Art. 1 („suprafață măsurată de 4932 mp”). Puncte de control, pe mijlocul liniei roșii întrerupte „Limita proprietate reglementată”: 21 (vârful nordic, spre intersecția str. Vrancea – str. Războieni), 10 (colțul vestic, la str. Vrancea), 26 (colțul sud-estic, la pârâul Nadăș) și 27 (vârful sudic). Puncte de verificare: 38 și 32, frânturi ale laturii vestice, curbe (de aceea mai puțin precise, 0,5-0,6 m), și crucea caroiajului Stereo 70 E 392500 / N 588700, la (1475, 3040), sub vârful sudic: singura cruce rămasă pe planșă, fără etichetă, recunoscută după poziția prezisă de inventar (la 2 px; pasul caroiajului e de 50 m, 787 px).",
+    "suprafata_declarata_m2": 4932,
+    "puncte": {
+      "10": [
+        588800.38,
+        392470.93
+      ],
+      "11": [
+        588814.18,
+        392476.71
+      ],
+      "12": [
+        588841.07,
+        392488.01
+      ],
+      "13": [
+        588840.74,
+        392489.48
+      ],
+      "14": [
+        588839.67,
+        392488.83
+      ],
+      "15": [
+        588837.45,
+        392491.77
+      ],
+      "16": [
+        588841.39,
+        392494.45
+      ],
+      "17": [
+        588843.5,
+        392491.55
+      ],
+      "18": [
+        588842.35,
+        392490.61
+      ],
+      "19": [
+        588842.92,
+        392488.71
+      ],
+      "20": [
+        588851.91,
+        392495.97
+      ],
+      "21": [
+        588859.81,
+        392503.05
+      ],
+      "22": [
+        588834.08,
+        392513.72
+      ],
+      "23": [
+        588791.55,
+        392531.05
+      ],
+      "24": [
+        588747.57,
+        392549.24
+      ],
+      "25": [
+        588732.41,
+        392555.18
+      ],
+      "26": [
+        588731.55,
+        392555.4
+      ],
+      "27": [
+        588716.56,
+        392523.74
+      ],
+      "28": [
+        588717.24,
+        392523.24
+      ],
+      "29": [
+        588733.23,
+        392517.96
+      ],
+      "30": [
+        588737.25,
+        392516.63
+      ],
+      "31": [
+        588738.94,
+        392515.89
+      ],
+      "32": [
+        588746.55,
+        392514.0
+      ],
+      "33": [
+        588753.45,
+        392510.11
+      ],
+      "34": [
+        588760.81,
+        392504.47
+      ],
+      "35": [
+        588761.29,
+        392504.13
+      ],
+      "36": [
+        588773.28,
+        392495.57
+      ],
+      "37": [
+        588786.15,
+        392488.75
+      ],
+      "38": [
+        588793.54,
+        392484.01
+      ],
+      "39": [
+        588797.38,
+        392478.31
+      ]
+    },
+    "nota": "Vârfurile 12-19 descriu o decupare spre interior de ~17 mp (un patrulater de cca 4,8 × 3,6 m, legat de limită prin două laturi scurte), pe latura nord-vestică dinspre str. Vrancea. Linia roșie a planșei nu o desenează: trece drept de la 12 la 19-20. Suprafața confirmă decuparea: cu ea, inventarul dă 4931,5 mp față de 4932 declarați; fără ea ar da 4948,7 mp. Pe hartă limita urmează inventarul, cu decupare cu tot. Tabelele „Puncte pe contur C5” (8 puncte, cu coloanele X/Y inversate: X = Est) și „Puncte pe contur C6” (6 puncte) sunt contururile construcțiilor existente nr. cad. 265086-C5 și -C6, de demolat după contractul de restructurare, nu limita zonei; desenul lor abia se vede sub hașură, așa că nu s-au folosit. Linia subțire gri a planului topografic se depărtează pe latura vestică cu 1-3 m spre interior de linia roșie; inventarul urmează linia roșie."
+  },
+  "gcp_px": {
+    "21": [
+      1539,
+      516
+    ],
+    "10": [
+      1031,
+      1453
+    ],
+    "26": [
+      2349,
+      2549
+    ],
+    "27": [
+      1850,
+      2781
+    ]
+  },
+  "verificare_px": {
+    "38": [
+      1229,
+      1557
+    ],
+    "32": [
+      1693,
+      2303
+    ],
+    "C392500_588700": [
+      1475,
+      3040
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      140,
+      88,
+      954,
+      630
+    ],
+    [
+      4064,
+      74,
+      4632,
+      532
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Rim*",
+      "denumire": "Zonă mixtă: structură funcțională mixtă cu activități administrative, de administrare a afacerilor, financiar-bancare, comerciale, funcțiuni terțiare, culturale, de învățământ, de sănătate și de turism; regim de construire deschis; ansamblu de 2 corpuri, din care corpul B (interior) numai cu locuințe colective, locuirea fiind de cel mult 70% din suprafața construită desfășurată a ansamblului",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "(1-3)S+P+5E+R; H max 20 m la cornișă și 22,8 m în total; cu un nivel tehnic (cel mult 30% din suprafața ultimului etaj) până la 25 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-03-20",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare (ședința din 20.03.2026); nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: tabelul U.T.R. al planșei dă pentru Rim* regimul (S)P+5+R și H max 25 m (bilanțul: 2/3S+P+5E+ER); Art. 1 (ca și regulamentul) dă (1-3)S+P+5E+R, H max 20 m la cornișă și 22,8 m înălțimea totală, iar 25 m numai cu un nivel tehnic de cel mult 30% din suprafața ultimului etaj."
+  ],
+  "conditii": [
+    "Ansamblul are două corpuri de clădire: corpul B, din interiorul parcelei, poate avea numai locuințe colective, iar locuirea nu poate depăși 70% din suprafața construită desfășurată a întregului ansamblu (corpurile A și B).",
+    "Retrageri: 3 m față de aliniamentul str. Vrancea; față de limitele laterale cel puțin jumătate din înălțimea la cornișă, dar minim 4,5 m; pe limita laterală estică se admite un calcan pe cel mult 20 m adâncime de la aliniere; față de limita posterioară minim 30 m de la albia minoră a pârâului Nadăș. Regim de construire deschis.",
+    "Accesul auto și pietonal în incintă se face din str. Vrancea. Minim 75% din locurile de parcare sunt în spații dedicate, la subsol, demisol sau parter, dimensionate după Anexa 2 a R.L.U. al P.U.G.; parcajele la sol stau la minim 5 m de ferestrele camerelor de locuit.",
+    "Toate clădirile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contoarele se integrează în clădiri; cablurile nu se montează aerian; parcela are un spațiu interior pentru colectarea deșeurilor în 5 fracții, accesibil din spațiul public.",
+    "Spațiile verzi ocupă minim 30% din suprafața de referință, numai cu vegetație, pe sol natural cât se poate de mult; tăierea arborilor maturi e interzisă, în afara cazurilor de pericol sau în care ar împiedica construirea (regulamentul local, Anexa 2).",
+    "Obiectiv de interes public, la propunerea beneficiarei: se plantează 22 de arbori (arțari) cu circumferința de minim 35 cm la 1 m de la colet, pe latura nordică a str. Războieni, pe tronsonul str. Puieților – str. Călugăreni, lângă școlile și grădinițele de acolo.",
+    "Noul acces auto (cu respectarea NP 051/2012) și plantarea celor 22 de arbori se fac prin grija și pe cheltuiala investitorului, înainte de recepția lucrărilor de construire a ansamblului.",
+    "Art. 1 aprobă și contractul de restructurare dintre Consiliul local, Municipiul Cluj-Napoca și investitor (Anexa 1): investiția e de 16.567.313 lei + TVA, obligațiile trec și asupra viitorilor proprietari ai terenului, iar contractul rămâne în vigoare până la recepția tuturor lucrărilor prevăzute de P.U.Z. Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ],
+  "repere": {
+    "C392500_588700": [
+      588700,
+      392500
+    ]
+  }
+}
