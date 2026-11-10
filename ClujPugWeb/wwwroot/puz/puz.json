@@ -3926,6 +3926,164 @@
   ]
  },
  {
+  "id": "2026-195",
+  "localitate": "cluj",
+  "hcl": "195/2026",
+  "data": "2026-05-19",
+  "titlu": "P.U.Z. de urbanizare, str. Eugen Ionesco – vest",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-195-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-195.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective (familiale), cu cel mult două unități locative suprapuse sau alipite, și anexele lor; semicolectivele doar pe parcele de minimum 450 mp; regim de construire izolat (5089 mp după bilanțul planșei, 10 parcele de 459-578 mp pe planșă)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: D+P+M, D+P+R, (S)+P+E+R, (S)+P+E+M"
+   },
+   {
+    "cod": "VPr",
+    "denumire": "Zonă verde de protecție față de infrastructura majoră (8 mp după bilanțul planșei); rămân prevederile R.L.U. al P.U.G."
+   }
+  ],
+  "suprafata_m2": 6964,
+  "imagine": "puz/2026-195/plansa.webp",
+  "bounds": {
+   "west": 23.5852155,
+   "south": 46.7362981,
+   "east": 23.5878314,
+   "north": 46.7372186
+  },
+  "limita": [
+   [
+    23.5864469,
+    46.7368898
+   ],
+   [
+    23.5866344,
+    46.736938
+   ],
+   [
+    23.586641,
+    46.7369378
+   ],
+   [
+    23.5866721,
+    46.7369459
+   ],
+   [
+    23.5868923,
+    46.7370031
+   ],
+   [
+    23.5871002,
+    46.7370572
+   ],
+   [
+    23.5876083,
+    46.7371953
+   ],
+   [
+    23.5876229,
+    46.7371991
+   ],
+   [
+    23.5877075,
+    46.7370404
+   ],
+   [
+    23.5877635,
+    46.7369222
+   ],
+   [
+    23.5877826,
+    46.7368815
+   ],
+   [
+    23.5877938,
+    46.7368529
+   ],
+   [
+    23.5877769,
+    46.736849
+   ],
+   [
+    23.5875611,
+    46.7367988
+   ],
+   [
+    23.587285,
+    46.7367355
+   ],
+   [
+    23.5867476,
+    46.7366109
+   ],
+   [
+    23.5865049,
+    46.7365545
+   ],
+   [
+    23.5856883,
+    46.7363648
+   ],
+   [
+    23.5854838,
+    46.7363173
+   ],
+   [
+    23.5852601,
+    46.7365756
+   ],
+   [
+    23.5855361,
+    46.7366461
+   ],
+   [
+    23.5857844,
+    46.7367103
+   ],
+   [
+    23.5857804,
+    46.7367178
+   ],
+   [
+    23.5860285,
+    46.7367824
+   ],
+   [
+    23.5862369,
+    46.7368359
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.12
+  },
+  "legenda": "puz/2026-195/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-05-19"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa nu dă regimul de înălțime; hotărârea (Art. 1) admite cel mult trei niveluri supraterane – D+P+M, D+P+R, (S)+P+E+R sau (S)+P+E+M – cu înălțimea maximă de 8 m la cornișă sau la aticul ultimului nivel neretras și de 12 m la coamă sau la aticul nivelului retras.",
+   "Planșa propune 2 locuri de parcare pe fiecare din cele 10 parcele și 3 locuri pentru vizitatori, 23 în total; hotărârea cere, în interiorul parcelelor, minimum un loc pentru clădirile cu AU sub 100 mp și două pentru cele peste 100 mp, fără locuri pentru vizitatori.",
+   "Planșa arată perimetrele construibile retrase cu 3 m față de limitele laterale; hotărârea permite în plus ca garajele, inclusiv cele din corpul principal, să fie alipite limitelor laterale dacă înălțimea calcanului nu depășește 2,8 m, și le cere retrase cu minimum 6 m de la aliniament și de la limita posterioară.",
+   "Tabelul de indici al planșei numește zona „U.T.R. Liu”; legenda planșei și hotărârea o numesc „UTR Liu*”. P.O.T. 35% și C.U.T. 0,9 sunt aceleași."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcele, terenul necesar regularizării str. Eugen Ionesco (132 mp pe planșă) se dezmembrează din parcela inițială, se înscrie în CF ca „drum” și se aduce la strat de uzură, pe baza unui proiect autorizat.",
+   "Tot înainte de autorizații, strada nouă de 9 m ampriză (cu loc de întoarcere, desprinsă din str. Eugen Ionesco) se înscrie în CF ca „drum”, se echipează edilitar (inclusiv rețea pluvială și iluminat stradal) și se aduce la strat de uzură, pe baza unui proiect autorizat; strada are acces public nelimitat.",
+   "Accesul la parcele se face numai din strada nouă: un singur acces pietonal și un singur acces carosabil pe parcelă, cel carosabil de cel mult 6 m lățime; pentru circulațiile din interiorul parcelelor se recomandă pavimente permeabile.",
+   "Retrageri: 5 m față de aliniament (la parcelele de colț față de ambele aliniamente), garajele la minimum 6 m; minimum 3 m față de limitele laterale, cu garajele putând fi alipite acestora dacă calcanul nu depășește 2,8 m; față de limita posterioară cel puțin înălțimea clădirii, minimum 6 m (garajele minimum 6 m).",
+   "Parcarea se face în interiorul parcelelor: minimum un loc pentru clădiri cu AU sub 100 mp și două pentru clădiri cu AU peste 100 mp.",
+   "Toate clădirile se racordează la rețelele edilitare; apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian; fiecare imobil are un spațiu pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+   "Pentru terenul încadrat în U.T.R. VPr rămân prevederile R.L.U. al P.U.G.",
+   "Toate investițiile propuse prin documentație sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

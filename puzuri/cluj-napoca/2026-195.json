@@ -1,0 +1,253 @@
+{
+  "id": "2026-195",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 195,
+    "an": 2026,
+    "data_sedinta": "2026-05-19",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-195-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-195.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Eugen Ionesco – vest",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 300,
+    "denumire": "U03 Reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 10 e copia anexată hotărârii (A3, 200 ppi, ștampilată „Anexa 2 la Hotărârea nr. 195/2026” și semnată), iar p. 17 e aceeași planșă U03, color, la 300 ppi și la mărimea originalului (982x594 mm), cu viza „spre neschimbare” a Arhitectului-șef și mențiunea de mână „H.C.L. nr. 195 din 19 mai 2026”; s-a folosit p. 17, mai clară. P. 16 e extrasul din P.U.G. Planșa e tipărită foarte puțin micșorată: 23,4-23,5 px/m în loc de 23,62 px/m cât ar da 1:500 la 300 ppi (~99 %); nordul e în sus. Pe desen, linia roșie punctată a limitei zonei reglementate și linia neagră groasă a limitei UTR sunt trase la ~1,5 m în afara conturului din inventar și nu îi urmează exact frângerile; conturul din inventar e linia roșie subțire (cu lungimile laturilor scrise cu roz de-a lungul ei, de ex. „20,27m”, „15,29m”, „4,75m”) care mărginește zona galbenă Liu* la nord și la vest, linia roșie subțire de la marginea de sud a străzii noi și marginea dinspre stradă a fâșiei hașurate cu roșu (teren pentru lărgirea str. Eugen Ionesco). Legenda cuprinde cheia simbolurilor (limite, zonificare funcțională, reglementări), indicii urbanistici (U.T.R. Liu: P.O.T. 35%, C.U.T. 0,9) și nota despre accesele auto; profilele stradale, bilanțul teritorial, tabelul cu suprafețele de cedat, calculul locurilor de parcare, inventarul de coordonate, tabelul cu cărțile funciare și cartușul au rămas afară. Bilanțul teritorial: existent ULiu 6153 mp, VPr 8 mp, tramă stradală 803 mp; propus Liu* 5089 mp, VPr 8 mp, tramă stradală de interes local 1735 mp, teren pentru lărgirea str. Eugen Ionesco 132 mp; total 6964 mp. Planșa desenează 10 parcele de 459-578 mp, cu acces din strada nouă P1 de 9 m."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U03 („Coordonate pct. de contur”, 25 de puncte, coloanele Y [m] (Est) și X [m] (Nord), transcrise ca [Nord, Est], cu lungimile laturilor D(i,i+1); S=6963,88 mp, fără perimetru). Ordinea numerică e ordinea conturului. Colțurile alese sunt intersecții de drepte potrivite pe pixelii liniilor conturului: 20 (colțul de NV: latura de nord și cea de vest ale zonei galbene), 19 (colțul de SV: latura de vest și linia roșie subțire de la marginea de sud a străzii noi, ascunsă aici sub linia neagră a UTR), 8 (colțul de NE: latura de nord prelungită și marginea de est a fâșiei de lărgire) și 12 (colțul de SE al fâșiei de lărgire). Verificare: 22 și 23 (treapta de 0,9 m a laturii de nord, vizibilă în linia roșie) și 3 (treapta de 0,2 m de lângă punctul 2). Celelalte puncte stau pe aliniamente sau în frângeri sub 1° și nu pot fi localizate de-a lungul liniei; treptele 22/23 și 2/3 se văd pe linie exact unde le pune potrivirea, iar frângerea de 0,9° de la 6 cade aproape de ea. Potrivirea dă cotele planșei înapoi: linia de lot cotată 30,655 m iese 30,656 m, retragerea de 6,00 m iese 6,00 m. Verificare pe imaginea satelitară, cu planșa întreagă (nedecupată) suprapusă: limitele de parcelă și casele de la nord și carosabilul str. Eugen Ionesco (6,92-7,07 m între borduri pe planșă) cad peste cele reale la 1-2 m.",
+    "suprafata_declarata_m2": 6963.88,
+    "puncte": {
+      "1": [
+        582888.135,
+        392110.309
+      ],
+      "2": [
+        582893.229,
+        392124.728
+      ],
+      "3": [
+        582893.2,
+        392125.229
+      ],
+      "4": [
+        582894.058,
+        392127.626
+      ],
+      "5": [
+        582900.122,
+        392144.565
+      ],
+      "6": [
+        582905.846,
+        392160.556
+      ],
+      "7": [
+        582920.499,
+        392199.651
+      ],
+      "8": [
+        582920.898,
+        392200.775
+      ],
+      "9": [
+        582903.155,
+        392206.922
+      ],
+      "10": [
+        582889.937,
+        392210.967
+      ],
+      "11": [
+        582885.392,
+        392212.346
+      ],
+      "12": [
+        582882.199,
+        392213.143
+      ],
+      "13": [
+        582881.786,
+        392211.847
+      ],
+      "14": [
+        582876.498,
+        392195.253
+      ],
+      "15": [
+        582869.843,
+        392174.037
+      ],
+      "16": [
+        582856.723,
+        392132.731
+      ],
+      "17": [
+        582850.79,
+        392114.07
+      ],
+      "18": [
+        582830.824,
+        392051.302
+      ],
+      "19": [
+        582825.822,
+        392035.579
+      ],
+      "20": [
+        582854.834,
+        392019.004
+      ],
+      "21": [
+        582862.291,
+        392040.228
+      ],
+      "22": [
+        582869.088,
+        392059.332
+      ],
+      "23": [
+        582869.934,
+        392059.038
+      ],
+      "24": [
+        582876.764,
+        392078.126
+      ],
+      "25": [
+        582882.427,
+        392094.153
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 15.292,
+      "2": 0.502,
+      "3": 2.546,
+      "4": 17.992,
+      "5": 16.985,
+      "6": 41.751,
+      "7": 1.193,
+      "8": 18.778,
+      "9": 13.823,
+      "10": 4.75,
+      "11": 3.291,
+      "12": 1.36,
+      "13": 17.416,
+      "14": 22.235,
+      "15": 43.34,
+      "16": 19.581,
+      "17": 65.867,
+      "18": 16.499,
+      "19": 33.413,
+      "20": 22.496,
+      "21": 20.277,
+      "22": 0.896,
+      "23": 20.273,
+      "24": 16.998,
+      "25": 17.135
+    }
+  },
+  "gcp_px": {
+    "20": [
+      3807.2,
+      4441.4
+    ],
+    "19": [
+      4196.0,
+      5115.0
+    ],
+    "12": [
+      8369.0,
+      3799.0
+    ],
+    "8": [
+      8087.4,
+      2890.5
+    ]
+  },
+  "verificare_px": {
+    "22": [
+      4759.0,
+      4107.0
+    ],
+    "23": [
+      4752.0,
+      4086.0
+    ],
+    "3": [
+      6307.0,
+      3540.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      9480,
+      255,
+      11150,
+      342
+    ],
+    [
+      9480,
+      342,
+      11440,
+      2700
+    ],
+    [
+      9480,
+      5025,
+      10900,
+      5335
+    ],
+    [
+      9400,
+      6295,
+      11200,
+      6362
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective (familiale), cu cel mult două unități locative suprapuse sau alipite, și anexele lor; semicolectivele doar pe parcele de minimum 450 mp; regim de construire izolat (5089 mp după bilanțul planșei, 10 parcele de 459-578 mp pe planșă)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: D+P+M, D+P+R, (S)+P+E+R, (S)+P+E+M"
+    },
+    {
+      "cod": "VPr",
+      "denumire": "Zonă verde de protecție față de infrastructura majoră (8 mp după bilanțul planșei); rămân prevederile R.L.U. al P.U.G."
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-05-19",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa nu dă regimul de înălțime; hotărârea (Art. 1) admite cel mult trei niveluri supraterane – D+P+M, D+P+R, (S)+P+E+R sau (S)+P+E+M – cu înălțimea maximă de 8 m la cornișă sau la aticul ultimului nivel neretras și de 12 m la coamă sau la aticul nivelului retras.",
+    "Planșa propune 2 locuri de parcare pe fiecare din cele 10 parcele și 3 locuri pentru vizitatori, 23 în total; hotărârea cere, în interiorul parcelelor, minimum un loc pentru clădirile cu AU sub 100 mp și două pentru cele peste 100 mp, fără locuri pentru vizitatori.",
+    "Planșa arată perimetrele construibile retrase cu 3 m față de limitele laterale; hotărârea permite în plus ca garajele, inclusiv cele din corpul principal, să fie alipite limitelor laterale dacă înălțimea calcanului nu depășește 2,8 m, și le cere retrase cu minimum 6 m de la aliniament și de la limita posterioară.",
+    "Tabelul de indici al planșei numește zona „U.T.R. Liu”; legenda planșei și hotărârea o numesc „UTR Liu*”. P.O.T. 35% și C.U.T. 0,9 sunt aceleași."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcele, terenul necesar regularizării str. Eugen Ionesco (132 mp pe planșă) se dezmembrează din parcela inițială, se înscrie în CF ca „drum” și se aduce la strat de uzură, pe baza unui proiect autorizat.",
+    "Tot înainte de autorizații, strada nouă de 9 m ampriză (cu loc de întoarcere, desprinsă din str. Eugen Ionesco) se înscrie în CF ca „drum”, se echipează edilitar (inclusiv rețea pluvială și iluminat stradal) și se aduce la strat de uzură, pe baza unui proiect autorizat; strada are acces public nelimitat.",
+    "Accesul la parcele se face numai din strada nouă: un singur acces pietonal și un singur acces carosabil pe parcelă, cel carosabil de cel mult 6 m lățime; pentru circulațiile din interiorul parcelelor se recomandă pavimente permeabile.",
+    "Retrageri: 5 m față de aliniament (la parcelele de colț față de ambele aliniamente), garajele la minimum 6 m; minimum 3 m față de limitele laterale, cu garajele putând fi alipite acestora dacă calcanul nu depășește 2,8 m; față de limita posterioară cel puțin înălțimea clădirii, minimum 6 m (garajele minimum 6 m).",
+    "Parcarea se face în interiorul parcelelor: minimum un loc pentru clădiri cu AU sub 100 mp și două pentru clădiri cu AU peste 100 mp.",
+    "Toate clădirile se racordează la rețelele edilitare; apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian; fiecare imobil are un spațiu pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+    "Pentru terenul încadrat în U.T.R. VPr rămân prevederile R.L.U. al P.U.G.",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiari."
+  ],
+  "hotarare_text": "documente/2026-195/hotarare.txt"
+}
