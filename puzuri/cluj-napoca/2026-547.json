@@ -1,0 +1,340 @@
+{
+  "id": "2026-547",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 547,
+    "an": 2026,
+    "data_sedinta": "2026-08-06",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-547-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/547.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar în zonă rezidențială, str. Borhanciului – nord",
+  "plansa": {
+    "pagina_pdf": 3,
+    "dpi": 300,
+    "denumire": "Plan de reglementări urbanistice – Zonificare (planșa U04)",
+    "scara": "1:500",
+    "nota": "Planșa e singura din PDF: p. 3 (A3, scanare 300 ppi, pagina rotită cu 90°), ștampilată „Anexa nr. 1 la Hotărârea nr. 547/2026”, deși hotărârea pune planșa U04 în Anexa 2 (Anexa 1 e regulamentul, p. 4-14); p. 1-2 sunt hotărârea. Cartușul: „Plan de reglementări urbanistice – Zonificare”, planșa U04, faza P.U.Z., scara 1:500; tipărită redus pe A3, imaginea are 12,1 px/m (~1:780 la 300 ppi). Desenul e orientat cu nordul în sus (rotație -0,4° față de Stereo 70). Zona reglementată (7.200,48 mp) cuprinde subzona S_Et_P (6.862,11 mp) și fâșia de 338,37 mp rezervată lărgirii str. Borhanciului, hașurată oblic de-a lungul străzii. Legenda cuprinde cheia simbolurilor și tabelul „Bilanț teritorial existent și propus”, păstrat pentru că e singurul loc de pe planșă cu indicatorii U.T.R. (funcțiune, P.O.T., C.U.T., regim și înălțimi, retrageri) pentru ULiu existent și S_Et_P propus; au rămas afară tabelul proprietarilor, inventarul de coordonate, bilanțul parcărilor, bilanțul funcțiunilor propuse (numai suprafețe), secțiunea caracteristică a străzii, semnăturile și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă: tabelul „Coordonate puncte de contur (STEREO70)”, 26 de puncte în ordinea conturului, cu lungimile laturilor D(i,i+1) și perimetrul (460,990 m). Coloanele sunt etichetate invers: „x (m)” conține Estul (395.xxx), „y (m)” Nordul (584.xxx); transcrise aici ca [Nord, Est]. Planșa are și caroiajul Stereo 70 la 50 m, cu cruci etichetate (x = Est, y = Nord, la fel de inversat), legate de desen: conturul prezis numai din cruci cade pe limita desenată. Puncte de control: crucile 395350/584750, 395350/584700, 395400/584800, 395450/584700, 395550/584800, 395550/584700 (repere) și vârfurile 9 (vârful estic), 24, 18 și 14 (unde liniile cadastrale punctate ale loturilor vecine întâlnesc limita nordică). Puncte de verificare: crucile 395400/584750, 395400/584700, 395550/584750, 395450/584800, 395500/584800 și vârfurile 1 (vârful vestic), 15, 16, 20, 22. Latura sud-vestică (1-8) e marginea dinspre stradă a fâșiei de lărgire; vârful sudic 8 și treptele de sub 1 m (2-3, 4-5) se pierd în hașura drumului și nu s-au folosit.",
+    "suprafata_declarata_m2": 7200.48,
+    "puncte": {
+      "1": [
+        584801.029,
+        395359.32
+      ],
+      "2": [
+        584759.361,
+        395423.345
+      ],
+      "3": [
+        584759.993,
+        395423.868
+      ],
+      "4": [
+        584747.239,
+        395443.507
+      ],
+      "5": [
+        584746.602,
+        395442.95
+      ],
+      "6": [
+        584734.399,
+        395461.611
+      ],
+      "7": [
+        584724.1,
+        395477.36
+      ],
+      "8": [
+        584706.74,
+        395503.99
+      ],
+      "9": [
+        584770.4,
+        395559.2
+      ],
+      "10": [
+        584775.98,
+        395522.699
+      ],
+      "11": [
+        584776.046,
+        395522.757
+      ],
+      "12": [
+        584779.421,
+        395500.957
+      ],
+      "13": [
+        584783.421,
+        395475.127
+      ],
+      "14": [
+        584784.299,
+        395469.46
+      ],
+      "15": [
+        584785.982,
+        395458.59
+      ],
+      "16": [
+        584787.664,
+        395447.719
+      ],
+      "17": [
+        584787.795,
+        395446.853
+      ],
+      "18": [
+        584789.309,
+        395436.843
+      ],
+      "19": [
+        584790.953,
+        395425.966
+      ],
+      "20": [
+        584792.598,
+        395415.09
+      ],
+      "21": [
+        584794.242,
+        395404.214
+      ],
+      "22": [
+        584795.886,
+        395393.337
+      ],
+      "23": [
+        584797.531,
+        395382.461
+      ],
+      "24": [
+        584799.175,
+        395371.584
+      ],
+      "25": [
+        584800.297,
+        395364.163
+      ],
+      "26": [
+        584800.411,
+        395363.41
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 76.39,
+      "2": 0.82,
+      "3": 23.417,
+      "4": 0.846,
+      "5": 22.297,
+      "6": 18.818,
+      "7": 31.789,
+      "8": 84.266,
+      "9": 36.925,
+      "10": 0.088,
+      "11": 22.06,
+      "12": 26.138,
+      "13": 5.735,
+      "14": 11.0,
+      "15": 11.0,
+      "16": 0.876,
+      "17": 10.124,
+      "18": 11.001,
+      "19": 11.0,
+      "20": 11.0,
+      "21": 11.001,
+      "22": 11.0,
+      "23": 11.001,
+      "24": 7.505,
+      "25": 0.762,
+      "26": 4.136
+    },
+    "perimetru_declarat_m": 460.99
+  },
+  "gcp_px": {
+    "C395350_584750": [
+      1611,
+      1965.5
+    ],
+    "C395350_584700": [
+      1615,
+      2575
+    ],
+    "C395400_584800": [
+      2215,
+      1352
+    ],
+    "C395450_584700": [
+      2827.5,
+      2566
+    ],
+    "C395550_584800": [
+      4029,
+      1340
+    ],
+    "C395550_584700": [
+      4038,
+      2557
+    ],
+    "9": [
+      4142,
+      1698
+    ],
+    "24": [
+      1873,
+      1362
+    ],
+    "14": [
+      3060,
+      1534
+    ],
+    "18": [
+      2665,
+      1476
+    ]
+  },
+  "verificare_px": {
+    "C395400_584750": [
+      2220,
+      1962
+    ],
+    "C395400_584700": [
+      2224,
+      2571
+    ],
+    "C395550_584750": [
+      4034,
+      1948
+    ],
+    "C395450_584800": [
+      2818,
+      1348
+    ],
+    "C395500_584800": [
+      3425,
+      1343
+    ],
+    "16": [
+      2797,
+      1496
+    ],
+    "20": [
+      2400,
+      1438
+    ],
+    "22": [
+      2138,
+      1400
+    ],
+    "15": [
+      2928,
+      1518
+    ],
+    "1": [
+      1722,
+      1341
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      4398,
+      495,
+      4852,
+      1348
+    ],
+    [
+      172,
+      1728,
+      1221,
+      2998
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Et_P",
+      "denumire": "Subzonă de activități economice cu caracter terțiar situată în zonă rezidențială: comerț, alimentație publică, servicii cu acces public, servicii profesionale, financiar-bancare; regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "(S)+P+E; 8 m la cornișă, 12 m total"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-08-06",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime în S_Et_P: hotărârea (Art. 1) dă (S)+P+E, două niveluri supraterane cu subsol opțional; tabelul de pe planșă dă „P; P+1E”, fără subsol. Înălțimile (8 m la cornișă, 12 m total, pe planșă „H max coamă”), P.O.T. 35% și C.U.T. 0,9 sunt aceleași.",
+    "Retragerile față de limitele laterale și posterioară: hotărârea cere cel puțin jumătate din înălțimea clădirii, dar minimum 4,5 m; tabelul de pe planșă dă 4,5 m față de limitele laterale și lasă fără valoare retragerea față de limita posterioară. Retragerea de 3 m față de aliniament e aceeași."
+  ],
+  "conditii": [
+    "Terenul necesar regularizării str. Borhanciului (pe planșă, fâșia de 338,37 mp) se dezmembrează din parcelă și se înscrie în C.F. ca „drum” înainte de emiterea autorizației de construire; până la recepția construcțiilor se aduce la strat de uzură și se transferă în domeniul public.",
+    "Prin grija și pe cheltuiala beneficiarului, conform avizului Serviciului Siguranța circulației: proiectele și execuția pentru amenajarea și asfaltarea străzilor propuse prin P.U.Z., o alveolă pentru stația de transport în comun cu copertină (ca pe străzile modernizate recent), semaforizarea cu buton a trecerilor de pietoni, semnalizarea rutieră orizontală și verticală (cu avizul Poliției rutiere), rețeaua pluvială, rețelele edilitare și iluminatul public.",
+    "Semaforizarea cu buton a celor două treceri de pietoni de pe str. Borhanciului din apropierea amplasamentului.",
+    "Arbori plantați între parcările de la sol și un aliniament de arbori înalți pe latura nordică a parcelei, spre parcelele de locuințe, ca protecție fonică.",
+    "Desființarea pragului de sol existent pe str. Borhanciului, la intersecția cu str. Regina Maria.",
+    "Lucrările și amenajările de mai sus se execută până la recepția construcțiilor de pe parcelă.",
+    "La faza D.T.A.C., proiectul se avizează în Comisia de estetică urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+    "Accesul se face din str. Borhanciului; parcarea se organizează în interiorul parcelei, de regulă la sol, cu necesarul calculat după Anexa 2 a Regulamentului local de urbanism al P.U.G.; pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+    "Racord la rețelele publice; apele pluviale nu se dirijează spre domeniul public sau spre parcelele vecine; branșamentele și contoarele se integrează în împrejmuiri sau în clădiri din incintă; cablurile nu se montează aerian pe spațiul public; un spațiu în interiorul parcelei, accesibil din spațiul public, pentru colectarea selectivă a deșeurilor pe 5 fracții."
+  ],
+  "repere": {
+    "C395400_584800": [
+      584800.0,
+      395400.0
+    ],
+    "C395450_584800": [
+      584800.0,
+      395450.0
+    ],
+    "C395500_584800": [
+      584800.0,
+      395500.0
+    ],
+    "C395550_584800": [
+      584800.0,
+      395550.0
+    ],
+    "C395350_584700": [
+      584700.0,
+      395350.0
+    ],
+    "C395350_584750": [
+      584750.0,
+      395350.0
+    ],
+    "C395400_584700": [
+      584700.0,
+      395400.0
+    ],
+    "C395400_584750": [
+      584750.0,
+      395400.0
+    ],
+    "C395450_584700": [
+      584700.0,
+      395450.0
+    ],
+    "C395550_584700": [
+      584700.0,
+      395550.0
+    ],
+    "C395550_584750": [
+      584750.0,
+      395550.0
+    ]
+  }
+}

@@ -2433,6 +2433,164 @@
   ]
  },
  {
+  "id": "2026-547",
+  "localitate": "cluj",
+  "hcl": "547/2026",
+  "data": "2026-08-06",
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar în zonă rezidențială, str. Borhanciului – nord",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-547-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/547.pdf",
+  "utr": [
+   {
+    "cod": "S_Et_P",
+    "denumire": "Subzonă de activități economice cu caracter terțiar situată în zonă rezidențială: comerț, alimentație publică, servicii cu acces public, servicii profesionale, financiar-bancare; regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "(S)+P+E; 8 m la cornișă, 12 m total"
+   }
+  ],
+  "suprafata_m2": 7200,
+  "imagine": "puz/2026-547/plansa.webp",
+  "bounds": {
+   "west": 23.6284359,
+   "south": 46.7537437,
+   "east": 23.6311995,
+   "north": 46.7546656
+  },
+  "limita": [
+   [
+    23.6285231,
+    46.7546113
+   ],
+   [
+    23.6293705,
+    46.7542465
+   ],
+   [
+    23.6293772,
+    46.7542523
+   ],
+   [
+    23.6296372,
+    46.7541406
+   ],
+   [
+    23.62963,
+    46.7541348
+   ],
+   [
+    23.629877,
+    46.7540279
+   ],
+   [
+    23.6300855,
+    46.7539377
+   ],
+   [
+    23.6304379,
+    46.7537857
+   ],
+   [
+    23.6311461,
+    46.754367
+   ],
+   [
+    23.6306671,
+    46.7544115
+   ],
+   [
+    23.6306679,
+    46.7544121
+   ],
+   [
+    23.6303818,
+    46.754439
+   ],
+   [
+    23.6300428,
+    46.754471
+   ],
+   [
+    23.6299684,
+    46.754478
+   ],
+   [
+    23.6298258,
+    46.7544915
+   ],
+   [
+    23.6296831,
+    46.7545049
+   ],
+   [
+    23.6296718,
+    46.7545059
+   ],
+   [
+    23.6295404,
+    46.754518
+   ],
+   [
+    23.6293977,
+    46.7545311
+   ],
+   [
+    23.629255,
+    46.7545442
+   ],
+   [
+    23.6291122,
+    46.7545573
+   ],
+   [
+    23.6289695,
+    46.7545704
+   ],
+   [
+    23.6288268,
+    46.7545835
+   ],
+   [
+    23.628684,
+    46.7545966
+   ],
+   [
+    23.6285867,
+    46.7546055
+   ],
+   [
+    23.6285768,
+    46.7546064
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 10,
+   "rms_m": 0.19
+  },
+  "legenda": "puz/2026-547/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-08-06"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime în S_Et_P: hotărârea (Art. 1) dă (S)+P+E, două niveluri supraterane cu subsol opțional; tabelul de pe planșă dă „P; P+1E”, fără subsol. Înălțimile (8 m la cornișă, 12 m total, pe planșă „H max coamă”), P.O.T. 35% și C.U.T. 0,9 sunt aceleași.",
+   "Retragerile față de limitele laterale și posterioară: hotărârea cere cel puțin jumătate din înălțimea clădirii, dar minimum 4,5 m; tabelul de pe planșă dă 4,5 m față de limitele laterale și lasă fără valoare retragerea față de limita posterioară. Retragerea de 3 m față de aliniament e aceeași."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării str. Borhanciului (pe planșă, fâșia de 338,37 mp) se dezmembrează din parcelă și se înscrie în C.F. ca „drum” înainte de emiterea autorizației de construire; până la recepția construcțiilor se aduce la strat de uzură și se transferă în domeniul public.",
+   "Prin grija și pe cheltuiala beneficiarului, conform avizului Serviciului Siguranța circulației: proiectele și execuția pentru amenajarea și asfaltarea străzilor propuse prin P.U.Z., o alveolă pentru stația de transport în comun cu copertină (ca pe străzile modernizate recent), semaforizarea cu buton a trecerilor de pietoni, semnalizarea rutieră orizontală și verticală (cu avizul Poliției rutiere), rețeaua pluvială, rețelele edilitare și iluminatul public.",
+   "Semaforizarea cu buton a celor două treceri de pietoni de pe str. Borhanciului din apropierea amplasamentului.",
+   "Arbori plantați între parcările de la sol și un aliniament de arbori înalți pe latura nordică a parcelei, spre parcelele de locuințe, ca protecție fonică.",
+   "Desființarea pragului de sol existent pe str. Borhanciului, la intersecția cu str. Regina Maria.",
+   "Lucrările și amenajările de mai sus se execută până la recepția construcțiilor de pe parcelă.",
+   "La faza D.T.A.C., proiectul se avizează în Comisia de estetică urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+   "Accesul se face din str. Borhanciului; parcarea se organizează în interiorul parcelei, de regulă la sol, cu necesarul calculat după Anexa 2 a Regulamentului local de urbanism al P.U.G.; pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+   "Racord la rețelele publice; apele pluviale nu se dirijează spre domeniul public sau spre parcelele vecine; branșamentele și contoarele se integrează în împrejmuiri sau în clădiri din incintă; cablurile nu se montează aerian pe spațiul public; un spațiu în interiorul parcelei, accesibil din spațiul public, pentru colectarea selectivă a deșeurilor pe 5 fracții."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
