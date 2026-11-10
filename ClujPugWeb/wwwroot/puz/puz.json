@@ -2922,6 +2922,227 @@
   ]
  },
  {
+  "id": "2026-497",
+  "localitate": "cluj",
+  "hcl": "497/2026",
+  "data": "2026-07-09",
+  "titlu": "P.U.Z. dezvoltare complex turistic și de agrement, Drumul Sf. Ioan – vest",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-497-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-497.pdf",
+  "utr": [
+   {
+    "cod": "Aapp*",
+    "denumire": "Zonă de agrement pentru public: alimentație publică, cazare turistică (pensiuni, vile turistice, camping), picnic, sport în aer liber, echitație, amenajări pentru activități în aer liber, alei, parcaje, edicule; regim de construire deschis (pe planșă două parcele, de 15.903,36 mp și 10.317,71 mp după lărgirea drumului)",
+    "pot_max": "10%",
+    "cut_max": "0,25",
+    "h_max": "12 m la coamă sau la aticul etajului retras, 10 m la cornișă sau la aticul etajului neretras; trei niveluri supraterane: (S)+P+1+R"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport în aer liber, edicule, amenajări peisagere și hidrotehnice (pe planșă 58,96 mp, o fâșie îngustă pe latura de vest, spre valea Gârbăului)",
+    "pot_max": "1%",
+    "cut_max": "0,01",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 26570,
+  "imagine": "puz/2026-497/plansa.webp",
+  "bounds": {
+   "west": 23.5325319,
+   "south": 46.7423705,
+   "east": 23.5349206,
+   "north": 46.7441481
+  },
+  "limita": [
+   [
+    23.5334318,
+    46.7424246
+   ],
+   [
+    23.5342081,
+    46.7424792
+   ],
+   [
+    23.5342098,
+    46.7424655
+   ],
+   [
+    23.5344348,
+    46.7424809
+   ],
+   [
+    23.5347202,
+    46.7425009
+   ],
+   [
+    23.5348926,
+    46.742512
+   ],
+   [
+    23.5347367,
+    46.7429348
+   ],
+   [
+    23.5346644,
+    46.743131
+   ],
+   [
+    23.5346743,
+    46.7431369
+   ],
+   [
+    23.5346715,
+    46.7431638
+   ],
+   [
+    23.53466,
+    46.743273
+   ],
+   [
+    23.5346572,
+    46.7432999
+   ],
+   [
+    23.5346427,
+    46.7434578
+   ],
+   [
+    23.5346806,
+    46.7434603
+   ],
+   [
+    23.5347132,
+    46.7436231
+   ],
+   [
+    23.5347247,
+    46.7436514
+   ],
+   [
+    23.5347758,
+    46.7437768
+   ],
+   [
+    23.5346493,
+    46.7437719
+   ],
+   [
+    23.5347309,
+    46.7439194
+   ],
+   [
+    23.5344807,
+    46.7439025
+   ],
+   [
+    23.5341493,
+    46.7440157
+   ],
+   [
+    23.5332918,
+    46.743961
+   ],
+   [
+    23.5332709,
+    46.7441132
+   ],
+   [
+    23.5326193,
+    46.7440717
+   ],
+   [
+    23.5326399,
+    46.7439194
+   ],
+   [
+    23.5325602,
+    46.7439143
+   ],
+   [
+    23.5325961,
+    46.7437751
+   ],
+   [
+    23.5326303,
+    46.7436359
+   ],
+   [
+    23.5326707,
+    46.7436387
+   ],
+   [
+    23.5326921,
+    46.7434733
+   ],
+   [
+    23.532676,
+    46.7434721
+   ],
+   [
+    23.5327159,
+    46.7433213
+   ],
+   [
+    23.5327461,
+    46.7431729
+   ],
+   [
+    23.532749,
+    46.7430007
+   ],
+   [
+    23.5327802,
+    46.7430029
+   ],
+   [
+    23.5327888,
+    46.7428629
+   ],
+   [
+    23.5328063,
+    46.7426257
+   ],
+   [
+    23.5328821,
+    46.7424608
+   ],
+   [
+    23.5329325,
+    46.7423895
+   ],
+   [
+    23.5333629,
+    46.7424198
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 8,
+   "rms_m": 0.03
+  },
+  "legenda": "puz/2026-497/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-07-09"
+  },
+  "diferente_fata_de_plansa": [
+   "U.T.R. Ve: eticheta de pe planșă dă CUT max = 0,1; hotărârea (Art. 1) și regulamentul local (Anexa 1, 4.2) dau CUT max = 0,01. POT max = 1% e același peste tot.",
+   "Caseta „Caracteristicile construcției” a parcelei 1 dă regimul de înălțime „2Sp+P+1 / S+P+R” (2Sp se citește de obicei ca două subsoluri parțiale); hotărârea scrie regimul maxim (S)+P+1+R, cu S – subsol. Înălțimile din casetă (8,20 m la cornișă, 9,70 m la coamă/atic) sunt sub limitele de 10 m și 12 m."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii și modernizării Drumului Sfântul Ioan (inclusiv pentru o alveolă de transport în comun), după planșa U2, se dezmembrează din parcelele inițiale și se înscrie în C.F. ca „drum” înainte de autorizația de construire pe parcelă; până la recepția lucrărilor se aduce la strat de uzură.",
+   "Alveola stației de transport în comun are copertină (condiție din avizul nr. 821838/446/2025 al Serviciului Siguranța circulației).",
+   "Lărgirea și amenajarea Drumului Sfântul Ioan se fac pe baza unui proiect de specialitate, supus autorizării, după NP 24/2022, NP 051/2012, Legea nr. 101/2020 și Legea nr. 280/2023; planul de semnalizare rutieră orizontală și verticală se avizează de Serviciul Siguranța circulației și de Poliția rutieră.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Aapp*: clădirile se retrag cel puțin 8 m de la aliniament (Drumul Sfântul Ioan regularizat după P.U.G.) și cel puțin 6 m de la limitele laterale și posterioare de proprietate; între două clădiri de pe aceeași parcelă, cel puțin înălțimea celei mai înalte, minimum 4,5 m (6 m dacă încăperi principale dau spre spațiul dintre ele).",
+   "Aapp*: o parcelă e construibilă dacă are front la stradă de cel puțin 30 m și suprafața de cel puțin 2.000 mp; pe fiecare parcelă, spațiile verzi pe sol natural ocupă cel puțin 60% (regulamentul local, Anexa 1).",
+   "Accesul auto și pietonal se face din Drumul Sfântul Ioan, cu avizul administratorului drumului; pentru aleile și drumurile din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Parcarea se face numai în interiorul parcelelor, de regulă la sol, cu necesarul din Anexa 2 a Regulamentului Local de Urbanism (însumat pe funcțiuni); vehiculele de marfă și cele care nu sunt autoturisme staționează numai în incinte. În zona verde Ve parcarea e interzisă.",
+   "Racordarea la rețelele publice e obligatorie; unde nu există canalizare publică, apele uzate se epurează în sisteme individuale. Apele pluviale se rețin sau se acumulează și se evacuează în emisari locali, cu debitele din avizul Apelor Române (A.B.A. Someș-Tisa); nu se dirijează spre domeniul public sau spre vecini.",
+   "Cablurile de orice fel se pun în subteran; firidele de branșament și contorizare se integrează în împrejmuire; fiecare parcelă are o platformă pentru deșeuri menajere, accesibilă din domeniul public."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

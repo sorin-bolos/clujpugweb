@@ -1,0 +1,418 @@
+{
+  "id": "2026-497",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 497,
+    "an": 2026,
+    "data_sedinta": "2026-07-09",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-497-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-497.pdf"
+  },
+  "titlu": "P.U.Z. dezvoltare complex turistic și de agrement, Drumul Sf. Ioan – vest",
+  "plansa": {
+    "pagina_pdf": 25,
+    "dpi": 200,
+    "denumire": "Reglementări urbanistice (planșa U2)",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 16 (A3, scanare redusă la 200 ppi, ștampilată „Anexa 2 la Hotărârea nr. 497/2026” și semnată) și p. 25 (format mare, color, 200 ppi, 4674×8913 px, tipărită culcat, cu ștampila „Vizat spre neschimbare” a avizului Arhitectului șef nr. 191/18.12.2025 și mențiunea de mână „HCL nr. 497 din 9.07.2026”); s-a folosit p. 25, mai clară. Pp. 1-2 sunt hotărârea, pp. 3-15 regulamentul local de urbanism (Anexa 1), p. 17 planșa U5 „Mobilare urbanistică” (Anexa 3, A3), p. 26 aceeași planșă U5 în format mare, pp. 18-21 avizul Arhitectului șef nr. 191/18.12.2025, pp. 22-24 avizul de oportunitate nr. 27/8.04.2025 cu extrasul din P.U.G., pp. 27-28 raportul informării și consultării publicului. Cartușul: proiect 263/2020, faza P.U.Z., aprilie 2026, planșa U2 „Reglementări urbanistice”, scara 1:500 (1:200 pentru profilele stradale). Scara imaginii: 15,7 px/m (1:500 la 200 ppi ar da 15,75 px/m); planșa e rotită cu 90° în PDF (nordul spre stânga, rotație -89,9° față de Stereo 70). Legenda cuprinde cheia simbolurilor, eticheta U.T.R. Aapp* din desen, tabelul „Reglementări urbanistice U.T.R. Aapp*” (POT, CUT, spații verzi, înălțimi, regim de înălțime) și eticheta U.T.R. Ve (din colțul de sud-vest al planșei); casetele sunt întoarse cu 90° ca să se citească orizontal. Au rămas afară bilanțurile teritoriale (pe U.T.R. și pe parcele), indicatorii și caracteristicile construcțiilor propuse pe cele două parcele, calculul locurilor de parcare, profilele stradale ale Drumului Sfântul Ioan, inventarul de coordonate, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă: tabelul „Parcela (CONTUR P.U.Z.)” (X Nord / Y Est, Stereo 70, cu lungimile laturilor D(i,i+1), suprafața S=26570,02 mp și perimetrul P=708,664 m), 40 de puncte numerotate 1-44, nu în ordinea conturului. Vârfurile cad pe linia roșie subțire a limitei cadastrale; linia albastră punctată a zonei reglementate e trasă paralel, la ~1,2 m în afară, iar cea violet a zonei studiate încă mai în afară. Punctele au fost citite pe colțurile liniei roșii (profilul pixelilor roșii), unde potrivirea afină le confirmă la 0-5 cm. Puncte de control: 3 (colțul de nord-vest), 4 (latura de nord), 8 și 10 (colțurile de nord-est, lângă Drumul Sfântul Ioan), 32 (colțul de sud-est), 43 (latura de sud), 39 (colțul de sud-vest) și 27 (latura de vest, spre valea Gârbăului); de verificare: 5, 6, 9, 44, 35, 21, 26, 2 și 1.",
+    "suprafata_declarata_m2": 26570.02,
+    "puncte": {
+      "29": [
+        583576.938,
+        388071.043
+      ],
+      "43": [
+        583581.908,
+        388130.468
+      ],
+      "44": [
+        583580.381,
+        388130.564
+      ],
+      "30": [
+        583581.773,
+        388147.789
+      ],
+      "31": [
+        583583.585,
+        388169.637
+      ],
+      "32": [
+        583584.582,
+        388182.825
+      ],
+      "33": [
+        583631.792,
+        388171.787
+      ],
+      "34": [
+        583653.693,
+        388166.667
+      ],
+      "18": [
+        583654.337,
+        388167.439
+      ],
+      "17": [
+        583657.33,
+        388167.278
+      ],
+      "16": [
+        583669.478,
+        388166.623
+      ],
+      "15": [
+        583672.475,
+        388166.462
+      ],
+      "14": [
+        583690.047,
+        388165.68
+      ],
+      "13": [
+        583690.265,
+        388168.586
+      ],
+      "12": [
+        583708.317,
+        388171.405
+      ],
+      "11": [
+        583711.445,
+        388172.344
+      ],
+      "10": [
+        583725.303,
+        388176.505
+      ],
+      "9": [
+        583724.938,
+        388166.831
+      ],
+      "8": [
+        583741.214,
+        388173.369
+      ],
+      "7": [
+        583739.689,
+        388154.222
+      ],
+      "6": [
+        583752.739,
+        388129.135
+      ],
+      "5": [
+        583747.874,
+        388063.513
+      ],
+      "4": [
+        583764.825,
+        388062.233
+      ],
+      "3": [
+        583761.128,
+        388012.367
+      ],
+      "2": [
+        583744.174,
+        388013.624
+      ],
+      "1": [
+        583743.722,
+        388007.525
+      ],
+      "28": [
+        583728.201,
+        388009.983
+      ],
+      "27": [
+        583712.687,
+        388012.306
+      ],
+      "26": [
+        583712.933,
+        388015.404
+      ],
+      "25": [
+        583694.526,
+        388016.699
+      ],
+      "24": [
+        583694.415,
+        388015.461
+      ],
+      "23": [
+        583677.604,
+        388018.201
+      ],
+      "22": [
+        583661.067,
+        388020.2
+      ],
+      "21": [
+        583641.925,
+        388020.068
+      ],
+      "35": [
+        583642.125,
+        388022.458
+      ],
+      "36": [
+        583626.553,
+        388022.823
+      ],
+      "37": [
+        583600.173,
+        388023.674
+      ],
+      "38": [
+        583581.732,
+        388029.122
+      ],
+      "39": [
+        583573.742,
+        388032.828
+      ],
+      "40": [
+        583576.497,
+        388065.77
+      ]
+    },
+    "ordine": [
+      "29",
+      "43",
+      "44",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "18",
+      "17",
+      "16",
+      "15",
+      "14",
+      "13",
+      "12",
+      "11",
+      "10",
+      "9",
+      "8",
+      "7",
+      "6",
+      "5",
+      "4",
+      "3",
+      "2",
+      "1",
+      "28",
+      "27",
+      "26",
+      "25",
+      "24",
+      "23",
+      "22",
+      "21",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "laturi_declarate_m": {
+      "29": 59.632,
+      "43": 1.53,
+      "44": 17.281,
+      "30": 21.923,
+      "31": 13.226,
+      "32": 48.483,
+      "33": 22.492,
+      "34": 1.005,
+      "18": 2.997,
+      "17": 12.166,
+      "16": 3.001,
+      "15": 17.589,
+      "14": 2.914,
+      "13": 18.271,
+      "12": 3.266,
+      "11": 14.469,
+      "10": 9.681,
+      "9": 17.54,
+      "8": 19.208,
+      "7": 28.278,
+      "6": 65.802,
+      "5": 16.999,
+      "4": 50.003,
+      "3": 17.001,
+      "2": 6.116,
+      "1": 15.714,
+      "28": 15.687,
+      "27": 3.108,
+      "26": 18.452,
+      "25": 1.243,
+      "24": 17.033,
+      "23": 16.657,
+      "22": 19.142,
+      "21": 2.398,
+      "35": 15.576,
+      "36": 26.394,
+      "37": 19.229,
+      "38": 8.808,
+      "39": 33.057,
+      "40": 5.291
+    },
+    "perimetru_declarat_m": 708.664,
+    "nota": "Toate cele 40 de laturi din tabel ies la cel mult 1 mm de cele tipărite, de la prima citire; aria iese 26.570,0 mp (tipărit 26.570,02), perimetrul 708,664 m, identic. Suprafața e aceeași cu „Suprafață teren reglementat” din bilanțurile planșei (26.570,02 mp = parcela 1, 16.149,90 mp, plus parcela 2, 10.420,12 mp, din care 348,95 mp se rezervă pentru lărgirea drumului)."
+  },
+  "gcp_px": {
+    "3": [
+      777,
+      8033
+    ],
+    "4": [
+      721,
+      7245
+    ],
+    "8": [
+      1096,
+      5494
+    ],
+    "10": [
+      1346,
+      5444
+    ],
+    "32": [
+      3556,
+      5350
+    ],
+    "43": [
+      3597,
+      6175
+    ],
+    "39": [
+      3721,
+      7716
+    ],
+    "27": [
+      1538,
+      8035
+    ]
+  },
+  "verificare_px": {
+    "5": [
+      985,
+      7228
+    ],
+    "6": [
+      914,
+      6186
+    ],
+    "9": [
+      1350,
+      5594
+    ],
+    "44": [
+      3621,
+      6175
+    ],
+    "35": [
+      2647,
+      7876
+    ],
+    "21": [
+      2649,
+      7914
+    ],
+    "26": [
+      1535,
+      7984
+    ],
+    "2": [
+      1043,
+      8013
+    ],
+    "1": [
+      1051,
+      8106
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3405,
+      1070,
+      4475,
+      1845,
+      90
+    ],
+    [
+      3056,
+      6219,
+      3258,
+      6735,
+      90
+    ],
+    [
+      455,
+      3525,
+      855,
+      4495,
+      90
+    ],
+    [
+      309,
+      7727,
+      557,
+      8323,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Aapp*",
+      "denumire": "Zonă de agrement pentru public: alimentație publică, cazare turistică (pensiuni, vile turistice, camping), picnic, sport în aer liber, echitație, amenajări pentru activități în aer liber, alei, parcaje, edicule; regim de construire deschis (pe planșă două parcele, de 15.903,36 mp și 10.317,71 mp după lărgirea drumului)",
+      "pot_max": "10%",
+      "cut_max": "0,25",
+      "h_max": "12 m la coamă sau la aticul etajului retras, 10 m la cornișă sau la aticul etajului neretras; trei niveluri supraterane: (S)+P+1+R"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport în aer liber, edicule, amenajări peisagere și hidrotehnice (pe planșă 58,96 mp, o fâșie îngustă pe latura de vest, spre valea Gârbăului)",
+      "pot_max": "1%",
+      "cut_max": "0,01",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-07-09",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare (9 iulie 2026); nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "U.T.R. Ve: eticheta de pe planșă dă CUT max = 0,1; hotărârea (Art. 1) și regulamentul local (Anexa 1, 4.2) dau CUT max = 0,01. POT max = 1% e același peste tot.",
+    "Caseta „Caracteristicile construcției” a parcelei 1 dă regimul de înălțime „2Sp+P+1 / S+P+R” (2Sp se citește de obicei ca două subsoluri parțiale); hotărârea scrie regimul maxim (S)+P+1+R, cu S – subsol. Înălțimile din casetă (8,20 m la cornișă, 9,70 m la coamă/atic) sunt sub limitele de 10 m și 12 m."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii și modernizării Drumului Sfântul Ioan (inclusiv pentru o alveolă de transport în comun), după planșa U2, se dezmembrează din parcelele inițiale și se înscrie în C.F. ca „drum” înainte de autorizația de construire pe parcelă; până la recepția lucrărilor se aduce la strat de uzură.",
+    "Alveola stației de transport în comun are copertină (condiție din avizul nr. 821838/446/2025 al Serviciului Siguranța circulației).",
+    "Lărgirea și amenajarea Drumului Sfântul Ioan se fac pe baza unui proiect de specialitate, supus autorizării, după NP 24/2022, NP 051/2012, Legea nr. 101/2020 și Legea nr. 280/2023; planul de semnalizare rutieră orizontală și verticală se avizează de Serviciul Siguranța circulației și de Poliția rutieră.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Aapp*: clădirile se retrag cel puțin 8 m de la aliniament (Drumul Sfântul Ioan regularizat după P.U.G.) și cel puțin 6 m de la limitele laterale și posterioare de proprietate; între două clădiri de pe aceeași parcelă, cel puțin înălțimea celei mai înalte, minimum 4,5 m (6 m dacă încăperi principale dau spre spațiul dintre ele).",
+    "Aapp*: o parcelă e construibilă dacă are front la stradă de cel puțin 30 m și suprafața de cel puțin 2.000 mp; pe fiecare parcelă, spațiile verzi pe sol natural ocupă cel puțin 60% (regulamentul local, Anexa 1).",
+    "Accesul auto și pietonal se face din Drumul Sfântul Ioan, cu avizul administratorului drumului; pentru aleile și drumurile din interiorul parcelelor se recomandă învelitori permeabile.",
+    "Parcarea se face numai în interiorul parcelelor, de regulă la sol, cu necesarul din Anexa 2 a Regulamentului Local de Urbanism (însumat pe funcțiuni); vehiculele de marfă și cele care nu sunt autoturisme staționează numai în incinte. În zona verde Ve parcarea e interzisă.",
+    "Racordarea la rețelele publice e obligatorie; unde nu există canalizare publică, apele uzate se epurează în sisteme individuale. Apele pluviale se rețin sau se acumulează și se evacuează în emisari locali, cu debitele din avizul Apelor Române (A.B.A. Someș-Tisa); nu se dirijează spre domeniul public sau spre vecini.",
+    "Cablurile de orice fel se pun în subteran; firidele de branșament și contorizare se integrează în împrejmuire; fiecare parcelă are o platformă pentru deșeuri menajere, accesibilă din domeniul public."
+  ]
+}
