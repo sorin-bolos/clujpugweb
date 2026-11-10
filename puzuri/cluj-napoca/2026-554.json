@@ -2,7 +2,7 @@
   "id": "2026-554",
   "localitate": "cluj",
   "stare": "oprit",
-  "motiv": "Planșa nu are caroiaj, iar inventarul de coordonate e ilizibil în scanarea de 200 ppi; metoda cu repere OpenStreetMap n-a putut rula: din sesiunea cloud, Overpass (overpass-api.de) a închis fiecare conexiune la negocierea TLS (în rularea întreruptă și în aceasta, 2026-11-10, ultima încercare la 02:00 UTC); de reluat cu metoda OSM când Overpass răspunde.",
+  "motiv": "Planșa n-are coordonate utilizabile (inventar lizibil doar parțial, fără caroiaj), iar din OSM are o singură clădire existentă (5 colțuri pe 6 × 24 m) și str. Voroneț fără nicio intersecție: potrivirea pe aceste repere iese la 13,6 px/m în loc de ~12,9 (aria trasată −10%, poarta de 3% picată), iar adăugând vârfurile citite din inventar la 13,3 px/m (−5%).",
   "hcl": {
     "nr": 554,
     "an": 2026,
@@ -16,17 +16,24 @@
     "dpi": 200,
     "denumire": "U-03 Plan Reglementări Urbanistice",
     "scara": "1:500",
-    "nota": "Planșa de reglementări e pagina 10 (Anexa 2, A3 scanat la 200 ppi); p. 11 e Anexa 3, U-05 „Plan circulația terenurilor”, pe același fond, iar pp. 1-9 sunt hotărârea și regulamentul (Anexa 1). Scara reală a imaginii: ~12,9 px/m (cota „Adâncime max. 25,00 m” = 322 px; parcelele 3-9, de ~13 m front, au ~170 px), adică planșa e tipărită la ~82% din 1:500; nordul e în sus. Legenda cuprinde cheia simbolurilor, notele despre suprafața rezervată modernizării str. Voroneț (47 mp) și despre CAD 322113 / 322096 (scoase din zona reglementată) și blocurile U.T.R. Liu* și S_Va* cu POT/CUT; bilanțul locurilor de parcare, bilanțul teritorial, profilul stradal, inventarul de coordonate și cartușul au rămas afară."
+    "nota": "Planșa de reglementări e pagina 10 (Anexa 2, A3 scanat la 200 ppi); p. 11 e Anexa 3, U-05 „Plan circulația terenurilor”, pe același fond, iar pp. 1-9 sunt hotărârea și regulamentul (Anexa 1). Scara reală a imaginii: ~12,8 px/m pe verticală (cota „Adâncime max. 25,00 m” = 320 px, y 485-805) și ~13,0 px/m pe orizontală (vârfurile 12-14 ale inventarului: 466 px pe 35,9 m), adică planșa e tipărită la ~82% din 1:500; nordul e în sus. Legenda cuprinde cheia simbolurilor, notele despre suprafața rezervată modernizării str. Voroneț (47 mp) și despre CAD 322113 / 322096 (scoase din zona reglementată) și blocurile U.T.R. Liu* și S_Va* cu POT/CUT; bilanțul locurilor de parcare, bilanțul teritorial, profilul stradal, inventarul de coordonate și cartușul au rămas afară."
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "Inventarul de coordonate al planșei (pp. 10 și 11, colțul din stânga jos, puncte 10…59 și înapoi la 10, cu lungimile laturilor) e ilizibil: cifrele au ~6 px în scanarea de 200 ppi, încețoșate de JPEG; pe p. 11 jumătatea de jos e și sub ștampila topografului. Nici partea întreagă nu se poate citi sigur (0 și 6 se confundă: nordurile par „589012…”, dar locul e la N ≈ 5896xx după OSM și ortofoto). Planșa nu are caroiaj Stereo 70. Rămâne metoda cu repere OpenStreetMap (georef_metoda osm) și limita trasată pe planșă (`limita_px`).",
+    "sursa": "Inventarul de coordonate (puncte 10…59, cu lungimile laturilor) e tipărit pe p. 10 și pe p. 11. Pe p. 10 e ilizibil (cifre de ~6 px, încețoșate de JPEG). Pe p. 11 rândurile 10-41 se citesc doar parțial, cu cifre ambigue (1/4/7, 2/5, 3/6), iar rândurile 42-59 sunt sub ștampila topografului. Planșa nu are caroiaj Stereo 70. Metoda cu repere OpenStreetMap (georef_metoda osm, limita trasată `limita_px`) s-a încercat pe 2026-11-10 din extrasul OSM din 2026-11-08: pe planșă e o singură clădire existentă din OSM (way 889357704, colțurile B_* de mai jos) și str. Voroneț, fără nicio intersecție în desen. Nicio variantă nu trece poarta de arie; vezi nota.",
     "suprafata_declarata_m2": 6837.84,
     "puncte": {},
-    "nota": "Suprafața: 6837,84 mp din bilanțul teritorial și tabelul de circulație a terenurilor (parcelele 1-10: 4716,47 mp; strada nouă, parcela 12: 1436,87 mp; subzona verde, parcela 11: 684,48 mp); Art. 1 scrie 6838 mp. Limita trasată (`limita_px`) urmează conturul parcelelor 1-12: latura nordică în trepte (limitele de proprietate ale loturilor de pe str. Voroneț), latura vestică oblică, latura sudică dreaptă a străzii noi, curba ei spre str. Voroneț și, la est, marginea interioară a fâșiei cu hașură în rețea (CAD 322113 și 322096, 106 + 89 mp, dezmembrate înainte de P.U.Z. pentru regularizarea str. Voroneț și scoase din zona reglementată). Latura estică și curba au fost citite pe p. 11 (Anexa 3, mai curată, fără hașuri de construibilitate) și duse pe p. 10 printr-o transformare afină pe 9 colțuri comune (abatere ~3 px). La 12,88 px/m aria trasată e 6888 mp (+0,7%). Pregătit pentru metoda OSM (încercările din 2026-11-10, sesiune cloud, oprite pentru că Overpass nu răspundea): px_per_m 12,88 (din cote), nord 0°; `osm_ancora` e un punct pe axa str. Voroneț, nu o intersecție (`geocode --streets` n-a putut rula), deci poziția lui de-a lungul străzii e nesigură cu câteva zeci de metri. Repere puține: singura stradă existentă e str. Voroneț (fâșia închisă diagonală, la est; racordul străzii noi e propus), iar singura clădire existentă desenată e cea de la sud de strada nouă, pe jumătate sub caseta legendei: colțuri ~(1566, 1028), (1697, 1029), (1699, 1105), (1775, 1106), (1773, 1341), (1698, 1342), cu latura sudică la y≈1418; latura vestică văzută (x≈1566) e probabil marginea casetei, clădirea continuând sub ea. Pe ortofotoul Esri e clădirea cu acoperiș cu panouri solare și parcare în jur, cu aceeași treaptă pe latura estică (~6-7 m adâncime, ~18-21 m lungime), deci colțurile ei estice sunt reperele cele mai bune, dacă OSM o are la fel de detaliată. Fondul planșei e un ortofoto gri, pe care casele de la nord de zonă abia se văd. Biserica și casa parohială de la est de str. Voroneț sunt propuneri ale P.U.Z. Voroneț nr. 4, nu clădiri existente."
+    "nota": "Suprafața: 6837,84 mp din bilanțul teritorial și tabelul de circulație a terenurilor (parcelele 1-10: 4716,47 mp; strada nouă, parcela 12: 1436,87 mp; subzona verde, parcela 11: 684,48 mp); Art. 1 scrie 6838 mp; p. 10 scrie sub inventar „S=6838 mp”. Limita trasată (`limita_px`) urmează conturul parcelelor 1-12: latura nordică în trepte (limitele posterioare ale loturilor de pe strada de la nord), latura vestică oblică, latura sudică dreaptă a străzii noi, curba ei spre str. Voroneț și, la est, marginea interioară a fâșiei cu hașură în rețea (CAD 322113 și 322096, 106 + 89 mp, dezmembrate înainte de P.U.Z. pentru regularizarea str. Voroneț și scoase din zona reglementată). Latura estică și curba au fost citite pe p. 11 (mai curată) și duse pe p. 10 printr-o transformare afină pe 9 colțuri comune (abatere ~3 px). La scara planșei (12,97 px/m pe orizontală, 12,8 pe verticală) aria trasată e ~6883 mp (+0,7%). OSM (2026-11-10): `osm_ancora` e acum așezată astfel încât clădirea și str. Voroneț din OSM să cadă pe cele desenate. Singura clădire existentă desenată e cea de la sud de strada nouă (acoperiș cu panouri solare pe ortofoto), pe jumătate sub caseta legendei pe p. 10 (întreagă pe p. 11); colțurile ei vizibile pe p. 10 sunt reperele B_NE, B_IT, B_PNE, B_PSE, B_IB, toate pe way 889357704. Treapta de pe latura estică are în OSM 16,3 m lungime, pe planșă 18,3 m (adâncimea, ~6 m, și distanța de la colțul NE, ~6 m, se potrivesc), iar cu reperele strânse pe 6 × 24 m scara potrivirii depinde de submulțime: 12,0-13,7 px/m, rotație −1,6…−3,4°. Cu cele 4 repere de control + B_IT de verificare: 13,6 px/m, rotație −2,0°, rms 0,58 m, max 0,79 m (sub 5 m), dar aria trasată iese 6146 mp (−10,1%). Fondul planșei e un ortofoto gri prea șters ca să se poată citi colțurile caselor sau anexelor de la nord. Biserica și casa parohială de la est de str. Voroneț sunt propuneri ale P.U.Z. Voroneț nr. 4, nu clădiri existente. Verificare independentă: cu scara planșei, nordul în sus și translația din B_NE, axa str. Voroneț din OSM cade la 0,2-2 m de mijlocul străzii desenate (măsurat la y 450, 865 și 1250), deci scara și nordul planșei se potrivesc cu OSM; problema e doar că instrumentul calculează scara din repere. Inventarul pe p. 11 (citiri nesigure, de reverificat): 12 = colțul NV (429, 376): N 589652,126, E 396671,342; 13 = baza treptei de la x≈895 (895, 375): N 589651,78 (cifra unităților poate fi 7), E 396707,263; 14 = vârful treptei (895, 340): N 589654,761, E 396707,245; 15: N 589654,793, E 396713,115 (pe un segment drept, nu se poate localiza pe planșă); 27 și 28 = treapta de la x≈2376 (y 367 și 352): N 589652,103 și 589653,218, E 396821,275 (latura 27-28 tipărită 1,11). Lungimi citite de la 10: 11,84; 28,51; 35,92 sau 36,36; 2,98; 5,87; 7,45; 13,42; 2,30; 16,00; 2,95; 8,76; 0,91; 5,68; 15,10; 15,80; 4,31; 31,17 sau 33,10; 1,11; 14,50; 4,88; 22,71; 29,36; apoi laturi de 1,5-3 m pe curbă. Suma laturilor 15→28 (~126,9 m) e egală cu latura nordică desenată, deci ordinea e: 10-11 latura vestică, 12 colțul NV, 12-28 latura nordică spre est, apoi latura estică, curba și latura sudică până la 59. Toate vârfurile lizibile sunt pe latura nordică (abatere N-S sub 3 m), deci nu ajung pentru o potrivire afină. Față de ele, clădirea și str. Voroneț din OSM sunt decalate la fel, cu ~(−1, +3) m (eroarea transformării Stereo 70 → WGS84 și a ortofotoului), iar amestecate cu reperele OSM strică scara: 13,3 px/m, aria −5,1%. Ce ar debloca: (1) o copie lizibilă a inventarului (documentația P.U.Z. de la proiectant sau de la Direcția Generală de Urbanism), cu care e un caz obișnuit cu inventar; sau (2) o opțiune în pipeline care să păstreze scara (din cote) și nordul planșei la metoda OSM și să calculeze doar translația: cu colțurile B_* poziția ar ieși la ~3 m, confirmată de str. Voroneț."
   },
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "B_NE": [1696, 1030],
+    "B_PSE": [1773, 1340],
+    "B_PNE": [1775, 1106],
+    "B_IB": [1696, 1341]
+  },
+  "verificare_px": {
+    "B_IT": [1698, 1106]
+  },
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
@@ -111,9 +118,23 @@
     [533, 840]
   ],
   "osm_ancora": {
-    "px": [2480, 700],
+    "px": [2333, 865],
     "en": [396817.1, 589616.5],
     "px_per_m": 12.88,
     "nord": 0
+  },
+  "repere": {
+    "B_NE": [589604.08, 396767.89],
+    "B_PSE": [589580.97, 396773.61],
+    "B_PNE": [589597.31, 396773.96],
+    "B_IB": [589581.2, 396766.89],
+    "B_IT": [589597.52, 396767.71]
+  },
+  "repere_osm": {
+    "B_NE": "colț de clădire (b889357704_0)",
+    "B_PSE": "colț de clădire (b889357704_3)",
+    "B_PNE": "colț de clădire (b889357704_2)",
+    "B_IB": "colț de clădire (b889357704_4)",
+    "B_IT": "colț de clădire (b889357704_1)"
   }
 }
