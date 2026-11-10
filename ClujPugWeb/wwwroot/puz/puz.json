@@ -3737,6 +3737,195 @@
   ]
  },
  {
+  "id": "2026-196",
+  "localitate": "cluj",
+  "hcl": "196/2026",
+  "data": "2026-05-19",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Viile Dâmbul Rotund nr. 10A (provizoriu)",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-196-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-196.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe individuale (unifamiliale) și semicolective (familiale), cu cel mult două unități locative pe parcelă (suprapuse sau alipite), și anexele lor (garaje, filigorii, piscine); pe parcelele de peste 700 mp se admit două locuințe individuale izolate; regim de construire izolat și cuplat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m (8 m la cornișă); trei niveluri supraterane: (S)+P+E+M/R sau D+P+M/R"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat: plantații înalte, medii și joase, alei și platforme pietonale și velo, mobilier urban, edicule, grupuri sanitare (182,79 mp după bilanțul planșei, fâșia de pe latura estică); parcarea e interzisă, iar cel puțin 60% din suprafață e spațiu verde pe sol natural",
+    "pot_max": "1%",
+    "cut_max": "0,1",
+    "h_max": "3 m la cornișă; P"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (110,95 mp după bilanțul planșei, în colțul de nord-est, față de 204,76 mp existent); rămân prevederile R.L.U. al P.U.G.",
+    "pot_max": "1% (P.U.G., după avizul Arhitectului-șef)",
+    "cut_max": "0,01 (P.U.G., după avizul Arhitectului-șef)"
+   }
+  ],
+  "suprafata_m2": 4611,
+  "imagine": "puz/2026-196/plansa.webp",
+  "bounds": {
+   "west": 23.5757031,
+   "south": 46.7938692,
+   "east": 23.5765316,
+   "north": 46.7949248
+  },
+  "limita": [
+   [
+    23.5764307,
+    46.7941913
+   ],
+   [
+    23.5765029,
+    46.7940295
+   ],
+   [
+    23.5764413,
+    46.7940158
+   ],
+   [
+    23.5763468,
+    46.793997
+   ],
+   [
+    23.5761318,
+    46.7939553
+   ],
+   [
+    23.5759886,
+    46.7939285
+   ],
+   [
+    23.575752,
+    46.7938873
+   ],
+   [
+    23.5757717,
+    46.7940833
+   ],
+   [
+    23.5757818,
+    46.7941499
+   ],
+   [
+    23.5757825,
+    46.7941538
+   ],
+   [
+    23.5758136,
+    46.7943245
+   ],
+   [
+    23.5758107,
+    46.7943246
+   ],
+   [
+    23.5758467,
+    46.7946138
+   ],
+   [
+    23.5758483,
+    46.7946227
+   ],
+   [
+    23.57588,
+    46.7947962
+   ],
+   [
+    23.5758981,
+    46.7949004
+   ],
+   [
+    23.5761991,
+    46.7949075
+   ],
+   [
+    23.5763476,
+    46.7949083
+   ],
+   [
+    23.5763831,
+    46.7949085
+   ],
+   [
+    23.5764255,
+    46.7949087
+   ],
+   [
+    23.5764134,
+    46.7948779
+   ],
+   [
+    23.5763948,
+    46.7948284
+   ],
+   [
+    23.5763522,
+    46.7947069
+   ],
+   [
+    23.5763421,
+    46.7946616
+   ],
+   [
+    23.5763417,
+    46.7946559
+   ],
+   [
+    23.5763366,
+    46.7946235
+   ],
+   [
+    23.5763317,
+    46.7945929
+   ],
+   [
+    23.5763585,
+    46.7944556
+   ],
+   [
+    23.5763628,
+    46.7943941
+   ],
+   [
+    23.576367,
+    46.794334
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.08
+  },
+  "legenda": "puz/2026-196/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-05-19"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa nu dă indicatori pe U.T.R.: P.O.T., C.U.T. și înălțimile maxime pentru Liu* (35%, 0,9, H max 12 m) și S_Va* (1%, 0,1, P cu cornișa la 3 m) vin doar din hotărâre (Art. 1) și din regulament.",
+   "Bilanțul teritorial al planșei numește zona rezidențială propusă „UTR ULiu” (4500,05 mp, inclusiv S_Va* și terenul rezervat pentru drumuri); desenul și hotărârea o numesc U.T.R. Liu*.",
+   "Planșa propune cel mult 19 locuri de parcare (câte 2-4 pe lot, pentru 10 unități locative în șase loturi); hotărârea cere doar minimum un loc pentru clădirile cu AU sub 100 mp și două peste 100 mp, plus două pentru serviciile cu acces public.",
+   "Pentru S_Va*, hotărârea dă P.O.T. 1% și C.U.T. 0,1, dar admite doar parter (cornișa la 3 m), deci C.U.T. efectiv nu poate depăși 0,01; avizul de oportunitate nr. 134/2023 dădea aceleași cifre."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării str. Lăstunilor și str. Viile Dâmbul Rotund (157,06 mp pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele; până la recepția locuințelor se aduce la strat de uzură.",
+   "Aleea propusă, cu ampriza de 6 m și loc de întoarcere, se înscrie în CF ca „drum” înainte de autorizațiile de construire, se echipează (apă-canal, electricitate, rețea pluvială, iluminat public) și se aduce la strat de uzură până la recepția locuințelor, pe baza unui proiect autorizat (NP 24/2022 și NP 051/2012); are acces public nelimitat.",
+   "Accesele auto se amenajează cu bordură teșită, după NP 051/2012.",
+   "Retrageri în Liu*: 5 m față de str. Lăstunilor și str. Viile Dâmbul Rotund (regularizate) și minimum 2 m față de aleea de 6 m; garajele la minimum 6 m de aliniament; minimum 3 m față de limitele laterale (la regim cuplat, pe limită și minimum 3 m față de limita opusă); garajele se pot alipi unei limite laterale dacă calcanul nu depășește 2,8 m; față de limita posterioară cel puțin înălțimea clădirii, minimum 6 m.",
+   "În S_Va*: retrageri de minimum 3 m față de aliniament și de limitele laterale și posterioară; accesul din aleea de 6 m.",
+   "Accesul pe parcele se face din str. Lăstunilor, str. Dâmbul Rotund și din aleea de 6 m; de regulă un singur acces pietonal și unul auto, de cel mult 3 m, pe parcelă.",
+   "Parcarea se face în interiorul parcelei: minimum un loc pentru clădirile cu AU sub 100 mp, două peste 100 mp, și două pentru serviciile cu acces public (de proximitate).",
+   "Toate construcțiile se racordează la rețelele publice; apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public.",
+   "Pentru terenul din U.T.R. Ve rămân prevederile R.L.U. al P.U.G.",
+   "Toate investițiile propuse sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
