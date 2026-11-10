@@ -2591,6 +2591,337 @@
   ]
  },
  {
+  "id": "2026-499",
+  "localitate": "cluj",
+  "hcl": "499/2026",
+  "data": "2026-07-09",
+  "titlu": "P.U.Z. – de urbanizare, str. Câmpului – sud",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-499-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-499.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale); regim de construire izolat sau cuplat (pe planșă 21 de parcele, 7.291,23 mp, plus 1.858,63 mp de străzi)",
+    "pot_max": "30%",
+    "cut_max": "0,8",
+    "h_max": "12 m (8 m la cornișă); trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "Lid*",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: locuințe individuale (unifamiliale) și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); regim de construire izolat (pe planșă 5 parcele, 3.747,90 mp, plus 570,56 mp de stradă)",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "12 m (8 m la cornișă); două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public în clădiri dedicate: administrație, cultură, învățământ (grădiniță, after-school, centru educațional, cazare pentru instituțiile de învățământ și cercetare) și cercetare, sănătate și asistență socială (creșă, centru rezidențial pentru vârstnici), cult; regim de construire deschis (pe planșă o parcelă, 2.000,74 mp)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la coamă sau la aticul nivelului retras, 8 m la cornișă sau la aticul ultimului nivel neretras; trei niveluri: (S)+P+2E sau D+P+R/M"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Zonă verde – scuar, grădină, parc cu acces public nelimitat: plantații, alei pietonale și velo, parcări pentru biciclete, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, construcții pentru cultură și alimentație publică, grupuri sanitare (pe planșă 156,75 mp)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "3 m la cornișă; P"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (972,10 mp după bilanțul planșei); rămân prevederile R.L.U. al P.U.G."
+   },
+   {
+    "cod": "S_VPf/ps",
+    "denumire": "Subzonă de pășuni și fânețe în interiorul zonelor împădurite (511,09 mp după bilanțul planșei), neschimbată de P.U.Z.; Art. 1 menține reglementările P.U.G. pentru suprafețele din U.T.R. „Vp și Ve”"
+   }
+  ],
+  "suprafata_m2": 17109,
+  "imagine": "puz/2026-499/plansa.webp",
+  "bounds": {
+   "west": 23.5730098,
+   "south": 46.7332161,
+   "east": 23.5766212,
+   "north": 46.7348166
+  },
+  "limita": [
+   [
+    23.5750949,
+    46.733681
+   ],
+   [
+    23.575101,
+    46.733684
+   ],
+   [
+    23.5752159,
+    46.7337543
+   ],
+   [
+    23.575305,
+    46.7338091
+   ],
+   [
+    23.5754869,
+    46.7339223
+   ],
+   [
+    23.575499,
+    46.7339304
+   ],
+   [
+    23.5755697,
+    46.733978
+   ],
+   [
+    23.5755858,
+    46.734019
+   ],
+   [
+    23.5756179,
+    46.7340555
+   ],
+   [
+    23.575634,
+    46.7341003
+   ],
+   [
+    23.575632,
+    46.7341208
+   ],
+   [
+    23.575875,
+    46.7339538
+   ],
+   [
+    23.5758815,
+    46.7339492
+   ],
+   [
+    23.5760337,
+    46.7338413
+   ],
+   [
+    23.5760739,
+    46.7338128
+   ],
+   [
+    23.5762412,
+    46.7336905
+   ],
+   [
+    23.5762428,
+    46.7336893
+   ],
+   [
+    23.5764386,
+    46.7335502
+   ],
+   [
+    23.5764505,
+    46.7335418
+   ],
+   [
+    23.5765855,
+    46.7334452
+   ],
+   [
+    23.576532,
+    46.7334213
+   ],
+   [
+    23.576493,
+    46.7334084
+   ],
+   [
+    23.5763614,
+    46.733351
+   ],
+   [
+    23.5763549,
+    46.7333482
+   ],
+   [
+    23.5762712,
+    46.7333293
+   ],
+   [
+    23.5759013,
+    46.733265
+   ],
+   [
+    23.575551,
+    46.7332674
+   ],
+   [
+    23.5750949,
+    46.733681
+   ],
+   [
+    23.5749967,
+    46.7337647
+   ],
+   [
+    23.5745919,
+    46.734087
+   ],
+   [
+    23.5742751,
+    46.7338603
+   ],
+   [
+    23.5739015,
+    46.7335908
+   ],
+   [
+    23.5738285,
+    46.7335702
+   ],
+   [
+    23.5730656,
+    46.7337396
+   ],
+   [
+    23.5733334,
+    46.7340782
+   ],
+   [
+    23.5734529,
+    46.7341644
+   ],
+   [
+    23.5735852,
+    46.7342479
+   ],
+   [
+    23.5738212,
+    46.7343716
+   ],
+   [
+    23.5740137,
+    46.734495
+   ],
+   [
+    23.5741829,
+    46.7346826
+   ],
+   [
+    23.5742326,
+    46.734769
+   ],
+   [
+    23.5742428,
+    46.7347657
+   ],
+   [
+    23.5745155,
+    46.7346155
+   ],
+   [
+    23.5745863,
+    46.7345771
+   ],
+   [
+    23.5754392,
+    46.7340598
+   ],
+   [
+    23.5754481,
+    46.7340824
+   ],
+   [
+    23.5746799,
+    46.7345533
+   ],
+   [
+    23.5746859,
+    46.7345802
+   ],
+   [
+    23.5746925,
+    46.7346093
+   ],
+   [
+    23.5748483,
+    46.7345164
+   ],
+   [
+    23.575051,
+    46.7343901
+   ],
+   [
+    23.575293,
+    46.734248
+   ],
+   [
+    23.5753769,
+    46.7341941
+   ],
+   [
+    23.575434,
+    46.7341315
+   ],
+   [
+    23.5754481,
+    46.7340824
+   ],
+   [
+    23.5754392,
+    46.7340598
+   ],
+   [
+    23.5754293,
+    46.7340345
+   ],
+   [
+    23.5753792,
+    46.7340009
+   ],
+   [
+    23.5752,
+    46.7338894
+   ],
+   [
+    23.5751113,
+    46.7338348
+   ],
+   [
+    23.5749967,
+    46.7337647
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.26
+  },
+  "legenda": "puz/2026-499/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-07-09"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimi: hotărârea adaugă, pentru Liu*, Lid* și S_Is*, o înălțime maximă de 8 m la cornișă (la S_Is*, și la aticul ultimului nivel neretras); caseta „Indici urbanistici” a planșei dă doar H max 12 m. POT, CUT și regimurile de înălțime sunt aceleași în hotărâre și pe planșă.",
+   "Retrageri Liu*: legenda planșei dă trei retrageri față de aliniament (5 m, 2 m și 3 m) și o singură retragere laterală, de 4 m; hotărârea cere cel puțin 5 m de la aliniament, cu o singură parcelă retrasă la 2 m, fără retragerea de 3 m, iar față de limitele laterale cel puțin 3 m (4 m la parcelele cu front la strada B).",
+   "Zonele verzi: Art. 1 menține reglementările P.U.G. pentru terenurile din U.T.R. Vp și Ve; bilanțul planșei încadrează suprafețele verzi din zonă ca Ve (972,10 mp) și S_VPf/ps (511,09 mp), nu Vp.",
+   "Art. 1 schimbă în Liu*, S_Va* și S_Is* destinația terenului încadrat în U.T.R. Tr (zonă de circulație rutieră); bilanțul existent al planșei nu are U.T.R. Tr (doar ULid, ULiu, Ve și S_VPf/ps), iar o notă a legendei spune că suprafața alocată prin P.U.G. pentru Tr va fi repoziționată conform P.U.Z. pentru drumul Transregio Feleac TR 35 – Centura metropolitană."
+  ],
+  "conditii": [
+   "Investițiile se fac în două etape: întâi infrastructura tehnico-edilitară (rețeaua stradală propusă prin P.U.Z.), apoi construcțiile și amenajările din U.T.R. Liu*, Lid*, S_Is* și S_Va*.",
+   "Înainte de autorizația de construire a primului imobil din ansamblu, în prima etapă, terenul necesar regularizării str. Câmpului (după planșa A.10 – Proprietatea asupra terenurilor) se dezmembrează din parcela inițială și se înscrie în C.F. ca „drum”.",
+   "Tot în prima etapă, străzile propuse prin P.U.Z. (străzile A și B) se înscriu în C.F. ca „drum”, se amenajează și se asfaltează, cu semnalizare rutieră, rețea pluvială, rețele edilitare și iluminat public, plus o alveolă pentru stația de transport în comun, pe baza unui proiect autorizat; toată rețeaua stradală propusă are acces public nelimitat.",
+   "A doua etapă, a imobilelor (pentru care s-a făcut un studiu de circulație), vine după anul 2026 sau după lucrările de infrastructură care cresc capacitatea de circulație în zona studiată.",
+   "Până la recepția locuințelor se amenajează, pe baza unui proiect autorizat, scuarul verde (S_Va*) de lângă strada propusă.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Liu*: clădirile se retrag cel puțin 5 m de la aliniament (o singură parcelă: 2 m), garajele cel puțin 6 m; față de limitele laterale cel puțin 3 m (4 m la parcelele cu front la strada B), cu calcan de cel mult 20 m adâncime pe limita laterală; față de limita posterioară cel puțin înălțimea clădirii și minimum 6 m (lângă S_VPf/ps, Vp sau Tr, jumătate din înălțime și minimum 3 m). Garajele se pot alipi limitelor laterale dacă zidul rezultat (calcanul) nu depășește 2,8 m și se retrag cel puțin 6 m de la limita posterioară (3 m lângă S_VPf/ps, Vp sau Tr).",
+   "Lid*: clădirile se retrag cel puțin 4 m de la aliniament (garajele 6 m), 4,5 m de la limitele laterale (4 m la parcelele cu front la strada B) și, de la limita posterioară, cel puțin înălțimea clădirii și minimum 6 m (lângă S_VPf/ps, Vp sau Tr, jumătate din înălțime, dar minimum 8 m). Garajele se pot alipi limitelor laterale cu calcan de cel mult 2,8 m și se retrag cel puțin 8 m de la limita posterioară.",
+   "Liu* și Lid*: accesul pe parcele se face din străzile noi A și B (Lid*: doar din strada A), legate de str. Câmpului; pe fiecare parcelă un singur acces pietonal și unul auto, de cel mult 4 m lățime. Parcarea se face pe parcelă: la Liu*, un loc pentru clădiri cu aria utilă sub 100 mp și două peste, un loc pe unitate locativă la locuințele semicolective, două la serviciile cu acces public; la Lid*, două locuri, din care cel puțin unul în clădirea principală sau într-un garaj.",
+   "S_Is*: clădirile se retrag cel puțin 5 m de la aliniament (și garajele 5 m); față de limitele laterale și posterioară, și între două clădiri de pe aceeași parcelă, cel puțin jumătate din înălțime, dar minimum 6 m. Accesele (două auto și două pietonale) se fac din str. Câmpului, cu avizul administratorului drumului; parcarea se face pe parcelă, după Anexa 2 a R.L.U.",
+   "S_Va*: construcțiile se retrag cel puțin 1 m de la aliniament și de limitele laterale și posterioară; accesul se face din str. Câmpului.",
+   "Toate U.T.R.-urile construibile: racord la rețelele edilitare publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine (la Lid*, apele pluviale se gestionează individual sau colectiv, prin canalizare pluvială sau sisteme de acumulare sau retenție); firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian; fiecare parcelă are o platformă sau un spațiu pentru colectarea deșeurilor menajere, accesibil din spațiul public."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
