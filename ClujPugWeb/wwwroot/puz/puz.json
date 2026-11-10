@@ -4841,6 +4841,160 @@
   ]
  },
  {
+  "id": "2026-99",
+  "localitate": "cluj",
+  "hcl": "99/2026",
+  "data": "2026-03-20",
+  "titlu": "P.U.Z. C.P. dezvoltare zonă mixtă, str. Porțelanului – str. Tăbăcarilor",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-99-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/99.pdf",
+  "utr": [
+   {
+    "cod": "ZCP_M1*.1",
+    "denumire": "Zonă construită protejată, zonă mixtă cu regim de construire închis, adiacentă principalelor artere de trafic (U.T.R. ZCP_M1*), parcela ZCP_M1*.1 din ansamblul de pe frontul estic al str. Porțelanului: locuire colectivă, funcțiuni administrative, de administrarea afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, turism; pe nivelurile de locuit, aria construită e de cel mult 50% din suprafața terenului. Indicii se calculează pe terenul întregului ansamblu (parcelă de colț)",
+    "pot_max": "70%",
+    "cut_max": "2,64",
+    "h_max": "10 niveluri supraterane, (1-3)S+P+M+8E, H max 32 m"
+   },
+   {
+    "cod": "ZCP_M1* S_Is",
+    "denumire": "Parcela de dotare publică din ansamblul de pe str. Porțelanului, desprinsă din ZCP_M1*.1: învățământ preșcolar (creșă/grădiniță), care se transferă, construită și finisată, în domeniul public",
+    "pot_max": "25%",
+    "cut_max": "2,64",
+    "h_max": "2 niveluri supraterane, (1-2)S+P+E sau (1-2)S+D+P, H max 9 m"
+   },
+   {
+    "cod": "ZCP_M1*.2",
+    "denumire": "U.T.R. ZCP_M1*, parcela ZCP_M1*.2: ansamblul mixt de la sud de str. Tăbăcarilor, spre Piața 1 Mai, cu aceleași funcțiuni; pe nivelurile de locuit, aria construită e de cel mult 50% din suprafața terenului",
+    "pot_max": "70%",
+    "cut_max": "2,64",
+    "h_max": "8 niveluri supraterane, (1-3)S+P+M+6E, H max 23 m"
+   }
+  ],
+  "suprafata_m2": 15027,
+  "imagine": "puz/2026-99/plansa.webp",
+  "bounds": {
+   "west": 23.6050936,
+   "south": 46.7868569,
+   "east": 23.607251,
+   "north": 46.7889566
+  },
+  "limita": [
+   [
+    23.6052449,
+    46.7889164
+   ],
+   [
+    23.605275,
+    46.7889198
+   ],
+   [
+    23.605536,
+    46.7889135
+   ],
+   [
+    23.6055651,
+    46.7889072
+   ],
+   [
+    23.6060449,
+    46.7885085
+   ],
+   [
+    23.6062167,
+    46.7883732
+   ],
+   [
+    23.6062347,
+    46.7883541
+   ],
+   [
+    23.6065293,
+    46.7881099
+   ],
+   [
+    23.6065853,
+    46.7880815
+   ],
+   [
+    23.6066435,
+    46.7880623
+   ],
+   [
+    23.6066703,
+    46.7880495
+   ],
+   [
+    23.6072109,
+    46.7875973
+   ],
+   [
+    23.6072124,
+    46.7875797
+   ],
+   [
+    23.606042,
+    46.7868949
+   ],
+   [
+    23.6060186,
+    46.7868859
+   ],
+   [
+    23.6059632,
+    46.7869425
+   ],
+   [
+    23.6059604,
+    46.7869622
+   ],
+   [
+    23.6061787,
+    46.7872869
+   ],
+   [
+    23.6061769,
+    46.787737
+   ],
+   [
+    23.6052274,
+    46.7877838
+   ],
+   [
+    23.6051442,
+    46.7877853
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 7,
+   "rms_m": 0.11
+  },
+  "legenda": "puz/2026-99/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-03-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Numărul cadastral: Art. 1 numește imobilul nr. cad. 336559, iar tabelul de coordonate de pe planșă e intitulat „Cad 326559”; e vorba de aceeași parcelă de nord (6519 mp), una dintre cifre fiind greșită într-unul dintre documente.",
+   "Înălțimile: planșa dă doar regimul de înălțime (ZCP_M1*.1: 1-3S+P+M+4E-8E; ZCP_M1*.2: 1-3S+P+M+2E-6E; S_Is: 2S+P+E, S+D+P în legendă și 2S+P+1, 2S+D+P pe desen), fără înălțimi în metri. Art. 1 adaugă numărul de niveluri supraterane și H max: 10 niveluri, (1-3)S+P+M+8E, 32 m; 8 niveluri, (1-3)S+P+M+6E, 23 m; 2 niveluri, (1-2)S+P+E sau (1-2)S+D+P, 9 m.",
+   "Spațiul verde: legenda planșei cere, pentru fiecare dintre cele trei parcele, spațiu verde pe sol natural de minim 20%; Art. 1 nu pomenește spațiul verde."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcelele ZCP_M1*.1 și ZCP_M1* S_Is, terenul necesar lărgirii tronsonului nord-estic al str. Tăbăcarilor (fâșia hașurată de pe planșă) se dezmembrează, se înscrie în C.F. ca „drum” și se amenajează până la stratul de uzură; până la recepția construcțiilor se transferă în domeniul public.",
+   "Înainte de autorizația de construire pe parcela ZCP_M1*.2, la fel pentru terenul necesar lărgirii tronsonului sudic al str. Tăbăcarilor, dinspre Piața 1 Mai: dezmembrare, înscriere în C.F. ca „drum”, amenajare până la stratul de uzură și transfer în domeniul public până la recepția construcțiilor.",
+   "Lărgirea și amenajarea străzilor se fac pe baza unor proiecte de specialitate, cu semnalizare rutieră orizontală și verticală și, dacă e cazul, cu rețele (canalizare pluvială, iluminat public).",
+   "Clădirea de învățământ preșcolar (creșă/grădiniță), realizată la nivel finisat, se transferă împreună cu parcela ei (ZCP_M1* S_Is) în domeniul public înainte de recepția construcțiilor de pe parcela ZCP_M1*.1.",
+   "Recepția construcțiilor (în afară de creșă/grădiniță) se face în etape, întâi ZCP_M1*.1, apoi ZCP_M1*.2, și numai după terminarea unui tronson din „Culoarul de Mobilitate Nord – Pod Oașului – străzile Răsăritului–Câmpul Pâinii – Pod IRA”: obiectul 1 (str. Câmpul Pâinii, Someș – intersecția cu str. Paris, km 0+000–0+625) sau obiectul 3 (str. Câmpul Pâinii, între intersecțiile cu str. Paris și str. Fabricii, km 0+625–1+300).",
+   "Retrageri: pe ZCP_M1*.1 clădirile se așază pe aliniamentul str. Porțelanului și se retrag minim 3 m de la latura nord-estică (str. Tăbăcarilor) și minim 8 m de la cea sud-estică; pe ZCP_M1*.2 minim 3 m de la latura sud-estică și minim 5 m de la cea vestică; pe S_Is minim 3 m de la str. Tăbăcarilor. Față de limitele laterale: H/2, dar minim 10 m pe ZCP_M1*.1; H/2, dar minim 15 m față de limita laterală estică pe ZCP_M1*.2; minim 10 m față de limita nord-vestică pe S_Is. Retragerea față de aliniament variază între 0 și 8 m, după planșă.",
+   "Accesul se face din str. Porțelanului și din str. Tăbăcarilor, cu accese carosabile de cel mult 6 m lățime; pentru aleile din parcele se recomandă învelitori permeabile.",
+   "Parcarea se face în parcelă, după Anexa 2 a R.L.U. al P.U.G.; la clădirile noi minim 75% din locuri sunt în spații dedicate la subsol, demisol sau parter. Pentru creșă/grădiniță se pot amenaja la sol, pe parcela vecină ZCP_M1*.1, minim 3 locuri.",
+   "În ansamblul de pe str. Porțelanului se admite împărțirea în două loturi (ZCP_M1*.1 și ZCP_M1* S_Is), pentru dotarea publică.",
+   "Toate clădirile se racordează la rețelele publice; la faza D.T.A.C. se obține avizul Autorității Aeronautice Civile Române pentru construcțiile mai înalte de 28 m.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-103",
   "localitate": "cluj",
   "hcl": "103/2026",
