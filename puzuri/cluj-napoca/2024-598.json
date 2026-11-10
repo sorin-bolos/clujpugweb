@@ -1,0 +1,53 @@
+{
+  "id": "2024-598",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 598,
+    "an": 2024,
+    "data_sedinta": "2024-08-29",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-598-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/12/04/HCL-598-2024.pdf"
+  },
+  "titlu": "P.U.Z. – Etapizare investiții reglementate prin P.U.Z. – Dezvoltare ansamblu mixt, str. Traian nr. 40-46, aprobat prin Hotărârea nr. 213/2021",
+  "plansa": {
+    "pagina_pdf": 6,
+    "dpi": 200,
+    "denumire": "A.03 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 6 pagini: hotărârea (p. 1-2), o planșă pe A4 (p. 3), avizul Arhitectului șef nr. 142/17.05.2024 (p. 4-5) și, pe p. 6, planșa A.03 „Plan reglementări urbanistice”, sc. 1:500 (200 ppi), anexa hotărârii, cu Etapa 1 și Etapa 2. Hotărârea doar etapizează P.U.Z.-ul aprobat prin HCL 213/2021, păstrându-i reglementările și regulamentul U.T.R. M. Integrată pe 2026-11-10 în rețeta P.U.Z. de bază, 2021-213 (planșa de pe p. 6 e cea afișată acolo, modificat_de, condiții pe etape), publicată în același commit; pe hartă modificarea apare în fișa P.U.Z. 213/2021."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [
+    "213/2021"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Art. 1: se aprobă etapizarea investițiilor reglementate prin P.U.Z. „Dezvoltare ansamblu mixt, str. Traian nr. 40-46” (HCL 213/2021), cu menținerea reglementărilor urbanistice și a regulamentului U.T.R. M.",
+    "Etapa 1 – parcela str. Traian nr. 44-46 (nr. cad. 344733, dezmembrată din 326185) și nr. cad. 344732 (drum). Înainte de recepție: cel puțin 2 arbori pe frontul sudic al str. Daniil Bărceanu; fâșia nr. cad. 344732, deja înscrisă ca „drum”, trece gratuit în domeniul public; cel puțin 5 arbori pe spațiul verde, pe sol natural (circumferință minimă 35 cm la 1 m de la colet).",
+    "Etapa 1, trafic: 118 locuri de parcare/garare în subsol, din care 30 suplimentare funcțiunilor, publice, în subsolul 1; se desființează cele 30 de locuri de parcare de pe str. Traian pentru o bandă de autobuz între str. Daniil Bărceanu și Podul Traian, pe sensul spre pod, înlocuite de cele 30 de locuri publice de la nr. 44-46; acces din str. Daniil Bărceanu doar cu viraje la dreapta; plan de semnalizare pentru perimetrul str. Traian – Podul Traian – str. Decebal – str. Haiducului, avizat și pus în practică; sens unic inversat pe str. Emil Petrovici (parcări pe stânga) și pe str. Haiducului (două benzi pe ultimii 30 m); sens unic spre centru pe str. Traian între str. Daniil Bărceanu și str. Emil Petrovici; sensul unic pe str. Decebal nu se mai extinde între str. Emil Petrovici și str. Haiducului (acolo circulația e acum în dublu sens); toate înainte de recepție.",
+    "Etapa 2 – parcela str. Traian nr. 40-42 (nr. cad. 353576, dezmembrată din 274270) și nr. cad. 353575 (drum). Înainte de autorizația de construire: terenul pentru circulația de-a lungul culoarului Someșului Mic se dezmembrează și se înscrie în CF ca „drum”. Înainte de recepție: acesta se amenajează ca spațiu verde (plantații, alee pietonală) și trece gratuit în domeniul public; fâșia nr. cad. 353575, deja înscrisă ca „drum”, trece gratuit în domeniul public; cel puțin 5 arbori pe spațiul verde, pe sol natural.",
+    "Etapa 2, trafic: 116 locuri de parcare/garare în subsol, din care 58 suplimentare funcțiunilor, publice, la primul nivel al subsolului.",
+    "Planșa A3 „Plan Reglementări Urbanistice” e anexa hotărârii."
+  ],
+  "valabilitate": {
+    "nota": "Art. 2: valabilitatea e cea a documentației aprobate prin HCL 213/2021 (cinci ani, până la 26.05.2026)."
+  },
+  "hotarare_text": "documente/2024-598/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2021-213"
+}

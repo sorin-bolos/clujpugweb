@@ -13232,6 +13232,149 @@
   ]
  },
  {
+  "id": "2021-213",
+  "localitate": "cluj",
+  "hcl": "213/2021",
+  "data": "2021-05-26",
+  "titlu": "P.U.Z. – Dezvoltare ansamblu mixt, str. Traian nr. 40-46",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-213-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/05/26/HCL-213-din-26.05.2021.pdf",
+  "utr": [
+   {
+    "cod": "M",
+    "denumire": "Zonă mixtă cu regim de construire închis, adiacentă principalelor artere de trafic: locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism, garaje publice sau private sub- și supraterane; regim închis la str. Traian și str. Daniil Bărceanu. Parcela de colț (str. Traian nr. 44-46) e Etapa 1, parcela comună (str. Traian nr. 40-42) e Etapa 2 (etapizare aprobată prin HCL 598/2024, cu aceleași reglementări)",
+    "pot_max": "50% pe parcelele comune, 70% pe parcelele de colț; 80% pe parcelele cu garaje/parcaje colective de capacitate cel puțin dublă față de necesar",
+    "cut_max": "2,6 pe parcelele comune, 3,2 pe parcelele de colț; 4 pe parcelele cu garaje/parcaje colective de capacitate cel puțin dublă față de necesar",
+    "h_max": "cornișă la 22 m de la trotuar (±0,5 m); clădiri comune (1-3)S+P+5E+R, H max 25 m, ultimul nivel retras cel puțin 1,80 m spre stradă; clădiri de colț (1-3)S+P+6E+R sau (1-3)S+P+7E, H max 28 m"
+   }
+  ],
+  "suprafata_m2": 5334,
+  "imagine": "puz/2021-213/plansa.webp",
+  "bounds": {
+   "west": 23.5916783,
+   "south": 46.7786313,
+   "east": 23.593043,
+   "north": 46.7796093
+  },
+  "limita": [
+   [
+    23.5918533,
+    46.779532
+   ],
+   [
+    23.592036,
+    46.779549
+   ],
+   [
+    23.5923836,
+    46.7795862
+   ],
+   [
+    23.5924737,
+    46.7790557
+   ],
+   [
+    23.5924948,
+    46.7789353
+   ],
+   [
+    23.5930129,
+    46.7788687
+   ],
+   [
+    23.5929487,
+    46.7786628
+   ],
+   [
+    23.5927998,
+    46.7786815
+   ],
+   [
+    23.5927907,
+    46.7786826
+   ],
+   [
+    23.5926522,
+    46.7787
+   ],
+   [
+    23.5922942,
+    46.7787421
+   ],
+   [
+    23.5921283,
+    46.7787596
+   ],
+   [
+    23.5918825,
+    46.7787903
+   ],
+   [
+    23.5917202,
+    46.7788091
+   ],
+   [
+    23.5917532,
+    46.7790546
+   ],
+   [
+    23.5917931,
+    46.7790527
+   ],
+   [
+    23.5918034,
+    46.7791159
+   ],
+   [
+    23.5918116,
+    46.7791666
+   ],
+   [
+    23.5918204,
+    46.779241
+   ],
+   [
+    23.5918528,
+    46.7794889
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.13
+  },
+  "legenda": "puz/2021-213/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2026-05-26"
+  },
+  "diferente_fata_de_plansa": [
+   "Caseta „UTR M – Etapa 2, parcela comună” (str. Traian nr. 40-42) de pe planșă dă POT max. 70% și CUT max. 2,6 / 4 (parcaje duble). Hotărârea (Art. 1, HCL 213/2021) dă pentru parcelele comune POT 50% și CUT 2,6, iar POT 80% și CUT 4 numai pe parcelele cu garaje/parcaje colective de capacitate cel puțin dublă față de necesar; coloana de reglementări și tabelul „Indici urbanistici” ale planșei urmează textul (parcela 02: POT max. 80%, propus 62,43%; CUT max. 4, propus 3,05; nota 2: parcaje duble față de necesar).",
+   "Pentru nivelurile de locuire, planșa dă A.C. maximă = 50% × St pentru orice parcelă; hotărârea dă 40% × St pe parcelele comune și 50% × St pe cele de colț."
+  ],
+  "conditii": [
+   "Etapizare (modificat prin HCL 598/2024): Etapa 1 – parcela str. Traian nr. 44-46 (nr. cad. 344733, dezmembrată din 326185) și nr. cad. 344732 (drum); Etapa 2 – parcela str. Traian nr. 40-42 (nr. cad. 353576, dezmembrată din 274270) și nr. cad. 353575 (drum). Obligațiile de mai jos sunt împărțite pe etape.",
+   "Etapa 1, înainte de recepție: fâșia pentru regularizarea str. Daniil Bărceanu (nr. cad. 344732), deja dezmembrată și înscrisă în CF ca „drum”, trece gratuit în domeniul public; se plantează cel puțin 2 arbori pe frontul sudic al str. Daniil Bărceanu și cel puțin 5 arbori pe spațiul verde, pe sol natural, toți cu circumferința de minim 35 cm măsurată la 1 m de la colet (modificat prin HCL 598/2024; în 2021: 2 arbori pe str. Daniil Bărceanu și 10 pe spațiul verde, pentru tot ansamblul).",
+   "Etapa 1, parcaje: 118 locuri de parcare/garare în subsol, din care 30 suplimentare funcțiunilor, cu acces public, în subsolul 1. Cele 30 de locuri de parcare existente pe str. Traian se desființează, pentru o bandă dedicată de autobuz între str. Daniil Bărceanu și Podul Traian, pe sensul spre pod; ele sunt înlocuite de cele 30 de locuri publice din subsolul clădirii de la nr. 44-46 (adăugat prin HCL 598/2024).",
+   "Etapa 1, circulație: accesul din str. Daniil Bărceanu numai cu viraje la dreapta; plan de semnalizare rutieră orizontală și verticală pentru perimetrul str. Traian – Podul Traian – str. Decebal – str. Haiducului – str. Traian, avizat de Serviciul siguranța circulației și de Poliția rutieră și pus în practică; pe str. Emil Petrovici se inversează sensul unic, cu parcări pe partea stângă; pe str. Traian, între str. Daniil Bărceanu și str. Emil Petrovici, sens unic spre centru; pe str. Haiducului se inversează sensul unic, cu două benzi (viraj la stânga și la dreapta) pe ultimii 30 m spre str. Traian. Totul se face înainte de recepția construcțiilor, când funcționează și cele 30 de locuri publice (în 2021: aceleași măsuri, legate de cele 58 de locuri publice).",
+   "Sensul unic pe str. Decebal nu se mai extinde pe tronsonul str. Emil Petrovici – str. Haiducului, unde circulația a fost trecută între timp în dublu sens (modificat prin HCL 598/2024; HCL 213/2021 cerea extinderea).",
+   "Etapa 2, înainte de autorizația de construire: terenul pentru circulația de-a lungul culoarului Someșului Mic se dezmembrează și se înscrie în CF ca „drum”. Înainte de recepție: acest teren se amenajează ca spațiu verde (plantații înalte, medii, joase, alee pietonală) și trece gratuit în domeniul public; fâșia pentru regularizarea str. Traian (nr. cad. 353575), deja dezmembrată și înscrisă ca „drum”, trece gratuit în domeniul public; se plantează cel puțin 5 arbori pe spațiul verde, pe sol natural, cu circumferința de minim 35 cm la 1 m de la colet.",
+   "Etapa 2, parcaje: 116 locuri de parcare/garare în subsol, din care 58 suplimentare funcțiunilor, cu acces public, la primul nivel al subsolului (în 2021: 234 de locuri pentru tot ansamblul, din care cele 58 publice pe parcela de la nr. 40-42).",
+   "Dacă fâșiile pentru lărgirea străzilor Traian și Daniil Bărceanu și pentru circulația de-a lungul Someșului Mic trec gratuit în proprietate publică, indicatorii se calculează pe suprafața parcelei inițiale plus jumătate din suprafața cedată.",
+   "Retrageri: clădirile în aliniament, în front continuu închis, la str. Traian și str. Daniil Bărceanu; spre Someșul Mic retrase 6 m de la aliniament; între limitele laterale, pe o adâncime de cel mult 18 m de la aliniament; în adâncime doar lângă calcane existente pe parcelele vecine sau central, cu retragere de cel puțin jumătate din înălțimea la cornișă, minim 4,5 m.",
+   "Accese: parcela de colț – auto din str. Daniil Bărceanu, pietonal din str. Traian și str. Daniil Bărceanu; parcela comună – auto din str. Traian, pietonal din str. Traian și din promenada Someșului Mic. Parcarea în subsol, biciclete la sol și/sau în subsol, după Anexa 2 a Regulamentului P.U.G.; echipare edilitară completă pe str. Traian și str. Daniil Bărceanu.",
+   "Toate investițiile propuse prin documentația de urbanism sunt suportate de beneficiari."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "598/2024",
+    "data": "2024-08-29",
+    "rezumat": "Aprobă etapizarea investiției, păstrând reglementările și regulamentul U.T.R. M din 2021: Etapa 1 – parcela de colț str. Traian nr. 44-46 (nr. cad. 344733) cu fâșia de drum nr. cad. 344732, Etapa 2 – parcela str. Traian nr. 40-42 (nr. cad. 353576) cu fâșia de drum nr. cad. 353575, fiecare cu obligațiile și parcajele ei. Adaugă desființarea celor 30 de locuri de parcare de pe str. Traian pentru o bandă de autobuz (înlocuite de 30 de locuri publice în subsolul clădirii de la nr. 44-46) și renunță la extinderea sensului unic pe str. Decebal. Planșa A.03 cu etapele, anexă la HCL 598/2024, e cea afișată; valabilitatea rămâne cea a HCL 213/2021.",
+    "plansa_noua": true
+   }
+  ]
+ },
+ {
   "id": "2021-155",
   "localitate": "cluj",
   "hcl": "155/2021",
