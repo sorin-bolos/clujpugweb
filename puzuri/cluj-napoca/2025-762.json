@@ -1,0 +1,175 @@
+{
+  "id": "2025-762",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "PDF-ul hotărârii nu conține nicio planșă: cele 71 de pagini A4 sunt hotărârea (pp. 1-3) și Anexa, regulamentul local de urbanism (pp. 4-71, 68 de pagini, revizia 6 din 03/2025), iar pagina hotărârii nu are alt document; hotărârea aprobă un PUZ nou și nu modifică alt PUZ, deci nu există planșă de reglementări aprobată de georeferențiat.",
+  "hcl": {
+    "nr": 762,
+    "an": 2025,
+    "data_sedinta": "2025-12-23",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-762-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/12/29/762.pdf"
+  },
+  "titlu": "P.U.Z. – Tren Metropolitan Gilău-Florești-Cluj-Napoca-Baciu-Apahida-Jucu-Bonțida – Etapa 1 a sistemului de transport metropolitan Cluj Magistrala 1 de Metrou și Tren Metropolitan, inclusiv legătura dintre acestea – COMPONENTA 1. MAGISTRALA 1 DE METROU",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul (762.pdf, 71 de pagini A4 scanate la 200 ppi, 2340×1654 px fiecare) cuprinde: pp. 1-3 hotărârea; p. 4 coperta Anexei („Livrabil A18 (LM18). Plan Urbanistic Zonal (PUZ). Regulament local de urbanism”, martie 2025, contract nr. 201010/2020, proiectant SWS–Metrans–Systra); p. 5 fișa reviziilor (05/2021 … 03/2022, revizia 6 din 03/2025) cu avizul Arhitectului șef al județului nr. 37/02.06.2025; pp. 6-7 cuprinsul; pp. 8-70 textul regulamentului (capitolele 1-5: dispoziții generale, reguli de bază, zonificare, UTR-urile din Cluj-Napoca și din Florești); p. 71 coperta de final, cu semnăturile și mențiunea „Anexa la Hotărârea nr. 762/2025 cuprinde 68 pagini”. Nicio pagină nu e planșă (fără reglementări urbanistice, fără inventar de coordonate, fără caroiaj), iar pagina hotărârii trimite doar la acest PDF. Pe pagina „Informarea și consultarea publicului – PUD și PUZ” a primăriei sunt piesele desenate ale variantelor din consultarea publică din 2021 (28.05.2021: files.primariaclujnapoca.ro/2021/05/28/piese-desenate.pdf; 08.09.2021: „parte desenată” 1-5, files.primariaclujnapoca.ro/2021/09/08/1.pdf … 5.pdf). Sunt variante de lucru anterioare reviziilor 3-6 ale documentației aprobate, nu anexe ale hotărârii, așa că nu au fost folosite."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Nicio sursă de coordonate: PDF-ul hotărârii nu are planșă (nici inventar, nici caroiaj Stereo 70, nici desen pe care să se poată pune repere OpenStreetMap).",
+    "suprafata_declarata_m2": null,
+    "puncte": {},
+    "nota": "Art. 1: terenul e în proprietatea Statului român, în administrarea Ministerului Transporturilor și Infrastructurii prin Municipiul Cluj-Napoca, delimitat conform Deciziei de expropriere nr. 443988/29.04.2024 și anexei ei. Suprafața reglementată specific: ~40,39 ha pe raza UAT Cluj-Napoca (24 de imobile, nr. cad. 355567, 355581-355588, 355590-355592, 355618, 355638, 355641, 355646, 355647, 355650, 355665, 355678-355681 și 355692) și ~19,98 ha pe raza UAT Florești (nr. cad. 88150-88153, 88162-88164 și 88170). Suprafețele sunt aproximative („~”) și nu vin de pe o planșă, de aceea suprafata_declarata_m2 a rămas goală. Limita ar putea fi refăcută din planșele aprobate (dacă primăria le publică) sau din anexa deciziei de expropriere."
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "SZCP_IM1",
+      "denumire": "Cluj-Napoca: subzonă aferentă infrastructurii de metrou aflată în Zona Construită Protejată, tip 1",
+      "pot_max": "",
+      "cut_max": "",
+      "h_max": "parapet de protecție 1,2 m; semnalul M (stație de metrou) 3,5 m; prize 1 m; liftul și accesul la parcajul subteran pentru biciclete 4,5 m"
+    },
+    {
+      "cod": "SZCP_IM2",
+      "denumire": "Cluj-Napoca: subzonă aferentă infrastructurii de metrou aflată în Zona Construită Protejată, tip 2",
+      "pot_max": "60%",
+      "cut_max": "2",
+      "h_max": "cel mult înălțimea clădirilor dominante din zonă; prizele de ventilație cu acoperiș plat le pot depăși cu cel mult 1,5 m"
+    },
+    {
+      "cod": "IM",
+      "denumire": "Cluj-Napoca: subzonă aferentă infrastructurii de metrou în afara Zonei Construite Protejate",
+      "pot_max": "15%",
+      "cut_max": "0,3",
+      "h_max": "accesurile la stație 5 m; prize 2 m; liftul și accesul la parcajul subteran pentru biciclete 4,5 m"
+    },
+    {
+      "cod": "IM_v",
+      "denumire": "Cluj-Napoca: subzonă aferentă infrastructurii de metrou – interstație",
+      "pot_max": "",
+      "cut_max": "",
+      "h_max": "2 m"
+    },
+    {
+      "cod": "M",
+      "denumire": "Cluj-Napoca: zonă mixtă",
+      "pot_max": "50%",
+      "cut_max": "2,5",
+      "h_max": "24 m la cornișă, 28 m total (P+6E+7Er); pe parcelele de colț 35 m la atic (P+8E)"
+    },
+    {
+      "cod": "Ms",
+      "denumire": "Cluj-Napoca: zonă mixtă – cartier Sopor",
+      "pot_max": "70% (segmentul 1); 30% (segmentul 2)",
+      "cut_max": "",
+      "h_max": "segmentul 1: 18 m la cornișă, (1-3)S+P+3; segmentul 2: 31 m la cornișă, 35 m la coamă"
+    },
+    {
+      "cod": "L",
+      "denumire": "Cluj-Napoca: zonă de locuințe colective",
+      "pot_max": "30%",
+      "cut_max": "1",
+      "h_max": "18 m la cornișă, 21 m total (P+4E+5Er)"
+    },
+    {
+      "cod": "Ls",
+      "denumire": "Cluj-Napoca: zonă de locuințe colective – cartier Sopor",
+      "pot_max": "45%",
+      "cut_max": "2",
+      "h_max": "18 m la cornișă, 22 m total ((1-3)S+P+4E+Er)"
+    },
+    {
+      "cod": "Vl",
+      "denumire": "Cluj-Napoca: zonă verde de loisir",
+      "pot_max": "15%",
+      "cut_max": "0,3",
+      "h_max": "amenajări 4 m; parcaje subterane pentru biciclete 15 m"
+    },
+    {
+      "cod": "Vs",
+      "denumire": "Cluj-Napoca: zonă verde – scuaruri, grădini, parcuri cu acces public nelimitat – cartier Sopor",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "9 m la cornișă ((D)+P+1)"
+    },
+    {
+      "cod": "Vpr",
+      "denumire": "Cluj-Napoca: zonă verde de protecție față de infrastructura majoră, de protecție sanitară, plantații de stabilizare și de reconstrucție ecologică",
+      "pot_max": "1%",
+      "cut_max": "0,01",
+      "h_max": ""
+    },
+    {
+      "cod": "Tm",
+      "denumire": "Cluj-Napoca: zonă de infrastructură supraterană a metroului – depou",
+      "pot_max": "40%",
+      "cut_max": "1",
+      "h_max": "în planul fațadei, cel mult distanța dintre aliniamente și cel mult înălțimea admisă în UTR-urile vecine (fără instalațiile tehnice)"
+    },
+    {
+      "cod": "IM1",
+      "denumire": "Florești: zonă aferentă infrastructurii de metrou – stație de metrou subterană",
+      "pot_max": "",
+      "cut_max": "",
+      "h_max": "accesurile la stație 5 m; prize 2 m; lift 4,5 m; parcaj subteran pentru biciclete 13 m"
+    },
+    {
+      "cod": "IM2",
+      "denumire": "Florești: zonă aferentă infrastructurii de metrou – stație de metrou cu vestibul suprateran",
+      "pot_max": "",
+      "cut_max": "",
+      "h_max": "construcții 8 m; parcaj subteran pentru biciclete 13 m"
+    },
+    {
+      "cod": "IM_v1",
+      "denumire": "Florești: zonă aferentă infrastructurii de metrou – interstație",
+      "pot_max": "",
+      "cut_max": "",
+      "h_max": "construcții 2 m"
+    },
+    {
+      "cod": "M (Florești)",
+      "denumire": "Florești: zonă mixtă (în cuprinsul regulamentului: M1)",
+      "pot_max": "50%",
+      "cut_max": "2,5",
+      "h_max": "24 m la cornișă, 28 m total (P+6E+7Er); pe parcelele de colț, cu clădiri care exclud locuirea, 35 m la atic (P+8E)"
+    },
+    {
+      "cod": "Vl (Florești)",
+      "denumire": "Florești: zonă verde de loisir (în cuprinsul regulamentului: Vl1)",
+      "pot_max": "15%",
+      "cut_max": "0,3",
+      "h_max": "amenajări 4 m; parcaje subterane pentru biciclete 15 m"
+    },
+    {
+      "cod": "P&R",
+      "denumire": "Florești: parcare la sol (park & ride)",
+      "pot_max": "15%",
+      "cut_max": "0,3",
+      "h_max": "amenajări 3 m; parcaje subterane pentru biciclete 13 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 10,
+    "pana_la": "2035-12-23"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiar, Municipiul Cluj-Napoca (Art. 1).",
+    "Terenul reglementat e cel delimitat prin Decizia de expropriere nr. 443988/29.04.2024 și anexa ei: ~40,39 ha în Cluj-Napoca (24 de imobile) și ~19,98 ha în Florești (8 imobile); regulamentul local de urbanism e anexa hotărârii (Art. 1)."
+  ]
+}
