@@ -1,0 +1,1152 @@
+{
+  "id": "2022-510",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 510,
+    "an": 2022,
+    "data_sedinta": "2022-07-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-510-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/07/15/HCL-510-din-7-iulie-2022-PUZ-HUB-EDUCATIONAL.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare infrastructură educațională, de sănătate, sportivă și pădure – parc în cartierul Borhanci",
+  "plansa": {
+    "pagina_pdf": 3,
+    "dpi": 300,
+    "denumire": "A4 Reglementări urbanistice",
+    "scara": "1:2000",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/10/29/645.pdf",
+    "sursa_hcl": "645/2025",
+    "nota": "Planșa afișată e cea a modificării aprobate prin HCL 645/2025: 645.pdf, p. 3 (A3, 300 ppi, ștampilată „Anexa la Hotărârea nr. 645/2025”; pp. 1-2 sunt textul hotărârii). Cartușul: proiect 261/2025, iul. 2025, planșa A4 „Reglementări urbanistice”, scara 1:2000, titlul „Modificare PUZ aprobat prin HCL nr. 510 din 7 iulie 2022…”. Ea înlocuiește planșa din 2022 (PDF-ul HCL 510/2022, p. 34, A1 la 300 ppi: U3.1 „Reglementări urbanistice – Zonificare preliminară”; pp. 1-3 hotărârea, pp. 4-33 regulamentul, pp. 35-36 raportul informării publicului), pentru că HCL 645/2025 schimbă traseul străzii, geometria UTR Va și limita (drumul nr. cad. 350345 intră în Tr), iar celelalte reglementări rămân. Planșa e tipărită culcat: textul se citește de jos în sus, nordul e spre stânga (rotație -89,1°); scara imaginii e 2,56 px/m (1:2000 la 300 ppi ar da 5,9 px/m, deci desenul e redus la ~43%). Legenda cuprinde cheia simbolurilor (limite, circulații, folosința terenurilor din interiorul și exteriorul zonei, amplasarea construcțiilor, zona de protecție sanitară) și caseta „Indici urbanistici propuși” pe UTR; au rămas afară tabelul parcelarului propus, bilanțul teritorial, inventarul de coordonate, profilele stradale, cartușul, semnăturile și ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate de pe planșa A4 (HCL 645/2025), Nord(x)/Est(Y): 163 de puncte, transcrise în ordinea tabelului (`ordine`); tabelul ocolește cele două enclave excluse din P.U.Z. pe tăieturi de lățime zero (39-40-41…51-40-39 în jurul UTR-UED, 82-83-84…89-83-82 în jurul S_UIs), de aceea 40, 39, 83 și 82 apar de două ori. Planșa e plasată pe caroiajul Stereo 70 al desenului: cruci la 100 m (~257 px), fără etichete, etichetate cu `caroiaj` pornind de la vârful 163 al inventarului ales pe planșă; toate crucile cad la cel mult 3,6 m de nodurile de 100 m, deci etichetele sunt sigure. Control: 12 cruci (C398000_583400, C398000_584200, C397600_584600, C397400_584600, C397100_584300, C397100_583400, C397500_583500, C397100_583700, C397700_584600, C398000_583500, C397700_584000, C397100_584100), cu centrul măsurat pe brațe; verificare: crucile C397600_584000 și C397400_583500 și vârfurile 139, 163, 42, 43 și 57 ale inventarului, citite pe linia limitei. Crucile și inventarul sunt independente și se potrivesc: vârfurile inventarului cad pe linia punctată a limitei (abateri mediane pe laturi de 0-1,4 m), deci crucile țin de desen, nu de macheta foii.",
+    "suprafata_declarata_m2": 730220.04,
+    "puncte": {
+      "1": [
+        584490.822,
+        397605.135
+      ],
+      "2": [
+        584495.353,
+        397601.926
+      ],
+      "3": [
+        584492.521,
+        397580.058
+      ],
+      "4": [
+        584474.031,
+        397435.879
+      ],
+      "5": [
+        584617.261,
+        397344.468
+      ],
+      "6": [
+        584632.952,
+        397334.621
+      ],
+      "7": [
+        584741.317,
+        397265.459
+      ],
+      "8": [
+        584719.365,
+        397243.075
+      ],
+      "9": [
+        584708.706,
+        397229.179
+      ],
+      "10": [
+        584688.056,
+        397202.259
+      ],
+      "11": [
+        584688.299,
+        397202.522
+      ],
+      "12": [
+        584671.368,
+        397180.503
+      ],
+      "13": [
+        584647.202,
+        397151.304
+      ],
+      "14": [
+        584612.411,
+        397110.647
+      ],
+      "15": [
+        584572.438,
+        397067.388
+      ],
+      "16": [
+        584567.639,
+        397062.195
+      ],
+      "17": [
+        584560.17,
+        397049.325
+      ],
+      "18": [
+        584558.895,
+        397047.12
+      ],
+      "19": [
+        584558.075,
+        397035.522
+      ],
+      "20": [
+        584528.57,
+        397059.696
+      ],
+      "21": [
+        584513.073,
+        397072.392
+      ],
+      "22": [
+        584467.392,
+        397108.633
+      ],
+      "23": [
+        584424.02,
+        397141.47
+      ],
+      "24": [
+        584423.956,
+        397141.399
+      ],
+      "25": [
+        584419.191,
+        397145.016
+      ],
+      "26": [
+        584397.29,
+        397163.234
+      ],
+      "27": [
+        584387.253,
+        397173.757
+      ],
+      "28": [
+        584370.389,
+        397189.135
+      ],
+      "29": [
+        584346.663,
+        397203.579
+      ],
+      "30": [
+        584268.367,
+        397236.389
+      ],
+      "31": [
+        584210.782,
+        397260.763
+      ],
+      "32": [
+        584155.741,
+        397273.222
+      ],
+      "33": [
+        584107.464,
+        397277.641
+      ],
+      "34": [
+        584093.194,
+        397278.961
+      ],
+      "35": [
+        584034.078,
+        397284.429
+      ],
+      "36": [
+        584020.105,
+        397285.776
+      ],
+      "37": [
+        584009.57,
+        397286.337
+      ],
+      "38": [
+        583997.619,
+        397285.22
+      ],
+      "39": [
+        583982.066,
+        397278.83
+      ],
+      "40": [
+        583923.838,
+        397390.081
+      ],
+      "41": [
+        583918.516,
+        397436.691
+      ],
+      "42": [
+        583847.467,
+        397428.532
+      ],
+      "43": [
+        583853.066,
+        397380.306
+      ],
+      "44": [
+        583873.439,
+        397379.291
+      ],
+      "45": [
+        583880.745,
+        397379.195
+      ],
+      "46": [
+        583888.043,
+        397379.582
+      ],
+      "47": [
+        583895.293,
+        397380.552
+      ],
+      "48": [
+        583902.466,
+        397382.047
+      ],
+      "49": [
+        583907.962,
+        397383.501
+      ],
+      "50": [
+        583913.365,
+        397385.475
+      ],
+      "51": [
+        583918.689,
+        397387.583
+      ],
+      "52": [
+        583975.971,
+        397275.437
+      ],
+      "53": [
+        583970.307,
+        397271.325
+      ],
+      "54": [
+        583961.218,
+        397264.104
+      ],
+      "55": [
+        583956.51,
+        397259.945
+      ],
+      "56": [
+        583950.04,
+        397252.624
+      ],
+      "57": [
+        583928.0,
+        397227.31
+      ],
+      "58": [
+        583893.947,
+        397232.303
+      ],
+      "59": [
+        583848.971,
+        397241.966
+      ],
+      "60": [
+        583835.667,
+        397243.426
+      ],
+      "61": [
+        583792.584,
+        397249.94
+      ],
+      "62": [
+        583779.017,
+        397250.974
+      ],
+      "63": [
+        583770.003,
+        397250.818
+      ],
+      "64": [
+        583763.867,
+        397250.544
+      ],
+      "65": [
+        583756.036,
+        397247.402
+      ],
+      "66": [
+        583741.823,
+        397239.725
+      ],
+      "67": [
+        583732.043,
+        397232.732
+      ],
+      "68": [
+        583721.16,
+        397225.096
+      ],
+      "69": [
+        583713.205,
+        397218.866
+      ],
+      "70": [
+        583705.478,
+        397213.003
+      ],
+      "71": [
+        583694.481,
+        397203.026
+      ],
+      "72": [
+        583687.862,
+        397196.878
+      ],
+      "73": [
+        583675.731,
+        397185.888
+      ],
+      "74": [
+        583676.757,
+        397184.608
+      ],
+      "75": [
+        583650.231,
+        397165.623
+      ],
+      "76": [
+        583650.865,
+        397164.736
+      ],
+      "77": [
+        583648.34,
+        397163.22
+      ],
+      "78": [
+        583645.7,
+        397161.68
+      ],
+      "79": [
+        583631.46,
+        397153.378
+      ],
+      "80": [
+        583621.71,
+        397146.923
+      ],
+      "81": [
+        583616.86,
+        397143.53
+      ],
+      "82": [
+        583597.759,
+        397130.455
+      ],
+      "83": [
+        583590.976,
+        397140.354
+      ],
+      "84": [
+        583563.085,
+        397180.036
+      ],
+      "85": [
+        583544.226,
+        397165.303
+      ],
+      "86": [
+        583540.321,
+        397158.105
+      ],
+      "87": [
+        583537.18,
+        397126.394
+      ],
+      "88": [
+        583552.032,
+        397112.748
+      ],
+      "89": [
+        583573.354,
+        397128.28
+      ],
+      "90": [
+        583580.18,
+        397118.41
+      ],
+      "91": [
+        583568.167,
+        397110.024
+      ],
+      "92": [
+        583568.147,
+        397105.232
+      ],
+      "93": [
+        583562.013,
+        397104.71
+      ],
+      "94": [
+        583561.93,
+        397104.814
+      ],
+      "95": [
+        583537.677,
+        397086.555
+      ],
+      "96": [
+        583535.779,
+        397082.035
+      ],
+      "97": [
+        583535.175,
+        397080.597
+      ],
+      "98": [
+        583527.37,
+        397089.825
+      ],
+      "99": [
+        583526.298,
+        397097.056
+      ],
+      "100": [
+        583515.815,
+        397106.769
+      ],
+      "101": [
+        583500.424,
+        397121.81
+      ],
+      "102": [
+        583491.769,
+        397139.809
+      ],
+      "103": [
+        583486.685,
+        397154.304
+      ],
+      "104": [
+        583486.46,
+        397172.524
+      ],
+      "105": [
+        583484.54,
+        397335.141
+      ],
+      "106": [
+        583487.29,
+        397336.53
+      ],
+      "107": [
+        583501.41,
+        397343.64
+      ],
+      "108": [
+        583492.55,
+        397362.9
+      ],
+      "109": [
+        583492.13,
+        397363.82
+      ],
+      "110": [
+        583489.621,
+        397369.268
+      ],
+      "111": [
+        583474.307,
+        397402.58
+      ],
+      "112": [
+        583484.313,
+        397407.562
+      ],
+      "113": [
+        583468.677,
+        397441.471
+      ],
+      "114": [
+        583473.273,
+        397443.626
+      ],
+      "115": [
+        583473.106,
+        397450.267
+      ],
+      "116": [
+        583472.303,
+        397458.337
+      ],
+      "117": [
+        583484.14,
+        397463.53
+      ],
+      "118": [
+        583480.04,
+        397476.15
+      ],
+      "119": [
+        583475.81,
+        397489.03
+      ],
+      "120": [
+        583486.329,
+        397494.004
+      ],
+      "121": [
+        583483.503,
+        397521.22
+      ],
+      "122": [
+        583482.265,
+        397512.156
+      ],
+      "123": [
+        583471.677,
+        397528.553
+      ],
+      "124": [
+        583473.01,
+        397535.516
+      ],
+      "125": [
+        583471.445,
+        397585.666
+      ],
+      "126": [
+        583481.942,
+        397590.11
+      ],
+      "127": [
+        583479.308,
+        397622.652
+      ],
+      "128": [
+        583478.731,
+        397629.773
+      ],
+      "129": [
+        583476.342,
+        397662.152
+      ],
+      "130": [
+        583469.327,
+        397659.196
+      ],
+      "131": [
+        583468.416,
+        397678.525
+      ],
+      "132": [
+        583468.677,
+        397721.257
+      ],
+      "133": [
+        583468.613,
+        397728.212
+      ],
+      "134": [
+        583467.634,
+        397835.092
+      ],
+      "135": [
+        583467.223,
+        397862.931
+      ],
+      "136": [
+        583465.924,
+        397943.1
+      ],
+      "137": [
+        583464.705,
+        397968.213
+      ],
+      "138": [
+        583465.153,
+        397987.349
+      ],
+      "139": [
+        583471.946,
+        397989.313
+      ],
+      "140": [
+        583472.394,
+        397982.092
+      ],
+      "141": [
+        583475.941,
+        397969.484
+      ],
+      "142": [
+        583541.052,
+        397988.798
+      ],
+      "143": [
+        583560.588,
+        397991.225
+      ],
+      "144": [
+        583587.504,
+        397989.792
+      ],
+      "145": [
+        583619.044,
+        397991.854
+      ],
+      "146": [
+        583627.468,
+        397992.405
+      ],
+      "147": [
+        583652.983,
+        397991.213
+      ],
+      "148": [
+        583656.993,
+        397990.967
+      ],
+      "149": [
+        583671.891,
+        397989.444
+      ],
+      "150": [
+        583693.89,
+        397989.74
+      ],
+      "151": [
+        583714.6,
+        397990.145
+      ],
+      "152": [
+        583727.983,
+        397990.364
+      ],
+      "153": [
+        583733.556,
+        397990.456
+      ],
+      "154": [
+        583746.01,
+        397990.66
+      ],
+      "155": [
+        583746.01,
+        397987.87
+      ],
+      "156": [
+        583788.89,
+        397987.61
+      ],
+      "157": [
+        583807.39,
+        397987.86
+      ],
+      "158": [
+        583830.93,
+        397988.17
+      ],
+      "159": [
+        583873.69,
+        397988.744
+      ],
+      "160": [
+        583893.741,
+        397988.454
+      ],
+      "161": [
+        583922.044,
+        397986.882
+      ],
+      "162": [
+        583934.417,
+        397983.392
+      ],
+      "163": [
+        583960.909,
+        397980.39
+      ]
+    },
+    "ordine": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "40",
+      "39",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57",
+      "58",
+      "59",
+      "60",
+      "61",
+      "62",
+      "63",
+      "64",
+      "65",
+      "66",
+      "67",
+      "68",
+      "69",
+      "70",
+      "71",
+      "72",
+      "73",
+      "74",
+      "75",
+      "76",
+      "77",
+      "78",
+      "79",
+      "80",
+      "81",
+      "82",
+      "83",
+      "84",
+      "85",
+      "86",
+      "87",
+      "88",
+      "89",
+      "83",
+      "82",
+      "90",
+      "91",
+      "92",
+      "93",
+      "94",
+      "95",
+      "96",
+      "97",
+      "98",
+      "99",
+      "100",
+      "101",
+      "102",
+      "103",
+      "104",
+      "105",
+      "106",
+      "107",
+      "108",
+      "109",
+      "110",
+      "111",
+      "112",
+      "113",
+      "114",
+      "115",
+      "116",
+      "117",
+      "118",
+      "119",
+      "120",
+      "121",
+      "122",
+      "123",
+      "124",
+      "125",
+      "126",
+      "127",
+      "128",
+      "129",
+      "130",
+      "131",
+      "132",
+      "133",
+      "134",
+      "135",
+      "136",
+      "137",
+      "138",
+      "139",
+      "140",
+      "141",
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "152",
+      "153",
+      "154",
+      "155",
+      "156",
+      "157",
+      "158",
+      "159",
+      "160",
+      "161",
+      "162",
+      "163"
+    ],
+    "nota": "Tabelul are N și E pe coloane, fără lungimi de laturi și fără perimetru; aria tipărită sub tabel și în legendă: S = 730 220,04 mp (legenda: 730 220,00 mp), iar Art. 1 al HCL 645/2025 spune 73,02 ha (HCL 510/2022: 71,55 ha, înainte de includerea drumului nr. cad. 350345). Prima transcriere dădea 729 657 mp (-0,08%), adică trecea poarta de 1%, dar suprapunerea pe planșă a arătat cinci cifre citite greșit, recitite apoi pe tabel, la zoom: 11 N 584688,299 (nu 584680), 20 N 584528,570 (nu 584520), 41 N 583918,516 (nu 583910), 98 E 397089,825 (nu 397069), 142 E 397988,798 (nu 397966). Cu ele, aria e 730 285 mp (+0,009%) și vârfurile cad pe linia limitei. Pe laturile de vest (vârfurile 6-23) linia desenată stă la ~1,2-1,4 m de cea calculată, iar crucile de control au reziduuri de până la 1,3 m: o deformare ușoară a scanării (planșa redusă pe A3), nu o greșeală de citire. Vârful 14 cade sub cota „19.11” (linia nu se vede acolo); 84-89 sunt pe conturul enclavei S_UIs, desenat cu linie mov, nu cu linia punctată albastră. Vârful 92 (E 397105,232, citit așa la zoom: decroș de ~4,8 m spre vest între 91 și 93) cade la ~2,5 m de linia desenată, care nu arată decroșul."
+  },
+  "gcp_px": {
+    "C398000_583400": [
+      3802.9,
+      514.3
+    ],
+    "C398000_584200": [
+      1757.2,
+      484.4
+    ],
+    "C397600_584600": [
+      716.4,
+      1495.0
+    ],
+    "C397400_584600": [
+      707.2,
+      2007.9
+    ],
+    "C397100_584300": [
+      1462.2,
+      2789.0
+    ],
+    "C397100_583400": [
+      3768.6,
+      2824.6
+    ],
+    "C397500_583500": [
+      3531.2,
+      1793.8
+    ],
+    "C397100_583700": [
+      2999.0,
+      2812.9
+    ],
+    "C397700_584600": [
+      720.5,
+      1237.9
+    ],
+    "C398000_583500": [
+      3546.1,
+      511.2
+    ],
+    "C397700_584000": [
+      2257.9,
+      1262.7
+    ],
+    "C397100_584100": [
+      1973.6,
+      2798.6
+    ]
+  },
+  "verificare_px": {
+    "C397600_584000": [
+      2254.7,
+      1519.8
+    ],
+    "C397400_583500": [
+      3526.9,
+      2051.1
+    ],
+    "139": [
+      3617,
+      542
+    ],
+    "163": [
+      2367,
+      545
+    ],
+    "42": [
+      2638,
+      1962
+    ],
+    "43": [
+      2622,
+      2088
+    ],
+    "57": [
+      2421,
+      2477
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3862,
+      1188,
+      4728,
+      2092,
+      90
+    ],
+    [
+      3862,
+      780,
+      4468,
+      1188,
+      90
+    ],
+    [
+      3845,
+      262,
+      4205,
+      778,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Is Borhanci",
+      "denumire": "Zonă de instituții și servicii publice și de interes public constituite în ansambluri independente (parcelele 2, 4, 6, 8, 9 și 11: creșă, grădiniță, școală, liceu cu sală de sport, unitate de sănătate, bazin de înot): învățământ și cercetare, sănătate și asistență socială, sport, administrație, cultură; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "24 m la cornișă; D+P+3E, adaptat programului de arhitectură"
+    },
+    {
+      "cod": "Va Borhanci",
+      "denumire": "Zonă verde: parc-pădure, scuaruri, grădini, parcuri, zone de agrement și sport, cu acces public nelimitat (parcelele 1, 10, 12, 16 și 17); geometria modificată prin HCL 645/2025, fără să scadă suprafața de spațiu verde",
+      "pot_max": "1% (numai clădirile cu spații interioare)",
+      "cut_max": "0,01",
+      "h_max": "6 m la cornișă; P (locurile de joacă și echipamentele pot depăși)"
+    },
+    {
+      "cod": "S_Vas Borhanci",
+      "denumire": "Subzonă de agrement și cu rol de complex sportiv (parcelele 13, 14 și 15): baze sportive și parcuri de agrement cu acces public, limitat sau nu",
+      "pot_max": "10% (numai clădirile cu spații interioare)",
+      "cut_max": "0,2",
+      "h_max": "20 m la cornișă față de C.T.A.; regim de înălțime variabil"
+    },
+    {
+      "cod": "Tr Borhanci",
+      "denumire": "Zonă de circulație rutieră și amenajări: strada nouă str. Borhanci – str. Bicaz/Gheorgheni și terenul de regularizare a străzilor existente (parcelele 3, 5, 7, 18, 19 și 20); din 2025 și drumul existent nr. cad. 350345 de pe latura de vest (modificat prin HCL 645/2025)",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2029-07-07",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08); modificată prin HCL 645/2025, care are valabilitate proprie de 7 ani, până la 29.10.2032."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "645/2025",
+      "data": "2025-10-29",
+      "rezumat": "Include în UTR Tr Borhanci drumul existent nr. cad. 350345 de pe latura de vest (teritoriul crește de la 71,55 la 73,02 ha), mută spre vest o parte a tronsonului 2 al străzii noi, cu ampriza de 18 m, ca legătură între liceu și bazinul de înot (partea de nord a tronsonului rămâne ca în 2022), reconfigurează profilele stradale și modifică geometria UTR Va fără să scadă spațiul verde; strada nouă se aduce la strat de uzură până la certificatul de atestare a construcțiilor, iar semnalizarea și trecerile de pietoni urmează avizul Siguranța Circulației. Indicatorii celor patru UTR rămân neschimbați. Aduce o planșă nouă de reglementări (A4), afișată aici; modificarea are valabilitate proprie de 7 ani, până la 29 octombrie 2032.",
+      "plansa_noua": true
+    }
+  ],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pe loturile Is Borhanci regimuri de înălțime mai mici decât hotărârea: creșă și grădiniță D+P+1, școală 2D+P+2, liceu cu sală de sport și unitate de sănătate D+P+2, bazin de înot D+P+3; hotărârea dă pentru toată zona D+P+3E, cu 24 m la cornișă, „adaptat condiționărilor programului arhitectural”. POT 60% și CUT 2,2 sunt aceleași pe toate loturile.",
+    "Hotărârea din 2022 trimite la planșa U3.1 „Zonificare preliminară” (parcelele 1-20, 71,55 ha); planșa afișată e A4 din 2025, cu lotul 10 împărțit în 10/a și 10/b, lotul 21 (drumul nr. cad. 350345, Tr) adăugat și 73,02 ha (modificat prin HCL 645/2025).",
+    "Planșa A4 dă drumului existent nr. cad. 350345 (lotul 21, inclus în Tr Borhanci prin HCL 645/2025) ampriza de 12 m (cota de pe planșă și profilul E-E); hotărârea din 2022 regularizează strada de interes local din vestul amplasamentului (C.F. 291848) la 11 m. Celelalte profile ale planșei: A-A 18 m (25,6 m cu parcările), B-B 18,5 m (22,3 m cu parcările), C-C și D-D 18 m, în acord cu minimul de 18 m cerut pentru strada nouă."
+  ],
+  "conditii": [
+    "Terenul pentru regularizarea străzilor existente (parcelele 18, 19 și 20: str. Bicaz, str. Gheorgheni și strada de interes local C.F. 296720 spre str. Soporului) și cel pentru strada principală nord-sud se dezmembrează din nr. cad. 344517 și se înscriu în C.F. ca „drum” înainte de orice autorizație de construire pe parcele; acestea se aduc la strat de uzură odată cu modernizarea str. Gheorgheni, str. Bicaz și a străzii C.F. 296720.",
+    "Strada nouă str. Borhanci – str. Bicaz/Gheorgheni se echipează edilitar, pe bază de proiect de specialitate, înainte de autorizațiile de construire pe parcelele Is Borhanci, iar până la recepția construcțiilor se amenajează și se aduce la strat de uzură; strada nou propusă prin modificarea din 2025 se aduce la strat de uzură până la emiterea certificatului de atestare a construcțiilor (HCL 645/2025).",
+    "Echiparea edilitară și amenajarea străzii se pot face pe tronsoane, după planul de investiții al municipiului: tronsonul 1 lângă hub-ul educațional (creșă, grădiniță, școală, liceu), cu sensul giratoriu, și tronsonul 2 de la hub până la str. Bicaz; o parte a tronsonului 2 e mutată spre vest, cu ampriza de 18 m, între liceu și bazinul de înot (modificat prin HCL 645/2025).",
+    "Regularizări de străzi: str. Bicaz 12 m, str. Gheorgheni 18 m, strada de interes local din vest (C.F. 291848) 11 m, strada de interes local din sud (C.F. 296720) 16 m; strada nouă are ampriza variabilă, de minimum 18 m. Profilele stradale sunt reconfigurate pe planșa A4, iar drumul existent nr. cad. 350345 intră în UTR Tr (modificat prin HCL 645/2025).",
+    "Semnalizare (avizul Serviciului Siguranța Circulației, HCL 645/2025): indicatoare după SR 1848-1:2024, marcaje de lungă durată (bicomponente) după SR 1848/7-2015, marcaje tactile la trecerile de pietoni, amenajări după NP 051/2012; toate trecerile de pietoni au semafoare la buton, noi, integrate în platforma OMNIA/UTOPIA, cu lămpi de 200 mm, după STAS 1848/4-86.",
+    "Retrageri: în Is Borhanci și S_Vas Borhanci minimum 5 m față de aliniament și de limitele laterale și posterioare; în Va Borhanci minimum 5 m față de aliniament, H/2 (minimum 5 m) față de limitele laterale și H (minimum 5 m) față de cea posterioară.",
+    "Parcelele de învățământ au acces auto din breteaua paralelă cu strada principală nord-sud; parcarea se face pe parcelă sau în parcaje „drop-off” la cel mult 150 m de clădire: centrul de sănătate 1 loc/80 mp A.U., creșa 1 loc/200 mp A.U. (minimum două), grădinița, școala și liceul 1 loc/200 mp A.U., bazinul 1 loc/50 mp luciu de apă + 15 locuri pentru public; terenurile și sălile de sport fără public din S_Vas 1 loc/250 mp.",
+    "Pe spațiile verzi (Va și S_Vas) parcarea e interzisă; parcajele se fac în zonele de intrare, în Va pe cel mult 10% din teren.",
+    "Infrastructura și sistematizarea verticală se fac unitar pentru toată zona, păstrând scurgerea apelor; cablurile aeriene de orice fel sunt interzise; rețelele din culoarul străzilor se pun numai în subteran, iar apele pluviale se colectează în culoarul străzii, nu spre parcelele vecine.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar, Municipiul Cluj-Napoca."
+  ],
+  "caroiaj": {
+    "pas_m": 100,
+    "px_per_m": 2.57,
+    "nord": 270,
+    "cruci_px": {
+      "A": [
+        3802.9,
+        514.3
+      ],
+      "B": [
+        1757.2,
+        484.4
+      ],
+      "C": [
+        716.4,
+        1495.0
+      ],
+      "D": [
+        707.2,
+        2007.9
+      ],
+      "E": [
+        1462.2,
+        2789.0
+      ],
+      "F": [
+        3768.6,
+        2824.6
+      ],
+      "G": [
+        2254.7,
+        1519.8
+      ],
+      "H": [
+        3531.2,
+        1793.8
+      ],
+      "I": [
+        2999.0,
+        2812.9
+      ],
+      "J": [
+        720.5,
+        1237.9
+      ],
+      "K": [
+        3546.1,
+        511.2
+      ],
+      "L": [
+        2257.9,
+        1262.7
+      ],
+      "M": [
+        3526.9,
+        2051.1
+      ],
+      "N": [
+        1973.6,
+        2798.6
+      ]
+    },
+    "ancora": {
+      "px": [
+        2363,
+        542
+      ],
+      "en": [
+        397980.39,
+        583960.909
+      ],
+      "sursa": "vârful 163 al inventarului de coordonate de pe planșă (colțul de sud-est al laturii lungi de nord-est), ales pe planșă la frângerea liniei limitei"
+    }
+  },
+  "repere": {
+    "C398000_583400": [
+      583400.0,
+      398000.0
+    ],
+    "C398000_584200": [
+      584200.0,
+      398000.0
+    ],
+    "C397600_584600": [
+      584600.0,
+      397600.0
+    ],
+    "C397400_584600": [
+      584600.0,
+      397400.0
+    ],
+    "C397100_584300": [
+      584300.0,
+      397100.0
+    ],
+    "C397100_583400": [
+      583400.0,
+      397100.0
+    ],
+    "C397600_584000": [
+      584000.0,
+      397600.0
+    ],
+    "C397500_583500": [
+      583500.0,
+      397500.0
+    ],
+    "C397100_583700": [
+      583700.0,
+      397100.0
+    ],
+    "C397700_584600": [
+      584600.0,
+      397700.0
+    ],
+    "C398000_583500": [
+      583500.0,
+      398000.0
+    ],
+    "C397700_584000": [
+      584000.0,
+      397700.0
+    ],
+    "C397400_583500": [
+      583500.0,
+      397400.0
+    ],
+    "C397100_584100": [
+      584100.0,
+      397100.0
+    ]
+  },
+  "hotarare_text": "documente/2022-510/hotarare.txt"
+}

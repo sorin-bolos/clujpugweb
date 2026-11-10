@@ -1,0 +1,57 @@
+{
+  "id": "2025-645",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 645,
+    "an": 2025,
+    "data_sedinta": "2025-10-29",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-645-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/10/29/645.pdf"
+  },
+  "titlu": "P.U.Z. – Modificare P.U.Z. aprobat prin Hotărârea nr. 510/2022 pentru „Dezvoltare infrastructură educațională, de sănătate, sportivă și pădure – parc în cartierul Borhanci”",
+  "plansa": {
+    "pagina_pdf": 3,
+    "dpi": 300,
+    "denumire": "A4 Reglementări urbanistice",
+    "scara": "1:2000",
+    "nota": "645.pdf are 3 pagini: pp. 1-2 textul hotărârii (A4 culcat, 300 ppi), p. 3 planșa A4 „Reglementări urbanistice”, scara 1:2000 (A3, 300 ppi, proiect 261/2025, iul. 2025), anexa hotărârii, cu inventar de coordonate (163 de puncte, S = 730 220,04 mp) și caroiaj Stereo 70. Planșa e o planșă nouă de reglementări pentru tot teritoriul P.U.Z. aprobat prin HCL 510/2022, așa că a fost georeferențiată în rețeta P.U.Z. de bază, 2022-510 (plansa.pdf, plansa.sursa_hcl = 645/2025), publicată în același commit; această rețetă nu se construiește."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {},
+    "nota": "Inventarul și georeferențierea sunt în rețeta de bază, 2022-510."
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-10-29",
+    "nota": "Art. 2: șapte ani de la aprobare (29.10.2025). P.U.Z. de bază (HCL 510/2022) e valabil până la 7.07.2029; pe hartă se arată valabilitatea bazei, iar cea a modificării e scrisă în fișa ei (modificat_de)."
+  },
+  "prelungiri": [],
+  "modifica": [
+    "510/2022"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Drumul existent nr. cad. 350345, din vecinătatea vestică a teritoriului P.U.Z. din 2022, se include în UTR Tr Borhanci (teritoriul devine 73,02 ha).",
+    "O parte a tronsonului 2 al circulației publice se mută spre vest, cu ampriza de 18 m, ca legătură între liceu și bazinul de înot; partea de nord a tronsonului 2 rămâne ca în HCL 510/2022.",
+    "Profilele stradale se reconfigurează după planșa A4 – Reglementări urbanistice, ca urmare a includerii drumului nr. cad. 350345 în UTR Tr Borhanci.",
+    "Geometria UTR Va se modifică după planșa A4, fără să scadă suprafața de spațiu verde.",
+    "Până la emiterea certificatului de atestare a construcțiilor, strada nou propusă prin P.U.Z. se aduce la strat de uzură.",
+    "Avizul Serviciului Siguranța Circulației (nr. 641084/446/28.07.2025): indicatoare după SR 1848-1:2024; marcaje de lungă durată (bicomponente) după SR 1848/7-2015 și marcaje tactile la trecerile de pietoni; amenajări după NP 051/2012; toate trecerile de pietoni au semafoare la buton, cu echipamente noi integrate în platforma OMNIA/UTOPIA și lămpi de 200 mm, după STAS 1848/4-86.",
+    "Toate investițiile se suportă de beneficiar (Municipiul Cluj-Napoca); celelalte prevederi ale HCL 510/2022 și reglementările UTR Is, Va, S_Vas și Tr Borhanci rămân neschimbate."
+  ],
+  "hotarare_text": "documente/2025-645/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2022-510"
+}
