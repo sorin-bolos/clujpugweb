@@ -1,0 +1,324 @@
+{
+  "id": "2022-842",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 842,
+    "an": 2022,
+    "data_sedinta": "2022-11-02",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-842-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/11/09/HCL-842.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe unifamiliale, Aleea Eclipsei – est",
+  "plansa": {
+    "pagina_pdf": 20,
+    "dpi": 96,
+    "denumire": "03 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 4 (Anexa 1 la hotărâre, micșorată pe A4, rotită, alb-negru, ștampilată) și p. 20 (format mare, color, 96 ppi, cu ștampila „VIZAT” a Comisiei tehnice de amenajare a teritoriului și urbanism (aviz nr. 49 din 5.05.2021) și mențiunea de mână „HCL nr. 842 din 2.11.2022”); s-a folosit p. 20, mult mai clară. Pp. 1-3 sunt hotărârea, pp. 5-13 regulamentul local de urbanism (Anexa 2), pp. 14-15 avizul de oportunitate nr. 250/22.03.2018, pp. 16-19 avizul Arhitectului-șef nr. 49/5.05.2021, pp. 21-27 raportul informării și consultării publicului. Cartușul: planșa nr. 03 „Reglementări urbanistice”, faza P.U.Z., scara 1:500, data 26.07.2021, proiect nr. 49 09 122/2017 („PUZ Ansamblu locuințe unifamiliale, str. Eclipsei FN”). Scara imaginii: 7,5 px/m (1:500 la 96 ppi); planșa e rotită față de Stereo 70: nordul e spre stânga-sus, la circa 46° de verticală (latura lungă a parcelei, NV-SE, e orizontală pe planșă). Legenda cuprinde cheia simbolurilor și, din cele două tabele „Bilanț teritorial” (UTR Liu1 și UTR Ve), doar rândul de titlu și rândurile POT maxim admis / CUT maxim admis / Regim de înălțime, în cinci casete; au rămas afară rândurile de suprafețe ale bilanțurilor, „Date parcelă”, profilurile stradale, ștampilele și cartușul. Parcela e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al parcelei nr. cad. 312113 („Inventar de coordonate N.C. 312113”, din planul cadastral recepționat cu procesul-verbal nr. 193/23.01.2018, lipit pe planșă la x≈2045-2310, y≈1110-1515, foarte palid; citit pe decupaje cu contrastul întins), X Nord / Y Est, 27 de puncte numerotate 10-36 în ordinea conturului, cu lungimile laturilor D(i,i+1), „S=12856.80mp” și „P=546.470m”. Parcela e zona de reglementare: bilanțurile Liu1 (10.908,7 mp) și Ve (1.948,1 mp) însumează 12.856,8 mp, cât „S teren” din „Date parcelă” și 1,285 ha din Art. 1. Limita e desenată ca o bandă roșie de ~1 m pe interiorul liniei cadastrale (linia gri subțire a parcelei e pe muchia ei exterioară). Control: colțurile 14, 17, 35 și 36, fiecare la intersecția a două drepte potrivite pe muchia exterioară a benzii roșii (profile de pixeli la fiecare 40-100 px pe fiecare latură). Verificare: opt cruci ale caroiajului Stereo 70 de 50 m desenate pe fondul topografic, fără etichete (planșa e rotită, crucile apar ca „X”), citite pe planșă (centrul brațelor potrivit pe profile de pixeli): E 395800 / N 583750 și E 395800 / N 583800 în interiorul zonei, E 395750 / N 583750 la sud de ea, și cinci în nordul planșei, peste str. Romul Ladea. Etichetele crucilor rezultă din potrivirea pe colțuri, cu erori sub 1 m față de pasul de 50 m, deci fără ambiguitate. Cu banda luată pe mijloc (cum s-a făcut la alte planșe), crucile ar ieși la 0,4-1,1 m; pe muchia exterioară ies la 0,05-0,8 m, de aceea s-a ales muchia exterioară.",
+    "suprafata_declarata_m2": 12856.8,
+    "puncte": {
+      "10": [
+        583694.731,
+        395842.988
+      ],
+      "11": [
+        583728.041,
+        395810.801
+      ],
+      "12": [
+        583744.744,
+        395794.661
+      ],
+      "13": [
+        583764.197,
+        395775.863
+      ],
+      "14": [
+        583820.362,
+        395721.587
+      ],
+      "15": [
+        583832.503,
+        395731.822
+      ],
+      "16": [
+        583850.164,
+        395746.174
+      ],
+      "17": [
+        583867.172,
+        395760.192
+      ],
+      "18": [
+        583853.497,
+        395773.718
+      ],
+      "19": [
+        583846.092,
+        395781.203
+      ],
+      "20": [
+        583836.414,
+        395789.797
+      ],
+      "21": [
+        583827.391,
+        395798.588
+      ],
+      "22": [
+        583818.821,
+        395807.485
+      ],
+      "23": [
+        583811.335,
+        395814.869
+      ],
+      "24": [
+        583803.713,
+        395822.344
+      ],
+      "25": [
+        583791.147,
+        395834.293
+      ],
+      "26": [
+        583785.311,
+        395839.605
+      ],
+      "27": [
+        583777.788,
+        395846.915
+      ],
+      "28": [
+        583770.614,
+        395853.91
+      ],
+      "29": [
+        583759.894,
+        395864.398
+      ],
+      "30": [
+        583749.505,
+        395874.255
+      ],
+      "31": [
+        583742.058,
+        395881.593
+      ],
+      "32": [
+        583729.896,
+        395893.305
+      ],
+      "33": [
+        583721.543,
+        395901.347
+      ],
+      "34": [
+        583715.679,
+        395907.329
+      ],
+      "35": [
+        583709.108,
+        395913.433
+      ],
+      "36": [
+        583673.458,
+        395863.518
+      ]
+    },
+    "perimetru_declarat_m": 546.47,
+    "laturi_declarate_m": {
+      "10": 46.32,
+      "11": 23.227,
+      "12": 27.052,
+      "13": 78.105,
+      "14": 15.88,
+      "15": 22.757,
+      "16": 22.04,
+      "17": 19.234,
+      "18": 10.529,
+      "19": 12.943,
+      "20": 12.597,
+      "21": 12.353,
+      "22": 10.515,
+      "23": 10.676,
+      "24": 17.34,
+      "25": 7.892,
+      "26": 10.49,
+      "27": 10.02,
+      "28": 14.997,
+      "29": 14.321,
+      "30": 10.455,
+      "31": 16.884,
+      "32": 11.595,
+      "33": 8.377,
+      "34": 8.969,
+      "35": 61.339,
+      "36": 29.564
+    },
+    "nota": "Aria coordonatelor, 12.856,80 mp, iese exact cât în inventar; toate cele 27 de laturi și perimetrul (546,470 m) ies la milimetru. Parcela e practic un patrulater: punctele 10-13 stau pe latura de sud (36-14) în linie dreaptă (abateri de 1-2 cm), 15 și 16 pe latura de vest, spre str. Eclipsei (0,17 m și 0,01 m), iar 18-34 pe latura de nord, spre loturile de pe str. Romul Ladea, cu frângeri de cel mult 0,45 m. De aceea s-au luat ca puncte de control doar cele patru colțuri (unghiuri de 83-98°). Latura de vest (14-17) are 60,68 m și cea de est (35-36) 61,34 m, ca fronturile la stradă din „Date parcelă” (str. Eclipsei 60,67 m, str. V. Glad 61,33 m)."
+  },
+  "repere": {
+    "C395800_583750": [
+      583750,
+      395800
+    ],
+    "C395800_583800": [
+      583800,
+      395800
+    ],
+    "C395750_583750": [
+      583750,
+      395750
+    ],
+    "C395850_583800": [
+      583800,
+      395850
+    ],
+    "C395900_583750": [
+      583750,
+      395900
+    ],
+    "C395800_583900": [
+      583900,
+      395800
+    ],
+    "C395900_583800": [
+      583800,
+      395900
+    ],
+    "C395850_583850": [
+      583850,
+      395850
+    ]
+  },
+  "gcp_px": {
+    "17": [
+      228.4,
+      531.7
+    ],
+    "35": [
+      1888.3,
+      533.0
+    ],
+    "36": [
+      1819.5,
+      994.1
+    ],
+    "14": [
+      280.1,
+      991.1
+    ]
+  },
+  "verificare_px": {
+    "C395800_583750": [
+      1071.8,
+      935.3
+    ],
+    "C395800_583800": [
+      801.2,
+      671.7
+    ],
+    "C395750_583750": [
+      808.8,
+      1207.3
+    ],
+    "C395850_583800": [
+      1064.3,
+      400.1
+    ],
+    "C395900_583750": [
+      1597.5,
+      392.6
+    ],
+    "C395800_583900": [
+      259.2,
+      146.5
+    ],
+    "C395900_583800": [
+      1326.7,
+      128.1
+    ],
+    "C395850_583850": [
+      793.0,
+      136.1
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2532,
+      480,
+      2995,
+      846
+    ],
+    [
+      2532,
+      907,
+      3045,
+      931
+    ],
+    [
+      2532,
+      982,
+      3045,
+      1044
+    ],
+    [
+      2532,
+      1061,
+      3045,
+      1084
+    ],
+    [
+      2532,
+      1134,
+      3045,
+      1197
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu1",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și anexele lor; regim de construire izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R), H cornișă/atic 8 m, H max (coamă sau atic retras) 12 m"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (UTR existent): plantații înalte, medii și joase, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, amenajări peisagere și hidrotehnice",
+      "pot_max": "1%",
+      "cut_max": "0,01",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-11-02",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; hotărârea e „Nr. 842 din 2 noiembrie 2022” (și viza de pe planșă: „HCL nr. 842 din 2.11.2022”), lista hotărârilor o dă la 7 noiembrie 2022, data publicării; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Art. 1 spune că teritoriul e delimitat de strada Eclipsei la est și de str. Voievodul Glad la vest; pe planșă (și pe teren, după coordonate și OpenStreetMap) e invers: str. Eclipsei mărginește zona la vest, str. Voievodul Glad la est, unde e și zona verde Ve."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcele: terenul necesar lărgirii și modernizării străzii Eclipsei și a străzii Voievodul Glad la ampriza de 12 m (pe tronsonul de lângă P.U.Z.) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”; strada „A” se înscrie în CF ca „drum”, se echipează edilitar, iar partea carosabilă (cu parcările, alveola și cele 4 supralărgiri de pe latura sudică) se execută la strat de uzură.",
+    "Înainte de recepția construcțiilor: partea pietonală a străzii „A” se aduce la strat de uzură, se plantează cel puțin 10 arbori (circumferință de min. 35 cm la 1 m de colet) și se montează mobilier urban (coșuri de gunoi); strada „A” se dotează cu hidranți și stâlpi de iluminat public; se amenajează, pe baza unui proiect de specialitate, spațiul verde cu acces public nelimitat de lângă str. Voievodul Glad (plantații, mobilier urban, alei pietonale); străzile Eclipsei și Voievodul Glad, regularizate la profil rezidențial de 12 m, se aduc la strat de uzură de la intersecția cu str. Romul Ladea până la amplasament, conform avizului nr. 209999/446/2020 al Serviciului Siguranța Circulației.",
+    "Autorizațiile de construire pentru investiții (altele decât infrastructura tehnico-edilitară și spațiile verzi) se emit numai după ce Municipalitatea reamenajează și lărgește intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, a cărei capacitate de circulație e depășită, „dar nu mai târziu de 2026”.",
+    "Liu1: retragere de 3 m față de strada Eclipsei și pe frontul nordic al străzii „A”, între 3 și 18 m pe frontul sudic, după planșa 03; garajele retrase cu cel puțin 6 m față de aliniament, ca să se poată parca în fața lor; retragerile față de limitele laterale sunt date pe grupuri de parcele (pe limită sau la 1 m, 3 m, 3,5 m ori 6 m), iar garajele pot fi lipite de limitele laterale dacă calcanul nu trece de 2,8 m; față de limita posterioară cel puțin înălțimea clădirii, minim 6 m.",
+    "Accesul pe parcele se face numai din strada „A” (ampriză 9 m, cu alveolă pentru stația de transport în comun și patru supralărgiri pe latura sudică); pe o parcelă cel mult un acces pietonal și un acces carosabil, de cel mult 6 m. Parcarea se face în interiorul parcelei: minim un loc pentru clădiri cu aria utilă sub 100 mp și minim două peste 100 mp.",
+    "Toate construcțiile se racordează la rețelele edilitare (apă, canalizare, electricitate, gaz).",
+    "În zona verde Ve parcarea automobilelor e interzisă.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}

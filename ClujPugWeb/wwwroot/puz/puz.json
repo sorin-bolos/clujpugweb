@@ -10427,6 +10427,172 @@
   ]
  },
  {
+  "id": "2022-842",
+  "localitate": "cluj",
+  "hcl": "842/2022",
+  "data": "2022-11-02",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe unifamiliale, Aleea Eclipsei – est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-842-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/11/09/HCL-842.pdf",
+  "utr": [
+   {
+    "cod": "Liu1",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și anexele lor; regim de construire izolat sau cuplat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R), H cornișă/atic 8 m, H max (coamă sau atic retras) 12 m"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (UTR existent): plantații înalte, medii și joase, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, amenajări peisagere și hidrotehnice",
+    "pot_max": "1%",
+    "cut_max": "0,01",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 12857,
+  "imagine": "puz/2022-842/plansa.webp",
+  "bounds": {
+   "west": 23.6334487,
+   "south": 46.7445061,
+   "east": 23.6360608,
+   "north": 46.7463175
+  },
+  "limita": [
+   [
+    23.6351032,
+    46.7447349
+   ],
+   [
+    23.6346745,
+    46.7450295
+   ],
+   [
+    23.6344595,
+    46.7451773
+   ],
+   [
+    23.6342091,
+    46.7453494
+   ],
+   [
+    23.6334862,
+    46.7458462
+   ],
+   [
+    23.6336174,
+    46.745957
+   ],
+   [
+    23.6338012,
+    46.7461181
+   ],
+   [
+    23.6339808,
+    46.7462732
+   ],
+   [
+    23.6341609,
+    46.7461523
+   ],
+   [
+    23.6342605,
+    46.7460869
+   ],
+   [
+    23.6343752,
+    46.7460012
+   ],
+   [
+    23.6344923,
+    46.7459214
+   ],
+   [
+    23.6346106,
+    46.7458456
+   ],
+   [
+    23.6347089,
+    46.7457794
+   ],
+   [
+    23.6348085,
+    46.745712
+   ],
+   [
+    23.6349677,
+    46.7456009
+   ],
+   [
+    23.6350385,
+    46.7455492
+   ],
+   [
+    23.6351359,
+    46.7454826
+   ],
+   [
+    23.635229,
+    46.7454192
+   ],
+   [
+    23.6353687,
+    46.7453244
+   ],
+   [
+    23.6355,
+    46.7452325
+   ],
+   [
+    23.6355977,
+    46.7451666
+   ],
+   [
+    23.6357537,
+    46.745059
+   ],
+   [
+    23.6358609,
+    46.7449851
+   ],
+   [
+    23.6359405,
+    46.7449333
+   ],
+   [
+    23.6360218,
+    46.7448752
+   ],
+   [
+    23.6353767,
+    46.7445467
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2022-842/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-11-02"
+  },
+  "diferente_fata_de_plansa": [
+   "Art. 1 spune că teritoriul e delimitat de strada Eclipsei la est și de str. Voievodul Glad la vest; pe planșă (și pe teren, după coordonate și OpenStreetMap) e invers: str. Eclipsei mărginește zona la vest, str. Voievodul Glad la est, unde e și zona verde Ve."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcele: terenul necesar lărgirii și modernizării străzii Eclipsei și a străzii Voievodul Glad la ampriza de 12 m (pe tronsonul de lângă P.U.Z.) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”; strada „A” se înscrie în CF ca „drum”, se echipează edilitar, iar partea carosabilă (cu parcările, alveola și cele 4 supralărgiri de pe latura sudică) se execută la strat de uzură.",
+   "Înainte de recepția construcțiilor: partea pietonală a străzii „A” se aduce la strat de uzură, se plantează cel puțin 10 arbori (circumferință de min. 35 cm la 1 m de colet) și se montează mobilier urban (coșuri de gunoi); strada „A” se dotează cu hidranți și stâlpi de iluminat public; se amenajează, pe baza unui proiect de specialitate, spațiul verde cu acces public nelimitat de lângă str. Voievodul Glad (plantații, mobilier urban, alei pietonale); străzile Eclipsei și Voievodul Glad, regularizate la profil rezidențial de 12 m, se aduc la strat de uzură de la intersecția cu str. Romul Ladea până la amplasament, conform avizului nr. 209999/446/2020 al Serviciului Siguranța Circulației.",
+   "Autorizațiile de construire pentru investiții (altele decât infrastructura tehnico-edilitară și spațiile verzi) se emit numai după ce Municipalitatea reamenajează și lărgește intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, a cărei capacitate de circulație e depășită, „dar nu mai târziu de 2026”.",
+   "Liu1: retragere de 3 m față de strada Eclipsei și pe frontul nordic al străzii „A”, între 3 și 18 m pe frontul sudic, după planșa 03; garajele retrase cu cel puțin 6 m față de aliniament, ca să se poată parca în fața lor; retragerile față de limitele laterale sunt date pe grupuri de parcele (pe limită sau la 1 m, 3 m, 3,5 m ori 6 m), iar garajele pot fi lipite de limitele laterale dacă calcanul nu trece de 2,8 m; față de limita posterioară cel puțin înălțimea clădirii, minim 6 m.",
+   "Accesul pe parcele se face numai din strada „A” (ampriză 9 m, cu alveolă pentru stația de transport în comun și patru supralărgiri pe latura sudică); pe o parcelă cel mult un acces pietonal și un acces carosabil, de cel mult 6 m. Parcarea se face în interiorul parcelei: minim un loc pentru clădiri cu aria utilă sub 100 mp și minim două peste 100 mp.",
+   "Toate construcțiile se racordează la rețelele edilitare (apă, canalizare, electricitate, gaz).",
+   "În zona verde Ve parcarea automobilelor e interzisă.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2022-621",
   "localitate": "cluj",
   "hcl": "621/2022",
