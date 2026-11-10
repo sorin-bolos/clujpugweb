@@ -1,0 +1,147 @@
+{
+  "id": "2022-652",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 652,
+    "an": 2022,
+    "data_sedinta": "2022-09-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-652-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-652-din-7-septembrie-2022.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar în zonă cu caracter rezidențial, str. Becaș nr. 40",
+  "plansa": {
+    "pagina_pdf": 7,
+    "dpi": 96,
+    "denumire": "A.04 Reglementări urbanistice",
+    "scara": "1:300 (în cartuș; potrivirea dă 12,1 px/m la 96 ppi, adică planșa e redusă la ~96% față de 1:300)",
+    "nota": "PDF-ul are 12 pagini: pp. 1-2 hotărârea, pp. 3-5 regulamentul local de urbanism (Anexa 1), p. 6 Anexa 2, planșa A.04 „Reglementări urbanistice” micșorată pe A4, rotită și în tonuri șterse, cu ștampila arhitectului-șef, p. 7 aceeași planșă A.04 pe A3, color (proiect nr. 984/2020, revizia 01, data 17.05.2022, faza Avizare, scara 1:300), cu ștampila „VIZAT” a Comisiei tehnice de amenajare a teritoriului și urbanism (aviz nr. 2 din 10.01.2022) și mențiunea de mână „HCL nr. 652 din 7.09.2022”, pp. 8-12 raportul informării și consultării publicului. Ambele copii sunt scanate la doar 96 ppi; s-a folosit p. 7, de două ori mai mare și mult mai clară. Art. 1 numește anexa „Planșa 2 Reglementări Urbanistice – Zonificare”; planșa anexată e A.04. Nordul e în sus. Legenda cuprinde cheia simbolurilor („Legenda propus”) și blocul U.T.R. S_Et „Reglementări (extras PUG)”; au rămas afară situația propusă (suprafețe, POT/CUT propuse), calculul locurilor de parcare, cele trei bilanțuri teritoriale (unități funcționale, proprietate, zonificare), inventarul de coordonate, cartușul și ștampilele. Din decupaj s-a scos caseta cu proprietarul și suprafața din CF, în care intră zona-tampon a limitei la colțul ei de jos."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate (N.C. 251289), Nord(X) / Est(Y), Stereo 70, 7 puncte (10-16), S=1332 mp; tabelul nu dă lungimile laturilor.",
+    "suprafata_declarata_m2": 1332,
+    "puncte": {
+      "10": [
+        584749.367,
+        394023.033
+      ],
+      "11": [
+        584751.259,
+        394021.349
+      ],
+      "12": [
+        584763.554,
+        394041.409
+      ],
+      "13": [
+        584777.313,
+        394063.635
+      ],
+      "14": [
+        584766.863,
+        394072.533
+      ],
+      "15": [
+        584766.607,
+        394072.331
+      ],
+      "16": [
+        584720.568,
+        394048.669
+      ]
+    },
+    "nota": "Limita PUZ coincide cu parcela N.C. 251289 (1332 mp după CF și după bilanțul planșei). Punctele 14 și 15 sunt la 0,33 m unul de altul, în colțul de est, și pe planșă cad pe același colț; punctul 10 stă pe dreapta 16-11 (unde se termină clădirea vecină N.C. 4044/2), iar 12 pe dreapta 11-13, deci au fost folosite doar ca puncte de verificare. Control: colțurile 11, 13, 14 și 16, pe mijlocul liniei roșii „Limita de proprietate”, care aici se suprapune cu linia neagră „Limita zonei studiate”."
+  },
+  "gcp_px": {
+    "11": [
+      162,
+      518
+    ],
+    "13": [
+      678,
+      196
+    ],
+    "14": [
+      786,
+      325
+    ],
+    "16": [
+      490,
+      898
+    ]
+  },
+  "verificare_px": {
+    "10": [
+      179,
+      541
+    ],
+    "12": [
+      406,
+      366
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        298,
+        244,
+        502,
+        314
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      1218,
+      52,
+      1400,
+      626
+    ],
+    [
+      1035,
+      653,
+      1398,
+      779
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Et_Becaș",
+      "denumire": "Subzonă de activități economice cu caracter terțiar, situată în zonă cu caracter rezidențial: activități terțiare (comerț cu ADC de cel mult 1000 mp, alimentație publică, servicii cu acces public, servicii profesionale); regim de construire izolat; retrageri: cel puțin 6 m față de aliniamentul existent al str. Becaș și al str. Fagului și cel puțin 2 m față de aliniamentele lor regularizate, se păstrează retragerea existentă față de limita laterală nord-vestică, cel puțin 3 m față de limita laterală sud-vestică",
+      "pot_max": "50%",
+      "cut_max": "2,2",
+      "h_max": "trei niveluri supraterane (S+P+2E, D+P+E sau P+2E), max. 12 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2025-09-07"
+  },
+  "prelungiri": [
+    {
+      "hcl": "468/2025",
+      "pana_la": "2027-09-07",
+      "nota": "HCL 468 din 7 iulie 2025 prelungește valabilitatea „cu o perioadă de 2 ani”; termenul e socotit de la expirarea inițială, 7.09.2025."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Blocul U.T.R. de pe planșă e un „extras PUG” pentru S_Et: regim de înălțime (1-3S)+P+5+1R, H maximă la cornișă 22 m și H maximă totală 25 m. Art. 1 (și Anexa 1, cap. 7) permite cel mult trei niveluri supraterane (S+P+2E, D+P+E sau P+2E) și H max. 12 m, măsurată la aticul ultimului nivel neretras. Situația propusă de pe planșă păstrează P+2E („nu se modifică”), iar corpurile noi au „H cornișă = max 5 m”.",
+    "Planșa cere „spațiu verde minim pe sol natural 20%”; regulamentul (Anexa 1, cap. 10) cere cel puțin 10% din suprafața U.T.R., iar Art. 1 nu fixează procentul.",
+    "Planșa numește subzona „UTR S_Et”; Art. 1 o numește U.T.R. S_Et_Becaș.",
+    "POT 50% și CUT 2,2 din Art. 1 sunt valorile pentru parcele de colț, ca pe planșă; regulamentul (Anexa 1, secțiunea 4) dă și POT 40% și CUT 1,8 pentru parcele comune. Situația propusă de pe planșă rămâne mult sub ele: POT 29,90% și CUT 0,54 (398,24 mp construiți, 720,26 mp desfășurați)."
+  ],
+  "conditii": [
+    "Suprafața necesară lărgirii și modernizării str. Fagului și str. Becaș (273,78 mp pe planșă, hașurată) se dezmembrează din parcelă și se înscrie în C.F. cu titlu de „drum” înainte de emiterea autorizației de construire; până la modernizarea str. Fagului și reamenajarea intersecției Fagului-Becaș-Arțarului de către Municipalitate e întreținută ca spațiu verde, cu dalaj în dreptul acceselor.",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiară.",
+    "La faza D.T.A.C., documentația se avizează în Comisia de estetică urbană.",
+    "Corpul existent C1 (P+2E) se păstrează și se extinde pe orizontală: parterul devine spațiu comercial, etajele birouri; corpurile noi se alipesc de cel existent, continuându-i fațadele pe direcția NE-SV, iar retragerea existentă de 1,20 m față de limita nordică se păstrează.",
+    "Accesul auto se face numai din str. Fagului, printr-un singur acces carosabil de cel mult 7 m lățime; accesele pietonale din str. Fagului și str. Becaș; autorizarea cere acces la drumurile publice, direct sau prin servitute.",
+    "Parcarea se face în interiorul parcelei, dimensionată după Anexa 2 a R.L.U. aferent P.U.G., însumând necesarul fiecărei funcțiuni.",
+    "Echipare tehnico-edilitară completă pe parcelă; apele meteorice nu pot fi conduse spre domeniul public sau spre parcelele vecine; cablurile aeriene sunt interzise; un spațiu pentru colectarea selectivă a deșeurilor, în interiorul parcelei și accesibil din spațiul public.",
+    "Din regulament (Anexa 1): spațiile verzi pe sol natural ocupă cel puțin 10% din U.T.R. (socotit față de suprafața inițială a parcelei, dacă lărgirea străzilor o micșorează), amenajate în corelare cu proiectul municipalității pentru str. Fagului și str. Becaș; o parcelă e construibilă dacă are front la stradă de cel puțin 15 m și cel puțin 450 mp; împrejmuirile spre stradă au soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,2 m.",
+    "Sunt interzise locuirea individuală, activitățile industriale sau poluante, depozitarea en gros și construcțiile provizorii."
+  ]
+}
