@@ -1,0 +1,875 @@
+{
+  "id": "2026-61",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 61,
+    "an": 2026,
+    "data_sedinta": "2026-02-16",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-61-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/03/03/HCL-61.pdf"
+  },
+  "titlu": "P.U.Z. – de restructurare urbană (platforma industrială Armătura), str. Gării – str. Brândușelor",
+  "plansa": {
+    "pagina_pdf": 25,
+    "dpi": 96,
+    "denumire": "A.04 Plan reglementări urbanistice – zonificare",
+    "scara": "1:1000 (scanată la 96 ppi; potrivirea dă 3,8 px/m, adică scara nominală)",
+    "nota": "PDF-ul are 59 de pagini, toate scanate la 96 ppi. P. 13 e Anexa 3 la hotărâre – planșa A.04 „Plan reglementări urbanistice – zonificare”, alb-negru, redusă pe A3, semnată de președintele de ședință și de secretarul general; p. 14 e Anexa 4 (A.07 „Plan circulația terenurilor”, A3). P. 25 e aceeași planșă A.04, color, format mare (2136×1140 px), cu ștampila „Vizat spre neschimbare” a avizelor arhitectului-șef nr. 131/21.08.2025 și 180/24.11.2025 și mențiunea de mână „H.C.L. nr. 61 din 16 februarie 2026” (proiect 1135, revizia V02_REV05, 03.09.2025); p. 26 e planșa A.07 color. S-a folosit p. 25: desenul are acolo cu aproximativ 40% mai mulți pixeli decât copia de pe A3. Planșa e rotită cu circa 14° față de nord (potrivirea dă 13,9°). Legenda cuprinde cheia simbolurilor, nota despre suprafața rezervată drumurilor, indicatorii pe U.T.R. și tabelul de indicatori pe parcele; au rămas afară bilanțul teritorial, etapizarea locurilor de parcare, cartușul, ștampilele și inventarul de coordonate. Textul mărunt se citește greu la 96 ppi, dar se citește."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „zona de lucru”, Nord(X) / Est(Y), 143 de puncte, cu lungimile laturilor (S = 40 977 mp)",
+    "suprafata_declarata_m2": 40977,
+    "puncte": {
+      "1": [
+        588577.409,
+        392666.531
+      ],
+      "2": [
+        588573.849,
+        392667.305
+      ],
+      "3": [
+        588567.862,
+        392668.853
+      ],
+      "4": [
+        588561.878,
+        392670.241
+      ],
+      "5": [
+        588558.824,
+        392670.654
+      ],
+      "6": [
+        588554.172,
+        392671.388
+      ],
+      "7": [
+        588544.944,
+        392672.31
+      ],
+      "8": [
+        588537.11,
+        392672.011
+      ],
+      "9": [
+        588534.126,
+        392671.897
+      ],
+      "10": [
+        588523.328,
+        392670.733
+      ],
+      "11": [
+        588519.157,
+        392669.456
+      ],
+      "12": [
+        588512.789,
+        392667.044
+      ],
+      "13": [
+        588512.592,
+        392667.716
+      ],
+      "14": [
+        588499.823,
+        392663.337
+      ],
+      "15": [
+        588493.736,
+        392660.443
+      ],
+      "16": [
+        588486.83,
+        392656.786
+      ],
+      "17": [
+        588486.568,
+        392657.211
+      ],
+      "18": [
+        588480.349,
+        392653.386
+      ],
+      "19": [
+        588475.303,
+        392633.041
+      ],
+      "20": [
+        588476.035,
+        392632.882
+      ],
+      "21": [
+        588475.888,
+        392626.265
+      ],
+      "22": [
+        588472.716,
+        392622.955
+      ],
+      "23": [
+        588462.119,
+        392580.712
+      ],
+      "24": [
+        588458.283,
+        392565.404
+      ],
+      "25": [
+        588454.643,
+        392551.145
+      ],
+      "26": [
+        588448.645,
+        392528.412
+      ],
+      "27": [
+        588448.441,
+        392527.449
+      ],
+      "28": [
+        588448.347,
+        392526.768
+      ],
+      "29": [
+        588448.591,
+        392524.522
+      ],
+      "30": [
+        588449.488,
+        392523.213
+      ],
+      "31": [
+        588450.715,
+        392522.461
+      ],
+      "32": [
+        588451.329,
+        392522.211
+      ],
+      "33": [
+        588451.231,
+        392521.613
+      ],
+      "34": [
+        588449.532,
+        392516.337
+      ],
+      "35": [
+        588449.25,
+        392515.811
+      ],
+      "36": [
+        588448.511,
+        392515.821
+      ],
+      "37": [
+        588447.163,
+        392515.579
+      ],
+      "38": [
+        588445.857,
+        392514.728
+      ],
+      "39": [
+        588445.044,
+        392513.435
+      ],
+      "40": [
+        588439.803,
+        392493.058
+      ],
+      "41": [
+        588445.301,
+        392492.369
+      ],
+      "42": [
+        588451.164,
+        392491.826
+      ],
+      "43": [
+        588451.184,
+        392491.824
+      ],
+      "44": [
+        588455.46,
+        392491.428
+      ],
+      "45": [
+        588470.628,
+        392489.235
+      ],
+      "46": [
+        588475.663,
+        392488.459
+      ],
+      "47": [
+        588485.504,
+        392487.079
+      ],
+      "48": [
+        588497.311,
+        392485.166
+      ],
+      "49": [
+        588507.984,
+        392483.129
+      ],
+      "50": [
+        588513.969,
+        392482.198
+      ],
+      "51": [
+        588513.988,
+        392482.183
+      ],
+      "52": [
+        588515.461,
+        392481.983
+      ],
+      "53": [
+        588528.152,
+        392479.879
+      ],
+      "54": [
+        588526.808,
+        392474.818
+      ],
+      "55": [
+        588524.64,
+        392467.247
+      ],
+      "56": [
+        588526.343,
+        392466.833
+      ],
+      "57": [
+        588526.969,
+        392466.408
+      ],
+      "58": [
+        588529.206,
+        392465.37
+      ],
+      "59": [
+        588531.7,
+        392464.964
+      ],
+      "60": [
+        588531.719,
+        392464.958
+      ],
+      "61": [
+        588548.137,
+        392459.981
+      ],
+      "62": [
+        588549.535,
+        392464.839
+      ],
+      "63": [
+        588552.59,
+        392474.445
+      ],
+      "64": [
+        588555.3,
+        392474.336
+      ],
+      "65": [
+        588557.909,
+        392473.776
+      ],
+      "66": [
+        588564.738,
+        392472.172
+      ],
+      "67": [
+        588564.758,
+        392472.18
+      ],
+      "68": [
+        588571.61,
+        392470.875
+      ],
+      "69": [
+        588574.353,
+        392470.004
+      ],
+      "70": [
+        588578.818,
+        392468.684
+      ],
+      "71": [
+        588579.121,
+        392468.586
+      ],
+      "72": [
+        588579.227,
+        392468.947
+      ],
+      "73": [
+        588593.612,
+        392465.058
+      ],
+      "74": [
+        588594.48,
+        392465.118
+      ],
+      "75": [
+        588599.508,
+        392464.133
+      ],
+      "76": [
+        588606.876,
+        392462.801
+      ],
+      "77": [
+        588606.887,
+        392462.817
+      ],
+      "78": [
+        588607.768,
+        392464.082
+      ],
+      "79": [
+        588608.637,
+        392465.429
+      ],
+      "80": [
+        588616.548,
+        392477.575
+      ],
+      "81": [
+        588619.327,
+        392481.803
+      ],
+      "82": [
+        588621.633,
+        392485.42
+      ],
+      "83": [
+        588623.138,
+        392487.596
+      ],
+      "84": [
+        588624.534,
+        392490.303
+      ],
+      "85": [
+        588628.393,
+        392493.431
+      ],
+      "86": [
+        588635.659,
+        392499.206
+      ],
+      "87": [
+        588636.349,
+        392499.645
+      ],
+      "88": [
+        588637.178,
+        392500.307
+      ],
+      "89": [
+        588638.344,
+        392501.369
+      ],
+      "90": [
+        588638.36,
+        392501.381
+      ],
+      "91": [
+        588639.125,
+        392501.971
+      ],
+      "92": [
+        588643.137,
+        392505.031
+      ],
+      "93": [
+        588648.517,
+        392509.234
+      ],
+      "94": [
+        588652.592,
+        392512.547
+      ],
+      "95": [
+        588662.29,
+        392519.95
+      ],
+      "96": [
+        588665.211,
+        392522.242
+      ],
+      "97": [
+        588665.227,
+        392522.255
+      ],
+      "98": [
+        588666.068,
+        392522.998
+      ],
+      "99": [
+        588669.721,
+        392525.913
+      ],
+      "100": [
+        588670.498,
+        392526.321
+      ],
+      "101": [
+        588678.422,
+        392532.264
+      ],
+      "102": [
+        588687.758,
+        392542.338
+      ],
+      "103": [
+        588694.314,
+        392550.544
+      ],
+      "104": [
+        588695.773,
+        392552.825
+      ],
+      "105": [
+        588697.146,
+        392555.412
+      ],
+      "106": [
+        588702.972,
+        392567.139
+      ],
+      "107": [
+        588703.958,
+        392571.966
+      ],
+      "108": [
+        588703.458,
+        392572.275
+      ],
+      "109": [
+        588703.661,
+        392572.936
+      ],
+      "110": [
+        588706.293,
+        392583.798
+      ],
+      "111": [
+        588707.946,
+        392591.4
+      ],
+      "112": [
+        588708.505,
+        392598.756
+      ],
+      "113": [
+        588709.05,
+        392604.053
+      ],
+      "114": [
+        588709.448,
+        392611.661
+      ],
+      "115": [
+        588709.592,
+        392616.134
+      ],
+      "116": [
+        588709.285,
+        392616.696
+      ],
+      "117": [
+        588710.621,
+        392623.474
+      ],
+      "118": [
+        588710.788,
+        392624.024
+      ],
+      "119": [
+        588710.979,
+        392624.645
+      ],
+      "120": [
+        588709.241,
+        392625.384
+      ],
+      "121": [
+        588709.35,
+        392625.841
+      ],
+      "122": [
+        588710.641,
+        392630.35
+      ],
+      "123": [
+        588710.794,
+        392631.051
+      ],
+      "124": [
+        588711.107,
+        392632.708
+      ],
+      "125": [
+        588709.511,
+        392633.008
+      ],
+      "126": [
+        588704.571,
+        392634.618
+      ],
+      "127": [
+        588698.766,
+        392636.139
+      ],
+      "128": [
+        588691.471,
+        392639.025
+      ],
+      "129": [
+        588682.864,
+        392642.43
+      ],
+      "130": [
+        588667.584,
+        392648.355
+      ],
+      "131": [
+        588659.132,
+        392650.97
+      ],
+      "132": [
+        588647.367,
+        392654.467
+      ],
+      "133": [
+        588645.118,
+        392648.856
+      ],
+      "134": [
+        588642.194,
+        392649.903
+      ],
+      "135": [
+        588634.699,
+        392651.897
+      ],
+      "136": [
+        588619.324,
+        392655.633
+      ],
+      "137": [
+        588604.859,
+        392659.405
+      ],
+      "138": [
+        588589.67,
+        392663.713
+      ],
+      "139": [
+        588588.357,
+        392663.648
+      ],
+      "140": [
+        588586.447,
+        392663.928
+      ],
+      "141": [
+        588584.682,
+        392664.54
+      ],
+      "142": [
+        588577.38,
+        392666.331
+      ],
+      "143": [
+        588577.361,
+        392666.337
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 3.64,
+      "2": 6.18,
+      "3": 6.14,
+      "4": 3.08,
+      "5": 4.7,
+      "6": 9.28,
+      "7": 7.84,
+      "8": 2.98,
+      "9": 10.86,
+      "10": 4.36,
+      "11": 6.81,
+      "12": 0.7,
+      "13": 13.5,
+      "14": 6.74,
+      "15": 7.81,
+      "16": 0.5,
+      "17": 7.3,
+      "18": 20.96,
+      "19": 0.75,
+      "20": 6.62,
+      "21": 4.58,
+      "22": 43.55,
+      "23": 15.78,
+      "24": 14.72,
+      "25": 23.51,
+      "26": 0.98,
+      "27": 0.69,
+      "28": 2.26,
+      "29": 1.59,
+      "30": 1.44,
+      "31": 0.66,
+      "32": 0.61,
+      "33": 5.54,
+      "34": 0.6,
+      "35": 0.74,
+      "36": 1.37,
+      "37": 1.56,
+      "38": 1.53,
+      "39": 21.04,
+      "40": 5.54,
+      "41": 5.89,
+      "42": 0.02,
+      "43": 4.29,
+      "44": 15.33,
+      "45": 5.09,
+      "46": 9.94,
+      "47": 11.96,
+      "48": 10.87,
+      "49": 6.06,
+      "50": 0.02,
+      "51": 1.49,
+      "52": 12.86,
+      "53": 5.24,
+      "54": 7.88,
+      "55": 1.75,
+      "56": 0.76,
+      "57": 2.47,
+      "58": 2.53,
+      "59": 0.02,
+      "60": 17.16,
+      "61": 5.05,
+      "62": 10.08,
+      "63": 2.71,
+      "64": 2.67,
+      "65": 7.01,
+      "66": 0.02,
+      "67": 6.97,
+      "68": 2.87,
+      "69": 4.65,
+      "70": 0.32,
+      "71": 0.37,
+      "72": 14.9,
+      "73": 0.87,
+      "74": 5.12,
+      "75": 7.48,
+      "76": 0.02,
+      "77": 1.54,
+      "78": 1.6,
+      "79": 14.5,
+      "80": 5.06,
+      "81": 4.29,
+      "82": 2.65,
+      "83": 3.05,
+      "84": 4.97,
+      "85": 9.28,
+      "86": 0.82,
+      "87": 1.06,
+      "88": 1.58,
+      "89": 0.02,
+      "90": 0.97,
+      "91": 5.05,
+      "92": 6.83,
+      "93": 5.25,
+      "94": 12.2,
+      "95": 3.71,
+      "96": 0.02,
+      "97": 1.12,
+      "98": 4.68,
+      "99": 0.88,
+      "100": 9.9,
+      "101": 13.73,
+      "102": 10.5,
+      "103": 2.71,
+      "104": 2.93,
+      "105": 13.09,
+      "106": 4.93,
+      "107": 0.59,
+      "108": 0.69,
+      "109": 11.18,
+      "110": 7.78,
+      "111": 7.38,
+      "112": 5.32,
+      "113": 7.62,
+      "114": 4.48,
+      "115": 0.64,
+      "116": 6.91,
+      "117": 0.57,
+      "118": 0.65,
+      "119": 1.89,
+      "120": 0.47,
+      "121": 4.69,
+      "122": 0.72,
+      "123": 1.69,
+      "124": 1.62,
+      "125": 5.2,
+      "126": 6.0,
+      "127": 7.85,
+      "128": 9.26,
+      "129": 16.39,
+      "130": 8.85,
+      "131": 12.27,
+      "132": 6.04,
+      "133": 3.11,
+      "134": 7.76,
+      "135": 15.82,
+      "136": 14.95,
+      "137": 15.79,
+      "138": 1.31,
+      "139": 1.93,
+      "140": 1.87,
+      "141": 7.52,
+      "142": 0.02,
+      "143": 0.2
+    },
+    "nota": "Tabelul e scanat la 96 ppi (un rând are ~7 px), așa că s-a citit pe ambele copii color (p. 25 și p. 26, planșa A.07 are același tabel) și fiecare rând a fost verificat cu lungimile laturilor tipărite. Cifrele 6/8/9/0 se confundă: N25 588454.643 și N26 588448.645 (citite .843/.845), N55 588524.640, N62 588549.535, N79 588608.637, E119 392624.645, E136 392655.633, E139 392663.648, E140 392663.928 au fost stabilite din cele două laturi vecine. Tot din laturi: N3 .862, N13 .592, N37 .163, N40 .803, N42/N43 .164/.184, N46 .663, N51 .988, N68 .610, N69 .353, N74 .480, N76 .876, N82 .633, N119 .979, N130 .584, E22 .955, E56 .833, E66/E67 392472.172/.180, E101 .264, E114 .661; la punctul 143 (sub ștampilă) N .361, E .337. Câteva lungimi citite greșit la prima lectură s-au corectat după coordonate: 44→45 15,33, 46→47 9,94, 76→77 0,02, 85→86 9,28. Rezultat: toate cele 143 de laturi se potrivesc la 1 cm, aria 40 976,3 mp față de 40 977 mp. Unde două variante satisfac laturile (punctele 68-69, 101), diferența e de 1-2 cm. Puncte de control: colțurile 40 (sud-vest), 18 (sud-est), 124 (nord-est), 132 (treapta de pe latura de est), 61 (colțul de nord-vest al parcelei 13) și 76 (nord-vest), luate pe mijlocul liniei roșii „Limita zonei reglementate prin P.U.Z.”; verificare: 22, 133, 55 și 63."
+  },
+  "gcp_px": {
+    "40": [
+      466,
+      1016
+    ],
+    "18": [
+      1088,
+      1015
+    ],
+    "124": [
+      1219,
+      151
+    ],
+    "132": [
+      1241,
+      407
+    ],
+    "61": [
+      437,
+      592
+    ],
+    "76": [
+      500,
+      381
+    ]
+  },
+  "verificare_px": {
+    "22": [
+      970,
+      1014
+    ],
+    "133": [
+      1218,
+      408
+    ],
+    "55": [
+      442,
+      684
+    ],
+    "63": [
+      497,
+      590
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1448,
+      42,
+      1627,
+      310
+    ],
+    [
+      1626,
+      110,
+      1795,
+      131
+    ],
+    [
+      1626,
+      131,
+      1860,
+      157
+    ],
+    [
+      1415,
+      519,
+      1880,
+      973
+    ],
+    [
+      1415,
+      974,
+      1640,
+      1072
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "A Armătura",
+      "denumire": "Zonă industrială restructurată – zonă mixtă (parcelele 1-5 și 9-16): locuire colectivă, activități terțiare, comerț en detail (clădiri tip box sau pavilionare), birouri, turism, sănătate și asistență socială, cultură, învățământ (creșă, grădiniță), sport și amenajări în aer liber; regim deschis, izolat; retragere de cel puțin 5 m de la str. Gării (1 m în zona de acces a parcelei 2) și 2 m de la str. Oașului Fundătură; pentru nivelurile de locuire, aria construită de cel mult 40% din suprafața terenului",
+      "pot_max": "60% pe ansamblu; pe parcele: 60% (1-4), 50% (5), 10% (9 și 13), 0 (10, 11, 12, 14, 15, 16)",
+      "cut_max": "2,8 pe ansamblu; pe parcele: 3,8 (1-4), 1,0 (5), 0,2 (9 și 13), 0 (10, 11, 12, 14, 15, 16)",
+      "h_max": "parcelele 1-4: (1-3)S+P+10E, 45 m, cu un accent (1-3)S+P+15E, 60 m, pe parcela 2 spre str. Gării; etaje tehnice pe cel mult 30% din ultimul nivel; parcelele 5 și 9: (S/D)+P+E, 10 m (măsurat de la cota terenului amenajat din fața accesului auto în garaj)"
+    },
+    {
+      "cod": "RrM1",
+      "denumire": "Parcelar riveran principalelor artere de trafic, destinat restructurării – zonă mixtă cu regim de construire închis (parcelele 7 și 8, spre str. Brândușelor); se aplică R.L.U. al P.U.G.; parcelele se pot comasa cu cele cu front la str. Brândușelor",
+      "pot_max": "cf. R.L.U. P.U.G. (planșa: 50%)",
+      "cut_max": "cf. R.L.U. P.U.G. (planșa: 2,6)",
+      "h_max": "cf. R.L.U. P.U.G."
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (parcela 6, de-a lungul pârâului Nadăș); se aplică R.L.U. al P.U.G.",
+      "pot_max": "cf. R.L.U. P.U.G. (planșa: 1%)",
+      "cut_max": "cf. R.L.U. P.U.G. (planșa: 0,01)",
+      "h_max": "–"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-02-16",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio hotărâre ulterioară în indexul de titluri P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Parcela 13: planșa îi dă POT 10%, CUT 0,20 și regimul S+P+1E; Art. 1 dă POT 10% și CUT 0,2, dar niciun regim de înălțime, iar etapizarea o descrie ca imobil cu destinația „drum” din zona accesului în ansamblu.",
+    "Art. 1 limitează aria construită a nivelurilor de locuire la 40% din suprafața terenului și admite etaje tehnice pe cel mult 30% din ultimul nivel; planșa nu le arată.",
+    "Pentru RrM1 (parcelele 7, 8) și Ve (parcela 6) planșa dă POT 50% / CUT 2,60 și POT 1% / CUT 0,01; hotărârea nu dă cifre, ci trimite la R.L.U. al P.U.G.",
+    "Planșa propune cel mult 1293 de locuri de parcare (245 în etapa 1, pe parcelele 1 și 5, și 1048 în etapa 2); hotărârea nu dă un total: cere minimum 75% din locuri în clădiri, necesarul după Anexa 2 la R.L.U., plus 5 locuri pentru creșă pe parcela 14 și o alveolă de 4 locuri la str. Oașului Fundătură. Cele 10 locuri pentru vizitatori de pe parcela 1 sunt în ambele.",
+    "Celelalte valori (POT 60% și CUT 2,8 pe ansamblu, POT/CUT pe parcelele 1-5 și 9, regimurile (1-3)S+P+10E / 45 m, accentul (1-3)S+P+15E / 60 m pe parcela 2, (S/D)+P+E / 10 m pe parcelele 5 și 9, retragerile de 5 m spre str. Gării și 2 m spre str. Oașului Fundătură) sunt aceleași pe planșă și în Art. 1."
+  ],
+  "conditii": [
+    "Etapa 1: parcela 1 (clădire cu funcțiuni mixte), parcela 5 (creșă), parcelele cu destinația „drum” 10, 11, 12, 15, 16 și 17 (lărgirea str. Gării și a str. Oașului Fundătură), parcela 13 (accesul în ansamblu), parcela 14 (parcare) și parcelele 6 și 9 (spații verzi lângă pârâul Nadăș). Lucrările de pe parcela 13 se pot face și în etapa 2, odată cu parcelele 2 și 4.",
+    "Etapa 2 (parcelele 2, 3, 4 și 7, 8): autorizațiile de construire se emit numai după lucrări majore de infrastructură care descarcă străzile și intersecțiile din zonă (un tronson din Culoarul de Mobilitate Nord din zona Carbochim, reconfigurarea sensului giratoriu de la intersecția str. Gării – str. Oașului).",
+    "Clădirea mixtă de pe parcela 1 are la subsol 10 locuri de parcare pentru vizitatori, care nu-și pot schimba destinația (avizul Siguranța circulației nr. 470312/446/17.04.2025); creșa are 5 locuri pe parcela 14 și o alveolă de 4 locuri la str. Oașului Fundătură.",
+    "Înainte de autorizația primei clădiri: terenul pentru regularizarea str. Gării și a str. Oașului Fundătură se dezmembrează și se înscrie în C.F. ca „drum”, iar cele două străzi se lărgesc și se amenajează pe tronsonul de lângă P.U.Z. (alveolă de parcare la str. Oașului Fundătură, alveolă și stație de transport în comun la str. Gării, semnalizare, semafor cu buton la trecerea de pietoni de pe str. Gării, canalizare pluvială, iluminat), după o temă vizată de Serviciul Siguranța circulației.",
+    "Înainte de etapa 2: creșa construită, cu parcela 5, parcela 14 amenajată ca parcare și parcelele 6 și 9 amenajate ca spații verzi trec gratuit în proprietatea Municipiului, iar terenul străzilor lărgite trece gratuit în domeniul public (planșa A.07 și contractul de restructurare, Anexa 1).",
+    "Cel puțin 75% din parcare se face la subsol, demisol sau parter, cu necesarul calculat după Anexa 2 la R.L.U. al P.U.G.; parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit.",
+    "Accesul pietonal pe parcele e public și neîngrădit; curțile interioare sunt semiprivate; pe parcela 9 accesul auto e permis doar pentru întreținerea spațiilor verzi, iar edicule și pavilioane se pot amplasa la cel puțin 2 m de limita nordică.",
+    "Toate clădirile se racordează la rețelele publice; cablurile aeriene sunt interzise (cu excepția iluminatului decorativ sau a evenimentelor autorizate); deșeurile se colectează selectiv pe 5 fracții, în spații amenajate, autorizate odată cu clădirile.",
+    "Numărul minim de arbori cerut de regulament în UTR A Armătura crește cu 10, de la 25 la 35 (circumferință de cel puțin 35 cm la 1 m de la colet).",
+    "La D.T.A.C. obiectivele din P.U.Z. trec prin Comisia de estetică urbană.",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiar."
+  ]
+}
