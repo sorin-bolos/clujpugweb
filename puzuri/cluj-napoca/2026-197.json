@@ -1,0 +1,195 @@
+{
+  "id": "2026-197",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Inventarul de coordonate e ilizibil (planșa 1:1000 redusă pe A4 și scanată la 200 ppi), iar planșa nu are caroiaj Stereo 70; metoda cu repere OpenStreetMap n-a putut rula: din sesiunea cloud, Overpass (overpass-api.de) a închis fiecare conexiune (27 de încercări, 2026-11-10, 08:05-09:25 UTC), iar api.openstreetmap.org e refuzat de proxy; Nominatim a mers, dar dă doar străzi, nu clădiri. De reluat cu metoda OSM când Overpass răspunde: limita, ancora, scara și reperele sunt pregătite în rețetă.",
+  "hcl": {
+    "nr": 197,
+    "an": 2026,
+    "data_sedinta": "2026-05-19",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-197-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/05/26/197.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, str. Vânătorului – str. Rarău",
+  "plansa": {
+    "pagina_pdf": 6,
+    "dpi": 200,
+    "denumire": "U03 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "PDF-ul are 6 pagini A4, scanate la 200 ppi: pp. 1-2 hotărârea, pp. 3-5 Anexa 1 (regulamentul local de urbanism), p. 6 Anexa 2, singura planșă: U03 „Reglementări urbanistice” (proiect 05/2024, 08/2024), 1:1000 redusă pe A4, cu o secțiune longitudinală S1-S1 deasupra. Scara reală a imaginii: ~5,34-5,4 px/m (carosabilul străzii noi, 6,00 m, are ~32,5 px între liniile de margine; aria trasată se potrivește cu 21574 mp la 5,34 px/m), adică planșa e tipărită la ~68% din 1:1000; săgeata nordului e în sus. Legenda cuprinde cheia simbolurilor și blocul „Indicatori urbanistici” (POT/CUT pentru UTR Liu*Rarău și S_Va); bilanțul teritorial, tabelele „Parcele propuse” și „Parcări”, inventarul de coordonate și cartușul au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei (tabelul din dreapta desenului, x 1040-1195, y 1460-1720 pe planșă, coloanele Nr. pct / X / Y / lungimi) e ilizibil: planșa 1:1000 e redusă pe A4 și scanată la 200 ppi, cifrele au ~5 px înălțime și sunt încețoșate de JPEG; nici primele cifre nu se pot citi. Planșa nu are caroiaj Stereo 70 (nicio cruce în zonele albe ale desenului). Rămâne metoda cu repere OpenStreetMap (georef_metoda osm) și limita trasată pe planșă (`limita_px`).",
+    "suprafata_declarata_m2": 21574,
+    "puncte": {},
+    "nota": "Suprafața: 21574 mp din bilanțul teritorial al planșei (S teren existent = propus; propus: UTR Liu*Rarău 20990 mp, S_Va 584 mp); Art. 1 scrie ~2,15 ha. Limita trasată (`limita_px`, 24 de puncte, în sensul acelor de ceas de la colțul NV) urmează linia groasă a limitei de proprietate: latura nordică pe marginea dinspre stradă a fâșiei cedate pentru lărgirea str. Vânătorului (310 mp), latura estică oblică până la racordul spre str. Rahovei, apoi spre vest și în jos pe latura estică a parcelei 15, colțul de NE al parcelei 7, latura estică până la parcela verde S_Va, conturul acesteia (cu prelungirea spre sud între x 782 și 840), latura sudică în lungul străzii A până lângă str. Rarău, latura vestică dreaptă până la „Parcela drum”, marginea nordică a tronsonului diagonal al străzii, latura vestică a parcelei 17, marginea sudică a capătului de sus al străzii, latura vestică a parcelei 22 și treapta de la parcela 23. Parcela vecină cu casa nr. 6 (la est de parcela 15) rămâne afară. Aria trasată: 615964 px², adică 21601 mp la 5,34 px/m și 21281 mp la 5,38 px/m. Pregătit pentru metoda OSM: `osm_ancora` e nodul OSM în care str. Rarău cotește (capătul comun al căilor 261353429 și 1232420192, din geometria dată de Nominatim, fiindcă `geocode --streets` n-a putut rula), luat pe planșă la cotul străzii, ~(325, 1985), cu o incertitudine de câțiva metri (intersecția e lărgită pe desen, iar strada A nouă se racordează tot acolo); px_per_m 5,38 (lățimi de stradă și aria), nord 0° (săgeata nordului). Verificare grosieră: cu ancora asta, axul str. Vânătorului din OSM (N ≈ 587307 la E ≈ 390645) cade la ~8-11 m nord de banda drumului de pe planșă, deci scara sau ancora mai trebuie strânse cu puncte reale. Repere existente desenate pe planșă, pentru `osm-snap` (colțuri citite pe planșă, în pixeli): casa nr. 46 de pe str. Vânătorului (NV) (231, 599), (286, 595), (295, 700), (240, 706); colțurile de jos ale caselor nr. 48 (422, 645), (475, 635) și nr. 50 (513, 627); la sud, casa nr. 4 (în L) (503, 2003), (600, 2001), (603, 2077), (555, 2080); casa nr. 4A (622, 2000), (689, 2002); casa de lângă ea (704, 2028), (755, 2008), (755, 2058), (704, 2058); la est, casa nr. 6 (970, 1387), (1001, 1391), (995, 1434), (964, 1429), și casa mare de lângă racordul spre str. Rahovei (x 1045-1205, y 1065-1175); la vest, casele nr. 8, 10, 3 și 1 de pe str. Rarău și biserica Sf. Apostoli Petru și Pavel (colțul din stânga jos)."
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1224,
+      574,
+      1608,
+      1176
+    ],
+    [
+      1224,
+      1414,
+      1608,
+      1517
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*Rarău",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (cele 26 de parcele de pe planșă): locuințe individuale (unifamiliale) și anexele lor, regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane ((S)+P+1+M/R sau D+P+M/R); 8 m la cornișă, 12 m maxim"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (parcela verde de la sud-est, lângă strada A)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "parter"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-05-19",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Cartușul planșei numește documentația „PUZ de Parcelare, str. Rarău / str. Vânătorului”, iar hotărârea aprobă un „P.U.Z. – de urbanizare”. Pe desen apare și limita unui „PUZ de Urbanizare, Aviz de oportunitate nr. 100/20.07.2021”, în timp ce hotărârea citează Avizul de oportunitate nr. 217 din 25.09.2024. Indicatorii (POT/CUT), cele 26 de parcele de locuințe, parcela verde, strada nouă de 9 m și suprafața (21574 mp, ~2,15 ha) coincid."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pe parcelele cu front la str. Vânătorului: terenul necesar lărgirii străzii (310 mp pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la strat de uzură.",
+    "Înainte de autorizațiile de construire pentru locuințe: strada nouă (ampriză 9 m, cu loc de întoarcere) se înscrie în CF ca „drum”, se echipează edilitar (inclusiv rețea pluvială și iluminat stradal) și se amenajează după un proiect autorizat.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Liu*Rarău: parcela e construibilă dacă are cel puțin 450 mp, front de cel puțin 12 m spre spațiul public și acces dintr-un drum public, direct sau prin servitute (Anexa 1); fiecare parcelă are acces pietonal și carosabil din str. Vânătorului sau din strada nouă; parcarea doar în interiorul parcelei, după Anexa 2 a R.L.U. al P.U.G.",
+    "Liu*Rarău: clădirile se retrag cel puțin 3 m de la aliniament, iar garajele separate cel puțin 6 m; cel puțin 3 m față de limitele laterale (garajele se pot alipi, cu calcan de cel mult 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, minimum 6 m.",
+    "Liu*Rarău: racordare la rețelele edilitare publice; apele pluviale se captează pe parcelă, cu soluții de înmagazinare și utilizare; punct gospodăresc de colectare selectivă pe 5 fracții (O.U.G. 92/2021, art. 17 alin. 3); spații verzi cel puțin 40% din parcelă, cu cel puțin un arbore spre stradă (Anexa 1).",
+    "S_Va*: retragere de cel puțin 3 m de la aliniament și 5 m de la limitele laterale și posterioară; acces din strada nouă; în spațiul verde doar circulații pietonale și velo, din agregate compactate, pavaje din piatră naturală etc.; spații verzi cel puțin 70% (Anexa 1)."
+  ],
+  "georef_metoda": "osm",
+  "limita_px": [
+    [
+      641,
+      672
+    ],
+    [
+      845,
+      669
+    ],
+    [
+      1002,
+      673
+    ],
+    [
+      1076,
+      903
+    ],
+    [
+      1045,
+      1095
+    ],
+    [
+      1038,
+      1300
+    ],
+    [
+      1020,
+      1344
+    ],
+    [
+      897,
+      1331
+    ],
+    [
+      883,
+      1529
+    ],
+    [
+      973,
+      1541
+    ],
+    [
+      943,
+      1700
+    ],
+    [
+      940,
+      2041
+    ],
+    [
+      843,
+      2041
+    ],
+    [
+      838,
+      2074
+    ],
+    [
+      782,
+      2073
+    ],
+    [
+      781,
+      1995
+    ],
+    [
+      485,
+      1997
+    ],
+    [
+      333,
+      1947
+    ],
+    [
+      461,
+      1360
+    ],
+    [
+      735,
+      1270
+    ],
+    [
+      748,
+      1120
+    ],
+    [
+      590,
+      1088
+    ],
+    [
+      672,
+      879
+    ],
+    [
+      615,
+      843
+    ]
+  ],
+  "osm_ancora": {
+    "px": [
+      325,
+      1985
+    ],
+    "en": [
+      390575.9,
+      587049.4
+    ],
+    "px_per_m": 5.38,
+    "nord": 0
+  }
+}
