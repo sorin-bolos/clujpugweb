@@ -1,0 +1,49 @@
+{
+  "id": "2023-791",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 791,
+    "an": 2023,
+    "data_sedinta": "2023-11-03",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-791-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/12/06/HCL-791.pdf"
+  },
+  "titlu": "Încheierea unui act adițional la contractul de restructurare, aprobat prin Hotărârea nr. 831/2020 (aprobarea P.U.Z. de restructurare urbană – str. Tășnad)",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul hotărârii (HCL-791.pdf) are o singură pagină A4, culcată, scanată la 300 ppi: textul hotărârii, fără anexe și fără planșă; pagina hotărârii nu leagă alt PDF. Hotărârea nu modifică reglementările P.U.Z.: aprobă, conform clauzei 7.1 a contractului de restructurare (contractul se modifică doar în scris, cu acordul prealabil al Consiliului local), un act adițional prin care drepturile și obligațiile din contract (Anexa 1 la HCL 831/2020) trec la altă societate, după un contract de vânzare-cumpărare. Integrată pe 2026-11-10 în rețeta P.U.Z. de bază, 2020-831 (modificat_de, condiții), republicată în același commit; pe hartă apare în fișa P.U.Z. 831/2020."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [
+    "831/2020"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Art. 1: se aprobă încheierea unui act adițional la contractul de restructurare încheiat la 17.09.2021 între Consiliul local și Municipiul Cluj-Napoca, pe de o parte, și investitorul P.U.Z.-ului, pe de alta (contract aprobat prin HCL 831/2020): drepturile și obligațiile care decurg din contract sunt preluate de o altă societate, ca urmare a contractului de vânzare-cumpărare autentificat sub nr. 895 din 27.04.2021.",
+    "Actul adițional are ca obiect doar această preluare: obligațiile din contract (între ele spațiul de minim 500 mp utili de la parterul clădirii, trecut gratuit municipiului) și reglementările P.U.Z. rămân cele din HCL 831/2020; executarea hotărârii revine Direcției Generale de Urbanism (Art. 2)."
+  ],
+  "valabilitate": {
+    "nota": "Hotărârea nu are valabilitate proprie și nu schimbă valabilitatea P.U.Z.-ului aprobat prin HCL 831/2020 (5 ani, până la 27.11.2025)."
+  },
+  "hotarare_text": "documente/2023-791/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2020-831"
+}

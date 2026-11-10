@@ -116,7 +116,14 @@
   },
   "prelungiri": [],
   "modifica": [],
-  "modificat_de": [],
+  "modificat_de": [
+    {
+      "hcl": "791/2023",
+      "data": "2023-11-03",
+      "rezumat": "Aprobă un act adițional la contractul de restructurare (Anexa 1, încheiat la 17.09.2021): drepturile și obligațiile din contract sunt preluate de o altă societate, ca urmare a unui contract de vânzare-cumpărare din 27.04.2021. Obligațiile, indicatorii și planșa rămân cele din 2020; hotărârea nu are planșă și nici valabilitate proprie.",
+      "plansa_noua": false
+    }
+  ],
   "diferente_fata_de_plansa": [
     "Art. 1 din hotărâre dă doar P.O.T. maxim 60%; planșa, ca și regulamentul (Anexa 2, art. 15) și contractul de restructurare, mai limitează P.O.T. pentru locuire la 40%."
   ],
@@ -127,8 +134,7 @@
     "Toate utilitățile se asigură prin racordare la rețelele publice; în interiorul parcelei se amenajează o platformă subterană de colectare selectivă a deșeurilor pe patru fracții.",
     "În fâșia de 6 m de lângă aliniament (limita nordică) se plantează, până la recepția construcției, 8 arbori cu circumferința de minim 35 cm, măsurată la 1 m de la colet.",
     "Investitorul trece gratuit în proprietatea municipiului, pe cheltuiala sa, un spațiu de minim 500 mp utili la parterul clădirii, cu acces din exterior, la nivel semifinisat (uși, tâmplării, șape, tencuieli), în cel mult 6 luni de la recepția imobilului.",
-    "Hotărârea aprobă și contractul de restructurare dintre municipiu și investitor (Anexa 1), semnat de primar; obligațiile din el se aplică și viitorilor proprietari ai terenului.",
-    "Prin HCL 791/2023 s-a aprobat un act adițional la contractul de restructurare (semnat la 17.09.2021): drepturile și obligațiile din contract au trecut la noul proprietar al terenului, după vânzarea acestuia în 2021; obligațiile nu s-au schimbat."
+    "Hotărârea aprobă și contractul de restructurare dintre municipiu și investitor (Anexa 1), semnat de primar și încheiat la 17.09.2021; obligațiile din el se aplică și viitorilor proprietari ai terenului (art. 1.6 din contract). Printr-un act adițional, drepturile și obligațiile din contract trec la o altă societate, ca urmare a unui contract de vânzare-cumpărare din 27.04.2021; obligațiile nu se schimbă (modificat prin HCL 791/2023)."
   ],
   "hotarare_text": "documente/2020-831/hotarare.txt"
 }
