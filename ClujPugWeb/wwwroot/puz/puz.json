@@ -2001,6 +2001,438 @@
   ]
  },
  {
+  "id": "2026-548",
+  "localitate": "cluj",
+  "hcl": "548/2026",
+  "data": "2026-08-06",
+  "titlu": "P.U.Z. – Dezvoltare zonă de instituții și servicii publice, amenajare pădure-parc și cimitir pentru animale de companie, str. Valea Gârbăului – est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-548-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/548.pdf",
+  "utr": [
+   {
+    "cod": "Is_A*",
+    "denumire": "Zonă de instituții și servicii publice constituite în ansambluri independente; funcțiunea predominantă: sănătate și asistență socială; regim de construire deschis",
+    "pot_max": "40%",
+    "cut_max": "1,4",
+    "h_max": "18 m la cornișă; S/D+P+3E"
+   },
+   {
+    "cod": "Va*",
+    "denumire": "Zonă verde – pădure-parc cu acces public nelimitat: plantații, alei și platforme pietonale și velo, mobilier urban, locuri de joacă, odihnă și sport, edicule, construcții pentru activități culturale și alimentație publică, grupuri sanitare, spații de administrare și întreținere",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "8 m la cornișă; S/D+P+E"
+   },
+   {
+    "cod": "G_ca",
+    "denumire": "Zonă de gospodărire comunală pentru animale de companie – cimitir: lucrări funerare sub- și supraterane, capele, platforme pentru ceremonii, crematorii, pavilioane administrative și de întreținere, anexe sanitare, alei, plantații",
+    "pot_max": "2%",
+    "cut_max": "0,04",
+    "h_max": "8 m la cornișă; S/D+P+E"
+   },
+   {
+    "cod": "Tr*",
+    "denumire": "Zonă de circulație rutieră și amenajări aferente: alee de interes local (lățime minimă 4 m), pietonală și ocazional auto, care pornește din str. Valea Gârbăului și duce la pădurea-parc și la cimitir"
+   }
+  ],
+  "suprafata_m2": 50273,
+  "imagine": "puz/2026-548/plansa.webp",
+  "bounds": {
+   "west": 23.5326959,
+   "south": 46.7306002,
+   "east": 23.5354204,
+   "north": 46.7380163
+  },
+  "limita": [
+   [
+    23.5339192,
+    46.7325232
+   ],
+   [
+    23.5335398,
+    46.7325418
+   ],
+   [
+    23.5335902,
+    46.7323897
+   ],
+   [
+    23.5337385,
+    46.7320353
+   ],
+   [
+    23.5339109,
+    46.7314776
+   ],
+   [
+    23.5341424,
+    46.7314679
+   ],
+   [
+    23.5341939,
+    46.7312714
+   ],
+   [
+    23.5342157,
+    46.7311507
+   ],
+   [
+    23.5343738,
+    46.7311209
+   ],
+   [
+    23.5344324,
+    46.7310071
+   ],
+   [
+    23.5345358,
+    46.7310341
+   ],
+   [
+    23.5345392,
+    46.7311872
+   ],
+   [
+    23.5344795,
+    46.731326
+   ],
+   [
+    23.5344581,
+    46.7314337
+   ],
+   [
+    23.5347726,
+    46.7314314
+   ],
+   [
+    23.5348772,
+    46.7313245
+   ],
+   [
+    23.5350887,
+    46.7313781
+   ],
+   [
+    23.535324,
+    46.7314041
+   ],
+   [
+    23.5353747,
+    46.7313752
+   ],
+   [
+    23.5353785,
+    46.7313654
+   ],
+   [
+    23.5353631,
+    46.731341
+   ],
+   [
+    23.5349823,
+    46.7310877
+   ],
+   [
+    23.534824,
+    46.7310066
+   ],
+   [
+    23.5346392,
+    46.7310456
+   ],
+   [
+    23.5346035,
+    46.7309119
+   ],
+   [
+    23.5345359,
+    46.7308336
+   ],
+   [
+    23.5344433,
+    46.7307611
+   ],
+   [
+    23.5343068,
+    46.7306962
+   ],
+   [
+    23.5341501,
+    46.7306341
+   ],
+   [
+    23.534082,
+    46.7306869
+   ],
+   [
+    23.5341001,
+    46.7306938
+   ],
+   [
+    23.5341023,
+    46.7307145
+   ],
+   [
+    23.5340673,
+    46.7307987
+   ],
+   [
+    23.5339308,
+    46.7311415
+   ],
+   [
+    23.5338302,
+    46.7313797
+   ],
+   [
+    23.533684,
+    46.7317995
+   ],
+   [
+    23.5336104,
+    46.7319758
+   ],
+   [
+    23.5335921,
+    46.7320197
+   ],
+   [
+    23.5333892,
+    46.7325226
+   ],
+   [
+    23.5332751,
+    46.7328508
+   ],
+   [
+    23.5331956,
+    46.7330225
+   ],
+   [
+    23.5331707,
+    46.7330879
+   ],
+   [
+    23.5331676,
+    46.7331327
+   ],
+   [
+    23.5331729,
+    46.733223
+   ],
+   [
+    23.5331788,
+    46.7333843
+   ],
+   [
+    23.5331957,
+    46.7337258
+   ],
+   [
+    23.5332096,
+    46.7339955
+   ],
+   [
+    23.5332194,
+    46.7342177
+   ],
+   [
+    23.5332212,
+    46.7343438
+   ],
+   [
+    23.5332329,
+    46.7345202
+   ],
+   [
+    23.5332447,
+    46.7346665
+   ],
+   [
+    23.5333076,
+    46.735026
+   ],
+   [
+    23.5333373,
+    46.7352189
+   ],
+   [
+    23.5333703,
+    46.7354318
+   ],
+   [
+    23.5333879,
+    46.7355384
+   ],
+   [
+    23.5331648,
+    46.7355636
+   ],
+   [
+    23.5329795,
+    46.7355864
+   ],
+   [
+    23.5327821,
+    46.7356111
+   ],
+   [
+    23.5327937,
+    46.7356697
+   ],
+   [
+    23.5328096,
+    46.7357901
+   ],
+   [
+    23.5328244,
+    46.7359019
+   ],
+   [
+    23.5328286,
+    46.7361579
+   ],
+   [
+    23.5328281,
+    46.7363432
+   ],
+   [
+    23.5328279,
+    46.7364478
+   ],
+   [
+    23.5328251,
+    46.7367938
+   ],
+   [
+    23.5328226,
+    46.737013
+   ],
+   [
+    23.5328414,
+    46.7372289
+   ],
+   [
+    23.5328829,
+    46.7375392
+   ],
+   [
+    23.5328987,
+    46.7376232
+   ],
+   [
+    23.5329172,
+    46.7377298
+   ],
+   [
+    23.5329367,
+    46.7377852
+   ],
+   [
+    23.5330068,
+    46.7379251
+   ],
+   [
+    23.5330296,
+    46.7379723
+   ],
+   [
+    23.533883,
+    46.7378375
+   ],
+   [
+    23.5338956,
+    46.7373535
+   ],
+   [
+    23.534035,
+    46.7370393
+   ],
+   [
+    23.5340047,
+    46.7363035
+   ],
+   [
+    23.5339864,
+    46.7358612
+   ],
+   [
+    23.5339862,
+    46.7356495
+   ],
+   [
+    23.5339862,
+    46.7356166
+   ],
+   [
+    23.5340206,
+    46.7354492
+   ],
+   [
+    23.5340571,
+    46.7353315
+   ],
+   [
+    23.5340469,
+    46.7349141
+   ],
+   [
+    23.5339108,
+    46.7346266
+   ],
+   [
+    23.5340297,
+    46.7341701
+   ],
+   [
+    23.5341962,
+    46.7334302
+   ],
+   [
+    23.5343474,
+    46.733258
+   ],
+   [
+    23.5346556,
+    46.7330213
+   ],
+   [
+    23.5341702,
+    46.7330482
+   ],
+   [
+    23.5341316,
+    46.7326915
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.16
+  },
+  "legenda": "puz/2026-548/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-08-06"
+  },
+  "diferente_fata_de_plansa": [
+   "C.U.T. maxim în Is_A*: hotărârea (Art. 1) și regulamentul (Anexa 1) dau 1,4; caseta U.T.R. de pe planșă dă 1,2.",
+   "Înălțimea în Is_A*: hotărârea dă S/D+P+3E și H cornișă de maxim 18 m; planșa dă doar regimul (S/D)+P+3, fără înălțime în metri. Pentru Va* și G_ca hotărârea dă S/D+P+E și 8 m la cornișă, pe care planșa nu le are.",
+   "C.U.T. în Va*: hotărârea scrie „C.U.T. max. = 0,1%”; planșa și regulamentul dau 0,1 (procentul pare o greșeală de redactare).",
+   "Codurile U.T.R. din hotărâre au asterisc (Is_A*, Va*, Tr*); pe planșă sunt Is_A, Va și Tr."
+  ],
+  "conditii": [
+   "Strada Valea Gârbăului (nr. cad. 354556) se regularizează la un profil de 11,5 m pe tronsonul de lângă P.U.Z. (7 m carosabil, 2,5 m bandă de parcare, 2 m trotuar). Terenul necesar lărgirii se dezmembrează din parcele și se înscrie în C.F. ca „drum” înainte de emiterea autorizațiilor de construire.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar (Municipiul Cluj-Napoca).",
+   "Accesul la pădurea-parc și la cimitir se face pe aleea de interes local propusă (U.T.R. Tr*, minim 4 m lățime), din str. Valea Gârbăului; în cimitir se intră pe latura nordică, dintr-o alee care străbate pădurea-parc. Aleea poate servi și ca acces secundar pentru parcela de instituții publice. Pe culoarul ei staționarea e interzisă, permisă doar alături, în locuri amenajate și semnalizate.",
+   "Retrageri: în Is_A* minim 3 m față de aliniament, minim jumătate din înălțime, dar cel puțin 4,5 m, față de limitele laterale fără calcan, și minim 3 m față de limita posterioară; în G_ca minim 3 m față de aliniament, minim jumătate din înălțime (cel puțin 4,5 m) față de limitele laterale și 3 m față de cea posterioară; în Va* minim 3 m față de toate limitele.",
+   "Parcarea: în Is_A* numai în interiorul parcelelor (garaje subterane sau supraterane, ori parcaje la sol), după Anexa 2 a R.L.U. al P.U.G.; în zona verde parcarea e interzisă (afară de vehiculele de întreținere), iar în cimitir accesul și staționarea autovehiculelor sunt interzise (afară de întreținere și exploatare); locurile de parcare se organizează lângă intrări, ca parcaje publice.",
+   "Aleile din pădurea-parc și din cimitir se fac din agregate compactate, pavaje din piatră naturală sau asfalt permeabil cu aspect asemănător.",
+   "Clădirile se racordează la rețelele publice; apele meteorice nu se scurg spre domeniul public sau spre vecini; cablurile nu se montează aerian, iar rețelele de pe alee se pun în subteran, cu apele meteorice colectate în culoarul străzii.",
+   "Deșeurile: în Is_A* fiecare parcelă are un spațiu de colectare selectivă accesibil din spațiul public; în zona verde și în cimitir colectarea se face în puncte gospodărești amenajate, ecranate vizual, cu colectare selectivă pe minimum cinci fracții, pe platforme impermeabilizate, prin operatori autorizați; depozitarea necontrolată e interzisă."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
