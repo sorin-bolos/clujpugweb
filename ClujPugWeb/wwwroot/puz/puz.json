@@ -5244,6 +5244,78 @@
   ]
  },
  {
+  "id": "2026-100",
+  "localitate": "cluj",
+  "hcl": "100/2026",
+  "data": "2026-03-20",
+  "titlu": "P.U.Z. – Dezvoltare zonă economică – Calea Turzii nr. 192",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-100-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-100.pdf",
+  "utr": [
+   {
+    "cod": "Ec*",
+    "denumire": "Zonă de activități economice de tip comercial și activități complementare: comerț de tip supermarket/hypermarket, clădiri „big box” cu ADC peste 1000 mp, comerț și servicii în sistem „mall”, reprezentanțe comerciale (showroom), servicii, activități administrative, financiar-bancare, profesionale, medicale; regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "1,2",
+    "h_max": "(1-3S)+P+3E, H max 15 m"
+   },
+   {
+    "cod": "VPr",
+    "denumire": "Zonă verde cu rol de protecție față de infrastructura majoră, 3276 mp după bilanțul planșei; se mențin reglementările P.U.G."
+   }
+  ],
+  "suprafata_m2": 6000,
+  "imagine": "puz/2026-100/plansa.webp",
+  "bounds": {
+   "west": 23.5914933,
+   "south": 46.7359135,
+   "east": 23.593846,
+   "north": 46.7366624
+  },
+  "limita": [
+   [
+    23.5937916,
+    46.7359625
+   ],
+   [
+    23.5932301,
+    46.7363778
+   ],
+   [
+    23.5916964,
+    46.7366202
+   ],
+   [
+    23.591529,
+    46.7362375
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.1
+  },
+  "legenda": "puz/2026-100/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-03-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Denumirea zonei: planșa numește U.T.R. Ec* „zonă de activități economice cu caracter terțiar”; Art. 1 îi spune „zonă de activități economice de tip comercial și activități complementare” și îi enumeră funcțiunile (supermarket/hypermarket, „big box”, mall, showroom-uri, servicii).",
+   "Cedarea de teren: planșa marchează 1.064,1 mp din parcelă, spre Calea Turzii, ca „teren propus spre dezmembrare în vederea cedării către domeniul public” (și notează „Calea Turzii = 54 m conform PUG”); hotărârea nu pomenește nicio cedare.",
+   "Arborii: tabelul planșei cere minim 1 arbore la 150 mp; Art. 1 cere doar spațiu verde de minim 20% din parcelă și minim 70% verde în grădina de fațadă, fără un număr de arbori."
+  ],
+  "conditii": [
+   "Retrageri: față de aliniament 37,5 m, la limita zonei verzi de protecție; față de limita laterală sudică cel puțin H/2, dar minim 6 m, și minim 11 m față de limita laterală nordică; față de limita posterioară minim 25 m; toate cu respectarea zonei verzi de protecție. Regim de construire deschis.",
+   "Accesul se face numai din Calea Turzii, conform avizului și autorizației speciale ale administratorului drumului; pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+   "Parcarea se face în parcelă, în spații dedicate la subsolurile sau parterul clădirii, după Anexa 2 a R.L.U. al P.U.G.; vehiculele de marfă și celelalte vehicule în afară de autoturisme staționează numai în incintă, în spații dedicate, niciodată pe spațiul public.",
+   "Spațiul verde ocupă minim 20% din parcelă; în grădina de fațadă (între stradă și clădirea retrasă) minim 70% din suprafață e spațiu verde.",
+   "Toate clădirile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; branșamentele și contoarele se integrează în împrejmuiri sau în clădiri dedicate din incintă; cablurile nu se montează aerian pe spațiul public; deșeurile se colectează într-un spațiu din parcelă (eventual în clădire), accesibil din spațiul public.",
+   "Înainte de recepția lucrărilor se execută lucrările cerute de avizul Serviciului Siguranța circulației (nr. 287423/446/2023): un trotuar pentru pietoni de la dezvoltare până la strada Făgetului și parapeți „New Jersey” din beton în dreptul accesului, astfel încât intrarea și ieșirea din incintă să se facă numai prin viraje la dreapta.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

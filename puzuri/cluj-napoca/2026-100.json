@@ -1,0 +1,163 @@
+{
+  "id": "2026-100",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 100,
+    "an": 2026,
+    "data_sedinta": "2026-03-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-100-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-100.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă economică – Calea Turzii nr. 192",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 200,
+    "denumire": "Plan reglementări urbanistice – zonificare (planșa PUZ.03)",
+    "scara": "1:500",
+    "nota": "Singura planșă din PDF e p. 19, la format mare (4608×3321 px la 200 ppi, A2): planșa PUZ.03 „Plan reglementări urbanistice – zonificare” (proiect nr. 1504/2024, datată 08.2025), cu ștampila „Vizat spre neschimbare” (anexă la avizul Arhitectului-șef nr. 66 din 20.05.2025) și mențiunea de mână „HCL nr. 100 din 20.03.2026”; hotărârea o numește „planșa U.03” (Anexa 2). Paginile 1-18 sunt A4: hotărârea, referatul, raportul, avizele și anexele scrise. Scanarea e la scara 1:500 aproape întreagă (15,7 px/m față de 15,75), nordul e în sus (rotație 0,01°). Legenda cuprinde „Legenda reglementări” din colțul din stânga-sus și tabelul U.T.R. din dreapta-sus (U.T.R. existent UEc / propus Ec*, P.O.T./C.U.T. maxime, regimul de înălțime, H max, spațiile verzi și numărul minim de arbori); tabelul „Suprafețe zonificare” (doar suprafețe), tabelul de coordonate, încadrarea, cartușul, ștampilele și caseta de text cu datele parcelei au rămas afară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "„Tabel de coordonate C.F. nr. 261508” pe planșă, în dreapta-sus: 4 puncte (192, 193, 21, 92), în ordinea conturului, cu lungimile laturilor D(i,i+1), S=6000,32 mp și P=403,30 m; 6000 mp e și suprafața din acte și cea măsurată din cartușul planului topografic, ca și totalul bilanțului (Ec* 2724 mp + VPr 3276 mp). Puncte de control: toate cele patru colțuri, pe mijlocul liniei negre a limitei de proprietate (21 nord-vest, 92 sud-vest, 192 sud-est la Calea Turzii, 193 nord-est la Calea Turzii). Puncte de verificare: patru cruci ale caroiajului Stereo 70 al planului topografic (cele groase), la E 392550/392600/392650 și N 582750/582850, citite pe planșă; etichetele lor sunt cele tipărite lângă caroiaj, pe care crucile groase le urmează la 0,1-2,5 m, mult sub pasul de 50 m.",
+    "suprafata_declarata_m2": 6000.32,
+    "puncte": {
+      "192": [
+        582775.086,
+        392669.656
+      ],
+      "193": [
+        582821.998,
+        392627.575
+      ],
+      "21": [
+        582851.025,
+        392510.866
+      ],
+      "92": [
+        582808.716,
+        392497.318
+      ]
+    },
+    "laturi_declarate_m": {
+      "192": 63.02,
+      "193": 120.26,
+      "21": 44.43,
+      "92": 175.59
+    },
+    "perimetru_declarat_m": 403.3,
+    "ordine": [
+      "192",
+      "193",
+      "21",
+      "92"
+    ],
+    "nota": "Planșa are două rânduri de cruci de caroiaj: cele subțiri, cu etichete (582750/582800/582850, 392500-392650), și cele groase, fără etichete, care se depărtează de cele subțiri spre sud și est (până la ~30-40 px). Crucile groase se potrivesc cu inventarul (0,1-0,55 m față de potrivirea pe cele patru colțuri, 15,7 px/m), iar cele subțiri nu (0,6-2,3 m; o scară cu ~1% mai mică, ca a unui cadru inserat separat); de aceea doar crucile groase au fost folosite, ca puncte de verificare."
+  },
+  "repere": {
+    "C392550_582850": [
+      582850,
+      392550
+    ],
+    "C392650_582850": [
+      582850,
+      392650
+    ],
+    "C392650_582750": [
+      582750,
+      392650
+    ],
+    "C392600_582750": [
+      582750,
+      392600
+    ]
+  },
+  "gcp_px": {
+    "21": [
+      584,
+      1334
+    ],
+    "193": [
+      2412,
+      1790
+    ],
+    "192": [
+      3077,
+      2533
+    ],
+    "92": [
+      373,
+      2000
+    ]
+  },
+  "verificare_px": {
+    "C392550_582850": [
+      1202,
+      1350
+    ],
+    "C392650_582850": [
+      2771,
+      1351
+    ],
+    "C392650_582750": [
+      2770,
+      2930
+    ],
+    "C392600_582750": [
+      1983,
+      2928
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      92,
+      48,
+      888,
+      628
+    ],
+    [
+      3004,
+      362,
+      3796,
+      757
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Ec*",
+      "denumire": "Zonă de activități economice de tip comercial și activități complementare: comerț de tip supermarket/hypermarket, clădiri „big box” cu ADC peste 1000 mp, comerț și servicii în sistem „mall”, reprezentanțe comerciale (showroom), servicii, activități administrative, financiar-bancare, profesionale, medicale; regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "1,2",
+      "h_max": "(1-3S)+P+3E, H max 15 m"
+    },
+    {
+      "cod": "VPr",
+      "denumire": "Zonă verde cu rol de protecție față de infrastructura majoră, 3276 mp după bilanțul planșei; se mențin reglementările P.U.G."
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-03-20",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Denumirea zonei: planșa numește U.T.R. Ec* „zonă de activități economice cu caracter terțiar”; Art. 1 îi spune „zonă de activități economice de tip comercial și activități complementare” și îi enumeră funcțiunile (supermarket/hypermarket, „big box”, mall, showroom-uri, servicii).",
+    "Cedarea de teren: planșa marchează 1.064,1 mp din parcelă, spre Calea Turzii, ca „teren propus spre dezmembrare în vederea cedării către domeniul public” (și notează „Calea Turzii = 54 m conform PUG”); hotărârea nu pomenește nicio cedare.",
+    "Arborii: tabelul planșei cere minim 1 arbore la 150 mp; Art. 1 cere doar spațiu verde de minim 20% din parcelă și minim 70% verde în grădina de fațadă, fără un număr de arbori."
+  ],
+  "conditii": [
+    "Retrageri: față de aliniament 37,5 m, la limita zonei verzi de protecție; față de limita laterală sudică cel puțin H/2, dar minim 6 m, și minim 11 m față de limita laterală nordică; față de limita posterioară minim 25 m; toate cu respectarea zonei verzi de protecție. Regim de construire deschis.",
+    "Accesul se face numai din Calea Turzii, conform avizului și autorizației speciale ale administratorului drumului; pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+    "Parcarea se face în parcelă, în spații dedicate la subsolurile sau parterul clădirii, după Anexa 2 a R.L.U. al P.U.G.; vehiculele de marfă și celelalte vehicule în afară de autoturisme staționează numai în incintă, în spații dedicate, niciodată pe spațiul public.",
+    "Spațiul verde ocupă minim 20% din parcelă; în grădina de fațadă (între stradă și clădirea retrasă) minim 70% din suprafață e spațiu verde.",
+    "Toate clădirile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; branșamentele și contoarele se integrează în împrejmuiri sau în clădiri dedicate din incintă; cablurile nu se montează aerian pe spațiul public; deșeurile se colectează într-un spațiu din parcelă (eventual în clădire), accesibil din spațiul public.",
+    "Înainte de recepția lucrărilor se execută lucrările cerute de avizul Serviciului Siguranța circulației (nr. 287423/446/2023): un trotuar pentru pietoni de la dezvoltare până la strada Făgetului și parapeți „New Jersey” din beton în dreptul accesului, astfel încât intrarea și ieșirea din incintă să se facă numai prin viraje la dreapta.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}
