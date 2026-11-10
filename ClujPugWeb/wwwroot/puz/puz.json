@@ -12291,6 +12291,99 @@
   ]
  },
  {
+  "id": "2022-651",
+  "localitate": "cluj",
+  "hcl": "651/2022",
+  "data": "2022-09-07",
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, str. Mihai Românul – sud",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-651-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-651-din-7-septembrie-2022.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime pe parcelar de tip urban (predominant locuințe unifamiliale izolate), regim de construire izolat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la coamă; max. 3 niveluri supraterane (D+P+M, D+P+E sau (S)+P+E+ER)"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "P, cornișa max. 4 m"
+   },
+   {
+    "cod": "Vpr",
+    "denumire": "Zonă verde de protecție față de infrastructura majoră – se mențin prevederile PUG"
+   }
+  ],
+  "suprafata_m2": 10492,
+  "imagine": "puz/2022-651/plansa.webp",
+  "bounds": {
+   "west": 23.6012806,
+   "south": 46.7391326,
+   "east": 23.6021011,
+   "north": 46.7409766
+  },
+  "limita": [
+   [
+    23.6020561,
+    46.7392002
+   ],
+   [
+    23.6013473,
+    46.7391476
+   ],
+   [
+    23.6013456,
+    46.7393675
+   ],
+   [
+    23.6013342,
+    46.7400958
+   ],
+   [
+    23.601327,
+    46.7405247
+   ],
+   [
+    23.6013216,
+    46.7409103
+   ],
+   [
+    23.6013231,
+    46.7409517
+   ],
+   [
+    23.602036,
+    46.7408703
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.06
+  },
+  "legenda": "puz/2022-651/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2025-09-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime în Liu*: planșa scrie S+P+E+R/M, max. 12,00 m; hotărârea admite cel mult trei niveluri supraterane, numai în configurațiile D+P+M, D+P+E sau (S)+P+E+ER, cu înălțimea la coamă de max. 12 m.",
+   "Vpr: planșa dă POT 0 și CUT 0,0; hotărârea spune doar că se mențin prevederile PUG."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiar.",
+   "Terenul necesar regularizării străzii Mihai Românul (profil III.E, 16 m) pe tronsonul adiacent se dezmembrează și se înscrie în CF ca „drum” înainte de emiterea autorizațiilor de construire; până la recepția construcțiilor se asfaltează și se transferă gratuit în domeniul public (planșa A5).",
+   "Subzona verde S_Va* se dezmembrează, se înscrie în CF ca „spațiu verde cu acces public nelimitat” și se amenajează pe bază de proiect de specialitate înainte de recepția construcțiilor, cu vegetație joasă, medie și înaltă (cel puțin 3 arbori cu circumferința de min. 35 cm la 1 m de colet).",
+   "În Liu* construcțiile se retrag cel puțin 30 m de la aliniamentul străzii Mihai Românul (pe aliniament sunt permise doar anexe pentru acces, utilități și deșeuri); față de limitele laterale cel puțin H/2, min. 3 m; față de limita posterioară cel puțin H, min. 6 m.",
+   "Parcarea se face în interiorul parcelei: min. 1 loc pentru o locuință cu AU sub 100 mp, min. 2 peste 100 mp; parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit. În subzona verde parcarea e interzisă.",
+   "Clădirile se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau vecini, iar cablurile aeriene sunt interzise."
+  ]
+ },
+ {
   "id": "2022-621",
   "localitate": "cluj",
   "hcl": "621/2022",
