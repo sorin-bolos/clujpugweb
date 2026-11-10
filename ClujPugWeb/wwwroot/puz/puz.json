@@ -3143,6 +3143,86 @@
   ]
  },
  {
+  "id": "2026-496",
+  "localitate": "cluj",
+  "hcl": "496/2026",
+  "data": "2026-07-09",
+  "titlu": "P.U.Z. – Construire locuință cu regim redus de înălțime, str. Episcop Marton Aron nr. 38",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-496-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-496.pdf",
+  "utr": [
+   {
+    "cod": "Li",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime: locuințe individuale și/sau semicolective (cel mult două unități locative), în regim izolat, cu anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la coamă (8 m la cornișă sau atic); trei niveluri supraterane: (S)+P+E+R/M sau D+P+R/M"
+   }
+  ],
+  "suprafata_m2": 614,
+  "imagine": "puz/2026-496/plansa.webp",
+  "bounds": {
+   "west": 23.5884547,
+   "south": 46.7452486,
+   "east": 23.5888672,
+   "north": 46.7456679
+  },
+  "limita": [
+   [
+    23.5884947,
+    46.7456497
+   ],
+   [
+    23.588826,
+    46.7456495
+   ],
+   [
+    23.5888007,
+    46.7456105
+   ],
+   [
+    23.5886968,
+    46.7454754
+   ],
+   [
+    23.5886177,
+    46.745372
+   ],
+   [
+    23.5884977,
+    46.7452626
+   ],
+   [
+    23.5884854,
+    46.7452625
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.0
+  },
+  "legenda": "puz/2026-496/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-07-09"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime: tabelul „Zone funcționale” de pe planșă dă R.H. P+E; Art. 1 permite trei niveluri supraterane, (S)+P+E+R/M sau D+P+R/M, cu cel mult 8 m la cornișă sau atic și 12 m la coamă.",
+   "Codul zonei: tabelul „Zone funcționale” o numește Liu; Art. 1, bilanțul teritorial și eticheta de pe desen o numesc U.T.R. Li.",
+   "Planșa limitează zona construibilă spre sud la linia „25 m Aliniament”; Art. 1 nu are o asemenea limită (retragerea față de limita posterioară: „nu e cazul”)."
+  ],
+  "conditii": [
+   "Fâșia necesară regularizării străzii Episcop Marton Aron (hașurată pe planșă, 118,50 mp) se dezmembrează din parcelă și se înscrie în CF cu titlul de „drum” înainte de autorizația de construire, iar până la recepția construcției se aduce la strat de uzură.",
+   "Clădirile se retrag cel puțin 5 m de la str. Episcop Marton Aron regularizată, preluând alinierea clădirii vecine de la nr. 34-36; garajele se retrag cel puțin 6 m de la aliniament, ca să se poată parca o mașină în față. De la limitele laterale, cel puțin jumătate din înălțimea la cornișă și minim 3 m.",
+   "Accesul se face din str. Episcop Marton Aron: un singur acces pietonal și un singur acces carosabil, acesta din urmă de cel mult 3 m lățime.",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o clădire cu AU sub 100 mp și două peste 100 mp; pentru servicii de proximitate, cel puțin două locuri.",
+   "Utilitățile se racordează la rețelele publice. Apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în împrejmuire, cablurile nu se montează aerian, iar parcela are o platformă pentru colectarea selectivă a deșeurilor (5 fracții), accesibilă din spațiul public.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă (60% din grădina de fațadă); arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (regulament).",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

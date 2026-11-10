@@ -1,0 +1,148 @@
+{
+  "id": "2026-496",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 496,
+    "an": 2026,
+    "data_sedinta": "2026-07-09",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-496-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/07/29/HCL-496.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuință cu regim redus de înălțime, str. Episcop Marton Aron nr. 38",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 200,
+    "denumire": "PUZ05 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 9 (A3, scanare la 200 ppi, aproape alb-negru, ștampilată „Anexa 2 la Hotărârea nr. 496/2026” și semnată) și p. 16 (A3, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 8 din 30.01.2026, și mențiunea de mână „HCL nr. 496 din 9 iulie 2026”); s-a folosit p. 16, mai clară. Pp. 1-2 sunt hotărârea, pp. 3-8 regulamentul local de urbanism (Anexa 1), pp. 10-12 avizul Arhitectului-șef nr. 8/30.01.2026, p. 13 extrasul din P.U.G., pp. 14-15 avizul de oportunitate nr. 173/15.07.2024, pp. 17-20 raportul informării și consultării publicului. Cartușul: proiect 15/2025, faza P.U.Z., 2025, planșa PUZ05 „Reglementări urbanistice”, scara 1:500; titlul mare al planșei a rămas cel al ridicării topografice („Plan topografic pentru elaborare Plan urbanistic zonal, scara 1:500, intravilan”). Scara imaginii: 22,3 px/m (1:500 la 200 ppi ar da 15,7 px/m: planșa e tipărită mărită, ca de pe A4 pe A3); nordul e aproape în sus (rotație -0,17° față de Stereo 70). Legenda cuprinde cheia simbolurilor (fără săgeata nordului și fără eticheta 392300 a ramei, care o atinge) și tabelul „Zone funcționale” cu U.T.R. Liu (Li), suprafețele, POT, CUT și regimul de înălțime; au rămas afară caseta cu suprafețele și POT/CUT maxime (aceleași valori ca tabelul), bilanțul teritorial zonal, bilanțul teritorial pe parcelă, ștampilele și cartușul. În legendă, „Dezmembrare propusă regularizare drum” are o casetă roz, dar pe desen fâșia e hașurată cu albastru."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate și nici cruci de caroiaj în interior; are doar etichetele caroiajului Stereo 70 de 50 m pe rama ridicării topografice: Est 392300 sus și jos, Est 392350 sus, Nord 583850 în stânga și în dreapta (aceasta din urmă mai mult tăiată la marginea foii). Fiecare etichetă e subliniată; linia de sub ea (măsurată pe profile de pixeli: x = 1336,5 sus și 1330,5 jos pentru 392300, x = 2451,0 sus pentru 392350, y = 960,5 în stânga și 952,0 în dreapta pentru 583850) e luată drept linia de caroiaj. Punctele de control sunt intersecțiile acestor linii: C392300_583850 și C392350_583850; C392300_583800 și C392350_583800 sunt construite la 50 m spre sud, de-a lungul liniei 392300, cu aceeași scară ca între cele două linii Est (planșa nu are altă etichetă Nord). Limita e trasată pe planșă (`limita_px`): imobilul nr. cad. 305711, linia roșie cu bare (vârfurile 1-7 de pe desen), inclusiv fâșia hașurată cedată pentru regularizarea străzii.",
+    "suprafata_declarata_m2": 605,
+    "puncte": {},
+    "nota": "Cele patru puncte de control sunt un paralelogram construit din cinci poziții de etichete, deci reziduurile ies 0 prin construcție și nu verifică nimic; nu există puncte de verificare independente pe planșă. Verificările sunt altele: (1) scara caroiajului, 1114,5 px pentru 50 m (22,29 px/m), e cea a cotelor desenului: 19,04 m măsoară 421 px (22,1 px/m), 35,04 m măsoară 785 px (22,4 px/m), deci etichetele țin de desen și scara e aceeași pe Est și pe Nord în limita a ~1%; (2) aria limitei trasate, 613,8 mp, față de 605 mp din bilanțul teritorial (+1,5%); (3) axul str. Episcop Márton Áron din OpenStreetMap (luat prin Nominatim, Overpass nu răspundea) cade pe mijlocul străzii desenate (N ≈ 583862 la E 392290) și cotește spre nord exact ca drumul desenat la est de parcelă; (4) pe ortofoto, gardul de vest, frontul străzii și marginea drumului diagonal de la sud-est cad pe cele reale la 1-2 m. Rama nu e un dreptunghi perfect în scanare (marginile ei înclină între 0 și 0,4°, iar liniile 392300 și 583850 nu sunt perfect perpendiculare, ~0,35°); parcela e lângă intersecția C392300_583850, deci eroarea din asta e sub 0,5 m acolo. Dacă linia de caroiaj ar fi la baza cifrelor și nu la sublinierea lor, totul s-ar muta cu ~0,25 m."
+  },
+  "gcp_px": {
+    "C392300_583850": [
+      1334.0,
+      957.4
+    ],
+    "C392350_583850": [
+      2448.5,
+      954.1
+    ],
+    "C392300_583800": [
+      1330.5,
+      2071.9
+    ],
+    "C392350_583800": [
+      2445.0,
+      2068.7
+    ]
+  },
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      365,
+      112,
+      1262,
+      242
+    ],
+    [
+      365,
+      242,
+      1412,
+      404
+    ],
+    [
+      2058,
+      1356,
+      3180,
+      1556
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Li",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime: locuințe individuale și/sau semicolective (cel mult două unități locative), în regim izolat, cu anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la coamă (8 m la cornișă sau atic); trei niveluri supraterane: (S)+P+E+R/M sau D+P+R/M"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-07-09",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime: tabelul „Zone funcționale” de pe planșă dă R.H. P+E; Art. 1 permite trei niveluri supraterane, (S)+P+E+R/M sau D+P+R/M, cu cel mult 8 m la cornișă sau atic și 12 m la coamă.",
+    "Codul zonei: tabelul „Zone funcționale” o numește Liu; Art. 1, bilanțul teritorial și eticheta de pe desen o numesc U.T.R. Li.",
+    "Planșa limitează zona construibilă spre sud la linia „25 m Aliniament”; Art. 1 nu are o asemenea limită (retragerea față de limita posterioară: „nu e cazul”)."
+  ],
+  "conditii": [
+    "Fâșia necesară regularizării străzii Episcop Marton Aron (hașurată pe planșă, 118,50 mp) se dezmembrează din parcelă și se înscrie în CF cu titlul de „drum” înainte de autorizația de construire, iar până la recepția construcției se aduce la strat de uzură.",
+    "Clădirile se retrag cel puțin 5 m de la str. Episcop Marton Aron regularizată, preluând alinierea clădirii vecine de la nr. 34-36; garajele se retrag cel puțin 6 m de la aliniament, ca să se poată parca o mașină în față. De la limitele laterale, cel puțin jumătate din înălțimea la cornișă și minim 3 m.",
+    "Accesul se face din str. Episcop Marton Aron: un singur acces pietonal și un singur acces carosabil, acesta din urmă de cel mult 3 m lățime.",
+    "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o clădire cu AU sub 100 mp și două peste 100 mp; pentru servicii de proximitate, cel puțin două locuri.",
+    "Utilitățile se racordează la rețelele publice. Apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în împrejmuire, cablurile nu se montează aerian, iar parcela are o platformă pentru colectarea selectivă a deșeurilor (5 fracții), accesibilă din spațiul public.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă (60% din grădina de fațadă); arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (regulament).",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ],
+  "repere": {
+    "C392300_583850": [
+      583850,
+      392300
+    ],
+    "C392350_583850": [
+      583850,
+      392350
+    ],
+    "C392300_583800": [
+      583800,
+      392300
+    ],
+    "C392350_583800": [
+      583800,
+      392350
+    ]
+  },
+  "limita_px": [
+    [
+      981,
+      761
+    ],
+    [
+      1545,
+      770
+    ],
+    [
+      1500,
+      866
+    ],
+    [
+      1316,
+      1198
+    ],
+    [
+      1176,
+      1452
+    ],
+    [
+      966,
+      1720
+    ],
+    [
+      945,
+      1720
+    ]
+  ]
+}
