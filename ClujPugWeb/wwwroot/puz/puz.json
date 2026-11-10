@@ -4211,6 +4211,90 @@
   ]
  },
  {
+  "id": "2026-103",
+  "localitate": "cluj",
+  "hcl": "103/2026",
+  "data": "2026-03-20",
+  "titlu": "P.U.Z. – instituire subzonă de activități sportive și activități economice cu caracter terțiar, str. Ștefan Pascu – est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-103-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-103.pdf",
+  "utr": [
+   {
+    "cod": "S_Et*",
+    "denumire": "Subzonă de activități sportive și activități economice cu caracter terțiar – funcțiune predominantă: sală de sport cu dotări conexe și alimentație publică; admise și funcțiuni terțiare (alimentație publică, servicii profesionale, servicii cu acces public, comerț en détail); regim de construire izolat (tot terenul de 2000 mp, inclusiv cei 205 mp pentru lărgirea str. Ștefan Pascu)",
+    "pot_max": "40%",
+    "cut_max": "2,2",
+    "h_max": "12 m și cel mult trei niveluri supraterane"
+   }
+  ],
+  "suprafata_m2": 2000,
+  "imagine": "puz/2026-103/plansa.webp",
+  "bounds": {
+   "west": 23.6041314,
+   "south": 46.7983415,
+   "east": 23.6048815,
+   "north": 46.7992404
+  },
+  "limita": [
+   [
+    23.6041589,
+    46.7991473
+   ],
+   [
+    23.6044269,
+    46.7992179
+   ],
+   [
+    23.6046155,
+    46.7988815
+   ],
+   [
+    23.6047155,
+    46.7987025
+   ],
+   [
+    23.6047554,
+    46.7986336
+   ],
+   [
+    23.6048539,
+    46.7984636
+   ],
+   [
+    23.6047248,
+    46.7984143
+   ],
+   [
+    23.6045996,
+    46.7983665
+   ],
+   [
+    23.6045032,
+    46.7985372
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2026-103/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-03-20"
+  },
+  "conditii": [
+   "Terenul pentru lărgirea str. Ștefan Pascu (nr. cad. 352892 și 352896, 154 + 51 mp, înscrise în CF cu destinația „drum”; hașurat pe planșă, 205,07 mp) se aduce la strat de uzură înainte de recepția lucrărilor de construire.",
+   "Clădirea se amplasează pe aliniamentul străzii Ștefan Pascu regularizate, în regim izolat, la cel puțin 3 m de limitele laterale (nord și sud) și la cel puțin 3,5 m, respectiv 6 m, de limita posterioară (est), cum arată planșa U.03.",
+   "Accesul auto și pietonal se face din partea de vest, din str. Ștefan Pascu, conform avizului și autorizației speciale de construire date de administratorul străzii; pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei, cu necesarul calculat după Anexa 2 la R.L.U. al P.U.G., însumat pe funcțiuni când sunt mai multe.",
+   "Toate clădirile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre vecini; cablurile nu se montează aerian; firidele de branșament și contorizare se integrează în împrejmuiri; pe parcelă se prevede un spațiu pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă; spre limita nord-estică se plantează un perete vegetal de arbuști (câte unul la fiecare 200 mp de teren reglementat), iar arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică construirea (Anexa 1).",
+   "Împrejmuirile au cel mult 2,20 m; spre spațiul public au soclu opac de cel mult 80 cm și parte transparentă, iar porțile din aliniament se deschid fără a afecta spațiul public (Anexa 1).",
+   "Toate investițiile propuse sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

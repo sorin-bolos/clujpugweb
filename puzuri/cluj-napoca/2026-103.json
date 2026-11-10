@@ -1,0 +1,114 @@
+{
+  "id": "2026-103",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 103,
+    "an": 2026,
+    "data_sedinta": "2026-03-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-103-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/04/08/HCL-103.pdf"
+  },
+  "titlu": "P.U.Z. – instituire subzonă de activități sportive și activități economice cu caracter terțiar, str. Ștefan Pascu – est",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 200,
+    "denumire": "U.03 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa apare de două ori în PDF: p. 7 e copia anexată hotărârii (A3, 200 ppi, alb-negru, ștampilată „Anexa 2 la Hotărârea nr. 103/2026” și semnată), iar p. 14 e aceeași planșă U.03 (proiect 156/2022, datată 19.09.2025), color, tot A3 la 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef (anexă la avizul nr. 279 din 27.11.2024) și mențiunea de mână „H.C.L. nr. 103 din 20 martie 2026”; s-a folosit p. 14, pentru culori. Ștampila vizei acoperă marginea stângă a legendei (rândurile „S_Et*”, „Teren cedat lărgire drum”, „Notații”, „Acces auto”), care rămân lizibile. Planșa e tipărită ușor micșorată: 15,2 px/m în loc de 15,75 px/m cât ar da 1:500 la 200 ppi (~96 %); nordul e în sus (rotație 0,04°). Limita P.U.Z. e linia roșie a „limitei zonei reglementate”; linia albastră punctată a „limitei zonei de studiu” (aceeași suprafață, 2000 mp) e desenată paralel, la ~6,5 px (~0,4 m) în afara ei, pe tot conturul. Pe planșă, la vest, fâșia hașurată „teren cedat lărgire drum” (205,07 mp, nr. cad. 352892 și 352896) e în interiorul limitei; la vest de stradă e P.U.Z.-ul aprobat prin HCL 868/15.12.2020. Legenda nu cuprinde profilurile străzii Ștefan Pascu (existent 6,50 m; propus 9,00 m, după P.U.Z.-ul din 2020), bilanțul și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U.03, în două tabele (Nord X / Est Y, cu lungimile laturilor D(i,i+1)): „Parcela (CF_331587)”, punctele 1-6, S=1554,01 mp, P=186,292 m, și „Parcela (CF_298534)”, punctele 6, 5, 7, 8, 9, S=445,99 mp, P=84,928 m. Limita P.U.Z. e conturul celor două parcele unite, 2000 mp, cât dau hotărârea (Art. 1) și bilanțul planșei, parcurs 1-2-3-4-5-7-8-9-6; latura comună 5-6 (22,032 m) rămâne în interior. Puncte de control: colțurile 1 (NV), 2 (NE), 7 (SE) și 9 (SV), singurele colțuri ascuțite (3, 4, 5, 8 și 6 stau pe laturi aproape drepte); fiecare e intersecția liniilor de mijloc ale liniei roșii a limitei de pe cele două laturi, măsurate pe 50-580 de profile transversale pe latură (abatere standard 0,5-0,8 px; pe latura de sud, unde scrisul roșu „retragere min. 3 m” se lipește de linie, s-a folosit tiparul întunecat al aceleiași linii). Verificare: punctele 5 și 6, la intersecția limitei cu linia cadastrală dintre cele două parcele (desenată și cotată 22,03 m), și patru cruci ale caroiajului Stereo 70, în intersecția liniilor etichetate pe ramă (Est 393650 sus, 393600 jos; Nord 589800, 589750 și 589700 în dreapta), cu centrul măsurat pe brațele crucii.",
+    "suprafata_declarata_m2": 2000.0,
+    "puncte": {
+      "1": [589783.046, 393585.668],
+      "2": [589790.53, 393606.26],
+      "3": [589752.897, 393619.999],
+      "4": [589732.864, 393627.28],
+      "5": [589725.15, 393630.191],
+      "6": [589714.781, 393610.752],
+      "7": [589706.129, 393637.37],
+      "8": [589700.822, 393627.42],
+      "9": [589695.676, 393617.772]
+    },
+    "ordine": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "7",
+      "8",
+      "9",
+      "6"
+    ],
+    "laturi_declarate_m": {
+      "1": 21.91,
+      "2": 40.062,
+      "3": 21.315,
+      "4": 8.245,
+      "5": 20.331,
+      "7": 11.277,
+      "8": 10.935,
+      "9": 20.354,
+      "6": 72.728
+    },
+    "nota": "Numerele roșii scrise lângă vârfuri pe desen nu urmează inventarul: vârfurile notate pe desen 7, 6, 5, 4, 3, 2, 1, 9, 8 sunt punctele 1, 2, 3, 4, 5, 7, 8, 9, 6 din tabele (potrivire după lungimile laturilor cotate pe desen – 21,91; 40,06; 21,32; 8,24; 20,33; 11,28; 10,93; 20,35; 72,73 – și după poziție; lângă colțul 2 se vede și o cifră neagră mică „2”, din numerotarea tabelelor). S-a folosit numerotarea tabelelor. Coordonatele se verifică: ariile (1554,01 și 445,99 mp) și perimetrele (186,292 și 84,928 m) ale celor două parcele, toate laturile, iar perimetrul conturului unit e 186,292 + 84,928 − 2×22,032 = 227,156 m. Crucile caroiajului cad la 0,1-0,6 m de pozițiile date de inventar, toate spre nord-vest; fondul topografic e deci decalat cu atât față de limită."
+  },
+  "gcp_px": {
+    "1": [411, 569],
+    "2": [725, 456],
+    "7": [1201, 1742],
+    "9": [904, 1902]
+  },
+  "verificare_px": {
+    "5": [1091, 1451],
+    "6": [797, 1613],
+    "C393650_589800": [1388, 303],
+    "C393650_589750": [1389, 1071],
+    "C393650_589700": [1392, 1835],
+    "C393600_589800": [629, 307]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [2300, 722, 2835, 1812]
+  ],
+  "utr": [
+    {
+      "cod": "S_Et*",
+      "denumire": "Subzonă de activități sportive și activități economice cu caracter terțiar – funcțiune predominantă: sală de sport cu dotări conexe și alimentație publică; admise și funcțiuni terțiare (alimentație publică, servicii profesionale, servicii cu acces public, comerț en détail); regim de construire izolat (tot terenul de 2000 mp, inclusiv cei 205 mp pentru lărgirea str. Ștefan Pascu)",
+      "pot_max": "40%",
+      "cut_max": "2,2",
+      "h_max": "12 m și cel mult trei niveluri supraterane"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-03-20",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Terenul pentru lărgirea str. Ștefan Pascu (nr. cad. 352892 și 352896, 154 + 51 mp, înscrise în CF cu destinația „drum”; hașurat pe planșă, 205,07 mp) se aduce la strat de uzură înainte de recepția lucrărilor de construire.",
+    "Clădirea se amplasează pe aliniamentul străzii Ștefan Pascu regularizate, în regim izolat, la cel puțin 3 m de limitele laterale (nord și sud) și la cel puțin 3,5 m, respectiv 6 m, de limita posterioară (est), cum arată planșa U.03.",
+    "Accesul auto și pietonal se face din partea de vest, din str. Ștefan Pascu, conform avizului și autorizației speciale de construire date de administratorul străzii; pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei, cu necesarul calculat după Anexa 2 la R.L.U. al P.U.G., însumat pe funcțiuni când sunt mai multe.",
+    "Toate clădirile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre vecini; cablurile nu se montează aerian; firidele de branșament și contorizare se integrează în împrejmuiri; pe parcelă se prevede un spațiu pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă; spre limita nord-estică se plantează un perete vegetal de arbuști (câte unul la fiecare 200 mp de teren reglementat), iar arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică construirea (Anexa 1).",
+    "Împrejmuirile au cel mult 2,20 m; spre spațiul public au soclu opac de cel mult 80 cm și parte transparentă, iar porțile din aliniament se deschid fără a afecta spațiul public (Anexa 1).",
+    "Toate investițiile propuse sunt suportate de beneficiari."
+  ],
+  "repere": {
+    "C393650_589800": [589800, 393650],
+    "C393650_589750": [589750, 393650],
+    "C393650_589700": [589700, 393650],
+    "C393600_589800": [589800, 393600]
+  },
+  "hotarare_text": "documente/2026-103/hotarare.txt"
+}
