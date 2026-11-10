@@ -1694,6 +1694,221 @@
   ]
  },
  {
+  "id": "2026-552",
+  "localitate": "cluj",
+  "hcl": "552/2026",
+  "data": "2026-08-06",
+  "titlu": "P.U.Z. pentru zonă construită protejată (PUZCP) – Dezvoltare zonă rezidențială, str. Louis Pasteur nr. 43-49",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-552-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/552.pdf",
+  "utr": [
+   {
+    "cod": "ZCP_Liu*",
+    "denumire": "Zonă construită protejată (lângă Grădina Botanică). Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele 1, 2 și 3; înlocuiește UTR ZCP_Liu și Liu din P.U.G.): locuințe individuale cu anexe (garaje, filigorii, piscine etc.) pe parcelele 2 și 3; pe parcela 1 un ansamblu de 6 locuințe individuale izolate, cu parcaj subteran și dotări (saună, sală de fitness, piscină exterioară) doar pentru locuitorii lui; regim de construire izolat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă și 8 m maxim; două niveluri supraterane: (S)+P+E, (S)+P+R/M, P+E, P+R/M"
+   },
+   {
+    "cod": "ZCP_Vt",
+    "denumire": "Zona verde tematică a Grădinii Botanice (fâșie de 192,90 mp după planșă); rămân prevederile R.L.U. al P.U.G.",
+    "pot_max": "5% (planșa, după P.U.G.)",
+    "cut_max": "0,1 (planșa, după P.U.G.)"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Culoar de protecție a pârâului (Pârâul Țiganilor) care mărginește terenul spre est (90,80 mp după planșă); rămân prevederile R.L.U. al P.U.G.",
+    "pot_max": "1% (planșa, după P.U.G.)",
+    "cut_max": "0,01 (planșa, după P.U.G.)"
+   }
+  ],
+  "suprafata_m2": 11088,
+  "imagine": "puz/2026-552/plansa.webp",
+  "bounds": {
+   "west": 23.5837849,
+   "south": 46.7578121,
+   "east": 23.5859482,
+   "north": 46.758869
+  },
+  "limita": [
+   [
+    23.5840113,
+    46.7587104
+   ],
+   [
+    23.5843829,
+    46.7585952
+   ],
+   [
+    23.584545,
+    46.7588369
+   ],
+   [
+    23.584736,
+    46.7588142
+   ],
+   [
+    23.5848351,
+    46.7588052
+   ],
+   [
+    23.585089,
+    46.7587822
+   ],
+   [
+    23.5853322,
+    46.7587601
+   ],
+   [
+    23.5855366,
+    46.7587204
+   ],
+   [
+    23.5858472,
+    46.75865
+   ],
+   [
+    23.5858436,
+    46.7586273
+   ],
+   [
+    23.585903,
+    46.7586075
+   ],
+   [
+    23.585859,
+    46.7585284
+   ],
+   [
+    23.5858112,
+    46.7583865
+   ],
+   [
+    23.5858059,
+    46.7580214
+   ],
+   [
+    23.5858248,
+    46.7579101
+   ],
+   [
+    23.5857575,
+    46.7579063
+   ],
+   [
+    23.5857068,
+    46.7579068
+   ],
+   [
+    23.5854874,
+    46.7579247
+   ],
+   [
+    23.5853617,
+    46.7579434
+   ],
+   [
+    23.5852363,
+    46.757989
+   ],
+   [
+    23.5850685,
+    46.757883
+   ],
+   [
+    23.5850146,
+    46.7578457
+   ],
+   [
+    23.5849375,
+    46.7578889
+   ],
+   [
+    23.5849285,
+    46.757894
+   ],
+   [
+    23.5848321,
+    46.7579449
+   ],
+   [
+    23.5847413,
+    46.7579979
+   ],
+   [
+    23.5846339,
+    46.7580644
+   ],
+   [
+    23.5844838,
+    46.7581506
+   ],
+   [
+    23.5844253,
+    46.7581842
+   ],
+   [
+    23.5843578,
+    46.7582202
+   ],
+   [
+    23.5842845,
+    46.7582544
+   ],
+   [
+    23.5841658,
+    46.7583024
+   ],
+   [
+    23.5840688,
+    46.7583432
+   ],
+   [
+    23.5839702,
+    46.7583811
+   ],
+   [
+    23.583821,
+    46.7584384
+   ],
+   [
+    23.5838767,
+    46.7585224
+   ],
+   [
+    23.5839235,
+    46.7585971
+   ],
+   [
+    23.5839558,
+    46.7586388
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.2
+  },
+  "legenda": "puz/2026-552/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-08-06"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea în ZCP_Liu*: hotărârea permite două niveluri supraterane ((S)+P+E, (S)+P+R/M, P+E, P+R/M) și 8 m la cornișă și maxim, ca și caseta „Caracteristici tehnice” și eticheta U.T.R. de pe desen (H max 8 m, (S)+P+1). Tabelul „Caracteristici tehnice” de sub bilanțul teritorial dă însă, în coloana ZCP_Liu* propus, regimul (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R și Hmax 12 m, adică valorile din P.U.G. ale UTR ZCP_Liu și Liu existente."
+  ],
+  "conditii": [
+   "Până la recepția lucrărilor de construire de pe parcela 1 se amenajează trotuarul străzii Louis Pasteur în dreptul accesului propus, cu bordură teșită și fără modificarea cotei trotuarului, și se mută stâlpul de electricitate și rastelul de biciclete din dreptul accesului.",
+   "La faza D.T.A.C. se face un proiect de amenajare peisagistică pentru zona Pârâului Țiganilor, după avizul Arhitectului-șef al județului Cluj nr. 69/8.10.2025 și clarificarea nr. 44263/20.10.2025.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Retrageri în ZCP_Liu*: cel puțin 6 m față de str. Louis Pasteur; față de limitele laterale minimum 2, 3, 4 sau 6 m și față de limita posterioară minimum 6 m (10 m față de limita estică), după planșa de reglementări.",
+   "Accesul pe parcelele 1 și 3 se face din str. Louis Pasteur, iar pe parcela 2 din circulația de incintă a parcelei 1 (ampriză 9 m); pentru căile din parcele se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei, de regulă la subsol: minimum un loc pentru o locuință cu A.U. sub 100 mp și două peste 100 mp. Ansamblul de pe parcela 1 are și locuri pentru vizitatori în zona de parking, iar din parcajul subteran câte un acces auto pentru fiecare clădire.",
+   "Utilitățile se racordează la rețelele publice. Apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în împrejmuire; cablurile nu se montează aerian; parcelele au o platformă sau un spațiu comun pentru colectarea deșeurilor pe cinci fracții.",
+   "Pentru suprafețele din U.T.R. ZCP_Vt și Ve rămân prevederile R.L.U. al P.U.G."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

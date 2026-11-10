@@ -1,0 +1,365 @@
+{
+  "id": "2026-552",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 552,
+    "an": 2026,
+    "data_sedinta": "2026-08-06",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-552-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/552.pdf"
+  },
+  "titlu": "P.U.Z. pentru zonă construită protejată (PUZCP) – Dezvoltare zonă rezidențială, str. Louis Pasteur nr. 43-49",
+  "plansa": {
+    "pagina_pdf": 8,
+    "dpi": 200,
+    "denumire": "U.03 Plan reglementări urbanistice",
+    "scara": "ilizibilă (acoperită de ștampilă)",
+    "nota": "Planșa e singura din PDF: p. 8, A3 culcat, 200 ppi, ștampilată „Anexa 2 la Hotărârea nr. 552/2026”; p. 1-2 sunt hotărârea, p. 3-7 regulamentul (Anexa 1). Cartușul o numește „Plan reglementări urbanistice” (nr. 1497-A-PUZ-1-0-03, proiect 1497/2023, 11-2025); hotărârea o anexează ca „Planșa U.03 – Plan Reglementări Urbanistice-Zonificare”. Scara din cartuș e acoperită de ștampila consiliului; imaginea are 10,7 px/m, adică ~1:740 la 200 ppi (o planșă 1:500 tipărită la ~68%). Desenul e rotit cu ~1,2° față de caroiajul Stereo 70. Legenda cuprinde caseta „Caracteristici tehnice” a U.T.R. ZCP_Liu* (H max 8 m, (S)+P+1, POT 35%, CUT 0,90), caseta cu indicii celor trei U.T.R. (ZCP_Liu*, ZCP_Vt, Ve) și cheia simbolurilor; au rămas afară inventarele de coordonate, bilanțurile pe parcele și bilanțul teritorial al zonei, bilanțurile ansamblului de locuințe și ale parcărilor cu nota despre parcaje, cartușul și tabelul lat „Indici urbanistici / Caracteristici tehnice” de sub bilanț (1280 px lățime, ar fi devenit ilizibil la lățimea legendei; dă valorile existente și propuse pe U.T.R., vezi diferențele)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă: șase tabele „Inventar de coordonate N.C. …” (X Nord / Y Est, Stereografic 1970, cu lungimile laturilor D(i,i+1), aria și perimetrul fiecărui imobil), pentru imobilele 320549, 320550, 320551, 270666, 252963 și 317426; punctele au o numerotare comună (10-54). P.U.Z. cuprinde cele cinci imobile din Art. 1 (270666, 252963, 320551, 320550, 317426), nu și 320549 (str. Louis Pasteur nr. 43, casa P+1 din colțul de nord-vest, nehașurată pe desen). Conturul e învelitoarea lor exterioară, 38 de vârfuri în `ordine`: 14, 13, 12, 15, 16, 19, 21-37, 41-54, 39; vârfurile comune din interior (17, 18, 20, 38, 40) nu intră. Toate laturile conturului sunt laturi din tabele și sunt verificate cu ele. Puncte de control: colțurile 12 și 13 (golul lăsat de imobilul 320549 pe latura de nord), 14 (unde latura 14-13 se desprinde din linia 39-14-10), 52 (vârful vestic), 36 (vârful de sud, în V) și 29 (colțul de sud-est, pe linia din stânga benzii pârâului); puncte de verificare: 34 (vârful frânt al laturii de sud), 23 și 25 (colțurile de nord-est).",
+    "suprafata_declarata_m2": 11088,
+    "puncte": {
+      "14": [
+        585316.455,
+        391967.601
+      ],
+      "13": [
+        585303.141,
+        391995.751
+      ],
+      "12": [
+        585329.778,
+        392008.616
+      ],
+      "15": [
+        585327.0,
+        392023.161
+      ],
+      "16": [
+        585325.865,
+        392030.712
+      ],
+      "19": [
+        585322.957,
+        392050.051
+      ],
+      "21": [
+        585320.169,
+        392068.589
+      ],
+      "22": [
+        585315.478,
+        392084.116
+      ],
+      "23": [
+        585307.235,
+        392107.703
+      ],
+      "24": [
+        585304.717,
+        392107.377
+      ],
+      "25": [
+        585302.434,
+        392111.88
+      ],
+      "26": [
+        585293.708,
+        392108.362
+      ],
+      "27": [
+        585278.001,
+        392104.428
+      ],
+      "28": [
+        585237.43,
+        392103.297
+      ],
+      "29": [
+        585225.039,
+        392104.523
+      ],
+      "30": [
+        585224.703,
+        392099.371
+      ],
+      "31": [
+        585224.833,
+        392095.503
+      ],
+      "32": [
+        585227.115,
+        392078.78
+      ],
+      "33": [
+        585229.364,
+        392069.217
+      ],
+      "34": [
+        585234.611,
+        392059.731
+      ],
+      "35": [
+        585223.057,
+        392046.703
+      ],
+      "36": [
+        585218.989,
+        392042.51
+      ],
+      "37": [
+        585223.893,
+        392036.71
+      ],
+      "41": [
+        585224.467,
+        392036.031
+      ],
+      "42": [
+        585230.262,
+        392028.768
+      ],
+      "43": [
+        585236.276,
+        392021.937
+      ],
+      "44": [
+        585243.806,
+        392013.869
+      ],
+      "45": [
+        585253.591,
+        392002.575
+      ],
+      "46": [
+        585257.404,
+        391998.174
+      ],
+      "47": [
+        585261.5,
+        391993.089
+      ],
+      "48": [
+        585265.408,
+        391987.563
+      ],
+      "49": [
+        585270.902,
+        391978.591
+      ],
+      "50": [
+        585275.57,
+        391971.261
+      ],
+      "51": [
+        585279.916,
+        391963.809
+      ],
+      "52": [
+        585286.485,
+        391952.527
+      ],
+      "53": [
+        585295.741,
+        391956.952
+      ],
+      "54": [
+        585303.982,
+        391960.668
+      ],
+      "39": [
+        585308.574,
+        391963.218
+      ]
+    },
+    "ordine": [
+      "14",
+      "13",
+      "12",
+      "15",
+      "16",
+      "19",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "41",
+      "42",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "39"
+    ],
+    "laturi_declarate_m": {
+      "14": 31.137,
+      "13": 29.581,
+      "12": 14.808,
+      "15": 7.636,
+      "16": 19.556,
+      "19": 18.745,
+      "21": 16.221,
+      "22": 24.986,
+      "23": 2.539,
+      "24": 5.049,
+      "25": 9.408,
+      "26": 16.192,
+      "27": 40.587,
+      "28": 12.452,
+      "29": 5.163,
+      "30": 3.87,
+      "31": 16.878,
+      "32": 9.824,
+      "33": 10.84,
+      "34": 17.413,
+      "35": 5.842,
+      "36": 7.595,
+      "37": 0.889,
+      "41": 9.292,
+      "42": 9.101,
+      "43": 11.036,
+      "44": 14.943,
+      "45": 5.823,
+      "46": 6.53,
+      "47": 6.768,
+      "48": 10.52,
+      "49": 8.69,
+      "50": 8.627,
+      "51": 13.055,
+      "52": 10.259,
+      "53": 9.04,
+      "54": 5.253,
+      "39": 9.019
+    },
+    "nota": "Sumele de verificare ale tabelelor: ariile imobilelor ies 815,18 / 815,23 / 6094,57 / 1719,20 / 1644,12 mp (pe planșă 815,19 / 815,23 / 6094,58 / 1719,21 / 1644,10), perimetrele la cel mult 1 mm de cele tipărite; suma celor cinci e 11088,3 mp, cât scriu planșa („S studiat și reglementat PUZ = 11 088,00 mp”) și bilanțul (parcela 1 = 9444 mp, parcelele 2 și 3 = 916 + 728 mp). Imobilul 320549 (814,17 mp) are și el tabel pe planșă, dar nu e în Art. 1 și nici în suprafața reglementată. Cifre citite greu, decise de laturile din tabele: pct. 50 Nord 585275,570 (prima zecimală pare 8; cu 585275,870 laturile 49-50 și 50-51 ar ieși 8,855 și 8,480 m în loc de 8,690 și 8,627, iar aria imobilului 317426 cu 2,2 mp mai mică); pct. 19 Nord 585322,957 (în tabelul 320551 cifra zecilor e neclară, 2 sau 3; latura 19-20 de 46,474 m și tabelul 270666 dau 2); pct. 40 Nord 585283,311 (în tabelul 317426 se citește 585263,311; latura 39-40 de 59,083 m și tabelul 252963 dau 283). Laturile 12-15 (14,808, nu 14,908), 32-33 (9,824) și 52-53 (10,259) sunt citite după ce perimetrele tipărite le-au confirmat."
+  },
+  "gcp_px": {
+    "12": [
+      1088,
+      277
+    ],
+    "13": [
+      945,
+      557
+    ],
+    "14": [
+      645,
+      408
+    ],
+    "29": [
+      2093,
+      1418
+    ],
+    "36": [
+      1431,
+      1467
+    ],
+    "52": [
+      474,
+      728
+    ]
+  },
+  "verificare_px": {
+    "34": [
+      1613,
+      1308
+    ],
+    "23": [
+      2145,
+      538
+    ],
+    "25": [
+      2191,
+      590
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2885,
+      80,
+      3240,
+      266
+    ],
+    [
+      2296,
+      520,
+      2558,
+      784
+    ],
+    [
+      2548,
+      1694,
+      2900,
+      1968
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "ZCP_Liu*",
+      "denumire": "Zonă construită protejată (lângă Grădina Botanică). Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele 1, 2 și 3; înlocuiește UTR ZCP_Liu și Liu din P.U.G.): locuințe individuale cu anexe (garaje, filigorii, piscine etc.) pe parcelele 2 și 3; pe parcela 1 un ansamblu de 6 locuințe individuale izolate, cu parcaj subteran și dotări (saună, sală de fitness, piscină exterioară) doar pentru locuitorii lui; regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă și 8 m maxim; două niveluri supraterane: (S)+P+E, (S)+P+R/M, P+E, P+R/M"
+    },
+    {
+      "cod": "ZCP_Vt",
+      "denumire": "Zona verde tematică a Grădinii Botanice (fâșie de 192,90 mp după planșă); rămân prevederile R.L.U. al P.U.G.",
+      "pot_max": "5% (planșa, după P.U.G.)",
+      "cut_max": "0,1 (planșa, după P.U.G.)"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Culoar de protecție a pârâului (Pârâul Țiganilor) care mărginește terenul spre est (90,80 mp după planșă); rămân prevederile R.L.U. al P.U.G.",
+      "pot_max": "1% (planșa, după P.U.G.)",
+      "cut_max": "0,01 (planșa, după P.U.G.)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-08-06",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea în ZCP_Liu*: hotărârea permite două niveluri supraterane ((S)+P+E, (S)+P+R/M, P+E, P+R/M) și 8 m la cornișă și maxim, ca și caseta „Caracteristici tehnice” și eticheta U.T.R. de pe desen (H max 8 m, (S)+P+1). Tabelul „Caracteristici tehnice” de sub bilanțul teritorial dă însă, în coloana ZCP_Liu* propus, regimul (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R și Hmax 12 m, adică valorile din P.U.G. ale UTR ZCP_Liu și Liu existente."
+  ],
+  "conditii": [
+    "Până la recepția lucrărilor de construire de pe parcela 1 se amenajează trotuarul străzii Louis Pasteur în dreptul accesului propus, cu bordură teșită și fără modificarea cotei trotuarului, și se mută stâlpul de electricitate și rastelul de biciclete din dreptul accesului.",
+    "La faza D.T.A.C. se face un proiect de amenajare peisagistică pentru zona Pârâului Țiganilor, după avizul Arhitectului-șef al județului Cluj nr. 69/8.10.2025 și clarificarea nr. 44263/20.10.2025.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Retrageri în ZCP_Liu*: cel puțin 6 m față de str. Louis Pasteur; față de limitele laterale minimum 2, 3, 4 sau 6 m și față de limita posterioară minimum 6 m (10 m față de limita estică), după planșa de reglementări.",
+    "Accesul pe parcelele 1 și 3 se face din str. Louis Pasteur, iar pe parcela 2 din circulația de incintă a parcelei 1 (ampriză 9 m); pentru căile din parcele se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei, de regulă la subsol: minimum un loc pentru o locuință cu A.U. sub 100 mp și două peste 100 mp. Ansamblul de pe parcela 1 are și locuri pentru vizitatori în zona de parking, iar din parcajul subteran câte un acces auto pentru fiecare clădire.",
+    "Utilitățile se racordează la rețelele publice. Apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în împrejmuire; cablurile nu se montează aerian; parcelele au o platformă sau un spațiu comun pentru colectarea deșeurilor pe cinci fracții.",
+    "Pentru suprafețele din U.T.R. ZCP_Vt și Ve rămân prevederile R.L.U. al P.U.G."
+  ]
+}
