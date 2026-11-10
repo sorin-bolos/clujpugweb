@@ -1,0 +1,91 @@
+{
+  "id": "2014-484",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "PDF-ul hotărârii (484(3).PDF) are doar cele două pagini A4 ale hotărârii, fără nicio planșă, iar pagina hotărârii nu leagă alt document; hotărârea aprobă un PUZ nou și nu modifică alt PUZ, deci nu există planșă de reglementări aprobată de georeferențiat (nici inventar de coordonate, nici caroiaj, nici desen pentru repere OpenStreetMap).",
+  "hcl": {
+    "nr": 484,
+    "an": 2014,
+    "data_sedinta": "2014-12-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-484-din-2014/",
+    "pdf": "https://primariaclujnapoca.ro/userfiles/files/484(3).PDF"
+  },
+  "titlu": "P.U.Z. str. Câmpului est, zona „Fânaţe la Stâni” (prelungire str. Nectarului) pentru parcelare, construire şi reglementare circulaţii",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul (484(3).PDF, 2 pagini A4 scanate la 150 ppi, 1240×1753 px fiecare) cuprinde: p. 1 preambulul și Art. 1-2, p. 2 Art. 3-5, semnăturile și ștampila. Nu are anexe: nicio planșă, niciun regulament. Pagina hotărârii (fără text) trimite doar la acest PDF. Planșa aprobată nu e publicată pe site-ul primăriei, așa că PUZ-ul are nevoie de altă sursă (planșa de reglementări aprobată, de la Direcția Generală de Urbanism). Străzile PUZ-ului există azi în OpenStreetMap: str. Fagurelui (fosta str. „B”) și Aleea Verde (str. „C”), la ~46,742 N, 23,575 E, între str. Ștefan Cicio-Pop și Aleea Nectarului; str. Stupilor (str. „A”) nu apare în extras."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Nicio sursă de coordonate: PDF-ul hotărârii nu are planșă (nici inventar, nici caroiaj Stereo 70, nici desen pe care să se poată pune repere OpenStreetMap).",
+    "suprafata_declarata_m2": null,
+    "puncte": {},
+    "nota": "Hotărârea nu dă suprafața reglementată, de aceea suprafata_declarata_m2 a rămas goală."
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "L01",
+      "denumire": "Zonă de locuințe individuale sau colective cu cel mult două apartamente",
+      "pot_max": "35%",
+      "cut_max": "0,6 (pentru două niveluri supraterane)",
+      "h_max": "S(D)+P+E"
+    },
+    {
+      "cod": "COOP",
+      "denumire": "Zonă de dotări de interes public pentru comunitate",
+      "pot_max": "50%",
+      "cut_max": "0,9",
+      "h_max": "S(D)+P+etaj retras"
+    },
+    {
+      "cod": "V4",
+      "denumire": "Zonă de spații verzi publice de protecție a cursului de apă sezonier",
+      "pot_max": "",
+      "cut_max": "",
+      "h_max": ""
+    },
+    {
+      "cod": "V1",
+      "denumire": "Zonă de spații verzi publice de agrement",
+      "pot_max": "3%",
+      "cut_max": "0,04",
+      "h_max": ""
+    }
+  ],
+  "valabilitate": {
+    "ani": 1.5,
+    "pana_la": "2016-06-22",
+    "verificat": "2026-11-10: Art. 4, 18 luni de la aprobare (22.12.2014); `related`: nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08), singura hotărâre ulterioară e îndreptarea de eroare materială HCL 608/2023."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "608/2023",
+      "data": "2023-07-12",
+      "rezumat": "Îndreptarea unei erori materiale din Art. 2: strada „B” a PUZ-ului se numește str. Fagurelui, nu „str. Fagurului”. Indicatorii, zonele și obligațiile rămân neschimbate.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Accesul în zonă se face din str. Câmpului, pe str. Ștefan Cicio-Pop și pe prelungirea str. Nectarului (Art. 1).",
+    "Străzile noi au carosabil de 7,0 m: strada nord-sud cu trotuare de 1,0 m și 1,80 m, străzile est-vest cu două trotuare de câte 1,0 m (Art. 1).",
+    "În spațiul verde de lângă cele două pâraie se amenajează o pistă pentru bicicliști (Art. 1).",
+    "Alinierea minimă e de 4,0 m și de 5,0 m (Art. 1).",
+    "Întreaga investiție e suportată de beneficiarii PUZ-ului (Art. 1).",
+    "Autorizațiile de construire se emit numai după realizarea rețelelor tehnico-edilitare: strada executată până la stratul de rezistență și stratul de uzură și rețelele edilitare asigurate în zonă (Art. 1).",
+    "Străzile și zona verde au acces public nelimitat (Art. 1).",
+    "Străzile proiectate primesc numele: str. „A” – str. Stupilor; str. „B” – str. Fagurelui (modificat prin HCL 608/2023; Art. 2 scria „str. Fagurului”); str. „C” – Aleea Verde. Cele trei străzi sunt încadrate în zona fiscală „D” (Art. 2-3)."
+  ]
+}

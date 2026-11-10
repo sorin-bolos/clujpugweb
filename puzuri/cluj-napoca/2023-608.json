@@ -1,0 +1,47 @@
+{
+  "id": "2023-608",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Hotărârea doar îndreaptă o eroare materială din HCL 484/2014 (numele străzii „B”: str. Fagurelui, nu „Fagurului”) și n-are planșă, iar PUZ-ul de bază, HCL 484/2014, nu poate fi pus pe hartă: PDF-ul lui are doar cele două pagini de text ale hotărârii, fără planșă (rețeta 2014-484, oprită, poartă îndreptarea în `modificat_de`).",
+  "hcl": {
+    "nr": 608,
+    "an": 2023,
+    "data_sedinta": "2023-07-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-608-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/07/21/608.pdf"
+  },
+  "titlu": "Îndreptarea erorii materiale din cuprinsul Hotărârii nr. 484/2014 privind aprobarea P.U.Z. str. Câmpului Est, zona Fânațe la Stâni (prelungire str. Nectarului) pentru parcelare, construire și reglementare circulații",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul (608.pdf, o pagină A4 scanată la 300 ppi, 3508×2480 px) e doar hotărârea, semnată și ștampilată; pagina hotărârii nu leagă alt document. Hotărârea nu aprobă anexe. Ar trebui integrată în rețeta P.U.Z. de bază, 2014-484, dar baza nu are planșă și nu e publicată; îndreptarea e deja trecută în `modificat_de` și `conditii` la 2014-484, așa că, dacă baza va fi publicată cândva, rețeta aceasta trece pe \"stare\": \"integrat\", \"integrat_in\": \"2014-484\"."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Nicio sursă de coordonate: hotărârea n-are planșă.",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "verificat": "2026-11-10: hotărârea nu stabilește o valabilitate proprie; îndreaptă doar o denumire de stradă din HCL 484/2014, valabilă 18 luni de la 22.12.2014 (până la 22.06.2016). `related`: nicio hotărâre ulterioară care s-o pomenească (index actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [
+    "484/2014"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Strada „B” din P.U.Z. aprobat prin HCL 484/2014 se numește str. Fagurelui, nu „str. Fagurului”, cum scria Art. 2 al acelei hotărâri (îndreptare de eroare materială, Art. 1)."
+  ]
+}
