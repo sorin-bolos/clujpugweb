@@ -5385,6 +5385,102 @@
   ]
  },
  {
+  "id": "2024-764",
+  "localitate": "cluj",
+  "hcl": "764/2024",
+  "data": "2024-12-02",
+  "titlu": "P.U.Z. – Instituire subzonă de servicii publice și de interes public în zonă de activități economice cu caracter terțiar, B-dul Muncii nr. 86-90",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-764-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2024/12/02/764-din-2024.pdf",
+  "utr": [
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de servicii publice și de interes public, constituită în clădiri dedicate, situată în zonă de activități economice cu caracter terțiar; funcțiunea predominantă: sănătate și cercetare; regim de construire deschis",
+    "pot_max": "50%",
+    "cut_max": "2,4",
+    "h_max": "25 m (cornișă 22 m); regim maxim (1-3S)+P+5+1R, ultimul nivel retras cel puțin 1,80 m față de planul fațadei"
+   }
+  ],
+  "suprafata_m2": 2897,
+  "imagine": "puz/2024-764/plansa.webp",
+  "bounds": {
+   "west": 23.6606779,
+   "south": 46.7964567,
+   "east": 23.6613989,
+   "north": 46.7970539
+  },
+  "limita": [
+   [
+    23.6606999,
+    46.7969757
+   ],
+   [
+    23.6607382,
+    46.7964815
+   ],
+   [
+    23.6609752,
+    46.7964845
+   ],
+   [
+    23.6609752,
+    46.7964841
+   ],
+   [
+    23.6612372,
+    46.7964864
+   ],
+   [
+    23.6612373,
+    46.796481
+   ],
+   [
+    23.6613767,
+    46.7964789
+   ],
+   [
+    23.6613767,
+    46.7964808
+   ],
+   [
+    23.6613645,
+    46.7970382
+   ],
+   [
+    23.6612278,
+    46.7970239
+   ],
+   [
+    23.6609671,
+    46.7969999
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.09
+  },
+  "legenda": "puz/2024-764/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-12-02"
+  },
+  "diferente_fata_de_plansa": [
+   "Art. 1 cere clădiri „în retragere față de aliniament, în front continuu (deschis)”; R.L.U. (Anexa 1, art. 5) scrie „în front discontinuu (deschis)”, iar planșa desenează retrageri de cel puțin 4,5 m față de ambele limite laterale, adică o clădire izolată.",
+   "Pentru limitele laterale, Art. 1 (ca și R.L.U., art. 6) cere o retragere „mai mare sau cel mult egală cu 4,5 m”; planșa notează „retragere laterală, min. 4.5 m”."
+  ],
+  "conditii": [
+   "Se reglementează un teren de 2896 mp (suprafață măsurată), proprietate privată, format din imobilele cu nr. cad. 320300, 336201 și 322953; se păstrează parcelarul existent (R.L.U., art. 4).",
+   "Clădirile se retrag cel puțin 6 m de la aliniament, cel puțin 4,5 m de la limitele laterale și de la limita posterioară cel puțin jumătate din înălțimea lor, dar minimum 6 m.",
+   "Accesul auto se face din partea nordică, din breteaua de circulație care se desprinde din b-dul Muncii; pe breteaua carosabilă existentă, paralelă cu bulevardul, se face un trotuar de 1,5 m lățime (avizul Serviciului Siguranța Circulației nr. 855898/446/09.11.2022).",
+   "Parcarea se face în incintă, cu numărul de locuri după Anexa 2 a R.L.U. al P.U.G.; R.L.U. al P.U.Z. (art. 9) admite și parcări dedicate la cel mult 150 m, cu drept real de folosință.",
+   "Echipare tehnico-edilitară completă: racord la rețelele publice, apele pluviale nu se scurg spre domeniul public sau spre parcelele vecine, firidele de branșament și contorizare integrate în împrejmuiri, fără cabluri aeriene, spațiu pentru colectarea deșeurilor menajere în incintă, accesibil din spațiul public.",
+   "În spațiul verde amenajat din incintă se plantează cel puțin 30 de arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 20 % din parcelă (R.L.U., art. 13).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2024-571",
   "localitate": "cluj",
   "hcl": "571/2024",

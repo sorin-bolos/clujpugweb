@@ -1,0 +1,198 @@
+{
+  "id": "2024-764",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 764,
+    "an": 2024,
+    "data_sedinta": "2024-12-02",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-764-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2024/12/02/764-din-2024.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de servicii publice și de interes public în zonă de activități economice cu caracter terțiar, B-dul Muncii nr. 86-90",
+  "plansa": {
+    "pagina_pdf": 10,
+    "dpi": 300,
+    "denumire": "A.03 Plan reglementări urbanistice - zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul are 11 pagini scanate la 300 ppi: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii), Anexa 1 R.L.U. (p. 3-9), Anexa 2 planșa A.03 „Plan reglementări urbanistice - zonificare” (p. 10, singura copie) și Anexa 3 planșa A.04 „Plan posibilități de mobilare urbanistică” (p. 11, pe același fond). Planșa 1:500 e redusă pe A4 (15,9 px/m în loc de 23,6 px/m, cam 67 %) și tipărită culcat: textul se citește în sus, nordul e spre stânga paginii (rotație -89,5°), de unde rotirea cu 90° a legendei. Limita zonei reglementate e linia punctată neagră („Zona reglementată” în cheie); pe latura sudică o acoperă parțial o linie albastră și una roșie cu triunghiuri, dar treapta de la 46/47 și colțurile se văd. Legenda ia cheia simbolurilor, caseta U.T.R. S_Is* de pe desen (fără primele rânduri, cu beneficiarul și cărțile funciare), caracteristicile tehnice și tabelul indicilor urbanistici maximi admiși; lasă deoparte tabelul de coordonate, indicii propuși, tabelul suprafețelor pe UTR, bilanțul și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.03 („Tabel de coordonate”, parcela SUPRAFATA_TRASATA_311019: 11 puncte, Nord X / Est Y, cu lungimile laturilor; S = 2897,367 mp). Potrivirea folosește cele patru colțuri ale parcelei: 43 și 19 la capetele laturii nordice (aliniamentul spre breteaua b-dului Muncii), 44 și 26 la capetele laturii sudice; verificare: 39 și 33, unde liniile cadastrale întâlnesc latura nordică, 34, unde linia cadastrală întâlnește latura sudică, și 46, la treapta de 0,6 m de pe latura sudică. Celelalte vârfuri (101 la 4 cm de 34, 45 la 21 cm de 44, 47 lângă 46) nu se pot alege separat; suprapunerea arată că toate cad pe limita desenată.",
+    "suprafata_declarata_m2": 2897.367,
+    "puncte": {
+      "19": [
+        589467.102,
+        397896.738
+      ],
+      "26": [
+        589412.125,
+        397898.727
+      ],
+      "34": [
+        589412.152,
+        397916.822
+      ],
+      "101": [
+        589412.111,
+        397916.822
+      ],
+      "47": [
+        589412.029,
+        397936.823
+      ],
+      "46": [
+        589411.43,
+        397936.82
+      ],
+      "45": [
+        589411.017,
+        397947.46
+      ],
+      "44": [
+        589411.23,
+        397947.46
+      ],
+      "43": [
+        589473.191,
+        397947.576
+      ],
+      "39": [
+        589471.779,
+        397937.115
+      ],
+      "33": [
+        589469.441,
+        397917.174
+      ]
+    },
+    "ordine": [
+      "19",
+      "26",
+      "34",
+      "101",
+      "47",
+      "46",
+      "45",
+      "44",
+      "43",
+      "39",
+      "33"
+    ],
+    "laturi_declarate_m": {
+      "19": 55.013,
+      "26": 18.095,
+      "34": 0.041,
+      "101": 20.001,
+      "47": 0.599,
+      "46": 10.648,
+      "45": 0.213,
+      "44": 61.961,
+      "43": 10.556,
+      "39": 20.078,
+      "33": 20.569
+    },
+    "nota": "Tabelul nu e în ordinea numerelor, dar e în ordinea conturului (19, 26, 34, 101, 47, 46, 45, 44, 43, 39, 33), copiată în `ordine`. Toate cele 11 laturi tipărite se verifică la milimetru. Perimetrul e tipărit doar parțial lizibil („P=2·7.77·”), compatibil cu suma laturilor tipărite, 217,774 m, așa că nu e trecut ca verificare. Hotărârea și bilanțul dau suprafața măsurată de 2896 mp; inventarul, 2897,367 mp (+0,05 %)."
+  },
+  "gcp_px": {
+    "43": [
+      765,
+      1929
+    ],
+    "19": [
+      856,
+      2741
+    ],
+    "26": [
+      1729,
+      2720
+    ],
+    "44": [
+      1748,
+      1937
+    ]
+  },
+  "verificare_px": {
+    "39": [
+      784,
+      2096
+    ],
+    "33": [
+      819,
+      2416
+    ],
+    "46": [
+      1744,
+      2108
+    ],
+    "34": [
+      1729,
+      2430
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1418,
+      698,
+      2062,
+      1205,
+      90
+    ],
+    [
+      1889,
+      2000,
+      2016,
+      2588,
+      90
+    ],
+    [
+      1765,
+      1205,
+      2010,
+      1726,
+      90
+    ],
+    [
+      2252,
+      2538,
+      2404,
+      3306,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de servicii publice și de interes public, constituită în clădiri dedicate, situată în zonă de activități economice cu caracter terțiar; funcțiunea predominantă: sănătate și cercetare; regim de construire deschis",
+      "pot_max": "50%",
+      "cut_max": "2,4",
+      "h_max": "25 m (cornișă 22 m); regim maxim (1-3S)+P+5+1R, ultimul nivel retras cel puțin 1,80 m față de planul fațadei"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-12-02",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Art. 1 cere clădiri „în retragere față de aliniament, în front continuu (deschis)”; R.L.U. (Anexa 1, art. 5) scrie „în front discontinuu (deschis)”, iar planșa desenează retrageri de cel puțin 4,5 m față de ambele limite laterale, adică o clădire izolată.",
+    "Pentru limitele laterale, Art. 1 (ca și R.L.U., art. 6) cere o retragere „mai mare sau cel mult egală cu 4,5 m”; planșa notează „retragere laterală, min. 4.5 m”."
+  ],
+  "conditii": [
+    "Se reglementează un teren de 2896 mp (suprafață măsurată), proprietate privată, format din imobilele cu nr. cad. 320300, 336201 și 322953; se păstrează parcelarul existent (R.L.U., art. 4).",
+    "Clădirile se retrag cel puțin 6 m de la aliniament, cel puțin 4,5 m de la limitele laterale și de la limita posterioară cel puțin jumătate din înălțimea lor, dar minimum 6 m.",
+    "Accesul auto se face din partea nordică, din breteaua de circulație care se desprinde din b-dul Muncii; pe breteaua carosabilă existentă, paralelă cu bulevardul, se face un trotuar de 1,5 m lățime (avizul Serviciului Siguranța Circulației nr. 855898/446/09.11.2022).",
+    "Parcarea se face în incintă, cu numărul de locuri după Anexa 2 a R.L.U. al P.U.G.; R.L.U. al P.U.Z. (art. 9) admite și parcări dedicate la cel mult 150 m, cu drept real de folosință.",
+    "Echipare tehnico-edilitară completă: racord la rețelele publice, apele pluviale nu se scurg spre domeniul public sau spre parcelele vecine, firidele de branșament și contorizare integrate în împrejmuiri, fără cabluri aeriene, spațiu pentru colectarea deșeurilor menajere în incintă, accesibil din spațiul public.",
+    "În spațiul verde amenajat din incintă se plantează cel puțin 30 de arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 20 % din parcelă (R.L.U., art. 13).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}
