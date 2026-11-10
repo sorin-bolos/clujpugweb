@@ -11061,6 +11061,131 @@
   ]
  },
  {
+  "id": "2022-841",
+  "localitate": "cluj",
+  "hcl": "841/2022",
+  "data": "2022-11-02",
+  "titlu": "P.U.Z. de urbanizare, parcelare și construire locuințe cu regim redus de înălțime, Dealul Fânațelor",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-841-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/11/09/HCL-841.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de urbanizare – locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) izolate, regim de construire deschis; 8 parcele și o alee de acces",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "două niveluri supraterane plus mansardă sau nivel retras ((S)+P+E, D+P+M, D+P+R); H cornișă/atic 8 m, H coamă 10 m"
+   }
+  ],
+  "suprafata_m2": 4000,
+  "imagine": "puz/2022-841/plansa.webp",
+  "bounds": {
+   "west": 23.5983856,
+   "south": 46.820548,
+   "east": 23.5996828,
+   "north": 46.8213798
+  },
+  "limita": [
+   [
+    23.5986217,
+    46.8213529
+   ],
+   [
+    23.5987269,
+    46.8213437
+   ],
+   [
+    23.5989104,
+    46.82124
+   ],
+   [
+    23.5991372,
+    46.8211075
+   ],
+   [
+    23.5993585,
+    46.8209811
+   ],
+   [
+    23.5994587,
+    46.8209219
+   ],
+   [
+    23.5995842,
+    46.8208532
+   ],
+   [
+    23.5996414,
+    46.8208212
+   ],
+   [
+    23.5991978,
+    46.8205754
+   ],
+   [
+    23.5991799,
+    46.8205845
+   ],
+   [
+    23.5989627,
+    46.8206949
+   ],
+   [
+    23.5987556,
+    46.8208003
+   ],
+   [
+    23.5985137,
+    46.8209206
+   ],
+   [
+    23.5984166,
+    46.8209655
+   ],
+   [
+    23.598438,
+    46.8211406
+   ],
+   [
+    23.5984618,
+    46.8211719
+   ],
+   [
+    23.5985107,
+    46.8212487
+   ],
+   [
+    23.5985661,
+    46.8213153
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.31
+  },
+  "legenda": "puz/2022-841/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-11-02"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea în Liu*: caseta de reglementări de pe planșă scrie „Înălțimea maximă nu va depăși 12 m”; Art. 1 (ca și avizul Arhitectului-șef nr. 121/2022) stabilește cel mult 8 m la cornișă sau atic și cel mult 10 m la coamă.",
+   "Retragerea față de aliniament: caseta de pe planșă scrie „minim 5 m”; Art. 1 cere 5 m cu alinierea clădirilor obligatorie, iar garajele retrase cu cel puțin 6 m.",
+   "Antetul legendei dă două parcele, nr. cad. 329536 și nr. cad. 329828, de câte 2.000 mp; Art. 1 aprobă P.U.Z. pentru parcela nr. cad. 346487, rezultată din alipirea imobilelor nr. cad. 261655 și 322545 (numerele scrise și pe desen)."
+  ],
+  "conditii": [
+   "Accesul se face dintr-o alee de interes local cu ampriză de 9 m, din strada Dealul Fânațelor, între numerele 24 și 26: aleea existentă (nr. cad. 292558) se prelungește până la cele 8 parcele, cu un loc de întoarcere la capăt.",
+   "Înainte de autorizațiile de construire pe parcele: aleea de 9 m se echipează edilitar, iar partea carosabilă (7 m) se aduce la strat de uzură. Până la recepția construcțiilor: se fac trotuarele și se montează mobilier urban (coșuri de gunoi), hidranți și stâlpi de iluminat public.",
+   "Pe fiecare parcelă cel mult un acces pietonal și un acces auto, cel auto de cel mult 5 m lățime.",
+   "Retrageri: 5 m față de aliniament, cu alinierea clădirilor obligatorie, garajele la cel puțin 6 m, ca să se poată parca în fața lor; cel puțin 3 m față de limitele laterale (garajele, și cele din corpul clădirii, pot fi lipite de limitele laterale dacă calcanul nu trece de 2,8 m); cel puțin 6 m față de limita posterioară.",
+   "Parcarea se face numai în interiorul parcelelor: minim un loc pentru clădiri cu aria utilă sub 100 mp și minim două peste 100 mp.",
+   "Toate clădirile se racordează la rețelele edilitare publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament se integrează în împrejmuire; cablurile aeriene sunt interzise; fiecare parcelă are o platformă pentru deșeuri menajere, accesibilă din spațiul public.",
+   "Construcțiile nu vor contrasta cu aspectul general al zonei și vor ține cont de ansamblul de locuințe vecin, construit pe baza P.U.Z. aprobat cu HCL 116/2009.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2022-621",
   "localitate": "cluj",
   "hcl": "621/2022",
