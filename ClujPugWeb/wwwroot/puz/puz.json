@@ -7799,6 +7799,98 @@
   ]
  },
  {
+  "id": "2021-690",
+  "localitate": "cluj",
+  "hcl": "690/2021",
+  "data": "2021-11-01",
+  "titlu": "P.U.Z. de urbanizare, str. Adjudului",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-690-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/2021/11/15/HCL-690-din-1.11.2021.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime pe parcelar de tip urban: locuințe individuale cu anexe; semicolective (cel mult două unități locative) pe parcele de peste 600 mp, sau două locuințe izolate pe parcele de cel puțin 1.000 mp; regim izolat sau cuplat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la coamă sau la aticul nivelului retras, 8 m la cornișă; trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzona spațiilor verzi publice aferente arterelor de circulație (fâșiile plantate ale str. Adjudului): plantații, mobilier urban; parcarea interzisă",
+    "pot_max": "nu e cazul",
+    "cut_max": "nu e cazul",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 25102,
+  "imagine": "puz/2021-690/plansa.webp",
+  "bounds": {
+   "west": 23.5952877,
+   "south": 46.8009141,
+   "east": 23.5986825,
+   "north": 46.8029981
+  },
+  "limita": [
+   [
+    23.5979343,
+    46.8029686
+   ],
+   [
+    23.5980115,
+    46.8028628
+   ],
+   [
+    23.5978248,
+    46.8027777
+   ],
+   [
+    23.5986331,
+    46.8017373
+   ],
+   [
+    23.5956594,
+    46.8009358
+   ],
+   [
+    23.5953483,
+    46.8015097
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 1.49,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2021-690/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2026-11-01"
+  },
+  "diferente_fata_de_plansa": [
+   "Tabelul parcelelor de pe planșă trece parcela drumului (nr. cad. 267949, 3.064 mp) la „UTR Tr și S_Va”; hotărârea reglementează doar U.T.R. Liu* și S_Va* (U.T.R. Tr apare numai în R.L.U., Anexa 2)."
+  ],
+  "conditii": [
+   "Strada Adjudului se lărgește la ampriza de 15 m: două benzi, două trotuare de 1,5 m, două fâșii plantate de 2,25 m și o bandă de staționare pentru vizitatori; strada are acces public nelimitat.",
+   "Înainte de autorizațiile de construire pe parcele, strada Adjudului se echipează edilitar și i se face partea carosabilă la strat de uzură (inclusiv banda de staționare); trotuarele și fâșiile verzi plantate se fac până la recepția construcțiilor, pe baza unui proiect de specialitate.",
+   "Terenul necesar regularizării străzii Odobești se dezmembrează din parcela inițială și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele.",
+   "Autorizațiile de construire pentru investiții, altele decât infrastructura tehnico-edilitară, se emit numai după asfaltarea străzii Odobești până la amplasamentul P.U.Z.",
+   "Accesul pe parcele se face din strada Adjudului, de regulă cu un singur acces pietonal și unul carosabil pe parcelă; parcarea se face în interiorul parcelei, după Anexa 2 a Regulamentului P.U.G.; pe spațiile verzi S_Va* parcarea e interzisă.",
+   "Retrageri în Liu*: min. 5 m de la aliniament (garajele min. 6 m, pentru un loc de parcare în față); față de limitele laterale H/2 la cornișă, min. 3 m (garajele se pot alipi, cu calcan de cel mult 2,8 m); față de limita posterioară H, min. 6 m; între clădirile de pe aceeași parcelă H clădirii mai înalte, min. 6 m.",
+   "Construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale: apă, canalizare, electricitate (modificat prin HCL 31/2026: inițial și gaz).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "31/2026",
+    "data": "2026-01-20",
+    "rezumat": "Modifică prevederea R.L.U. pentru U.T.R. Liu* privind echiparea tehnico-edilitară: construcțiile se racordează la rețelele de apă, canalizare și electricitate, fără obligația racordării la gaz. Celelalte prevederi rămân neschimbate; nu are planșă și nici valabilitate proprie.",
+    "plansa_noua": false
+   }
+  ]
+ },
+ {
   "id": "2021-24",
   "localitate": "cluj",
   "hcl": "24/2021",

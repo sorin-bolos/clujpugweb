@@ -1,0 +1,184 @@
+{
+  "id": "2021-690",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 690,
+    "an": 2021,
+    "data_sedinta": "2021-11-01",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-690-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/11/15/HCL-690-din-1.11.2021.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Adjudului",
+  "plansa": {
+    "pagina_pdf": 20,
+    "dpi": 200,
+    "denumire": "U.02/1 Reglementări urbanistice - zonificare",
+    "scara": "1:1000",
+    "nota": "Anexa 1, p. 20: planșa color A3 (200 ppi, 3307×2339 px după rotire), cu viza Comisiei tehnice „HCL nr. 690 din 1.11.2021” și avizul Arhitectului șef nr. 327/23.11.2020. P. 4 e aceeași planșă, alb-negru, micșorată pe A4 și culcată, ștampilată „Anexa 1 la Hotărârea nr. 690/2021”; s-a folosit p. 20, mai clară. Planșa e desenată fără fond topografic: doar parcelele (existente și propuse), strada Adjudului cu fâșiile verzi, benzile străzilor Odobești și Reghin și o singură casă existentă (pe P8, „Locuință P+M”, „realizată conform P.U.Z. anterior aprobat” – după titlu, probabil P.U.Z. str. Adjudului aprobat prin HCL 334/2013). Nu are inventar de coordonate și nici cruci de caroiaj Stereo 70 (doar mențiunea „Sistem de proiecție STEREO 1970”). Nordul e spre stânga-sus (≈296° de la verticală). Scara reală a scanării: 7,6 px/m (planșa 1:1000 tipărită la ~97%), din cotele laturilor: 131,26 m sus, 68,21 m jos, 254,48 m și 243,07 m pe laturile lungi. Legenda grafică are doar cheia simbolurilor (Liu, S_Va, limite, construcții existente); planșa nu are tabel de indicatori, iar tabelul parcelelor, cu proprietarii, nu e publicat."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm): planșa nu are coordonate. Control: X_Odobesti (intersecția str. Adjudului / str. Odobești: axa fâșiei de acces de 13 m cu mijlocul benzii str. Odobești), X_Reghin (intersecția str. Adjudului / str. Reghin: axa drumului de 15 m pe limita P.U.Z. dinspre str. Reghin; în OSM și pe ortofoto nodul e la capătul străzii asfaltate, pe marginea drumului Reghin, iar OSM Reghin trece pe marginea dinspre P.U.Z. a benzii desenate, nu pe mijlocul ei), Casa_N, Casa_S (colțurile de nord și de sud ale casei existente de pe P8); verificare: Casa_E, Casa_V (celelalte două colțuri ale casei). Casa din OSM (11,5 × 17,8 m) e mai mare decât cea desenată (≈9 × 15 m): colțul de nord se potrivește la 0,6 m, celelalte la 2-4 m. Ancora de pornire: intersecția Adjudului–Reghin din OSM, la (1045, 2145), 7,46 px/m, nord 296°. Potrivirea dă 7,6 px/m, cât dau și cotele planșei; cu nodul Reghin pus pe mijlocul benzii străzii ar fi dat 7,74 px/m și o arie cu 3,2% mai mică. Axa str. Adjudului din OSM urmează drumul desenat pe planșă, inclusiv cele două curbe, la 1-3 m. Limita e trasată (`limita_px`) pe conturul exterior al parcelelor (linia roșie), cu fâșia de 13 m spre str. Odobești; laturile lungi sunt drepte pe planșă. Aria: 25.000 mp, suma suprafețelor celor 33 de parcele din tabelul planșei (inclusiv drumul, nr. cad. 267949, 3.064 mp); avizul Arhitectului șef dă „2,5 ha”.",
+    "suprafata_declarata_m2": 25000.0,
+    "puncte": {},
+    "nota": "Poziționare aproximativă (±3-5 m): planșa nu are coordonate, iar pe ea există doar două intersecții și o casă care se regăsesc în OSM. Ar fi exactă cu coordonatele cadastrale ale parcelelor (numerele cadastrale sunt în hotărâre)."
+  },
+  "gcp_px": {
+    "X_Reghin": [
+      1042,
+      2102
+    ],
+    "X_Odobesti": [
+      385,
+      150
+    ],
+    "Casa_N": [
+      882,
+      675
+    ],
+    "Casa_S": [
+      970,
+      781
+    ]
+  },
+  "verificare_px": {
+    "Casa_E": [
+      951,
+      682
+    ],
+    "Casa_V": [
+      897,
+      789
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2500,
+      1268,
+      3250,
+      1503
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime pe parcelar de tip urban: locuințe individuale cu anexe; semicolective (cel mult două unități locative) pe parcele de peste 600 mp, sau două locuințe izolate pe parcele de cel puțin 1.000 mp; regim izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la coamă sau la aticul nivelului retras, 8 m la cornișă; trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzona spațiilor verzi publice aferente arterelor de circulație (fâșiile plantate ale str. Adjudului): plantații, mobilier urban; parcarea interzisă",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-11-01",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08); HCL 31/2026 nu schimbă valabilitatea (Art. 2: celelalte prevederi rămân neschimbate)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "31/2026",
+      "data": "2026-01-20",
+      "rezumat": "Modifică prevederea R.L.U. pentru U.T.R. Liu* privind echiparea tehnico-edilitară: construcțiile se racordează la rețelele de apă, canalizare și electricitate, fără obligația racordării la gaz. Celelalte prevederi rămân neschimbate; nu are planșă și nici valabilitate proprie.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [
+    "Tabelul parcelelor de pe planșă trece parcela drumului (nr. cad. 267949, 3.064 mp) la „UTR Tr și S_Va”; hotărârea reglementează doar U.T.R. Liu* și S_Va* (U.T.R. Tr apare numai în R.L.U., Anexa 2)."
+  ],
+  "conditii": [
+    "Strada Adjudului se lărgește la ampriza de 15 m: două benzi, două trotuare de 1,5 m, două fâșii plantate de 2,25 m și o bandă de staționare pentru vizitatori; strada are acces public nelimitat.",
+    "Înainte de autorizațiile de construire pe parcele, strada Adjudului se echipează edilitar și i se face partea carosabilă la strat de uzură (inclusiv banda de staționare); trotuarele și fâșiile verzi plantate se fac până la recepția construcțiilor, pe baza unui proiect de specialitate.",
+    "Terenul necesar regularizării străzii Odobești se dezmembrează din parcela inițială și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele.",
+    "Autorizațiile de construire pentru investiții, altele decât infrastructura tehnico-edilitară, se emit numai după asfaltarea străzii Odobești până la amplasamentul P.U.Z.",
+    "Accesul pe parcele se face din strada Adjudului, de regulă cu un singur acces pietonal și unul carosabil pe parcelă; parcarea se face în interiorul parcelei, după Anexa 2 a Regulamentului P.U.G.; pe spațiile verzi S_Va* parcarea e interzisă.",
+    "Retrageri în Liu*: min. 5 m de la aliniament (garajele min. 6 m, pentru un loc de parcare în față); față de limitele laterale H/2 la cornișă, min. 3 m (garajele se pot alipi, cu calcan de cel mult 2,8 m); față de limita posterioară H, min. 6 m; între clădirile de pe aceeași parcelă H clădirii mai înalte, min. 6 m.",
+    "Construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale: apă, canalizare, electricitate (modificat prin HCL 31/2026: inițial și gaz).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      1045,
+      2145
+    ],
+    "en": [
+      392929.4,
+      590027.2
+    ],
+    "px_per_m": 7.46,
+    "nord": 296
+  },
+  "repere": {
+    "X_Reghin": [
+      590027.2,
+      392929.42
+    ],
+    "X_Odobesti": [
+      590214.72,
+      393124.74
+    ],
+    "Casa_N": [
+      590125.51,
+      393090.33
+    ],
+    "Casa_S": [
+      590106.21,
+      393081.67
+    ],
+    "Casa_E": [
+      590115.83,
+      393096.65
+    ],
+    "Casa_V": [
+      590115.77,
+      393075.43
+    ]
+  },
+  "repere_osm": {
+    "X_Reghin": "intersecție Strada Adjudului / Strada Reghin (x423218064_725704656)",
+    "X_Odobesti": "intersecție Strada Adjudului / Strada Odobești (x423218064_701456479)",
+    "Casa_N": "colț de clădire (b1417318524_3)",
+    "Casa_S": "colț de clădire (b1417318524_1)",
+    "Casa_E": "colț de clădire (b1417318524_2)",
+    "Casa_V": "colț de clădire (b1417318524_0)"
+  },
+  "limita_px": [
+    [
+      345,
+      188
+    ],
+    [
+      445,
+      187
+    ],
+    [
+      462,
+      316
+    ],
+    [
+      1458,
+      281
+    ],
+    [
+      1308,
+      2129
+    ],
+    [
+      793,
+      2078
+    ]
+  ],
+  "hotarare_text": "documente/2021-690/hotarare.txt"
+}

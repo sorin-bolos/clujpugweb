@@ -1,0 +1,49 @@
+{
+  "id": "2026-31",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 31,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-31-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/31.pdf"
+  },
+  "titlu": "Modificarea P.U.Z. de urbanizare, strada Adjudului, aprobat prin Hotărârea nr. 690 din 1.11.2021",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul hotărârii (31.pdf) are o singură pagină A4 scanată la 300 ppi: textul hotărârii, fără anexe și fără planșă; pagina hotărârii nu leagă alt PDF. Hotărârea modifică doar o prevedere din R.L.U. al P.U.Z. aprobat prin HCL 690/2021 (echiparea tehnico-edilitară în U.T.R. Liu*), în baza art. 56 din Legea 350/2001 și a avizului Arhitectului șef nr. 176/12.11.2025. Integrată pe 2026-11-10 în rețeta P.U.Z. de bază, 2021-690 (modificat_de, condiții), publicată în același commit; pe hartă modificarea apare în fișa P.U.Z. 690/2021."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [
+    "690/2021"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Art. 1: în R.L.U. pentru U.T.R. Liu*, echiparea tehnico-edilitară devine: toate construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale (apă, canalizare, electrică) – fără racordarea la gaz, cerută de HCL 690/2021.",
+    "Art. 2: celelalte prevederi și reglementări urbanistice stabilite prin HCL 690/2021 rămân neschimbate."
+  ],
+  "valabilitate": {
+    "nota": "Hotărârea nu are valabilitate proprie: Art. 2 spune că celelalte prevederi ale HCL 690/2021 rămân neschimbate (valabilitate 5 ani, până la 1.11.2026)."
+  },
+  "hotarare_text": "documente/2026-31/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2021-690"
+}
