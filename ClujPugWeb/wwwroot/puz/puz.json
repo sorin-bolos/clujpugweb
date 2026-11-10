@@ -6408,6 +6408,129 @@
   ]
  },
  {
+  "id": "2025-670",
+  "localitate": "cluj",
+  "hcl": "670/2025",
+  "data": "2025-11-20",
+  "titlu": "P.U.Z. – construire imobil locuințe colective cu regim redus de înălțime, Calea Turzii nr. 111C",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-670-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/02/17/HCL-670.pdf",
+  "utr": [
+   {
+    "cod": "M3*",
+    "denumire": "Zonă mixtă cu regim de construire deschis (pe planșă „U.T.R. M3* – zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic”; în regulament „zona imobil de locuințe colective cu regim redus de înălțime”), 750,50 mp după bilanțul planșei: locuire colectivă cu cel mult 3 apartamente, pentru o parcelă fără front la artera principală, situată în interiorul zonei mixte de tip subcentral.",
+    "pot_max": "40%",
+    "cut_max": "2,0 ADC/mp",
+    "h_max": "3 niveluri supraterane, P+E+R, plus un subsol sau demisol (garaje, funcțiuni conexe, nu locuire); H max. 10 m"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (49,50 mp după bilanțul planșei, vârful de est al parcelei, lângă pârâu); rămân reglementările P.U.G.",
+    "pot_max": "1% (P.U.G., după regulament și avizul Arhitectului-șef)",
+    "cut_max": "0,01 (P.U.G., după regulament și avizul Arhitectului-șef)",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 800,
+  "imagine": "puz/2025-670/plansa.webp",
+  "bounds": {
+   "west": 23.5986076,
+   "south": 46.7565091,
+   "east": 23.5993093,
+   "north": 46.7568718
+  },
+  "limita": [
+   [
+    23.5986387,
+    46.7566993
+   ],
+   [
+    23.5986459,
+    46.7566957
+   ],
+   [
+    23.5986981,
+    46.756669
+   ],
+   [
+    23.5987783,
+    46.7566315
+   ],
+   [
+    23.5988061,
+    46.7566197
+   ],
+   [
+    23.5988621,
+    46.7566003
+   ],
+   [
+    23.5989481,
+    46.7565716
+   ],
+   [
+    23.5990716,
+    46.7565529
+   ],
+   [
+    23.5991977,
+    46.7565364
+   ],
+   [
+    23.5992362,
+    46.756532
+   ],
+   [
+    23.5992652,
+    46.756578
+   ],
+   [
+    23.5992817,
+    46.7565999
+   ],
+   [
+    23.599157,
+    46.7566667
+   ],
+   [
+    23.598999,
+    46.7567424
+   ],
+   [
+    23.5987811,
+    46.7568465
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.02
+  },
+  "legenda": "puz/2025-670/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2032-11-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: planșa dă doar „Regim de înălțime: S/D+P+E+ER”; hotărârea (Art. 1) admite 3 niveluri supraterane, P+E+R, plus un subsol sau demisol destinat garajelor și/sau altor funcțiuni conexe, nu locuirii, și fixează H max. = 10 m, cifră care pe planșă lipsește.",
+   "Retrageri: planșa desenează retragerea de minimum 5,00 m față de limitele de proprietate; hotărârea cere minimum 5 m față de toate limitele, cu respectarea H/2.",
+   "Funcțiunea: planșa păstrează pentru M3* denumirea din P.U.G., „adiacentă principalelor artere de trafic”, și dă AC maximă pentru nivelurile de locuire de 40% din teren; hotărârea limitează funcțiunea la locuire colectivă cu cel mult 3 apartamente, pentru o parcelă fără front la artera principală.",
+   "Zona Ve: planșa n-o însoțește de indicatori; hotărârea menține pentru ea reglementările P.U.G. (regulamentul și avizul dau POT 1%, CUT 0,01).",
+   "Numele planșei: în cartuș planșa e U.PUZ.02.1 „Plan – Reglementări urbanistice”; hotărârea o anexează ca „Planșa U.03 – Plan Reglementări Urbanistice” (Anexa 2)."
+  ],
+  "conditii": [
+   "Locuire colectivă cu cel mult 3 apartamente; POT max. 40%, CUT max. 2,0; cel mult P+E+R, plus un subsol sau demisol fără locuințe; înălțimea maximă 10 m.",
+   "Retragere de minimum 5 m față de toate limitele de proprietate, cu respectarea H/2.",
+   "Accesul auto din Calea Turzii, prin servitutea de trecere auto și pietonală peste parcela de la vest (nr. cad. 352086); spre această parcelă nu se face împrejmuire (regulament).",
+   "Parcarea în interiorul parcelei, cu necesarul după Anexa 2 a R.L.U. aferent P.U.G.",
+   "Toate clădirile se racordează la rețelele edilitare publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; cablurile nu se montează aerian.",
+   "Punctul gospodăresc pentru colectarea selectivă a deșeurilor pe 5 fracții se amenajează pe parcela în înțeles urban de pe Calea Turzii nr. 111C, în fața clădirii existente, cu acces direct din Calea Turzii, dimensionat atât pentru imobilul existent, cât și pentru cel propus (regulamentul îl pune pe parcela nr. cad. 352086).",
+   "Pentru suprafața din U.T.R. Ve rămân reglementările P.U.G.",
+   "Regulamentul (Anexa 1): spații verzi pe sol natural pe minimum 30% din parcelă și cel puțin doi arbori maturi; acoperiș plat (terasă sau pante sub 10%); împrejmuirile spre vecini de cel mult 2,20 m; POT și CUT se calculează ținând cont și de construcția existentă la vest, pe parcela în înțeles urban.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

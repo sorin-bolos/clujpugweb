@@ -1,0 +1,204 @@
+{
+  "id": "2025-670",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 670,
+    "an": 2025,
+    "data_sedinta": "2025-11-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-670-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/02/17/HCL-670.pdf"
+  },
+  "titlu": "P.U.Z. – construire imobil locuințe colective cu regim redus de înălțime, Calea Turzii nr. 111C",
+  "plansa": {
+    "pagina_pdf": 13,
+    "dpi": 200,
+    "denumire": "U.PUZ.02.1 Plan – Reglementări urbanistice",
+    "scara": "1:200",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 6 (Anexa 2 la hotărâre, micșorată pe A4, rotită, alb-negru, ștampilată) și p. 13 (format mare, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 81 din 28.05.2025, și mențiunea de mână „HCL nr. 670 din 20 noiembrie 2025”); s-a folosit p. 13, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-5 regulamentul local de urbanism (Anexa 1), pp. 7-9 avizul de oportunitate nr. 184 din 5.08.2024 (cu extrasul din P.U.G. la p. 9), pp. 10-12 avizul Arhitectului-șef nr. 81 din 28.05.2025, pp. 14-15 raportul informării și consultării publicului. Cartușul: planșa U.PUZ.02.1 „Plan – Reglementări urbanistice”, faza P.U.Z., scara 1:200, data 04.2025, proiect nr. 4/2023; hotărârea o numește „Planșa U.03 – Plan Reglementări Urbanistice”. Scara imaginii: 38,8 px/m (1:200 la 200 ppi ar da 39,4; planșa e tipărită cu ~1,5% micșorată), nordul în sus (rotație 0,02° față de Stereo 70). Legenda e o singură casetă în dreapta sus: indicii (UTR M3* și parțial Ve, suprafața reglementată), limitele, zonificarea, circulațiile, retragerea minimă de 5 m, obiectivele propuse, POT/CUT, regimul de înălțime și suprafața construibilă; au rămas afară bilanțurile teritoriale (zona studiată și zona reglementată), calculul locurilor de parcare, inventarul de coordonate, săgeata nordului, ștampilele și cartușul. Parcela e departe de tabele, deci `exclude_px` e gol. Pe planșă, liniile negre subțiri cu puncte negre la capete, paralele cu limita la ~1 m în afara ei, sunt liniile de cotă ale laturilor (0,68 … 20,27 m), nu limita; limita e linia punctată roșie."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Parcela(S3)”, coloanele Y [m] (Est, 393…) și X [m] (Nord, 585…), 15 puncte (54, 43, 42 … 31, 53) în ordinea conturului, cu lungimile laturilor D(i,i+1), „S(S3)=800.08mp” și „P=125.114m” (tabelul din mijlocul planșei, x≈3700-4110, y≈850-1190). Zona de reglementare e parcela nr. cad. 352087 (limita punctată roșie pe planșă). Control: colțurile 53 (nord), 54 (vest), 35 (sud) și 33 (est), fiecare la intersecția a două drepte potrivite pe centrele punctelor roșii ale limitei. Verificare: frângerile 38 (unghi de ~14° între laturi) și 40 (~5°), citite la fel. Celelalte puncte stau pe laturi aproape drepte (frângeri sub 4°) sau, ca 43, la 0,68 m de un colț folosit, și n-au fost folosite. Planșa nu are caroiaj Stereo 70.",
+    "suprafata_declarata_m2": 800.08,
+    "puncte": {
+      "54": [
+        585073.063,
+        393080.82
+      ],
+      "43": [
+        585072.658,
+        393081.363
+      ],
+      "42": [
+        585069.612,
+        393085.294
+      ],
+      "41": [
+        585065.338,
+        393091.347
+      ],
+      "40": [
+        585063.996,
+        393093.449
+      ],
+      "39": [
+        585061.763,
+        393097.689
+      ],
+      "38": [
+        585058.453,
+        393104.195
+      ],
+      "37": [
+        585056.214,
+        393113.591
+      ],
+      "36": [
+        585054.2,
+        393123.194
+      ],
+      "35": [
+        585053.668,
+        393126.127
+      ],
+      "34": [
+        585058.731,
+        393128.427
+      ],
+      "33": [
+        585061.15,
+        393129.73
+      ],
+      "32": [
+        585068.74,
+        393120.34
+      ],
+      "31": [
+        585077.37,
+        393108.42
+      ],
+      "53": [
+        585089.232,
+        393091.987
+      ]
+    },
+    "laturi_declarate_m": {
+      "54": 0.677,
+      "43": 4.973,
+      "42": 7.41,
+      "41": 2.494,
+      "40": 4.792,
+      "39": 7.3,
+      "38": 9.659,
+      "37": 9.812,
+      "36": 2.981,
+      "35": 5.561,
+      "34": 2.748,
+      "33": 12.074,
+      "32": 14.716,
+      "31": 20.267,
+      "53": 19.65
+    },
+    "perimetru_declarat_m": 125.114,
+    "ordine": [
+      "54",
+      "43",
+      "42",
+      "41",
+      "40",
+      "39",
+      "38",
+      "37",
+      "36",
+      "35",
+      "34",
+      "33",
+      "32",
+      "31",
+      "53"
+    ],
+    "nota": "Aria coordonatelor, 800,08 mp, se potrivește cu 800,08 mp din inventar (800,00 mp în bilanțul teritorial și în textul planșei); toate cele 15 laturi și perimetrul (125,114 m) ies la milimetru. Pe planșă coloana Y (Est) e prima și X (Nord) a doua; în rețetă sunt trecute [Nord, Est]."
+  },
+  "gcp_px": {
+    "53": [
+      3204,
+      1464
+    ],
+    "54": [
+      2773,
+      2090
+    ],
+    "35": [
+      4530,
+      2842
+    ],
+    "33": [
+      4671,
+      2552
+    ]
+  },
+  "verificare_px": {
+    "38": [
+      3677,
+      2658
+    ],
+    "40": [
+      3265,
+      2445
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      4255,
+      100,
+      4848,
+      1222
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M3*",
+      "denumire": "Zonă mixtă cu regim de construire deschis (pe planșă „U.T.R. M3* – zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic”; în regulament „zona imobil de locuințe colective cu regim redus de înălțime”), 750,50 mp după bilanțul planșei: locuire colectivă cu cel mult 3 apartamente, pentru o parcelă fără front la artera principală, situată în interiorul zonei mixte de tip subcentral.",
+      "pot_max": "40%",
+      "cut_max": "2,0 ADC/mp",
+      "h_max": "3 niveluri supraterane, P+E+R, plus un subsol sau demisol (garaje, funcțiuni conexe, nu locuire); H max. 10 m"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (49,50 mp după bilanțul planșei, vârful de est al parcelei, lângă pârâu); rămân reglementările P.U.G.",
+      "pot_max": "1% (P.U.G., după regulament și avizul Arhitectului-șef)",
+      "cut_max": "0,01 (P.U.G., după regulament și avizul Arhitectului-șef)",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-11-20",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: planșa dă doar „Regim de înălțime: S/D+P+E+ER”; hotărârea (Art. 1) admite 3 niveluri supraterane, P+E+R, plus un subsol sau demisol destinat garajelor și/sau altor funcțiuni conexe, nu locuirii, și fixează H max. = 10 m, cifră care pe planșă lipsește.",
+    "Retrageri: planșa desenează retragerea de minimum 5,00 m față de limitele de proprietate; hotărârea cere minimum 5 m față de toate limitele, cu respectarea H/2.",
+    "Funcțiunea: planșa păstrează pentru M3* denumirea din P.U.G., „adiacentă principalelor artere de trafic”, și dă AC maximă pentru nivelurile de locuire de 40% din teren; hotărârea limitează funcțiunea la locuire colectivă cu cel mult 3 apartamente, pentru o parcelă fără front la artera principală.",
+    "Zona Ve: planșa n-o însoțește de indicatori; hotărârea menține pentru ea reglementările P.U.G. (regulamentul și avizul dau POT 1%, CUT 0,01).",
+    "Numele planșei: în cartuș planșa e U.PUZ.02.1 „Plan – Reglementări urbanistice”; hotărârea o anexează ca „Planșa U.03 – Plan Reglementări Urbanistice” (Anexa 2)."
+  ],
+  "conditii": [
+    "Locuire colectivă cu cel mult 3 apartamente; POT max. 40%, CUT max. 2,0; cel mult P+E+R, plus un subsol sau demisol fără locuințe; înălțimea maximă 10 m.",
+    "Retragere de minimum 5 m față de toate limitele de proprietate, cu respectarea H/2.",
+    "Accesul auto din Calea Turzii, prin servitutea de trecere auto și pietonală peste parcela de la vest (nr. cad. 352086); spre această parcelă nu se face împrejmuire (regulament).",
+    "Parcarea în interiorul parcelei, cu necesarul după Anexa 2 a R.L.U. aferent P.U.G.",
+    "Toate clădirile se racordează la rețelele edilitare publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; cablurile nu se montează aerian.",
+    "Punctul gospodăresc pentru colectarea selectivă a deșeurilor pe 5 fracții se amenajează pe parcela în înțeles urban de pe Calea Turzii nr. 111C, în fața clădirii existente, cu acces direct din Calea Turzii, dimensionat atât pentru imobilul existent, cât și pentru cel propus (regulamentul îl pune pe parcela nr. cad. 352086).",
+    "Pentru suprafața din U.T.R. Ve rămân reglementările P.U.G.",
+    "Regulamentul (Anexa 1): spații verzi pe sol natural pe minimum 30% din parcelă și cel puțin doi arbori maturi; acoperiș plat (terasă sau pante sub 10%); împrejmuirile spre vecini de cel mult 2,20 m; POT și CUT se calculează ținând cont și de construcția existentă la vest, pe parcela în înțeles urban.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}
