@@ -1115,10 +1115,7 @@ def cmd_legend(r, args):
     rewrites its legenda.webp and its puz.json entry; otherwise (or with --dry-run)
     writes to the cache for a look."""
     legend = legend_image(r)
-    index = []
-    if os.path.exists(INDEX):
-        with open(INDEX, encoding="utf-8") as f:
-            index = json.load(f)
+    index = load_index()
     entry = next((e for e in index if e["id"] == r["id"]), None)
     if args.dry_run or entry is None:
         if legend is None:
@@ -1139,9 +1136,7 @@ def cmd_legend(r, args):
         legend.save(target, quality=80, method=6)
         entry["legenda"] = "puz/%s/legenda.webp" % r["id"]
         print("%s (%dx%d, %d kB)" % (target, legend.width, legend.height, os.path.getsize(target) // 1024))
-    with open(INDEX, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, indent=1)
-        f.write("\n")
+    save_index(index)
 
 
 def imagery_check(r, overlay, merc, boundary, zoom=18, pad=30.0):
@@ -1227,15 +1222,9 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
     for key in ("diferente_fata_de_plansa", "conditii", "modifica", "modificat_de"):
         if r.get(key):
             entry[key] = r[key]
-    index = []
-    if os.path.exists(INDEX):
-        with open(INDEX, encoding="utf-8") as f:
-            index = json.load(f)
-    index = [e for e in index if e["id"] != r["id"]] + [entry]
+    index = [e for e in load_index() if e["id"] != r["id"]] + [entry]
     index.sort(key=lambda e: (e.get("data") or "", e["id"]), reverse=True)
-    with open(INDEX, "w", encoding="utf-8") as f:
-        json.dump(index, f, ensure_ascii=False, indent=1)
-        f.write("\n")
+    save_index(index)
     print("published:", d, "| index entries:", len(index))
 
 
@@ -1293,6 +1282,15 @@ def load_index():
         return []
     with open(INDEX, encoding="utf-8") as f:
         return json.load(f)
+
+
+def save_index(index):
+    """Writes puz.json with CRLF line ends, the ones it has had in git since the laptop
+    first wrote it: left to the system, a build on Linux writes LF and the diff covers
+    the whole file."""
+    with open(INDEX, "w", encoding="utf-8", newline="\r\n") as f:
+        json.dump(index, f, ensure_ascii=False, indent=1)
+        f.write("\n")
 
 
 def recipe_paths(folder):
