@@ -1,8 +1,6 @@
 {
   "id": "2026-197",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Inventarul de coordonate e ilizibil (planșa 1:1000 redusă pe A4 și scanată la 200 ppi), iar planșa nu are caroiaj Stereo 70; metoda cu repere OpenStreetMap n-a putut rula: din sesiunea cloud, Overpass (overpass-api.de) a închis fiecare conexiune (27 de încercări, 2026-11-10, 08:05-09:25 UTC), iar api.openstreetmap.org e refuzat de proxy; Nominatim a mers, dar dă doar străzi, nu clădiri. De reluat cu metoda OSM când Overpass răspunde: limita, ancora, scara și reperele sunt pregătite în rețetă.",
   "hcl": {
     "nr": 197,
     "an": 2026,
@@ -16,34 +14,36 @@
     "dpi": 200,
     "denumire": "U03 Reglementări urbanistice",
     "scara": "1:1000",
-    "nota": "PDF-ul are 6 pagini A4, scanate la 200 ppi: pp. 1-2 hotărârea, pp. 3-5 Anexa 1 (regulamentul local de urbanism), p. 6 Anexa 2, singura planșă: U03 „Reglementări urbanistice” (proiect 05/2024, 08/2024), 1:1000 redusă pe A4, cu o secțiune longitudinală S1-S1 deasupra. Scara reală a imaginii: ~5,34-5,4 px/m (carosabilul străzii noi, 6,00 m, are ~32,5 px între liniile de margine; aria trasată se potrivește cu 21574 mp la 5,34 px/m), adică planșa e tipărită la ~68% din 1:1000; săgeata nordului e în sus. Legenda cuprinde cheia simbolurilor și blocul „Indicatori urbanistici” (POT/CUT pentru UTR Liu*Rarău și S_Va); bilanțul teritorial, tabelele „Parcele propuse” și „Parcări”, inventarul de coordonate și cartușul au rămas afară."
+    "nota": "PDF-ul are 6 pagini A4, scanate la 200 ppi: pp. 1-2 hotărârea, pp. 3-5 Anexa 1 (regulamentul local de urbanism), p. 6 Anexa 2, singura planșă: U03 „Reglementări urbanistice” (proiect 05/2024, 08/2024), 1:1000 redusă pe A4, cu o secțiune longitudinală S1-S1 deasupra. Scara reală a imaginii: ~5,28-5,34 px/m (potrivirea pe clădirile OSM dă 5,28; carosabilul străzii noi, 6,00 m, are ~32,5 px între liniile de margine), adică planșa e tipărită la ~67% din 1:1000; săgeata nordului e în sus. Legenda cuprinde cheia simbolurilor și blocul „Indicatori urbanistici” (POT/CUT pentru UTR Liu*Rarău și S_Va); bilanțul teritorial, tabelele „Parcele propuse” și „Parcări”, inventarul de coordonate și cartușul au rămas afară."
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "Inventarul de coordonate al planșei (tabelul din dreapta desenului, x 1040-1195, y 1460-1720 pe planșă, coloanele Nr. pct / X / Y / lungimi) e ilizibil: planșa 1:1000 e redusă pe A4 și scanată la 200 ppi, cifrele au ~5 px înălțime și sunt încețoșate de JPEG; nici primele cifre nu se pot citi. Planșa nu are caroiaj Stereo 70 (nicio cruce în zonele albe ale desenului). Rămâne metoda cu repere OpenStreetMap (georef_metoda osm) și limita trasată pe planșă (`limita_px`).",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, a doua încercare, 2026-11-10, din extrasul OSM din 2026-11-08): colțuri de clădiri existente desenate pe fondul topografic al planșei și prezente în OSM, toate în afara zonei, care e teren liber. Control: L46_SE (casa nr. 46 de peste str. Vânătorului, la NV), L50_SE (casa nr. 50, la N), L110_NV și L110_NE (casa P+1+M nr. 110, la sud), L4A_NE (casa nr. 4A de la sud de strada A), LSVa_SE (casa P+M de la sud de parcela verde S_Va); verificare: L48_SV (casa nr. 48), L4_SE (casa în L nr. 4), LTr_NV (casa în trepte de la sud-est), L46_NV (colțul opus al casei nr. 46). Ancora de pornire: colțul NE al casei nr. 4 (clădirea OSM 277507854), la (600, 2001) pe planșă, cu 5,31 px/m (din distanța dintre casele nr. 46 și nr. 4) și nordul în sus; `geocode --streets` nu dă o intersecție pe planșă (str. Rarău și str. Vânătorului nu se întâlnesc). Potrivirea dă 5,28 px/m și o rotație de 0,3°. Reziduurile, de 0,7-3,4 m, vin mai ales din contururile OSM, trasate pe acoperișuri și cu 1-3 m mai mari decât casele de pe planșă (casa nr. 4: 20,5 m în OSM, 18,3 m pe planșă). Cu potrivirea, clădirile OSM cad peste casele de la nord de str. Vânătorului, de la sud de strada A și de la vest de str. Rarău, iar axa OSM a str. Rarău cade în banda desenată a străzii, la ~5 m de mijlocul ei. Pe ortofoto (Esri), casele desenate la sud de strada A cad în acoperișurile lor (1-2 m), „stâlpul liniei de tensiune” de la vest de zonă cade pe construcția vizibilă acolo, iar bucla str. Vânătorului din colțul din stânga al planșei cade pe cotul real al străzii; limita urmează marginile vizibile ale terenului (latura estică oblică la 0-2 m, cea vestică la ~3 m), dar latura nordică stă la 3-4 m nord de marginea câmpului, iar banda str. Vânătorului desenată pe planșă e cu ~4-5 m la nord de drumul real în dreptul zonei și se depărtează și mai mult spre vest (drumul e acum în lucru și pare lărgit spre sud). Pe latura estică (x > 1000) nu e niciun reper bun: casa mare de lângă racordul spre str. Rahovei și casa nr. 6 au în OSM alt contur decât pe planșă. Inventarul de coordonate al planșei (tabelul din dreapta desenului, x 1040-1195, y 1460-1720) e ilizibil: planșa 1:1000 e redusă pe A4 și scanată la 200 ppi, cifrele au ~5 px înălțime și sunt încețoșate de JPEG; nici primele cifre nu se pot citi. Planșa nu are caroiaj Stereo 70.",
     "suprafata_declarata_m2": 21574,
     "puncte": {},
-    "nota": "Suprafața: 21574 mp din bilanțul teritorial al planșei (S teren existent = propus; propus: UTR Liu*Rarău 20990 mp, S_Va 584 mp); Art. 1 scrie ~2,15 ha. Limita trasată (`limita_px`, 24 de puncte, în sensul acelor de ceas de la colțul NV) urmează linia groasă a limitei de proprietate: latura nordică pe marginea dinspre stradă a fâșiei cedate pentru lărgirea str. Vânătorului (310 mp), latura estică oblică până la racordul spre str. Rahovei, apoi spre vest și în jos pe latura estică a parcelei 15, colțul de NE al parcelei 7, latura estică până la parcela verde S_Va, conturul acesteia (cu prelungirea spre sud între x 782 și 840), latura sudică în lungul străzii A până lângă str. Rarău, latura vestică dreaptă până la „Parcela drum”, marginea nordică a tronsonului diagonal al străzii, latura vestică a parcelei 17, marginea sudică a capătului de sus al străzii, latura vestică a parcelei 22 și treapta de la parcela 23. Parcela vecină cu casa nr. 6 (la est de parcela 15) rămâne afară. Aria trasată: 615964 px², adică 21601 mp la 5,34 px/m și 21281 mp la 5,38 px/m. Pregătit pentru metoda OSM: `osm_ancora` e nodul OSM în care str. Rarău cotește (capătul comun al căilor 261353429 și 1232420192, din geometria dată de Nominatim, fiindcă `geocode --streets` n-a putut rula), luat pe planșă la cotul străzii, ~(325, 1985), cu o incertitudine de câțiva metri (intersecția e lărgită pe desen, iar strada A nouă se racordează tot acolo); px_per_m 5,38 (lățimi de stradă și aria), nord 0° (săgeata nordului). Verificare grosieră: cu ancora asta, axul str. Vânătorului din OSM (N ≈ 587307 la E ≈ 390645) cade la ~8-11 m nord de banda drumului de pe planșă, deci scara sau ancora mai trebuie strânse cu puncte reale. Repere existente desenate pe planșă, pentru `osm-snap` (colțuri citite pe planșă, în pixeli): casa nr. 46 de pe str. Vânătorului (NV) (231, 599), (286, 595), (295, 700), (240, 706); colțurile de jos ale caselor nr. 48 (422, 645), (475, 635) și nr. 50 (513, 627); la sud, casa nr. 4 (în L) (503, 2003), (600, 2001), (603, 2077), (555, 2080); casa nr. 4A (622, 2000), (689, 2002); casa de lângă ea (704, 2028), (755, 2008), (755, 2058), (704, 2058); la est, casa nr. 6 (970, 1387), (1001, 1391), (995, 1434), (964, 1429), și casa mare de lângă racordul spre str. Rahovei (x 1045-1205, y 1065-1175); la vest, casele nr. 8, 10, 3 și 1 de pe str. Rarău și biserica Sf. Apostoli Petru și Pavel (colțul din stânga jos)."
+    "nota": "Suprafața: 21574 mp din bilanțul teritorial al planșei (S teren existent = propus; propus: UTR Liu*Rarău 20990 mp, S_Va 584 mp); Art. 1 scrie ~2,15 ha. Limita trasată (`limita_px`, 24 de puncte, în sensul acelor de ceas de la colțul NV) urmează linia groasă a limitei de proprietate: latura nordică pe marginea dinspre stradă a fâșiei cedate pentru lărgirea str. Vânătorului (310 mp), latura estică oblică până la racordul spre str. Rahovei, apoi spre vest și în jos pe latura estică a parcelei 15, colțul de NE al parcelei 7, latura estică până la parcela verde S_Va, conturul acesteia (cu prelungirea spre sud între x 782 și 840), latura sudică în lungul străzii A până lângă str. Rarău, latura vestică dreaptă până la „Parcela drum”, marginea nordică a tronsonului diagonal al străzii, latura vestică a parcelei 17, marginea sudică a capătului de sus al străzii, latura vestică a parcelei 22 și treapta de la parcela 23. Parcela vecină cu casa nr. 6 (la est de parcela 15) rămâne afară. Aria trasată: 615964 px², adică 22058 mp la scara potrivirii (5,284 px/m), cu 2,2% peste bilanț (toleranța e 3%); la 5,34 px/m, scara dată de carosabilul de 6,00 m al străzii noi, ar fi 21601 mp. Prima încercare (2026-11-10, dimineața) s-a oprit fiindcă Overpass nu răspundea din sesiunea cloud; a doua a folosit extrasul OSM din depozit."
   },
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "L46_SE": [295, 701],
+    "L110_NV": [518, 2138],
+    "L50_SE": [577, 617],
+    "L110_NE": [576, 2134],
+    "L4A_NE": [689, 2000],
+    "LSVa_SE": [938, 2147]
+  },
+  "verificare_px": {
+    "L48_SV": [420, 645],
+    "L4_SE": [602, 2077],
+    "LTr_NV": [970, 2044],
+    "L46_NV": [231, 599]
+  },
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
   },
   "legenda_px": [
-    [
-      1224,
-      574,
-      1608,
-      1176
-    ],
-    [
-      1224,
-      1414,
-      1608,
-      1517
-    ]
+    [1224, 574, 1608, 1176],
+    [1224, 1414, 1608, 1517]
   ],
   "utr": [
     {
@@ -83,113 +83,59 @@
   ],
   "georef_metoda": "osm",
   "limita_px": [
-    [
-      641,
-      672
-    ],
-    [
-      845,
-      669
-    ],
-    [
-      1002,
-      673
-    ],
-    [
-      1076,
-      903
-    ],
-    [
-      1045,
-      1095
-    ],
-    [
-      1038,
-      1300
-    ],
-    [
-      1020,
-      1344
-    ],
-    [
-      897,
-      1331
-    ],
-    [
-      883,
-      1529
-    ],
-    [
-      973,
-      1541
-    ],
-    [
-      943,
-      1700
-    ],
-    [
-      940,
-      2041
-    ],
-    [
-      843,
-      2041
-    ],
-    [
-      838,
-      2074
-    ],
-    [
-      782,
-      2073
-    ],
-    [
-      781,
-      1995
-    ],
-    [
-      485,
-      1997
-    ],
-    [
-      333,
-      1947
-    ],
-    [
-      461,
-      1360
-    ],
-    [
-      735,
-      1270
-    ],
-    [
-      748,
-      1120
-    ],
-    [
-      590,
-      1088
-    ],
-    [
-      672,
-      879
-    ],
-    [
-      615,
-      843
-    ]
+    [641, 672],
+    [845, 669],
+    [1002, 673],
+    [1076, 903],
+    [1045, 1095],
+    [1038, 1300],
+    [1020, 1344],
+    [897, 1331],
+    [883, 1529],
+    [973, 1541],
+    [943, 1700],
+    [940, 2041],
+    [843, 2041],
+    [838, 2074],
+    [782, 2073],
+    [781, 1995],
+    [485, 1997],
+    [333, 1947],
+    [461, 1360],
+    [735, 1270],
+    [748, 1120],
+    [590, 1088],
+    [672, 879],
+    [615, 843]
   ],
   "osm_ancora": {
-    "px": [
-      325,
-      1985
-    ],
-    "en": [
-      390575.9,
-      587049.4
-    ],
-    "px_per_m": 5.38,
+    "px": [600, 2001],
+    "en": [390629.25, 587055.75],
+    "px_per_m": 5.31,
     "nord": 0
+  },
+  "repere": {
+    "L46_SE": [587299.86, 390568.9],
+    "L110_NV": [587029.7, 390613.04],
+    "L50_SE": [587318.47, 390621.56],
+    "L110_NE": [587029.48, 390624.72],
+    "L4A_NE": [587056.35, 390644.99],
+    "LSVa_SE": [587026.21, 390689.13],
+    "L48_SV": [587311.66, 390592.95],
+    "L4_SE": [587039.39, 390630.25],
+    "LTr_NV": [587044.48, 390699.16],
+    "L46_NV": [587318.93, 390559.7]
+  },
+  "repere_osm": {
+    "L46_SE": "colț de clădire (b701062399_2)",
+    "L110_NV": "colț de clădire (b280436847_0)",
+    "L50_SE": "colț de clădire (b701062400_2)",
+    "L110_NE": "colț de clădire (b280436847_1)",
+    "L4A_NE": "colț de clădire (b277507867_3)",
+    "LSVa_SE": "colț de clădire (b280437370_4)",
+    "L48_SV": "colț de clădire (b568305317_3)",
+    "L4_SE": "colț de clădire (b277507854_4)",
+    "LTr_NV": "colț de clădire (b280436699_0)",
+    "L46_NV": "colț de clădire (b701062399_0)"
   }
 }

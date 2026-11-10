@@ -4212,6 +4212,161 @@
   ]
  },
  {
+  "id": "2026-197",
+  "localitate": "cluj",
+  "hcl": "197/2026",
+  "data": "2026-05-19",
+  "titlu": "P.U.Z. – de urbanizare, str. Vânătorului – str. Rarău",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-197-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/05/26/197.pdf",
+  "utr": [
+   {
+    "cod": "Liu*Rarău",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (cele 26 de parcele de pe planșă): locuințe individuale (unifamiliale) și anexele lor, regim de construire izolat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane ((S)+P+1+M/R sau D+P+M/R); 8 m la cornișă, 12 m maxim"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (parcela verde de la sud-est, lângă strada A)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "parter"
+   }
+  ],
+  "suprafata_m2": 22058,
+  "imagine": "puz/2026-197/plansa.webp",
+  "bounds": {
+   "west": 23.5653147,
+   "south": 46.7739879,
+   "east": 23.5672508,
+   "north": 46.7764307
+  },
+  "limita": [
+   [
+    23.5660855,
+    46.7763967
+   ],
+   [
+    23.5665907,
+    46.7764098
+   ],
+   [
+    23.5669799,
+    46.7764092
+   ],
+   [
+    23.5671764,
+    46.7760206
+   ],
+   [
+    23.5671106,
+    46.7756926
+   ],
+   [
+    23.567105,
+    46.7753434
+   ],
+   [
+    23.5670629,
+    46.7752678
+   ],
+   [
+    23.5667575,
+    46.7752851
+   ],
+   [
+    23.5667341,
+    46.7749475
+   ],
+   [
+    23.5669578,
+    46.7749307
+   ],
+   [
+    23.5668926,
+    46.7746589
+   ],
+   [
+    23.5669047,
+    46.7740783
+   ],
+   [
+    23.5666643,
+    46.7740745
+   ],
+   [
+    23.5666539,
+    46.7740182
+   ],
+   [
+    23.5665151,
+    46.7740177
+   ],
+   [
+    23.5665081,
+    46.7741504
+   ],
+   [
+    23.5657749,
+    46.7741353
+   ],
+   [
+    23.5653955,
+    46.7742145
+   ],
+   [
+    23.565679,
+    46.7752186
+   ],
+   [
+    23.5663526,
+    46.7753826
+   ],
+   [
+    23.5663763,
+    46.7756384
+   ],
+   [
+    23.565983,
+    46.7756866
+   ],
+   [
+    23.5661742,
+    46.7760456
+   ],
+   [
+    23.5660309,
+    46.7761046
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 6,
+   "rms_m": 1.7,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-197/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-05-19"
+  },
+  "diferente_fata_de_plansa": [
+   "Cartușul planșei numește documentația „PUZ de Parcelare, str. Rarău / str. Vânătorului”, iar hotărârea aprobă un „P.U.Z. – de urbanizare”. Pe desen apare și limita unui „PUZ de Urbanizare, Aviz de oportunitate nr. 100/20.07.2021”, în timp ce hotărârea citează Avizul de oportunitate nr. 217 din 25.09.2024. Indicatorii (POT/CUT), cele 26 de parcele de locuințe, parcela verde, strada nouă de 9 m și suprafața (21574 mp, ~2,15 ha) coincid."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire pe parcelele cu front la str. Vânătorului: terenul necesar lărgirii străzii (310 mp pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la strat de uzură.",
+   "Înainte de autorizațiile de construire pentru locuințe: strada nouă (ampriză 9 m, cu loc de întoarcere) se înscrie în CF ca „drum”, se echipează edilitar (inclusiv rețea pluvială și iluminat stradal) și se amenajează după un proiect autorizat.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Liu*Rarău: parcela e construibilă dacă are cel puțin 450 mp, front de cel puțin 12 m spre spațiul public și acces dintr-un drum public, direct sau prin servitute (Anexa 1); fiecare parcelă are acces pietonal și carosabil din str. Vânătorului sau din strada nouă; parcarea doar în interiorul parcelei, după Anexa 2 a R.L.U. al P.U.G.",
+   "Liu*Rarău: clădirile se retrag cel puțin 3 m de la aliniament, iar garajele separate cel puțin 6 m; cel puțin 3 m față de limitele laterale (garajele se pot alipi, cu calcan de cel mult 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, minimum 6 m.",
+   "Liu*Rarău: racordare la rețelele edilitare publice; apele pluviale se captează pe parcelă, cu soluții de înmagazinare și utilizare; punct gospodăresc de colectare selectivă pe 5 fracții (O.U.G. 92/2021, art. 17 alin. 3); spații verzi cel puțin 40% din parcelă, cu cel puțin un arbore spre stradă (Anexa 1).",
+   "S_Va*: retragere de cel puțin 3 m de la aliniament și 5 m de la limitele laterale și posterioară; acces din strada nouă; în spațiul verde doar circulații pietonale și velo, din agregate compactate, pavaje din piatră naturală etc.; spații verzi cel puțin 70% (Anexa 1)."
+  ]
+ },
+ {
   "id": "2026-196",
   "localitate": "cluj",
   "hcl": "196/2026",
