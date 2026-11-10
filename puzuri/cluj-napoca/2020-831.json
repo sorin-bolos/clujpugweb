@@ -1,0 +1,134 @@
+{
+  "id": "2020-831",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 831,
+    "an": 2020,
+    "data_sedinta": "2020-11-27",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-831-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/01/08/HCL-nr.-831-din-27.11.2020-PUZ-restructurare-urbana-str-Tasnad.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare urbană – strada Tășnad",
+  "plansa": {
+    "pagina_pdf": 12,
+    "dpi": 200,
+    "denumire": "A/P.U.Z./03 Plan reglementări urbanistice - zonificare",
+    "scara": "1:1000",
+    "nota": "Planșa apare de două ori în PDF: p. 11 e copia anexată hotărârii (Anexa 3, micșorată pe A4, întoarsă, alb-negru, 300 ppi, semnată de arhitectul-șef), iar p. 12 e aceeași planșă A/P.U.Z./03 (proiect nr. 38/2015, 05.2020), color, în format mare (594x420 mm), la 200 ppi, cu ștampila „VIZAT” a Comisiei tehnice de amenajare a teritoriului și de urbanism și mențiunea de mână „HCL nr. 831 din 27 noiembrie 2020” (avizele arhitectului-șef 123/18.05.2020 și 264/11.09.2020); s-a folosit p. 12, mult mai clară. Planșa e tipărită ușor micșorată: 7,77 px/m în loc de 7,87 px/m cât ar da 1:1000 la 200 ppi (~98,7 %). Cartușul pune obiectivul pe „Strada Taberei, F.N.”; parcela (nr. cad. 314368) are fața la str. Tășnad, lângă colțul cu str. Taberei. Legenda cuprinde cheia simbolurilor (limite, circulații, zonificare, obiective propuse), caseta „Indici urbanistici propuși” pentru U.T.R. M4_A și cheia retragerilor; caseta cu suprafețele, bilanțul teritorial, tabelul de coordonate, profilele de drum, ștampilele și cartușul au rămas afară. Crucea de caroiaj „585.550” din dreapta legendei ține de ștampila de recepție O.C.P.I. a ridicării topografice lipită acolo, nu de desen (desenul pune N 585550 la ~y 1320, crucea e la y 2032), deci nu s-a folosit."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabel „Coordonate pct. de contur” pe planșa A/P.U.Z./03 (5 puncte, 2-6, X [Nord] / Y [Est], cu lungimile laturilor D(i,i+1)); aria nu e în tabel, ci în caseta de sus: „Suprafața reglementată: 4510.00 mp”, „Nr. C.F.: 314368 CAD: 314368 - 4510.00 mp”. Puncte de control: colțurile 2 (NV), 3 (NE), 4 (SE) și 6 (SV), fiecare la intersecția liniilor de mijloc ale liniei subțiri roșu-închis a limitei parcelei de pe cele două laturi vecine, măsurate pe 180-280 de profile transversale pe latură (abatere standard 0,2-0,4 px); linia punctată roșie „Zona reglementată” e desenată cu ~1 m în afara ei. Planșa nu are caroiaj Stereo 70 legat de desen.",
+    "suprafata_declarata_m2": 4510.0,
+    "puncte": {
+      "2": [
+        585580.796,
+        389434.307
+      ],
+      "3": [
+        585588.702,
+        389510.349
+      ],
+      "4": [
+        585519.026,
+        389517.491
+      ],
+      "5": [
+        585518.088,
+        389466.58
+      ],
+      "6": [
+        585517.743,
+        389459.693
+      ]
+    },
+    "laturi_declarate_m": {
+      "2": 76.452,
+      "3": 70.041,
+      "4": 50.92,
+      "5": 6.896,
+      "6": 67.972
+    },
+    "nota": "Laturile calculate din coordonate se potrivesc cu tabelul la 1 cm; aria, 4510,3 mp (4510 mp pe planșă și în C.F.); perimetrul nu e tipărit. Punctul 5 e o frângere de 1,8° pe latura de sud, la 6,9 m de 6, și nu se vede pe planșă, așa că nu e nici punct de control, nici de verificare; nu rămâne niciun punct de verificare. În lipsa lor: lăsând pe rând câte un colț afară, potrivirea afină prin celelalte trei îl prezice la 0,12-0,18 m; o asemănare (scară, rotație, translație) prin toate patru lasă reziduuri de cel mult 0,28 m, la 7,77 px/m, iar anizotropia potrivirii afine e 0,9 %."
+  },
+  "gcp_px": {
+    "2": [
+      857.7,
+      1076.4
+    ],
+    "3": [
+      1446.3,
+      1013.1
+    ],
+    "4": [
+      1501.8,
+      1557.8
+    ],
+    "6": [
+      1054.3,
+      1568.0
+    ]
+  },
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3250,
+      697,
+      4305,
+      1558
+    ],
+    [
+      3250,
+      1688,
+      3725,
+      2040
+    ],
+    [
+      3250,
+      2098,
+      3682,
+      2152
+    ],
+    [
+      3250,
+      2179,
+      4035,
+      2321
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M4_A",
+      "denumire": "Subzonă mixtă cu regim de construire deschis, adiacentă arterelor de importanță locală: locuire colectivă, comerț, activități administrative, servicii de interes public; clădiri izolate",
+      "pot_max": "60% (pentru locuire 40%, Anexa 2 art. 15)",
+      "cut_max": "2,8",
+      "h_max": "2S+P+5E+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-11-27",
+    "verificat": "2026-11-10: Art. 3, cinci ani de la aprobare; nicio prelungire sau modificare a P.U.Z.-ului în indexul hotărârilor P.U.Z. (actualizat 2026-11-08); HCL 791/2023 privește doar contractul de restructurare și nu schimbă valabilitatea"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Art. 1 din hotărâre dă doar P.O.T. maxim 60%; planșa, ca și regulamentul (Anexa 2, art. 15) și contractul de restructurare, mai limitează P.O.T. pentru locuire la 40%."
+  ],
+  "conditii": [
+    "Retrageri minime: 6 m față de aliniamentul străzii Tășnad (nord), 5 m față de limita vestică, 15 m față de limita estică și 8 m față de limita sudică.",
+    "Accesul auto și pietonal se face din str. Tășnad; drumul din incintă are profil de 15 m (carosabil 5,5 m, locuri de parcare în lung, trotuare).",
+    "Parcarea se face în spații amenajate la subsol, plus locuri pentru vizitatori de-a lungul drumului din incintă.",
+    "Toate utilitățile se asigură prin racordare la rețelele publice; în interiorul parcelei se amenajează o platformă subterană de colectare selectivă a deșeurilor pe patru fracții.",
+    "În fâșia de 6 m de lângă aliniament (limita nordică) se plantează, până la recepția construcției, 8 arbori cu circumferința de minim 35 cm, măsurată la 1 m de la colet.",
+    "Investitorul trece gratuit în proprietatea municipiului, pe cheltuiala sa, un spațiu de minim 500 mp utili la parterul clădirii, cu acces din exterior, la nivel semifinisat (uși, tâmplării, șape, tencuieli), în cel mult 6 luni de la recepția imobilului.",
+    "Hotărârea aprobă și contractul de restructurare dintre municipiu și investitor (Anexa 1), semnat de primar; obligațiile din el se aplică și viitorilor proprietari ai terenului.",
+    "Prin HCL 791/2023 s-a aprobat un act adițional la contractul de restructurare (semnat la 17.09.2021): drepturile și obligațiile din contract au trecut la noul proprietar al terenului, după vânzarea acestuia în 2021; obligațiile nu s-au schimbat."
+  ],
+  "hotarare_text": "documente/2020-831/hotarare.txt"
+}

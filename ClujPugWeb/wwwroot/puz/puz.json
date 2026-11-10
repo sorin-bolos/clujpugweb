@@ -10360,6 +10360,77 @@
   ]
  },
  {
+  "id": "2020-831",
+  "localitate": "cluj",
+  "hcl": "831/2020",
+  "data": "2020-11-27",
+  "titlu": "P.U.Z. de restructurare urbană – strada Tășnad",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-831-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/2021/01/08/HCL-nr.-831-din-27.11.2020-PUZ-restructurare-urbana-str-Tasnad.pdf",
+  "utr": [
+   {
+    "cod": "M4_A",
+    "denumire": "Subzonă mixtă cu regim de construire deschis, adiacentă arterelor de importanță locală: locuire colectivă, comerț, activități administrative, servicii de interes public; clădiri izolate",
+    "pot_max": "60% (pentru locuire 40%, Anexa 2 art. 15)",
+    "cut_max": "2,8",
+    "h_max": "2S+P+5E+R"
+   }
+  ],
+  "suprafata_m2": 4510,
+  "imagine": "puz/2020-831/plansa.webp",
+  "bounds": {
+   "west": 23.5507596,
+   "south": 46.7600932,
+   "east": 23.5519165,
+   "north": 46.7607756
+  },
+  "limita": [
+   [
+    23.5507898,
+    46.7606757
+   ],
+   [
+    23.5517833,
+    46.7607593
+   ],
+   [
+    23.5518935,
+    46.7601337
+   ],
+   [
+    23.5512273,
+    46.7601169
+   ],
+   [
+    23.5511372,
+    46.7601127
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2020-831/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2025-11-27"
+  },
+  "diferente_fata_de_plansa": [
+   "Art. 1 din hotărâre dă doar P.O.T. maxim 60%; planșa, ca și regulamentul (Anexa 2, art. 15) și contractul de restructurare, mai limitează P.O.T. pentru locuire la 40%."
+  ],
+  "conditii": [
+   "Retrageri minime: 6 m față de aliniamentul străzii Tășnad (nord), 5 m față de limita vestică, 15 m față de limita estică și 8 m față de limita sudică.",
+   "Accesul auto și pietonal se face din str. Tășnad; drumul din incintă are profil de 15 m (carosabil 5,5 m, locuri de parcare în lung, trotuare).",
+   "Parcarea se face în spații amenajate la subsol, plus locuri pentru vizitatori de-a lungul drumului din incintă.",
+   "Toate utilitățile se asigură prin racordare la rețelele publice; în interiorul parcelei se amenajează o platformă subterană de colectare selectivă a deșeurilor pe patru fracții.",
+   "În fâșia de 6 m de lângă aliniament (limita nordică) se plantează, până la recepția construcției, 8 arbori cu circumferința de minim 35 cm, măsurată la 1 m de la colet.",
+   "Investitorul trece gratuit în proprietatea municipiului, pe cheltuiala sa, un spațiu de minim 500 mp utili la parterul clădirii, cu acces din exterior, la nivel semifinisat (uși, tâmplării, șape, tencuieli), în cel mult 6 luni de la recepția imobilului.",
+   "Hotărârea aprobă și contractul de restructurare dintre municipiu și investitor (Anexa 1), semnat de primar; obligațiile din el se aplică și viitorilor proprietari ai terenului.",
+   "Prin HCL 791/2023 s-a aprobat un act adițional la contractul de restructurare (semnat la 17.09.2021): drepturile și obligațiile din contract au trecut la noul proprietar al terenului, după vânzarea acestuia în 2021; obligațiile nu s-au schimbat."
+  ]
+ },
+ {
   "id": "2020-4",
   "localitate": "cluj",
   "hcl": "4/2020",
