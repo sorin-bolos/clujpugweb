@@ -1,0 +1,53 @@
+{
+  "id": "2025-643",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 643,
+    "an": 2025,
+    "data_sedinta": "2025-10-29",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-643-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/10/29/643.pdf"
+  },
+  "titlu": "P.U.Z. – Modificare P.U.Z. aprobat prin Hotărârea nr. 776/2022, în vederea corelării cu P.U.Z. – Realizare pasaj rutier la intersecția B-dul Muncii cu str. Oașului",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul hotărârii (643.pdf, 2 pagini A4 scanate la 300 ppi) conține doar textul hotărârii, semnat și ștampilat; pagina hotărârii nu leagă alt PDF și hotărârea nu aprobă anexe grafice. Conținutul e o modificare a obligațiilor din P.U.Z. aprobat prin HCL 776/2022 (B-dul Muncii nr. 2 – str. G. G. Byron nr. 1-3), corelată cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului (HCL 641/2025), nu o zonificare nouă. Integrată pe 2026-11-10 în rețeta P.U.Z. de bază, 2022-776 (modificat_de, condiții, diferențe), publicată în același commit; pe hartă modificarea apare în fișa P.U.Z. 776/2022."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-10-29"
+  },
+  "prelungiri": [],
+  "modifica": [
+    "776/2022"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Lucrările pe care P.U.Z. din 2022 le punea în sarcina beneficiarelor pe B-dul Muncii – lărgirea între str. G. G. Byron și strada „A” (o bandă de 3,5 m în plus, alveolă pentru stand de taxi cu 10 locuri, pistă de biciclete de 1,5 m, spațiu verde tampon, trotuar de 3 m, mutarea stâlpilor tramvaiului și a rețelelor), reconfigurarea sensului giratoriu B-dul Muncii–str. Byron și racordarea străzii „A” la bulevard – se transformă în echivalent bănesc, după devizul proiectantului, corelat cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului.",
+    "Contravaloarea se plătește 50% înainte de orice autorizație de construire din etapa 2 și 50% cel târziu înainte de recepția primului imobil din etapa 2, actualizată la data plății.",
+    "Terenul dezmembrat pentru lărgirea B-dului Muncii și a str. G. G. Byron (nr. cad. 354004) trece gratuit în domeniul public până la 15 noiembrie 2025.",
+    "Pentru nr. cad. 354003 și 354005 rămân reglementările și investițiile P.U.Z. aprobat prin HCL 776/2022, suportate de beneficiarele acestuia.",
+    "Se încheie un act adițional la contractul de restructurare nr. 797153/12.10.2022."
+  ],
+  "hotarare_text": "documente/2025-643/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2022-776"
+}

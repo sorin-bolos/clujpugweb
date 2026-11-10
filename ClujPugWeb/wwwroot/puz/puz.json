@@ -11857,6 +11857,207 @@
   ]
  },
  {
+  "id": "2022-776",
+  "localitate": "cluj",
+  "hcl": "776/2022",
+  "data": "2022-10-07",
+  "titlu": "P.U.Z. – Restructurare urbană, Bulevardul Muncii nr. 2-str. G.G. Byron nr. 1-3",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-776-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/11/01/HCL-776.pdf",
+  "utr": [
+   {
+    "cod": "M",
+    "denumire": "Zonă mixtă – ansamblu mixt cu structură funcțională echilibrată (locuire colectivă, servicii, birouri, cu parter de interes public spre B-dul Muncii), rezultat din restructurarea zonei cu caracter industrial",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "(1-3S)+P+9E pe frontul B-dului Muncii și la intersecția cu str. Oașului; (1-3S)+P+6E pe frontul sudic al străzii „A”; (1-3S)+P+4E pe frontul estic al str. G. G. Byron"
+   },
+   {
+    "cod": "S_Is_G",
+    "denumire": "Subzonă de instituții și servicii publice în clădiri dedicate, în afara zonei centrale – grădiniță",
+    "pot_max": "25%",
+    "cut_max": "0,5",
+    "h_max": "(S/D)+P+E, cornișa la cel mult 10 m (supante admise)"
+   }
+  ],
+  "suprafata_m2": 26688,
+  "imagine": "puz/2022-776/plansa.webp",
+  "bounds": {
+   "west": 23.6075578,
+   "south": 46.7971738,
+   "east": 23.6107669,
+   "north": 46.7991321
+  },
+  "limita": [
+   [
+    23.6087179,
+    46.7972037
+   ],
+   [
+    23.6085254,
+    46.7975128
+   ],
+   [
+    23.6085147,
+    46.7975338
+   ],
+   [
+    23.6081285,
+    46.7981331
+   ],
+   [
+    23.6079335,
+    46.7984404
+   ],
+   [
+    23.6075837,
+    46.79905
+   ],
+   [
+    23.6076084,
+    46.7990584
+   ],
+   [
+    23.6077044,
+    46.7990747
+   ],
+   [
+    23.6078672,
+    46.7990841
+   ],
+   [
+    23.6079955,
+    46.7990793
+   ],
+   [
+    23.6081864,
+    46.799048
+   ],
+   [
+    23.6087092,
+    46.7989207
+   ],
+   [
+    23.6091908,
+    46.7987791
+   ],
+   [
+    23.6107156,
+    46.7982307
+   ],
+   [
+    23.6106376,
+    46.7980992
+   ],
+   [
+    23.610131,
+    46.7979895
+   ],
+   [
+    23.6103203,
+    46.7975512
+   ],
+   [
+    23.6102649,
+    46.7975423
+   ],
+   [
+    23.6102361,
+    46.797531
+   ],
+   [
+    23.6102022,
+    46.7975259
+   ],
+   [
+    23.6101131,
+    46.7974999
+   ],
+   [
+    23.6099578,
+    46.7974661
+   ],
+   [
+    23.6099271,
+    46.797461
+   ],
+   [
+    23.6097099,
+    46.7974119
+   ],
+   [
+    23.6096167,
+    46.7973858
+   ],
+   [
+    23.6094926,
+    46.7973616
+   ],
+   [
+    23.6092439,
+    46.7973063
+   ],
+   [
+    23.6090858,
+    46.7972809
+   ],
+   [
+    23.6088694,
+    46.7972295
+   ],
+   [
+    23.6088048,
+    46.7972205
+   ],
+   [
+    23.6087455,
+    46.7972019
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 9,
+   "rms_m": 1.07,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2022-776/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2029-10-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa mai are un corp (1S-3S)+P+7E în interiorul ansamblului, spre colțul de nord-vest, și unul (1S-3S)+P în partea de est, iar blocul U.T.R. de pe planșă trece și „(1S-3S)+P+7E” printre regimurile de înălțime; hotărârea numește doar (1-3S)+P+9E (frontul B-dului Muncii și intersecția cu str. Oașului), (1-3S)+P+6E (frontul sudic al străzii „A”) și (1-3S)+P+4E (frontul estic al str. Byron) (Art. 1).",
+   "Pentru S_Is_G hotărârea limitează cornișa la 10 m și admite supante; planșa dă doar regimul (S/D)+P+1E (Art. 1).",
+   "Blocul U.T.R. de pe planșă mai cere locuire de cel mult 70% din suprafața desfășurată, spații verzi de cel puțin 30% din ansamblu în U.T.R. M și de cel puțin 50% pe sol natural în S_Is_G, și ia ca suprafață de referință pentru POT/CUT parcela inițială a U.T.R. M (20.076 mp, înainte de dezmembrarea lărgirilor stradale); hotărârea nu le reia.",
+   "Lărgirea B-dului Muncii și a sensului giratoriu Muncii–Byron, desenate pe planșă, nu mai sunt în sarcina beneficiarelor, ci se plătesc în bani, iar circulația pe bulevard se corelează cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului. Planșa rămâne cea aprobată în 2022 (modificat prin HCL 643/2025, Art. 1)."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z., inclusiv infrastructura rutieră, sunt suportate de beneficiare (Avizul Serviciului Siguranța Circulației nr. 558174/446/7.06.2022); pentru nr. cad. 354003 și 354005 rămân reglementările și investițiile din 2022 (confirmat prin HCL 643/2025).",
+   "Lărgirea str. G. G. Byron la profil de 18 m între B-dul Muncii și limita parcelei, din terenul propriu, cu o fâșie verde de 1,5 m și un trotuar de 1,5 m lângă parcelă.",
+   "Lărgirea B-dului Muncii între str. Byron și strada „A” (încă o bandă de 3,5 m, alveolă pentru stand de taxi cu 10 locuri, de cel puțin 55 m, pistă de biciclete de 1,5 m, spațiu verde tampon, trotuar nou de 3 m, cu mutarea stâlpilor tramvaiului și a rețelelor), reconfigurarea sensului giratoriu B-dul Muncii–str. Byron și racordarea străzii „A” la bulevard se transformă în echivalent bănesc, după devizul proiectantului, actualizat la data plății: 50% înainte de orice autorizație de construire din etapa 2 și 50% cel târziu înainte de recepția primului imobil din etapa 2 (modificat prin HCL 643/2025).",
+   "Strada nouă „A”, la profil de 15 m, se realizează și se asfaltează de beneficiare; intrarea și ieșirea dinspre B-dul Muncii se fac doar cu viraje la dreapta, cu bandă de decelerare pentru accesul de pe bulevard în strada „A”.",
+   "Pentru lucrările de drum și rețele se fac proiecte de specialitate și autorizație de construire; la D.T.A.C. trebuie avizul Serviciului Siguranța Circulației și al Poliției rutiere pentru semnalizare; amenajările respectă Legea nr. 101/2020 și normativul NP 051-2012.",
+   "Terenul pentru lărgirea B-dului Muncii și a str. Byron se dezmembrează și se înscrie în CF ca drum înainte de orice autorizație de construire; terenul dezmembrat (nr. cad. 354004) trece gratuit în domeniul public până la 15 noiembrie 2025, în loc de recepția finală a primei construcții din etapa 2, după amenajare (modificat prin HCL 643/2025).",
+   "Etapa 1 (clădirile în regim deschis de pe frontul sudic al străzii „A” și de pe frontul estic al str. Byron): înainte de autorizațiile pentru locuințele colective, strada „A” se echipează edilitar și se asfaltează; trotuarele și iluminatul stradal, până la recepția construcțiilor.",
+   "Înainte de recepția locuințelor colective, grădinița, finisată, cu parcela ei (S_Is_G), trece gratuit în proprietatea municipiului, iar municipiul primește drept de trecere pe strada „A”.",
+   "Etapa 2 (clădirile în regim închis de pe frontul B-dului Muncii și de la intersecția cu str. Oașului): autorizații de construire (în afară de rețele) doar după recepția finală a lucrărilor din etapa 1 și nu mai devreme de 2025.",
+   "Se plantează cel puțin 40 de arbori cu circumferința de minimum 35 cm (măsurată la 1 m de la colet), în aliniamentele de pe B-dul Muncii, strada „A” și str. Byron.",
+   "În zona mixtă se amenajează un scuar verde cu acces public nelimitat, de cel puțin 2.700 mp, pe latura nordică a străzii „A”.",
+   "Cel puțin 75% din locurile de parcare sunt în subsol, demisol sau parter; parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit; necesarul se calculează după Anexa 2 la regulamentul P.U.G.",
+   "Construcțiile C1 și C2 de pe nr. cad. 2872 se desființează.",
+   "Contractul de restructurare (Anexa 1; nr. 797153/12.10.2022) se completează cu un act adițional (HCL 643/2025, Art. 2)."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "643/2025",
+    "data": "2025-10-29",
+    "rezumat": "Lărgirea B-dului Muncii între str. G. G. Byron și strada „A”, reconfigurarea sensului giratoriu B-dul Muncii–str. Byron și racordarea străzii „A” la bulevard nu mai sunt executate de beneficiare, ci plătite în bani (50% înainte de autorizațiile din etapa 2, 50% înainte de recepția primului imobil din etapa 2), în corelare cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului; terenul dezmembrat pentru lărgirea B-dului Muncii și a str. Byron trece gratuit în domeniul public până la 15 noiembrie 2025. Pentru restul terenului rămân reglementările din 2022. Modificarea are valabilitate proprie de 7 ani, până la 29 octombrie 2032.",
+    "plansa_noua": false
+   }
+  ]
+ },
+ {
   "id": "2022-621",
   "localitate": "cluj",
   "hcl": "621/2022",

@@ -1,0 +1,392 @@
+{
+  "id": "2022-776",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 776,
+    "an": 2022,
+    "data_sedinta": "2022-10-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-776-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/11/01/HCL-776.pdf"
+  },
+  "titlu": "P.U.Z. – Restructurare urbană, Bulevardul Muncii nr. 2-str. G.G. Byron nr. 1-3",
+  "plansa": {
+    "pagina_pdf": 43,
+    "dpi": 300,
+    "denumire": "U.3 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări e pagina 43: originalul color U.3 „Regelementari urbanistice” (sic, în cartuș) (proiect nr. 10/2017, data 16.05.2022, scara 1:1000), scanat la 300 ppi (8205×4988 px), cu ștampila „VIZAT spre neschimbare” – anexă la avizul arhitectului-șef nr. 119 din 4.07.2022 – și mențiunea de mână „H.C.L. nr. 776 din 7.10.2022”. P. 27 e aceeași planșă ca Anexa 3, micșorată pe A4, în tonuri de gri și mai greu de citit; p. 44 (și p. 28, micșorată) e planșa U.6 „Proprietatea asupra terenurilor” (Anexa 4). Celelalte pagini: pp. 1-4 hotărârea, pp. 5-11 contractul de restructurare (Anexa 1, nesemnat), pp. 12-26 regulamentul local de urbanism (Anexa 2), pp. 29-35 contractul de restructurare nr. 797153/12.10.2022, pp. 36-40 avizul arhitectului-șef nr. 119/4.07.2022, pp. 41-42 avizul de oportunitate nr. 251/22.03.2018, pp. 45-52 raportul de informare și consultare a publicului. Planșa nu are inventar de coordonate și nici cruci de caroiaj Stereo 70. Scara reală a imaginii: 15,7 px/m din potrivirea pe OSM (cota „15.00” a profilului străzii A dă 15,85 px/m; la 1:1000 și 300 ppi ar fi 11,81 px/m, deci imaginea e la ~133% față de 1:1000), nordul în sus. Legenda cuprinde cheia simbolurilor, blocul U.T.R. de pe planșă (teren studiat, U.T.R. M, subzona S_Is_G, cu POT/CUT/regim de înălțime/spații verzi) și lista U.T.R.-urilor din P.U.G. din jur; bilanțurile teritoriale (UTR M și zonificare), tabelul de indici calculați ai UTR M, profilele stradale, cartușul și ștampilele au rămas afară. Ștampila topografului acoperă parțial primele două rânduri ale cheii. Planșa e cea aprobată în 2022: modificarea prin HCL 643/2025 nu are planșă."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, 2026-11-10, din extrasul OSM din repo, date din 2026-11-08): colțuri de clădiri existente desenate pe fondul topografic al planșei și prezente în OSM, toate în afara zonei (în interiorul zonei OSM are deja clădiri noi, care nu sunt pe planșă). Control: P118_NW (clădirea P+2 nr. 118 de la vest de str. G. G. Byron, colțul NV), I118_NW și I118_SE (hala P+1 nr. 118 de lângă ea), B6A_NE (blocul P+1 nr. 6A de la vest de str. Byron), P4_NE (blocul P+4 de la sud-vest), B8_NW și B8_SE (blocul nr. 8 de pe str. Byron, la sud), H89e_NW (casa nr. 8-9 de pe str. Cărămidarilor, la sud-est), AUCH_W (colțul de vest al hipermarketului Auchan, la nord-est); verificare: P118_SE, I118_E, B6A_SE, B8_SW, H89e_SE (alte colțuri ale acelorași clădiri) și H89m_SE (casa nr. 8-9 mai mică, nefolosită în control). Ancora de pornire: intersecția axelor str. G. G. Byron / str. Cărămidarilor (OSM, E 393949,1 N 589517,0), aleasă la (2370, 4590), cu 15,85 px/m din cota „15.00” și nordul în sus; potrivirea finală dă 15,7 px/m și o rotație de 0,30°. Limita e trasată (`limita_px`) pe mijlocul liniei groase punctate „Limita zonă reglementată”: pătratele liniei extrase automat după culoare (și separat, peste fondul somon al subzonei S_Is_G), laturile drepte potrivite prin dreapte și colțurile luate la intersecția lor, arcul de lângă sensul giratoriu urmat punct cu punct; verificată pe planșă cu `overlay`. Aria trasată: 26.687,5 mp față de 26.688,5 mp, „Suprafața teren reglementat prin PUZ” de pe planșă (-0,004%). Hotărârea aprobă P.U.Z. pentru terenul beneficiarelor, de 22.476 mp măsurați (nr. cad. 2872, 317330 și 313009), care e partea din zona reglementată aflată în proprietatea lor; restul până la 26.688,5 mp e teren din afara proprietății cuprins în limita zonei.",
+    "suprafata_declarata_m2": 26688.5,
+    "puncte": {},
+    "nota": "Planșa nu are inventar de coordonate și nici caroiaj, așa că poziționarea e aproximativă (±3-5 m), după OpenStreetMap. Cota „15.00” a profilului străzii A (237,7 px) confirmă scara potrivirii la 1%."
+  },
+  "gcp_px": {
+    "P118_NW": [
+      612,
+      1374
+    ],
+    "B8_SE": [
+      2265,
+      4725
+    ],
+    "I118_NW": [
+      163,
+      1638
+    ],
+    "I118_SE": [
+      1062,
+      2128
+    ],
+    "B6A_NE": [
+      1146,
+      3162
+    ],
+    "P4_NE": [
+      1528,
+      4103
+    ],
+    "B8_NW": [
+      1795,
+      3988
+    ],
+    "H89e_NW": [
+      3763,
+      3700
+    ],
+    "AUCH_W": [
+      3978,
+      492
+    ]
+  },
+  "verificare_px": {
+    "P118_SE": [
+      836,
+      1606
+    ],
+    "I118_E": [
+      938,
+      1830
+    ],
+    "B6A_SE": [
+      1458,
+      3937
+    ],
+    "B8_SW": [
+      2115,
+      4783
+    ],
+    "H89m_SE": [
+      3747,
+      3933
+    ],
+    "H89e_SE": [
+      3965,
+      3923
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      5940,
+      3755,
+      6480,
+      3900
+    ],
+    [
+      5940,
+      3900,
+      6680,
+      4875
+    ],
+    [
+      5960,
+      2258,
+      7520,
+      3312
+    ],
+    [
+      6775,
+      3765,
+      7495,
+      4902
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M",
+      "denumire": "Zonă mixtă – ansamblu mixt cu structură funcțională echilibrată (locuire colectivă, servicii, birouri, cu parter de interes public spre B-dul Muncii), rezultat din restructurarea zonei cu caracter industrial",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "(1-3S)+P+9E pe frontul B-dului Muncii și la intersecția cu str. Oașului; (1-3S)+P+6E pe frontul sudic al străzii „A”; (1-3S)+P+4E pe frontul estic al str. G. G. Byron"
+    },
+    {
+      "cod": "S_Is_G",
+      "denumire": "Subzonă de instituții și servicii publice în clădiri dedicate, în afara zonei centrale – grădiniță",
+      "pot_max": "25%",
+      "cut_max": "0,5",
+      "h_max": "(S/D)+P+E, cornișa la cel mult 10 m (supante admise)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2029-10-07",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08); modificată prin HCL 643/2025"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "643/2025",
+      "data": "2025-10-29",
+      "rezumat": "Lărgirea B-dului Muncii între str. G. G. Byron și strada „A”, reconfigurarea sensului giratoriu B-dul Muncii–str. Byron și racordarea străzii „A” la bulevard nu mai sunt executate de beneficiare, ci plătite în bani (50% înainte de autorizațiile din etapa 2, 50% înainte de recepția primului imobil din etapa 2), în corelare cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului; terenul dezmembrat pentru lărgirea B-dului Muncii și a str. Byron trece gratuit în domeniul public până la 15 noiembrie 2025. Pentru restul terenului rămân reglementările din 2022. Modificarea are valabilitate proprie de 7 ani, până la 29 octombrie 2032.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [
+    "Planșa mai are un corp (1S-3S)+P+7E în interiorul ansamblului, spre colțul de nord-vest, și unul (1S-3S)+P în partea de est, iar blocul U.T.R. de pe planșă trece și „(1S-3S)+P+7E” printre regimurile de înălțime; hotărârea numește doar (1-3S)+P+9E (frontul B-dului Muncii și intersecția cu str. Oașului), (1-3S)+P+6E (frontul sudic al străzii „A”) și (1-3S)+P+4E (frontul estic al str. Byron) (Art. 1).",
+    "Pentru S_Is_G hotărârea limitează cornișa la 10 m și admite supante; planșa dă doar regimul (S/D)+P+1E (Art. 1).",
+    "Blocul U.T.R. de pe planșă mai cere locuire de cel mult 70% din suprafața desfășurată, spații verzi de cel puțin 30% din ansamblu în U.T.R. M și de cel puțin 50% pe sol natural în S_Is_G, și ia ca suprafață de referință pentru POT/CUT parcela inițială a U.T.R. M (20.076 mp, înainte de dezmembrarea lărgirilor stradale); hotărârea nu le reia.",
+    "Lărgirea B-dului Muncii și a sensului giratoriu Muncii–Byron, desenate pe planșă, nu mai sunt în sarcina beneficiarelor, ci se plătesc în bani, iar circulația pe bulevard se corelează cu P.U.Z. pentru pasajul rutier B-dul Muncii–str. Oașului. Planșa rămâne cea aprobată în 2022 (modificat prin HCL 643/2025, Art. 1)."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z., inclusiv infrastructura rutieră, sunt suportate de beneficiare (Avizul Serviciului Siguranța Circulației nr. 558174/446/7.06.2022); pentru nr. cad. 354003 și 354005 rămân reglementările și investițiile din 2022 (confirmat prin HCL 643/2025).",
+    "Lărgirea str. G. G. Byron la profil de 18 m între B-dul Muncii și limita parcelei, din terenul propriu, cu o fâșie verde de 1,5 m și un trotuar de 1,5 m lângă parcelă.",
+    "Lărgirea B-dului Muncii între str. Byron și strada „A” (încă o bandă de 3,5 m, alveolă pentru stand de taxi cu 10 locuri, de cel puțin 55 m, pistă de biciclete de 1,5 m, spațiu verde tampon, trotuar nou de 3 m, cu mutarea stâlpilor tramvaiului și a rețelelor), reconfigurarea sensului giratoriu B-dul Muncii–str. Byron și racordarea străzii „A” la bulevard se transformă în echivalent bănesc, după devizul proiectantului, actualizat la data plății: 50% înainte de orice autorizație de construire din etapa 2 și 50% cel târziu înainte de recepția primului imobil din etapa 2 (modificat prin HCL 643/2025).",
+    "Strada nouă „A”, la profil de 15 m, se realizează și se asfaltează de beneficiare; intrarea și ieșirea dinspre B-dul Muncii se fac doar cu viraje la dreapta, cu bandă de decelerare pentru accesul de pe bulevard în strada „A”.",
+    "Pentru lucrările de drum și rețele se fac proiecte de specialitate și autorizație de construire; la D.T.A.C. trebuie avizul Serviciului Siguranța Circulației și al Poliției rutiere pentru semnalizare; amenajările respectă Legea nr. 101/2020 și normativul NP 051-2012.",
+    "Terenul pentru lărgirea B-dului Muncii și a str. Byron se dezmembrează și se înscrie în CF ca drum înainte de orice autorizație de construire; terenul dezmembrat (nr. cad. 354004) trece gratuit în domeniul public până la 15 noiembrie 2025, în loc de recepția finală a primei construcții din etapa 2, după amenajare (modificat prin HCL 643/2025).",
+    "Etapa 1 (clădirile în regim deschis de pe frontul sudic al străzii „A” și de pe frontul estic al str. Byron): înainte de autorizațiile pentru locuințele colective, strada „A” se echipează edilitar și se asfaltează; trotuarele și iluminatul stradal, până la recepția construcțiilor.",
+    "Înainte de recepția locuințelor colective, grădinița, finisată, cu parcela ei (S_Is_G), trece gratuit în proprietatea municipiului, iar municipiul primește drept de trecere pe strada „A”.",
+    "Etapa 2 (clădirile în regim închis de pe frontul B-dului Muncii și de la intersecția cu str. Oașului): autorizații de construire (în afară de rețele) doar după recepția finală a lucrărilor din etapa 1 și nu mai devreme de 2025.",
+    "Se plantează cel puțin 40 de arbori cu circumferința de minimum 35 cm (măsurată la 1 m de la colet), în aliniamentele de pe B-dul Muncii, strada „A” și str. Byron.",
+    "În zona mixtă se amenajează un scuar verde cu acces public nelimitat, de cel puțin 2.700 mp, pe latura nordică a străzii „A”.",
+    "Cel puțin 75% din locurile de parcare sunt în subsol, demisol sau parter; parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit; necesarul se calculează după Anexa 2 la regulamentul P.U.G.",
+    "Construcțiile C1 și C2 de pe nr. cad. 2872 se desființează.",
+    "Contractul de restructurare (Anexa 1; nr. 797153/12.10.2022) se completează cu un act adițional (HCL 643/2025, Art. 2)."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      2370,
+      4590
+    ],
+    "en": [
+      393949.1,
+      589517.0
+    ],
+    "px_per_m": 15.85,
+    "nord": 0
+  },
+  "repere": {
+    "P118_NW": [
+      589722.73,
+      393833.57
+    ],
+    "B8_SE": [
+      589510.63,
+      393940.23
+    ],
+    "I118_NW": [
+      589705.75,
+      393806.4
+    ],
+    "I118_SE": [
+      589673.31,
+      393862.02
+    ],
+    "B6A_NE": [
+      589610.52,
+      393867.1
+    ],
+    "P4_NE": [
+      589550.7,
+      393892.92
+    ],
+    "B8_NW": [
+      589557.43,
+      393908.76
+    ],
+    "H89e_NW": [
+      589576.11,
+      394034.83
+    ],
+    "AUCH_W": [
+      589780.88,
+      394047.89
+    ],
+    "P118_SE": [
+      589705.68,
+      393848.39
+    ],
+    "I118_E": [
+      589692.68,
+      393854.42
+    ],
+    "B6A_SE": [
+      589559.9,
+      393888.19
+    ],
+    "B8_SW": [
+      589506.47,
+      393929.93
+    ],
+    "H89m_SE": [
+      589560.36,
+      394032.87
+    ],
+    "H89e_SE": [
+      589563.54,
+      394047.89
+    ]
+  },
+  "repere_osm": {
+    "P118_NW": "colț de clădire (b277372508_0)",
+    "B8_SE": "colț de clădire (b277372051_2)",
+    "I118_NW": "colț de clădire (b277372425_0)",
+    "I118_SE": "colț de clădire (b277372425_4)",
+    "B6A_NE": "colț de clădire (b277372092_1)",
+    "P4_NE": "colț de clădire (b277371994_1)",
+    "B8_NW": "colț de clădire (b277372051_0)",
+    "H89e_NW": "colț de clădire (b439029536_0)",
+    "AUCH_W": "colț de clădire (b155046023_16)",
+    "P118_SE": "colț de clădire (b277372508_2)",
+    "I118_E": "colț de clădire (b277372425_3)",
+    "B6A_SE": "colț de clădire (b277372092_2)",
+    "B8_SW": "colț de clădire (b277372051_3)",
+    "H89m_SE": "colț de clădire (b439029532_2)",
+    "H89e_SE": "colț de clădire (b439029536_2)"
+  },
+  "limita_px": [
+    [
+      2112,
+      3933
+    ],
+    [
+      1893,
+      3387
+    ],
+    [
+      1881,
+      3350
+    ],
+    [
+      1441,
+      2291
+    ],
+    [
+      1219,
+      1748
+    ],
+    [
+      823,
+      672
+    ],
+    [
+      853,
+      658
+    ],
+    [
+      969,
+      632
+    ],
+    [
+      1165,
+      620
+    ],
+    [
+      1319,
+      632
+    ],
+    [
+      1547,
+      692
+    ],
+    [
+      2170,
+      929
+    ],
+    [
+      2743,
+      1190
+    ],
+    [
+      4553,
+      2191
+    ],
+    [
+      4454,
+      2419
+    ],
+    [
+      3841,
+      2597
+    ],
+    [
+      4051,
+      3369
+    ],
+    [
+      3984,
+      3383
+    ],
+    [
+      3949,
+      3402
+    ],
+    [
+      3908,
+      3410
+    ],
+    [
+      3800,
+      3453
+    ],
+    [
+      3612,
+      3508
+    ],
+    [
+      3575,
+      3516
+    ],
+    [
+      3312,
+      3596
+    ],
+    [
+      3199,
+      3639
+    ],
+    [
+      3049,
+      3678
+    ],
+    [
+      2748,
+      3768
+    ],
+    [
+      2557,
+      3808
+    ],
+    [
+      2295,
+      3892
+    ],
+    [
+      2217,
+      3906
+    ],
+    [
+      2145,
+      3937
+    ]
+  ],
+  "hotarare_text": "documente/2022-776/hotarare.txt"
+}
