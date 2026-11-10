@@ -1,0 +1,139 @@
+{
+  "id": "2026-63",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 63,
+    "an": 2026,
+    "data_sedinta": "2026-02-16",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-63-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/03/03/HCL-63.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, str. Luminii nr. 19-21",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 200,
+    "denumire": "U.04 Plan reglementări urbanistice",
+    "scara": "nescrisă în cartuș (1:500 după caroiaj: 15,72 px/m la 200 ppi; cotele de 3 și 6 m dau 15,4-16,4 px/m)",
+    "nota": "PDF-ul are 17 pagini: pp. 1-2 hotărârea, pp. 3-7 regulamentul local de urbanism (Anexa 1), p. 8 Anexa 2, planșa U.04 „Plan reglementări urbanistice” scanată alb-negru pe A3, semnată și ștampilată, pp. 9-13 și 16-17 avize, p. 14 extrasul din PUG 1:2000 cu zona de reglementat, p. 15 aceeași planșă U.04, color, cu ștampila „Vizat spre neschimbare” a avizului arhitectului-șef nr. 101/8.07.2025 (proiect din 04.06.2025). S-a folosit p. 15 (200 ppi), mult mai clară. Nordul e rotit: săgeata desenată arată spre dreapta-sus, iar caroiajul dă 60,6° în sensul acelor de ceasornic. Legenda cuprinde rândurile POT/CUT pentru UTR Liu_P de sub bilanț și cheia simbolurilor; au rămas afară bilanțul teritorial, calculul locurilor de parcare, cele două ortofoto-uri de încadrare cu lista lor, cartușul și ștampilele. Bilanțul nu se închide: UTR ULiu existent / Liu_P propus „1331,1 mp (84,1%)” și UTR A 236 mp (15,9%), total 1483 mp; 84,1% din 1483 mp (adică 1483 − 236) sunt 1247 mp. Liu_P preia UTR-ul propus prin PUZ-ul aprobat cu HCL 959/2017 (prelungire str. Luminii), al cărui contur e desenat cu albastru și în jurul parcelei."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate. Fondul topografic păstrează din caroiajul Stereo 70 de 50 m doar trei liniuțe etichetate cu Nordul (583050 la (372-401, 1676-1727), 583100 la (1056-1096, 1282-1354), 583150 la (1736-1772, 893-958)) și o singură cruce, fără etichete, la (1488, 458), pe aceeași dreaptă cu liniuța 583150; Estul crucii, 391900, vine din pasul de 50 m (poziția din OSM o pune la ~5 m de el, sub jumătate de pas). Nu sunt destule puncte pentru metoda caroiajului, așa că georeferențierea folosește repere OpenStreetMap (georef_metoda osm, extrasul OSM din 2026-11-08), potrivire de similaritate, cu limita trasată pe planșă (`limita_px`, pe linia roșie întreruptă „Amplasament reglementat prin P.U.Z.”). Control: crucea de caroiaj C391900_583150 și colțuri ale caselor existente desenate pe fondul topografic și prezente în OSM: c17nv și c17se (casa nr. 17, OSM 544200212), c15ne și c15sv (casa nr. 15, OSM 544200213), c13nv și c13se (casa nr. 13, OSM 544163590), c20ne și c20se (casa nr. 20, OSM 544163580); verificare: c18nv și c18se (casa nr. 18, cu decroșurile pe latura de jos, OSM 278378772). Ancora de pornire: nodul OSM în care ramura de sud-vest a str. Luminii se desparte din drumul spre str. Eugen Ionesco (căile 169340384 și 356909881, E 391963,4 N 583074,5), la (932, 1912) pe planșă, cu 15,72 px/m (distanța dintre liniile de caroiaj) și nordul la 60,6° (direcția liniuțelor); `geocode --streets` și `osm-snap` nu dau intersecțiile de aici, pentru că toate străzile de pe planșă se numesc Strada Luminii. Potrivirea dă 15,6 px/m și o rotație de 59,7°.",
+    "suprafata_declarata_m2": 1483,
+    "puncte": {},
+    "nota": "Verificări cu caroiajul planșei: cu potrivirea publicată, cele trei liniuțe de Nord cad la N 583049,6-583150,3 (abatere de cel mult 0,4 m), iar crucea are reziduul 1,6 m. Numai din caroiaj (cele trei linii de Nord și crucea, similaritate) planșa iese la 15,72 px/m, adică 1:500 la 200 ppi, cu rotația 60,6° și liniile la cel mult 0,2 m; așa poziționată, casele desenate cad pe acoperișurile lor din ortofoto (Esri), iar nodul str. Luminii de la (932, 1912) cade la 0,9 m de cel din OSM. Contururile OSM ale caselor de aici sunt deplasate cu 2-3 m spre vest-nord-vest față de acoperișuri, de aceea limita publicată stă în medie la ~2,2 m (2,0-2,7 m) spre vest de poziționarea după caroiaj; precizia publicată, ±3 m, o acoperă. Casele 16, 16A, 16B și 22 au rămas în afara potrivirii: în OSM, 16A și 16B sunt deplasate cu ~5-7 m față de acoperișuri, iar 16 (20 m în OSM, 14 m pe planșă) și 22 nu au forma celor desenate. Casele autorizate din PUZ-ul vecin (A.C. 2021-2023), desenate întrerupt, nu s-au folosit. Suprafața: 1483 mp, din Art. 1 (nr. cad. 330719 și 331490) și din totalul bilanțului; aria trasată e 1510 mp cu scara potrivirii (1491 mp cu scara caroiajului)."
+  },
+  "gcp_px": {
+    "C391900_583150": [1488, 458],
+    "c20se": [1294, 1556],
+    "c13se": [756, 1802],
+    "c17nv": [653, 1024],
+    "c17se": [806, 1265],
+    "c15ne": [751, 1371],
+    "c15sv": [494, 1517],
+    "c13nv": [512, 1632],
+    "c20ne": [1300, 1350]
+  },
+  "verificare_px": {
+    "c18nv": [1091, 1666],
+    "c18se": [1390, 1854]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [3632, 1520, 4690, 1612],
+    [3632, 1618, 4625, 1975]
+  ],
+  "utr": [
+    {
+      "cod": "Liu_p",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective (familiale) cu cel mult două unități locative, regim izolat; retrageri: 3 m de la aliniament (garajele 6 m), cel puțin 3 m de la limitele laterale (garajele se pot alipi cu calcan de cel mult 2,80 m), de la limita posterioară cel puțin înălțimea clădirii, minimum 6 m",
+      "pot_max": "35%",
+      "cut_max": "0,9 ADC/mp",
+      "h_max": "trei niveluri supraterane ((S)+P+E+M/R sau D+P+M/R); max. 8 m la cornișă sau atic, 12 m la coamă"
+    },
+    {
+      "cod": "A",
+      "denumire": "Zona terenurilor și unităților agricole situate în intravilan (236 mp după bilanțul planșei, fâșia de vest); se mențin prevederile R.L.U. al P.U.G."
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-02-16"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Lângă bilanț, planșa scrie că „se propune edificarea a cinci locuințe familiale”, cu câte cel mult 2 locuri de parcare pe parcela proprie, „total: 10 locuri de parcare propuse”, iar bilanțul scrie „maxim 8 locuri de parcare”; Art. 1 nu fixează numărul de locuințe și cere, pe parcelă, cel puțin un loc de parcare pentru clădiri cu AU sub 100 mp și cel puțin două peste 100 mp, iar regulamentul (Anexa 1) admite doar parcele de cel puțin 350 mp, cu front la stradă de cel puțin 12 m.",
+    "Planșa nu dă înălțimi; Art. 1: trei niveluri supraterane ((S)+P+E+M/R, D+P+M/R), 8 m la cornișă sau atic și 12 m la coamă."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiari.",
+    "Pe fiecare parcelă, un singur acces pietonal și un singur acces carosabil, din str. Luminii; accesul carosabil are cel mult 3,5 m lățime; pentru aleile și platformele din interiorul parcelelor se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei: cel puțin un loc pentru clădiri cu AU sub 100 mp, cel puțin două pentru clădiri cu AU peste 100 mp.",
+    "Toate utilitățile se racordează la rețelele publice; apele meteorice nu pot fi conduse spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise.",
+    "Fiecare parcelă are o platformă sau un spațiu (eventual în împrejmuire) pentru colectarea deșeurilor menajere pe 5 fracții, accesibil din spațiul public.",
+    "Pe terenul din U.T.R. A (236 mp) se mențin prevederile R.L.U. al P.U.G.",
+    "Din regulament (Anexa 1): o parcelă e construibilă dacă are front la stradă de cel puțin 12 m, cel puțin 350 mp și formă regulată; spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare parcelă."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [932, 1912],
+    "en": [391963.4, 583074.5],
+    "px_per_m": 15.72,
+    "nord": 60.6
+  },
+  "repere": {
+    "C391900_583150": [583150.0, 391900.0],
+    "c20se": [583104.94, 391954.53],
+    "c13se": [583067.88, 391950.58],
+    "c17nv": [583083.76, 391901.64],
+    "c17se": [583085.53, 391920.71],
+    "c15ne": [583080.57, 391924.67],
+    "c15sv": [583061.89, 391925.02],
+    "c13nv": [583059.47, 391929.56],
+    "c20ne": [583112.96, 391941.22],
+    "c18nv": [583090.42, 391951.82],
+    "c18se": [583101.6, 391973.58]
+  },
+  "repere_osm": {
+    "c20se": "colț de clădire (b544163580_1)",
+    "c13se": "colț de clădire (b544163590_1)",
+    "c17nv": "colț de clădire (b544200212_2)",
+    "c17se": "colț de clădire (b544200212_0)",
+    "c15ne": "colț de clădire (b544200213_1)",
+    "c15sv": "colț de clădire (b544200213_3)",
+    "c13nv": "colț de clădire (b544163590_3)",
+    "c20ne": "colț de clădire (b544163580_2)",
+    "c18nv": "colț de clădire (b278378772_0)",
+    "c18se": "colț de clădire (b278378772_6)"
+  },
+  "limita_px": [
+    [864, 165],
+    [971, 158],
+    [1196, 551],
+    [1148, 586],
+    [1123, 606],
+    [1097, 629],
+    [1064, 661],
+    [1048, 678],
+    [1024, 707],
+    [1002, 736],
+    [989, 756],
+    [969, 788],
+    [960, 806],
+    [943, 838],
+    [937, 854],
+    [923, 888],
+    [917, 906],
+    [906, 939],
+    [902, 956],
+    [897, 977],
+    [551, 967],
+    [456, 848],
+    [650, 330]
+  ]
+}

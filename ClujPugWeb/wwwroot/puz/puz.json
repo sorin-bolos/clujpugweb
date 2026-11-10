@@ -6017,6 +6017,155 @@
   ]
  },
  {
+  "id": "2026-63",
+  "localitate": "cluj",
+  "hcl": "63/2026",
+  "data": "2026-02-16",
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, str. Luminii nr. 19-21",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-63-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/03/03/HCL-63.pdf",
+  "utr": [
+   {
+    "cod": "Liu_p",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective (familiale) cu cel mult două unități locative, regim izolat; retrageri: 3 m de la aliniament (garajele 6 m), cel puțin 3 m de la limitele laterale (garajele se pot alipi cu calcan de cel mult 2,80 m), de la limita posterioară cel puțin înălțimea clădirii, minimum 6 m",
+    "pot_max": "35%",
+    "cut_max": "0,9 ADC/mp",
+    "h_max": "trei niveluri supraterane ((S)+P+E+M/R sau D+P+M/R); max. 8 m la cornișă sau atic, 12 m la coamă"
+   },
+   {
+    "cod": "A",
+    "denumire": "Zona terenurilor și unităților agricole situate în intravilan (236 mp după bilanțul planșei, fâșia de vest); se mențin prevederile R.L.U. al P.U.G."
+   }
+  ],
+  "suprafata_m2": 1510,
+  "imagine": "puz/2026-63/plansa.webp",
+  "bounds": {
+   "west": 23.5831225,
+   "south": 46.7385698,
+   "east": 23.5837819,
+   "north": 46.7390626
+  },
+  "limita": [
+   [
+    23.5831445,
+    46.7389861
+   ],
+   [
+    23.5831832,
+    46.7390418
+   ],
+   [
+    23.5835625,
+    46.7390441
+   ],
+   [
+    23.5835684,
+    46.7390101
+   ],
+   [
+    23.5835727,
+    46.7389919
+   ],
+   [
+    23.5835789,
+    46.7389724
+   ],
+   [
+    23.5835887,
+    46.7389468
+   ],
+   [
+    23.5835946,
+    46.738934
+   ],
+   [
+    23.583606,
+    46.7389138
+   ],
+   [
+    23.5836181,
+    46.7388945
+   ],
+   [
+    23.5836274,
+    46.7388824
+   ],
+   [
+    23.5836426,
+    46.7388633
+   ],
+   [
+    23.5836521,
+    46.7388537
+   ],
+   [
+    23.5836685,
+    46.7388362
+   ],
+   [
+    23.5836777,
+    46.7388287
+   ],
+   [
+    23.5836968,
+    46.7388121
+   ],
+   [
+    23.5837075,
+    46.738804
+   ],
+   [
+    23.5837271,
+    46.7387891
+   ],
+   [
+    23.5837379,
+    46.7387824
+   ],
+   [
+    23.5837512,
+    46.7387739
+   ],
+   [
+    23.5836021,
+    46.738603
+   ],
+   [
+    23.5834762,
+    46.7385888
+   ],
+   [
+    23.5831773,
+    46.7388321
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 9,
+   "rms_m": 1.73,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-63/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-02-16"
+  },
+  "diferente_fata_de_plansa": [
+   "Lângă bilanț, planșa scrie că „se propune edificarea a cinci locuințe familiale”, cu câte cel mult 2 locuri de parcare pe parcela proprie, „total: 10 locuri de parcare propuse”, iar bilanțul scrie „maxim 8 locuri de parcare”; Art. 1 nu fixează numărul de locuințe și cere, pe parcelă, cel puțin un loc de parcare pentru clădiri cu AU sub 100 mp și cel puțin două peste 100 mp, iar regulamentul (Anexa 1) admite doar parcele de cel puțin 350 mp, cu front la stradă de cel puțin 12 m.",
+   "Planșa nu dă înălțimi; Art. 1: trei niveluri supraterane ((S)+P+E+M/R, D+P+M/R), 8 m la cornișă sau atic și 12 m la coamă."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin documentație sunt suportate de beneficiari.",
+   "Pe fiecare parcelă, un singur acces pietonal și un singur acces carosabil, din str. Luminii; accesul carosabil are cel mult 3,5 m lățime; pentru aleile și platformele din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru clădiri cu AU sub 100 mp, cel puțin două pentru clădiri cu AU peste 100 mp.",
+   "Toate utilitățile se racordează la rețelele publice; apele meteorice nu pot fi conduse spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise.",
+   "Fiecare parcelă are o platformă sau un spațiu (eventual în împrejmuire) pentru colectarea deșeurilor menajere pe 5 fracții, accesibil din spațiul public.",
+   "Pe terenul din U.T.R. A (236 mp) se mențin prevederile R.L.U. al P.U.G.",
+   "Din regulament (Anexa 1): o parcelă e construibilă dacă are front la stradă de cel puțin 12 m, cel puțin 350 mp și formă regulată; spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare parcelă."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
