@@ -1,0 +1,100 @@
+{
+  "id": "2026-549",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Planșa nu are inventar de coordonate și nici caroiaj Stereo 70, iar metoda cu repere OpenStreetMap n-a putut rula: din sesiunea cloud, Overpass (overpass-api.de) a resetat fiecare conexiune la negocierea TLS (2026-11-10, între 03:59 și 04:15 UTC, inclusiv `geocode --streets` cu reîncercările lui); de reluat cu metoda OSM când Overpass răspunde.",
+  "hcl": {
+    "nr": 549,
+    "an": 2026,
+    "data_sedinta": "2026-08-06",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-549-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/549.pdf"
+  },
+  "titlu": "P.U.Z. – de restructurare urbană, dezvoltare ansamblu cu funcțiuni mixte, str. Septimiu Severus nr. 4",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 300,
+    "denumire": "U.11 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa e singura din PDF: p. 14, A3 (pagina e rotită 90°, desenul pe lat), 300 ppi, ștampilată „Anexa 3 la Hotărârea nr. 549/2026”; pp. 1-2 sunt hotărârea, pp. 3-8 contractul de restructurare (Anexa 1), pp. 9-13 regulamentul local de urbanism (Anexa 2). Cartușul: proiect U02/2024, faza P.U.Z., 04.2026, planșa U.11 „Reglementări urbanistice”, scara „1:500, 1:1,39”. Scara imaginii: ~11,3 px/m (laturile parcelei cotate 45,95, 52,51, 42,74 și 126,89 m dau 11,1-11,3 px/m; profilurile de 10 m, 11,0-11,3), adică ~1:1060 la 300 ppi: desenul de 1:500 e tipărit redus de ~2,1 ori. Nordul e în sus (săgeata din desen, la ~(3170, 1350), și cea de lângă cartuș). Scanarea e o fotocopie gri, granulată, cu cotele mici greu de citit. Legenda cuprinde cheia simbolurilor (banda „Legenda situația propusă” de sub secțiuni, tăiată pe cele 7 coloane) și etichetele zonelor din desen (RIM_A, S_RIM, Va, Ve); au rămas afară secțiunile longitudinală și transversală, tabelul vegetației, bilanțurile teritoriale, necesarul de parcaje, profilurile stradale, cartușul și etichetele care numesc proprietarii parcelelor vecine."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate și nici caroiaj Stereo 70 (nici cruci fără etichete); celelalte pagini ale PDF-ului sunt text. Rămâne metoda cu repere OpenStreetMap (georef_metoda osm) și limita trasată pe planșă (`limita_px`).",
+    "suprafata_declarata_m2": 5500,
+    "puncte": {},
+    "nota": "Suprafața: 5500 mp, din Art. 1 (teren identificat prin nr. cad. 259849), din bilanțul teritorial al planșei (existent: S_RIM 5487,34 mp + RRM1 12,66 mp; propus: RIM_A 5500 mp) și din eticheta „Suprafața teren conform carte funciară = 5500 mp”. Zona reglementată e parcela 259849 întreagă, cu tot cu fâșiile hașurate care se dezmembrează pentru str. Antonius Pius (la nord) și pentru regularizarea str. Fabricii (la est); limita e linia de proprietate cu triunghiuri („Limita de proprietate”), nu linia groasă întreruptă („Limita zonei în studiu”, dreptunghiul mare). Limita trasată (`limita_px`), în sensul acelor de ceasornic: colțul NV (1005, 1736); latura nordică ușor oblică (cota 52,51) până la (1595, 1711); decroșul spre sud de lângă magazii (cota 11,68) până la (1601, 1836); spre est (cota 42,74) până la (2076, 1828); treapta de 3,44 m spre nord până la (2076, 1782); spre est pe fața de sud a Căminului de nefamiliști (cotele 18,41 + 14,77) până la colțul NE (2450, 1765), lângă str. Fabricii; latura estică, pe marginea exterioară a fâșiei de regularizare a str. Fabricii, prin (2545, 1895), (2605, 1985), (2668, 2085) până la (2685, 2118); latura scurtă spre SV (cota 17,74) până la (2470, 2203); latura sudică (cota 126,89) până la colțul SV (1038, 2250); latura vestică (cota 45,95). La 11,3 px/m aria trasată e 5509 mp (+0,2%). Latura estică e cea mai nesigură: în fotocopie linia de proprietate se confundă cu marginile fâșiei hașurate și ale trotuarului str. Fabricii; de verificat cu `overlay` după potrivire. Pregătit pentru metoda OSM (încercarea din 2026-11-10, sesiune cloud, oprită pentru că Overpass nu răspundea): px_per_m 11,3, nord 0°. `osm_ancora` e punctul de adresă Nominatim al casei str. Fabricii nr. 127 (E 394400,4, N 589108,7), pus pe centrul casei 127 de pe planșă (~(2400, 1295)), nu o intersecție de străzi: bun la ~5-10 m. Pe ortofotoul Esri locul se confirmă: zona industrială de la vest de str. Fabricii, la nord de Someșul Mic și de podul str. Fabricii, la sud de șirul de case 121-129; după poziția Căminului pe ortofoto, parcela ar fi pe la E 394285-394412, N 589019-589070 (estimare de ±10 m). Repere bune (clădiri existente desenate pe planșă): Căminul de nefamiliști P+4E (nr. cad. 268912, nr. 125A), dreptunghiul ~(2105, 1475)-(2280, 1745), pe ortofoto probabil clădirea cu acoperiș gri-albăstrui de lângă str. Fabricii; casele 125, 127, 129, oblice față de stradă, ~(2290-2500, 1080-1650); hala P+1E și atelierul din stânga sus, ~(430-750, 1390-1600); halele P+2E și P+1E și clădirea P+2E de la sud de parcelă, ~(1850-2330, 2300-2700); magaziile de la nord, ~(1600-1810, 1700-1840). Intersecții posibile: str. Fabricii cu drumul de acces spre vest de la nord de casa 129 (în afara planșei, sus) - de căutat cu `osm`. În interiorul parcelei planșa nu desenează clădiri, deși ortofotoul arată o hală mare acolo (probabil de demolat)."
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [245, 875, 700, 1048],
+    [755, 893, 1205, 1048],
+    [1270, 893, 1712, 1048],
+    [1782, 893, 2222, 1048],
+    [2290, 903, 2575, 1048],
+    [2800, 903, 3255, 1032],
+    [3320, 905, 3760, 1000],
+    [455, 1915, 790, 2062],
+    [455, 2318, 1058, 2476],
+    [740, 2950, 1470, 3032],
+    [740, 3178, 1500, 3250]
+  ],
+  "utr": [
+    {
+      "cod": "Rim_A",
+      "denumire": "Zonă mixtă: structură funcțională mixtă, cu locuire colectivă, activități terțiare și administrative; locuirea ocupă cel mult 70% din suprafața construită desfășurată totală; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "33 m; (1-3)S+P+8E+R, respectiv (1-3)S+P+6E dincolo de 75 m de la aliniamentul str. Fabricii (nr. cad. 335629); în plus un nivel tehnic de cel mult 20% din suprafața construită a ultimului nivel"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-08-06",
+    "verificat": "2026-11-10: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă doar regimul de înălțime („(1-3)S+P+8E+R” lângă str. Fabricii și „(1-3)S+P+6” dincolo de cota de 75 m); hotărârea scrie (1-3)S+P+6E și adaugă H maxim = 33 m și un nivel tehnic de cel mult 20% din ultimul nivel.",
+    "Hotărârea limitează, pentru nivelurile cu locuințe, aria construită la 40% din suprafața terenului, iar locuirea la cel mult 70% din suprafața construită desfășurată; planșa nu le arată."
+  ],
+  "conditii": [
+    "Prin grija și pe cheltuiala investitorului (conform contractului de restructurare, Anexa 1): un spațiu (unitate individuală) de cel puțin 200 mp utili la parterul imobilului, cu acces din exterior, trece gratuit în proprietatea Municipiului Cluj-Napoca, la stadiul semifinisat, în cel mult 6 luni de la recepția imobilului.",
+    "Terenul necesar regularizării str. Fabricii (circulația publică nr. cad. 335629) și realizării str. Antonius Pius se dezmembrează din parcela 259849 și se înscrie în CF ca „drum” înainte de autorizația de construire a imobilului mixt; până la recepția construcției trece gratuit în domeniul public.",
+    "Retrageri: cel puțin 10 m față de str. Fabricii (nr. cad. 335629) și 5 m față de str. Antonius Pius, conform planșei; cel puțin 6 m față de limitele laterale și posterioară.",
+    "Accesul auto și pietonal se face direct din str. Fabricii (nr. cad. 335629); accese suplimentare din str. Antonius Pius se admit într-o etapă ulterioară, după realizarea integrală a străzii.",
+    "Parcarea se face în parcelă, cel puțin 75% în spații subterane, cu necesarul din Anexa 2 a R.L.U. al P.U.G.; ~10% din locuri pentru vizitatori; parcajele de la sol stau la cel puțin 5 m de ferestrele camerelor de locuit.",
+    "Indicii (POT, CUT, aria construită de 40% pentru nivelurile cu locuințe) se calculează la suprafața parcelei inițiale (nr. cad. 259849), deci și după cedarea fâșiilor de drum.",
+    "Zona se echipează edilitar complet înainte de autorizarea oricărei construcții; clădirile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în clădiri; cablurile aeriene sunt interzise; un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public.",
+    "La faza D.T.A.C.: avizul Autorității Aeronautice Civile Române pentru construcțiile de peste 25 m și avizarea proiectului în Comisia de estetică urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiara documentației."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [2400, 1295],
+    "en": [394400.4, 589108.7],
+    "px_per_m": 11.3,
+    "nord": 0
+  },
+  "limita_px": [
+    [1005, 1736],
+    [1595, 1711],
+    [1601, 1836],
+    [2076, 1828],
+    [2076, 1782],
+    [2450, 1765],
+    [2545, 1895],
+    [2605, 1985],
+    [2668, 2085],
+    [2685, 2118],
+    [2470, 2203],
+    [1038, 2250]
+  ]
+}
