@@ -27,6 +27,7 @@ is derived from it and can be rebuilt at any time:
     tools/puz/puz.sh doctor                                      # packages, poppler, network, git
     tools/puz/puz.sh sync-docs                                   # fill this machine's documents backup
     tools/puz/puz.sh merge-index BASE OURS THEIRS                # git merge driver for puz.json
+    tools/puz/puz.sh retire-expired [--write]                    # take expired PUZ-uri off the map
 
 puz.sh runs this file with `py -3.13` on the Windows laptop and `python3` elsewhere
 (Claude Code cloud sessions); setup.sh installs the dependencies on Linux.
@@ -1409,6 +1410,56 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
     print("published:", d, "| index entries:", len(index))
 
 
+def cmd_retire_expired(args):
+    """Takes off the map the published PUZ-uri whose validity, extensions included, has
+    ended: since 2026-11-11 expired PUZ-uri are not on the map. Removes the puz.json
+    entry and ClujPugWeb/wwwroot/puz/<id>/, and marks the recipe "expirat"; the recipe
+    keeps all its work, so should an extension turn up, add it to `prelungiri`, drop
+    `stare` and build again. Amendments folded into the base stay "integrat" in it.
+    Lists only, unless --write."""
+    import shutil
+    def dmy(iso):
+        return "%s.%s.%s" % tuple(reversed(iso.split("-"))) if iso else "?"
+    today, index, gone = today_iso(), load_index(), []
+    for e in index:
+        p = os.path.join(ROOT, "puzuri", args.folder, e["id"] + ".json")
+        if not os.path.exists(p):
+            continue
+        r = load(p)
+        end = validity_end(r)
+        if not end or end >= today:
+            continue
+        v = r.get("valabilitate") or {}
+        term = "%s ani de la ședința din %s" % (v.get("ani"), dmy(r["hcl"].get("data_sedinta"))) if v.get("ani") else ""
+        ext = ", ".join("HCL " + x["hcl"] for x in r.get("prelungiri", []) if x.get("hcl"))
+        term = "; ".join(t for t in (term, ext and "prelungit prin " + ext) if t)
+        motiv = "Valabilitate expirată la %s%s. Fusese publicat; scos de pe hartă la %s." % (
+            dmy(end), " (%s)" % term if term else "", dmy(today))
+        print("%-10s expirat la %s  %s" % (e["id"], dmy(end), e.get("titlu", "")[:70]))
+        if args.write:
+            # Two lines after "localitate", the rest of the file as it was (some recipes
+            # were laid out by hand; dump_recipe would reflow them).
+            with open(p, encoding="utf-8", newline="") as f:
+                text = f.read()
+            nl = "\r\n" if "\r\n" in text else "\n"
+            m = re.search(r'^([ \t]*)"localitate": .*,(?=\r?$)', text, re.M)
+            if m and "stare" not in r and "motiv" not in r:
+                text = text[:m.end()] + "".join(
+                    '%s%s%s: %s,' % (nl, m.group(1), json.dumps(k), json.dumps(val, ensure_ascii=False))
+                    for k, val in (("stare", "expirat"), ("motiv", motiv))) + text[m.end():]
+                with open(p, "w", encoding="utf-8", newline="") as f:
+                    f.write(text)
+            else:
+                r.update({"stare": "expirat", "motiv": motiv}); dump_recipe(r, p)
+            assert load(p).get("stare") == "expirat", p
+            shutil.rmtree(os.path.join(WWW, "puz", e["id"]), ignore_errors=True)
+        gone.append(e["id"])
+    if args.write and gone:
+        save_index([e for e in index if e["id"] not in gone])
+    print("%d PUZ-uri publicate au expirat%s" % (len(gone), (
+        ": scoase de pe hartă" if args.write else "; --write le scoate") if gone else ""))
+
+
 def cmd_build(r, args):
     # `stare`: absent while being worked on; "oprit" when it cannot be done (with
     # `motiv`), "integrat" when it is an amendment folded into its base PUZ
@@ -1669,7 +1720,11 @@ def cmd_audit(r, args):
         ref = "%d/%d" % (r["hcl"]["nr"], r["hcl"]["an"])
         mods = [m if isinstance(m, str) else m.get("hcl") for m in (base_entry or {}).get("modificat_de", [])]
         checks.append("integrat în %s" % base)
-        if not base_entry:
+        base_path = os.path.join(ROOT, folder, "%s.json" % base)
+        base_expired = os.path.exists(base_path) and load(base_path).get("stare") == "expirat"
+        if not base_entry and base_expired:
+            checks.append("baza %s a expirat și e scoasă de pe hartă" % base)
+        elif not base_entry:
             problems.append("integrat în %s, care nu e publicat" % base)
         elif ref not in mods:
             problems.append("%s nu apare în `modificat_de` la %s" % (ref, base))
@@ -1929,6 +1984,8 @@ def main():
     s.add_argument("--write", action="store_true"); s.add_argument("--live", action="store_true", help=LIVE_HELP)
     s = sub.add_parser("osm-extract", help="refresh the OSM extract from Geofabrik (laptop; needs pyosmium)")
     s.add_argument("--pbf", help="an already downloaded romania-latest.osm.pbf")
+    s = sub.add_parser("retire-expired", help="take expired PUZ-uri off the map (lists only, unless --write)")
+    s.add_argument("--folder", default="cluj-napoca"); s.add_argument("--write", action="store_true")
     s = sub.add_parser("merge-index", help="git merge driver for puz.json (set up by the batch skill)")
     s.add_argument("base"); s.add_argument("ours"); s.add_argument("theirs")
     s = sub.add_parser("caroiaj", help="label the crosses of an unlabelled Stereo70 grid")
@@ -1936,9 +1993,10 @@ def main():
     args = ap.parse_args()
     if args.cmd == "new":
         return cmd_new(args)
-    if args.cmd in ("geocode", "next", "sync-docs", "doctor", "osm-extract", "merge-index"):
+    if args.cmd in ("geocode", "next", "sync-docs", "doctor", "osm-extract", "merge-index", "retire-expired"):
         return {"geocode": cmd_geocode, "next": cmd_next, "sync-docs": cmd_sync_docs, "doctor": cmd_doctor,
-                "osm-extract": cmd_osm_extract, "merge-index": cmd_merge_index}[args.cmd](args)
+                "osm-extract": cmd_osm_extract, "merge-index": cmd_merge_index,
+                "retire-expired": cmd_retire_expired}[args.cmd](args)
     r = load(args.recipe)
     {"fetch": cmd_fetch, "render": cmd_render, "grid": cmd_grid, "predict": cmd_predict,
      "vertices": cmd_vertices, "overlay": cmd_overlay, "hcl": cmd_hcl, "related": cmd_related,

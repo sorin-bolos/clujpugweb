@@ -118,12 +118,19 @@ that adds it.
      before permits or before reception, land to transfer, works the investor
      pays for.
 
-   Since 2026-11-11 a PUZ whose validity, extensions included, ended before it
-   was published is not put on the map. Its recipe gets `"stare": "expirat"`
+   Since 2026-11-11 expired PUZ-uri are not on the map. A PUZ whose validity,
+   extensions included, ended before it was published gets `"stare": "expirat"`
    with the term in `motiv`, and `build` refuses to publish it. The add-puz skill
-   checks the validity right after `new`, before any work on the plate. PUZ-uri
-   published earlier, and those that expire later, stay on the map; the info
-   window says the term has passed.
+   checks the validity right after `new`, before any work on the plate.
+
+   A published PUZ whose term passes stays on the map, the info window saying so,
+   until `puz.sh retire-expired --write` takes it off. Without `--write` it only
+   lists them. It removes the map entry and `ClujPugWeb/wwwroot/puz/<id>/`, and
+   adds `stare` and `motiv` to the recipe, which keeps all its work. Amendments
+   folded into it stay `integrat`. Run `related` on each first: an extension
+   missing from `prelungiri` keeps it valid. Should one turn up after it was taken
+   off, add it to `prelungiri`, drop `stare` and build again. The 14 published
+   before the rule came off on 2026-11-12.
 8. `puz.py build` runs both checks, warps with GDAL, writes the legend, and draws
    `puz_cache/<id>/check_imagery.png`: Esri imagery next to the overlay on top of
    it. **Look at it.** The boundary should sit on the real plot, with drawn roads
@@ -382,7 +389,8 @@ Setting up the cloud environment (claude.ai/code, environment settings):
    years): `/puz-batch 30 2025 - lucrează pe branch-ul puz-cluj și împinge acolo
    fiecare PUZ`.
 5. **After.** On the laptop, `git pull`, then `puz.sh sync-docs` for the documents
-   backup.
+   backup. Now and then, `puz.sh retire-expired` lists the published PUZ-uri whose
+   term has passed since (see step 7 of the procedure).
 
 What the cloud costs: a PUZ takes about 15-25 minutes and 200 k tokens of an
 agent's work, counted against the plan's usage like a local session. A batch
