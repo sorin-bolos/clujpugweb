@@ -16707,6 +16707,114 @@
   ]
  },
  {
+  "id": "2025-57",
+  "localitate": "cluj",
+  "hcl": "57/2025",
+  "data": "2025-02-17",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Kós Károly nr. 11 A",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-57-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/06/24/HCL-57.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective (familiale, cu două unități locative) și anexele lor, regim de construire izolat. Parcela nr. cad. 351154 (3.941 mp; înainte Liu, cu 13,2 mp în ULiu) se împarte în 5 parcele construibile și o parcelă pentru strada de acces nou propusă (ampriză 9 m, cu loc de întoarcere), inclusiv terenul pentru regularizarea str. Kós Károly. Parcela construibilă minimă 350 mp; sub 500 mp numai locuințe individuale",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 3941,
+  "imagine": "puz/2025-57/plansa.webp",
+  "bounds": {
+   "west": 23.5877437,
+   "south": 46.7379667,
+   "east": 23.588919,
+   "north": 46.7387924
+  },
+  "limita": [
+   [
+    23.588436,
+    46.7384368
+   ],
+   [
+    23.5886592,
+    46.7387447
+   ],
+   [
+    23.5886541,
+    46.7387461
+   ],
+   [
+    23.5885455,
+    46.7387714
+   ],
+   [
+    23.5883771,
+    46.738539
+   ],
+   [
+    23.5882318,
+    46.7385727
+   ],
+   [
+    23.5880865,
+    46.7386064
+   ],
+   [
+    23.5880917,
+    46.7386538
+   ],
+   [
+    23.587816,
+    46.7387166
+   ],
+   [
+    23.5878008,
+    46.7385055
+   ],
+   [
+    23.5878416,
+    46.7384972
+   ],
+   [
+    23.5877802,
+    46.7382264
+   ],
+   [
+    23.588696,
+    46.7379954
+   ],
+   [
+    23.5888844,
+    46.7383027
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.12
+  },
+  "legenda": "puz/2025-57/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-02-17"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru Liu* doar H max. 12 m; Art. 1 adaugă o înălțime maximă de 8 m la cornișa superioară sau la aticul ultimului nivel neretras (cei 12 m sunt la coamă sau la aticul nivelului retras). P.O.T. 35%, C.U.T. 0,9 și regimul de înălțime sunt aceleași în text și pe planșă; procentul minim de spații verzi (40%) e doar pe planșă și în Anexa 1.",
+   "Parcelarea de pe planșă respectă pragurile din Art. 1: loturi de 850,30, 608,00, 404,00, 689,50 și 655,60 mp și strada de 722,20 mp; pe lotul 3 (404 mp, sub 500 mp) e prevăzută o singură locuință, pe celelalte câte două (9 unități locative în total)."
+  ],
+  "conditii": [
+   "Strada nou propusă (ampriză 9 m, cu loc de întoarcere, din str. Kós Károly) se înscrie în CF cu destinația „drum”, se echipează edilitar și i se face partea carosabilă la strat de uzură, pe baza unui proiect de specialitate, înainte de autorizațiile de construire pe parcele; trotuarele și iluminatul stradal se fac până la recepția construcțiilor.",
+   "Terenul necesar regularizării str. Kós Károly pe tronsonul de lângă P.U.Z. se dezmembrează din parcela inițială și se înscrie în CF ca „drum” înainte de autorizațiile de construire; până la recepția construcțiilor se aduce la strat de uzură (asfalt).",
+   "Terenul pentru regularizarea str. Kós Károly și strada nou propusă trec gratuit în domeniul public, conform planșei „Proprietate asupra terenurilor”, înainte de recepția locuințelor.",
+   "Pe o parcelă se construiește o singură locuință, individuală sau semicolectivă; parcela construibilă are cel puțin 350 mp; sub 500 mp numai locuințe individuale, de la 500 mp și semicolective cu două unități locative (suprapuse sau alipite).",
+   "Retrageri: cel puțin 3 m de la aliniament (garajele cel puțin 6 m, pentru parcarea unui autoturism în față); toate clădirile în fâșia de 25 m de la aliniament, în afara ediculelor provizorii de grădină de cel mult 15 mp în total; cel puțin 3 m față de limitele laterale (garajele se pot alipi, cu calcan de cel mult 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, minimum 6 m (garajele cel puțin 6 m).",
+   "Accesul pe parcele se face din strada propusă; parcarea se organizează în interiorul parcelei: cel puțin un loc pentru clădiri cu A.U. sub 100 mp, două peste 100 mp; pentru căile din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Clădirile se racordează la rețelele edilitare (apă, canalizare, electricitate, gaz); apele pluviale nu se dirijează spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise; fiecare parcelă are o platformă pentru deșeuri accesibilă din spațiul public.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
