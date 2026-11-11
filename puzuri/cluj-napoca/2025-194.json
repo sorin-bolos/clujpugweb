@@ -1,0 +1,205 @@
+{
+  "id": "2025-194",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 194,
+    "an": 2025,
+    "data_sedinta": "2025-05-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-194-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-194.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar, str. Observatorului nr. 72-72A",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 200,
+    "denumire": "U.03 Plan reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "PDF-ul are 18 pagini: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism al U.T.R. S_Et* (pp. 3-6), Anexa 2 – planșa U.03 micșorată pe A4, rotită, alb-negru, semnată de președintele de ședință și de secretar (p. 7), avizul de oportunitate nr. 16 din 2.02.2023 (pp. 8-9), extrasul din P.U.G. (p. 10), avizul Arhitectului-șef nr. 242 din 22.10.2024 (pp. 11-14), avizul nr. 258 din 5.11.2024 care îl modifică (p. 15), planșa U.03 la format mare, color (p. 16, 200 ppi) și raportul informării și consultării publicului (pp. 17-18). Aleasă: p. 16, cea mai clară, cu viza „spre neschimbare” (avizele nr. 242/2024 și 258/2024) și mențiunea de mână „HCL nr. 194 din 12 mai 2025”; desenul e același cu cel din Anexa 2. Pagina 16 ține două foi una lângă alta: în stânga planul topografic (1:500, x≈0-3100), în dreapta planșa de reglementări (1:1000, x≈3100-6596), cu inventarul de coordonate, legenda și cartușul; punctele de control sunt toate pe planșa de reglementări. Cartușul: proiect SQMA_243, faza P.U.Z., planșa U.03 „Plan reglementări urbanistice”, scara „1:1000, 1:500”, data 21.01.2025. Potrivirea dă 7,8 px/m (1:1000 la 200 ppi = 7,87 px/m) și rotație 0°: planșa e orientată spre nord. Legenda ia cheia simbolurilor cu zonificarea pe U.T.R. (Liu, Is_A, S_Et, S_Et*), tabelul „UTR S_Et*” cu indicatorii și „Legenda UTR-uri”; lasă deoparte tabelul suprafețelor pe proprietăți, teritoriul studiat (bilanț), inventarul și cartușul. Ștampila „vizat spre neschimbare” acoperă parțial câteva rânduri ale cheii (circulații pietonale, clădiri existente, spații verzi), care rămân lizibile."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabelul „Parcela (1PUZ)” – „Coordonate pct. de contur” de pe planșa U.03 (jos, x≈4600-5070, y≈1820-2265): 14 puncte, X [m] = Nord / Y [m] = Est, cu lungimile laturilor D(i,i+1); sub tabel „S(1PUZ)=2723.00mp P=383.308m”. Aria din coordonate (2.723,0 mp), toate cele 14 laturi și perimetrul se verifică la milimetru; 2.723 mp dau și Art. 1, tabelul „Suprafețe de teren care au generat PUZ” (1.884 + 839 mp) și bilanțul planșei. Conturul e linia neagră punctată „Limite U.T.R.” a subzonei S_Et* (pe ea stă și linia portocalie a zonei reglementate): un bloc la nord și, de acolo spre sud până la str. Observatorului, o limbă lată la vest (parcela nr. cad. 310247) și o fâșie îngustă, de 1,6-3,5 m, la est, care încadrează parcela vecină nr. cad. 1892 (U.T.R. S_Et, în afara P.U.Z.). Puncte de control, pe mijlocul liniei negre: colțurile 87a (NV), 11 (NE), 60 (SV, la stradă), 24 (SE al limbii de vest) și 79 (colțul de NE al parcelei vecine); de verificare: 7 (colțul de NV al parcelei vecine) și 14 (capătul de sud al fâșiei de est). Celelalte vârfuri sunt frângeri de câteva grade pe laturi aproape drepte (88, 26, 5, 12, 58) sau stau la sub 1,6 m de 14 (86, 87b).",
+    "suprafata_declarata_m2": 2723.0,
+    "puncte": {
+      "88": [
+        584946.85,
+        392151.8
+      ],
+      "26": [
+        584952.813,
+        392151.477
+      ],
+      "87a": [
+        585003.821,
+        392149.722
+      ],
+      "5": [
+        585007.927,
+        392178.83
+      ],
+      "11": [
+        585008.522,
+        392184.554
+      ],
+      "12": [
+        584945.546,
+        392187.9
+      ],
+      "14": [
+        584908.847,
+        392196.134
+      ],
+      "86": [
+        584908.483,
+        392194.582
+      ],
+      "87b": [
+        584908.917,
+        392194.498
+      ],
+      "79": [
+        584958.013,
+        392183.743
+      ],
+      "7": [
+        584954.949,
+        392164.898
+      ],
+      "24": [
+        584903.019,
+        392171.337
+      ],
+      "58": [
+        584900.646,
+        392163.36
+      ],
+      "60": [
+        584898.31,
+        392153.79
+      ]
+    },
+    "ordine": [
+      "88",
+      "26",
+      "87a",
+      "5",
+      "11",
+      "12",
+      "14",
+      "86",
+      "87b",
+      "79",
+      "7",
+      "24",
+      "58",
+      "60"
+    ],
+    "laturi_declarate_m": {
+      "88": 5.972,
+      "26": 51.038,
+      "87a": 29.396,
+      "5": 5.755,
+      "11": 63.065,
+      "12": 37.611,
+      "14": 1.594,
+      "86": 0.442,
+      "87b": 50.26,
+      "79": 19.092,
+      "7": 52.328,
+      "24": 8.322,
+      "58": 9.851,
+      "60": 48.581
+    },
+    "perimetru_declarat_m": 383.308,
+    "nota": "Numărul 87 apare de două ori în tabel (rândurile 3 și 9, ambele citite clar „87”), cu coordonate diferite: în rețetă sunt 87a (585003,821 / 392149,722, colțul de NV) și 87b (584908,917 / 392194,498, la capătul de sud al fâșiei de est); laturile tipărite de lângă ele (29,396 și 50,260 m) se verifică. Tabelul e în ordinea conturului, dar numerele nu (88, 26, 87, 5, 11, …), așa că ordinea e copiată în `ordine`."
+  },
+  "gcp_px": {
+    "87a": [
+      3957,
+      540
+    ],
+    "11": [
+      4229,
+      505
+    ],
+    "60": [
+      3986,
+      1380
+    ],
+    "24": [
+      4123,
+      1339
+    ],
+    "79": [
+      4224,
+      904
+    ]
+  },
+  "verificare_px": {
+    "7": [
+      4076,
+      928
+    ],
+    "14": [
+      4318,
+      1293
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      5104,
+      70,
+      6045,
+      1180
+    ],
+    [
+      5102,
+      1688,
+      6045,
+      1880
+    ],
+    [
+      5560,
+      1910,
+      6045,
+      2280
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Et*",
+      "denumire": "Subzonă de activități economice cu caracter terțiar: funcțiunea predominantă – funcțiuni de sănătate (regulamentul admite și birouri, servicii financiar-bancare, comerț cu ADC de cel mult 1.000 mp, alimentație publică, servicii, cazare turistică, cercetare, cultură); regim de construire izolat; fără locuințe. Cuprinde parcelele nr. cad. 281837 și 310247 (2.723 mp), încadrate de P.U.G. parțial în U.T.R. Is_A, S_Et și Liu",
+      "pot_max": "40%",
+      "cut_max": "2,2",
+      "h_max": "S+P+4E; înălțimea totală la cornișă max. 21 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2028-05-12"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Indicatorii din Art. 1 (P.O.T. 40%, C.U.T. 2,2, S+P+4E, 21 m la cornișă) sunt aceiași cu tabelul „UTR S_Et*” al planșei. Regulamentul (Anexa 1, art. 7) scrie însă „înălțimea totală (maximă) nu va depăși 21 m”, nu la cornișă ca Art. 1 și planșa.",
+    "Planșa nu desenează o zonă construibilă în S_Et*: retragerile (min. 6 m față de limita laterală vestică, min. 3 m față de cea estică, min. 6 m față de limita posterioară) sunt doar în hotărâre și în regulament.",
+    "Avizul Arhitectului-șef nr. 242 din 22.10.2024 dădea 18 m la cornișă; avizul nr. 258 din 5.11.2024 l-a modificat la 21 m, cât au hotărârea și planșa."
+  ],
+  "conditii": [
+    "Clădirile se retrag de la aliniament, în front discontinuu (deschis), conform planșei U.03; față de limita laterală vestică cu cel puțin 6 m, față de cea estică cu cel puțin 3 m, iar față de limita posterioară cu cel puțin 6 m.",
+    "Accesul se face direct din str. Observatorului; parcela are un singur acces carosabil, de cel mult 6 m lățime. Pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei, de regulă la sol; numărul de locuri se calculează după Anexa 2 a R.L.U. al P.U.G.",
+    "Toate clădirile se racordează la rețelele edilitare publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuiri; cablurile nu se montează aerian.",
+    "Parcela are un spațiu (eventual în clădire) pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+    "La faza D.T.A.C. proiectul tehnic se avizează în Comisia de estetică urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă (Anexa 1, art. 10).",
+    "Sunt interzise locuirea de orice tip, activitățile industriale sau poluante, depozitarea en gros, comerțul de tip supermarket/mall și construcțiile provizorii (Anexa 1, art. 3).",
+    "Împrejmuirile spre stradă au soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,20 m; spre vecini cel mult 2,20 m (Anexa 1, art. 11)."
+  ]
+}

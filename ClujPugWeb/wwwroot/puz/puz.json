@@ -16081,6 +16081,117 @@
   ]
  },
  {
+  "id": "2025-194",
+  "localitate": "cluj",
+  "hcl": "194/2025",
+  "data": "2025-05-12",
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar, str. Observatorului nr. 72-72A",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-194-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-194.pdf",
+  "utr": [
+   {
+    "cod": "S_Et*",
+    "denumire": "Subzonă de activități economice cu caracter terțiar: funcțiunea predominantă – funcțiuni de sănătate (regulamentul admite și birouri, servicii financiar-bancare, comerț cu ADC de cel mult 1.000 mp, alimentație publică, servicii, cazare turistică, cercetare, cultură); regim de construire izolat; fără locuințe. Cuprinde parcelele nr. cad. 281837 și 310247 (2.723 mp), încadrate de P.U.G. parțial în U.T.R. Is_A, S_Et și Liu",
+    "pot_max": "40%",
+    "cut_max": "2,2",
+    "h_max": "S+P+4E; înălțimea totală la cornișă max. 21 m"
+   }
+  ],
+  "suprafata_m2": 2723,
+  "imagine": "puz/2025-194/plansa.webp",
+  "bounds": {
+   "west": 23.5864465,
+   "south": 46.7549605,
+   "east": 23.5871251,
+   "north": 46.7559924
+  },
+  "limita": [
+   [
+    23.5865087,
+    46.7554153
+   ],
+   [
+    23.5865031,
+    46.7554689
+   ],
+   [
+    23.5864682,
+    46.7559275
+   ],
+   [
+    23.5868482,
+    46.7559691
+   ],
+   [
+    23.586923,
+    46.7559753
+   ],
+   [
+    23.5869815,
+    46.7554094
+   ],
+   [
+    23.5870978,
+    46.7550806
+   ],
+   [
+    23.5870776,
+    46.7550771
+   ],
+   [
+    23.5870764,
+    46.755081
+   ],
+   [
+    23.5869242,
+    46.7555209
+   ],
+   [
+    23.5866782,
+    46.7554903
+   ],
+   [
+    23.5867746,
+    46.7550242
+   ],
+   [
+    23.5866708,
+    46.7550016
+   ],
+   [
+    23.5865461,
+    46.754979
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.21
+  },
+  "legenda": "puz/2025-194/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-05-12"
+  },
+  "diferente_fata_de_plansa": [
+   "Indicatorii din Art. 1 (P.O.T. 40%, C.U.T. 2,2, S+P+4E, 21 m la cornișă) sunt aceiași cu tabelul „UTR S_Et*” al planșei. Regulamentul (Anexa 1, art. 7) scrie însă „înălțimea totală (maximă) nu va depăși 21 m”, nu la cornișă ca Art. 1 și planșa.",
+   "Planșa nu desenează o zonă construibilă în S_Et*: retragerile (min. 6 m față de limita laterală vestică, min. 3 m față de cea estică, min. 6 m față de limita posterioară) sunt doar în hotărâre și în regulament.",
+   "Avizul Arhitectului-șef nr. 242 din 22.10.2024 dădea 18 m la cornișă; avizul nr. 258 din 5.11.2024 l-a modificat la 21 m, cât au hotărârea și planșa."
+  ],
+  "conditii": [
+   "Clădirile se retrag de la aliniament, în front discontinuu (deschis), conform planșei U.03; față de limita laterală vestică cu cel puțin 6 m, față de cea estică cu cel puțin 3 m, iar față de limita posterioară cu cel puțin 6 m.",
+   "Accesul se face direct din str. Observatorului; parcela are un singur acces carosabil, de cel mult 6 m lățime. Pentru curțile pietonale și carosabile se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei, de regulă la sol; numărul de locuri se calculează după Anexa 2 a R.L.U. al P.U.G.",
+   "Toate clădirile se racordează la rețelele edilitare publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuiri; cablurile nu se montează aerian.",
+   "Parcela are un spațiu (eventual în clădire) pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+   "La faza D.T.A.C. proiectul tehnic se avizează în Comisia de estetică urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă (Anexa 1, art. 10).",
+   "Sunt interzise locuirea de orice tip, activitățile industriale sau poluante, depozitarea en gros, comerțul de tip supermarket/mall și construcțiile provizorii (Anexa 1, art. 3).",
+   "Împrejmuirile spre stradă au soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,20 m; spre vecini cel mult 2,20 m (Anexa 1, art. 11)."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
