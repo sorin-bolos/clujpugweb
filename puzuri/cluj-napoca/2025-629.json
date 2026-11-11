@@ -1,0 +1,306 @@
+{
+  "id": "2025-629",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 629,
+    "an": 2025,
+    "data_sedinta": "2025-10-09",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-629-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/10/21/HCL-629.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar și facilități dedicate agrementului, str. Borhanciului nr. 76F",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 200,
+    "denumire": "Zonificare – Plan reglementări urbanistice (U.04)",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 9 (Anexa 2 la hotărâre, micșorată pe A4, rotită, ștampilată, 300 ppi) și p. 17 (format mare, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef la avizul nr. 68 din 20.05.2025 și mențiunea de mână „HCL nr. 629 din 9.10.2025”); s-a folosit p. 17, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-8 regulamentul local de urbanism (Anexa 1), pp. 10-12 avizul de oportunitate nr. 6/17.03.2025 cu extrasul din P.U.G., pp. 13-16 avizul Arhitectului-șef, pp. 18-19 raportul informării și consultării publicului. Cartușul: planșa U.04 „Zonificare Plan Reglementări Urbanistice”, faza P.U.Z., scara 1:1000, data 29.05.2024. Scara imaginii: 7,7 px/m (planșa e tipărită la ~98% din 1:1000 la 200 ppi); ridicarea topografică e rotită cu ~51° față de foaie (săgeata nordului arată spre dreapta-sus), lucru prins de transformarea afină. Legenda cuprinde cheia simbolurilor (limitele de proprietate și UTR, terenurile pentru lărgirea străzilor, propunerile de dezvoltare, imobilul existent, cele două părți ale S_Et* – extinderea bazei de agrement și unitățile de cazare –, zona construibilă, parcările, circulațiile, accesele), în patru casete ca să ocolească ștampilele, și rândurile cu POT/CUT pentru S_Et* din josul bilanțului teritorial. Au rămas afară bilanțul teritorial, necesarul de parcări, profilurile stradale, inventarul de coordonate, cartușul, semnăturile și ștampilele (ștampila RUR atinge totuși rândul „unităților de cazare” din legendă). Zona e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Număr punct / X [m] / Y [m]” (X = Nord, Y = Est), 32 de puncte în ordinea conturului, cu numere nesuccesive (10, 651-658, 49, 369, 397, ..., 257), deci ordinea tabelului e copiată în `ordine`; sub tabel „Suprafața = 7890mp”; fără lungimi de laturi și fără perimetru (tabelul din dreapta sus, x≈3740-4320, y≈100-1290). Numerele vârfurilor nu sunt scrise pe desen; colțurile s-au găsit cu `predict` și s-au citit pe mijlocul liniei punctate roșii („limita de proprietate reglementată prin P.U.Z.”). Control: 474 (colțul de nord-vest al fâșiei de vest), 660 (colțul de sud-vest), 369 (colțul de jos-stânga al aleii de acces), 657 (colțul de sud-vest al părții de est) și 10 (vârful de est). Verificare: 397 (colțul interior dintre fâșia de vest și alee), 49 (colțul de jos-dreapta al aleii), 475 și 489 (decroșul de la capătul de vest) și 258 (colțul de nord-vest al părții de est, lângă parcela nr. cad. 255046).",
+    "suprafata_declarata_m2": 7890,
+    "puncte": {
+      "10": [
+        584590.04,
+        395645.908
+      ],
+      "651": [
+        584581.451,
+        395651.611
+      ],
+      "652": [
+        584567.726,
+        395653.568
+      ],
+      "653": [
+        584562.52,
+        395654.023
+      ],
+      "654": [
+        584542.521,
+        395655.385
+      ],
+      "656": [
+        584538.279,
+        395655.736
+      ],
+      "655": [
+        584536.114,
+        395655.226
+      ],
+      "657": [
+        584474.717,
+        395614.434
+      ],
+      "658": [
+        584465.634,
+        395624.768
+      ],
+      "49": [
+        584458.583,
+        395632.616
+      ],
+      "369": [
+        584449.499,
+        395625.291
+      ],
+      "397": [
+        584476.342,
+        395593.777
+      ],
+      "423": [
+        584454.077,
+        395575.68
+      ],
+      "436": [
+        584436.546,
+        395561.431
+      ],
+      "437": [
+        584431.89,
+        395557.647
+      ],
+      "451": [
+        584417.765,
+        395546.167
+      ],
+      "659": [
+        584403.647,
+        395534.692
+      ],
+      "481": [
+        584399.178,
+        395531.059
+      ],
+      "661": [
+        584392.166,
+        395525.359
+      ],
+      "660": [
+        584391.861,
+        395525.111
+      ],
+      "662": [
+        584402.402,
+        395513.08
+      ],
+      "491": [
+        584402.698,
+        395513.321
+      ],
+      "489": [
+        584409.685,
+        395505.336
+      ],
+      "475": [
+        584414.445,
+        395509.554
+      ],
+      "474": [
+        584418.677,
+        395505.152
+      ],
+      "650": [
+        584434.012,
+        395517.614
+      ],
+      "443": [
+        584450.002,
+        395530.609
+      ],
+      "429": [
+        584466.784,
+        395544.248
+      ],
+      "294": [
+        584502.077,
+        395572.93
+      ],
+      "383": [
+        584506.732,
+        395576.713
+      ],
+      "258": [
+        584498.531,
+        395586.309
+      ],
+      "257": [
+        584498.756,
+        395586.456
+      ]
+    },
+    "ordine": [
+      "10",
+      "651",
+      "652",
+      "653",
+      "654",
+      "656",
+      "655",
+      "657",
+      "658",
+      "49",
+      "369",
+      "397",
+      "423",
+      "436",
+      "437",
+      "451",
+      "659",
+      "481",
+      "661",
+      "660",
+      "662",
+      "491",
+      "489",
+      "475",
+      "474",
+      "650",
+      "443",
+      "429",
+      "294",
+      "383",
+      "258",
+      "257"
+    ],
+    "nota": "Aria coordonatelor, 7.890,3 mp, se potrivește cu 7.890 mp tipăriți sub inventar. Conturul cuprinde și fâșia parcelei nr. cad. 255046 (lată de 6,0 m, între zona verde S_Et* și extinderea bazinului, albă pe planșă, închisă de o linie punctată roz-palid): măsurată pe planșă, are ~190 mp, iar 7.890 − 190 = 7.700 mp, cât dau bilanțul teritorial și mențiunea „S teren reglementat PUZ = 7700 mp” scrisă deasupra colțului de est al zonei (x≈2300-2600, y≈910-990); Art. 1 spune 0,768 ha, regulamentul 7.689 mp. Vârfurile 652-656 și 651 stau pe latura oblică de la str. Cezar Bolliac, 658 pe latura dreaptă a aleii, 661/660, 662/491 și 258/257 sunt perechi la 0,3-0,4 m: n-au fost folosite ca puncte. Colțul 383 (capătul nordic al fâșiei 255046) e desenat cu linie roz foarte palidă și n-a fost folosit."
+  },
+  "gcp_px": {
+    "474": [
+      891,
+      1086
+    ],
+    "660": [
+      829,
+      1333
+    ],
+    "369": [
+      1659,
+      1654
+    ],
+    "657": [
+      1757,
+      1464
+    ],
+    "10": [
+      2593,
+      1094
+    ]
+  },
+  "verificare_px": {
+    "397": [
+      1663,
+      1333
+    ],
+    "49": [
+      1752,
+      1654
+    ],
+    "475": [
+      889,
+      1132
+    ],
+    "489": [
+      840,
+      1133
+    ],
+    "258": [
+      1762,
+      1178
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3615,
+      1293,
+      4405,
+      1627
+    ],
+    [
+      4410,
+      1293,
+      5172,
+      1415
+    ],
+    [
+      4410,
+      1415,
+      4895,
+      1460
+    ],
+    [
+      4410,
+      1460,
+      4745,
+      1622
+    ],
+    [
+      4360,
+      765,
+      5162,
+      931
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Et*",
+      "denumire": "Subzonă de activități economice cu caracter terțiar – partea de est: extinderea bazinului de înot existent, în legătură directă cu corpul existent. Funcțiuni admise în S_Et*: administrative, birouri, comerț cu ADC de maximum 1000 mp, alimentație publică, servicii, cazare turistică, cercetare, funcțiuni sportive (bază de agrement, piscină, ștrand, sală de sport, terenuri de sport în aer liber) și unități de cazare care deservesc complexul sportiv, cu anexele lor. Retrageri: minimum 5 m față de str. Cezar Bolliac; minimum 3 m de la limita nord-vestică, 6 m de la cea sud-estică și 0,5 m de la cea sud-vestică.",
+      "pot_max": "40%",
+      "cut_max": "2,2",
+      "h_max": "18 m în punctul cel mai înalt, 15 m la cornișă/atic; (1-3S)+P+3E+R, cu supante și mezanine admise"
+    },
+    {
+      "cod": "S_Et*",
+      "denumire": "Subzonă de activități economice cu caracter terțiar – fâșia de vest: unități de cazare care deservesc complexul sportiv, imobile izolate sau înșiruite. Retrageri: față de limita laterală (sud-vest) cel puțin jumătate din înălțimea la cornișă/atic, dar minimum 3 m; minimum 6 m față de limita posterioară.",
+      "pot_max": "40%",
+      "cut_max": "1,2",
+      "h_max": "12 m în punctul cel mai înalt, 8 m la cornișă/atic; trei niveluri supraterane: (S)+P+1E+M, (S)+P+1E+R, D+P+M sau D+P+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-10-09",
+    "verificat": "2026-11-11: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Suprafața: inventarul de pe planșă dă 7.890 mp și cuprinde și fâșia parcelei nr. cad. 255046 (~190 mp, lată de 6 m, albă pe planșă, între zona verde și extinderea bazinului); hotărârea (Art. 1) aprobă P.U.Z. pe 0,768 ha, pe nr. cad. 327627, 292026 și 292027, fără 255046, iar regulamentul (Anexa 1) dă 7.689 mp; planșa însăși scrie, deasupra colțului de est al zonei, „S teren reglementat PUZ = 7700 mp”, cât dă și bilanțul ei. Pe hartă e conturul inventarului, cu tot cu fâșie.",
+    "Înălțimea extinderii bazinului: planșa scrie doar „H max cornișă = 15 m”; hotărârea admite în plus 18 m în punctul cel mai înalt și regimul (1-3S)+P+3E+R.",
+    "Înălțimea unităților de cazare: planșa scrie „H max coamă = 12 m” (scris mărunt) și regimul (S)+P+1+R/M, D+P+M/R; hotărârea limitează în plus cornișa/aticul la 8 m și construcțiile la trei niveluri supraterane."
+  ],
+  "conditii": [
+    "Str. Cezar Bolliac, între str. Borhanciului și aleea auto de acces spre unitățile de cazare, împreună cu parcela nr. cad. 309950 (dezmembrată anterior pentru lărgirea străzii), se amenajează, modernizează și asfaltează la 8,5 m lățime, cu două benzi carosabile și un trotuar de 1,5 m spre zona P.U.Z., până la recepția construcțiilor propuse (avizul Serviciului Siguranța Circulației nr. 525311/446/10.05.2023).",
+    "Aleea auto de acces spre unitățile de cazare are două benzi carosabile de cel puțin 5,5 m în total și un trotuar de cel puțin 1,5 m, cu parcările propuse pe planșă.",
+    "Înainte de autorizațiile de construire, terenul necesar regularizării str. Cezar Bolliac (după planșa U.06, circulația juridică a terenurilor) se dezmembrează din parcelele inițiale și se înscrie în cartea funciară ca „drum”; până la recepția construcțiilor se aduce la aceeași îmbrăcăminte rutieră ca str. Cezar Bolliac.",
+    "Accesele: din str. Cezar Bolliac și din aleea de incintă desprinsă din ea. Parcarea: în interiorul parcelei, la sol și în garaje, cu necesarul după Anexa 2 a regulamentului P.U.G. (planșa prevede 24 de locuri, față de 20 necesare).",
+    "Toate construcțiile se racordează la rețelele edilitare existente (apă, canalizare, electricitate, gaz).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiare."
+  ]
+}
