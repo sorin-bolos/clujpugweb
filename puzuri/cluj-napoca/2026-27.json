@@ -1,0 +1,154 @@
+{
+  "id": "2026-27",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 27,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-27-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/27.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare – Construire locuințe cu regim redus de înălțime, str. Pluto nr. 10-16",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 300,
+    "denumire": "U4 – Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 14 pagini A4 scanate la 300 ppi: hotărârea (p. 1-3), regulamentul local de urbanism – Anexa 1 (p. 4-13) și planșa U4 „Reglementări urbanistice” – Anexa 2 (p. 14), singura planșă din PDF: micșorată pe A4 și culcată (textul se citește de jos în sus). Cartușul: planșa U4 „Reglementări urbanistice”, scara 1:500 (planul de încadrare 1:10000, profilul stradal 1:200), februarie 2024, proiect 07/2023; hotărârea o numește „U4 – Plan reglementări urbanistice”. Imaginea are ~15,2 px/m, adică planșa e tipărită la ~64% din 1:500, și nu are aceeași scară pe cele două direcții (vezi coordonate.nota). Pe pagina scanată nordul desenului e spre stânga-jos (~240° de la verticală, în sensul acelor de ceasornic). Legenda cuprinde cheia simbolurilor, rotită cu 90°; planșa nu are o casetă cu indicatorii U.T.R.: în legendă apare doar „zona edificabilă POT 35%”. Au rămas afară bilanțul teritorial, profilul stradal propus, planul de încadrare, ștampila topografului, cartușul, semnăturile și ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap și cruci ale caroiajului Stereo 70 (georef_metoda osm, extrasul OSM din repo, date din 2026-11-08). Control: XU (intersecția axelor str. Pluto / Aleea Uranus, la capătul de sud al planșei), XE (intersecția axelor str. Pluto / Aleea Eclipsei, la capătul de nord) și crucea de caroiaj C395550_583700 (la ~10 m est de limita P.U.Z.); verificare: crucea C395600_583750 (la vest de str. Pluto). Planșa nu are inventar de coordonate, iar din caroiaj se văd doar aceste două cruci, fără etichete: celelalte noduri prezise cad sub desen sau în zone goale fără cruce. Etichetele (multipli de 50 m) s-au dedus ca la „caroiaje fără etichete”, din potrivirea pe cele două intersecții OSM, care a pus crucile la 2,3 m și 4,4 m de noduri (sub un sfert de pas; `caroiaj` nu se poate rula, fiindcă cele două cruci nu sunt pe aceeași linie a caroiajului). Crucile țin de desen, nu de foaie: sunt pe diagonala unui ochi de 50 m (70,7 m) și au brațele aliniate cu desenul rotit. Clădirile din OSM n-au fost folosite: sunt desenate mai mici și deplasate cu 2-4 m față de acoperișurile din ortofoto și de casele de pe planșă. Limita e trasată (`limita_px`) pe centrele liniei cu cerculețe „zona reglementată prin PUZ”, găsite după pixelii întunecați: cele 4 loturi și fâșiile de lărgire a str. Pluto (141 mp), cu frânturile liniei de pe planșă (latura dinspre stradă se îndreaptă la ~25 m de capătul de nord, latura posterioară are un decroș de ~1 m la limita dintre loturile 12 și 14). Aria trasată: 1.913,1 mp la scara potrivirii (-1,5% față de 1.942 mp din bilanț).",
+    "suprafata_declarata_m2": 1942.0,
+    "puncte": {},
+    "nota": "Planșa nu are aceeași scară pe cele două direcții: ~15,28 px/m în lungul străzii (lanțul de cote al fronturilor, 15,44 + 15,50 + 15,00 + 16,16 = 62,10 m, acoperă 949 px; distanța XU–XE dă 15,30 px/m) și ~14,9 px/m de-a curmezișul (diagonala dintre cruci, 1.056 px pentru 70,7 m). Cu cele două scări, aria trasată iese 1.936,7 mp (-0,3% față de bilanț). Potrivirea OSM e o similitudine, cu o singură scară, deci lasă pe P.U.Z. o eroare sistematică de până la ~1 m, care explică și reziduurile. Cu rolurile crucilor inversate (C395600_583750 în control, C395550_583700 la verificare), reziduul de verificare iese 3,68 m și aria -2,9%; scoțând pe rând din control fiecare punct, centrul zonei se mută cu cel mult 2,7 m. Suprafața: 1.942 mp în bilanțul planșei, 1.941 mp (măsurată) în hotărâre."
+  },
+  "gcp_px": {
+    "XU": [
+      765,
+      3110
+    ],
+    "XE": [
+      825,
+      252
+    ],
+    "C395550_583700": [
+      1482,
+      1271
+    ]
+  },
+  "verificare_px": {
+    "C395600_583750": [
+      465,
+      985
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1930,
+      1515,
+      2349,
+      2137,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu-i",
+      "denumire": "Zonă specifică locuințelor – locuințe individuale (unifamiliale) și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); regim de construire izolat; 4 parcele",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, ultimul nivel retras cu cel puțin 1,80 m față de fațada spre stradă; 8 m la cornișă sau la aticul ultimului nivel, 12 m la coamă"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa nu dă C.U.T.-ul și nici regimul de înălțime: în legendă apare doar „zona edificabilă POT 35%”. Hotărârea (Art. 1) stabilește C.U.T. maxim 0,9, trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R), 8 m la cornișă sau atic și 12 m la coamă.",
+    "Suprafața terenului: 1.942 mp în bilanțul teritorial al planșei, 1.941 mp (suprafață măsurată) în hotărâre."
+  ],
+  "conditii": [
+    "Suprafețele dezmembrate pentru lărgirea str. Pluto la ampriza de 9 m (nr. cad. 344849, 344831, 343776 și 343767) se înscriu în CF cu destinația „drum” înainte de emiterea autorizațiilor de construire pe parcele și se aduc la strat de uzură până la recepția construcțiilor.",
+    "Strada Pluto (CF nr. 269061) se aduce la strat de uzură (asfalt) înainte de recepția construcțiilor propuse.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Retragerea față de aliniament: unde cel puțin patru parcele alăturate au aceeași retragere, clădirile o păstrează; altfel cel puțin 3 m, după obiceiul locului; garajele se retrag cel puțin 6 m de la aliniament.",
+    "Retragerea față de limitele laterale: alipire numai de un calcan vecin existent, fără a-l depăși în lungime, cu cel puțin 3 m față de latura opusă; fără calcan, cel puțin 3 m de ambele laturi (prin excepție 2 m pe o singură latură, după regula locală, dacă vecinul e retras cel puțin 3 m, cu cel mult 4,50 m înălțime pe acea parte).",
+    "Retragerea față de limita posterioară: cel puțin înălțimea clădirii, minimum 6 m; garajele se pot alipi limitelor laterale cu un calcan de cel mult 2,80 m și se retrag cel puțin 6 m de limita posterioară; toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total.",
+    "Pe o parcelă: un singur acces pietonal și un singur acces carosabil, de cel mult 3 m lățime; parcarea în interiorul parcelei (un loc pentru o clădire sub 100 mp arie utilă, două peste; servicii de proximitate: două locuri).",
+    "Toate utilitățile se racordează la rețelele publice; apele pluviale nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile nu se pozează aerian; fiecare parcelă are un spațiu pentru deșeuri menajere accesibil din spațiul public."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      775,
+      3090
+    ],
+    "en": [
+      395470.2,
+      583805.6
+    ],
+    "px_per_m": 15.3,
+    "nord": 239.5
+  },
+  "repere": {
+    "XU": [
+      583805.57,
+      395470.21
+    ],
+    "XE": [
+      583707.77,
+      395629.3
+    ],
+    "C395600_583750": [
+      583750.0,
+      395600.0
+    ],
+    "C395550_583700": [
+      583700.0,
+      395550.0
+    ]
+  },
+  "repere_osm": {
+    "XU": "intersecție Aleea Uranus / Strada Pluto (x169234871_169235384)",
+    "XE": "intersecție Aleea Eclipsei / Strada Pluto (x169234864_169235384)"
+  },
+  "limita_px": [
+    [
+      855,
+      833
+    ],
+    [
+      1334,
+      843
+    ],
+    [
+      1317,
+      1318
+    ],
+    [
+      1300,
+      1319
+    ],
+    [
+      1294,
+      1789
+    ],
+    [
+      844,
+      1783
+    ],
+    [
+      844,
+      1200
+    ]
+  ]
+}

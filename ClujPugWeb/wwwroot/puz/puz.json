@@ -7350,6 +7350,88 @@
   ]
  },
  {
+  "id": "2026-27",
+  "localitate": "cluj",
+  "hcl": "27/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z. – de urbanizare – Construire locuințe cu regim redus de înălțime, str. Pluto nr. 10-16",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-27-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/27.pdf",
+  "utr": [
+   {
+    "cod": "Liu-i",
+    "denumire": "Zonă specifică locuințelor – locuințe individuale (unifamiliale) și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); regim de construire izolat; 4 parcele",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, ultimul nivel retras cu cel puțin 1,80 m față de fațada spre stradă; 8 m la cornișă sau la aticul ultimului nivel, 12 m la coamă"
+   }
+  ],
+  "suprafata_m2": 1913,
+  "imagine": "puz/2026-27/plansa.webp",
+  "bounds": {
+   "west": 23.6309262,
+   "south": 46.7446851,
+   "east": 23.6318965,
+   "north": 46.745266
+  },
+  "limita": [
+   [
+    23.6318629,
+    46.7449569
+   ],
+   [
+    23.6316527,
+    46.7447126
+   ],
+   [
+    23.6313033,
+    46.7448595
+   ],
+   [
+    23.6313097,
+    46.7448686
+   ],
+   [
+    23.6309594,
+    46.7450084
+   ],
+   [
+    23.6311543,
+    46.7452389
+   ],
+   [
+    23.631592,
+    46.7450693
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 3,
+   "rms_m": 1.98,
+   "aproximativ": true,
+   "precizie_m": 4
+  },
+  "legenda": "puz/2026-27/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa nu dă C.U.T.-ul și nici regimul de înălțime: în legendă apare doar „zona edificabilă POT 35%”. Hotărârea (Art. 1) stabilește C.U.T. maxim 0,9, trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R), 8 m la cornișă sau atic și 12 m la coamă.",
+   "Suprafața terenului: 1.942 mp în bilanțul teritorial al planșei, 1.941 mp (suprafață măsurată) în hotărâre."
+  ],
+  "conditii": [
+   "Suprafețele dezmembrate pentru lărgirea str. Pluto la ampriza de 9 m (nr. cad. 344849, 344831, 343776 și 343767) se înscriu în CF cu destinația „drum” înainte de emiterea autorizațiilor de construire pe parcele și se aduc la strat de uzură până la recepția construcțiilor.",
+   "Strada Pluto (CF nr. 269061) se aduce la strat de uzură (asfalt) înainte de recepția construcțiilor propuse.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Retragerea față de aliniament: unde cel puțin patru parcele alăturate au aceeași retragere, clădirile o păstrează; altfel cel puțin 3 m, după obiceiul locului; garajele se retrag cel puțin 6 m de la aliniament.",
+   "Retragerea față de limitele laterale: alipire numai de un calcan vecin existent, fără a-l depăși în lungime, cu cel puțin 3 m față de latura opusă; fără calcan, cel puțin 3 m de ambele laturi (prin excepție 2 m pe o singură latură, după regula locală, dacă vecinul e retras cel puțin 3 m, cu cel mult 4,50 m înălțime pe acea parte).",
+   "Retragerea față de limita posterioară: cel puțin înălțimea clădirii, minimum 6 m; garajele se pot alipi limitelor laterale cu un calcan de cel mult 2,80 m și se retrag cel puțin 6 m de limita posterioară; toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total.",
+   "Pe o parcelă: un singur acces pietonal și un singur acces carosabil, de cel mult 3 m lățime; parcarea în interiorul parcelei (un loc pentru o clădire sub 100 mp arie utilă, două peste; servicii de proximitate: două locuri).",
+   "Toate utilitățile se racordează la rețelele publice; apele pluviale nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile nu se pozează aerian; fiecare parcelă are un spațiu pentru deșeuri menajere accesibil din spațiul public."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",
