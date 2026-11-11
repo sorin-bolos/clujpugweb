@@ -1360,7 +1360,8 @@ def imagery_check(r, overlay, merc, boundary, zoom=18, pad=30.0):
 
 def clean_title(t):
     t = re.sub(r"^Aprobarea\s+", "", t.strip())
-    t = re.split(r";\s*beneficiar", t)[0]
+    # The listing names the owners after "; beneficiar(i):", ", beneficiari:" or ". Beneficiar:".
+    t = re.split(r"[;,.]\s*beneficiar", t, flags=re.I)[0]
     return t.rstrip(" .;")
 
 
