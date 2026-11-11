@@ -1,0 +1,292 @@
+{
+  "id": "2025-492",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 492,
+    "an": 2025,
+    "data_sedinta": "2025-07-25",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-492-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/07/25/492-din-2025.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare infrastructură educațională specifică învățământului primar și gimnazial, str. Bună Ziua – sud",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 300,
+    "denumire": "U3 – Reglementări urbanistice",
+    "scara": "1:1000 (profilele 1:250) în cartuș; planșa e redusă pe A4: imaginea are 5,6 px/m la 300 ppi (≈1:2100 pe foaie)",
+    "nota": "Anexa 2, p. 14: singura planșă a PDF-ului (A4 culcat, 3508×2480 px la 300 ppi, rotită la 270° în PDF); pp. 1-2 sunt hotărârea, pp. 3-13 Anexa 1, regulamentul local de urbanism. Cartușul: proiect nr. 288/2022, faza P.U.Z., „Elaborare Studiu de Fezabilitate și PUZ pentru obiectivul de investiții „Dezvoltare infrastructură educațională specifică învățământului primar și gimnazial în cartierul Bună Ziua – Studiu de fezabilitate și PUZ”, str. Bună Ziua F.N.”, planșa U3 „Reglementări urbanistice”, scara 1:1000, 1:250. Desenul e rotit: nordul e spre dreapta foii (str. Bună Ziua, la nord, e marginea din dreapta). Planșa nu are inventar de coordonate și nici caroiaj Stereo 70. Zona reglementată (16.640 mp, nr. cad. 357160) e lotul școlii (S_Is BZ) și strada nouă (Tr BZ), care pleacă din str. Bună Ziua spre sud, cotește spre est și iese în strada existentă de pe latura estică, cu o fâșie plantată cu arbori între lot și această stradă. Cele două loturi gri dintre strada nouă și str. Bună Ziua sunt „Suprafață care nu se va reglementa prin prezenta documentație PUZ”; fâșia albă de la vest de lot (S = 6.425,70 mp) e „Suprafață care se va dezmembra și se va ceda în vederea realizării proiectului Parc Bună Ziua”, în afara zonei reglementate. Legenda (două casete, rotite): cheia simbolurilor și blocul „Reglementări urbanistice” cu cele două UTR-uri (retrageri, H max, spații plantate, POT/CUT). Au rămas pe dinafară profilele stradale F1/F2, tabelul „Indicatori urbanistici – parcela 01” (POT propus ~24,9%, CUT ~0,61), calculul parcajelor, „Bilanț UTR suprafață reglementată” și cartușul. Textul e mic (planșa e redusă), dar se citește mărit. Bilanțul planșei: S_Is BZ 12.000 mp (72,11%), Tr BZ 4.640 mp (27,89%)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm): planșa nu are inventar de coordonate și nici caroiaj Stereo 70. Ancora de pornire: corelarea liniilor închise ale planșei cu contururile clădirilor din extrasul OSM, căutând scara și rotația (vârf la 5,6 px/m, nordul la 90°, adică spre dreapta foii), cu intersecția str. Bună Ziua / str. Augustin Buzura (OSM E 393174, N 584185) la (2230, 1525). Toate punctele sunt colțuri de clădiri existente, desenate pe fondul topografic al planșei și prezente în OSM, în afara zonei reglementate: control – V_casa_SV și V_cladire_SE (casele și blocul de la sud-vest, spre str. Marin Preda și str. Zaharia Stancu), N_bloc_NV și NV_cladire_NV (clădirile de la nord de str. Bună Ziua, spre str. Erkel Ferenc și str. Wolfgang Goethe), E_casa_NV (casa de la est, spre str. Marin Sorescu); verificare – V_casa2_NV (casa vecină de lângă str. Marin Preda), N_cladire_NE (altă clădire de la nord de str. Bună Ziua), E_casa2_NV (casa vecină de la est), V_cladire2_SE (al doilea bloc de lângă str. Zaharia Stancu). Limita e trasată (`limita_px`): laturile drepte sunt dreptele ajustate pe liniile de limită ale planșei (linia cu „x” de la vest, linia punctată cu triunghiuri de la sud-vest, limita lotului spre lotul nereglementat, marginea nordică a străzii noi, bordura ei sudică, marginea străzii existente de la est, la sud de fâșia cu arbori), iar curba, brațul spre est și racordarea în strada existentă sunt urmărite punct cu punct pe bordura carosabilului. Aria trasată (16.474 mp) față de 16.640 mp din bilanț și din Art. 1 (-1,0%); separat, lotul școlii ≈11.900 mp față de 12.000 mp (S_Is BZ) și strada ≈4.750 mp față de 4.640 mp (Tr BZ).",
+    "suprafata_declarata_m2": 16640.0,
+    "puncte": {},
+    "nota": "Poziționarea e aproximativă (±3-5 m), după OpenStreetMap. Suprafața declarată e cea din bilanțul planșei („Suprafață teren reglementat 16.640,00 mp”), aceeași cu Art. 1. Capătul străzii noi spre str. Bună Ziua e închis drept, pe marginea vestică a str. Bună Ziua; racordările bordurii (razele de colț) de acolo nu sunt urmărite."
+  },
+  "gcp_px": {
+    "V_casa_SV": [
+      329,
+      738
+    ],
+    "N_bloc_NV": [
+      2357,
+      833
+    ],
+    "E_casa_NV": [
+      1618,
+      2289
+    ],
+    "NV_cladire_NV": [
+      2328,
+      434
+    ],
+    "V_cladire_SE": [
+      1288,
+      895
+    ]
+  },
+  "verificare_px": {
+    "V_casa2_NV": [
+      576,
+      737
+    ],
+    "N_cladire_NE": [
+      2109,
+      673
+    ],
+    "E_casa2_NV": [
+      1474,
+      2340
+    ],
+    "V_cladire2_SE": [
+      1350,
+      1007
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1868,
+      2632,
+      2268,
+      2958,
+      270
+    ],
+    [
+      1068,
+      2632,
+      1480,
+      2952,
+      270
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is BZ",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public constituite în clădiri dedicate, în cartierul Bună Ziua (parcela 1): învățământ (școală primară și gimnazială) și dotări conexe; regim de construire deschis",
+      "pot_max": "25%",
+      "cut_max": "2,2",
+      "h_max": "18 m la cornișă; S+P+4E"
+    },
+    {
+      "cod": "Tr BZ",
+      "denumire": "Zonă de circulație rutieră și amenajări aferente (parcela 2, strada nouă): circulație rutieră, benzi/piste velo, trotuare și zone pietonale, zone plantate, iluminat public, semnalizare și orientare rutieră",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-07-25",
+    "verificat": "2026-11-11: Art. 2, șapte ani de la aprobare; nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "P.U.Z. parcelează terenul de 16.640 mp (nr. cad. 357160, proprietatea Municipiului Cluj-Napoca) în parcela 1, pentru școală (S_Is BZ), și parcela 2, pentru strada nouă (Tr BZ).",
+    "Accesul se face din str. Bună Ziua, printr-o stradă nouă propusă prin P.U.Z., cu profilele din planșa U03; accesele la proprietățile vecine se fac fără a afecta planeitatea trotuarelor și a pistelor de biciclete.",
+    "Retrageri în S_Is BZ: minimum 6 m față de limita estică și 4,5 m față de limita nordică (aliniamente); față de limita vestică cel puțin jumătate din înălțimea clădirii, dar minimum 6 m; minimum 3 m față de limita sudică. Sunt admise retrageri succesive, cu respectarea acestor distanțe la fiecare nivel.",
+    "Parcarea: necesarul se calculează după Anexa 2 la R.L.U. al P.U.G., însumat pe funcțiuni; mașinile se parchează numai în garaje colective subterane sau supraterane, nu în fâșia dintre aliniament și clădiri, iar în curți numai dacă sunt curți de serviciu. În Tr BZ se pot face alveole de parcare/drop-off sau pentru transportul în comun.",
+    "Utilități: toate se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuiri sau clădiri; cablurile aeriene sunt interzise; un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public. Pentru aleile și drumurile din interiorul parcelei se recomandă îmbrăcăminți permeabile.",
+    "Înainte de autorizația de construire pe parcela 1, parcela 2 se înscrie în cartea funciară ca „drum”; până la recepția construcțiilor, parcela 2 se amenajează pe baza unui proiect autorizat (utilități, circulații, spații verzi, locuri de staționare).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar, Municipiul Cluj-Napoca."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      2230,
+      1525
+    ],
+    "en": [
+      393174.2,
+      584185.4
+    ],
+    "px_per_m": 5.6,
+    "nord": 90
+  },
+  "repere": {
+    "V_casa_SV": [
+      583846.25,
+      393032.83
+    ],
+    "N_bloc_NV": [
+      584208.11,
+      393051.16
+    ],
+    "E_casa_NV": [
+      584072.27,
+      393308.56
+    ],
+    "NV_cladire_NV": [
+      584201.47,
+      392980.51
+    ],
+    "V_cladire_SE": [
+      584015.91,
+      393063.27
+    ],
+    "V_casa2_NV": [
+      583890.17,
+      393032.46
+    ],
+    "N_cladire_NE": [
+      584163.58,
+      393023.4
+    ],
+    "E_casa2_NV": [
+      584045.75,
+      393318.03
+    ],
+    "V_cladire2_SE": [
+      584025.81,
+      393081.71
+    ]
+  },
+  "repere_osm": {
+    "V_casa_SV": "colț de clădire (b278311673_1)",
+    "N_bloc_NV": "colț de clădire (b278311500_3)",
+    "E_casa_NV": "colț de clădire (b278312563_0)",
+    "NV_cladire_NV": "colț de clădire (b278311433_3)",
+    "V_cladire_SE": "colț de clădire (b278312875_2)",
+    "V_casa2_NV": "colț de clădire (b278312162_0)",
+    "N_cladire_NE": "colț de clădire (b278314022_6)",
+    "E_casa2_NV": "colț de clădire (b278311292_0)",
+    "V_cladire2_SE": "colț de clădire (b278311473_2)"
+  },
+  "limita_px": [
+    [
+      375,
+      1360
+    ],
+    [
+      968,
+      1166
+    ],
+    [
+      1041,
+      1398
+    ],
+    [
+      2030,
+      1068
+    ],
+    [
+      2049,
+      1133
+    ],
+    [
+      1240,
+      1405
+    ],
+    [
+      1210,
+      1415
+    ],
+    [
+      1185,
+      1424
+    ],
+    [
+      1166,
+      1435
+    ],
+    [
+      1155,
+      1450
+    ],
+    [
+      1150,
+      1468
+    ],
+    [
+      1152,
+      1490
+    ],
+    [
+      1161,
+      1510
+    ],
+    [
+      1170,
+      1540
+    ],
+    [
+      1189,
+      1600
+    ],
+    [
+      1206,
+      1645
+    ],
+    [
+      1224,
+      1705
+    ],
+    [
+      1239,
+      1750
+    ],
+    [
+      1247,
+      1760
+    ],
+    [
+      1262,
+      1780
+    ],
+    [
+      1277,
+      1790
+    ],
+    [
+      1292,
+      1800
+    ],
+    [
+      1307,
+      1810
+    ],
+    [
+      1312,
+      1830
+    ],
+    [
+      1310,
+      1850
+    ],
+    [
+      1309,
+      1857
+    ],
+    [
+      797,
+      2048
+    ]
+  ]
+}

@@ -14355,6 +14355,170 @@
   ]
  },
  {
+  "id": "2025-492",
+  "localitate": "cluj",
+  "hcl": "492/2025",
+  "data": "2025-07-25",
+  "titlu": "P.U.Z. – Dezvoltare infrastructură educațională specifică învățământului primar și gimnazial, str. Bună Ziua – sud",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-492-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/07/25/492-din-2025.pdf",
+  "utr": [
+   {
+    "cod": "S_Is BZ",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public constituite în clădiri dedicate, în cartierul Bună Ziua (parcela 1): învățământ (școală primară și gimnazială) și dotări conexe; regim de construire deschis",
+    "pot_max": "25%",
+    "cut_max": "2,2",
+    "h_max": "18 m la cornișă; S+P+4E"
+   },
+   {
+    "cod": "Tr BZ",
+    "denumire": "Zonă de circulație rutieră și amenajări aferente (parcela 2, strada nouă): circulație rutieră, benzi/piste velo, trotuare și zone pietonale, zone plantate, iluminat public, semnalizare și orientare rutieră",
+    "pot_max": "nu e cazul",
+    "cut_max": "nu e cazul",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 16474,
+  "imagine": "puz/2025-492/plansa.webp",
+  "bounds": {
+   "west": 23.5989882,
+   "south": 46.7457107,
+   "east": 23.6013684,
+   "north": 46.7484539
+  },
+  "limita": [
+   [
+    23.5997365,
+    46.7457402
+   ],
+   [
+    23.59927,
+    46.7466845
+   ],
+   [
+    23.5998075,
+    46.7468053
+   ],
+   [
+    23.5990144,
+    46.7483799
+   ],
+   [
+    23.599165,
+    46.7484115
+   ],
+   [
+    23.5998185,
+    46.7471234
+   ],
+   [
+    23.5998426,
+    46.7470757
+   ],
+   [
+    23.5998641,
+    46.7470359
+   ],
+   [
+    23.5998902,
+    46.7470057
+   ],
+   [
+    23.5999254,
+    46.7469884
+   ],
+   [
+    23.5999674,
+    46.7469807
+   ],
+   [
+    23.6000185,
+    46.7469843
+   ],
+   [
+    23.6000647,
+    46.7469991
+   ],
+   [
+    23.6001342,
+    46.747014
+   ],
+   [
+    23.6002732,
+    46.7470454
+   ],
+   [
+    23.6003774,
+    46.7470734
+   ],
+   [
+    23.6005164,
+    46.7471033
+   ],
+   [
+    23.6006207,
+    46.747128
+   ],
+   [
+    23.6006437,
+    46.747141
+   ],
+   [
+    23.6006898,
+    46.7471653
+   ],
+   [
+    23.6007127,
+    46.7471895
+   ],
+   [
+    23.6007355,
+    46.7472136
+   ],
+   [
+    23.6007584,
+    46.7472378
+   ],
+   [
+    23.6008048,
+    46.7472461
+   ],
+   [
+    23.6008513,
+    46.7472433
+   ],
+   [
+    23.6008676,
+    46.7472418
+   ],
+   [
+    23.601325,
+    46.746427
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 5,
+   "rms_m": 1.35,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2025-492/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2032-07-25"
+  },
+  "conditii": [
+   "P.U.Z. parcelează terenul de 16.640 mp (nr. cad. 357160, proprietatea Municipiului Cluj-Napoca) în parcela 1, pentru școală (S_Is BZ), și parcela 2, pentru strada nouă (Tr BZ).",
+   "Accesul se face din str. Bună Ziua, printr-o stradă nouă propusă prin P.U.Z., cu profilele din planșa U03; accesele la proprietățile vecine se fac fără a afecta planeitatea trotuarelor și a pistelor de biciclete.",
+   "Retrageri în S_Is BZ: minimum 6 m față de limita estică și 4,5 m față de limita nordică (aliniamente); față de limita vestică cel puțin jumătate din înălțimea clădirii, dar minimum 6 m; minimum 3 m față de limita sudică. Sunt admise retrageri succesive, cu respectarea acestor distanțe la fiecare nivel.",
+   "Parcarea: necesarul se calculează după Anexa 2 la R.L.U. al P.U.G., însumat pe funcțiuni; mașinile se parchează numai în garaje colective subterane sau supraterane, nu în fâșia dintre aliniament și clădiri, iar în curți numai dacă sunt curți de serviciu. În Tr BZ se pot face alveole de parcare/drop-off sau pentru transportul în comun.",
+   "Utilități: toate se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuiri sau clădiri; cablurile aeriene sunt interzise; un spațiu pentru colectarea selectivă a deșeurilor (5 fracții), accesibil din spațiul public. Pentru aleile și drumurile din interiorul parcelei se recomandă îmbrăcăminți permeabile.",
+   "Înainte de autorizația de construire pe parcela 1, parcela 2 se înscrie în cartea funciară ca „drum”; până la recepția construcțiilor, parcela 2 se amenajează pe baza unui proiect autorizat (utilități, circulații, spații verzi, locuri de staționare).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar, Municipiul Cluj-Napoca."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
