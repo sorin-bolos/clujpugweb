@@ -16815,6 +16815,90 @@
   ]
  },
  {
+  "id": "2025-56",
+  "localitate": "cluj",
+  "hcl": "56/2025",
+  "data": "2025-02-17",
+  "titlu": "P.U.Z. – Dezvoltare zonă rezidențială (locuințe cu regim redus de înălțime), str. Colinei nr. 8",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-56-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/04/01/HCL-56-din-2025.pdf",
+  "utr": [
+   {
+    "cod": "Li/c_a*",
+    "denumire": "Locuințe cu regim redus de înălțime: locuințe individuale (unifamiliale) izolate și anexele lor, pe parcelele P1, P2 și P3; pe P3 se admit două locuințe unifamiliale izolate. Parcela nr. cad. 262744 (1.969 mp; înainte ULi/c) se împarte în trei parcele construibile, aleea de utilitate privată P4 (ampriză 6 m, cu loc de întoarcere, din str. Colinei), terenul pentru regularizarea str. Colinei (P5) și o parcelă de alei și spații verzi lângă Valea Gârbăului (P6)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 10 m la coamă sau la aticul nivelului retras; cel mult două niveluri supraterane: (S)+P+1, (S)+P+M, (S)+P+R sau D+P"
+   }
+  ],
+  "suprafata_m2": 1969,
+  "imagine": "puz/2025-56/plansa.webp",
+  "bounds": {
+   "west": 23.5358866,
+   "south": 46.7523435,
+   "east": 23.5371935,
+   "north": 46.7527297
+  },
+  "limita": [
+   [
+    23.5371192,
+    46.7525177
+   ],
+   [
+    23.5359805,
+    46.7523689
+   ],
+   [
+    23.535918,
+    46.7523606
+   ],
+   [
+    23.535938,
+    46.7525483
+   ],
+   [
+    23.5359646,
+    46.7525519
+   ],
+   [
+    23.5371346,
+    46.7527104
+   ],
+   [
+    23.5371562,
+    46.7527133
+   ],
+   [
+    23.5371682,
+    46.7525243
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.22
+  },
+  "legenda": "puz/2025-56/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-02-17"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa nu dă înălțimi: clădirile propuse sunt notate doar (S)+P+E. Art. 1 fixează cel mult două niveluri supraterane ((S)+P+1, (S)+P+M, (S)+P+R sau D+P), 8 m la cornișa superioară sau la aticul ultimului nivel neretras și 10 m la coamă sau la aticul nivelului retras. P.O.T. 35% și C.U.T. 0,9 sunt aceleași în text și pe planșă; procentul minim de spații verzi pe sol natural (40%) e doar pe planșă și în Anexa 1.",
+   "Art. 1 admite pe parcela P3 două locuințe unifamiliale izolate; planșa desenează pe P3 o singură zonă construibilă. Retragerile cotate pe planșă (5 m față de str. Colinei, 2 m față de alee, 3 m între parcele, 5 m spre nord și 6 m spre sud pe P3, 6 m la limita posterioară) sunt cele din Art. 1."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării str. Colinei pe tronsonul de lângă P.U.Z. (parcela P5) se dezmembrează din parcela inițială și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele; până la recepția construcțiilor se aduce la strat de uzură (asfalt).",
+   "Aleea de utilitate privată (parcela P4, ampriză 6 m, cu loc de întoarcere, din str. Colinei) se înscrie în CF cu destinația „drum” înainte de autorizațiile de construire pe parcele; până la recepția locuințelor se echipează edilitar complet și se aduce la strat de uzură, pe baza unui proiect de specialitate autorizat.",
+   "Terenul de lângă Valea Gârbăului (parcela P6) se dezmembrează din parcela inițială și se înscrie în CF cu destinația „alei și spații verzi” înainte de autorizația de construire pe parcela P3.",
+   "Retrageri: cel puțin 5 m față de str. Colinei și 2 m față de aleea privată; față de limitele laterale cel puțin 3 m pe P1 și P2, iar pe P3 cel puțin 5 m spre nord și 6 m spre sud; garajele se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m; față de limita posterioară cel puțin înălțimea clădirii, minimum 6 m (garajele cel puțin 6 m).",
+   "Accesul pe parcele se face din aleea privată; pe o parcelă un singur acces pietonal și un singur acces carosabil, de cel mult 3 m lățime; parcarea se organizează în interiorul parcelei: cel puțin un loc pentru clădiri cu A.U. sub 100 mp, două peste 100 mp; pentru căile din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Toate construcțiile se racordează la rețelele edilitare; după Anexa 1, apele pluviale nu se dirijează spre domeniul public sau spre vecini, firidele de branșament se integrează în împrejmuire, cablurile aeriene de orice fel sunt interzise, iar fiecare parcelă are o platformă pentru deșeuri accesibilă din spațiul public sau din alee.",
+   "După Anexa 1, spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare parcelă, iar eliminarea arborilor maturi e interzisă, în afara pericolului iminent sau a cazului în care ar împiedica construcția.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
