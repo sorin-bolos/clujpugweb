@@ -1,0 +1,126 @@
+{
+  "id": "2024-513",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Teritoriul aprobat (1.432 mp) sunt două parcele despărțite de str. Sarmisegetuza, la ~11 m una de alta (nr. cad. 297494 la nr. 12 și nr. cad. 340137 la nr. 11-13), iar puz.py și harta știu o singură limită dintr-un singur inel; în plus, inventarul planșei pentru 340137 urmează conturul vechii parcele 330506 (1.339 mp calculați, față de 1.331), cu fâșia de ~100 mp cedată domeniului public (nr. cad. 340138), așa că latura sudică actuală a lui 340137 (S = 1231 mp) n-are coordonate și ar trebui trasată pe planșă. Hotărârea e un P.U.Z. de sine stătător, valabil până la 25.06.2029: înlocuiește P.U.Z.-ul HCL 406/2020 (Art. 3), a cărui rețetă, 2020-406, e expirată și rămâne neatinsă.",
+  "hcl": {
+    "nr": 513,
+    "an": 2024,
+    "data_sedinta": "2024-06-25",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-513-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/07/03/HCL-513.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar în zonă cu caracter rezidențial, str. Sarmisegetuza nr. 11-13 și nr. 12, de modificare a P.U.Z. aprobat prin Hotărârea nr. 406/2020",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 200,
+    "denumire": "A03 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări, Anexa 2 la hotărâre: HCL-513.pdf, p. 18, A3 color la 200 ppi, ștampilată „HCL nr. 513 din 25.06.2024” și „Vizat spre neschimbare – Anexă la Avizul Arhitectului șef nr. 83 din 24.05.2023”. Cartușul: proiect 03/2022, apr. 2022, planșa A03 „Reglementări urbanistice”, scara 1:1000, „PUZ modificator pentru PUZ aprobat cu HCL nr. 406/2020”, str. Sarmisegetuza nr. 11-13; desenul e la ~7,9 px/m, rotit cu ~3,7° față de caroiajul Stereo 70. Aceeași planșă e și la p. 6, ca fotocopie alb-negru redusă pe A4, pe care cifrele inventarelor nu se citesc; p. 19 e planșa A.06 Mobilare urbanistică (Anexa 3). Restul PDF-ului: hotărârea (pp. 1-2), regulamentul (pp. 3-5), avizele (pp. 8-14), HCL 406/2020 (pp. 15-16), HCL 821/2020 (p. 17), informarea publicului (pp. 20-23). `legenda_px` cuprinde caseta „Indici urbanistici” și cheia simbolurilor; au rămas afară bilanțul teritorial, inventarele, secțiunea N-S, cartușul și ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Trei inventare pe planșa A03, Stereo 70, fără lungimi de laturi: „Puncte pe contur 340137” (21, 22, 23, 10-18, S = 1231 mp; capetele „X(m)”/„Y(m)” sunt inversate, prima coloană are Estul), „Puncte pe contur 311875” (aleea de acces: 24, 25, 23, 21, S = 296 mp; nu face parte din teritoriul aprobat) și „Puncte pe contur 297494 – Inventar de coordonate” (Nord(X)/Est(Y), 1-6, S = 201 mp).",
+    "suprafata_declarata_m2": 1432,
+    "puncte": {
+      "1": [587141.301, 394981.624],
+      "2": [587155.24, 394978.651],
+      "3": [587158.201, 394991.742],
+      "4": [587158.249, 394991.953],
+      "5": [587142.624, 394994.175],
+      "6": [587140.579, 394981.77],
+      "10": [587064.74, 395001.03],
+      "11": [587063.41, 394999.23],
+      "12": [587025.66, 395005.33],
+      "13": [587023.07, 395000.49],
+      "14": [587020.59, 394989.91],
+      "15": [587016.81, 394971.81],
+      "16": [587036.36, 394967.55],
+      "17": [587045.53, 394965.57],
+      "18": [587061.97, 394995.45],
+      "21": [587080.06, 394992.06],
+      "22": [587080.6, 394995.0],
+      "23": [587081.14, 394997.95],
+      "24": [587129.66, 394992.92],
+      "25": [587129.73, 394988.62]
+    },
+    "contururi": {
+      "297494": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "340137 (după inventar: conturul vechii parcele 330506, vezi nota)": [
+        "21",
+        "22",
+        "23",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18"
+      ],
+      "311875 (aleea, în afara teritoriului aprobat)": [
+        "24",
+        "25",
+        "23",
+        "22",
+        "21"
+      ]
+    },
+    "nota": "Teritoriul aprobat (Art. 1: 1.432 mp = 1231 + 201, nr. cad. 340137 și 297494) sunt două inele disjuncte: 297494 pe frontul nordic al str. Sarmisegetuza (nr. 12, pe planșă la y 245-385 px), 340137 în spatele frontului sudic (nr. 11-13), legată de stradă prin aleea 311875; între capătul aleii (24-25, N 587129,7) și latura sudică a lui 297494 (6-5, N 587140,6-587142,6) e strada, ~11 m. Transcrierile încercării din 2026-11-11 au fost recitite cifră cu cifră (`grid --scale 4`) și sunt aceleași; cifre nesigure la 200 ppi: Nordul lui 15 (…16,81 / …18,81) și al lui 17 (…45,53 / …49,53). Verificări: 297494 iese 201,3 mp (S = 201), cu laturile 4-5 = 15,78 m și 5-6 = 12,57 m ca cotele planșei. 340137 iese 1339,3 mp față de S = 1231, dar +0,6% față de 1.331 mp, parcela nr. cad. 330506 aprobată prin HCL 406/2020, din care ~100 mp de pe malul lacului au fost dezmembrați și trecuți în domeniul public (nr. cad. 340138, HCL 821/2020). O potrivire afină numai pe puncte departe de latura sudică (2 [1398, 255], 3 [1510, 245], 5 [1520, 378], 6 [1411, 384], 17 [1294, 1120], 21 [1497, 857], 23 [1547, 852]; reziduuri ≤ 1,3 m, picking grosier, nefolosite ca puncte de control) arată că laturile de nord, vest și est ale inventarului urmează linia roșie a planșei, iar punctele sudice 15-14-13-12 cad pe marginea exterioară a fâșiei cedate (~2-3,8 m lățime, la y ~1290-1355 px), nu pe linia roșie din interiorul ei (de la (1340, 1340) la (1590, 1270) px), care e limita sudică actuală și față de care e cotată retragerea de 9,10 m (de la linia albastră a retragerii, y ~1202 px, la y ~1274 px; continuată cu cota „3,8” până la marginea exterioară). Linia retragerii n-a mutat-o nimeni: 9,1 m plus ~2,9 m de fâșie cedată fac cei 12 m ceruți în 2020 față de vechea limită sudică. Deci inventarul „340137” e de fapt conturul lui 330506, iar latura sudică actuală a lui 340137 n-are coordonate pe planșă. Etichetele vârfurilor de pe planșă nu urmează numerotarea tabelului (de pildă „16” la colțul de NV, unde tabelul are 17, „20” la colțul gâtului, unde are 18). Aleea 311875 iese 252,3 mp față de 296: punctul 24 cade la ~4 m est de fâșia desenată, care are cota 6,00 m la capătul dinspre stradă (tabelul dă 4,30 m între 24 și 25); cu Estul lui 24 = 394982,92 ar ieși 289,8 mp, deci nici așa; aleea nu face parte din teritoriul aprobat. Cine reia: are nevoie de unelte care știu limite din mai multe inele și, pentru 340137, de latura sudică trasată pe planșă (linia roșie interioară), cu punct de verificare."
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [2046, 1450, 3246, 1998]
+  ],
+  "utr": [
+    {
+      "cod": "S_Et",
+      "denumire": "Subzonă de activități economice cu caracter terțiar situată în zonă cu caracter rezidențial: birouri, servicii financiar-bancare, comerț cu A.D.C. de cel mult 1000 mp, alimentație publică, servicii cu acces public, servicii profesionale și manufacturiere, cazare turistică, cercetare științifică, funcțiuni culturale, garaje, parcări etajate mecanizate; regim de construire deschis. Pe nr. cad. 340137 (nr. 11-13) clădirea propusă, pe nr. cad. 297494 (nr. 12) parcarea ei etajată mecanizată",
+      "pot_max": "40%",
+      "cut_max": "1,8",
+      "h_max": "trei niveluri supraterane ((1-2S)+P+2E, (1-2S)+P+E+M/R sau (S)+D+P+E), max. 12 m în punctul cel mai înalt"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde (partea de sud a nr. cad. 340137, spre Lacul Gheorgheni): se mențin prevederile P.U.G.; amenajarea se poate face pe baza unei documentații tehnice, fără P.U.D."
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-06-25",
+    "nota": "Art. 2: cinci ani de la aprobare (25.06.2024); nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08). Art. 3 încetează aplicabilitatea HCL 406/2020, care oricum ar fi expirat la 18.06.2025."
+  },
+  "prelungiri": [],
+  "modifica": [
+    "406/2020"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Bilanțul teritorial al planșei socotește 1728 mp (propus: UTR S_Et* 1391 mp și UTR Ve 337 mp), adică și aleea de acces nr. cad. 311875 (296 mp), inclusă în UTR S_Et*; Art. 1 aprobă P.U.Z. pentru 1.432 mp, numai parcelele nr. cad. 340137 și 297494, iar aleea apare doar ca acces pietonal.",
+    "Planșa numește subzona „UTR S_Et*”; Art. 1 o numește U.T.R. S_Et.",
+    "Inventarul planșei pentru nr. cad. 340137 cuprinde și fâșia de ~100 mp de pe malul lacului cedată domeniului public (nr. cad. 340138), deși suprafața scrisă (1231 mp) și Art. 1 o lasă afară."
+  ],
+  "conditii": [
+    "Pe nr. cad. 340137 (str. Sarmisegetuza nr. 11-13): retrageri de cel puțin 4,5 m față de limitele de proprietate nordică, estică și vestică și de cel puțin 9,1 m față de limita sudică.",
+    "Pe nr. cad. 297494 (str. Sarmisegetuza nr. 12): clădirea existentă se desființează, pentru o parcare etajată mecanizată; retrageri de cel puțin 1 m față de limita vestică, 0,5 m față de limita nordică și 5 m față de limita estică.",
+    "Accese: pe nr. cad. 340137 numai pietonal, de pe latura sudică din domeniul public (nr. cad. 340138) și din str. Sarmisegetuza peste nr. cad. 311875 (aleea); pe nr. cad. 297494 acces auto și pietonal direct din str. Sarmisegetuza.",
+    "Parcare: în interiorul parcelei și/sau pe o rază de 200 m de limitele de proprietate, cu necesarul după Anexa 2 a Regulamentului P.U.G.; locurile clădirii de pe nr. cad. 340137 se fac pe nr. cad. 297494, în sistem de parcare mecanizat.",
+    "Pentru partea din nr. cad. 340137 încadrată în UTR Ve se mențin prevederile P.U.G.; amenajarea ei se poate face pe baza unei documentații tehnice, fără P.U.D.",
+    "La faza D.T.A.C., documentația se avizează în Comisia de estetică urbană.",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiară."
+  ]
+}
