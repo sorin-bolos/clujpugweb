@@ -23957,6 +23957,136 @@
   ]
  },
  {
+  "id": "2022-400",
+  "localitate": "cluj",
+  "hcl": "400/2022",
+  "data": "2022-05-04",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Alexandru Odobescu – est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-400-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/05/20/HCL-400-din-4-mai-2022-PUZ.pdf",
+  "utr": [
+   {
+    "cod": "Lip",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip periferic: locuințe individuale (unifamiliale) și semicolective (familiale) cu anexele lor, regim de construire izolat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "3 niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R); H cornișă/atic 8 m, H max 12 m"
+   }
+  ],
+  "suprafata_m2": 11128,
+  "imagine": "puz/2022-400/plansa.webp",
+  "bounds": {
+   "west": 23.5743602,
+   "south": 46.7901989,
+   "east": 23.5766965,
+   "north": 46.7914183
+  },
+  "limita": [
+   [
+    23.5745281,
+    46.7910379
+   ],
+   [
+    23.5751846,
+    46.7913813
+   ],
+   [
+    23.5755695,
+    46.7910514
+   ],
+   [
+    23.5760067,
+    46.7912954
+   ],
+   [
+    23.5764579,
+    46.7909723
+   ],
+   [
+    23.5765188,
+    46.7909645
+   ],
+   [
+    23.576538,
+    46.79097
+   ],
+   [
+    23.5766463,
+    46.7908796
+   ],
+   [
+    23.5756083,
+    46.7906294
+   ],
+   [
+    23.5756471,
+    46.7904714
+   ],
+   [
+    23.5752876,
+    46.7903287
+   ],
+   [
+    23.575049,
+    46.7902261
+   ],
+   [
+    23.5748907,
+    46.7904032
+   ],
+   [
+    23.5746647,
+    46.7903025
+   ],
+   [
+    23.5744797,
+    46.7905793
+   ],
+   [
+    23.5743999,
+    46.7907517
+   ],
+   [
+    23.5746807,
+    46.7908805
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 1.01,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2022-400/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-05-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Hotărârea numește Anexa 1 „Planșa A.04 – Plan Reglementări Urbanistice”; planșa din PDF (p. 12), vizată „HCL nr. 400 din 4.05.2022”, e numerotată A03, „Reglementări urbanistice”.",
+   "Nota planșei „Număr maxim autoturisme = 80” nu apare în hotărâre: textul cere doar ca parcarea să se facă în interiorul parcelelor, după Anexa 2 a Regulamentului local de urbanism aferent P.U.G.",
+   "Planșa dă doar POT max 35% și CUT max 0,9 (aceiași ca în text); regimul de înălțime, înălțimile de 8 m la cornișă și 12 m maxim și retragerile vin numai din text."
+  ],
+  "conditii": [
+   "Prin P.U.Z. se parcelează un teren de 11.051 mp în 20 de parcele pentru locuințe cu regim redus de înălțime și două imobile cu destinația „drum” (aleile A și B).",
+   "Retrageri: față de aliniament între 3 și 5 m; față de limitele laterale min. 3 m (garajele, și cele din corpul clădirii, se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m); față de limita posterioară min. înălțimea clădirii, dar nu mai puțin de 6 m; între clădirile de pe aceeași parcelă min. jumătate din înălțimea celei mai înalte, dar nu mai puțin de 3 m.",
+   "Aleile A și B sunt circulații cu acces public nelimitat, cu ampriza de 9 m (6 m carosabil și două trotuare de 1,5 m) și loc de întoarcere; accesul pe parcele se face din alei: un acces pietonal și unul carosabil pentru o locuință individuală, unul sau două din fiecare pentru locuințele semicolective.",
+   "Parcarea se face în interiorul parcelei, după Anexa 2 a Regulamentului local de urbanism aferent P.U.G.; toate construcțiile se racordează la rețelele edilitare publice disponibile în zonă.",
+   "Înainte de autorizațiile de construire pentru locuințe, aleile A și B se înscriu în CF ca „drum”, se echipează edilitar cu apă-canal și electricitate și li se face partea carosabilă la strat de uzură, pe baza unui proiect de specialitate (modificat prin HCL 112/2025: inițial se cerea și gaz).",
+   "Înainte de recepția locuințelor: trotuarele aleilor A și B, cu iluminat stradal și mobilier urban (coșuri de gunoi); un trotuar de 1,5 m pe str. Alexandru Odobescu, între str. Dâmbul Rotund și aleea B, în locul rigolei deschise existente; pe fâșia de 3 m de lângă aliniament, cel puțin doi arbori pe fiecare parcelă, cu circumferința de min. 35 cm la 1 m de la colet.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "112/2025",
+    "data": "2025-03-27",
+    "rezumat": "Modifică în Art. 1 condiția de echipare edilitară a aleilor A și B: înainte de autorizațiile de construire pentru locuințe, aleile se înscriu în CF ca „drum”, se echipează cu apă-canal și electricitate (fără gaz, cerut inițial) și li se face carosabilul la strat de uzură, pe baza unui proiect de specialitate. Celelalte prevederi rămân neschimbate; nu are planșă și nici valabilitate proprie.",
+    "plansa_noua": false
+   }
+  ]
+ },
+ {
   "id": "2022-399",
   "localitate": "cluj",
   "hcl": "399/2022",

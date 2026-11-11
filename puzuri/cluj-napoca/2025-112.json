@@ -1,0 +1,49 @@
+{
+  "id": "2025-112",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 112,
+    "an": 2025,
+    "data_sedinta": "2025-03-27",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-112-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/04/03/112.pdf"
+  },
+  "titlu": "Modificarea Hotărârii nr. 400 din 4.05.2022 (aprobarea P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Alexandru Odobescu – est)",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul hotărârii (112.pdf) are o singură pagină A4, culcată, scanată la 300 ppi: textul hotărârii, fără anexe și fără planșă; pagina hotărârii nu leagă alt PDF. Hotărârea modifică doar o condiție din Art. 1 al HCL 400/2022 (echiparea edilitară a aleilor A și B), cu avizul Arhitectului șef nr. 1 din 9.01.2025. Integrată pe 2026-11-11 în rețeta P.U.Z. de bază, 2022-400 (modificat_de, condiții), publicată în același commit; pe hartă apare în fișa P.U.Z. 400/2022."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [
+    "400/2022"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Art. 1: se modifică Art. 1 al HCL 400/2022, în sensul modificării condiției de echipare edilitară a aleilor de deservire locală desprinse din str. Alexandru Odobescu: „Anterior emiterii autorizațiilor de construire pentru locuințe, aleea „A” și aleea „B”, propuse prin P.U.Z., vor fi înscrise în C.F. cu destinația de „drum”, echipate edilitar (apă-canal, electrica), iar partea carosabilă realizată la strat de uzură, în baza unui proiect de specialitate.” Față de textul inițial lipsește echiparea cu gaz.",
+    "Art. 2: celelalte prevederi și reglementări urbanistice stabilite prin HCL 400/2022 rămân neschimbate; executarea revine Direcției Generale de Urbanism (Art. 3)."
+  ],
+  "valabilitate": {
+    "nota": "Hotărârea nu are valabilitate proprie și nu schimbă valabilitatea P.U.Z.-ului aprobat prin HCL 400/2022 (5 ani, până la 4.05.2027)."
+  },
+  "hotarare_text": "documente/2025-112/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2022-400"
+}

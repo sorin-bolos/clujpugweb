@@ -1,0 +1,127 @@
+{
+  "id": "2022-400",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 400,
+    "an": 2022,
+    "data_sedinta": "2022-05-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-400-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/05/20/HCL-400-din-4-mai-2022-PUZ.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Alexandru Odobescu – est",
+  "plansa": {
+    "pagina_pdf": 12,
+    "dpi": 200,
+    "denumire": "A03 – Reglementări urbanistice (PUZ de parcelare)",
+    "scara": "1:500 în cartuș; scanarea are ≈15,5 px/m la 200 ppi (1:500 ar da 15,75 px/m), deci planșa e tipărită la ~98%: cotele 23,00 m și 20,50 m ale parcelei P20 măsoară 15,4-15,6 px/m",
+    "nota": "PDF-ul are 14 pagini: pp. 1-3 hotărârea (A4 scanat la 300 ppi), pp. 4-5 Anexa 2 – regulamentul local de urbanism, pp. 6-8 avizul Arhitectului șef nr. 12/19.01.2022, pp. 9-10 avizul de oportunitate nr. 54/13.05.2021, p. 11 planul de încadrare în zonă, p. 12 planșa A03 „Reglementări urbanistice” (color, 1202×1725 pt, 200 ppi, 3341×4791 px), pp. 13-14 raportul informării publicului. P. 12 e singura planșă de reglementări; poartă viza Comisiei tehnice de amenajare a teritoriului și urbanism „HCL nr. 400 din 4.05.2022 – VIZAT” (aviz 12/19.01.2022). Desenul e pe fondul topografic (case existente hașurate, cu numerele poștale de pe str. Alexandru Odobescu și str. Dâmbul Rotund), cu nordul în sus; nu are inventar de coordonate și nici caroiaj Stereo 70. Legenda publicată are cheia simbolurilor și tabelul „Indici urbanistici” (UTR Lip, POT/CUT existent și propus); bilanțul teritorial, lista parcelelor propuse, secțiunea 1-1, nota „Număr maxim autoturisme = 80” și cartușul sunt lăsate deoparte."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, extrasul OSM din repo, date din 2026-11-08): planșa nu are inventar de coordonate și nici caroiaj Stereo 70. Toate punctele sunt colțuri de case existente, desenate hașurat pe fondul topografic al planșei și prezente în OSM, în afara zonei reglementate, care e teren liber. Control: NV_nr2_N (colțul de nord al casei nr. 2, D+P, la nord-vest de zonă), NE_nr13_V (colțul de vest al casei nr. 13, D+P+M, spre str. Sanatoriului), SE_casa_N (colțul de nord al casei de la sud de str. Dâmbul Rotund, la sud-est), SV_nr3_S (colțul de sud al casei nr. 3, D+P+E+M, de pe str. Alexandru Odobescu); verificare: SV_casa2_S (colțul de sud al casei vecine, N.C. 25773, de pe str. Odobescu), N_nr23E_N (colțul de nord al casei nr. 23E, P+M, la nord) și E_nr13_E (colțul de est al casei nr. 13). Ancora de pornire: corelarea contururilor clădirilor din OSM cu fondul topografic al planșei, căutând scara și rotația (vârf la 15,5 px/m, nordul în sus), cu centrul extrasului (E 391371,6, N 588837,3) la (1543, 2525); prima încercare a fost intersecția str. Alexandru Odobescu / str. Dâmbul Rotund din `geocode` (E 391348,7, N 588777,7). Potrivirea dă 15,5 px/m și o rotație de 0,23°; scara e confirmată de cotele planșei (23,00 m și 20,50 m la parcela P20 dau 15,4-15,6 px/m) și de arie. Cu potrivirea, clădirile OSM cad peste casele desenate de pe ambele străzi, la 0-2 m. Limita e trasată (`limita_px`) pe linia portocalie „Limita de proprietate PUZ”: fiecare latură e dreapta ajustată pe pixelii portocalii ai liniei (abatere standard 1,3-1,9 px), iar vârfurile sunt intersecțiile laturilor vecine; latura de vest, de-a lungul str. Odobescu, are o frântură la (480, 1992), iar latura de sud, spre str. Dâmbul Rotund, una la (1429, 2446). Aria trasată, 11.128 mp, față de 11.051 mp din bilanțul planșei și din Art. 1 (+0,7%).",
+    "suprafata_declarata_m2": 11051,
+    "puncte": {},
+    "nota": "Poziționare aproximativă (±3-5 m): planșa nu are coordonate, iar contururile caselor din OSM sunt trasate pe acoperișuri. Ar fi exactă cu coordonatele cadastrale ale parcelelor (numerele cadastrale sunt în Art. 1)."
+  },
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [1543, 2525],
+    "en": [391371.6, 588837.3],
+    "px_per_m": 15.5,
+    "nord": 0
+  },
+  "repere": {
+    "NV_nr2_N": [588954.2, 391293.73],
+    "NE_nr13_V": [588943.02, 391463.95],
+    "SE_casa_N": [588819.38, 391440.35],
+    "SV_nr3_S": [588817.6, 391292.65],
+    "SV_casa2_S": [588805.91, 391299.61],
+    "N_nr23E_N": [588974.96, 391387.95],
+    "E_nr13_E": [588937.22, 391477.82]
+  },
+  "repere_osm": {
+    "NV_nr2_N": "colț de clădire (b328724264_3)",
+    "NE_nr13_V": "colț de clădire (b354012088_0)",
+    "SE_casa_N": "colț de clădire (b316423883_1)",
+    "SV_nr3_S": "colț de clădire (b328724274_1)",
+    "SV_casa2_S": "colț de clădire (b352774595_3)",
+    "N_nr23E_N": "colț de clădire (b354012070_1)",
+    "E_nr13_E": "colț de clădire (b354012088_2)"
+  },
+  "gcp_px": {
+    "NV_nr2_N": [322, 706],
+    "NE_nr13_V": [2979, 881],
+    "SE_casa_N": [2605, 2825],
+    "SV_nr3_S": [322, 2808]
+  },
+  "verificare_px": {
+    "SV_casa2_S": [443, 3006],
+    "N_nr23E_N": [1790, 402],
+    "E_nr13_E": [3198, 969]
+  },
+  "limita_px": [
+    [555, 1201],
+    [1347, 625],
+    [1791, 1205],
+    [2319, 795],
+    [2842, 1365],
+    [2914, 1380],
+    [2937, 1371],
+    [3062, 1530],
+    [1821, 1935],
+    [1861, 2209],
+    [1429, 2446],
+    [1142, 2617],
+    [961, 2307],
+    [689, 2475],
+    [480, 1992],
+    [392, 1692],
+    [730, 1477]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [100, 3628, 1022, 4135],
+    [1792, 3628, 2190, 4140]
+  ],
+  "utr": [
+    {
+      "cod": "Lip",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip periferic: locuințe individuale (unifamiliale) și semicolective (familiale) cu anexele lor, regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "3 niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R); H cornișă/atic 8 m, H max 12 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-05-04",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare (ședința din 4.05.2022); `related`: nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08), doar modificarea prin HCL 112/2025, care nu schimbă valabilitatea (Art. 2: celelalte prevederi rămân neschimbate)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "112/2025",
+      "data": "2025-03-27",
+      "rezumat": "Modifică în Art. 1 condiția de echipare edilitară a aleilor A și B: înainte de autorizațiile de construire pentru locuințe, aleile se înscriu în CF ca „drum”, se echipează cu apă-canal și electricitate (fără gaz, cerut inițial) și li se face carosabilul la strat de uzură, pe baza unui proiect de specialitate. Celelalte prevederi rămân neschimbate; nu are planșă și nici valabilitate proprie.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [
+    "Hotărârea numește Anexa 1 „Planșa A.04 – Plan Reglementări Urbanistice”; planșa din PDF (p. 12), vizată „HCL nr. 400 din 4.05.2022”, e numerotată A03, „Reglementări urbanistice”.",
+    "Nota planșei „Număr maxim autoturisme = 80” nu apare în hotărâre: textul cere doar ca parcarea să se facă în interiorul parcelelor, după Anexa 2 a Regulamentului local de urbanism aferent P.U.G.",
+    "Planșa dă doar POT max 35% și CUT max 0,9 (aceiași ca în text); regimul de înălțime, înălțimile de 8 m la cornișă și 12 m maxim și retragerile vin numai din text."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se parcelează un teren de 11.051 mp în 20 de parcele pentru locuințe cu regim redus de înălțime și două imobile cu destinația „drum” (aleile A și B).",
+    "Retrageri: față de aliniament între 3 și 5 m; față de limitele laterale min. 3 m (garajele, și cele din corpul clădirii, se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m); față de limita posterioară min. înălțimea clădirii, dar nu mai puțin de 6 m; între clădirile de pe aceeași parcelă min. jumătate din înălțimea celei mai înalte, dar nu mai puțin de 3 m.",
+    "Aleile A și B sunt circulații cu acces public nelimitat, cu ampriza de 9 m (6 m carosabil și două trotuare de 1,5 m) și loc de întoarcere; accesul pe parcele se face din alei: un acces pietonal și unul carosabil pentru o locuință individuală, unul sau două din fiecare pentru locuințele semicolective.",
+    "Parcarea se face în interiorul parcelei, după Anexa 2 a Regulamentului local de urbanism aferent P.U.G.; toate construcțiile se racordează la rețelele edilitare publice disponibile în zonă.",
+    "Înainte de autorizațiile de construire pentru locuințe, aleile A și B se înscriu în CF ca „drum”, se echipează edilitar cu apă-canal și electricitate și li se face partea carosabilă la strat de uzură, pe baza unui proiect de specialitate (modificat prin HCL 112/2025: inițial se cerea și gaz).",
+    "Înainte de recepția locuințelor: trotuarele aleilor A și B, cu iluminat stradal și mobilier urban (coșuri de gunoi); un trotuar de 1,5 m pe str. Alexandru Odobescu, între str. Dâmbul Rotund și aleea B, în locul rigolei deschise existente; pe fâșia de 3 m de lângă aliniament, cel puțin doi arbori pe fiecare parcelă, cu circumferința de min. 35 cm la 1 m de la colet.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
