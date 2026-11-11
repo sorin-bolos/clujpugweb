@@ -14035,6 +14035,92 @@
   ]
  },
  {
+  "id": "2025-593",
+  "localitate": "cluj",
+  "hcl": "593/2025",
+  "data": "2025-09-05",
+  "titlu": "P.U.Z. – Construire imobil locuințe colective cu funcțiuni terțiare la parter, str. Miko Imre nr. 12",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-593-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/09/24/593.pdf",
+  "utr": [
+   {
+    "cod": "LcM",
+    "denumire": "Zonă cu funcțiune rezidențială – ansambluri ce includ locuirea colectivă și dotări aferente: funcțiunea predominantă locuințe colective, cu funcțiuni terțiare (comerț, servicii) la parter; regim de construire izolat; parcela nr. cad. 302653 (2495 mp). Retrageri: minimum 5 m de la aliniament; Hcornișă/2, dar cel puțin 6 m, de la limitele laterale; înălțimea clădirii la cornișa superioară sau atic, dar cel puțin 12 m, de la limita posterioară (retragerea în trepte e admisă). Acces auto și pietonal direct din str. Miko Imre; parcarea în parcelă, predominant în subsol.",
+    "pot_max": "30%; nivelurile de locuit au aria construită de cel mult 20% din suprafața terenului",
+    "cut_max": "1,1",
+    "h_max": "18,50 m în total, 15 m la cornișă; (1-2)S+P+4E, plus un nivel tehnic de cel mult 30% din aria construită a ultimului nivel, în limita celor 18,50 m"
+   }
+  ],
+  "suprafata_m2": 2495,
+  "imagine": "puz/2025-593/plansa.webp",
+  "bounds": {
+   "west": 23.5894679,
+   "south": 46.7484749,
+   "east": 23.5900564,
+   "north": 46.7492628
+  },
+  "limita": [
+   [
+    23.5898172,
+    46.7492262
+   ],
+   [
+    23.5900162,
+    46.7492168
+   ],
+   [
+    23.5899768,
+    46.7485128
+   ],
+   [
+    23.5899758,
+    46.7484959
+   ],
+   [
+    23.5895081,
+    46.7485256
+   ],
+   [
+    23.5895097,
+    46.7485406
+   ],
+   [
+    23.5895619,
+    46.7485355
+   ],
+   [
+    23.5896193,
+    46.7492424
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.05
+  },
+  "legenda": "puz/2025-593/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-09-05"
+  },
+  "diferente_fata_de_plansa": [
+   "UTR: hotărârea și eticheta de pe parcelă spun UTR LcM, dar tabelul de indici al planșei e intitulat „Regim tehnic = UTR ULc/PUZ” (UTR-ul din P.U.G. al zonei din jur). Indicatorii coincid: POT maxim 30%, CUT maxim 1,1.",
+   "Aria construită a nivelurilor de locuit: hotărârea (Art. 1) și regulamentul o limitează la 20% din suprafața terenului (~499 mp); planșa nu scrie regula, dar corpul înalt desenat (15,80 × 31,60 m ≈ 499 mp) o respectă. Planșa dă POT propus 29,75% și CUT propus 1,1, valabile doar pentru mobilarea prezentată.",
+   "Spațiile verzi: planșa cere minimum 40% spațiu verde pe sol natural, calculat pe terenul rămas după dezmembrarea pentru stradă (2426,45 mp), și plantarea a cel puțin 10 arbori; hotărârea nu le pomenește, iar regulamentul (Anexa 1, art. 13) cere minimum 40% din suprafața parcelei, fără numărul de arbori."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii străzii Miko Imre la ampriza de 9 m, pe tronsonul de lângă P.U.Z. (68,55 mp pe planșă), se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum” înainte de autorizația de construire.",
+   "Investitorul modernizează str. Miko Imre de la Calea Turzii până la str. Aurel Ghurghianu (6 m carosabil și trotuare), pe baza unui proiect autorizat, până la recepția clădirii.",
+   "Înainte de certificatul de atestare a edificării construcției, terenul dezmembrat și amenajat odată cu strada trece în domeniul public, cum propune planșa A5 (proprietatea asupra terenurilor).",
+   "La faza D.T.A.C. proiectul trece prin Comisia de Estetică Urbană.",
+   "Parcarea se face în parcelă, predominant în subsol; necesarul se calculează după Anexa 2 a regulamentului P.U.G. 2014, însumat pe funcțiuni; parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit.",
+   "Clădirea se racordează la rețelele edilitare publice și la sistemul centralizat de încălzire/apă caldă sau la instalații de scară, bloc sau cvartal; centralele individuale pe gaz sunt interzise, la fel cablurile aeriene și scurgerea apelor pluviale spre domeniul public sau spre vecini; firidele de branșament stau în clădire.",
+   "Punctul gospodăresc pentru colectarea selectivă a deșeurilor pe cinci fracții e îngropat și accesibil din spațiul public.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă (regulamentul, art. 13).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

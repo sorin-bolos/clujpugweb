@@ -1,0 +1,166 @@
+{
+  "id": "2025-593",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 593,
+    "an": 2025,
+    "data_sedinta": "2025-09-05",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-593-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/09/24/593.pdf"
+  },
+  "titlu": "P.U.Z. – Construire imobil locuințe colective cu funcțiuni terțiare la parter, str. Miko Imre nr. 12",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 200,
+    "denumire": "Plan de reglementări – posibilitate mobilare urbanistică (planșa A4)",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 8 (Anexa 2 la hotărâre, micșorată pe A4, rotită, alb-negru, ștampilată, 300 ppi) și p. 15 (format mare, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 282 din 27.11.2024, și mențiunea de mână „HCL nr. 593 din 5 septembrie 2025”); s-a folosit p. 15, mult mai clară. Hotărârea numește anexa „Planșa A 3 – Plan de Reglementări”, dar planșa anexată (p. 8, „Anexa 2 la HCL nr. 593/2025”) și copia de la p. 15 poartă în cartuș „Plan de reglementări – posibilitate mobilare urbanistică”, planșa A4; alt plan de reglementări nu e în PDF. Pp. 1-2 sunt hotărârea, pp. 3-7 regulamentul local de urbanism (Anexa 1, UTR LcM), pp. 9-11 avizul de oportunitate nr. 218 din 25.09.2024 cu extrasul din P.U.G., pp. 12-14 avizul Arhitectului-șef nr. 282 din 27.11.2024, pp. 16-18 raportul informării și consultării publicului. Cartușul: planșa A4, faza P.U.Z., proiect nr. 48/2018, scara 1:500, data iunie 2021. Scara imaginii: 15,5 px/m (planșa e tipărită la ~98% din 1:500 la 200 ppi); nordul e în sus (rotație -0,07°). Legenda cuprinde, în cinci casete: cheia simbolurilor (zona studiată, zona reglementată / limita proprietății, limita construcțiilor subterane, accesele, construcțiile existente și propuse, zona edificabilă, circulațiile, punctul gospodăresc, zona verde, plantațiile, bazinul de colectare a apelor pluviale); titlul casetei „Indici tehnico-urbanistici pe terenul destinat construirii”; nota despre etajul tehnic (max. 30% din aria ultimului nivel, în limita a 18,50 m); caracteristicile (regim (1-2S)+P+4E+Et, H max. 18,50 m, cornișa 15 m față de C.T.A.) și regulile spațiilor verzi (min. 40% pe sol natural, min. 10 arbori); tabelul „Regim tehnic” cu POT/CUT existent, maxim (30%, 1,1) și propus (29,75%, 1,1). Au rămas afară, din caseta de indici, rândurile cu terenul și investitorul, lista suprafețelor construite propuse și caseta „Funcțiuni” (suprafețe, apartamente, locuri de parcare), apoi bilanțul teritorial, caracteristicile tehnice ale clădirii (categoria și clasa de importanță, gradul de rezistență la foc, zona seismică), profilul stradal, inventarul de coordonate, cartușul, semnăturile digitale, viza și ștampilele. Zona e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Coordonate pct. de contur / X [m] / Y [m]” (X = Nord, Y = Est), 8 puncte numerotate 1-8 în ordinea conturului, cu lungimile laturilor D(i,i+1) și, sub tabel, „S(1)=2495.20mp P=230.935m” (tabelul din stânga-jos a planșei, x≈540-960, y≈2850-3260). Numerele vârfurilor nu sunt scrise pe desen; colțurile s-au găsit cu `predict` și s-au citit pe centrul liniei punctate roșii „zona reglementată / limita proprietate parcela studiată”. Control: cele patru colțuri ale parcelei, 8 (nord-vest), 2 (nord-est), 4 (sud-est) și 5 (sud-vest). Verificare: 6 și 7, colțurile micului decroș de 4,0 × 1,7 m din colțul de sud-vest (spre str. Miko Imre). Punctele 1 (frângere de ~3° pe latura de nord) și 3 (pe latura de est, în prelungirea laturii 3-4) nu sunt colțuri clare și n-au fost folosite. Alte puncte cu coordonate nu are planșa. Control independent: cu transformarea obținută, clădirile din extrasul OSM (2026-11-08) cad peste clădirile existente desenate pe planșă (blocurile P+5E de la nord, P+8E și P+6E de la vest și est, casele P+1E de peste stradă) la 1-2 m.",
+    "suprafata_declarata_m2": 2495.2,
+    "puncte": {
+      "1": [
+        584254.521,
+        392392.244
+      ],
+      "2": [
+        584253.204,
+        392407.426
+      ],
+      "3": [
+        584175.023,
+        392403.025
+      ],
+      "4": [
+        584173.142,
+        392402.919
+      ],
+      "5": [
+        584177.085,
+        392367.249
+      ],
+      "6": [
+        584178.746,
+        392367.396
+      ],
+      "7": [
+        584178.11,
+        392371.38
+      ],
+      "8": [
+        584256.589,
+        392377.159
+      ]
+    },
+    "perimetru_declarat_m": 230.935,
+    "laturi_declarate_m": {
+      "1": 15.239,
+      "2": 78.305,
+      "3": 1.884,
+      "4": 35.887,
+      "5": 1.667,
+      "6": 4.034,
+      "7": 78.691,
+      "8": 15.226
+    }
+  },
+  "gcp_px": {
+    "8": [
+      1302,
+      784
+    ],
+    "2": [
+      1773,
+      836
+    ],
+    "4": [
+      1706,
+      2084
+    ],
+    "5": [
+      1154,
+      2023
+    ]
+  },
+  "verificare_px": {
+    "6": [
+      1154,
+      1996
+    ],
+    "7": [
+      1219,
+      2004
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3418,
+      722,
+      4607,
+      1886
+    ],
+    [
+      3418,
+      1890,
+      4607,
+      1957
+    ],
+    [
+      3418,
+      2228,
+      4607,
+      2296
+    ],
+    [
+      3418,
+      2492,
+      4607,
+      2826
+    ],
+    [
+      1896,
+      2832,
+      2300,
+      3262
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "LcM",
+      "denumire": "Zonă cu funcțiune rezidențială – ansambluri ce includ locuirea colectivă și dotări aferente: funcțiunea predominantă locuințe colective, cu funcțiuni terțiare (comerț, servicii) la parter; regim de construire izolat; parcela nr. cad. 302653 (2495 mp). Retrageri: minimum 5 m de la aliniament; Hcornișă/2, dar cel puțin 6 m, de la limitele laterale; înălțimea clădirii la cornișa superioară sau atic, dar cel puțin 12 m, de la limita posterioară (retragerea în trepte e admisă). Acces auto și pietonal direct din str. Miko Imre; parcarea în parcelă, predominant în subsol.",
+      "pot_max": "30%; nivelurile de locuit au aria construită de cel mult 20% din suprafața terenului",
+      "cut_max": "1,1",
+      "h_max": "18,50 m în total, 15 m la cornișă; (1-2)S+P+4E, plus un nivel tehnic de cel mult 30% din aria construită a ultimului nivel, în limita celor 18,50 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2028-09-05",
+    "verificat": "2026-11-11: Art. 2, trei ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "UTR: hotărârea și eticheta de pe parcelă spun UTR LcM, dar tabelul de indici al planșei e intitulat „Regim tehnic = UTR ULc/PUZ” (UTR-ul din P.U.G. al zonei din jur). Indicatorii coincid: POT maxim 30%, CUT maxim 1,1.",
+    "Aria construită a nivelurilor de locuit: hotărârea (Art. 1) și regulamentul o limitează la 20% din suprafața terenului (~499 mp); planșa nu scrie regula, dar corpul înalt desenat (15,80 × 31,60 m ≈ 499 mp) o respectă. Planșa dă POT propus 29,75% și CUT propus 1,1, valabile doar pentru mobilarea prezentată.",
+    "Spațiile verzi: planșa cere minimum 40% spațiu verde pe sol natural, calculat pe terenul rămas după dezmembrarea pentru stradă (2426,45 mp), și plantarea a cel puțin 10 arbori; hotărârea nu le pomenește, iar regulamentul (Anexa 1, art. 13) cere minimum 40% din suprafața parcelei, fără numărul de arbori."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii străzii Miko Imre la ampriza de 9 m, pe tronsonul de lângă P.U.Z. (68,55 mp pe planșă), se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum” înainte de autorizația de construire.",
+    "Investitorul modernizează str. Miko Imre de la Calea Turzii până la str. Aurel Ghurghianu (6 m carosabil și trotuare), pe baza unui proiect autorizat, până la recepția clădirii.",
+    "Înainte de certificatul de atestare a edificării construcției, terenul dezmembrat și amenajat odată cu strada trece în domeniul public, cum propune planșa A5 (proprietatea asupra terenurilor).",
+    "La faza D.T.A.C. proiectul trece prin Comisia de Estetică Urbană.",
+    "Parcarea se face în parcelă, predominant în subsol; necesarul se calculează după Anexa 2 a regulamentului P.U.G. 2014, însumat pe funcțiuni; parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit.",
+    "Clădirea se racordează la rețelele edilitare publice și la sistemul centralizat de încălzire/apă caldă sau la instalații de scară, bloc sau cvartal; centralele individuale pe gaz sunt interzise, la fel cablurile aeriene și scurgerea apelor pluviale spre domeniul public sau spre vecini; firidele de branșament stau în clădire.",
+    "Punctul gospodăresc pentru colectarea selectivă a deșeurilor pe cinci fracții e îngropat și accesibil din spațiul public.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din parcelă (regulamentul, art. 13).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}
