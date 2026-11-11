@@ -14899,6 +14899,89 @@
   ]
  },
  {
+  "id": "2025-464",
+  "localitate": "cluj",
+  "hcl": "464/2025",
+  "data": "2025-07-07",
+  "titlu": "P.U.Z. – construire locuințe cu regim redus de înălțime, str. Valter Mărăcineanu nr. 8-10",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-464-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-464.pdf",
+  "utr": [
+   {
+    "cod": "Liu_RM",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine), regim de construire izolat; două parcele, nr. cad. 272740 (412 mp) și 273005 (430 mp), 842 mp în total (pe legenda planșei „UTR Liu*”)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane: (S)+P+1+(R/M), D+P+M sau D+P+R; max. 8 m la cornișă/atic și 12 m la coamă"
+   }
+  ],
+  "suprafata_m2": 842,
+  "imagine": "puz/2025-464/plansa.webp",
+  "bounds": {
+   "west": 23.5437886,
+   "south": 46.7929784,
+   "east": 23.5443506,
+   "north": 46.7933537
+  },
+  "limita": [
+   [
+    23.5443168,
+    46.7932643
+   ],
+   [
+    23.5442878,
+    46.793211
+   ],
+   [
+    23.5442406,
+    46.7931291
+   ],
+   [
+    23.5441662,
+    46.7930007
+   ],
+   [
+    23.5438241,
+    46.7930702
+   ],
+   [
+    23.5438606,
+    46.7931217
+   ],
+   [
+    23.5439039,
+    46.7931977
+   ],
+   [
+    23.5439807,
+    46.7933326
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.1
+  },
+  "legenda": "puz/2025-464/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-07-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Retragerea față de limita posterioară: planșa cotează zona construibilă la 6 m de limita din spate; Art. 1 cere o distanță cel puțin egală cu înălțimea clădirii, dar nu mai puțin de 6 m. La cornișa de până la 8 m admisă, retragerea din spate poate trece deci de linia desenată. Celelalte retrageri desenate (5 m față de aliniament, 3 m față de limitele laterale) sunt cele din text, care mai cere garajelor 6 m de la aliniament și le permite alipirea la limitele laterale cu calcan de cel mult 2,80 m.",
+   "Planșa dă doar POT 35% și CUT 0,9 (la fel ca textul) și nu dă înălțimi; regimul de înălțime (trei niveluri supraterane, 8 m la cornișă/atic, 12 m la coamă) vine numai din Art. 1. Legenda planșei numește zona „UTR Liu*”, desenul și hotărârea „Liu_RM”."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării/lărgirii str. Valter Mărăcineanu (cf. planșei U03; pe planșă „teren rezervat pentru lărgire drum”, 23 mp) se dezmembrează din parcelele inițiale și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe parcele, conform avizului nr. 50997/466/2025 al Serviciului Siguranța circulației.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+   "Clădirile existente, cu parcelele lor, sunt doar în zona de studiu a P.U.Z., ca elemente existente; P.U.Z.-ul nu le reglementează.",
+   "Accese: din str. Valter Mărăcineanu; pe o parcelă, un singur acces auto și unul pietonal, accesul carosabil de cel mult 3 m lățime; pentru căile pietonale și carosabile din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o locuință cu arie utilă sub 100 mp și două peste 100 mp (și când ocupanții au activități liberale sau manufacturiere); serviciile cu acces public, cel puțin două locuri; alte activități, după Anexa 2 a R.L.U. al P.U.G.",
+   "Retrageri: 5 m față de aliniament (garajele cel puțin 6 m, ca să se poată parca o mașină în față); față de limitele laterale min. 3 m (garajele se pot alipi limitelor laterale dacă au calcan de cel mult 2,80 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m.",
+   "Toate utilitățile se racordează la rețelele publice; apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise; fiecare parcelă are o platformă sau un spațiu pentru deșeurile menajere, accesibil din spațiul public."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

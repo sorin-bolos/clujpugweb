@@ -1,0 +1,250 @@
+{
+  "id": "2025-464",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 464,
+    "an": 2025,
+    "data_sedinta": "2025-07-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-464-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-464.pdf"
+  },
+  "titlu": "P.U.Z. – construire locuințe cu regim redus de înălțime, str. Valter Mărăcineanu nr. 8-10",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 96,
+    "denumire": "U.03 Plan reglementări urbanistice",
+    "scara": "nescrisă în cartuș (≈1:500 după inventar: 7,6 px/m la 96 ppi pe foaia A3)",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 6 (Anexa 2 la hotărâre, micșorată pe A4, 96 ppi, semnată de președintele de ședință și de secretar, prea mică pentru citit) și p. 14 (format A3, color, 96 ppi – 1588×1123 px, singura rezoluție din PDF –, cu viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 228 din 11.10.2024 – și mențiunea de mână „HCL nr. 464 din 7.07.2025”); s-a folosit p. 14. P. 9 e planul anexat avizului de oportunitate nr. 140/18.07.2022, nu o planșă de reglementări. Pp. 3-5 sunt Anexa 1 (regulamentul), pp. 7-8 avizul de oportunitate, pp. 10-12 avizul Arhitectului-șef nr. 228/2024, p. 13 avizul nr. 29/2025 (care îndreaptă nr. cad. 27300 în 273005), pp. 15-16 raportul informării publicului. Planșa e tipărită culcat pe foaie (nordul spre stânga, textul se citește în sus; rotația potrivirii -90,8°), la ~1:500. Legenda (o singură casetă, întoarsă cu 90°) cuprinde cheia simbolurilor (limite, zonificare, construcții, amenajări, accese) și caseta „S teren = 842 mp, UTR Liu*, POT max = 35%, CUT max = 0,9”; au rămas pe dinafară tabelul de coordonate, profilul drumului propus, cartușul (care numește beneficiarul), ștampilele și casetele cu proprietarii parcelelor. Casetele cu proprietarii sunt pe desen, dar în afara limitei; decupajul (limita + 1,5 m) nu le atinge."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabelul „Parcela (PUZ)” – „Coordonate pct. de contur X [m] / Y [m]” (X = Nord, Y = Est), 25 de puncte numerotate 1-25 în ordinea conturului, cu lungimile laturilor D(i,i+1) și „S=2716.44mp P=294.011m” – e un contur mai larg, care cuprinde și parcelele vecine cu clădiri existente, de la nord și de la sud (probabil parcelele de la nr. 4-14 pe care avizul Arhitectului-șef le numește teritoriul studiat); pe planșă nu e nici linia zonei studiate (albastru punctat, mult mai largă), nici cea a zonei reglementate. Zona reglementată (linia roșie „zona reglementată”, desenată cu ~0,5 m spre exterior) e doar parcelele nr. cad. 272740 (412 mp) și 273005 (430 mp), „S teren = 842 mp” în legendă, iar colțurile ei sunt chiar vârfuri ale inventarului: 2, 1, 25, 24 pe latura de est (linia subțire comună cu conturul din inventar), 14, 13, 12, 11 pe latura de la stradă; poligonul lor dă 841,9 mp. De aceea `puncte` are doar aceste 8 vârfuri (cu `ordine`), iar celelalte 17 sunt la `repere`. Puncte de control: 5 (colțul de NE al conturului din inventar, la întâlnirea liniei subțiri cu limita UTR neagră), 6 (colțul de NV, bulina roșie de pe limita UTR), 4 și 9 (capetele liniei de proprietate dintre cele două case existente de la nord, pe linia subțire de est și pe cea de la stradă), 19 (vârful de sud, la str. Valter Mărăcineanu) și 20 (întâlnirea laturii lungi 19-20 cu o limită de proprietate). De verificare: 16 (întâlnirea liniei de la stradă cu o limită de proprietate) și 22 (colțul de pe latura de est, lângă str. Augustin Maior; 21 e la 0,33 m de el). Colțurile zonei reglementate (2, 24, 14, 11) n-au fost folosite: stau sub linia roșie groasă; nici vârfurile de pe laturi drepte (1, 3, 7, 8, 10, 12, 13, 15, 17, 18, 23, 25), fără vreo intersecție de linii la care să fie citite.",
+    "suprafata_declarata_m2": 842,
+    "puncte": {
+      "2": [
+        589211.564,
+        389006.584
+      ],
+      "1": [
+        589205.686,
+        389004.265
+      ],
+      "25": [
+        589196.645,
+        389000.493
+      ],
+      "24": [
+        589182.476,
+        388994.55
+      ],
+      "14": [
+        589190.684,
+        388968.58
+      ],
+      "13": [
+        589196.355,
+        388971.476
+      ],
+      "12": [
+        589204.747,
+        388974.936
+      ],
+      "11": [
+        589219.624,
+        388981.071
+      ]
+    },
+    "ordine": [
+      "2",
+      "1",
+      "25",
+      "24",
+      "14",
+      "13",
+      "12",
+      "11"
+    ],
+    "inventar_parcela_puz": {
+      "titlu": "Parcela (PUZ) – coordonate pct. de contur, S=2716.44mp P=294.011m (25 de puncte, 1-25, în ordinea conturului; contur mai larg decât zona reglementată, cu parcelele vecine cu clădiri existente)",
+      "puncte": 25,
+      "suprafata_declarata_m2": 2716.44,
+      "perimetru_declarat_m": 294.011,
+      "laturi_declarate_m": {
+        "1": 6.319,
+        "2": 8.272,
+        "3": 9.066,
+        "4": 19.316,
+        "5": 24.073,
+        "6": 6.186,
+        "7": 10.321,
+        "8": 3.09,
+        "9": 16.503,
+        "10": 1.026,
+        "11": 16.092,
+        "12": 9.077,
+        "13": 6.368,
+        "14": 14.519,
+        "15": 2.232,
+        "16": 19.284,
+        "17": 18.875,
+        "18": 5.275,
+        "19": 54.692,
+        "20": 6.956,
+        "21": 0.333,
+        "22": 3.548,
+        "23": 7.427,
+        "24": 15.365,
+        "25": 9.796
+      }
+    },
+    "nota": "Inventarul e transcris și verificat întreg înainte de împărțirea în `puncte` și `repere` (datele lui sunt în `coordonate.inventar_parcela_puz`): aria 2716,4 mp față de 2716,44 mp, perimetrul 294,011 m, toate cele 25 de laturi la 1 cm, fără nicio cifră corectată. Poligonul zonei reglementate (2-1-25-24-14-13-12-11) are 841,9 mp față de 842 mp (412 + 430 mp din etichetele parcelelor); cu 10 în loc de 11 ar fi 855,6 mp, deci colțul de nord-vest e 11 (latura 10-11 are 1,026 m). Fâșia „teren rezervat pentru lărgire drum” (23 mp) e în interiorul poligonului, pe latura de la stradă."
+  },
+  "repere": {
+    "3": [
+      589219.259,
+      389009.62
+    ],
+    "4": [
+      589227.49,
+      389013.42
+    ],
+    "5": [
+      589245.023,
+      389021.525
+    ],
+    "6": [
+      589252.275,
+      388998.57
+    ],
+    "7": [
+      589247.253,
+      388994.958
+    ],
+    "8": [
+      589237.853,
+      388990.697
+    ],
+    "9": [
+      589235.128,
+      388989.241
+    ],
+    "10": [
+      589220.573,
+      388981.462
+    ],
+    "15": [
+      589177.753,
+      388961.977
+    ],
+    "16": [
+      589175.823,
+      388960.856
+    ],
+    "17": [
+      589159.148,
+      388951.171
+    ],
+    "18": [
+      589143.07,
+      388941.284
+    ],
+    "19": [
+      589138.812,
+      388938.17
+    ],
+    "20": [
+      589168.473,
+      388984.121
+    ],
+    "21": [
+      589172.245,
+      388989.965
+    ],
+    "22": [
+      589172.564,
+      388989.869
+    ],
+    "23": [
+      589175.657,
+      388991.608
+    ]
+  },
+  "gcp_px": {
+    "5": [
+      238,
+      92
+    ],
+    "6": [
+      184,
+      267
+    ],
+    "4": [
+      372,
+      153
+    ],
+    "9": [
+      314,
+      337
+    ],
+    "19": [
+      1044,
+      712
+    ],
+    "20": [
+      818,
+      368
+    ]
+  },
+  "verificare_px": {
+    "16": [
+      763,
+      545
+    ],
+    "22": [
+      786,
+      323
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      112,
+      748,
+      552,
+      1061,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu_RM",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine), regim de construire izolat; două parcele, nr. cad. 272740 (412 mp) și 273005 (430 mp), 842 mp în total (pe legenda planșei „UTR Liu*”)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+(R/M), D+P+M sau D+P+R; max. 8 m la cornișă/atic și 12 m la coamă"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2028-07-07"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerea față de limita posterioară: planșa cotează zona construibilă la 6 m de limita din spate; Art. 1 cere o distanță cel puțin egală cu înălțimea clădirii, dar nu mai puțin de 6 m. La cornișa de până la 8 m admisă, retragerea din spate poate trece deci de linia desenată. Celelalte retrageri desenate (5 m față de aliniament, 3 m față de limitele laterale) sunt cele din text, care mai cere garajelor 6 m de la aliniament și le permite alipirea la limitele laterale cu calcan de cel mult 2,80 m.",
+    "Planșa dă doar POT 35% și CUT 0,9 (la fel ca textul) și nu dă înălțimi; regimul de înălțime (trei niveluri supraterane, 8 m la cornișă/atic, 12 m la coamă) vine numai din Art. 1. Legenda planșei numește zona „UTR Liu*”, desenul și hotărârea „Liu_RM”."
+  ],
+  "conditii": [
+    "Terenul necesar regularizării/lărgirii str. Valter Mărăcineanu (cf. planșei U03; pe planșă „teren rezervat pentru lărgire drum”, 23 mp) se dezmembrează din parcelele inițiale și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe parcele, conform avizului nr. 50997/466/2025 al Serviciului Siguranța circulației.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+    "Clădirile existente, cu parcelele lor, sunt doar în zona de studiu a P.U.Z., ca elemente existente; P.U.Z.-ul nu le reglementează.",
+    "Accese: din str. Valter Mărăcineanu; pe o parcelă, un singur acces auto și unul pietonal, accesul carosabil de cel mult 3 m lățime; pentru căile pietonale și carosabile din interiorul parcelelor se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o locuință cu arie utilă sub 100 mp și două peste 100 mp (și când ocupanții au activități liberale sau manufacturiere); serviciile cu acces public, cel puțin două locuri; alte activități, după Anexa 2 a R.L.U. al P.U.G.",
+    "Retrageri: 5 m față de aliniament (garajele cel puțin 6 m, ca să se poată parca o mașină în față); față de limitele laterale min. 3 m (garajele se pot alipi limitelor laterale dacă au calcan de cel mult 2,80 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m.",
+    "Toate utilitățile se racordează la rețelele publice; apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament și contorizare se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise; fiecare parcelă are o platformă sau un spațiu pentru deșeurile menajere, accesibil din spațiul public."
+  ]
+}
