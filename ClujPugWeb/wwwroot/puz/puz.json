@@ -15411,6 +15411,91 @@
   ]
  },
  {
+  "id": "2025-428",
+  "localitate": "cluj",
+  "hcl": "428/2025",
+  "data": "2025-06-13",
+  "titlu": "P.U.Z. – corectare limită U.T.R. între U.T.R. Liu și U.T.R. ULi/c și construire locuință cu regim redus de înălțime, str. Cezar Petrescu nr. 1",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-428-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/06/13/HCL-428_merged.pdf",
+  "utr": [
+   {
+    "cod": "Liu/a",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe semicolective (cu două unități locative) și anexele lor, regim de construire izolat; parcela nr. cad. 353554 (570 mp), trecută în întregime în U.T.R. Liu prin corectarea limitei dintre U.T.R. ULi/c (453,90 mp) și U.T.R. Liu (116,10 mp)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "două niveluri supraterane plus o mansardă sau un nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă/atic ultim nivel neretras și 12 m la coamă/atic nivel retras"
+   }
+  ],
+  "suprafata_m2": 570,
+  "imagine": "puz/2025-428/plansa.webp",
+  "bounds": {
+   "west": 23.5662237,
+   "south": 46.7476746,
+   "east": 23.5666951,
+   "north": 46.7480843
+  },
+  "limita": [
+   [
+    23.5662522,
+    46.7480029
+   ],
+   [
+    23.5663469,
+    46.748036
+   ],
+   [
+    23.5664245,
+    46.7480631
+   ],
+   [
+    23.5665373,
+    46.7479166
+   ],
+   [
+    23.566569,
+    46.7478755
+   ],
+   [
+    23.5666104,
+    46.7478263
+   ],
+   [
+    23.5666655,
+    46.7477608
+   ],
+   [
+    23.5664892,
+    46.7476965
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.05
+  },
+  "legenda": "puz/2025-428/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-06-13"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: planșa dă doar clădirea propusă – regim S+P+E, H cornișă +5,10/+6,00 m și H coamă +8,35/+9,25 m (față de CTA -0,45/-1,35); Art. 1 stabilește maximele: 8 m la cornișă/atic ultim nivel neretras, 12 m la coamă/atic nivel retras, și admite peste cele două niveluri supraterane o mansardă sau un nivel retras ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R).",
+   "Planșa hașurează cea mai mare parte a parcelei ca „zonă cu risc foarte mare de alunecări de teren”; hotărârea și regulamentul (Anexa 1) nu pun nicio condiție legată de acest risc."
+  ],
+  "conditii": [
+   "Clădirea se retrage de la aliniament (str. Cezar Petrescu) cu aceeași distanță ca clădirea alăturată dinspre sud-est, adică 4 m; garajele cu cel puțin 6 m, ca să se poată parca o mașină în fața lor.",
+   "Retrageri de min. 4,5 m față de limitele laterale (garajele se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m) și de min. 3 m față de limita posterioară.",
+   "Accesul se face din str. Eugen Lovinescu, prin servitutea de trecere peste parcela nr. topo. 21997/3 (str. Cezar Petrescu); pe parcelă câte un acces auto și unul pietonal pentru fiecare unitate locativă (regulamentul: acces carosabil de cel mult 3 m lățime); pentru căile din interiorul parcelei se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei: cel puțin două locuri pentru fiecare unitate locativă; serviciile de proximitate, două locuri; alte activități, conform Anexei 2 a regulamentului local de urbanism.",
+   "Împrejmuirea spre str. Cezar Petrescu se face păstrând cele două alveole auto desenate pe planșa A4 (condiție preluată din avizul Arhitectului-șef nr. 26/2025).",
+   "Toate construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Regulamentul (Anexa 1): numai locuințe semicolective cu cel mult două unități locative (servicii și turism doar cu condiții; serviciile la parter, spre stradă, cu acces separat); toate construcțiile stau în fâșia de 12 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total; demisolul numai pentru garaje și funcțiuni conexe, nu pentru locuire; interzise terasamentele care afectează spațiile publice sau parcelele vecine; la o reparcelare, parcelele rezidențiale au front la str. Cezar Petrescu și cel puțin 500 mp.",
+   "Regulamentul (Anexa 1): spații verzi pe sol natural pe min. 40% din parcelă și min. 60% din grădina de fațadă; eliminarea arborilor maturi e interzisă, în afară de cazurile de pericol sau când împiedică construirea; apele pluviale nu se scurg spre domeniul public sau spre vecini; fără cabluri aeriene; împrejmuire spre stradă cu soclu opac de max. 80 cm și parte transparentă, înaltă de max. 2,2 m, spre vecini max. 2,2 m."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

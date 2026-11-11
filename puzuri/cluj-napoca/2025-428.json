@@ -1,0 +1,152 @@
+{
+  "id": "2025-428",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 428,
+    "an": 2025,
+    "data_sedinta": "2025-06-13",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-428-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/06/13/HCL-428_merged.pdf"
+  },
+  "titlu": "P.U.Z. – corectare limită U.T.R. între U.T.R. Liu și U.T.R. ULi/c și construire locuință cu regim redus de înălțime, str. Cezar Petrescu nr. 1",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 96,
+    "denumire": "A4 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 24 de pagini: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism (pp. 3-8), Anexa 2 – planșa A4 micșorată pe A4, alb-negru, rotită și semnată de președintele de ședință și de secretar (p. 9), avizul Arhitectului-șef nr. 26 din 11.03.2025 (pp. 10-12), avizul de oportunitate nr. 172 din 15.07.2024 cu extrasul din P.U.G. (pp. 13-15), o pagină goală (p. 16), planșa A4 color pe A3 (p. 17; aleasă: e cea mai clară, cu viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 26/2025 – și mențiunea de mână „H.C.L. nr. 428 din 13 iunie 2025”), raportul informării și consultării publicului cu o obiecție a unui vecin și răspunsul proiectantului (pp. 18-22), procesul-verbal de recepție OCPI și planul topografic 1:500 (pp. 23-24). Toate paginile sunt scanate la 96 ppi; planșa are 1588×1123 px. Titlul: „Plan reglementari urbanistice”, planșa A4, scara 1:500; potrivirea dă 7,3 px/m (1:500 la 96 ppi ar fi 7,56 px/m: planșa e tipărită la ~97%), cu nordul în sus (rotație 0,4°). Legenda ia, în cinci casete, cheia simbolurilor, titlul casetei „Indici tehnico-urbanistici pe terenul destinat construirii”, rândurile cu P.O.T./C.U.T. maxime și propuse, coloana cu Sc/Sd propuse, destinația (locuință semicolectivă cu max. două unități locative), înălțimile la cornișă și coamă și regimul de înălțime propus, și nota despre spațiile verzi (min. 40%); au rămas pe dinafară rândurile casetei care numesc proprietarii, calculul parcărilor, bilanțurile teritoriale, secțiunea AA', inventarul de coordonate, ștampilele, semnăturile și cartușul (care numește și el proprietarii). Decupajul (limita + 1,5 m) nu atinge tabelele, ștampilele sau cartușul. Planșa hașurează cu albastru („zona cu risc foarte mare de alunecări de teren”) zona străzii Cezar Petrescu și cea mai mare parte a parcelei."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („PUNCTE PE CONTUR 1Cc”, stânga jos: 8 puncte – 2, 6, 7, 8, 9, 10, 31, 32 – în ordinea conturului, X [m] Nord / Y [m] Est, Stereo 70; S = 570 m.p.), cu patru lungimi de laturi citite pe planșă lângă limită (6,65; 18,43; 15,25; 38,57 m; celelalte nu se pot citi la 96 ppi). Puncte de control: cele patru colțuri ale parcelei (2 – NV, 7 – N, 31 – SE, 32 – SV), fiecare luat ca intersecția dreptelor potrivite pe linia punctată roșie „Teren studiat” a celor două laturi care se întâlnesc în el (pe latura de est linia punctată stă imediat la vest de linia neagră „Contur UTR”, pe latura de sud lângă linia roșie plină). Celelalte patru vârfuri nu pot fi puncte de verificare: 6 stă pe dreapta 2-7, 8 și 9 pe dreapta 7-31 (frângerea din 9 e de 0,34 m) și 10 pe dreapta 9-31, iar planșa nu le marchează. Planșa nu are caroiaj Stereo 70.",
+    "suprafata_declarata_m2": 570,
+    "puncte": {
+      "2": [
+        584150.925,
+        390589.69
+      ],
+      "6": [
+        584154.465,
+        390596.985
+      ],
+      "7": [
+        584157.37,
+        390602.97
+      ],
+      "8": [
+        584140.932,
+        390611.295
+      ],
+      "9": [
+        584136.32,
+        390613.63
+      ],
+      "10": [
+        584130.803,
+        390616.691
+      ],
+      "31": [
+        584123.445,
+        390620.774
+      ],
+      "32": [
+        584116.546,
+        390607.178
+      ]
+    },
+    "laturi_declarate_m": {
+      "6": 6.65,
+      "7": 18.43,
+      "31": 15.25,
+      "32": 38.57
+    },
+    "nota": "Inventarul se citește clar: aria coordonatelor 570,1 mp față de 570 mp, iar cele patru laturi cotate pe planșă se potrivesc la 5 mm, fără nicio cifră corectată. Cele patru colțuri nu formează un paralelogram (laturile scurte au 14,76 și 15,25 m), așa că potrivirea afină le testează puțin: reziduuri de 0,05 m, iar lăsând pe rând câte un colț pe dinafară, celelalte trei îl prezic la 0,21 m. Colțurile citite cu ochiul pe mijlocul liniei punctate dădeau reziduuri de 0,24 m. Verificare independentă, fără puncte de verificare: cu aceeași potrivire, clădirile vecine desenate (C1 S+P+2E CF 269657, C1 P+E CF 334310, C1 S+P+E nr. cad. 353553, C1 D+P+E CF 256998) cad la ~1-3 m de contururile lor din extrasul OSM (2026-11-08), iar str. Cezar Petrescu și str. Eugen Lovinescu din OSM pe cele desenate; vezi și verificarea pe ortofoto."
+  },
+  "gcp_px": {
+    "2": [
+      392.5,
+      418.1
+    ],
+    "7": [
+      488.9,
+      370.7
+    ],
+    "31": [
+      617.6,
+      621.3
+    ],
+    "32": [
+      518.7,
+      670.5
+    ]
+  },
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      877,
+      58,
+      1530,
+      266
+    ],
+    [
+      875,
+      367,
+      1345,
+      383
+    ],
+    [
+      1205,
+      391,
+      1480,
+      425
+    ],
+    [
+      875,
+      442,
+      1168,
+      549
+    ],
+    [
+      1205,
+      497,
+      1480,
+      526
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu/a",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe semicolective (cu două unități locative) și anexele lor, regim de construire izolat; parcela nr. cad. 353554 (570 mp), trecută în întregime în U.T.R. Liu prin corectarea limitei dintre U.T.R. ULi/c (453,90 mp) și U.T.R. Liu (116,10 mp)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "două niveluri supraterane plus o mansardă sau un nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă/atic ultim nivel neretras și 12 m la coamă/atic nivel retras"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2028-06-13",
+    "verificat": "2026-11-11: Art. 2, trei ani de la aprobare (ședința din 13.06.2025); `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate; paragraful în italice despre împrejmuire și alveole e preluat din avizul Arhitectului-șef nr. 26/2025, unde e tot în italice."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: planșa dă doar clădirea propusă – regim S+P+E, H cornișă +5,10/+6,00 m și H coamă +8,35/+9,25 m (față de CTA -0,45/-1,35); Art. 1 stabilește maximele: 8 m la cornișă/atic ultim nivel neretras, 12 m la coamă/atic nivel retras, și admite peste cele două niveluri supraterane o mansardă sau un nivel retras ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R).",
+    "Planșa hașurează cea mai mare parte a parcelei ca „zonă cu risc foarte mare de alunecări de teren”; hotărârea și regulamentul (Anexa 1) nu pun nicio condiție legată de acest risc."
+  ],
+  "conditii": [
+    "Clădirea se retrage de la aliniament (str. Cezar Petrescu) cu aceeași distanță ca clădirea alăturată dinspre sud-est, adică 4 m; garajele cu cel puțin 6 m, ca să se poată parca o mașină în fața lor.",
+    "Retrageri de min. 4,5 m față de limitele laterale (garajele se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m) și de min. 3 m față de limita posterioară.",
+    "Accesul se face din str. Eugen Lovinescu, prin servitutea de trecere peste parcela nr. topo. 21997/3 (str. Cezar Petrescu); pe parcelă câte un acces auto și unul pietonal pentru fiecare unitate locativă (regulamentul: acces carosabil de cel mult 3 m lățime); pentru căile din interiorul parcelei se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei: cel puțin două locuri pentru fiecare unitate locativă; serviciile de proximitate, două locuri; alte activități, conform Anexei 2 a regulamentului local de urbanism.",
+    "Împrejmuirea spre str. Cezar Petrescu se face păstrând cele două alveole auto desenate pe planșa A4 (condiție preluată din avizul Arhitectului-șef nr. 26/2025).",
+    "Toate construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Regulamentul (Anexa 1): numai locuințe semicolective cu cel mult două unități locative (servicii și turism doar cu condiții; serviciile la parter, spre stradă, cu acces separat); toate construcțiile stau în fâșia de 12 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total; demisolul numai pentru garaje și funcțiuni conexe, nu pentru locuire; interzise terasamentele care afectează spațiile publice sau parcelele vecine; la o reparcelare, parcelele rezidențiale au front la str. Cezar Petrescu și cel puțin 500 mp.",
+    "Regulamentul (Anexa 1): spații verzi pe sol natural pe min. 40% din parcelă și min. 60% din grădina de fațadă; eliminarea arborilor maturi e interzisă, în afară de cazurile de pericol sau când împiedică construirea; apele pluviale nu se scurg spre domeniul public sau spre vecini; fără cabluri aeriene; împrejmuire spre stradă cu soclu opac de max. 80 cm și parte transparentă, înaltă de max. 2,2 m, spre vecini max. 2,2 m."
+  ]
+}
