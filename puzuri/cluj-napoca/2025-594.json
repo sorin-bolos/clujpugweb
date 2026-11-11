@@ -1,0 +1,216 @@
+{
+  "id": "2025-594",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 594,
+    "an": 2025,
+    "data_sedinta": "2025-09-05",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-594-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/09/24/594.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, dezvoltare ansamblu mixt cu dotări, B-dul Muncii – sud",
+  "plansa": {
+    "pagina_pdf": 29,
+    "dpi": 96,
+    "denumire": "Plan reglementări urbanistice (planșa U.5)",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 19 (Anexa 2 la hotărâre, micșorată pe A4, rotită, alb-negru, 96 ppi, ștampilată) și p. 29 (format mare, color, 96 ppi, cu viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 16 din 12.02.2025 – și mențiunea de mână „HCL nr. 594 din 5.09.2025”); s-a folosit p. 29, mult mai clară. Pp. 1-3 sunt hotărârea, pp. 4-18 regulamentul local de urbanism (Anexa 1), p. 20 planșa „Circulația terenurilor” pe A4 (Anexa 3), pp. 21-25 avizul Arhitectului-șef nr. 16 din 12.02.2025, pp. 26-27 avizul de oportunitate nr. 129 din 10.08.2023, p. 28 extrasul din P.U.G., p. 30 planșa „Circulația terenurilor” în format mare, pp. 31-32 raportul informării și consultării publicului. Cartușul: planșa U.5 „Reglementări urbanistice”, faza P.U.Z., proiect nr. 144, scara 1:1000, data 19.05.2025. Scanarea are doar 96 ppi: 3,7 px/m (planșa e tipărită la ~98-99% din 1:1000; scara pe orizontală e cu ~1% mai mică decât pe verticală, ceea ce fitul afin preia), deci un pixel înseamnă ~0,27 m; nordul e în sus (rotație 0,11°). Planșa poartă pe rama de jos etichetele caroiajului Stereo 70 doar pentru Est (397000, 397200), fără etichete pentru Nord, deci nu dau puncte. Legenda cuprinde, în trei casete, cheia simbolurilor (cu UTR M3*, Lc*, S_Is*, S_Va* și VPr), titlul coloanei „Indicatori urbanistici” și indicatorii pe UTR (POT, CUT, regim de înălțime, spațiu verde), plafoanele de parcare pe etape și nota despre colectarea selectivă; peste caseta UTR VPr se suprapun ștampila și semnătura coordonatorului RUR, care nu se pot decupa. Au rămas afară caseta „Suprafața teren”, tabelele cu suprafețele pe UTR (bilanțul), inventarul de coordonate, profilurile stradale, cartușul, semnătura digitală și ștampilele. Zona e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, două tabele „INVENTAR COORDONATE C.F. 314605” (7 puncte) și „C.F. 314676” (8 puncte), X [m] = Nord, Y [m] = Est (în josul planșei, x≈1290-1630, y≈1400-1540; aceleași valori și pe planșa „Circulația terenurilor”, p. 30). Zona reglementată e reuniunea celor două parcele, care au în comun punctele 275 și 237: 13 vârfuri, cu numere nesuccesive, în ordinea conturului (copiată în `ordine`). Fără lungimi de laturi sau perimetru tipărite. Control de suprafață: 35.000,1 mp față de 35.000 mp (hotărârea și caseta „Suprafața teren”), iar fiecare parcelă separat: 17.500,0 mp și 17.500,1 mp, față de „S = 17 500 mp” scris pe fiecare parcelă pe planșa de la p. 30. Numerele vârfurilor sunt scrise cu roșu lângă linia roșie punctată „parcela studiată conf. CF”; colțurile s-au citit pe centrul acestei linii. Control: 267 (colțul NV), 285 (colțul NE), 216 (colțul de jos al micului triunghi 215-216-290 din colțul SE) și 233 (colțul SV). Verificare: 290 (colțul de sus al triunghiului), 215 (vârful ascuțit al triunghiului, sub simbolul stâlpului LEA 110 kV), 275 (frângerea slabă a laturii de nord, unde pornește linia de indicație a numărului) și 235 (pe latura de sud, la pornirea liniei de indicație); 275 și 235 verifică mai ales poziția transversală. Punctele 286, 219, 237, 289 și 174 stau pe laturi aproape drepte și n-au fost folosite.",
+    "suprafata_declarata_m2": 35000,
+    "puncte": {
+      "267": [
+        589418.803,
+        397019.017
+      ],
+      "275": [
+        589426.203,
+        397090.329
+      ],
+      "285": [
+        589429.92,
+        397160.36
+      ],
+      "286": [
+        589427.333,
+        397160.398
+      ],
+      "215": [
+        589178.845,
+        397164.046
+      ],
+      "216": [
+        589176.538,
+        397153.627
+      ],
+      "290": [
+        589178.938,
+        397153.639
+      ],
+      "219": [
+        589178.833,
+        397138.512
+      ],
+      "237": [
+        589178.178,
+        397093.913
+      ],
+      "289": [
+        589178.134,
+        397090.906
+      ],
+      "235": [
+        589177.668,
+        397050.707
+      ],
+      "233": [
+        589177.506,
+        397022.299
+      ],
+      "174": [
+        589273.123,
+        397021.015
+      ]
+    },
+    "ordine": [
+      "267",
+      "275",
+      "285",
+      "286",
+      "215",
+      "216",
+      "290",
+      "219",
+      "237",
+      "289",
+      "235",
+      "233",
+      "174"
+    ]
+  },
+  "gcp_px": {
+    "267": [
+      412,
+      302
+    ],
+    "285": [
+      936,
+      263
+    ],
+    "216": [
+      907,
+      1208
+    ],
+    "233": [
+      420,
+      1205
+    ]
+  },
+  "verificare_px": {
+    "215": [
+      946,
+      1200
+    ],
+    "290": [
+      907,
+      1200
+    ],
+    "275": [
+      677,
+      276
+    ],
+    "235": [
+      525,
+      1204
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1366,
+      48,
+      1664,
+      620
+    ],
+    [
+      1672,
+      48,
+      2060,
+      80
+    ],
+    [
+      1672,
+      150,
+      2060,
+      1245
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M3*",
+      "denumire": "Zonă mixtă: structură funcțională mixtă (locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, comerciale (terțiare), culturale, de învățământ, de sănătate cu caracter ambulatoriu, de turism); regim de construire deschis. Retrageri: minimum 6 m de la limita nordică (B-dul Muncii) și 2 m de la limita estică (strada nouă propusă prin P.U.Z.); minimum 4,5 m și cel puțin H/2 de la limita vestică; minimum 1 m de la limita sudică (spre S_Va*). Acces auto din B-dul Muncii prin strada nouă; parcare în spații specializate la subsol, demisol sau parter, după Anexa 2 a regulamentului P.U.G. Spații verzi: minimum 20% din parcelă, din care minimum 10% pe sol natural. Regulamentul (Anexa 1): spre spațiile publice, apartamentele pot sta doar la etaje. Se construiește în etapa 1.",
+      "pot_max": "50%",
+      "cut_max": "2,4",
+      "h_max": "9 niveluri supraterane: (1-3)S/D+P+Mz+8E (fără înălțime în metri)"
+    },
+    {
+      "cod": "Lc*",
+      "denumire": "Zona ansamblurilor care includ locuire colectivă și dotări: locuințe colective și funcțiuni terțiare; regim de construire deschis. Retrageri: minimum 2 m de la limita estică (strada nouă) și 6 m de la limita sudică; minimum 4,5 m, dar nu mai puțin de H/2, de la limita vestică; minimum 1 m de la limita nordică (spre S_Va*). Accese pietonale și auto din strada nouă; parcare exclusiv în interiorul parcelelor, după Anexa 2 a regulamentului P.U.G. Regulamentul (Anexa 1) și planșa cer minimum 40% spații verzi pe sol natural. Se construiește în etapa 2: după anul 2026 sau după finalizarea infrastructurii rutiere (centură, poduri) care descarcă zona B-dului Muncii.",
+      "pot_max": "40%",
+      "cut_max": "1,4",
+      "h_max": "9 niveluri supraterane: (1-3)S/D+P+Mz+8E (fără înălțime în metri)"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public: funcțiuni de educație, de învățământ și cercetare (în etapa 1, o creșă/grădiniță); regim de construire deschis. Retrageri: minimum 2 m de la strada nouă; minimum 3 m de la limitele laterale și posterioare. Acces auto și pietonal din B-dul Muncii prin strada nouă; parcare în interiorul parcelei. Regulamentul (Anexa 1) și planșa cer minimum 25% spații verzi.",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "12 m la coamă sau la aticul nivelului retras; S/D+P+2E"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde cu acces public nelimitat: spații verzi (plantații înalte, medii și joase), alei și platforme pietonale și velo, parcări de biciclete, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, construcții pentru activități culturale și alimentație publică, grupuri sanitare, spații de administrare și întreținere; fâșia dintre M3* și Lc*. Retrageri: minimum 2 m de la strada nouă, minimum 1 m de la limitele laterale și posterioare. Acces din B-dul Muncii prin strada nouă. Regulamentul (Anexa 1): minimum 60% din zonă spații verzi pe sol natural; parcarea mașinilor e interzisă. Se amenajează în etapa 1.",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "8 m la atic; (D)+P+E"
+    },
+    {
+      "cod": "VPr",
+      "denumire": "Zonă verde de protecție față de infrastructura majoră, de protecție sanitară, plantații cu rol de stabilizare a versanților și de reconstrucție ecologică: fâșia de est a terenului, de-a lungul liniei electrice LEA 110 kV; hotărârea menține pentru ea reglementările P.U.G.",
+      "pot_max": "0%",
+      "cut_max": "0",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-09-05",
+    "verificat": "2026-11-11: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-3 din PDF) și s-a transcris: coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Strada nouă nord-sud: hotărârea (Art. 1) îi dă o ampriză, respectiv o lățime, de 18 m (ca în Masterplanul B-dului Muncii); planșa o desenează ca „drum de legătură N-S (profil 1)” cu „Profil 1 – 21 m” (2,5 + 1,5 + 7 + 1,5 + 2,5 + 3 + 3 m).",
+    "Parcarea: planșa plafonează locurile de parcare – etapa 1 (UTR M3* și S_Is*) maximum 260, etapa 2 (UTR Lc*) maximum 395, după avizul de principiu nr. 886587/2.12.2024 al Serviciului Siguranța Circulației; hotărârea nu dă aceste plafoane și cere ca necesarul de parcaje să se calculeze după Anexa 2 a regulamentului P.U.G.",
+    "Spațiile verzi: hotărârea dă procent doar pentru M3* (minimum 20%, din care 10% pe sol natural, ca pe planșă); pentru Lc* (minimum 40%) și S_Is* (minimum 25%) procentele sunt doar pe planșă și în regulament. Hotărârea adaugă în schimb arborii: 24 în etapa 1 și 20 în etapa 2, cu circumferința de minimum 35 cm la 1 m de la colet. „Curtea interioară neconstruibilă” de minimum 10% desenată în Lc* nu apare în hotărâre.",
+    "Înălțimile: hotărârea dă și metri pentru S_Is* (maximum 12 m la coamă sau la aticul nivelului retras) și S_Va* (maximum 8 m la atic, (D)+P+E); planșa dă pentru S_Is* doar regimul D/S+P+2E, iar pentru S_Va* nicio înălțime. Pentru M3* și Lc* ambele dau doar regimul (1-3)S/D+P+Mz+8E.",
+    "Etapizarea: hotărârea impune două etape (etapa 1: M3*, S_Is* și S_Va*, cu lucrările de drum; etapa 2: Lc*, după anul 2026 sau după finalizarea centurii și a podurilor); planșa pomenește etapele doar în caseta parcărilor, unde etapa 1 cuprinde M3* și S_Is*."
+  ],
+  "conditii": [
+    "Investițiile se fac în două etape, condiție luată din avizul de principiu al Serviciului Siguranța Circulației: în etapa 1 ansamblul mixt, funcțiunile comerciale și de învățământ (creșă/grădiniță) – UTR M3*, S_Is* și S_Va*; în etapa 2 locuirea colectivă cu dotări – UTR Lc*, după anul 2026 sau după finalizarea lucrărilor de infrastructură rutieră (centură, poduri) care descarcă străzile și intersecțiile din zona B-dului Muncii.",
+    "Înainte de autorizația de construire pentru primul imobil, terenul necesar lărgirii B-dului Muncii (conform planșei; pe planșă, 1.803,48 mp) se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum”.",
+    "Tot înainte de prima autorizație de construire: B-dul Muncii se lărgește și se reamenajează pe tronsonul de lângă P.U.Z., cu o alveolă pentru stația de transport în comun (25 m lungime, 3 m adâncime), o bandă suplimentară de 3,5 m pentru virajul la dreapta pe strada nouă și trotuar de minimum 2,5 m în dreptul stației.",
+    "Tot înainte de prima autorizație de construire: strada nouă (prevăzută și în Masterplanul B-dului Muncii) are 18 m lățime, terenul ei se dezmembrează și se înscrie în cartea funciară ca „drum”, iar intersecția cu B-dul Muncii se semaforizează cu echipamente inteligente; se întocmesc proiecte de specialitate pentru lărgirea bulevardului, alveolă, amenajarea și asfaltarea străzii noi, circulațiile auto și pietonale de pe parcelă, semaforizare și semnalizarea rutieră orizontală și verticală, și se execută rețelele tehnico-edilitare (rețeaua edilitară, rețeaua pluvială, iluminatul public).",
+    "Pe spațiul verde pe sol natural se plantează 24 de arbori în etapa 1 și 20 în etapa 2, cu circumferința de minimum 35 cm măsurată la 1 m de la colet.",
+    "La faza D.T.A.C., toate construcțiile propuse se avizează în Comisia de Estetică Urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+    "Echipare: toate clădirile se racordează la rețelele edilitare publice (în M3*, și la termoficarea centralizată sau la centrale de scară, bloc ori cvartal); fiecare parcelă are un spațiu de colectare selectivă a deșeurilor (pe cinci fracții în M3*), accesibil din spațiul public; apele meteorice nu se conduc spre domeniul public sau spre vecini; cablurile aeriene sunt interzise.",
+    "Regulamentul (Anexa 1): autorizațiile de construire, altele decât pentru infrastructura tehnico-edilitară, se emit după modernizarea (asfaltare, echipare edilitară) străzii de acces până la amplasament."
+  ]
+}
