@@ -7979,6 +7979,202 @@
   ]
  },
  {
+  "id": "2026-22",
+  "localitate": "cluj",
+  "hcl": "22/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Becaș nr. 32-34",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-22-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/22.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (după hotărâre parcelele 2-14; planșa și regulamentul tratează și parcela 15 ca lot de locuință) – locuințe individuale (unifamiliale) sau semicolective (familiale) cu cel mult două unități locative pe parcelă, cu anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine); regim de construire izolat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane, (S)+P+1E+R; 8 m la cornișă, 12 m în total"
+   },
+   {
+    "cod": "S_Et*",
+    "denumire": "Subzonă de activități economice cu caracter terțiar situate în zone cu caracter rezidențial (parcela 1, la str. Becaș) – activități terțiare, administrative, financiar-bancare, comerț cu ADC de cel mult 1.000 mp, alimentație publică, servicii cu acces public, profesionale și manufacturiere, turism, cercetare, cultură, sănătate și asistență socială, activități sportive; regim de construire deschis",
+    "pot_max": "50%",
+    "cut_max": "1,8",
+    "h_max": "(1-2)S+P+2E+R/Eth, 12 m"
+   }
+  ],
+  "suprafata_m2": 11627,
+  "imagine": "puz/2026-22/plansa.webp",
+  "bounds": {
+   "west": 23.6084876,
+   "south": 46.7534279,
+   "east": 23.6113028,
+   "north": 46.7547718
+  },
+  "limita": [
+   [
+    23.6090221,
+    46.7534523
+   ],
+   [
+    23.6089423,
+    46.7535275
+   ],
+   [
+    23.6088744,
+    46.7535914
+   ],
+   [
+    23.6088809,
+    46.7535943
+   ],
+   [
+    23.6087116,
+    46.753753
+   ],
+   [
+    23.6087048,
+    46.7537499
+   ],
+   [
+    23.6085364,
+    46.753913
+   ],
+   [
+    23.6086688,
+    46.7539734
+   ],
+   [
+    23.6090051,
+    46.7541239
+   ],
+   [
+    23.6090718,
+    46.7541536
+   ],
+   [
+    23.609469,
+    46.7543305
+   ],
+   [
+    23.6098686,
+    46.7545086
+   ],
+   [
+    23.6100091,
+    46.7545711
+   ],
+   [
+    23.6102142,
+    46.7546589
+   ],
+   [
+    23.6102465,
+    46.7546305
+   ],
+   [
+    23.6103891,
+    46.754507
+   ],
+   [
+    23.6109069,
+    46.7547494
+   ],
+   [
+    23.6110909,
+    46.7545959
+   ],
+   [
+    23.6112484,
+    46.7544608
+   ],
+   [
+    23.6110509,
+    46.7543716
+   ],
+   [
+    23.6108759,
+    46.7542928
+   ],
+   [
+    23.6107059,
+    46.7542155
+   ],
+   [
+    23.6105245,
+    46.754132
+   ],
+   [
+    23.6103972,
+    46.7540741
+   ],
+   [
+    23.6101959,
+    46.753985
+   ],
+   [
+    23.6100254,
+    46.7539055
+   ],
+   [
+    23.6099246,
+    46.7538596
+   ],
+   [
+    23.6098339,
+    46.7538181
+   ],
+   [
+    23.6097193,
+    46.7537648
+   ],
+   [
+    23.6095376,
+    46.7536855
+   ],
+   [
+    23.6093037,
+    46.7535791
+   ],
+   [
+    23.6092316,
+    46.7535463
+   ],
+   [
+    23.609171,
+    46.7535191
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.09
+  },
+  "legenda": "puz/2026-22/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Hotărârea (Art. 1) încadrează în U.T.R. Liu* „parcelele 2-14”, dar planșa desenează și parcela 15 ca lot de locuință cu aceiași indicatori ((S)+P+E+R, Hmax 12 m), calculul parcajelor de pe planșă numără 14 parcele de locuințe, iar regulamentul (Anexa 1) dă condiții pentru parcela 15 în capitolul Liu*; chiar hotărârea, în paragraful Liu*, prevede pentru parcela 15 o retragere laterală de minimum 6 m. Pare o scăpare în enumerare: parcela 15 e tot Liu*.",
+   "Spațiile verzi pe sol natural (min. 40% în Liu*, min. 20% în S_Et*) și plantarea unui arbore la 200 mp, notate pe planșă, nu apar în articolele hotărârii; le prevede regulamentul (Anexa 1, cap. 13)."
+  ],
+  "conditii": [
+   "Liu*: clădirile se retrag 5 m de la aliniamentul străzii propuse (aliniere unitară), cu excepția parcelelor 8 și 14, unde retragerea e de minimum 2,5 m; garajele se retrag minimum 5 m și sunt incluse în corpul clădirii sau alipite acestuia.",
+   "Liu*: retragere de minimum 3 m față de limitele laterale (pe parcela 15 minimum 6 m) și de minimum 6 m față de limita posterioară; garajele pot fi alipite unei limite laterale dacă calcanul nu depășește 2,8 m.",
+   "Liu*: accesul pe parcele se face din strada propusă (parcela 16, ampriză de minimum 9 m), desprinsă din str. Becaș; fiecare parcelă are un acces pietonal și unul auto, de cel mult 6 m lățime. Parcarea se face pe parcelă: cel puțin un loc pentru clădiri cu AU sub 100 mp, două peste 100 mp, două pentru servicii cu acces public.",
+   "S_Et* (parcela 1): clădirea se aliniază cu clădirile de pe str. Becaș nr. 28 și 30 și se retrage minimum 5 m de la strada nouă; față de limitele laterale, cel puțin jumătate din înălțimea la cornișă sau atic, minimum 6 m. Accesul auto se face din strada nouă, cel pietonal din ambele străzi, conform avizului administratorului drumului.",
+   "S_Et*: parcarea se face pe parcelă, cel puțin 75% în spații dedicate la subsol sau parter, cu necesarul după Anexa 2 a R.L.U. al P.U.G.; parcajele la sol stau la minimum 5 m de ferestrele camerelor de locuit.",
+   "Strada propusă (parcela 16) are ampriza de 9 m (6 m carosabil și trotuare de 1,5 m), cu supralărgiri pentru 7 locuri de staționare pentru vizitatori și un loc de întoarcere, și acces public nelimitat.",
+   "Înainte de autorizațiile de construire pe parcele, terenul necesar regularizării str. Becaș se dezmembrează și se înscrie în cartea funciară ca „drum”.",
+   "Înainte de autorizațiile de construire pentru locuințe (Liu*), strada propusă se înscrie în cartea funciară ca „drum”, se echipează (apă-canal, canalizare pluvială, electricitate) și partea carosabilă, cu cele 7 locuri de staționare, se aduce la stratul de uzură, după un proiect autorizat; trotuarele și iluminatul stradal se fac până la recepția locuințelor.",
+   "Înainte de recepția clădirii de pe parcela 1 (S_Et*) se reamenajează trotuarul str. Becaș pe tronsonul de lângă P.U.Z., se amenajează alveola stației de transport în comun și suprafața pentru copertina stației (în afara trotuarului propus); terenul dezmembrat și amenajat trece gratuit în domeniul public (planșa: 94,80 mp pentru alveolă și 6,00 mp pentru copertină).",
+   "Accesele auto se fac cu bordură teșită (NP 051/2012); proiectul parcărilor respectă NP 24/2022, NP 051/2012, Legea 101/2020 și Legea 280/2023.",
+   "Toate clădirile se racordează la rețelele edilitare publice; e interzisă scurgerea apelor pluviale spre domeniul public sau spre parcelele vecine; cablurile nu se montează aerian; firidele de branșament se integrează în împrejmuire; fiecare parcelă are o platformă sau un spațiu pentru colectarea deșeurilor.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare parcelă Liu* (și 40% din grădina de fațadă) și cel puțin 20% din parcela S_Et*; se plantează minimum un arbore la 200 mp de teren (regulamentul, Anexa 1).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2025-701",
   "localitate": "cluj",
   "hcl": "701/2025",

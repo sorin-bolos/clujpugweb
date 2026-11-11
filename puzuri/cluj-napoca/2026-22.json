@@ -1,0 +1,283 @@
+{
+  "id": "2026-22",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 22,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-22-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/22.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Becaș nr. 32-34",
+  "plansa": {
+    "pagina_pdf": 20,
+    "dpi": 300,
+    "denumire": "U.08 – Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 21 de pagini scanate la 300 ppi: hotărârea (p. 1-3), regulamentul local de urbanism – Anexa 1 (p. 4-19), planșa U.08 „Reglementări urbanistice” – Anexa 2 (p. 20, A3 culcat) și planșa U.10 „Plan cu proprietatea asupra terenurilor” – Anexa 3 (p. 21, A3 culcat), pe același fond topografic; s-a folosit p. 20, singura planșă de reglementări. Cartușul: S.C. Maiatec S.R.L., proiect 261/2023, faza P.U.Z., 05.2025, scara 1:500. Imaginea are ~11,2 px/m, adică planșa e tipărită la cam jumătate din 1:500 (≈1:1060), aproape cu nordul în sus (rotație 0,4°). Legenda cuprinde cheia simbolurilor (limita zonei reglementate, construcții și circulații existente, strada propusă în regim privat cu acces public nelimitat, parcelarul propus, zonele Liu* și S_Et* cu zonele lor construibile, terenul cedat pentru alveola și copertina stației de autobuz, UTR-urile P.U.G. Liu, ULiu și S_Et, accesele, cele 7 locuri de parcare pentru vizitatori) și notele despre spațiile verzi pe sol natural (min. 20% în S_Et*, min. 40% în Liu*) și plantarea arborilor (min. 1 arbore la 200 mp). Au rămas afară inventarul de coordonate, bilanțul teritorial-zonificare, suprafețele cedate (94,80 mp alveolă + 6,00 mp copertină = 100,80 mp), calculul parcajelor (28 de locuri pentru 14 parcele de locuințe, 17 pentru comerțul de pe parcela 1, 7 pentru vizitatori), secțiunile A-A și B-B, profilurile străzii propuse (9 m, respectiv 11,5 m în dreptul parcărilor), tabelul „Teritoriu reglementat” (cu proprietarii), cartușul, semnăturile și ștampilele. Planșa desenează 15 loturi în jurul străzii propuse (parcela 16), care se desprinde din str. Becaș: parcela 1 (S_Et*, clădire (1-2)S+P+2E+R/Eth) la stradă, parcelele 2-15 cu locuințe (S)+P+E+R, Hmax 12 m. Peste fondul topografic, în colțul de jos, e imprimat textul unei semnături digitale; e în afara imaginii publicate."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei (tabel „Parcela (32)”: Nr. pct. / Coordonate pct. de contur X[m], Y[m] / Lungimi laturi D(i,i+1)), Nord(X) / Est(Y), Stereo 70, 33 de puncte, 1-33, în ordinea limitei, cu lungimea fiecărei laturi; S(32)=11626,91 mp, P=531,528 m. Puncte de control: colțurile 1 (sud), 7 (vest), 14 (nord, colțul ieșindului de pe latura de nord-vest) și 19 (est, la str. Becaș), luate pe mijlocul liniei groase gri a limitei zonei reglementate; puncte de verificare: 16 (colțul interior al aceluiași ieșind) și 17 (colțul de nord, la str. Becaș, acoperit de simbolurile trecerii de pietoni și ale stației de autobuz, citit la întâlnirea celor două laturi desenate).",
+    "suprafata_declarata_m2": 11626.91,
+    "puncte": {
+      "1": [
+        584698.222,
+        393867.541
+      ],
+      "2": [
+        584706.689,
+        393861.59
+      ],
+      "3": [
+        584713.875,
+        393856.534
+      ],
+      "4": [
+        584714.19,
+        393857.03
+      ],
+      "5": [
+        584732.05,
+        393844.41
+      ],
+      "6": [
+        584731.721,
+        393843.887
+      ],
+      "7": [
+        584750.067,
+        393831.339
+      ],
+      "8": [
+        584756.601,
+        393841.574
+      ],
+      "9": [
+        584772.881,
+        393867.556
+      ],
+      "10": [
+        584776.092,
+        393872.708
+      ],
+      "11": [
+        584795.213,
+        393903.389
+      ],
+      "12": [
+        584814.479,
+        393934.263
+      ],
+      "13": [
+        584821.227,
+        393945.119
+      ],
+      "14": [
+        584830.715,
+        393960.949
+      ],
+      "15": [
+        584827.519,
+        393963.367
+      ],
+      "16": [
+        584813.599,
+        393974.018
+      ],
+      "17": [
+        584839.84,
+        394014.04
+      ],
+      "18": [
+        584822.54,
+        394027.794
+      ],
+      "19": [
+        584807.308,
+        394039.557
+      ],
+      "20": [
+        584797.661,
+        394024.298
+      ],
+      "21": [
+        584789.136,
+        394010.783
+      ],
+      "22": [
+        584780.78,
+        393997.642
+      ],
+      "23": [
+        584771.746,
+        393983.622
+      ],
+      "24": [
+        584765.475,
+        393973.786
+      ],
+      "25": [
+        584755.845,
+        393958.24
+      ],
+      "26": [
+        584747.239,
+        393945.064
+      ],
+      "27": [
+        584742.268,
+        393937.275
+      ],
+      "28": [
+        584737.787,
+        393930.267
+      ],
+      "29": [
+        584732.018,
+        393921.409
+      ],
+      "30": [
+        584723.447,
+        393907.371
+      ],
+      "31": [
+        584711.938,
+        393889.299
+      ],
+      "32": [
+        584708.384,
+        393883.724
+      ],
+      "33": [
+        584705.445,
+        393879.044
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 10.349,
+      "2": 8.786,
+      "3": 0.588,
+      "4": 21.869,
+      "5": 0.618,
+      "6": 22.227,
+      "7": 12.143,
+      "8": 30.661,
+      "9": 6.071,
+      "10": 36.152,
+      "11": 36.392,
+      "12": 12.782,
+      "13": 18.456,
+      "14": 4.008,
+      "15": 17.527,
+      "16": 47.858,
+      "17": 22.101,
+      "18": 19.245,
+      "19": 18.053,
+      "20": 15.979,
+      "21": 15.573,
+      "22": 16.679,
+      "23": 11.665,
+      "24": 18.287,
+      "25": 15.738,
+      "26": 9.24,
+      "27": 8.318,
+      "28": 10.571,
+      "29": 16.448,
+      "30": 21.426,
+      "31": 6.611,
+      "32": 5.526,
+      "33": 13.583
+    },
+    "perimetru_declarat_m": 531.528,
+    "nota": "Tabelul e lizibil. Aria coordonatelor e 11.626,9 mp față de 11.626,91 mp tipărit, toate cele 33 de laturi ies în 1 cm, perimetrul 531,528 m exact. Treptele de 0,59 m (3-4) și 0,62 m (5-6) de pe latura de sud-vest au ~7 px pe planșă și nu se disting pe linia groasă; nu s-au folosit. Punctele 1-2-3, 7-13 și 19-33 stau pe laturi drepte, deci nu pot servi drept puncte de control."
+  },
+  "gcp_px": {
+    "1": [
+      1079,
+      2166
+    ],
+    "7": [
+      672,
+      1587
+    ],
+    "14": [
+      2126,
+      669
+    ],
+    "19": [
+      3004,
+      926
+    ]
+  },
+  "verificare_px": {
+    "16": [
+      2271,
+      857
+    ],
+    "17": [
+      2717,
+      558
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3760,
+      128,
+      4290,
+      848
+    ],
+    [
+      3760,
+      2608,
+      4290,
+      2832
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (după hotărâre parcelele 2-14; planșa și regulamentul tratează și parcela 15 ca lot de locuință) – locuințe individuale (unifamiliale) sau semicolective (familiale) cu cel mult două unități locative pe parcelă, cu anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine); regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane, (S)+P+1E+R; 8 m la cornișă, 12 m în total"
+    },
+    {
+      "cod": "S_Et*",
+      "denumire": "Subzonă de activități economice cu caracter terțiar situate în zone cu caracter rezidențial (parcela 1, la str. Becaș) – activități terțiare, administrative, financiar-bancare, comerț cu ADC de cel mult 1.000 mp, alimentație publică, servicii cu acces public, profesionale și manufacturiere, turism, cercetare, cultură, sănătate și asistență socială, activități sportive; regim de construire deschis",
+      "pot_max": "50%",
+      "cut_max": "1,8",
+      "h_max": "(1-2)S+P+2E+R/Eth, 12 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Hotărârea (Art. 1) încadrează în U.T.R. Liu* „parcelele 2-14”, dar planșa desenează și parcela 15 ca lot de locuință cu aceiași indicatori ((S)+P+E+R, Hmax 12 m), calculul parcajelor de pe planșă numără 14 parcele de locuințe, iar regulamentul (Anexa 1) dă condiții pentru parcela 15 în capitolul Liu*; chiar hotărârea, în paragraful Liu*, prevede pentru parcela 15 o retragere laterală de minimum 6 m. Pare o scăpare în enumerare: parcela 15 e tot Liu*.",
+    "Spațiile verzi pe sol natural (min. 40% în Liu*, min. 20% în S_Et*) și plantarea unui arbore la 200 mp, notate pe planșă, nu apar în articolele hotărârii; le prevede regulamentul (Anexa 1, cap. 13)."
+  ],
+  "conditii": [
+    "Liu*: clădirile se retrag 5 m de la aliniamentul străzii propuse (aliniere unitară), cu excepția parcelelor 8 și 14, unde retragerea e de minimum 2,5 m; garajele se retrag minimum 5 m și sunt incluse în corpul clădirii sau alipite acestuia.",
+    "Liu*: retragere de minimum 3 m față de limitele laterale (pe parcela 15 minimum 6 m) și de minimum 6 m față de limita posterioară; garajele pot fi alipite unei limite laterale dacă calcanul nu depășește 2,8 m.",
+    "Liu*: accesul pe parcele se face din strada propusă (parcela 16, ampriză de minimum 9 m), desprinsă din str. Becaș; fiecare parcelă are un acces pietonal și unul auto, de cel mult 6 m lățime. Parcarea se face pe parcelă: cel puțin un loc pentru clădiri cu AU sub 100 mp, două peste 100 mp, două pentru servicii cu acces public.",
+    "S_Et* (parcela 1): clădirea se aliniază cu clădirile de pe str. Becaș nr. 28 și 30 și se retrage minimum 5 m de la strada nouă; față de limitele laterale, cel puțin jumătate din înălțimea la cornișă sau atic, minimum 6 m. Accesul auto se face din strada nouă, cel pietonal din ambele străzi, conform avizului administratorului drumului.",
+    "S_Et*: parcarea se face pe parcelă, cel puțin 75% în spații dedicate la subsol sau parter, cu necesarul după Anexa 2 a R.L.U. al P.U.G.; parcajele la sol stau la minimum 5 m de ferestrele camerelor de locuit.",
+    "Strada propusă (parcela 16) are ampriza de 9 m (6 m carosabil și trotuare de 1,5 m), cu supralărgiri pentru 7 locuri de staționare pentru vizitatori și un loc de întoarcere, și acces public nelimitat.",
+    "Înainte de autorizațiile de construire pe parcele, terenul necesar regularizării str. Becaș se dezmembrează și se înscrie în cartea funciară ca „drum”.",
+    "Înainte de autorizațiile de construire pentru locuințe (Liu*), strada propusă se înscrie în cartea funciară ca „drum”, se echipează (apă-canal, canalizare pluvială, electricitate) și partea carosabilă, cu cele 7 locuri de staționare, se aduce la stratul de uzură, după un proiect autorizat; trotuarele și iluminatul stradal se fac până la recepția locuințelor.",
+    "Înainte de recepția clădirii de pe parcela 1 (S_Et*) se reamenajează trotuarul str. Becaș pe tronsonul de lângă P.U.Z., se amenajează alveola stației de transport în comun și suprafața pentru copertina stației (în afara trotuarului propus); terenul dezmembrat și amenajat trece gratuit în domeniul public (planșa: 94,80 mp pentru alveolă și 6,00 mp pentru copertină).",
+    "Accesele auto se fac cu bordură teșită (NP 051/2012); proiectul parcărilor respectă NP 24/2022, NP 051/2012, Legea 101/2020 și Legea 280/2023.",
+    "Toate clădirile se racordează la rețelele edilitare publice; e interzisă scurgerea apelor pluviale spre domeniul public sau spre parcelele vecine; cablurile nu se montează aerian; firidele de branșament se integrează în împrejmuire; fiecare parcelă are o platformă sau un spațiu pentru colectarea deșeurilor.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare parcelă Liu* (și 40% din grădina de fațadă) și cel puțin 20% din parcela S_Et*; se plantează minimum un arbore la 200 mp de teren (regulamentul, Anexa 1).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
