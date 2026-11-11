@@ -8451,6 +8451,141 @@
   ]
  },
  {
+  "id": "2026-19",
+  "localitate": "cluj",
+  "hcl": "19/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z.  de urbanizare, str. Johann Sebastian Bach – latura sudică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-19-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/19.pdf",
+  "utr": [
+   {
+    "cod": "Liu'",
+    "denumire": "Zonă de locuințe individuale – locuințe unifamiliale și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); regim de construire izolat sau cuplat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane – (S)+D+P+M, (S)+D+P+R, (S)+D+P+E, (S)+P+E+M sau (S)+P+E+R; 8 m la cornișă, 12 m în total"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice – funcțiuni administrative, de cultură, de învățământ și cercetare, de sănătate și asistență socială; regim de construire izolat",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "trei niveluri supraterane – S+D+P+1+Eth, D+P+1+Eth, S+D+P+M, D+P+M, S+D+P+R, S+P+1+R sau S+D+P+E; 12 m, 15 m cu etajul tehnic"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat: plantații înalte, medii și joase, alei pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule ale amenajării peisagere",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "parter, cel mult 4 m"
+   }
+  ],
+  "suprafata_m2": 36989,
+  "imagine": "puz/2026-19/plansa.webp",
+  "bounds": {
+   "west": 23.6368122,
+   "south": 46.801387,
+   "east": 23.6421752,
+   "north": 46.8031168
+  },
+  "limita": [
+   [
+    23.63693,
+    46.8014238
+   ],
+   [
+    23.6368438,
+    46.8026051
+   ],
+   [
+    23.6380453,
+    46.8026267
+   ],
+   [
+    23.6383025,
+    46.8026358
+   ],
+   [
+    23.6388633,
+    46.8026625
+   ],
+   [
+    23.6394241,
+    46.802702
+   ],
+   [
+    23.6401247,
+    46.8027886
+   ],
+   [
+    23.6410988,
+    46.8028894
+   ],
+   [
+    23.6414324,
+    46.8029679
+   ],
+   [
+    23.642039,
+    46.8030991
+   ],
+   [
+    23.6421104,
+    46.802971
+   ],
+   [
+    23.6414805,
+    46.8028237
+   ],
+   [
+    23.6411002,
+    46.8027433
+   ],
+   [
+    23.6402406,
+    46.8026511
+   ],
+   [
+    23.6401494,
+    46.8014401
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 3,
+   "rms_m": 0.52,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-19/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru fiecare U.T.R. doar POT și CUT, aceiași ca hotărârea (Liu' 35% / 0,9, S_Is* 60% / 2,2, S_Va* 5% / 0,1); regimul de înălțime, înălțimile maxime și retragerile le dă doar hotărârea (Art. 1).",
+   "Hotărârea (Art. 1) vorbește de un teren de 33.624 mp: e parcela beneficiarilor (cartușul nr. cad. 300027 de pe planșă). Zona reglementată de pe planșă are 37.189,22 mp, fiindcă include și fâșia pentru lărgirea str. Johann Sebastian Bach la 16 m până la str. Oleandrului (6.535,10 mp de drum în bilanțul planșei).",
+   "Condițiile din hotărâre trimit la „Planșa A.03 – Reglementări urbanistice-Zonificare”; planșa anexată (Anexa 2) poartă în cartuș „A-03.1 Plan reglementări urbanistice”."
+  ],
+  "conditii": [
+   "Liu': toate clădirile stau în fâșia de 25 m de lângă aliniament (în afară de ediculele provizorii de grădină, de cel mult 15 mp în total); retragere de cel puțin 3 m de la aliniament, iar garajele de cel puțin 6 m, ca să se poată parca o mașină în fața lor.",
+   "Liu': retragere de cel puțin 3 m față de limitele laterale și de 6 m față de limita posterioară (și pentru garaje); clădirile se pot cupla pe o limită laterală doar cu o convenție de vecinătate care acoperă calcanele; garajele se pot alipi limitelor laterale fără convenție, dacă calcanul nu trece de 2,8 m.",
+   "Liu': accesul pe parcele se face din str. J. S. Bach regularizată la 16 m și din strada „B” (12 m); de regulă un singur acces pietonal și un singur acces auto, de cel mult 5 m; parcarea se face pe parcelă: cel puțin un loc pentru clădiri sub 100 mp AU, două peste 100 mp.",
+   "S_Is*: retragere de cel puțin 6 m de la aliniament și de jumătate din înălțimea clădirii, dar minimum 4,5 m, față de limitele laterale și posterioare; accesul auto din strada „A” (10 m), cel pietonal din str. J. S. Bach; parcarea în parcelă, după Anexa 2 a R.L.U. al P.U.G.",
+   "S_Va*: retrageri de cel puțin 3 m; accesul din străzile „A” și „B”, cu accese de serviciu pentru deșeuri și întreținere; parcarea e interzisă; se prevăd iluminat public, puncte de apă din rețeaua publică și un spațiu de colectare a deșeurilor pe 5 fracții.",
+   "Toate construcțiile se racordează la rețelele edilitare; apele meteorice nu se scurg spre domeniul public sau spre vecini; cablurile se pun în subteran, firidele de branșament în împrejmuire; fiecare parcelă are un loc pentru deșeuri accesibil din spațiul public.",
+   "Înainte de autorizațiile de construire pe parcelele Liu': terenul pentru regularizarea str. J. S. Bach la 16 m, de la str. Oleandrului până la amplasament și pe tot frontul, se dezmembrează și se înscrie în CF ca „drum”.",
+   "Înainte de autorizațiile de construire: str. J. S. Bach (16 m) se echipează edilitar (semnalizare, canalizare pluvială, iluminat) și se asfaltează pe tot frontul zonei până la str. Oleandrului, după un proiect autorizat, cu piste de biciclete de cel puțin 1,5 m pe ambele părți, 3 locuri de parcare drop-off pentru creșă și o alveolă de transport în comun de cel puțin 35 m (25 m utili) pe 3 m, cu trotuar de 2 m și copertină; pe latura de sud a străzii se plantează copaci.",
+   "Înainte de autorizațiile de construire: se reamenajează intersecția str. J. S. Bach cu str. Oleandrului.",
+   "Înainte de autorizațiile de construire: străzile propuse se înscriu în CF ca „drum”, se echipează edilitar și se asfaltează (după NP 24/2022 și NP 051/2012), cu acces public nelimitat, treceri de pietoni cu suprailuminat și locuri de întoarcere de cel puțin 6 × 12 m la cele patru străzi înfundate.",
+   "Înainte de autorizațiile de construire: terenul subzonei verzi cu acces public nelimitat se dezmembrează și se înscrie în CF ca „alei și spații verzi”.",
+   "Înainte de recepția locuințelor: se amenajează subzona verde S_Va*, după un proiect autorizat (plantații înalte, medii și joase, mobilier urban).",
+   "Înainte de recepția locuințelor: terenul pentru str. J. S. Bach, străzile noi și terenurile subzonelor S_Va* și S_Is* trec gratuit în domeniul public, cum propune planșa A-05 Plan circulația terenurilor.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2025-701",
   "localitate": "cluj",
   "hcl": "701/2025",

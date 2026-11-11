@@ -1,0 +1,222 @@
+{
+  "id": "2026-19",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 19,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-19-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/19.pdf"
+  },
+  "titlu": "P.U.Z.  de urbanizare, str. Johann Sebastian Bach – latura sudică",
+  "plansa": {
+    "pagina_pdf": 13,
+    "dpi": 300,
+    "denumire": "A-03.1 Plan reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Pagina 13 din PDF (Anexa 2), singura planșă de reglementări; e tipărită redusă pe A3 (planșa e la 1:1000, potrivirea dă 5,6 px/m la 300 ppi, adică ~1:2100) și rotită cu 90° (nordul spre dreapta). Pagina 12 e Anexa 3, A-05 „Plan circulația terenurilor”, pe același fond. Legenda și tabelele U.T.R. sunt rotite și ele; în legendă au intrat lista U.T.R., legenda simbolurilor și cele trei casete U.T.R. (arie, POT, CUT), fără tabelul de zonificare, bilanțul suprafețelor de drum, profilele stradale și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa are un inventar de coordonate (puncte 17-24, Nord X / Est Y, Stereo 70, cu lungimile laturilor), dar el descrie doar parcela beneficiarilor (nr. cad. 300027, 33.624 mp în cartușul ei de pe planșă), nu zona reglementată, care cuprinde și fâșia str. Johann Sebastian Bach până la str. Oleandrului. De aceea limita zonei e trasată pe planșă (limita_px, linia „Limită zonă reglementată”) și potrivirea e mixtă, ca similaritate (georef_metoda osm): puncte de control colțurile 19 (NV, N 589992,600 / E 396090,740) și 17 (SV, N 589990,010 / E 396337,510) ale parcelei, citite din inventar, și intersecția axelor str. J. S. Bach / str. Oleandrului / str. Voroneț din OpenStreetMap (BO, extrasul OSM din 2026-11-08); puncte de verificare: colțul 20 al parcelei (NE, N 590119,640 / E 396086,080) și intersecția str. Oleandrului / str. Romaniței din OSM (OR). Cele trei colțuri folosite sunt confirmate de laturile din tabel (17-18 = 198,91 m, 18-19 = 47,87 m, 20-21 = 107,17 m, 24-17 = 145,43 m). Celelalte vârfuri (18, 21-24) nu sunt colțuri clare pe planșă (18 e aproape în linie dreaptă, 21-23 cad între liniile hașurate ale fâșiei de drum), așa că nu sunt folosite. Ancora de pornire (osm_ancora) a fost intersecția J. S. Bach / Oleandrului.",
+    "suprafata_declarata_m2": 37189.22,
+    "puncte": {},
+    "nota": "Inventarul e scanat neclar. Citirea folosită: 17 (589990,010; 396337,510), 18 (589992,030; 396138,610), 19 (589992,600; 396090,740), 20 (590119,640; 396086,080), 21 (590119,630; 396193,250), 22 (590122,230; 396231,000), 23 (590131,190; 396318,700), 24 (590135,080; 396347,780). La 21, Est se citește și 396153,250, iar la 24 Nord și 590136,080; variantele alese sunt cele care dau laturile 20-21 = 107,17 m, 21-22 = 37,84 m și 24-17 = 145,43 m din tabel și o arie a parcelei de 33.620,6 mp (33.624 mp în cartuș). La 23 laturile 22-23 și 23-24 nu se potrivesc cu tabelul (88,16 / 29,34 m calculat, 88,26 / 31,27 m citit), deci vârful 23 e probabil citit greșit; nu e folosit. Suprafața declarată, 37.189,22 mp, e totalul din tabelul de zonificare al planșei (UTR A existent 100%; propus Liu' 33.360,91 + S_Is* 2.227,27 + S_Va* 1.601,04 mp)."
+  },
+  "gcp_px": {
+    "V19": [
+      1011,
+      468
+    ],
+    "V17": [
+      1012,
+      1845
+    ],
+    "BO": [
+      2030,
+      2700
+    ]
+  },
+  "verificare_px": {
+    "V20": [
+      1722,
+      437
+    ],
+    "OR": [
+      3320,
+      2315
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3320,
+      150,
+      4016,
+      1190,
+      270
+    ],
+    [
+      1980,
+      145,
+      2381,
+      1090,
+      270
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu'",
+      "denumire": "Zonă de locuințe individuale – locuințe unifamiliale și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); regim de construire izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane – (S)+D+P+M, (S)+D+P+R, (S)+D+P+E, (S)+P+E+M sau (S)+P+E+R; 8 m la cornișă, 12 m în total"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice – funcțiuni administrative, de cultură, de învățământ și cercetare, de sănătate și asistență socială; regim de construire izolat",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "trei niveluri supraterane – S+D+P+1+Eth, D+P+1+Eth, S+D+P+M, D+P+M, S+D+P+R, S+P+1+R sau S+D+P+E; 12 m, 15 m cu etajul tehnic"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat: plantații înalte, medii și joase, alei pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule ale amenajării peisagere",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "parter, cel mult 4 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pentru fiecare U.T.R. doar POT și CUT, aceiași ca hotărârea (Liu' 35% / 0,9, S_Is* 60% / 2,2, S_Va* 5% / 0,1); regimul de înălțime, înălțimile maxime și retragerile le dă doar hotărârea (Art. 1).",
+    "Hotărârea (Art. 1) vorbește de un teren de 33.624 mp: e parcela beneficiarilor (cartușul nr. cad. 300027 de pe planșă). Zona reglementată de pe planșă are 37.189,22 mp, fiindcă include și fâșia pentru lărgirea str. Johann Sebastian Bach la 16 m până la str. Oleandrului (6.535,10 mp de drum în bilanțul planșei).",
+    "Condițiile din hotărâre trimit la „Planșa A.03 – Reglementări urbanistice-Zonificare”; planșa anexată (Anexa 2) poartă în cartuș „A-03.1 Plan reglementări urbanistice”."
+  ],
+  "conditii": [
+    "Liu': toate clădirile stau în fâșia de 25 m de lângă aliniament (în afară de ediculele provizorii de grădină, de cel mult 15 mp în total); retragere de cel puțin 3 m de la aliniament, iar garajele de cel puțin 6 m, ca să se poată parca o mașină în fața lor.",
+    "Liu': retragere de cel puțin 3 m față de limitele laterale și de 6 m față de limita posterioară (și pentru garaje); clădirile se pot cupla pe o limită laterală doar cu o convenție de vecinătate care acoperă calcanele; garajele se pot alipi limitelor laterale fără convenție, dacă calcanul nu trece de 2,8 m.",
+    "Liu': accesul pe parcele se face din str. J. S. Bach regularizată la 16 m și din strada „B” (12 m); de regulă un singur acces pietonal și un singur acces auto, de cel mult 5 m; parcarea se face pe parcelă: cel puțin un loc pentru clădiri sub 100 mp AU, două peste 100 mp.",
+    "S_Is*: retragere de cel puțin 6 m de la aliniament și de jumătate din înălțimea clădirii, dar minimum 4,5 m, față de limitele laterale și posterioare; accesul auto din strada „A” (10 m), cel pietonal din str. J. S. Bach; parcarea în parcelă, după Anexa 2 a R.L.U. al P.U.G.",
+    "S_Va*: retrageri de cel puțin 3 m; accesul din străzile „A” și „B”, cu accese de serviciu pentru deșeuri și întreținere; parcarea e interzisă; se prevăd iluminat public, puncte de apă din rețeaua publică și un spațiu de colectare a deșeurilor pe 5 fracții.",
+    "Toate construcțiile se racordează la rețelele edilitare; apele meteorice nu se scurg spre domeniul public sau spre vecini; cablurile se pun în subteran, firidele de branșament în împrejmuire; fiecare parcelă are un loc pentru deșeuri accesibil din spațiul public.",
+    "Înainte de autorizațiile de construire pe parcelele Liu': terenul pentru regularizarea str. J. S. Bach la 16 m, de la str. Oleandrului până la amplasament și pe tot frontul, se dezmembrează și se înscrie în CF ca „drum”.",
+    "Înainte de autorizațiile de construire: str. J. S. Bach (16 m) se echipează edilitar (semnalizare, canalizare pluvială, iluminat) și se asfaltează pe tot frontul zonei până la str. Oleandrului, după un proiect autorizat, cu piste de biciclete de cel puțin 1,5 m pe ambele părți, 3 locuri de parcare drop-off pentru creșă și o alveolă de transport în comun de cel puțin 35 m (25 m utili) pe 3 m, cu trotuar de 2 m și copertină; pe latura de sud a străzii se plantează copaci.",
+    "Înainte de autorizațiile de construire: se reamenajează intersecția str. J. S. Bach cu str. Oleandrului.",
+    "Înainte de autorizațiile de construire: străzile propuse se înscriu în CF ca „drum”, se echipează edilitar și se asfaltează (după NP 24/2022 și NP 051/2012), cu acces public nelimitat, treceri de pietoni cu suprailuminat și locuri de întoarcere de cel puțin 6 × 12 m la cele patru străzi înfundate.",
+    "Înainte de autorizațiile de construire: terenul subzonei verzi cu acces public nelimitat se dezmembrează și se înscrie în CF ca „alei și spații verzi”.",
+    "Înainte de recepția locuințelor: se amenajează subzona verde S_Va*, după un proiect autorizat (plantații înalte, medii și joase, mobilier urban).",
+    "Înainte de recepția locuințelor: terenul pentru str. J. S. Bach, străzile noi și terenurile subzonelor S_Va* și S_Is* trec gratuit în domeniul public, cum propune planșa A-05 Plan circulația terenurilor.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      1990,
+      2660
+    ],
+    "en": [
+      396490.9,
+      590169.9
+    ],
+    "px_per_m": 5.5,
+    "nord": 90
+  },
+  "repere": {
+    "V19": [
+      589992.6,
+      396090.74
+    ],
+    "V17": [
+      589990.01,
+      396337.51
+    ],
+    "BO": [
+      590169.89,
+      396490.94
+    ],
+    "OR": [
+      590403.82,
+      396424.73
+    ],
+    "V20": [
+      590119.64,
+      396086.08
+    ]
+  },
+  "repere_osm": {
+    "BO": "intersecție Strada Johann Sebastian Bach / Strada Oleandrului / Strada Voroneț (x701423934_701423937)",
+    "OR": "intersecție Strada Oleandrului / Strada Romaniței (x701423934_701423939)"
+  },
+  "limita_px": [
+    [
+      1011,
+      468
+    ],
+    [
+      1747,
+      436
+    ],
+    [
+      1757,
+      950
+    ],
+    [
+      1762,
+      1060
+    ],
+    [
+      1777,
+      1300
+    ],
+    [
+      1800,
+      1540
+    ],
+    [
+      1852,
+      1840
+    ],
+    [
+      1912,
+      2257
+    ],
+    [
+      1960,
+      2400
+    ],
+    [
+      2040,
+      2660
+    ],
+    [
+      1960,
+      2690
+    ],
+    [
+      1870,
+      2420
+    ],
+    [
+      1821,
+      2257
+    ],
+    [
+      1766,
+      1889
+    ],
+    [
+      1012,
+      1845
+    ]
+  ]
+}
