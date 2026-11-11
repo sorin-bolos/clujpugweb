@@ -16002,6 +16002,85 @@
   ]
  },
  {
+  "id": "2025-195",
+  "localitate": "cluj",
+  "hcl": "195/2025",
+  "data": "2025-05-12",
+  "titlu": "P.U.Z. – Corectare limită U.T.R., între U.T.R. ULiu și U.T.R. Liu, str. Dimitrie Onciul – latura sudică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-195-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-195.pdf",
+  "utr": [
+   {
+    "cod": "Liu",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuință unifamilială sau semicolectivă (unități locative suprapuse sau alipite) și anexele lor, regim de construire izolat. Parcelele nr. cad. 313453 (locuința existentă D+P+M, asupra căreia nu se intervine) și nr. cad. 324880 (o locuință nouă) trec în întregime în U.T.R. Liu prin corectarea limitei dintre U.T.R. ULiu și U.T.R. Liu",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "două niveluri supraterane plus o mansardă sau un nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă/atic ultim nivel neretras și 12 m la coamă/atic nivel retras"
+   }
+  ],
+  "suprafata_m2": 997,
+  "imagine": "puz/2025-195/plansa.webp",
+  "bounds": {
+   "west": 23.638924,
+   "south": 46.7398324,
+   "east": 23.6393795,
+   "north": 46.7403984
+  },
+  "limita": [
+   [
+    23.6389496,
+    46.7403791
+   ],
+   [
+    23.6391973,
+    46.7403741
+   ],
+   [
+    23.6392726,
+    46.740146
+   ],
+   [
+    23.6393552,
+    46.7398926
+   ],
+   [
+    23.6391506,
+    46.7398516
+   ],
+   [
+    23.6390492,
+    46.7401178
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.0
+  },
+  "legenda": "puz/2025-195/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-05-12"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: planșa dă H max. 12 m și regimul (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R („maxim 3 niveluri supraterane”); Art. 1 limitează în plus înălțimea la cornișă sau la aticul ultimului nivel neretras la 8 m (12 m e la coamă sau la aticul nivelului retras).",
+   "Retragerea față de limita posterioară (sudică): planșa cotează 6,00 m între suprafața construibilă de pe lotul 2 și limita de sud; Art. 1 cere de fapt înălțimea clădirii, dar nu mai puțin de 6 m.",
+   "Destinația: planșa (parcelarul propus și estimarea traficului) prevede pe lotul 2 o locuință unifamilială, cu 2 locuri de parcare pe parcelă; Art. 1 și regulamentul (Anexa 1) permit locuință unifamilială sau semicolectivă, cu 1-2 locuri pentru o locuință individuală, după aria utilă (sub sau peste 100 mp), și câte un loc pentru fiecare unitate locativă la cele semicolective.",
+   "Planșa hașurează ca „suprafață construibilă” și lotul 1, în jurul casei existente; Art. 1 spune că asupra locuinței D+P+M existente pe parcela nr. cad. 313453 nu se intervine și stabilește reglementări specifice numai pe parcela nr. cad. 324880."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire pe parcela nr. cad. 324880: terenul necesar lărgirii aleii de acces (lotul 3, 21 mp, cf. planșei A.03) se dezmembrează din parcelă și se înscrie în C.F. ca „drum”.",
+   "Înainte de recepția construcției propuse: terenul dezmembrat și aleea de acces (nr. cad. 307478) se aduc la strat de uzură (asfalt sau dale).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Pe locuința existentă D+P+M de pe parcela nr. cad. 313453 nu se intervine.",
+   "Retrageri: min. 3 m de la aliniament pentru locuință, garajele min. 6 m (ca să se poată parca o mașină în fața lor); min. 3 m față de limitele laterale (garajele, și cele din corpul principal, se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m); față de limita posterioară (sudică) cel puțin înălțimea clădirii, dar min. 6 m, garajul min. 6 m.",
+   "Construirea se autorizează numai cu acces direct la drumurile publice; pe parcelă un singur acces pietonal și un singur acces carosabil, cel carosabil de cel mult 3 m lățime; pentru căile din interiorul parcelei se recomandă pavimente permeabile (regulamentul din Anexa 1 scrie „impermeabile”).",
+   "Parcarea se face în interiorul parcelei: o locuință individuală are cel puțin un loc dacă aria utilă e sub 100 mp și două peste 100 mp; locuințele semicolective, câte un loc pentru fiecare unitate locativă; serviciile cu acces public, cel puțin două locuri (Anexa 1).",
+   "Toate construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale.",
+   "Regulamentul (Anexa 1): spații verzi pe sol natural pe cel puțin 40% din parcelă; eliminarea arborilor maturi e interzisă, în afară de cazurile de pericol sau când împiedică construirea; acoperișuri simple, în două sau patru ape, cu pante de cel mult 60°, sau terasă; fără culori saturate sau stridente; împrejmuirea spre stradă închide tot aliniamentul, cu soclu opac de max. 80 cm și parte transparentă, înaltă de max. 2,2 m, spre vecini max. 2,2 m; porțile se deschid spre interiorul parcelei."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

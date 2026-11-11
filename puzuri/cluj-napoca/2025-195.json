@@ -1,0 +1,91 @@
+{
+  "id": "2025-195",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 195,
+    "an": 2025,
+    "data_sedinta": "2025-05-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-195-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-195.pdf"
+  },
+  "titlu": "P.U.Z. – Corectare limită U.T.R., între U.T.R. ULiu și U.T.R. Liu, str. Dimitrie Onciul – latura sudică",
+  "plansa": {
+    "pagina_pdf": 13,
+    "dpi": 200,
+    "denumire": "A.03 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 15 pagini: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism al U.T.R. Liu (pp. 3-5), Anexa 2 – planșa A.03 micșorată pe A4, alb-negru, semnată de președintele de ședință și de secretar (p. 6, 300 ppi: o fotocopie estompată, pe care inventarele de coordonate și numerele vârfurilor abia se citesc), avizul Arhitectului-șef nr. 265 din 7.11.2024 (pp. 7-9), avizul de oportunitate nr. 199 din 6.11.2023 (pp. 10-11) cu planul anexat lui (p. 12), planșa A.03 color (p. 13, 200 ppi) și raportul informării și consultării publicului (pp. 14-15). Aleasă: p. 13, cea mai clară, cu viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 265/2024 – și mențiunea de mână „HCL nr. 195 din 12 mai 2025”. Scanarea ei taie partea stângă a planșei (inventarele de coordonate, coloana „Situație propusă” cu indicatorii propuși și bilanțul), dar cuprinde toată zona reglementată, caroiajul din jurul ei, legenda și cartușul; desenul e același cu cel din Anexa 2 (aceleași cote, iar colțurile cad la câțiva cm de coordonatele din inventarul de pe p. 6, vezi coordonate.nota). Cartușul: proiect nr. 324/2024, faza P.U.Z., planșa A.03 „Reglementari urbanistice”, scara 1:500, data noiembrie 2024. Pagina e rotită: nordul e în stânga (potrivirea dă rotația -89,3°) și 15,7 px/m, adică 1:500 la 200 ppi (15,75 px/m). Legenda ia cheia simbolurilor („Limite”: limita U.T.R. și zona reglementată prin P.U.Z. – 1.000 mp; parcele propuse, circulații existente, fond construit existent, suprafața construibilă, terenul dezmembrat din parcela nr. cad. 324880 pentru drum; „Utilizare funcțională”: Liu, ULiu, Ve), întoarsă cu 90°; peste ea e ștampila arhitectului proiectant. Au rămas pe dinafară cuvântul „LEGENDA” (lângă el sunt etichetele caroiajului), profilul stradal existent S1, cartușul (care numește beneficiarii), ștampilele și coloana tăiată de scanare. P.O.T., C.U.T. și înălțimea sunt în `utr`, din textul hotărârii; planșa le tipărește doar în coloana tăiată (pe p. 6: P.O.T. max. 35%, C.U.T. max. 0,9, regim (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R, H max. 12 m). Decupajul (limita + 1,5 m) nu atinge numele proprietarilor scrise lângă parcele, ștampilele sau cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Caroiajul Stereo 70 al planșei: cruci la 20 m, etichetate lângă cruce (Nord deasupra, Est dedesubt, cu textul răsturnat de rotirea paginii). În jurul zonei se văd cinci cruci: pe rândul E 396160 crucile N 583180, 583160 și 583140 (etichetele 583180 – parțial sub linia mov a limitei U.T.R. –, 583160, 583140 și 396160) și pe rândul E 396140 crucile N 583180 și 583140 (eticheta 396140); crucea N 583160 / E 396140 e sub linia neagră a limitei. Fiecare cruce stă pe două linii etichetate pe planșă. Centrele crucilor sunt calculate din pixelii întunecați ai brațelor. Puncte de control: C396160_583180, C396160_583160, C396140_583180 și C396140_583140 (un trapez, nu un paralelogram); punct de verificare: C396160_583140. Limita e `limita_px`: linia roșie întreruptă „Zona reglementată prin PUZ – 1 000 mp”, care merge pe conturul negru al loturilor 1-3 (parcelele nr. cad. 313453 și 324880). Fiecare colț e intersecția dreptelor potrivite pe mijlocul liniei negre a celor două laturi (abateri de 0,4-0,6 px): colțurile de NV și NE ale lotului 1 (la str. Dimitrie Onciul), vârful 4 (latura de est cu linia dintre loturile 1 și 2), vârfurile 1 și 2 (colțurile de sud) și vârful 3 (latura de vest cu linia dintre loturi). Frângerile din vârfurile 5 și 6 ale inventarului sunt sub 0,1 m și nu sunt trasate. Suprafața declarată: 1.000 mp (Art. 1, legenda și tabelul „Zonificare funcțională”: U.T.R. Liu 979 mp + circulații 21 mp).",
+    "suprafata_declarata_m2": 1000,
+    "puncte": {},
+    "nota": "Planșa tipărește două inventare „Coordonate pct. de contur” (p. 6, stânga jos), cu laturile D(i,i+1): punctele 1-6 sunt parcela nr. cad. 324880 (loturile 2 și 3; S(1)=500,29 mp, P=93,30 m), punctele 7-12 aleea de acces nr. cad. 307478, din afara zonei (S(2)=214,14 mp). Nu sunt folosite: în fotocopia de pe p. 6 multe cifre nu se deosebesc (5/6/8/0; chiar a treia cifră a coloanei Y, pe care caroiajul și OSM o dau 396…), copia color de pe p. 13 nu le cuprinde, iar lotul 1 (nr. cad. 313453) nu are inventar, deci conturul întreg nu se poate lua din tabele. Ca verificare independentă, colțurile trasate, duse în Stereo 70 cu potrivirea pe cruci, cad la 1-6 cm de citirile din tabel (cifrele nesigure alese după laturile tipărite): 4 (N 583179,26; E 396152,75), 1 (583150,96; 396158,61), 2 (583146,67; 396142,86) și 3 (583176,44; 396135,59), iar colțul de NV al lotului 1 la 2 cm de punctul 7 al aleii (583205,60; 396128,53). Laturile conturului trasat se potrivesc la cel mult 6 cm cu cotele de pe planșă: 18,93 m (cota 18,99), 26,00 (25,97), 28,86 (10,09 + 14,17 + 4,65 = 28,91), 16,28 (16,33), 30,58 (30,64) și 30,02 (30,00). Cu aceeași potrivire, str. Dimitrie Onciul din extrasul OSM (2026-11-08) cade pe carosabilul desenat, iar clădirea din OSM a casei existente de pe lotul 1 pe amprenta desenată (C1 D+P+M): latura de vest la ~0,6 m, cea de est cu ~2,5 m mai spre est (OSM urmează acoperișul)."
+  },
+  "repere": {
+    "C396160_583180": [583180, 396160],
+    "C396160_583160": [583160, 396160],
+    "C396160_583140": [583140, 396160],
+    "C396140_583180": [583180, 396140],
+    "C396140_583140": [583140, 396140]
+  },
+  "gcp_px": {
+    "C396160_583180": [1085.7, 1063.8],
+    "C396160_583160": [1399.8, 1067.6],
+    "C396140_583180": [1080.2, 1379.2],
+    "C396140_583140": [1708.7, 1386.9]
+  },
+  "verificare_px": {
+    "C396160_583140": [1714.1, 1070.7]
+  },
+  "limita_px": [
+    [675.0, 1555.5],
+    [694.0, 1257.4],
+    [1095.3, 1178.4],
+    [1540.9, 1092.0],
+    [1604.0, 1340.5],
+    [1135.2, 1449.0]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [1801, 754, 2562, 1398, 90]
+  ],
+  "utr": [
+    {
+      "cod": "Liu",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuință unifamilială sau semicolectivă (unități locative suprapuse sau alipite) și anexele lor, regim de construire izolat. Parcelele nr. cad. 313453 (locuința existentă D+P+M, asupra căreia nu se intervine) și nr. cad. 324880 (o locuință nouă) trec în întregime în U.T.R. Liu prin corectarea limitei dintre U.T.R. ULiu și U.T.R. Liu",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "două niveluri supraterane plus o mansardă sau un nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă/atic ultim nivel neretras și 12 m la coamă/atic nivel retras"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2028-05-12",
+    "verificat": "2026-11-11: Art. 2, trei ani de la aprobare (ședința din 12.05.2025); `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: planșa dă H max. 12 m și regimul (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R („maxim 3 niveluri supraterane”); Art. 1 limitează în plus înălțimea la cornișă sau la aticul ultimului nivel neretras la 8 m (12 m e la coamă sau la aticul nivelului retras).",
+    "Retragerea față de limita posterioară (sudică): planșa cotează 6,00 m între suprafața construibilă de pe lotul 2 și limita de sud; Art. 1 cere de fapt înălțimea clădirii, dar nu mai puțin de 6 m.",
+    "Destinația: planșa (parcelarul propus și estimarea traficului) prevede pe lotul 2 o locuință unifamilială, cu 2 locuri de parcare pe parcelă; Art. 1 și regulamentul (Anexa 1) permit locuință unifamilială sau semicolectivă, cu 1-2 locuri pentru o locuință individuală, după aria utilă (sub sau peste 100 mp), și câte un loc pentru fiecare unitate locativă la cele semicolective.",
+    "Planșa hașurează ca „suprafață construibilă” și lotul 1, în jurul casei existente; Art. 1 spune că asupra locuinței D+P+M existente pe parcela nr. cad. 313453 nu se intervine și stabilește reglementări specifice numai pe parcela nr. cad. 324880."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pe parcela nr. cad. 324880: terenul necesar lărgirii aleii de acces (lotul 3, 21 mp, cf. planșei A.03) se dezmembrează din parcelă și se înscrie în C.F. ca „drum”.",
+    "Înainte de recepția construcției propuse: terenul dezmembrat și aleea de acces (nr. cad. 307478) se aduc la strat de uzură (asfalt sau dale).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Pe locuința existentă D+P+M de pe parcela nr. cad. 313453 nu se intervine.",
+    "Retrageri: min. 3 m de la aliniament pentru locuință, garajele min. 6 m (ca să se poată parca o mașină în fața lor); min. 3 m față de limitele laterale (garajele, și cele din corpul principal, se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m); față de limita posterioară (sudică) cel puțin înălțimea clădirii, dar min. 6 m, garajul min. 6 m.",
+    "Construirea se autorizează numai cu acces direct la drumurile publice; pe parcelă un singur acces pietonal și un singur acces carosabil, cel carosabil de cel mult 3 m lățime; pentru căile din interiorul parcelei se recomandă pavimente permeabile (regulamentul din Anexa 1 scrie „impermeabile”).",
+    "Parcarea se face în interiorul parcelei: o locuință individuală are cel puțin un loc dacă aria utilă e sub 100 mp și două peste 100 mp; locuințele semicolective, câte un loc pentru fiecare unitate locativă; serviciile cu acces public, cel puțin două locuri (Anexa 1).",
+    "Toate construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale.",
+    "Regulamentul (Anexa 1): spații verzi pe sol natural pe cel puțin 40% din parcelă; eliminarea arborilor maturi e interzisă, în afară de cazurile de pericol sau când împiedică construirea; acoperișuri simple, în două sau patru ape, cu pante de cel mult 60°, sau terasă; fără culori saturate sau stridente; împrejmuirea spre stradă închide tot aliniamentul, cu soclu opac de max. 80 cm și parte transparentă, înaltă de max. 2,2 m, spre vecini max. 2,2 m; porțile se deschid spre interiorul parcelei."
+  ]
+}
