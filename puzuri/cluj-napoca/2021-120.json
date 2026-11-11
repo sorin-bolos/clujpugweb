@@ -1,0 +1,43 @@
+{
+  "id": "2021-120",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 24.03.2026 (5 ani de la ședința din 24.03.2021, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 120,
+    "an": 2021,
+    "data_sedinta": "2021-03-24",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-120-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/03/24/HCL-nr-120-din-24-03-2021-PUZ-Parc-Zorilor-Municipiul-Cluj-Napoca.pdf"
+  },
+  "titlu": "P.U.Z. – Amenajare parc cartier Zorilor, str. Observatorului – sud",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-03-24"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

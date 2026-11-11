@@ -1,0 +1,43 @@
+{
+  "id": "2022-450",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 07.06.2025 (3 ani de la ședința din 07.06.2022, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 450,
+    "an": 2022,
+    "data_sedinta": "2022-06-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-450-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/06/21/HCL-450-7-06-2022.pdf"
+  },
+  "titlu": "P.U.Z. – Corectare limită între U.T.R. ZCP_M4 și U.T.R. SZCP_Is, str. George Coșbuc nr. 4-6",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2025-06-07"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

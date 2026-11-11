@@ -1,0 +1,23 @@
+{
+  "id": "2020-6",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 10.01.2025 (5 ani de la ședința din 10.01.2020, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 6,
+    "an": 2020,
+    "data_sedinta": "2020-01-10",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-6-din-2020/",
+    "pdf": null
+  },
+  "titlu": "P.U.Z. de urbanizare – strada Praga, latura vestică",
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-01-10"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

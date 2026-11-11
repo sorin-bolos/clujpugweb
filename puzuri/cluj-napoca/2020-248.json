@@ -1,0 +1,43 @@
+{
+  "id": "2020-248",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 12.05.2025 (5 ani de la ședința din 12.05.2020, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 248,
+    "an": 2020,
+    "data_sedinta": "2020-05-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-248-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2020/05/21/HCL-248-din-12.05.2020.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – str. Soporului",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-05-12"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

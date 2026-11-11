@@ -1,0 +1,43 @@
+{
+  "id": "2023-461",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 15.05.2026 (3 ani de la ședința din 15.05.2023, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 461,
+    "an": 2023,
+    "data_sedinta": "2023-05-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-461-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/05/22/HCL-461.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, str. Valea Chintăului – est",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2026-05-15"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

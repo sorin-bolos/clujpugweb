@@ -1,0 +1,43 @@
+{
+  "id": "2021-68",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 22.02.2026 (5 ani de la ședința din 22.02.2021, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 68,
+    "an": 2021,
+    "data_sedinta": "2021-02-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-68-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/02/22/68-1.pdf"
+  },
+  "titlu": "P.U.Z. – Reconfigurare spațiu public urban, Piața Timotei Cipariu (construire parking subteran, reabilitare și modernizare spațiu public)",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-02-22"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

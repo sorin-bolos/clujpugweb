@@ -1,0 +1,43 @@
+{
+  "id": "2021-338",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 14.07.2024 (3 ani de la ședința din 14.07.2021, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 338,
+    "an": 2021,
+    "data_sedinta": "2021-07-14",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-338-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/08/04/HCL-338-din-14.07.2021P.U.Z.-Corectare-limită-de-U.T.R.-între-U.T.R.-Lc_A-și-U.T.R.-Liu-str.-Vânătorului-nr.-19A-Tomoiag-Mihai-Eugen..pdf"
+  },
+  "titlu": "P.U.Z. Corectare limită de U.T.R., între U.T.R. Lc_A și U.T.R. Liu, str. Vânătorului nr. 19A",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2024-07-14"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

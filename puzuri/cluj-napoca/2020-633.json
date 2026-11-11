@@ -1,0 +1,43 @@
+{
+  "id": "2020-633",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 20.08.2023 (3 ani de la ședința din 20.08.2020, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 633,
+    "an": 2020,
+    "data_sedinta": "2020-08-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-633-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/08/20/HCL-633-20-08-2020.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuință unifamilială, Colonia Borhanci nr. 80 B prov",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2023-08-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

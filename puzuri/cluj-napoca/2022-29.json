@@ -1,0 +1,43 @@
+{
+  "id": "2022-29",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 18.01.2025 (3 ani de la ședința din 18.01.2022, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 29,
+    "an": 2022,
+    "data_sedinta": "2022-01-18",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-29-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/02/01/HCL-29-din-18-01-2022-PUZ-corect-lim-UTR-str-Voievodul-Gelu-1.pdf"
+  },
+  "titlu": "P.U.Z. – Corectare limită U.T.R. între U.T.R. ULiu și Liu, str. Voievodul Gelu nr. 1",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2025-01-18"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}

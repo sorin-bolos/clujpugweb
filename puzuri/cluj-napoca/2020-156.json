@@ -1,0 +1,43 @@
+{
+  "id": "2020-156",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 23.03.2025 (5 ani de la ședința din 23.03.2020, după textul hotărârii); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 156,
+    "an": 2020,
+    "data_sedinta": "2020-03-23",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-156-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/03/23/HCL-156-din-23.03.2020.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare urbană, str. Fabricii de Chibrituri nr. 5-11",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": ""
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-03-23"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}
