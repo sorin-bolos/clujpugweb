@@ -1,0 +1,315 @@
+{
+  "id": "2025-193",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 193,
+    "an": 2025,
+    "data_sedinta": "2025-05-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-193-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-193.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuință individuală, strada Făgetului – vest",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 96,
+    "denumire": "A.03 Plan reglementări urbanistice",
+    "scara": "1:500 (scara nu e scrisă pe planșă; potrivirea dă 7,5 px/m, adică 1:500 la 96 ppi, tipărită la ~99%)",
+    "nota": "PDF-ul are 16 pagini, toate scanate la 96 ppi: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism al U.T.R. Lid* (pp. 3-5; antetul paginilor e copiat greșit de la alt P.U.Z., „PUZ pentru realizarea ansamblu mixt – locuințe și dotări complementare Colonia Borhanci”, dar conținutul e al parcelei de pe str. Făgetului), Anexa 2 – planșa A.03 micșorată pe A4, alb-negru, semnată de președintele de ședință și de secretar (p. 6), avizul Arhitectului-șef nr. 211 din 11.09.2024 (pp. 7-9), avizul nr. 17 din 24.02.2025 care îl corectează pe 211 (p. 10: înălțimea maximă la coamă 10 m în loc de 12 m, „eroare materială”), avizul de oportunitate nr. 209 din 14.11.2023 (pp. 11-12) cu extrasul din P.U.G. (p. 13), planșa A.03 color pe A3 (p. 14, 1587×1123 px; aleasă: e cea mai clară, cu viza „spre neschimbare” – anexă la avizele Arhitectului-șef nr. 211/2024 și nr. 17/2025 – și mențiunea de mână „H.C.L. nr. 193 din 12 mai 2025”) și raportul informării și consultării publicului (pp. 15-16: nu s-a prezentat nimeni din public, nicio observație). Titlul din cartuș: „Plan reglementari urbanistice”, pag. A.03, format A3, proiect 1167/2023, 02.10.2024; nordul în sus (rotație 0,3°). Parcela (nr. cad. 346578, 1261 mp) e în adâncime: un corp aproape pătrat spre nord-vest și o fâșie lungă de acces, de ~4,5 m lățime și ~85 m lungime, până la str. Făgetului, unde planșa hașurează cu roșu „suprafața destinată lărgirii străzii Făgetului cf. P.U.G.”. Legenda ia, în două casete, tabelul de indici „UTR ULid/Lid” (suprafața terenului, POT, CUT, spațiul verde minim, regimul de înălțime, H max atic, suprafețele construită și desfășurată maxime) și cheia simbolurilor; au rămas pe dinafară rândul „Necesar parcări”, profilul străzii Făgetului, inventarul de coordonate, bilanțul teritorial, ștampilele, semnăturile și cartușul (care numește beneficiarii). Eticheta cadastrală din mijlocul parcelei scrie numele proprietarilor: cele două rânduri sunt scoase din imaginea publicată cu `decupaj.exclude_px`; caseta „CF nr. 346578 … Proprietar …” de lângă latura de nord-est rămâne în afara decupajului (limita + 1,5 m), în afară de colțul ei alb de jos."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („INVENTAR DE COORDONATE N.C. 346578”, stânga jos: 40 de puncte, 10-49, în ordinea conturului, Nord(X) / Est(Y), Stereo 70, cu lungimile tuturor laturilor; S = 1261 mp). Puncte de control: patru colțuri ascuțite – 10 (vest), 15 (nord) și 24 (est) ale corpului parcelei și 34 (colțul de est al capătului dinspre str. Făgetului, unde latura de nord-est a fâșiei de acces întâlnește frontul străzii); puncte de verificare: 25 (colțul interior unde fâșia de acces pleacă din corpul parcelei) și 36 (colțul de sud al frontului la stradă). Celelalte vârfuri stau pe laturi aproape drepte (frângeri de câteva grade) și nu pot fi citite ca puncte. Planșa nu are caroiaj Stereo 70.",
+    "suprafata_declarata_m2": 1261,
+    "puncte": {
+      "10": [
+        581167.48,
+        391220.868
+      ],
+      "11": [
+        581170.328,
+        391223.647
+      ],
+      "12": [
+        581175.065,
+        391228.0
+      ],
+      "13": [
+        581177.813,
+        391230.404
+      ],
+      "14": [
+        581184.386,
+        391236.844
+      ],
+      "15": [
+        581185.849,
+        391238.349
+      ],
+      "16": [
+        581182.396,
+        391241.553
+      ],
+      "17": [
+        581177.799,
+        391245.734
+      ],
+      "18": [
+        581173.424,
+        391249.672
+      ],
+      "19": [
+        581168.98,
+        391253.797
+      ],
+      "20": [
+        581166.009,
+        391256.398
+      ],
+      "21": [
+        581161.6,
+        391260.348
+      ],
+      "22": [
+        581158.814,
+        391263.197
+      ],
+      "23": [
+        581154.633,
+        391267.627
+      ],
+      "24": [
+        581152.894,
+        391269.52
+      ],
+      "25": [
+        581139.173,
+        391257.001
+      ],
+      "26": [
+        581132.225,
+        391264.734
+      ],
+      "27": [
+        581126.712,
+        391270.771
+      ],
+      "28": [
+        581119.081,
+        391279.098
+      ],
+      "29": [
+        581113.027,
+        391285.848
+      ],
+      "30": [
+        581104.923,
+        391294.868
+      ],
+      "31": [
+        581103.466,
+        391296.496
+      ],
+      "32": [
+        581102.362,
+        391297.98
+      ],
+      "33": [
+        581099.992,
+        391301.203
+      ],
+      "34": [
+        581097.324,
+        391305.106
+      ],
+      "35": [
+        581096.041,
+        391304.293
+      ],
+      "36": [
+        581093.638,
+        391302.676
+      ],
+      "37": [
+        581099.36,
+        391296.362
+      ],
+      "38": [
+        581102.027,
+        391293.434
+      ],
+      "39": [
+        581104.659,
+        391290.491
+      ],
+      "40": [
+        581110.088,
+        391284.486
+      ],
+      "41": [
+        581118.131,
+        391275.671
+      ],
+      "42": [
+        581126.279,
+        391266.73
+      ],
+      "43": [
+        581131.621,
+        391260.852
+      ],
+      "44": [
+        581135.708,
+        391256.367
+      ],
+      "45": [
+        581138.911,
+        391252.908
+      ],
+      "46": [
+        581142.553,
+        391248.732
+      ],
+      "47": [
+        581151.26,
+        391238.766
+      ],
+      "48": [
+        581158.337,
+        391230.838
+      ],
+      "49": [
+        581164.619,
+        391224.144
+      ]
+    },
+    "laturi_declarate_m": {
+      "10": 3.98,
+      "11": 6.43,
+      "12": 3.65,
+      "13": 9.2,
+      "14": 2.1,
+      "15": 4.71,
+      "16": 6.21,
+      "17": 5.89,
+      "18": 6.06,
+      "19": 3.95,
+      "20": 5.92,
+      "21": 3.98,
+      "22": 6.09,
+      "23": 2.57,
+      "24": 18.57,
+      "25": 10.4,
+      "26": 8.18,
+      "27": 11.29,
+      "28": 9.07,
+      "29": 12.13,
+      "30": 2.18,
+      "31": 1.85,
+      "32": 4.0,
+      "33": 4.73,
+      "34": 1.52,
+      "35": 2.9,
+      "36": 8.52,
+      "37": 3.96,
+      "38": 3.95,
+      "39": 8.1,
+      "40": 11.93,
+      "41": 12.1,
+      "42": 7.94,
+      "43": 6.07,
+      "44": 4.71,
+      "45": 5.54,
+      "46": 13.23,
+      "47": 10.63,
+      "48": 9.18,
+      "49": 4.35
+    },
+    "nota": "Inventarul se citește la 96 ppi fără nicio cifră corectată: aria coordonatelor 1261,4 mp față de 1261 mp, iar toate cele 40 de laturi se potrivesc la 1 cm. Colțurile 10, 15, 24 și 25 sunt citite pe mijlocul liniei limitei (linia cadastrală maro și linia roșie a parcelei se suprapun, cu ~3 px între ele în vârfuri); 34 și 36 stau în hașura roșie a lărgirii străzii, așa că sunt mai nesigure (±2-3 px, ~0,3-0,4 m). Cu 34 ca punct de control, potrivirea acoperă și capătul fâșiei de acces, la ~85 m de corpul parcelei; 25 și 36, lăsate pe dinafară, cad la 0,17 și 0,24 m."
+  },
+  "gcp_px": {
+    "10": [
+      214.4,
+      281.2
+    ],
+    "15": [
+      345.1,
+      143.2
+    ],
+    "24": [
+      577.7,
+      393.1
+    ],
+    "34": [
+      847.0,
+      810.0
+    ]
+  },
+  "verificare_px": {
+    "25": [
+      486.4,
+      493.7
+    ],
+    "36": [
+      829.5,
+      839.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        253,
+        233,
+        354,
+        255
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      878,
+      23,
+      1353,
+      181
+    ],
+    [
+      1160,
+      195,
+      1356,
+      456
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lid*",
+      "denumire": "Zonă locuințe individuale – locuințe individuale (unifamiliale) în regim izolat, regim de construire deschis; parcela nr. cad. 346578 (1261 mp), încadrată de P.U.G. parțial în U.T.R. Lid și parțial în U.T.R. ULid",
+      "pot_max": "20%",
+      "cut_max": "0,4",
+      "h_max": "două niveluri supraterane: (S)+P+E, (S)+P+M sau D+P; max. 8 m la cornișa superioară/aticul ultimului nivel neretras și 10 m la coamă/aticul nivelului retras"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2028-05-12",
+    "verificat": "2026-11-11: Art. 2, trei ani de la aprobare (ședința din 12.05.2025); `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate; paragraful despre lărgirea străzii Făgetului și cel despre investiții sunt preluate din avizul Arhitectului-șef nr. 211/2024."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: tabelul planșei dă regimul (S)+P+1 și „H max atic 8 m”; Art. 1 admite (S)+P+E, (S)+P+M sau D+P, cu max. 8 m la cornișă/atic ultim nivel neretras și max. 10 m la coamă/atic nivel retras, înălțime pe care planșa n-o dă. (Avizul Arhitectului-șef nr. 211/2024 scria 12 m la coamă; avizul nr. 17/2025 l-a corectat la 10 m, ca „eroare materială”.)",
+    "Parcarea: planșa cere 2 locuri; Art. 1 cere min. un loc pentru clădiri cu A.U. sub 100 mp și două pentru A.U. de cel puțin 100 mp.",
+    "Tabelul de indici al planșei poartă titlul „UTR ULid/Lid” (încadrarea din P.U.G.); hotărârea stabilește U.T.R. Lid*, cum scrie și eticheta din parcelă."
+  ],
+  "conditii": [
+    "Suprafața de teren necesară lărgirii străzii Făgetului pe tronsonul de lângă P.U.Z. se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizației de construire, și se aduce la stratul de uzură înainte de recepția construcției.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Clădirea se retrage cu min. 64,5 m de la aliniament (str. Făgetului), conform planșei A.03: parcela e construibilă numai în corpul din spate, fâșia lungă rămâne acces.",
+    "Retrageri de min. 4,5 m față de limitele laterale (garajele, și cele din corpul principal, se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m) și de min. 12 m față de limita posterioară; în zona de retragere se admit terase, scări, pergole, piscine neacoperite și plantații.",
+    "Accesul se face din str. Făgetului; accesul carosabil are cel mult 4 m lățime; pentru căile din interiorul parcelei se recomandă pavimente permeabile.",
+    "Parcarea se face în interiorul parcelei: min. un loc pentru clădiri cu A.U. sub 100 mp, două locuri pentru A.U. de cel puțin 100 mp.",
+    "Echiparea edilitară: completă, pe str. Făgetului; toate construcțiile se racordează la rețele.",
+    "Regulamentul (Anexa 1): o singură locuință unifamilială, izolată; servicii cu acces public sau profesionale prestate de proprietari doar în interiorul locuinței, fără poluare fonică, chimică sau vizuală; turism fără alimentație publică, cu parcarea în parcelă; instalațiile exterioare (climatizare, pompe de căldură) să nu se audă la ferestrele vecinilor; interzise terasamentele care afectează spațiile publice sau parcelele vecine; la o reparcelare, parcelele rezidențiale au acces la stradă, adâncime mai mare decât lățimea și cel puțin 900 mp.",
+    "Regulamentul (Anexa 1): spații verzi pe sol natural pe min. 60% din parcelă; arborii înalți la min. 2 m de limitele de proprietate; apele pluviale nu se scurg spre domeniul public sau spre vecini; fără cabluri aeriene; firidele de branșament integrate în împrejmuire; platformă pentru deșeuri în parcelă; împrejmuiri de max. 2,2 m, cu porțile deschise spre interior; acoperișuri simple, în două sau patru ape cu pante de max. 60°, sau terasă; arhitectură modernă, fără pastișe."
+  ]
+}

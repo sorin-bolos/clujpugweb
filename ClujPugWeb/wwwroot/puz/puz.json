@@ -16192,6 +16192,220 @@
   ]
  },
  {
+  "id": "2025-193",
+  "localitate": "cluj",
+  "hcl": "193/2025",
+  "data": "2025-05-12",
+  "titlu": "P.U.Z. – Construire locuință individuală, strada Făgetului – vest",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-193-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-193.pdf",
+  "utr": [
+   {
+    "cod": "Lid*",
+    "denumire": "Zonă locuințe individuale – locuințe individuale (unifamiliale) în regim izolat, regim de construire deschis; parcela nr. cad. 346578 (1261 mp), încadrată de P.U.G. parțial în U.T.R. Lid și parțial în U.T.R. ULid",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "două niveluri supraterane: (S)+P+E, (S)+P+M sau D+P; max. 8 m la cornișa superioară/aticul ultimului nivel neretras și 10 m la coamă/aticul nivelului retras"
+   }
+  ],
+  "suprafata_m2": 1261,
+  "imagine": "puz/2025-193/plansa.webp",
+  "bounds": {
+   "west": 23.5751816,
+   "south": 46.720583,
+   "east": 23.5763622,
+   "north": 46.7214669
+  },
+  "limita": [
+   [
+    23.575215,
+    46.7212684
+   ],
+   [
+    23.5752507,
+    46.7212945
+   ],
+   [
+    23.5753065,
+    46.7213378
+   ],
+   [
+    23.5753373,
+    46.7213629
+   ],
+   [
+    23.57542,
+    46.7214231
+   ],
+   [
+    23.5754393,
+    46.7214365
+   ],
+   [
+    23.575482,
+    46.7214059
+   ],
+   [
+    23.5755378,
+    46.7213653
+   ],
+   [
+    23.5755903,
+    46.7213266
+   ],
+   [
+    23.5756453,
+    46.7212872
+   ],
+   [
+    23.5756801,
+    46.7212609
+   ],
+   [
+    23.5757328,
+    46.7212219
+   ],
+   [
+    23.5757707,
+    46.7211973
+   ],
+   [
+    23.5758296,
+    46.7211604
+   ],
+   [
+    23.5758548,
+    46.7211451
+   ],
+   [
+    23.5756943,
+    46.7210196
+   ],
+   [
+    23.575797,
+    46.7209584
+   ],
+   [
+    23.5758773,
+    46.7209098
+   ],
+   [
+    23.575988,
+    46.7208425
+   ],
+   [
+    23.5760777,
+    46.7207891
+   ],
+   [
+    23.5761976,
+    46.7207177
+   ],
+   [
+    23.5762192,
+    46.7207048
+   ],
+   [
+    23.5762389,
+    46.7206951
+   ],
+   [
+    23.5762816,
+    46.7206743
+   ],
+   [
+    23.5763333,
+    46.720651
+   ],
+   [
+    23.576323,
+    46.7206393
+   ],
+   [
+    23.5763024,
+    46.7206174
+   ],
+   [
+    23.5762185,
+    46.7206679
+   ],
+   [
+    23.5761795,
+    46.7206914
+   ],
+   [
+    23.5761404,
+    46.7207146
+   ],
+   [
+    23.5760606,
+    46.7207625
+   ],
+   [
+    23.5759434,
+    46.7208334
+   ],
+   [
+    23.5758245,
+    46.7209052
+   ],
+   [
+    23.5757464,
+    46.7209523
+   ],
+   [
+    23.5756868,
+    46.7209884
+   ],
+   [
+    23.5756408,
+    46.7210166
+   ],
+   [
+    23.5755853,
+    46.7210487
+   ],
+   [
+    23.5754529,
+    46.7211254
+   ],
+   [
+    23.5753475,
+    46.7211878
+   ],
+   [
+    23.5752585,
+    46.7212432
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.11
+  },
+  "legenda": "puz/2025-193/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-05-12"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: tabelul planșei dă regimul (S)+P+1 și „H max atic 8 m”; Art. 1 admite (S)+P+E, (S)+P+M sau D+P, cu max. 8 m la cornișă/atic ultim nivel neretras și max. 10 m la coamă/atic nivel retras, înălțime pe care planșa n-o dă. (Avizul Arhitectului-șef nr. 211/2024 scria 12 m la coamă; avizul nr. 17/2025 l-a corectat la 10 m, ca „eroare materială”.)",
+   "Parcarea: planșa cere 2 locuri; Art. 1 cere min. un loc pentru clădiri cu A.U. sub 100 mp și două pentru A.U. de cel puțin 100 mp.",
+   "Tabelul de indici al planșei poartă titlul „UTR ULid/Lid” (încadrarea din P.U.G.); hotărârea stabilește U.T.R. Lid*, cum scrie și eticheta din parcelă."
+  ],
+  "conditii": [
+   "Suprafața de teren necesară lărgirii străzii Făgetului pe tronsonul de lângă P.U.Z. se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizației de construire, și se aduce la stratul de uzură înainte de recepția construcției.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Clădirea se retrage cu min. 64,5 m de la aliniament (str. Făgetului), conform planșei A.03: parcela e construibilă numai în corpul din spate, fâșia lungă rămâne acces.",
+   "Retrageri de min. 4,5 m față de limitele laterale (garajele, și cele din corpul principal, se pot alipi limitelor laterale, cu calcan de cel mult 2,8 m) și de min. 12 m față de limita posterioară; în zona de retragere se admit terase, scări, pergole, piscine neacoperite și plantații.",
+   "Accesul se face din str. Făgetului; accesul carosabil are cel mult 4 m lățime; pentru căile din interiorul parcelei se recomandă pavimente permeabile.",
+   "Parcarea se face în interiorul parcelei: min. un loc pentru clădiri cu A.U. sub 100 mp, două locuri pentru A.U. de cel puțin 100 mp.",
+   "Echiparea edilitară: completă, pe str. Făgetului; toate construcțiile se racordează la rețele.",
+   "Regulamentul (Anexa 1): o singură locuință unifamilială, izolată; servicii cu acces public sau profesionale prestate de proprietari doar în interiorul locuinței, fără poluare fonică, chimică sau vizuală; turism fără alimentație publică, cu parcarea în parcelă; instalațiile exterioare (climatizare, pompe de căldură) să nu se audă la ferestrele vecinilor; interzise terasamentele care afectează spațiile publice sau parcelele vecine; la o reparcelare, parcelele rezidențiale au acces la stradă, adâncime mai mare decât lățimea și cel puțin 900 mp.",
+   "Regulamentul (Anexa 1): spații verzi pe sol natural pe min. 60% din parcelă; arborii înalți la min. 2 m de limitele de proprietate; apele pluviale nu se scurg spre domeniul public sau spre vecini; fără cabluri aeriene; firidele de branșament integrate în împrejmuire; platformă pentru deșeuri în parcelă; împrejmuiri de max. 2,2 m, cu porțile deschise spre interior; acoperișuri simple, în două sau patru ape cu pante de max. 60°, sau terasă; arhitectură modernă, fără pastișe."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
