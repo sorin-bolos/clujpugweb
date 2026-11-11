@@ -1,0 +1,111 @@
+{
+  "id": "2022-587",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 587,
+    "an": 2022,
+    "data_sedinta": "2022-08-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-587-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-587.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și de interes public, în zonă de locuințe cu regim redus de înălțime, str. Busuiocului nr. 58",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 96,
+    "denumire": "Reglementări urbanistice – detaliu (planșa A03.2)",
+    "scara": "1:200",
+    "nota": "PDF-ul are 20 de pagini scanate: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism al U.T.R. S_Is* (p. 3-7), Anexa 2 – planșa A03.1 „Reglementări urbanistice – zonificare” redusă pe A4 (p. 8), Anexa 3 – planșa A03.2 „Reglementări urbanistice – detaliu” redusă pe A4 (p. 9), avizul de oportunitate nr. 292/2020 cu planul lui (p. 10-12), avizul Arhitectului-șef nr. 16/2022 (p. 13-14), planșele A03.1 (p. 15, 1:1000) și A03.2 (p. 16, 1:200) în format mare, color, vizate spre neschimbare cu HCL 587/4.08.2022, și raportul informării și consultării publicului (p. 17-20). Ambele planșe sunt planșe de reglementări aprobate (Anexele 2 și 3) și au același inventar de coordonate. E aleasă A03.2 (p. 16): zona reglementată e o singură parcelă de 678 mp, care pe A03.1 (1:1000, 3,8 px/m) e un dreptunghi de circa 50 × 190 px, pe când A03.2 (1:200, scanată la 96 ppi, 18,9 px/m, adică la scara nominală) arată clădirea C1, spațiile verzi, parcarea și accesul. Pe A03.1 parcela e marcată S_Is*, între U.T.R. Liu (la vest de str. Busuiocului) și Lip (la est, unde e și parcela). Legenda ia, în cinci casete, tabelul de sus al planșei (coloana propunerii pentru str. Busuiocului nr. 58, coloana U.T.R. S_Is* și coloana U.T.R. Lip), legenda simbolurilor cu zonificarea și cheia rețelelor edilitare (fără ultimul rând, „Rețeaua publică …”, tăiat de chenarul planului topografic); lasă deoparte bilanțul teritorial, inventarul de coordonate, notele planului topografic, ștampilele și cartușul. Banda gri verticală din dreapta legendei e o îndoitură a foii scanate."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A03.2 (13 puncte, X [m] Nord / Y [m] Est, Stereo 70, cu lungimile laturilor D(i,i+1); S(cc) = 677,85 mp, P = 127,081 m). Pe planșă cotele laturilor și numerele punctelor stau pe linii de cotă gri, decalate cu ~1 m spre exterior, cu puncte negre la capete; vârfurile sunt colțurile liniei punctate roșii „Teritoriu reglementat”. Potrivirea folosește cele patru colțuri ale parcelei, citite ca intersecția laturilor desenate (centrele punctelor roșii de pe fiecare latură, aproape de colț): 1 (NV), 2 (SV), 8 (NE) și 5 (SE; 5, 6 și 7 sunt la 0,1-0,3 m unul de altul, colțul desenat e la 0,13 m de 5). Celelalte vârfuri stau pe laturile lungi, aproape coliniare. Cum patru colțuri ale unui aproape-dreptunghi verifică slab o potrivire afină, verificarea o fac două puncte de caroiaj Stereo 70: liniile E 390300 și E 390350 (etichetate sus și jos pe chenarul planului topografic, cu linii punctate scurte la x = 842,4 și x = 1785,8 px) și N 588900 (etichetată la stânga și la dreapta, liniuțe la y = 1000,6 și 1001,6 px); intersecțiile lor sunt la `repere`.",
+    "suprafata_declarata_m2": 677.85,
+    "puncte": {
+      "1": [588898.13, 390283.761],
+      "2": [588885.815, 390289.504],
+      "3": [588891.445, 390302.853],
+      "4": [588896.788, 390315.6],
+      "5": [588905.068, 390335.331],
+      "6": [588905.28, 390335.234],
+      "7": [588905.332, 390335.357],
+      "8": [588917.59, 390329.75],
+      "9": [588917.231, 390328.891],
+      "10": [588912.365, 390317.824],
+      "11": [588909.628, 390311.036],
+      "12": [588907.593, 390306.208],
+      "13": [588899.876, 390287.903]
+    },
+    "perimetru_declarat_m": 127.081,
+    "laturi_declarate_m": {
+      "1": 13.588,
+      "2": 14.488,
+      "3": 13.821,
+      "4": 21.398,
+      "5": 0.233,
+      "6": 0.134,
+      "7": 13.48,
+      "8": 0.931,
+      "9": 12.09,
+      "10": 7.319,
+      "11": 5.239,
+      "12": 19.865,
+      "13": 4.495
+    }
+  },
+  "repere": {
+    "C390300_588900": [588900.0, 390300.0],
+    "C390350_588900": [588900.0, 390350.0]
+  },
+  "gcp_px": {
+    "1": [537.0, 1037.0],
+    "2": [645.2, 1270.4],
+    "8": [1403.6, 668.4],
+    "5": [1511.7, 904.5]
+  },
+  "verificare_px": {
+    "C390300_588900": [842.4, 1001.0],
+    "C390350_588900": [1785.8, 1001.5]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [253, 54, 568, 212],
+    [571, 40, 924, 224],
+    [928, 40, 1207, 250],
+    [1517, 34, 1752, 434],
+    [1760, 286, 1974, 418]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public, situată în zonă cu caracter rezidențial (parcela nr. cad. 258046, 678 mp, până acum în U.T.R. Lip); funcțiunea predominantă: sănătate și asistență socială, cercetare, funcțiuni administrative; regim de construire izolat",
+      "pot_max": "25%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane, configurația existentă D+P+E, plus o mansardă în volumetria podului existent; fără înălțime în metri"
+    }
+  ],
+  "valabilitate": {
+    "ani": 2,
+    "pana_la": "2024-08-04",
+    "verificat": "2026-11-11: Art. 2, doi ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Se reglementează doar parcela cu nr. cad. 258046, în regim de construire izolat; retragerile față de aliniament și față de limitele laterale și posterioară rămân cele existente, iar clădirile sau părțile de clădiri existente care nu se încadrează în regulament se pot doar menține, nu și amplifica (R.L.U., secțiunea 3).",
+    "Peste configurația existentă D+P+E se admite doar o mansardă în volumetria podului existent, cu cel mult 60% din suprafața nivelului curent (R.L.U., art. 10 și 16); fără lucarne, doar ferestre de acoperiș (art. 11).",
+    "Orice modificare a volumetriei unei clădiri sau o clădire nouă cere în prealabil un P.U.D. pentru întreaga parcelă (R.L.U., secțiunea 1).",
+    "Accesul auto și pietonal se face din str. Busuiocului: de regulă un singur acces pietonal și unul carosabil, acesta de cel mult 3 m lățime.",
+    "Parcarea se face în interiorul parcelei, cu numărul de locuri după Anexa 2 a R.L.U. al P.U.G.",
+    "Pe fâșia verde dintre parcarea propusă și limita laterală nordică se plantează cel puțin patru arbori cu circumferința de minim 35 cm (măsurată la 1 m de colet), înainte de recepția lucrărilor la corpul C1.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă; arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (R.L.U., art. 13).",
+    "Echipare tehnico-edilitară completă: racord la rețelele publice, cabluri numai subterane, apele pluviale nu se scurg spre domeniul public sau spre vecini, spațiu pentru colectarea deșeurilor accesibil din spațiul public (R.L.U., art. 12).",
+    "Între două clădiri de pe parcelă rămâne cel puțin jumătate din înălțimea celei mai înalte, minim 4,5 m (6 m dacă încăperi principale dau spre spațiul dintre ele).",
+    "Locuințele de serviciu sunt admise numai pentru angajați; nu se admite conversia spre alte funcțiuni decât instituții și servicii publice sau de interes public.",
+    "Toate investițiile propuse sunt suportate de beneficiar."
+  ]
+}

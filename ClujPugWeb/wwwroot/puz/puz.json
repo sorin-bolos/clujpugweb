@@ -18311,6 +18311,109 @@
   ]
  },
  {
+  "id": "2022-587",
+  "localitate": "cluj",
+  "hcl": "587/2022",
+  "data": "2022-08-04",
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și de interes public, în zonă de locuințe cu regim redus de înălțime, str. Busuiocului nr. 58",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-587-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-587.pdf",
+  "utr": [
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public, situată în zonă cu caracter rezidențial (parcela nr. cad. 258046, 678 mp, până acum în U.T.R. Lip); funcțiunea predominantă: sănătate și asistență socială, cercetare, funcțiuni administrative; regim de construire izolat",
+    "pot_max": "25%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane, configurația existentă D+P+E, plus o mansardă în volumetria podului existent; fără înălțime în metri"
+   }
+  ],
+  "suprafata_m2": 678,
+  "imagine": "puz/2022-587/plansa.webp",
+  "bounds": {
+   "west": 23.5610874,
+   "south": 46.7905263,
+   "east": 23.5618249,
+   "north": 46.7908564
+  },
+  "limita": [
+   [
+    23.561119,
+    46.7906551
+   ],
+   [
+    23.5611971,
+    46.7905453
+   ],
+   [
+    23.5613706,
+    46.7905981
+   ],
+   [
+    23.5615363,
+    46.7906482
+   ],
+   [
+    23.5617927,
+    46.790726
+   ],
+   [
+    23.5617914,
+    46.7907278
+   ],
+   [
+    23.561793,
+    46.7907283
+   ],
+   [
+    23.5617166,
+    46.7908377
+   ],
+   [
+    23.5617055,
+    46.7908343
+   ],
+   [
+    23.5615617,
+    46.7907887
+   ],
+   [
+    23.5614734,
+    46.790763
+   ],
+   [
+    23.5614107,
+    46.7907439
+   ],
+   [
+    23.5611728,
+    46.7906715
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2022-587/legenda.webp",
+  "valabilitate": {
+   "ani": 2,
+   "pana_la": "2024-08-04"
+  },
+  "conditii": [
+   "Se reglementează doar parcela cu nr. cad. 258046, în regim de construire izolat; retragerile față de aliniament și față de limitele laterale și posterioară rămân cele existente, iar clădirile sau părțile de clădiri existente care nu se încadrează în regulament se pot doar menține, nu și amplifica (R.L.U., secțiunea 3).",
+   "Peste configurația existentă D+P+E se admite doar o mansardă în volumetria podului existent, cu cel mult 60% din suprafața nivelului curent (R.L.U., art. 10 și 16); fără lucarne, doar ferestre de acoperiș (art. 11).",
+   "Orice modificare a volumetriei unei clădiri sau o clădire nouă cere în prealabil un P.U.D. pentru întreaga parcelă (R.L.U., secțiunea 1).",
+   "Accesul auto și pietonal se face din str. Busuiocului: de regulă un singur acces pietonal și unul carosabil, acesta de cel mult 3 m lățime.",
+   "Parcarea se face în interiorul parcelei, cu numărul de locuri după Anexa 2 a R.L.U. al P.U.G.",
+   "Pe fâșia verde dintre parcarea propusă și limita laterală nordică se plantează cel puțin patru arbori cu circumferința de minim 35 cm (măsurată la 1 m de colet), înainte de recepția lucrărilor la corpul C1.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă; arborii maturi nu se taie decât dacă sunt un pericol iminent sau împiedică realizarea construcțiilor (R.L.U., art. 13).",
+   "Echipare tehnico-edilitară completă: racord la rețelele publice, cabluri numai subterane, apele pluviale nu se scurg spre domeniul public sau spre vecini, spațiu pentru colectarea deșeurilor accesibil din spațiul public (R.L.U., art. 12).",
+   "Între două clădiri de pe parcelă rămâne cel puțin jumătate din înălțimea celei mai înalte, minim 4,5 m (6 m dacă încăperi principale dau spre spațiul dintre ele).",
+   "Locuințele de serviciu sunt admise numai pentru angajați; nu se admite conversia spre alte funcțiuni decât instituții și servicii publice sau de interes public.",
+   "Toate investițiile propuse sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2022-510",
   "localitate": "cluj",
   "hcl": "510/2022",
