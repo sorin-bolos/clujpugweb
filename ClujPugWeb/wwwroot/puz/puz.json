@@ -15496,6 +15496,109 @@
   ]
  },
  {
+  "id": "2025-198",
+  "localitate": "cluj",
+  "hcl": "198/2025",
+  "data": "2025-05-12",
+  "titlu": "P.U.Z. – instituire subzonă de activități economice cu caracter terțiar în zonă cu caracter rezidențial, str. Rodnei nr. 3-7",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-198-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-198.pdf",
+  "utr": [
+   {
+    "cod": "S_Et*",
+    "denumire": "Subzonă de activități economice cu caracter terțiar situată în zonă cu caracter rezidențial: birouri și sedii de companii, comerț cu ADC de max. 1.000 mp, alimentație publică, servicii cu acces public, profesionale și manufacturiere; regim de construire deschis; locuirea de orice tip e interzisă (Anexa 1). Parcela nr. cad. 316750, 2.949 mp",
+    "pot_max": "40%",
+    "cut_max": "2,2",
+    "h_max": "(1-2)S+P+4E, max. 16 m; construcțiile sau părțile lor aflate la mai puțin de 25 m de limita laterală nordică, cel mult 4 niveluri supraterane: (1-2)S+P+3E"
+   }
+  ],
+  "suprafata_m2": 2949,
+  "imagine": "puz/2025-198/plansa.webp",
+  "bounds": {
+   "west": 23.6432121,
+   "south": 46.7841678,
+   "east": 23.6439914,
+   "north": 46.7847208
+  },
+  "limita": [
+   [
+    23.643254,
+    46.7846958
+   ],
+   [
+    23.6432539,
+    46.7846981
+   ],
+   [
+    23.6436532,
+    46.78469
+   ],
+   [
+    23.6439584,
+    46.784683
+   ],
+   [
+    23.643955,
+    46.7845192
+   ],
+   [
+    23.6439501,
+    46.7843583
+   ],
+   [
+    23.6439358,
+    46.7841904
+   ],
+   [
+    23.6432453,
+    46.7841989
+   ],
+   [
+    23.6432506,
+    46.7843643
+   ],
+   [
+    23.6432544,
+    46.7845343
+   ],
+   [
+    23.6432531,
+    46.7845343
+   ],
+   [
+    23.6432501,
+    46.7846958
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.05
+  },
+  "legenda": "puz/2025-198/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-05-12"
+  },
+  "diferente_fata_de_plansa": [
+   "Parcarea: planșa limitează numărul locurilor de parcare („dimensionat conf. anexei nr. 2 din RLU Cluj, dar max. 63”); Art. 1 și regulamentul (Anexa 1) cer numai dimensionarea după Anexa 2 a R.L.U. aferent P.U.G., prin însumarea necesarului fiecărei funcțiuni, fără un plafon de 63 de locuri.",
+   "Suprafața: Art. 1 și caseta de indicatori a planșei dau 2.949 mp, iar inventarul de coordonate S(Cc) = 2.948,73 mp; limita de pe hartă e cea din inventar.",
+   "Regulamentul (Anexa 1) cere și spații verzi de cel puțin 20% din parcelă (30% pe fâșia dintre stradă și clădire) și o distanță între două corpuri de clădire de cel puțin două treimi din înălțimea celui mai înalt, minimum 6 m; planșa nu le arată."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară (Art. 1).",
+   "Accesul auto și pietonal se face din str. Rodnei; orice acces la drumurile publice se face cu avizul și autorizația administratorului lor. Pentru curțile pietonale și carosabile din interiorul parcelei se recomandă învelitori permeabile.",
+   "Parcarea se organizează în interiorul parcelei, la sol și/sau în spații specializate; necesarul se dimensionează după Anexa 2 a R.L.U. aferent P.U.G., însumând necesarul fiecărei funcțiuni când sunt mai multe. Se instalează stații de reîncărcare pentru vehicule electrice (Legea nr. 101/2020).",
+   "Utilitățile se asigură prin racordare la rețelele edilitare publice. E interzisă conducerea apelor meteorice spre domeniul public sau spre parcelele vecine, ca și cablurile aeriene de orice fel; parcela are un spațiu interior pentru colectarea selectivă a deșeurilor pe patru fracții, de tip îngropat, cu acționare hidraulică.",
+   "Funcțiuni: exclusiv activități economice terțiare (birouri, sedii de companii, comerț cu ADC de max. 1.000 mp, alimentație publică, servicii); parterele spre spațiile publice au de regulă funcțiuni de interes pentru public. Garajele nu ocupă frontul spre stradă (retrase cu min. 8 m sau în spatele altei clădiri); mica producție numai legată de o activitate comercială, nu spre spațiile publice. Interzise: locuirea, activitățile industriale sau poluante, depozitarea en gros, supermarketurile și mall-urile, comerțul prin vitrine/ferestre, construcțiile provizorii.",
+   "Parcela e construibilă dacă are front la stradă de cel puțin 15 m, cel puțin 450 mp și formă regulată.",
+   "Retrageri: min. 3 m față de aliniament; min. 4,5 m față de limita sudică și 5,5 m față de cea nordică; min. 12 m față de limita posterioară; între două corpuri pe aceeași parcelă min. două treimi din înălțimea celui mai înalt, dar cel puțin 6 m.",
+   "Spațiile verzi ocupă cel puțin 20% din parcelă, numai cu vegetație; pe fâșia dintre stradă și clădirea retrasă, cel puțin 30% spații verzi.",
+   "Împrejmuirea spre stradă nu e obligatorie pentru funcțiunile cu acces public; unde există, are max. 2,2 m, cu soclu de max. 0,8 m; spre vecini max. 2,2 m, transparentă sau opacă. Porțile din aliniament se deschid fără a afecta spațiul public.",
+   "Arhitectură modernă, fără pastișe sau imitații de stiluri istorice; culori pastelate, deschise, fără culori saturate sau stridente."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
