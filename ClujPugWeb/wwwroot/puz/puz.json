@@ -16625,6 +16625,88 @@
   ]
  },
  {
+  "id": "2025-104",
+  "localitate": "cluj",
+  "hcl": "104/2025",
+  "data": "2025-03-27",
+  "titlu": "P.U.Z. de restructurare Calea Baciului nr. 38 – str. Ileana Cosânzeana nr. 2",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-104-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/04/03/104.pdf",
+  "utr": [
+   {
+    "cod": "RrM3*",
+    "denumire": "Parcelar riveran principalelor artere de trafic, destinat restructurării – zonă mixtă cu regim de construire deschis: locuire colectivă, activități terțiare și administrative (locuințele numai la etaje). Parcela nr. cad. 334035 (1.112 mp), la colțul Căii Baciului cu str. Ileana Cosânzeana; P.U.Z.-ul mută limita dintre U.T.R. RrM3 și Liu, astfel încât toată parcela să intre în zona mixtă, pentru desființarea clădirilor existente și construirea unui imobil mixt",
+    "pot_max": "50% (parcelă de colț); la nivelurile de locuire aria construită e de cel mult 40% din suprafața terenului",
+    "cut_max": "2,4",
+    "h_max": "25 m la cornișă și 25 m total; (1-2)S+P+6E"
+   }
+  ],
+  "suprafata_m2": 1112,
+  "imagine": "puz/2025-104/plansa.webp",
+  "bounds": {
+   "west": 23.5547197,
+   "south": 46.7847394,
+   "east": 23.5552868,
+   "north": 46.7852716
+  },
+  "limita": [
+   [
+    23.5547549,
+    46.7848652
+   ],
+   [
+    23.5550401,
+    46.7847629
+   ],
+   [
+    23.5551455,
+    46.784973
+   ],
+   [
+    23.5552504,
+    46.7851606
+   ],
+   [
+    23.5550052,
+    46.7852361
+   ],
+   [
+    23.5549618,
+    46.7852494
+   ],
+   [
+    23.5548582,
+    46.7850584
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.03
+  },
+  "legenda": "puz/2025-104/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-03-27"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru RrM3* doar P.O.T. max. 50% și C.U.T. max. 2,40. Art. 1 precizează că P.O.T. de 50% e pentru parcelă de colț și limitează în plus aria construită a nivelurilor de locuire la 40% din suprafața terenului; înălțimea maximă (25 m, (1-2)S+P+6E) e doar în text. Retragerile de pe planșă (min. 3,00 m din aliniamentul ambelor străzi, 12,00 m față de limita de nord-est, nimic față de limita de sud-est) sunt cele din Art. 1.",
+   "Regulamentul din Anexa 1 dă regimul de înălțime (2S)+P+6E și colectarea deșeurilor pe 4 fracții; Art. 1 spune (1-2)S+P+6E și 5 fracții (platformă îngropată). Pe hartă sunt valorile din Art. 1."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire pentru imobilul mixt, terenul necesar regularizării Căii Baciului (lărgire la profilul de 30 m din P.U.G.) și a str. Ileana Cosânzeana (conform planșei) se dezmembrează din parcelă și se înscrie în CF ca drum; până la recepția imobilului se aduce la strat de uzură.",
+   "Se amenajează trotuarul str. Ileana Cosânzeana pe tronsonul de lângă P.U.Z., iar fâșia dezmembrată pentru lărgirea Căii Baciului se amenajează ca spațiu verde, cu dalaj sau asfalt în dreptul acceselor.",
+   "La faza D.T.A.C., planul de amenajări exterioare cuprinde și terenul dezmembrat pentru lărgirea celor două străzi, nu doar parcela construibilă.",
+   "Pe spațiul verde pe sol natural se plantează 11 arbori, cu circumferința de cel puțin 35 cm măsurată la 1 m de la colet; spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă (Anexa 1).",
+   "Retrageri: cel puțin 3 m de la aliniamentul regularizat al str. Ileana Cosânzeana și al Căii Baciului; pe limita laterală de sud-est numai cu o convenție între vecini, altfel jumătate din înălțimea clădirii, dar cel puțin 4,5 m; față de limita de nord-est (vecinătatea cu locuințe individuale) cel puțin jumătate din înălțime și minimum 12 m.",
+   "Acces auto și pietonal din str. Ileana Cosânzeana, acces pietonal din Calea Baciului; un singur acces carosabil, de cel mult 6 m lățime.",
+   "Parcarea: cel puțin 75% în spații dedicate la subsol, demisol sau parter, necesarul după Anexa 2 a R.L.U.; tubulatură pentru cabluri electrice la fiecare loc și un punct de reîncărcare pentru vehicule electrice la fiecare 5 locuri.",
+   "Clădirile se racordează la rețelele publice; apele pluviale nu se dirijează spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuiri; cablurile aeriene de orice fel sunt interzise.",
+   "Deșeurile menajere se colectează selectiv, pe 5 fracții, în platformă îngropată.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

@@ -1,0 +1,155 @@
+{
+  "id": "2025-104",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 104,
+    "an": 2025,
+    "data_sedinta": "2025-03-27",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-104-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/04/03/104.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare Calea Baciului nr. 38 – str. Ileana Cosânzeana nr. 2",
+  "plansa": {
+    "pagina_pdf": 9,
+    "dpi": 300,
+    "denumire": "A.03 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 9 pagini A4 scanate la 300 ppi: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism al U.T.R. RrM3* (pp. 3-8) și Anexa 2 – planșa A.03 „Plan reglementări urbanistice” (p. 9), singura planșă din PDF (Art. 1 o numește „Planșa 2 Reglementări urbanistice”). Planșa e micșorată pe A4 și tipărită culcat: textul se citește de jos în sus, nordul e spre stânga (rotație −90,0°); cartușul: proiect 90/2021, faza P.U.Z., scara tipărită 1:500, datată 31.10.2023. Potrivirea dă 14,7-15,0 px/m (1:500 la 300 ppi ar fi 23,6 px/m), adică planșa e redusă la circa 1:800, cu o diferență de scară de ~2,3% între axele scanului, pe care o preia potrivirea afină. Legenda ia cheia simbolurilor și blocul U.T.R. de sub ea (S teren, RrM3*, P.O.T./C.U.T.), întoarse cu 90°; numărul de locuri de parcare, bilanțul teritorial, inventarul de coordonate, cartușul și ștampila arhitectului-șef sunt lăsate deoparte."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.03 (x≈1000-1390, y≈870-1520, text întors cu 90°): 7 puncte, în ordinea conturului 3, 2, 1, 8, 7, 6, 4 (punctul 5 lipsește), Nord(X) / Est(Y), Stereo 70, cu laturile D(i,i+1), S=1112,48 mp și P=141,276 m; aria e și „S teren = 1 112 mp” din legendă și bilanț (RrM3* 100%). Pe planșă conturul e linia subțire „limita de proprietate teren studiat”: rândul de pătrățele al zonei studiate e desenat la ~0,5 m în afara ei, pe toate laturile, iar linia groasă a limitei U.T.R. la ~0,45 m înăuntrul ei, pe laturile de nord-est și de vest (str. Ileana Cosânzeana). Control: colțurile 2, 3, 6 și 8, ca intersecții ale dreptelor potrivite pe linia subțire a fiecărei laturi (zeci de profile perpendiculare pe linie, abatere 0,25-0,7 px față de dreaptă); latura de sud-est 2-1-8 are o frângere de 1,9° în punctul 1 (2,0° după inventar), așa că pe ea s-a potrivit câte o dreaptă de fiecare parte a frângerii. Verificare: punctele 1 și 4, acolo unde linia întreruptă care traversează terenul de la 1 la 4 (probabil vechea limită dintre două parcele) întâlnește latura de sud-est, respectiv cea de la str. Ileana Cosânzeana; linia aceasta, care nu intră în potrivire, trece pe toată lungimea ei la 1,2-1,5 px de dreapta 1-4 prezisă. Punctul 7 e pe o latură dreaptă (frângere de 0,1°), fără nimic desenat care să-l fixeze pe linie, și nu s-a folosit.",
+    "suprafata_declarata_m2": 1112.48,
+    "puncte": {
+      "3": [
+        588263.529,
+        389786.237
+      ],
+      "2": [
+        588251.764,
+        389807.799
+      ],
+      "1": [
+        588274.965,
+        389816.268
+      ],
+      "8": [
+        588295.667,
+        389824.66
+      ],
+      "7": [
+        588304.395,
+        389806.099
+      ],
+      "6": [
+        588305.938,
+        389802.809
+      ],
+      "4": [
+        588284.858,
+        389794.516
+      ]
+    },
+    "perimetru_declarat_m": 141.276,
+    "ordine": [
+      "3",
+      "2",
+      "1",
+      "8",
+      "7",
+      "6",
+      "4"
+    ],
+    "laturi_declarate_m": {
+      "3": 24.563,
+      "2": 24.698,
+      "1": 22.338,
+      "8": 20.511,
+      "7": 3.634,
+      "6": 22.653,
+      "4": 22.879
+    },
+    "nota": "Toate cele 7 rânduri s-au citit fără dubii; laturile calculate se potrivesc cu D(i,i+1) la milimetru, iar perimetrul și aria cu cele tipărite."
+  },
+  "gcp_px": {
+    "8": [
+      827.8,
+      1786.6
+    ],
+    "2": [
+      1473.5,
+      2038.5
+    ],
+    "3": [
+      1303.2,
+      2362.5
+    ],
+    "6": [
+      679.4,
+      2113.2
+    ]
+  },
+  "verificare_px": {
+    "1": [
+      1131.3,
+      1911.1
+    ],
+    "4": [
+      987.9,
+      2236.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1362,
+      840,
+      1950,
+      1480,
+      90
+    ],
+    [
+      1950,
+      1060,
+      2049,
+      1480,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "RrM3*",
+      "denumire": "Parcelar riveran principalelor artere de trafic, destinat restructurării – zonă mixtă cu regim de construire deschis: locuire colectivă, activități terțiare și administrative (locuințele numai la etaje). Parcela nr. cad. 334035 (1.112 mp), la colțul Căii Baciului cu str. Ileana Cosânzeana; P.U.Z.-ul mută limita dintre U.T.R. RrM3 și Liu, astfel încât toată parcela să intre în zona mixtă, pentru desființarea clădirilor existente și construirea unui imobil mixt",
+      "pot_max": "50% (parcelă de colț); la nivelurile de locuire aria construită e de cel mult 40% din suprafața terenului",
+      "cut_max": "2,4",
+      "h_max": "25 m la cornișă și 25 m total; (1-2)S+P+6E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-03-27",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare (ședința din 27.03.2025); `related`: nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pentru RrM3* doar P.O.T. max. 50% și C.U.T. max. 2,40. Art. 1 precizează că P.O.T. de 50% e pentru parcelă de colț și limitează în plus aria construită a nivelurilor de locuire la 40% din suprafața terenului; înălțimea maximă (25 m, (1-2)S+P+6E) e doar în text. Retragerile de pe planșă (min. 3,00 m din aliniamentul ambelor străzi, 12,00 m față de limita de nord-est, nimic față de limita de sud-est) sunt cele din Art. 1.",
+    "Regulamentul din Anexa 1 dă regimul de înălțime (2S)+P+6E și colectarea deșeurilor pe 4 fracții; Art. 1 spune (1-2)S+P+6E și 5 fracții (platformă îngropată). Pe hartă sunt valorile din Art. 1."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pentru imobilul mixt, terenul necesar regularizării Căii Baciului (lărgire la profilul de 30 m din P.U.G.) și a str. Ileana Cosânzeana (conform planșei) se dezmembrează din parcelă și se înscrie în CF ca drum; până la recepția imobilului se aduce la strat de uzură.",
+    "Se amenajează trotuarul str. Ileana Cosânzeana pe tronsonul de lângă P.U.Z., iar fâșia dezmembrată pentru lărgirea Căii Baciului se amenajează ca spațiu verde, cu dalaj sau asfalt în dreptul acceselor.",
+    "La faza D.T.A.C., planul de amenajări exterioare cuprinde și terenul dezmembrat pentru lărgirea celor două străzi, nu doar parcela construibilă.",
+    "Pe spațiul verde pe sol natural se plantează 11 arbori, cu circumferința de cel puțin 35 cm măsurată la 1 m de la colet; spațiile verzi pe sol natural ocupă cel puțin 20% din parcelă (Anexa 1).",
+    "Retrageri: cel puțin 3 m de la aliniamentul regularizat al str. Ileana Cosânzeana și al Căii Baciului; pe limita laterală de sud-est numai cu o convenție între vecini, altfel jumătate din înălțimea clădirii, dar cel puțin 4,5 m; față de limita de nord-est (vecinătatea cu locuințe individuale) cel puțin jumătate din înălțime și minimum 12 m.",
+    "Acces auto și pietonal din str. Ileana Cosânzeana, acces pietonal din Calea Baciului; un singur acces carosabil, de cel mult 6 m lățime.",
+    "Parcarea: cel puțin 75% în spații dedicate la subsol, demisol sau parter, necesarul după Anexa 2 a R.L.U.; tubulatură pentru cabluri electrice la fiecare loc și un punct de reîncărcare pentru vehicule electrice la fiecare 5 locuri.",
+    "Clădirile se racordează la rețelele publice; apele pluviale nu se dirijează spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuiri; cablurile aeriene de orice fel sunt interzise.",
+    "Deșeurile menajere se colectează selectiv, pe 5 fracții, în platformă îngropată.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
