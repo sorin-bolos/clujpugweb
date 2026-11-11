@@ -14519,6 +14519,150 @@
   ]
  },
  {
+  "id": "2025-466",
+  "localitate": "cluj",
+  "hcl": "466/2025",
+  "data": "2025-07-07",
+  "titlu": "P.U.Z. – parcelare și construire locuințe cu regim redus de înălțime, str. D.D. Roșca – est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-466-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-466.pdf",
+  "utr": [
+   {
+    "cod": "Lid*",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: locuințe individuale (unifamiliale) și anexele lor, regim de construire izolat; 5 parcele (858-1487 mp pe planșă)",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P; max. 8 m la cornișă/atic neretras și 10 m la coamă/atic retras"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat: plantații înalte, medii și joase (lotul de lângă str. D. D. Roșca, 331 mp pe planșă, din care 165 mp trec la lărgirea străzii)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "P"
+   },
+   {
+    "cod": "Vp",
+    "denumire": "Teren împădurit în intravilan (capătul de nord-est, 652 mp pe planșă): se menține încadrarea funcțională din P.U.G.; hotărârea nu dă indici",
+    "pot_max": "",
+    "cut_max": "",
+    "h_max": ""
+   }
+  ],
+  "suprafata_m2": 5891,
+  "imagine": "puz/2025-466/plansa.webp",
+  "bounds": {
+   "west": 23.5746275,
+   "south": 46.7284381,
+   "east": 23.5763136,
+   "north": 46.7299997
+  },
+  "limita": [
+   [
+    23.57625,
+    46.7297984
+   ],
+   [
+    23.576233,
+    46.7298085
+   ],
+   [
+    23.5759514,
+    46.7299775
+   ],
+   [
+    23.5759183,
+    46.7299562
+   ],
+   [
+    23.5758267,
+    46.7298971
+   ],
+   [
+    23.5755544,
+    46.7297252
+   ],
+   [
+    23.5754638,
+    46.7296674
+   ],
+   [
+    23.5748945,
+    46.729308
+   ],
+   [
+    23.5746736,
+    46.7291685
+   ],
+   [
+    23.5747833,
+    46.7290401
+   ],
+   [
+    23.5749007,
+    46.7288344
+   ],
+   [
+    23.5749161,
+    46.7288051
+   ],
+   [
+    23.5749351,
+    46.7284748
+   ],
+   [
+    23.5749639,
+    46.7284966
+   ],
+   [
+    23.5751572,
+    46.7286415
+   ],
+   [
+    23.5752713,
+    46.728728
+   ],
+   [
+    23.5753503,
+    46.7287862
+   ],
+   [
+    23.5750895,
+    46.7289342
+   ],
+   [
+    23.5755607,
+    46.7292851
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.07
+  },
+  "legenda": "puz/2025-466/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-07-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Retragerile: planșa desenează zona construibilă cu retrageri fixe (5 m față de aliniament, 4,5 m față de limitele laterale, 6 m față de limita posterioară); Art. 1 le dă ca minime: față de limitele laterale cel puțin jumătate din înălțimea clădirii, dar minimum 4,5 m, față de limita posterioară cel puțin înălțimea clădirii, dar minimum 6 m, iar garajele la cel puțin 6 m de aliniament și de limita posterioară, fără alipire la limitele laterale. Pentru o clădire mai înaltă de 6 m, retragerea posterioară trece deci de linia desenată.",
+   "Planșa dă indicatori doar pentru UTR Lid* (POT 20%, CUT 0,4, la fel ca textul) și nu dă înălțimi; regimul de înălțime (două niveluri, 8 m la cornișă, 10 m la coamă) și indicatorii subzonei S_Va* (POT 5%, CUT 0,1, regim P, retrageri de min. 3 m) vin numai din Art. 1."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării str. D. D. Roșca (profil de 12 m din P.U.G.), pe tronsonul de lângă P.U.Z., se dezmembrează din parcelele inițiale și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe parcele; până la recepția locuințelor se aduce la strat de uzură (asfalt sau dalaj). Pe planșă: 140 mp din parcela 1 și 165 mp din lotul S_Va*.",
+   "Aleea de deservire locală propusă, cu ampriză de 7 m și loc de întoarcere, se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe cele 4 parcele cu acces din ea; până la recepția locuințelor se echipează edilitar și se aduce la strat de uzură, pe baza unui proiect autorizat.",
+   "Spațiul verde cu acces public nelimitat (S_Va*) se amenajează pe baza unui proiect de specialitate, înainte de recepția locuințelor.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Accese: parcela 1 direct din str. D. D. Roșca, parcelele 2-5 din aleea propusă; căile pietonale și carosabile din interiorul parcelelor se fac cu învelitori permeabile.",
+   "Parcarea se face în interiorul parcelelor, cel puțin 2 locuri pentru fiecare locuință (la sol sau în clădire); în zona verde S_Va* parcarea e interzisă, în afară de utilajele de întreținere.",
+   "Utilitățile se racordează la rețelele publice disponibile. În zonă nu există canalizare publică: apele uzate menajere merg în sisteme individuale, în interiorul parcelei; apele pluviale se gestionează individual sau colectiv, prin acumulare sau retenție, apoi în emisari locali; e interzisă scurgerea apelor meteorice spre domeniul public sau spre vecini.",
+   "Firidele de branșament și contorizare se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise; fiecare parcelă are o platformă sau un spațiu pentru deșeurile menajere, accesibil din domeniul public.",
+   "Lid*: regim izolat; retragere de min. 5 m față de alee și față de str. D. D. Roșca regularizată (garajele min. 6 m); față de limitele laterale min. H/2, dar cel puțin 4,5 m (garajele nu se alipesc limitelor laterale); față de limita posterioară min. H, dar cel puțin 6 m (garajele min. 6 m).",
+   "S_Va*: retragere de min. 3 m față de aliniament și față de limitele laterale și posterioară."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

@@ -1,0 +1,218 @@
+{
+  "id": "2025-466",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 466,
+    "an": 2025,
+    "data_sedinta": "2025-07-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-466-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-466.pdf"
+  },
+  "titlu": "P.U.Z. – parcelare și construire locuințe cu regim redus de înălțime, str. D.D. Roșca – est",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 200,
+    "denumire": "U.07 Reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 11 (Anexa 2 la hotărâre, micșorată pe A4, monocromă, rotită, semnată și ștampilată, prea mică pentru citit) și p. 19 (format 420x594, color, 200 ppi, cu viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 269 din 14.11.2024 – și mențiunea de mână „HCL nr. 466 din 7 iulie 2025”); s-a folosit p. 19. P. 18 e planul zonei de reglementat anexat avizului de oportunitate nr. 245/9.11.2022, nu o planșă de reglementări. Planșa e tipărită aproape la scară: 15,4 px/m în loc de 15,75 px/m cât ar da 1:500 la 200 ppi (~98 %), cu nordul în sus (rotație 0,09°); are și un caroiaj Stereo 70 cu etichete pe ramă, nefolosit, fiindcă inventarul de coordonate ajunge. Legenda cuprinde cheia simbolurilor (limite, retrageri, UTR Ulid, Lid*, Vp, S_Va*, zona construibilă, circulații, accese) și caseta „UTR Lid* – POT max 20%, CUT max 0,4”; au rămas pe dinafară bilanțul teritorial, nota explicativă cu suprafețele, calculul locurilor de parcare, profilele, cele două tabele de coordonate și cartușul (care numește beneficiarii). Pe planșă, în afara limitei, e și o casetă cu numele beneficiarilor; decupajul (limita + 1,5 m) n-o atinge."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Două tabele identice pe planșa U.07: „Puncte pe contur F” – „Coordonate pct. de contur X [m] / Y [m]” (X = Nord, Y = Est), 19 puncte numerotate 1-19 în ordinea conturului, cu lungimile laturilor D(i,i+1) și „S=5891mp P=447.909m” – și „Inventar de coordonate” (aceleași 19 puncte, fără laturi); cifrele coincid. Toate cele 19 laturi, perimetrul și aria se potrivesc la transcriere. Conturul e linia „limita de proprietate existentă” (maro, cu cruciulițe), marcată pe planșă „Limita PUZ S = 5.891 m.p.”. Puncte de control: colțurile 1 (E), 3 (N), 9 (V, la str. D. D. Roșca) și 13 (S); de verificare: 17 și 18, colțurile scobiturii de pe latura de sud-est. Punctele 2, 4-8, 10-12, 14-16 și 19 sunt pe laturi drepte sau pe curba străzii și n-au fost folosite. Fiecare punct e centrul colțului liniei de limită, unde planșa desenează și o steluță.",
+    "suprafata_declarata_m2": 5891,
+    "puncte": {
+      "1": [
+        582114.009,
+        391317.021
+      ],
+      "2": [
+        582115.161,
+        391315.749
+      ],
+      "3": [
+        582134.333,
+        391294.568
+      ],
+      "4": [
+        582132.004,
+        391291.995
+      ],
+      "5": [
+        582125.562,
+        391284.878
+      ],
+      "6": [
+        582106.833,
+        391263.721
+      ],
+      "7": [
+        582100.532,
+        391256.685
+      ],
+      "8": [
+        582061.381,
+        391212.463
+      ],
+      "9": [
+        582046.178,
+        391195.301
+      ],
+      "10": [
+        582031.764,
+        391203.431
+      ],
+      "11": [
+        582008.74,
+        391211.987
+      ],
+      "12": [
+        582005.455,
+        391213.108
+      ],
+      "13": [
+        581968.725,
+        391213.897
+      ],
+      "14": [
+        581971.111,
+        391216.144
+      ],
+      "15": [
+        581986.951,
+        391231.203
+      ],
+      "16": [
+        581996.404,
+        391240.095
+      ],
+      "17": [
+        582002.767,
+        391246.249
+      ],
+      "18": [
+        582019.565,
+        391226.615
+      ],
+      "19": [
+        582057.913,
+        391263.323
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 1.716,
+      "2": 28.569,
+      "3": 3.471,
+      "4": 9.6,
+      "5": 28.256,
+      "6": 9.445,
+      "7": 59.063,
+      "8": 22.927,
+      "9": 16.549,
+      "10": 24.562,
+      "11": 3.471,
+      "12": 36.738,
+      "13": 3.277,
+      "14": 21.856,
+      "15": 12.978,
+      "16": 8.852,
+      "17": 25.839,
+      "18": 53.085,
+      "19": 77.655
+    },
+    "perimetru_declarat_m": 447.909
+  },
+  "gcp_px": {
+    "1": [
+      2737,
+      572
+    ],
+    "3": [
+      2389,
+      253
+    ],
+    "9": [
+      857,
+      1626
+    ],
+    "13": [
+      1141,
+      2833
+    ]
+  },
+  "verificare_px": {
+    "17": [
+      1640,
+      2301
+    ],
+    "18": [
+      1336,
+      2042
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3880,
+      35,
+      4592,
+      1232
+    ],
+    [
+      3292,
+      1185,
+      3845,
+      1285
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lid*",
+      "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: locuințe individuale (unifamiliale) și anexele lor, regim de construire izolat; 5 parcele (858-1487 mp pe planșă)",
+      "pot_max": "20%",
+      "cut_max": "0,4",
+      "h_max": "două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P; max. 8 m la cornișă/atic neretras și 10 m la coamă/atic retras"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat: plantații înalte, medii și joase (lotul de lângă str. D. D. Roșca, 331 mp pe planșă, din care 165 mp trec la lărgirea străzii)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "P"
+    },
+    {
+      "cod": "Vp",
+      "denumire": "Teren împădurit în intravilan (capătul de nord-est, 652 mp pe planșă): se menține încadrarea funcțională din P.U.G.; hotărârea nu dă indici",
+      "pot_max": "",
+      "cut_max": "",
+      "h_max": ""
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-07-07",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-3 din PDF) și s-a transcris: coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerile: planșa desenează zona construibilă cu retrageri fixe (5 m față de aliniament, 4,5 m față de limitele laterale, 6 m față de limita posterioară); Art. 1 le dă ca minime: față de limitele laterale cel puțin jumătate din înălțimea clădirii, dar minimum 4,5 m, față de limita posterioară cel puțin înălțimea clădirii, dar minimum 6 m, iar garajele la cel puțin 6 m de aliniament și de limita posterioară, fără alipire la limitele laterale. Pentru o clădire mai înaltă de 6 m, retragerea posterioară trece deci de linia desenată.",
+    "Planșa dă indicatori doar pentru UTR Lid* (POT 20%, CUT 0,4, la fel ca textul) și nu dă înălțimi; regimul de înălțime (două niveluri, 8 m la cornișă, 10 m la coamă) și indicatorii subzonei S_Va* (POT 5%, CUT 0,1, regim P, retrageri de min. 3 m) vin numai din Art. 1."
+  ],
+  "conditii": [
+    "Terenul necesar regularizării str. D. D. Roșca (profil de 12 m din P.U.G.), pe tronsonul de lângă P.U.Z., se dezmembrează din parcelele inițiale și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe parcele; până la recepția locuințelor se aduce la strat de uzură (asfalt sau dalaj). Pe planșă: 140 mp din parcela 1 și 165 mp din lotul S_Va*.",
+    "Aleea de deservire locală propusă, cu ampriză de 7 m și loc de întoarcere, se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe cele 4 parcele cu acces din ea; până la recepția locuințelor se echipează edilitar și se aduce la strat de uzură, pe baza unui proiect autorizat.",
+    "Spațiul verde cu acces public nelimitat (S_Va*) se amenajează pe baza unui proiect de specialitate, înainte de recepția locuințelor.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Accese: parcela 1 direct din str. D. D. Roșca, parcelele 2-5 din aleea propusă; căile pietonale și carosabile din interiorul parcelelor se fac cu învelitori permeabile.",
+    "Parcarea se face în interiorul parcelelor, cel puțin 2 locuri pentru fiecare locuință (la sol sau în clădire); în zona verde S_Va* parcarea e interzisă, în afară de utilajele de întreținere.",
+    "Utilitățile se racordează la rețelele publice disponibile. În zonă nu există canalizare publică: apele uzate menajere merg în sisteme individuale, în interiorul parcelei; apele pluviale se gestionează individual sau colectiv, prin acumulare sau retenție, apoi în emisari locali; e interzisă scurgerea apelor meteorice spre domeniul public sau spre vecini.",
+    "Firidele de branșament și contorizare se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise; fiecare parcelă are o platformă sau un spațiu pentru deșeurile menajere, accesibil din domeniul public.",
+    "Lid*: regim izolat; retragere de min. 5 m față de alee și față de str. D. D. Roșca regularizată (garajele min. 6 m); față de limitele laterale min. H/2, dar cel puțin 4,5 m (garajele nu se alipesc limitelor laterale); față de limita posterioară min. H, dar cel puțin 6 m (garajele min. 6 m).",
+    "S_Va*: retragere de min. 3 m față de aliniament și față de limitele laterale și posterioară."
+  ],
+  "hotarare_text": "documente/2025-466/hotarare.txt"
+}
