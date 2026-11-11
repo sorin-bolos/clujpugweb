@@ -13195,6 +13195,261 @@
   ]
  },
  {
+  "id": "2025-631",
+  "localitate": "cluj",
+  "hcl": "631/2025",
+  "data": "2025-10-09",
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar în zonă de activități economice cu caracter industrial, Calea Baciului nr. 2-4",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-631-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/10/21/HCL-631.pdf",
+  "utr": [
+   {
+    "cod": "S_Ei*",
+    "denumire": "Subzonă de activități economice cu caracter terțiar în zonă de activități economice cu caracter industrial: funcțiunea predominantă turism (regulamentul, Anexa 1, adaugă alimentația publică); regim de construire izolat; parcela nr. cad. 343753, fără fâșia din U.T.R. Ve. Retrageri: minimum 6 m de la aliniament; de la limita estică cel puțin H/2, dar minimum 6 m; de la limita nordică minimum 6 m, cu respectarea culoarului verde de protecție.",
+    "pot_max": "50%",
+    "cut_max": "2,2",
+    "h_max": "25 m în total, 21 m la cornișă; (S)+P+5E+R"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: fâșia de-a lungul râului Nadăș din parcela nr. cad. 343753 (407,4 mp pe planșă), care își păstrează destinația de „zonă verde”; indicatorii rămân cei din P.U.G.",
+    "pot_max": "1% (P.U.G.)",
+    "cut_max": "0,01 (P.U.G.)",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 8333,
+  "imagine": "puz/2025-631/plansa.webp",
+  "bounds": {
+   "west": 23.5405772,
+   "south": 46.7822797,
+   "east": 23.5430239,
+   "north": 46.7832347
+  },
+  "limita": [
+   [
+    23.5415539,
+    46.7827378
+   ],
+   [
+    23.5416754,
+    46.7827223
+   ],
+   [
+    23.5416832,
+    46.7827573
+   ],
+   [
+    23.5417513,
+    46.7827664
+   ],
+   [
+    23.5418105,
+    46.7827957
+   ],
+   [
+    23.5418614,
+    46.782833
+   ],
+   [
+    23.5418693,
+    46.7828542
+   ],
+   [
+    23.5418862,
+    46.7828575
+   ],
+   [
+    23.5419114,
+    46.7829605
+   ],
+   [
+    23.5421545,
+    46.7829379
+   ],
+   [
+    23.5425228,
+    46.7828768
+   ],
+   [
+    23.54285,
+    46.7828265
+   ],
+   [
+    23.5429866,
+    46.7827989
+   ],
+   [
+    23.542954,
+    46.7827016
+   ],
+   [
+    23.5427398,
+    46.7827377
+   ],
+   [
+    23.5420612,
+    46.7828479
+   ],
+   [
+    23.541953,
+    46.7824744
+   ],
+   [
+    23.5419429,
+    46.7824394
+   ],
+   [
+    23.5419068,
+    46.7823145
+   ],
+   [
+    23.5416409,
+    46.782352
+   ],
+   [
+    23.5416878,
+    46.782543
+   ],
+   [
+    23.5415117,
+    46.782562
+   ],
+   [
+    23.5414992,
+    46.7825634
+   ],
+   [
+    23.5414976,
+    46.7825575
+   ],
+   [
+    23.541321,
+    46.7825856
+   ],
+   [
+    23.5412819,
+    46.7824382
+   ],
+   [
+    23.5412727,
+    46.7824201
+   ],
+   [
+    23.541227,
+    46.7823739
+   ],
+   [
+    23.5411692,
+    46.7823396
+   ],
+   [
+    23.5411482,
+    46.7823293
+   ],
+   [
+    23.5411256,
+    46.7823217
+   ],
+   [
+    23.5410983,
+    46.7823165
+   ],
+   [
+    23.5410352,
+    46.7823095
+   ],
+   [
+    23.5410255,
+    46.7823106
+   ],
+   [
+    23.5410208,
+    46.7823009
+   ],
+   [
+    23.5406235,
+    46.7823552
+   ],
+   [
+    23.5407419,
+    46.7827557
+   ],
+   [
+    23.5406407,
+    46.7827705
+   ],
+   [
+    23.5406484,
+    46.782794
+   ],
+   [
+    23.5407468,
+    46.7831904
+   ],
+   [
+    23.5407708,
+    46.783191
+   ],
+   [
+    23.5408574,
+    46.783182
+   ],
+   [
+    23.5411818,
+    46.7831774
+   ],
+   [
+    23.5416112,
+    46.783203
+   ],
+   [
+    23.5416366,
+    46.7831586
+   ],
+   [
+    23.5416327,
+    46.7831184
+   ],
+   [
+    23.5416211,
+    46.7830556
+   ],
+   [
+    23.5416017,
+    46.7829676
+   ],
+   [
+    23.5415678,
+    46.7828134
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.16
+  },
+  "legenda": "puz/2025-631/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2032-10-09"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea: planșa dă doar „Înălțime maximă 25 metri”; hotărârea (Art. 1) mai limitează cornișa la 21 m și regimul de înălțime la (S)+P+5E+R.",
+   "Retragerea de la limita estică: planșa scrie „Retragere laterală min 6 m sau H/2”; hotărârea cere minimum H/2, dar nu mai puțin de 6 m, deci cea mai mare dintre cele două.",
+   "Lotul de sud, nr. cad. 345718 (2.032 mp, „teren amenajat pentru parcare auto”): e în zona reglementată și în lista de parcele din Art. 1, dar hotărârea nu-i dă o reglementare proprie: S_Ei* se aplică doar parcelei 343753 (așa scrie și regulamentul), iar lista circulațiilor publice din Art. 1 nu-l cuprinde. Planșa îl desenează gri, ca circulație auto și parcare, fără cod UTR, cu o fâșie pe latura nordică de dezmembrat și cedat pentru stradă; regulamentul (Anexa 1, secțiunile B și C) îl trece, alături de 343753, printre parcelele reglementate ca circulație publică."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire pe parcela S_Ei*: suprafețele necesare regularizării străzii Triajului și prelungirii ei se dezmembrează din parcelele inițiale și se înscriu în cartea funciară ca „drum”; până la recepția construcției se aduc la strat de uzură (asfalt sau dalaj) și se transferă gratuit în domeniul public (după planșa 1467-A-PUZ-1-0-07, proprietatea asupra terenurilor).",
+   "Străzile existente (nr. cad. 332907, 332393, 353423, 343339 și 340619) se reglementează ca circulații publice: destinația „drum” se înscrie în cartea funciară înainte de autorizația de construire, iar până la recepția construcției se transferă gratuit în domeniul public.",
+   "Accesul se face din str. Triajului și prelungirea ei; în curți se recomandă învelitori permeabile.",
+   "Parcarea: în interiorul parcelei, de regulă la sol, cu necesarul după Anexa 2 a R.L.U. aferent P.U.G., însumat pe funcțiuni.",
+   "Echipare edilitară completă, cu racordare la rețelele publice; apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuiri; cablurile nu se montează aerian; un spațiu în parcelă pentru colectarea selectivă a deșeurilor pe 5 fracții, accesibil din spațiul public.",
+   "Fâșia de lângă râul Nadăș (U.T.R. Ve) rămâne zonă verde; regulamentul cere spații verzi pe sol natural pe cel puțin 20% din parcelă.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiare."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

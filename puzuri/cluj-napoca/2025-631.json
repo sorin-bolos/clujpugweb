@@ -1,0 +1,371 @@
+{
+  "id": "2025-631",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 631,
+    "an": 2025,
+    "data_sedinta": "2025-10-09",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-631-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/10/21/HCL-631.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar în zonă de activități economice cu caracter industrial, Calea Baciului nr. 2-4",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 200,
+    "denumire": "Plan reglementări urbanistice - zonificare (planșa 1467-A-PUZ-1-0-05)",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 8 (Anexa 2 la hotărâre, micșorată pe A4, rotită, ștampilată, 300 ppi) și p. 16 (format mare, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 60 din 25.04.2025, și mențiunea de mână „HCL nr. 631 din 9 octombrie 2025”); s-a folosit p. 16, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-7 regulamentul local de urbanism (Anexa 1), p. 9 Anexa 3 (planul proprietății asupra terenurilor, pe A4), pp. 10-12 avizul Arhitectului-șef, pp. 13-15 avizul de oportunitate cu extrasul din P.U.G., p. 17 planul proprietății în format mare, pp. 18-19 raportul informării și consultării publicului. Cartușul: planșa 1467-A-PUZ-1-0-05 „Plan reglementări urbanistice – zonificare”, faza P.U.Z., scara 1:500, data 08-2025. Scara imaginii: 16,0 px/m (1:500 la 200 ppi); ridicarea topografică e rotită cu ~10° față de foaie (nordul Stereo 70 e cu ~10° spre stânga față de verticala foii), lucru prins de transformarea afină. Legenda cuprinde cheia simbolurilor (zona reglementată, suprafețele de cedat și de dezmembrat și cedat domeniului public, limitele de proprietate, retragerile, zona edificabilă, circulațiile, clădirile vecine, râul Nadăș, partea din parcelă în UTR Ve, spațiile verzi, accesele, sensurile, denumirile UTR) și caseta „Caracteristici tehnice” cu POT/CUT/înălțimea pentru S_Ei*, în două casete. Ultimele trei simboluri ale legendei (parcare cu încărcare electrică, parcare auto, trecere de pietoni) sunt acoperite de viza Arhitectului-șef și de mențiunea de mână și au rămas afară, ca și săgeata nordului, inventarul de coordonate, ștampilele și cartușul. Zona e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Parcela (1)”, „Coordonate pct. de contur” X [m] (Nord) / Y [m] (Est), 49 de puncte în ordinea conturului, cu lungimile laturilor D(i,i+1), „S(1)=8332.55mp” și „P=636.400m” (tabelul din dreapta sus, x≈3690-4000, y≈540-1300). Conturul cuprinde parcela nr. cad. 343753 (2.868 mp), lotul de sud nr. cad. 345718 (2.032 mp) și străzile nr. cad. 332907, 332393, 353423, 343339 și 340619 (str. Triajului și prelungirea ei): 2868+2032+407+422+2451+15+137 = 8.332 mp. Control: colțurile 40 (nord-vest), 44 (nord), 13 (capătul estic al străzii), 19 (capătul sudic al străzii) și 36 (sud-vest), pe mijlocul liniei punctate roșu-albastru a zonei reglementate, lângă etichetele lor. Verificare: colțurile 14, 9, 25 și 38, citite la fel.",
+    "suprafata_declarata_m2": 8332.55,
+    "puncte": {
+      "1": [
+        588045.597,
+        388774.132
+      ],
+      "2": [
+        588043.702,
+        388783.375
+      ],
+      "3": [
+        588047.586,
+        388784.047
+      ],
+      "4": [
+        588048.499,
+        388789.262
+      ],
+      "5": [
+        588051.667,
+        388793.846
+      ],
+      "6": [
+        588055.748,
+        388797.807
+      ],
+      "7": [
+        588058.093,
+        388798.454
+      ],
+      "8": [
+        588058.43,
+        388799.746
+      ],
+      "9": [
+        588069.846,
+        388801.884
+      ],
+      "10": [
+        588066.994,
+        388820.393
+      ],
+      "11": [
+        588059.685,
+        388848.388
+      ],
+      "12": [
+        588053.631,
+        388873.263
+      ],
+      "13": [
+        588050.368,
+        388883.632
+      ],
+      "14": [
+        588039.608,
+        388880.948
+      ],
+      "15": [
+        588043.922,
+        388864.67
+      ],
+      "16": [
+        588057.119,
+        388813.088
+      ],
+      "17": [
+        588015.767,
+        388804.061
+      ],
+      "18": [
+        588011.887,
+        388803.217
+      ],
+      "19": [
+        587998.058,
+        388800.211
+      ],
+      "20": [
+        588002.604,
+        388779.984
+      ],
+      "21": [
+        588023.755,
+        388783.961
+      ],
+      "22": [
+        588026.121,
+        388770.555
+      ],
+      "23": [
+        588026.29,
+        388769.6
+      ],
+      "24": [
+        588025.644,
+        388769.467
+      ],
+      "25": [
+        588029.015,
+        388756.046
+      ],
+      "26": [
+        588012.679,
+        388752.759
+      ],
+      "27": [
+        588010.691,
+        388752.02
+      ],
+      "28": [
+        588005.619,
+        388748.436
+      ],
+      "29": [
+        588001.881,
+        388743.948
+      ],
+      "30": [
+        588000.775,
+        388742.33
+      ],
+      "31": [
+        587999.962,
+        388740.582
+      ],
+      "32": [
+        587999.417,
+        388738.494
+      ],
+      "33": [
+        587998.732,
+        388733.663
+      ],
+      "34": [
+        587998.866,
+        388732.919
+      ],
+      "35": [
+        587997.789,
+        388732.542
+      ],
+      "36": [
+        588004.391,
+        388702.323
+      ],
+      "37": [
+        588048.725,
+        388712.179
+      ],
+      "38": [
+        588050.513,
+        388704.486
+      ],
+      "39": [
+        588053.122,
+        388705.121
+      ],
+      "40": [
+        588097.031,
+        388713.45
+      ],
+      "41": [
+        588097.07,
+        388715.28
+      ],
+      "42": [
+        588095.945,
+        388721.876
+      ],
+      "43": [
+        588094.97,
+        388746.63
+      ],
+      "44": [
+        588097.215,
+        388779.465
+      ],
+      "45": [
+        588092.25,
+        388781.31
+      ],
+      "46": [
+        588087.786,
+        388780.928
+      ],
+      "47": [
+        588080.825,
+        388779.916
+      ],
+      "48": [
+        588071.063,
+        388778.257
+      ],
+      "49": [
+        588053.976,
+        388775.353
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 9.435,
+      "2": 3.942,
+      "3": 5.294,
+      "4": 5.572,
+      "5": 5.687,
+      "6": 2.433,
+      "7": 1.335,
+      "8": 11.614,
+      "9": 18.727,
+      "10": 28.933,
+      "11": 25.601,
+      "12": 10.87,
+      "13": 11.09,
+      "14": 16.84,
+      "15": 53.243,
+      "16": 42.326,
+      "17": 3.971,
+      "18": 14.152,
+      "19": 20.732,
+      "20": 21.522,
+      "21": 13.613,
+      "22": 0.97,
+      "23": 0.66,
+      "24": 13.838,
+      "25": 16.663,
+      "26": 2.121,
+      "27": 6.21,
+      "28": 5.834,
+      "29": 1.966,
+      "30": 1.928,
+      "31": 2.158,
+      "32": 4.879,
+      "33": 0.756,
+      "34": 1.141,
+      "35": 30.932,
+      "36": 45.416,
+      "37": 7.898,
+      "38": 2.685,
+      "39": 44.692,
+      "40": 1.83,
+      "41": 6.691,
+      "42": 24.773,
+      "43": 32.912,
+      "44": 5.297,
+      "45": 4.48,
+      "46": 7.034,
+      "47": 9.902,
+      "48": 17.332,
+      "49": 8.467
+    },
+    "perimetru_declarat_m": 636.4,
+    "nota": "Aria coordonatelor, 8.332,58 mp, se potrivește cu 8.332,55 mp din inventar; toate cele 49 de laturi și perimetrul (636,401 m față de 636,400) ies la centimetru. Punctele 22-24, 29-34 și 7-8 sunt la 0,7-2,2 m unele de altele (colțurile străzii și arcul de la sud-est de lotul 345718) și n-au fost folosite ca puncte de control."
+  },
+  "gcp_px": {
+    "40": [
+      403,
+      1448
+    ],
+    "13": [
+      3207,
+      1712
+    ],
+    "19": [
+      2037,
+      2777
+    ],
+    "36": [
+      482,
+      2950
+    ],
+    "44": [
+      1435,
+      1255
+    ]
+  },
+  "verificare_px": {
+    "14": [
+      3198,
+      1895
+    ],
+    "9": [
+      1866,
+      1630
+    ],
+    "25": [
+      1258,
+      2405
+    ],
+    "38": [
+      395,
+      2213
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3538,
+      1414,
+      4138,
+      2488
+    ],
+    [
+      3330,
+      3024,
+      4138,
+      3292
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Ei*",
+      "denumire": "Subzonă de activități economice cu caracter terțiar în zonă de activități economice cu caracter industrial: funcțiunea predominantă turism (regulamentul, Anexa 1, adaugă alimentația publică); regim de construire izolat; parcela nr. cad. 343753, fără fâșia din U.T.R. Ve. Retrageri: minimum 6 m de la aliniament; de la limita estică cel puțin H/2, dar minimum 6 m; de la limita nordică minimum 6 m, cu respectarea culoarului verde de protecție.",
+      "pot_max": "50%",
+      "cut_max": "2,2",
+      "h_max": "25 m în total, 21 m la cornișă; (S)+P+5E+R"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: fâșia de-a lungul râului Nadăș din parcela nr. cad. 343753 (407,4 mp pe planșă), care își păstrează destinația de „zonă verde”; indicatorii rămân cei din P.U.G.",
+      "pot_max": "1% (P.U.G.)",
+      "cut_max": "0,01 (P.U.G.)",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-10-09",
+    "verificat": "2026-11-11: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: planșa dă doar „Înălțime maximă 25 metri”; hotărârea (Art. 1) mai limitează cornișa la 21 m și regimul de înălțime la (S)+P+5E+R.",
+    "Retragerea de la limita estică: planșa scrie „Retragere laterală min 6 m sau H/2”; hotărârea cere minimum H/2, dar nu mai puțin de 6 m, deci cea mai mare dintre cele două.",
+    "Lotul de sud, nr. cad. 345718 (2.032 mp, „teren amenajat pentru parcare auto”): e în zona reglementată și în lista de parcele din Art. 1, dar hotărârea nu-i dă o reglementare proprie: S_Ei* se aplică doar parcelei 343753 (așa scrie și regulamentul), iar lista circulațiilor publice din Art. 1 nu-l cuprinde. Planșa îl desenează gri, ca circulație auto și parcare, fără cod UTR, cu o fâșie pe latura nordică de dezmembrat și cedat pentru stradă; regulamentul (Anexa 1, secțiunile B și C) îl trece, alături de 343753, printre parcelele reglementate ca circulație publică."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pe parcela S_Ei*: suprafețele necesare regularizării străzii Triajului și prelungirii ei se dezmembrează din parcelele inițiale și se înscriu în cartea funciară ca „drum”; până la recepția construcției se aduc la strat de uzură (asfalt sau dalaj) și se transferă gratuit în domeniul public (după planșa 1467-A-PUZ-1-0-07, proprietatea asupra terenurilor).",
+    "Străzile existente (nr. cad. 332907, 332393, 353423, 343339 și 340619) se reglementează ca circulații publice: destinația „drum” se înscrie în cartea funciară înainte de autorizația de construire, iar până la recepția construcției se transferă gratuit în domeniul public.",
+    "Accesul se face din str. Triajului și prelungirea ei; în curți se recomandă învelitori permeabile.",
+    "Parcarea: în interiorul parcelei, de regulă la sol, cu necesarul după Anexa 2 a R.L.U. aferent P.U.G., însumat pe funcțiuni.",
+    "Echipare edilitară completă, cu racordare la rețelele publice; apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuiri; cablurile nu se montează aerian; un spațiu în parcelă pentru colectarea selectivă a deșeurilor pe 5 fracții, accesibil din spațiul public.",
+    "Fâșia de lângă râul Nadăș (U.T.R. Ve) rămâne zonă verde; regulamentul cere spații verzi pe sol natural pe cel puțin 20% din parcelă.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiare."
+  ]
+}
