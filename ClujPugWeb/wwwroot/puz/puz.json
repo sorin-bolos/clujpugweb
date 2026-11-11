@@ -15238,6 +15238,179 @@
   ]
  },
  {
+  "id": "2025-429",
+  "localitate": "cluj",
+  "hcl": "429/2025",
+  "data": "2025-06-13",
+  "titlu": "P.U.Z. de urbanizare (construire locuințe cu regim redus de înălțime), str. Vasile Velican",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-429-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/06/13/HCL-429.pdf",
+  "utr": [
+   {
+    "cod": "Li/c_a*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime – locuințe individuale și/sau semicolective (familiale), cu maximum două unități locative pe parcelă; regim de construire izolat; șase parcele de câte 500 mp și str. Vasile Velican (1.320 mp), 4.320 mp în total (în locul ULi/c – zonă de urbanizare)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă/atic ultim nivel neretras și 12 m la coamă/atic nivel retras"
+   }
+  ],
+  "suprafata_m2": 4317,
+  "imagine": "puz/2025-429/plansa.webp",
+  "bounds": {
+   "west": 23.5595202,
+   "south": 46.7462834,
+   "east": 23.5609363,
+   "north": 46.747296
+  },
+  "limita": [
+   [
+    23.5602872,
+    46.7472741
+   ],
+   [
+    23.5604757,
+    46.747277
+   ],
+   [
+    23.5608879,
+    46.7471309
+   ],
+   [
+    23.5607893,
+    46.7469889
+   ],
+   [
+    23.5607576,
+    46.7469995
+   ],
+   [
+    23.5606536,
+    46.7468426
+   ],
+   [
+    23.5606494,
+    46.7468361
+   ],
+   [
+    23.5605511,
+    46.7466878
+   ],
+   [
+    23.5605427,
+    46.7466753
+   ],
+   [
+    23.5605233,
+    46.7466822
+   ],
+   [
+    23.5604208,
+    46.7465342
+   ],
+   [
+    23.5601244,
+    46.7466293
+   ],
+   [
+    23.5601233,
+    46.7466278
+   ],
+   [
+    23.5600217,
+    46.7464817
+   ],
+   [
+    23.5599497,
+    46.7463783
+   ],
+   [
+    23.5599817,
+    46.7463146
+   ],
+   [
+    23.5597091,
+    46.7464
+   ],
+   [
+    23.5597497,
+    46.7464072
+   ],
+   [
+    23.5598191,
+    46.7464194
+   ],
+   [
+    23.5598507,
+    46.746465
+   ],
+   [
+    23.559892,
+    46.7465246
+   ],
+   [
+    23.5597905,
+    46.746558
+   ],
+   [
+    23.5596862,
+    46.7465923
+   ],
+   [
+    23.5595637,
+    46.7466326
+   ],
+   [
+    23.5596652,
+    46.7467787
+   ],
+   [
+    23.5597669,
+    46.7469248
+   ],
+   [
+    23.5600829,
+    46.7468207
+   ],
+   [
+    23.5600948,
+    46.7468168
+   ],
+   [
+    23.5601965,
+    46.7469629
+   ],
+   [
+    23.5603651,
+    46.7472015
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 7,
+   "rms_m": 0.17
+  },
+  "legenda": "puz/2025-429/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-06-13"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de construire: Art. 1 admite numai regim izolat; caseta UTR de pe planșă descrie locuințe „de tip izolat, cuplat, înșiruit, covor” și dă suprafața minimă a parcelei „min. 300 mp loc. cuplate, min. 360 loc. individuale” și frontul „min. 12,00 m”, iar regulamentul (Anexa 1) cere front de min. 15 m pentru locuințele izolate și min. 500 mp (izolate), 300 mp (cuplate), 450 mp (parcela de colț). Parcelele desenate au toate 500 mp.",
+   "Planșa dă doar P.O.T. 35%, C.U.T. 0,9 și regimul „(S)+P+1+M/R” (la fel ca textul); configurațiile D+P+M și D+P+R și înălțimile maxime (8 m la cornișă/atic, 12 m la coamă/atic nivel retras) vin numai din Art. 1.",
+   "Retragerea față de limita posterioară: planșa cotează 6,00 m („min. 6 m sau H”); Art. 1 cere o distanță cel puțin egală cu înălțimea clădirii, dar nu mai puțin de 6 m. Lateral, planșa desenează 3 m față de toate limitele; Art. 1 permite alipirea garajelor de limitele laterale, cu calcan de cel mult 2,8 m, și cere retragerea garajelor cu min. 6 m de la aliniament și de la limita posterioară.",
+   "Inventarul de coordonate al planșei („Suprafata PUZ”, 5.621 mp) cuprinde și parcela municipiului nr. topo 22773/1/1/1/1/1/1/1/1/1 (1.301 mp), pe care Art. 1 n-o enumeră și pe care avizul Arhitectului-șef nr. 291/2024 o scoate din P.U.Z.; harta arată zona reglementată de 4.320 mp, ca linia roșie și bilanțul planșei."
+  ],
+  "conditii": [
+   "Strada Vasile Velican se echipează edilitar complet (apă-canal, electricitate, gaz), pe bază de proiecte de specialitate, înainte de recepția locuințelor.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Accese din str. Vasile Velican: pe parcelă câte un acces auto și un acces pietonal pentru fiecare unitate locativă; pentru căile din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o locuință cu arie utilă sub 100 mp și două peste 100 mp; locuințele semicolective, un loc pentru fiecare unitate locativă.",
+   "Retrageri: min. 3 m față de aliniament (garajele min. 6 m, ca să se poată parca o mașină în față); toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule provizorii de grădină de cel mult 15 mp în total; lateral min. 3 m (garajele se pot alipi limitelor laterale, cu calcan de max. 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m (garajele min. 6 m).",
+   "Toate construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale.",
+   "Regulamentul (Anexa 1): sunt interzise locuințele colective și orice clădire cu mai mult de două unități locative, precum și terasamentele care afectează spațiile publice sau parcelele vecine; spațiile verzi pe sol natural ocupă min. 40% din parcelă și min. 60% din grădina de fațadă; tăierea arborilor maturi e interzisă, în afară de cazurile de pericol sau când împiedică realizarea construcțiilor; spre stradă, împrejmuire cu soclu opac de max. 80 cm și parte transparentă, înaltă de max. 2,2 m; spre vecini, max. 2,2 m."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

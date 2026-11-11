@@ -1,0 +1,610 @@
+{
+  "id": "2025-429",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 429,
+    "an": 2025,
+    "data_sedinta": "2025-06-13",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-429-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/06/13/HCL-429.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare (construire locuințe cu regim redus de înălțime), str. Vasile Velican",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 300,
+    "denumire": "U.03 Plan reglementări urbanistice – zonificare",
+    "scara": "1:400",
+    "nota": "PDF-ul are 21 de pagini: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism (pp. 3-11), Anexa 2 – planșa U.03 micșorată pe A4 și semnată de președintele de ședință și de secretar (p. 12, prea mică pentru inventar și legendă), avizul Arhitectului-șef nr. 291 din 9.12.2024 (pp. 13-15), avizul de oportunitate nr. 231 din 5.12.2023 cu extrasul din P.U.G. (pp. 16-18), planșa U.03 color, mare (p. 19, 300 ppi, rotită în PDF; aleasă: viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 291/2024 – și mențiunea de mână „HCL nr. 429 din 13 iunie 2025”) și raportul informării și consultării publicului (pp. 20-21). Titlul de pe planșă: „Plan reglementari urbanistice-zonificare – scara 1:400”; potrivirea dă 29,5 px/m, cât face 1:400 la 300 ppi, cu nordul în sus (rotație -0,03°). Legenda ia, în patru casete, cheia simbolurilor (cu împărțirea ultimului rând ca să rămână pe dinafară ștampila RUR alăturată), „UTR-uri propuse prin P.U.Z.” și caseta „UTR Li/c” (descrierea subzonei Li/c_a*, utilizările admise și tabelul cu P.O.T., C.U.T., regim de înălțime, front, suprafață minimă și retrageri); au rămas pe dinafară bilanțurile teritoriale, tabelul parcelarului propus, calculul parcărilor, profilul străzii, inventarul de coordonate, ștampilele, semnăturile și cartușul (care numește proprietarii). Decupajul (limita + 1,5 m) nu atinge tabelele, ștampilele sau casetele cu numele proprietarilor. Avizul de oportunitate nr. 231/2023 cerea și ca autorizațiile de construire să se emită numai după aducerea la strat de uzură a părții carosabile a str. Vasile Velican; hotărârea nu reia această condiție (cere în schimb echiparea edilitară completă a străzii înainte de recepția locuințelor)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („Suprafata PUZ – Coordonate pct. de contur”, 33 de puncte 100-132 în ordinea conturului, X [m] Nord / Y [m] Est, Stereo 70, cu lungimile laturilor; S(PUZ)=5621 mp, P=462,435 m) cuprinde și parcela nr. topo 22773/1/1/1/1/1/1/1/1/1 a municipiului (1.301 mp, „parcela nu este liberă de sarcini”), la nord-vest de str. Vasile Velican: 4.320 + 1.301 = 5.621 mp. Avizul Arhitectului-șef nr. 291/2024 spune că această parcelă nu e reglementată prin P.U.Z., Art. 1 enumeră numai cele șapte numere cadastrale (șase parcele de câte 500 mp și strada, nr. cad. 349974, 1.320 mp), iar linia roșie „Limite zona reglementata PUZ” și bilanțul teritorial (4.320 mp) o lasă pe dinafară. De aceea vârfurile inventarului sunt la `repere` (puncte de control și de verificare), iar limita e `limita_px`: vârfurile 102-130 ale inventarului, duse pe planșă prin potrivire (pe ele cade linia roșie desenată), plus frângerea liniei roșii dintre parcela exclusă și strada Vasile Velican, citită pe planșă la (3808, 1172); între 102 și frângere și între frângere și 130 linia roșie e dreaptă. Vârfurile 131, 132, 100 și 101 (conturul parcelei excluse) rămân în afară. Puncte de control: vârfurile 100 (colțul NV al inventarului), 132 (colțul de vest), 125 (colțul SV al parcelelor de vest), 117 (la str. Basarabia), 112 (colțul de sud al parcelelor de est), 110 (scobitura de 1,7 m de pe latura de est) și 105 (colțul de pe latura de est), pe mijlocul liniei limitei. De verificare: vârfurile 104 (colțul NE, la str. Dimitrie Gusti), 113, 116, 118 și 127, plus cinci cruci ale caroiajului Stereo 70 de 50 m, fiecare la intersecția a două linii etichetate pe chenar (Nord 584050, 584000, 583950 în stânga; Est 390050, 390100, 390150 jos): C390050_584050, C390150_584050, C390100_584000, C390050_583950 și C390150_583950.",
+    "suprafata_declarata_m2": 4320,
+    "puncte": {},
+    "inventar_suprafata_puz": {
+      "titlu": "Suprafata PUZ – Coordonate pct. de contur (Nr. pct. 100-132, X [m] Nord / Y [m] Est, Stereo 70, cu Lungimi laturi D(i,i+1)); S(PUZ)=5621 mp, P=462,435 m; tabelul din dreapta jos a planșei U.03",
+      "suprafata_m2": 5621,
+      "perimetru_declarat_m": 462.435,
+      "puncte": {
+        "100": [
+          584078.243,
+          390082.411
+        ],
+        "101": [
+          584078.026,
+          390097.97
+        ],
+        "102": [
+          584078.193,
+          390132.546
+        ],
+        "103": [
+          584078.263,
+          390146.952
+        ],
+        "104": [
+          584061.447,
+          390178.147
+        ],
+        "105": [
+          584045.804,
+          390170.326
+        ],
+        "106": [
+          584047.029,
+          390167.925
+        ],
+        "107": [
+          584029.739,
+          390159.666
+        ],
+        "108": [
+          584029.024,
+          390159.325
+        ],
+        "109": [
+          584012.675,
+          390151.516
+        ],
+        "110": [
+          584011.295,
+          390150.857
+        ],
+        "111": [
+          584012.088,
+          390149.387
+        ],
+        "112": [
+          583995.786,
+          390141.259
+        ],
+        "113": [
+          584006.765,
+          390118.804
+        ],
+        "114": [
+          584006.602,
+          390118.722
+        ],
+        "115": [
+          583990.508,
+          390110.66
+        ],
+        "116": [
+          583979.109,
+          390104.949
+        ],
+        "117": [
+          583971.996,
+          390107.265
+        ],
+        "118": [
+          583981.864,
+          390086.618
+        ],
+        "119": [
+          583982.601,
+          390089.732
+        ],
+        "120": [
+          583983.86,
+          390095.054
+        ],
+        "121": [
+          583988.887,
+          390097.563
+        ],
+        "122": [
+          583995.456,
+          390100.841
+        ],
+        "123": [
+          583999.308,
+          390093.151
+        ],
+        "124": [
+          584003.264,
+          390085.255
+        ],
+        "125": [
+          584007.911,
+          390075.979
+        ],
+        "126": [
+          584024.012,
+          390084.027
+        ],
+        "127": [
+          584040.105,
+          390092.089
+        ],
+        "128": [
+          584028.1,
+          390116.023
+        ],
+        "129": [
+          584027.65,
+          390116.92
+        ],
+        "130": [
+          584043.74,
+          390124.99
+        ],
+        "131": [
+          584044.188,
+          390124.096
+        ],
+        "132": [
+          584067.738,
+          390077.148
+        ]
+      },
+      "laturi_declarate_m": {
+        "100": 15.561,
+        "101": 34.576,
+        "102": 14.406,
+        "103": 35.439,
+        "104": 17.489,
+        "105": 2.695,
+        "106": 19.161,
+        "107": 0.792,
+        "108": 18.118,
+        "109": 1.529,
+        "110": 1.67,
+        "111": 18.216,
+        "112": 24.995,
+        "113": 0.182,
+        "114": 18.0,
+        "115": 12.75,
+        "116": 7.481,
+        "117": 22.884,
+        "118": 3.2,
+        "119": 5.469,
+        "120": 5.618,
+        "121": 7.341,
+        "122": 8.601,
+        "123": 8.832,
+        "124": 10.375,
+        "125": 18.0,
+        "126": 17.999,
+        "127": 26.776,
+        "128": 1.004,
+        "129": 18.0,
+        "130": 1.0,
+        "131": 52.523,
+        "132": 11.75
+      }
+    },
+    "nota": "Inventarul e transcris și verificat cu el în `coordonate.puncte`, înainte de mutarea la `repere` (datele lui sunt în `coordonate.inventar_suprafata_puz`): aria 5.621,0 mp și perimetrul 462,435 m ca pe planșă, toate cele 33 de laturi la 1 cm, fără nicio cifră corectată. Aria limitei trasate: 4.317 mp față de 4.320 mp din bilanț (-0,07%); parcela exclusă iese de 1.304 mp (C.F.: 1.301 mp). Linia roșie e desenată la ~0,3 m est de vârful 102 la colțul ei de nord; s-a folosit vârful inventarului, care marchează tocmai colțul parcelei excluse pe latura de nord (101-102-103 sunt coliniare). Crucile caroiajului cad la 0,10-0,56 m de potrivirea pe inventar, cele din est și din sud cu ~0,4 m mai la est, respectiv mai la sud (caroiajul desenat e cu ~0,3% mai mare pe Nord decât desenul inventarului); n-au fost folosite ca puncte de control. Verificarea pe ortofoto (Esri, zoom 18, cu toată planșa suprapusă, nu doar zona): cele opt case existente desenate în jur (D+P, D+P+1, D+P+1+M, P+2) cad pe acoperișurile reale la ~2-3 m, iar str. Vasile Velican desenată pe drumul de pământ existent. Clădirile și străzile din extrasul OSM (2026-11-08) cad, cu aceeași potrivire, cu ~9-10 m mai la nord (și ~2-3 m mai la vest) decât cele desenate și decât cele de pe ortofoto: OSM e decalat în acest cartier nou, nu planșa."
+  },
+  "repere": {
+    "100": [
+      584078.243,
+      390082.411
+    ],
+    "101": [
+      584078.026,
+      390097.97
+    ],
+    "102": [
+      584078.193,
+      390132.546
+    ],
+    "103": [
+      584078.263,
+      390146.952
+    ],
+    "104": [
+      584061.447,
+      390178.147
+    ],
+    "105": [
+      584045.804,
+      390170.326
+    ],
+    "106": [
+      584047.029,
+      390167.925
+    ],
+    "107": [
+      584029.739,
+      390159.666
+    ],
+    "108": [
+      584029.024,
+      390159.325
+    ],
+    "109": [
+      584012.675,
+      390151.516
+    ],
+    "110": [
+      584011.295,
+      390150.857
+    ],
+    "111": [
+      584012.088,
+      390149.387
+    ],
+    "112": [
+      583995.786,
+      390141.259
+    ],
+    "113": [
+      584006.765,
+      390118.804
+    ],
+    "114": [
+      584006.602,
+      390118.722
+    ],
+    "115": [
+      583990.508,
+      390110.66
+    ],
+    "116": [
+      583979.109,
+      390104.949
+    ],
+    "117": [
+      583971.996,
+      390107.265
+    ],
+    "118": [
+      583981.864,
+      390086.618
+    ],
+    "119": [
+      583982.601,
+      390089.732
+    ],
+    "120": [
+      583983.86,
+      390095.054
+    ],
+    "121": [
+      583988.887,
+      390097.563
+    ],
+    "122": [
+      583995.456,
+      390100.841
+    ],
+    "123": [
+      583999.308,
+      390093.151
+    ],
+    "124": [
+      584003.264,
+      390085.255
+    ],
+    "125": [
+      584007.911,
+      390075.979
+    ],
+    "126": [
+      584024.012,
+      390084.027
+    ],
+    "127": [
+      584040.105,
+      390092.089
+    ],
+    "128": [
+      584028.1,
+      390116.023
+    ],
+    "129": [
+      584027.65,
+      390116.92
+    ],
+    "130": [
+      584043.74,
+      390124.99
+    ],
+    "131": [
+      584044.188,
+      390124.096
+    ],
+    "132": [
+      584067.738,
+      390077.148
+    ],
+    "C390050_584050": [
+      584050.0,
+      390050.0
+    ],
+    "C390150_584050": [
+      584050.0,
+      390150.0
+    ],
+    "C390100_584000": [
+      584000.0,
+      390100.0
+    ],
+    "C390050_583950": [
+      583950.0,
+      390050.0
+    ],
+    "C390150_583950": [
+      583950.0,
+      390150.0
+    ]
+  },
+  "gcp_px": {
+    "100": [
+      2157,
+      932
+    ],
+    "117": [
+      2887,
+      4051
+    ],
+    "132": [
+      2004,
+      1239
+    ],
+    "125": [
+      1970,
+      2999
+    ],
+    "105": [
+      4746,
+      1881
+    ],
+    "112": [
+      3893,
+      3352
+    ],
+    "110": [
+      4187,
+      2902
+    ]
+  },
+  "verificare_px": {
+    "127": [
+      2443,
+      2053
+    ],
+    "118": [
+      2285,
+      3767
+    ],
+    "104": [
+      4988,
+      1417
+    ],
+    "113": [
+      3234,
+      3040
+    ],
+    "116": [
+      2822,
+      3848
+    ],
+    "C390050_584050": [
+      1204,
+      1764
+    ],
+    "C390150_584050": [
+      4164,
+      1763
+    ],
+    "C390100_584000": [
+      2679,
+      3236
+    ],
+    "C390050_583950": [
+      1203,
+      4711
+    ],
+    "C390150_583950": [
+      4163,
+      4711
+    ]
+  },
+  "limita_px": [
+    [
+      3636.9,
+      932.0
+    ],
+    [
+      4061.8,
+      929.8
+    ],
+    [
+      4982.0,
+      1423.4
+    ],
+    [
+      4751.4,
+      1883.2
+    ],
+    [
+      4680.5,
+      1847.2
+    ],
+    [
+      4437.0,
+      2355.4
+    ],
+    [
+      4427.0,
+      2376.4
+    ],
+    [
+      4196.7,
+      2856.9
+    ],
+    [
+      4177.2,
+      2897.4
+    ],
+    [
+      4133.9,
+      2874.2
+    ],
+    [
+      3894.2,
+      3353.3
+    ],
+    [
+      3231.8,
+      3031.0
+    ],
+    [
+      3229.4,
+      3035.8
+    ],
+    [
+      2991.7,
+      3508.8
+    ],
+    [
+      2823.3,
+      3843.8
+    ],
+    [
+      2891.6,
+      4052.8
+    ],
+    [
+      2282.6,
+      3763.1
+    ],
+    [
+      2374.4,
+      3741.4
+    ],
+    [
+      2531.4,
+      3704.4
+    ],
+    [
+      2605.4,
+      3556.6
+    ],
+    [
+      2702.0,
+      3363.6
+    ],
+    [
+      2475.2,
+      3250.5
+    ],
+    [
+      2242.3,
+      3134.4
+    ],
+    [
+      1968.6,
+      2998.0
+    ],
+    [
+      2206.0,
+      2524.7
+    ],
+    [
+      2443.7,
+      2051.8
+    ],
+    [
+      3149.7,
+      2404.2
+    ],
+    [
+      3176.2,
+      2417.4
+    ],
+    [
+      3414.1,
+      1944.5
+    ],
+    [
+      3808.0,
+      1172.0
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      7205,
+      770,
+      7990,
+      2097
+    ],
+    [
+      7205,
+      2097,
+      7925,
+      2144
+    ],
+    [
+      7205,
+      2144,
+      7700,
+      2310
+    ],
+    [
+      5972,
+      75,
+      6995,
+      1600
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Li/c_a*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime – locuințe individuale și/sau semicolective (familiale), cu maximum două unități locative pe parcelă; regim de construire izolat; șase parcele de câte 500 mp și str. Vasile Velican (1.320 mp), 4.320 mp în total (în locul ULi/c – zonă de urbanizare)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă/atic ultim nivel neretras și 12 m la coamă/atic nivel retras"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-06-13",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare (ședința din 13.06.2025); `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de construire: Art. 1 admite numai regim izolat; caseta UTR de pe planșă descrie locuințe „de tip izolat, cuplat, înșiruit, covor” și dă suprafața minimă a parcelei „min. 300 mp loc. cuplate, min. 360 loc. individuale” și frontul „min. 12,00 m”, iar regulamentul (Anexa 1) cere front de min. 15 m pentru locuințele izolate și min. 500 mp (izolate), 300 mp (cuplate), 450 mp (parcela de colț). Parcelele desenate au toate 500 mp.",
+    "Planșa dă doar P.O.T. 35%, C.U.T. 0,9 și regimul „(S)+P+1+M/R” (la fel ca textul); configurațiile D+P+M și D+P+R și înălțimile maxime (8 m la cornișă/atic, 12 m la coamă/atic nivel retras) vin numai din Art. 1.",
+    "Retragerea față de limita posterioară: planșa cotează 6,00 m („min. 6 m sau H”); Art. 1 cere o distanță cel puțin egală cu înălțimea clădirii, dar nu mai puțin de 6 m. Lateral, planșa desenează 3 m față de toate limitele; Art. 1 permite alipirea garajelor de limitele laterale, cu calcan de cel mult 2,8 m, și cere retragerea garajelor cu min. 6 m de la aliniament și de la limita posterioară.",
+    "Inventarul de coordonate al planșei („Suprafata PUZ”, 5.621 mp) cuprinde și parcela municipiului nr. topo 22773/1/1/1/1/1/1/1/1/1 (1.301 mp), pe care Art. 1 n-o enumeră și pe care avizul Arhitectului-șef nr. 291/2024 o scoate din P.U.Z.; harta arată zona reglementată de 4.320 mp, ca linia roșie și bilanțul planșei."
+  ],
+  "conditii": [
+    "Strada Vasile Velican se echipează edilitar complet (apă-canal, electricitate, gaz), pe bază de proiecte de specialitate, înainte de recepția locuințelor.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Accese din str. Vasile Velican: pe parcelă câte un acces auto și un acces pietonal pentru fiecare unitate locativă; pentru căile din interiorul parcelelor se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o locuință cu arie utilă sub 100 mp și două peste 100 mp; locuințele semicolective, un loc pentru fiecare unitate locativă.",
+    "Retrageri: min. 3 m față de aliniament (garajele min. 6 m, ca să se poată parca o mașină în față); toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule provizorii de grădină de cel mult 15 mp în total; lateral min. 3 m (garajele se pot alipi limitelor laterale, cu calcan de max. 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m (garajele min. 6 m).",
+    "Toate construcțiile se racordează la rețelele edilitare edificate, disponibile și funcționale.",
+    "Regulamentul (Anexa 1): sunt interzise locuințele colective și orice clădire cu mai mult de două unități locative, precum și terasamentele care afectează spațiile publice sau parcelele vecine; spațiile verzi pe sol natural ocupă min. 40% din parcelă și min. 60% din grădina de fațadă; tăierea arborilor maturi e interzisă, în afară de cazurile de pericol sau când împiedică realizarea construcțiilor; spre stradă, împrejmuire cu soclu opac de max. 80 cm și parte transparentă, înaltă de max. 2,2 m; spre vecini, max. 2,2 m."
+  ]
+}
