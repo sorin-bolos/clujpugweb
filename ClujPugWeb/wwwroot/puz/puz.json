@@ -7270,6 +7270,86 @@
   ]
  },
  {
+  "id": "2026-28",
+  "localitate": "cluj",
+  "hcl": "28/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z. – de urbanizare (Construire locuințe cu regim redus de înălțime), str. Silvaniei – nord",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-28-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/28.pdf",
+  "utr": [
+   {
+    "cod": "Licd",
+    "denumire": "Locuințe individuale, de densitate mică, cu regim redus de înălțime (3 loturi) – locuințe unifamiliale cu anexe; admise cu condiționări locuințe semicolective, cel mult două unități locative pe parcelă; regim de construire izolat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul ultimului nivel"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuar, grădină cu acces public nelimitat (lotul S_Va de la colțul de sud-vest)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "P; 4 m"
+   }
+  ],
+  "suprafata_m2": 5056,
+  "imagine": "puz/2026-28/plansa.webp",
+  "bounds": {
+   "west": 23.6342479,
+   "south": 46.7982449,
+   "east": 23.6353566,
+   "north": 46.7990157
+  },
+  "limita": [
+   [
+    23.6352293,
+    46.7990007
+   ],
+   [
+    23.6353318,
+    46.7983292
+   ],
+   [
+    23.6342915,
+    46.7982609
+   ],
+   [
+    23.6344839,
+    46.7989168
+   ],
+   [
+    23.6350211,
+    46.7989951
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 7,
+   "rms_m": 1.66,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-28/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime în U.T.R. Licd: planșa (caseta „Reglementări urbanistice” și etichetele loturilor) dă doar S+P+1+R și înălțimea maximă de 12 m; hotărârea (Art. 1) admite (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R și limitează înălțimea la cornișă sau la aticul ultimului nivel neretras la 8 m, pe lângă cei 12 m la coamă.",
+   "U.T.R.-ul spațiului verde se cheamă „S_Va*” în hotărâre și „SVa” pe planșă; indicatorii (P.O.T. 5%, C.U.T. 0,1, P, 4 m) sunt aceiași."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii str. Silvaniei (fâșia hașurată de pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF cu titlul „drum”; până la recepția construcțiilor se aduce la strat de uzură.",
+   "Spațiul verde cu acces public nelimitat (U.T.R. S_Va*) se amenajează pe baza unui proiect de specialitate, înainte de recepția locuințelor.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Pe partea parcelelor încadrată în U.T.R. A rămân valabile prevederile regulamentului P.U.G.",
+   "Licd: clădirile se retrag cel puțin 6 m de la aliniament (cu alinierea obligatorie), cel puțin 3 m de la limitele laterale și cel puțin cât înălțimea, minimum 6 m, de la limita posterioară; toate construcțiile stau în fâșia de 45 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total; garajele se retrag 6 m de la aliniament și de la limita posterioară.",
+   "Licd: accesul pe parcele se face din str. Silvaniei, cu acces carosabil de cel mult 4 m lățime, practicabil pentru pompieri; parcarea se face pe parcelă (un loc pentru o clădire sub 100 mp arie utilă, două peste); toate utilitățile se racordează la rețelele publice; fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public.",
+   "S_Va*: parcarea e interzisă; apele pluviale nu se conduc spre domeniul public sau spre vecini; cablurile nu se pozează aerian; se amenajează un spațiu pentru deșeuri accesibil din spațiul public și unul pentru compost."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

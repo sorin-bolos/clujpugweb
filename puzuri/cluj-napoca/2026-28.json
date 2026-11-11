@@ -1,0 +1,231 @@
+{
+  "id": "2026-28",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 28,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-28-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/28.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare (Construire locuințe cu regim redus de înălțime), str. Silvaniei – nord",
+  "plansa": {
+    "pagina_pdf": 10,
+    "dpi": 300,
+    "denumire": "U05 – Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "PDF-ul are 10 pagini: hotărârea (p. 1-2), regulamentul local de urbanism – Anexa 1 (p. 3-9) și planșa U05 „Reglementări urbanistice” – Anexa 2 (p. 10), singura planșă din PDF: micșorată pe A4 și culcată (textul se citește de jos în sus), scanată alb-negru la 300 ppi, cu ștampila Consiliului Local. Cartușul: planșa U05 „Reglementări urbanistice”, scara 1:1000, 10.2025, proiect 005-2022; hotărârea o numește „U. 05 – Plan reglementări urbanistice”. Scara imaginii e de ~3,8 px/m (cotele 69,8 m, 15,0 m și 44,2 m o confirmă), adică planșa e tipărită la ~32% din 1:1000; nordul e spre stânga (roza vânturilor). Limita publicată e a zonei „reglementate specific prin P.U.Z.” (bilanțul ei: 5.044 mp = 4.256 mp Licd + 466 mp S_Va + 322 mp fâșia de lărgire a str. Silvaniei): cele trei loturi Licd, lotul S_Va și fâșia de lărgire. „Limita zonei studiate prin P.U.Z. etapa 1” (linia întreruptă groasă, 13.235 mp) mai cuprinde partea de nord a acelorași trei parcele (nr. cad. 302487, 318033, 318032), care rămâne în UTR A cu regulamentul P.U.G. (4.067 mp = 1.045 + 1.490 + 1.490 + 42 mp), și str. Silvaniei până la B-dul Muncii (4.124 mp); acestea nu sunt pe hartă. Legenda cuprinde cheia simbolurilor (limite, reglementări propuse, zonificarea existentă) și caseta „Reglementări urbanistice” cu semnificația U.T.R.-urilor, rotite cu 90°; au rămas afară bilanțurile teritoriale, profilele stradale II.B și III.E, planul de încadrare, roza vânturilor, cartușul, semnăturile și ștampilele. Legenda e mică, dar lizibilă."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, din extrasul OSM din repo, date din 2026-11-08): colțuri de clădiri existente desenate pe planșă și prezente în OSM. Control: M_SV și M_ANEX_SE (clădirea comercială mare P+1E de la colțul str. Silvaniei cu B-dul Muncii: colțul de sud-vest și colțul de sud-est al anexei dinspre bulevard), N1_SE (casa P+1E în formă de L de la ~70 m est de zonă, colțul de sud-est), N2_NE (casa P+1E de lângă ea, spre zonă, colțul de nord-est), BA_NE și BB_NE (casele P+1E+R de la sud de str. Silvaniei, în fața zonei, colțurile de nord-est), W_SV (casa P+M de la vest de tronsonul nord-sud al str. Silvaniei, colțul de sud-vest); verificare: M_NV (clădirea comercială, colțul de nord-vest), W_NE (casa P+M, colțul de nord-est), P1E_SV (casa P+1E de lângă ea, fără alt punct, colțul de sud-vest) și BA_SV (prima casă P+1E+R, colțul de sud-vest). Ancora de pornire: intersecția axelor str. Silvaniei / B-dul Muncii, apoi colțul de sud-vest al clădirii comerciale. Potrivirea dă 3,8 px/m și o rotație de -90,67° (nordul spre stânga), aceeași scară ca a cotelor. Limita e trasată (`limita_px`), pe centrele liniilor găsite după pixelii întunecați: latura de nord pe linia cu steluțe a zonei reglementate (frântă la capătul lotului de est: 15,0 + 44,2 m pe planșă), laturile de est și de vest pe linia întreruptă groasă a zonei studiate (limitele parcelelor 302487 și 318032), latura de sud pe frontul existent al parcelelor la str. Silvaniei, adică marginea dinspre carosabil a fâșiei hașurate de lărgire, paralelă cu limita de peste drum. Aria trasată: 5.055,5 mp la scara potrivirii (+0,2% față de 5.044 mp din bilanțul zonei reglementate).",
+    "suprafata_declarata_m2": 5044.0,
+    "puncte": {},
+    "nota": "Planșa nu are inventar de coordonate al limitei și nici caroiaj Stereo 70. Tabelul „Inventar de coordonate” din desen (câteva zeci de puncte, X/Y/Z) e al ridicării topografice, cu cote: numerele punctelor nu sunt scrise pe desen, iar cifrele, micșorate la ~1 mm, nu se pot citi sigur; de aceea s-a folosit metoda OSM. Clădirile OSM desenate ca dreptunghiuri identice de 10,9 × 13,2 m (de ex. cele trei case de la est de tronsonul nord-sud al str. Silvaniei, la ~140 m nord de B-dul Muncii) n-au fost folosite: sunt schematice. Casa N2 e în OSM mai mare decât pe planșă (13 × 17 m față de 11 × 14 m), de unde reziduul ei de 2,3 m; la BB_NE (2,4 m), OSM pune casa cu ~3 m mai la sud decât ortofoto. Pe ortofoto, pe frontul loturilor de est, la str. Silvaniei, sunt câteva construcții mici (acoperișuri albe și albastre) care nu apar pe planșă."
+  },
+  "gcp_px": {
+    "M_SV": [
+      1755,
+      2775
+    ],
+    "N1_SE": [
+      638,
+      2154
+    ],
+    "BA_NE": [
+      950,
+      2583
+    ],
+    "BB_NE": [
+      1003,
+      2582
+    ],
+    "N2_NE": [
+      592,
+      2253
+    ],
+    "M_ANEX_SE": [
+      1777,
+      2660
+    ],
+    "W_SV": [
+      1297,
+      3036
+    ]
+  },
+  "verificare_px": {
+    "M_NV": [
+      1662,
+      2775
+    ],
+    "W_NE": [
+      1261,
+      2990
+    ],
+    "P1E_SV": [
+      1346,
+      2936
+    ],
+    "BA_SV": [
+      979,
+      2646
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      675,
+      248,
+      1195,
+      1395,
+      90
+    ],
+    [
+      1480,
+      285,
+      1540,
+      600,
+      90
+    ],
+    [
+      1540,
+      195,
+      1830,
+      600,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Licd",
+      "denumire": "Locuințe individuale, de densitate mică, cu regim redus de înălțime (3 loturi) – locuințe unifamiliale cu anexe; admise cu condiționări locuințe semicolective, cel mult două unități locative pe parcelă; regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul ultimului nivel"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuar, grădină cu acces public nelimitat (lotul S_Va de la colțul de sud-vest)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "P; 4 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime în U.T.R. Licd: planșa (caseta „Reglementări urbanistice” și etichetele loturilor) dă doar S+P+1+R și înălțimea maximă de 12 m; hotărârea (Art. 1) admite (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R și limitează înălțimea la cornișă sau la aticul ultimului nivel neretras la 8 m, pe lângă cei 12 m la coamă.",
+    "U.T.R.-ul spațiului verde se cheamă „S_Va*” în hotărâre și „SVa” pe planșă; indicatorii (P.O.T. 5%, C.U.T. 0,1, P, 4 m) sunt aceiași."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii str. Silvaniei (fâșia hașurată de pe planșă) se dezmembrează din parcelele inițiale și se înscrie în CF cu titlul „drum”; până la recepția construcțiilor se aduce la strat de uzură.",
+    "Spațiul verde cu acces public nelimitat (U.T.R. S_Va*) se amenajează pe baza unui proiect de specialitate, înainte de recepția locuințelor.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Pe partea parcelelor încadrată în U.T.R. A rămân valabile prevederile regulamentului P.U.G.",
+    "Licd: clădirile se retrag cel puțin 6 m de la aliniament (cu alinierea obligatorie), cel puțin 3 m de la limitele laterale și cel puțin cât înălțimea, minimum 6 m, de la limita posterioară; toate construcțiile stau în fâșia de 45 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total; garajele se retrag 6 m de la aliniament și de la limita posterioară.",
+    "Licd: accesul pe parcele se face din str. Silvaniei, cu acces carosabil de cel mult 4 m lățime, practicabil pentru pompieri; parcarea se face pe parcelă (un loc pentru o clădire sub 100 mp arie utilă, două peste); toate utilitățile se racordează la rețelele publice; fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public.",
+    "S_Va*: parcarea e interzisă; apele pluviale nu se conduc spre domeniul public sau spre vecini; cablurile nu se pozează aerian; se amenajează un spațiu pentru deșeuri accesibil din spațiul public și unul pentru compost."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      1755,
+      2775
+    ],
+    "en": [
+      395861.2,
+      589418.6
+    ],
+    "px_per_m": 3.7,
+    "nord": 270
+  },
+  "repere": {
+    "M_SV": [
+      589418.57,
+      395861.17
+    ],
+    "N1_SE": [
+      589711.59,
+      396029.52
+    ],
+    "BA_NE": [
+      589632.32,
+      395914.1
+    ],
+    "BB_NE": [
+      589615.4,
+      395915.49
+    ],
+    "N2_NE": [
+      589726.76,
+      396000.85
+    ],
+    "M_ANEX_SE": [
+      589412.48,
+      395891.75
+    ],
+    "W_SV": [
+      589543.15,
+      395792.55
+    ],
+    "M_NV": [
+      589444.25,
+      395860.92
+    ],
+    "W_NE": [
+      589551.05,
+      395804.59
+    ],
+    "P1E_SV": [
+      589527.43,
+      395820.52
+    ],
+    "BA_SV": [
+      589623.74,
+      395895.94
+    ]
+  },
+  "repere_osm": {
+    "M_SV": "colț de clădire (b277372444_1)",
+    "N1_SE": "colț de clădire (b1513974554_5)",
+    "BA_NE": "colț de clădire (b1513974544_2)",
+    "BB_NE": "colț de clădire (b1513974541_2)",
+    "N2_NE": "colț de clădire (b1513974555_2)",
+    "M_ANEX_SE": "colț de clădire (b277372444_4)",
+    "W_SV": "colț de clădire (b1513974546_0)",
+    "M_NV": "colț de clădire (b277372444_0)",
+    "W_NE": "colț de clădire (b1513974546_2)",
+    "P1E_SV": "colț de clădire (b1513974547_0)",
+    "BA_SV": "colț de clădire (b1513974544_0)"
+  },
+  "limita_px": [
+    [
+      594,
+      2427
+    ],
+    [
+      876,
+      2399
+    ],
+    [
+      903,
+      2699
+    ],
+    [
+      628,
+      2642
+    ],
+    [
+      596,
+      2487
+    ]
+  ]
+}
