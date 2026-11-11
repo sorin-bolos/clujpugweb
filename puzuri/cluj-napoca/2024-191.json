@@ -1,0 +1,317 @@
+{
+  "id": "2024-191",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 191,
+    "an": 2024,
+    "data_sedinta": "2024-04-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-191-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/191.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă rezidențială, str. Galaction Liviu Munteanu – est",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 200,
+    "denumire": "A_PUZ_03 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul hotărârii are 19 pagini A4 scanate la 200 ppi: hotărârea semnată (p. 1-4), Anexa 1 R.L.U. (p. 5-17), Anexa 2, planșa A_PUZ_03 Plan reglementări urbanistice (p. 18, singura copie), și Anexa 3, planșa A_PUZ_04 Plan obiective de utilitate publică și circulația terenurilor (p. 19, tipărită culcat). Cartușul p. 18: proiectant SPIN STUDIO SRL, pr. nr. 17/2017, faza P.U.Z., 02.2024, scara 1/500, format A2. Planșa A2 e redusă pe A4: 6,2 px/m, față de 15,7 px/m cât ar avea la 1:500 și 200 ppi (cam 39 %), așa că cifrele mici se citesc greu, iar inventarul de coordonate nu se poate folosi (vezi coordonate.sursa). Nordul e în sus (potrivirea dă o rotație de -0,4°). Zona reglementată (11.769 mp, cele patru parcele din R.L.U.: nr. cad. 284262, 262498, 297519 – drum, 326084) cuprinde terenul dintre zona hașurată a P.U.D.-ului aprobat cu HCL 37/2016 (nord), limita intravilanului (est), str. prof. Nicolae Mărgineanu (sud) și UTR Ve (vest), plus culoarul de acces spre str. Galaction Liviu Munteanu. Legenda ia cheia simbolurilor (obiective existente și propuse, zonificare UTR, circulații, terenuri și clădiri existente) și casetele UTR de sub planșă (Lid*, S_Is*, S_Va*, cu P.O.T., C.U.T., regim și înălțime, S min); lasă deoparte inventarul de coordonate, cele trei bilanțuri, necesarul de parcare, cartușul, avizul arhitectului-șef și ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm; extrasul OSM din 2026-11-08). Planșa n-are caroiaj Stereo 70, iar tabelul de coordonate din stânga-jos (cam 40 de puncte numerotate 1053, 1054, 10, 9, 1055…, cu X, Y și cote Z de 610-620 m, deci puncte de ridicare topografică, nu un inventar al limitei) e ilizibil pe planșa redusă pe A4: cifrele se topesc chiar și mărite de 6 ori, iar numerele punctelor nu apar lângă colțurile limitei. Ancora de pornire: intersecția str. Galaction Liviu Munteanu / str. Prof. Nicolae Mărgineanu / str. Haller Károly (axele străzilor din OSM, E 391517,4 N 580980,8), la (610, 1709) pe planșă, cu 6,1 px/m și nordul în sus. Control: X_Marg (aceeași intersecție), B2_SE (colțul de sud-est al casei de la nord de zonă, în zona P.U.D.-ului HCL 37/2016), L_NV (colțul de nord-vest al clădirii în L de la nord-vest), A_NV și A_SE (casa dintre str. Galaction și zona Ve, la vest de partea de sud a zonei). Verificare: D_SE și D_SV (casa vecină de la est de A, ținută deoparte în întregime) și B2_SV (alt colț al casei B2). Doar clădiri care au aceeași formă pe planșă și în OSM: multe case din jur sunt desenate simplificat sau au alt contur în OSM și au fost lăsate deoparte (de exemplu casa mare de la vest de str. Galaction, unde colțul nord-estic s-ar fi prins de alt colț OSM). La A_SE erau două colțuri OSM la 0,4 m distanță unul de altul; s-a ales colțul aceleiași case ca A_NV (b980668094). Limita e trasată (`limita_px`) pe conturul zonei reglementate: linia cu perle a zonei studiate pe vest, est și sud, marginea zonei hașurate a P.U.D.-ului la nord, treapta de la casa 287330 la sud-vest și culoarul de acces (nr. cad. 297519, drum) spre str. Galaction Liviu Munteanu. Aria trasată, 11.667 mp, față de 11.769 mp din bilanțul teritorial și din R.L.U. (-0,9 %). Planșa întreagă proiectată peste imaginea satelitară și peste OSM pune str. Galaction, str. Mărgineanu și casele din jur la 1-3 m de cele reale.",
+    "suprafata_declarata_m2": 11769,
+    "puncte": {}
+  },
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      610,
+      1709
+    ],
+    "en": [
+      391517.4,
+      580980.8
+    ],
+    "px_per_m": 6.1,
+    "nord": 0
+  },
+  "gcp_px": {
+    "X_Marg": [
+      610,
+      1709
+    ],
+    "L_NV": [
+      771,
+      558
+    ],
+    "B2_SE": [
+      1006,
+      440
+    ],
+    "A_NV": [
+      546,
+      1288
+    ],
+    "A_SE": [
+      654,
+      1321
+    ]
+  },
+  "verificare_px": {
+    "D_SE": [
+      823,
+      1379
+    ],
+    "D_SV": [
+      728,
+      1404
+    ],
+    "B2_SV": [
+      961,
+      440
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1160,
+      118,
+      1545,
+      722
+    ],
+    [
+      462,
+      1818,
+      706,
+      2196
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lid*",
+      "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă – locuințe individuale (unifamiliale) și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine); regim de construire izolat; 10 parcele",
+      "pot_max": "20%",
+      "cut_max": "0,4",
+      "h_max": "8 m la cornișă sau atic, 12 m la coamă; două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public – funcțiuni administrative, de cultură, de învățământ și cercetare, de sănătate și asistență socială, de cult; regim de construire deschis, izolat; o parcelă",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "8 m la cornișă sau atic, 12 m la coamă; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, ultimul nivel retras cu cel puțin 1,8 m spre stradă"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat (plantații, alei, mobilier urban, locuri de joacă și odihnă); două parcele",
+      "pot_max": "0%",
+      "cut_max": "0",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-04-15",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare (15.04.2024); nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "S_Va*: caseta de pe planșă dă P.O.T. max 5 % și C.U.T. max 0,1; Art. 1 dă P.O.T. max 0 % și C.U.T. max 0.",
+    "Lid*: în caseta de pe planșă înălțimea la cornișă pare „6 m” (cifra e neclară pe scanarea redusă); Art. 1 dă 8 m la cornișă sau atic și 12 m la coamă.",
+    "Suprafața minimă a parcelei apare doar pe planșă (Lid*: 600 sau 800 mp, cifră neclară; S_Is*: 1000 mp); Art. 1 n-o fixează.",
+    "Legenda planșei are o singură retragere din aliniament, 4 m; Art. 1 cere 4 m pentru Lid*, dar 5 m pentru S_Is*."
+  ],
+  "conditii": [
+    "Se reglementează 11.769 mp proprietate privată (nr. cad. 284262, 262498, 297519 și 326084) de pe latura de est a str. Galaction Liviu Munteanu, până la str. prof. Nicolae Mărgineanu: 10 parcele pentru locuințe unifamiliale (Lid*), o parcelă pentru instituții și servicii publice sau de interes public (S_Is*), două parcele de spațiu verde cu acces public nelimitat (S_Va*) și străzile.",
+    "Lid*: clădirile se aliniază la 4 m de aliniament (pe parcelele de colț, față de ambele), garajele la cel puțin 6 m; la cel puțin 4,5 m de limitele laterale (garajele pot fi alipite, cu calcan de cel mult 2,8 m); de limita posterioară, cel puțin cât înălțimea clădirii și nu mai puțin de 12 m.",
+    "S_Is*: retragere de 5 m de la aliniament, cel puțin 4,5 m față de limitele laterale și cel puțin înălțimea clădirii, minimum 8 m, față de limita posterioară.",
+    "Parcelele au acces doar din strada „A” propusă (ampriză de 6,5 m și 9 m pe tronsonul cu parcele construibile), care leagă str. prof. Nicolae Mărgineanu de str. Galaction Liviu Munteanu și are acces public nelimitat; pe o parcelă, un singur acces pietonal și unul carosabil (cel mult 3 m lățime la Lid*, 6 m la S_Is*).",
+    "Parcarea se face în interiorul parcelei: două locuri pentru o locuință unifamilială (cel puțin unul în clădire sau în garaj), două pentru servicii de proximitate, celelalte după Anexa 2 a R.L.U. al P.U.G.; pe zonele verzi parcarea e interzisă.",
+    "Utilitățile se racordează la rețelele publice; până la canalizarea publică, apele uzate se epurează în sisteme individuale pe parcelă; apele pluviale se rețin pe loc și nu se scurg spre domeniul public sau spre vecini; cablurile nu se montează aerian; fiecare parcelă are o platformă pentru deșeuri.",
+    "Strada „A” se înscrie în CF ca „drum”, se echipează edilitar și se face la strat de uzură, pe bază de proiect, înainte de autorizațiile de construire pe parcelele cu acces din ea; trotuarele și iluminatul stradal se fac până la recepția construcțiilor.",
+    "Terenul pentru lărgirea str. prof. Nicolae Mărgineanu pe tronsonul de lângă P.U.Z. se dezmembrează și se înscrie în CF ca „drum” înainte de autorizațiile de construire; până la recepția construcțiilor se asfaltează și se transferă gratuit în domeniul public (planșa A_PUZ_04).",
+    "Str. prof. Nicolae Mărgineanu se aduce la strat de uzură înainte de recepția construcțiilor, pe tronsonul de lângă P.U.Z. și până la intersecția cu str. Galaction Liviu Munteanu.",
+    "Zonele verzi S_Va* se dezmembrează, se înscriu în CF ca „spațiu verde cu acces public nelimitat” și se amenajează pe bază de proiect înainte de recepția construcțiilor de pe frontul vestic al străzii „A”, cu vegetație joasă, medie și înaltă (cel puțin 3 arbori cu circumferința de minimum 35 cm la 1 m de colet).",
+    "Imobilul nr. cad. 326084 se înscrie în CF ca „drum” înainte de autorizația de construire pe parcelă.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "repere": {
+    "X_Marg": [
+      580980.79,
+      391517.37
+    ],
+    "L_NV": [
+      581167.66,
+      391542.43
+    ],
+    "B2_SE": [
+      581185.74,
+      391581.82
+    ],
+    "A_NV": [
+      581051.27,
+      391504.87
+    ],
+    "D_SE": [
+      581037.57,
+      391549.81
+    ],
+    "D_SV": [
+      581032.39,
+      391534.96
+    ],
+    "B2_SV": [
+      581184.91,
+      391571.95
+    ],
+    "A_SE": [
+      581047.39,
+      391522.84
+    ]
+  },
+  "repere_osm": {
+    "X_Marg": "intersecție Strada Galaction Liviu Munteanu / Strada Haller Károly / Strada Nicolae Mărgineanu (x169340385_321126492)",
+    "L_NV": "colț de clădire (b980666715_1)",
+    "B2_SE": "colț de clădire (b980668089_3)",
+    "A_NV": "colț de clădire (b980668094_0)",
+    "D_SE": "colț de clădire (b980668096_2)",
+    "D_SV": "colț de clădire (b980668096_3)",
+    "B2_SV": "colț de clădire (b980668089_0)",
+    "A_SE": "colț de clădire (b980668094_2)"
+  },
+  "limita_px": [
+    [
+      706,
+      735
+    ],
+    [
+      822,
+      712
+    ],
+    [
+      1110,
+      648
+    ],
+    [
+      1130,
+      680
+    ],
+    [
+      1162,
+      740
+    ],
+    [
+      1198,
+      846
+    ],
+    [
+      1225,
+      900
+    ],
+    [
+      1252,
+      968
+    ],
+    [
+      1305,
+      1120
+    ],
+    [
+      1345,
+      1190
+    ],
+    [
+      1385,
+      1272
+    ],
+    [
+      1420,
+      1350
+    ],
+    [
+      1455,
+      1422
+    ],
+    [
+      1490,
+      1500
+    ],
+    [
+      1517,
+      1580
+    ],
+    [
+      1528,
+      1605
+    ],
+    [
+      1300,
+      1603
+    ],
+    [
+      1200,
+      1596
+    ],
+    [
+      1100,
+      1588
+    ],
+    [
+      1050,
+      1583
+    ],
+    [
+      938,
+      1226
+    ],
+    [
+      812,
+      1264
+    ],
+    [
+      728,
+      845
+    ],
+    [
+      723,
+      820
+    ],
+    [
+      550,
+      869
+    ],
+    [
+      400,
+      908
+    ],
+    [
+      402,
+      866
+    ],
+    [
+      420,
+      860
+    ],
+    [
+      480,
+      843
+    ],
+    [
+      550,
+      824
+    ],
+    [
+      640,
+      801
+    ],
+    [
+      716,
+      783
+    ]
+  ]
+}
