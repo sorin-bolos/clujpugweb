@@ -21946,15 +21946,21 @@
    "Înainte de autorizația de construire a oricărei clădiri din UTR Lcm: terenul necesar regularizării aleii Nirajului și a str. Dionisie Roman se dezmembrează și se înscrie în cartea funciară ca drum, și se aduce la aceeași îmbrăcăminte ca aceste străzi (strat de uzură).",
    "Tot înainte de autorizații: se dezmembrează și se înscriu în cartea funciară subzona verde S_Va_Lcm (~939 mp, ca „alei și spații verzi”) și parcelele A (~355 mp) și B (~750 mp) din S_Is_Lcm; se echipează edilitar și se construiesc carosabilele străzilor A și B, cu locurile de parcare de pe carosabil, pe bază de proiecte de specialitate.",
    "Înainte de recepția oricărei clădiri din UTR Lcm: partea pietonală a străzilor A și B se aduce la strat de uzură, cu mobilier urban, iluminat și arbori de aliniament (circumferință de cel puțin 35 cm la 1 m de colet), dispuși ca pe planșa U5.",
-   "Înainte de recepție: clădirea creșei/grădiniței de pe parcela B din S_Is_Lcm, realizată la nivel semifinisat, trece gratuit în proprietatea publică împreună cu terenul ei (planșa U6).",
-   "Înainte de recepție: subzona verde S_Va_Lcm se amenajează pe baza unui proiect și trece gratuit în domeniul public.",
-   "Înainte de recepție: trec gratuit în domeniul public terenurile amenajate pentru parcările publice (relocarea în P.U.Z. a 9 parcări publice de pe str. Nirajului și a 11 de pe str. Dionisie Roman) și terenurile dezmembrate și amenajate pentru regularizarea aleii Nirajului și a str. Dionisie Roman, cu stațiile de încărcare pentru mașini electrice și stațiile de biciclete (planșa U6). Pentru trei dintre aceste terenuri (nr. cad. 289423, 331265 și 331266, 255 mp, cu destinația parcări publice, stații de biciclete și stație de încărcare), preluarea în proprietatea publică a fost aprobată prin HCL 577/2025.",
+   "Înainte de recepție: clădirea creșei/grădiniței de pe parcela B din S_Is_Lcm, realizată la nivel semifinisat, trece gratuit în proprietatea publică împreună cu terenul ei (planșa U6). Preluarea creșei (P+E, construită în 2025) cu terenul ei (nr. cad. 351095, 756 mp) în proprietatea publică a fost aprobată prin HCL 571/2025.",
+   "Înainte de recepție: subzona verde S_Va_Lcm se amenajează pe baza unui proiect și trece gratuit în domeniul public. Preluarea spațiului verde – parc (nr. cad. 351096, 941 mp) în proprietatea publică a fost aprobată prin HCL 571/2025.",
+   "Înainte de recepție: trec gratuit în domeniul public terenurile amenajate pentru parcările publice (relocarea în P.U.Z. a 9 parcări publice de pe str. Nirajului și a 11 de pe str. Dionisie Roman) și terenurile dezmembrate și amenajate pentru regularizarea aleii Nirajului și a str. Dionisie Roman, cu stațiile de încărcare pentru mașini electrice și stațiile de biciclete (planșa U6). Preluarea în proprietatea publică a fost aprobată prin HCL 571/2025 pentru trei terenuri cu destinația de drum (nr. cad. 351097, 351098 și 358345; 800 mp) și trei amenajate pentru parcări publice (nr. cad. 358236, 358237 și 358238; 176 mp), și prin HCL 577/2025 pentru alte trei (nr. cad. 289423, 331265 și 331266, 255 mp, cu destinația parcări publice, stații de biciclete și stație de încărcare).",
    "Circulația (avizul Serviciului Siguranța Circulației nr. 300962/446/17.05.2021): străzile A și B au ampriza de 15 m (profil III F) și sunt deschise circulației publice; str. Dionisie Roman are 12 m de la intersecția cu str. A până la nr. 4 și 15 m de la nr. 4 la nr. 8, cu un prag de sol la trecerea de la 12 la 15 m; aleea Nirajului are 12 m.",
    "Pe frontul nordic al str. Dionisie Roman se amenajează două stații de încărcare pentru mașini electrice și stații de biciclete (planșa U4).",
    "Parcarea în UTR Lcm se face în garaje subterane, după Anexa 2 a regulamentului P.U.G.; parcarea în interiorul parcelelor/cvartalelor de locuit e interzisă, ca și pe spațiile verzi.",
    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiare."
   ],
   "modificat_de": [
+   {
+    "hcl": "571/2025",
+    "data": "2025-08-12",
+    "rezumat": "Municipiul preia în proprietatea privată, pe baza declarației notariale a proprietarilor, și trece apoi în proprietatea publică opt imobile de la str. Dionisie Roman nr. 1 (2.673 mp de teren), cum cere P.U.Z.: creșa de pe parcela B din S_Is_Lcm (P+E, construită în 2025, 413 mp la sol, 612 mp desfășurați) cu terenul ei de 756 mp, spațiul verde – parc din S_Va_Lcm (941 mp), trei terenuri cu destinația de drum pentru regularizarea aleii Nirajului și a str. Dionisie Roman (181, 86 și 533 mp) și trei terenuri amenajate pentru parcări publice (35, 77 și 64 mp). Reglementările, obligațiile și planșa nu se schimbă; hotărârea nu are planșă și nici valabilitate proprie.",
+    "plansa_noua": false
+   },
    {
     "hcl": "577/2025",
     "data": "2025-09-05",

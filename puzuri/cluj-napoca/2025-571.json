@@ -1,0 +1,50 @@
+{
+  "id": "2025-571",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 571,
+    "an": 2025,
+    "data_sedinta": "2025-08-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-571-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/08/12/571.pdf"
+  },
+  "titlu": "Preluarea în proprietatea privată și trecerea în proprietatea publică a municipiului Cluj-Napoca a unor imobile situate în municipiul Cluj-Napoca, strada Dionisie Roman nr. 1, potrivit Hotărârii nr. 399/2022 (aprobarea P.U.Z. de urbanizare – str. Dionisie Roman)",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul hotărârii (571.pdf) are două pagini A4 scanate la 300 ppi: textul hotărârii, semnat și ștampilat, fără anexe și fără planșă; pagina hotărârii nu leagă alt PDF. Hotărârea nu aprobă și nu modifică reglementări: execută obligațiile P.U.Z. de urbanizare – str. Dionisie Roman (HCL 399/2022) de trecere în proprietatea publică a creșei de pe parcela B din UTR S_Is_Lcm, a spațiului verde (UTR S_Va_Lcm), a terenurilor pentru regularizarea aleii Nirajului și a str. Dionisie Roman și a celor amenajate pentru parcări publice. Integrată pe 2026-11-11 în rețeta P.U.Z. de bază, 2022-399 (modificat_de, condiții), republicată în același commit; pe hartă apare în fișa P.U.Z. 399/2022. Suprafețele se potrivesc cu cele din P.U.Z.: 756 mp pentru creșă față de ~750 mp ai parcelei B și 941 mp pentru parc față de ~939 mp ai subzonei S_Va_Lcm (Art. 1 din HCL 399/2022); creșa (P+E, 413,12 mp la sol, 612,22 mp desfășurați pe 756 mp, adică POT ~55% și CUT ~0,81) se încadrează în POT 60%, CUT 2,2 și regimul (1-3)S+P+E ale parcelei B. Imobilele nu sunt delimitate pe planșă, așa că nu s-au localizat pe hartă. Hotărârea înrudită 577/2025, pe baza aceleiași declarații notariale (nr. 926/6.08.2025), preia alte trei terenuri din același P.U.Z. (255 mp, parcări publice, stații de biciclete și de încărcare) și e integrată separat."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [
+    "399/2022"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Art. 1: municipiul preia în proprietatea privată, pe baza declarației autentificate sub nr. 926 din 6.08.2025, opt imobile de la str. Dionisie Roman nr. 1 (2.673 mp de teren în total): nr. cad. 351095 (teren de 756 mp, cu creșa – construcție de învățământ și cercetare, P+E, edificată în 2025, 413,12 mp construiți la sol și 612,22 mp desfășurați, nr. cad. 351095-C1), nr. cad. 351096 (teren de 941 mp, spațiu verde – parc), nr. cad. 351097, 351098 și 358345 (terenuri de 181, 86 și 533 mp, cu destinația de drum) și nr. cad. 358236, 358237 și 358238 (terenuri de 35, 77 și 64 mp, amenajate pentru parcări publice, potrivit adresei Direcției Generale de Urbanism nr. 673195/7.08.2025).",
+    "Art. 2: cele opt imobile trec din proprietatea privată în proprietatea publică a municipiului, cu destinația de creșă, zonă verde – parc, parcări publice și regularizarea aleii Nirajului și a str. Dionisie Roman, potrivit HCL 399/2022.",
+    "Art. 3-4: comisia de inventariere a domeniului public actualizează inventarul; executarea revine direcțiilor Patrimoniu, Economică, Generală de Urbanism, Tehnică și Ecologie urbană și spații verzi."
+  ],
+  "valabilitate": {
+    "nota": "Hotărârea nu are valabilitate proprie și nu schimbă valabilitatea P.U.Z.-ului aprobat prin HCL 399/2022 (5 ani, până la 4.05.2027). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate. Adoptată cu 20 de voturi, în ședința extraordinară convocată de îndată din 12.08.2025."
+  },
+  "hotarare_text": "documente/2025-571/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2022-399"
+}
