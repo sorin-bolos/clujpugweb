@@ -7538,6 +7538,97 @@
   ]
  },
  {
+  "id": "2026-25",
+  "localitate": "cluj",
+  "hcl": "25/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z. – Instituire subzonă de servicii publice și de interes public, str. Voroneț nr. 4",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-25-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/25.pdf",
+  "utr": [
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public constituite în clădiri dedicate, situate în afara zonei centrale – funcțiunea predominantă: funcțiuni de cult și utilizări conexe (casă parohială, platforme carosabile și pietonale, filigorii etc.); regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "2,2 (ADC/mp)",
+    "h_max": "(S)+P+E; 19 m pentru clădirile de cult, 10 m pentru alte construcții"
+   },
+   {
+    "cod": "Vpr",
+    "denumire": "Zonă verde cu rol de protecție față de infrastructura majoră, plantații de stabilizare a versanților, de protecție sanitară și de reconstrucție ecologică – se mențin prevederile R.L.U. aferent P.U.G. (colțul de sud-est al parcelei, 1.156,69 mp)",
+    "pot_max": "0% (planșa)",
+    "cut_max": "0,0 (planșa)",
+    "h_max": ""
+   }
+  ],
+  "suprafata_m2": 3401,
+  "imagine": "puz/2026-25/plansa.webp",
+  "bounds": {
+   "west": 23.6460913,
+   "south": 46.7975171,
+   "east": 23.6470511,
+   "north": 46.798443
+  },
+  "limita": [
+   [
+    23.6470063,
+    46.79841
+   ],
+   [
+    23.6469573,
+    46.7976012
+   ],
+   [
+    23.6462433,
+    46.7975418
+   ],
+   [
+    23.646138,
+    46.7975331
+   ],
+   [
+    23.6461383,
+    46.7975344
+   ],
+   [
+    23.646259,
+    46.7977604
+   ],
+   [
+    23.6464332,
+    46.7979651
+   ],
+   [
+    23.6468384,
+    46.798299
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.13
+  },
+  "legenda": "puz/2026-25/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2031-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Caseta U.T.R. S_Is* de pe planșă dă doar „H cornișă max. 10 m” și regimul (S)+P+E; hotărârea (Art. 1), ca și regulamentul, admite 19 m pentru clădirile de cult și 10 m pentru celelalte construcții.",
+   "Planșa numește subzona generic („instituții și servicii publice și de interes public”); hotărârea precizează funcțiunea predominantă: funcțiuni de cult și utilizări conexe (casă parohială, platforme, filigorii)."
+  ],
+  "conditii": [
+   "Terenul necesar lărgirii str. Voroneț (316,12 mp în bilanțul planșei, profil tip III.E de 10 m) se dezmembrează din parcelă și se înscrie în CF cu titlul „drum” înainte de emiterea autorizației de construire, iar până la recepția construcțiilor se aduce la strat de uzură.",
+   "La faza D.T.A.C. documentația se supune avizării în Comisia de Estetică Urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Retrageri: cel puțin 3 m față de aliniamentul str. Voroneț (regularizată); față de limitele laterale H/2, dar cel puțin 4,5 m; față de limita posterioară H/2, dar cel puțin 6 m.",
+   "Acces direct din str. Voroneț; pentru căile pietonale și carosabile din interiorul parcelei se recomandă învelitori permeabile.",
+   "Parcarea: necesarul se dimensionează conform Anexei 2 a regulamentului, însumat pe funcțiuni când pe parcelă sunt mai multe (planșa prevede 2 locuri).",
+   "Toate clădirile se racordează la rețelele edilitare publice.",
+   "Pentru partea de teren din UTR Vpr se mențin prevederile R.L.U. aferent P.U.G."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

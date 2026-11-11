@@ -1,0 +1,157 @@
+{
+  "id": "2026-25",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 25,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-25-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/25.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de servicii publice și de interes public, str. Voroneț nr. 4",
+  "plansa": {
+    "pagina_pdf": 8,
+    "dpi": 300,
+    "denumire": "U02 – Reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul are 8 pagini A4 scanate la 300 ppi: hotărârea (p. 1-2), regulamentul local de urbanism – Anexa 1 (p. 3-7) și planșa U02 „Reglementări urbanistice – zonificare” – Anexa 2 (p. 8), singura planșă din PDF: micșorată pe A4 și culcată (textul se citește de jos în sus), alb-negru, cu ștampila Consiliului Local. Cartușul: planșa U02, scara 1:500, proiect 387/2022, februarie 2025, data listării 03.04.2025; hotărârea o numește „U02 – Plan reglementări urbanistice-zonificare”. Imaginea are ~9,7 px/m, adică planșa e tipărită la ~41% din 1:500, cu nordul spre stânga (potrivirea dă o rotație de -89,7°). Legenda cuprinde casetele „Reglementări urbanistice” ale U.T.R. S_Is* și Vpr (POT, CUT, spații verzi, înălțime, regim de înălțime) și cheia simbolurilor, rotite cu 90°; au rămas afară bilanțul suprafețelor, bilanțul teritorial, tabelul „Alți indici” (locuri de parcare), profilurile stradale, roza vânturilor și săgeata nordului, inventarul de coordonate, cartușul, semnăturile și ștampilele. După bilanț, parcela (3.400 mp) era 2.243,31 mp în UTR UEmm și 1.156,69 mp în UTR Vpr; P.U.Z.-ul trece partea UEmm (spre str. Voroneț) în S_Is* și lasă colțul de sud-est în Vpr. Planșa mai arată fâșia de 316,12 mp de-a lungul str. Voroneț, rezervată lărgirii străzii (profil tip III.E, 10 m), și o linie electrică aeriană (LEA) cu zona ei de protecție, care traversează parcela pe diagonală. Cartușul poartă numele beneficiarilor; e în afara imaginii publicate."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („Inventar de coordonate NC 330460”, Nord(X) / Est(Y), Stereo 70), 8 puncte în ordinea limitei: 18, 15, 16, 17, 20, 21, 22, 23, cu lungimile laturilor; S=3400 mp. Puncte de control: vârfurile 18 (colțul de nord), 15 (colțul de sud-est), 17 (vârful de sud-vest, la 0,15 m de 20) și 22 (frângerea de 10° de pe latura dinspre str. Voroneț); puncte de verificare: frângerile 21 (10°) și 23 (6°) de pe aceeași latură. Fiecare vârf e intersecția dreptelor potrivite pe pixelii întunecați ai liniei limitei pe cele două laturi vecine (11-56 de profile pe latură, abatere 0,5-0,7 px); unghiurile dintre drepte (81°, 63°, 10°, 10°, 6°, 44°) sunt cele din inventar. Pe laturile de est și de sud limita e desenată ca două rânduri paralele de pătrățele (limita zonei studiate și a celei reglementate), la ~1-1,3 m unul de altul; s-a folosit rândul interior, mai închis, singurul vizibil și de-a lungul str. Voroneț.",
+    "suprafata_declarata_m2": 3400,
+    "puncte": {
+      "18": [
+        589644.283,
+        396854.338
+      ],
+      "15": [
+        589554.468,
+        396849.06
+      ],
+      "16": [
+        589548.8,
+        396794.45
+      ],
+      "17": [
+        589547.964,
+        396786.4
+      ],
+      "20": [
+        589548.111,
+        396786.428
+      ],
+      "21": [
+        589573.069,
+        396796.064
+      ],
+      "22": [
+        589595.588,
+        396809.748
+      ],
+      "23": [
+        589632.175,
+        396841.314
+      ]
+    },
+    "laturi_declarate_m": {
+      "18": 89.97,
+      "15": 54.9,
+      "16": 8.09,
+      "17": 0.15,
+      "20": 26.75,
+      "21": 26.35,
+      "22": 48.32,
+      "23": 17.78
+    },
+    "ordine": [
+      "18",
+      "15",
+      "16",
+      "17",
+      "20",
+      "21",
+      "22",
+      "23"
+    ],
+    "nota": "Tabelul e tipărit cu cifre de ~10 px, încețoșate de JPEG: 8, 6, 9, 0 și 5 se confundă. Cifrele s-au citit cu ochiul și prin comparație cu cifrele sigure ale aceluiași tabel (primele cifre „5895”/„3967” etc.), iar cele ambigue s-au hotărât din laturile tipărite și din arie: 18-15 = 89,97 și 15-16 = 54,90 confirmă 18, 15 și 16 (E15 = 396849,060); 16-17 = 8,09 și 17-20 = 0,15 cer N17 = 589547,964, E17 = 396786,400 și E20 = 396786,428 (citirea alternativă 589547,064 / 396788,400 / 396785,428 ar da 6,29 și 3,15); 20-21 = 26,75, 21-22 = 26,35 și aria cer E21 = 396796,064 (cifrele „96” par „85”); 22-23 = 48,32 cere N22 = 589595,588 (cu ,581 ar ieși 48,33). Zecimalele lui N21 (,069) se citesc nesigur: ,060-,069 dau toate laturile în 1 cm. Și lungimile tipărite sunt neclare: 89,97 pare „65,97”, 26,75 pare „20,75”, 26,35 pare „28,35”, 17,78 pare „17,70”. Rezultatul: aria 3.400,5 mp față de S=3400 mp (+0,015%), toate cele 8 laturi în 1 cm; perimetrul, netipărit, e 272,33 m. Verificare independentă: etichetele caroiajului de pe chenarul de est (Nord 589650, 589600, 589550, fără etichete Est) cad la 0,2-0,5 m de pozițiile date de potrivire. O linie subțire de contur cadastral trece la ~2,5 m în afara laturilor de est și de sud; nu e limita din inventar."
+  },
+  "gcp_px": {
+    "18": [
+      886.9,
+      1973.9
+    ],
+    "15": [
+      1760.3,
+      2030.6
+    ],
+    "17": [
+      1814.4,
+      2642.3
+    ],
+    "22": [
+      1356.8,
+      2413.9
+    ]
+  },
+  "verificare_px": {
+    "21": [
+      1571.2,
+      2545.1
+    ],
+    "23": [
+      1004.6,
+      2102.8
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      890,
+      664,
+      1920,
+      1194,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public constituite în clădiri dedicate, situate în afara zonei centrale – funcțiunea predominantă: funcțiuni de cult și utilizări conexe (casă parohială, platforme carosabile și pietonale, filigorii etc.); regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,2 (ADC/mp)",
+      "h_max": "(S)+P+E; 19 m pentru clădirile de cult, 10 m pentru alte construcții"
+    },
+    {
+      "cod": "Vpr",
+      "denumire": "Zonă verde cu rol de protecție față de infrastructura majoră, plantații de stabilizare a versanților, de protecție sanitară și de reconstrucție ecologică – se mențin prevederile R.L.U. aferent P.U.G. (colțul de sud-est al parcelei, 1.156,69 mp)",
+      "pot_max": "0% (planșa)",
+      "cut_max": "0,0 (planșa)",
+      "h_max": ""
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2031-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Caseta U.T.R. S_Is* de pe planșă dă doar „H cornișă max. 10 m” și regimul (S)+P+E; hotărârea (Art. 1), ca și regulamentul, admite 19 m pentru clădirile de cult și 10 m pentru celelalte construcții.",
+    "Planșa numește subzona generic („instituții și servicii publice și de interes public”); hotărârea precizează funcțiunea predominantă: funcțiuni de cult și utilizări conexe (casă parohială, platforme, filigorii)."
+  ],
+  "conditii": [
+    "Terenul necesar lărgirii str. Voroneț (316,12 mp în bilanțul planșei, profil tip III.E de 10 m) se dezmembrează din parcelă și se înscrie în CF cu titlul „drum” înainte de emiterea autorizației de construire, iar până la recepția construcțiilor se aduce la strat de uzură.",
+    "La faza D.T.A.C. documentația se supune avizării în Comisia de Estetică Urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Retrageri: cel puțin 3 m față de aliniamentul str. Voroneț (regularizată); față de limitele laterale H/2, dar cel puțin 4,5 m; față de limita posterioară H/2, dar cel puțin 6 m.",
+    "Acces direct din str. Voroneț; pentru căile pietonale și carosabile din interiorul parcelei se recomandă învelitori permeabile.",
+    "Parcarea: necesarul se dimensionează conform Anexei 2 a regulamentului, însumat pe funcțiuni când pe parcelă sunt mai multe (planșa prevede 2 locuri).",
+    "Toate clădirile se racordează la rețelele edilitare publice.",
+    "Pentru partea de teren din UTR Vpr se mențin prevederile R.L.U. aferent P.U.G."
+  ]
+}
