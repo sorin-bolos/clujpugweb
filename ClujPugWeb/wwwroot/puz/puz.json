@@ -16406,6 +16406,136 @@
   ]
  },
  {
+  "id": "2025-192",
+  "localitate": "cluj",
+  "hcl": "192/2025",
+  "data": "2025-05-12",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Câmpului nr. 135",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-192-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-192.pdf",
+  "utr": [
+   {
+    "cod": "Lip*",
+    "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip periferic: locuințe individuale (unifamiliale) și anexele lor, regim de construire deschis; patru parcele, cu acces din aleea propusă",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "max. 3 niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R); 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Instituții și servicii publice sau de interes public: locuire împreună cu servicii profesionale și cabinete medicale de specialitate, funcțiuni educaționale, de sănătate și asistență socială, îngrijirea vârstnicilor, activități terțiare și comerciale (cel mult 50% din ADC a clădirii, destinată serviciilor de interes public); regim cuplat, pe parcela clădirii existente de la nr. 135",
+    "pot_max": "50%",
+    "cut_max": "1,8",
+    "h_max": "max. 3 niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R); 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde cu acces public nelimitat: plantații, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule; spre culoarul pârâului Popii",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "P, 3 m"
+   }
+  ],
+  "suprafata_m2": 2727,
+  "imagine": "puz/2025-192/plansa.webp",
+  "bounds": {
+   "west": 23.5651716,
+   "south": 46.7519752,
+   "east": 23.5671039,
+   "north": 46.7527776
+  },
+  "limita": [
+   [
+    23.5652157,
+    46.7520996
+   ],
+   [
+    23.5653819,
+    46.752164
+   ],
+   [
+    23.565546,
+    46.7522309
+   ],
+   [
+    23.5658047,
+    46.7523284
+   ],
+   [
+    23.5661083,
+    46.7524439
+   ],
+   [
+    23.566412,
+    46.7525593
+   ],
+   [
+    23.5667175,
+    46.7526726
+   ],
+   [
+    23.5670623,
+    46.7527584
+   ],
+   [
+    23.567062,
+    46.7526851
+   ],
+   [
+    23.5669534,
+    46.7526663
+   ],
+   [
+    23.5666525,
+    46.7525441
+   ],
+   [
+    23.5667224,
+    46.7524565
+   ],
+   [
+    23.5657347,
+    46.7520549
+   ],
+   [
+    23.5656531,
+    46.7521445
+   ],
+   [
+    23.5653037,
+    46.7519954
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 3,
+   "rms_m": 0.0
+  },
+  "legenda": "puz/2025-192/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-05-12"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa nu dă indicatori pentru S_Va*; hotărârea îi stabilește: P.O.T. 5%, C.U.T. 0,1, parter, H max 3 m, retrageri de minimum 3 m.",
+   "Planșa nu dă înălțimi în metri, doar regimul (S)+P+E+M/R, (D)+P+M/R pe loturile Lip*; hotărârea limitează înălțimea la 8 m la cornișă și 12 m la coamă, pentru Lip* și S_Is*.",
+   "Hotărârea reglementează 2726 mp (nr. cad. 326903), cât închide linia roșie; linia albastră, numită în legendă tot „limita teren reglementat prin P.U.Z.”, cuprinde și parcela vecină de la nr. 137 („parcela în înțeles urban”, 3097 mp în primul bilanț, cu P.O.T./C.U.T. calculate pe ea).",
+   "Avizul de oportunitate nr. 210/2022 cerea doar zonă de locuințe și subzonă verde; subzona S_Is* a fost propusă și admisă la avizarea P.U.Z. (hotărârea o spune explicit)."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire, terenul pentru regularizarea str. Câmpului (cf. planșei U.04) se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum”.",
+   "Înainte de autorizațiile de construire, terenul pentru lărgirea drumului de acces existent la ampriza de 9 m (6 m carosabil și trotuare de 1,5 m) se înscrie în cartea funciară ca „drum”.",
+   "Aleea propusă rămâne deschisă accesului public și dă acces la spațiul verde public (S_Va*) de lângă culoarul pârâului Popii.",
+   "Înainte de recepția construcțiilor: se amenajează intersecția str. Câmpului cu aleea propusă, inclusiv refacerea trotuarului de pe str. Câmpului în dreptul P.U.Z., prin renunțarea la accesul auto existent al clădirii de la nr. 135.",
+   "Înainte de recepție: se fac trotuarele aleii și se amenajează subzona verde S_Va*, pe baza unui proiect autorizat.",
+   "Înainte de recepție: aleea care deservește loturile Lip* se echipează edilitar (inclusiv canalizare pluvială), cu carosabilul la strat de uzură, pe baza unui proiect autorizat; semnalizarea rutieră se proiectează și se realizează cu avizul Poliției rutiere și al Serviciului Siguranța circulației.",
+   "Parcarea se face numai pe parcele (locuințe: minimum un loc sub 100 mp arie utilă, două peste; servicii cu acces public: minimum 2); pe fiecare parcelă un singur acces auto (cel mult 3,5 m) și unul pietonal; în spațiul verde parcarea e interzisă.",
+   "Toate clădirile se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini, cablurile aeriene sunt interzise, iar fiecare parcelă are un loc pentru colectarea deșeurilor, accesibil din spațiul public.",
+   "În S_Is*, clădirile se pun pe limita sudică a parcelei, pe cel mult 25 m adâncime de la aliniament, iar o extindere a clădirii existente se face pe limita de proprietate, cuplată pe lungimea calcanului clădirii de la nr. 137; față de limitele estică și posterioară, minimum 6 m.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

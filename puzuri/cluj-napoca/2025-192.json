@@ -1,0 +1,227 @@
+{
+  "id": "2025-192",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 192,
+    "an": 2025,
+    "data_sedinta": "2025-05-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-192-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-192.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Câmpului nr. 135",
+  "plansa": {
+    "pagina_pdf": 26,
+    "dpi": 96,
+    "denumire": "U.04 Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 28 de pagini: hotărârea (p. 1-3), regulamentul local de urbanism (Anexa 1, p. 4-16), planșa U.04 ca Anexa 2 (p. 17: copie A4, rotită, semnată de președintele de ședință și de secretarul general), avizele arhitectului-șef nr. 88/20.03.2024 și nr. 3/15.01.2025 (p. 18-24), un extras din P.U.G. cu terenul marcat (p. 25), din nou planșa U.04 (p. 26, A3, color, cu ștampila „Vizat spre neschimbare” a avizelor arhitectului-șef și mențiunea „H.C.L. nr. 192 din 12 mai 2025”) și raportul informării și consultării publicului (p. 27-28). E folosită p. 26: același desen ca p. 17, dar pe A3 și color, deci de două ori mai mare la aceeași rezoluție (96 ppi). Desenul e la 7,55 px/m, adică exact 1:500 pe A3 la 96 ppi, rotit cu ~29° (nordul spre dreapta-sus). Legenda păstrată: cheia simbolurilor și rândurile cu P.O.T./C.U.T. maxime admise pe U.T.R. din al doilea bilanț; au rămas afară cele două bilanțuri teritoriale, profilul 1-1', calculul locurilor de parcare, cartușul, semnăturile și ștampilele. În legendă două linii întrerupte, una roșie și una albastră, poartă același nume, „limita teren reglementat prin P.U.Z.”: cea roșie închide cei 2726 mp reglementați (nr. cad. 326903), cea albastră cuprinde în plus parcela vecină de la nr. 137 („parcela în înțeles urban”, 3097 mp în primul bilanț)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate (numerele roșii ale vârfurilor, 300-322, trimit la un inventar care nu e în PDF) și nici etichete pe caroiaj. Georeferențiere pe caroiajul Stereo 70 al planului topografic din desen: 4 cruci la 50 m (≈377 px), rotite odată cu desenul, etichetate cu `caroiaj`: centrul fiecărei cruci citit pe planșă ca intersecția dreptelor potrivite pe brațele ei (crucea C390600_584650 e în hașura aleii, citită pe canalul roșu), pas 50 m, 7,55 px/m, nordul la 28,9° în sensul acelor de ceas; ancora: nodul OSM (extrasul din 2026-11-08) în care drumul de serviciu existent („Drum de acces existent” pe planșă) se desprinde din str. Câmpului, E 390512,3 N 584609,9, ales pe planșă la întâlnirea axului drumului de acces cu axul carosabilului de 7,15 m al străzii, (288, 287,5); toate crucile cad la 3,6-3,8 m de nodurile de 50 m, deci etichetele sunt sigure. Control: C390500_584600, C390550_584600, C390600_584650; verificare: C390550_584650. Limita e trasată (`limita_px`) pe linia roșie întreruptă a limitei P.U.Z. (2726 mp), urmărită automat pe linia închisă de sub liniuțe și verificată pe planșă; aria trasată, 2726,8 mp, față de 2726 mp din bilanț și din hotărâre (+0,03%).",
+    "suprafata_declarata_m2": 2726.0,
+    "puncte": {},
+    "nota": "Crucile țin de desen, nu de macheta foii: sunt rotite cu ~29° ca desenul și săgeata nordului, la 50 m una de alta, iar planșa nu are altă copie pe alt fond (p. 17 e același desen). Cele 4 cruci vizibile (celelalte noduri cad sub tabele, semnătura digitală și ștampile) formează un paralelogram: punctul de verificare testează doar citirea lor (0,02 m), nu și poziția absolută. Aceasta se sprijină pe etichete (ancora OSM la sub 4 m de noduri, față de 25 m cât ar trebui pentru o eroare de un pas) și pe verificarea pe ortofoto: casele de la nr. 133 și 135-137, insula de pe str. Câmpului și drumul de acces desenate cad peste cele reale la 2-3 m. Clădirile și drumul din OSM cad la ~2-3 m spre nord-nord-est de cele desenate; nu au fost folosite ca puncte de verificare, fiind mai puțin precise decât crucile planșei."
+  },
+  "gcp_px": {
+    "C390500_584600": [
+      183.3,
+      284.3
+    ],
+    "C390550_584600": [
+      513.0,
+      466.6
+    ],
+    "C390600_584650": [
+      1026.1,
+      316.6
+    ]
+  },
+  "verificare_px": {
+    "C390550_584650": [
+      696.5,
+      134.2
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1014,
+      580,
+      1488,
+      772
+    ],
+    [
+      528,
+      957,
+      882,
+      1044
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lip*",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip periferic: locuințe individuale (unifamiliale) și anexele lor, regim de construire deschis; patru parcele, cu acces din aleea propusă",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "max. 3 niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R); 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Instituții și servicii publice sau de interes public: locuire împreună cu servicii profesionale și cabinete medicale de specialitate, funcțiuni educaționale, de sănătate și asistență socială, îngrijirea vârstnicilor, activități terțiare și comerciale (cel mult 50% din ADC a clădirii, destinată serviciilor de interes public); regim cuplat, pe parcela clădirii existente de la nr. 135",
+      "pot_max": "50%",
+      "cut_max": "1,8",
+      "h_max": "max. 3 niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R); 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde cu acces public nelimitat: plantații, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule; spre culoarul pârâului Popii",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "P, 3 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-05-12",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa nu dă indicatori pentru S_Va*; hotărârea îi stabilește: P.O.T. 5%, C.U.T. 0,1, parter, H max 3 m, retrageri de minimum 3 m.",
+    "Planșa nu dă înălțimi în metri, doar regimul (S)+P+E+M/R, (D)+P+M/R pe loturile Lip*; hotărârea limitează înălțimea la 8 m la cornișă și 12 m la coamă, pentru Lip* și S_Is*.",
+    "Hotărârea reglementează 2726 mp (nr. cad. 326903), cât închide linia roșie; linia albastră, numită în legendă tot „limita teren reglementat prin P.U.Z.”, cuprinde și parcela vecină de la nr. 137 („parcela în înțeles urban”, 3097 mp în primul bilanț, cu P.O.T./C.U.T. calculate pe ea).",
+    "Avizul de oportunitate nr. 210/2022 cerea doar zonă de locuințe și subzonă verde; subzona S_Is* a fost propusă și admisă la avizarea P.U.Z. (hotărârea o spune explicit)."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire, terenul pentru regularizarea str. Câmpului (cf. planșei U.04) se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum”.",
+    "Înainte de autorizațiile de construire, terenul pentru lărgirea drumului de acces existent la ampriza de 9 m (6 m carosabil și trotuare de 1,5 m) se înscrie în cartea funciară ca „drum”.",
+    "Aleea propusă rămâne deschisă accesului public și dă acces la spațiul verde public (S_Va*) de lângă culoarul pârâului Popii.",
+    "Înainte de recepția construcțiilor: se amenajează intersecția str. Câmpului cu aleea propusă, inclusiv refacerea trotuarului de pe str. Câmpului în dreptul P.U.Z., prin renunțarea la accesul auto existent al clădirii de la nr. 135.",
+    "Înainte de recepție: se fac trotuarele aleii și se amenajează subzona verde S_Va*, pe baza unui proiect autorizat.",
+    "Înainte de recepție: aleea care deservește loturile Lip* se echipează edilitar (inclusiv canalizare pluvială), cu carosabilul la strat de uzură, pe baza unui proiect autorizat; semnalizarea rutieră se proiectează și se realizează cu avizul Poliției rutiere și al Serviciului Siguranța circulației.",
+    "Parcarea se face numai pe parcele (locuințe: minimum un loc sub 100 mp arie utilă, două peste; servicii cu acces public: minimum 2); pe fiecare parcelă un singur acces auto (cel mult 3,5 m) și unul pietonal; în spațiul verde parcarea e interzisă.",
+    "Toate clădirile se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini, cablurile aeriene sunt interzise, iar fiecare parcelă are un loc pentru colectarea deșeurilor, accesibil din spațiul public.",
+    "În S_Is*, clădirile se pun pe limita sudică a parcelei, pe cel mult 25 m adâncime de la aliniament, iar o extindere a clădirii existente se face pe limita de proprietate, cuplată pe lungimea calcanului clădirii de la nr. 137; față de limitele estică și posterioară, minimum 6 m.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ],
+  "caroiaj": {
+    "pas_m": 50,
+    "px_per_m": 7.56,
+    "nord": 29,
+    "ancora": {
+      "px": [
+        288,
+        287.5
+      ],
+      "en": [
+        390512.3,
+        584609.9
+      ],
+      "sursa": "OSM (extrasul din 2026-11-08): nodul în care drumul de serviciu existent (calea 694374366, „Drum de acces existent” pe planșă) se desprinde din str. Câmpului (ramura estică), ales pe planșă la întâlnirea axului drumului de acces (între liniile de la y≈275 și y≈300) cu axul carosabilului de 7,15 m al str. Câmpului"
+    },
+    "cruci_px": {
+      "K1": [
+        183.3,
+        284.3
+      ],
+      "K2": [
+        696.5,
+        134.2
+      ],
+      "K3": [
+        513.0,
+        466.6
+      ],
+      "K4": [
+        1026.1,
+        316.6
+      ]
+    }
+  },
+  "repere": {
+    "C390500_584600": [
+      584600.0,
+      390500.0
+    ],
+    "C390550_584650": [
+      584650.0,
+      390550.0
+    ],
+    "C390550_584600": [
+      584600.0,
+      390550.0
+    ],
+    "C390600_584650": [
+      584650.0,
+      390600.0
+    ]
+  },
+  "limita_px": [
+    [
+      335,
+      302
+    ],
+    [
+      445,
+      302.7
+    ],
+    [
+      555,
+      301
+    ],
+    [
+      725,
+      304.1
+    ],
+    [
+      925,
+      307
+    ],
+    [
+      1125,
+      310
+    ],
+    [
+      1325,
+      315
+    ],
+    [
+      1533,
+      351.5
+    ],
+    [
+      1502,
+      405
+    ],
+    [
+      1440,
+      387.5
+    ],
+    [
+      1238.5,
+      390.3
+    ],
+    [
+      1236.5,
+      474.5
+    ],
+    [
+      575,
+      484
+    ],
+    [
+      572,
+      395
+    ],
+    [
+      335,
+      403.5
+    ]
+  ]
+}
