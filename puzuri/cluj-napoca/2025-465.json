@@ -1,0 +1,362 @@
+{
+  "id": "2025-465",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 465,
+    "an": 2025,
+    "data_sedinta": "2025-07-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-465-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-465.pdf"
+  },
+  "titlu": "P.U.Z. – parcelare și construire locuințe cu regim redus de înălțime, str. Spicului-str. C-tin Brăiloiu",
+  "plansa": {
+    "pagina_pdf": 23,
+    "dpi": 200,
+    "denumire": "U2 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 15 (Anexa 2 la hotărâre, micșorată pe A4, monocromă, rotită, semnată de președintele de ședință și de secretar, prea mică pentru citit) și p. 23 (format 420x594, color, 200 ppi, cu viza „spre neschimbare” – anexă la avizele Arhitectului-șef nr. 201 din 2.09.2024 și nr. 43 din 8.04.2025 – și mențiunea de mână „H.C.L. nr. 465 din 7 iulie 2025”); s-a folosit p. 23. P. 18 e extrasul din P.U.G. cu teritoriul de reglementat, nu o planșă de reglementări. Planșa e tipărită practic la scară (15,73 px/m față de 15,75 px/m cât ar da 1:500 la 200 ppi), cu nordul în sus (rotație 0,26°); are și un caroiaj Stereo 70 din 50 în 50 m, cu etichete pe ramă (Est sus, Nord în stânga), din care cinci cruci etichetate servesc la verificare. Legenda cuprinde caseta „UTR Liu/PUZ” (zonă de urbanizare), tabelul „Reglementări urbanistice UTR Liu” (POT, CUT, spații verzi, înălțimi, regim de înălțime) și cheia simbolurilor; au rămas pe dinafară bilanțurile (UTR, suprafețe, parcele), locurile de parcare, profilele stradale, cele trei tabele de coordonate, ștampilele și cartușul (care numește beneficiarul). Decupajul (limita + 1,5 m) nu atinge tabelele sau ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "„Inventar de coordonate” pe planșa U2 – Pct. / Nord(X) / Est(Y) – 46 de puncte numerotate 200-245 în ordinea conturului, cu „S=10043mp” (fără laturi și perimetru); aria e și cea din bilanț (suprafață teren reglementat 10.043 mp). Alte două tabele, „N.C. 257085” (pct. 100-116, S=5225mp) și „N.C. 271418” (pct. 117-121, S=2500mp), repetă 21 dintre puncte cu alte numere și confirmă citirea lor (inclusiv ultimele cifre, tăiate de chenar în tabelul principal); cu nr. cad. 319337 (2318 mp) ele dau tot 10.043 mp. Conturul e linia „Limită suprafață reglementată” (albastru punctat); la capătul de nord, spre str. C-tin Brăiloiu, inventarul urmează limita de proprietate (linia neagră groasă), cu ~1 m la sud de linia albastră desenată. Puncte de control: colțurile 200 (S, la str. Spicului), 204, 206, 208, 215 (E), 237 (NV, la str. C-tin Brăiloiu), 239 (colțul interior) și 245 (V, la str. Spicului). De verificare: vârful 201 și cinci cruci ale caroiajului Stereo 70 citite ca intersecții de linii etichetate pe ramă (E 390950 și 391000; N 589050, 589100, 589150 și 589200). Punctele de pe laturi drepte sau din micile decroșuri (202-203, 205, 207, 209-214, 216-236, 238, 240-244) n-au fost folosite.",
+    "suprafata_declarata_m2": 10043,
+    "puncte": {
+      "200": [
+        589026.041,
+        390990.864
+      ],
+      "201": [
+        589047.137,
+        390997.073
+      ],
+      "202": [
+        589044.119,
+        391009.261
+      ],
+      "203": [
+        589041.557,
+        391017.206
+      ],
+      "204": [
+        589038.272,
+        391025.805
+      ],
+      "205": [
+        589042.337,
+        391029.256
+      ],
+      "206": [
+        589052.719,
+        391038.1
+      ],
+      "207": [
+        589062.213,
+        391028.197
+      ],
+      "208": [
+        589071.005,
+        391019.025
+      ],
+      "209": [
+        589075.903,
+        391024.027
+      ],
+      "210": [
+        589075.704,
+        391024.204
+      ],
+      "211": [
+        589087.405,
+        391039.395
+      ],
+      "212": [
+        589087.242,
+        391039.545
+      ],
+      "213": [
+        589091.975,
+        391046.606
+      ],
+      "214": [
+        589093.426,
+        391050.072
+      ],
+      "215": [
+        589095.585,
+        391053.375
+      ],
+      "216": [
+        589106.74,
+        391043.874
+      ],
+      "217": [
+        589112.164,
+        391038.911
+      ],
+      "218": [
+        589117.943,
+        391033.683
+      ],
+      "219": [
+        589127.157,
+        391025.594
+      ],
+      "220": [
+        589134.477,
+        391019.087
+      ],
+      "221": [
+        589144.395,
+        391010.092
+      ],
+      "222": [
+        589151.001,
+        391004.029
+      ],
+      "223": [
+        589156.898,
+        390998.77
+      ],
+      "224": [
+        589160.513,
+        390995.548
+      ],
+      "225": [
+        589167.695,
+        390989.086
+      ],
+      "226": [
+        589168.709,
+        390988.179
+      ],
+      "227": [
+        589175.107,
+        390982.528
+      ],
+      "228": [
+        589178.905,
+        390978.305
+      ],
+      "229": [
+        589183.528,
+        390973.94
+      ],
+      "230": [
+        589189.416,
+        390968.284
+      ],
+      "231": [
+        589193.197,
+        390964.351
+      ],
+      "232": [
+        589196.003,
+        390960.643
+      ],
+      "233": [
+        589196.608,
+        390958.937
+      ],
+      "234": [
+        589190.294,
+        390950.421
+      ],
+      "235": [
+        589187.79,
+        390946.915
+      ],
+      "236": [
+        589188.267,
+        390946.476
+      ],
+      "237": [
+        589182.072,
+        390929.605
+      ],
+      "238": [
+        589177.57,
+        390933.605
+      ],
+      "239": [
+        589120.035,
+        390984.776
+      ],
+      "240": [
+        589120.0,
+        390984.74
+      ],
+      "241": [
+        589113.159,
+        390977.711
+      ],
+      "242": [
+        589112.794,
+        390978.064
+      ],
+      "243": [
+        589089.993,
+        390958.096
+      ],
+      "244": [
+        589084.215,
+        390953.1
+      ],
+      "245": [
+        589051.933,
+        390924.797
+      ]
+    },
+    "nota": "Aria coordonatelor e 10.038,0 mp față de 10.043 mp declarați (-0,05 %): suma ariilor celor trei numere cadastrale, nu aria calculată a poligonului. Vârful 201: colțul liniei de limită desenate e la ~1 m spre NV de poziția din inventar (reziduu ~1,0 m, peste prag); exact la poziția din inventar planșa are marcajul punctului (un punct plin, lângă eticheta „26” a ridicării topografice), iar acesta s-a citit ca vârful 201 (reziduu 0,08 m). Eticheta „589050” de pe rama din stânga se citește „58905…”, ultima cifră fiind acoperită de carosabil; cum caroiajul e din 50 în 50 m, e 589050."
+  },
+  "repere": {
+    "C390950_589150": [
+      589150,
+      390950
+    ],
+    "C391000_589150": [
+      589150,
+      391000
+    ],
+    "C390950_589100": [
+      589100,
+      390950
+    ],
+    "C391000_589100": [
+      589100,
+      391000
+    ],
+    "C391000_589200": [
+      589200,
+      391000
+    ],
+    "C391000_589050": [
+      589050,
+      391000
+    ]
+  },
+  "gcp_px": {
+    "200": [
+      1420,
+      3062
+    ],
+    "237": [
+      472,
+      601
+    ],
+    "206": [
+      2168,
+      2647
+    ],
+    "215": [
+      2415,
+      1974
+    ],
+    "245": [
+      391,
+      2652
+    ],
+    "239": [
+      1333,
+      1585
+    ],
+    "208": [
+      1870,
+      2357
+    ],
+    "204": [
+      1976,
+      2868
+    ]
+  },
+  "verificare_px": {
+    "201": [
+      1523,
+      2732
+    ],
+    "C391000_589200": [
+      1584,
+      325.5
+    ],
+    "C390950_589150": [
+      791.5,
+      1109.5
+    ],
+    "C391000_589150": [
+      1577.5,
+      1111.5
+    ],
+    "C390950_589100": [
+      787.5,
+      1895
+    ],
+    "C391000_589100": [
+      1572.5,
+      1898
+    ],
+    "C391000_589050": [
+      1567.5,
+      2683.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      246,
+      326,
+      446,
+      361
+    ],
+    [
+      246,
+      361,
+      512,
+      430
+    ],
+    [
+      2030,
+      100,
+      2970,
+      475
+    ],
+    [
+      3000,
+      2495,
+      3765,
+      3295
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (pe planșă „UTR Liu/PUZ”, zonă de urbanizare): locuințe individuale (unifamiliale) și anexele lor, regim izolat sau cuplat; pe parcelele mai mari de 700 mp se admite o locuință semicolectivă (două unități locative); 18 parcele (344-712 mp pe planșă)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; max. 8 m la cornișă și 12 m în total; ultimul nivel retras cu min. 1,80 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-07-07",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerea față de limita posterioară: pe planșă zona edificabilă e cotată la 6 m de limita din spate; Art. 1 cere o distanță cel puțin egală cu înălțimea clădirii, dar nu mai puțin de 6 m. La cornișa de până la 8 m admisă, retragerea din spate trece deci, de regulă, de linia desenată.",
+    "Tabelul de pe planșă cere și spații verzi pe sol de min. 40 % și dă 12 m ca înălțime la coamă/atic; hotărârea nu pomenește procentul de spații verzi și dă 12 m ca înălțime maximă, plus trei niveluri supraterane și retragerea ultimului nivel cu min. 1,80 m, care nu apar pe planșă."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire pentru prima clădire din ansamblu: terenul necesar regularizării str. Spicului și str. C-tin Brăiloiu se dezmembrează din parcela inițială și se înscrie în cartea funciară ca „drum” (pe planșă 544,27 mp la str. Spicului, profil de 25 m din P.U.G., și 71,48 mp la str. C-tin Brăiloiu; 615,75 mp în bilanț).",
+    "Tot înainte de prima autorizație de construire: strada propusă, care leagă str. Spicului de str. C-tin Brăiloiu, se înscrie în cartea funciară ca „drum”, se echipează edilitar și se aduce la strat de uzură, pe baza unui proiect autorizat; strada are acces public nelimitat.",
+    "Înainte de recepția locuințelor se amenajează, pe baza unui proiect autorizat, scuarul verde de lângă strada propusă (559,89 mp de spații verzi cu acces public nelimitat în bilanțul planșei).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+    "Accese: parcelele se deservesc din str. Spicului și din strada nouă; pe o parcelă, un singur acces pietonal și un singur acces carosabil, de cel mult 6 m lățime.",
+    "Parcarea se face în interiorul parcelei: cel puțin un loc pentru o clădire cu arie utilă sub 100 mp și două peste 100 mp; serviciile cu acces public, cel puțin două locuri.",
+    "Retrageri: 5 m față de aliniament; față de limitele laterale min. 3 m în regim izolat, iar în regim cuplat pe limită și min. 4 m față de cealaltă limită; față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m. Toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule provizorii de grădină de cel mult 15 mp în total.",
+    "Toate clădirile se racordează la rețelele publice; apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile aeriene sunt interzise; fiecare parcelă are un spațiu pentru deșeuri, accesibil din domeniul public."
+  ]
+}
