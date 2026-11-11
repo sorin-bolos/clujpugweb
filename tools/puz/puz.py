@@ -307,6 +307,18 @@ def parse_validity_years(text):
     return int(w) if w.isdigit() else NUMBERS_RO.get(w)
 
 
+def validity_end(r):
+    """The PUZ's last day of validity, extensions included; None when not known."""
+    v = r.get("valabilitate") or {}
+    ends = [x for x in [v.get("pana_la")] + [p.get("pana_la") for p in r.get("prelungiri", [])] if x]
+    return max(ends) if ends else None
+
+
+def today_iso():
+    import datetime
+    return datetime.date.today().isoformat()
+
+
 def add_years(iso, years):
     y, mo, d = map(int, iso.split("-"))
     if mo == 2 and d == 29:
@@ -1384,9 +1396,8 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
     # What the decision's text adds to the plate. Validity runs to the last extension.
     v = r.get("valabilitate") or {}
     ext = r.get("prelungiri", [])
-    ends = [x for x in [v.get("pana_la")] + [p.get("pana_la") for p in ext] if x]
-    if ends:
-        entry["valabilitate"] = {"ani": v.get("ani"), "pana_la": max(ends)}
+    if validity_end(r):
+        entry["valabilitate"] = {"ani": v.get("ani"), "pana_la": validity_end(r)}
         if ext:
             entry["valabilitate"].update({"initial_pana_la": v.get("pana_la"), "prelungiri": ext})
     for key in ("diferente_fata_de_plansa", "conditii", "modifica", "modificat_de"):
@@ -1400,11 +1411,18 @@ def publish(r, overlay, legend, bounds, boundary, area, rms):
 def cmd_build(r, args):
     # `stare`: absent while being worked on; "oprit" when it cannot be done (with
     # `motiv`), "integrat" when it is an amendment folded into its base PUZ
-    # (`integrat_in`). Neither has a map entry of its own.
+    # (`integrat_in`), "expirat" when its validity ended before it was published
+    # (since 2026-11-11 expired PUZ-uri are not put on the map). None has a map entry.
     stare = r.get("stare")
-    if stare in ("oprit", "integrat") and not args.force:
+    if stare in ("oprit", "integrat", "expirat") and not args.force:
         sys.exit("recipe is '%s' (%s) - nothing to build" % (
             stare, r.get("motiv") or ("integrat în " + str(r.get("integrat_in")))))
+    end = validity_end(r)
+    if (end and end < today_iso() and not args.dry_run and not args.force
+            and not any(e["id"] == r["id"] for e in load_index())):
+        sys.exit("validity ended on %s (extensions included): expired PUZ-uri are not published. Set "
+                 "\"stare\": \"expirat\" (add-puz skill). --force only if an amendment in force keeps it valid."
+                 % end)
     if not os.path.exists(plate_path(r)):
         if not os.path.exists(pdf_path(r)):
             cmd_fetch(r, args)
@@ -1514,8 +1532,8 @@ def batch_candidates(folder):
 
 
 def recipe_state(folder, pid, published):
-    """None (no recipe), "publicat", "oprit", "integrat", or "început" (a recipe
-    without a map entry or a stop: an interrupted run)."""
+    """None (no recipe), "publicat", "oprit", "integrat", "expirat", or "început" (a
+    recipe without a map entry or a stop: an interrupted run)."""
     p = os.path.join(ROOT, "puzuri", folder, pid + ".json")
     if not os.path.exists(p):
         return None
@@ -1539,7 +1557,8 @@ def cmd_next(args):
         if state in (None, "început") or (state == "oprit" and args.retry_stopped):
             todo.append((h, state))
     print("%d-%d, cele mai noi întâi: %s" % (args.from_year, args.to_year, ", ".join(
-        "%s %d" % (k, counts[k]) for k in ("publicat", "integrat", "oprit", "început", "de făcut") if counts[k])))
+        "%s %d" % (k, counts[k]) for k in ("publicat", "integrat", "oprit", "expirat", "început", "de făcut")
+        if counts[k])))
     for h, state in todo[:args.count]:
         print("%d %d  %s%s" % (h["an"], h["nr"], clean_title(h["titlu"])[:110],
                                "  [reluare: rulare întreruptă]" if state == "început" else
@@ -1634,6 +1653,15 @@ def cmd_audit(r, args):
             problems.append("oprit fără `motiv`")
         if entry or os.path.isdir(os.path.join(ROOT, pub_dir)):
             problems.append("oprit, dar a rămas publicat (puz.json sau %s)" % pub_dir)
+    elif stare == "expirat":
+        end = validity_end(r)
+        checks.append("expirat la %s" % end)
+        if not end:
+            problems.append("expirat fără `valabilitate.pana_la`")
+        elif end >= today_iso():
+            problems.append("marcat expirat, dar valabil până la %s" % end)
+        if entry or os.path.isdir(os.path.join(ROOT, pub_dir)):
+            problems.append("expirat, dar publicat (puz.json sau %s)" % pub_dir)
     elif stare == "integrat":
         base = r.get("integrat_in")
         base_entry = next((e for e in load_index() if e["id"] == base), None)

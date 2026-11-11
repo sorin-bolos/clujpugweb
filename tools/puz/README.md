@@ -118,7 +118,12 @@ that adds it.
      before permits or before reception, land to transfer, works the investor
      pays for.
 
-   Expired PUZ-uri stay on the map; the info window shows the date.
+   Since 2026-11-11 a PUZ whose validity, extensions included, ended before it
+   was published is not put on the map. Its recipe gets `"stare": "expirat"`
+   with the term in `motiv`, and `build` refuses to publish it. The add-puz skill
+   checks the validity right after `new`, before any work on the plate. PUZ-uri
+   published earlier, and those that expire later, stay on the map; the info
+   window says the term has passed.
 8. `puz.py build` runs both checks, warps with GDAL, writes the legend, and draws
    `puz_cache/<id>/check_imagery.png`: Esri imagery next to the overlay on top of
    it. **Look at it.** The boundary should sit on the real plot, with drawn roads
@@ -316,13 +321,15 @@ same years would still clash, on the same recipe.
 The batch uses these commands:
 
 - `puz.sh next [--count N] [--retry-stopped] [--from-year A --to-year B]` lists the
-  decisions still to do in 2020-2026 or the years given, newest first, and how many are published, integrated or stopped. It
-  takes approvals and amendments of PUZ-uri. Extensions are left out: the base
-  PUZ's agent finds them with `related`. Interrupted runs (a recipe with no map
-  entry and no `stare`) come back first.
+  decisions still to do in 2020-2026 or the years given, newest first, and how
+  many are published, integrated, stopped or expired. It takes approvals and
+  amendments of PUZ-uri. Extensions are left out: the base PUZ's agent finds them
+  with `related`. Interrupted runs (a recipe with no map entry and no `stare`)
+  come back first. Expired ones never do, not even with `--retry-stopped`.
 - `puz.sh audit <recipe> [--commit C]` checks one agent's work:
   - the outcome matches the recipe (published / `oprit` with a reason /
-    `integrat` and listed by its base);
+    `integrat` and listed by its base / `expirat` with a term already passed and
+    nothing published);
   - the quality gates pass, and `puz.json` is up to date. A traced boundary needs
     a check point or a person's `verificare_umana`, and the commit must not be the
     one adding `verificare_umana`;

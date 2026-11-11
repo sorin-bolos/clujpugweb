@@ -26,6 +26,7 @@ checklist; the README is the reference.
     everything still valid, and pick up from where it stopped. Usually a new method
     now covers the case.
   - `"integrat"`: the decision was folded into its base PUZ. Stop.
+  - `"expirat"`: its validity ended before it was published. Stop.
   - no `stare`, and the PUZ is in `ClujPugWeb/wwwroot/puz/puz.json`: already
     published. Stop.
   - no `stare`, and not in `puz.json`: an earlier run was interrupted. The recipe
@@ -61,6 +62,21 @@ where `<id>` is `<an>-<nr>`.
 1. **Skeleton.** `tools/puz/puz.sh new <an> <nr>`. It prints the title,
    session date, PDF and the validity it found in the decision's text. If the
    recipe already exists, the ground rules above say whether to resume or stop.
+
+   **Then check the validity, before any other work.** Expired PUZ-uri are not
+   published (the owner's decision of 2026-11-11).
+   - Run `related`. The PUZ is valid until the latest term: `valabilitate.pana_la`,
+     or an extension's new term. Read each extending decision's page for it and
+     fill `prelungiri` as in step 7.
+   - If `new` found no validity in the text, run `fetch` and read the article on
+     validity in the decision's first pages of the PDF. Set `valabilitate`.
+   - An amending decision counts by its own term. If that is still running, go on
+     with "Amending decisions" even when its base's term has passed, and say so in
+     the report. `build` then needs `--force` for the base.
+   - **The term has passed:** set `"stare": "expirat"` and `"motiv": "Valabilitate
+     expirată la <data> (<ani> ani de la ședința din <data>; prelungiri: …)"`.
+     Commit the recipe and `SHA256SUMS` as `PUZ HCL <nr>/<an> – expirat la
+     <data>`, report, and stop. `build` refuses to publish it anyway.
 2. **Documents.** `fetch`. Look at `puz_cache/<id>/pages.png` and the page list.
    - Find the regulations plate ("Reglementări urbanistice", "Plan reglementări",
      "zonificare"). It is usually the large-format page.
@@ -297,6 +313,8 @@ stop note which feature was missing, so the owner can refresh the extract
 
 ## When to stop instead
 
+An expired PUZ is not a stop: step 1 marks it `expirat`.
+
 Stop without building if any of these holds, and report what you saw:
 
 - there is no plate in the PDF, and the decision amends no PUZ;
@@ -321,8 +339,8 @@ record: the next attempt starts from it, and a batch run won't retry it blindly.
 
 End with a short report in Romanian:
 
-- PUZ and outcome: published, integrated into its base, or stopped (with reason);
-  the commit hash;
+- PUZ and outcome: published, integrated into its base, expired (with its term),
+  or stopped (with reason); the commit hash;
 - plate page and why that one; method (inventory / grid);
 - area, sides and perimeter checks; residuals (rms, worst, limit);
 - imagery check, in a sentence;

@@ -42,7 +42,8 @@ and on Linux. "Cloud" below means `CLAUDE_CODE_REMOTE` is `true`.
    - `WARN` for Overpass or Nominatim: go on. OpenStreetMap comes from the extract
      in the repository; those servers are only a fallback.
    - `WARN` for the OSM extract (missing or old): go on, and put it in the report.
-4. Run `tools/puz/puz.sh next --count N`. Add `--retry-stopped` if asked, and
+4. Run `tools/puz/puz.sh next --count N`. It never lists recipes marked `expirat`.
+   Add `--retry-stopped` if asked, and
    `--from-year A --to-year B` for the years given (`2025` is
    `--from-year 2025 --to-year 2025`). Keep its progress line for the report. If
    the list is empty, report that the range is done.
@@ -68,6 +69,9 @@ Never run two agents at once: they share `puz.json` and `SHA256SUMS`. For each
    ask: decide, check your own work against the quality gates, and either publish
    and commit, or record a stop and commit that, as the skill describes. Do not
    push: the coordinator does.
+
+   Expired PUZ-uri are not published: the skill has you check the validity right
+   after `new`, and mark an expired one instead of processing it.
 
    Run the pipeline as `tools/puz/puz.sh <command> ...` with the Bash tool. Look at
    images (renders and crops in puz_cache/) with the Read tool. The OpenStreetMap
@@ -112,8 +116,8 @@ Never run two agents at once: they share `puz.json` and `SHA256SUMS`. For each
      in a recipe, another session is working on the same years.
    - On the laptop, never push. The owner pushes.
 5. Note for the report:
-   - the outcome: publicat, integrat în `<base>`, oprit (with the reason), pus
-     deoparte, or întrerupt;
+   - the outcome: publicat, integrat în `<base>`, expirat (with the date), oprit
+     (with the reason), pus deoparte, or întrerupt;
    - the commit, the minutes taken, the rms;
    - what the agent asked a human to look at.
 
