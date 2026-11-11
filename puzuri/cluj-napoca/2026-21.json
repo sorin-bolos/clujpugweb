@@ -1,0 +1,181 @@
+{
+  "id": "2026-21",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 21,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-21-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/21.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, strada Reghin – est",
+  "plansa": {
+    "pagina_pdf": 9,
+    "dpi": 300,
+    "denumire": "U2 – Reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul are 9 pagini A4 scanate la 300 ppi: hotărârea (p. 1-2), regulamentul local de urbanism – Anexa 1 (p. 3-8) și planșa U2 „Reglementări urbanistice – zonificare” – Anexa 2 (p. 9), singura planșă din PDF, ștampilată „Anexa 2 la Hotărârea nr. 21/2026” și semnată. Cartușul: S.C. Studio Dryas S.R.L., proiect 51/2025, faza P.U.Z., 08/2025, scara 1:500. Planșa e micșorată pe A4: imaginea are ~14,5 px/m, adică cam 1:815 în loc de 1:500; nordul e aproape în sus (rotație 0,4°). Desenul stă drept, dar tabelele, legenda și cartușul sunt tipărite culcat (textul se citește în sus), de aceea casetele legendei se rotesc cu 90°. Scanarea (JPEG) e neclară la mărire, dar cifrele și legenda se citesc. Legenda cuprinde cheia simbolurilor (limita intravilanului, limita UTR, limitele de proprietate existente, limita zonei reglementate; P.U.Z.-urile aprobate din jur: HCL 690/01.11.2021, avizul Arhitectului-șef 144/21.05.2024, HCL 376/26.06.2007; suprafețele dezmembrate pentru drum: 12 mp la intersecția cu str. Beclean și 55 mp pentru lărgirea str. Codlea la profilul de 6 m), zonificarea funcțională (ULiu, Liu/Liu*, TDA_L, străzile Reghin și Beclean cu profil de 9 m, str. Adjudului), caseta U.T.R. Liu* (POT 35%, CUT 0,9, (S)+P+1+M/R sau (D)+P+M/R, Hmax 12 m) și tabelul „Posibilități maxime de ocupare a terenului” pe parcele (parcela 1, 451 mp: locuință semicolectivă cu 2 unități locative; parcela 2, 404 mp: locuință unifamilială; parcela 3, 474 mp: locuință semicolectivă cu 2 unități locative; câte 2 locuri de parcare). Ștampila consiliului atinge primele simboluri ale legendei, care rămân lizibile. Au rămas afară inventarul de coordonate, tabelul parcelelor cu proprietarii, bilanțul teritorial (Liu* 1329 mp, regularizare drum 67 mp, total 1397 mp), profilurile stradale (str. Codlea 6 m, str. Reghin și str. Beclean 9 m), cartușul, semnăturile și ștampilele. Desenul arată trei loturi Liu* cu zonele lor construibile, cu acces din str. Reghin, între str. Codlea (nord) și str. Beclean (sud); la nord de str. Codlea e P.U.Z.-ul HCL 690/2021, la est P.U.Z.-ul HCL 376/2007, la sud de str. Beclean P.U.Z.-ul cu avizul Arhitectului-șef 144/2024. Textul semnăturilor digitale ale planului topografic, din colțul de jos, e în afara imaginii publicate."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei (tabel „Coordonate pct. de contur”: Nr. pct. / X [m], Y [m] / Lungimi laturi D(i,i+1)), Nord(X) / Est(Y), Stereo 70, 6 puncte, 1-6, în ordinea limitei, cu lungimea fiecărei laturi; S(Contur_PUZ)=1396,70 mp, P=170,240 m. Puncte de control: colțurile 1 (NV, str. Reghin / str. Codlea), 2 (NE, la str. Codlea), 4 (SE, la str. Beclean) și 5 (SV, str. Reghin / str. Beclean). Colțurile sunt acoperite de hașura suprafețelor de regularizare a drumului și de simbolurile acceselor, așa că fiecare e intersecția liniilor de mijloc ale celor două laturi desenate ale limitei, urmărite pe planșă pe toată lungimea lor (laturile lungi, de vest și de est, cu abatere de ~0,5 px; laturile de nord și de sud, peste hașuri, cu ~3 px). Puncte de verificare: patru cruci ale caroiajului Stereo 70, la intersecția liniilor etichetate pe planșă (Nord 590000, 589950 și 589900 în stânga; Est 392950 jos și 393000 sus), cu centrul măsurat pe brațele crucii.",
+    "suprafata_declarata_m2": 1396.7,
+    "puncte": {
+      "1": [
+        589989.163,
+        392952.198
+      ],
+      "2": [
+        589997.207,
+        392972.887
+      ],
+      "3": [
+        589958.765,
+        392987.491
+      ],
+      "4": [
+        589938.289,
+        392995.27
+      ],
+      "5": [
+        589930.439,
+        392974.507
+      ],
+      "6": [
+        589950.916,
+        392966.728
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 22.198,
+      "2": 41.123,
+      "3": 21.904,
+      "4": 22.197,
+      "5": 21.905,
+      "6": 40.914
+    },
+    "perimetru_declarat_m": 170.24,
+    "nota": "Tabelul e lizibil. Aria coordonatelor e 1396,7 mp, cât e tipărit (bilanțul și planul topografic dau 1397 mp), toate cele 6 laturi ies în 1 cm, perimetrul 170,240 m exact. Punctele 3 și 6 stau pe laturile lungi, în dreptul limitei dintre parcelele 2 și 3 (nr. cad. 330139 și 333229), care nu se distinge printre hașuri, deci nu pot servi drept puncte de control; lângă vârfurile 1 și 6 se văd cifrele mici ale numerotării. Crucile caroiajului cad la 0,25-0,7 m de pozițiile date de inventar, cel mai departe cea de nord-vest (Nord 590000 / Est 392950): pe verticală caroiajul are ~14,6 px/m, iar conturul P.U.Z. ~14,5 px/m, deci fondul topografic e scalat foarte puțin altfel decât limita."
+  },
+  "gcp_px": {
+    "1": [
+      623,
+      1728.5
+    ],
+    "2": [
+      921.5,
+      1608.5
+    ],
+    "4": [
+      1250,
+      2463.5
+    ],
+    "5": [
+      949,
+      2578.5
+    ]
+  },
+  "verificare_px": {
+    "C392950_590000": [
+      588,
+      1561
+    ],
+    "C393000_590000": [
+      1312,
+      1562
+    ],
+    "C392950_589950": [
+      592.5,
+      2291.5
+    ],
+    "C392950_589900": [
+      593,
+      3022
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1893,
+      2596,
+      2318,
+      3113,
+      90
+    ],
+    [
+      1893,
+      2046,
+      2318,
+      2596,
+      90
+    ],
+    [
+      1045,
+      162,
+      1336,
+      400,
+      90
+    ],
+    [
+      1336,
+      158,
+      1548,
+      826,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe individuale (unifamiliale) și semicolective (familiale) cu cel mult două unități locative suprapuse sau alipite, cu anexele lor; locuințele semicolective numai pe parcele de minimum 450 mp (pe planșă parcelele 1 și 3); regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane – (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Pe parcelele de colț 1 (str. Reghin / str. Codlea) și 3 (str. Reghin / str. Beclean) planșa trasează zona construibilă la 3 m de limita de est, ca față de o limită laterală; hotărârea (Art. 1) cere 3 m față de limitele laterale și față de limita posterioară înălțimea clădirii, dar cel puțin 6 m, fără să spună care e limita posterioară a unei parcele de colț. Pe parcela 2 planșa păstrează 6 m spre est.",
+    "Planșa dă doar Hmax 12 m; hotărârea limitează și înălțimea la cornișă sau la aticul ultimului nivel neretras la 8 m.",
+    "Spațiile verzi pe sol natural (minimum 40% din parcelă și 60% din grădina de fațadă) nu apar nici în articolele hotărârii, nici pe planșă; le prevede regulamentul (Anexa 1, cap. 13)."
+  ],
+  "conditii": [
+    "Locuințele semicolective (cel mult două unități locative) se admit numai pe parcele de minimum 450 mp; regim de construire izolat.",
+    "Clădirile se retrag de la aliniament cel puțin 5 m la str. Reghin și la str. Beclean și cel puțin 3 m la str. Codlea; garajele se retrag cel puțin 6 m de la aliniament, ca să se poată parca un autoturism în fața lor.",
+    "Retragere de cel puțin 3 m față de limitele laterale; garajele, și cele incluse în clădire, se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m. Față de limita posterioară, retragerea e egală cu înălțimea clădirii, dar cel puțin 6 m; garajele se retrag cel puțin 6 m de la limita posterioară.",
+    "Accesul pe parcele se face din str. Reghin. La o locuință unifamilială: un singur acces pietonal și un singur acces auto, de cel mult 3 m lățime; la o locuință semicolectivă: până la două accese pietonale și două auto, dintre care unul de cel mult 3 m.",
+    "Parcarea se face pe parcelă: la locuințe unifamiliale cel puțin un loc pentru AU sub 100 mp și două peste 100 mp; la locuințe semicolective un loc pentru fiecare unitate locativă; la servicii cu acces public (de proximitate) cel puțin două locuri; alte activități după Anexa 2 a R.L.U.",
+    "Toate clădirile se racordează la rețelele edilitare existente; e interzisă scurgerea apelor pluviale spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuire; cablurile nu se montează aerian; fiecare parcelă are o platformă sau un spațiu pentru colectarea deșeurilor, accesibil din spațiul public.",
+    "Terenul necesar lărgirii str. Codlea (la profilul de 6 m) și racordului str. Beclean cu str. Reghin (pe planșă 55 mp și 12 mp) se dezmembrează din parcele și se înscrie în cartea funciară ca „drum” înainte de autorizațiile de construire, iar până la recepția construcțiilor se aduce la stratul de uzură (asfalt).",
+    "Înainte de recepția locuințelor, str. Reghin se asfaltează de la intersecția cu str. Adjudului până la terenul P.U.Z.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare parcelă și cel puțin 60% din grădina de fațadă; arborii maturi nu se taie, decât dacă pun în pericol oameni sau bunuri ori împiedică realizarea construcțiilor (regulamentul, Anexa 1, cap. 13).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "repere": {
+    "C392950_590000": [
+      590000,
+      392950
+    ],
+    "C393000_590000": [
+      590000,
+      393000
+    ],
+    "C392950_589950": [
+      589950,
+      392950
+    ],
+    "C392950_589900": [
+      589900,
+      392950
+    ]
+  }
+}
