@@ -1,0 +1,97 @@
+{
+  "id": "2025-147",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Planșa U.03 (p. 11) e o fotocopie redusă pe A4, fără inventar de coordonate și fără caroiaj Stereo 70, cu legenda și bilanțul ilizibile, iar metoda cu repere OpenStreetMap n-are niciun punct de control sau de verificare: clădirile existente apar pe planșă doar ca etichete (P+1, P+E, P+M) fără contur lizibil, iar străzile desenate (str. Măceșului și str. Paradisul Verde) nu dau intersecții în extrasul OSM (Paradisul Verde e drum de serviciu, ramificațiile poartă tot numele Măceșului); planșa se poate așeza doar aproximativ (±5-10 m) după axele celor două străzi, iar etichetele caselor de la sud și de la vest cad la 7-15 m de casele din OSM, deci o persoană trebuie să confirme poziția pe ortofoto.",
+  "hcl": {
+    "nr": 147,
+    "an": 2025,
+    "data_sedinta": "2025-04-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-147-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/04/10/147.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, str. Măceșului",
+  "plansa": {
+    "pagina_pdf": 11,
+    "dpi": 300,
+    "denumire": "U.03 – Reglementări urbanistice (PUZ de parcelare)",
+    "scara": "abia lizibilă în cartuș (pare 1:1000); imaginea are ≈5,3 px/m la 300 ppi (≈1:2200 pe foaia A4, planul original e redus)",
+    "nota": "PDF-ul are 12 pagini A4 scanate la 300 ppi (3508×2480 px, JPEG): pp. 1-4 hotărârea, pp. 5-10 Anexa 1 – regulamentul local de urbanism (6 pagini), p. 11 Anexa 2 – planșa U.03 „Reglementări urbanistice”, p. 12 Anexa 3 – planșa U.05 „Circulația terenurilor”. Ambele planșe sunt fotocopii alb-negru (raster de puncte, fără nicio culoare în afara scrisului de mână albastru), reduse pe A4 și tipărite culcat: textul se citește de jos în sus, nordul e spre stânga foii (≈268° după potrivirea aproximativă pe str. Măceșului și str. Paradisul Verde). Se citesc titlul, ștampila „Anexa 2 la Hotărârea nr. 147/2025”, rândurile mari din cartuș („PUZ de Parcelare”, „REGLEMENTĂRI URBANISTICE”, Pl. nr. U.03) și forma desenului; legenda (simboluri, UTR, indicatorii pe subzone), bilanțul teritorial și tabelele de parcele (sus, x≈200-1050, y≈80-540) și profilele stradale (jos, y≈3050-3450) au cifre și litere înecate în raster, ilizibile chiar mărite și netezite, așa că legenda_px e gol. Pe planșă nu se văd cruci de caroiaj și nici inventar de coordonate. Zona reglementată (lotizarea hașurată) cuprinde: la vest de str. Măceșului cele două insule de loturi înconjurate de aleile A, B și C, loturile dinspre valea împădurită de la nord-vest și rândul de loturi de la sud; la est de str. Măceșului insula dintre str. Măceșului, ramura est-vest și ramura nord-sud a str. Paradisul Verde, o prelungire la est de ramura nord-sud (în nord) și partea de sud până la x≈1790, mărginită spre est de linia groasă de la y≈1125 (x 1575-1800). Inelul de stradă desenat la sud-vest (x≈1340-1700, y≈1990-2680) e în afara zonei și nu corespunde străzilor construite azi (în locul lui sunt case noi)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Nicio sursă de coordonate sigură. Planșa nu are inventar de coordonate și nici caroiaj Stereo 70. S-a încercat metoda cu repere OpenStreetMap (extrasul din 2026-11-08): (1) intersecții de străzi – în raza planșei osm-snap nu are niciuna, fiindcă str. Paradisul Verde e „service” în OSM, iar ramificațiile de pe ambele părți ale str. Măceșului se numesc tot „Strada Măceșului” (intersecțiile cu numele lor, Măceșului/Rákóczi Ferenc II la nord și Măceșului/Eta Boeriu la sud, cad în afara foii); (2) colțuri de clădiri – fondul topografic al planșei nu are contururi de clădiri lizibile: casele existente apar doar ca etichete („P+1” la nord-vest, x≈380-440, y≈1700-1950; „P+1”, „P+1E”, „S+P+1” la vest, x≈1300-1390, y≈1850-2650; „P+E”, „P+M”, „2” la sud, x≈1800-1860, y≈1430-1660), cu cel mult un contur punctat abia ghicit în jurul lui „P+E” (x 1783-1872, y 1623-1700). Cu ancora aproximativă din osm_ancora, casele OSM cad la 7-15 m spre sud de aceste etichete, deci nici potrivirea etichetelor cu casele nu e sigură. Ancora aproximativă (osm_ancora) vine din axele străzilor: intersecția str. Măceșului / str. Paradisul Verde (OSM, `geocode`: E 393669,0 N 583800,0) la (745, 1675) pe planșă; colțul str. Paradisul Verde (ortofoto: E ≈393786,6 N ≈583784) la ≈(798, 1045); 5,27 px/m; nordul la 268°. Cu ea, str. Măceșului și ambele ramuri ale str. Paradisul Verde din OSM cad peste străzile desenate cu câțiva metri abatere. De verificat de o persoană: poziția lotizării pe ortofoto, între str. Măceșului, str. Paradisul Verde și valea de la nord-vest (terenul liber de la ~46,7435-46,7460 N, 23,6038-23,6083 E).",
+    "suprafata_declarata_m2": 58000,
+    "puncte": {},
+    "nota": "Suprafața vine din textul hotărârii („teren în suprafață de 5,8 ha”, rotunjit la 0,1 ha); bilanțul de pe planșă (S teren, existent și propus) e ilizibil."
+  },
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [745, 1675],
+    "en": [393669.0, 583800.0],
+    "px_per_m": 5.27,
+    "nord": 268
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "Liu*Măceșului",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale și semicolective (două unități locative pe parcelă), izolate; parcela minimă 400 mp (individuale), 580 mp (semicolective), 1500 mp (două locuințe individuale pe parcelă)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "3 niveluri supraterane ((S)+P+1+M/R, D+P+M/R); H cornișă 8 m, H max 12 m"
+    },
+    {
+      "cod": "S_Is",
+      "denumire": "Subzona instituțiilor și serviciilor publice și de interes public, în clădiri dedicate, în afara zonei centrale",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "4 niveluri supraterane ((1-2)S+P+2+R/M, S+D+P+1+R/M), max 18 m"
+    },
+    {
+      "cod": "S_Et",
+      "denumire": "Subzona de activități economice cu caracter terțiar în zone cu caracter rezidențial (comerț cu ADC de cel mult 1000 mp, birouri, servicii, cazare, sănătate, sport, educație)",
+      "pot_max": "50%",
+      "cut_max": "2,4",
+      "h_max": "4 niveluri supraterane ((1-2)S+P+2+R/M, S+D+P+1+R/M), max 18 m"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzona verde – scuar, grădină, parc cu acces public nelimitat",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "parter, H max 4 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-04-07",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare (ședința din 7.04.2025); `related`: nicio hotărâre ulterioară care să prelungească sau să modifice PUZ-ul (index actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Legenda planșei U.03 (UTR-urile, indicatorii POT/CUT pe subzone) și bilanțul teritorial sunt ilizibile în copia din PDF, așa că indicatorii din textul hotărârii n-au putut fi comparați cu planșa.",
+    "Între textul hotărârii și Anexa 1 (regulamentul local de urbanism, p. 10, art. 14 la S_Va): regulamentul dă pentru S_Va CUT max 0,05 și înălțimea „parter”, textul hotărârii CUT max 0,1 și P, H max 4 m. POT max 5% e același."
+  ],
+  "conditii": [
+    "Condițiile vin din avizul Serviciului Siguranța Circulației nr. 502057/446/19.05.2023, preluat în Art. 1.",
+    "Terenul necesar lărgirii str. Măceșului și str. Paradisul Verde și cel pentru aleile propuse (A, B și C) se dezmembrează din parcele și se înscrie în CF ca „drum” înainte de autorizarea lucrărilor de infrastructură rutieră.",
+    "Înainte de autorizația pentru primul imobil se realizează, pe proiecte autorizate: lărgirea și reamenajarea str. Măceșului după planșa U.03, cu marcaje și indicatoare și, dacă e cazul, refacerea iluminatului public; terenul dezmembrat pentru lărgire trece gratuit în domeniul public (după planșa U.05).",
+    "Tot înainte de primul imobil: str. Paradisul Verde se echipează edilitar (rețele noi sau redimensionate, inclusiv canalizare pluvială), iar carosabilul se lărgește după planșa U.03 și se aduce la strat de uzură.",
+    "Tot înainte de primul imobil: aleile A, B și C, cu acces public nelimitat, se echipează edilitar (inclusiv pluvial), cu carosabil de 6 m asfaltat.",
+    "Înainte de recepția locuințelor din UTR Liu*Măceșului se fac trotuarele aleilor și ale str. Paradisul Verde, cu iluminat stradal, și se amenajează spațiul verde public S_Va, care trece gratuit în domeniul public (după planșa U.05).",
+    "Etapizare: în etapa I se fac investițiile din S_Is, S_Et și S_Va; în etapa a II-a, după anul 2026, locuințele din Liu*Măceșului.",
+    "Autorizații pentru locuințe înainte de 2026 se pot da numai dacă s-au făcut lucrări rutiere care cresc capacitatea de circulație din zonă sau după ce Consiliul local aprobă declanșarea exproprierii pentru lărgirea str. Fagului.",
+    "Recepția locuințelor se face numai după terminarea lărgirii str. Fagului.",
+    "Parcarea se face numai în interiorul parcelelor, după Anexa 2 a RLU aferent PUG, iar construcțiile se racordează la toate rețelele edilitare publice.",
+    "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+}
