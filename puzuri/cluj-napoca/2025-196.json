@@ -1,0 +1,296 @@
+{
+  "id": "2025-196",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 196,
+    "an": 2025,
+    "data_sedinta": "2025-05-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-196-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-196.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și subzonă de activități economice cu caracter terțiar în zonă de locuințe colective, str. Bună Ziua nord",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 200,
+    "denumire": "A.6 Plan reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "PDF-ul are 110 pagini: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism, câte o secțiune pentru UTR S_Et_BJ și S_Is_BJ (pp. 3-8), Anexa 2 – planșa A.6 micșorată pe A4, rotită și semnată de președintele de ședință și de secretar (p. 9, 300 ppi), Anexa 3 – planșa A.7 „Plan proprietatea asupra terenurilor” micșorată (p. 10), avizul de oportunitate nr. 80 din 23.05.2023 (pp. 11-12), extrasul din P.U.G. (p. 13), avizele Arhitectului-șef nr. 191 din 2.11.2023 și nr. 123 din 15.04.2024 (pp. 14-18), planșa A.6 „Plan reglementări urbanistice” la format mare, color (p. 19, 200 ppi; aleasă: e cea mai clară, cu inventarele de coordonate și numerele vârfurilor lizibile, cu viza „spre neschimbare” – anexă la avizele Arhitectului-șef nr. 191/2023 și nr. 123/2024 – și mențiunea de mână „H.C.L. nr. 196 din 12 mai 2025”), planșa A.7 la format mare (p. 20) și raportul informării și consultării publicului (pp. 21-110). Cartușul: proiect nr. 1017/2021, faza P.U.Z., planșa A.6 „Plan reglementări urbanistice”, scara 1:1000, revizia 01, data 15.01.2024. Potrivirea dă 7,6 px/m față de 7,87 px/m cât ar fi 1:1000 la 200 ppi: copia din PDF e la circa 97%. Planșa e rotită: nordul e spre stânga (rotație -81°, ca săgeata nordului din dreapta sus), deci parcela 1 (stânga) e la nord, parcela 2 (dreapta) la sud, pe str. Bună Ziua. Legenda ia cheia simbolurilor („LEGENDĂ”: limite, cele patru UTR-uri cu denumirea lor, construibil, construcții, circulații, accese); indicatorii P.O.T./C.U.T. sunt doar în etichetele de pe desen, care se văd pe planșa de pe hartă. Au rămas pe dinafară inventarele de coordonate, tabelele parcelelor cu bilanțurile teritoriale (numai suprafețe), profilele de drum A și B, imaginile de prezentare, semnăturile digitale, ștampilele și cartușul (care numește beneficiara). Decupajul (limita + 1,5 m) nu atinge tabelele, ștampilele sau cartușul; fâșia din jurul punții dintre cele două parcele (vezi coordonate.nota) e scoasă cu `decupaj.exclude_px`."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Două inventare „COORDONATE STEREO'70 – Nume punct / X(m) / Y(m)” (X = Nord, Y = Est), în stânga sus a planșei, câte unul pentru fiecare dintre cele două parcele disjuncte ale P.U.Z.: primul tabel (x≈210-525, y≈90-425), punctele 510-515 și 500-509, în ordinea conturului, e parcela 2 (CF/nr. cad. 337583, UTR S_Et_BJ): 4.701,1 mp din coordonate, față de 4.700 mp în tabelul parcelei („S total teren ce a generat PUZ-ul”); al doilea (x≈205-525, y≈460-800), punctele 600-615, e parcela 1 (CF 255683, UTR S_Is_BJ și Ve): 2.548,4 mp, față de 2.548 mp. Împreună 7.249,5 mp, cât cei 7.248 mp din Art. 1 (0,02%). Tabelele nu tipăresc laturi sau perimetru. Conturul fiecărei parcele e linia albastră punctată „Limită UTR-uri propuse”, pe care stă limita de proprietate; linia roșie întreruptă „Limita zonei reglementate prin P.U.Z.” e desenată alături, cu circa 0,5-1 m spre exterior. Puncte de control, pe mijlocul liniei albastre: la parcela 1 colțurile 609 (vârful de nord, unghi de 30°), 610 (sud-est) și 614 (sud-vest); la parcela 2 colțurile 514 (nord-est), 507 (sud-vest) și 510 (nord-vest). Puncte de verificare: 600 (colțul de vest al parcelei 1, spre str. W. A. Mozart) și 515 (colțul de sud-est al parcelei 2, spre str. Bună Ziua). Celelalte vârfuri sunt frângeri mici pe laturi aproape drepte (601-608, 611-613, 500-506, 508, 509, 511-513, 615).",
+    "suprafata_declarata_m2": 7248,
+    "puncte": {
+      "600": [
+        584534.36,
+        393153.37
+      ],
+      "601": [
+        584549.82,
+        393169.88
+      ],
+      "602": [
+        584564.45,
+        393185.52
+      ],
+      "603": [
+        584565.27,
+        393186.35
+      ],
+      "604": [
+        584566.64,
+        393187.47
+      ],
+      "605": [
+        584567.4,
+        393187.98
+      ],
+      "606": [
+        584568.72,
+        393188.73
+      ],
+      "607": [
+        584569.77,
+        393189.19
+      ],
+      "608": [
+        584573.74,
+        393190.77
+      ],
+      "609": [
+        584582.74,
+        393194.36
+      ],
+      "610": [
+        584519.69,
+        393202.99
+      ],
+      "611": [
+        584519.49,
+        393202.48
+      ],
+      "612": [
+        584518.43,
+        393200.74
+      ],
+      "613": [
+        584508.16,
+        393189.2
+      ],
+      "614": [
+        584482.46,
+        393160.51
+      ],
+      "615": [
+        584497.72,
+        393158.38
+      ],
+      "510": [
+        584249.11,
+        393194.08
+      ],
+      "511": [
+        584257.12,
+        393247.39
+      ],
+      "512": [
+        584261.21,
+        393274.66
+      ],
+      "513": [
+        584261.16,
+        393282.79
+      ],
+      "514": [
+        584265.59,
+        393312.37
+      ],
+      "515": [
+        584235.95,
+        393316.83
+      ],
+      "500": [
+        584235.27,
+        393314.71
+      ],
+      "501": [
+        584235.77,
+        393313.54
+      ],
+      "502": [
+        584229.93,
+        393295.44
+      ],
+      "503": [
+        584223.85,
+        393275.88
+      ],
+      "504": [
+        584216.82,
+        393252.63
+      ],
+      "505": [
+        584216.57,
+        393251.78
+      ],
+      "506": [
+        584203.17,
+        393207.45
+      ],
+      "507": [
+        584201.16,
+        393200.8
+      ],
+      "508": [
+        584209.49,
+        393199.52
+      ],
+      "509": [
+        584241.21,
+        393195.15
+      ]
+    },
+    "ordine": [
+      "510",
+      "511",
+      "512",
+      "513",
+      "514",
+      "515",
+      "500",
+      "501",
+      "502",
+      "503",
+      "504",
+      "505",
+      "506",
+      "507",
+      "508",
+      "509",
+      "510",
+      "614",
+      "615",
+      "600",
+      "601",
+      "602",
+      "603",
+      "604",
+      "605",
+      "606",
+      "607",
+      "608",
+      "609",
+      "610",
+      "611",
+      "612",
+      "613",
+      "614"
+    ],
+    "nota": "Unealta primește un singur contur, așa că cele două parcele, la circa 236 m una de alta, sunt legate printr-o punte de lățime zero, parcursă dus-întors, ca la P.U.Z. 825/2023: de la vârful 510 (colțul de nord-vest al parcelei 2) la vârful 614 (colțul de sud-vest al parcelei 1), pe marginea de est a străzii care leagă cele două parcele prin interiorul ansamblului (pe planșă, latura de jos, cu „PARCĂRI”). `ordine` ocolește parcela 2 în ordinea tabelului (510 … 509, 510), trece la 614 și ocolește parcela 1 în același sens (614, 615, 600 … 613, 614), apoi se întoarce pe punte la 510; puntea nu adaugă arie (7.249,5 mp = 4.701,1 + 2.548,4). Pe hartă puntea se vede ca o linie de-a lungul străzii; fâșia de planșă din jurul ei e scoasă cu `decupaj.exclude_px`. Ambele inventare au același sens de parcurgere; niciun vârf nu face țepi (cel mai ascuțit unghi, 30°, la 609, e vârful desenat al parcelei 1). Cifrele s-au citit clar la mărire; fără laturi tipărite, verificarea e aria fiecărei parcele și suprapunerea conturului peste linia desenată (`overlay`), care urmează linia albastră pe toate laturile ambelor parcele."
+  },
+  "gcp_px": {
+    "609": [
+      568,
+      1535
+    ],
+    "610": [
+      1048,
+      1543
+    ],
+    "614": [
+      1279,
+      1907
+    ],
+    "514": [
+      3088,
+      1021
+    ],
+    "507": [
+      3441,
+      1937
+    ],
+    "510": [
+      3075,
+      1933
+    ]
+  },
+  "verificare_px": {
+    "600": [
+      879,
+      1901
+    ],
+    "515": [
+      3316,
+      1022
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        1290,
+        1870,
+        3064,
+        1965
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      1640,
+      100,
+      2045,
+      980
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is_BJ",
+      "denumire": "Subzonă de instituții și servicii publice (parcela 1, CF 255683, la nord, pe str. W. A. Mozart; 2.303 mp după bilanțul planșei): funcțiunea predominantă învățământ și sănătate – o creșă/grădiniță; regim de construire deschis; terenul trece în proprietatea Municipiului",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R): max. 8 m la cornișa superioară sau la aticul ultimului nivel neretras, max. 12 m la coamă sau la aticul nivelului retras; în plus un etaj tehnic de cel mult 30% din suprafața etajului"
+    },
+    {
+      "cod": "S_Et_BJ",
+      "denumire": "Subzonă de activități economice cu caracter terțiar (parcela 2, nr. cad. 337583, 4.700 mp, la sud, pe frontul nordic al str. Bună Ziua): activități financiar-bancare, administrative, comerciale, alimentație publică, servicii cu acces public, servicii profesionale, funcțiuni culturale și de sănătate – două clădiri; regim de construire deschis; fără locuințe",
+      "pot_max": "50%",
+      "cut_max": "2,4",
+      "h_max": "6 niveluri supraterane ((1-2)S+D+P+4 sau (1-2)S+P+5): max. 25 m la cornișa superioară sau la aticul ultimului nivel neretras, max. 30 m la coamă sau la aticul nivelului retras; în plus un etaj tehnic de cel mult 30% din suprafața etajului"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (245 mp după bilanțul planșei, în vârful de nord al parcelei 1); se mențin reglementările P.U.G."
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-05-12"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Pe desen planșa tipărește numai P.O.T. și C.U.T. (S_Is_BJ 60% / 2,20, S_Et_BJ 50% / 2,40, ca în Art. 1); regimul de înălțime și înălțimile maxime (8 m / 12 m la S_Is_BJ, 25 m / 30 m la S_Et_BJ) sunt doar în hotărâre și în regulament.",
+    "Legenda planșei și titlul din cartuș cuprind și o „UTR S_Va_BJ – zonă verde cu acces public nelimitat”, care nu apare nici pe desen, nici în bilanțurile parcelelor, nici în hotărâre.",
+    "Regulamentul (Anexa 1, UTR S_Is_BJ) dă pentru S_Is_BJ o „arie reglementată” de 1.605 mp; bilanțul planșei dă 2.303 mp S_Is_BJ și 245 mp Ve, adică parcela 1 întreagă (2.548 mp, cât inventarul).",
+    "Art. 1 numește terenul „nr. cad. 255683 și nr. cad. 337583”; pe planșă parcela 1 are CF nr. 255683 și nr. cad. 24849 (parcela 2: CF și nr. cad. 337583).",
+    "Regulamentul (Anexa 1) interzice nivelurile retrase și măsoară a doua înălțime (12 m la S_Is_BJ, 30 m la S_Et_BJ) la aticul etajului tehnic, cerând acoperiș terasă; Art. 1 o măsoară la coama acoperișului sau la aticul nivelului retras și admite configurații cu nivel retras ((S)+P+1+R, D+P+R).",
+    "Strada nouă prin parcela 2: Anexa 1 cere trotuare de 1,5 m; profilul B al planșei are 12 m, cu trotuare de 2 m (2,00 + 1,00 pistă + 3,00 + 3,00 + 1,00 pistă + 2,00)."
+  ],
+  "conditii": [
+    "Se reglementează 7.248 mp de teren proprietate privată, în două parcele separate, la circa 230 m una de alta, care închid spre nord și spre sud un ansamblu de locuințe colective realizat pe baza P.U.Z. aprobat prin HCL 357/2008: parcela 1 (2.548 mp, UTR S_Is_BJ și Ve), pe str. W. A. Mozart, și parcela 2 (4.700 mp, UTR S_Et_BJ), pe frontul nordic al str. Bună Ziua. Pe hartă cele două parcele sunt legate de o linie fără suprafață, de-a lungul străzii dintre ele.",
+    "Înainte de autorizațiile de construire în S_Et_BJ: terenul necesar lărgirii str. Bună Ziua (după planșa A.6) se dezmembrează din parcelă și se înscrie în CF ca „drum”; str. Bună Ziua se lărgește și se reamenajează: alveola stației de transport în comun reconfigurată (lățime de cel puțin 3 m), trotuar de cel puțin 2 m pe toată lungimea alveolei, copertina existentă cu instalațiile ei și panoul de afișaj electronic mutate în afara aliniamentului trotuarului, cei 3 arbori de aliniament mutați odată cu alveola; strada de interes local nr. cad. 286216 se prelungește până la str. Bună Ziua, cu semnalizare rutieră orizontală și verticală. Tema de proiectare pentru infrastructura rutieră e vizată de Serviciul Siguranța Circulației.",
+    "Tot înainte de autorizațiile din S_Et_BJ: terenul UTR S_Is_BJ (parcela 1) se transferă în proprietatea Municipiului (planșa A.7) și se înscrie un drept de trecere în favoarea Municipiului peste imobilul nr. cad. 319599.",
+    "Înainte de recepția clădirilor din S_Et_BJ, terenul amenajat pentru lărgirea str. Bună Ziua trece gratuit în domeniul public (planșa A.7).",
+    "Programul: o creșă/grădiniță în S_Is_BJ și două clădiri cu funcțiuni de sănătate-comerciale, respectiv terțiare, în S_Et_BJ; se pot realiza într-o singură etapă. Nu se propun locuințe, ci dotări și servicii pentru cartierul Bună Ziua.",
+    "Accese: la S_Is_BJ din strada de interes local nr. cad. 319599, care se desprinde din str. Bună Ziua; la S_Et_BJ din străzi de interes local perpendiculare pe str. Bună Ziua. Strada nouă (prelungirea străzii nr. cad. 286216 prin parcela 2, „profil drum B” pe planșă) are două benzi auto de 3 m, două piste de biciclete de 1 m și trotuare (Anexa 1).",
+    "Retrageri la S_Is_BJ: cel puțin 5 m de la aliniamentul str. W. A. Mozart și de la strada de interes local nr. cad. 319599, cel puțin 6 m de la limitele laterale (Anexa 1: și de la limita posterioară; corpurile alipite sau la cel puțin 3 m unul de altul).",
+    "Retrageri la S_Et_BJ: cel puțin 5 m de la aliniament (Anexa 1: aliniamentul nou, după lărgirea str. Bună Ziua, și cel al străzilor interioare) și cel puțin 5 m de la limitele laterale (Anexa 1: și posterioare), cu respectarea Ordinului M.S. nr. 114/2019 privind însorirea; între două clădiri de pe aceeași parcelă cel puțin o treime din înălțimea celei mai înalte, minimum 5 m (Anexa 1).",
+    "Parcarea se dimensionează după Anexa 2 a R.L.U. aferent P.U.G. (Anexa 1: însumând necesarul fiecărei funcțiuni; la S_Et_BJ toate locurile în spații specializate la subsol, demisol sau parter, plus parcaje la sol pentru aprovizionarea spațiilor comerciale, la cel puțin 5 m de ferestrele camerelor de locuit).",
+    "Toate clădirile se racordează la rețelele edilitare publice; cablurile aeriene de orice fel sunt interzise, cu excepția iluminatului decorativ temporar.",
+    "Anexa 1: o parcelă e construibilă dacă are front la stradă de cel puțin 25 m, formă regulată și cel puțin 1.000 mp (S_Is_BJ) sau 800 mp (S_Et_BJ); spații verzi pe sol natural de cel puțin 25% din parcelă la S_Is_BJ și 15% la S_Et_BJ; arhitectură modernă, acoperiș terasă (înierbat la terasele vizibile de la etajele superioare), fără pastișe; la S_Et_BJ împrejmuiri numai la curțile de serviciu, iar la S_Is_BJ de max. 2,2 m, cu soclu opac de max. 80 cm.",
+    "Pentru suprafața încadrată în UTR Ve se mențin reglementările P.U.G.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+}

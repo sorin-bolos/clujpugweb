@@ -15794,6 +15794,214 @@
   ]
  },
  {
+  "id": "2025-196",
+  "localitate": "cluj",
+  "hcl": "196/2025",
+  "data": "2025-05-12",
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și subzonă de activități economice cu caracter terțiar în zonă de locuințe colective, str. Bună Ziua nord",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-196-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-196.pdf",
+  "utr": [
+   {
+    "cod": "S_Is_BJ",
+    "denumire": "Subzonă de instituții și servicii publice (parcela 1, CF 255683, la nord, pe str. W. A. Mozart; 2.303 mp după bilanțul planșei): funcțiunea predominantă învățământ și sănătate – o creșă/grădiniță; regim de construire deschis; terenul trece în proprietatea Municipiului",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R): max. 8 m la cornișa superioară sau la aticul ultimului nivel neretras, max. 12 m la coamă sau la aticul nivelului retras; în plus un etaj tehnic de cel mult 30% din suprafața etajului"
+   },
+   {
+    "cod": "S_Et_BJ",
+    "denumire": "Subzonă de activități economice cu caracter terțiar (parcela 2, nr. cad. 337583, 4.700 mp, la sud, pe frontul nordic al str. Bună Ziua): activități financiar-bancare, administrative, comerciale, alimentație publică, servicii cu acces public, servicii profesionale, funcțiuni culturale și de sănătate – două clădiri; regim de construire deschis; fără locuințe",
+    "pot_max": "50%",
+    "cut_max": "2,4",
+    "h_max": "6 niveluri supraterane ((1-2)S+D+P+4 sau (1-2)S+P+5): max. 25 m la cornișa superioară sau la aticul ultimului nivel neretras, max. 30 m la coamă sau la aticul nivelului retras; în plus un etaj tehnic de cel mult 30% din suprafața etajului"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (245 mp după bilanțul planșei, în vârful de nord al parcelei 1); se mențin reglementările P.U.G."
+   }
+  ],
+  "suprafata_m2": 7249,
+  "imagine": "puz/2025-196/plansa.webp",
+  "bounds": {
+   "west": 23.5996797,
+   "south": 46.7488496,
+   "east": 23.6019528,
+   "north": 46.752379
+  },
+  "limita": [
+   [
+    23.6003119,
+    46.7493056
+   ],
+   [
+    23.6010077,
+    46.7493861
+   ],
+   [
+    23.6013636,
+    46.7494272
+   ],
+   [
+    23.6014701,
+    46.7494281
+   ],
+   [
+    23.6018561,
+    46.7494726
+   ],
+   [
+    23.6019214,
+    46.7492067
+   ],
+   [
+    23.6018938,
+    46.7492003
+   ],
+   [
+    23.6018783,
+    46.7492046
+   ],
+   [
+    23.6016428,
+    46.7491492
+   ],
+   [
+    23.6013883,
+    46.7490914
+   ],
+   [
+    23.6010856,
+    46.7490244
+   ],
+   [
+    23.6010745,
+    46.749022
+   ],
+   [
+    23.6004975,
+    46.7488944
+   ],
+   [
+    23.6004109,
+    46.7488753
+   ],
+   [
+    23.6003923,
+    46.74895
+   ],
+   [
+    23.6003277,
+    46.7492347
+   ],
+   [
+    23.6003119,
+    46.7493056
+   ],
+   [
+    23.5998185,
+    46.7513993
+   ],
+   [
+    23.5997871,
+    46.7515362
+   ],
+   [
+    23.5997131,
+    46.751865
+   ],
+   [
+    23.5999256,
+    46.7520067
+   ],
+   [
+    23.6001269,
+    46.7521408
+   ],
+   [
+    23.6001375,
+    46.7521483
+   ],
+   [
+    23.6001519,
+    46.7521608
+   ],
+   [
+    23.6001584,
+    46.7521677
+   ],
+   [
+    23.6001679,
+    46.7521797
+   ],
+   [
+    23.6001737,
+    46.7521892
+   ],
+   [
+    23.6001934,
+    46.7522252
+   ],
+   [
+    23.6002383,
+    46.7523067
+   ],
+   [
+    23.6003659,
+    46.751741
+   ],
+   [
+    23.6003592,
+    46.7517391
+   ],
+   [
+    23.6003367,
+    46.7517293
+   ],
+   [
+    23.6001881,
+    46.751635
+   ],
+   [
+    23.5998185,
+    46.7513993
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.22
+  },
+  "legenda": "puz/2025-196/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-05-12"
+  },
+  "diferente_fata_de_plansa": [
+   "Pe desen planșa tipărește numai P.O.T. și C.U.T. (S_Is_BJ 60% / 2,20, S_Et_BJ 50% / 2,40, ca în Art. 1); regimul de înălțime și înălțimile maxime (8 m / 12 m la S_Is_BJ, 25 m / 30 m la S_Et_BJ) sunt doar în hotărâre și în regulament.",
+   "Legenda planșei și titlul din cartuș cuprind și o „UTR S_Va_BJ – zonă verde cu acces public nelimitat”, care nu apare nici pe desen, nici în bilanțurile parcelelor, nici în hotărâre.",
+   "Regulamentul (Anexa 1, UTR S_Is_BJ) dă pentru S_Is_BJ o „arie reglementată” de 1.605 mp; bilanțul planșei dă 2.303 mp S_Is_BJ și 245 mp Ve, adică parcela 1 întreagă (2.548 mp, cât inventarul).",
+   "Art. 1 numește terenul „nr. cad. 255683 și nr. cad. 337583”; pe planșă parcela 1 are CF nr. 255683 și nr. cad. 24849 (parcela 2: CF și nr. cad. 337583).",
+   "Regulamentul (Anexa 1) interzice nivelurile retrase și măsoară a doua înălțime (12 m la S_Is_BJ, 30 m la S_Et_BJ) la aticul etajului tehnic, cerând acoperiș terasă; Art. 1 o măsoară la coama acoperișului sau la aticul nivelului retras și admite configurații cu nivel retras ((S)+P+1+R, D+P+R).",
+   "Strada nouă prin parcela 2: Anexa 1 cere trotuare de 1,5 m; profilul B al planșei are 12 m, cu trotuare de 2 m (2,00 + 1,00 pistă + 3,00 + 3,00 + 1,00 pistă + 2,00)."
+  ],
+  "conditii": [
+   "Se reglementează 7.248 mp de teren proprietate privată, în două parcele separate, la circa 230 m una de alta, care închid spre nord și spre sud un ansamblu de locuințe colective realizat pe baza P.U.Z. aprobat prin HCL 357/2008: parcela 1 (2.548 mp, UTR S_Is_BJ și Ve), pe str. W. A. Mozart, și parcela 2 (4.700 mp, UTR S_Et_BJ), pe frontul nordic al str. Bună Ziua. Pe hartă cele două parcele sunt legate de o linie fără suprafață, de-a lungul străzii dintre ele.",
+   "Înainte de autorizațiile de construire în S_Et_BJ: terenul necesar lărgirii str. Bună Ziua (după planșa A.6) se dezmembrează din parcelă și se înscrie în CF ca „drum”; str. Bună Ziua se lărgește și se reamenajează: alveola stației de transport în comun reconfigurată (lățime de cel puțin 3 m), trotuar de cel puțin 2 m pe toată lungimea alveolei, copertina existentă cu instalațiile ei și panoul de afișaj electronic mutate în afara aliniamentului trotuarului, cei 3 arbori de aliniament mutați odată cu alveola; strada de interes local nr. cad. 286216 se prelungește până la str. Bună Ziua, cu semnalizare rutieră orizontală și verticală. Tema de proiectare pentru infrastructura rutieră e vizată de Serviciul Siguranța Circulației.",
+   "Tot înainte de autorizațiile din S_Et_BJ: terenul UTR S_Is_BJ (parcela 1) se transferă în proprietatea Municipiului (planșa A.7) și se înscrie un drept de trecere în favoarea Municipiului peste imobilul nr. cad. 319599.",
+   "Înainte de recepția clădirilor din S_Et_BJ, terenul amenajat pentru lărgirea str. Bună Ziua trece gratuit în domeniul public (planșa A.7).",
+   "Programul: o creșă/grădiniță în S_Is_BJ și două clădiri cu funcțiuni de sănătate-comerciale, respectiv terțiare, în S_Et_BJ; se pot realiza într-o singură etapă. Nu se propun locuințe, ci dotări și servicii pentru cartierul Bună Ziua.",
+   "Accese: la S_Is_BJ din strada de interes local nr. cad. 319599, care se desprinde din str. Bună Ziua; la S_Et_BJ din străzi de interes local perpendiculare pe str. Bună Ziua. Strada nouă (prelungirea străzii nr. cad. 286216 prin parcela 2, „profil drum B” pe planșă) are două benzi auto de 3 m, două piste de biciclete de 1 m și trotuare (Anexa 1).",
+   "Retrageri la S_Is_BJ: cel puțin 5 m de la aliniamentul str. W. A. Mozart și de la strada de interes local nr. cad. 319599, cel puțin 6 m de la limitele laterale (Anexa 1: și de la limita posterioară; corpurile alipite sau la cel puțin 3 m unul de altul).",
+   "Retrageri la S_Et_BJ: cel puțin 5 m de la aliniament (Anexa 1: aliniamentul nou, după lărgirea str. Bună Ziua, și cel al străzilor interioare) și cel puțin 5 m de la limitele laterale (Anexa 1: și posterioare), cu respectarea Ordinului M.S. nr. 114/2019 privind însorirea; între două clădiri de pe aceeași parcelă cel puțin o treime din înălțimea celei mai înalte, minimum 5 m (Anexa 1).",
+   "Parcarea se dimensionează după Anexa 2 a R.L.U. aferent P.U.G. (Anexa 1: însumând necesarul fiecărei funcțiuni; la S_Et_BJ toate locurile în spații specializate la subsol, demisol sau parter, plus parcaje la sol pentru aprovizionarea spațiilor comerciale, la cel puțin 5 m de ferestrele camerelor de locuit).",
+   "Toate clădirile se racordează la rețelele edilitare publice; cablurile aeriene de orice fel sunt interzise, cu excepția iluminatului decorativ temporar.",
+   "Anexa 1: o parcelă e construibilă dacă are front la stradă de cel puțin 25 m, formă regulată și cel puțin 1.000 mp (S_Is_BJ) sau 800 mp (S_Et_BJ); spații verzi pe sol natural de cel puțin 25% din parcelă la S_Is_BJ și 15% la S_Et_BJ; arhitectură modernă, acoperiș terasă (înierbat la terasele vizibile de la etajele superioare), fără pastișe; la S_Et_BJ împrejmuiri numai la curțile de serviciu, iar la S_Is_BJ de max. 2,2 m, cu soclu opac de max. 80 cm.",
+   "Pentru suprafața încadrată în UTR Ve se mențin reglementările P.U.G.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
