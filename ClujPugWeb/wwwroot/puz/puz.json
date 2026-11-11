@@ -15063,6 +15063,181 @@
   ]
  },
  {
+  "id": "2025-462",
+  "localitate": "cluj",
+  "hcl": "462/2025",
+  "data": "2025-07-07",
+  "titlu": "P.U.Z. – de urbanizare, strada Soporului – latura nordică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-462-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-462.pdf",
+  "utr": [
+   {
+    "cod": "Lid*",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: locuințe individuale (unifamiliale) și anexele lor, regim de construire izolat; 11 parcele (9.630 mp în bilanțul planșei), fiecare de cel puțin 800 mp și cu front la strada „A” (Anexa 1)",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P; max. 8 m la cornișă/atic neretras și 12 m la coamă/atic retras"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public: funcțiuni de sănătate și asistență socială, regim deschis, izolat; o parcelă (800 mp în bilanțul planșei)",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P, ultimul nivel retras cu min. 1,8 m spre stradă; max. 8 m la cornișă/atic și 12 m la coamă"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat: plantații, alei, mobilier urban, amenajări pentru joacă, odihnă și sport (pe planșă loc de joacă pentru copii, 673 mp)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "(S/D)+P, max. 4 m la cornișă"
+   }
+  ],
+  "suprafata_m2": 16035,
+  "imagine": "puz/2025-462/plansa.webp",
+  "bounds": {
+   "west": 23.6545157,
+   "south": 46.7411383,
+   "east": 23.6567664,
+   "north": 46.7431135
+  },
+  "limita": [
+   [
+    23.6550303,
+    46.7413674
+   ],
+   [
+    23.6549339,
+    46.7414095
+   ],
+   [
+    23.6548879,
+    46.7414299
+   ],
+   [
+    23.6546792,
+    46.7415261
+   ],
+   [
+    23.6545775,
+    46.7415816
+   ],
+   [
+    23.6546474,
+    46.7416819
+   ],
+   [
+    23.6547141,
+    46.7417744
+   ],
+   [
+    23.6549244,
+    46.7420749
+   ],
+   [
+    23.6550993,
+    46.7423232
+   ],
+   [
+    23.6553085,
+    46.7426305
+   ],
+   [
+    23.6553458,
+    46.7426839
+   ],
+   [
+    23.655561,
+    46.7429922
+   ],
+   [
+    23.655624,
+    46.743083
+   ],
+   [
+    23.6560712,
+    46.7429475
+   ],
+   [
+    23.6560983,
+    46.7429892
+   ],
+   [
+    23.6561853,
+    46.7429887
+   ],
+   [
+    23.6562909,
+    46.7429881
+   ],
+   [
+    23.6563564,
+    46.74309
+   ],
+   [
+    23.6565224,
+    46.743055
+   ],
+   [
+    23.6566919,
+    46.7430189
+   ],
+   [
+    23.6554861,
+    46.7411863
+   ],
+   [
+    23.6554797,
+    46.7411765
+   ],
+   [
+    23.6554746,
+    46.7411694
+   ],
+   [
+    23.6553282,
+    46.7412365
+   ],
+   [
+    23.655179,
+    46.7413018
+   ],
+   [
+    23.6550311,
+    46.7413667
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.28
+  },
+  "legenda": "puz/2025-462/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-07-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Suprafața: Art. 1 și bilanțul teritorial al planșei dau 15.976 mp, iar inventarul de coordonate al planșei S(T) = 16.035,21 mp (P = 589,53 m), cu 59 mp mai mult; limita de pe hartă e cea din inventar.",
+   "Planșa nu tipărește indicatori: POT, CUT, regimul de înălțime și înălțimile maxime ale celor trei subzone (Lid*, S_Is*, S_Va*), retragerile și parcela minimă de 800 mp vin numai din Art. 1 și din regulament (Anexa 1). Retragerile desenate pe parcelele Lid* (5 m față de strada „A”, 4,5 m față de limitele laterale) sunt cele din text.",
+   "În limita P.U.Z., planșa cuprinde și trei loturi construite existente la str. Soporului (Lot 1-3 „Existent”; în bilanț „S. teren construit existent Lid”, 2.818 mp), fără culoarea unei subzone propuse; Art. 1 enumeră numai cele 11 parcele Lid*, parcela S_Is*, parcela S_Va* și circulațiile, fără să le reglementeze. Legenda mai numește UTR A, ULid/PUZ și ULid „etapele ulterioare”, pe care textul nu le pomenește."
+  ],
+  "conditii": [
+   "Strada „A” propusă (ampriză de 9 m: două benzi de 3 m și trotuare de 1,5 m pe ambele părți) se înscrie în cartea funciară ca „drum”, cu acces public nelimitat; se echipează edilitar, iar partea carosabilă se face la strat de uzură, pe baza unui proiect de specialitate, înainte de emiterea autorizațiilor de construire pe parcelele cu acces din ea. Trotuarele și iluminatul stradal se fac până la recepția construcțiilor.",
+   "Terenul necesar regularizării str. Soporului, pe tronsonul de lângă P.U.Z. (218 mp în bilanțul planșei), se dezmembrează și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe parcele; până la recepția construcțiilor se asfaltează și se transferă gratuit în domeniul public, cum arată planșa U.12.",
+   "Spațiul verde cu acces public nelimitat (S_Va*) se dezmembrează, se înscrie în cartea funciară ca „spațiu verde cu acces public nelimitat” și se amenajează pe baza unui proiect de specialitate înainte de recepția construcțiilor, cu vegetație joasă, medie și înaltă (cel puțin 3 arbori cu circumferința de min. 35 cm la 1 m de colet).",
+   "Accesul dinspre Gheorgheni trece prin intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, a cărei capacitate de circulație e depășită: autorizațiile de construire (în afară de infrastructura tehnico-edilitară, spațiul verde S_Va* și clădirile de interes public din S_Is*) se emit numai după ce municipalitatea aplică măsuri de creștere a capacității de circulație prin lucrări rutiere, dar nu mai târziu de 31.12.2026.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Accese: toate parcelele din strada „A”; pe o parcelă un singur acces pietonal și un singur acces carosabil, lat de 3-6 m; pentru căile din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei: la locuințe min. 1 loc pentru AU sub 100 mp și 2 locuri peste 100 mp, la serviciile de proximitate 2 locuri; în S_Is* exclusiv pe parcelă (garaje colective sau parcaje la sol), după Anexa 2 a regulamentului P.U.G.; în S_Va* parcarea e interzisă, în afară de vehiculele de întreținere.",
+   "Utilitățile se racordează la rețelele publice disponibile. Până la canalizarea publică, apele uzate menajere merg în sisteme individuale, în interiorul parcelei; apele pluviale se gestionează individual sau colectiv, prin acumulare sau retenție, apoi în emisari locali; e interzisă scurgerea apelor meteorice spre domeniul public sau spre vecini.",
+   "Firidele de branșament și contorizare se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise; fiecare parcelă are o platformă sau un spațiu pentru deșeurile menajere, accesibil din spațiul public (în S_Va*, în zona de întreținere, și unul pentru compost).",
+   "Lid*: regim izolat; retragere obligatorie de 5 m față de aliniament (la parcelele de colț față de ambele), garajele la min. 6 m; min. 4,5 m față de limitele laterale (garajele se pot alipi dacă calcanul nu trece de 2,8 m); față de limita posterioară min. înălțimea clădirii, dar cel puțin 12 m; între două clădiri de pe aceeași parcelă min. înălțimea celei mai înalte, cel puțin 4,5 m (Anexa 1).",
+   "S_Is*: retragere de min. 6 m față de aliniament; față de limitele laterale min. jumătate din înălțimea clădirii, dar cel puțin 6 m; față de limita posterioară min. înălțimea clădirii, dar cel puțin 6 m.",
+   "S_Va*: retragere de min. 5 m față de aliniament, min. 3 m față de limitele laterale și min. 6 m față de limita posterioară; iluminatul public pe bază de studii de specialitate și puncte de alimentare cu apă din rețeaua publică."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

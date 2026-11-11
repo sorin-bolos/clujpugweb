@@ -1,0 +1,320 @@
+{
+  "id": "2025-462",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 462,
+    "an": 2025,
+    "data_sedinta": "2025-07-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-462-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-462.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, strada Soporului – latura nordică",
+  "plansa": {
+    "pagina_pdf": 25,
+    "dpi": 200,
+    "denumire": "Plan reglementări urbanistice (U.09)",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 14 (Anexa 2 la hotărâre, micșorată pe A4, 300 ppi, semnată de președintele de ședință și de secretar, textul abia se citește) și p. 25 (format mare, 433×422 mm, color, 200 ppi, cu viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 177 din 17.10.2023 și la avizul nr. 138 din 10.05.2024 – și mențiunea de mână „HCL nr. 462 din 7 iulie 2025”); s-a folosit p. 25. P. 26 (și p. 15, Anexa 3 micșorată pe A4) e planșa U.12 „Plan cu proprietatea asupra terenurilor”, nu o planșă de reglementări; p. 24 e extrasul din P.U.G. cu teritoriul de studiat. Pp. 5-13 sunt Anexa 1 (regulamentul local de urbanism), p. 16 avizul nr. 138 din 10.05.2024, care modifică avizul Arhitectului-șef nr. 177/2023 la locurile de parcare, iar pp. 17-23 și 27-30 alte avize și documente ale procedurii. Cartușul: proiect nr. 64/2017, faza P.U.Z., planșa U.09 „Plan reglementări urbanistice”, scara 1:1000, data 07.2023. Planșa e tipărită la scară (7,85-7,92 px/m față de 7,87 px/m cât dă 1:1000 la 200 ppi), cu nordul în sus (rotație 0,34°); are și un caroiaj Stereo 70 din 50 în 50 m, cu etichete pe ramă (Nord în stânga, Est sus și jos). Legenda (o singură casetă) cuprinde cheia simbolurilor: limita zonei reglementate, zona cedată pentru modernizarea str. Soporului, circulațiile, UTR-urile (A, Lid existent, Lid*, ULid/PUZ, ULid etapele ulterioare), zona construibilă, S_Va*, S_Is*, clădirile existente, continuarea circulației în etapele ulterioare și accesele. Planșa nu are casete cu indicatori. Au rămas pe dinafară bilanțul teritorial, secțiunile A-A și B-B, profilul străzii A, inventarul de coordonate, ștampilele și cartușul (care numește beneficiarii). Decupajul (limita + 1,5 m) nu atinge tabelele sau ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabelul „Parcela (T)” de pe planșa U.09: „Coordonate pct. de contur X [m] / Y [m]” (X = Nord, Y = Est), 26 de puncte în ordinea conturului (numerotate 238, 187, 509-511, 513-516, 550, 517, 519, 520, 551-556, 502, 504, 557, 505-508), cu lungimile laturilor D(i,i+1) și „S(T)=16035.21mp P=589.53m”. Toate cele 26 de laturi, perimetrul și aria se potrivesc la transcriere. Conturul e linia „limita de proprietate = limita zonei reglementate prin PUZ” (roșie, cu puncte); spre str. Soporului ea trece pe marginea dinspre stradă a fâșiei cedate pentru lărgirea străzii. Puncte de control: colțurile 520 (NV), 502 (NE), 555 (vârful dintre S_Va* și S_Is*), 505 (SE, la str. Soporului) și 511 (V, la str. Soporului), plus două cruci etichetate ale caroiajului Stereo 70 (E 397350 / N 583500 și E 397350 / N 583250). De verificare: colțurile 551, 552 și 554 ale scobiturii de pe latura de nord și crucile E 397400 / N 583300 și E 397400 / N 583250. Crucile sunt citite de pe planșă, la intersecția liniilor etichetate pe ramă; numai cu ele, potrivirea pune colțurile inventarului la 0,2-0,8 m, deci caroiajul ține de desen. Punctele 238, 187, 509, 510, 506-508 (pe latura dreaptă de la stradă), 513-517, 519, 550 (pe latura de vest), 553, 556, 504 și 557 sunt pe laturi drepte și n-au fost folosite; colțurile de la stradă (505, 511) sunt încărcate de hașura zonei cedate și au fost citite pe centrul liniei.",
+    "suprafata_declarata_m2": 16035.21,
+    "puncte": {
+      "238": [
+        583294.419,
+        397358.97
+      ],
+      "187": [
+        583299.228,
+        397351.679
+      ],
+      "509": [
+        583301.551,
+        397348.202
+      ],
+      "510": [
+        583312.515,
+        397332.441
+      ],
+      "511": [
+        583318.818,
+        397324.777
+      ],
+      "513": [
+        583329.874,
+        397330.308
+      ],
+      "514": [
+        583340.062,
+        397335.579
+      ],
+      "515": [
+        583373.187,
+        397352.216
+      ],
+      "516": [
+        583400.558,
+        397366.042
+      ],
+      "550": [
+        583434.438,
+        397382.609
+      ],
+      "517": [
+        583440.316,
+        397385.554
+      ],
+      "519": [
+        583474.307,
+        397402.58
+      ],
+      "520": [
+        583484.313,
+        397407.562
+      ],
+      "551": [
+        583468.677,
+        397441.471
+      ],
+      "552": [
+        583473.273,
+        397443.626
+      ],
+      "553": [
+        583473.106,
+        397450.267
+      ],
+      "554": [
+        583472.903,
+        397458.337
+      ],
+      "555": [
+        583484.14,
+        397463.53
+      ],
+      "556": [
+        583480.04,
+        397476.15
+      ],
+      "502": [
+        583475.81,
+        397489.03
+      ],
+      "504": [
+        583273.7,
+        397393.45
+      ],
+      "557": [
+        583272.62,
+        397392.94
+      ],
+      "505": [
+        583271.84,
+        397392.54
+      ],
+      "506": [
+        583279.49,
+        397381.48
+      ],
+      "507": [
+        583286.94,
+        397370.2
+      ],
+      "508": [
+        583294.34,
+        397359.03
+      ]
+    },
+    "perimetru_declarat_m": 589.53,
+    "laturi_declarate_m": {
+      "238": 8.73,
+      "187": 4.18,
+      "509": 19.2,
+      "510": 9.92,
+      "511": 12.36,
+      "513": 11.47,
+      "514": 37.07,
+      "515": 30.66,
+      "516": 37.71,
+      "550": 6.57,
+      "517": 38.02,
+      "519": 11.18,
+      "520": 37.34,
+      "551": 5.08,
+      "552": 6.64,
+      "553": 8.07,
+      "554": 12.38,
+      "555": 13.27,
+      "556": 13.56,
+      "502": 223.57,
+      "504": 1.19,
+      "557": 0.88,
+      "505": 13.45,
+      "506": 13.52,
+      "507": 13.4,
+      "508": 0.1
+    },
+    "ordine": [
+      "238",
+      "187",
+      "509",
+      "510",
+      "511",
+      "513",
+      "514",
+      "515",
+      "516",
+      "550",
+      "517",
+      "519",
+      "520",
+      "551",
+      "552",
+      "553",
+      "554",
+      "555",
+      "556",
+      "502",
+      "504",
+      "557",
+      "505",
+      "506",
+      "507",
+      "508"
+    ],
+    "nota": "Suprafața: inventarul planșei dă S(T) = 16.035,21 mp, iar Art. 1 și bilanțul teritorial al planșei 15.976 mp (suprafață măsurată), cu 59 mp (0,4 %) mai puțin; verificarea ariei folosește cifra inventarului, cu care coordonatele se potrivesc exact."
+  },
+  "gcp_px": {
+    "520": [
+      1172,
+      1313
+    ],
+    "502": [
+      1809,
+      1381
+    ],
+    "505": [
+      1048,
+      2992
+    ],
+    "511": [
+      518,
+      2614
+    ],
+    "555": [
+      1611,
+      1316
+    ],
+    "C397350_583500": [
+      719,
+      1185
+    ],
+    "C397350_583250": [
+      713,
+      3167
+    ]
+  },
+  "verificare_px": {
+    "551": [
+      1437,
+      1433
+    ],
+    "552": [
+      1455,
+      1400
+    ],
+    "554": [
+      1572,
+      1401
+    ],
+    "C397400_583300": [
+      1109,
+      2771
+    ],
+    "C397400_583250": [
+      1105,
+      3169
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2722,
+      128,
+      3380,
+      1168
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lid*",
+      "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: locuințe individuale (unifamiliale) și anexele lor, regim de construire izolat; 11 parcele (9.630 mp în bilanțul planșei), fiecare de cel puțin 800 mp și cu front la strada „A” (Anexa 1)",
+      "pot_max": "20%",
+      "cut_max": "0,4",
+      "h_max": "două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P; max. 8 m la cornișă/atic neretras și 12 m la coamă/atic retras"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public: funcțiuni de sănătate și asistență socială, regim deschis, izolat; o parcelă (800 mp în bilanțul planșei)",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P, ultimul nivel retras cu min. 1,8 m spre stradă; max. 8 m la cornișă/atic și 12 m la coamă"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat: plantații, alei, mobilier urban, amenajări pentru joacă, odihnă și sport (pe planșă loc de joacă pentru copii, 673 mp)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "(S/D)+P, max. 4 m la cornișă"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-07-07",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 2-4 din PDF): coincide, fără articole adăugate după lista anexelor."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Suprafața: Art. 1 și bilanțul teritorial al planșei dau 15.976 mp, iar inventarul de coordonate al planșei S(T) = 16.035,21 mp (P = 589,53 m), cu 59 mp mai mult; limita de pe hartă e cea din inventar.",
+    "Planșa nu tipărește indicatori: POT, CUT, regimul de înălțime și înălțimile maxime ale celor trei subzone (Lid*, S_Is*, S_Va*), retragerile și parcela minimă de 800 mp vin numai din Art. 1 și din regulament (Anexa 1). Retragerile desenate pe parcelele Lid* (5 m față de strada „A”, 4,5 m față de limitele laterale) sunt cele din text.",
+    "În limita P.U.Z., planșa cuprinde și trei loturi construite existente la str. Soporului (Lot 1-3 „Existent”; în bilanț „S. teren construit existent Lid”, 2.818 mp), fără culoarea unei subzone propuse; Art. 1 enumeră numai cele 11 parcele Lid*, parcela S_Is*, parcela S_Va* și circulațiile, fără să le reglementeze. Legenda mai numește UTR A, ULid/PUZ și ULid „etapele ulterioare”, pe care textul nu le pomenește."
+  ],
+  "conditii": [
+    "Strada „A” propusă (ampriză de 9 m: două benzi de 3 m și trotuare de 1,5 m pe ambele părți) se înscrie în cartea funciară ca „drum”, cu acces public nelimitat; se echipează edilitar, iar partea carosabilă se face la strat de uzură, pe baza unui proiect de specialitate, înainte de emiterea autorizațiilor de construire pe parcelele cu acces din ea. Trotuarele și iluminatul stradal se fac până la recepția construcțiilor.",
+    "Terenul necesar regularizării str. Soporului, pe tronsonul de lângă P.U.Z. (218 mp în bilanțul planșei), se dezmembrează și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe parcele; până la recepția construcțiilor se asfaltează și se transferă gratuit în domeniul public, cum arată planșa U.12.",
+    "Spațiul verde cu acces public nelimitat (S_Va*) se dezmembrează, se înscrie în cartea funciară ca „spațiu verde cu acces public nelimitat” și se amenajează pe baza unui proiect de specialitate înainte de recepția construcțiilor, cu vegetație joasă, medie și înaltă (cel puțin 3 arbori cu circumferința de min. 35 cm la 1 m de colet).",
+    "Accesul dinspre Gheorgheni trece prin intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, a cărei capacitate de circulație e depășită: autorizațiile de construire (în afară de infrastructura tehnico-edilitară, spațiul verde S_Va* și clădirile de interes public din S_Is*) se emit numai după ce municipalitatea aplică măsuri de creștere a capacității de circulație prin lucrări rutiere, dar nu mai târziu de 31.12.2026.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Accese: toate parcelele din strada „A”; pe o parcelă un singur acces pietonal și un singur acces carosabil, lat de 3-6 m; pentru căile din interiorul parcelelor se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei: la locuințe min. 1 loc pentru AU sub 100 mp și 2 locuri peste 100 mp, la serviciile de proximitate 2 locuri; în S_Is* exclusiv pe parcelă (garaje colective sau parcaje la sol), după Anexa 2 a regulamentului P.U.G.; în S_Va* parcarea e interzisă, în afară de vehiculele de întreținere.",
+    "Utilitățile se racordează la rețelele publice disponibile. Până la canalizarea publică, apele uzate menajere merg în sisteme individuale, în interiorul parcelei; apele pluviale se gestionează individual sau colectiv, prin acumulare sau retenție, apoi în emisari locali; e interzisă scurgerea apelor meteorice spre domeniul public sau spre vecini.",
+    "Firidele de branșament și contorizare se integrează în împrejmuire; cablurile aeriene de orice fel sunt interzise; fiecare parcelă are o platformă sau un spațiu pentru deșeurile menajere, accesibil din spațiul public (în S_Va*, în zona de întreținere, și unul pentru compost).",
+    "Lid*: regim izolat; retragere obligatorie de 5 m față de aliniament (la parcelele de colț față de ambele), garajele la min. 6 m; min. 4,5 m față de limitele laterale (garajele se pot alipi dacă calcanul nu trece de 2,8 m); față de limita posterioară min. înălțimea clădirii, dar cel puțin 12 m; între două clădiri de pe aceeași parcelă min. înălțimea celei mai înalte, cel puțin 4,5 m (Anexa 1).",
+    "S_Is*: retragere de min. 6 m față de aliniament; față de limitele laterale min. jumătate din înălțimea clădirii, dar cel puțin 6 m; față de limita posterioară min. înălțimea clădirii, dar cel puțin 6 m.",
+    "S_Va*: retragere de min. 5 m față de aliniament, min. 3 m față de limitele laterale și min. 6 m față de limita posterioară; iluminatul public pe bază de studii de specialitate și puncte de alimentare cu apă din rețeaua publică."
+  ],
+  "repere": {
+    "C397350_583500": [
+      583500,
+      397350
+    ],
+    "C397400_583300": [
+      583300,
+      397400
+    ],
+    "C397350_583250": [
+      583250,
+      397350
+    ],
+    "C397400_583250": [
+      583250,
+      397400
+    ]
+  }
+}
