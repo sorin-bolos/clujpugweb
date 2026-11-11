@@ -8254,6 +8254,203 @@
   ]
  },
  {
+  "id": "2026-20",
+  "localitate": "cluj",
+  "hcl": "20/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z. de urbanizare, str. Borhanciului – latura sudică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-20-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/20.pdf",
+  "utr": [
+   {
+    "cod": "Liu_Bh",
+    "denumire": "Locuințe individuale (unifamiliale) cu regim redus de înălțime dispuse pe un parcelar de tip urban; regim de construire izolat sau cuplat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane – (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R, nivelul retras cu cel puțin 1,80 m; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+   },
+   {
+    "cod": "S_Va_Bh",
+    "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat: plantații înalte, medii și joase, mobilier urban, alei pietonale și velo, amenajări pentru joacă, odihnă și sport, edicule, alimentație publică în pavilioane cu terase; circulații auto doar pentru întreținere",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "un nivel, cel mult 4 m"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (94 mp, parcela 35); rămân prevederile regulamentului P.U.G.",
+    "pot_max": "1%",
+    "cut_max": "0,01",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 17739,
+  "imagine": "puz/2026-20/plansa.webp",
+  "bounds": {
+   "west": 23.640491,
+   "south": 46.747807,
+   "east": 23.6452876,
+   "north": 46.7489577
+  },
+  "limita": [
+   [
+    23.6446032,
+    46.748935
+   ],
+   [
+    23.6446275,
+    46.7489245
+   ],
+   [
+    23.6446814,
+    46.7488982
+   ],
+   [
+    23.6447431,
+    46.7488681
+   ],
+   [
+    23.6447518,
+    46.7488633
+   ],
+   [
+    23.6448004,
+    46.7488406
+   ],
+   [
+    23.644844,
+    46.7488181
+   ],
+   [
+    23.6448581,
+    46.7488114
+   ],
+   [
+    23.6449744,
+    46.7487528
+   ],
+   [
+    23.6452329,
+    46.7486177
+   ],
+   [
+    23.6449722,
+    46.7485174
+   ],
+   [
+    23.6448977,
+    46.7484872
+   ],
+   [
+    23.6445971,
+    46.7483602
+   ],
+   [
+    23.6445665,
+    46.7483473
+   ],
+   [
+    23.644269,
+    46.7482941
+   ],
+   [
+    23.6439784,
+    46.7482553
+   ],
+   [
+    23.6433948,
+    46.7481723
+   ],
+   [
+    23.6429253,
+    46.748107
+   ],
+   [
+    23.6423101,
+    46.7480281
+   ],
+   [
+    23.6417375,
+    46.7479472
+   ],
+   [
+    23.6411497,
+    46.7478769
+   ],
+   [
+    23.6407151,
+    46.7478243
+   ],
+   [
+    23.6405412,
+    46.748024
+   ],
+   [
+    23.6406058,
+    46.7480428
+   ],
+   [
+    23.640827,
+    46.7481052
+   ],
+   [
+    23.6411745,
+    46.7482077
+   ],
+   [
+    23.6419684,
+    46.7484224
+   ],
+   [
+    23.6427372,
+    46.7486334
+   ],
+   [
+    23.6432294,
+    46.7487455
+   ],
+   [
+    23.6436229,
+    46.7487744
+   ],
+   [
+    23.6443515,
+    46.7488669
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.23
+  },
+  "legenda": "puz/2026-20/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru fiecare U.T.R. doar POT și CUT; regimul de înălțime și înălțimile maxime le dă doar hotărârea (Art. 1): la Liu_Bh trei niveluri supraterane, 8 m la cornișă sau la aticul ultimului nivel neretras și 12 m la coamă sau la aticul nivelului retras; la S_Va_Bh un nivel, cel mult 4 m.",
+   "Pentru Ve hotărârea spune doar că rămân prevederile regulamentului P.U.G.; planșa trece POT 1% și CUT 0,01, cât dă P.U.G.-ul.",
+   "Nota de pe planșă despre arbori (cel puțin 25, dintre care 7 între locurile de parcare de pe profilul străzii) nu apare în articolele hotărârii; o prevede regulamentul (Anexa 1, cap. 13)."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire, terenul pentru regularizarea str. Borhanciului (parcela 01, pe planșă 269 mp) se dezmembrează, se înscrie în cartea funciară ca „drum” și se aduce la stratul de uzură, pe baza unui proiect autorizat.",
+   "Înainte de autorizațiile de construire, strada nouă (parcela 02, ampriză 12 m) se înscrie în cartea funciară ca „drum”, se echipează edilitar, inclusiv cu canalizare pluvială și iluminat stradal, și se aduce la stratul de uzură, pe baza unui proiect autorizat.",
+   "Înainte de autorizațiile de construire, terenul subzonei verzi publice (parcelele 03 și 04) și al zonei Ve (parcela 35) se dezmembrează și se înscrie în cartea funciară ca „alei și spații verzi”.",
+   "Înainte de recepția construcțiilor se amenajează subzona verde cu acces public nelimitat (S_Va_Bh), pe baza unui proiect autorizat: plantații înalte, medii și joase, mobilier urban.",
+   "Înainte de recepția construcțiilor, strada nouă, parcela 35 (Ve) și parcelele 03 și 04 (S_Va_Bh) trec gratuit în domeniul public, după planșa A-05 „Plan circulația terenurilor”.",
+   "Investiția se face în două etape, după avizul Serviciului Siguranța Circulației: întâi strada și rețelele edilitare, apoi locuințele, după anul 2026 sau numai după lucrările de infrastructură (centura metropolitană etc.) care măresc capacitatea intersecției str. Borhanci – str. Romul Ladea – str. C-tin Brâncuși – str. Fagului.",
+   "La Liu_Bh, clădirile se retrag cu 5 m de la aliniament, garajele cu cel puțin 6 m; toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total.",
+   "Retragere de cel puțin 3 m față de limitele laterale; clădirile se pot cupla pe o limită laterală cu o convenție de vecinătate; garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m. Față de limita posterioară, clădirile și garajele se retrag cel puțin 6 m.",
+   "Accesul la loturi se face din strada nouă de 12 m, care pleacă din str. Borhanciului; de regulă un singur acces pietonal și unul auto pe lot, cel auto de cel mult 5 m lățime.",
+   "Parcarea se face numai pe lot: cel puțin un loc pentru locuințe cu AU sub 100 mp și două peste 100 mp.",
+   "Toate construcțiile se racordează la rețelele edilitare; e interzisă scurgerea apelor pluviale spre domeniul public sau spre loturile vecine; firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian; fiecare lot are un spațiu pentru deșeuri accesibil din spațiul public.",
+   "În subzona verde e interzisă parcarea; se prevăd iluminat public, puncte de apă, accese de serviciu, un spațiu pentru deșeuri și unul pentru compost; aleile se fac de regulă din agregate compactate.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare lot și 60% din grădina de fațadă; se plantează cel puțin 25 de arbori (circumferință de cel puțin 35 cm la 1 m de colet), dintre care 7 între cele 24 de locuri de parcare de pe profilul străzii, câte unul la cel mult 4 locuri (regulamentul, Anexa 1, cap. 13).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2025-701",
   "localitate": "cluj",
   "hcl": "701/2025",

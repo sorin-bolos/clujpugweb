@@ -1,0 +1,285 @@
+{
+  "id": "2026-20",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 20,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-20-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/20.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Borhanciului – latura sudică",
+  "plansa": {
+    "pagina_pdf": 13,
+    "dpi": 300,
+    "denumire": "A03 – Plan de reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul are 14 pagini scanate la 300 ppi: hotărârea (p. 1-3), regulamentul local de urbanism – Anexa 1 (p. 4-12), planșa A03 „Plan de reglementări urbanistice – zonificare” – Anexa 2 (p. 13) și planșa A-05 „Plan circulația terenurilor” – Anexa 3 (p. 14), ambele A3, ștampilate și semnate. S-a folosit p. 13, planșa de reglementări cerută de hotărâre; p. 14 e pe același fond, cu proprietatea asupra terenurilor, și repetă inventarul de coordonate, care a servit la citirea cifrelor. Cartușul: Trans Form Arhitectură, proiect 1136, faza P.U.Z., pag. A03, scara 1:500, revizia V01_REV05, 6/4/2025. Planșa e micșorată pe A3: imaginea are ~11,6 px/m, adică cam 1:1000 în loc de 1:500; nordul e în sus (rotație 0,6°). Scanarea e ștearsă (gri deschis), dar desenul și cifrele se citesc. Legenda cuprinde tabelele „Indici urbanistici propuși” pentru Ve (POT 1%, CUT 0,01), Liu_Bh (POT 35%, CUT 0,9) și S_Va_Bh (POT 5%, CUT 0,1) și cheia simbolurilor (limite de proprietate, limita ariei reglementate, limită U.T.R. P.U.G., suprafețele U.T.R. Liu_Bh și S_Va_Bh, suprafețe pietonale, carosabile și verzi publice, vegetație propusă, cedarea de teren pentru lărgirea str. Borhanciului, limita de protecție a pârâului de 5 m, aria edificabilă, retrageri, profil stradal, accese pietonale și auto pe parcelă, utilități). Tabelele sunt tipărite mărunt și se citesc doar la mărire, ca și în PDF. Au rămas afară tabelul de zonificare cu suprafețe (existent: ULiu/PUZ 17.647 mp, Ve 94 mp; propus: Liu_Bh 15.870 mp – 89,46%, S_Va_Bh 1.775 mp – 10,01%, Ve 94 mp – 0,53%), bilanțul teritorial (propus: construcții 3.566 mp – 20,10%, spații verzi pe sol natural 7.634 mp – 43,03%, circulații pietonale 812 mp, circulații auto 1.485 mp, circulații – domeniul public 4.244 mp – 23,92%), tabelul formei de proprietate (privat 11.626 mp – 65,54%, spații verzi publice 1.870 mp – 10,54%, drum public 4.244 mp – 23,92%), bilanțul locurilor de parcare (60 pentru locuințe, 24 pentru vizitatori, dintre care 4 pentru persoane cu handicap), nota despre arbori (cel puțin 25 de arbori, 7 dintre ei între locurile de parcare de pe profilul străzii; e trecută la condiții, din regulament), caseta cu proprietarii și datele cadastrale, profilul stradal (12 m: trotuare 1,75 m, parcări 2,50 m, carosabil 2 × 3,00 m), inventarul de coordonate, cartușul, semnăturile și ștampilele. Desenul arată 30 de loturi de locuințe individuale (parcelele 05-34, cu ariile edificabile) de o parte și de alta a străzii noi (parcela 02, drum, 3.974 mp), care pleacă din str. Borhanciului (latura de est, unde parcela 01 de 269 mp e pentru regularizarea străzii) spre vest și se termină cu o buclă de întoarcere; la vest subzona verde publică S_Va_Bh (parcelele 03 și 04) și fâșia Ve (parcela 35); de-a lungul laturii de nord, fâșia de protecție de 5 m a pârâului. Caseta cu proprietarii stă în afara limitei, deci nu intră în imaginea publicată."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei (tabel „Inventar de coordonate – N.C. 17208”: Pct. / Nord(X) / Est(Y) / Lungimi), Stereo 70, 31 de puncte, 10-40, în ordinea limitei, cu lungimea fiecărei laturi (la cm); S=17740 mp. Limita ariei reglementate e chiar parcela cad. 17208. Puncte de control: colțurile ascuțite 10 (nord-est, str. Borhanciului), 19 (vârful de sud-est), 31 (sud-vest) și 32 (vest), fiecare la intersecția liniilor de mijloc ale celor două laturi ale limitei, urmărite pe planșă. Puncte de verificare: frângerile 23 (17°, pe latura de sud), 38 (12°) și 40 (11°, pe latura de nord), unde limita întâlnește câte o limită de proprietate.",
+    "suprafata_declarata_m2": 17740,
+    "puncte": {
+      "10": [
+        584149.026,
+        396576.741
+      ],
+      "11": [
+        584147.834,
+        396578.575
+      ],
+      "12": [
+        584144.839,
+        396582.645
+      ],
+      "13": [
+        584141.415,
+        396587.3
+      ],
+      "14": [
+        584140.867,
+        396587.949
+      ],
+      "15": [
+        584138.285,
+        396591.619
+      ],
+      "16": [
+        584135.723,
+        396594.907
+      ],
+      "17": [
+        584134.96,
+        396595.973
+      ],
+      "18": [
+        584128.3,
+        396604.746
+      ],
+      "19": [
+        584112.949,
+        396624.234
+      ],
+      "20": [
+        584102.142,
+        396604.132
+      ],
+      "21": [
+        584098.876,
+        396598.383
+      ],
+      "22": [
+        584085.161,
+        396575.176
+      ],
+      "23": [
+        584083.765,
+        396572.814
+      ],
+      "24": [
+        584078.247,
+        396549.989
+      ],
+      "25": [
+        584074.313,
+        396527.717
+      ],
+      "26": [
+        584065.856,
+        396482.974
+      ],
+      "27": [
+        584059.208,
+        396446.983
+      ],
+      "28": [
+        584051.243,
+        396399.843
+      ],
+      "29": [
+        584043.004,
+        396355.942
+      ],
+      "30": [
+        584035.962,
+        396310.908
+      ],
+      "31": [
+        584030.684,
+        396277.606
+      ],
+      "32": [
+        584053.108,
+        396264.704
+      ],
+      "33": [
+        584055.114,
+        396269.672
+      ],
+      "34": [
+        584061.761,
+        396286.691
+      ],
+      "35": [
+        584072.692,
+        396313.434
+      ],
+      "36": [
+        584095.514,
+        396374.487
+      ],
+      "37": [
+        584117.951,
+        396433.622
+      ],
+      "38": [
+        584129.767,
+        396471.436
+      ],
+      "39": [
+        584132.464,
+        396501.544
+      ],
+      "40": [
+        584141.789,
+        396557.38
+      ]
+    },
+    "laturi_declarate_m": {
+      "10": 2.19,
+      "11": 5.05,
+      "12": 5.78,
+      "13": 0.85,
+      "14": 4.49,
+      "15": 4.17,
+      "16": 1.31,
+      "17": 11.01,
+      "18": 24.81,
+      "19": 22.82,
+      "20": 6.61,
+      "21": 26.96,
+      "22": 2.74,
+      "23": 23.48,
+      "24": 22.62,
+      "25": 45.54,
+      "26": 36.6,
+      "27": 47.81,
+      "28": 44.67,
+      "29": 45.58,
+      "30": 33.72,
+      "31": 25.87,
+      "32": 5.36,
+      "33": 18.27,
+      "34": 28.89,
+      "35": 65.18,
+      "36": 63.25,
+      "37": 39.62,
+      "38": 30.23,
+      "39": 56.61,
+      "40": 20.67
+    },
+    "nota": "Scanarea e neclară; cifrele s-au citit pe ambele copii ale tabelului (p. 13 și p. 14) și s-au verificat cu laturile. Cifrele 6 și 8 se confundă: Nord la punctele 18 (584128,300) și 24 (584078,247) s-au stabilit din cele două laturi vecine; Est la 24 (396549,989) și 27 (396446,983) și Nord la 31 (584030,684) la fel, fiecare confirmat de ambele laturi. Lungimile 6,61 (20-21), 22,62 (24-25), 45,58 (29-30) și 63,25 (36-37) se citesc clar doar pe p. 13. Cu aceste citiri aria coordonatelor e 17739,4 mp, cât e tipărit (17740 mp, și în bilanț), iar toate cele 31 de laturi ies în 1 cm. Perimetrul nu e tipărit. Limita e aproape un patrulater lung (cam 360 m pe 45-95 m), cu frângeri mici pe laturile lungi, de aceea doar patru colțuri sunt ascuțite; punctele de verificare stau pe frângeri slabe și pot fi citite câțiva pixeli mai încolo de-a lungul laturii."
+  },
+  "gcp_px": {
+    "10": [
+      3867,
+      1079
+    ],
+    "19": [
+      4422,
+      1484
+    ],
+    "31": [
+      421,
+      2474
+    ],
+    "32": [
+      273,
+      2213
+    ]
+  },
+  "verificare_px": {
+    "23": [
+      3823,
+      1831
+    ],
+    "38": [
+      2655,
+      1309.5
+    ],
+    "40": [
+      3651,
+      1162
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      695,
+      278,
+      1320,
+      609
+    ],
+    [
+      133,
+      280,
+      694,
+      1858
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu_Bh",
+      "denumire": "Locuințe individuale (unifamiliale) cu regim redus de înălțime dispuse pe un parcelar de tip urban; regim de construire izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane – (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R, nivelul retras cu cel puțin 1,80 m; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+    },
+    {
+      "cod": "S_Va_Bh",
+      "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat: plantații înalte, medii și joase, mobilier urban, alei pietonale și velo, amenajări pentru joacă, odihnă și sport, edicule, alimentație publică în pavilioane cu terase; circulații auto doar pentru întreținere",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "un nivel, cel mult 4 m"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (94 mp, parcela 35); rămân prevederile regulamentului P.U.G.",
+      "pot_max": "1%",
+      "cut_max": "0,01",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pentru fiecare U.T.R. doar POT și CUT; regimul de înălțime și înălțimile maxime le dă doar hotărârea (Art. 1): la Liu_Bh trei niveluri supraterane, 8 m la cornișă sau la aticul ultimului nivel neretras și 12 m la coamă sau la aticul nivelului retras; la S_Va_Bh un nivel, cel mult 4 m.",
+    "Pentru Ve hotărârea spune doar că rămân prevederile regulamentului P.U.G.; planșa trece POT 1% și CUT 0,01, cât dă P.U.G.-ul.",
+    "Nota de pe planșă despre arbori (cel puțin 25, dintre care 7 între locurile de parcare de pe profilul străzii) nu apare în articolele hotărârii; o prevede regulamentul (Anexa 1, cap. 13)."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire, terenul pentru regularizarea str. Borhanciului (parcela 01, pe planșă 269 mp) se dezmembrează, se înscrie în cartea funciară ca „drum” și se aduce la stratul de uzură, pe baza unui proiect autorizat.",
+    "Înainte de autorizațiile de construire, strada nouă (parcela 02, ampriză 12 m) se înscrie în cartea funciară ca „drum”, se echipează edilitar, inclusiv cu canalizare pluvială și iluminat stradal, și se aduce la stratul de uzură, pe baza unui proiect autorizat.",
+    "Înainte de autorizațiile de construire, terenul subzonei verzi publice (parcelele 03 și 04) și al zonei Ve (parcela 35) se dezmembrează și se înscrie în cartea funciară ca „alei și spații verzi”.",
+    "Înainte de recepția construcțiilor se amenajează subzona verde cu acces public nelimitat (S_Va_Bh), pe baza unui proiect autorizat: plantații înalte, medii și joase, mobilier urban.",
+    "Înainte de recepția construcțiilor, strada nouă, parcela 35 (Ve) și parcelele 03 și 04 (S_Va_Bh) trec gratuit în domeniul public, după planșa A-05 „Plan circulația terenurilor”.",
+    "Investiția se face în două etape, după avizul Serviciului Siguranța Circulației: întâi strada și rețelele edilitare, apoi locuințele, după anul 2026 sau numai după lucrările de infrastructură (centura metropolitană etc.) care măresc capacitatea intersecției str. Borhanci – str. Romul Ladea – str. C-tin Brâncuși – str. Fagului.",
+    "La Liu_Bh, clădirile se retrag cu 5 m de la aliniament, garajele cu cel puțin 6 m; toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total.",
+    "Retragere de cel puțin 3 m față de limitele laterale; clădirile se pot cupla pe o limită laterală cu o convenție de vecinătate; garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m. Față de limita posterioară, clădirile și garajele se retrag cel puțin 6 m.",
+    "Accesul la loturi se face din strada nouă de 12 m, care pleacă din str. Borhanciului; de regulă un singur acces pietonal și unul auto pe lot, cel auto de cel mult 5 m lățime.",
+    "Parcarea se face numai pe lot: cel puțin un loc pentru locuințe cu AU sub 100 mp și două peste 100 mp.",
+    "Toate construcțiile se racordează la rețelele edilitare; e interzisă scurgerea apelor pluviale spre domeniul public sau spre loturile vecine; firidele de branșament se integrează în împrejmuire; cablurile nu se montează aerian; fiecare lot are un spațiu pentru deșeuri accesibil din spațiul public.",
+    "În subzona verde e interzisă parcarea; se prevăd iluminat public, puncte de apă, accese de serviciu, un spațiu pentru deșeuri și unul pentru compost; aleile se fac de regulă din agregate compactate.",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare lot și 60% din grădina de fațadă; se plantează cel puțin 25 de arbori (circumferință de cel puțin 35 cm la 1 m de colet), dintre care 7 între cele 24 de locuri de parcare de pe profilul străzii, câte unul la cel mult 4 locuri (regulamentul, Anexa 1, cap. 13).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
