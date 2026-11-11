@@ -1,0 +1,454 @@
+{
+  "id": "2022-399",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 399,
+    "an": 2022,
+    "data_sedinta": "2022-05-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-399-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/05/20/HCL-399-4-05-2022-PUZ.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, strada Dionisie Roman",
+  "plansa": {
+    "pagina_pdf": 23,
+    "dpi": 200,
+    "denumire": "Reglementări urbanistice (planșa U.4)",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 14 (Anexa 2 la hotărâre, micșorată pe A4, rotită, alb-negru, ștampilată, 300 ppi, cu inventarul de coordonate ilizibil) și p. 23 (A3, color, 200 ppi, cu viza „HCL nr. 399 din 4.05.2022 – VIZAT” a Comisiei tehnice de amenajare a teritoriului și urbanism și trimiterea la avizele Arhitectului-șef nr. 152 din 21.09.2021 și nr. 13 din 27.01.2022); s-a folosit p. 23, mai clară și color. Pp. 1-3 sunt hotărârea, pp. 4-13 regulamentul local de urbanism (Anexa 1: UTR Lcm, S_Is_Lcm, S_Va_Lcm), p. 15 Anexa 3 (planșa U.5) și p. 16 Anexa 4 (planșa U.6), ambele pe A4, pp. 17-22 și 26-32 avize și alte acte, p. 24 planșa U.5 – posibilități de mobilare urbanistică / plan general de amplasare (format mare, 1:500), p. 25 planșa U.6 – proprietatea asupra terenurilor și circulația juridică / obiective de utilitate publică (A3, color). Cartușul p. 23: „Plan urbanistic zonal – construire ansamblu de locuințe colective și dotări”, str. Dionisie Roman nr. 1, planșa U.4 – Reglementări urbanistice, faza P.U.Z., proiect nr. 209/15, scara 1:1000, data 07.01.2022. Scara imaginii: 7,9 px/m (1:1000 la 200 ppi); nordul e în sus (rotație -0,08°). Legenda are patru casete: cheia simbolurilor (limita terenului reglementat, clădiri existente, cele trei UTR-uri, alinieri/limite, terenul din UTR Lcm aferent tramei stradale propuse, terenul propus pentru lărgirea str. Dionisie Roman, carosabil, parcări, cele 20 de parcări cu abonament relocate în P.U.Z., trotuar, stația de încărcare auto electrice), tabelul cu POT/CUT maxime pe UTR (partea de jos a bilanțului teritorial; partea cu suprafețe a rămas pe dinafară) și nota „UTR Lcm – sistem de referință pt. POT și CUT: 19411 mp”. Semnătura de pe viza din colțul de N-E al planșei trece peste marginea zonei lângă punctele 1365-776 și a rămas în imagine, fiind parte din planșa aprobată."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Parcela (TOTAL) CC – Coordonate pct. de contur X [m] / Y [m]” (X = Nord, Y = Est), cu lungimile laturilor D(i,i+1) și, sub tabel, „S(TOTAL)=21454.86mp P=973.409m” (tabelul din dreapta planșei, x≈3060-3260, y≈1190-1860): 50 de rânduri, 48 de puncte distincte (722-802, 1363-1468), în ordinea conturului.",
+    "suprafata_declarata_m2": 21454.86,
+    "puncte": {
+      "758": [
+        587545.423,
+        395957.17
+      ],
+      "759": [
+        587531.983,
+        395891.116
+      ],
+      "1468": [
+        587497.664,
+        395898.474
+      ],
+      "760": [
+        587493.332,
+        395881.732
+      ],
+      "761": [
+        587524.799,
+        395874.998
+      ],
+      "762": [
+        587507.578,
+        395794.083
+      ],
+      "763": [
+        587574.477,
+        395779.736
+      ],
+      "764": [
+        587598.248,
+        395898.574
+      ],
+      "767": [
+        587601.224,
+        395913.449
+      ],
+      "768": [
+        587605.588,
+        395935.267
+      ],
+      "769": [
+        587599.059,
+        395936.792
+      ],
+      "770": [
+        587599.12,
+        395946.757
+      ],
+      "771": [
+        587614.682,
+        396002.489
+      ],
+      "1371": [
+        587616.19,
+        396008.78
+      ],
+      "772": [
+        587598.96,
+        396017.65
+      ],
+      "1369": [
+        587590.32,
+        396023.04
+      ],
+      "1367": [
+        587586.5,
+        396026.38
+      ],
+      "774": [
+        587585.26,
+        396028.63
+      ],
+      "1365": [
+        587582.56,
+        396038.65
+      ],
+      "775": [
+        587581.808,
+        396045.126
+      ],
+      "798": [
+        587582.08,
+        396050.06
+      ],
+      "1363": [
+        587582.23,
+        396052.79
+      ],
+      "776": [
+        587582.36,
+        396055.09
+      ],
+      "777": [
+        587586.715,
+        396055.68
+      ],
+      "796": [
+        587586.49,
+        396069.09
+      ],
+      "778": [
+        587586.27,
+        396082.1
+      ],
+      "779": [
+        587587.542,
+        396086.821
+      ],
+      "780": [
+        587538.242,
+        396091.126
+      ],
+      "781": [
+        587531.271,
+        396057.507
+      ],
+      "782": [
+        587536.688,
+        396056.382
+      ],
+      "783": [
+        587535.246,
+        396049.253
+      ],
+      "784": [
+        587529.788,
+        396050.421
+      ],
+      "785": [
+        587517.009,
+        395988.896
+      ],
+      "786": [
+        587519.153,
+        395988.341
+      ],
+      "787": [
+        587517.814,
+        395982.305
+      ],
+      "1464": [
+        587515.781,
+        395982.817
+      ],
+      "788": [
+        587514.252,
+        395975.491
+      ],
+      "789": [
+        587512.388,
+        395966.614
+      ],
+      "790": [
+        587518.957,
+        395965.237
+      ],
+      "791": [
+        587518.595,
+        395963.204
+      ],
+      "801": [
+        587517.136,
+        395956.154
+      ],
+      "802": [
+        587510.478,
+        395957.525
+      ],
+      "799": [
+        587509.841,
+        395954.493
+      ],
+      "725": [
+        587507.93,
+        395945.397
+      ],
+      "722": [
+        587502.828,
+        395921.12
+      ],
+      "723": [
+        587509.595,
+        395919.719
+      ],
+      "724": [
+        587514.627,
+        395944.031
+      ],
+      "800": [
+        587516.514,
+        395953.147
+      ]
+    },
+    "ordine": [
+      "758",
+      "759",
+      "1468",
+      "760",
+      "761",
+      "762",
+      "763",
+      "764",
+      "767",
+      "768",
+      "769",
+      "770",
+      "771",
+      "1371",
+      "772",
+      "1369",
+      "1367",
+      "774",
+      "1365",
+      "775",
+      "798",
+      "1363",
+      "776",
+      "777",
+      "796",
+      "778",
+      "779",
+      "780",
+      "781",
+      "782",
+      "783",
+      "784",
+      "785",
+      "786",
+      "787",
+      "1464",
+      "788",
+      "789",
+      "790",
+      "791",
+      "801",
+      "802",
+      "799",
+      "725",
+      "722",
+      "723",
+      "724",
+      "800",
+      "801",
+      "791"
+    ],
+    "laturi_declarate_m": {
+      "758": 67.407,
+      "759": 35.099,
+      "1468": 17.293,
+      "760": 32.179,
+      "761": 82.727,
+      "762": 68.42,
+      "763": 121.192,
+      "764": 15.17,
+      "767": 22.25,
+      "768": 6.705,
+      "769": 9.965,
+      "770": 57.864,
+      "771": 6.469,
+      "1371": 19.378,
+      "772": 10.183,
+      "1369": 5.074,
+      "1367": 2.569,
+      "774": 10.377,
+      "1365": 6.522,
+      "775": 4.941,
+      "798": 2.734,
+      "1363": 2.304,
+      "776": 4.395,
+      "777": 13.412,
+      "796": 13.017,
+      "778": 4.889,
+      "779": 49.488,
+      "780": 34.334,
+      "781": 5.533,
+      "782": 7.273,
+      "783": 5.582,
+      "784": 62.838,
+      "785": 2.215,
+      "786": 6.183,
+      "787": 2.096,
+      "1464": 7.484,
+      "788": 9.071,
+      "789": 6.712,
+      "790": 2.065,
+      "802": 3.098,
+      "799": 9.295,
+      "725": 24.807,
+      "722": 6.911,
+      "723": 24.827,
+      "724": 9.309,
+      "800": 3.071
+    },
+    "perimetru_declarat_m": 973.409,
+    "nota": "Conturul trece de două ori prin punctele 791 și 801: de la 791 merge la 801, ocolește fâșia separată 801-802-799-725-722-723-724-800 (255,0 mp, la sud de biserică, pe frontul nordic al str. Dionisie Roman, unde planșa desenează parcările și stația de încărcare auto electrice) și se întoarce 801→791, apoi închide 791→758. Fâșia are același sens de parcurgere ca restul conturului, deci e o a doua parte a zonei, legată de prima doar prin latura 791-801 (21.199,6 + 255,0 = 21.454,6 mp). `ordine` păstrează punctele repetate; laturile lui 791 și 801 (câte două) nu sunt în `laturi_declarate_m`, care are o singură valoare pe punct, și s-au verificat de mână: 791→801 7,199, 801→802 6,798, 801→791 7,199, 791→758 27,498, toate ca în tabel. Tabelul e mic și neclar la 200 ppi (copia de la p. 14 e și mai mică), așa că unele cifre s-au stabilit din laturi: 771 = 587614,682 / 396002,489 (citit ,687 / ,469; laturile 770→771 57,864 și 771→1371 6,469), 1371 Nord 587616,190 (citit ,180; latura 1371→772 19,378), 1365 Nord 587582,560 (citit ,580; latura 774→1365 10,377), 775 Nord 587581,808 (citit ,608; laturile 6,522 și 4,941 ies la 2,5 mm), 790 Nord 587518,957 (citit ,967; latura 6,712). Latura 802→799 se citește 3,0?8 (cifra din mijloc ștearsă); coordonatele dau 3,098, iar 802 și 799 se potrivesc fiecare cu cealaltă latură a lor (6,798 și 9,295) și nicio cifră schimbată în ele nu dă 3,028, deci s-a trecut 3,098. Laturile 783 și 779 se citesc 5,582 și 49,488. 796→778 iese 13,012 față de 13,017 în tabel (5 mm, în toleranța de 1 cm; nicio cifră schimbată nu o rezolvă). Aria din coordonate 21.454,6 mp față de 21.454,86 mp, perimetrul 973,417 m față de 973,409 m. Efectul corecturilor asupra poziției pe hartă e sub 20 cm."
+  },
+  "gcp_px": {
+    "763": [
+      361.5,
+      772.7
+    ],
+    "762": [
+      470.4,
+      1299.6
+    ],
+    "779": [
+      2778.5,
+      665.4
+    ],
+    "780": [
+      2809.6,
+      1055.4
+    ],
+    "1371": [
+      2163,
+      441.5
+    ],
+    "760": [
+      1161,
+      1410.4
+    ]
+  },
+  "verificare_px": {
+    "785": [
+      2004,
+      1222.3
+    ],
+    "1468": [
+      1293.6,
+      1378
+    ],
+    "782": [
+      2537,
+      1069.4
+    ],
+    "759": [
+      1235,
+      1103.4
+    ],
+    "723": [
+      1460,
+      1280.6
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      975,
+      1658,
+      1360,
+      2300
+    ],
+    [
+      160,
+      2052,
+      928,
+      2300
+    ],
+    [
+      162,
+      1553,
+      300,
+      1588
+    ],
+    [
+      162,
+      1589,
+      950,
+      1628
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lcm",
+      "denumire": "Ansambluri care includ locuirea colectivă și dotările aferente: locuințe colective, plus funcțiuni terțiare (comerț alimentar și nealimentar, servicii cu acces public, profesionale, manufacturiere, medicale ambulatorii). Dezvoltare pe bază de masterplan: 10 clădiri (A1.1-A1.3, A2.1-A2.3, A3.1-A3.4), cum sunt figurate pe planșa U5. Alinierea e obligatorie: clădirile de locuit la 3 m de aliniament, cele cu alte funcțiuni la parter pe aliniament; retrageri față de limitele laterale și posterioare de minimum 8 m (A1.1, A1.2, A1.3, A2.3, A3.1, A3.4) și 6 m (A2.1, A2.2). Parcarea în garaje subterane; pe străzile A și B, parcaje în lung pentru vizitatori.",
+      "pot_max": "35% (raportat la suprafața de referință de 19.411 mp a întregii zone Lcm, cumulat pentru toate clădirile – regulamentul, Anexa 1)",
+      "cut_max": "1,4",
+      "h_max": "18 m la cornișă și 21 m în total, (1-3)S+P+4E+R cu ultimul nivel retras cu cel puțin 1,80 m (corpurile A1.1, A1.2, A2.1, A2.2, A3.1, A3.2, A3.3); 25 m la cornișă, (1-3)S+P+6E, pentru corpul de colț A1.3 și corpurile de la capătul estic A2.3 și A3.4"
+    },
+    {
+      "cod": "S_Is_Lcm",
+      "denumire": "Subzona de instituții și servicii publice și de interes public, în clădiri dedicate: funcțiuni administrative, de învățământ (grădiniță, after school) și cercetare, de sănătate (creșă, cabinete medicale) și asistență socială, de cultură. Două parcele: A (~355 mp) și B (~750 mp, creșa/grădinița care trece în proprietatea publică). Regim de construire deschis, clădiri în aliniament, retrageri de minimum 5 m față de limitele laterale și posterioare; acces din str. A și aleea Nirajului; parcarea în parcelă.",
+      "pot_max": "75% pe parcela A, 60% pe parcela B (regulamentul, Anexa 1, art. 15; articolele hotărârii nu dau POT pentru această subzonă)",
+      "cut_max": "2,8 pe parcela A, 2,2 pe parcela B (regulamentul, art. 16)",
+      "h_max": "parcela A: 22 m la cornișă, (1-3)S+P+4E+R; parcela B: 8 m la cornișă, (1-3)S+P+E"
+    },
+    {
+      "cod": "S_Va_Lcm",
+      "denumire": "Subzona spațiilor verzi amenajate în cadrul ansamblului (~939 mp): plantații, alei și platforme pietonale și velo, mobilier urban, locuri de joacă, odihnă și sport în aer liber, edicule. Retrageri de minimum 5 m; parcarea interzisă. Se amenajează și trece gratuit în domeniul public.",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "4 m, (S)+P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-05-04",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare; `related`: nicio prelungire (index actualizat 2026-11-08); hotărârile 571/2025 și 577/2025 privesc preluarea în proprietatea publică a unor terenuri din P.U.Z., nu valabilitatea. Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-3 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "577/2025",
+      "data": "2025-09-05",
+      "rezumat": "Municipiul preia în proprietatea privată, pe baza declarației notariale a proprietarilor, și trece apoi în proprietatea publică trei terenuri de la str. Dionisie Roman nr. 1 (nr. cad. 289423 – 171 mp, 331265 – 63 mp și 331266 – 21 mp, în total 255 mp), cu destinația parcări publice, stații de biciclete și stație de încărcare pentru autovehicule electrice, cum cere P.U.Z. Suprafața lor însumată e cea a fâșiei separate a P.U.Z.-ului de la sud de biserică (255,0 mp din coordonate), unde planșa desenează parcările și stația de încărcare. Reglementările, obligațiile și planșa nu se schimbă; hotărârea nu are planșă și nici valabilitate proprie.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [
+    "POT/CUT în UTR S_Is_Lcm: tabelul planșei dă pentru „UTR S_Is” un singur POT maxim de 75% și CUT maxim 2,8; regulamentul (Anexa 1, art. 15-16) le dă doar pentru parcela A și stabilește POT 60% și CUT 2,2 pentru parcela B (creșa/grădinița). Articolele hotărârii nu dau POT/CUT pentru această subzonă.",
+    "Înălțimile: planșa scrie doar regimul de înălțime ((1-3)S+P+4E+1R și (1-3)S+P+6E în Lcm; 1-3S+P+4E+R pe parcela A și 1-3S+P+E pe parcela B din S_Is_Lcm); hotărârea adaugă înălțimile în metri: 18 m la cornișă și 21 m în total, respectiv 25 m la cornișă pentru A1.3, A2.3 și A3.4 în Lcm, 22 m și 8 m la cornișă pe parcelele A și B, 4 m în S_Va_Lcm.",
+    "POT 35% și CUT 1,4 din Lcm se raportează la suprafața de referință de 19.411 mp a întregii zone Lcm (nota planșei și regulamentul), nu la fiecare lot; hotărârea dă doar valorile."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire a oricărei clădiri din UTR Lcm: terenul necesar regularizării aleii Nirajului și a str. Dionisie Roman se dezmembrează și se înscrie în cartea funciară ca drum, și se aduce la aceeași îmbrăcăminte ca aceste străzi (strat de uzură).",
+    "Tot înainte de autorizații: se dezmembrează și se înscriu în cartea funciară subzona verde S_Va_Lcm (~939 mp, ca „alei și spații verzi”) și parcelele A (~355 mp) și B (~750 mp) din S_Is_Lcm; se echipează edilitar și se construiesc carosabilele străzilor A și B, cu locurile de parcare de pe carosabil, pe bază de proiecte de specialitate.",
+    "Înainte de recepția oricărei clădiri din UTR Lcm: partea pietonală a străzilor A și B se aduce la strat de uzură, cu mobilier urban, iluminat și arbori de aliniament (circumferință de cel puțin 35 cm la 1 m de colet), dispuși ca pe planșa U5.",
+    "Înainte de recepție: clădirea creșei/grădiniței de pe parcela B din S_Is_Lcm, realizată la nivel semifinisat, trece gratuit în proprietatea publică împreună cu terenul ei (planșa U6).",
+    "Înainte de recepție: subzona verde S_Va_Lcm se amenajează pe baza unui proiect și trece gratuit în domeniul public.",
+    "Înainte de recepție: trec gratuit în domeniul public terenurile amenajate pentru parcările publice (relocarea în P.U.Z. a 9 parcări publice de pe str. Nirajului și a 11 de pe str. Dionisie Roman) și terenurile dezmembrate și amenajate pentru regularizarea aleii Nirajului și a str. Dionisie Roman, cu stațiile de încărcare pentru mașini electrice și stațiile de biciclete (planșa U6). Pentru trei dintre aceste terenuri (nr. cad. 289423, 331265 și 331266, 255 mp, cu destinația parcări publice, stații de biciclete și stație de încărcare), preluarea în proprietatea publică a fost aprobată prin HCL 577/2025.",
+    "Circulația (avizul Serviciului Siguranța Circulației nr. 300962/446/17.05.2021): străzile A și B au ampriza de 15 m (profil III F) și sunt deschise circulației publice; str. Dionisie Roman are 12 m de la intersecția cu str. A până la nr. 4 și 15 m de la nr. 4 la nr. 8, cu un prag de sol la trecerea de la 12 la 15 m; aleea Nirajului are 12 m.",
+    "Pe frontul nordic al str. Dionisie Roman se amenajează două stații de încărcare pentru mașini electrice și stații de biciclete (planșa U4).",
+    "Parcarea în UTR Lcm se face în garaje subterane, după Anexa 2 a regulamentului P.U.G.; parcarea în interiorul parcelelor/cvartalelor de locuit e interzisă, ca și pe spațiile verzi.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiare."
+  ],
+  "hotarare_text": "documente/2022-399/hotarare.txt"
+}

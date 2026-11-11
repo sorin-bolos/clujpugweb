@@ -1,0 +1,50 @@
+{
+  "id": "2025-577",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 577,
+    "an": 2025,
+    "data_sedinta": "2025-09-05",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-577-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/09/12/577.pdf"
+  },
+  "titlu": "Preluarea în proprietatea privată și trecerea în proprietatea publică a municipiului Cluj-Napoca a unor imobile situate în strada Dionisie Roman nr. 1, potrivit Hotărârii nr. 399/2022 (aprobarea P.U.Z. de urbanizare – str. Dionisie Roman)",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul hotărârii (577.pdf) are două pagini A4 scanate la 300 ppi: textul hotărârii, semnat și ștampilat, fără anexe și fără planșă; pagina hotărârii nu leagă alt PDF. Hotărârea nu aprobă și nu modifică reglementări: execută o obligație a P.U.Z. de urbanizare – str. Dionisie Roman (HCL 399/2022), trecerea în domeniul public a terenurilor amenajate pentru parcări publice, stații de biciclete și stații de încărcare. Integrată pe 2026-11-11 în rețeta P.U.Z. de bază, 2022-399 (modificat_de, condiții), publicată în același commit; pe hartă apare în fișa P.U.Z. 399/2022. Cele trei imobile (255 mp) au împreună suprafața fâșiei separate din inventarul de coordonate al P.U.Z.-ului (punctele 722-725, 799-802, 255,0 mp), la sud de biserică, unde planșa U.4 desenează parcările și stația de încărcare. Hotărârea înrudită 571/2025, pe baza aceleiași declarații notariale, preia alte imobile din același P.U.Z. (între ele creșa și spațiul verde) și nu face obiectul acestei rețete."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [
+    "399/2022"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Art. 1: municipiul preia în proprietatea privată, pe baza declarației autentificate sub nr. 926 din 6.08.2025, trei imobile de la str. Dionisie Roman nr. 1: nr. cad. 289423 (teren, 171 mp), nr. cad. 331265 (teren, 63 mp) și nr. cad. 331266 (teren, 21 mp).",
+    "Art. 2: cele trei terenuri trec din proprietatea privată în proprietatea publică a municipiului, cu destinația parcări publice, stații de biciclete și stație de încărcare pentru autovehicule electrice.",
+    "Art. 3-4: comisia de inventariere a domeniului public actualizează inventarul; executarea revine direcțiilor Patrimoniu, Economică, Generală de Urbanism, Tehnică și Ecologie urbană și spații verzi."
+  ],
+  "valabilitate": {
+    "nota": "Hotărârea nu are valabilitate proprie și nu schimbă valabilitatea P.U.Z.-ului aprobat prin HCL 399/2022 (5 ani, până la 4.05.2027). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "hotarare_text": "documente/2025-577/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2022-399"
+}
