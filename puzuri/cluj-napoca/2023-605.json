@@ -1,0 +1,151 @@
+{
+  "id": "2023-605",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 605,
+    "an": 2023,
+    "data_sedinta": "2023-07-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-605-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/08/01/HCL-605.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, str. Voroneț nr. 9-11",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 200,
+    "denumire": "A.05 Plan reglementări urbanistice (Anexa 2 la hotărâre)",
+    "scara": "1:500",
+    "nota": "PDF-ul are 18 pagini: hotărârea (pp. 1-3), regulamentul local de urbanism (Anexa 1, pp. 4-8), planșa A.05 redusă pe A4, în tonuri de gri, ștampilată ca Anexa 2 (p. 9), avizul arhitectului-șef nr. 252/9.11.2022 (pp. 10-12), avizul de oportunitate nr. 18/10.02.2022 cu planul lui (pp. 13-15), planșa A.05 în format mare, color, la 200 ppi (p. 16) și raportul informării și consultării publicului (pp. 17-18). S-a folosit p. 16: e aceeași planșă ca Anexa 2, dar originală și lizibilă, cu viza Comisiei tehnice de amenajare a teritoriului și urbanism „HCL nr. 605 din 12 iulie 2023”; la 200 ppi desenul iese la 15,7 px/m, adică chiar 1:500. În legendă: legenda simbolurilor și caseta „Coeficienți” a U.T.R. Liu*; tabelele parcelelor (existent/propus), profilul stradal, inventarul de coordonate și cartușul sunt lăsate deoparte. Pe ortofoto Esri limita cade la ~1 m de marginile terenului liber (gazon uscat) pe toate cele patru laturi; casa Nr. 7 de la est și latura de vest a casei Nr. 13 desenate pe planșă cad peste cele reale, dar acoperișul roșu al casei Nr. 13 e cu ~3,5 m mai lat spre est decât conturul ei de pe planșă, iar șopronul alb din spatele ei nu e desenat. Clădirile și strada din extrasul OSM apar cu ~5-7 m mai la nord decât cele de pe planșă și de pe ortofoto, așa că nu au fost folosite."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Parcela (1)”, X(Nord) / Y(Est), 9 puncte în ordinea limitei, cu laturile D(i,i+1), S=1299,97 mp și P=143,850 m",
+    "suprafata_declarata_m2": 1299.97,
+    "puncte": {
+      "1": [
+        589689.921,
+        396821.709
+      ],
+      "2": [
+        589691.661,
+        396810.05
+      ],
+      "3": [
+        589691.752,
+        396805.01
+      ],
+      "4": [
+        589692.05,
+        396788.577
+      ],
+      "5": [
+        589653.552,
+        396788.128
+      ],
+      "6": [
+        589652.438,
+        396788.128
+      ],
+      "7": [
+        589652.272,
+        396804.55
+      ],
+      "8": [
+        589652.102,
+        396821.275
+      ],
+      "9": [
+        589653.216,
+        396821.275
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 11.788,
+      "2": 5.041,
+      "3": 16.436,
+      "4": 38.501,
+      "5": 1.114,
+      "6": 16.423,
+      "7": 16.726,
+      "8": 1.114,
+      "9": 36.708
+    },
+    "perimetru_declarat_m": 143.85,
+    "nota": "Tabelul e tipărit clar; toate cele 9 laturi D(i,i+1) ies la 1 cm, iar perimetrul (143,850 m) și aria (1299,97 mp, 1300 mp în Art. 1) se potrivesc. Punctele 5-6 și 8-9 sunt trepte de 1,114 m în colțurile de sud; 2 și 3 stau pe latura dinspre stradă, 3 și 7 la capetele liniei dintre cele două parcele (nr. cad. 315903 și 315904). Limita include fâșia de 32,70 + 38,80 mp care se cedează pentru regularizarea str. Voroneț."
+  },
+  "gcp_px": {
+    "4": [
+      2244,
+      906
+    ],
+    "6": [
+      2232,
+      1535
+    ],
+    "8": [
+      2755,
+      1541
+    ],
+    "1": [
+      2763,
+      942
+    ]
+  },
+  "verificare_px": {
+    "7": [
+      2489,
+      1537
+    ],
+    "3": [
+      2496,
+      913
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3440,
+      370,
+      4229,
+      1212
+    ],
+    [
+      532,
+      1590,
+      1075,
+      2052
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) sau semicolective (familiale), cu cel mult două unități locative pe parcelă, și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); regim de construire izolat; retragere de la aliniament egală cu a clădirilor vecine unde cel puțin patru parcele alăturate au aceeași retragere, altfel între 3 și 6 m (garajele cel puțin 6 m); toate construcțiile stau în fâșia de 25 m de la aliniament, în afara ediculelor de grădină (max. 15 mp însumat; regulament, cap. 6); retragere de cel puțin 3 m față de limitele laterale (garajele se pot alipi, cu calcan de cel mult 2,80 m) și de cel puțin înălțimea clădirii, dar minimum 6 m, față de limita posterioară; între două clădiri de pe aceeași parcelă, jumătate din înălțimea celei mai înalte, minimum 3 m (6 m dacă spre ele dau camere de zi sau dormitoare)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R (nivelul retras cu cel puțin 1,80 m față de fațada spre stradă); max. 8 m la cornișa superioară sau la aticul ultimului nivel neretras și max. 12 m la coamă sau la aticul nivelului retras"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2026-07-12",
+    "verificat": "2026-11-11: Art. 2, trei ani de la aprobare (expirat la 2026-07-12); nicio prelungire în indexul de titluri P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea: planșa dă doar „H max. propus = 12 m”; Art. 1 (și regulamentul, cap. 10) pune 12 m la coamă sau la aticul nivelului retras și adaugă o limită de 8 m la cornișa superioară sau la aticul ultimului nivel neretras.",
+    "Planșa desenează suprafața edificabilă doar la retragerile minime (3 m de la noul aliniament și 3 m de la limitele laterale) și până la „limita de construire – 25 m de la aliniament”; Art. 1 nu pomenește fâșia de 25 m (o are regulamentul, cap. 6) și admite retrageri de la aliniament între 3 și 6 m sau egale cu ale vecinilor, garajele la cel puțin 6 m."
+  ],
+  "conditii": [
+    "Suprafețele necesare regularizării str. Voroneț la profilul de 16 m, pe tronsonul de lângă P.U.Z. (după planșă, 32,70 mp din parcela nr. 9 și 38,80 mp din parcela nr. 11), se dezmembrează din parcele și se înscriu în C.F. ca „drum” înainte de emiterea autorizațiilor de construire, iar până la recepția locuințelor se aduc la strat de uzură.",
+    "Noile accese auto se amenajează fără modificarea cotei trotuarului, prin grija și pe cheltuiala investitorului, de o firmă specializată, înainte de recepție (avizul Serviciului Siguranța Circulației nr. 573990/446/14.06.2022).",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiari.",
+    "Accesul se face din str. Voroneț, stradă privată cu acces public; pe o parcelă se pot face două accese auto și două pietonale, câte unul pentru fiecare unitate locativă, fiecare acces auto de cel mult 4 m lățime (regulament, cap. 8).",
+    "Parcarea se face în interiorul parcelei: cel puțin un loc pentru clădiri cu suprafața utilă sub 100 mp și cel puțin două peste; pentru servicii de proximitate cel puțin două locuri.",
+    "Clădirile se racordează la rețelele edilitare publice; apele meteorice nu pot fi dirijate spre domeniul public sau spre parcelele vecine; cablurile aeriene sunt interzise, iar firidele de branșament se integrează în împrejmuire (regulament, cap. 12).",
+    "Spațiile verzi pe sol natural ocupă cel puțin 40% din fiecare parcelă, iar eliminarea arborilor maturi e interzisă, în afară de cazurile în care sunt un pericol sau împiedică realizarea construcțiilor (regulament, cap. 13)."
+  ]
+}
