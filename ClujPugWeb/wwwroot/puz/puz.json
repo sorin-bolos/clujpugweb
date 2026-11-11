@@ -13636,6 +13636,77 @@
   ]
  },
  {
+  "id": "2025-628",
+  "localitate": "cluj",
+  "hcl": "628/2025",
+  "data": "2025-10-09",
+  "titlu": "P.U.Z. – Dezvoltare zonă mixtă, str. Dostoievski nr. 18-22",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-628-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/10/21/HCL-628.pdf",
+  "utr": [
+   {
+    "cod": "M*",
+    "denumire": "Zonă mixtă cu regim de construire deschis: structură funcțională mixtă, incluzând locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; regim de construire izolat; parcela nr. cad. 289332 (2301 mp). Regulamentul (Anexa 1) interzice ansamblurile monofuncționale rezidențiale și locuirea individuală; apartamentele stau la etaje sau la parter în jumătatea de sud a parcelei. Retrageri: 3 m de la aliniament; minimum 3 m de la limita vestică; minimum H/2, măsurat la aticul nivelului retras, dar cel puțin 9 m, de la limitele estică și sudică; garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,80 m.",
+    "pot_max": "40%",
+    "cut_max": "1,6",
+    "h_max": "16 m în total, 12 m la cornișă/aticul ultimului nivel neretras; (1-2)S+P+2+R, cu nivelul retras la 1,8 m de planul fațadei"
+   }
+  ],
+  "suprafata_m2": 2301,
+  "imagine": "puz/2025-628/plansa.webp",
+  "bounds": {
+   "west": 23.6034778,
+   "south": 46.7669933,
+   "east": 23.604312,
+   "north": 46.7676419
+  },
+  "limita": [
+   [
+    23.6040118,
+    46.7676208
+   ],
+   [
+    23.6040397,
+    46.7675656
+   ],
+   [
+    23.6042826,
+    46.7671502
+   ],
+   [
+    23.6037893,
+    46.7670146
+   ],
+   [
+    23.6035072,
+    46.7674821
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.02
+  },
+  "legenda": "puz/2025-628/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-10-09"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime: planșa scrie 2S+P+2E+R; hotărârea (Art. 1) admite (1-2)S+P+2+R, adică unul sau două subsoluri, și cere ca nivelul retras să stea la 1,8 m de planul fațadei. Înălțimile (12 m la cornișă, 16 m total), POT 40% și CUT 1,6 coincid.",
+   "Spațiile verzi: planșa cere 20% spațiu verde pe sol natural; hotărârea nu dă procentul, iar regulamentul (Anexa 1, art. 13) cere minimum 20%, dar admite minimum 5% pe parcelele cu clădiri pentru garaje/parcaje colective cu acces public."
+  ],
+  "conditii": [
+   "La primul nivel de subsol al clădirii se amenajează suplimentar 35 de locuri de parcare publice, cu destinație și folosință publică și cu tariful orar al parcărilor publice din municipiu; le administrează investitorul (avizul Serviciului Siguranța Circulației nr. 852936/446/25.11.2024).",
+   "Parcarea publică primește indicatoare, panouri electronice cu numărul locurilor libere, echipamente de intrare/ieșire și automat de plată, și se păstrează cât timp există clădirea cu funcțiunile din P.U.Z.; toate amenajările ei se fac înainte de recepția lucrărilor de construire.",
+   "Necesarul de parcaje se calculează după Anexa 2 a regulamentului P.U.G. (H.C.L. 493/2014), însumat pe fiecare funcțiune; cel puțin 75% din locuri sunt în subsol, demisol sau parterul clădirilor.",
+   "Parcela are un singur acces carosabil, lat de 6-6,5 m, în nord-vestul ei, din str. Dostoievski; P.U.Z. propune și două accese pietonale.",
+   "Toate clădirile se racordează la rețelele edilitare publice; apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament stau în clădire sau în împrejmuire; cablurile aeriene sunt interzise; deșeurile se colectează într-un spațiu din parcelă accesibil din spațiul public.",
+   "La faza D.T.A.C. proiectul trece prin Comisia de Estetică Urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

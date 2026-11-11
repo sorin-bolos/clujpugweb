@@ -1,0 +1,139 @@
+{
+  "id": "2025-628",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 628,
+    "an": 2025,
+    "data_sedinta": "2025-10-09",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-628-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/10/21/HCL-628.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă mixtă, str. Dostoievski nr. 18-22",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 200,
+    "denumire": "Plan reglementări urbanistice (planșa A.01.3)",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 9 (Anexa 2 la hotărâre, micșorată pe A4, rotită, ștampilată, 300 ppi) și p. 17 (format mare, color, 200 ppi, cu viza „spre neschimbare” a Arhitectului-șef, anexă la avizul nr. 206 din 3.09.2024 și la avizul nr. 2 din 13.01.2025, și mențiunea de mână „HCL nr. 628 din 9 octombrie 2025”); s-a folosit p. 17, mult mai clară. Pp. 1-2 sunt hotărârea, pp. 3-8 regulamentul local de urbanism (Anexa 1), pp. 10-12 avizul de oportunitate nr. 5 din 3.01.2024 cu extrasul din P.U.G., pp. 13-15 avizul Arhitectului-șef nr. 206 din 3.09.2024, p. 16 avizul nr. 2 din 13.01.2025 (modifică avizul nr. 206 după noul aviz al Serviciului Siguranța Circulației), pp. 18-20 raportul informării și consultării publicului. Cartușul: planșa A.01.3 „Plan reglementări urbanistice”, faza P.U.Z., proiect 660/23, scara 1:500, data 10/2024. Scara imaginii: 15,6 px/m (planșa e tipărită la ~99% din 1:500 la 200 ppi); nordul e în sus (rotație ~0,1°). Planșa notează că reglementările P.U.G. pentru zonă au fost anulate prin Sentința civilă nr. 2323/2019, rămasă definitivă prin Decizia civilă nr. 457/2020; nota e păstrată în legendă. Legenda cuprinde, în trei casete, cheia simbolurilor (limitele UTR, a teritoriului studiat, a zonei reglementate UTR M*, limitele cadastrale, retragerile, suprafața construibilă, construcțiile existente, circulațiile, spațiul verde public, accesele), tabelul „Elaborare P.U.Z. – UTR M*” cu indicii urbanistici (POT 40%, CUT 1,6, spațiu verde pe sol natural 20%, 2S+P+2E+R, H cornișă 12 m, H total 16 m, arie construită max. 920,40 mp, arie desfășurată max. 3681,60 mp) și nota despre anularea P.U.G. Au rămas afară bilanțul teritorial, caseta cu numărul locurilor de parcare, inventarul de coordonate, caseta cu proprietarii, cartușul, semnătura digitală, viza și ștampilele. Zona e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Coordonate pct. de contur / X [m] / Y [m]” (X = Nord, Y = Est), „Parcela (1)”, 5 puncte în ordinea conturului cu numere nesuccesive (209, 200, 210, 211, 212), deci ordinea tabelului e copiată în `ordine`; cu lungimile laturilor D(i,i+1) și, sub tabel, „S(1)=2300.98mp P=194.601m” (tabelul din josul planșei, x≈2620-3170, y≈3000-3260). Numerele vârfurilor nu sunt scrise pe desen; colțurile s-au găsit cu `predict` și s-au citit pe linia subțire roșie a limitei cadastrale, de-a lungul liniei portocalii „limita zonei reglementate UTR M*”. Control: cele patru colțuri ale parcelei, 209 (nord), 210 (est), 211 (sud) și 212 (vest). Verificare: 200, pe latura de est, la 6,5 m de 209, unde conturul se frânge cu doar ~3° (colț slab: poziția de-a lungul laturii nu e marcată pe desen, deci verifică mai ales poziția transversală). Alte puncte cu coordonate nu are planșa. Control independent: cu transformarea obținută, clădirile din extrasul OSM (2026-11-08) cad peste clădirile existente desenate pe planșă (clădirea Statului Român nr. cad. 328155, blocurile de pe B-dul N. Titulescu și str. Dostoievski nr. 1, casele de la est) la 1-2 m.",
+    "suprafata_declarata_m2": 2300.98,
+    "puncte": {
+      "209": [
+        586279.561,
+        393512.622
+      ],
+      "200": [
+        586273.384,
+        393514.642
+      ],
+      "210": [
+        586226.899,
+        393532.379
+      ],
+      "211": [
+        586212.49,
+        393494.44
+      ],
+      "212": [
+        586264.823,
+        393473.813
+      ]
+    },
+    "perimetru_declarat_m": 194.601,
+    "ordine": [
+      "209",
+      "200",
+      "210",
+      "211",
+      "212"
+    ],
+    "laturi_declarate_m": {
+      "209": 6.499,
+      "200": 49.754,
+      "210": 40.583,
+      "211": 56.251,
+      "212": 41.513
+    }
+  },
+  "gcp_px": {
+    "209": [
+      1846,
+      1003
+    ],
+    "210": [
+      2152,
+      1831
+    ],
+    "211": [
+      1560,
+      2059
+    ],
+    "212": [
+      1239,
+      1236
+    ]
+  },
+  "verificare_px": {
+    "200": [
+      1880,
+      1100
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3996,
+      22,
+      4636,
+      782
+    ],
+    [
+      3698,
+      785,
+      4636,
+      1196
+    ],
+    [
+      3698,
+      1484,
+      4636,
+      1622
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M*",
+      "denumire": "Zonă mixtă cu regim de construire deschis: structură funcțională mixtă, incluzând locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; regim de construire izolat; parcela nr. cad. 289332 (2301 mp). Regulamentul (Anexa 1) interzice ansamblurile monofuncționale rezidențiale și locuirea individuală; apartamentele stau la etaje sau la parter în jumătatea de sud a parcelei. Retrageri: 3 m de la aliniament; minimum 3 m de la limita vestică; minimum H/2, măsurat la aticul nivelului retras, dar cel puțin 9 m, de la limitele estică și sudică; garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,80 m.",
+      "pot_max": "40%",
+      "cut_max": "1,6",
+      "h_max": "16 m în total, 12 m la cornișă/aticul ultimului nivel neretras; (1-2)S+P+2+R, cu nivelul retras la 1,8 m de planul fațadei"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2028-10-09",
+    "verificat": "2026-11-11: Art. 2, trei ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime: planșa scrie 2S+P+2E+R; hotărârea (Art. 1) admite (1-2)S+P+2+R, adică unul sau două subsoluri, și cere ca nivelul retras să stea la 1,8 m de planul fațadei. Înălțimile (12 m la cornișă, 16 m total), POT 40% și CUT 1,6 coincid.",
+    "Spațiile verzi: planșa cere 20% spațiu verde pe sol natural; hotărârea nu dă procentul, iar regulamentul (Anexa 1, art. 13) cere minimum 20%, dar admite minimum 5% pe parcelele cu clădiri pentru garaje/parcaje colective cu acces public."
+  ],
+  "conditii": [
+    "La primul nivel de subsol al clădirii se amenajează suplimentar 35 de locuri de parcare publice, cu destinație și folosință publică și cu tariful orar al parcărilor publice din municipiu; le administrează investitorul (avizul Serviciului Siguranța Circulației nr. 852936/446/25.11.2024).",
+    "Parcarea publică primește indicatoare, panouri electronice cu numărul locurilor libere, echipamente de intrare/ieșire și automat de plată, și se păstrează cât timp există clădirea cu funcțiunile din P.U.Z.; toate amenajările ei se fac înainte de recepția lucrărilor de construire.",
+    "Necesarul de parcaje se calculează după Anexa 2 a regulamentului P.U.G. (H.C.L. 493/2014), însumat pe fiecare funcțiune; cel puțin 75% din locuri sunt în subsol, demisol sau parterul clădirilor.",
+    "Parcela are un singur acces carosabil, lat de 6-6,5 m, în nord-vestul ei, din str. Dostoievski; P.U.Z. propune și două accese pietonale.",
+    "Toate clădirile se racordează la rețelele edilitare publice; apele pluviale nu se scurg spre domeniul public sau spre vecini; firidele de branșament stau în clădire sau în împrejmuire; cablurile aeriene sunt interzise; deșeurile se colectează într-un spațiu din parcelă accesibil din spațiul public.",
+    "La faza D.T.A.C. proiectul trece prin Comisia de Estetică Urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
