@@ -1,0 +1,136 @@
+{
+  "id": "2025-463",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 463,
+    "an": 2025,
+    "data_sedinta": "2025-07-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-463-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-463.pdf"
+  },
+  "titlu": "P.U.Z. – construire locuințe cu regim redus de înălțime, str. Tudor Mușatescu-str. Mihai Românul",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 300,
+    "denumire": "A.04 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 6 (Anexa 2 la hotărâre, micșorată pe A4, semnată de președintele de ședință și de secretar) și p. 14 (format A3, color, 300 ppi, cu viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 8 din 29.01.2025 – și mențiunea de mână „H.C.L. nr. 463 din 7 iulie 2025”); s-a folosit p. 14. P. 15 (și p. 7, Anexa 3 micșorată pe A4) e planșa A.05 „Plan proprietatea și circulația terenurilor”, nu o planșă de reglementări; p. 13 e extrasul din P.U.G. anexat avizului de oportunitate nr. 7/2024 (pp. 11-13). Pp. 3-5 sunt Anexa 1 (regulamentul), pp. 8-10 avizul Arhitectului-șef nr. 8/2025, pp. 16-17 raportul informării publicului. Planșa e tipărită la scară (23,5 px/m față de 23,62 px/m cât dă 1:500 la 300 ppi), cu nordul în sus (rotație -0,38°). Legenda (o singură casetă) cuprinde cheia simbolurilor (limite, zonificare U.T.R., circulații, terenuri și construcții existente, retrageri minime) și casetele „U.T.R. existent: ULiu” și „U.T.R. propus: Liu*” (POT, CUT, regim de înălțime); au rămas pe dinafară tabelul parcelelor studiate, bilanțul teritorial, calculul locurilor de parcare, inventarul de coordonate, ștampilele, semnăturile digitale și cartușul (care numește proprietarii). Decupajul (limita + 1,5 m) nu atinge tabelele sau ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.04 – Nr. pct. / X (m) / Y (m) / Lungimi laturi (m) (X = Nord, Y = Est) – 7 puncte numerotate 301-307 în ordinea conturului, cu „S=1422mp” (aceeași arie în tabelul parcelelor: nr. cad. 299494, 615 mp, și 314849, 807 mp, și în bilanț); numerele sunt scrise mărunt lângă vârfuri, pe linia roșie cu x-uri a terenului beneficiarilor. Puncte de control: colțurile 301 (NV, la str. Tudor Mușatescu), 303 (NE), 305 (SE, la str. Mihai Românul) și 306 (SV, la colțul celor două străzi). De verificare: 304 și 307, unde limita dintre cele două parcele întâlnește conturul pe laturile de est și de vest. Vârful 302 (la 0,41 m de 303) n-a fost folosit.",
+    "suprafata_declarata_m2": 1422,
+    "puncte": {
+      "301": [
+        583363.854,
+        393341.682
+      ],
+      "302": [
+        583357.921,
+        393373.07
+      ],
+      "303": [
+        583357.813,
+        393373.462
+      ],
+      "304": [
+        583339.552,
+        393368.449
+      ],
+      "305": [
+        583315.952,
+        393361.97
+      ],
+      "306": [
+        583321.924,
+        393329.308
+      ],
+      "307": [
+        583345.631,
+        393336.304
+      ]
+    },
+    "laturi_declarate_m": {
+      "301": 31.94,
+      "302": 0.41,
+      "303": 18.94,
+      "304": 24.47,
+      "305": 33.2,
+      "306": 24.72,
+      "307": 19.0
+    },
+    "nota": "Aria coordonatelor e 1.422,1 mp față de 1.422 mp (0,0 %); toate cele 7 laturi se potrivesc la 1 cm cu tabelul (pe planșă cotele desenate diferă cu 1 cm: 31,95, 33,21, 24,48). Vârfurile 304 și 307 stau practic pe dreptele 303-305 și 306-301; locul lor pe latură e dat de limita dintre parcele. Planșa are și cruci ale caroiajului Stereo 70, din 20 în 20 m, etichetate doar cu Nord (583.320, 583.340, 583.360), fără etichete de Est în dreptul lor; după potrivire cad la cel mult ~0,5 m de valorile lor și n-au fost folosite. O cruce izolată cu eticheta „393.360”, în dreapta, lângă ștampile, nu ține de desen (potrivirea o pune la E ≈ 393459, N ≈ 583345) și n-a fost folosită."
+  },
+  "gcp_px": {
+    "301": [
+      1030,
+      1758
+    ],
+    "303": [
+      1783,
+      1896
+    ],
+    "305": [
+      1505,
+      2884
+    ],
+    "306": [
+      741,
+      2749
+    ]
+  },
+  "verificare_px": {
+    "304": [
+      1662,
+      2325
+    ],
+    "307": [
+      906,
+      2189
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3560,
+      205,
+      4905,
+      1750
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și familiale (două unități locative pe parcelă, suprapuse sau alipite), regim de construire izolat sau cuplat; două parcele, nr. cad. 299494 (615 mp) și 314849 (807 mp), 1.422 mp (pe planșă „U.T.R. propus: Liu*”, zonă urbanizată, în locul ULiu – zonă de urbanizare)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R; max. 8 m la cornișă/atic și 12 m la coamă/atic nivel retras; nivelul retras cu min. 1,80 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-07-07",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerea față de limita posterioară: pe planșă zona construibilă a parcelei 299494 e cotată la 6 m de limita din spate (est); Art. 1 cere o distanță cel puțin egală cu înălțimea clădirii, dar nu mai puțin de 6 m. La cornișa de până la 8 m admisă, retragerea din spate poate trece deci de linia desenată.",
+    "Retragerile laterale: planșa desenează 3 m față de toate limitele laterale, inclusiv cea dintre cele două parcele; Art. 1 admite și construirea pe limita laterală (locuințe cuplate, calcan de cel mult 20 m adâncime) și alipirea garajelor de limitele laterale, cu calcan de cel mult 2,8 m.",
+    "Planșa dă doar POT 35%, CUT 0,9 și regimul de înălțime (la fel ca textul); înălțimile (8 m la cornișă/atic, 12 m la coamă/atic nivel retras), retragerea nivelului retras cu min. 1,80 m și retragerea garajelor cu min. 6 m de la aliniament vin numai din Art. 1, iar spațiile verzi de min. 40 % și dimensiunile minime ale parcelelor numai din regulament (Anexa 1)."
+  ],
+  "conditii": [
+    "Înainte de recepția construcției propuse pe parcela nr. cad. 314849: drumul adiacent nr. cad. 314850 (înscris în CF cu destinația „drum”, 84 mp pe planșa A.05) se aduce la strat de uzură (asfalt/dalaj) și trece gratuit în domeniul public.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Nota planșei A.05 (Anexa 3): parcelele nr. cad. 289585 și 299495, din str. Tudor Mușatescu, vor intra în domeniul public odată cu celelalte parcele care formează strada, la hotărârea tuturor proprietarilor și a reprezentanților statului.",
+    "Accese: din str. Mihai Românul și str. Tudor Mușatescu; de regulă, pe o parcelă un singur acces pietonal și un singur acces carosabil, de cel mult 3 m lățime; pentru căile din interiorul parcelelor se recomandă învelitori permeabile.",
+    "Parcarea se face exclusiv în interiorul parcelelor: cel puțin un loc pentru o locuință cu arie utilă sub 100 mp și două peste 100 mp; locuințele semicolective (familiale), un loc pentru fiecare unitate locativă; serviciile cu acces public, cel puțin două locuri.",
+    "Retrageri: 5 m față de aliniament (garajele cel puțin 6 m, ca să se poată parca o mașină în față); toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule provizorii de grădină de cel mult 15 mp în total; lateral, pe limită (cuplat, calcan de max. 20 m adâncime) sau la min. 3 m (izolat); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m (garajele min. 6 m).",
+    "Regulamentul (Anexa 1): parcelele au front la stradă de min. 12 m (locuințe cuplate) sau 15 m (izolate) și suprafață de min. 300 mp (cuplate) sau 360 mp (izolate); spațiile verzi pe sol natural ocupă min. 40 % din parcelă și din grădina de fațadă; tăierea arborilor maturi e interzisă, în afară de cazurile de pericol sau când împiedică realizarea construcțiilor; spre stradă, împrejmuire cu soclu opac de max. 80 cm și parte transparentă, înaltă de max. 2,2 m.",
+    "Toate clădirile se racordează la rețelele edilitare; apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile aeriene sunt interzise; fiecare parcelă are un spațiu pentru deșeuri, accesibil din spațiul public."
+  ]
+}

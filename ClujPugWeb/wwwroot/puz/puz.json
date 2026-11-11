@@ -14982,6 +14982,87 @@
   ]
  },
  {
+  "id": "2025-463",
+  "localitate": "cluj",
+  "hcl": "463/2025",
+  "data": "2025-07-07",
+  "titlu": "P.U.Z. – construire locuințe cu regim redus de înălțime, str. Tudor Mușatescu-str. Mihai Românul",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-463-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/07/24/HCL-463.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și familiale (două unități locative pe parcelă, suprapuse sau alipite), regim de construire izolat sau cuplat; două parcele, nr. cad. 299494 (615 mp) și 314849 (807 mp), 1.422 mp (pe planșă „U.T.R. propus: Liu*”, zonă urbanizată, în locul ULiu – zonă de urbanizare)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R; max. 8 m la cornișă/atic și 12 m la coamă/atic nivel retras; nivelul retras cu min. 1,80 m"
+   }
+  ],
+  "suprafata_m2": 1422,
+  "imagine": "puz/2025-463/plansa.webp",
+  "bounds": {
+   "west": 23.6022608,
+   "south": 46.740917,
+   "east": 23.6028997,
+   "north": 46.7413867
+  },
+  "limita": [
+   [
+    23.6024481,
+    46.7413658
+   ],
+   [
+    23.6028602,
+    46.7413174
+   ],
+   [
+    23.6028654,
+    46.7413165
+   ],
+   [
+    23.602804,
+    46.7411515
+   ],
+   [
+    23.6027247,
+    46.7409381
+   ],
+   [
+    23.6022959,
+    46.7409867
+   ],
+   [
+    23.602382,
+    46.741201
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.1
+  },
+  "legenda": "puz/2025-463/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-07-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Retragerea față de limita posterioară: pe planșă zona construibilă a parcelei 299494 e cotată la 6 m de limita din spate (est); Art. 1 cere o distanță cel puțin egală cu înălțimea clădirii, dar nu mai puțin de 6 m. La cornișa de până la 8 m admisă, retragerea din spate poate trece deci de linia desenată.",
+   "Retragerile laterale: planșa desenează 3 m față de toate limitele laterale, inclusiv cea dintre cele două parcele; Art. 1 admite și construirea pe limita laterală (locuințe cuplate, calcan de cel mult 20 m adâncime) și alipirea garajelor de limitele laterale, cu calcan de cel mult 2,8 m.",
+   "Planșa dă doar POT 35%, CUT 0,9 și regimul de înălțime (la fel ca textul); înălțimile (8 m la cornișă/atic, 12 m la coamă/atic nivel retras), retragerea nivelului retras cu min. 1,80 m și retragerea garajelor cu min. 6 m de la aliniament vin numai din Art. 1, iar spațiile verzi de min. 40 % și dimensiunile minime ale parcelelor numai din regulament (Anexa 1)."
+  ],
+  "conditii": [
+   "Înainte de recepția construcției propuse pe parcela nr. cad. 314849: drumul adiacent nr. cad. 314850 (înscris în CF cu destinația „drum”, 84 mp pe planșa A.05) se aduce la strat de uzură (asfalt/dalaj) și trece gratuit în domeniul public.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Nota planșei A.05 (Anexa 3): parcelele nr. cad. 289585 și 299495, din str. Tudor Mușatescu, vor intra în domeniul public odată cu celelalte parcele care formează strada, la hotărârea tuturor proprietarilor și a reprezentanților statului.",
+   "Accese: din str. Mihai Românul și str. Tudor Mușatescu; de regulă, pe o parcelă un singur acces pietonal și un singur acces carosabil, de cel mult 3 m lățime; pentru căile din interiorul parcelelor se recomandă învelitori permeabile.",
+   "Parcarea se face exclusiv în interiorul parcelelor: cel puțin un loc pentru o locuință cu arie utilă sub 100 mp și două peste 100 mp; locuințele semicolective (familiale), un loc pentru fiecare unitate locativă; serviciile cu acces public, cel puțin două locuri.",
+   "Retrageri: 5 m față de aliniament (garajele cel puțin 6 m, ca să se poată parca o mașină în față); toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule provizorii de grădină de cel mult 15 mp în total; lateral, pe limită (cuplat, calcan de max. 20 m adâncime) sau la min. 3 m (izolat); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m (garajele min. 6 m).",
+   "Regulamentul (Anexa 1): parcelele au front la stradă de min. 12 m (locuințe cuplate) sau 15 m (izolate) și suprafață de min. 300 mp (cuplate) sau 360 mp (izolate); spațiile verzi pe sol natural ocupă min. 40 % din parcelă și din grădina de fațadă; tăierea arborilor maturi e interzisă, în afară de cazurile de pericol sau când împiedică realizarea construcțiilor; spre stradă, împrejmuire cu soclu opac de max. 80 cm și parte transparentă, înaltă de max. 2,2 m.",
+   "Toate clădirile se racordează la rețelele edilitare; apele meteorice nu se scurg spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire; cablurile aeriene sunt interzise; fiecare parcelă are un spațiu pentru deșeuri, accesibil din spațiul public."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
