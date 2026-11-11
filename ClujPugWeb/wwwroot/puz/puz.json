@@ -7432,6 +7432,112 @@
   ]
  },
  {
+  "id": "2026-26",
+  "localitate": "cluj",
+  "hcl": "26/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z. – Construire locuință cu regim redus de înălțime, str. Secarei nr. 15 (fostă str. Sfânta Vineri nr. 1)",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-26-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/26.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuință individuală (unifamilială) sau semicolectivă (două unități locative alipite sau suprapuse) și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); regim de construire izolat; o singură parcelă de colț, nr. cad. 304609",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, ultimul nivel retras cu cel puțin 1,80 m față de fațada spre stradă; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+   }
+  ],
+  "suprafata_m2": 693,
+  "imagine": "puz/2026-26/plansa.webp",
+  "bounds": {
+   "west": 23.5512298,
+   "south": 46.7877556,
+   "east": 23.5517377,
+   "north": 46.7881091
+  },
+  "limita": [
+   [
+    23.5514721,
+    46.7880874
+   ],
+   [
+    23.5515366,
+    46.7880577
+   ],
+   [
+    23.5515916,
+    46.7880304
+   ],
+   [
+    23.551638,
+    46.7880011
+   ],
+   [
+    23.5516839,
+    46.7879682
+   ],
+   [
+    23.5516984,
+    46.7879498
+   ],
+   [
+    23.5517091,
+    46.787929
+   ],
+   [
+    23.5517137,
+    46.787908
+   ],
+   [
+    23.5517113,
+    46.7878867
+   ],
+   [
+    23.5516879,
+    46.7878483
+   ],
+   [
+    23.5516698,
+    46.7878322
+   ],
+   [
+    23.5516455,
+    46.7878171
+   ],
+   [
+    23.5515334,
+    46.7877751
+   ],
+   [
+    23.5512639,
+    46.7878885
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 5,
+   "rms_m": 0.28
+  },
+  "legenda": "puz/2026-26/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2029-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă regimul de înălțime doar prin configurații ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R); hotărârea (Art. 1) adaugă limita de trei niveluri supraterane, retragerea ultimului nivel cu cel puțin 1,80 m și înălțimile maxime de 8 m la cornișă sau atic și 12 m la coamă."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării str. Secarei pe tronsonul de lângă P.U.Z. (29,5 mp în bilanțul planșei) se dezmembrează din parcelă și se înscrie în CF cu titlul „drum” înainte de emiterea autorizației de construire, iar până la recepția construcției se aduce la strat de uzură (asfalt sau dalaj).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Retragerea față de aliniament: clădirile se aliniază obligatoriu la 5 m de aliniament, față de ambele străzi (parcela e de colț); garajele se retrag cel puțin 6 m, ca să se poată parca un autoturism în fața lor.",
+   "Retragerea față de limitele laterale: cel puțin 3 m; garajele, inclusiv cele din corpul clădirii, se pot alipi limitelor laterale cu un calcan de cel mult 2,80 m. Parcela de colț nu are limită posterioară.",
+   "Accese: autorizarea cere acces direct la drumul public; un singur acces pietonal și un singur acces carosabil, de cel mult 3 m lățime (două accese auto pentru locuințe semicolective alipite), după avizul administratorului drumului; se recomandă pavimente permeabile.",
+   "Parcarea numai în interiorul parcelei, în garaje sau în locuri amenajate: cel puțin un loc pentru o unitate locativă sub 100 mp arie utilă, două peste.",
+   "Utilitățile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în clădire sau în împrejmuire; cablurile nu se pozează aerian; parcela are un spațiu pentru deșeuri menajere accesibil din spațiul public."
+  ]
+ },
+ {
   "id": "2026-24",
   "localitate": "cluj",
   "hcl": "24/2026",

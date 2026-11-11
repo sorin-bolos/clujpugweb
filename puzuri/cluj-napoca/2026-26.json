@@ -1,0 +1,329 @@
+{
+  "id": "2026-26",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 26,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-26-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/26.pdf"
+  },
+  "titlu": "P.U.Z. – Construire locuință cu regim redus de înălțime, str. Secarei nr. 15 (fostă str. Sfânta Vineri nr. 1)",
+  "plansa": {
+    "pagina_pdf": 9,
+    "dpi": 300,
+    "denumire": "U.02 – Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 9 pagini A4 scanate la 300 ppi: hotărârea (p. 1-2), regulamentul local de urbanism – Anexa 1 (p. 3-8) și planșa U.02 „Reglementări urbanistice” – Anexa 2 (p. 9), singura planșă din PDF: micșorată pe A4 și culcată (textul se citește de jos în sus), alb-negru, cu ștampila Consiliului Local. Cartușul: planșa U.02 „Reglementări urbanistice”, scara 1:500, 1:200, februarie 2024, proiect 23/2022, amplasament „str. Sfânta Vineri nr. 1” (adresa veche; azi str. Secarei nr. 15); desenul e intitulat „Plan zonificare funcțională, scara 1:500”, iar hotărârea îl numește „Plan Reglementări urbanistice”. Imaginea are ~12,5 px/m, adică planșa e tipărită la ~53% din 1:500, cu nordul spre stânga (potrivirea dă o rotație de -89,6°). Legenda cuprinde cheia simbolurilor și caseta „Zona reglementată prin P.U.Z.” (U.T.R. Liu*, suprafața, indicii urbanistici, caracteristicile tehnice), rotite cu 90°; au rămas afară bilanțul teritorial, inventarul de coordonate, cartușul, semnăturile și ștampilele. Planșa arată și U.T.R.-urile existente din jur (ULiu, Liu): după bilanț, parcela era 631,1 mp în ULiu și 68,9 mp în Liu. Pe desen, eticheta cu datele parcelei („Proprietate privată”, 700 mp, nr. cad. 304609), pusă în partea de sud a cvartalului, și chenarul planului topografic poartă nume de persoane; sunt departe de parcela reglementată și nu intră în imaginea publicată."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („Coordonate pct. de contur”, 27 de puncte cu numerele ridicării topografice, X [m] = Nord / Y [m] = Est, Stereo 70, în ordinea conturului: 51-57, 884, 39-50, 317, 58-63) e conturul cvartalului studiat, delimitat de str. Sf. Vineri, str. Secarei și str. Grâului (pe planșă, linia „Zonă studiată”), nu al parcelei reglementate. De aceea vârfurile inventarului sunt la `repere`, iar limita e `limita_px`: parcela nr. cad. 304609 (700 mp), al cărei front la stradă (de la 39, pe latura de nord-est, prin arcul de la colțul străzii Secarei, până la 317) e chiar porțiunea 39-50, 317 a inventarului, dusă pe planșă prin potrivire, plus colțul vestic al parcelei, care nu e în inventar, luat la intersecția liniilor groase ale celorlalte două laturi (drepte potrivite pe pixelii întunecați pe câte 25 de profile, abatere 0,7 px). Puncte de control: vârfurile 52 (colțul vestic al cvartalului), 55 (nordic), 58 (sudic), 39 și 317 (capetele frontului parcelei, unde liniile ei laterale întâlnesc linia străzii); colțurile 52 și 55 sunt intersecțiile dreptelor potrivite pe laturile vecine. Puncte de verificare: crucile punctate ale caroiajului Stereo 70 C389500_588600, C389500_588650 și C389550_588600 (centrul din punctele brațelor), fiecare la încrucișarea a două linii etichetate pe chenar (Est 389450, 389500, 389550 pe latura de nord, Nord 588600, 588650 pe latura de est), și vârful 59.",
+    "suprafata_declarata_m2": 700,
+    "puncte": {},
+    "inventar_zona_studiata": {
+      "titlu": "Coordonate pct. de contur (planșa U.02): conturul cvartalului studiat; „Suprafața = 0,5438 ha” în chenarul planului topografic",
+      "puncte": 27,
+      "ordine": [
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "884",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "317",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63"
+      ],
+      "suprafata_calculata_m2": 5438.07,
+      "suprafata_declarata_m2": 5438
+    },
+    "nota": "Inventarul a fost transcris și verificat cu el în `coordonate.puncte` înainte de mutarea la `repere` (datele lui sunt în `coordonate.inventar_zona_studiata`). Aria lui, 5.438,07 mp, se potrivește cu „Suprafața = 0,5438 ha” din chenarul planului topografic (Stereo 70); laturile nu sunt tipărite. Verificarea vârfurilor e și potrivirea: vârfurile folosite și crucile caroiajului, independente de inventar, cad la 0,15-0,71 m; etichetele caroiajului de pe chenar confirmă și ele poziția. Arcul 39-50 e o curbă continuă, fără vârfuri ieșite din rând (toate frângerile de același sens, 2-18°). Linia punctată a zonei studiate, pe care cade inventarul, e desenată pe laturile 317-58 și 59-60 la ~0,6 m în interiorul liniei negre a străzii. Aria limitei trasate: 693,2 mp, față de 700 mp în bilanțul planșei și în regulament (-1,0%)."
+  },
+  "repere": {
+    "51": [
+      588611.469,
+      389460.201
+    ],
+    "52": [
+      588632.509,
+      389427.901
+    ],
+    "53": [
+      588643.95,
+      389464.09
+    ],
+    "54": [
+      588643.821,
+      389464.29
+    ],
+    "55": [
+      588654.819,
+      389499.079
+    ],
+    "56": [
+      588647.358,
+      389510.925
+    ],
+    "57": [
+      588641.362,
+      389520.444
+    ],
+    "884": [
+      588638.545,
+      389524.487
+    ],
+    "39": [
+      588626.207,
+      389542.192
+    ],
+    "40": [
+      588622.819,
+      389547.054
+    ],
+    "41": [
+      588619.703,
+      389551.198
+    ],
+    "42": [
+      588616.385,
+      389554.675
+    ],
+    "43": [
+      588612.661,
+      389558.115
+    ],
+    "44": [
+      588610.598,
+      389559.186
+    ],
+    "45": [
+      588608.275,
+      389559.954
+    ],
+    "46": [
+      588605.931,
+      389560.264
+    ],
+    "47": [
+      588603.569,
+      389560.042
+    ],
+    "48": [
+      588599.337,
+      389558.177
+    ],
+    "49": [
+      588597.566,
+      389556.76
+    ],
+    "50": [
+      588595.928,
+      389554.873
+    ],
+    "317": [
+      588591.413,
+      389546.235
+    ],
+    "58": [
+      588576.014,
+      389517.983
+    ],
+    "59": [
+      588576.196,
+      389516.213
+    ],
+    "60": [
+      588589.197,
+      389495.345
+    ],
+    "61": [
+      588588.67,
+      389495.0
+    ],
+    "62": [
+      588599.826,
+      389477.445
+    ],
+    "63": [
+      588610.982,
+      389459.891
+    ],
+    "C389500_588600": [
+      588600,
+      389500
+    ],
+    "C389500_588650": [
+      588650,
+      389500
+    ],
+    "C389550_588600": [
+      588600,
+      389550
+    ]
+  },
+  "limita_px": [
+    [
+      1205.24,
+      1873.6
+    ],
+    [
+      1247.04,
+      1811.32
+    ],
+    [
+      1285.53,
+      1758.26
+    ],
+    [
+      1326.65,
+      1713.81
+    ],
+    [
+      1372.85,
+      1669.87
+    ],
+    [
+      1398.56,
+      1656.28
+    ],
+    [
+      1427.56,
+      1646.62
+    ],
+    [
+      1456.89,
+      1642.86
+    ],
+    [
+      1486.51,
+      1645.96
+    ],
+    [
+      1539.78,
+      1670.4
+    ],
+    [
+      1562.16,
+      1688.82
+    ],
+    [
+      1582.93,
+      1713.29
+    ],
+    [
+      1640.65,
+      1824.99
+    ],
+    [
+      1480.7,
+      2085.7
+    ]
+  ],
+  "gcp_px": {
+    "52": [
+      1143.3,
+      3345.4
+    ],
+    "55": [
+      848.1,
+      2425.7
+    ],
+    "58": [
+      1836.0,
+      2189.0
+    ],
+    "317": [
+      1639.2,
+      1826.8
+    ],
+    "39": [
+      1210.5,
+      1873.0
+    ]
+  },
+  "verificare_px": {
+    "C389500_588600": [
+      1538.8,
+      2410.5
+    ],
+    "C389500_588650": [
+      909.3,
+      2413.3
+    ],
+    "C389550_588600": [
+      1537.5,
+      1772.5
+    ],
+    "59": [
+      1834.0,
+      2211.0
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      324,
+      106,
+      1190,
+      750,
+      90
+    ],
+    [
+      1190,
+      106,
+      1581,
+      750,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuință individuală (unifamilială) sau semicolectivă (două unități locative alipite sau suprapuse) și anexele lor (garaje, filigorii, împrejmuiri, platforme carosabile și pietonale, amenajări exterioare, piscine); regim de construire izolat; o singură parcelă de colț, nr. cad. 304609",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, ultimul nivel retras cu cel puțin 1,80 m față de fațada spre stradă; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2029-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă regimul de înălțime doar prin configurații ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R); hotărârea (Art. 1) adaugă limita de trei niveluri supraterane, retragerea ultimului nivel cu cel puțin 1,80 m și înălțimile maxime de 8 m la cornișă sau atic și 12 m la coamă."
+  ],
+  "conditii": [
+    "Terenul necesar regularizării str. Secarei pe tronsonul de lângă P.U.Z. (29,5 mp în bilanțul planșei) se dezmembrează din parcelă și se înscrie în CF cu titlul „drum” înainte de emiterea autorizației de construire, iar până la recepția construcției se aduce la strat de uzură (asfalt sau dalaj).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Retragerea față de aliniament: clădirile se aliniază obligatoriu la 5 m de aliniament, față de ambele străzi (parcela e de colț); garajele se retrag cel puțin 6 m, ca să se poată parca un autoturism în fața lor.",
+    "Retragerea față de limitele laterale: cel puțin 3 m; garajele, inclusiv cele din corpul clădirii, se pot alipi limitelor laterale cu un calcan de cel mult 2,80 m. Parcela de colț nu are limită posterioară.",
+    "Accese: autorizarea cere acces direct la drumul public; un singur acces pietonal și un singur acces carosabil, de cel mult 3 m lățime (două accese auto pentru locuințe semicolective alipite), după avizul administratorului drumului; se recomandă pavimente permeabile.",
+    "Parcarea numai în interiorul parcelei, în garaje sau în locuri amenajate: cel puțin un loc pentru o unitate locativă sub 100 mp arie utilă, două peste.",
+    "Utilitățile se racordează la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în clădire sau în împrejmuire; cablurile nu se pozează aerian; parcela are un spațiu pentru deșeuri menajere accesibil din spațiul public."
+  ]
+}
