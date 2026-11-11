@@ -1,0 +1,218 @@
+{
+  "id": "2025-12",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 12,
+    "an": 2025,
+    "data_sedinta": "2025-01-17",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-12-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/01/31/HCL-12.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare centru de agrement, Drumul Sfântul Ioan-sud",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 96,
+    "denumire": "A.3 Plan reglementări urbanistice",
+    "scara": "nescrisă în cartuș (≈1:300 după inventar: 12,3 px/m la 96 ppi pe foaia A3)",
+    "nota": "PDF-ul are 20 de pagini scanate la 96 ppi: hotărârea semnată (pp. 1-2, același text ca pe pagina hotărârii), Anexa 1 – regulamentul local de urbanism al U.T.R. Aapp* (pp. 3-6), Anexa 2 – planșa A.3 micșorată pe A4, în tonuri de gri (p. 7), Anexa 3 – planșa A.4 „Plan mobilare urbanistică”, micșorată (p. 8), avizul arhitectului-șef nr. 83/13.03.2024 (pp. 9-11), avizul de oportunitate nr. 229/04.12.2023 cu planul anexat (pp. 12-14), planșa A.3 pe A3, color, cu ștampila „Vizat spre neschimbare” (anexă la avizul arhitectului-șef nr. 83/13.03.2024) și mențiunea de mână „H.C.L. nr. 12 din 17 ianuarie 2025” (p. 15), planșa A.4 pe format mare, color (p. 16), și raportul informării și consultării publicului (pp. 17-20). S-a folosit p. 15: aceeași planșă ca p. 7, dar color și mai mare. Cartuș: proiect nr. 978/2020, faza P.U.Z., planșa A.3, revizia 01, data 02.10.2024; câmpul scării e gol. Potrivirea dă 12,3 px/m, rotație 0,45°, nordul în sus. Legenda ia cheia simbolurilor și tabelul U.T.R. Aapp de sub ea (P.O.T. 10%, C.U.T. 0,25, (S)+P+1+M, H max 12 m, spațiu verde minim 60%, parcări 30% × nr. camere); bilanțul teritorial, necesarul de parcări, profilul drumului, cartușul și ștampilele sunt lăsate deoparte. Scanarea de 96 ppi e slabă, dar legenda se citește la lățimea din site."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „N.C. 1866” pe planșa A.3 (stânga sus, x≈125-335, y≈45-500): 24 de puncte, 10-33, în ordinea conturului, Nord(X) / Est(Y), Stereo 70, cu S=2251mp. Laturile nu sunt în tabel, ci cotate pe desen de-a lungul limitei, la centimetru. Unele numere de punct sunt scrise pe desen lângă vârfuri (25-28, 30, 33, 12, 13). Control: colțurile 24 (SV), 29 (NV), 13 (vârful estic) și 18 (frântura laturii de SE), citite pe centrul liniei roșii cu cruci a parcelei; verificare: frânturile 20 și 15. Punctele de pe latura de vest (25-28) și de pe cea nordică (30-33, 10-12) sunt pe linii aproape drepte sau sub hașura drumului și nu s-au folosit. Planșa nu are caroiaj Stereo 70: crucile mici din desen nu cad pe multipli de 10 sau 50 m.",
+    "suprafata_declarata_m2": 2251,
+    "laturi_declarate_m": {
+      "12": 9.35,
+      "14": 6.71,
+      "15": 6.52,
+      "16": 9.11,
+      "17": 4.76,
+      "20": 11.97,
+      "21": 8.18,
+      "22": 4.95,
+      "23": 7.4,
+      "24": 6.76,
+      "25": 9.42,
+      "26": 8.69,
+      "27": 6.98,
+      "28": 7.98,
+      "30": 12.97,
+      "31": 10.24
+    },
+    "nota": "Toate cele 24 de rânduri ale inventarului s-au citit fără dubii. Aria coordonatelor, 2250,7 mp, se potrivește cu S=2251mp din inventar; Art. 1, eticheta parcelei de pe planșă și bilanțul dau 2254 mp (nr. topo 22620/3/3, 22624/6 și 22624/7). laturi_declarate_m are cele 16 cote de pe desen citite sigur (latura de vest 24-29, latura sudică 20-24, latura de SE 14-18, 30-31, 31-32 și 12-13), toate la cel mult 0,5 cm de laturile calculate; cotele 29-30, 32-33, 33-10, 10-11, 11-12, 13-14, 18-19 și 19-20 sunt sub hașura drumului sau acoperite de alte linii la 96 ppi și au rămas afară. Perimetrul nu e tipărit.",
+    "puncte": {
+      "10": [
+        581748.37,
+        390253.356
+      ],
+      "11": [
+        581743.586,
+        390264.264
+      ],
+      "12": [
+        581739.532,
+        390272.751
+      ],
+      "13": [
+        581735.109,
+        390280.991
+      ],
+      "14": [
+        581732.276,
+        390273.746
+      ],
+      "15": [
+        581730.943,
+        390267.171
+      ],
+      "16": [
+        581727.541,
+        390261.609
+      ],
+      "17": [
+        581721.127,
+        390255.138
+      ],
+      "18": [
+        581718.326,
+        390251.292
+      ],
+      "19": [
+        581716.214,
+        390241.635
+      ],
+      "20": [
+        581715.258,
+        390236.578
+      ],
+      "21": [
+        581714.76,
+        390224.621
+      ],
+      "22": [
+        581714.555,
+        390216.441
+      ],
+      "23": [
+        581714.594,
+        390211.496
+      ],
+      "24": [
+        581714.422,
+        390204.102
+      ],
+      "25": [
+        581721.17,
+        390203.706
+      ],
+      "26": [
+        581730.581,
+        390203.306
+      ],
+      "27": [
+        581739.266,
+        390203.107
+      ],
+      "28": [
+        581746.246,
+        390203.107
+      ],
+      "29": [
+        581754.198,
+        390202.404
+      ],
+      "30": [
+        581754.198,
+        390209.953
+      ],
+      "31": [
+        581754.766,
+        390222.913
+      ],
+      "32": [
+        581754.766,
+        390233.149
+      ],
+      "33": [
+        581751.94,
+        390243.232
+      ]
+    }
+  },
+  "gcp_px": {
+    "24": [
+      433,
+      764
+    ],
+    "29": [
+      419,
+      276
+    ],
+    "13": [
+      1377,
+      517
+    ],
+    "18": [
+      1017,
+      723
+    ]
+  },
+  "verificare_px": {
+    "20": [
+      835,
+      761
+    ],
+    "15": [
+      1207,
+      572
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      118,
+      592,
+      389,
+      918
+    ],
+    [
+      118,
+      935,
+      505,
+      1103
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Aapp*",
+      "denumire": "Zonă de agrement pentru public/privat – centru de agrement („country club”) pe nr. topo 22620/3/3, 22624/6 și 22624/7 (2.254 mp; clădirile existente se desființează). Agrement pentru public: alimentație publică, cazare turistică, sport în aer liber, spații de joacă în aer liber și interioare, echitație, terenuri de sport, platforme, alei, parcaje, edicule; agrement privat: grădinărit, culturi pomicole și viticole, apicultură, petrecerea timpului liber. Regim de construire deschis",
+      "pot_max": "10%",
+      "cut_max": "0,25 (agrement public); 0,1 (agrement privat)",
+      "h_max": "agrement public: cel mult trei niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R), 8 m la cornișa superioară sau la aticul etajului neretras, 12 m la coamă sau la aticul etajului retras; agrement privat: (S)+P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2028-01-17",
+    "verificat": "2026-11-11: Art. 2, trei ani de la aprobare (ședința din 17.01.2025); `related`: nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă un singur set de indicatori, pentru U.T.R. „Aapp”: P.O.T. 10%, C.U.T. 0,25, regim (S)+P+1+M, H max 12 m. Art. 1 (ca și Anexa 1) numește zona Aapp* și deosebește agrementul pentru public (C.U.T. 0,25; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R; 8 m la cornișa superioară sau la aticul etajului neretras și 12 m la coamă sau la aticul etajului retras) de agrementul privat (C.U.T. 0,1; regim (S)+P). Limita de 8 m la cornișă și indicii agrementului privat nu apar pe planșă. P.O.T. 10% e același; spațiul verde minim de 60% e doar pe planșă și în Anexa 1.",
+    "Parcajele: planșa calculează necesarul ca 30% × numărul de camere (5 camere – 2 locuri; propune 10 locuri pentru autoturisme și 12 pentru biciclete). Art. 1 trimite, pentru agrementul public, la Anexa 2 a Regulamentului local de urbanism aferent P.U.G. și cere minim un loc pe parcelă pentru agrementul privat."
+  ],
+  "conditii": [
+    "Accesul auto și pietonal se face din Drumul Sfântul Ioan; accesul existent din Aleea Veveriței se închide.",
+    "Terenul necesar regularizării Drumului Sf. Ioan (84,32 mp pe planșă) se dezmembrează din parcelă și se înscrie în CF cu titlul „drum” înainte de emiterea autorizației de construire; până la modernizarea drumului de către municipalitate e întreținut ca spațiu verde, cu dalaj în dreptul accesului.",
+    "Pe fâșia de 6 m de lângă limitele sudică și vestică se plantează vegetație înaltă: cel puțin 7 arbori cu circumferința de minim 35 cm măsurată la 1 m de la colet.",
+    "Clădirile pentru agrementul public se retrag cel puțin 8 m de la aliniamentul Drumului Sf. Ioan regularizat conform P.U.G. și cel puțin 6 m de limitele laterale și posterioare; între două clădiri de pe aceeași parcelă distanța e cel puțin înălțimea celei mai înalte, la cornișă sau atic, dar minim 4,5 m (6 m dacă încăperi principale dau spre spațiul dintre ele). Clădirile pentru agrementul privat se retrag cel puțin 5 m de la aliniament la străzi, drumuri și alei de acces local (8 m în celelalte cazuri) și 3 m de limitele laterale și posterioare.",
+    "Parcarea se face în interiorul parcelelor: pentru agrementul public, necesarul se calculează după Anexa 2 a Regulamentului local de urbanism aferent P.U.G.; pentru agrementul privat, minim un loc pe parcelă.",
+    "Racordarea la rețelele edilitare publice e obligatorie pentru agrementul public; unde nu există canalizare publică, apele uzate se epurează local și se folosesc sau se infiltrează pe parcelă. Apele pluviale se rețin pe parcelă și se evacuează în emisari locali cu debitele din avizul Apelor Române (A.B.A. Someș-Tisa); nu se conduc spre domeniul public sau spre parcelele vecine. Cablurile nu se pozează aerian, firidele de branșament se integrează în împrejmuire, iar deșeurile se colectează pe o platformă din parcelă accesibilă din domeniul public.",
+    "Spațiile verzi pe sol natural ocupă minim 60% din parcelă (Anexa 1 și planșa).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}

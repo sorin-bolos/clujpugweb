@@ -16899,6 +16899,154 @@
   ]
  },
  {
+  "id": "2025-12",
+  "localitate": "cluj",
+  "hcl": "12/2025",
+  "data": "2025-01-17",
+  "titlu": "P.U.Z. – Dezvoltare centru de agrement, Drumul Sfântul Ioan-sud",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-12-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/01/31/HCL-12.pdf",
+  "utr": [
+   {
+    "cod": "Aapp*",
+    "denumire": "Zonă de agrement pentru public/privat – centru de agrement („country club”) pe nr. topo 22620/3/3, 22624/6 și 22624/7 (2.254 mp; clădirile existente se desființează). Agrement pentru public: alimentație publică, cazare turistică, sport în aer liber, spații de joacă în aer liber și interioare, echitație, terenuri de sport, platforme, alei, parcaje, edicule; agrement privat: grădinărit, culturi pomicole și viticole, apicultură, petrecerea timpului liber. Regim de construire deschis",
+    "pot_max": "10%",
+    "cut_max": "0,25 (agrement public); 0,1 (agrement privat)",
+    "h_max": "agrement public: cel mult trei niveluri supraterane ((S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R), 8 m la cornișa superioară sau la aticul etajului neretras, 12 m la coamă sau la aticul etajului retras; agrement privat: (S)+P"
+   }
+  ],
+  "suprafata_m2": 2251,
+  "imagine": "puz/2025-12/plansa.webp",
+  "bounds": {
+   "west": 23.5617321,
+   "south": 46.7260085,
+   "east": 23.5628392,
+   "north": 46.7264125
+  },
+  "limita": [
+   [
+    23.562422,
+    46.7263364
+   ],
+   [
+    23.5625658,
+    46.7262951
+   ],
+   [
+    23.5626778,
+    46.72626
+   ],
+   [
+    23.5627866,
+    46.7262216
+   ],
+   [
+    23.5626925,
+    46.7261949
+   ],
+   [
+    23.5626068,
+    46.7261819
+   ],
+   [
+    23.5625349,
+    46.7261503
+   ],
+   [
+    23.5624517,
+    46.7260916
+   ],
+   [
+    23.5624021,
+    46.7260658
+   ],
+   [
+    23.5622763,
+    46.7260452
+   ],
+   [
+    23.5622104,
+    46.7260358
+   ],
+   [
+    23.5620541,
+    46.7260293
+   ],
+   [
+    23.5619471,
+    46.7260262
+   ],
+   [
+    23.5618824,
+    46.7260257
+   ],
+   [
+    23.5617857,
+    46.7260229
+   ],
+   [
+    23.5617789,
+    46.7260836
+   ],
+   [
+    23.5617715,
+    46.7261682
+   ],
+   [
+    23.5617668,
+    46.7262463
+   ],
+   [
+    23.5617651,
+    46.726309
+   ],
+   [
+    23.5617541,
+    46.7263805
+   ],
+   [
+    23.5618528,
+    46.7263817
+   ],
+   [
+    23.5620222,
+    46.7263889
+   ],
+   [
+    23.5621561,
+    46.7263906
+   ],
+   [
+    23.5622887,
+    46.7263668
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.2
+  },
+  "legenda": "puz/2025-12/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2028-01-17"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă un singur set de indicatori, pentru U.T.R. „Aapp”: P.O.T. 10%, C.U.T. 0,25, regim (S)+P+1+M, H max 12 m. Art. 1 (ca și Anexa 1) numește zona Aapp* și deosebește agrementul pentru public (C.U.T. 0,25; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R; 8 m la cornișa superioară sau la aticul etajului neretras și 12 m la coamă sau la aticul etajului retras) de agrementul privat (C.U.T. 0,1; regim (S)+P). Limita de 8 m la cornișă și indicii agrementului privat nu apar pe planșă. P.O.T. 10% e același; spațiul verde minim de 60% e doar pe planșă și în Anexa 1.",
+   "Parcajele: planșa calculează necesarul ca 30% × numărul de camere (5 camere – 2 locuri; propune 10 locuri pentru autoturisme și 12 pentru biciclete). Art. 1 trimite, pentru agrementul public, la Anexa 2 a Regulamentului local de urbanism aferent P.U.G. și cere minim un loc pe parcelă pentru agrementul privat."
+  ],
+  "conditii": [
+   "Accesul auto și pietonal se face din Drumul Sfântul Ioan; accesul existent din Aleea Veveriței se închide.",
+   "Terenul necesar regularizării Drumului Sf. Ioan (84,32 mp pe planșă) se dezmembrează din parcelă și se înscrie în CF cu titlul „drum” înainte de emiterea autorizației de construire; până la modernizarea drumului de către municipalitate e întreținut ca spațiu verde, cu dalaj în dreptul accesului.",
+   "Pe fâșia de 6 m de lângă limitele sudică și vestică se plantează vegetație înaltă: cel puțin 7 arbori cu circumferința de minim 35 cm măsurată la 1 m de la colet.",
+   "Clădirile pentru agrementul public se retrag cel puțin 8 m de la aliniamentul Drumului Sf. Ioan regularizat conform P.U.G. și cel puțin 6 m de limitele laterale și posterioare; între două clădiri de pe aceeași parcelă distanța e cel puțin înălțimea celei mai înalte, la cornișă sau atic, dar minim 4,5 m (6 m dacă încăperi principale dau spre spațiul dintre ele). Clădirile pentru agrementul privat se retrag cel puțin 5 m de la aliniament la străzi, drumuri și alei de acces local (8 m în celelalte cazuri) și 3 m de limitele laterale și posterioare.",
+   "Parcarea se face în interiorul parcelelor: pentru agrementul public, necesarul se calculează după Anexa 2 a Regulamentului local de urbanism aferent P.U.G.; pentru agrementul privat, minim un loc pe parcelă.",
+   "Racordarea la rețelele edilitare publice e obligatorie pentru agrementul public; unde nu există canalizare publică, apele uzate se epurează local și se folosesc sau se infiltrează pe parcelă. Apele pluviale se rețin pe parcelă și se evacuează în emisari locali cu debitele din avizul Apelor Române (A.B.A. Someș-Tisa); nu se conduc spre domeniul public sau spre parcelele vecine. Cablurile nu se pozează aerian, firidele de branșament se integrează în împrejmuire, iar deșeurile se colectează pe o platformă din parcelă accesibilă din domeniul public.",
+   "Spațiile verzi pe sol natural ocupă minim 60% din parcelă (Anexa 1 și planșa).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
