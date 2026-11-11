@@ -13707,6 +13707,198 @@
   ]
  },
  {
+  "id": "2025-627",
+  "localitate": "cluj",
+  "hcl": "627/2025",
+  "data": "2025-10-09",
+  "titlu": "P.U.Z. – Dezvoltare subzonă de activități economice, strada Fabricii de Zahăr nr. 166 – etapa 1",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-627-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/10/21/HCL-627.pdf",
+  "utr": [
+   {
+    "cod": "S_Ec",
+    "denumire": "Subzonă de activități economice de tip comercial – en retail – desfășurate în unități de mari dimensiuni (big box, mall, showroom): comerț de tip supermarket, hypermarket etc., cu produse alimentare și nealimentare, generalist sau specializat, și servicii conexe, în clădiri de tip „big box” cu ADC de peste 1000 mp; regim de construire deschis. Retrageri: minimum 10 m de la aliniament; de la limitele laterale cel puțin jumătate din înălțimea clădirii, dar minimum 6 m; de la limita posterioară cel puțin înălțimea clădirii, dar minimum 6 m. Acces din str. Fabricii de Zahăr; parcare auto și velo la sol, în incintă. Regulamentul (Anexa 1) interzice locuirea de orice tip, depozitarea în afara celei aferente comerțului și construcțiile provizorii; parcelele rezultate dintr-o divizare trebuie să aibă front la stradă de cel puțin 50 m și cel puțin 3000 mp.",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "21 m la cornișă, 25 m înălțime totală"
+   }
+  ],
+  "suprafata_m2": 11315,
+  "imagine": "puz/2025-627/plansa.webp",
+  "bounds": {
+   "west": 23.6278675,
+   "south": 46.7893147,
+   "east": 23.6296898,
+   "north": 46.7903505
+  },
+  "limita": [
+   [
+    23.6279556,
+    46.7894078
+   ],
+   [
+    23.6279608,
+    46.7894534
+   ],
+   [
+    23.6279662,
+    46.789516
+   ],
+   [
+    23.6279096,
+    46.7895167
+   ],
+   [
+    23.6279326,
+    46.7897167
+   ],
+   [
+    23.627954,
+    46.789875
+   ],
+   [
+    23.6279595,
+    46.7899115
+   ],
+   [
+    23.6279665,
+    46.7899529
+   ],
+   [
+    23.6279705,
+    46.7900209
+   ],
+   [
+    23.6279843,
+    46.7901559
+   ],
+   [
+    23.6279944,
+    46.7902506
+   ],
+   [
+    23.6280006,
+    46.7903142
+   ],
+   [
+    23.6282218,
+    46.7902834
+   ],
+   [
+    23.6284494,
+    46.7902493
+   ],
+   [
+    23.6286426,
+    46.79022
+   ],
+   [
+    23.6289122,
+    46.7901812
+   ],
+   [
+    23.6291373,
+    46.79015
+   ],
+   [
+    23.6293502,
+    46.7901154
+   ],
+   [
+    23.6294593,
+    46.790062
+   ],
+   [
+    23.6295368,
+    46.790022
+   ],
+   [
+    23.6296531,
+    46.7899588
+   ],
+   [
+    23.6296001,
+    46.7895364
+   ],
+   [
+    23.6296049,
+    46.7895361
+   ],
+   [
+    23.6295865,
+    46.7894109
+   ],
+   [
+    23.6295743,
+    46.7893498
+   ],
+   [
+    23.6293699,
+    46.789365
+   ],
+   [
+    23.6293068,
+    46.7893676
+   ],
+   [
+    23.6292113,
+    46.7893734
+   ],
+   [
+    23.6288987,
+    46.789389
+   ],
+   [
+    23.6285669,
+    46.7894062
+   ],
+   [
+    23.6284015,
+    46.7894148
+   ],
+   [
+    23.6283508,
+    46.7894172
+   ],
+   [
+    23.6282824,
+    46.7894029
+   ],
+   [
+    23.6282301,
+    46.7893895
+   ],
+   [
+    23.6281387,
+    46.7893934
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.15
+  },
+  "legenda": "puz/2025-627/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-10-09"
+  },
+  "diferente_fata_de_plansa": [
+   "Retragerile: caseta „Reglementări urbanistice” a planșei dă doar 6,00 m față de limitele laterale și 6,00 m față de limita posterioară; hotărârea (Art. 1) cere față de limitele laterale cel puțin jumătate din înălțimea clădirilor și față de limita posterioară cel puțin înălțimea clădirilor, în ambele cazuri minimum 6 m (pe desen, liniile de retragere poartă mențiunile „H/2 min. 6,00 m” și „H min. 6,00 m”). Retragerea de 10 m de la aliniament, înălțimile (21 m la cornișă, 25 m la coamă/atic), POT 60% și CUT 1,2 coincid.",
+   "Spațiile plantate: planșa cere minimum 20% spații libere și plantate; hotărârea nu dă procentul (regulamentul, Anexa 1, art. 13, cere minimum 20% spații verzi pe sol natural), dar adaugă o obligație care nu e pe planșă: cel puțin 50 de arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet, plantați în incintă.",
+   "Suprafața: hotărârea dă un teren de 1,099 ha (bilanțul planșei: 10.991 mp în UTR S_Ec), iar conturul de pe hartă, inventarul de coordonate al celor două parcele, are 11.315 mp: în plus e o fâșie de 1-3 m de-a lungul laturii de nord, desenată în afara limitei UTR S_Ec, care rămâne în UTR Ve (zonă verde de protecție a apelor), după avizul de oportunitate."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării str. Fabricii de Zahăr (conform planșei U4) și amenajării unei stații de transport în comun se dezmembrează din parcela inițială și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizației de construire; pe planșă, suprafața de dezmembrat are 17,25 mp.",
+   "Înainte de recepția lucrărilor se amenajează o alveolă și se amplasează o stație de transport în comun, cu o copertină ca cele din zonele recent modernizate ale orașului (avizul Serviciului Siguranța Circulației nr. 879437/446/2.12.2024).",
+   "În incintă se plantează cel puțin 50 de arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet.",
+   "Accesul se face din str. Fabricii de Zahăr; parcarea, auto și velo, se face la sol în incintă, cu locuri pentru mașini electrice, pentru mama și copilul și pentru persoane cu dizabilități; necesarul de parcaje se calculează după Anexa 2 a regulamentului P.U.G.",
+   "Regulamentul (Anexa 1): extinderile, restructurările și clădirile noi importante se reglementează obligatoriu prin P.U.D.; servituțile de utilitate publică se dezmembrează și se înscriu în C.F.; utilitățile se introduc în subteran; apele pluviale nu se scurg spre domeniul public sau spre vecini; cablurile aeriene pe spațiul public sunt interzise.",
+   "Spații verzi (Anexa 1): minimum 20% din parcelă, pe sol natural; în grădina de fațadă, minimum 60% spații verzi; un arbore la fiecare 6 locuri de parcare la sol; tăierea arborilor maturi e interzisă, în afara cazurilor de pericol sau de împiedicare a construirii.",
+   "Echiparea tehnico-edilitară se face complet pe str. Fabricii de Zahăr; toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

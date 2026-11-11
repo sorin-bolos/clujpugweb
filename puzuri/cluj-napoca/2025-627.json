@@ -1,0 +1,347 @@
+{
+  "id": "2025-627",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 627,
+    "an": 2025,
+    "data_sedinta": "2025-10-09",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-627-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/10/21/HCL-627.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare subzonă de activități economice, strada Fabricii de Zahăr nr. 166 – etapa 1",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 300,
+    "denumire": "Reglementări urbanistice (planșa U4)",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 12 (Anexa 2 la hotărâre, micșorată pe A4, rotită, ștampilată) și p. 18 (format A1, color, 300 ppi, pagină rotită la 90°, cu viza „spre neschimbare” – anexă la avizul Arhitectului-șef nr. 38 din 28.03.2025 – și mențiunea de mână „HCL nr. 627 din 9 octombrie 2025”); s-a folosit p. 18, mult mai clară. Hotărârea numește planșa „A02 Reglementări Urbanistice” (Anexa 2), regulamentul o numește „U2”, iar cartușul și textul despre lărgirea străzii „U4”: e aceeași planșă. Pp. 1-2 sunt hotărârea, pp. 3-11 regulamentul local de urbanism (Anexa 1), pp. 13-14 avizul Arhitectului-șef nr. 38/28.03.2025, pp. 15-16 avizul de oportunitate nr. 51/3.04.2023, p. 17 extrasul din P.U.G., pp. 19-20 raportul informării și consultării publicului. Cartușul: planșa U4 „Reglementări urbanistice”, faza P.U.Z., proiect 399/2022 (aprilie 2022), scara 1:500, data listării 23.01.2025. Scara imaginii: 23,8 px/m (planșa e tipărită la ~101% din 1:500 la 300 ppi); nordul e în sus (rotație 0,14°). P.U.Z.-ul e „etapa 1”: planșa desenează „Faza 1” (parcelele nr. cad. 335604 și 296338, singurele reglementate) și „Faza 2” (terenul de la nord, până la culoarul Someșului Mic); potrivit avizului Arhitectului-șef, restul UTR S_Em va fi reglementat printr-un P.U.Z. distinct (etapa II), după realizarea podului rutier dintre str. Fabricii de Zahăr și B-dul Muncii. Legenda cuprinde, în două casete, cheia simbolurilor (limitele terenului reglementat, zonei studiate, fazelor și UTR, construcțiile învecinate, retragerile, suprafețele construibile/neconstruibile, suprafața de dezmembrat pentru str. Fabricii de Zahăr, circulațiile, spațiile verzi, Someșul Mic, accesele) și caseta „Reglementări urbanistice” a UTR S_Ec (retrageri, înălțimi, spații plantate, POT/CUT). Au rămas afară profilul stradal, bilanțul UTR, calculul și lista parcajelor, inventarul de coordonate, cartușul, semnătura digitală, viza și ștampilele. Zona e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „C.F. nr. 335604, C.F. Nr. 296338 – Parcela (TOTAL) CC”, „Coordonate pct. de contur / X [m] / Y [m]” (X = Nord, Y = Est), 35 de puncte în ordinea conturului cu numerele punctelor din ridicarea topografică (518, 1297, 1344, 1298, 466 … 707, 706), deci ordinea tabelului e copiată în `ordine`; cu lungimile laturilor D(i,i+1) și „S(TOTAL)=11314.89mp P=432.484m” (tabelul din dreapta-jos, x≈7040-7690, y≈5250-6850). Toate cele 35 de laturi, perimetrul și aria se potrivesc la transcriere. Vârfurile sunt punctele ridicării topografice, desenate cu câte o cruciuliță și numărul lor (cu cota) pe linia subțire a limitei parcelelor. Control: 804 (colțul NV, cruciulița de la capătul de vest al laturii de nord), 812 și 828 (cruciulițele de pe latura de nord; la 828 latura se frânge cu 23°), 841 (cruciulița de lângă colțul NE), 719 (colțul SE, la mijlocul liniei groase negre) și 1298 (colțul de vest al decrosului de 4,32 m de pe latura de vest, pe linia subțire neagră). Verificare: cruciulițele 811, 817, 822 și 834 de pe latura de nord, 1344 (celălalt colț al decrosului), 724 (decrosul de 0,37 m de pe latura de est, unde se termină linia cadastrală roșie a vecinului) și 709 (colțul de sus al denivelării laturii de sud, pe linia groasă). Reziduuri: control 0,07-0,22 m (rms 0,15 m); verificare 0,05-0,43 m, cu excepția lui 709 (0,81 m), unde linia groasă desenată stă cu ~0,8 m la vest de punct (vezi nota).",
+    "suprafata_declarata_m2": 11314.89,
+    "puncte": {
+      "518": [
+        588668.874,
+        395383.034
+      ],
+      "1297": [
+        588673.935,
+        395383.519
+      ],
+      "1344": [
+        588680.882,
+        395384.049
+      ],
+      "1298": [
+        588681.028,
+        395379.731
+      ],
+      "466": [
+        588703.227,
+        395381.877
+      ],
+      "461": [
+        588720.79,
+        395383.811
+      ],
+      "407": [
+        588724.838,
+        395384.304
+      ],
+      "410": [
+        588729.435,
+        395384.913
+      ],
+      "411": [
+        588736.989,
+        395385.352
+      ],
+      "452": [
+        588751.976,
+        395386.667
+      ],
+      "417": [
+        588762.481,
+        395387.623
+      ],
+      "804": [
+        588769.547,
+        395388.218
+      ],
+      "811": [
+        588765.823,
+        395405.043
+      ],
+      "812": [
+        588761.733,
+        395422.346
+      ],
+      "817": [
+        588758.227,
+        395437.041
+      ],
+      "822": [
+        588753.555,
+        395457.543
+      ],
+      "825": [
+        588749.792,
+        395474.668
+      ],
+      "828": [
+        588745.666,
+        395490.851
+      ],
+      "834": [
+        588739.586,
+        395499.074
+      ],
+      "841": [
+        588735.042,
+        395504.915
+      ],
+      "840": [
+        588727.861,
+        395513.671
+      ],
+      "724": [
+        588680.988,
+        395508.808
+      ],
+      "723": [
+        588680.948,
+        395509.18
+      ],
+      "722": [
+        588667.061,
+        395507.53
+      ],
+      "719": [
+        588660.284,
+        395506.483
+      ],
+      "718": [
+        588662.243,
+        395490.907
+      ],
+      "717": [
+        588662.616,
+        395486.095
+      ],
+      "716": [
+        588663.382,
+        395478.82
+      ],
+      "712": [
+        588665.531,
+        395454.989
+      ],
+      "711": [
+        588667.888,
+        395429.694
+      ],
+      "710": [
+        588669.057,
+        395417.081
+      ],
+      "709": [
+        588669.395,
+        395413.219
+      ],
+      "708": [
+        588667.89,
+        395407.973
+      ],
+      "707": [
+        588666.468,
+        395403.953
+      ],
+      "706": [
+        588667.029,
+        395396.984
+      ]
+    },
+    "perimetru_declarat_m": 432.484,
+    "ordine": [
+      "518",
+      "1297",
+      "1344",
+      "1298",
+      "466",
+      "461",
+      "407",
+      "410",
+      "411",
+      "452",
+      "417",
+      "804",
+      "811",
+      "812",
+      "817",
+      "822",
+      "825",
+      "828",
+      "834",
+      "841",
+      "840",
+      "724",
+      "723",
+      "722",
+      "719",
+      "718",
+      "717",
+      "716",
+      "712",
+      "711",
+      "710",
+      "709",
+      "708",
+      "707",
+      "706"
+    ],
+    "laturi_declarate_m": {
+      "518": 5.084,
+      "1297": 6.967,
+      "1344": 4.32,
+      "1298": 22.302,
+      "466": 17.669,
+      "461": 4.078,
+      "407": 4.637,
+      "410": 7.567,
+      "411": 15.045,
+      "452": 10.548,
+      "417": 7.091,
+      "804": 17.232,
+      "811": 17.78,
+      "812": 15.107,
+      "817": 21.028,
+      "822": 17.534,
+      "825": 16.701,
+      "828": 10.227,
+      "834": 7.4,
+      "841": 11.324,
+      "840": 47.125,
+      "724": 0.374,
+      "723": 13.985,
+      "722": 6.857,
+      "719": 15.699,
+      "718": 4.826,
+      "717": 7.315,
+      "716": 23.928,
+      "712": 25.405,
+      "711": 12.667,
+      "710": 3.877,
+      "709": 5.458,
+      "708": 4.264,
+      "707": 6.992,
+      "706": 14.071
+    },
+    "nota": "Inventarul e conturul măsurat al celor două parcele numite în Art. 1 (11.314,89 mp), dar terenul reglementat are 1,099 ha (Art. 1, bilanțul UTR al planșei: 10.991 mp UTR S_Ec; pe desen „Parcela 01 S: 10.973,75 mp” plus 17,25 mp de dezmembrat pentru stradă). Diferența, 324 mp, e o fâșie de-a lungul laturii de nord (spre Someșul Mic), lată de ~2,8 m la vest și ~0,9 m la est: linia „Limită UTR”/„Limită teren reglementat” (linia groasă neagră cu pătrățele albastre) e trasă în interiorul parcelelor, iar fâșia rămâne în UTR Ve – avizul de oportunitate nr. 51/2023 spune că terenul e parțial în UTR Ve și că „se menține încadrarea funcțională pentru suprafața de teren încadrată în UTR Ve”. Harta arată conturul inventarului, deci include și fâșia aceasta. Pe celelalte laturi limita desenată urmează inventarul: la vest linia subțire neagră, la sud și la est linia groasă neagră (la est cu ~0,3 m spre vest). Pe latura de sud, linia groasă e desenată cu ~0,5-0,9 m mai la vest decât punctele inventarului în dreptul denivelării 706-710 (colțurile 707 și 709 și capetele liniilor cadastrale roșii ale vecinilor), ca și linia cadastrală roșie cu puncte de la nord, care stă cu ~1 m sub linia ridicării; etichetele punctelor 711 și 716 arată însă exact pe pozițiile date de potrivire. Linia cu cruciulițe de la nord e chiar latura parcelelor, nu o linie de cotă: cruciulițele cad pe pozițiile din inventar la 0,07-0,43 m, iar lungimile scrise pe ea (17,23; 15,11; 21,03; 17,53; 16,70; 7,40; 11,32) sunt laturile D din tabel."
+  },
+  "gcp_px": {
+    "804": [
+      1806,
+      2084
+    ],
+    "812": [
+      2622,
+      2265
+    ],
+    "828": [
+      4243,
+      2639
+    ],
+    "841": [
+      4586,
+      2894
+    ],
+    "719": [
+      4615,
+      4663
+    ],
+    "1298": [
+      1607,
+      4177
+    ]
+  },
+  "verificare_px": {
+    "811": [
+      2207,
+      2170
+    ],
+    "817": [
+      2968,
+      2345
+    ],
+    "822": [
+      3446,
+      2454
+    ],
+    "834": [
+      4446,
+      2787
+    ],
+    "1344": [
+      1707,
+      4181
+    ],
+    "724": [
+      4666,
+      4176
+    ],
+    "709": [
+      2382,
+      4454
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      7830,
+      495,
+      9070,
+      2680
+    ],
+    [
+      7810,
+      4115,
+      9110,
+      4935
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Ec",
+      "denumire": "Subzonă de activități economice de tip comercial – en retail – desfășurate în unități de mari dimensiuni (big box, mall, showroom): comerț de tip supermarket, hypermarket etc., cu produse alimentare și nealimentare, generalist sau specializat, și servicii conexe, în clădiri de tip „big box” cu ADC de peste 1000 mp; regim de construire deschis. Retrageri: minimum 10 m de la aliniament; de la limitele laterale cel puțin jumătate din înălțimea clădirii, dar minimum 6 m; de la limita posterioară cel puțin înălțimea clădirii, dar minimum 6 m. Acces din str. Fabricii de Zahăr; parcare auto și velo la sol, în incintă. Regulamentul (Anexa 1) interzice locuirea de orice tip, depozitarea în afara celei aferente comerțului și construcțiile provizorii; parcelele rezultate dintr-o divizare trebuie să aibă front la stradă de cel puțin 50 m și cel puțin 3000 mp.",
+      "pot_max": "60%",
+      "cut_max": "1,2",
+      "h_max": "21 m la cornișă, 25 m înălțime totală"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-10-09",
+    "verificat": "2026-11-11: Art. 2, cinci ani; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF) și s-a transcris: coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Retragerile: caseta „Reglementări urbanistice” a planșei dă doar 6,00 m față de limitele laterale și 6,00 m față de limita posterioară; hotărârea (Art. 1) cere față de limitele laterale cel puțin jumătate din înălțimea clădirilor și față de limita posterioară cel puțin înălțimea clădirilor, în ambele cazuri minimum 6 m (pe desen, liniile de retragere poartă mențiunile „H/2 min. 6,00 m” și „H min. 6,00 m”). Retragerea de 10 m de la aliniament, înălțimile (21 m la cornișă, 25 m la coamă/atic), POT 60% și CUT 1,2 coincid.",
+    "Spațiile plantate: planșa cere minimum 20% spații libere și plantate; hotărârea nu dă procentul (regulamentul, Anexa 1, art. 13, cere minimum 20% spații verzi pe sol natural), dar adaugă o obligație care nu e pe planșă: cel puțin 50 de arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet, plantați în incintă.",
+    "Suprafața: hotărârea dă un teren de 1,099 ha (bilanțul planșei: 10.991 mp în UTR S_Ec), iar conturul de pe hartă, inventarul de coordonate al celor două parcele, are 11.315 mp: în plus e o fâșie de 1-3 m de-a lungul laturii de nord, desenată în afara limitei UTR S_Ec, care rămâne în UTR Ve (zonă verde de protecție a apelor), după avizul de oportunitate."
+  ],
+  "conditii": [
+    "Terenul necesar regularizării str. Fabricii de Zahăr (conform planșei U4) și amenajării unei stații de transport în comun se dezmembrează din parcela inițială și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizației de construire; pe planșă, suprafața de dezmembrat are 17,25 mp.",
+    "Înainte de recepția lucrărilor se amenajează o alveolă și se amplasează o stație de transport în comun, cu o copertină ca cele din zonele recent modernizate ale orașului (avizul Serviciului Siguranța Circulației nr. 879437/446/2.12.2024).",
+    "În incintă se plantează cel puțin 50 de arbori cu circumferința de minimum 35 cm, măsurată la 1 m de la colet.",
+    "Accesul se face din str. Fabricii de Zahăr; parcarea, auto și velo, se face la sol în incintă, cu locuri pentru mașini electrice, pentru mama și copilul și pentru persoane cu dizabilități; necesarul de parcaje se calculează după Anexa 2 a regulamentului P.U.G.",
+    "Regulamentul (Anexa 1): extinderile, restructurările și clădirile noi importante se reglementează obligatoriu prin P.U.D.; servituțile de utilitate publică se dezmembrează și se înscriu în C.F.; utilitățile se introduc în subteran; apele pluviale nu se scurg spre domeniul public sau spre vecini; cablurile aeriene pe spațiul public sunt interzise.",
+    "Spații verzi (Anexa 1): minimum 20% din parcelă, pe sol natural; în grădina de fațadă, minimum 60% spații verzi; un arbore la fiecare 6 locuri de parcare la sol; tăierea arborilor maturi e interzisă, în afara cazurilor de pericol sau de împiedicare a construirii.",
+    "Echiparea tehnico-edilitară se face complet pe str. Fabricii de Zahăr; toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+}
