@@ -1,0 +1,234 @@
+{
+  "id": "2025-640",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 640,
+    "an": 2025,
+    "data_sedinta": "2025-10-29",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-640-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/10/29/640.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă de instituții și servicii publice, str. Valea Gârbăului – est (construire Centru Rezidențial de recuperare din adicții „Noi orizonturi”)",
+  "plansa": {
+    "pagina_pdf": 10,
+    "dpi": 300,
+    "denumire": "A.05 Plan reglementări urbanistice – unități teritoriale de referință (UTR)",
+    "scara": "1:1500 în cartuș (scris „1:1500, 1:1755,16”); desenul e la ~7,36 px/m la 300 ppi, adică ~1:1600 pe pagina A3",
+    "nota": "PDF-ul are 10 pagini: hotărârea (p. 1-2), regulamentul local de urbanism (Anexa 1, p. 3-9) și o singură planșă, p. 10 (A3, scanată color la 300 ppi), ștampilată „Anexa 2 la Hotărârea nr. 640/2025 are un număr de 1 pagină”: A.05 „Plan reglementări urbanistice unități teritoriale de referință – UTR” (proiect 11/2023, aprilie 2024, faza P.U.Z.), desenată pe planul topografic din octombrie 2023, cu caroiajul Stereo 70 etichetat doar pe chenar (Est 388000/388100/388200, Nord 583100-583400). Nordul e în sus (rotație ~0,7°). Legenda păstrată: cheia simbolurilor din dreapta-sus (limita P.U.Z., zona cu risc mare de alunecări de teren după P.U.G., zona edificabilă, drum public cadastrat, limitele teritoriului administrativ și intravilanului, accesul) și caseta U.T.R. Is_A cu P.O.T./C.U.T. de sub bilanțuri. Au rămas afară caseta cu numărul locurilor de parcare (17), profilurile stradale, bilanțurile teritoriale (existent: parcele neconstruite 10504 mp; propus: UTR Is_A 10504 mp), inventarul de coordonate, legenda planului topografic din stânga-jos, cartușul, semnăturile și ștampilele. Hașura zonei cu risc mare de alunecări de teren (după P.U.G.) acoperă și partea de sud a terenului, sub zona edificabilă."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „TEREN” pe planșa A.05 (Coordonate pct. de contur X [m] Nord / Y [m] Est, Stereo 70, cu lungimile laturilor D(i,i+1)): 20 de puncte în ordinea conturului, S(1)=10503,89 mp, P=711,572 m. Puncte de control: colțurile 9 și 8 (sud-vest și sud-est, unghiuri de 85° și 76°), 18 (vârful de nord, 25°) și 20 (frângere de 19°), fiecare la intersecția liniilor de mijloc ale benzii roșii a limitei de pe cele două laturi vecine (banda izolată după culoare, mijlocul măsurat din 8 în 8 px între marginile ei, drepte potrivite prin mijloace, abatere ~1 px), plus două încrucișări ale caroiajului Stereo 70 de pe chenarul planului topografic: Est 388000 × Nord 583400 și Est 388000 × Nord 583100. Fiecare încrucișare e intersecția dreptelor care unesc semnele etichetelor de pe laturile opuse ale chenarului (Est 388000: sus x=884,5, jos x=844,6; Nord: liniuțele de sub etichete, stânga și dreapta), fără prelungire peste chenar. Verificare: colțul 19 (frângere de 27°) și încrucișările Est 388000 × Nord 583300 și 583200.",
+    "suprafata_declarata_m2": 10503.89,
+    "puncte": {
+      "1": [
+        583257.556,
+        388148.718
+      ],
+      "2": [
+        583201.98,
+        388128.205
+      ],
+      "3": [
+        583179.507,
+        388119.911
+      ],
+      "4": [
+        583133.714,
+        388103.219
+      ],
+      "5": [
+        583131.593,
+        388102.446
+      ],
+      "6": [
+        583098.341,
+        388097.056
+      ],
+      "7": [
+        583083.075,
+        388096.081
+      ],
+      "8": [
+        583066.523,
+        388096.07
+      ],
+      "9": [
+        583082.714,
+        388031.145
+      ],
+      "10": [
+        583100.409,
+        388037.381
+      ],
+      "11": [
+        583120.268,
+        388045.367
+      ],
+      "12": [
+        583135.746,
+        388052.168
+      ],
+      "13": [
+        583158.757,
+        388063.11
+      ],
+      "14": [
+        583171.937,
+        388069.53
+      ],
+      "15": [
+        583185.958,
+        388077.094
+      ],
+      "16": [
+        583261.222,
+        388122.411
+      ],
+      "17": [
+        583335.691,
+        388167.574
+      ],
+      "18": [
+        583366.907,
+        388189.683
+      ],
+      "19": [
+        583330.941,
+        388183.068
+      ],
+      "20": [
+        583309.212,
+        388166.286
+      ]
+    },
+    "perimetru_declarat_m": 711.572,
+    "laturi_declarate_m": {
+      "1": 59.241,
+      "2": 23.955,
+      "3": 48.74,
+      "4": 2.257,
+      "5": 33.686,
+      "6": 15.297,
+      "7": 16.552,
+      "8": 66.913,
+      "9": 18.762,
+      "10": 21.405,
+      "11": 16.906,
+      "12": 25.48,
+      "13": 14.66,
+      "14": 15.931,
+      "15": 87.854,
+      "16": 87.094,
+      "17": 38.252,
+      "18": 36.569,
+      "19": 27.455,
+      "20": 54.562
+    },
+    "nota": "Aria coordonatelor (10503,9 mp), toate cele 20 de laturi și perimetrul ies exact cât în tabel; bilanțul și hotărârea dau 10504 mp. Celelalte vârfuri stau pe porțiuni aproape drepte (frângeri sub 11°), fără marcă pe planșă, deci poziția lor de-a lungul laturii nu se poate citi; colțul 5 (11°) a ieșit instabil și nu e folosit. Terenul e o fâșie îngustă NNE (~160 m pe Est, ~300 m pe Nord): fitat doar din colțuri, afinul e slab determinat pe Est, iar încrucișările de la Est 388000 (la 110-230 m vest de limită) ieșeau la 0,6-2,3 m; cu două dintre ele în control, toate punctele stau sub 0,5 m, deci inventarul, desenul și caroiajul se potrivesc. Banda limitei e lată de ~25 px (3,4 m); pe mijlocul fâșiei (laturile 1-3 și 10-16) desenul stă cu 2-5 px (0,3-0,7 m) spre est față de fit, o deformare mică a hârtiei sau a scanării. Pe ortofoto (Esri) latura de vest stă pe marginea de est a str. Valea Gârbăului, iar cele două drumuri care vin dinspre vest ajung în stradă unde le desenează planșa: drumul gri de lângă colțul 9 și cel de la ~30 m nord de el (încrucișările OSM, pe extrasul din 2026-11-08, cad la 1-5 m de cele desenate, cât precizia OSM)."
+  },
+  "gcp_px": {
+    "18": [
+      2273.8,
+      786.8
+    ],
+    "20": [
+      2100.2,
+      1206.0
+    ],
+    "9": [
+      1080.6,
+      2865.8
+    ],
+    "8": [
+      1558.8,
+      2990.3
+    ],
+    "C388000_583400": [
+      880.3,
+      524.3
+    ],
+    "C388000_583100": [
+      851.8,
+      2737.5
+    ]
+  },
+  "verificare_px": {
+    "19": [
+      2226.5,
+      1047.4
+    ],
+    "C388000_583300": [
+      870.8,
+      1261.7
+    ],
+    "C388000_583200": [
+      861.3,
+      1999.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3970,
+      199,
+      4712,
+      1688
+    ],
+    [
+      3975,
+      2110,
+      4570,
+      2295
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Is_A",
+      "denumire": "Zonă de instituții și servicii publice constituite în ansambluri independente: funcțiuni de sănătate și asistență socială (Centrul rezidențial de recuperare din adicții „Noi orizonturi”); regim de construire deschis",
+      "pot_max": "40%",
+      "cut_max": "1,2",
+      "h_max": "12 m la cornișă; D+P+2E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-10-29",
+    "verificat": "2026-11-11: Art. 2, șapte ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea și retragerile: planșa nu le tipărește (caseta U.T.R. dă doar P.O.T. maxim 40% și C.U.T. maxim 1,2, ca hotărârea); Art. 1 stabilește D+P+2E, H maxim 12 m la cornișă, retragere de cel puțin 3 m de la aliniament, H/2 dar minim 4,5 m de la limitele laterale și 3 m de la limita posterioară."
+  ],
+  "conditii": [
+    "Retrageri: cel puțin 3 m de la aliniament; de la limitele laterale cel puțin jumătate din înălțimea clădirii, dar minim 4,5 m; de la limita posterioară cel puțin 3 m.",
+    "Accesul se face din str. Valea Gârbăului; orice acces la drumurile publice se face conform avizului administratorului lor. Pentru căile pietonale și carosabile din interiorul parcelei se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei, în spații amenajate sau parcaje la sol; nu pe fâșia dintre aliniament și clădiri, iar în curți doar dacă sunt curți de serviciu. Regulamentul (Anexa 1) cere cel puțin 4 locuri pentru aparținători, 8 pentru personal și 2 pentru persoane cu dizabilități; planșa prevede 17 (2 pentru persoane cu handicap și 5 la sol, 10 în garaj acoperit).",
+    "Clădirile se racordează la rețelele edilitare publice disponibile; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuiri sau clădiri; cablurile de orice fel nu se montează aerian.",
+    "Parcela are un spațiu (eventual integrat în clădire) pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară, Direcția de Asistență Socială și Medicală."
+  ],
+  "repere": {
+    "C388000_583400": [
+      583400.0,
+      388000.0
+    ],
+    "C388000_583300": [
+      583300.0,
+      388000.0
+    ],
+    "C388000_583200": [
+      583200.0,
+      388000.0
+    ],
+    "C388000_583100": [
+      583100.0,
+      388000.0
+    ]
+  }
+}

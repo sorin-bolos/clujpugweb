@@ -13066,6 +13066,135 @@
   ]
  },
  {
+  "id": "2025-640",
+  "localitate": "cluj",
+  "hcl": "640/2025",
+  "data": "2025-10-29",
+  "titlu": "P.U.Z. – Dezvoltare zonă de instituții și servicii publice, str. Valea Gârbăului – est (construire Centru Rezidențial de recuperare din adicții „Noi orizonturi”)",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-640-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2025/10/29/640.pdf",
+  "utr": [
+   {
+    "cod": "Is_A",
+    "denumire": "Zonă de instituții și servicii publice constituite în ansambluri independente: funcțiuni de sănătate și asistență socială (Centrul rezidențial de recuperare din adicții „Noi orizonturi”); regim de construire deschis",
+    "pot_max": "40%",
+    "cut_max": "1,2",
+    "h_max": "12 m la cornișă; D+P+2E"
+   }
+  ],
+  "suprafata_m2": 10504,
+  "imagine": "puz/2025-640/plansa.webp",
+  "bounds": {
+   "west": 23.5329334,
+   "south": 46.7378086,
+   "east": 23.535144,
+   "north": 46.7406133
+  },
+  "limita": [
+   [
+    23.5345255,
+    46.7395647
+   ],
+   [
+    23.5342706,
+    46.7390613
+   ],
+   [
+    23.5341675,
+    46.7388578
+   ],
+   [
+    23.5339602,
+    46.7384431
+   ],
+   [
+    23.5339506,
+    46.7384239
+   ],
+   [
+    23.5338882,
+    46.7381239
+   ],
+   [
+    23.5338791,
+    46.7379864
+   ],
+   [
+    23.533883,
+    46.7378375
+   ],
+   [
+    23.5330296,
+    46.7379723
+   ],
+   [
+    23.5331069,
+    46.7381326
+   ],
+   [
+    23.5332065,
+    46.7383125
+   ],
+   [
+    23.5332918,
+    46.7384529
+   ],
+   [
+    23.5334294,
+    46.7386617
+   ],
+   [
+    23.5335102,
+    46.7387813
+   ],
+   [
+    23.5336057,
+    46.7389087
+   ],
+   [
+    23.5341804,
+    46.7395933
+   ],
+   [
+    23.5347533,
+    46.7402707
+   ],
+   [
+    23.535035,
+    46.7405551
+   ],
+   [
+    23.5349572,
+    46.7402305
+   ],
+   [
+    23.5347429,
+    46.7400323
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.26
+  },
+  "legenda": "puz/2025-640/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2032-10-29"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea și retragerile: planșa nu le tipărește (caseta U.T.R. dă doar P.O.T. maxim 40% și C.U.T. maxim 1,2, ca hotărârea); Art. 1 stabilește D+P+2E, H maxim 12 m la cornișă, retragere de cel puțin 3 m de la aliniament, H/2 dar minim 4,5 m de la limitele laterale și 3 m de la limita posterioară."
+  ],
+  "conditii": [
+   "Retrageri: cel puțin 3 m de la aliniament; de la limitele laterale cel puțin jumătate din înălțimea clădirii, dar minim 4,5 m; de la limita posterioară cel puțin 3 m.",
+   "Accesul se face din str. Valea Gârbăului; orice acces la drumurile publice se face conform avizului administratorului lor. Pentru căile pietonale și carosabile din interiorul parcelei se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei, în spații amenajate sau parcaje la sol; nu pe fâșia dintre aliniament și clădiri, iar în curți doar dacă sunt curți de serviciu. Regulamentul (Anexa 1) cere cel puțin 4 locuri pentru aparținători, 8 pentru personal și 2 pentru persoane cu dizabilități; planșa prevede 17 (2 pentru persoane cu handicap și 5 la sol, 10 în garaj acoperit).",
+   "Clădirile se racordează la rețelele edilitare publice disponibile; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în împrejmuiri sau clădiri; cablurile de orice fel nu se montează aerian.",
+   "Parcela are un spațiu (eventual integrat în clădire) pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară, Direcția de Asistență Socială și Medicală."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
