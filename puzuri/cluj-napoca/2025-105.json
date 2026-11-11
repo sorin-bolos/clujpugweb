@@ -1,0 +1,188 @@
+{
+  "id": "2025-105",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Inventarul de coordonate de pe planșa 03a (p. 15, planșă A1L la 1:500 redusă pe A4) e ilizibil și planșa n-are caroiaj Stereo 70, iar reperele OpenStreetMap nu trec porțile: cu 6 colțuri de clădiri la nord și sud-est potrivirea (6,9 px/m, rms 1,54 m) dă aria trasată 14.924 mp față de 13.224 mp declarați (+12,9%), iar cu încă o clădire din sud-vest reziduurile urcă la 7,75 m (> 5 m), deci planșa redusă nu se lasă așezată pe OSM printr-o similaritate.",
+  "hcl": {
+    "nr": 105,
+    "an": 2025,
+    "data_sedinta": "2025-03-27",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-105-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/04/03/105.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – str. Bună Ziua, latura sudică",
+  "plansa": {
+    "pagina_pdf": 15,
+    "dpi": 300,
+    "denumire": "03a (302/PUZ/A/D/003a) Plan reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul (15 pagini A4 scanate la 300 ppi) are o singură planșă: p. 15, Anexa 2, „Reglementări urbanistice – zonificare”, nr. 302/PUZ/A/D/003a, scara 1:500, format A1L, 20.12.2023; pp. 1-14 sunt text (hotărârea și regulamentul, Anexa 1). Planșa e redusă pe o foaie A4 și tipărită culcat: textul se citește de jos în sus, nordul e spre stânga (str. Bună Ziua pe marginea din stânga, pârâul Becaș la dreapta). Scara imaginii e ~6,9-7,3 px/m (1:500 redus la ~30%), iar cifrele mici (inventar, bilanț, cote) au 5-7 px. Se citesc: cartușul (dreapta sus, x≈2050-2330, y≈230-1000), legenda și zonificarea (stânga sus, de la x≈60, y≈600-1160, text rotit 90°: limita terenului = 13.224 mp, retrageri, M3* 2S+P+4E+1R, Li/c_a* S(D)+P+1+M cu 5597 mp, Ve/VPr 1127 mp, zonă verde propusă 50 mp, circulații, suprafața pentru lărgirea str. Bună Ziua). legenda_px nu s-a completat: oprirea a venit înainte de pasul decupajelor."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Încercat pe 2026-11-11: (1) Inventarul de coordonate (x≈660-1060, y≈290-500; 30 de puncte cu D(i,i+1), sub tabel „S=13224,15 mp, P=56?,872 m”) are cifre de ~7 px, încețoșate de JPEG (3/5/6/8/9/0 nu se deosebesc); citirile nu se leagă: laturile calculate diferă de cele tipărite cu metri, iar o ajustare afină pe 6 vârfuri cu poziția cunoscută (26, 27, 29, 1, 9, 15) lasă reziduuri de 3-8 m. (2) Caroiaj Stereo 70: nu există; singurele linii lungi sunt două orizontale, la y≈1245 și y≈2722, fără perechi verticale și fără etichete. (3) Repere OpenStreetMap (georef_metoda osm, extrasul din 2026-11-08): control B49tr, B49bl (way 278312524), B4bl, B4re (way 278310995) – casele dintre str. Alexandru Graur și fâșie –, Btl, Bbr (way 278314082, casa în L de lângă str. Alexandru Graur, la sud-est); verificare B27bl (way 278311744). Limita e schițată (`limita_px`, 7 vârfuri) pe conturul fâșiei gri: latura nordică, capătul de la pârâul Becaș, latura sudică dreaptă și latura de la str. Bună Ziua (linia interioară din cele două paralele de acolo).",
+    "suprafata_declarata_m2": 13224,
+    "puncte": {},
+    "nota": "Cu cele 6 repere de control + B27bl: similaritate 6,9 px/m, rotație −89,17°, rms 1,54 m, max 3,70 m (B27bl) – poarta de reziduuri trece, dar aria limitei trasate iese 14.924 mp față de 13.224 mp (+12,9%), iar perimetrul ei ~589 m față de P≈561 m (+5%): la scara potrivirii pe clădiri fâșia e cu ~6% mai mare liniar decât spun cifrele planșei (care s-ar potrivi la ~7,3 px/m). Adăugând colțul NE al clădirii din sud-vest (way 810453870, la (853, 2925) pe planșă): rms 4,59 m, max 7,75 m, peste 5 m; fără el celelalte au rms 1,54 m, iar reziduul lui e 17,2 m. Tot cu 10-17 m, în aceeași direcție, cad și clădirea way 810453869, aleea dintre ele (Aleea Boian în OSM, „str. Petru P. …” pe planșă) și carosabilul str. Bună Ziua. O transformare afină prin toate cele 8 puncte le-ar ține sub 3 m (7,11 × 7,36 px/m), deci planșa redusă pare deformată (sau fondul din sud-vest e luat din P.U.Z. HCL 243/2015, desenat pe planșă), iar instrumentul face pentru OSM doar similaritate. Ar merge cu planșa la mărimea originală sau cu inventarul lizibil (ori cu coordonatele cadastrale ale imobilelor 332560, 333131, 333132, 333163, 333346, 337377 și 337403, din Art. 1), prin metoda inventarului. Limita din `limita_px` e doar o schiță, pentru încercarea următoare."
+  },
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      370,
+      1726
+    ],
+    "en": [
+      393662.1,
+      584338.7
+    ],
+    "px_per_m": 6.86,
+    "nord": 268.7
+  },
+  "gcp_px": {
+    "B49tr": [
+      696,
+      1712
+    ],
+    "B49bl": [
+      471,
+      1874
+    ],
+    "B4bl": [
+      1018,
+      1789
+    ],
+    "B4re": [
+      1167,
+      1674
+    ],
+    "Btl": [
+      1729,
+      1311
+    ],
+    "Bbr": [
+      1796,
+      1393
+    ]
+  },
+  "verificare_px": {
+    "B27bl": [
+      521,
+      2044
+    ]
+  },
+  "repere": {
+    "B49tr": [
+      584293.98,
+      393658.93
+    ],
+    "B49bl": [
+      584326.27,
+      393637.11
+    ],
+    "B4bl": [
+      584247.72,
+      393647.19
+    ],
+    "B4re": [
+      584225.64,
+      393663.54
+    ],
+    "B27bl": [
+      584318.56,
+      393614.2
+    ],
+    "Btl": [
+      584145.36,
+      393721.34
+    ],
+    "Bbr": [
+      584134.93,
+      393707.71
+    ]
+  },
+  "limita_px": [
+    [
+      535,
+      2146
+    ],
+    [
+      1030,
+      2004
+    ],
+    [
+      1600,
+      1830
+    ],
+    [
+      1995,
+      1689
+    ],
+    [
+      2030,
+      1680
+    ],
+    [
+      2150,
+      2122
+    ],
+    [
+      640,
+      2593
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "M3*",
+      "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic: locuire colectivă, birouri și administrație, servicii financiar-bancare, comerț, cultură, învățământ, sănătate ambulatorie, turism (o parcelă, la str. Bună Ziua)",
+      "pot_max": "40%",
+      "cut_max": "2,0",
+      "h_max": "18,80 m la cornișă, 22,30 m maxim; (1-3)S+P+4E+1R"
+    },
+    {
+      "cod": "Li/c_a*",
+      "denumire": "Locuințe cu regim redus de înălțime, individuale și semicolective (cel mult două unități locative pe parcelă), în regim izolat sau cuplat (13 parcele)",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane (P+E+M/R sau D+P+M/R; cel mult (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R); 8 m la cornișă, 12 m la coamă"
+    },
+    {
+      "cod": "Ve / VPr",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (lângă pârâul Becaș) și zonă verde de protecție față de infrastructura majoră (rămân ca în PUG)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2030-03-27",
+    "verificat": "2026-11-11: Art. 2, cinci ani de la aprobare (27.03.2025); `related`: nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Investițiile se fac în două etape (avizul Serviciului Siguranța Circulației nr. 129845/446/21.02.2024). Etapa 1 – zona M3*: înainte de autorizația de construire pentru imobilul mixt, terenul necesar lărgirii str. Bună Ziua (conform planșei) se dezmembrează și se înscrie în CF ca „drum”; str. Bună Ziua se lărgește pe frontul P.U.Z.-ului cu o bandă de decelerare, iar trotuarul se amenajează la cel puțin 2,5 m pe tot frontul la stradă.",
+    "Tot în etapa 1: lucrările edilitare cerute de noua configurație a str. Bună Ziua (mutarea stâlpilor de iluminat, refacerea iluminatului public, rețeaua pluvială și celelalte rețele, marcaje și indicatoare rutiere).",
+    "Strada „A” propusă, pe tronsonul de lângă zona M3*, se amenajează după un proiect de specialitate și se asfaltează odată cu celelalte investiții din M3* (imobilul mixt, amenajările exterioare), cu o singură autorizație de construire.",
+    "Etapa 2 – zona Li/c_a*: autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară) se emit după recepția finală a lucrărilor din etapa 1 și după anul 2026; termenul poate fi devansat dacă se fac lucrări rutiere care cresc capacitatea de circulație în zonă, dovedite printr-un studiu de trafic actualizat.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Punctele gospodărești de colectare selectivă a deșeurilor sunt pe 5 fracții.",
+    "Spațiul verde de lângă pârâul Becaș e deschis tuturor; aleea de acces spre el se proiectează accesibilă persoanelor cu dizabilități motorii.",
+    "M3*: retragere de cel puțin 6 m față de str. Bună Ziua (regularizată), H/2 dar cel puțin 4,5 m față de limitele laterale și H/2 dar cel puțin 9 m față de cea posterioară; acces auto din strada A propusă, iar la estul zonei mixte o stradă cu ampriza de 16 m deservește ansamblul și zona de locuințe; parcarea în subsolul/parterul clădirilor, conform Anexei 2 a R.L.U.; spațiu verde de cel puțin 30% din parcelă.",
+    "Li/c_a*: retragere de 3 m de la aliniament, de cel puțin 3 m față de limitele laterale (pe parcela 7, la vest, cel puțin înălțimea clădirii și minimum 6 m) și cel puțin înălțimea clădirii, minimum 6 m, față de limita posterioară; garajele se pot alipi limitelor laterale cu calcan de cel mult 2,80 m și se retrag cel puțin 6 m de la limita posterioară; acces din strada A; parcarea numai pe parcelă (1 loc sub 100 mp AU, 2 peste; servicii cu acces public cel puțin 2).",
+    "Toate clădirile se racordează la rețelele publice; cablurile aeriene de orice fel sunt interzise."
+  ],
+  "repere_osm": {
+    "B49tr": "colț de clădire (b278312524_2)",
+    "B49bl": "colț de clădire (b278312524_0)",
+    "B4bl": "colț de clădire (b278310995_0)",
+    "B4re": "colț de clădire (b278310995_3)",
+    "B27bl": "colț de clădire (b278311744_0)",
+    "Btl": "colț de clădire (b278314082_1)",
+    "Bbr": "colț de clădire (b278314082_5)"
+  }
+}
