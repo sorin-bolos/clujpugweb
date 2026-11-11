@@ -7713,6 +7713,272 @@
   ]
  },
  {
+  "id": "2026-23",
+  "localitate": "cluj",
+  "hcl": "23/2026",
+  "data": "2026-01-20",
+  "titlu": "P.U.Z. – Dezvoltare facilități dedicate agrementului pentru public, Drumul Sfântul Ion",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-23-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/23.pdf",
+  "utr": [
+   {
+    "cod": "Aapp",
+    "denumire": "Zonă de agrement pentru public – funcțiunea predominantă: facilități dedicate agrementului pentru public – cazare turistică, alimentație publică, amenajări pentru activități în aer liber (terenuri de sport, platforme cu destinații diverse, piscină), alei, parcaje, edicule; regim de construire deschis; cel mult 8 corpuri de cazare",
+    "pot_max": "10%",
+    "cut_max": "0,25",
+    "h_max": "două niveluri supraterane: (S)+P+E, (S)+P+R, P+M sau P+R; 8 m la cornișă, 10 m în total"
+   }
+  ],
+  "suprafata_m2": 7000,
+  "imagine": "puz/2026-23/plansa.webp",
+  "bounds": {
+   "west": 23.5433678,
+   "south": 46.7402116,
+   "east": 23.5454177,
+   "north": 46.7411635
+  },
+  "limita": [
+   [
+    23.5439587,
+    46.7411285
+   ],
+   [
+    23.544266,
+    46.7410388
+   ],
+   [
+    23.5449791,
+    46.7408766
+   ],
+   [
+    23.5452593,
+    46.7408129
+   ],
+   [
+    23.5453758,
+    46.7407857
+   ],
+   [
+    23.5453034,
+    46.7406734
+   ],
+   [
+    23.5452718,
+    46.7406751
+   ],
+   [
+    23.545246,
+    46.7407061
+   ],
+   [
+    23.5451765,
+    46.7407112
+   ],
+   [
+    23.5450557,
+    46.7407102
+   ],
+   [
+    23.5450158,
+    46.7407134
+   ],
+   [
+    23.5449136,
+    46.7407073
+   ],
+   [
+    23.5448989,
+    46.7407002
+   ],
+   [
+    23.5448857,
+    46.7406938
+   ],
+   [
+    23.5448518,
+    46.7406843
+   ],
+   [
+    23.5447623,
+    46.7405915
+   ],
+   [
+    23.5447303,
+    46.7405125
+   ],
+   [
+    23.5447129,
+    46.7404694
+   ],
+   [
+    23.5445753,
+    46.740245
+   ],
+   [
+    23.5444947,
+    46.7402718
+   ],
+   [
+    23.5443016,
+    46.740337
+   ],
+   [
+    23.5441696,
+    46.740384
+   ],
+   [
+    23.5441003,
+    46.7404075
+   ],
+   [
+    23.5439806,
+    46.7404485
+   ],
+   [
+    23.5439677,
+    46.7404516
+   ],
+   [
+    23.5438872,
+    46.7404638
+   ],
+   [
+    23.5437534,
+    46.7404664
+   ],
+   [
+    23.5437249,
+    46.7404703
+   ],
+   [
+    23.5435596,
+    46.7405051
+   ],
+   [
+    23.5435019,
+    46.7405157
+   ],
+   [
+    23.5434124,
+    46.7405382
+   ],
+   [
+    23.543417,
+    46.7405438
+   ],
+   [
+    23.5434328,
+    46.7405623
+   ],
+   [
+    23.543451,
+    46.7405835
+   ],
+   [
+    23.5434677,
+    46.740603
+   ],
+   [
+    23.5434859,
+    46.7406243
+   ],
+   [
+    23.5435046,
+    46.7406489
+   ],
+   [
+    23.5435118,
+    46.7406583
+   ],
+   [
+    23.5435232,
+    46.7406732
+   ],
+   [
+    23.5435399,
+    46.7406952
+   ],
+   [
+    23.5435617,
+    46.7407212
+   ],
+   [
+    23.5436309,
+    46.7407997
+   ],
+   [
+    23.5436455,
+    46.7408156
+   ],
+   [
+    23.5436682,
+    46.7408378
+   ],
+   [
+    23.5436805,
+    46.7408546
+   ],
+   [
+    23.5437107,
+    46.7408865
+   ],
+   [
+    23.5437491,
+    46.740923
+   ],
+   [
+    23.5437908,
+    46.7409633
+   ],
+   [
+    23.5438399,
+    46.7410107
+   ],
+   [
+    23.5438615,
+    46.7410314
+   ],
+   [
+    23.5438819,
+    46.7410514
+   ],
+   [
+    23.5439151,
+    46.7410832
+   ],
+   [
+    23.5439574,
+    46.7411271
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.13
+  },
+  "legenda": "puz/2026-23/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-01-20"
+  },
+  "diferente_fata_de_plansa": [
+   "Caseta „Indici urbanistici” a planșei descrie funcțiunea ca „ansamblu de cazare turistică, amenajări pentru activități în aer liber, servicii de susținere a funcției de bază”; hotărârea (Art. 1) numește explicit și alimentația publică, aleile, parcajele și ediculele între funcțiunile predominante.",
+   "Hotărârea (Art. 1) menține R.L.U. al P.U.G. pentru suprafața încadrată în UTR Vp; planșa arată UTR Vp doar dincolo de latura de nord, iar regulamentul spune că din imobil e în Vp doar o suprafață neglijabilă (sub 0,1 mp)."
+  ],
+  "conditii": [
+   "Pe parcelă sunt admise cel mult 8 corpuri de cazare, grupate în jurul unor amenajări comune în aer liber (spațiu verde, piscină, platforme sportive sau recreative); distanța dintre două clădiri e cel puțin înălțimea celei mai înalte, dar minimum 6 m.",
+   "Retrageri: minimum 8 m față de aliniament, 6 m față de limitele laterale și 12 m față de limita posterioară.",
+   "Accesul pe parcelă se face din drumul Sf. Ion; pentru aleile pietonale și carosabile din interior se recomandă învelitori permeabile.",
+   "Parcarea se face în interiorul parcelei, la sol, grupată în fâșia de cel mult 15 m de lângă aliniament; necesarul se calculează după Anexa 2 a R.L.U. al P.U.G., însumat pe funcțiuni (planșa: 32 de camere, 11 locuri propuse).",
+   "Racordarea la rețelele edilitare publice disponibile e obligatorie; unde nu există canalizare publică, apele uzate se pot epura local, cu folosire sau infiltrare în interiorul parcelei.",
+   "Apele pluviale se gestionează prin acumulare sau retenție și se evacuează în emisari locali cu debitele din avizul Apele Române (ABA Someș-Tisa); e interzisă scurgerea lor spre domeniul public sau spre parcelele vecine.",
+   "Cablurile de orice fel se pun în subteran; firidele de branșament și contorizare se integrează în împrejmuire.",
+   "Parcela are o platformă sau un spațiu propriu pentru colectarea deșeurilor, accesibil din domeniul public (nota planșei: colectare selectivă pe 5 fracții).",
+   "Pentru suprafața din UTR Vp se mențin prevederile R.L.U. al P.U.G.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2025-701",
   "localitate": "cluj",
   "hcl": "701/2025",

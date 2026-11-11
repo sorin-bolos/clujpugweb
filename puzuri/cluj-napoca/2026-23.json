@@ -1,0 +1,382 @@
+{
+  "id": "2026-23",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 23,
+    "an": 2026,
+    "data_sedinta": "2026-01-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-23-din-2026/",
+    "pdf": "https://files.primariaclujnapoca.ro/2026/01/26/23.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare facilități dedicate agrementului pentru public, Drumul Sfântul Ion",
+  "plansa": {
+    "pagina_pdf": 8,
+    "dpi": 300,
+    "denumire": "A-04 – Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 8 pagini scanate la 300 ppi: hotărârea (p. 1-2), regulamentul local de urbanism – Anexa 1 (p. 3-7) și planșa A-04 „Plan reglementări urbanistice” – Anexa 2 (p. 8, A3 culcat), singura planșă din PDF, color estompat, cu ștampilele Consiliului Local și R.U.R. Cartușul: SC Spin Studio SRL, proiect 04/2023, faza PUZ, 25.08.2025, format A3, scara 1:500; hotărârea o numește „Planșa A.04 Plan Reglementări Urbanistice”. Imaginea are ~22,6 px/m, adică planșa e tipărită la ~96% din 1:500, aproape cu nordul în sus (rotație 0,2°). Legenda cuprinde cheia simbolurilor (limite, obiective, circulații, retrageri), nota despre punctul gospodăresc și caseta „Indici urbanistici” (S teren 7.000 mp, Sc 700 mp, Sd 1.750 mp, POT 10%, CUT 0,25, funcțiunea, regimul de înălțime, Hmax 10 m, Hmax cornișă 8 m); au rămas afară calculul locurilor de parcare (32 de camere în 8 vile, 11 locuri propuse), profilul stradal (preluat din HCL 650/2022), inventarul de coordonate, cartușul, semnăturile și ștampilele. Pe planșă, parcela (hașurată) e mărginită de o linie subțire gri („teren în proprietatea beneficiarului”); „limita zonei reglementate” e desenată ca un șir de cercuri gri deschis la ~1 m în afara ei. Un șir de cercuri închise, „zonă arheologică protejată” după legendă, urmează latura dinspre drumul Sf. Ion și continuă de o parte și de alta a parcelei; hotărârea nu pomenește zona arheologică. Fâșia „servitute de utilitate publică conf. PUG – 18 m” (profilul drumului Sf. Ion) e desenată în afara parcelei; regulamentul spune că profilul de 18 m nu se suprapune peste teren. Eticheta „UTR = Vp” stă la nord de latura de nord, dincolo de limita UTR; regulamentul notează că doar o suprafață neglijabilă (sub 0,1 mp) din imobil e în UTR Vp. Planșa desenează 8 corpuri de cazare (vile turistice), terasă/sală de sport, piscină și parcaje lângă drum. Peste drum, la sud, e notat P.U.Z.-ul aprobat prin HCL 650/2022 (centru de agrement), publicat separat pe hartă. Cartușul poartă numele proprietarului; e în afara imaginii publicate."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei (tabel „Nr. pct. / X(m) / Y(m) / Lungimi laturi(m)”, Nord(X) / Est(Y), Stereo 70), 53 de puncte, 201-253, în ordinea limitei, cu lungimea fiecărei laturi; S=7000 mp. Puncte de control: colțurile 201 (nord), 205 (est), 207 (colțul de sud-vest al ieșindului de pe latura de est), 219 (sud) și 231 (vest), luate pe linia subțire gri a parcelei („teren în proprietatea beneficiarului”), nu pe șirul de cercuri al limitei zonei reglementate, desenat la ~1 m în afară; puncte de verificare: colțurile 208 și 206 ale aceluiași ieșind.",
+    "suprafata_declarata_m2": 7000,
+    "puncte": {
+      "201": [
+        583418.041,
+        388872.626
+      ],
+      "202": [
+        583407.64,
+        388895.919
+      ],
+      "203": [
+        583388.617,
+        388950.07
+      ],
+      "204": [
+        583381.144,
+        388971.346
+      ],
+      "205": [
+        583377.956,
+        388980.195
+      ],
+      "206": [
+        583365.577,
+        388974.429
+      ],
+      "207": [
+        583365.817,
+        388972.022
+      ],
+      "208": [
+        583369.292,
+        388970.113
+      ],
+      "209": [
+        583369.963,
+        388964.813
+      ],
+      "210": [
+        583370.013,
+        388955.582
+      ],
+      "211": [
+        583370.428,
+        388952.538
+      ],
+      "212": [
+        583369.891,
+        388944.719
+      ],
+      "213": [
+        583369.126,
+        388943.584
+      ],
+      "214": [
+        583368.435,
+        388942.561
+      ],
+      "215": [
+        583367.43,
+        388939.951
+      ],
+      "216": [
+        583357.236,
+        388932.923
+      ],
+      "217": [
+        583348.502,
+        388930.322
+      ],
+      "218": [
+        583343.732,
+        388928.902
+      ],
+      "219": [
+        583318.993,
+        388917.928
+      ],
+      "220": [
+        583322.088,
+        388911.83
+      ],
+      "221": [
+        583329.604,
+        388897.207
+      ],
+      "222": [
+        583335.007,
+        388887.217
+      ],
+      "223": [
+        583337.714,
+        388881.97
+      ],
+      "224": [
+        583342.443,
+        388872.911
+      ],
+      "225": [
+        583342.811,
+        388871.931
+      ],
+      "226": [
+        583344.279,
+        388865.805
+      ],
+      "227": [
+        583344.749,
+        388855.587
+      ],
+      "228": [
+        583345.226,
+        388853.417
+      ],
+      "229": [
+        583349.322,
+        388840.865
+      ],
+      "230": [
+        583350.582,
+        388836.478
+      ],
+      "231": [
+        583353.211,
+        388829.686
+      ],
+      "232": [
+        583353.826,
+        388830.047
+      ],
+      "233": [
+        583355.857,
+        388831.29
+      ],
+      "234": [
+        583358.196,
+        388832.725
+      ],
+      "235": [
+        583360.34,
+        388834.041
+      ],
+      "236": [
+        583362.676,
+        388835.475
+      ],
+      "237": [
+        583365.38,
+        388836.954
+      ],
+      "238": [
+        583366.416,
+        388837.521
+      ],
+      "239": [
+        583368.061,
+        388838.421
+      ],
+      "240": [
+        583370.483,
+        388839.746
+      ],
+      "241": [
+        583373.341,
+        388841.467
+      ],
+      "242": [
+        583381.962,
+        388846.915
+      ],
+      "243": [
+        583383.716,
+        388848.057
+      ],
+      "244": [
+        583386.142,
+        388849.842
+      ],
+      "245": [
+        583387.999,
+        388850.812
+      ],
+      "246": [
+        583391.498,
+        388853.183
+      ],
+      "247": [
+        583395.506,
+        388856.195
+      ],
+      "248": [
+        583399.917,
+        388859.461
+      ],
+      "249": [
+        583405.115,
+        388863.311
+      ],
+      "250": [
+        583407.396,
+        388865.0
+      ],
+      "251": [
+        583409.579,
+        388866.606
+      ],
+      "252": [
+        583413.076,
+        388869.206
+      ],
+      "253": [
+        583417.89,
+        388872.522
+      ]
+    },
+    "laturi_declarate_m": {
+      "201": 25.51,
+      "202": 57.4,
+      "203": 22.55,
+      "204": 9.41,
+      "205": 13.66,
+      "206": 2.42,
+      "207": 3.96,
+      "208": 5.34,
+      "209": 9.23,
+      "210": 3.07,
+      "211": 7.84,
+      "212": 1.37,
+      "213": 1.23,
+      "214": 2.8,
+      "215": 12.38,
+      "216": 9.11,
+      "217": 4.98,
+      "218": 27.06,
+      "219": 6.84,
+      "220": 16.44,
+      "221": 11.36,
+      "222": 5.9,
+      "223": 10.22,
+      "224": 1.05,
+      "225": 6.3,
+      "226": 10.23,
+      "227": 2.22,
+      "228": 13.2,
+      "229": 4.56,
+      "230": 7.28,
+      "231": 0.71,
+      "232": 2.38,
+      "233": 2.74,
+      "234": 2.52,
+      "235": 2.74,
+      "236": 3.08,
+      "237": 1.18,
+      "238": 1.88,
+      "239": 2.76,
+      "240": 3.34,
+      "241": 10.2,
+      "242": 2.09,
+      "243": 3.01,
+      "244": 2.1,
+      "245": 4.23,
+      "246": 5.01,
+      "247": 5.49,
+      "248": 6.47,
+      "249": 2.84,
+      "250": 2.71,
+      "251": 4.36,
+      "252": 5.85,
+      "253": 0.18
+    },
+    "nota": "Tabelul e mic (cifre de ~12 px) și granulat de scanare, dar lizibil. O singură citire a fost hotărâtă din laturi: N239 se citește „583368,051”, dar cu ,051 laturile 238-239 și 239-240 ies 1,866 m și 2,770 m față de 1,88 și 2,76 tipărite; cu ,061 (cifra 5/6 e neclară în scanare) ies 1,875 și 2,761, ambele în 1 cm, și e singura variantă cu o singură cifră schimbată care le împacă pe amândouă. Rezultatul: aria 7.000,0 mp față de S=7000 mp, toate cele 53 de laturi în 1 cm; perimetrul, netipărit, e 392,79 m. Latura 253-201 are 0,18 m. Crucile „x” de pe laturi sunt puncte ale ridicării topografice, nu vârfurile inventarului; nu s-au folosit."
+  },
+  "gcp_px": {
+    "201": [
+      1671,
+      283
+    ],
+    "205": [
+      4100,
+      1203
+    ],
+    "207": [
+      3908,
+      1481
+    ],
+    "219": [
+      2688,
+      2537
+    ],
+    "231": [
+      695,
+      1757
+    ]
+  },
+  "verificare_px": {
+    "208": [
+      3871,
+      1400
+    ],
+    "206": [
+      3960,
+      1484
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3878,
+      240,
+      4742,
+      1006
+    ],
+    [
+      3990,
+      1022,
+      4742,
+      1122
+    ],
+    [
+      4040,
+      1934,
+      4724,
+      2522
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Aapp",
+      "denumire": "Zonă de agrement pentru public – funcțiunea predominantă: facilități dedicate agrementului pentru public – cazare turistică, alimentație publică, amenajări pentru activități în aer liber (terenuri de sport, platforme cu destinații diverse, piscină), alei, parcaje, edicule; regim de construire deschis; cel mult 8 corpuri de cazare",
+      "pot_max": "10%",
+      "cut_max": "0,25",
+      "h_max": "două niveluri supraterane: (S)+P+E, (S)+P+R, P+M sau P+R; 8 m la cornișă, 10 m în total"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2033-01-20"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Caseta „Indici urbanistici” a planșei descrie funcțiunea ca „ansamblu de cazare turistică, amenajări pentru activități în aer liber, servicii de susținere a funcției de bază”; hotărârea (Art. 1) numește explicit și alimentația publică, aleile, parcajele și ediculele între funcțiunile predominante.",
+    "Hotărârea (Art. 1) menține R.L.U. al P.U.G. pentru suprafața încadrată în UTR Vp; planșa arată UTR Vp doar dincolo de latura de nord, iar regulamentul spune că din imobil e în Vp doar o suprafață neglijabilă (sub 0,1 mp)."
+  ],
+  "conditii": [
+    "Pe parcelă sunt admise cel mult 8 corpuri de cazare, grupate în jurul unor amenajări comune în aer liber (spațiu verde, piscină, platforme sportive sau recreative); distanța dintre două clădiri e cel puțin înălțimea celei mai înalte, dar minimum 6 m.",
+    "Retrageri: minimum 8 m față de aliniament, 6 m față de limitele laterale și 12 m față de limita posterioară.",
+    "Accesul pe parcelă se face din drumul Sf. Ion; pentru aleile pietonale și carosabile din interior se recomandă învelitori permeabile.",
+    "Parcarea se face în interiorul parcelei, la sol, grupată în fâșia de cel mult 15 m de lângă aliniament; necesarul se calculează după Anexa 2 a R.L.U. al P.U.G., însumat pe funcțiuni (planșa: 32 de camere, 11 locuri propuse).",
+    "Racordarea la rețelele edilitare publice disponibile e obligatorie; unde nu există canalizare publică, apele uzate se pot epura local, cu folosire sau infiltrare în interiorul parcelei.",
+    "Apele pluviale se gestionează prin acumulare sau retenție și se evacuează în emisari locali cu debitele din avizul Apele Române (ABA Someș-Tisa); e interzisă scurgerea lor spre domeniul public sau spre parcelele vecine.",
+    "Cablurile de orice fel se pun în subteran; firidele de branșament și contorizare se integrează în împrejmuire.",
+    "Parcela are o platformă sau un spațiu propriu pentru colectarea deșeurilor, accesibil din domeniul public (nota planșei: colectare selectivă pe 5 fracții).",
+    "Pentru suprafața din UTR Vp se mențin prevederile R.L.U. al P.U.G.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+}
