@@ -1,0 +1,70 @@
+{
+  "id": "2024-513",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Teritoriul aprobat (1.432 mp) sunt două parcele despărțite de str. Sarmisegetuza, la ~11 m una de alta (nr. cad. 340137 la nr. 11-13 și nr. cad. 297494 la nr. 12), iar puz.py și harta știu o singură limită dintr-un singur inel; hotărârea înlocuiește P.U.Z.-ul HCL 406/2020 (Art. 3), așa că planșa ei A03 ar urma să fie afișată în rețeta de bază 2020-406, oprită din același motiv.",
+  "hcl": {
+    "nr": 513,
+    "an": 2024,
+    "data_sedinta": "2024-06-25",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-513-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/07/03/HCL-513.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar în zonă cu caracter rezidențial, str. Sarmisegetuza nr. 11-13 și nr. 12, de modificare a P.U.Z. aprobat prin Hotărârea nr. 406/2020",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 200,
+    "denumire": "A03 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări a acestei hotărâri (p. 18, color; copia ștampilată „Anexa 2” de la p. 6 e o fotocopie ilizibilă) e o planșă nouă pentru tot P.U.Z.-ul aprobat prin HCL 406/2020, pe care Art. 3 îl încetează. După regula modificărilor, ea se georeferențiază în rețeta P.U.Z. de bază, 2020-406 (plansa.pdf, plansa.sursa_hcl = 513/2024), unde sunt descrierea paginilor, inventarele transcrise, verificările și legenda; această rețetă nu se construiește."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarele planșei A03 sunt transcrise în rețeta 2020-406.",
+    "suprafata_declarata_m2": 1432,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "S_Et",
+      "denumire": "Subzonă de activități economice cu caracter terțiar situată în zonă cu caracter rezidențial: birouri, servicii financiar-bancare, comerț cu A.D.C. de cel mult 1000 mp, alimentație publică, servicii cu acces public, servicii profesionale și manufacturiere, cazare turistică, cercetare științifică, funcțiuni culturale, garaje, parcări etajate mecanizate; regim de construire deschis. Pe nr. cad. 340137 (nr. 11-13) clădirea propusă, pe nr. cad. 297494 (nr. 12) parcarea ei etajată mecanizată",
+      "pot_max": "40%",
+      "cut_max": "1,8",
+      "h_max": "trei niveluri supraterane ((1-2S)+P+2E, (1-2S)+P+E+M/R sau (S)+D+P+E), max. 12 m în punctul cel mai înalt"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde (partea de sud a nr. cad. 340137, spre Lacul Gheorgheni): se mențin prevederile P.U.G.; amenajarea se poate face pe baza unei documentații tehnice, fără P.U.D."
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-06-25",
+    "nota": "Art. 2: cinci ani de la aprobare (25.06.2024); nicio prelungire în indexul hotărârilor P.U.Z. (actualizat 2026-11-08). P.U.Z. de bază (HCL 406/2020) era valabil până la 18.06.2025, dar Art. 3 i-a încetat aplicabilitatea."
+  },
+  "prelungiri": [],
+  "modifica": [
+    "406/2020"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Bilanțul teritorial al planșei A03 socotește 1728 mp (propus: UTR S_Et* 1391 mp și UTR Ve 337 mp), adică și aleea de acces nr. cad. 311875 (296 mp), inclusă în UTR S_Et*; Art. 1 al HCL 513/2024 aprobă P.U.Z. pentru 1.432 mp, numai parcelele nr. cad. 340137 și 297494, iar aleea apare doar ca acces pietonal.",
+    "Planșa numește subzona „UTR S_Et*”; Art. 1 al HCL 513/2024 o numește U.T.R. S_Et."
+  ],
+  "conditii": [
+    "Pe nr. cad. 340137 (str. Sarmisegetuza nr. 11-13): retrageri de cel puțin 4,5 m față de limitele de proprietate nordică, estică și vestică și de cel puțin 9,1 m față de limita sudică.",
+    "Pe nr. cad. 297494 (str. Sarmisegetuza nr. 12): clădirea existentă se desființează, pentru o parcare etajată mecanizată; retrageri de cel puțin 1 m față de limita vestică, 0,5 m față de limita nordică și 5 m față de limita estică.",
+    "Accese: pe nr. cad. 340137 numai pietonal, de pe latura sudică din domeniul public (nr. cad. 340138) și din str. Sarmisegetuza peste nr. cad. 311875 (aleea); pe nr. cad. 297494 acces auto și pietonal direct din str. Sarmisegetuza.",
+    "Parcare: în interiorul parcelei și/sau pe o rază de 200 m de limitele de proprietate, cu necesarul după Anexa 2 a Regulamentului P.U.G.; locurile clădirii de pe nr. cad. 340137 se fac pe nr. cad. 297494, în sistem de parcare mecanizat.",
+    "Pentru partea din nr. cad. 340137 încadrată în UTR Ve se mențin prevederile P.U.G.; amenajarea ei se poate face pe baza unei documentații tehnice, fără P.U.D.",
+    "La faza D.T.A.C., documentația se avizează în Comisia de estetică urbană.",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiară."
+  ]
+}
