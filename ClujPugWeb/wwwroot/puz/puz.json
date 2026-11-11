@@ -14121,6 +14121,240 @@
   ]
  },
  {
+  "id": "2025-592",
+  "localitate": "cluj",
+  "hcl": "592/2025",
+  "data": "2025-09-05",
+  "titlu": "P.U.Z. – Dezvoltare zonă economică – Calea Turzii nr. 186",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-592-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/09/24/592.pdf",
+  "utr": [
+   {
+    "cod": "Ec*",
+    "denumire": "Zonă de activități economice de tip comercial en detail desfășurate în unități de mari dimensiuni – big box, mall, showroom; permite și servicii de tip industrial / activități de producție complementare comerțului, echipare edilitară, publicitate comercială; regim de construire deschis. Retrageri: minimum 9 m de la aliniament și minimum 20 m din axul magistralei de gaz; H/2, dar cel puțin 6 m, de la limitele laterale și posterioară. Acces din Calea Turzii și din str. Kos Karoly; parcarea în parcelă, la sol și în spații specializate.",
+    "pot_max": "35%",
+    "cut_max": "1",
+    "h_max": "18 m; trei niveluri supraterane, (1-2)S+P+E+R; niveluri parțiale (supante, mezanine) în limita înălțimii totale, plus accente volumetrice la fațada principală"
+   },
+   {
+    "cod": "Vpr*",
+    "denumire": "Zonă verde de protecție față de infrastructura majoră (magistrala de gaz): plantații înalte, medii și joase, alei și platforme pentru circulații auto, pietonale și velo, inclusiv parcări, ziduri de sprijin, echipamente edilitare, mobilier urban; acces din Calea Turzii.",
+    "pot_max": "0%",
+    "cut_max": "0",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 13261,
+  "imagine": "puz/2025-592/plansa.webp",
+  "bounds": {
+   "west": 23.5884996,
+   "south": 46.7382829,
+   "east": 23.5911359,
+   "north": 46.7396359
+  },
+  "limita": [
+   [
+    23.588563,
+    46.739262
+   ],
+   [
+    23.5885759,
+    46.7393126
+   ],
+   [
+    23.5886065,
+    46.739433
+   ],
+   [
+    23.5886243,
+    46.7395124
+   ],
+   [
+    23.5886413,
+    46.7395888
+   ],
+   [
+    23.5888459,
+    46.739552
+   ],
+   [
+    23.588922,
+    46.7395391
+   ],
+   [
+    23.5889931,
+    46.7395269
+   ],
+   [
+    23.5891081,
+    46.7395066
+   ],
+   [
+    23.5893074,
+    46.7394716
+   ],
+   [
+    23.5894988,
+    46.7394394
+   ],
+   [
+    23.5897236,
+    46.7393973
+   ],
+   [
+    23.5898753,
+    46.7393663
+   ],
+   [
+    23.590114,
+    46.7393043
+   ],
+   [
+    23.5901698,
+    46.739287
+   ],
+   [
+    23.5903618,
+    46.7392289
+   ],
+   [
+    23.5906127,
+    46.73915
+   ],
+   [
+    23.5908576,
+    46.7390728
+   ],
+   [
+    23.5908878,
+    46.739064
+   ],
+   [
+    23.5909225,
+    46.739054
+   ],
+   [
+    23.5910952,
+    46.73901
+   ],
+   [
+    23.5910832,
+    46.7389531
+   ],
+   [
+    23.5910761,
+    46.7389014
+   ],
+   [
+    23.5910709,
+    46.7388498
+   ],
+   [
+    23.591066,
+    46.7387687
+   ],
+   [
+    23.5910651,
+    46.7387374
+   ],
+   [
+    23.5910643,
+    46.7387095
+   ],
+   [
+    23.5910634,
+    46.7386405
+   ],
+   [
+    23.5910649,
+    46.7385793
+   ],
+   [
+    23.5910568,
+    46.7385249
+   ],
+   [
+    23.5910284,
+    46.7383343
+   ],
+   [
+    23.5907903,
+    46.7384053
+   ],
+   [
+    23.5906154,
+    46.7384551
+   ],
+   [
+    23.5903892,
+    46.7385216
+   ],
+   [
+    23.5901281,
+    46.7386174
+   ],
+   [
+    23.5898925,
+    46.7387019
+   ],
+   [
+    23.58977,
+    46.7387451
+   ],
+   [
+    23.5894845,
+    46.7388358
+   ],
+   [
+    23.5893189,
+    46.7388855
+   ],
+   [
+    23.5891721,
+    46.7389306
+   ],
+   [
+    23.5889899,
+    46.738979
+   ],
+   [
+    23.5888707,
+    46.739012
+   ],
+   [
+    23.5885343,
+    46.7391003
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.06
+  },
+  "legenda": "puz/2025-592/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2032-09-05"
+  },
+  "diferente_fata_de_plansa": [
+   "Suprafața: Art. 1 aprobă P.U.Z.-ul pe 13.482 mp; inventarul de coordonate al planșei descrie doar parcela nr. cad. 321184 (13.260,85 mp) și lasă afară fâșia de 221 mp spre str. Kos Karoly. Pe hartă limita e cea din inventar.",
+   "Numărul cadastral al fâșiei de acces: hotărârea (Art. 1) și Avizul Arhitectului-șef nr. 180/2024 spun nr. cad. 335790; planșa o etichetează „Nr.Cad:330970, S = 221 mp”.",
+   "Spațiile verzi: planșa cere în UTR Ec* minimum 20% spații verzi și cel puțin 50 de arbori maturi (circumferința trunchiului de cel puțin 35 cm, recomandat arțari și tei); hotărârea nu le pomenește.",
+   "Fâșia de acces e în UTR Liu pe planșă; hotărârea spune că va fi amenajată ca drum de acces și că P.U.Z.-ul nu instituie pentru ea reglementări de construire."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire (cum cere avizul nr. 845997/446/2024 al Serviciului Siguranța Circulației), terenul necesar regularizării Căii Turzii (marcat pe planșă ca teren grevat de servitute de drum) se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum”.",
+   "Tot înainte de autorizația de construire: legătura dintre str. Kos Karoly și parcelă se amenajează și se asfaltează, iar intersecția ei cu str. Kos Karoly se semaforizează cu echipamente moderne, inteligente.",
+   "Se amplasează panouri fonoabsorbante la limita de nord a parcelei.",
+   "Se amenajează și se asfaltează bretelele de intrare și ieșire din și în Calea Turzii.",
+   "Se întocmesc proiectele de semnalizare rutieră, semaforizare, amenajare a străzilor și aleilor propuse, rețea pluvială, rețele edilitare și iluminat public (cu respectarea NP 051/2012); planul de semnalizare rutieră se avizează de poliția rutieră.",
+   "La faza D.T.A.C. documentația trece prin Comisia de Estetică Urbană.",
+   "Fâșia din UTR Liu se amenajează ca drum de acces; P.U.Z.-ul nu permite construcții pe ea.",
+   "Clădirile se retrag cel puțin 20 m din axul magistralei de gaz; apele pluviale nu se descarcă spre domeniul public sau spre vecini, cablurile nu se montează aerian, iar parcela are un spațiu de colectare a deșeurilor pe 5 fracții.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",

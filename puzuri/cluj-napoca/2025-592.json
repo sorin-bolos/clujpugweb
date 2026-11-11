@@ -1,0 +1,307 @@
+{
+  "id": "2025-592",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 592,
+    "an": 2025,
+    "data_sedinta": "2025-09-05",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-592-din-2025/",
+    "pdf": "https://files.primariaclujnapoca.ro/2025/09/24/592.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă economică – Calea Turzii nr. 186",
+  "plansa": {
+    "pagina_pdf": 22,
+    "dpi": 200,
+    "denumire": "Reglementări urbanistice și zonificare (planșa 03; pe desen: „Zonificare propusă și reglementări urbanistice”)",
+    "scara": "1:1000",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 13 (Anexa 2 la hotărâre, micșorată pe A4, rotită, alb-negru, ștampilată, 300 ppi) și p. 22 (format A2, color, 200 ppi, cu semnăturile digitale ale proiectanților); s-a folosit p. 22, mult mai clară. Hotărârea o anexează ca „Planșa 03 Plan Reglementări Urbanistice și Zonificare”, iar condiția despre Calea Turzii o numește „U.03”. Pp. 1-2 sunt hotărârea, pp. 3-12 regulamentul local de urbanism (Anexa 1, UTR Ec* și VPr*), pp. 14-20 avizele (între ele Avizul Arhitectului-șef nr. 180 din 24.07.2024), p. 21 extrasul din P.U.G., pp. 23-25 raportul informării și consultării publicului. Cartușul: planșa 03, faza P.U.Z., proiect nr. 44/2019, scara 1:1000, data 02.2024. Scara imaginii: 7,9 px/m (cât 1:1000 la 200 ppi); nordul e în sus (rotație 0,2°). Legenda cuprinde cheia simbolurilor (zona studiată, parcela studiată, terenul grevat de servitutea de drum, UTR VPr*, zona de protecție a conductei de gaz de 20 m din ax, UTR Ec*, Liu și UEc, circulații, retrageri, parcele, construcții, conducta de gaz, spații verzi cu cel puțin 50 de arbori maturi, punctul gospodăresc, accesele) și blocul de text din dreapta cu UTR Ec* și VPr* (indici POT/CUT, regimul de înălțime, H max. 18 m, spațiile verzi de minimum 20%, condițiile TranzGaz pentru VPr*, staționarea), tăiat în trei casete ca să rămână afară ștampila proiectantului. Au rămas afară inventarul de coordonate, bilanțul teritorial, coloana cu locurile de parcare, cartușul, semnăturile și ștampilele. Zona e departe de tabele, deci `exclude_px` e gol."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșă („Inventar coordonate – Coordonate pct. de contur”, X [m] = Nord, Y [m] = Est, plus Z), 43 de puncte, 600-642, în ordinea conturului, cu „S(1A)=13260.85mp P=538.041m” sub tabel; laturile nu sunt tipărite. Numerele punctelor sunt scrise lângă vârfuri. Limita e linia magenta continuă „Limita parcelei studiate”, de ~12 px (1,5 m) lățime, dublată spre exterior de pătratele magenta ale zonei studiate; vârfurile cad pe mijlocul liniei continue. Fiecare punct s-a citit ca intersecția axelor liniei pe cele două laturi care se întâlnesc acolo, măsurate pe 10-40 de profile perpendiculare pe fiecare latură (abatere 0,5-1 px). Control: cele patru colțuri ascuțite ale parcelei, 604 (nord-vest), 620 (nord-est, la Calea Turzii), 630 (sud-est) și 642 (sud-vest). Verificare: 605 și 608, unde liniile negre ale parcelelor vecine de la nord întâlnesc limita, și 636 și 635, unde laturile fâșiei de acces nr. cad. 330970 (spre str. Kos Karoly) întâlnesc latura de sud. Control independent: cu transformarea obținută, clădirile și străzile din extrasul OSM (2026-11-08) cad peste cele desenate pe planșă (casele de pe str. Báthory István, de pe str. Kós Károly și de lângă limita de vest) la 1-2 m.",
+    "suprafata_declarata_m2": 13260.85,
+    "puncte": {
+      "600": [
+        583148.874,
+        392276.688
+      ],
+      "601": [
+        583154.48,
+        392277.774
+      ],
+      "602": [
+        583167.818,
+        392280.356
+      ],
+      "603": [
+        583176.617,
+        392281.868
+      ],
+      "604": [
+        583185.086,
+        392283.322
+      ],
+      "605": [
+        583180.726,
+        392298.879
+      ],
+      "606": [
+        583179.185,
+        392304.664
+      ],
+      "607": [
+        583177.731,
+        392310.079
+      ],
+      "608": [
+        583175.313,
+        392318.821
+      ],
+      "609": [
+        583171.153,
+        392333.977
+      ],
+      "610": [
+        583167.323,
+        392348.536
+      ],
+      "611": [
+        583162.338,
+        392365.633
+      ],
+      "612": [
+        583158.68,
+        392377.157
+      ],
+      "613": [
+        583151.468,
+        392395.277
+      ],
+      "614": [
+        583149.467,
+        392399.505
+      ],
+      "615": [
+        583142.747,
+        392414.054
+      ],
+      "616": [
+        583133.645,
+        392433.068
+      ],
+      "617": [
+        583124.724,
+        392451.629
+      ],
+      "618": [
+        583123.704,
+        392453.923
+      ],
+      "619": [
+        583122.554,
+        392456.547
+      ],
+      "620": [
+        583117.43,
+        392469.657
+      ],
+      "621": [
+        583111.121,
+        392468.629
+      ],
+      "622": [
+        583105.378,
+        392467.985
+      ],
+      "623": [
+        583099.655,
+        392467.487
+      ],
+      "624": [
+        583090.645,
+        392466.947
+      ],
+      "625": [
+        583087.168,
+        392466.818
+      ],
+      "626": [
+        583084.071,
+        392466.704
+      ],
+      "627": [
+        583076.408,
+        392466.495
+      ],
+      "628": [
+        583069.598,
+        392466.493
+      ],
+      "629": [
+        583063.561,
+        392465.765
+      ],
+      "630": [
+        583042.422,
+        392463.214
+      ],
+      "631": [
+        583050.634,
+        392445.169
+      ],
+      "632": [
+        583056.407,
+        392431.903
+      ],
+      "633": [
+        583064.11,
+        392414.753
+      ],
+      "634": [
+        583075.111,
+        392394.993
+      ],
+      "635": [
+        583084.821,
+        392377.16
+      ],
+      "636": [
+        583089.793,
+        392367.883
+      ],
+      "637": [
+        583100.255,
+        392346.251
+      ],
+      "638": [
+        583106.001,
+        392333.698
+      ],
+      "639": [
+        583111.215,
+        392322.573
+      ],
+      "640": [
+        583116.849,
+        392308.742
+      ],
+      "641": [
+        583120.671,
+        392299.706
+      ],
+      "642": [
+        583130.943,
+        392274.175
+      ]
+    },
+    "perimetru_declarat_m": 538.041,
+    "nota": "Aria inventarului, 13.260,9 mp, și perimetrul, 538,041 m, se potrivesc cu tabelul; e parcela nr. cad. 321184 („Nr.Cad:321184 = 13.261 mp” pe desen). Fâșia nr. cad. 330970 (221 mp, legătura spre str. Kos Karoly, în UTR Liu, fără reglementări de construire) e desenată în zona studiată, dar nu e în inventar; zona studiată are în total 13.482 mp, cât Art. 1. Pe hartă e limita din inventar. Punctele dintre colțuri sunt frângeri mici (sub 7°) pe laturi aproape drepte și n-au fost folosite."
+  },
+  "gcp_px": {
+    "604": [
+      504.1,
+      421.4
+    ],
+    "620": [
+      1968.4,
+      959.9
+    ],
+    "630": [
+      1916.1,
+      1552.2
+    ],
+    "642": [
+      432.0,
+      847.4
+    ]
+  },
+  "verificare_px": {
+    "605": [
+      630.9,
+      455.6
+    ],
+    "608": [
+      787.3,
+      498.9
+    ],
+    "636": [
+      1170.6,
+      1177.1
+    ],
+    "635": [
+      1235.4,
+      1210.8
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2340,
+      2186,
+      3135,
+      3268
+    ],
+    [
+      3180,
+      1734,
+      4096,
+      2394
+    ],
+    [
+      3180,
+      2394,
+      4078,
+      2570
+    ],
+    [
+      3180,
+      2570,
+      4096,
+      2674
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Ec*",
+      "denumire": "Zonă de activități economice de tip comercial en detail desfășurate în unități de mari dimensiuni – big box, mall, showroom; permite și servicii de tip industrial / activități de producție complementare comerțului, echipare edilitară, publicitate comercială; regim de construire deschis. Retrageri: minimum 9 m de la aliniament și minimum 20 m din axul magistralei de gaz; H/2, dar cel puțin 6 m, de la limitele laterale și posterioară. Acces din Calea Turzii și din str. Kos Karoly; parcarea în parcelă, la sol și în spații specializate.",
+      "pot_max": "35%",
+      "cut_max": "1",
+      "h_max": "18 m; trei niveluri supraterane, (1-2)S+P+E+R; niveluri parțiale (supante, mezanine) în limita înălțimii totale, plus accente volumetrice la fațada principală"
+    },
+    {
+      "cod": "Vpr*",
+      "denumire": "Zonă verde de protecție față de infrastructura majoră (magistrala de gaz): plantații înalte, medii și joase, alei și platforme pentru circulații auto, pietonale și velo, inclusiv parcări, ziduri de sprijin, echipamente edilitare, mobilier urban; acces din Calea Turzii.",
+      "pot_max": "0%",
+      "cut_max": "0",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2032-09-05",
+    "verificat": "2026-11-11: Art. 2, șapte ani de la aprobare; `related`: nicio hotărâre ulterioară care s-o prelungească sau s-o modifice (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-2 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Suprafața: Art. 1 aprobă P.U.Z.-ul pe 13.482 mp; inventarul de coordonate al planșei descrie doar parcela nr. cad. 321184 (13.260,85 mp) și lasă afară fâșia de 221 mp spre str. Kos Karoly. Pe hartă limita e cea din inventar.",
+    "Numărul cadastral al fâșiei de acces: hotărârea (Art. 1) și Avizul Arhitectului-șef nr. 180/2024 spun nr. cad. 335790; planșa o etichetează „Nr.Cad:330970, S = 221 mp”.",
+    "Spațiile verzi: planșa cere în UTR Ec* minimum 20% spații verzi și cel puțin 50 de arbori maturi (circumferința trunchiului de cel puțin 35 cm, recomandat arțari și tei); hotărârea nu le pomenește.",
+    "Fâșia de acces e în UTR Liu pe planșă; hotărârea spune că va fi amenajată ca drum de acces și că P.U.Z.-ul nu instituie pentru ea reglementări de construire."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire (cum cere avizul nr. 845997/446/2024 al Serviciului Siguranța Circulației), terenul necesar regularizării Căii Turzii (marcat pe planșă ca teren grevat de servitute de drum) se dezmembrează din parcelă și se înscrie în cartea funciară ca „drum”.",
+    "Tot înainte de autorizația de construire: legătura dintre str. Kos Karoly și parcelă se amenajează și se asfaltează, iar intersecția ei cu str. Kos Karoly se semaforizează cu echipamente moderne, inteligente.",
+    "Se amplasează panouri fonoabsorbante la limita de nord a parcelei.",
+    "Se amenajează și se asfaltează bretelele de intrare și ieșire din și în Calea Turzii.",
+    "Se întocmesc proiectele de semnalizare rutieră, semaforizare, amenajare a străzilor și aleilor propuse, rețea pluvială, rețele edilitare și iluminat public (cu respectarea NP 051/2012); planul de semnalizare rutieră se avizează de poliția rutieră.",
+    "La faza D.T.A.C. documentația trece prin Comisia de Estetică Urbană.",
+    "Fâșia din UTR Liu se amenajează ca drum de acces; P.U.Z.-ul nu permite construcții pe ea.",
+    "Clădirile se retrag cel puțin 20 m din axul magistralei de gaz; apele pluviale nu se descarcă spre domeniul public sau spre vecini, cablurile nu se montează aerian, iar parcela are un spațiu de colectare a deșeurilor pe 5 fracții.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
