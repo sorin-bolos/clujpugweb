@@ -19255,6 +19255,106 @@
   ]
  },
  {
+  "id": "2024-190",
+  "localitate": "cluj",
+  "hcl": "190/2024",
+  "data": "2024-04-15",
+  "titlu": "P.U.Z. – Dezvoltare zonă de activități economice – str. Oașului – latura vestică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-190-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/190.pdf",
+  "utr": [
+   {
+    "cod": "Em1A",
+    "denumire": "Zonă de mică producție, servicii de tip industrial și cvasi-industrial, depozitare, servicii, comerț en gros – activități de mică producție, servicii de tip industrial și cvasiindustrial, comerț engros (cu materiale de construcție etc.); regim de construire izolat; locuirea e interzisă (R.L.U.)",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "21 m la aticul ultimului nivel neretras, 25 m la aticul nivelului retras sau al etajului tehnic; cel mult 6 niveluri supraterane: S(1-2)+D+P+3E+R, S(1-2)+D+P+4E, D+P+3E+R, D+P+4E sau S(1-2)+P+4E+R"
+   }
+  ],
+  "suprafata_m2": 3024,
+  "imagine": "puz/2024-190/plansa.webp",
+  "bounds": {
+   "west": 23.6043296,
+   "south": 46.8088379,
+   "east": 23.6057129,
+   "north": 46.8095732
+  },
+  "limita": [
+   [
+    23.6043849,
+    46.8090588
+   ],
+   [
+    23.6044326,
+    46.8092489
+   ],
+   [
+    23.6047895,
+    46.809201
+   ],
+   [
+    23.6049161,
+    46.8090134
+   ],
+   [
+    23.605298,
+    46.80913
+   ],
+   [
+    23.6051838,
+    46.8094198
+   ],
+   [
+    23.6055572,
+    46.809552
+   ],
+   [
+    23.6056785,
+    46.8092498
+   ],
+   [
+    23.6053593,
+    46.8091493
+   ],
+   [
+    23.6053093,
+    46.8088643
+   ],
+   [
+    23.6050093,
+    46.8088652
+   ],
+   [
+    23.6043669,
+    46.8089717
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.25
+  },
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-04-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Sub bilanțul teritorial, planșa poartă scris de mână „Nr. locuri de parcare 10”; Art. 1 nu fixează un număr de locuri, ci cere ca necesarul de parcaje să fie stabilit după Anexa 2 la R.L.U. aferent P.U.G., pentru fiecare funcțiune."
+  ],
+  "conditii": [
+   "Se reglementează 3024 mp proprietate privată (nr. cad. 284331) de pe latura vestică a str. Oașului, trecuți din UTR Em în UTR Em1A, pentru mică producție, servicii de tip industrial și comerț en gros.",
+   "Clădirile se dispun izolat, în front discontinuu, retrase cel puțin 8 m față de aliniamentul existent; față de str. Oașului se aliniază la retragerea propusă de 8 m, iar după regularizarea străzii retragerea e de cel puțin 4 m față de noua limită de proprietate. În zona de retragere sunt permise împrejmuiri, racorduri, colectarea selectivă a deșeurilor, mobilier urban, iluminat, totemuri și parcări care nu intră în necesarul minim.",
+   "Retrageri față de limitele parcelei: cel puțin 3 m față de limita nordică înspre str. Oașului și 6 m în partea ei posterioară; cel puțin 6 m față de limitele vestică și sudică. Între două clădiri de pe aceeași parcelă se recomandă o distanță egală cu înălțimea celei mai înalte, dar nu mai puțin de 6 m.",
+   "Acces pietonal și auto dintr-o circulație publică, direct sau printr-un drept de trecere legal constituit; accesele carosabile au între 3 și 8 m lățime; cel puțin un acces pietonal fără trepte sau praguri.",
+   "Parcarea se face în interiorul parcelei, după Anexa 2 la R.L.U. aferent P.U.G., pentru fiecare funcțiune. Toate construcțiile se racordează la rețelele edilitare.",
+   "Înainte de autorizațiile de construire, terenul necesar lărgirii str. Oașului (ampriză de 25 m, conform P.U.G.) se dezmembrează din parcelă și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la strat de uzură. La faza D.T.A.C., planul de amenajări exterioare tratează și imobilul dezmembrat pentru lărgirea străzii.",
+   "Noul acces auto și închiderea vechiului acces se fac pe cheltuiala investitorului, prin firmă specializată, fără modificarea cotei trotuarului existent, înainte de recepția lucrărilor (avizul Serviciului Siguranța circulației nr. 433831/446/2022).",
+   "Pe spațiul verde pe sol natural se plantează cel puțin 30 de arbori cu circumferința de minimum 35 cm, măsurată la 1 m de colet; R.L.U. cere și ca cel puțin 15 % din suprafața parcelei să fie spații libere plantate pe sol natural.",
+   "R.L.U. (Anexa 1): o parcelă e construibilă dacă are front la stradă (sau drept de trecere) de cel puțin 25 m și o suprafață între 1000 și 5000 mp; altfel se întocmește un P.U.D. Clădirile au acoperiș terasă.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
