@@ -15599,6 +15599,201 @@
   ]
  },
  {
+  "id": "2025-197",
+  "localitate": "cluj",
+  "hcl": "197/2025",
+  "data": "2025-05-12",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe individuale cu regim redus de înălțime, str. Liviu Rusu – str. Prof. Nicolae Mărgineanu",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-197-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/06/02/HCL-197.pdf",
+  "utr": [
+   {
+    "cod": "Lid*",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritorii fără infrastructură completă: locuințe individuale (unifamiliale) cu anexele lor, regim de construire izolat; 7 parcele de 802-2.174 mp, cu acces din aleea de deservire locală propusă",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "două niveluri supraterane – (S)+P+M, (S)+P+E sau D+P; max. 8 m la cornișă sau la aticul ultimului nivel neretras, max. 10 m la coamă sau la aticul nivelului retras"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: fâșia de 605 mp de pe latura de nord-vest, din parcelele 5, 6 și 7; încadrarea funcțională se menține"
+   }
+  ],
+  "suprafata_m2": 8690,
+  "imagine": "puz/2025-197/plansa.webp",
+  "bounds": {
+   "west": 23.5791783,
+   "south": 46.7167509,
+   "east": 23.5805477,
+   "north": 46.7184269
+  },
+  "limita": [
+   [
+    23.5795899,
+    46.7167754
+   ],
+   [
+    23.5797774,
+    46.7167721
+   ],
+   [
+    23.5799503,
+    46.7171695
+   ],
+   [
+    23.5800576,
+    46.7173866
+   ],
+   [
+    23.580138,
+    46.7175417
+   ],
+   [
+    23.5802059,
+    46.7176794
+   ],
+   [
+    23.5802138,
+    46.7176957
+   ],
+   [
+    23.5802741,
+    46.7178194
+   ],
+   [
+    23.5803109,
+    46.7178905
+   ],
+   [
+    23.5803278,
+    46.717911
+   ],
+   [
+    23.5803997,
+    46.7180502
+   ],
+   [
+    23.5804005,
+    46.7180542
+   ],
+   [
+    23.58048,
+    46.7182093
+   ],
+   [
+    23.5804855,
+    46.7182215
+   ],
+   [
+    23.5804839,
+    46.7182219
+   ],
+   [
+    23.5803641,
+    46.7182552
+   ],
+   [
+    23.5802162,
+    46.7182987
+   ],
+   [
+    23.5799662,
+    46.7183719
+   ],
+   [
+    23.5798685,
+    46.7184007
+   ],
+   [
+    23.5798641,
+    46.718402
+   ],
+   [
+    23.5798576,
+    46.718395
+   ],
+   [
+    23.5797142,
+    46.718254
+   ],
+   [
+    23.5797078,
+    46.7182477
+   ],
+   [
+    23.579623,
+    46.7181623
+   ],
+   [
+    23.5795797,
+    46.7181168
+   ],
+   [
+    23.5795127,
+    46.7180149
+   ],
+   [
+    23.5794413,
+    46.7179033
+   ],
+   [
+    23.5794052,
+    46.7178469
+   ],
+   [
+    23.5793905,
+    46.7178239
+   ],
+   [
+    23.5792265,
+    46.7175105
+   ],
+   [
+    23.5795141,
+    46.7174175
+   ],
+   [
+    23.5795248,
+    46.7171862
+   ],
+   [
+    23.5794987,
+    46.716772
+   ],
+   [
+    23.5795507,
+    46.7167761
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.15
+  },
+  "legenda": "puz/2025-197/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-05-12"
+  },
+  "diferente_fata_de_plansa": [
+   "Retragerea față de aliniament: Art. 1 și regulamentul (Anexa 1, art. 5) cer cel puțin 3 m față de str. Liviu Rusu și față de aleea propusă, la toate parcelele; planșa (legenda: „min. 3/4.5 m”) desenează 3 m spre alee, dar 4,5 m pentru parcela 5 spre zona de întoarcere.",
+   "Înălțimea: planșa nu o arată; Art. 1 permite cel mult două niveluri supraterane ((S)+P+M, (S)+P+E, D+P), 8 m la cornișă sau atic și 10 m la coamă sau la aticul nivelului retras.",
+   "Retragerile laterale și posterioare: planșa le cotează la 4,5 m și 6 m; Art. 1 cere de fapt cel puțin jumătate din înălțimea clădirii (min. 4,5 m) lateral și cel puțin înălțimea clădirii (min. 6 m) spre limita posterioară.",
+   "Regulamentul (Anexa 1, art. 4) socotește construibile numai parcelele cu front de cel puțin 12 m la aleea de deservire locală și de cel puțin 800 mp; parcelele 6 (880 mp) și 7 (878 mp) ajung la 800 mp numai împreună cu fâșia lor din U.T.R. Ve (666 și 703 mp în U.T.R. Lid*).",
+   "Regulamentul (Anexa 1, art. 12) mai cere spații verzi pe sol natural de cel puțin 80% din fiecare parcelă și de cel puțin 60% pe fâșia dintre aliniament și clădire, iar tăierea arborilor maturi e interzisă (cu excepții); planșa nu le arată."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari (Art. 1).",
+   "Înainte de autorizațiile de construire pe parcele: se dezmembrează terenul necesar regularizării str. Liviu Rusu pe tronsonul de lângă P.U.Z. (10 mp, lărgirea la 9 m, cf. planșei U.07) și se înscrie în C.F. ca „drum”; se dezmembrează din parcela inițială terenul aleii propuse (9 m lățime, 1.378 mp) și se înscrie în C.F. ca „drum”; aleea se echipează edilitar pe baza unui proiect autorizat și se realizează la strat de piatră spartă cilindrată.",
+   "Înainte de recepția construcțiilor: terenul dezmembrat pentru str. Liviu Rusu și aleea de deservire locală se aduc la strat de uzură, pe baza unui proiect autorizat; aleea are iluminat stradal și acces public nelimitat.",
+   "Accesul pe parcele se face numai din aleea de deservire locală propusă: un singur acces pietonal și un singur acces carosabil pe parcelă, cel carosabil de cel mult 5 m lățime; se recomandă învelitori permeabile pentru căile din interiorul parcelelor.",
+   "Parcarea se organizează în interiorul parcelei, cu cel puțin două locuri pentru fiecare locuință individuală.",
+   "Utilitățile se asigură prin racordare la rețelele publice disponibile; în zonă nu există canalizare publică, deci apele uzate menajere se evacuează prin sisteme individuale în interiorul parcelei. Apele pluviale se gestionează individual sau colectiv prin acumulare sau retenție și se evacuează în emisari locali; e interzisă conducerea lor spre domeniul public sau spre parcelele vecine. Cablurile aeriene de orice fel sunt interzise; firidele de branșament se integrează în împrejmuire; fiecare parcelă are o platformă sau un spațiu pentru deșeuri menajere, accesibil din domeniul public.",
+   "Funcțiuni: numai locuințe individuale (unifamiliale) izolate, cu o singură unitate locativă pe parcelă, și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine); instalațiile exterioare (climatizare, pompe de căldură) sunt admise dacă nu se aud la ferestrele vecinilor; orice altă utilizare e interzisă (Anexa 1).",
+   "Împrejmuirile spre spațiul public au soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,20 m; spre vecini cel mult 2,20 m; porțile se deschid spre interiorul parcelei (Anexa 1, art. 13)."
+  ]
+ },
+ {
   "id": "2024-765",
   "localitate": "cluj",
   "hcl": "765/2024",
