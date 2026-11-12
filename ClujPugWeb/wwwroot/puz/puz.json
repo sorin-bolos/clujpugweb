@@ -28397,6 +28397,104 @@
   ]
  },
  {
+  "id": "2022-582",
+  "localitate": "cluj",
+  "hcl": "582/2022",
+  "data": "2022-08-04",
+  "titlu": "P.U.Z. de urbanizare, str. Vânătorului Nord",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-582-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-582.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale (semicolective, cu două unități locative pe parcelă, suprapuse sau alipite) și anexele lor; locuințele familiale numai pe parcele de peste 500 mp; regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "3 niveluri supraterane ((S)+P+E+M/R, D+P+R/M), ultimul nivel retras cu min. 1,8 m față de fațada dinspre stradă; H cornișă/atic 8 m, H max 12 m"
+   }
+  ],
+  "suprafata_m2": 2091,
+  "imagine": "puz/2022-582/plansa.webp",
+  "bounds": {
+   "west": 23.5676678,
+   "south": 46.7766239,
+   "east": 23.5686129,
+   "north": 46.7775153
+  },
+  "limita": [
+   [
+    23.568101,
+    46.7774439
+   ],
+   [
+    23.5682355,
+    46.7774929
+   ],
+   [
+    23.5685774,
+    46.7770753
+   ],
+   [
+    23.5683772,
+    46.776917
+   ],
+   [
+    23.5682046,
+    46.7767908
+   ],
+   [
+    23.5680769,
+    46.7767169
+   ],
+   [
+    23.567896,
+    46.7766453
+   ],
+   [
+    23.5677117,
+    46.7768819
+   ],
+   [
+    23.5678783,
+    46.7769275
+   ],
+   [
+    23.5680036,
+    46.7769689
+   ],
+   [
+    23.5683248,
+    46.7770952
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.08
+  },
+  "legenda": "puz/2022-582/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-08-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Limita: inventarul de coordonate și linia roșie întreruptă a planșei sunt ale zonei studiate (6177 mp), care cuprinde și casele existente dintre str. Vântului și str. Vânătorului (UTR ULiu, nereglementate prin acest P.U.Z.); Art. 1 aprobă P.U.Z.-ul pe parcelele nr. cad. 301889, 321228 și 321229. Pe hartă e conturul acestor parcele, zona UTR Liu* (2088 mp în tabelul de zonificare), trasat pe planșă.",
+   "Locuințele familiale: planșa cere pentru ele o suprafață minimă de 500 mp și socotește în estimarea traficului trei loturi cu câte două unități locative (loturile 1-3, de 654, 538 și 500 mp); Art. 1 le admite numai pe parcele „cu suprafața mai mare de 500 mp”, deci, după literă, nu pe lotul 3, de exact 500 mp.",
+   "Locurile de parcare: planșa socotește câte două locuri pe unitate locativă (14 în total); Art. 1 cere minimum un loc pentru clădirile cu arie utilă sub 100 mp și două peste.",
+   "Art. 1 adaugă reguli pe care planșa nu le are: ultimul nivel retras cu min. 1,8 m față de fațada dinspre stradă, retragerea față de limita posterioară de cel puțin înălțimea clădirii (planșa: min. 6 m), garajele la min. 6 m de aliniament și alipirea lor de limitele laterale cu calcan de max. 2,8 m."
+  ],
+  "conditii": [
+   "Prin P.U.Z. se propun 4 parcele, de 373-654 mp, pentru locuințe cu regim redus de înălțime: o locuință unifamilială pe parcela 4 (373 mp) și locuințe familiale cu două unități locative, numai pe parcele de peste 500 mp.",
+   "Retrageri: față de aliniament min. 3 m de str. Vânătorului și min. 5 m de str. Vântului, garajele min. 6 m, ca să se poată parca o mașină în față; față de limitele laterale min. 3 m (garajele se pot alipi, cu calcan de max. 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m.",
+   "Accesul se face din str. Vântului și str. Vânătorului; parcarea în interiorul parcelei: min. un loc pentru clădirile cu arie utilă sub 100 mp și două peste; echipare tehnico-edilitară completă pe cele două străzi.",
+   "Străzile Vânătorului și Vântului se reglementează la profil de 9 m (carosabil de 6 m și trotuare de 1,5 m); terenul pentru lărgire se dezmembrează, se înscrie în CF cu destinația de drum și se cedează gratuit (Regulamentul local, Anexa 1).",
+   "Terenul necesar regularizării str. Vântului (17 mp din nr. cad. 321229, după planșă) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire pe parcela 4, se aduce la strat de uzură și se transferă gratuit în domeniul public înainte de recepția construcției de pe parcela 4.",
+   "Terenurile nr. cad. 3115/2 și 12902/3, necesare regularizării str. Vânătorului, se aduc la strat de uzură și se transferă gratuit în domeniul public înainte de recepția construcțiilor de pe parcela 3.",
+   "Terenul necesar regularizării str. Vânătorului din nr. cad. 301889 (25 mp, după planșă) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcelele 1 și 2, se aduce la strat de uzură și se transferă gratuit în domeniul public înainte de recepția construcțiilor.",
+   "Toate investițiile propuse prin documentație se suportă de beneficiarii ei."
+  ]
+ },
+ {
   "id": "2022-510",
   "localitate": "cluj",
   "hcl": "510/2022",

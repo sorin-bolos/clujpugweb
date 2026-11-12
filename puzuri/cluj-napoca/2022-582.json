@@ -1,0 +1,343 @@
+{
+  "id": "2022-582",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 582,
+    "an": 2022,
+    "data_sedinta": "2022-08-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-582-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-582.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Vânătorului Nord",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 400,
+    "denumire": "A5 – Reglementări urbanistice",
+    "scara": "1:500 în cartuș; planșa, desenată pe A2, e redusă pe A3 (p. 18, 400 ppi), unde 1:500 ar da 31,5 px/m; potrivirea pe inventarul de coordonate dă 22,2 px/m (≈1:710)",
+    "nota": "PDF-ul are 35 de pagini: pp. 1-2 hotărârea; pp. 3-8 regulamentul local de urbanism (Anexa 1); p. 9 Anexa 2, planșa A5 „Reglementări urbanistice” redusă pe A4, în tonuri de gri; p. 10 Anexa 3, planșa A7 „Circulația terenurilor”, la fel; pp. 11-17 avizul Arhitectului-șef nr. 98/2021 și celelalte avize; p. 18 planșa A5, color, A3 (400 ppi, 4680×6614 px), proiect nr. 192/2020, aug. 2021, cu viza „HCL nr. 582 din 4.08.2022 – vizat” (avizele Arhitectului-șef nr. 98 din 19.07.2021, nr. 34 din 28.02.2022 și nr. 71 din 19.04.2022); p. 19 planșa A7 „Circulația terenurilor”, color, A2 (300 ppi), pe același fond; pp. 20-35 raportul informării și consultării publicului, cu observațiile primite. S-a folosit p. 18, singura copie color și lizibilă a planșei de reglementări. Planșa e culcată pe pagină, dar desenul și textele se citesc drept; nordul e în sus (rotație -0,65°). Legenda publicată cuprinde cheia simbolurilor (limite, utilizare funcțională, căi de circulație, terenurile care se cedează pentru lărgirea străzilor Vântului și Vânătorului, accesele), caseta „Regulament: UTR – Liu*”, caseta „Indici urbanistici propuși pe parcele – UTR Liu*” și nota „Propunere urbanistică”; tabelul de zonificare funcțională, parcelarul propus (suprafețele loturilor), estimarea traficului și a locurilor de parcare, inventarul de coordonate, cele patru profile transversale, cartușul, viza și ștampilele au rămas afară. Eticheta roșie a parcelei nr. cad. 301889, din mijlocul lotului 2, scrie pe al treilea rând numele proprietarei: rândul e scris oblic, așa că e scos din imaginea publicată cu `decupaj.exclude_px` împreună cu bucățile rândurilor de deasupra (numărul cadastral și suprafața)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei (tabelul din stânga-jos, x≈1600-2100, y≈3700-4600 pe planșa randată; „Nr. pct.”, X (m) = Nord, Y (m) = Est, Stereo 70, cu lungimile laturilor; 32 de puncte, 701-714 și 719-736, în ordinea conturului; sub tabel S = 6177 mp) e limita zonei studiate (linia roșie întreruptă cu pătrate, „Zona studiată prin PUZ, S = 6177,00 mp”), adică tot cvartalul dintre str. Vânătorului și str. Vântului, de la intersecția lor până la parcela de pe str. Vântului nr. 36. P.U.Z.-ul reglementează însă numai parcelele neconstruite nr. cad. 301889, 321228 și 321229 (Art. 1; avizul Arhitectului-șef nr. 98/2021: parcelele cu fond construit și cele din P.U.Z.-ul HCL 253/2021 rămân în zona de studiu ca elemente existente, în ULiu), colorate galben intens, „Parcele reglementate prin PUZ”, UTR Liu*: 2088 mp în tabelul de zonificare, din cei 6177 mp (3856 mp ULiu, 233 mp teren rezervat pentru lărgirea străzilor). De aceea vârfurile inventarului sunt la `repere` (puncte de control și de verificare), iar limita e `limita_px`, conturul zonei Liu*, trasat pe planșă: laturile fâșiei de nord (lotul 4 și lotul 3) sunt liniile cadastrale negre, drepte potrivite pe pixelii negri (abatere 0,4-0,5 px); capătul ei de nord e marginea fâșiei albastre de 17 mp care se cedează la str. Vântului; linia de despărțire de parcelele ULiu din vest are trei frângeri, pe liniile cadastrale (drepte potrivite, abatere 0,3-1,4 px); latura de vest e chiar latura 736-735 a inventarului; pe sud-est, limita e linia roșie-portocalie a noului aliniament, dintre galben și fâșiile de drum (fâșia albastră de 25 mp din nr. cad. 301889 și fâșia hașurată nr. cad. 3115/2 și 12902/3), potrivită pe pixelii ei (abatere 0,8 px), iar pe frontul lotului 1, unde fâșia de cedat se subțiază până la zero, latura 733-734-735 a inventarului (dreapta noului aliniament trece la 0,1 px de 733). Linia neagră groasă dublă de lângă aliniamentul de sud-est (împrejmuirea desenată) e cu ~0,9 m înăuntru; pe ea aria ar fi ieșit 2040 mp (-2,3%). Aria trasată, 2091,2 mp, față de 2088 mp (UTR Liu* în tabelul de zonificare; loturile din „Parcelar propus” însumează 2065 mp): +0,2%. Puncte de control: 701 (colțul de vest al zonei studiate, la str. Vântului), 714 (colțul de nord), 719 (colțul de est, la str. Vânătorului) și 735 (colțul de sud), toate pe mijlocul liniei roșii; verificare: 736 (colțul de vest, unde linia de despărțire ULiu/Liu* întâlnește limita) și 720 (decroșul de pe latura de est). Vârful 722 a fost încercat ca punct de verificare și lăsat deoparte: decroșul 722-723-724 (0,84 m și 1,49 m) e acoperit de liniuța roz groasă, iar singurul semn vizibil, un punct albastru, poate fi oricare dintre ele (reziduu 0,70 m ca 722, 0,1 m ca 723).",
+    "suprafata_declarata_m2": 2088,
+    "puncte": {},
+    "inventar_zona_studiata": {
+      "titlu": "Inventar de coordonate (zona studiată prin PUZ, S = 6177,00 mp)",
+      "puncte": 32,
+      "suprafata_declarata_m2": 6177,
+      "laturi_declarate_m": {
+        "701": 12.0,
+        "702": 11.9,
+        "703": 0.58,
+        "704": 12.29,
+        "705": 12.03,
+        "706": 10.23,
+        "707": 1.59,
+        "708": 3.68,
+        "709": 16.41,
+        "710": 0.73,
+        "711": 0.36,
+        "712": 14.97,
+        "713": 21.96,
+        "714": 19.8,
+        "719": 20.95,
+        "720": 1.92,
+        "721": 15.79,
+        "722": 0.84,
+        "723": 1.49,
+        "724": 4.41,
+        "725": 3.67,
+        "726": 4.39,
+        "727": 4.09,
+        "728": 3.94,
+        "729": 3.17,
+        "730": 4.77,
+        "731": 18.7,
+        "732": 18.73,
+        "733": 12.73,
+        "734": 15.93,
+        "735": 30.02
+      },
+      "nota": "Toate cele 31 de laturi tipărite până la 736 se potrivesc cu coordonatele la 1 cm, iar aria inelului, 6177,3 mp, cu S = 6177 mp de sub tabel și din legendă („6215 mp conf. CF” pe planșa A5, „6224 mp conf. CF” pe planșa A7). Latura tipărită pentru 736 (36,06 m) nu se potrivește cu 736-701 (39,00 m) și nu poate fi corectă cu niciun 736: 30,02 m (735-736, care se potrivește) plus 36,06 m e mai puțin decât distanța 735-701, 68,67 m. E o greșeală a tabelului, nu de transcriere: rândul lui 736 se citește la fel în tabelul de pe planșa A7 (p. 19), aria iese exact, iar 736 cade pe planșă la 0,07 m de colțul desenat. Latura lui 736 nu e trecută la `laturi_declarate_m`. Numerele 715-718 lipsesc din tabel."
+    }
+  },
+  "repere": {
+    "701": [
+      587396.1,
+      390748.831
+    ],
+    "702": [
+      587401.44,
+      390759.578
+    ],
+    "703": [
+      587406.957,
+      390770.117
+    ],
+    "704": [
+      587406.411,
+      390770.321
+    ],
+    "705": [
+      587413.75,
+      390780.18
+    ],
+    "706": [
+      587419.92,
+      390790.51
+    ],
+    "707": [
+      587426.775,
+      390798.103
+    ],
+    "708": [
+      587427.76,
+      390799.35
+    ],
+    "709": [
+      587429.442,
+      390802.627
+    ],
+    "710": [
+      587434.86,
+      390818.117
+    ],
+    "711": [
+      587434.213,
+      390818.456
+    ],
+    "712": [
+      587434.281,
+      390818.814
+    ],
+    "713": [
+      587438.051,
+      390833.305
+    ],
+    "714": [
+      587443.454,
+      390854.595
+    ],
+    "719": [
+      587425.677,
+      390863.32
+    ],
+    "720": [
+      587413.566,
+      390846.222
+    ],
+    "721": [
+      587411.865,
+      390847.119
+    ],
+    "722": [
+      587399.896,
+      390836.825
+    ],
+    "723": [
+      587399.172,
+      390837.253
+    ],
+    "724": [
+      587397.89,
+      390838.01
+    ],
+    "725": [
+      587393.68,
+      390836.7
+    ],
+    "726": [
+      587390.43,
+      390835.0
+    ],
+    "727": [
+      587386.67,
+      390832.74
+    ],
+    "728": [
+      587383.2,
+      390830.57
+    ],
+    "729": [
+      587379.95,
+      390828.34
+    ],
+    "730": [
+      587377.49,
+      390826.34
+    ],
+    "731": [
+      587373.72,
+      390823.41
+    ],
+    "732": [
+      587360.2,
+      390810.49
+    ],
+    "733": [
+      587347.498,
+      390796.73
+    ],
+    "734": [
+      587339.502,
+      390786.825
+    ],
+    "735": [
+      587331.786,
+      390772.89
+    ],
+    "736": [
+      587358.506,
+      390759.203
+    ]
+  },
+  "limita_px": [
+    [
+      1447.5,
+      1840.6
+    ],
+    [
+      1679.1,
+      1721.8
+    ],
+    [
+      2228.2,
+      2751.4
+    ],
+    [
+      1877.0,
+      3138.0
+    ],
+    [
+      1575.0,
+      3446.0
+    ],
+    [
+      1353.0,
+      3626.0
+    ],
+    [
+      1041.0,
+      3800.0
+    ],
+    [
+      745.8,
+      3216.5
+    ],
+    [
+      1031.7,
+      3106.6
+    ],
+    [
+      1247.3,
+      3006.2
+    ],
+    [
+      1801.3,
+      2699.8
+    ]
+  ],
+  "gcp_px": {
+    "701": [
+      523,
+      2384
+    ],
+    "714": [
+      2888,
+      1313
+    ],
+    "719": [
+      3073,
+      1701
+    ],
+    "735": [
+      1042,
+      3800
+    ]
+  },
+  "verificare_px": {
+    "736": [
+      744,
+      3211
+    ],
+    "720": [
+      2698,
+      1970
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        1372,
+        2978,
+        1492,
+        3052
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      5622,
+      622,
+      6545,
+      3518
+    ],
+    [
+      4405,
+      2476,
+      5560,
+      3040
+    ],
+    [
+      4372,
+      3052,
+      5560,
+      3590
+    ],
+    [
+      3350,
+      2468,
+      3900,
+      2625
+    ],
+    [
+      3353,
+      2625,
+      4290,
+      2858
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale (semicolective, cu două unități locative pe parcelă, suprapuse sau alipite) și anexele lor; locuințele familiale numai pe parcele de peste 500 mp; regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "3 niveluri supraterane ((S)+P+E+M/R, D+P+R/M), ultimul nivel retras cu min. 1,8 m față de fațada dinspre stradă; H cornișă/atic 8 m, H max 12 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-08-04"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Limita: inventarul de coordonate și linia roșie întreruptă a planșei sunt ale zonei studiate (6177 mp), care cuprinde și casele existente dintre str. Vântului și str. Vânătorului (UTR ULiu, nereglementate prin acest P.U.Z.); Art. 1 aprobă P.U.Z.-ul pe parcelele nr. cad. 301889, 321228 și 321229. Pe hartă e conturul acestor parcele, zona UTR Liu* (2088 mp în tabelul de zonificare), trasat pe planșă.",
+    "Locuințele familiale: planșa cere pentru ele o suprafață minimă de 500 mp și socotește în estimarea traficului trei loturi cu câte două unități locative (loturile 1-3, de 654, 538 și 500 mp); Art. 1 le admite numai pe parcele „cu suprafața mai mare de 500 mp”, deci, după literă, nu pe lotul 3, de exact 500 mp.",
+    "Locurile de parcare: planșa socotește câte două locuri pe unitate locativă (14 în total); Art. 1 cere minimum un loc pentru clădirile cu arie utilă sub 100 mp și două peste.",
+    "Art. 1 adaugă reguli pe care planșa nu le are: ultimul nivel retras cu min. 1,8 m față de fațada dinspre stradă, retragerea față de limita posterioară de cel puțin înălțimea clădirii (planșa: min. 6 m), garajele la min. 6 m de aliniament și alipirea lor de limitele laterale cu calcan de max. 2,8 m."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se propun 4 parcele, de 373-654 mp, pentru locuințe cu regim redus de înălțime: o locuință unifamilială pe parcela 4 (373 mp) și locuințe familiale cu două unități locative, numai pe parcele de peste 500 mp.",
+    "Retrageri: față de aliniament min. 3 m de str. Vânătorului și min. 5 m de str. Vântului, garajele min. 6 m, ca să se poată parca o mașină în față; față de limitele laterale min. 3 m (garajele se pot alipi, cu calcan de max. 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m.",
+    "Accesul se face din str. Vântului și str. Vânătorului; parcarea în interiorul parcelei: min. un loc pentru clădirile cu arie utilă sub 100 mp și două peste; echipare tehnico-edilitară completă pe cele două străzi.",
+    "Străzile Vânătorului și Vântului se reglementează la profil de 9 m (carosabil de 6 m și trotuare de 1,5 m); terenul pentru lărgire se dezmembrează, se înscrie în CF cu destinația de drum și se cedează gratuit (Regulamentul local, Anexa 1).",
+    "Terenul necesar regularizării str. Vântului (17 mp din nr. cad. 321229, după planșă) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire pe parcela 4, se aduce la strat de uzură și se transferă gratuit în domeniul public înainte de recepția construcției de pe parcela 4.",
+    "Terenurile nr. cad. 3115/2 și 12902/3, necesare regularizării str. Vânătorului, se aduc la strat de uzură și se transferă gratuit în domeniul public înainte de recepția construcțiilor de pe parcela 3.",
+    "Terenul necesar regularizării str. Vânătorului din nr. cad. 301889 (25 mp, după planșă) se dezmembrează și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcelele 1 și 2, se aduce la strat de uzură și se transferă gratuit în domeniul public înainte de recepția construcțiilor.",
+    "Toate investițiile propuse prin documentație se suportă de beneficiarii ei."
+  ]
+}
