@@ -1,0 +1,412 @@
+{
+  "id": "2022-583",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 583,
+    "an": 2022,
+    "data_sedinta": "2022-08-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-583-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-583.pdf"
+  },
+  "titlu": "P.U.Z. – dezvoltare zonă rezidențială, str. Lombului-str. Gheorghe Sion",
+  "plansa": {
+    "pagina_pdf": 37,
+    "dpi": 96,
+    "denumire": "07 – Reglementări urbanistice",
+    "scara": "1:1000 în cartuș; planșa A1 scanată la 96 ppi, unde 1:1000 ar da 3,78 px/m; potrivirea pe repere OSM dă 3,75 px/m",
+    "nota": "PDF-ul are 41 de pagini A4 scanate la 96 ppi, plus una A1: pp. 1-5 hotărârea; p. 6 Anexa 1 („Anexa 1 la Hotărârea nr. 583/4.08.2022”), adică planșa de reglementări redusă pe A4, în tonuri de gri, cu ștampila consiliului, ilizibilă; pp. 7-28 regulamentul local de urbanism (Anexa 2); pp. 29-36 avize, între ele p. 31, un extras alb-negru din PUG; p. 37 aceeași planșă, 07 „Reglementări urbanistice”, color, A1 (1686,75×2382,75 pt, 96 ppi, 2249×3177 px), proiect 29/2020, 12.2021; pp. 38-41 raportul informării publicului. S-a folosit p. 37, singura copie lizibilă. Planșa e tipărită culcat (textul se citește de jos în sus), iar desenul are nordul spre stânga. Nu are inventar de coordonate și nici caroiaj Stereo 70. Legenda publicată are cheia simbolurilor („Legenda – limite”) și blocul UTR (ULiu, Liu*, Is, Va, Em), fiecare rotit cu 90°; bilanțul teritorial, profilurile stradale, secțiunea nord-sud S-02, inventarul de parcări, tabelul semnatarilor și cartușul sunt lăsate deoparte. Planșa nu are tabel de indicatori: POT, CUT și înălțimile vin din hotărâre."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, extrasul OSM din repo, date din 2026-11-08): planșa nu are inventar de coordonate și nici caroiaj Stereo 70. Control: X_Sion_A (intersecția str. Gheorghe Sion cu strada A, azi str. Cutezanței), X_A_B, X_A_C și X_A_D (intersecțiile străzii A cu străzile B, C și D, azi str. Frăției, Voinței și Romanței) și Casa1_NV (colțul de vest al casei existente de pe str. Busuiocului, la nord de zonă). Străzile A-D sunt propuse pe planșă, dar au fost construite după PUZ (denumite prin HCL 467/2023) și sunt în OSM; verificare, numai trăsături existente la data planșei: Casa2_NV (colțul de vest al casei vecine de pe str. Busuiocului), X_Busuioc_Sion (intersecția str. Busuiocului / str. Gheorghe Sion) și X_Lomb_Sion (intersecția str. Lombului / str. Gheorghe Sion). O potrivire numai pe trăsăturile existente (cele două case, cele două intersecții cu str. Gheorghe Sion) pune intersecțiile străzilor noi la 0,5-3,4 m, deci planul și străzile construite se potrivesc. Intersecțiile străzilor B și C cu str. Lombului au fost încercate și lăsate deoparte: pe planșă str. Lombului e desenată lărgită la 18 m, iar în OSM e axul drumului existent (abateri de 7-13 m). Ancora de pornire: intersecția str. Lombului / str. Gheorghe Sion din `geocode` (E 389928,3, N 588906,9) la (662, 2815), 3,78 px/m, nordul spre stânga (270°). Potrivirea dă 3,75 px/m și o rotație de 89,9°. Limita e trasată (`limita_px`) pe linia violet întreruptă „limita zonei reglementate”: pixelii violet au fost găsiți după culoare și urmăriți latură cu latură (vârfurile sunt intersecțiile dreptelor ajustate pe ei); zona exclude, la est, „parcela construită” existentă. Excepție, latura de nord: acolo linia violet e desenată alături de limita reală, la 8-11 px (2-3 m) spre exterior, iar loturile 11.x-13.x se opresc pe linia neagră „limita UTR” și, la est de ea, pe linia subțire a loturilor; latura de nord e trasată pe această linie, ajustată pe 53 de profile (abatere standard 1,1 px). Pe linia violet aria ar fi 57.194 mp (+3,8%). Aria trasată, 56.585 mp, față de 55.092 mp din bilanțul teritorial al planșei (+2,7%); diferența rămasă poate veni din scara potrivirii (3,75 px/m față de 3,78 px/m nominal: la 3,78 aria ar ieși cu ~1,7% mai mică).",
+    "suprafata_declarata_m2": 55092,
+    "puncte": {},
+    "nota": "Poziționare aproximativă (±3-5 m): planșa nu are coordonate; reperele sunt intersecții de străzi din OSM și colțuri de case trasate pe acoperișuri. Ar fi exactă cu coordonatele cadastrale ale imobilelor din Art. 1 (18 numere cadastrale)."
+  },
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      662,
+      2815
+    ],
+    "en": [
+      389928.3,
+      588906.9
+    ],
+    "px_per_m": 3.78,
+    "nord": 270
+  },
+  "gcp_px": {
+    "X_Sion_A": [
+      390,
+      2197
+    ],
+    "X_A_D": [
+      1145,
+      1840
+    ],
+    "X_A_B": [
+      620,
+      2088
+    ],
+    "X_A_C": [
+      826,
+      1996
+    ],
+    "Casa1_NV": [
+      560,
+      1533
+    ]
+  },
+  "verificare_px": {
+    "Casa2_NV": [
+      658,
+      1478
+    ],
+    "X_Busuioc_Sion": [
+      179,
+      1753
+    ],
+    "X_Lomb_Sion": [
+      683,
+      2826
+    ]
+  },
+  "limita_px": [
+    [
+      301,
+      1968
+    ],
+    [
+      385,
+      1929
+    ],
+    [
+      420,
+      2006
+    ],
+    [
+      1294,
+      1630
+    ],
+    [
+      1378,
+      1744
+    ],
+    [
+      1388,
+      1767
+    ],
+    [
+      1432,
+      1828
+    ],
+    [
+      1462,
+      1868
+    ],
+    [
+      1496,
+      1906
+    ],
+    [
+      1512,
+      1925
+    ],
+    [
+      1543,
+      1966
+    ],
+    [
+      1234,
+      2208
+    ],
+    [
+      1122,
+      2069
+    ],
+    [
+      994,
+      2129
+    ],
+    [
+      1038,
+      2190
+    ],
+    [
+      1081,
+      2251
+    ],
+    [
+      1126,
+      2312
+    ],
+    [
+      1169,
+      2373
+    ],
+    [
+      1349,
+      2644
+    ],
+    [
+      1360,
+      2663
+    ],
+    [
+      1347,
+      2678
+    ],
+    [
+      1330,
+      2689
+    ],
+    [
+      1314,
+      2700
+    ],
+    [
+      1302,
+      2708
+    ],
+    [
+      1286,
+      2720
+    ],
+    [
+      1270,
+      2731
+    ],
+    [
+      1253,
+      2743
+    ],
+    [
+      1240,
+      2748
+    ],
+    [
+      1203,
+      2763
+    ],
+    [
+      1183,
+      2766
+    ],
+    [
+      1120,
+      2772
+    ],
+    [
+      1000,
+      2775
+    ],
+    [
+      900,
+      2778
+    ],
+    [
+      820,
+      2779
+    ],
+    [
+      801,
+      2779
+    ],
+    [
+      801,
+      2791
+    ],
+    [
+      760,
+      2792
+    ],
+    [
+      720,
+      2795
+    ],
+    [
+      700,
+      2793
+    ],
+    [
+      693,
+      2793
+    ],
+    [
+      675,
+      2763
+    ],
+    [
+      651,
+      2725
+    ],
+    [
+      628,
+      2687
+    ],
+    [
+      612,
+      2661
+    ],
+    [
+      594,
+      2629
+    ],
+    [
+      578,
+      2603
+    ],
+    [
+      565,
+      2577
+    ],
+    [
+      552,
+      2550
+    ],
+    [
+      540,
+      2522
+    ],
+    [
+      520,
+      2480
+    ],
+    [
+      514,
+      2463
+    ],
+    [
+      502,
+      2437
+    ],
+    [
+      474,
+      2351
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      45,
+      668,
+      610,
+      1314,
+      90
+    ],
+    [
+      90,
+      40,
+      352,
+      662,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe individuale (unifamiliale) și familiale (două unități locative pe parcelă, suprapuse sau alipite), cu anexele lor; regim de construire izolat; parcela construibilă de min. 400 mp, iar sub 600 mp numai o locuință individuală",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R), ultimul nivel retras cu min. 1,8 m; H cornișă/atic 8 m, H max 12 m"
+    },
+    {
+      "cod": "Is 1",
+      "denumire": "Subzonă de instituții și servicii publice: creșă publică și grădiniță; regim de construire izolat",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R); H cornișă/atic 8 m, H max 12 m"
+    },
+    {
+      "cod": "Is 2",
+      "denumire": "Subzonă de servicii de interes public în zona rezidențială: funcțiuni administrative, de învățământ, sănătate, asistență socială, cultură, servicii și comerț compatibile cu locuirea; regim de construire izolat",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R); H cornișă/atic 8 m, H max 12 m"
+    },
+    {
+      "cod": "Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public limitat",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "parter, H cornișă max. 4 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-08-04",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (ședința din 4.08.2022); `related`: nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08), doar HCL 467/2023, care atribuie denumiri străzilor reglementate prin acest PUZ."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Legenda planșei descrie zona verde ca „Va – Scuaruri, grădini, parcuri cu acces public nelimitat”; hotărârea o reglementează ca Va*, „cu acces public limitat”.",
+    "Planșa nu dă POT, CUT sau înălțimi în metri: indicii (Liu* 35% / 0,9; Is 1 și Is 2 60% / 2,2; Va* 5% / 0,1) și înălțimile de 8 m la cornișă și 12 m maxim vin numai din hotărâre. Planșa dă doar regimul maxim de înălțime pentru Liu*, (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R, la fel ca textul.",
+    "Legenda are o singură zonă Is, „instituții și servicii publice și de interes public constituite în ansambluri independente”; hotărârea o împarte în Is 1 (creșă publică și grădiniță) și Is 2 (servicii de interes public), cum sunt etichetate și pe desen.",
+    "Pentru parcelele de min. 600 mp, legenda admite locuințe individuale sau semicolective cu două unități; hotărârea admite în plus două locuințe unifamiliale izolate pe aceeași parcelă."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se parcelează un teren de ~5,5 ha (18 imobile) în parcele Liu* de min. 400 mp, subzonele Is 1, Is 2 și Va* și străzi noi.",
+    "Liu*: retragere față de aliniament min. 5 m față de str. Gheorghe Sion și străzile A-E (la parcelele de colț față de ambele), garajele min. 6 m; față de limitele laterale min. 3 m (garajele se pot alipi, cu calcan de max. 2,80 m); față de limita posterioară min. înălțimea clădirii, dar nu mai puțin de 6 m.",
+    "Is 1 și Is 2: retragere min. 8 m față de str. Lombului și min. 5 m față de străzile B și C (Is 1), respectiv C (Is 2); față de limitele laterale min. jumătate din înălțime, dar nu mai puțin de 5 m. Va*: retragere min. 5 m față de aliniament și 3 m față de limita estică; parcarea interzisă.",
+    "Parcarea se face în interiorul parcelei: min. un loc pentru o locuință cu AU sub 100 mp și două peste 100 mp; min. două locuri pentru servicii de proximitate; restul după Anexa 2 a Regulamentului local de urbanism aferent PUG. Străzile A, B, C și E au locuri de parcare pentru vizitatori.",
+    "Toate clădirile se racordează la rețelele publice; apele meteorice nu se descarcă spre domeniul public sau spre vecini; cablurile se pozează subteran; fiecare parcelă are un spațiu pentru deșeuri, accesibil din spațiul public.",
+    "Străzi noi cu acces public nelimitat: A și E cu ampriza de 12 m, B, C și D de 9 m (B și C cu sens unic); str. Lombului se regularizează la 18 m și str. Gheorghe Sion la 10 m pe tronsoanele adiacente.",
+    "Înainte de autorizațiile de construire pe parcele, terenul pentru lărgirea str. Lombului (inclusiv alveola stației de transport în comun) și a str. Gheorghe Sion se dezmembrează și se înscrie în CF ca „drum”.",
+    "Str. Gheorghe Sion, pe tronsonul adiacent, se aduce la strat de uzură înainte de autorizațiile pe parcelele cu acces din ea; suprafața pentru lărgirea ei la 10 m se transferă gratuit în domeniul public până la recepția construcțiilor cu front la ea.",
+    "Lărgirea str. Lombului și alveola stației de autobuz (min. 30 × 3 m, cu copertină și trotuar de min. 2 m pe lungimea stației) se fac la strat de uzură înainte de autorizațiile pe parcelele cu acces din str. Lombului.",
+    "Străzile A-E se înscriu în CF ca „drum”, se echipează edilitar complet (inclusiv rețea pluvială) și li se face carosabilul, cu benzile de staționare, la strat de uzură înainte de autorizațiile pe parcelele cu acces din ele; până la recepția construcțiilor se fac trotuarele, mobilierul urban, iluminatul, indicatoarele și arborii de aliniament (circumferință min. 35 cm la 1 m).",
+    "Străzile A-E se transferă gratuit în domeniul public înainte de recepția ultimei construcții de pe fiecare stradă.",
+    "Terenurile subzonelor Is 1 și Va* se dezmembrează și se transferă gratuit în domeniul public înainte de orice autorizație de construire, pentru o creșă publică și un spațiu verde realizate de autoritatea locală.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "repere": {
+    "X_Sion_A": [
+      588986.7,
+      390095.56
+    ],
+    "X_A_D": [
+      588785.07,
+      390191.3
+    ],
+    "X_A_B": [
+      588927.83,
+      390123.5
+    ],
+    "X_A_C": [
+      588874.33,
+      390148.95
+    ],
+    "Casa1_NV": [
+      588942.91,
+      390271.98
+    ],
+    "Casa2_NV": [
+      588918.19,
+      390286.73
+    ],
+    "X_Busuioc_Sion": [
+      589042.14,
+      390213.62
+    ],
+    "X_Lomb_Sion": [
+      588906.93,
+      389928.26
+    ]
+  },
+  "repere_osm": {
+    "X_Sion_A": "intersecție Strada Gheorghe Sion / Strada Cutezanței (x31713853_1426087062)",
+    "X_A_D": "intersecție Strada Cutezanței / Strada Romanței (x1426087062_1426087065)",
+    "X_A_B": "intersecție Strada Cutezanței / Strada Frăției (x1426087062_1426087063)",
+    "X_A_C": "intersecție Strada Cutezanței / Strada Voinței (x1426087062_1426087064)",
+    "Casa1_NV": "colț de clădire (b328373393_0)",
+    "Casa2_NV": "colț de clădire (b328374239_0)",
+    "X_Busuioc_Sion": "intersecție Strada Busuiocului / Strada Gheorghe Sion (x31584377_1540748049)",
+    "X_Lomb_Sion": "intersecție Strada Gheorghe Sion / Strada Lombului / tertiary (x31579353_31713853)"
+  }
+}

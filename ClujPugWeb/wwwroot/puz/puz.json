@@ -28103,6 +28103,300 @@
   ]
  },
  {
+  "id": "2022-583",
+  "localitate": "cluj",
+  "hcl": "583/2022",
+  "data": "2022-08-04",
+  "titlu": "P.U.Z. – dezvoltare zonă rezidențială, str. Lombului-str. Gheorghe Sion",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-583-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-583.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe individuale (unifamiliale) și familiale (două unități locative pe parcelă, suprapuse sau alipite), cu anexele lor; regim de construire izolat; parcela construibilă de min. 400 mp, iar sub 600 mp numai o locuință individuală",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R), ultimul nivel retras cu min. 1,8 m; H cornișă/atic 8 m, H max 12 m"
+   },
+   {
+    "cod": "Is 1",
+    "denumire": "Subzonă de instituții și servicii publice: creșă publică și grădiniță; regim de construire izolat",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R); H cornișă/atic 8 m, H max 12 m"
+   },
+   {
+    "cod": "Is 2",
+    "denumire": "Subzonă de servicii de interes public în zona rezidențială: funcțiuni administrative, de învățământ, sănătate, asistență socială, cultură, servicii și comerț compatibile cu locuirea; regim de construire izolat",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R); H cornișă/atic 8 m, H max 12 m"
+   },
+   {
+    "cod": "Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public limitat",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "parter, H cornișă max. 4 m"
+   }
+  ],
+  "suprafata_m2": 56585,
+  "imagine": "puz/2022-583/plansa.webp",
+  "bounds": {
+   "west": 23.5565127,
+   "south": 46.7886209,
+   "east": 23.5607139,
+   "north": 46.7916915
+  },
+  "limita": [
+   [
+    23.5594198,
+    46.7916585
+   ],
+   [
+    23.5595621,
+    46.7914588
+   ],
+   [
+    23.5592955,
+    46.791371
+   ],
+   [
+    23.5606717,
+    46.7892917
+   ],
+   [
+    23.5602793,
+    46.7890846
+   ],
+   [
+    23.5601997,
+    46.7890594
+   ],
+   [
+    23.5599896,
+    46.7889508
+   ],
+   [
+    23.559852,
+    46.7888769
+   ],
+   [
+    23.5597216,
+    46.7887934
+   ],
+   [
+    23.5596564,
+    46.7887541
+   ],
+   [
+    23.5595153,
+    46.7886777
+   ],
+   [
+    23.5586477,
+    46.7894074
+   ],
+   [
+    23.5591254,
+    46.7896831
+   ],
+   [
+    23.5589066,
+    46.7899873
+   ],
+   [
+    23.5586966,
+    46.7898787
+   ],
+   [
+    23.5584865,
+    46.7897726
+   ],
+   [
+    23.5582765,
+    46.7896616
+   ],
+   [
+    23.5580665,
+    46.7895554
+   ],
+   [
+    23.5571323,
+    46.7891101
+   ],
+   [
+    23.5570667,
+    46.7890827
+   ],
+   [
+    23.5570134,
+    46.7891132
+   ],
+   [
+    23.5569737,
+    46.7891535
+   ],
+   [
+    23.5569342,
+    46.7891913
+   ],
+   [
+    23.5569053,
+    46.7892197
+   ],
+   [
+    23.5568623,
+    46.7892575
+   ],
+   [
+    23.5568227,
+    46.7892954
+   ],
+   [
+    23.5567795,
+    46.7893356
+   ],
+   [
+    23.5567611,
+    46.7893666
+   ],
+   [
+    23.5567061,
+    46.7894546
+   ],
+   [
+    23.5566942,
+    46.7895025
+   ],
+   [
+    23.5566687,
+    46.7896534
+   ],
+   [
+    23.5566497,
+    46.7899413
+   ],
+   [
+    23.556632,
+    46.7901811
+   ],
+   [
+    23.5566228,
+    46.7903731
+   ],
+   [
+    23.5566215,
+    46.7904187
+   ],
+   [
+    23.5565795,
+    46.7904181
+   ],
+   [
+    23.5565731,
+    46.7905165
+   ],
+   [
+    23.5565598,
+    46.7906123
+   ],
+   [
+    23.5565653,
+    46.7906604
+   ],
+   [
+    23.5565648,
+    46.7906772
+   ],
+   [
+    23.5566684,
+    46.7907219
+   ],
+   [
+    23.5567994,
+    46.7907814
+   ],
+   [
+    23.5569306,
+    46.7908384
+   ],
+   [
+    23.5570203,
+    46.7908781
+   ],
+   [
+    23.5571308,
+    46.7909229
+   ],
+   [
+    23.5572206,
+    46.7909625
+   ],
+   [
+    23.5573105,
+    46.790995
+   ],
+   [
+    23.5574039,
+    46.7910275
+   ],
+   [
+    23.5575009,
+    46.7910577
+   ],
+   [
+    23.5576462,
+    46.7911078
+   ],
+   [
+    23.5577052,
+    46.791123
+   ],
+   [
+    23.5577952,
+    46.7911531
+   ],
+   [
+    23.5580937,
+    46.7912245
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 5,
+   "rms_m": 1.65,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2022-583/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-08-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Legenda planșei descrie zona verde ca „Va – Scuaruri, grădini, parcuri cu acces public nelimitat”; hotărârea o reglementează ca Va*, „cu acces public limitat”.",
+   "Planșa nu dă POT, CUT sau înălțimi în metri: indicii (Liu* 35% / 0,9; Is 1 și Is 2 60% / 2,2; Va* 5% / 0,1) și înălțimile de 8 m la cornișă și 12 m maxim vin numai din hotărâre. Planșa dă doar regimul maxim de înălțime pentru Liu*, (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R, la fel ca textul.",
+   "Legenda are o singură zonă Is, „instituții și servicii publice și de interes public constituite în ansambluri independente”; hotărârea o împarte în Is 1 (creșă publică și grădiniță) și Is 2 (servicii de interes public), cum sunt etichetate și pe desen.",
+   "Pentru parcelele de min. 600 mp, legenda admite locuințe individuale sau semicolective cu două unități; hotărârea admite în plus două locuințe unifamiliale izolate pe aceeași parcelă."
+  ],
+  "conditii": [
+   "Prin P.U.Z. se parcelează un teren de ~5,5 ha (18 imobile) în parcele Liu* de min. 400 mp, subzonele Is 1, Is 2 și Va* și străzi noi.",
+   "Liu*: retragere față de aliniament min. 5 m față de str. Gheorghe Sion și străzile A-E (la parcelele de colț față de ambele), garajele min. 6 m; față de limitele laterale min. 3 m (garajele se pot alipi, cu calcan de max. 2,80 m); față de limita posterioară min. înălțimea clădirii, dar nu mai puțin de 6 m.",
+   "Is 1 și Is 2: retragere min. 8 m față de str. Lombului și min. 5 m față de străzile B și C (Is 1), respectiv C (Is 2); față de limitele laterale min. jumătate din înălțime, dar nu mai puțin de 5 m. Va*: retragere min. 5 m față de aliniament și 3 m față de limita estică; parcarea interzisă.",
+   "Parcarea se face în interiorul parcelei: min. un loc pentru o locuință cu AU sub 100 mp și două peste 100 mp; min. două locuri pentru servicii de proximitate; restul după Anexa 2 a Regulamentului local de urbanism aferent PUG. Străzile A, B, C și E au locuri de parcare pentru vizitatori.",
+   "Toate clădirile se racordează la rețelele publice; apele meteorice nu se descarcă spre domeniul public sau spre vecini; cablurile se pozează subteran; fiecare parcelă are un spațiu pentru deșeuri, accesibil din spațiul public.",
+   "Străzi noi cu acces public nelimitat: A și E cu ampriza de 12 m, B, C și D de 9 m (B și C cu sens unic); str. Lombului se regularizează la 18 m și str. Gheorghe Sion la 10 m pe tronsoanele adiacente.",
+   "Înainte de autorizațiile de construire pe parcele, terenul pentru lărgirea str. Lombului (inclusiv alveola stației de transport în comun) și a str. Gheorghe Sion se dezmembrează și se înscrie în CF ca „drum”.",
+   "Str. Gheorghe Sion, pe tronsonul adiacent, se aduce la strat de uzură înainte de autorizațiile pe parcelele cu acces din ea; suprafața pentru lărgirea ei la 10 m se transferă gratuit în domeniul public până la recepția construcțiilor cu front la ea.",
+   "Lărgirea str. Lombului și alveola stației de autobuz (min. 30 × 3 m, cu copertină și trotuar de min. 2 m pe lungimea stației) se fac la strat de uzură înainte de autorizațiile pe parcelele cu acces din str. Lombului.",
+   "Străzile A-E se înscriu în CF ca „drum”, se echipează edilitar complet (inclusiv rețea pluvială) și li se face carosabilul, cu benzile de staționare, la strat de uzură înainte de autorizațiile pe parcelele cu acces din ele; până la recepția construcțiilor se fac trotuarele, mobilierul urban, iluminatul, indicatoarele și arborii de aliniament (circumferință min. 35 cm la 1 m).",
+   "Străzile A-E se transferă gratuit în domeniul public înainte de recepția ultimei construcții de pe fiecare stradă.",
+   "Terenurile subzonelor Is 1 și Va* se dezmembrează și se transferă gratuit în domeniul public înainte de orice autorizație de construire, pentru o creșă publică și un spațiu verde realizate de autoritatea locală.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2022-510",
   "localitate": "cluj",
   "hcl": "510/2022",
