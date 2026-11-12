@@ -21698,6 +21698,134 @@
   ]
  },
  {
+  "id": "2023-828",
+  "localitate": "cluj",
+  "hcl": "828/2023",
+  "data": "2023-12-04",
+  "titlu": "P.U.Z. de urbanizare, str. Drumul Sf. Ioan-str. Făgetului (etapa 1 – Colonia Făget nr. 10 prov.)",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-828-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/12/14/HCL-828.pdf",
+  "utr": [
+   {
+    "cod": "Lid*",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate (parcelele 1-5): locuințe individuale (unifamiliale) izolate, cu o singură unitate locativă pe parcelă, și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine)",
+    "pot_max": "20%",
+    "cut_max": "0,4",
+    "h_max": "12 m (8 m la cornișă); două niveluri supraterane: (S)+P+M, (S)+P+E sau D+P"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public (parcela 6): învățământ, sănătate și asistență socială; regim de construire deschis, izolat",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "12 m (8 m la cornișă); trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde: scuar, grădină, parc cu acces public nelimitat (parcela 7)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "5 m la cornișă; (S/D)+P"
+   }
+  ],
+  "suprafata_m2": 7882,
+  "imagine": "puz/2023-828/plansa.webp",
+  "bounds": {
+   "west": 23.5759522,
+   "south": 46.7215529,
+   "east": 23.5780077,
+   "north": 46.7226104
+  },
+  "limita": [
+   [
+    23.576414,
+    46.7225687
+   ],
+   [
+    23.5764234,
+    46.7225751
+   ],
+   [
+    23.576883,
+    46.7224405
+   ],
+   [
+    23.577503,
+    46.72219
+   ],
+   [
+    23.5777375,
+    46.7221023
+   ],
+   [
+    23.5779582,
+    46.722016
+   ],
+   [
+    23.5779758,
+    46.7219823
+   ],
+   [
+    23.5779473,
+    46.7219419
+   ],
+   [
+    23.5777101,
+    46.7217609
+   ],
+   [
+    23.5774676,
+    46.7215949
+   ],
+   [
+    23.5774582,
+    46.7215893
+   ],
+   [
+    23.5774375,
+    46.721586
+   ],
+   [
+    23.5769043,
+    46.7218144
+   ],
+   [
+    23.5764996,
+    46.721992
+   ],
+   [
+    23.5763922,
+    46.7220147
+   ],
+   [
+    23.575989,
+    46.7222569
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 8,
+   "rms_m": 0.74
+  },
+  "legenda": "puz/2023-828/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-12-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa U03 reglementează și etapa 2 a PUZ-ului (linia cu buline roșii, 9.921 mp, parcele ale altor proprietari, cu zonificarea ei); Art. 1 aprobă numai etapa 1: parcela nr. cad. 263693, de 7.087 mp.",
+   "S_Va*: hotărârea limitează înălțimea la cornișă (max. 5 m, (S/D)+P); planșa scrie „Hmax propus = +5,00 m”.",
+   "Zonificarea etapei 1 de pe planșă dă aleii de 7 m (Profil IV.2, 210 mp) un „UTR Circulații” cu POT 5% și CUT 0,10; hotărârea nu are un asemenea UTR."
+  ],
+  "conditii": [
+   "Terenul pentru lărgirea Drumului Sf. Ioan și a str. Făgetului pe lungimea PUZ-ului (inclusiv alveola stației de transport în comun de pe str. Făgetului) se dezmembrează și se înscrie în CF ca „drum” înainte de emiterea autorizațiilor de construire pe parcele; se amenajează și se transferă gratuit în domeniul public (cf. planșei U06) înainte de recepția oricărei construcții.",
+   "Aleea de interes local cu ampriza de 7 m (5,5 m carosabil și un trotuar de 1,5 m) se dezmembrează, se înscrie în CF ca „drum” și se aduce la strat de uzură înainte de emiterea autorizațiilor de construire pe parcelele cu acces direct din ea.",
+   "Spațiul verde cu acces public nelimitat (parcela 7, S_Va*) se dezmembrează, se înscrie în CF ca „spațiu verde cu acces public nelimitat” și se amenajează pe baza unui proiect de specialitate înainte de recepția locuințelor; va avea vegetație joasă, medie și înaltă, cu cel puțin 3 arbori cu circumferința de minimum 35 cm la 1 m de la colet.",
+   "Accesul pe parcelele de locuințe se face numai din Drumul Sf. Ioan, iar pe parcela S_Is* din Drumul Sf. Ioan și din str. Făgetului; pe o parcelă, un singur acces pietonal și un singur acces carosabil, de cel mult 3 m.",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
