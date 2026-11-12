@@ -23474,6 +23474,213 @@
   ]
  },
  {
+  "id": "2023-181",
+  "localitate": "cluj",
+  "hcl": "181/2023",
+  "data": "2023-04-04",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Luminii-str. Eugen Ionesco vest",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-181-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/05/23/HCL-181.pdf",
+  "utr": [
+   {
+    "cod": "Li/c_A",
+    "denumire": "Subzonă a U.T.R. Li/c* (locuințe cu regim redus de înălțime din zona străzii Luminii): 14 parcele pentru locuințe individuale (unifamiliale) și anexele lor; regim de construire deschis.",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; două niveluri supraterane plus mansardă sau nivel retras: maximum (S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R"
+   },
+   {
+    "cod": "Li/c_B",
+    "denumire": "Subzonă a U.T.R. Li/c*: 8 parcele pentru locuințe semicolective (familiale: două unități locative pe parcelă, suprapuse sau alipite) și anexele lor; regim de construire deschis.",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la atic sau la coamă; trei niveluri supraterane, plus eventual un nivel pentru garaje sau funcțiuni conexe (nu locuire): maximum (S)+P+E+M, (S)+P+2E, D+P+E+M, D+P+2E"
+   }
+  ],
+  "suprafata_m2": 11485,
+  "imagine": "puz/2023-181/plansa.webp",
+  "bounds": {
+   "west": 23.5843229,
+   "south": 46.7398328,
+   "east": 23.5864691,
+   "north": 46.7407546
+  },
+  "limita": [
+   [
+    23.5843654,
+    46.7399711
+   ],
+   [
+    23.5844013,
+    46.7400561
+   ],
+   [
+    23.584406,
+    46.7401661
+   ],
+   [
+    23.5844101,
+    46.7403094
+   ],
+   [
+    23.5844108,
+    46.7403314
+   ],
+   [
+    23.5844136,
+    46.7403474
+   ],
+   [
+    23.5844213,
+    46.7403705
+   ],
+   [
+    23.5844394,
+    46.7404007
+   ],
+   [
+    23.5844644,
+    46.7404313
+   ],
+   [
+    23.5844971,
+    46.7404588
+   ],
+   [
+    23.5845314,
+    46.7404803
+   ],
+   [
+    23.5845674,
+    46.7404978
+   ],
+   [
+    23.5846078,
+    46.740511
+   ],
+   [
+    23.5846337,
+    46.7405181
+   ],
+   [
+    23.5846594,
+    46.7405225
+   ],
+   [
+    23.5846598,
+    46.7407188
+   ],
+   [
+    23.5863985,
+    46.7407033
+   ],
+   [
+    23.5864236,
+    46.7405785
+   ],
+   [
+    23.5864357,
+    46.7403583
+   ],
+   [
+    23.5864097,
+    46.7403604
+   ],
+   [
+    23.5863803,
+    46.740221
+   ],
+   [
+    23.5863925,
+    46.7402164
+   ],
+   [
+    23.5864057,
+    46.7402153
+   ],
+   [
+    23.5863836,
+    46.7400124
+   ],
+   [
+    23.5863659,
+    46.7400154
+   ],
+   [
+    23.5862549,
+    46.740034
+   ],
+   [
+    23.5857688,
+    46.7401271
+   ],
+   [
+    23.5856737,
+    46.7399959
+   ],
+   [
+    23.5856574,
+    46.7400042
+   ],
+   [
+    23.5856631,
+    46.7399843
+   ],
+   [
+    23.5855546,
+    46.7400471
+   ],
+   [
+    23.5853925,
+    46.7400578
+   ],
+   [
+    23.5846714,
+    46.7398895
+   ],
+   [
+    23.5846768,
+    46.7398928
+   ],
+   [
+    23.5846825,
+    46.7399036
+   ],
+   [
+    23.5846701,
+    46.7399007
+   ],
+   [
+    23.5845919,
+    46.7398536
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.07
+  },
+  "legenda": "puz/2023-181/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-04-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea (Art. 1): hotărârea admite în Li/c_A cel mult două niveluri supraterane plus mansardă sau nivel retras, 8 m la cornișă/atic și 12 m la coamă, iar în Li/c_B trei niveluri și 12 m; planșa nu tipărește înălțimi sau regimuri de înălțime pentru construcțiile propuse (P+1 de pe desen sunt clădiri existente din afara zonei).",
+   "Strada Luminii: nota de pe planșă propune o supralărgire de 1,0 m în curba din nord-vestul zonei (9 mp în bilanț); hotărârea nu o pomenește, dar cere ca terenul pentru alveolele cu 5 locuri de parcare pentru vizitatori de-a lungul străzii Luminii (60 mp în bilanț) să fie dezmembrat și înscris ca drum."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcelele cu acces din str. Eugen Ionesco: terenul pentru regularizarea străzii (fâșia marcată pe planșa A04) se dezmembrează, se înscrie în CF ca „drum” și se aduce la aceeași îmbrăcăminte rutieră ca strada.",
+   "Înainte de autorizațiile de construire pe parcelele cu acces din strada „A”: strada (ampriză 9 m, de utilitate privată) se înscrie în CF ca „drum”, se echipează edilitar și i se face carosabilul la strat de uzură; trotuarele se realizează până la recepția clădirilor.",
+   "Înainte de recepția construcțiilor de pe parcelele vecine: terenul pentru alveolele de-a lungul străzii Luminii (5 locuri de parcare pentru vizitatori) se dezmembrează, se înscrie în CF ca „drum” și se aduce la strat de uzură.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Accesul se face din str. Eugen Ionesco, din prelungirea străzii Luminii (P.U.Z. aprobat prin HCL 959/2017) și din strada „A”; pe o parcelă, un singur acces carosabil (cel mult 4 m lățime) și un singur acces pietonal pentru fiecare unitate locativă.",
+   "Parcarea se face numai în interiorul parcelelor: minimum un loc pentru clădirile cu A.U. sub 100 mp și două peste 100 mp; serviciile de proximitate, minimum două locuri.",
+   "Retrageri: față de aliniament minimum 3 m și maximum 6 m (pe colț, față de ambele aliniamente), garajele minimum 6 m; față de limitele laterale minimum 3 m (la P1, P7 și P8, spre zona verde Ve, conform Codului civil; garajele pot fi lipite de limita laterală dacă calcanul nu depășește 2,8 m); față de limita posterioară, înălțimea clădirii, dar minimum 6 m (pe colț, minimum 3 m față de toate limitele); între două clădiri de pe aceeași parcelă, înălțimea celei mai înalte, dar minimum 6 m.",
+   "Utilitățile se asigură prin racordare la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini; cablurile nu se montează aerian; firidele de branșament se integrează în împrejmuire; fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public."
+  ]
+ },
+ {
   "id": "2023-75",
   "localitate": "cluj",
   "hcl": "75/2023",

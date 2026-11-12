@@ -1,0 +1,349 @@
+{
+  "id": "2023-181",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 181,
+    "an": 2023,
+    "data_sedinta": "2023-04-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-181-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/05/23/HCL-181.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Luminii-str. Eugen Ionesco vest",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 300,
+    "denumire": "A04 – Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Aceeași planșă e și la p. 10 (Anexa 2, cu ștampila Consiliului Local), redusă pe A4 și alb-negru; p. 19 e copia color A3 a aceluiași desen (A04, decembrie 2022), mai clară. Scanarea de la p. 19 taie marginea dreaptă a planșei, deci și sfârșitul câtorva rânduri din legendă: primul dintre cele două câmpuri galbene („Teren propus în subzona Li/c_…”, galben mai închis, la nord de drum) e Li/c_B, al doilea (galben deschis, la sud) e Li/c_A; textul complet al legendei e la p. 10."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate de pe planșa A04 (37 de puncte, 402-444 și 95, în ordinea limitei), Nord(x) / Est(Y), Stereo 70",
+    "suprafata_declarata_m2": 11541,
+    "puncte": {
+      "428": [
+        583233.409,
+        391957.391
+      ],
+      "429": [
+        583242.805,
+        391960.307
+      ],
+      "432": [
+        583255.025,
+        391960.88
+      ],
+      "433": [
+        583270.948,
+        391961.483
+      ],
+      "434": [
+        583273.385,
+        391961.576
+      ],
+      "435": [
+        583275.159,
+        391961.825
+      ],
+      "436": [
+        583277.719,
+        391962.455
+      ],
+      "437": [
+        583281.055,
+        391963.899
+      ],
+      "438": [
+        583284.417,
+        391965.869
+      ],
+      "439": [
+        583287.433,
+        391968.425
+      ],
+      "440": [
+        583289.775,
+        391971.086
+      ],
+      "441": [
+        583291.666,
+        391973.874
+      ],
+      "442": [
+        583293.083,
+        391976.984
+      ],
+      "443": [
+        583293.832,
+        391978.981
+      ],
+      "444": [
+        583294.291,
+        391980.95
+      ],
+      "402": [
+        583316.097,
+        391981.372
+      ],
+      "403": [
+        583312.005,
+        392114.176
+      ],
+      "404": [
+        583298.105,
+        392115.851
+      ],
+      "405": [
+        583273.61,
+        392116.338
+      ],
+      "406": [
+        583273.884,
+        392114.352
+      ],
+      "407": [
+        583258.435,
+        392111.833
+      ],
+      "408": [
+        583257.899,
+        392112.753
+      ],
+      "409": [
+        583257.767,
+        392113.757
+      ],
+      "410": [
+        583235.242,
+        392111.671
+      ],
+      "411": [
+        583235.597,
+        392110.323
+      ],
+      "95": [
+        583237.82,
+        392101.88
+      ],
+      "412": [
+        583248.83,
+        392064.921
+      ],
+      "413": [
+        583234.377,
+        392057.394
+      ],
+      "414": [
+        583235.327,
+        392056.172
+      ],
+      "415": [
+        583233.102,
+        392056.565
+      ],
+      "416": [
+        583240.236,
+        392048.396
+      ],
+      "417": [
+        583241.647,
+        392036.035
+      ],
+      "418": [
+        583223.929,
+        391980.61
+      ],
+      "419": [
+        583224.281,
+        391981.025
+      ],
+      "420": [
+        583225.478,
+        391981.485
+      ],
+      "421": [
+        583225.172,
+        391980.531
+      ],
+      "422": [
+        583220.037,
+        391974.466
+      ]
+    },
+    "ordine": [
+      "428",
+      "429",
+      "432",
+      "433",
+      "434",
+      "435",
+      "436",
+      "437",
+      "438",
+      "439",
+      "440",
+      "441",
+      "442",
+      "443",
+      "444",
+      "402",
+      "403",
+      "404",
+      "405",
+      "406",
+      "407",
+      "408",
+      "409",
+      "410",
+      "411",
+      "95",
+      "412",
+      "413",
+      "414",
+      "415",
+      "416",
+      "417",
+      "418",
+      "419",
+      "420",
+      "421",
+      "422"
+    ],
+    "laturi_declarate_m": {
+      "428": 9.84,
+      "429": 12.23,
+      "432": 15.93,
+      "433": 2.44,
+      "434": 1.79,
+      "435": 2.64,
+      "436": 3.64,
+      "437": 3.9,
+      "438": 3.95,
+      "439": 3.54,
+      "440": 3.37,
+      "441": 3.42,
+      "442": 2.13,
+      "443": 2.02,
+      "444": 21.81,
+      "402": 132.87,
+      "403": 14.0,
+      "404": 24.5,
+      "405": 2.0,
+      "406": 15.65,
+      "407": 1.06,
+      "408": 1.01,
+      "409": 22.62,
+      "410": 1.39,
+      "411": 8.73,
+      "95": 38.56,
+      "412": 16.3,
+      "413": 1.55,
+      "414": 2.26,
+      "415": 10.85,
+      "416": 12.44,
+      "417": 58.19,
+      "418": 0.54,
+      "419": 1.28,
+      "420": 1.0,
+      "421": 7.95,
+      "422": 21.69
+    },
+    "nota": "Tabelul e citit la p. 19, dar acolo coloana laturilor e tăiată de marginea scanării; laturile sunt luate din copia de la p. 10. D(407,408): la p. 10 a doua zecimală seamănă cu 5, la p. 19 e tăiată; coordonatele dau 1,065 m, iar laturile vecine (15,65 și 1,01) se potrivesc, deci 1,06. Numerele punctelor nu sunt consecutive (lipsesc 430 și 431, apare 95), dar tabelul e în ordinea limitei. Suprafața din coordonate, 11 485,4 mp, e cu 0,5% sub S(2) = 11 541 mp tipărită sub tabel (aceeași cu totalul bilanțului și cu suprafața măsurată din hotărâre); toate cele 37 de laturi calculate coincid cu tabelul, deci diferența nu vine dintr-o citire greșită."
+  },
+  "gcp_px": {
+    "402": [
+      944,
+      147
+    ],
+    "403": [
+      4074,
+      232
+    ],
+    "410": [
+      4013,
+      2047
+    ],
+    "422": [
+      777,
+      2413
+    ],
+    "428": [
+      378,
+      2101
+    ],
+    "412": [
+      2910,
+      1731
+    ]
+  },
+  "verificare_px": {
+    "444": [
+      936,
+      661
+    ],
+    "415": [
+      2711,
+      2099
+    ],
+    "413": [
+      2737,
+      2071
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      4474,
+      184,
+      4961,
+      1093
+    ],
+    [
+      470,
+      3330,
+      1300,
+      3422
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Li/c_A",
+      "denumire": "Subzonă a U.T.R. Li/c* (locuințe cu regim redus de înălțime din zona străzii Luminii): 14 parcele pentru locuințe individuale (unifamiliale) și anexele lor; regim de construire deschis.",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; două niveluri supraterane plus mansardă sau nivel retras: maximum (S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R"
+    },
+    {
+      "cod": "Li/c_B",
+      "denumire": "Subzonă a U.T.R. Li/c*: 8 parcele pentru locuințe semicolective (familiale: două unități locative pe parcelă, suprapuse sau alipite) și anexele lor; regim de construire deschis.",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la atic sau la coamă; trei niveluri supraterane, plus eventual un nivel pentru garaje sau funcțiuni conexe (nu locuire): maximum (S)+P+E+M, (S)+P+2E, D+P+E+M, D+P+2E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-04-04",
+    "verificat": "2026-11-12: nicio prelungire sau modificare în indexul hotărârilor (actualizat la 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea (Art. 1): hotărârea admite în Li/c_A cel mult două niveluri supraterane plus mansardă sau nivel retras, 8 m la cornișă/atic și 12 m la coamă, iar în Li/c_B trei niveluri și 12 m; planșa nu tipărește înălțimi sau regimuri de înălțime pentru construcțiile propuse (P+1 de pe desen sunt clădiri existente din afara zonei).",
+    "Strada Luminii: nota de pe planșă propune o supralărgire de 1,0 m în curba din nord-vestul zonei (9 mp în bilanț); hotărârea nu o pomenește, dar cere ca terenul pentru alveolele cu 5 locuri de parcare pentru vizitatori de-a lungul străzii Luminii (60 mp în bilanț) să fie dezmembrat și înscris ca drum."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcelele cu acces din str. Eugen Ionesco: terenul pentru regularizarea străzii (fâșia marcată pe planșa A04) se dezmembrează, se înscrie în CF ca „drum” și se aduce la aceeași îmbrăcăminte rutieră ca strada.",
+    "Înainte de autorizațiile de construire pe parcelele cu acces din strada „A”: strada (ampriză 9 m, de utilitate privată) se înscrie în CF ca „drum”, se echipează edilitar și i se face carosabilul la strat de uzură; trotuarele se realizează până la recepția clădirilor.",
+    "Înainte de recepția construcțiilor de pe parcelele vecine: terenul pentru alveolele de-a lungul străzii Luminii (5 locuri de parcare pentru vizitatori) se dezmembrează, se înscrie în CF ca „drum” și se aduce la strat de uzură.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Accesul se face din str. Eugen Ionesco, din prelungirea străzii Luminii (P.U.Z. aprobat prin HCL 959/2017) și din strada „A”; pe o parcelă, un singur acces carosabil (cel mult 4 m lățime) și un singur acces pietonal pentru fiecare unitate locativă.",
+    "Parcarea se face numai în interiorul parcelelor: minimum un loc pentru clădirile cu A.U. sub 100 mp și două peste 100 mp; serviciile de proximitate, minimum două locuri.",
+    "Retrageri: față de aliniament minimum 3 m și maximum 6 m (pe colț, față de ambele aliniamente), garajele minimum 6 m; față de limitele laterale minimum 3 m (la P1, P7 și P8, spre zona verde Ve, conform Codului civil; garajele pot fi lipite de limita laterală dacă calcanul nu depășește 2,8 m); față de limita posterioară, înălțimea clădirii, dar minimum 6 m (pe colț, minimum 3 m față de toate limitele); între două clădiri de pe aceeași parcelă, înălțimea celei mai înalte, dar minimum 6 m.",
+    "Utilitățile se asigură prin racordare la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini; cablurile nu se montează aerian; firidele de branșament se integrează în împrejmuire; fiecare parcelă are un spațiu pentru deșeuri accesibil din spațiul public."
+  ]
+}
