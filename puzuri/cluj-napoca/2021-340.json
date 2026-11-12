@@ -1,0 +1,333 @@
+{
+  "id": "2021-340",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 340,
+    "an": 2021,
+    "data_sedinta": "2021-07-14",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-340-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/08/04/HCL-340-din-14-07-2021-PUZ-Ramniceanu-de-urbanizare-str-Sperantei.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Speranței",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 150,
+    "denumire": "Plan reglementări urbanistice (U.04)",
+    "scara": "1:500",
+    "nota": "PDF-ul are 23 de pagini scanate: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii, fără articole adăugate după lista anexelor), Anexa 1 – planșa U.04 redusă pe A4 (p. 3), Anexa 2 – regulamentul local de urbanism (p. 4-11), avizul de oportunitate nr. 562/25.06.2019 cu planul lui (p. 12-14), avizul arhitectului-șef nr. 228/3.08.2020 și completarea lui nr. 37/23.03.2021 (p. 15-18), planșa U.04 color la format A3 (p. 19, 2482×1755 px la 150 ppi, cu viza „HCL nr. 340 din 14.07.2021”) și raportul informării și consultării publicului (p. 20-23). E aleasă p. 19: aceeași planșă de reglementări ca Anexa 1, color și de două ori mai mare. Cartușul: „Plan reglementări urbanistice”, pl. U.04, 09/2020, scara trecută 1:1000; desenul însă e la 1:500 („Scara 1:500” sub titlul planului de situație și pe scara grafică), iar fitul dă 11,8 px/m, cât 1:500 la 150 ppi (11,81 px/m). Planșa e practic cu nordul în sus (rotație 0,34°). Legenda ia cheia simbolurilor (dreapta sus) și cele două rânduri cu POT/CUT maxime pentru Liu de sub bilanțul teritorial; au rămas afară rândurile cu suprafețe ale bilanțului, inventarul de coordonate, ștampilele și cartușul. Din decupaj e scos bilanțul teritorial de sub colțul 204."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U.04 (tabelul „Coordonate Stereo'70”, X [m] = Nord, Y [m] = Est, cu „Lungimi laturi”), din dreapta: 25 de puncte în ordinea limitei, de la 188 la 212, dar cu două numere care nu urmează șirul: după 199 tabelul scrie „2” (pe planșă nu se vede o etichetă acolo; probabil 200) și după 202 scrie „147”, punct etichetat „203” pe planșă. De aceea e dată `ordine`; numele sunt cele din tabel. „S(masurata)=7456mp”, cât totalul bilanțului și cei 7.456 mp din hotărâre; „P=354.187m”. Aria, perimetrul și toate cele 25 de laturi ies. Puncte de control: cele patru colțuri nete 188 (nord-vest), 192 (nord-est, la str. Speranței), 201 (sud-est, la str. Speranței) și 204 (sud-vest). Puncte de verificare: 208 și 206 (frângerile de pe latura de vest) și șase cruci etichetate ale caroiajului Stereo 70 de 50 m, citite de pe planșă (repere C<Est>_<Nord>): 583500/395950, 583450/395950 (sub ștampila de viză), 583400/395950, 583500/396000, 583500/396050 și 583400/396050.",
+    "suprafata_declarata_m2": 7456,
+    "perimetru_declarat_m": 354.187,
+    "puncte": {
+      "188": [
+        583487.292,
+        395965.459
+      ],
+      "189": [
+        583488.279,
+        395971.546
+      ],
+      "190": [
+        583489.019,
+        395976.225
+      ],
+      "191": [
+        583491.428,
+        395989.759
+      ],
+      "192": [
+        583501.224,
+        396038.435
+      ],
+      "193": [
+        583474.825,
+        396040.52
+      ],
+      "194": [
+        583473.905,
+        396040.668
+      ],
+      "195": [
+        583453.274,
+        396046.819
+      ],
+      "196": [
+        583450.65,
+        396047.602
+      ],
+      "197": [
+        583448.348,
+        396047.707
+      ],
+      "198": [
+        583440.17,
+        396048.078
+      ],
+      "199": [
+        583434.147,
+        396050.317
+      ],
+      "2": [
+        583430.545,
+        396052.098
+      ],
+      "201": [
+        583408.001,
+        396064.006
+      ],
+      "202": [
+        583404.805,
+        396054.154
+      ],
+      "147": [
+        583398.417,
+        396034.586
+      ],
+      "204": [
+        583388.323,
+        395987.449
+      ],
+      "205": [
+        583409.931,
+        395981.073
+      ],
+      "206": [
+        583409.659,
+        395980.137
+      ],
+      "207": [
+        583436.728,
+        395974.059
+      ],
+      "208": [
+        583463.463,
+        395968.057
+      ],
+      "209": [
+        583464.56,
+        395967.879
+      ],
+      "210": [
+        583470.523,
+        395967.322
+      ],
+      "211": [
+        583478.508,
+        395966.278
+      ],
+      "212": [
+        583481.519,
+        395965.885
+      ]
+    },
+    "ordine": [
+      "188",
+      "189",
+      "190",
+      "191",
+      "192",
+      "193",
+      "194",
+      "195",
+      "196",
+      "197",
+      "198",
+      "199",
+      "2",
+      "201",
+      "202",
+      "147",
+      "204",
+      "205",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210",
+      "211",
+      "212"
+    ],
+    "laturi_declarate_m": {
+      "188": 6.167,
+      "189": 4.737,
+      "190": 13.747,
+      "191": 49.653,
+      "192": 26.481,
+      "193": 0.932,
+      "194": 21.528,
+      "195": 2.738,
+      "196": 2.304,
+      "197": 8.186,
+      "198": 6.426,
+      "199": 4.018,
+      "2": 25.496,
+      "201": 10.357,
+      "202": 20.584,
+      "147": 48.206,
+      "204": 22.529,
+      "205": 0.975,
+      "206": 27.743,
+      "207": 27.4,
+      "208": 1.111,
+      "209": 5.989,
+      "210": 8.053,
+      "211": 3.037,
+      "212": 5.789
+    },
+    "nota": "Punctul 204: Nordul se citește 583388.323 (prima transcriere, 583389.323, strica laturile 147-204 și 204-205); rezolvat din cele două laturi tipărite, 48,206 m și 22,529 m, dă exact 583388.323 / 395987.449, cât citirea atentă a tabelului."
+  },
+  "gcp_px": {
+    "188": [
+      819,
+      286
+    ],
+    "192": [
+      1677,
+      131
+    ],
+    "201": [
+      1972,
+      1226
+    ],
+    "204": [
+      1068,
+      1456
+    ]
+  },
+  "verificare_px": {
+    "C395950_583500": [
+      638,
+      139
+    ],
+    "C395950_583450": [
+      635,
+      729
+    ],
+    "C395950_583400": [
+      630,
+      1319
+    ],
+    "C396000_583500": [
+      1228,
+      141.5
+    ],
+    "C396050_583500": [
+      1814,
+      142
+    ],
+    "C396050_583400": [
+      1812,
+      1323.5
+    ],
+    "208": [
+      847,
+      567
+    ],
+    "206": [
+      985,
+      1206
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        1003,
+        1460,
+        1495,
+        1745
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      2026,
+      78,
+      2445,
+      545
+    ],
+    [
+      1003,
+      1685,
+      1472,
+      1732
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe unifamiliale și familiale (cel mult două unități locative pe parcelă, doar pe parcele de peste 450 mp); regim de construire izolat; parcele cu front la stradă de min. 15 m (excepție parcela cu nr. cad. 322829) și suprafață de peste 350 mp",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m (H cornișă max. 8 m), 3 niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+1+M, D+P+1+R"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzona spațiilor verzi – scuar, grădină, parc cu acces public nelimitat (fâșia verde de-a lungul str. Speranței): plantații, alei pietonale și velo, mobilier urban, amenajări de joacă, odihnă și sport, edicule",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-07-14",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (ședința din 14.07.2021); `related`: prelungită prin HCL 556/2026 cu 5 ani (vezi `prelungiri`), nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [
+    {
+      "hcl": "556/2026",
+      "pana_la": "2031-07-14",
+      "nota": "HCL 556 din 6 august 2026 prelungește valabilitatea „cu o perioadă de 5 ani”. A fost adoptată după expirarea termenului inițial (14.07.2026); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 6.08.2031)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime nu apare pe planșă: hotărârea dă pentru Liu* 3 niveluri supraterane – (S)+P+1+M, (S)+P+1+R, D+P+1+M, D+P+1+R –, H cornișă max. 8 m și H max. 12 m. Regulamentul (Anexa 2, cap. 10) dă, pentru variantele cu demisol, D+P+M și D+P+R.",
+    "Pentru S_Va planșa nu dă indicatori; hotărârea: POT max. 5%, CUT max. 0,1.",
+    "Bilanțul de pe planșă cere spațiu verde amenajat pe sol natural de min. 40% pe parcelele de locuințe; regulamentul (Anexa 2, cap. 13) cere min. 30% din suprafața parcelei; textul hotărârii nu dă procentul.",
+    "Planșa desenează parcelarea propusă, cu loturi mari, adânci de 73-75 m de la str. Speranței spre vest; hotărârea fixează doar minimele: front la stradă de min. 15 m (în afară de parcela cu nr. cad. 322829) și peste 350 mp, cu două unități locative doar pe parcele de peste 450 mp."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se urbanizează un teren de 7.456 mp pe str. Speranței (parcelele cu nr. cad. 310569, 322828, 322829, 314037 și 290028), încadrat înainte în ULiu: zonă de locuințe Liu* (6.656 mp pe planșă), o fâșie de spațiu verde public S_Va (198 mp) și 602 mp pentru lărgirea străzii Speranței.",
+    "Liu*: două unități locative (două locuințe individuale sau o locuință semicolectivă) se pot construi numai pe parcele de peste 450 mp; parcelele au front la stradă de min. 15 m (cu excepția celei cu nr. cad. 322829) și peste 350 mp.",
+    "Liu*: retragere de la aliniament de min. 3 m pentru locuințe și min. 6 m pentru garaje; min. 3 m față de limitele laterale (garajele pot fi alipite, cu calcan de max. 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m.",
+    "Accesul se face din str. Speranței, regularizată la profilul de 18 m din P.U.G.; pe o parcelă un singur acces pietonal și un singur acces auto.",
+    "Parcarea se face în interiorul parcelei, după Anexa 2 a Regulamentului P.U.G. (regulamentul P.U.Z.: min. un loc pentru locuințe cu AU sub 120 mp, două peste 120 mp, două pentru servicii cu acces public); pe spațiul verde S_Va parcarea e interzisă.",
+    "Toate construcțiile se racordează la rețelele edilitare (apă, canalizare, electricitate, gaz).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Suprafețele necesare lărgirii străzii Speranței se dezmembrează din parcelele inițiale și se înscriu în CF cu titlul de „drum” înainte de emiterea autorizațiilor de construire; până la modernizarea străzii sunt întreținute cu gazon natural (cu pavaj la accesele auto și pietonale).",
+    "Recepția construcțiilor se face numai după aducerea străzii Speranței la stratul de uzură.",
+    "Regulamentul (Anexa 2): eliminarea arborilor maturi e interzisă, în afară de cazurile în care sunt un pericol sau împiedică realizarea construcțiilor; împrejmuirile spre stradă au soclu opac de max. 80 cm și parte transparentă, înălțimea împrejmuirilor e de max. 2,2 m."
+  ],
+  "repere": {
+    "C395950_583500": [
+      583500,
+      395950
+    ],
+    "C395950_583450": [
+      583450,
+      395950
+    ],
+    "C395950_583400": [
+      583400,
+      395950
+    ],
+    "C396000_583500": [
+      583500,
+      396000
+    ],
+    "C396050_583500": [
+      583500,
+      396050
+    ],
+    "C396050_583400": [
+      583400,
+      396050
+    ]
+  }
+}
