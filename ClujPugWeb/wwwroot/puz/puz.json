@@ -21104,6 +21104,163 @@
   ]
  },
  {
+  "id": "2024-25",
+  "localitate": "cluj",
+  "hcl": "25/2024",
+  "data": "2024-01-22",
+  "titlu": "P.U.Z. – Dezvoltare ansamblu mixt, str. Someșului nr. 15-21",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-25-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/02/01/HCL-25.pdf",
+  "utr": [
+   {
+    "cod": "RrM1",
+    "denumire": "Parcelar riveran principalelor artere de trafic, destinat restructurării – zonă mixtă cu regim de construire închis: locuire colectivă, activități administrative, de afaceri, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism. Spre spațiile publice locuințele pot fi doar la etaje, iar parterul are funcțiuni de interes public.",
+    "pot_max": "70%",
+    "cut_max": "3,2 ADC/mp",
+    "h_max": "cornișa la 19,5 m de la trotuar (±0,5 m) și 25 m înălțime totală, (1-3S)+P+5E+R, ultimul nivel retras cu cel puțin 1,80 m; corpul de la intersecția str. Someșului cu strada propusă pe malul Someșului: 25,5 m, (1-3S)+P+6E"
+   }
+  ],
+  "suprafata_m2": 4272,
+  "imagine": "puz/2024-25/plansa.webp",
+  "bounds": {
+   "west": 23.5934742,
+   "south": 46.7780542,
+   "east": 23.594727,
+   "north": 46.7787673
+  },
+  "limita": [
+   [
+    23.5935714,
+    46.7786096
+   ],
+   [
+    23.5936003,
+    46.7786195
+   ],
+   [
+    23.5937574,
+    46.7786603
+   ],
+   [
+    23.5937916,
+    46.7786664
+   ],
+   [
+    23.5942055,
+    46.7787447
+   ],
+   [
+    23.594255,
+    46.7786104
+   ],
+   [
+    23.5944171,
+    46.7786322
+   ],
+   [
+    23.594581,
+    46.7786555
+   ],
+   [
+    23.5946088,
+    46.778556
+   ],
+   [
+    23.5946186,
+    46.7785212
+   ],
+   [
+    23.5946427,
+    46.7784364
+   ],
+   [
+    23.5946439,
+    46.7784318
+   ],
+   [
+    23.5946475,
+    46.7784187
+   ],
+   [
+    23.5946797,
+    46.7783098
+   ],
+   [
+    23.594702,
+    46.7782366
+   ],
+   [
+    23.5946852,
+    46.7782149
+   ],
+   [
+    23.5945989,
+    46.7781981
+   ],
+   [
+    23.5943903,
+    46.77816
+   ],
+   [
+    23.594336,
+    46.7781521
+   ],
+   [
+    23.5943373,
+    46.7781472
+   ],
+   [
+    23.5942023,
+    46.7781281
+   ],
+   [
+    23.5941489,
+    46.7781194
+   ],
+   [
+    23.5938743,
+    46.778075
+   ],
+   [
+    23.5936645,
+    46.7785084
+   ],
+   [
+    23.5935118,
+    46.7784727
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.02
+  },
+  "legenda": "puz/2024-25/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-01-22"
+  },
+  "diferente_fata_de_plansa": [
+   "Inventarul de coordonate al planșei ocolește parcela de 113 mp a statului (nr. cad. 322465, str. Lalelelor nr. 1) ca enclavă și închide astfel doar parcela privată de 4159 mp. Art. 1 reglementează 4.272 mp, ambele parcele, iar planșa colorează și enclava ca RrM1 și o socotește în bilanț (S. teren inițial 4272 mp); harta arată conturul exterior, de 4272 mp.",
+   "Planșa dă regimul de înălțime 2S+P+5E+R / 2S+P+6E și H maxim 25,5 m; Art. 1 admite (1-3)S, limitează clădirile obișnuite la 19,5 m la cornișă și 25 m în total, cu ultimul nivel retras cu cel puțin 1,80 m, și doar corpul de colț de pe malul Someșului la 25,5 m.",
+   "Planșa arată P.O.T. propus 47,14 % și C.U.T. propus 3,20; Art. 1 fixează maximele P.O.T. 70 % și C.U.T. 3,2 ADC/mp, ca P.U.G. pentru RrM1, și adaugă că pentru nivelurile de locuit aria construită e de cel mult 50 % din suprafața terenului.",
+   "Restul se potrivește: retragerile cotate (5 m față de limita vestică, 10 m față de cea nordică, front în aliniament, cu clădirea pe limita de proprietate pe 18 m de la aliniamentul str. Lalelelor), accesul auto din str. Lalelelor, cele 164 de locuri de parcare necesare plus 7 publice și fâșiile de dezmembrat pentru profilul de 18 m de lângă Someș (662 mp în bilanț) și pentru lărgirea intersecției (90 mp)."
+  ],
+  "conditii": [
+   "Se reglementează 4.272 mp: parcela privată nr. cad. 331472 (4159 mp) și parcela de 113 mp a statului, nr. cad. 322465.",
+   "Ansamblul se amplasează în aliniament, în front continuu; retrageri de cel puțin 5 m față de limita laterală vestică și 10 m față de limita nordică, cu amplasare pe limita de proprietate pe o adâncime de 18 m de la aliniamentul str. Lalelelor. Pentru nivelurile de locuit aria construită e de cel mult 50 % din suprafața terenului.",
+   "Accesul auto se face din str. Lalelelor, cele pietonale din str. Someșului și str. Lalelelor.",
+   "Cel puțin 75 % din parcare se face în spații specializate, la subsol, demisol sau parter; necesarul se dimensionează după Anexa 2 a R.L.U. al P.U.G.",
+   "Zona se echipează edilitar complet înainte de autorizarea oricărei construcții; toate clădirile se racordează la rețelele publice.",
+   "Suprafața necesară reamenajării și lărgirii intersecției str. Someșului–str. Lalelelor se dezmembrează din parcele, se înscrie în CF ca „drum” și se aduce la aceeași îmbrăcăminte ca str. Someșului înainte de autorizația de construire; până la recepție trece gratuit în domeniul public (planșa 01.06).",
+   "Suprafața necesară unei circulații pietonale și velo lângă Someșul Mic se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire; rămâne spațiu verde întreținut până când municipalitatea modernizează infrastructura pietonală și velo de pe mal.",
+   "Avizul Serviciului Siguranța Circulației nr. 393387/446/2020: intersecția str. Someșului–str. Lalelelor se reamenajează și se lărgește, și pe teren dezmembrat din parcelă, cu o bandă în plus pe str. Someșului pentru virajul la stânga spre str. Lalelelor; lărgirea se face înainte de începerea construcției.",
+   "Înainte de recepție: 7 locuri de parcare publică în incintă, peste cele 164, în locul celor 7 locuri cu abonament de pe stradă, cu dreptul municipiului asupra lor reglementat printr-un act juridic, și semaforizarea intersecției.",
+   "La faza D.T.A.C. documentația trece prin Comisia de estetică urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
