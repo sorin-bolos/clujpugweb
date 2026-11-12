@@ -31546,6 +31546,138 @@
   ]
  },
  {
+  "id": "2021-590",
+  "localitate": "cluj",
+  "hcl": "590/2021",
+  "data": "2021-09-02",
+  "titlu": "P.U.Z. de urbanizare, str. Romul Ladea–str. Nordului",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-590-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/2021/09/15/HCL-nr-590-din-2-09-2021-PUZ-de-urb-str-Romul-Ladea-str-Nordului.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale (cel mult două unități locative pe parcelă), izolate sau cuplate, retrase din aliniament; pe parcelele sub 450 mp numai locuințe unifamiliale",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+1+M, D+P+1+R; 8 m la cornișă / atic, 12 m la coamă / atic retras"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public (funcțiuni administrative, de cultură, învățământ și cercetare, sănătate și asistență socială, de cult), regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "(1-3S)+P+3E+R; 16 m la cornișă, 20 m maxim"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzona spațiilor verzi – scuar, grădină, parc cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 20172,
+  "imagine": "puz/2021-590/plansa.webp",
+  "bounds": {
+   "west": 23.6245416,
+   "south": 46.7487903,
+   "east": 23.6277873,
+   "north": 46.75117
+  },
+  "limita": [
+   [
+    23.6249407,
+    46.7511171
+   ],
+   [
+    23.6273358,
+    46.7497787
+   ],
+   [
+    23.6275198,
+    46.7499583
+   ],
+   [
+    23.6277335,
+    46.7498327
+   ],
+   [
+    23.6274737,
+    46.7496027
+   ],
+   [
+    23.6270678,
+    46.7492432
+   ],
+   [
+    23.6266094,
+    46.748835
+   ],
+   [
+    23.6264282,
+    46.7489634
+   ],
+   [
+    23.626733,
+    46.7492532
+   ],
+   [
+    23.6246516,
+    46.7503899
+   ],
+   [
+    23.6245768,
+    46.7505354
+   ],
+   [
+    23.6246035,
+    46.7506799
+   ],
+   [
+    23.6246159,
+    46.7508
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 3,
+   "rms_m": 1.02,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2021-590/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-09-02",
+   "initial_pana_la": "2026-09-02",
+   "prelungiri": [
+    {
+     "hcl": "498/2026",
+     "pana_la": "2030-09-02",
+     "nota": "HCL 498 din 9 iulie 2026 prelungește valabilitatea „cu o perioadă de 4 ani”; termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială, 2.09.2026."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "U.T.R. Liu*, regim de înălțime: hotărârea (Art. 1) admite (S)+P+1+M, (S)+P+1+R, D+P+1+M și D+P+1+R; planșa dă S+P+E+R, S+P+E+M, D+P+M și D+P+R, adică un nivel mai puțin în variantele cu demisol. Înălțimile (8 m la cornișă, 12 m maxim), POT 35% și CUT 0,9 sunt aceleași.",
+   "Accese în Liu*: hotărârea admite pe o parcelă un singur acces pietonal și un singur acces carosabil; planșa scrie „1 sau 2 accese auto și pietonale pe parcelele rezultate”, din orice stradă care bordează parcela.",
+   "Aleea pietonală dintre str. Romul Ladea și subzona verde: hotărârea o dă cu lățimea de 3 m; pe planșă fâșia ei are cota 4,00 m.",
+   "U.T.R. S_Is*: înălțimea ((1-3S)+P+3E+R, 16 m la cornișă, 20 m maxim) și retragerea de minimum 5 m față de aliniament apar doar în hotărâre; planșa dă pentru S-IS numai POT 35% și CUT 0,9, la fel ca hotărârea.",
+   "Planșa adaugă cerințe pe care hotărârea nu le are: spații verzi de minimum 40% în Liu* și de minimum 60% în S_Va, regim de înălțime parter în S_Va (în hotărâre înălțimea la S_Va: „nu e cazul”)."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Străzile propuse se echipează edilitar, iar carosabilul lor se face la strat de uzură înainte de autorizațiile de construire pe parcelele cu acces direct din ele; până la recepția construcțiilor se fac trotuarele, cu mobilier stradal (coșuri de gunoi, bănci) și iluminat stradal.",
+   "Străzile reglementate prin P.U.Z. au acces public nelimitat; pe ambele laturi ale străzii „A” se plantează aliniamente, cel puțin 24 de arbori cu circumferința de minimum 35 cm la 1 m de colet.",
+   "Terenul necesar regularizării str. Nordului (ampriză 16 m, cf. P.U.G.) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele, iar până la recepția acestora e adus la strat de uzură.",
+   "Str. Nordului, de la intersecția cu str. Romul Ladea până la amplasament, se echipează edilitar înainte de autorizațiile de construire pe parcele și se asfaltează (strat de uzură) de beneficiarii P.U.Z. până la recepția construcțiilor.",
+   "Aleea pietonală (3 m, cu acces public nelimitat, între str. Romul Ladea și subzona verde) și subzona verde se dezmembrează din parcelele inițiale și se înscriu în CF înainte de autorizațiile de construire pe parcele, și se amenajează pe baza unui proiect de specialitate înainte de recepția construcțiilor; spațiul verde are vegetație joasă, medie și înaltă, cu cel puțin 20 de arbori (circumferință de minimum 35 cm la 1 m de colet).",
+   "Autorizațiile de construire pentru investiții (altele decât infrastructura tehnico-edilitară și amenajarea spațiilor verzi) se emit numai după reamenajarea și lărgirea de către Municipalitate a intersecției str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, dar nu mai târziu de 2026.",
+   "Parcarea se face în interiorul parcelelor, cu numărul de locuri după Anexa 2 la Regulamentul P.U.G.; pe teritoriul subzonei verzi parcarea e interzisă.",
+   "Construcțiile se racordează la rețelele edilitare existente (apă, canalizare, electricitate, gaz)."
+  ]
+ },
+ {
   "id": "2021-340",
   "localitate": "cluj",
   "hcl": "340/2021",

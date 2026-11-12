@@ -1,0 +1,163 @@
+{
+  "id": "2021-590",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 590,
+    "an": 2021,
+    "data_sedinta": "2021-09-02",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-590-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/09/15/HCL-nr-590-din-2-09-2021-PUZ-de-urb-str-Romul-Ladea-str-Nordului.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Romul Ladea–str. Nordului",
+  "plansa": {
+    "pagina_pdf": 29,
+    "dpi": 150,
+    "denumire": "Up1 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Anexa 1, p. 29: singura planșă mare din PDF (A2, scanată color la 150 ppi, 3513×2488 px). Pp. 1-3 sunt hotărârea; p. 4 e aceeași planșă micșorată pe A4, alb-negru, ștampilată „Anexa 1 la Hotărârea nr. 590/2021” și semnată de Arhitectul șef, cu limita P.U.Z. marcată cu galben; pp. 5-18 regulamentul; p. 22 extrasul din P.U.G. cu „teritoriu de studiat” marcat cu galben (aceeași bandă de-a lungul str. Romul Ladea). P. 29 e planșa Up1 „Reglementări urbanistice” (str. Nordului FN, „Realizare PUZ, reglementări construibilitate, căi de comunicații, rețele edilitare”), scara 1:1000; potrivirea dă 5,94 px/m, adică 1:1000 la 150 ppi. Nordul e spre stânga-sus (rotație ~-36°). Zona e o bandă de ~245 m între str. Romul Ladea (cu fâșia Vpr de protecție) și parcela vecină de la sud-vest: două rânduri de loturi Liu*, strada „A” (12 m) între ele, S_Is* la capătul dinspre str. Nordului, la celălalt capăt S_Va și o fâșie până la str. Romul Ladea. Sub zonă, în gri, o parcelare vecină (loturile P1-P22, străzile propuse „C” și „D”), care nu face parte din P.U.Z. Pe planșă fiecare lot e etichetat cu numele proprietarului, iar tabelul din dreapta-sus are numele și semnăturile proprietarilor. Legenda (trei casete): cheia simbolurilor și blocul „Indici urbanistici caracteristici tehnice” (POT, CUT, regim de înălțime pe U.T.R., accese). Au rămas afară inventarul de coordonate, profilele de străzi, bilanțul teritorial, „Suprafețe propuse – rezultate” și numărul de parcări, cartușul, tabelul proprietarilor, ștampilele. Viza de pe planșă: Avizul Arhitectului șef nr. 239 din 7.08.2020, cu completările nr. 12/26.01.2021 și nr. 33/5.03.2021."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm), plus un vârf din inventarul de pe planșă ca punct de verificare; limita e trasată (`limita_px`). Control: X1 = str. Nordului × drumul de câmp spre sud-vest (OSM), pe planșă centrul cercului de intersecție de pe str. Nordului de unde pornește strada „A”; X2 = str. Romul Ladea × str. Ioan Zaicu, pe planșă axul străzii din zona PUD de la est (între marginile ei), dus până la axul benzii str. Romul Ladea; S1 = str. Romul Ladea × str. Ștefan Ruha, pe planșă axul dintre cele două linii subțiri ale străzii de la nord de str. Romul Ladea, dus până la axul benzii. Verificare: 984, vârful sudic al parcelei vecine din inventar (N 584086,803, E 395124,171), citit pe planșă în colțul unde latura de est a parcelei gri întâlnește marginea benzii str. Nordului: reziduu 2,3 m. Un al patrulea reper OSM, str. Romul Ladea × str. Regina Maria, a ieșit la 5,6 m și a fost scos: pe ortofoto str. Regina Maria trece cu ~4-5 m la est de linia ei din OSM (un segment cu două noduri), exact în direcția abaterii. Casele din zona PUD de la est nu folosesc ca repere: pe planșă sunt schematice, cu poziții și mărimi diferite de clădirile din OSM. Limita urmează linia roșie subțire „Limita parcelei studiate”, care închide terenul de 20.425 mp din hotărâre și din bilanț: aria trasată 20.172 mp (-1,2%). Linia gri punctată „Limita zonei studiate” merge cu 2-3 m în afara ei (pe latura de sud-vest, ~3 m în parcela vecină) și ar da ~21.950 mp (+7%). Conturul e același cu cel marcat cu galben pe Anexa 1 (p. 4), unde cele două linii nu se mai deosebesc. Pe latura dinspre str. Nordului limita urmează linia roșie din cercul de intersecție și marginea benzii străzii.",
+    "suprafata_declarata_m2": 20425.0,
+    "nota": "Inventarul de pe planșă („Parcela 1 – studiată”, 34 de puncte 984…1013, X [Nord] / Y [Est], cu D(i,i+1), S(1) = 16.429,01 mp, P = 628,478 m) nu e al zonei P.U.Z.: descrie parcela triunghiulară vecină de la sud-vest (zona gri cu loturile P1-P22, între str. Nordului și P.U.Z.), a cărei latură de nord-est e limita de sud-vest a P.U.Z. Forma și mărimea se potrivesc cu desenul (laturi de ~266 m pe str. Nordului, ~210 m și ~151 m), iar latura de nord-est prezisă de potrivire cade la ~2 m de linia roșie. Rândurile 989-998 și 1018 sunt acoperite de desenul benzii str. Romul Ladea și se citesc doar în parte (990 deloc), iar celelalte vârfuri stau pe laturi drepte sau în banda str. Nordului (terenul de regularizare a străzii), fără colț de citit pe planșă. Rămâne un singur reper sigur, vârful 984: laturile 1013→984 (8,834 m) și 984→985 (33,883 m) se verifică la 1 mm. Dacă inventarul e transcris în întregime, el nu trebuie pus în `coordonate.puncte`: ar deveni limita P.U.Z."
+  },
+  "gcp_px": {
+    "X1": [985, 845],
+    "X2": [2714, 399],
+    "S1": [912, 254]
+  },
+  "verificare_px": {
+    "984": [2367, 1933]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [],
+    "acopera_px": [
+      [1068, 627, 1081, 690],
+      [1184, 612, 1196, 668],
+      [1269, 583, 1281, 666],
+      [1362, 620, 1374, 663],
+      [1443, 622, 1455, 676],
+      [1530, 637, 1544, 681],
+      [1606, 649, 1619, 686],
+      [1683, 627, 1695, 698],
+      [1758, 622, 1770, 701],
+      [1827, 644, 1839, 710],
+      [1908, 634, 1921, 710],
+      [1984, 664, 1995, 716],
+      [2060, 652, 2073, 718],
+      [2140, 682, 2151, 728],
+      [2209, 672, 2222, 748],
+      [2282, 672, 2294, 733],
+      [2354, 674, 2366, 741],
+      [2443, 602, 2458, 711],
+      [1191, 847, 1203, 918],
+      [1299, 867, 1313, 923],
+      [1372, 837, 1386, 931],
+      [1438, 884, 1451, 926],
+      [1507, 864, 1519, 931],
+      [1587, 859, 1599, 941],
+      [1654, 872, 1666, 938],
+      [1726, 872, 1739, 943],
+      [1816, 892, 1830, 956],
+      [1927, 894, 1938, 956],
+      [2044, 899, 2056, 958],
+      [2149, 907, 2161, 966],
+      [2302, 952, 2315, 996]
+    ]
+  },
+  "legenda_px": [
+    [1033, 1515, 1425, 2028],
+    [1033, 2028, 1368, 2292],
+    [2782, 1248, 3345, 1780]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale (cel mult două unități locative pe parcelă), izolate sau cuplate, retrase din aliniament; pe parcelele sub 450 mp numai locuințe unifamiliale",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+1+M, D+P+1+R; 8 m la cornișă / atic, 12 m la coamă / atic retras"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public (funcțiuni administrative, de cultură, învățământ și cercetare, sănătate și asistență socială, de cult), regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "(1-3S)+P+3E+R; 16 m la cornișă, 20 m maxim"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzona spațiilor verzi – scuar, grădină, parc cu acces public nelimitat",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-09-02",
+    "verificat": "2026-11-10: Art. 2, cinci ani de la aprobare; prelungită cu 4 ani prin HCL 498/2026 (9.07.2026), adoptată înainte de expirare. Nicio hotărâre de modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [
+    {
+      "hcl": "498/2026",
+      "pana_la": "2030-09-02",
+      "nota": "HCL 498 din 9 iulie 2026 prelungește valabilitatea „cu o perioadă de 4 ani”; termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială, 2.09.2026."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "U.T.R. Liu*, regim de înălțime: hotărârea (Art. 1) admite (S)+P+1+M, (S)+P+1+R, D+P+1+M și D+P+1+R; planșa dă S+P+E+R, S+P+E+M, D+P+M și D+P+R, adică un nivel mai puțin în variantele cu demisol. Înălțimile (8 m la cornișă, 12 m maxim), POT 35% și CUT 0,9 sunt aceleași.",
+    "Accese în Liu*: hotărârea admite pe o parcelă un singur acces pietonal și un singur acces carosabil; planșa scrie „1 sau 2 accese auto și pietonale pe parcelele rezultate”, din orice stradă care bordează parcela.",
+    "Aleea pietonală dintre str. Romul Ladea și subzona verde: hotărârea o dă cu lățimea de 3 m; pe planșă fâșia ei are cota 4,00 m.",
+    "U.T.R. S_Is*: înălțimea ((1-3S)+P+3E+R, 16 m la cornișă, 20 m maxim) și retragerea de minimum 5 m față de aliniament apar doar în hotărâre; planșa dă pentru S-IS numai POT 35% și CUT 0,9, la fel ca hotărârea.",
+    "Planșa adaugă cerințe pe care hotărârea nu le are: spații verzi de minimum 40% în Liu* și de minimum 60% în S_Va, regim de înălțime parter în S_Va (în hotărâre înălțimea la S_Va: „nu e cazul”)."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Străzile propuse se echipează edilitar, iar carosabilul lor se face la strat de uzură înainte de autorizațiile de construire pe parcelele cu acces direct din ele; până la recepția construcțiilor se fac trotuarele, cu mobilier stradal (coșuri de gunoi, bănci) și iluminat stradal.",
+    "Străzile reglementate prin P.U.Z. au acces public nelimitat; pe ambele laturi ale străzii „A” se plantează aliniamente, cel puțin 24 de arbori cu circumferința de minimum 35 cm la 1 m de colet.",
+    "Terenul necesar regularizării str. Nordului (ampriză 16 m, cf. P.U.G.) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele, iar până la recepția acestora e adus la strat de uzură.",
+    "Str. Nordului, de la intersecția cu str. Romul Ladea până la amplasament, se echipează edilitar înainte de autorizațiile de construire pe parcele și se asfaltează (strat de uzură) de beneficiarii P.U.Z. până la recepția construcțiilor.",
+    "Aleea pietonală (3 m, cu acces public nelimitat, între str. Romul Ladea și subzona verde) și subzona verde se dezmembrează din parcelele inițiale și se înscriu în CF înainte de autorizațiile de construire pe parcele, și se amenajează pe baza unui proiect de specialitate înainte de recepția construcțiilor; spațiul verde are vegetație joasă, medie și înaltă, cu cel puțin 20 de arbori (circumferință de minimum 35 cm la 1 m de colet).",
+    "Autorizațiile de construire pentru investiții (altele decât infrastructura tehnico-edilitară și amenajarea spațiilor verzi) se emit numai după reamenajarea și lărgirea de către Municipalitate a intersecției str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, dar nu mai târziu de 2026.",
+    "Parcarea se face în interiorul parcelelor, cu numărul de locuri după Anexa 2 la Regulamentul P.U.G.; pe teritoriul subzonei verzi parcarea e interzisă.",
+    "Construcțiile se racordează la rețelele edilitare existente (apă, canalizare, electricitate, gaz)."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [1168, 962],
+    "en": [395052.38, 584342.87],
+    "px_per_m": 5.906,
+    "nord": 324.7
+  },
+  "repere": {
+    "X1": [584369.95, 395041.77],
+    "X2": [584260.27, 395321.29],
+    "S1": [584459.68, 395091.7],
+    "984": [584086.803, 395124.171]
+  },
+  "repere_osm": {
+    "X1": "intersecție track / Strada Nordului (x169234861_169234881)",
+    "X2": "intersecție Strada Ioan Zaicu / Strada Romul Ladea (x169234865_169234873)",
+    "S1": "intersecție Strada Romul Ladea / Strada Ștefan Ruha (x169234873_693381461)"
+  },
+  "limita_px": [
+    [999, 494],
+    [2396, 591],
+    [2396, 446],
+    [2523, 458],
+    [2514, 650],
+    [2500, 950],
+    [2485, 1290],
+    [2369, 1268],
+    [2372, 1032],
+    [1168, 962],
+    [1085, 903],
+    [1040, 818],
+    [999, 750]
+  ]
+}
