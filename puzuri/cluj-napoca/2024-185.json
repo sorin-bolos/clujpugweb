@@ -1,0 +1,308 @@
+{
+  "id": "2024-185",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 185,
+    "an": 2024,
+    "data_sedinta": "2024-04-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-185-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/185.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice, str. Maramureșului nr. 189",
+  "plansa": {
+    "pagina_pdf": 7,
+    "dpi": 200,
+    "denumire": "U 04 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "PDF-ul hotărârii are 7 pagini A4 scanate la 200 ppi: hotărârea semnată (p. 1-2), Anexa 1, R.L.U. pentru UTR S_Is* (p. 3-6), și Anexa 2, planșa U 04 Reglementări urbanistice (p. 7, singura copie). Planșa e tipărită culcat: pe pagina randată textul se citește în jos, iar nordul e spre dreapta. Cartușul: proiectant general Kalans Concept srl, cu Viomex Com srl și Promega srl, pr. nr. U 07/2022, faza P.U.Z., 2022, scara 1:1000. Planșa e redusă pe A4: 5,14 px/m, față de 7,87 px/m cât ar avea la 1:1000 și 200 ppi (cam 65 %). Tabelul de coordonate („Calculul suprafeței”) are cifre de 3-4 px și nu se citește. În legendă s-au păstrat cheia simbolurilor (în două casete, ca să rămână deoparte avizul arhitectului șef de sub ea), nota UTR S_Is* (POT maxim 35 %, CUT maxim 0,90) și cele trei rânduri de indicatori din bilanțul teritorial (POT 35 %, CUT 1,2, spațiu verde minim 50 %); au rămas deoparte rândurile cu suprafețe ale bilanțului (existent: 3069 mp în UTR Lip; propus: 3052,5 mp S_Is*, 99,46 %, și 16,5 mp pentru lărgirea str. Maramureșului, 0,54 %), profilul stradal din Anexa 6 la R.L.U. al P.U.G. (colțul din stânga sus), tabelul de coordonate, cartușul și ștampilele. Ștampila Consiliului Local se suprapune peste capetele primelor rânduri ale legendei."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa n-are inventar de coordonate lizibil. Planul topografic de bază are caroiajul Stereo 70 din 50 în 50 m: cinci cruci în interiorul ramei lui, cu etichetele pe ramă ilizibile (puncte de 3 px), așa că au fost etichetate cu `caroiaj`: pas 50 m, 5,17 px/m măsurat pe cota „adâncimea de 30 m de la aliniament” (153-157 px de la frontul parcelei la linia de 30 m; crucile dau 5,14 px/m), nordul la 90° (săgeata nordului arată spre dreapta; crucile sunt rotite cu 0,45° față de foaie). Ancora e colțul sudic al clădirii existente de la vest de parcelă, pe partea dinspre stradă, desenat la (596, 777) și prezent în OSM (clădirea 346470929, vârful 2, extrasul din 2026-11-08). Cele 5 cruci cad la 2,0-2,4 m de nodurile rețelei, toate cu același decalaj (eroarea ancorei, mult sub jumătatea de pas). Etichetarea s-a verificat și pe OSM: cu ea, axul str. Maramureșului și clădirile vecine (346470929, 597396709/597396708) cad pe cele desenate; mutată cu un pas pe Nord sau pe Est, strada ar traversa parcela. Puncte de control: C393050_589250, C393100_589200, C393100_589250, C393100_589300; punct de verificare: C393050_589200. Limita (`limita_px`) e trasată pe centrul liniei cu x-uri „Imobilul studiat CF 319771 – instituire S_Is*”, după profile de intensitate: latura vestică (sus pe planșă), dreaptă pe ultimii ~165 m, cu o ușoară frângere la ~25 m de front; latura estică, care coincide cu marginea de jos a suprafeței edificabile (Art. 1 permite construirea pe limita estică) și se continuă în fâșia de la stradă; frontul pe limita cadastrală dinspre str. Maramureșului (cu fâșia de 16,5 mp pentru lărgirea străzii, cuprinsă în cei 3069 mp); capătul nordic pe linia lungă de cadastru dintre cele două colțuri, până unde merge și tenta albastră a parcelei. Parcela are ~190 m lungime și 14-16 m lățime.",
+    "suprafata_declarata_m2": 3069.0,
+    "puncte": {},
+    "nota": "Aria limitei trasate e 3101,1 mp, cu 1,0 % peste cei 3069 mp din Art. 1, din R.L.U. (art. 4, „măsurată”) și din bilanțul teritorial (poarta pentru o limită trasată e 3 %). Scara se confirmă pe cota de 30 m: linia „adâncimea de 30 m de la aliniament” iese la 30,7 m de front pe latura vestică. Pe imaginea Esri, frontul cade pe str. Maramureșului, clădirea existentă de la stradă (în OSM 346471011) e în interiorul limitei, latura estică trece pe zidul dinspre vest al casei vecine cu acoperiș roșu (calcanul din Art. 1), iar clădirea vecină de la vest rămâne în afară; abaterile sunt de 1-2 m, cât dau transformarea Stereo 70 → WGS84 și înclinarea acoperișurilor."
+  },
+  "caroiaj": {
+    "pas_m": 50,
+    "px_per_m": 5.17,
+    "nord": 90,
+    "ancora": {
+      "px": [
+        596,
+        777
+      ],
+      "en": [
+        393075.4,
+        589182.3
+      ],
+      "sursa": "colțul sudic al clădirii existente de la vest de parcelă, pe partea dinspre stradă, desenat pe planșă la (596, 777); în OSM clădirea 346470929, vârful 2 (extrasul OSM din 2026-11-08)"
+    },
+    "cruci_px": {
+      "A": [
+        700,
+        646
+      ],
+      "B": [
+        955,
+        648
+      ],
+      "C": [
+        698,
+        904
+      ],
+      "D": [
+        954,
+        907
+      ],
+      "E": [
+        1211,
+        908
+      ]
+    }
+  },
+  "gcp_px": {
+    "C393050_589250": [
+      955,
+      648
+    ],
+    "C393100_589200": [
+      698,
+      904
+    ],
+    "C393100_589250": [
+      954,
+      907
+    ],
+    "C393100_589300": [
+      1211,
+      908
+    ]
+  },
+  "verificare_px": {
+    "C393050_589200": [
+      700,
+      646
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1226,
+      1650,
+      1512,
+      2140,
+      270
+    ],
+    [
+      1050,
+      1650,
+      1226,
+      2100,
+      270
+    ],
+    [
+      488,
+      1642,
+      584,
+      2192,
+      270
+    ],
+    [
+      597,
+      1662,
+      670,
+      2212,
+      270
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice constituite în clădiri dedicate, situate în afara zonei centrale – funcțiunea predominantă: sănătate și asistență socială; regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "1,2",
+      "h_max": "în fâșia de 30 m de la aliniament: două niveluri supraterane, (S)+P+M/E, cornișa la cel mult 8 m, Hmax 12 m; la mai mult de 30 m de aliniament: trei niveluri supraterane, (S)+P+E+M/R, cornișa la cel mult 9,5 m, Hmax 14 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-04-15",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (15.04.2024); nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Nota UTR de pe planșă dă „CUT maxim 0,90”; Art. 1 (și R.L.U., art. 16) fixează C.U.T. maxim = 1,2, cât arată și rândul de indicatori din bilanțul teritorial al aceleiași planșe.",
+    "Linia retragerii posterioare de pe planșă („alinierea la limita posterioară”, unde se termină suprafața edificabilă) nu e paralelă cu limita nordică a parcelei: pe planșa georeferențiată stă la ~7 m de ea la colțul vestic și la ~9,6 m la cel estic (±1 m). Art. 1 cere o retragere de cel puțin jumătate din înălțimea clădirii, dar minim 10 m."
+  ],
+  "conditii": [
+    "Se reglementează parcela de 3069 mp (măsurată), nr. cad. 319771, proprietatea Municipiului Cluj-Napoca, în administrarea Direcției de Asistență Socială și Medicală (Hotărârea nr. 809/2022), cu front la str. Maramureșului: toată parcela trece din UTR Lip în UTR S_Is*.",
+    "Înainte de autorizația de construire, terenul necesar regularizării str. Maramureșului (16,5 mp pe planșă) se dezmembrează din parcelă și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la aceeași îmbrăcăminte rutieră ca str. Maramureșului.",
+    "Retrageri: față de aliniament cel puțin 7 m, iar clădirea dinspre stradă preia alinierea construcției de la nr. 191; față de limita laterală vestică jumătate din înălțimea clădirii, dar minim 4 m; pe limita laterală estică, adiacent calcanului vecin (cu respectarea Codului civil dacă nu există calcan); față de limita posterioară jumătate din înălțimea clădirii, dar minim 10 m; între două clădiri de pe parcelă cel puțin înălțimea celei mai înalte, la cornișă sau atic, dar minim 6 m.",
+    "Accesul auto și pietonal se face din str. Maramureșului (R.L.U.: o poartă auto de 3,50 m și, separat, o poartă pietonală de 1,20 m).",
+    "Parcarea se organizează în interiorul parcelei, la sol și/sau în spații specializate: 1 loc auto la 200 mp AU, dar cel puțin 2, și 1 loc pentru biciclete la 200 mp AU. R.L.U.: garajele și parcajele din corpuri de clădiri nu ocupă frontul spre stradă (retrase cu minim 8 m sau în spatele unui tract al funcțiunii de bază), iar garajele independente în interiorul parcelei sunt interzise.",
+    "Toate utilitățile se racordează la rețelele publice. R.L.U.: apele meteorice nu se descarcă spre domeniul public sau spre vecini, cablurile nu se montează aerian, firidele se integrează în împrejmuiri sau clădiri, iar deșeurile se colectează într-un spațiu din interiorul parcelei, accesibil din spațiul public.",
+    "La faza D.T.A.C. documentația trece prin Comisia de Estetică Urbană.",
+    "R.L.U.: sunt admise cu condiționări locuințe de serviciu numai pentru angajați, clădiri de cazare (semi)hoteliere sau de apartamente și conversii numai către instituții și servicii publice sau de interes public; sunt interzise construcțiile provizorii, instalațiile montate pe fațade și terasamentele care afectează spațiile publice sau parcelele vecine.",
+    "R.L.U.: spațiul verde ocupă 50 % din parcelă (pe latura dinspre stradă, la accesul pietonal, vegetație joasă și medie pe 7,2 %); tăierea arborilor maturi e interzisă, cu excepția celor periculoși sau care împiedică realizarea construcțiilor.",
+    "R.L.U.: acoperișuri în șarpantă cu pante de 25-35°, învelitoare din țiglă ceramică sau tablă tip țiglă (cărămiziu, maro, gri), fațade în culori pastelate; împrejmuiri de cel mult 2,2 m, spre stradă cu soclu opac de cel mult 80 cm și parte transparentă, spre vecini opace.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ],
+  "repere": {
+    "C393050_589200": [
+      589200.0,
+      393050.0
+    ],
+    "C393050_589250": [
+      589250.0,
+      393050.0
+    ],
+    "C393100_589200": [
+      589200.0,
+      393100.0
+    ],
+    "C393100_589250": [
+      589250.0,
+      393100.0
+    ],
+    "C393100_589300": [
+      589300.0,
+      393100.0
+    ]
+  },
+  "limita_px": [
+    [
+      537,
+      879
+    ],
+    [
+      550,
+      874
+    ],
+    [
+      600,
+      852
+    ],
+    [
+      650,
+      831
+    ],
+    [
+      700,
+      808
+    ],
+    [
+      760,
+      780
+    ],
+    [
+      1000,
+      664
+    ],
+    [
+      1200,
+      567
+    ],
+    [
+      1400,
+      470
+    ],
+    [
+      1404,
+      467
+    ],
+    [
+      1448,
+      536
+    ],
+    [
+      1400,
+      562
+    ],
+    [
+      1360,
+      584
+    ],
+    [
+      1320,
+      606
+    ],
+    [
+      1280,
+      629
+    ],
+    [
+      1240,
+      648
+    ],
+    [
+      1200,
+      666
+    ],
+    [
+      1160,
+      685
+    ],
+    [
+      1120,
+      704
+    ],
+    [
+      1080,
+      723
+    ],
+    [
+      1000,
+      764
+    ],
+    [
+      960,
+      782
+    ],
+    [
+      920,
+      799
+    ],
+    [
+      880,
+      817
+    ],
+    [
+      840,
+      833
+    ],
+    [
+      800,
+      850
+    ],
+    [
+      760,
+      868
+    ],
+    [
+      720,
+      887
+    ],
+    [
+      680,
+      904
+    ],
+    [
+      620,
+      928
+    ],
+    [
+      580,
+      941
+    ],
+    [
+      560,
+      948
+    ]
+  ]
+}

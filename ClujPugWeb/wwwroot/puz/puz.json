@@ -20002,6 +20002,189 @@
   ]
  },
  {
+  "id": "2024-185",
+  "localitate": "cluj",
+  "hcl": "185/2024",
+  "data": "2024-04-15",
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice, str. Maramureșului nr. 189",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-185-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/185.pdf",
+  "utr": [
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice constituite în clădiri dedicate, situate în afara zonei centrale – funcțiunea predominantă: sănătate și asistență socială; regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "1,2",
+    "h_max": "în fâșia de 30 m de la aliniament: două niveluri supraterane, (S)+P+M/E, cornișa la cel mult 8 m, Hmax 12 m; la mai mult de 30 m de aliniament: trei niveluri supraterane, (S)+P+E+M/R, cornișa la cel mult 9,5 m, Hmax 14 m"
+   }
+  ],
+  "suprafata_m2": 3101,
+  "imagine": "puz/2024-185/plansa.webp",
+  "bounds": {
+   "west": 23.5967472,
+   "south": 46.7935122,
+   "east": 23.5980798,
+   "north": 46.79516
+  },
+  "limita": [
+   [
+    23.5978788,
+    46.7935425
+   ],
+   [
+    23.5978652,
+    46.7935651
+   ],
+   [
+    23.5978062,
+    46.793652
+   ],
+   [
+    23.5977497,
+    46.7937389
+   ],
+   [
+    23.5976882,
+    46.7938258
+   ],
+   [
+    23.5976133,
+    46.79393
+   ],
+   [
+    23.5973037,
+    46.7943466
+   ],
+   [
+    23.5970448,
+    46.7946938
+   ],
+   [
+    23.5967859,
+    46.795041
+   ],
+   [
+    23.596778,
+    46.7950479
+   ],
+   [
+    23.5969501,
+    46.7951275
+   ],
+   [
+    23.5970191,
+    46.7950443
+   ],
+   [
+    23.5970775,
+    46.7949749
+   ],
+   [
+    23.5971358,
+    46.7949056
+   ],
+   [
+    23.5971967,
+    46.7948363
+   ],
+   [
+    23.5972475,
+    46.7947668
+   ],
+   [
+    23.5972957,
+    46.7946973
+   ],
+   [
+    23.5973465,
+    46.7946279
+   ],
+   [
+    23.5973973,
+    46.7945584
+   ],
+   [
+    23.597448,
+    46.794489
+   ],
+   [
+    23.5975572,
+    46.7943502
+   ],
+   [
+    23.5976054,
+    46.7942807
+   ],
+   [
+    23.5976511,
+    46.7942112
+   ],
+   [
+    23.5976993,
+    46.7941417
+   ],
+   [
+    23.5977425,
+    46.7940721
+   ],
+   [
+    23.5977882,
+    46.7940026
+   ],
+   [
+    23.5978364,
+    46.7939331
+   ],
+   [
+    23.5978871,
+    46.7938636
+   ],
+   [
+    23.5979328,
+    46.7937941
+   ],
+   [
+    23.5979976,
+    46.7936898
+   ],
+   [
+    23.5980331,
+    46.7936201
+   ],
+   [
+    23.5980522,
+    46.7935853
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.09
+  },
+  "legenda": "puz/2024-185/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-04-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Nota UTR de pe planșă dă „CUT maxim 0,90”; Art. 1 (și R.L.U., art. 16) fixează C.U.T. maxim = 1,2, cât arată și rândul de indicatori din bilanțul teritorial al aceleiași planșe.",
+   "Linia retragerii posterioare de pe planșă („alinierea la limita posterioară”, unde se termină suprafața edificabilă) nu e paralelă cu limita nordică a parcelei: pe planșa georeferențiată stă la ~7 m de ea la colțul vestic și la ~9,6 m la cel estic (±1 m). Art. 1 cere o retragere de cel puțin jumătate din înălțimea clădirii, dar minim 10 m."
+  ],
+  "conditii": [
+   "Se reglementează parcela de 3069 mp (măsurată), nr. cad. 319771, proprietatea Municipiului Cluj-Napoca, în administrarea Direcției de Asistență Socială și Medicală (Hotărârea nr. 809/2022), cu front la str. Maramureșului: toată parcela trece din UTR Lip în UTR S_Is*.",
+   "Înainte de autorizația de construire, terenul necesar regularizării str. Maramureșului (16,5 mp pe planșă) se dezmembrează din parcelă și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la aceeași îmbrăcăminte rutieră ca str. Maramureșului.",
+   "Retrageri: față de aliniament cel puțin 7 m, iar clădirea dinspre stradă preia alinierea construcției de la nr. 191; față de limita laterală vestică jumătate din înălțimea clădirii, dar minim 4 m; pe limita laterală estică, adiacent calcanului vecin (cu respectarea Codului civil dacă nu există calcan); față de limita posterioară jumătate din înălțimea clădirii, dar minim 10 m; între două clădiri de pe parcelă cel puțin înălțimea celei mai înalte, la cornișă sau atic, dar minim 6 m.",
+   "Accesul auto și pietonal se face din str. Maramureșului (R.L.U.: o poartă auto de 3,50 m și, separat, o poartă pietonală de 1,20 m).",
+   "Parcarea se organizează în interiorul parcelei, la sol și/sau în spații specializate: 1 loc auto la 200 mp AU, dar cel puțin 2, și 1 loc pentru biciclete la 200 mp AU. R.L.U.: garajele și parcajele din corpuri de clădiri nu ocupă frontul spre stradă (retrase cu minim 8 m sau în spatele unui tract al funcțiunii de bază), iar garajele independente în interiorul parcelei sunt interzise.",
+   "Toate utilitățile se racordează la rețelele publice. R.L.U.: apele meteorice nu se descarcă spre domeniul public sau spre vecini, cablurile nu se montează aerian, firidele se integrează în împrejmuiri sau clădiri, iar deșeurile se colectează într-un spațiu din interiorul parcelei, accesibil din spațiul public.",
+   "La faza D.T.A.C. documentația trece prin Comisia de Estetică Urbană.",
+   "R.L.U.: sunt admise cu condiționări locuințe de serviciu numai pentru angajați, clădiri de cazare (semi)hoteliere sau de apartamente și conversii numai către instituții și servicii publice sau de interes public; sunt interzise construcțiile provizorii, instalațiile montate pe fațade și terasamentele care afectează spațiile publice sau parcelele vecine.",
+   "R.L.U.: spațiul verde ocupă 50 % din parcelă (pe latura dinspre stradă, la accesul pietonal, vegetație joasă și medie pe 7,2 %); tăierea arborilor maturi e interzisă, cu excepția celor periculoși sau care împiedică realizarea construcțiilor.",
+   "R.L.U.: acoperișuri în șarpantă cu pante de 25-35°, învelitoare din țiglă ceramică sau tablă tip țiglă (cărămiziu, maro, gri), fațade în culori pastelate; împrejmuiri de cel mult 2,2 m, spre stradă cu soclu opac de cel mult 80 cm și parte transparentă, spre vecini opace.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
