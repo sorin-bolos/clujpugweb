@@ -1872,6 +1872,201 @@
   ]
  },
  {
+  "id": "2026-554",
+  "localitate": "cluj",
+  "hcl": "554/2026",
+  "data": "2026-08-06",
+  "titlu": "P.U.Z. – Construire locuințe cu regim redus de înălțime, str. Voroneț – latura vestică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-554-din-2026/",
+  "pdf": "https://files.primariaclujnapoca.ro/2026/08/12/554.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (parcelele 1-10 de pe planșă): locuințe individuale și semicolective cu cel mult două unități locative (semicolectivele doar pe parcele de cel puțin 450 mp), în regim izolat sau cuplat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane (S+D+P+M, S+D+P+R, S+P+E+R sau S+P+E+M); 8 m la cornișă, 12 m maxim"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini cu acces public nelimitat (parcela 11 de pe planșă)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "4 m, parter"
+   }
+  ],
+  "suprafata_m2": 6146,
+  "imagine": "puz/2026-554/plansa.webp",
+  "bounds": {
+   "west": 23.6446554,
+   "south": 46.7979122,
+   "east": 23.646838,
+   "north": 46.7985301
+  },
+  "limita": [
+   [
+    23.6446799,
+    46.7984785
+   ],
+   [
+    23.6451286,
+    46.798475
+   ],
+   [
+    23.6451291,
+    46.7984961
+   ],
+   [
+    23.6453865,
+    46.7984916
+   ],
+   [
+    23.6453861,
+    46.7984758
+   ],
+   [
+    23.6455773,
+    46.7984728
+   ],
+   [
+    23.6455777,
+    46.7984893
+   ],
+   [
+    23.6461376,
+    46.7984778
+   ],
+   [
+    23.6461374,
+    46.7984693
+   ],
+   [
+    23.6465513,
+    46.7984615
+   ],
+   [
+    23.6465516,
+    46.7984714
+   ],
+   [
+    23.6467831,
+    46.7984666
+   ],
+   [
+    23.6465602,
+    46.7982852
+   ],
+   [
+    23.6465109,
+    46.7982383
+   ],
+   [
+    23.6464751,
+    46.7982256
+   ],
+   [
+    23.6464016,
+    46.7981724
+   ],
+   [
+    23.646311,
+    46.7980877
+   ],
+   [
+    23.6462539,
+    46.7980343
+   ],
+   [
+    23.6462094,
+    46.7979853
+   ],
+   [
+    23.6461623,
+    46.7979496
+   ],
+   [
+    23.6461576,
+    46.797953
+   ],
+   [
+    23.6461532,
+    46.7979662
+   ],
+   [
+    23.6461458,
+    46.7979795
+   ],
+   [
+    23.6461365,
+    46.7979928
+   ],
+   [
+    23.6461207,
+    46.7980115
+   ],
+   [
+    23.6460971,
+    46.7980263
+   ],
+   [
+    23.6460734,
+    46.7980398
+   ],
+   [
+    23.646045,
+    46.7980566
+   ],
+   [
+    23.6460164,
+    46.7980656
+   ],
+   [
+    23.6459878,
+    46.7980732
+   ],
+   [
+    23.6459543,
+    46.7980808
+   ],
+   [
+    23.6459112,
+    46.7980834
+   ],
+   [
+    23.6447815,
+    46.7980985
+   ],
+   [
+    23.6447729,
+    46.7981712
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.58,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2026-554/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2033-08-06"
+  },
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcele: terenul necesar modernizării străzii Voroneț, inclusiv pentru o stație de transport în comun (47 mp pe planșă), se dezmembrează, se înscrie în CF ca „drum” și se aduce la strat de uzură.",
+   "Înainte de autorizațiile de construire: subzona verde cu acces public nelimitat (parcela 11) se dezmembrează și se înscrie în CF ca „alei și spații verzi”.",
+   "Înainte de autorizațiile de construire: se execută lucrările de stabilizare a versantului și de consolidare a amplasamentului, după un proiect autorizat, conform NP 126-2010 și concluziilor studiului geotehnic.",
+   "Înainte de autorizațiile de construire: strada nouă (parcela 12, ampriză 9 m, cu loc de întoarcere, din str. Voroneț) se înscrie în CF ca „drum”, se echipează edilitar și se aduce la strat de uzură, după un proiect autorizat; are acces public nelimitat. Racordul auto la str. Voroneț e în sarcina investitorului, conform NP 051/2012, fără modificarea cotei trotuarului existent.",
+   "Înainte de recepția construcțiilor: se amenajează subzona verde S_Va* după un proiect autorizat (plantații înalte, medii și joase, mobilier urban).",
+   "Strada nouă, terenul pentru modernizarea str. Voroneț și subzona verde sunt amenajate și întreținute de beneficiari până la trecerea lor în domeniul public, odată cu strada Voroneț; toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Liu*: clădirile se retrag cel puțin 3 m de la aliniament, iar garajele cel puțin 6 m (la parcela 10 garajul poate sta pe aliniament); toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule de grădină (cel mult 25 mp în total) și amenajări neacoperite; parcelele 1, 2 și 10 respectă retragerile de pe planșă. Față de limitele laterale cel puțin 3 m (cuplare pe o limită doar cu convenție de vecinătate; garajele se pot alipi limitelor laterale cu calcan de cel mult 2,8 m), față de limita posterioară cel puțin 6 m.",
+   "Liu*: accesul pe parcele se face din strada nouă; parcelele 1 și 2 au acces din str. Voroneț; accesul carosabil are cel mult 6 m lățime. Parcarea se face pe parcelă: cel puțin un loc pentru o locuință cu arie utilă sub 100 mp și două peste 100 mp.",
+   "Liu*: toate clădirile se racordează la rețele; apele meteorice nu se conduc spre domeniul public sau spre vecini; firidele de branșament se integrează în împrejmuire sau clădire, cablurile nu se montează aerian, iar fiecare parcelă are un spațiu pentru colectarea deșeurilor.",
+   "S_Va*: retrageri de cel puțin 3 m față de aliniament și de limitele laterale și posterioară; acces din strada nouă și acces pietonal de serviciu; parcarea e interzisă în spațiul verde; se prevede iluminat public, iar cablurile nu se montează aerian."
+  ]
+ },
+ {
   "id": "2026-553",
   "localitate": "cluj",
   "hcl": "553/2026",
