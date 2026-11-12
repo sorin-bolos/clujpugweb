@@ -24701,6 +24701,148 @@
   ]
  },
  {
+  "id": "2023-31",
+  "localitate": "cluj",
+  "hcl": "31/2023",
+  "data": "2023-01-18",
+  "titlu": "P.U.Z. de urbanizare, str. Speranței – latura nordică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-31-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/01/30/HCL-31.pdf",
+  "utr": [
+   {
+    "cod": "Liu-m",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective/familiale (acestea pe parcele de peste 450 mp); regim de construire izolat sau cuplat; retrageri: 5 m de la aliniamentul propus al str. Speranței, 3 m de la strada nouă (garajele min. 6 m), laterale H/2 dar min. 3 m, posterioare H dar min. 6 m",
+    "pot_max": "35%",
+    "cut_max": "0,9 ADC/mp",
+    "h_max": "8 m la cornișă, 12 m la coamă; trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde: scuaruri, grădini, parcuri cu acces public nelimitat (plantații înalte, medii și joase, mobilier urban)",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 10402,
+  "imagine": "puz/2023-31/plansa.webp",
+  "bounds": {
+   "west": 23.6392482,
+   "south": 46.7403016,
+   "east": 23.6409857,
+   "north": 46.7418542
+  },
+  "limita": [
+   [
+    23.6392857,
+    46.7412029
+   ],
+   [
+    23.640295,
+    46.7418276
+   ],
+   [
+    23.6409354,
+    46.7413534
+   ],
+   [
+    23.6408517,
+    46.7412516
+   ],
+   [
+    23.6405168,
+    46.7408748
+   ],
+   [
+    23.6403496,
+    46.7407179
+   ],
+   [
+    23.6402042,
+    46.7405945
+   ],
+   [
+    23.6401421,
+    46.7405243
+   ],
+   [
+    23.6402054,
+    46.7404945
+   ],
+   [
+    23.6401227,
+    46.7404041
+   ],
+   [
+    23.6400793,
+    46.74037
+   ],
+   [
+    23.6400223,
+    46.7403335
+   ],
+   [
+    23.6398513,
+    46.7405778
+   ],
+   [
+    23.639829,
+    46.7406
+   ],
+   [
+    23.63969,
+    46.7407082
+   ],
+   [
+    23.6396572,
+    46.7407366
+   ],
+   [
+    23.639499,
+    46.7408909
+   ],
+   [
+    23.6394362,
+    46.7409594
+   ],
+   [
+    23.6393411,
+    46.7410882
+   ],
+   [
+    23.6393222,
+    46.7411218
+   ],
+   [
+    23.6392902,
+    46.7411899
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 6,
+   "rms_m": 0.1
+  },
+  "legenda": "puz/2023-31/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-01-18"
+  },
+  "diferente_fata_de_plansa": [
+   "C.U.T. în S_Va* (Art. 1): hotărârea dă max. 0,1; caseta „Indici urbanistici” a planșei scrie „C.U.T. max = 0,01” (P.O.T. max 5% e același).",
+   "Înălțimea în Liu-m (Art. 1): hotărârea fixează 8 m la cornișă, 12 m la coamă și trei niveluri supraterane; planșa nu dă înălțimi (caseta „Indici urbanistici” are doar P.O.T. și C.U.T.).",
+   "Locuințele semicolective (Art. 1): hotărârea le permite numai pe parcele de peste 450 mp; planșa nu face distincția."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcele: terenul necesar lărgirii str. Speranței la ampriza de 18 m, pe tronsonul de lângă P.U.Z., se dezmembrează, se înscrie în C.F. ca „drum” și se aduce la aceeași îmbrăcăminte ca strada.",
+   "Strada nouă din P.U.Z., cu ampriza de 9 m, se înscrie în C.F. ca „drum”, se echipează edilitar, iar carosabilul ei (cu locurile de parcare de la nivelul lui) se face la strat de uzură, pe baza unui proiect de specialitate.",
+   "Înainte de recepția construcțiilor: partea pietonală a străzii noi se aduce la strat de uzură și se amenajează fâșia verde plantată de lângă carosabil; strada se echipează complet (iluminat, coșuri de gunoi), cu minimum 10 arbori de aliniament cu circumferința de min. 35 cm la 1 m de colet.",
+   "Spațiul verde cu acces public nelimitat din S_Va* se amenajează pe baza unui proiect de specialitate (plantații înalte, medii și joase, mobilier urban).",
+   "Accesul dinspre Gheorgheni trece prin intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanciului, cu capacitatea depășită: autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară sau spații verzi) se emit numai după reamenajarea și lărgirea intersecției de către Municipalitate, dar nu mai târziu de 2026.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2022-903",
   "localitate": "cluj",
   "hcl": "903/2022",

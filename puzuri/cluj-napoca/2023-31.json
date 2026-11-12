@@ -1,0 +1,236 @@
+{
+  "id": "2023-31",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 31,
+    "an": 2023,
+    "data_sedinta": "2023-01-18",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-31-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/01/30/HCL-31.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Speranței – latura nordică",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 96,
+    "denumire": "Planșa 2 – Reglementări urbanistice – zonificare",
+    "scara": "1:500 (cartuș); desenul de pe p. 17 e la ~1:515 (7,40 px/m la 96 ppi)",
+    "nota": "Anexa 2, p. 17: planșa color mare (1971×2244 px, 96 ppi), proiect nr. 01-03/2018, data 01.2021, cu viza Comisiei tehnice „HCL nr. 31 din 18.01.2023” și avizul Arhitectului șef nr. 130/14.07.2022. P. 11 e aceeași planșă, alb-negru, micșorată pe A4 și ștampilată „Anexa 2 la Hotărârea nr. 31/2023”; p. 18 (și p. 12, pe A4) e Planșa 4 – Proprietatea asupra terenurilor (Anexa 3), pe același plan de bază, dar fără caroiaj; a ajutat la citirea traseului limitei zonei reglementate, mai curat desenat acolo. S-a folosit p. 17. Legenda are două casete: cheia simbolurilor (limite, zonificare funcțională, reglementări) și „Indici urbanistici” pe UTR, cu nota despre servitutea pentru modernizarea str. Speranței; au rămas pe dinafară profilele stradale, bilanțul teritorial și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate. Are caroiajul Stereo 70 din 50 în 50 m al planului topografic (sc. 1:500, „Sistem de proiecție Stereo 1970”), cu etichetele pe chenar (Est 396150, 396200, 396250, 396300 sus; Nord 583400 ... 583200 în stânga) și crucile desenate în desen, pe intersecțiile liniilor etichetate. Din cele 20 de noduri, 8 au crucea curată; centrul fiecăreia e citit pe brațe la zoom 8× și pus la `repere` ca C<E>_<N>. Control: C396150_583400, C396250_583400, C396150_583350, C396300_583250, C396150_583200, C396300_583200; verificare: C396200_583400, C396250_583200. Celelalte sunt acoperite de hașuri, puncte, linii sau texte, ori abia se văd, și au rămas pe dinafară. Limita e trasată (`limita_px`) pe linia „Limita zonei reglementate” (puncte pătrate mici), nu pe cea a zonei studiate (puncte mari, 15552 mp): laturile de NV și NE sunt drepte potrivite pe linia neagră groasă cu puncte (abatere 0,5-0,8 px), colțurile de N și E intersecțiile lor; latura de SE e urmărită rând cu rând pe linia roșu-închis întreruptă (are trei frângeri ușoare); capătul de sud și latura de V (marginea de est a str. Speranței existente) urmează centrele punctelor pătrate, găsite automat și simplificate la 1 px. Verificare independentă: axele OSM (extrasul din 2026-11-08) ale străzilor Speranței și Dimitrie Onciul cad, cu potrivirea pe cruci, peste străzile desenate la câțiva metri.",
+    "suprafata_declarata_m2": 10418.16,
+    "puncte": {},
+    "nota": "Suprafața: 10418,16 mp, totalul bilanțului teritorial al planșei (existent și propus; zona reglementată). Limita trasată dă 10401,6 mp (-0,2%). Potrivirea pe cruci: 7,40 px/m, rotație -0,05°, rms 0,10 m; verificare 0,13 și 0,22 m."
+  },
+  "repere": {
+    "C396150_583400": [
+      583400.0,
+      396150.0
+    ],
+    "C396200_583400": [
+      583400.0,
+      396200.0
+    ],
+    "C396250_583400": [
+      583400.0,
+      396250.0
+    ],
+    "C396150_583350": [
+      583350.0,
+      396150.0
+    ],
+    "C396300_583250": [
+      583250.0,
+      396300.0
+    ],
+    "C396150_583200": [
+      583200.0,
+      396150.0
+    ],
+    "C396250_583200": [
+      583200.0,
+      396250.0
+    ],
+    "C396300_583200": [
+      583200.0,
+      396300.0
+    ]
+  },
+  "gcp_px": {
+    "C396150_583400": [
+      247.5,
+      423.5
+    ],
+    "C396250_583400": [
+      990.5,
+      424.5
+    ],
+    "C396150_583350": [
+      246.5,
+      793.5
+    ],
+    "C396300_583250": [
+      1359.5,
+      1529.5
+    ],
+    "C396150_583200": [
+      246.5,
+      1900.5
+    ],
+    "C396300_583200": [
+      1359.5,
+      1899.5
+    ]
+  },
+  "verificare_px": {
+    "C396200_583400": [
+      619.5,
+      423.5
+    ],
+    "C396250_583200": [
+      990.0,
+      1899.5
+    ]
+  },
+  "limita_px": [
+    [
+      289.5,
+      1186.5
+    ],
+    [
+      871.3,
+      683.5
+    ],
+    [
+      1227.4,
+      1078.3
+    ],
+    [
+      1178.4,
+      1161.0
+    ],
+    [
+      982.8,
+      1467.0
+    ],
+    [
+      885.6,
+      1594.1
+    ],
+    [
+      801.3,
+      1694.0
+    ],
+    [
+      765.0,
+      1751.0
+    ],
+    [
+      800.5,
+      1776.0
+    ],
+    [
+      752.2,
+      1849.4
+    ],
+    [
+      727.1,
+      1876.9
+    ],
+    [
+      694.2,
+      1906.3
+    ],
+    [
+      600.9,
+      1704.4
+    ],
+    [
+      588.6,
+      1686.0
+    ],
+    [
+      511.4,
+      1596.0
+    ],
+    [
+      493.2,
+      1572.4
+    ],
+    [
+      405.8,
+      1444.4
+    ],
+    [
+      371.2,
+      1387.6
+    ],
+    [
+      319.2,
+      1281.1
+    ],
+    [
+      309.0,
+      1253.4
+    ],
+    [
+      291.9,
+      1197.2
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1602,
+      44,
+      1948,
+      800
+    ],
+    [
+      1602,
+      1691,
+      1948,
+      1768
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu-m",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și semicolective/familiale (acestea pe parcele de peste 450 mp); regim de construire izolat sau cuplat; retrageri: 5 m de la aliniamentul propus al str. Speranței, 3 m de la strada nouă (garajele min. 6 m), laterale H/2 dar min. 3 m, posterioare H dar min. 6 m",
+      "pot_max": "35%",
+      "cut_max": "0,9 ADC/mp",
+      "h_max": "8 m la cornișă, 12 m la coamă; trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M, D+P+R"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde: scuaruri, grădini, parcuri cu acces public nelimitat (plantații înalte, medii și joase, mobilier urban)",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-01-18"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "C.U.T. în S_Va* (Art. 1): hotărârea dă max. 0,1; caseta „Indici urbanistici” a planșei scrie „C.U.T. max = 0,01” (P.O.T. max 5% e același).",
+    "Înălțimea în Liu-m (Art. 1): hotărârea fixează 8 m la cornișă, 12 m la coamă și trei niveluri supraterane; planșa nu dă înălțimi (caseta „Indici urbanistici” are doar P.O.T. și C.U.T.).",
+    "Locuințele semicolective (Art. 1): hotărârea le permite numai pe parcele de peste 450 mp; planșa nu face distincția."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcele: terenul necesar lărgirii str. Speranței la ampriza de 18 m, pe tronsonul de lângă P.U.Z., se dezmembrează, se înscrie în C.F. ca „drum” și se aduce la aceeași îmbrăcăminte ca strada.",
+    "Strada nouă din P.U.Z., cu ampriza de 9 m, se înscrie în C.F. ca „drum”, se echipează edilitar, iar carosabilul ei (cu locurile de parcare de la nivelul lui) se face la strat de uzură, pe baza unui proiect de specialitate.",
+    "Înainte de recepția construcțiilor: partea pietonală a străzii noi se aduce la strat de uzură și se amenajează fâșia verde plantată de lângă carosabil; strada se echipează complet (iluminat, coșuri de gunoi), cu minimum 10 arbori de aliniament cu circumferința de min. 35 cm la 1 m de colet.",
+    "Spațiul verde cu acces public nelimitat din S_Va* se amenajează pe baza unui proiect de specialitate (plantații înalte, medii și joase, mobilier urban).",
+    "Accesul dinspre Gheorgheni trece prin intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanciului, cu capacitatea depășită: autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară sau spații verzi) se emit numai după reamenajarea și lărgirea intersecției de către Municipalitate, dar nu mai târziu de 2026.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+}
