@@ -1,0 +1,77 @@
+{
+  "id": "2021-251",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 16.06.2026 (5 ani de la ședința din 16.06.2021, Art. 2 din hotărâre: „perioada de valabilitate a documentației de cinci ani”); prelungiri: niciuna în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 251,
+    "an": 2021,
+    "data_sedinta": "2021-06-16",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-251-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/01/10/HCL-251-din-2021-1.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – str. Moș Ion Roată",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 300,
+    "denumire": "Planșa U04 – Plan reglementări urbanistice",
+    "scara": "",
+    "nota": "Citit înainte de marcarea ca expirat: planșa U04 (Anexa 2) e pe p. 19, redusă pe A4 (scan 300 ppi); scara din cartuș e greu lizibilă (pare 1:1000). Celelalte planșe: p. 18 imagine, p. 20 U06 regimul juridic (Anexa 3), p. 21 U-03 Masterplan cu cele 6 etape (Anexa 4). P.U.Z.-ul reglementează specific doar etapa 1, 4,6 ha. Nu a fost georeferențiată."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "Lc1",
+      "denumire": "Ansambluri care includ locuirea colectivă și dotările aferente (parcelele P1, P2; P3 cu restricție de construire MAPN)",
+      "pot_max": "40% (la nivelul ansamblului)",
+      "cut_max": "1,65 (la nivelul ansamblului)",
+      "h_max": "36 m la cornișă, (1-3)S+P+11E+R"
+    },
+    {
+      "cod": "S_Is1",
+      "denumire": "Subzonă de instituții și servicii publice (învățământ și sănătate) în clădiri dedicate – creșă/grădiniță",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "12 m, trei niveluri supraterane ((S)+P+2E, (S)+P+E+R/M, D+P+E, D+P+R)"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "12 m, (D)+P+E"
+    }
+  ],
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "P.U.Z. de urbanizare cu masterplan în 6 etape (planșa U-03); prezentul P.U.Z. reglementează specific doar etapa 1, 4,6 ha.",
+    "Parcela P2 poate rămâne neparcelată sau poate fi parcelată în loturi cu front la stradă și peste 3000 mp.",
+    "Recepția construcțiilor numai după echiparea edilitar-urbanistică completă a teritoriului.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari; toate străzile au acces public nelimitat.",
+    "Terenul de 2000 mp din U.T.R. S_Is1 trece în domeniul public; creșa/grădinița, cu parcela ei, trece în proprietate publică cu titlu gratuit înainte de recepția oricărei alte construcții din P.U.Z.",
+    "Spațiul verde public S_Va (~2600 mp) se amenajează pe baza unui proiect de specialitate înainte de recepția ultimului imobil.",
+    "Străzile noi (ampriză 21 m și 14 m) se fac la piatră cilindrată înainte de autorizația de construire; până la 1.09.2022, dar nu mai târziu de recepția primului imobil, se echipează edilitar complet (cu iluminat) și se aduc la strat de uzură, cu arbori de aliniament (circumferință min. 35 cm).",
+    "Înainte de recepția primului imobil, investitorul realizează pe cheltuiala sa lărgirea la 2 benzi a giratoriului Meșter Manole–Calea Someșeni, cu bretea de dreapta liberă spre Calea Someșeni, și un giratoriu nou pe Calea Someșeni la intersecția cu str. Moș Ion Roată (Avizul Siguranța Circulației nr. 530126/446/2.10.2020).",
+    "La faza D.T.A.C. se obține avizul Autorității Aeronautice Civile Române.",
+    "În U.T.R. Lc1 se plantează cel puțin 170 de arbori cu balot (circumferință min. 35 cm) pe spațiul verde pe sol natural."
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-06-16"
+  }
+}
