@@ -1,0 +1,160 @@
+{
+  "id": "2024-22",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 22,
+    "an": 2024,
+    "data_sedinta": "2024-01-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-22-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/02/01/HCL-22.pdf"
+  },
+  "titlu": "P.U.Z. – de urbanizare, str. Eugen Ionesco nr. 102-104-str. Carierei",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 96,
+    "denumire": "Planșa A.04 Reglementări urbanistice – Zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul hotărârii are 25 de pagini: hotărârea semnată (p. 1-2), Anexa 1 R.L.U. (p. 3-9), Anexa 2, planșa A.04 Reglementări urbanistice – Zonificare, redusă pe A4, tipărită culcat și în tonuri de gri (p. 10), Anexa 3, planșa A.05 (în hotărâre „Circulația terenurilor”, în cartuș „Proprietatea asupra terenurilor”), tot pe A4 (p. 11), avizele (p. 12-17, între ele Avizul nr. 100/29.06.2023, care modifică Avizul arhitectului șef nr. 49/21.03.2023 la accese: pietonal și auto din str. Eugen Ionesco), extrasul din P.U.G. (p. 18), planșele A.04 și A.05 color, pe A3 (p. 19-20), apoi raportul informării și consultării publicului (p. 21-25). S-a folosit p. 19: același desen ca Anexa 2 (aceleași tabele, aceleași etichete), color și mai clar; e scanată la 96 ppi, deci planșa iese la 7,5 px/m. Rubrica „Scara” din cartușul planșei A.04 e goală; 1:500 e scara tipărită pe planșa A.05 a aceluiași proiect (p. 20) și se potrivește cu fitul (7,5 px/m la 96 ppi, cât dă 1:500: 7,56). Cartușul: S.C. Loftarhitectura S.R.L., pr. nr. 07/2020, faza P.U.Z., 30.09.2020, planșa nr. A.04. Nordul e în sus (rotația fitului e 0,1°). Legenda ia cheia simbolurilor și tabelul „Parametri” (suprafețele existente/propuse și P.O.T./C.U.T. maxime pentru UTR S_Va* și Liu*); au rămas deoparte inventarul de coordonate, ștampilele, semnăturile și cartușul. Pe planșă avizul de oportunitate apare o dată ca „nr. 90 din 19.07.2021” (legenda) și o dată ca „nr. 94 - 18.07.2021” (eticheta parcelei S_Va*); hotărârea îl citează ca nr. 94 din 19.07.2021. Eticheta „UTR Liu*” din stânga sus a desenului, cu numele proprietarilor, și eticheta fâșiei de lărgire din dreapta cad în afara decupajului (limita plus 1,5 m), deci nu apar în imaginea publicată."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate de pe planșă („Coordonate pct. de contur”, X = Nord, Y = Est, cu „Lungimi laturi D(i,i+1)”), 9 puncte, numerotate în ordinea conturului, S(1) = 1160,17 mp, P = 164,855 m; 1160 mp e și suprafața din Art. 1 și totalul tabelului „Parametri” (879 + 174 + 107 mp). Inventarul e limita parcelei studiate (linia roșie întreruptă), cu fâșia de lărgire a str. Eugen Ionesco și parcela S_Va* incluse. Doar trei colțuri sunt ascuțite: 1 (nord, colțul str. Carierei cu str. Eugen Ionesco), 2 (est) și 4 (sud-vest, unghi de 17°); 3 stă pe latura dreaptă de sud (2-3-4 aproape coliniare), iar 5-9 urmează curba str. Carierei. Puncte de control: 1, 2, 4 și 9 (cotitura de 30° de pe latura de vest). Puncte de verificare: 5 (cotitura de 21° de lângă colțul de sud-vest) și 6 (cotitura de 8°). Colțurile s-au luat ca intersecții ale dreptelor potrivite pe pixelii roșii ai liniei de limită, de o parte și de alta a fiecărui colț; desenat peste planșă, conturul calculat urmează linia roșie pe toată lungimea ei.",
+    "suprafata_declarata_m2": 1160.17,
+    "puncte": {
+      "1": [
+        583026.145,
+        392143.769
+      ],
+      "2": [
+        582996.212,
+        392163.257
+      ],
+      "3": [
+        582979.581,
+        392125.261
+      ],
+      "4": [
+        582971.512,
+        392106.997
+      ],
+      "5": [
+        582977.36,
+        392113.688
+      ],
+      "6": [
+        582987.577,
+        392119.017
+      ],
+      "7": [
+        582996.263,
+        392122.058
+      ],
+      "8": [
+        583001.91,
+        392124.397
+      ],
+      "9": [
+        583011.483,
+        392127.489
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 35.718,
+      "2": 41.476,
+      "3": 19.967,
+      "4": 8.886,
+      "5": 11.523,
+      "6": 9.203,
+      "7": 6.112,
+      "8": 10.06,
+      "9": 21.909
+    },
+    "perimetru_declarat_m": 164.855,
+    "nota": "Cifrele tabelului au 6-7 px la 96 ppi, dar se citesc mărite de 4 ori; toate cele 9 laturi tipărite se potrivesc la 1 cm, perimetrul la fel, iar aria coordonatelor, 1160,2 mp, cu S = 1160,17 mp. Planșa n-are caroiaj Stereo 70 etichetat; nici nu a fost nevoie de el."
+  },
+  "gcp_px": {
+    "1": [
+      762.1,
+      218.0
+    ],
+    "2": [
+      907.4,
+      446.5
+    ],
+    "4": [
+      482.7,
+      633.6
+    ],
+    "9": [
+      637.8,
+      330.4
+    ]
+  },
+  "verificare_px": {
+    "5": [
+      532.1,
+      587.7
+    ],
+    "6": [
+      572.3,
+      512.4
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      238,
+      690,
+      1074,
+      837
+    ],
+    [
+      238,
+      837,
+      833,
+      1046
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe semicolective (cel mult două unități locative pe parcelă, suprapuse sau alipite) și anexele lor (garaje, filigorii, împrejmuiri, platforme, amenajări exterioare, piscine); regim de construire deschis. O singură parcelă construibilă, de 879 mp după planșă.",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă, 12 m în total; două niveluri supraterane plus o mansardă sau un nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Spații verzi – scuaruri, grădini, parcuri cu acces public nelimitat: plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule. Parcela de 174 mp din colțul de sud-vest, care trece gratuit în domeniul public.",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "5 m la cornișă; (D)+P sau (S)+P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2027-01-22",
+    "verificat": "2026-11-12: Art. 2, trei ani de la aprobare (22.01.2024); nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa nu dă nici regimul de înălțime, nici înălțimi pentru UTR Liu* și S_Va* (tabelul „Parametri” are doar suprafețe, P.O.T. și C.U.T.); Art. 1 le fixează: în Liu* 8 m la cornișă și 12 m în total, cel mult (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, iar în S_Va* 5 m la cornișă, (D)+P sau (S)+P."
+  ],
+  "conditii": [
+    "Se reglementează parcela cu nr. cad. 265457 (1160 mp, proprietate privată), la colțul str. Eugen Ionesco cu str. Carierei: o parcelă construibilă (UTR Liu*, 879 mp), o parcelă de spațiu verde cu acces public nelimitat (UTR S_Va*, 174 mp) și fâșia de 107 mp pentru lărgirea str. Eugen Ionesco (suprafețele parcelelor sunt cele de pe planșă).",
+    "Înainte de autorizația de construire, terenul necesar lărgirii str. Eugen Ionesco se dezmembrează din parcelă și se înscrie în CF ca „drum”; până la recepția construcției se aduce la strat de uzură și se transferă gratuit în domeniul public.",
+    "Spațiul verde cu acces public nelimitat (UTR S_Va*) se amenajează după un proiect de specialitate, cu cel puțin 3 arbori maturi cu circumferința de minim 35 cm măsurată la 1 m de la colet, și se transferă gratuit în domeniul public înainte de recepția construcției, după planșa A.05 Circulația terenurilor.",
+    "Noul acces auto, din str. Eugen Ionesco, se amenajează conform normativului NP051/2012, prin grija și pe cheltuiala investitorului, de o firmă specializată, înainte de recepția lucrărilor (avizul Serviciului Siguranța Circulației nr. 604914/446/29.06.2023).",
+    "La faza D.T.A.C. documentația trece prin Comisia de Estetică Urbană.",
+    "Împrejmuirea de la intersecția cu str. Eugen Ionesco se face cu teșituri pe ambele colțuri, cu raza de 2 m.",
+    "Toate investițiile propuse prin P.U.Z. se suportă de beneficiari.",
+    "Retrageri în UTR Liu*: minim 5 m față de aliniament (str. Carierei și str. Eugen Ionesco), minim 3 m față de limita laterală (sudică), față de limita posterioară cel puțin înălțimea clădirii, dar minim 6 m; între două clădiri de pe aceeași parcelă cel puțin înălțimea celei mai înalte, măsurată la cornișă sau atic, dar minim 6 m.",
+    "În UTR Liu* accesul pietonal și auto se face din str. Eugen Ionesco, iar parcarea în interiorul parcelei: un loc pentru o locuință cu A.U. sub 100 mp, două peste 100 mp, două pentru servicii de proximitate. Toate utilitățile se asigură prin racordare la rețelele edilitare publice.",
+    "În UTR S_Va*: retrageri de minim 3 m față de aliniament și de limitele laterale și posterioară; parcarea e interzisă, în afara accesului ocazional pentru întreținere, intervenții și transport de materiale; în zona de întreținere se amenajează un spațiu pentru colectarea deșeurilor, accesibil din spațiul public, și unul pentru resturi vegetale (compost)."
+  ]
+}
