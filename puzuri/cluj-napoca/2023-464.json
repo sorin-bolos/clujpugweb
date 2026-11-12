@@ -1,0 +1,45 @@
+{
+  "id": "2023-464",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 464,
+    "an": 2023,
+    "data_sedinta": "2023-05-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-464-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/05/22/HCL-464.pdf"
+  },
+  "titlu": "Modificarea Hotărârii nr. 75/2023 (de aprobarea P.U.Z. de urbanizare – dezvoltare ansamblu mixt, str. Bună Ziua – nord)",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "PDF-ul hotărârii (HCL-464.pdf) are o singură pagină A4, scanată la 300 ppi: textul hotărârii, fără anexe și fără planșă. Hotărârea modifică HCL 75/2023 (P.U.Z. de urbanizare – dezvoltare ansamblu mixt, str. Bună Ziua – nord): Art. I îndreaptă o eroare materială din Art. 1 – una dintre parcelele reglementate are nr. cad. 331640, nu 336140; Art. II – celelalte prevederi rămân neschimbate. Nu stabilește o valabilitate proprie. Integrată pe 2026-11-12 în rețeta P.U.Z. de bază, 2023-75 (modificat_de, diferențe), publicată în același commit după planșa A.2.3 din HCL 75/2023 și inventarele de coordonate ale celor 8 parcele; nr. cad. 331640 corespunde parcelei de 755 mp de pe latura de est (inventarul N.C. 331640 de pe planșa A.2.4)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [
+    "75/2023"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Celelalte prevederi ale HCL 75/2023 rămân neschimbate (Art. II)."
+  ],
+  "hotarare_text": "documente/2023-464/hotarare.txt",
+  "stare": "integrat",
+  "integrat_in": "2023-75"
+}

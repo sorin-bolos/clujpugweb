@@ -22889,6 +22889,220 @@
   ]
  },
  {
+  "id": "2023-75",
+  "localitate": "cluj",
+  "hcl": "75/2023",
+  "data": "2023-02-02",
+  "titlu": "P.U.Z. de urbanizare – dezvoltare ansamblu mixt, Str. Bună ziua – nord",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-75-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/02/09/HCL-75.pdf",
+  "utr": [
+   {
+    "cod": "M3_CBZ",
+    "denumire": "Zonă mixtă cu regim de construire deschis (parcela I): locuire colectivă, comerț, alimentație publică, birouri, servicii, cultură, învățământ, sănătate, turism, agrement și sport; locuirea/birourile – cel mult 30% din suprafața utilă a imobilului mixt",
+    "pot_max": "40%",
+    "cut_max": "2,2",
+    "h_max": "11 niveluri supraterane ((1-4S)+D+P+Mez+8E): 40 m la cornișă, 45 m total, plus un etaj tehnic de cel mult 20% din ultimul nivel"
+   },
+   {
+    "cod": "S_Is_CBZ",
+    "denumire": "Subzonă de instituții și servicii publice (parcela II): grădiniță și creșă",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "3 niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R): 8 m la cornișă, 12 m total"
+   }
+  ],
+  "suprafata_m2": 19261,
+  "imagine": "puz/2023-75/plansa.webp",
+  "bounds": {
+   "west": 23.6030381,
+   "south": 46.7495731,
+   "east": 23.6050559,
+   "north": 46.7513184
+  },
+  "limita": [
+   [
+    23.6032811,
+    46.7503603
+   ],
+   [
+    23.603218,
+    46.7505946
+   ],
+   [
+    23.6032139,
+    46.7506098
+   ],
+   [
+    23.6031318,
+    46.7509018
+   ],
+   [
+    23.6031316,
+    46.7509018
+   ],
+   [
+    23.6030648,
+    46.7511402
+   ],
+   [
+    23.6039788,
+    46.7512754
+   ],
+   [
+    23.6040861,
+    46.7512913
+   ],
+   [
+    23.6041566,
+    46.7510442
+   ],
+   [
+    23.604559,
+    46.7511001
+   ],
+   [
+    23.604559,
+    46.7511001
+   ],
+   [
+    23.6046248,
+    46.7511093
+   ],
+   [
+    23.6046881,
+    46.7511198
+   ],
+   [
+    23.6047201,
+    46.7510046
+   ],
+   [
+    23.6047778,
+    46.7507975
+   ],
+   [
+    23.6047861,
+    46.7507677
+   ],
+   [
+    23.6048281,
+    46.7506202
+   ],
+   [
+    23.6048357,
+    46.7505934
+   ],
+   [
+    23.6048643,
+    46.7504927
+   ],
+   [
+    23.6048924,
+    46.750393
+   ],
+   [
+    23.6049369,
+    46.7502349
+   ],
+   [
+    23.6049473,
+    46.750199
+   ],
+   [
+    23.6049753,
+    46.7501029
+   ],
+   [
+    23.6049825,
+    46.7500782
+   ],
+   [
+    23.6050241,
+    46.7499297
+   ],
+   [
+    23.6049048,
+    46.749902
+   ],
+   [
+    23.6046099,
+    46.7498332
+   ],
+   [
+    23.6045074,
+    46.7498148
+   ],
+   [
+    23.6045023,
+    46.7498326
+   ],
+   [
+    23.6044996,
+    46.7498421
+   ],
+   [
+    23.6043283,
+    46.7498004
+   ],
+   [
+    23.6036324,
+    46.7496316
+   ],
+   [
+    23.6035262,
+    46.7496058
+   ],
+   [
+    23.6034889,
+    46.7495967
+   ],
+   [
+    23.6033425,
+    46.7501297
+   ],
+   [
+    23.6033023,
+    46.7502805
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.41
+  },
+  "legenda": "puz/2023-75/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-02-02"
+  },
+  "diferente_fata_de_plansa": [
+   "UTR M3_CBZ: planșa dă regim de înălțime „maxim 12 niveluri supraterane”; hotărârea admite 11 niveluri supraterane, (1-4S)+D+P+Mez+8E, cu H cornișă 40 m și H max 45 m, plus un etaj tehnic de cel mult 20% din suprafața construită a ultimului nivel (Art. 1).",
+   "UTR S_Is_CBZ: planșa dă „maxim 5 niveluri supraterane”; hotărârea admite trei niveluri supraterane – (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R – cu H cornișă 8 m și H max 12 m (Art. 1).",
+   "Art. 1 enumera inițial printre parcele nr. cad. 336140, pe când planșa și inventarul au 331640 (S=755 mp); textul a fost îndreptat, acum spun la fel (modificat prin HCL 464/2023)."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire pentru imobilul mixt, terenul necesar regularizării str. Bună Ziua se dezmembrează din parcela inițială și se înscrie în CF ca „drum”.",
+   "Tot înainte de autorizație, pe tronsonul din dreptul P.U.Z., str. Bună Ziua se lărgește cu o bandă carosabilă de 3 m și un trotuar nou de 2 m, cu mutarea/refacerea amenajărilor existente, semnalizare rutieră orizontală și verticală și rețele pluviale și edilitare (inclusiv iluminat public), după avizul Serviciului Siguranța circulației nr. 724873/446/8.09.2022.",
+   "Înainte de recepția imobilului mixt, clădirea de pe parcela II (grădiniță și creșă, finisată), cu terenul ei (UTR S_Is_CBZ), trece gratuit în proprietatea Municipiului Cluj-Napoca, iar municipiul primește drept de trecere pe strada nouă (parte din parcela I).",
+   "Spațiul verde compact cu acces public nelimitat, lângă str. Bună Ziua, de cel puțin 25% din suprafața parcelei I, se face după un proiect de specialitate: vegetație joasă, medie și înaltă (cel puțin 11 arbori cu circumferința de minimum 35 cm la 1 m de la colet), luciu de apă, alei, mobilier urban, amenajări pentru joacă, odihnă și sport.",
+   "Strada perimetrală de 12 m (parțial aleea Gogu Constantinescu), care deservește ansamblul și dă acces la parcela II, se echipează edilitar (inclusiv iluminat) și se amenajează după un proiect de specialitate.",
+   "Spațiul verde cu acces public și strada perimetrală trec gratuit în proprietatea municipiului în cel mult 6 luni de la recepția la terminarea lucrărilor.",
+   "Spațiile de locuit/birourile din imobilul mixt (cel mult 30% din suprafața utilă) se recepționează doar după 2026 (H.G. nr. 343/2017) sau după lucrările de infrastructură rutieră care măresc capacitatea de circulație din zonă.",
+   "La faza D.T.A.C., proiectul imobilului mixt se avizează în Comisia de estetică urbană.",
+   "Parcarea se asigură în interiorul parcelelor (la subsol, demisol sau parter, la parcela I), după Anexa 2 la Regulamentul local de urbanism al P.U.G.; cablurile aeriene sunt interzise.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "464/2023",
+    "data": "2023-05-15",
+    "rezumat": "Îndreaptă o eroare materială din Art. 1: una dintre parcelele reglementate are nr. cad. 331640 (cum scriu planșa și inventarul de coordonate), nu 336140. Celelalte prevederi rămân neschimbate; planșa e aceeași.",
+    "plansa_noua": false
+   }
+  ]
+ },
+ {
   "id": "2022-903",
   "localitate": "cluj",
   "hcl": "903/2022",
