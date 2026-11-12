@@ -1,0 +1,362 @@
+{
+  "id": "2024-187",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Planșa U.03 n-are inventar de coordonate, iar limita zonei, trasată pe linia gri a zonei reglementate și pusă pe hartă prin caroiajul Stereo 70 (cruci etichetate, rms 0,18 m, verificare 0,12 și 0,22 m), închide 4.065 mp, cu 5,1% sub cei 4.282 mp din bilanț și din eticheta parcelei (poarta e 3%). Cotele de 9 m și 3 m de pe planșă confirmă și scara, și linia trasată, iar diferența s-ar acoperi doar prin citiri nesusținute de planșă: fâșia de ~300 mp până la limita UTR Ve, pe latura sud-vestică, sau tot atât până la limita UTR a străzii, pe front.",
+  "hcl": {
+    "nr": 187,
+    "an": 2024,
+    "data_sedinta": "2024-04-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-187-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/187.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare facilități dedicate agrementului pentru public, str. Făgetului nr. 33b provizoriu",
+  "plansa": {
+    "pagina_pdf": 10,
+    "dpi": 200,
+    "denumire": "U.03 Plan de reglementări urbanistice – zonificare",
+    "scara": "nelizibilă",
+    "nota": "PDF-ul hotărârii are 10 pagini A4 scanate la 200 ppi: hotărârea semnată (p. 1-2), Anexa 1, R.L.U. pentru UTR Aapp* (p. 3-9), și Anexa 2, planșa U.03 (p. 10, singura copie). Planșa e tipărită culcat: textul se citește în sus, iar nordul e spre stânga-jos (232,6° de sus, în sensul acelor de ceasornic), cu desenul rotit față de caroiajul Stereo 70. Cartușul: proiectant SQMA, pr. nr. SQMA_183, faza P.U.Z., 23.05.2023; scara nu se citește. Planșa e redusă pe A4: 6,4 px/m la 200 ppi, cam 1:1240 pe pagină. Literele legendei au 7-9 px și se citesc doar mărite. S-au păstrat cheia simbolurilor și blocul UTR Aapp (regim de înălțime (S)+P+1+R/M sau D+P+R/M, Hmax la cornișă 8 m, Hmax 12 m). Au rămas deoparte bilanțurile, tabelul parcelei (cu numele proprietarilor), notele despre spațiile verzi și parcaje, profilul stradal și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa n-are inventar de coordonate. Are caroiajul Stereo 70 din 50 în 50 m, cu cruci rotite odată cu desenul (37,4° față de foaie) și etichete ilizibile (3-4 px), așa că crucile au fost etichetate cu `caroiaj`: pas 50 m, 6,40 px/m, nordul la 232,6°. Săgeata nordului e o rază a cercului spre stânga-jos, paralelă cu un braț al crucilor; retragerile din Art. 1 (9 m de la limita nordică, 3 m de la cea sudică) cad pe laturile potrivite doar cu nordul în această parte. Ancora e vârful nord-vestic al clădirii existente în zigzag de la vest de zonă, desenată pe planșă la (510, 1406) și prezentă în OSM (clădirea 1207293300, extrasul din 2026-11-08). Cele 14 cruci cad la 2,9-4,6 m de nodurile rețelei, toate cu același decalaj: e eroarea ancorei, mult sub jumătatea de pas (25 m). 12 cruci sunt puncte de control, iar 2, lângă zonă, sunt de verificare (C391200_580600 și C391150_580600). Scara se confirmă pe cele două cote ale planșei: retragerile de 9 m și 3 m ies 9,19 m și 2,96 m. Limita (`limita_px`) e trasată pe centrul liniei gri cu pătrățele, „Limita zonă propusă pentru reglementare”: latura nord-estică (linie dublă, cu o mică frângere spre interior între y 1250 și 1450), capătul sud-estic (sub linia neagră a limitei UTR), latura sud-vestică (lângă limita UTR Ve), apoi coridorul care se lărgește spre str. Făgetului, cu un front de ~20 m în curba străzii. Pe imaginea Esri limita cade pe fâșia de teren liber dintre grădinile caselor de pe latura nord-estică și câmpul dinspre sud-vest, cu coridorul spre curba străzii.",
+    "suprafata_declarata_m2": 4282.0,
+    "puncte": {},
+    "nota": "Aria limitei trasate e 4064,6 mp, cu 5,1% sub cei 4282 mp din bilanțul teritorial, din tabelul zonei reglementate (UTR Aapp, în proprietatea beneficiarilor, 100%) și din eticheta parcelei („NR. C.F. 338717, S… 4282,00 mp”; prefixul nu se citește, deci nu se știe dacă e suprafața din acte sau cea măsurată). Poarta pentru o limită trasată e 3%. Scara nu e de vină: crucile o dau, iar cotele de 9 m și 3 m o confirmă și arată că limita e chiar linia gri. Diferența s-ar acoperi doar prin citiri pe care planșa nu le susține: fâșia dintre linia gri și limita UTR Ve, pe latura sud-vestică (~297 mp, până la 4.361 mp), sau fâșia dintre front și limita UTR a străzii (~299 mp), deși bilanțul nu dă nimic de cedat. Un om ar trebui să afle dacă 4282 mp e suprafața din CF și aria măsurată e mai mică. În acest caz limita trasată e bună și se poate construi."
+  },
+  "caroiaj": {
+    "pas_m": 50,
+    "px_per_m": 6.4,
+    "nord": 232.6,
+    "ancora": {
+      "px": [
+        510,
+        1406
+      ],
+      "en": [
+        391277.8,
+        580624.9
+      ],
+      "sursa": "colțul nord-vestic (vârful) al clădirii existente în zigzag de la vest de zona reglementată, desenat pe planșă la (510, 1406); în OSM clădirea 1207293300, vârful 10 (extrasul OSM din 2026-11-08)"
+    },
+    "cruci_px": {
+      "A": [
+        555,
+        1222
+      ],
+      "B": [
+        297,
+        1417
+      ],
+      "G": [
+        753,
+        1471
+      ],
+      "D": [
+        1260,
+        1081
+      ],
+      "E": [
+        1460,
+        1331
+      ],
+      "F": [
+        1204,
+        1526
+      ],
+      "J": [
+        1404,
+        1777
+      ],
+      "K": [
+        1148,
+        1974
+      ],
+      "M": [
+        1347,
+        2224
+      ],
+      "L": [
+        893,
+        2168
+      ],
+      "N": [
+        697,
+        1918
+      ],
+      "P": [
+        497,
+        1667
+      ],
+      "H": [
+        243,
+        1864
+      ],
+      "Q": [
+        951,
+        1722
+      ]
+    }
+  },
+  "repere": {
+    "C391300_580600": [
+      580600.0,
+      391300.0
+    ],
+    "C391300_580650": [
+      580650.0,
+      391300.0
+    ],
+    "C391250_580600": [
+      580600.0,
+      391250.0
+    ],
+    "C391250_580500": [
+      580500.0,
+      391250.0
+    ],
+    "C391200_580500": [
+      580500.0,
+      391200.0
+    ],
+    "C391200_580550": [
+      580550.0,
+      391200.0
+    ],
+    "C391150_580550": [
+      580550.0,
+      391150.0
+    ],
+    "C391150_580600": [
+      580600.0,
+      391150.0
+    ],
+    "C391100_580600": [
+      580600.0,
+      391100.0
+    ],
+    "C391150_580650": [
+      580650.0,
+      391150.0
+    ],
+    "C391200_580650": [
+      580650.0,
+      391200.0
+    ],
+    "C391250_580650": [
+      580650.0,
+      391250.0
+    ],
+    "C391250_580700": [
+      580700.0,
+      391250.0
+    ],
+    "C391200_580600": [
+      580600.0,
+      391200.0
+    ]
+  },
+  "limita_px": [
+    [
+      928,
+      1176
+    ],
+    [
+      1127,
+      1139
+    ],
+    [
+      1130,
+      1300
+    ],
+    [
+      1137,
+      1440
+    ],
+    [
+      1143,
+      1600
+    ],
+    [
+      1145,
+      1750
+    ],
+    [
+      1080,
+      1830
+    ],
+    [
+      1000,
+      1955
+    ],
+    [
+      882,
+      2163
+    ],
+    [
+      805,
+      2062
+    ],
+    [
+      935,
+      1940
+    ],
+    [
+      934,
+      1900
+    ],
+    [
+      930,
+      1800
+    ],
+    [
+      927,
+      1700
+    ],
+    [
+      927,
+      1550
+    ],
+    [
+      930,
+      1500
+    ],
+    [
+      938,
+      1420
+    ],
+    [
+      944,
+      1340
+    ],
+    [
+      946,
+      1300
+    ],
+    [
+      941,
+      1260
+    ],
+    [
+      936,
+      1230
+    ],
+    [
+      931,
+      1190
+    ]
+  ],
+  "gcp_px": {
+    "C391300_580600": [
+      555,
+      1222
+    ],
+    "C391300_580650": [
+      297,
+      1417
+    ],
+    "C391250_580600": [
+      753,
+      1471
+    ],
+    "C391250_580500": [
+      1260,
+      1081
+    ],
+    "C391200_580500": [
+      1460,
+      1331
+    ],
+    "C391200_580550": [
+      1204,
+      1526
+    ],
+    "C391150_580550": [
+      1404,
+      1777
+    ],
+    "C391100_580600": [
+      1347,
+      2224
+    ],
+    "C391150_580650": [
+      893,
+      2168
+    ],
+    "C391200_580650": [
+      697,
+      1918
+    ],
+    "C391250_580650": [
+      497,
+      1667
+    ],
+    "C391250_580700": [
+      243,
+      1864
+    ]
+  },
+  "verificare_px": {
+    "C391200_580600": [
+      951,
+      1722
+    ],
+    "C391150_580600": [
+      1148,
+      1974
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1032,
+      232,
+      1505,
+      632,
+      90
+    ],
+    [
+      995,
+      628,
+      1083,
+      1045,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Aapp*",
+      "denumire": "Zonă de agrement pentru public: alimentație publică, cazare turistică (pensiuni, vile turistice, camping), picnic, sport în aer liber, echitație, amenajări pentru activități în aer liber (terenuri de sport, platforme, alei, parcaje), edicule; regim de construire deschis; pe parcelă sunt admise 4 corpuri (clădiri) de cazare turistică, cu dotări conexe",
+      "pot_max": "10%",
+      "cut_max": "0,25",
+      "h_max": "8 m la cornișa superioară sau la aticul etajului neretras, 12 m la coamă sau la aticul etajului retras, în punctul cel mai înalt; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-04-15",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (15.04.2024); nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa propune 8 locuri de parcare (6 pentru cazarea turistică, 2 pentru alimentația publică) și 20 pentru biciclete; Art. 1 nu fixează un număr, ci cere parcajele în interiorul parcelei, calculate după Anexa 2 la R.L.U. aferent P.U.G., pentru agrement pentru public."
+  ],
+  "conditii": [
+    "Se reglementează o singură parcelă proprietate privată, nr. cad. 338717 (4282 mp după planșă), cu acces auto și pietonal din str. Făgetului; construcțiile se autorizează numai dacă există acces direct la drumul public.",
+    "Retrageri: cel puțin 8 m față de aliniament, 9 m față de limita laterală nordică și 3 m față de limita laterală sudică.",
+    "Între două clădiri de pe parcelă distanța e cel puțin înălțimea celei mai înalte, dar minim 4,5 m, sau 6 m când încăperi principale dau spre spațiul dintre ele; sunt admise cel mult 4 corpuri de cazare turistică, cu dotări conexe.",
+    "Parcarea se face numai în interiorul parcelei, cu necesarul calculat după Anexa 2 la R.L.U. aferent P.U.G.; R.L.U. cere parcaje la sol pe terenul unității de agrement și recomandă învelitori permeabile pentru căile din parcelă.",
+    "Racordarea la rețelele publice e obligatorie; unde nu există canalizare publică, apele uzate se pot epura individual și folosi sau infiltra în parcelă. Apele pluviale se gestionează prin acumulare sau retenție și se evacuează în emisari locali cu debitele din avizul Apele Române (A.B.A. Someș-Tisa), niciodată spre domeniul public sau spre vecini.",
+    "Cablurile nu se montează aerian, firidele de branșament se integrează în împrejmuire, iar parcela are o platformă sau un spațiu pentru deșeuri, accesibil din domeniul public.",
+    "R.L.U.: spațiile verzi pe sol natural ocupă cel puțin 60% din parcelă și cel puțin 60% din grădina de fațadă; tăierea arborilor maturi e interzisă, cu excepția celor periculoși sau care împiedică realizarea construcțiilor.",
+    "R.L.U.: o parcelă e construibilă cu front la stradă de cel puțin 20 m și cel puțin 2000 mp (diviziunile trebuie să respecte aceleași condiții); terasamentele care afectează spațiile publice sau parcelele vecine sunt interzise.",
+    "R.L.U.: aliniamentul se închide pe toată lungimea cu împrejmuire din materiale naturale (lemn, piatră) sau vegetație, iar spre vecini împrejmuirile au cel mult 2,20 m și sunt transparente; arhitectura e modernă, subordonată încadrării în peisaj.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
