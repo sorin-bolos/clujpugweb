@@ -13168,6 +13168,239 @@
   ]
  },
  {
+  "id": "2020-766",
+  "localitate": "cluj",
+  "hcl": "766/2020",
+  "data": "2020-10-27",
+  "titlu": "P.U.Z. de restructurare, str. Războieni-str. Gladiolelor",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-766-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/2020/11/04/766.pdf",
+  "utr": [
+   {
+    "cod": "M-Mucart",
+    "denumire": "Restructurarea zonelor cu caracter industrial – zonă mixtă: locuire colectivă, birouri și sedii de companii, servicii financiar-bancare, comerț, alimentație publică, învățământ, servicii cu acces public, profesionale și culturale, cazare turistică, sănătate, parcaje colective, garaje; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "40 m de la cota terenului amenajat (2S+P+8E+R)"
+   }
+  ],
+  "suprafata_m2": 36022,
+  "imagine": "puz/2020-766/plansa.webp",
+  "bounds": {
+   "west": 23.5904676,
+   "south": 46.7895388,
+   "east": 23.5940642,
+   "north": 46.791393
+  },
+  "limita": [
+   [
+    23.5936061,
+    46.7913649
+   ],
+   [
+    23.5939594,
+    46.790542
+   ],
+   [
+    23.5937477,
+    46.7905012
+   ],
+   [
+    23.5938743,
+    46.7902078
+   ],
+   [
+    23.5937889,
+    46.7901909
+   ],
+   [
+    23.5938279,
+    46.7900895
+   ],
+   [
+    23.5939193,
+    46.7901024
+   ],
+   [
+    23.5940293,
+    46.7898611
+   ],
+   [
+    23.593737,
+    46.789853
+   ],
+   [
+    23.5935421,
+    46.7898472
+   ],
+   [
+    23.5934448,
+    46.7898396
+   ],
+   [
+    23.5933476,
+    46.7898253
+   ],
+   [
+    23.5933088,
+    46.7898156
+   ],
+   [
+    23.5932311,
+    46.7898015
+   ],
+   [
+    23.5931534,
+    46.7897874
+   ],
+   [
+    23.5930758,
+    46.7897666
+   ],
+   [
+    23.5929983,
+    46.7897458
+   ],
+   [
+    23.5929207,
+    46.789725
+   ],
+   [
+    23.5928431,
+    46.7897068
+   ],
+   [
+    23.5927849,
+    46.7896902
+   ],
+   [
+    23.5927268,
+    46.7896696
+   ],
+   [
+    23.5926881,
+    46.7896559
+   ],
+   [
+    23.5925714,
+    46.7896441
+   ],
+   [
+    23.5924546,
+    46.7896336
+   ],
+   [
+    23.5923768,
+    46.7896235
+   ],
+   [
+    23.59226,
+    46.7896144
+   ],
+   [
+    23.5921432,
+    46.7896067
+   ],
+   [
+    23.5920264,
+    46.7895989
+   ],
+   [
+    23.5919095,
+    46.7895938
+   ],
+   [
+    23.5917927,
+    46.7895874
+   ],
+   [
+    23.5916368,
+    46.7895819
+   ],
+   [
+    23.5915005,
+    46.7895766
+   ],
+   [
+    23.5913641,
+    46.78957
+   ],
+   [
+    23.5912434,
+    46.7895622
+   ],
+   [
+    23.5911983,
+    46.7895778
+   ],
+   [
+    23.5911781,
+    46.7896125
+   ],
+   [
+    23.5912266,
+    46.7896263
+   ],
+   [
+    23.591279,
+    46.7896362
+   ],
+   [
+    23.5905106,
+    46.7907445
+   ],
+   [
+    23.5934543,
+    46.7913501
+   ],
+   [
+    23.5934773,
+    46.791369
+   ],
+   [
+    23.5935864,
+    46.7913741
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 5,
+   "rms_m": 0.95,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2020-766/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-10-27",
+   "initial_pana_la": "2025-10-27",
+   "prelungiri": [
+    {
+     "hcl": "111/2025",
+     "pana_la": "2027-10-27",
+     "nota": "HCL 111 din 27 martie 2025 prelungește valabilitatea „cu o perioadă de 2 ani”; termenul e socotit de la expirarea inițială, 27.10.2025."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Hotărârea (Art. 1) aprobă P.U.Z.-ul „de restructurare și parcelare”, cu 6 parcele între 3.550 și 7.300 mp, și leagă obligațiile de construcția P3 și de parcelele P4, P5 și P6; planșa nu desenează parcelarea și nu numerotează parcelele (arată doar zona construibilă și posibilități de mobilare).",
+   "Spațiul verde compact de circa 4.400 mp de lângă pârâul Nadăș, care trece în proprietatea municipiului (Art. 1), nu e delimitat pe planșă.",
+   "Înălțimea maximă (40 m de la cota terenului amenajat, 2S+P+8E+R) e dată doar de hotărâre și de regulament (Art. 9); planșa nu o tipărește."
+  ],
+  "conditii": [
+   "Investitorul realizează, în prima etapă, un spațiu cu suprafața utilă de cel puțin 500 mp în construcția P3 și îl trece gratuit în proprietatea municipiului, după recepția imobilului P3 și înainte de recepția oricărui alt imobil din ansamblu.",
+   "Un spațiu verde compact de circa 4.400 mp, lângă pârâul Nadăș (grădină de cartier, după contractul de restructurare), trece gratuit în proprietatea municipiului până la recepția imobilelor de pe parcelele P4, P5 și P6.",
+   "Zonele verzi (alei, plantații, locuri de joacă, iluminat, mobilier urban) se fac după un proiect de specialitate avizat de Comisia de Estetică Urbană, cu vegetație joasă, medie și înaltă; arborii, inclusiv cei de aliniament de pe frontul sudic al str. Războieni, au circumferința de cel puțin 35 cm la 1 m de la colet.",
+   "Înainte de recepția ultimului imobil, pe cheltuiala investitorului (avizul Siguranța circulației nr. 370951/446/25.02.2020): pe str. Războieni trotuar de cel puțin 2,5 m lângă dezvoltare și parcări în alveole, paralele cu bordura; pe str. Gladiolelor circulațiile pietonale pe terenul investitorului și parcări paralele cu bordura; intersecțiile Vrancea–Războieni și Războieni–Gladiolelor analizate și tratate ca sensuri giratorii; legătură pietonală și velo cu zona de la sud de pârâul Nadăș; treceri de pietoni supraluminate, după un proiect tehnic.",
+   "Pe str. Războieni, între clădirile de locuit propuse și cele existente pe frontul nordic (opus) al străzii distanța e cel puțin egală cu înălțimea clădirii celei mai înalte.",
+   "Clădirile se amplasează în aliniament; pe străzile secundare, retras cu cel puțin 4,5 m (regulament, Art. 4). Față de limitele laterale ale parcelei, cel puțin 4,5 m.",
+   "Accesul se face din str. Războieni și din str. Gladiolelor; parcarea numai în interiorul parcelei, la sol sau în subsol/demisol/parter, după Anexa 2 a Regulamentului P.U.G.",
+   "Parcela construibilă are cel puțin 500 mp, front de cel puțin 18 m la spațiul public și acces din drum public sau prin servitute; spațiile verzi ocupă cel puțin 30% din teren; parterele spre spațiile publice principale au funcțiuni de interes public (regulament, Art. 1, 3, 12).",
+   "Echipare edilitară completă, cu racord la toate rețelele; împrejmuirile, dacă e nevoie de ele, sunt transparente (plasă sudată); reclamele și firmele cu lumină intermitentă sunt interzise (regulament, Art. 11, 13, 14).",
+   "Hotărârea aprobă și contractul de restructurare încheiat între municipiu și investitor (Anexa 1); toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2020-4",
   "localitate": "cluj",
   "hcl": "4/2020",

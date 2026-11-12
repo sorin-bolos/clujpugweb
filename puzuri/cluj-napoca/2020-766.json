@@ -1,0 +1,163 @@
+{
+  "id": "2020-766",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 766,
+    "an": 2020,
+    "data_sedinta": "2020-10-27",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-766-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2020/11/04/766.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare, str. Războieni-str. Gladiolelor",
+  "plansa": {
+    "pagina_pdf": 9,
+    "dpi": 300,
+    "denumire": "A03 Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Anexa 3, p. 9: singura planșă din PDF (p. 1-2 hotărârea, p. 3-6 contractul de restructurare – Anexa 1, p. 7-8 regulamentul local de urbanism – Anexa 2). Planșa A03 „Reglementări urbanistice” (1:1000, iulie 2019) e scanată la 300 ppi pe o pagină A4 culcată, deci micșorată: ~6,7 px/m în loc de 11,8 px/m. Nordul e spre stânga planșei (potrivirea dă o rotire de −90,25°). Planșa nu are inventar de coordonate și nici caroiaj Stereo 70. Legenda e tipărită culcat (textul se citește în sus), de aceea casetele au rotire 90°; s-au păstrat cheia simbolurilor și caseta de indicatori (existent UTR RiM / propus UTR M-Mucart: POT 60%, CUT 2,8), fără bilanțul teritorial, secțiunea 1-1 și cartuș."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm), extrasul din 2026-11-08: planșa nu are coordonate. Control: GD (intersecția str. Gladiolelor / str. Dumbrava Roșie, axele străzilor), H1 (colțul de sud-est al unei case de pe latura estică a str. Gladiolelor, lângă str. Războieni, desenată punctat), M1, M3, M4 (colțuri ale clădirilor S.C. Metalurgia de la vest de P.U.Z.). Verificare: H1b (alt colț al casei H1), H2, H2b (colțurile unei case de pe latura nordică a str. Războieni, departe de punctele de control), B1, M2 (alte colțuri ale clădirilor Metalurgia). Ancora de pornire: intersecția Gladiolelor–Dumbrava Roșie la (917, 1150), 6,65 px/m (din cotele de 135,00 m și 28,75 m), nord 270°; potrivirea dă 6,7 px/m. Clădirea existentă P+4 de la colțul Gladiolelor–Dumbrava Roșie nu s-a folosit: în OSM e decalată cu ~5-8 m spre nord față de planșă și de ortofoto. Limita e trasată (`limita_px`) pe linia groasă a limitei de proprietate: latura str. Gladiolelor la est, decrocheul din jurul clădirii P+4 (care rămâne în afara P.U.Z.), malul pârâului Nadăș la sud, gardul Metalurgia la vest și frontul str. Războieni la nord (nordul e spre stânga planșei). Aria: 36.399 mp, din bilanțul planșei și din Art. 1 al hotărârii.",
+    "suprafata_declarata_m2": 36399,
+    "puncte": {},
+    "nota": "Poziționare aproximativă (±3-5 m): planșa nu are coordonate; s-au folosit colțuri de clădiri existente și o intersecție din OpenStreetMap."
+  },
+  "gcp_px": {
+    "M1": [1655, 2775],
+    "GD": [917, 1150],
+    "M3": [1668, 2930],
+    "H1": [390, 1208],
+    "M4": [869, 2946]
+  },
+  "verificare_px": {
+    "B1": [1240, 2951],
+    "M2": [1647, 2868],
+    "H1b": [391, 1246],
+    "H2": [346, 1882],
+    "H2b": [251, 1904]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [154, 422, 674, 938, 90],
+    [1036, 428, 1172, 938, 90]
+  ],
+  "utr": [
+    {
+      "cod": "M-Mucart",
+      "denumire": "Restructurarea zonelor cu caracter industrial – zonă mixtă: locuire colectivă, birouri și sedii de companii, servicii financiar-bancare, comerț, alimentație publică, învățământ, servicii cu acces public, profesionale și culturale, cazare turistică, sănătate, parcaje colective, garaje; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "40 m de la cota terenului amenajat (2S+P+8E+R)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-10-27",
+    "verificat": "2026-11-12: Art. 3, cinci ani; prelungită cu 2 ani prin HCL 111/2025 (27.03.2025), adoptată înainte de expirare; nicio modificare a P.U.Z.-ului în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [
+    {
+      "hcl": "111/2025",
+      "pana_la": "2027-10-27",
+      "nota": "HCL 111 din 27 martie 2025 prelungește valabilitatea „cu o perioadă de 2 ani”; termenul e socotit de la expirarea inițială, 27.10.2025."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Hotărârea (Art. 1) aprobă P.U.Z.-ul „de restructurare și parcelare”, cu 6 parcele între 3.550 și 7.300 mp, și leagă obligațiile de construcția P3 și de parcelele P4, P5 și P6; planșa nu desenează parcelarea și nu numerotează parcelele (arată doar zona construibilă și posibilități de mobilare).",
+    "Spațiul verde compact de circa 4.400 mp de lângă pârâul Nadăș, care trece în proprietatea municipiului (Art. 1), nu e delimitat pe planșă.",
+    "Înălțimea maximă (40 m de la cota terenului amenajat, 2S+P+8E+R) e dată doar de hotărâre și de regulament (Art. 9); planșa nu o tipărește."
+  ],
+  "conditii": [
+    "Investitorul realizează, în prima etapă, un spațiu cu suprafața utilă de cel puțin 500 mp în construcția P3 și îl trece gratuit în proprietatea municipiului, după recepția imobilului P3 și înainte de recepția oricărui alt imobil din ansamblu.",
+    "Un spațiu verde compact de circa 4.400 mp, lângă pârâul Nadăș (grădină de cartier, după contractul de restructurare), trece gratuit în proprietatea municipiului până la recepția imobilelor de pe parcelele P4, P5 și P6.",
+    "Zonele verzi (alei, plantații, locuri de joacă, iluminat, mobilier urban) se fac după un proiect de specialitate avizat de Comisia de Estetică Urbană, cu vegetație joasă, medie și înaltă; arborii, inclusiv cei de aliniament de pe frontul sudic al str. Războieni, au circumferința de cel puțin 35 cm la 1 m de la colet.",
+    "Înainte de recepția ultimului imobil, pe cheltuiala investitorului (avizul Siguranța circulației nr. 370951/446/25.02.2020): pe str. Războieni trotuar de cel puțin 2,5 m lângă dezvoltare și parcări în alveole, paralele cu bordura; pe str. Gladiolelor circulațiile pietonale pe terenul investitorului și parcări paralele cu bordura; intersecțiile Vrancea–Războieni și Războieni–Gladiolelor analizate și tratate ca sensuri giratorii; legătură pietonală și velo cu zona de la sud de pârâul Nadăș; treceri de pietoni supraluminate, după un proiect tehnic.",
+    "Pe str. Războieni, între clădirile de locuit propuse și cele existente pe frontul nordic (opus) al străzii distanța e cel puțin egală cu înălțimea clădirii celei mai înalte.",
+    "Clădirile se amplasează în aliniament; pe străzile secundare, retras cu cel puțin 4,5 m (regulament, Art. 4). Față de limitele laterale ale parcelei, cel puțin 4,5 m.",
+    "Accesul se face din str. Războieni și din str. Gladiolelor; parcarea numai în interiorul parcelei, la sol sau în subsol/demisol/parter, după Anexa 2 a Regulamentului P.U.G.",
+    "Parcela construibilă are cel puțin 500 mp, front de cel puțin 18 m la spațiul public și acces din drum public sau prin servitute; spațiile verzi ocupă cel puțin 30% din teren; parterele spre spațiile publice principale au funcțiuni de interes public (regulament, Art. 1, 3, 12).",
+    "Echipare edilitară completă, cu racord la toate rețelele; împrejmuirile, dacă e nevoie de ele, sunt transparente (plasă sudată); reclamele și firmele cu lumină intermitentă sunt interzise (regulament, Art. 11, 13, 14).",
+    "Hotărârea aprobă și contractul de restructurare încheiat între municipiu și investitor (Anexa 1); toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [917, 1150],
+    "en": [392794.9, 588845.3],
+    "px_per_m": 6.65,
+    "nord": 270
+  },
+  "repere": {
+    "M1": [588736.31, 392553.58],
+    "GD": [588845.29, 392794.9],
+    "M3": [588733.97, 392528.88],
+    "H1": [588922.49, 392786.04],
+    "M4": [588853.96, 392526.36],
+    "B1": [588797.03, 392527.25],
+    "M2": [588738.35, 392538.88],
+    "H1b": [588922.35, 392781.23],
+    "H2": [588931.6, 392686.64],
+    "H2b": [588943.1, 392683.94]
+  },
+  "repere_osm": {
+    "M1": "colț de clădire (b439033042_2)",
+    "GD": "intersecție Strada Gladiolelor / Strada Dumbrava Roșie (x31579793_31579795)",
+    "M3": "colț de clădire (b439033042_4)",
+    "H1": "colț de clădire (b597396575_2)",
+    "M4": "colț de clădire (b439033004_2)",
+    "B1": "colț de clădire (b439033042_1)",
+    "M2": "colț de clădire (b439033042_5)",
+    "H1b": "colț de clădire (b597396575_3)",
+    "H2": "colț de clădire (b348200457_2)",
+    "H2b": "colț de clădire (b348200457_1)"
+  },
+  "limita_px": [
+    [330, 1352],
+    [947, 1179],
+    [976, 1288],
+    [1196, 1226],
+    [1208, 1270],
+    [1284, 1251],
+    [1275, 1204],
+    [1456, 1150],
+    [1460, 1300],
+    [1463, 1400],
+    [1468, 1450],
+    [1478, 1500],
+    [1485, 1520],
+    [1495, 1560],
+    [1505, 1600],
+    [1520, 1640],
+    [1535, 1680],
+    [1550, 1720],
+    [1563, 1760],
+    [1575, 1790],
+    [1590, 1820],
+    [1600, 1840],
+    [1608, 1900],
+    [1615, 1960],
+    [1622, 2000],
+    [1628, 2060],
+    [1633, 2120],
+    [1638, 2180],
+    [1641, 2240],
+    [1645, 2300],
+    [1648, 2380],
+    [1651, 2450],
+    [1655, 2520],
+    [1660, 2582],
+    [1648, 2605],
+    [1622, 2615],
+    [1612, 2590],
+    [1605, 2563],
+    [772, 2946],
+    [340, 1430],
+    [326, 1418],
+    [323, 1362]
+  ]
+}
