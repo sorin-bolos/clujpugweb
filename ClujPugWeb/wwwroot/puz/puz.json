@@ -23130,6 +23130,129 @@
   ]
  },
  {
+  "id": "2023-462",
+  "localitate": "cluj",
+  "hcl": "462/2023",
+  "data": "2023-05-15",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe familiale, str. Câmpului nr. 161",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-462-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/05/22/HCL-462.pdf",
+  "utr": [
+   {
+    "cod": "Lip*",
+    "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip periferic: locuințe individuale (unifamiliale) și familiale (două unități locative alipite pe parcelă) și anexele lor; regim de construire deschis. Parcela construibilă minim 300 mp; sub 500 mp numai locuințe unifamiliale, de la 500 mp și semicolective (familiale). Pe planșă: 2 parcele, P1 de 564,55 mp (locuință semicolectivă) și P2 de 300,28 mp (locuință unifamilială).",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R sau D+P+1"
+   }
+  ],
+  "suprafata_m2": 1170,
+  "imagine": "puz/2023-462/plansa.webp",
+  "bounds": {
+   "west": 23.5667687,
+   "south": 46.7495908,
+   "east": 23.5676594,
+   "north": 46.7500322
+  },
+  "limita": [
+   [
+    23.5668827,
+    46.7496114
+   ],
+   [
+    23.5670162,
+    46.74966
+   ],
+   [
+    23.5672408,
+    46.7497419
+   ],
+   [
+    23.5674688,
+    46.749827
+   ],
+   [
+    23.567625,
+    46.7498851
+   ],
+   [
+    23.5675385,
+    46.7500135
+   ],
+   [
+    23.5675143,
+    46.7500066
+   ],
+   [
+    23.5674416,
+    46.749986
+   ],
+   [
+    23.5673691,
+    46.7499653
+   ],
+   [
+    23.5672965,
+    46.7499447
+   ],
+   [
+    23.567224,
+    46.749924
+   ],
+   [
+    23.5671465,
+    46.7499016
+   ],
+   [
+    23.5670768,
+    46.7498767
+   ],
+   [
+    23.5670071,
+    46.7498519
+   ],
+   [
+    23.5669374,
+    46.749827
+   ],
+   [
+    23.5668533,
+    46.749797
+   ],
+   [
+    23.566822,
+    46.7497859
+   ],
+   [
+    23.5667974,
+    46.7497334
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.11
+  },
+  "legenda": "puz/2023-462/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-05-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă pentru UTR Lip* doar P.O.T. max 35% și C.U.T. max 0,9 (aceleași ca în Art. 1); înălțimile (8 m la cornișă, 12 m la coamă, trei niveluri supraterane), parcela minimă de 300 mp și pragul de 500 mp pentru locuințe semicolective sunt numai în Art. 1. Altfel, textul și planșa se potrivesc: aria de 1.170 mp, cele două parcele, retragerile (5 m față de str. Câmpului, 1 m față de alee, 3 m lateral și posterior) și aleea de 6 m (5 m carosabil, 1 m trotuar)."
+  ],
+  "conditii": [
+   "Art. 1 aprobă P.U.Z.-ul pe o parcelă proprietate privată, nr. cad. 296365, de 1.170 mp: două parcele pentru locuințe cu regim redus de înălțime (UTR Lip*: una pentru o locuință unifamilială, una pentru o locuință semicolectivă) și două imobile pentru circulații (aleea de deservire locală și terenul pentru regularizarea str. Câmpului).",
+   "Terenul necesar regularizării str. Câmpului (19,81 mp pe planșă) se dezmembrează din parcela inițială și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele; până la recepția construcțiilor se aduce la strat de uzură și se transferă gratuit în domeniul public.",
+   "Aleea propusă, cu ampriza de 6 m (5 m carosabil și 1 m trotuar), se echipează edilitar și se face la strat de uzură până la recepția construcțiilor de pe parcelele cu acces din ea, și are acces public nelimitat.",
+   "Accesul pe parcele se face din alee: pe parcela cu locuință unifamilială un singur acces pietonal și unul auto; pe parcela cu locuință semicolectivă (două unități alipite) și pe parcelele de colț, câte două accese auto și două pietonale.",
+   "Retrageri: minim 5 m față de str. Câmpului și minim 1 m față de alee, după planșa U.03; minim 3 m față de limitele laterale și posterioară.",
+   "Parcarea numai în interiorul parcelelor: minim un loc pentru clădiri cu A.U. sub 100 mp, minim două peste 100 mp.",
+   "Toate utilitățile prin racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; cablurile nu se montează aerian; firidele de branșament se integrează în împrejmuire; fiecare parcelă are o platformă pentru deșeuri menajere, accesibilă din spațiul public.",
+   "Toate investițiile propuse prin P.U.Z. se suportă de beneficiari."
+  ]
+ },
+ {
   "id": "2023-75",
   "localitate": "cluj",
   "hcl": "75/2023",

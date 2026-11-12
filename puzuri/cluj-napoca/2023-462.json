@@ -1,0 +1,250 @@
+{
+  "id": "2023-462",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 462,
+    "an": 2023,
+    "data_sedinta": "2023-05-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-462-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/05/22/HCL-462.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe familiale, str. Câmpului nr. 161",
+  "plansa": {
+    "pagina_pdf": 14,
+    "dpi": 96,
+    "denumire": "Reglementări urbanistice – zonificare (U.03)",
+    "scara": "1:500",
+    "nota": "PDF-ul hotărârii are 17 pagini: hotărârea semnată (p. 1-2), Anexa 1 R.L.U. (p. 3-5), Anexa 2 – planșa de reglementări redusă pe A4 și întoarsă (p. 6), avizul de oportunitate nr. 216/28.07.2020 (p. 7-9, cu extrasul din P.U.G.), avizul arhitectului-șef (p. 10-13), planșa U.03 pe A3 (p. 14) și raportul informării și consultării publicului (p. 15-17). S-a folosit p. 14: aceeași planșă ca p. 6, la mărimea ei, scanată la 96 ppi (desenul iese la ~7,6 px/m, adică 1:500 tipărit la mărimea reală); ștampilată „H.C.L. nr. 462 din 15 mai 2023”, „Vizat spre neschimbare”, avize nr. 51 din 10.03.2022 și nr. 218 din 27.09.2022. Cartușul: S.C. Image Art S.R.L., pr. nr. 10/2016, faza P.U.Z., 07.2022, format A3 (297 x 420), planșa nr. U.03 „Reglementări urbanistice – zonificare”, scara 1:500. Nordul e în sus (rotația fitului e 0,3°). Planșa poartă caroiajul Stereo 70 al ridicării topografice (liniile etichetate 584400, 584350, 584300, 390650, 390700); patru cruci sunt folosite ca puncte de verificare. Legenda ia cheia simbolurilor și lista arborilor propuși; UTR-ul (Lip*, P.O.T. max 35%, C.U.T. max 0,9) e scris doar în desen, pe parcela P1. Au rămas deoparte bilanțul suprafețelor (stânga sus), profilele (secțiunea A-A și profilul tip III.E de 16 m al str. Câmpului), inventarul de coordonate, observațiile generale despre cote, cartușul (cu numele proprietarilor), ștampilele și semnăturile."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de pe planșă („Coordonate pct. de contur”, X [m] = Nord, Y [m] = Est, cu „Lungimi laturi D(i,i+1)”), 18 puncte în ordinea conturului, S = 1170 mp, P = 161,628 m; 1.170 mp e și suprafața din Art. 1 și totalul bilanțului de pe planșă (864,83 + 19,81 + 285,36 mp). Numerele inventarului nu sunt cele scrise lângă colțuri pe planșă (acelea sunt numerele ridicării topografice: 13-17, 2, 3), așa că punctele s-au găsit după geometrie: 1 e colțul de sud-vest la str. Câmpului, 1-5 latura de sud (spre aleea și parcelele vecine), 5-6 latura de est, 6-16 latura de nord, de-a lungul fâșiilor nr. cad. 251645-251651, 17-18-1 latura de vest, la str. Câmpului (cu fâșia cedată pentru lărgirea străzii). Puncte de control: 1 (sud-vest), 5 (sud-est), 6 (nord-est), 17 și 18 (frânturile de la str. Câmpului) și 11 (frântura laturii de nord). Puncte de verificare: 7, 9, 12, 14, 15 (unde liniile despărțitoare ale fâșiilor nr. cad. ating latura de nord) și crucile de caroiaj Stereo 70 E 390700 / N 584400, E 390700 / N 584350, E 390700 / N 584300 și E 390650 / N 584300 (pe liniile etichetate ale planșei). Colțurile s-au luat pe axul liniei roșii „limită de proprietate existentă”; desenat peste planșă, conturul calculat o urmează pe toată lungimea.",
+    "suprafata_declarata_m2": 1170,
+    "puncte": {
+      "1": [
+        584328.8,
+        390641.09
+      ],
+      "2": [
+        584334.02,
+        390651.38
+      ],
+      "3": [
+        584342.809,
+        390668.706
+      ],
+      "4": [
+        584351.953,
+        390686.289
+      ],
+      "5": [
+        584358.196,
+        390698.342
+      ],
+      "6": [
+        584372.588,
+        390691.995
+      ],
+      "7": [
+        584371.853,
+        390690.126
+      ],
+      "8": [
+        584369.657,
+        390684.538
+      ],
+      "9": [
+        584367.462,
+        390678.954
+      ],
+      "10": [
+        584365.268,
+        390673.37
+      ],
+      "11": [
+        584363.073,
+        390667.785
+      ],
+      "12": [
+        584360.689,
+        390661.826
+      ],
+      "13": [
+        584358.023,
+        390656.451
+      ],
+      "14": [
+        584355.356,
+        390651.075
+      ],
+      "15": [
+        584352.69,
+        390645.7
+      ],
+      "16": [
+        584349.473,
+        390639.214
+      ],
+      "17": [
+        584348.277,
+        390636.804
+      ],
+      "18": [
+        584342.483,
+        390634.817
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 11.538,
+      "2": 19.428,
+      "3": 19.819,
+      "4": 13.574,
+      "5": 15.729,
+      "6": 2.008,
+      "7": 6.004,
+      "8": 6.0,
+      "9": 6.0,
+      "10": 6.001,
+      "11": 6.418,
+      "12": 6.0,
+      "13": 6.001,
+      "14": 6.0,
+      "15": 7.24,
+      "16": 2.69,
+      "17": 6.125,
+      "18": 15.052
+    },
+    "perimetru_declarat_m": 161.628,
+    "nota": "Cifrele tabelului au ~7 px la 96 ppi, dar se citesc mărite de 4 ori; toate cele 18 laturi tipărite se potrivesc la 1 cm, perimetrul la fel, iar aria coordonatelor, 1170,1 mp, cu S = 1170 mp. Crucile de caroiaj de la N 584300 sunt la 25-30 m sud de teren, deci în afara zonei pe care o acoperă punctele de control; reziduurile lor (0,66-0,69 m) sunt cele mai mari, cele de lângă teren 0,09-0,39 m."
+  },
+  "gcp_px": {
+    "1": [
+      600,
+      785
+    ],
+    "5": [
+      1033,
+      566
+    ],
+    "6": [
+      988,
+      457
+    ],
+    "17": [
+      568,
+      639
+    ],
+    "18": [
+      553,
+      682
+    ],
+    "11": [
+      803,
+      527
+    ]
+  },
+  "verificare_px": {
+    "9": [
+      888,
+      494
+    ],
+    "12": [
+      759,
+      544
+    ],
+    "14": [
+      677,
+      584
+    ],
+    "7": [
+      973,
+      461
+    ],
+    "15": [
+      636,
+      604
+    ],
+    "C390700_584400": [
+      1049.5,
+      247.5
+    ],
+    "C390700_584350": [
+      1045,
+      627.5
+    ],
+    "C390700_584300": [
+      1041.5,
+      1009.5
+    ],
+    "C390650_584300": [
+      665,
+      1008
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1221,
+      24,
+      1470,
+      450
+    ],
+    [
+      1221,
+      455,
+      1400,
+      472
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lip*",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip periferic: locuințe individuale (unifamiliale) și familiale (două unități locative alipite pe parcelă) și anexele lor; regim de construire deschis. Parcela construibilă minim 300 mp; sub 500 mp numai locuințe unifamiliale, de la 500 mp și semicolective (familiale). Pe planșă: 2 parcele, P1 de 564,55 mp (locuință semicolectivă) și P2 de 300,28 mp (locuință unifamilială).",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R sau D+P+1"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-05-15",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (15.05.2023); `related`: nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (p. 1-2 din PDF): coincid, fără articole adăugate; adoptată cu 21 de voturi."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă pentru UTR Lip* doar P.O.T. max 35% și C.U.T. max 0,9 (aceleași ca în Art. 1); înălțimile (8 m la cornișă, 12 m la coamă, trei niveluri supraterane), parcela minimă de 300 mp și pragul de 500 mp pentru locuințe semicolective sunt numai în Art. 1. Altfel, textul și planșa se potrivesc: aria de 1.170 mp, cele două parcele, retragerile (5 m față de str. Câmpului, 1 m față de alee, 3 m lateral și posterior) și aleea de 6 m (5 m carosabil, 1 m trotuar)."
+  ],
+  "conditii": [
+    "Art. 1 aprobă P.U.Z.-ul pe o parcelă proprietate privată, nr. cad. 296365, de 1.170 mp: două parcele pentru locuințe cu regim redus de înălțime (UTR Lip*: una pentru o locuință unifamilială, una pentru o locuință semicolectivă) și două imobile pentru circulații (aleea de deservire locală și terenul pentru regularizarea str. Câmpului).",
+    "Terenul necesar regularizării str. Câmpului (19,81 mp pe planșă) se dezmembrează din parcela inițială și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcele; până la recepția construcțiilor se aduce la strat de uzură și se transferă gratuit în domeniul public.",
+    "Aleea propusă, cu ampriza de 6 m (5 m carosabil și 1 m trotuar), se echipează edilitar și se face la strat de uzură până la recepția construcțiilor de pe parcelele cu acces din ea, și are acces public nelimitat.",
+    "Accesul pe parcele se face din alee: pe parcela cu locuință unifamilială un singur acces pietonal și unul auto; pe parcela cu locuință semicolectivă (două unități alipite) și pe parcelele de colț, câte două accese auto și două pietonale.",
+    "Retrageri: minim 5 m față de str. Câmpului și minim 1 m față de alee, după planșa U.03; minim 3 m față de limitele laterale și posterioară.",
+    "Parcarea numai în interiorul parcelelor: minim un loc pentru clădiri cu A.U. sub 100 mp, minim două peste 100 mp.",
+    "Toate utilitățile prin racordare la rețelele publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; cablurile nu se montează aerian; firidele de branșament se integrează în împrejmuire; fiecare parcelă are o platformă pentru deșeuri menajere, accesibilă din spațiul public.",
+    "Toate investițiile propuse prin P.U.Z. se suportă de beneficiari."
+  ],
+  "repere": {
+    "C390700_584400": [
+      584400,
+      390700
+    ],
+    "C390700_584350": [
+      584350,
+      390700
+    ],
+    "C390700_584300": [
+      584300,
+      390700
+    ],
+    "C390650_584300": [
+      584300,
+      390650
+    ]
+  }
+}
