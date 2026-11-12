@@ -33130,6 +33130,338 @@
   ]
  },
  {
+  "id": "2020-764",
+  "localitate": "cluj",
+  "hcl": "764/2020",
+  "data": "2020-10-27",
+  "titlu": "P.U.Z. de urbanizare și dezvoltare zonă rezidențială – str. Tractoriștilor est",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-764-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/10/27/HCL-nr.-764-din-27.10.2021.pdf",
+  "utr": [
+   {
+    "cod": "Li/c_a (Lic/a pe planșă)",
+    "denumire": "Locuințe cu regim redus de înălțime individuale (unifamiliale izolate sau cuplate), din procedura de urbanizare. Clădirile stau în fâșia de 25 m de la aliniament, retrase cel puțin 3 m de la aliniament (recomandat 5 m; garajele 6 m), cel puțin 3 m de la limitele laterale și cel puțin cât înălțimea, dar minim 6 m, de la limita posterioară",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "(S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+   },
+   {
+    "cod": "Li/c_b (Lic/b pe planșă)",
+    "denumire": "Locuințe colective mici (loturile de la capătul nordic, spre str. Râului, de o parte și de alta a străzii noi); nu sunt ținute de fâșia de 25 m de la aliniament; la parcela de colț de pe frontul estic al str. Rândunicilor, la str. Râului, retragerea față de limita estică e de minim 5 m",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "(S)+P+2 sau D+P+2 (demisolul sau subsolul doar pentru garaje și funcțiuni conexe); 12 m"
+   },
+   {
+    "cod": "Is_A (S_Is pe planșă)",
+    "denumire": "Instituții și servicii publice și de interes public în ansambluri independente: administrație, cultură, învățământ și cercetare, sănătate și asistență socială, cult (pe planșă un lot de 500 mp); retragere de la aliniament minim 3 m, recomandat 5 m; 1,5 m față de S_Va și 3 m față de parcelele de locuințe",
+    "pot_max": "60%",
+    "cut_max": "2",
+    "h_max": "16 m la cornișă sau la aticul etajului retras; (S)+P+2E+M, (S)+P+2E+R, S+D+P+2E+M sau S+D+P+2E+R"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Scuaruri, grădini, parcuri cu acces public nelimitat; spațiile verzi pe sol natural ocupă cel puțin 60% din suprafață; arborii maturi nu se taie",
+    "pot_max": "5%",
+    "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+    "h_max": "nestabilită (nici hotărârea, nici regulamentul nu dau o înălțime)"
+   }
+  ],
+  "suprafata_m2": 23390,
+  "imagine": "puz/2020-764/plansa.webp",
+  "bounds": {
+   "west": 23.6597908,
+   "south": 46.7871149,
+   "east": 23.6617864,
+   "north": 46.7893988
+  },
+  "limita": [
+   [
+    23.6615136,
+    46.788561
+   ],
+   [
+    23.6615141,
+    46.7886421
+   ],
+   [
+    23.6615146,
+    46.7886976
+   ],
+   [
+    23.661516,
+    46.7888579
+   ],
+   [
+    23.6615169,
+    46.7889579
+   ],
+   [
+    23.6615169,
+    46.7889588
+   ],
+   [
+    23.6615202,
+    46.7891739
+   ],
+   [
+    23.6615175,
+    46.7891739
+   ],
+   [
+    23.6615216,
+    46.789381
+   ],
+   [
+    23.66146,
+    46.789375
+   ],
+   [
+    23.6613466,
+    46.7893559
+   ],
+   [
+    23.661143,
+    46.7893236
+   ],
+   [
+    23.6609556,
+    46.7892869
+   ],
+   [
+    23.6607963,
+    46.7892533
+   ],
+   [
+    23.660675,
+    46.7892334
+   ],
+   [
+    23.660593,
+    46.7892269
+   ],
+   [
+    23.6605474,
+    46.7892296
+   ],
+   [
+    23.6605223,
+    46.789097
+   ],
+   [
+    23.6604793,
+    46.7888795
+   ],
+   [
+    23.6604672,
+    46.7888261
+   ],
+   [
+    23.66045,
+    46.7887383
+   ],
+   [
+    23.6604337,
+    46.7886509
+   ],
+   [
+    23.6604336,
+    46.7886475
+   ],
+   [
+    23.6604111,
+    46.7885232
+   ],
+   [
+    23.6603987,
+    46.7884582
+   ],
+   [
+    23.660375,
+    46.788347
+   ],
+   [
+    23.660363,
+    46.7882823
+   ],
+   [
+    23.6603605,
+    46.7882788
+   ],
+   [
+    23.6603409,
+    46.7881797
+   ],
+   [
+    23.6603355,
+    46.7881491
+   ],
+   [
+    23.6603114,
+    46.7880132
+   ],
+   [
+    23.6602487,
+    46.787704
+   ],
+   [
+    23.660203,
+    46.7874786
+   ],
+   [
+    23.660196,
+    46.7874788
+   ],
+   [
+    23.6599405,
+    46.7875034
+   ],
+   [
+    23.6598688,
+    46.7871414
+   ],
+   [
+    23.6601411,
+    46.7871428
+   ],
+   [
+    23.6601394,
+    46.7871323
+   ],
+   [
+    23.6603877,
+    46.7871358
+   ],
+   [
+    23.6608685,
+    46.7871667
+   ],
+   [
+    23.6611597,
+    46.7871796
+   ],
+   [
+    23.6612421,
+    46.7871792
+   ],
+   [
+    23.661642,
+    46.7871881
+   ],
+   [
+    23.6617632,
+    46.7871896
+   ],
+   [
+    23.6617499,
+    46.7872783
+   ],
+   [
+    23.6617332,
+    46.7873986
+   ],
+   [
+    23.6617179,
+    46.7874635
+   ],
+   [
+    23.6616989,
+    46.7875441
+   ],
+   [
+    23.6616954,
+    46.7875703
+   ],
+   [
+    23.6616834,
+    46.7876599
+   ],
+   [
+    23.6616763,
+    46.7876921
+   ],
+   [
+    23.6616635,
+    46.7877505
+   ],
+   [
+    23.6616483,
+    46.7878297
+   ],
+   [
+    23.6616435,
+    46.787855
+   ],
+   [
+    23.6616225,
+    46.7879715
+   ],
+   [
+    23.6616139,
+    46.7880193
+   ],
+   [
+    23.6615975,
+    46.7881118
+   ],
+   [
+    23.6615928,
+    46.7881383
+   ],
+   [
+    23.6615728,
+    46.7882585
+   ],
+   [
+    23.6615654,
+    46.7883031
+   ],
+   [
+    23.6615402,
+    46.7883974
+   ],
+   [
+    23.661514,
+    46.7884956
+   ],
+   [
+    23.6615136,
+    46.7884962
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.17
+  },
+  "legenda": "puz/2020-764/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-10-27",
+   "initial_pana_la": "2025-10-27",
+   "prelungiri": [
+    {
+     "hcl": "596/2025",
+     "pana_la": "2027-10-27",
+     "nota": "HCL 596 din 5 septembrie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 2 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (27.10.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 5.09.2027)."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Codurile zonelor: hotărârea scrie U.T.R. Li/c cu subzonele Li/c_a și Li/c_b, Is_A și S_Va; planșa scrie Lic/a, Lic/b, S_Is și S_Va. Indicatorii sunt aceiași (POT 35% / CUT 0,9 pentru Li/c, 60% / 2 pentru Is_A – S_Is, 5% / 0,1 pentru S_Va), iar regimul S(D)+P+2E+R scris pe lotul S_Is e una dintre configurațiile admise de hotărâre.",
+   "Planșa arată elemente pe care hotărârea nu le pomenește: lotul Lic/a de la colțul str. Bazna – str. Tractoriștilor e marcat „clădiri de locuit în cadrul cărora se desfășoară servicii publice sau de interes public”; între loturile Lic/b de la colțul str. Tractoriștilor – str. Râului e desenată o „alee rezidențială 6 m”; legenda are și axul și zona tehnică ale unui canal colector (secțiune 300×190 cm), „închisă publicului”, cu fâșia hașurată de-a lungul str. Bazna.",
+   "Planșa nu dă regimul de înălțime și înălțimile pentru Lic/a și Lic/b; ele vin doar din hotărâre (Art. 1)."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Terenul necesar lărgirii str. Bazna și străzii noi (ampriză 12 m, str. Rândunicilor pe planșă) se dezmembrează din parcela inițială și se înscrie în cartea funciară ca „drum” înainte de autorizațiile de construire pe parcele.",
+   "Strada nouă se echipează edilitar (inclusiv iluminat stradal) și se face la strat de uzură înainte de autorizațiile de construire pentru parcelele cu acces direct din ea.",
+   "Pe strada nouă se pun mobilier urban (coșuri de gunoi) și indicatoare rutiere și se plantează arbori cu circumferința de cel puțin 35 cm la 1 m de la colet, câte unul la fiecare două locuri de parcare amenajate de-a lungul străzii.",
+   "Spațiul verde cu acces public nelimitat (S_Va) se amenajează pe baza unui proiect de specialitate până la recepția construcțiilor de pe parcelele cu front la strada de 12 m.",
+   "Strada nouă și spațiul verde cu acces public nelimitat se transferă gratuit în domeniul public înainte de certificatul de atestare a edificării construcțiilor."
+  ]
+ },
+ {
   "id": "2019-883",
   "localitate": "cluj",
   "hcl": "883/2019",

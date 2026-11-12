@@ -1,0 +1,454 @@
+{
+  "id": "2020-764",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 764,
+    "an": 2020,
+    "data_sedinta": "2020-10-27",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-764-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/10/27/HCL-nr.-764-din-27.10.2021.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare și dezvoltare zonă rezidențială – str. Tractoriștilor est",
+  "plansa": {
+    "pagina_pdf": 21,
+    "dpi": 150,
+    "denumire": "A.04 Plan reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Anexa 1 apare de două ori în PDF: p. 4, alb-negru, micșorată pe A4 (1240×1755 px), ștampilată „Anexa nr. 1 la H.C.L. nr. 764 din 27.10.2020” și semnată de arhitectul șef; p. 21, color, pe A3 la 150 ppi (2482×1755 px), cu inventarul și legenda de două ori mai mari – aleasă. Planșa e desenată culcat: nordul e spre dreapta, iar textele se citesc de sus în jos, de aceea casetele legendei sunt întoarse cu 270°. Legenda: cheia simbolurilor și rândurile cu POT/CUT maxime din bilanțul teritorial (fără suprafețele bilanțului, profilurile străzilor și cartușul). Pe loturi nu e scris niciun nume (nu s-a acoperit nimic); numele beneficiarului din cartuș rămâne în afara suprafeței decupate. În suprafața decupată intră ștampila Comisiei tehnice de amenajare a teritoriului și urbanism și mențiunea de mână „HCL 764 din 27.10.2020”, peste zona verde S_Va."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": 23389.73,
+    "puncte": {
+      "1": [
+        588530.878,
+        397943.014
+      ],
+      "2": [
+        588539.892,
+        397943.207
+      ],
+      "3": [
+        588546.058,
+        397943.353
+      ],
+      "4": [
+        588563.871,
+        397943.759
+      ],
+      "5": [
+        588574.982,
+        397944.016
+      ],
+      "6": [
+        588575.08,
+        397944.018
+      ],
+      "7": [
+        588598.983,
+        397944.675
+      ],
+      "8": [
+        588598.99,
+        397944.465
+      ],
+      "9": [
+        588621.998,
+        397945.17
+      ],
+      "10": [
+        588621.404,
+        397940.459
+      ],
+      "11": [
+        588619.433,
+        397931.767
+      ],
+      "12": [
+        588616.105,
+        397916.163
+      ],
+      "13": [
+        588612.272,
+        397901.788
+      ],
+      "14": [
+        588608.746,
+        397889.568
+      ],
+      "15": [
+        588606.685,
+        397880.271
+      ],
+      "16": [
+        588606.07,
+        397873.996
+      ],
+      "17": [
+        588606.425,
+        397870.521
+      ],
+      "18": [
+        588591.73,
+        397868.353
+      ],
+      "19": [
+        588567.608,
+        397864.662
+      ],
+      "20": [
+        588561.692,
+        397863.639
+      ],
+      "21": [
+        588551.953,
+        397862.16
+      ],
+      "22": [
+        588542.263,
+        397860.756
+      ],
+      "23": [
+        588541.885,
+        397860.738
+      ],
+      "24": [
+        588528.1,
+        397858.789
+      ],
+      "25": [
+        588520.893,
+        397857.715
+      ],
+      "26": [
+        588508.563,
+        397855.703
+      ],
+      "27": [
+        588501.387,
+        397854.664
+      ],
+      "28": [
+        588501.007,
+        397854.462
+      ],
+      "29": [
+        588490.012,
+        397852.781
+      ],
+      "30": [
+        588486.622,
+        397852.31
+      ],
+      "31": [
+        588471.552,
+        397850.22
+      ],
+      "32": [
+        588437.269,
+        397844.849
+      ],
+      "33": [
+        588412.275,
+        397840.933
+      ],
+      "34": [
+        588412.304,
+        397840.4
+      ],
+      "35": [
+        588415.37,
+        397820.942
+      ],
+      "36": [
+        588375.237,
+        397814.786
+      ],
+      "37": [
+        588375.033,
+        397835.576
+      ],
+      "38": [
+        588373.869,
+        397835.428
+      ],
+      "39": [
+        588373.944,
+        397854.39
+      ],
+      "40": [
+        588376.757,
+        397891.152
+      ],
+      "41": [
+        588377.811,
+        397913.401
+      ],
+      "42": [
+        588377.662,
+        397919.69
+      ],
+      "43": [
+        588378.131,
+        397950.236
+      ],
+      "44": [
+        588378.138,
+        397959.489
+      ],
+      "45": [
+        588388.015,
+        397958.642
+      ],
+      "46": [
+        588401.409,
+        397957.594
+      ],
+      "47": [
+        588408.639,
+        397956.549
+      ],
+      "48": [
+        588417.618,
+        397955.251
+      ],
+      "49": [
+        588420.544,
+        397955.031
+      ],
+      "50": [
+        588430.51,
+        397954.283
+      ],
+      "51": [
+        588434.104,
+        397953.804
+      ],
+      "52": [
+        588440.611,
+        397952.936
+      ],
+      "53": [
+        588449.432,
+        397951.926
+      ],
+      "54": [
+        588452.241,
+        397951.604
+      ],
+      "55": [
+        588465.219,
+        397950.22
+      ],
+      "56": [
+        588470.54,
+        397949.653
+      ],
+      "57": [
+        588480.848,
+        397948.575
+      ],
+      "58": [
+        588483.794,
+        397948.267
+      ],
+      "59": [
+        588497.182,
+        397946.969
+      ],
+      "60": [
+        588502.146,
+        397946.488
+      ],
+      "61": [
+        588512.665,
+        397944.741
+      ],
+      "62": [
+        588523.605,
+        397942.924
+      ],
+      "63": [
+        588523.67,
+        397942.894
+      ]
+    },
+    "perimetru_declarat_m": 725.059,
+    "laturi_declarate_m": {
+      "1": 9.016,
+      "2": 6.168,
+      "3": 17.818,
+      "4": 11.114,
+      "5": 0.098,
+      "6": 23.912,
+      "7": 0.21,
+      "8": 23.019,
+      "9": 4.748,
+      "10": 8.913,
+      "11": 15.955,
+      "12": 14.877,
+      "13": 12.719,
+      "14": 9.523,
+      "15": 6.305,
+      "16": 3.493,
+      "17": 14.854,
+      "18": 24.403,
+      "19": 6.004,
+      "20": 9.851,
+      "21": 9.791,
+      "22": 0.378,
+      "23": 13.922,
+      "24": 7.287,
+      "25": 12.493,
+      "26": 7.251,
+      "27": 0.43,
+      "28": 11.123,
+      "29": 3.423,
+      "30": 15.214,
+      "31": 34.701,
+      "32": 25.299,
+      "33": 0.534,
+      "34": 19.698,
+      "35": 40.602,
+      "36": 20.791,
+      "37": 1.173,
+      "38": 18.962,
+      "39": 36.869,
+      "40": 22.274,
+      "41": 6.291,
+      "42": 30.55,
+      "43": 9.253,
+      "44": 9.913,
+      "45": 13.435,
+      "46": 7.305,
+      "47": 9.072,
+      "48": 2.934,
+      "49": 9.994,
+      "50": 3.626,
+      "51": 6.565,
+      "52": 8.879,
+      "53": 2.827,
+      "54": 13.052,
+      "55": 5.351,
+      "56": 10.364,
+      "57": 2.962,
+      "58": 13.451,
+      "59": 4.987,
+      "60": 10.663,
+      "61": 11.09,
+      "62": 0.072,
+      "63": 7.209
+    },
+    "nota": "Inventarul „Parcela (1)” (63 de puncte, X [Nord] / Y [Est], cu D(i,i+1), S(1) = 23.389,73 mp, P = 725,059 m) e tipărit mărunt pe planșa A3 de la p. 21 (rânduri de ~10 px la 150 ppi) și, și mai mic, pe Anexa 1 A4 de la p. 4; s-a citit pe amândouă și s-a verificat cu laturile. Toate cele 63 de laturi și perimetrul se verifică la 1 mm. Cifre stabilite din laturi, unde scanul e neclar: pct. 7 Est 397944.675 și pct. 8 Est 397944.465 (p. 4; pe p. 21 par .875/.455), pct. 47 Est 397956.549, pct. 58 Nord 588483.794 / Est 397948.267 (p. 4; laturile 57-58 și 58-59 admit și .796/.287, care nu se potrivesc cu p. 4). În coloana laturilor, D(4,5) se citește 11.114 (pe p. 4 pare 12.114, dar 3-4 și 4-5 o confirmă), D(20,21) 9.851. A cincea cifră a suprafeței e ștearsă în ambele copii; 23389,73 se potrivește cu aria coordonatelor (23.389,59 mp) și cu bilanțul (23.390 mp)."
+  },
+  "gcp_px": {
+    "36": [
+      818,
+      340
+    ],
+    "9": [
+      2266,
+      1105
+    ],
+    "17": [
+      2177,
+      665
+    ],
+    "44": [
+      831,
+      1187
+    ]
+  },
+  "verificare_px": {
+    "35": [
+      1052,
+      373
+    ],
+    "33": [
+      1036,
+      491
+    ],
+    "62": [
+      1690,
+      1091
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      448,
+      1336,
+      1140,
+      1716,
+      270
+    ],
+    [
+      1138,
+      1174,
+      1309,
+      1706,
+      270
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Li/c_a (Lic/a pe planșă)",
+      "denumire": "Locuințe cu regim redus de înălțime individuale (unifamiliale izolate sau cuplate), din procedura de urbanizare. Clădirile stau în fâșia de 25 m de la aliniament, retrase cel puțin 3 m de la aliniament (recomandat 5 m; garajele 6 m), cel puțin 3 m de la limitele laterale și cel puțin cât înălțimea, dar minim 6 m, de la limita posterioară",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "(S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R; 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras"
+    },
+    {
+      "cod": "Li/c_b (Lic/b pe planșă)",
+      "denumire": "Locuințe colective mici (loturile de la capătul nordic, spre str. Râului, de o parte și de alta a străzii noi); nu sunt ținute de fâșia de 25 m de la aliniament; la parcela de colț de pe frontul estic al str. Rândunicilor, la str. Râului, retragerea față de limita estică e de minim 5 m",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "(S)+P+2 sau D+P+2 (demisolul sau subsolul doar pentru garaje și funcțiuni conexe); 12 m"
+    },
+    {
+      "cod": "Is_A (S_Is pe planșă)",
+      "denumire": "Instituții și servicii publice și de interes public în ansambluri independente: administrație, cultură, învățământ și cercetare, sănătate și asistență socială, cult (pe planșă un lot de 500 mp); retragere de la aliniament minim 3 m, recomandat 5 m; 1,5 m față de S_Va și 3 m față de parcelele de locuințe",
+      "pot_max": "60%",
+      "cut_max": "2",
+      "h_max": "16 m la cornișă sau la aticul etajului retras; (S)+P+2E+M, (S)+P+2E+R, S+D+P+2E+M sau S+D+P+2E+R"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Scuaruri, grădini, parcuri cu acces public nelimitat; spațiile verzi pe sol natural ocupă cel puțin 60% din suprafață; arborii maturi nu se taie",
+      "pot_max": "5%",
+      "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+      "h_max": "nestabilită (nici hotărârea, nici regulamentul nu dau o înălțime)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-10-27",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (ședința din 27.10.2020); prelungită cu 2 ani prin HCL 596/2025 (5.09.2025), adoptată înainte de expirare, până la 27.10.2027. `related` (index actualizat 2026-11-08): o prelungire, nicio modificare."
+  },
+  "prelungiri": [
+    {
+      "hcl": "596/2025",
+      "pana_la": "2027-10-27",
+      "nota": "HCL 596 din 5 septembrie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 2 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (27.10.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 5.09.2027)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Codurile zonelor: hotărârea scrie U.T.R. Li/c cu subzonele Li/c_a și Li/c_b, Is_A și S_Va; planșa scrie Lic/a, Lic/b, S_Is și S_Va. Indicatorii sunt aceiași (POT 35% / CUT 0,9 pentru Li/c, 60% / 2 pentru Is_A – S_Is, 5% / 0,1 pentru S_Va), iar regimul S(D)+P+2E+R scris pe lotul S_Is e una dintre configurațiile admise de hotărâre.",
+    "Planșa arată elemente pe care hotărârea nu le pomenește: lotul Lic/a de la colțul str. Bazna – str. Tractoriștilor e marcat „clădiri de locuit în cadrul cărora se desfășoară servicii publice sau de interes public”; între loturile Lic/b de la colțul str. Tractoriștilor – str. Râului e desenată o „alee rezidențială 6 m”; legenda are și axul și zona tehnică ale unui canal colector (secțiune 300×190 cm), „închisă publicului”, cu fâșia hașurată de-a lungul str. Bazna.",
+    "Planșa nu dă regimul de înălțime și înălțimile pentru Lic/a și Lic/b; ele vin doar din hotărâre (Art. 1)."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Terenul necesar lărgirii str. Bazna și străzii noi (ampriză 12 m, str. Rândunicilor pe planșă) se dezmembrează din parcela inițială și se înscrie în cartea funciară ca „drum” înainte de autorizațiile de construire pe parcele.",
+    "Strada nouă se echipează edilitar (inclusiv iluminat stradal) și se face la strat de uzură înainte de autorizațiile de construire pentru parcelele cu acces direct din ea.",
+    "Pe strada nouă se pun mobilier urban (coșuri de gunoi) și indicatoare rutiere și se plantează arbori cu circumferința de cel puțin 35 cm la 1 m de la colet, câte unul la fiecare două locuri de parcare amenajate de-a lungul străzii.",
+    "Spațiul verde cu acces public nelimitat (S_Va) se amenajează pe baza unui proiect de specialitate până la recepția construcțiilor de pe parcelele cu front la strada de 12 m.",
+    "Strada nouă și spațiul verde cu acces public nelimitat se transferă gratuit în domeniul public înainte de certificatul de atestare a edificării construcțiilor."
+  ]
+}
