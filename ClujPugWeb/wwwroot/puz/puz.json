@@ -31717,6 +31717,228 @@
   ]
  },
  {
+  "id": "2021-66",
+  "localitate": "cluj",
+  "hcl": "66/2021",
+  "data": "2021-02-22",
+  "titlu": "P.U.Z. de urbanizare – Construire ansamblu de locuințe, Colonia Sopor",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-66-din-2021/",
+  "pdf": "https://files.primariaclujnapoca.ro/2021/03/17/HCL-66-din-22-02-2021-PUZ-urbanizare-Colonia-Sopor.pdf",
+  "utr": [
+   {
+    "cod": "Lid1",
+    "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritoriu fără infrastructură completă: locuințe unifamiliale, regim de construire izolat și cuplat; retrageri minime de 5 m față de aliniament, 3 m față de limitele laterale și 5 m față de limita posterioară",
+    "pot_max": "30%",
+    "cut_max": "0,6",
+    "h_max": "S/D+P+E/M"
+   },
+   {
+    "cod": "S_Et1",
+    "denumire": "Subzonă de instituții publice/private: învățământ și sănătate (creșă, grădiniță, afterschool), regim de construire izolat; retrageri minime de 5 m față de aliniament, 4,50 m față de limitele laterale și 5 m față de limita posterioară",
+    "pot_max": "50%",
+    "cut_max": "2,4",
+    "h_max": "D(S)+P+3E+ER(M)"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzonă verde – scuar, grădină, parc de acces public nelimitat",
+    "pot_max": "nu e cazul",
+    "cut_max": "nu e cazul",
+    "h_max": "nu e cazul"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor",
+    "pot_max": "nu e cazul",
+    "cut_max": "nu e cazul",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 26403,
+  "imagine": "puz/2021-66/plansa.webp",
+  "bounds": {
+   "west": 23.6706284,
+   "south": 46.7519547,
+   "east": 23.6750959,
+   "north": 46.7543109
+  },
+  "limita": [
+   [
+    23.6706719,
+    46.7541528
+   ],
+   [
+    23.6710294,
+    46.7541825
+   ],
+   [
+    23.6711751,
+    46.7541945
+   ],
+   [
+    23.6715861,
+    46.7542287
+   ],
+   [
+    23.6720426,
+    46.7542623
+   ],
+   [
+    23.6722304,
+    46.7541266
+   ],
+   [
+    23.6744053,
+    46.7525528
+   ],
+   [
+    23.6750631,
+    46.7520768
+   ],
+   [
+    23.6749277,
+    46.7520204
+   ],
+   [
+    23.674716,
+    46.7521406
+   ],
+   [
+    23.6744586,
+    46.7521651
+   ],
+   [
+    23.6744148,
+    46.7521694
+   ],
+   [
+    23.6743715,
+    46.7522073
+   ],
+   [
+    23.6742736,
+    46.7521838
+   ],
+   [
+    23.6740866,
+    46.7522231
+   ],
+   [
+    23.6738423,
+    46.7523265
+   ],
+   [
+    23.6736724,
+    46.7523118
+   ],
+   [
+    23.6734846,
+    46.75231
+   ],
+   [
+    23.6734218,
+    46.7523468
+   ],
+   [
+    23.6733107,
+    46.7524115
+   ],
+   [
+    23.6731693,
+    46.7524198
+   ],
+   [
+    23.6730034,
+    46.7524647
+   ],
+   [
+    23.6727611,
+    46.7525514
+   ],
+   [
+    23.6726509,
+    46.7526288
+   ],
+   [
+    23.6722913,
+    46.7528815
+   ],
+   [
+    23.6721311,
+    46.7530049
+   ],
+   [
+    23.671975,
+    46.7531256
+   ],
+   [
+    23.6718988,
+    46.7531845
+   ],
+   [
+    23.6718287,
+    46.7532466
+   ],
+   [
+    23.6716771,
+    46.7533808
+   ],
+   [
+    23.6715369,
+    46.753504
+   ],
+   [
+    23.6713936,
+    46.7536297
+   ],
+   [
+    23.6712355,
+    46.7537442
+   ],
+   [
+    23.6710903,
+    46.7538495
+   ],
+   [
+    23.6710776,
+    46.7538588
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.19
+  },
+  "legenda": "puz/2021-66/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-02-22",
+   "initial_pana_la": "2026-02-22",
+   "prelungiri": [
+    {
+     "hcl": "702/2025",
+     "pana_la": "2029-02-22",
+     "nota": "HCL 702 din 4 decembrie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 3 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (22.02.2026); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii ar fi 4.12.2028)."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "CUT în S_Et1: blocul U.T.R. din legenda planșei dă C.U.T. maxim 2,2 mp ADC/mp teren; hotărârea (Art. 1) dă C.U.T. max. 2,4.",
+   "Funcțiunea S_Et1: blocul U.T.R. al planșei o numește „subzona de activități economice cu caracter terțiar situate în zone cu caracter rezidențial” (zonificarea de pe aceeași planșă: „subzona de instituții publice/private”; tabelul terenurilor: „1 parcelă pentru birouri/servicii/grădiniță”); hotărârea o definește ca subzonă de instituții publice/private, cu funcțiunea predominantă învățământ și sănătate (creșă, grădiniță, afterschool).",
+   "S_Va: planșa dă P.O.T. maxim 5% și C.U.T. maxim 0,1 mp ADC/mp teren; hotărârea spune la indicii urbanistici „nu e cazul”.",
+   "Zona cedată: planșa marchează la capătul de sud-est o „zonă cedată pentru regularizarea drumului – pt drum public” de 83,01 mp, trecută și în bilanț; hotărârea n-o pomenește."
+  ],
+  "conditii": [
+   "Prin P.U.Z. se parcelează un teren de ~2,6 ha, proprietate privată, în 42 de parcele (pe planșă: 38 pentru locuințe unifamiliale, una pentru creșă/grădiniță/afterschool în S_Et1, două pentru spații verzi și loc de joacă, una pentru circulații).",
+   "Accesul se face din strada nou propusă „A”, cu ampriza de 9 m, alăturată drumului desprins din str. Gheorgheni; parcarea se face în interiorul parcelelor.",
+   "Utilitățile se asigură prin racordare la rețelele publice disponibile (apă, electricitate, telefonie); apele uzate menajere se epurează în microstații și se infiltrează în sol, în interiorul parcelei.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari și se fac conform planului de acțiune pentru implementarea investițiilor.",
+   "În zona verde S_Va se plantează cel puțin 40 de arbori, cu circumferința de min. 35 cm măsurată la 1 m de la colet, înainte de recepția construcțiilor din UTR Lid1.",
+   "Strada nou propusă „A” se face la strat de uzură, echipată tehnico-edilitar, cu iluminat stradal, mobilier urban și marcaje rutiere, pe baza unui proiect de specialitate, înainte de emiterea autorizațiilor de construire pe parcele.",
+   "Autorizațiile de construire (altele decât cele pentru infrastructura tehnico-edilitară și pentru clădirea din S_Et1) se emit numai după asfaltarea și modernizarea străzii Soporului și a străzii Gheorgheni până la amplasament, „însă nu mai târziu de 2026”, cum spune hotărârea."
+  ]
+ },
+ {
   "id": "2021-24",
   "localitate": "cluj",
   "hcl": "24/2021",

@@ -1,0 +1,331 @@
+{
+  "id": "2021-66",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 66,
+    "an": 2021,
+    "data_sedinta": "2021-02-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-66-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/2021/03/17/HCL-66-din-22-02-2021-PUZ-urbanizare-Colonia-Sopor.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – Construire ansamblu de locuințe, Colonia Sopor",
+  "plansa": {
+    "pagina_pdf": 20,
+    "dpi": 200,
+    "denumire": "Plan reglementări urbanistice (planșa U/P.U.Z./3)",
+    "scara": "1:500 (fitul dă 15,8 px/m, cât scara la 200 ppi: 15,75 px/m)",
+    "nota": "PDF-ul are 30 de pagini scanate: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii, fără articole adăugate după lista anexelor), Anexa 1 – regulamentul local de urbanism (p. 3-18), Anexa 2 – planșa de reglementări micșorată pe A4, alb-negru, cu ștampila „Anexa 2 la Hotărârea nr. 66/2021” (p. 19), aceeași planșă color, la mărimea ei (p. 20, 4670×8304 px, 200 ppi), avizele arhitectului-șef, între care avizul nr. 75/19.03.2020 (p. 21-26), avizul de oportunitate nr. 408/2015 (p. 27) și raportul informării și consultării publicului (p. 28-30). E aleasă p. 20: e planșa din Anexa 2, color și la format mare, cu viza comisiei tehnice; p. 19 e aceeași planșă redusă. Cartușul: „Plan reglementări urbanistice”, planșa U/P.U.Z./3, proiect nr. 01/2015, faza P.U.Z., scara 1:500, datată 23.02.2021 (a doua zi după ședință). Planșa e tipărită culcat: nordul e spre stânga (rotație -88,6° în fit), iar textele se citesc de jos în sus, de aceea casetele legendei sunt rotite cu 90°. Legenda ia trei casete: blocul U.T.R. cu POT și CUT (Lid1, S_Et1, S_Va), blocul „Construcții” (regim de înălțime și retrageri pentru Lid1 și S_Et1) cu „Limite” și „Zonificare”, apoi restul zonificării, „Circulații” și „Aliniamente”; au rămas afară bilanțul teritorial, tabelul „Terenuri”, „Condiționări primare” (procente din suprafață), profilele stradale 1-1 și 2-2, inventarul de coordonate, rama „Orientare”, ștampilele și cartușul. La nord-vest de limită, în afara ei, planșa hașurează „Etapa 2 PUZ UTR=ULid”, rămasă în zona ULid din P.U.G."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („Tabel de coordonate”, „Parcela(1)”, în dreapta-sus, x≈3780-4560, y≈1240-1600 pe planșa randată, tipărit culcat; Nr. pct., X [m] = Nord, Y [m] = Est, Stereo 70, cu lungimile laturilor D(i,i+1)): 35 de puncte în ordinea limitei, S(1) = 26402,93 mp, P = 876,400 m. Aria coordonatelor iese 26402,9 mp (0,0%), perimetrul 876,400 m, iar toate cele 35 de laturi se potrivesc. Numerele punctelor sunt scrise pe planșă lângă vârfuri. Puncte de control, pe mijlocul liniei roșii a limitei: colțurile 1 (vest), 5 (nord), 8 (vârful de sud-est, colțul zonei cedate), 10, 13 și 18 (pe latura de sud-vest, de-a lungul canalului colector); verificare: 9 (colțul de est al zonei cedate, parțial sub eticheta lui), 14 și 16.",
+    "suprafata_declarata_m2": 26402.93,
+    "puncte": {
+      "1": [
+        584695.13,
+        398577.86
+      ],
+      "2": [
+        584697.97,
+        398605.22
+      ],
+      "3": [
+        584699.12,
+        398616.37
+      ],
+      "4": [
+        584702.39,
+        398647.83
+      ],
+      "5": [
+        584705.54,
+        398682.76
+      ],
+      "6": [
+        584690.22,
+        398696.85
+      ],
+      "7": [
+        584512.53,
+        398860.05
+      ],
+      "8": [
+        584458.79,
+        398909.41
+      ],
+      "9": [
+        584452.69,
+        398898.96
+      ],
+      "10": [
+        584466.32,
+        398883.01
+      ],
+      "11": [
+        584469.38,
+        398863.4
+      ],
+      "12": [
+        584469.91,
+        398860.06
+      ],
+      "13": [
+        584474.18,
+        398856.82
+      ],
+      "14": [
+        584471.69,
+        398849.3
+      ],
+      "15": [
+        584476.3,
+        398835.09
+      ],
+      "16": [
+        584488.1,
+        398816.62
+      ],
+      "17": [
+        584486.68,
+        398803.62
+      ],
+      "18": [
+        584486.73,
+        398789.27
+      ],
+      "19": [
+        584490.89,
+        398784.54
+      ],
+      "20": [
+        584498.23,
+        398776.17
+      ],
+      "21": [
+        584499.33,
+        398765.39
+      ],
+      "22": [
+        584504.53,
+        398752.8
+      ],
+      "23": [
+        584514.48,
+        398734.45
+      ],
+      "24": [
+        584523.22,
+        398726.18
+      ],
+      "25": [
+        584551.77,
+        398699.18
+      ],
+      "26": [
+        584565.69,
+        398687.18
+      ],
+      "27": [
+        584579.3,
+        398675.48
+      ],
+      "28": [
+        584585.94,
+        398669.77
+      ],
+      "29": [
+        584592.93,
+        398664.53
+      ],
+      "30": [
+        584608.04,
+        398653.2
+      ],
+      "31": [
+        584621.91,
+        398642.72
+      ],
+      "32": [
+        584636.07,
+        398632.01
+      ],
+      "33": [
+        584649.0,
+        398620.15
+      ],
+      "34": [
+        584660.89,
+        398609.25
+      ],
+      "35": [
+        584661.93,
+        398608.3
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 27.507,
+      "2": 11.209,
+      "3": 31.629,
+      "4": 35.072,
+      "5": 20.814,
+      "6": 241.263,
+      "7": 72.968,
+      "8": 12.1,
+      "9": 20.98,
+      "10": 19.847,
+      "11": 3.382,
+      "12": 5.36,
+      "13": 7.922,
+      "14": 14.939,
+      "15": 21.918,
+      "16": 13.077,
+      "17": 14.35,
+      "18": 6.299,
+      "19": 11.132,
+      "20": 10.836,
+      "21": 13.622,
+      "22": 20.874,
+      "23": 12.032,
+      "24": 39.295,
+      "25": 18.378,
+      "26": 17.948,
+      "27": 8.757,
+      "28": 8.736,
+      "29": 18.886,
+      "30": 17.384,
+      "31": 17.754,
+      "32": 17.545,
+      "33": 16.13,
+      "34": 1.409,
+      "35": 45.043
+    },
+    "perimetru_declarat_m": 876.4,
+    "nota": "Laturile 5-6, 6-7 și 7-8 sunt în prelungire (137°), la fel 23-35 și 35-1, așa că acolo vârfurile nu sunt colțuri și n-au fost folosite. Bilanțul teritorial al planșei dă 25.919 mp (Lid1 15.287,70 + S_Et1 879 + S_Va 1976,05 + circulații 5909,89 + Ve 1783,35 + zona cedată 83,01), cu 484 mp mai puțin decât inventarul; diferența e, cel mai probabil, „parcela nereglementată prin studiul PUZ” hașurată în interiorul limitei (măsurată grosier pe planșă: ~450 mp). Art. 1 spune „~2,6 ha”."
+  },
+  "gcp_px": {
+    "1": [
+      402,
+      7851
+    ],
+    "5": [
+      283,
+      6190
+    ],
+    "8": [
+      4253,
+      2711
+    ],
+    "10": [
+      4129,
+      3123
+    ],
+    "13": [
+      3998,
+      3532
+    ],
+    "18": [
+      3773,
+      4595
+    ]
+  },
+  "verificare_px": {
+    "9": [
+      4347,
+      2884
+    ],
+    "14": [
+      4032,
+      3650
+    ],
+    "16": [
+      3763,
+      4160
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      140,
+      600,
+      570,
+      1625,
+      90
+    ],
+    [
+      1395,
+      470,
+      2366,
+      1625,
+      90
+    ],
+    [
+      2366,
+      625,
+      2910,
+      1625,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lid1",
+      "denumire": "Locuințe cu regim redus de înălțime, de mică densitate, pe teritoriu fără infrastructură completă: locuințe unifamiliale, regim de construire izolat și cuplat; retrageri minime de 5 m față de aliniament, 3 m față de limitele laterale și 5 m față de limita posterioară",
+      "pot_max": "30%",
+      "cut_max": "0,6",
+      "h_max": "S/D+P+E/M"
+    },
+    {
+      "cod": "S_Et1",
+      "denumire": "Subzonă de instituții publice/private: învățământ și sănătate (creșă, grădiniță, afterschool), regim de construire izolat; retrageri minime de 5 m față de aliniament, 4,50 m față de limitele laterale și 5 m față de limita posterioară",
+      "pot_max": "50%",
+      "cut_max": "2,4",
+      "h_max": "D(S)+P+3E+ER(M)"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzonă verde – scuar, grădină, parc de acces public nelimitat",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-02-22",
+    "verificat": "2026-11-12: cinci ani de la aprobare (ședința din 22.02.2021); `related` (index actualizat 2026-11-08): o prelungire (HCL 702/2025), nicio modificare."
+  },
+  "prelungiri": [
+    {
+      "hcl": "702/2025",
+      "pana_la": "2029-02-22",
+      "nota": "HCL 702 din 4 decembrie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 3 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (22.02.2026); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii ar fi 4.12.2028)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "CUT în S_Et1: blocul U.T.R. din legenda planșei dă C.U.T. maxim 2,2 mp ADC/mp teren; hotărârea (Art. 1) dă C.U.T. max. 2,4.",
+    "Funcțiunea S_Et1: blocul U.T.R. al planșei o numește „subzona de activități economice cu caracter terțiar situate în zone cu caracter rezidențial” (zonificarea de pe aceeași planșă: „subzona de instituții publice/private”; tabelul terenurilor: „1 parcelă pentru birouri/servicii/grădiniță”); hotărârea o definește ca subzonă de instituții publice/private, cu funcțiunea predominantă învățământ și sănătate (creșă, grădiniță, afterschool).",
+    "S_Va: planșa dă P.O.T. maxim 5% și C.U.T. maxim 0,1 mp ADC/mp teren; hotărârea spune la indicii urbanistici „nu e cazul”.",
+    "Zona cedată: planșa marchează la capătul de sud-est o „zonă cedată pentru regularizarea drumului – pt drum public” de 83,01 mp, trecută și în bilanț; hotărârea n-o pomenește."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se parcelează un teren de ~2,6 ha, proprietate privată, în 42 de parcele (pe planșă: 38 pentru locuințe unifamiliale, una pentru creșă/grădiniță/afterschool în S_Et1, două pentru spații verzi și loc de joacă, una pentru circulații).",
+    "Accesul se face din strada nou propusă „A”, cu ampriza de 9 m, alăturată drumului desprins din str. Gheorgheni; parcarea se face în interiorul parcelelor.",
+    "Utilitățile se asigură prin racordare la rețelele publice disponibile (apă, electricitate, telefonie); apele uzate menajere se epurează în microstații și se infiltrează în sol, în interiorul parcelei.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari și se fac conform planului de acțiune pentru implementarea investițiilor.",
+    "În zona verde S_Va se plantează cel puțin 40 de arbori, cu circumferința de min. 35 cm măsurată la 1 m de la colet, înainte de recepția construcțiilor din UTR Lid1.",
+    "Strada nou propusă „A” se face la strat de uzură, echipată tehnico-edilitar, cu iluminat stradal, mobilier urban și marcaje rutiere, pe baza unui proiect de specialitate, înainte de emiterea autorizațiilor de construire pe parcele.",
+    "Autorizațiile de construire (altele decât cele pentru infrastructura tehnico-edilitară și pentru clădirea din S_Et1) se emit numai după asfaltarea și modernizarea străzii Soporului și a străzii Gheorgheni până la amplasament, „însă nu mai târziu de 2026”, cum spune hotărârea."
+  ]
+}
