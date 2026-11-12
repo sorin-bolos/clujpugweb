@@ -1,0 +1,379 @@
+{
+  "id": "2023-183",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 183,
+    "an": 2023,
+    "data_sedinta": "2023-04-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-183-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/05/23/HCL-183.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă de activități economice cu caracter industrial, str. Triajului – sud",
+  "plansa": {
+    "pagina_pdf": 20,
+    "dpi": 96,
+    "denumire": "U.02 Reglementări urbanistice",
+    "scara": "1:500, 1:1000 (cartuș); desenul de pe p. 20 e la ~1:1000 (3,77 px/m la 96 ppi)",
+    "nota": "Planșa apare de două ori, identic (p. 20 și p. 31 au aceeași imagine, 96 ppi); s-a folosit p. 20. Caseta „Inventar de coordonate” a planșei e goală. Legenda are trei casete: simbolurile, blocul UTR Ei* (cu tabelul de indicatori) și UTR-urile P.U.G. din jur; au rămas pe dinafară tabelul de proprietate/bilanț din colțul de sus, calculul locurilor de parcare, profilele stradale și cartușul. La 96 ppi literele mici din lista de utilizări admise a UTR Ei* se citesc greu; indicatorii se citesc."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa U.02 nu are inventar de coordonate (caseta „Inventar de coordonate” e goală), iar etichetele caroiajului topografic nu se pot citi la 96 ppi. Georeferențiere pe două surse independente: (1) inventarul de coordonate al parcelei nr. cad. 334637, tipărit pe planșa U.05 Posibilitate de mobilare (p. 33) în două tabele (punctele 1-7 și 7, 6, 8-16, X Nord / Y Est; împreună 7835,25 mp, exact suprafața parcelei 334637 din tabelul planșei), pus la `repere` ca P1-P16. Parcela e jumătatea de nord-vest a zonei: P1 e colțul de nord al limitei P.U.Z., P2 colțul de vest, iar P15 și P16 capetele liniei negre a hotarului dintre cele două parcele, desenată pe planșă; fiecare e intersecția dreptelor potrivite pe pixelii punctelor roșii ale limitei și pe linia de hotar (laturile au pe planșă aceleași orientări ca în inventar, la sub 1°). (2) Crucile caroiajului Stereo 70 al planului topografic, din 40 în 40 m (~151 px), etichetate cu `caroiaj` pornind de la P2: 12 cruci curate, cu centrul măsurat pe brațe (zoom 8×), puse la `repere` ca C<E>_<N>. Control: crucile C387440_588680, C387440_588600, C387520_588720, C387520_588680, C387600_588720, C387560_588640, C387600_588640, C387480_588480, C387600_588480 și colțurile P2, P16; verificare: crucile C387560_588720, C387560_588680, C387600_588680 și colțurile P1, P15. Cele două surse se confirmă una pe alta: potrivirea numai pe cele 12 cruci pune colțurile inventarului la 0,02-0,56 m, iar potrivirea numai pe cele 4 colțuri pune crucile la 0,17-0,90 m de nodurile de 40 m. Limita e trasată (`limita_px`) pe mijlocul liniei roșii punctate „Limita zonă reglementată prin PUZ”: colțurile P1, P16, P15 și P2 ca mai sus, celelalte ca intersecții ale dreptelor potrivite pe punctele roșii.",
+    "suprafata_declarata_m2": 13993,
+    "puncte": {},
+    "nota": "Suprafața: 13993 mp, din Art. 1 și din tabelul planșei (7835 mp nr. cad. 334637 + 6158 mp nr. cad. 335523). Limita trasată dă 13898 mp (-0,7%): partea de nord-vest 7787 mp (inventarul: 7835 mp), partea de sud-est 6110 mp (tabelul: 6158 mp). Latura de nord-est a parcelei de sud-est stă pe planșă cu ~3 px (0,8 m) spre interior față de prelungirea laturii P1-P16, de aceea limita are un vârf la P16. Un caroiaj din 40 în 40 m e neobișnuit, dar crucile cad pe multipli de 40 m la sub 1 m și când potrivirea se face numai pe colțurile inventarului, deci pasul și etichetele sunt sigure."
+  },
+  "gcp_px": {
+    "C387440_588680": [
+      418.0,
+      289.0
+    ],
+    "C387440_588600": [
+      419.8,
+      591.5
+    ],
+    "C387520_588720": [
+      719.1,
+      134.1
+    ],
+    "C387600_588720": [
+      1020.3,
+      134.0
+    ],
+    "C387560_588640": [
+      870.8,
+      439.0
+    ],
+    "C387600_588640": [
+      1021.8,
+      438.6
+    ],
+    "C387480_588480": [
+      572.1,
+      1046.0
+    ],
+    "C387600_588480": [
+      1024.2,
+      1044.2
+    ],
+    "C387520_588680": [
+      720.0,
+      287.0
+    ],
+    "P2": [
+      370.2,
+      404.5
+    ],
+    "P16": [
+      868.7,
+      678.0
+    ]
+  },
+  "verificare_px": {
+    "C387560_588720": [
+      869.3,
+      134.7
+    ],
+    "C387560_588680": [
+      869.9,
+      287.0
+    ],
+    "C387600_588680": [
+      1021.0,
+      286.2
+    ],
+    "P1": [
+      532.5,
+      268.4
+    ],
+    "P15": [
+      706.2,
+      809.9
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1598,
+      246,
+      1847,
+      709
+    ],
+    [
+      1918,
+      228,
+      2213,
+      706
+    ],
+    [
+      1598,
+      711,
+      1979,
+      1168
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Ei*",
+      "denumire": "Zonă de activități economice cu caracter industrial: activități economice de tip industrial nepoluante (producție industrială și activitățile ei complementare – administrative, de depozitare, transport, cercetare, sociale), servicii de tip industrial sau cvasiindustrial, comerț en-gros de dimensiune mică și medie, sedii pentru microîntreprinderi și IMM-uri, incubatoare de afaceri, activități complementare (administrative, comerciale, sociale, educaționale, culturale, sănătate), poli tehnologici și de cercetare; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "1,2 ADC/mp",
+      "h_max": "21 m la cornișă, 25 m înălțime totală; (1-2S)+P+4+R, fără etaje tehnice peste 25 m"
+    },
+    {
+      "cod": "Tr",
+      "denumire": "Zonă de circulație rutieră și amenajări aferente: terenul pentru lărgirea str. Triajului (~1703 mp pe planșă); se mențin prevederile P.U.G.",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2026-04-04"
+  },
+  "prelungiri": [
+    {
+      "hcl": "104/2026",
+      "pana_la": "2029-04-04",
+      "nota": "HCL 104 din 20 martie 2026 prelungește valabilitatea „cu o perioadă de trei ani”; termenul e socotit de la expirarea inițială, 4.04.2026."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea (Art. 1): hotărârea fixează 21 m la cornișă și 25 m înălțime totală; tabelul UTR Ei* al planșei le are inversate („H total maxim 21 m”, „H cornișă 25 m”), iar eticheta zonei de pe desen scrie doar „H max 25 m”.",
+    "Retragerea față de aliniament (Art. 1): hotărârea cere minimum 9 m față de str. Triajului regularizată; planșa dă 7,00 m (în tabelul UTR Ei* și în cota de pe desen, lângă stradă), iar „retragere min. 9 m” apare pe desen doar față de drumul expres propus prin P.U.G. (ocolirea Baciu), lângă colțul de nord.",
+    "Retragerea față de limita posterioară (Art. 1): hotărârea cere minimum H (înălțimea clădirii), dar nu mai puțin de 6 m; planșa dă pentru limitele laterale și posterioare H/2, minimum 6 m.",
+    "Planșa mai cere front stradal de minimum 50 m, parcelă de minimum 3000 mp și spații verzi de minimum 20%; Art. 1 nu le reia."
+  ],
+  "conditii": [
+    "Înainte de autorizația de construire: terenul necesar lărgirii str. Triajului (cf. planșei U04 – Obiective de utilitate publică; ~1703 mp pe planșă) se dezmembrează din parcela inițială și se înscrie în CF cu titlul de „drum”.",
+    "Înainte de recepția lucrărilor: terenul dezmembrat pentru lărgirea str. Triajului se aduce la strat de uzură.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+    "Accesul pe parcelă se face din str. Triajului; parcarea se organizează exclusiv în interiorul parcelei, cu necesarul calculat după Anexa 2 a P.U.G.",
+    "Toate utilitățile se asigură prin racordare la rețelele publice; apele meteorice nu pot fi conduse spre domeniul public sau spre parcelele vecine.",
+    "Cablurile (electrice, telefonice, CATV etc.) nu se montează aerian; firidele de branșament și contorizare se integrează în împrejmuire.",
+    "Fiecare unitate are o platformă sau un spațiu în interiorul parcelei pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+    "Nu se admit etaje tehnice peste ultimul nivel admis care să depășească Hmax = 25 m.",
+    "Pentru terenul încadrat în UTR Tr se mențin prevederile P.U.G."
+  ],
+  "repere": {
+    "P1": [
+      588685.243,
+      387470.501
+    ],
+    "P2": [
+      588649.876,
+      387426.931
+    ],
+    "P3": [
+      588648.062,
+      387428.432
+    ],
+    "P4": [
+      588630.042,
+      387443.196
+    ],
+    "P5": [
+      588609.94,
+      387459.671
+    ],
+    "P6": [
+      588607.1,
+      387461.998
+    ],
+    "P7": [
+      588642.136,
+      387505.739
+    ],
+    "P8": [
+      588598.297,
+      387469.213
+    ],
+    "P9": [
+      588592.245,
+      387474.179
+    ],
+    "P10": [
+      588582.714,
+      387482.0
+    ],
+    "P11": [
+      588582.987,
+      387482.345
+    ],
+    "P12": [
+      588576.728,
+      387487.237
+    ],
+    "P13": [
+      588576.573,
+      387487.039
+    ],
+    "P14": [
+      588558.676,
+      387501.724
+    ],
+    "P15": [
+      588541.72,
+      387515.534
+    ],
+    "P16": [
+      588576.823,
+      387559.129
+    ],
+    "C387440_588680": [
+      588680,
+      387440
+    ],
+    "C387440_588600": [
+      588600,
+      387440
+    ],
+    "C387520_588720": [
+      588720,
+      387520
+    ],
+    "C387520_588680": [
+      588680,
+      387520
+    ],
+    "C387560_588720": [
+      588720,
+      387560
+    ],
+    "C387560_588680": [
+      588680,
+      387560
+    ],
+    "C387560_588640": [
+      588640,
+      387560
+    ],
+    "C387600_588720": [
+      588720,
+      387600
+    ],
+    "C387600_588680": [
+      588680,
+      387600
+    ],
+    "C387600_588640": [
+      588640,
+      387600
+    ],
+    "C387480_588480": [
+      588480,
+      387480
+    ],
+    "C387600_588480": [
+      588480,
+      387600
+    ]
+  },
+  "caroiaj": {
+    "pas_m": 40,
+    "nord": 0,
+    "px_per_m": 3.77,
+    "ancora": {
+      "px": [
+        370.2,
+        404.5
+      ],
+      "en": [
+        387426.931,
+        588649.876
+      ],
+      "sursa": "punctul 2 al inventarului de coordonate al parcelei nr. cad. 334637 (planșa U.05, p. 33), colțul de vest al limitei P.U.Z., ales pe planșă ca intersecția dreptelor potrivite pe laturile de nord-vest și sud-vest"
+    },
+    "cruci_px": {
+      "C387440_588680": [
+        418.0,
+        289.0
+      ],
+      "C387440_588600": [
+        419.8,
+        591.5
+      ],
+      "C387520_588720": [
+        719.1,
+        134.1
+      ],
+      "C387520_588680": [
+        720.0,
+        287.0
+      ],
+      "C387560_588720": [
+        869.3,
+        134.7
+      ],
+      "C387560_588680": [
+        869.9,
+        287.0
+      ],
+      "C387560_588640": [
+        870.8,
+        439.0
+      ],
+      "C387600_588720": [
+        1020.3,
+        134.0
+      ],
+      "C387600_588680": [
+        1021.0,
+        286.2
+      ],
+      "C387600_588640": [
+        1021.8,
+        438.6
+      ],
+      "C387480_588480": [
+        572.1,
+        1046.0
+      ],
+      "C387600_588480": [
+        1024.2,
+        1044.2
+      ]
+    },
+    "nota": "Crucile sunt ale planului topografic din desen (se văd și sub hașura zonei și pe fondul roz din jur, nu doar pe chenar); etichetele lor de pe chenar au ~5 px și nu se pot citi. Ancora e colțul P2 al inventarului parcelei 334637, nu un punct OSM; `caroiaj` dă etichetele la 0,4-1,1 m de noduri. Pozițiile din `gcp_px`/`verificare_px` sunt cele măsurate cu zecimale, nu cele rotunjite de `caroiaj --write`."
+  },
+  "limita_px": [
+    [
+      532.5,
+      268.4
+    ],
+    [
+      868.7,
+      678.0
+    ],
+    [
+      1057.5,
+      913.0
+    ],
+    [
+      815.0,
+      1110.0
+    ],
+    [
+      696.5,
+      995.3
+    ],
+    [
+      735.9,
+      845.6
+    ],
+    [
+      706.2,
+      809.9
+    ],
+    [
+      370.2,
+      404.5
+    ]
+  ]
+}

@@ -23253,6 +23253,108 @@
   ]
  },
  {
+  "id": "2023-183",
+  "localitate": "cluj",
+  "hcl": "183/2023",
+  "data": "2023-04-04",
+  "titlu": "P.U.Z. – Dezvoltare zonă de activități economice cu caracter industrial, str. Triajului – sud",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-183-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/05/23/HCL-183.pdf",
+  "utr": [
+   {
+    "cod": "Ei*",
+    "denumire": "Zonă de activități economice cu caracter industrial: activități economice de tip industrial nepoluante (producție industrială și activitățile ei complementare – administrative, de depozitare, transport, cercetare, sociale), servicii de tip industrial sau cvasiindustrial, comerț en-gros de dimensiune mică și medie, sedii pentru microîntreprinderi și IMM-uri, incubatoare de afaceri, activități complementare (administrative, comerciale, sociale, educaționale, culturale, sănătate), poli tehnologici și de cercetare; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "1,2 ADC/mp",
+    "h_max": "21 m la cornișă, 25 m înălțime totală; (1-2S)+P+4+R, fără etaje tehnice peste 25 m"
+   },
+   {
+    "cod": "Tr",
+    "denumire": "Zonă de circulație rutieră și amenajări aferente: terenul pentru lărgirea str. Triajului (~1703 mp pe planșă); se mențin prevederile P.U.G.",
+    "pot_max": "nu e cazul",
+    "cut_max": "nu e cazul",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 13898,
+  "imagine": "puz/2023-183/plansa.webp",
+  "bounds": {
+   "west": 23.5237299,
+   "south": 46.7862482,
+   "east": 23.5262244,
+   "north": 46.7883164
+  },
+  "limita": [
+   [
+    23.5243245,
+    46.7882737
+   ],
+   [
+    23.5255142,
+    46.7873134
+   ],
+   [
+    23.5261825,
+    46.7867623
+   ],
+   [
+    23.525349,
+    46.7862869
+   ],
+   [
+    23.5249312,
+    46.786555
+   ],
+   [
+    23.5250607,
+    46.7869114
+   ],
+   [
+    23.5249557,
+    46.7869951
+   ],
+   [
+    23.5237668,
+    46.7879455
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 11,
+   "rms_m": 0.21
+  },
+  "legenda": "puz/2023-183/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2029-04-04",
+   "initial_pana_la": "2026-04-04",
+   "prelungiri": [
+    {
+     "hcl": "104/2026",
+     "pana_la": "2029-04-04",
+     "nota": "HCL 104 din 20 martie 2026 prelungește valabilitatea „cu o perioadă de trei ani”; termenul e socotit de la expirarea inițială, 4.04.2026."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea (Art. 1): hotărârea fixează 21 m la cornișă și 25 m înălțime totală; tabelul UTR Ei* al planșei le are inversate („H total maxim 21 m”, „H cornișă 25 m”), iar eticheta zonei de pe desen scrie doar „H max 25 m”.",
+   "Retragerea față de aliniament (Art. 1): hotărârea cere minimum 9 m față de str. Triajului regularizată; planșa dă 7,00 m (în tabelul UTR Ei* și în cota de pe desen, lângă stradă), iar „retragere min. 9 m” apare pe desen doar față de drumul expres propus prin P.U.G. (ocolirea Baciu), lângă colțul de nord.",
+   "Retragerea față de limita posterioară (Art. 1): hotărârea cere minimum H (înălțimea clădirii), dar nu mai puțin de 6 m; planșa dă pentru limitele laterale și posterioare H/2, minimum 6 m.",
+   "Planșa mai cere front stradal de minimum 50 m, parcelă de minimum 3000 mp și spații verzi de minimum 20%; Art. 1 nu le reia."
+  ],
+  "conditii": [
+   "Înainte de autorizația de construire: terenul necesar lărgirii str. Triajului (cf. planșei U04 – Obiective de utilitate publică; ~1703 mp pe planșă) se dezmembrează din parcela inițială și se înscrie în CF cu titlul de „drum”.",
+   "Înainte de recepția lucrărilor: terenul dezmembrat pentru lărgirea str. Triajului se aduce la strat de uzură.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+   "Accesul pe parcelă se face din str. Triajului; parcarea se organizează exclusiv în interiorul parcelei, cu necesarul calculat după Anexa 2 a P.U.G.",
+   "Toate utilitățile se asigură prin racordare la rețelele publice; apele meteorice nu pot fi conduse spre domeniul public sau spre parcelele vecine.",
+   "Cablurile (electrice, telefonice, CATV etc.) nu se montează aerian; firidele de branșament și contorizare se integrează în împrejmuire.",
+   "Fiecare unitate are o platformă sau un spațiu în interiorul parcelei pentru colectarea deșeurilor menajere, accesibil din spațiul public.",
+   "Nu se admit etaje tehnice peste ultimul nivel admis care să depășească Hmax = 25 m.",
+   "Pentru terenul încadrat în UTR Tr se mențin prevederile P.U.G."
+  ]
+ },
+ {
   "id": "2023-75",
   "localitate": "cluj",
   "hcl": "75/2023",
