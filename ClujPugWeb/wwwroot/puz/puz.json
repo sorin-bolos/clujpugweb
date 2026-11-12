@@ -19927,6 +19927,81 @@
   ]
  },
  {
+  "id": "2024-188",
+  "localitate": "cluj",
+  "hcl": "188/2024",
+  "data": "2024-04-15",
+  "titlu": "P.U.Z. – Construire imobile de locuințe colective mici, strada Mărișel nr. 1",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-188-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/188.pdf",
+  "utr": [
+   {
+    "cod": "Li/c_b*",
+    "denumire": "Locuințe colective mici – cel mult 6 unități locative pe o parcelă; regim de construire deschis; servicii cu acces public numai la parter, spre stradă, cu intrare separată, și servicii profesionale, în condițiile R.L.U.",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la aticul ultimului nivel sau la coama acoperișului, în punctul cel mai înalt; cel mult trei niveluri supraterane, plus un demisol numai pentru garaje și funcțiuni conexe: (S)+P+1+M, (S)+P+2, D+P+1+M sau D+P+2"
+   }
+  ],
+  "suprafata_m2": 1467,
+  "imagine": "puz/2024-188/plansa.webp",
+  "bounds": {
+   "west": 23.5554165,
+   "south": 46.7489816,
+   "east": 23.5561884,
+   "north": 46.7493022
+  },
+  "limita": [
+   [
+    23.5561662,
+    46.749032
+   ],
+   [
+    23.555481,
+    46.748997
+   ],
+   [
+    23.5554468,
+    46.7492234
+   ],
+   [
+    23.5554385,
+    46.7492782
+   ],
+   [
+    23.5561432,
+    46.7492477
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.11
+  },
+  "legenda": "puz/2024-188/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-04-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă „Hmaxim atic/streașină = 12,00 m”; Art. 1 (și R.L.U., Anexa 1, art. 10) măsoară cei 12 m la aticul ultimului nivel sau la coama acoperișului, în punctul cel mai înalt: la un acoperiș în pante contează coama, nu streașina.",
+   "Nota de pe planșă despre spațiile plantate cere arbori cu circumferința trunchiului de minim 20 cm; R.L.U. (Anexa 1, art. 13) cere minim 35 cm, măsurată la 1,00 m de la colet. Amândouă cer cel puțin doi arbori maturi pe parcelă.",
+   "Planșa propune 12 locuri de parcare (câte 6 pe parcelă, în subsol); Art. 1 nu fixează un număr, ci cere un loc pentru fiecare unitate locativă, două pentru servicii cu acces public și, pentru alte activități, după Anexa 2 la R.L.U. aferent P.U.G."
+  ],
+  "conditii": [
+   "Se reglementează 1467 mp măsurați (1483 mp din acte), proprietate privată (nr. cad. 299663 și 299664), pe colțul str. Mărișel, care trece pe laturile nordică și vestică: două parcele construibile, P1 (de colț, spre vest) și P2 (spre est), și o parcelă „drum” pentru lărgirea străzii.",
+   "Înainte de autorizațiile de construire, terenul pentru regularizarea str. Mărișel (199,23 mp pe planșă, după planșa A/P.U.Z./05) se dezmembrează și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la aceeași îmbrăcăminte rutieră ca str. Mărișel și se transferă gratuit în domeniul public.",
+   "Retrageri: cel puțin 4,5 m față de aliniament (la P1, parcelă de colț, atât spre nord, cât și spre vest); față de limitele laterale, la P1 cel puțin H/2, dar minim 4,5 m față de limita estică și 6 m față de cea sudică, la P2 cel puțin H/2, dar minim 4,5 m; față de limita posterioară (sudică) cel puțin 6 m. Clădirile propuse stau față de blocul de locuințe de pe str. Mărișel nr. 3 la o distanță cel puțin egală cu înălțimea lor.",
+   "R.L.U.: balcoanele pot depăși retragerile cu cel mult 1,50 m; nivelurile subterane și căile de acces comune se pot construi pe limita laterală, iar cele subterane și în afara retragerilor minime.",
+   "Accesul se face din str. Mărișel: pe fiecare parcelă un singur acces pietonal și un singur acces carosabil, de cel mult 5,5 m lățime; accesul auto poate fi comun pentru cele două parcele.",
+   "Parcarea se face în interiorul parcelei: un loc pentru fiecare unitate locativă, două pentru servicii cu acces public, iar pentru alte activități după Anexa 2 la R.L.U. aferent P.U.G. R.L.U. cere garaje subterane; parcajele la sol stau la cel puțin 5 m de clădirile de locuit și de limitele parcelei, iar locurile cu acces direct din stradă, peste trotuar, sunt interzise.",
+   "Toate utilitățile se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini, cablurile nu se montează aerian, iar fiecare parcelă are un punct îngropat de colectare selectivă a deșeurilor, pe patru fracții, accesibil din spațiul public (R.L.U.).",
+   "Pe fiecare parcelă, spațiile verzi pe sol natural ocupă cel puțin 40 % din suprafață; se plantează cel puțin doi arbori maturi pe parcelă, cu circumferința trunchiului de minim 35 cm la 1,00 m de la colet; tăierea arborilor maturi e interzisă, cu excepția celor periculoși sau care împiedică realizarea construcțiilor (R.L.U.).",
+   "R.L.U.: parcelele rezultate au front la stradă de cel puțin 22 m și cel puțin 600 mp; acoperișurile sunt în două sau patru ape, cu pante egale de cel mult 60°, sau terasă; împrejmuirile au cel mult 2,2 m, spre stradă cu soclu opac de cel mult 80 cm și parte transparentă, iar cele două parcele se tratează unitar.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",

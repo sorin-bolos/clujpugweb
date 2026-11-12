@@ -1,0 +1,146 @@
+{
+  "id": "2024-188",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 188,
+    "an": 2024,
+    "data_sedinta": "2024-04-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-188-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/188.pdf"
+  },
+  "titlu": "P.U.Z. – Construire imobile de locuințe colective mici, strada Mărișel nr. 1",
+  "plansa": {
+    "pagina_pdf": 8,
+    "dpi": 200,
+    "denumire": "A/P.U.Z./02 Reglementări urbanistice – zonificare",
+    "scara": "1:200",
+    "nota": "PDF-ul hotărârii are 9 pagini A4 scanate la 200 ppi: hotărârea semnată (p. 1-2), Anexa 1 R.L.U. pentru UTR Li/c_b* (p. 3-7), Anexa 2, planșa A/P.U.Z./02 Reglementări urbanistice – zonificare (p. 8, singura copie) și Anexa 3, planșa A/P.U.Z./05 Proprietatea asupra terenurilor (p. 9). Amândouă planșele sunt tipărite culcat: pe pagina randată textul se citește în jos, iar nordul e spre dreapta. Cartușul: proiectant SC Bogart Construct SRL, pr. nr. 5/2022, faza P.U.Z., 11/2023, scara 1:200. Planșa e redusă pe A4: 18,3 px/m, față de 39,4 px/m cât ar avea la 1:200 și 200 ppi (cam 46 %). Legenda se citește mărită (literele au 7-8 px); s-au păstrat simbolurile, blocul UTR Li/c_b* (P.O.T., C.U.T., regim de înălțime, Hmax), retragerile și nota despre spațiile plantate, iar bilanțul teritorial, locurile de parcare, indicii și parcelarul (doar suprafețe), tabelul de coordonate, profilele stradale și cartușul au rămas deoparte. Parcelarul propus de pe planșă: P1 = 641,92 mp, P2 = 625,85 mp, fâșia pentru lărgirea str. Mărișel = 199,23 mp (prima cifră a lui P1 și P2 e ștearsă; suma lor e 1267,77 mp ca în bilanț, iar măsurate pe planșa georeferențiată ies cam 655 și 639 mp)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabelul de coordonate de pe planșă, pe cele două parcele cadastrale („Nr. Pct. / X [m] / Y [m] / D(i,i+1)”, X = Nord, Y = Est): nr. cad. 299663 cu punctele 4, 5, 1, 3 (Smas = 1304,02 mp, P = 155,110 m) și nr. cad. 299664 cu punctele 1, 2, 3 (Smas = 162,94 mp, P = 113,350 m). Limita P.U.Z. e conturul celor două luate împreună, 4-5-1-2-3 (punctul 1 cade pe latura vestică 5-2, în linie dreaptă); laturile 4-5, 5-1 și 3-4 sunt din primul tabel, 1-2 și 2-3 din al doilea. Aria, 1466,9 mp, e suprafața măsurată din Art. 1 și din bilanțul teritorial (1467 mp). Puncte de control: 5 (SV) și 4 (SE), colțurile limitei cu perle de pe latura sudică; 1, colțul liniei cu perle care desparte parcelele P1-P2 de fâșia pentru lărgirea str. Mărișel (o linie care pornește din punctul 1 și ajunge la 1,32 m de colțul 3 lasă fâșiei 198,1 mp, față de 199,23 mp pe planșă); 3 (NE), unde latura sudică cu perle întâlnește marginea fâșiei, la 1,32 m dincolo de colțul parcelelor (cota 22,72 de pe planșă plus 1,32 m dă latura 3-4 de 24,04 m). Punct de verificare: 2 (NV), capătul liniei de cotă „6,80” din colțul fâșiei, într-o zonă hașurată gri unde colțul nu e desenat distinct (pe planșa 05 cota corespunzătoare pornește chiar din colțul limitei cu perle). Planșa nu are caroiaj Stereo 70.",
+    "suprafata_declarata_m2": 1467.0,
+    "puncte": {
+      "4": [
+        584279.3,
+        389821.301
+      ],
+      "5": [
+        584276.358,
+        389768.892
+      ],
+      "1": [
+        584301.567,
+        389766.733
+      ],
+      "2": [
+        584307.67,
+        389766.21
+      ],
+      "3": [
+        584303.303,
+        389819.981
+      ]
+    },
+    "ordine": [
+      "4",
+      "5",
+      "1",
+      "2",
+      "3"
+    ],
+    "laturi_declarate_m": {
+      "4": 52.492,
+      "5": 25.303,
+      "1": 6.125,
+      "2": 53.948,
+      "3": 24.035
+    },
+    "nota": "Tabelul e foarte șters (cifre de vreo 10 px, scanarea la 200 ppi a unei planșe reduse); s-au citit împreună copiile de pe p. 8 și p. 9. Lectura se confirmă prin cifrele tabelului: parcela 299663 iese 1303,97 mp (tabel 1304,02) cu perimetrul 155,108 m (155,110), parcela 299664 are perimetrul 113,350 m (113,350), iar cele cinci laturi ale conturului se potrivesc la 1-9 mm. A treia zecimală a laturilor 5-1 (25,30x) și 3-4 (24,03x) nu se citește; s-au trecut 25,303 și 24,035, iar coordonatele dau 25,301 și 24,039. Un metru greșit într-o coordonată ar fi stricat aria cu 1-2 % și perimetrele cu zeci de centimetri."
+  },
+  "gcp_px": {
+    "5": [
+      288,
+      666
+    ],
+    "1": [
+      747,
+      634
+    ],
+    "3": [
+      771,
+      1606
+    ],
+    "4": [
+      329,
+      1629
+    ]
+  },
+  "verificare_px": {
+    "2": [
+      855,
+      622
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1171,
+      192,
+      1588,
+      565,
+      270
+    ],
+    [
+      1340,
+      565,
+      1583,
+      990,
+      270
+    ],
+    [
+      1138,
+      995,
+      1265,
+      1250,
+      270
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Li/c_b*",
+      "denumire": "Locuințe colective mici – cel mult 6 unități locative pe o parcelă; regim de construire deschis; servicii cu acces public numai la parter, spre stradă, cu intrare separată, și servicii profesionale, în condițiile R.L.U.",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la aticul ultimului nivel sau la coama acoperișului, în punctul cel mai înalt; cel mult trei niveluri supraterane, plus un demisol numai pentru garaje și funcțiuni conexe: (S)+P+1+M, (S)+P+2, D+P+1+M sau D+P+2"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-04-15",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (15.04.2024); nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă „Hmaxim atic/streașină = 12,00 m”; Art. 1 (și R.L.U., Anexa 1, art. 10) măsoară cei 12 m la aticul ultimului nivel sau la coama acoperișului, în punctul cel mai înalt: la un acoperiș în pante contează coama, nu streașina.",
+    "Nota de pe planșă despre spațiile plantate cere arbori cu circumferința trunchiului de minim 20 cm; R.L.U. (Anexa 1, art. 13) cere minim 35 cm, măsurată la 1,00 m de la colet. Amândouă cer cel puțin doi arbori maturi pe parcelă.",
+    "Planșa propune 12 locuri de parcare (câte 6 pe parcelă, în subsol); Art. 1 nu fixează un număr, ci cere un loc pentru fiecare unitate locativă, două pentru servicii cu acces public și, pentru alte activități, după Anexa 2 la R.L.U. aferent P.U.G."
+  ],
+  "conditii": [
+    "Se reglementează 1467 mp măsurați (1483 mp din acte), proprietate privată (nr. cad. 299663 și 299664), pe colțul str. Mărișel, care trece pe laturile nordică și vestică: două parcele construibile, P1 (de colț, spre vest) și P2 (spre est), și o parcelă „drum” pentru lărgirea străzii.",
+    "Înainte de autorizațiile de construire, terenul pentru regularizarea str. Mărișel (199,23 mp pe planșă, după planșa A/P.U.Z./05) se dezmembrează și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la aceeași îmbrăcăminte rutieră ca str. Mărișel și se transferă gratuit în domeniul public.",
+    "Retrageri: cel puțin 4,5 m față de aliniament (la P1, parcelă de colț, atât spre nord, cât și spre vest); față de limitele laterale, la P1 cel puțin H/2, dar minim 4,5 m față de limita estică și 6 m față de cea sudică, la P2 cel puțin H/2, dar minim 4,5 m; față de limita posterioară (sudică) cel puțin 6 m. Clădirile propuse stau față de blocul de locuințe de pe str. Mărișel nr. 3 la o distanță cel puțin egală cu înălțimea lor.",
+    "R.L.U.: balcoanele pot depăși retragerile cu cel mult 1,50 m; nivelurile subterane și căile de acces comune se pot construi pe limita laterală, iar cele subterane și în afara retragerilor minime.",
+    "Accesul se face din str. Mărișel: pe fiecare parcelă un singur acces pietonal și un singur acces carosabil, de cel mult 5,5 m lățime; accesul auto poate fi comun pentru cele două parcele.",
+    "Parcarea se face în interiorul parcelei: un loc pentru fiecare unitate locativă, două pentru servicii cu acces public, iar pentru alte activități după Anexa 2 la R.L.U. aferent P.U.G. R.L.U. cere garaje subterane; parcajele la sol stau la cel puțin 5 m de clădirile de locuit și de limitele parcelei, iar locurile cu acces direct din stradă, peste trotuar, sunt interzise.",
+    "Toate utilitățile se racordează la rețelele publice; apele pluviale nu se descarcă spre domeniul public sau spre vecini, cablurile nu se montează aerian, iar fiecare parcelă are un punct îngropat de colectare selectivă a deșeurilor, pe patru fracții, accesibil din spațiul public (R.L.U.).",
+    "Pe fiecare parcelă, spațiile verzi pe sol natural ocupă cel puțin 40 % din suprafață; se plantează cel puțin doi arbori maturi pe parcelă, cu circumferința trunchiului de minim 35 cm la 1,00 m de la colet; tăierea arborilor maturi e interzisă, cu excepția celor periculoși sau care împiedică realizarea construcțiilor (R.L.U.).",
+    "R.L.U.: parcelele rezultate au front la stradă de cel puțin 22 m și cel puțin 600 mp; acoperișurile sunt în două sau patru ape, cu pante egale de cel mult 60°, sau terasă; împrejmuirile au cel mult 2,2 m, spre stradă cu soclu opac de cel mult 80 cm și parte transparentă, iar cele două parcele se tratează unitar.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
