@@ -1,0 +1,150 @@
+{
+  "id": "2024-189",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 189,
+    "an": 2024,
+    "data_sedinta": "2024-04-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-189-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/189.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și de interes public, în zonă de locuințe cu regim redus de înălțime, str. Mircea Eliade nr. 37",
+  "plansa": {
+    "pagina_pdf": 6,
+    "dpi": 200,
+    "denumire": "Plan de reglementări urbanistice",
+    "scara": "1:300",
+    "nota": "PDF-ul hotărârii are 6 pagini A4 scanate la 200 ppi: hotărârea semnată (p. 1-2), Anexa 1 R.L.U. pentru UTR S_Is_RoNeuro (p. 3-5) și Anexa 2, planșa Plan de reglementări urbanistice (p. 6, singura copie, tipărită culcat: pe pagina randată textul se citește în sus, iar nordul e spre stânga). Cartușul: proiectant TRANS FORM, pr. nr. 1122/2022, faza P.U.Z., format A3 (420x297), data 27.11.2023; la scară cifra a doua se citește greu („1:?00”). Planșa măsoară 17,4-18,1 px/m pe pagina de 200 ppi: 1:300 pe A3 redus la A4 ar da 18,6 px/m, iar 1:500 ar da 11,1 px/m, deci scara e 1:300. Legenda publicată are două părți, întoarse pentru citire: cheia simbolurilor (titlurile de secțiune sunt prea șterse ca să se citească, denumirile simbolurilor se citesc) și tabelul de reglementări pentru U.T.R. S_Is_RoNeuro (P.O.T. 60 %, C.U.T. 2,2, spațiu verde minim pe sol 2,50 %, regim de înălțime și înălțimi). Au fost lăsate deoparte: tabelul indicatorilor existenți, calculul parcajelor, tabelul proprietății, bilanțurile teritoriale, randarea 3D, inventarul de coordonate și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate de pe planșă (N.C. 273119, 11 puncte, 100-110, „Pct. / Nord(X) / Est(Y) / Lungimi”), în ordinea limitei. Aria coordonatelor, 1225,5 mp, e suprafața de sub tabel (S=1226 mp) și cea din C.F. trecută în tabelele planșei (-0,04 %). Laturi verificate: 100-101 (24,22), 107-108 (23,57), 108-109 (2,53), 109-110 (26,33) și 110-100 (1,84); celelalte laturi tipărite nu se citesc sigur la sutimi. Puncte de control: cele patru colțuri ale parcelei, 100 (SE, la str. Mircea Eliade), 101 (SV, la stradă), 103 (NV) și 104 (NE). Fiecare e la intersecția a două laturi ale limitei: marginea zonei gri a UTR pe laturile lungi, linia groasă a frontului și a fundului parcelei. Nu există puncte de verificare: celelalte 7 puncte stau la cel mult 0,18 m de laturile drepte dintre colțuri (102 pe latura vestică, 105-110 pe cea estică), deci nu pot fi găsite pe planșă independent. Planșa nu are caroiaj Stereo 70. Ca verificare informală, cu potrivirea finală clădirea existentă de pe parcelă și clădirea rotundă nr. 39, desenate pe planșă, cad peste contururile lor din OpenStreetMap (extrasul din 2026-11-08, comanda osm); punctele OSM nu sunt folosite în potrivire.",
+    "suprafata_declarata_m2": 1226,
+    "puncte": {
+      "100": [
+        584533.295,
+        392336.202
+      ],
+      "101": [
+        584531.541,
+        392312.05
+      ],
+      "102": [
+        584583.86,
+        392301.824
+      ],
+      "103": [
+        584587.135,
+        392301.184
+      ],
+      "104": [
+        584588.906,
+        392320.395
+      ],
+      "105": [
+        584587.268,
+        392320.88
+      ],
+      "106": [
+        584587.219,
+        392320.834
+      ],
+      "107": [
+        584585.489,
+        392321.373
+      ],
+      "108": [
+        584562.8,
+        392327.75
+      ],
+      "109": [
+        584560.34,
+        392328.326
+      ],
+      "110": [
+        584535.066,
+        392335.686
+      ]
+    },
+    "laturi_declarate_m": {
+      "100": 24.22,
+      "107": 23.57,
+      "108": 2.53,
+      "109": 26.33,
+      "110": 1.84
+    },
+    "nota": "Pe scanarea neclară, Nordul punctului 102 pare „584503.860”; cifra a cincea e un 8 șters (584583.860): altfel limita s-ar intersecta singură și aria n-ar ieși 1226 mp, iar așa 102 cade exact pe latura 101-103. Ultimele zecimale ale câtorva puncte (104-106) sunt nesigure, cu efect de sub 1 mp pe arie. Potrivirea afină dă 17,4 px/m pe direcția N-S și 18,1 px/m pe direcția E-V (3,8 %, fără forfecare): fie tipărirea sau scanarea a deformat planșa, fie liniile alese pentru laturi sunt cu câteva zecimi de metru alături. Limita vine oricum din inventar; doar imaginea planșei se poate abate cu câteva zecimi de metru."
+  },
+  "gcp_px": {
+    "100": [
+      1123.6,
+      1370.0
+    ],
+    "101": [
+      1146.4,
+      1806.6
+    ],
+    "103": [
+      177.0,
+      1986.0
+    ],
+    "104": [
+      150.0,
+      1637.0
+    ]
+  },
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      85,
+      845,
+      828,
+      1165,
+      90
+    ],
+    [
+      808,
+      395,
+      966,
+      826,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is_RoNeuro",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public, situată în zonă cu caracter rezidențial – sănătate și asistență socială, învățământ, cercetare, cultură, funcțiuni administrative (clinici, ambulatorii, laboratoare medicale); regim de construire izolat",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "4 niveluri supraterane (D+P+2E); clădirea existentă se păstrează în parametrii actuali, cu podul refuncționalizat în volumetria existentă (fără o înălțime în metri în text)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2027-04-15",
+    "verificat": "2026-11-11: Art. 2, trei ani (de la aprobare, 15.04.2024); nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Tabelul de reglementări de pe planșă trece la regim de înălțime maxim altceva decât D+P+2E (pe scanare pare „P+4+R/M”) și o înălțime maximă la cornișă de 13 sau 18 m (cifrele se citesc greu). Art. 1 și R.L.U. (art. 10) admit patru niveluri supraterane, D+P+2E: fondul construit existent rămâne în parametrii actuali și se poate refuncționaliza doar podul, în volumetria existentă.",
+    "Planșa hașurează zona edificabilă „conform R.L.U. S_Is_RoNeuro” pe aproape toată parcela, cu retrageri de circa 3 m față de limite (cota 3,05 spre stradă), deci mai mare decât amprenta clădirii existente. Art. 1 și R.L.U. (art. 5-6) cer păstrarea retragerilor clădirii existente față de aliniament și față de limitele laterale și posterioară."
+  ],
+  "conditii": [
+    "Se reglementează parcela proprietate privată cu nr. cad. 273119 (1226 mp) de pe frontul impar al str. Mircea Eliade, pe care există o clădire mixtă cu funcțiune medicală predominantă (Autorizația de construire nr. 343/2011); subzona S_Is_RoNeuro extinde funcțiunea medicală la toată clădirea existentă.",
+    "Sunt admise funcțiuni administrative, de cultură, învățământ și cercetare, sănătate și asistență socială (ambulatorii, clinici cu paturi, laboratoare medicale) și locuințe de serviciu numai în cadrul acestora; cazarea (hotelieră, cămine, internate) e admisă doar în cadrul acestor funcțiuni, în proprietatea și administrarea lor.",
+    "Sunt interzise: trecerea clădirii la alte funcțiuni decât cele admise, garajele în clădiri independente pe parcelă, construcțiile provizorii, elementele supraterane ale rețelelor pe spațiul public și terasamentele care afectează spațiul public sau parcelele vecine.",
+    "Clădirea existentă (D+P+2E) se păstrează în parametrii actuali; suplimentar se poate refuncționaliza podul, în volumetria existentă. Se păstrează retragerile clădirii existente față de aliniament și față de limitele laterale și posterioară.",
+    "Pe limita de proprietate se admit doar edicule pentru întreținere, rețele edilitare sau garaje, de cel mult 2,80 m înălțime; între clădirile de pe aceeași parcelă, alipite sau la cel puțin 3 m.",
+    "Accesul se face din str. Mircea Eliade; accesele existente se păstrează și se pot face mai multe accese auto și pietonale; accesele pietonale în clădiri sunt fără trepte sau praguri, ori cu lifturi sau platforme.",
+    "Parcarea se face în interiorul parcelei, cu necesarul calculat după Anexa 2 la R.L.U. aferent P.U.G., însumat pentru fiecare funcțiune.",
+    "Echiparea edilitară e completă pe parcelă, cu toate clădirile racordate la rețele; cablurile aeriene sunt interzise.",
+    "Cel puțin 2,50 % din parcelă rămâne spațiu liber plantat pe sol natural, cu specii fără alergeni (nu tei, mesteacăn, salcâm) și fără fructe care pun în pericol trecătorii (nu castan, dud). Împrejmuirile sunt opace, de cel mult 2,50 m; spre stradă nu sunt obligatorii pentru funcțiunile cu acces public.",
+    "R.L.U.: o parcelă e construibilă dacă are front la stradă de cel puțin 20 m și cel puțin 1000 mp. Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+}

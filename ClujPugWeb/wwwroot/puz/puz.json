@@ -19355,6 +19355,104 @@
   ]
  },
  {
+  "id": "2024-189",
+  "localitate": "cluj",
+  "hcl": "189/2024",
+  "data": "2024-04-15",
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice și de interes public, în zonă de locuințe cu regim redus de înălțime, str. Mircea Eliade nr. 37",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-189-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/189.pdf",
+  "utr": [
+   {
+    "cod": "S_Is_RoNeuro",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public, situată în zonă cu caracter rezidențial – sănătate și asistență socială, învățământ, cercetare, cultură, funcțiuni administrative (clinici, ambulatorii, laboratoare medicale); regim de construire izolat",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "4 niveluri supraterane (D+P+2E); clădirea existentă se păstrează în parametrii actuali, cu podul refuncționalizat în volumetria existentă (fără o înălțime în metri în text)"
+   }
+  ],
+  "suprafata_m2": 1226,
+  "imagine": "puz/2024-189/plansa.webp",
+  "bounds": {
+   "west": 23.5885236,
+   "south": 46.7516888,
+   "east": 23.5890455,
+   "north": 46.7522399
+  },
+  "limita": [
+   [
+    23.5890187,
+    46.7517249
+   ],
+   [
+    23.588703,
+    46.7517052
+   ],
+   [
+    23.588557,
+    46.7521742
+   ],
+   [
+    23.5885478,
+    46.7522036
+   ],
+   [
+    23.5887989,
+    46.7522226
+   ],
+   [
+    23.5888056,
+    46.7522079
+   ],
+   [
+    23.588805,
+    46.7522075
+   ],
+   [
+    23.5888125,
+    46.752192
+   ],
+   [
+    23.5889012,
+    46.7519889
+   ],
+   [
+    23.5889093,
+    46.7519669
+   ],
+   [
+    23.5890115,
+    46.7517407
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2024-189/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2027-04-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Tabelul de reglementări de pe planșă trece la regim de înălțime maxim altceva decât D+P+2E (pe scanare pare „P+4+R/M”) și o înălțime maximă la cornișă de 13 sau 18 m (cifrele se citesc greu). Art. 1 și R.L.U. (art. 10) admit patru niveluri supraterane, D+P+2E: fondul construit existent rămâne în parametrii actuali și se poate refuncționaliza doar podul, în volumetria existentă.",
+   "Planșa hașurează zona edificabilă „conform R.L.U. S_Is_RoNeuro” pe aproape toată parcela, cu retrageri de circa 3 m față de limite (cota 3,05 spre stradă), deci mai mare decât amprenta clădirii existente. Art. 1 și R.L.U. (art. 5-6) cer păstrarea retragerilor clădirii existente față de aliniament și față de limitele laterale și posterioară."
+  ],
+  "conditii": [
+   "Se reglementează parcela proprietate privată cu nr. cad. 273119 (1226 mp) de pe frontul impar al str. Mircea Eliade, pe care există o clădire mixtă cu funcțiune medicală predominantă (Autorizația de construire nr. 343/2011); subzona S_Is_RoNeuro extinde funcțiunea medicală la toată clădirea existentă.",
+   "Sunt admise funcțiuni administrative, de cultură, învățământ și cercetare, sănătate și asistență socială (ambulatorii, clinici cu paturi, laboratoare medicale) și locuințe de serviciu numai în cadrul acestora; cazarea (hotelieră, cămine, internate) e admisă doar în cadrul acestor funcțiuni, în proprietatea și administrarea lor.",
+   "Sunt interzise: trecerea clădirii la alte funcțiuni decât cele admise, garajele în clădiri independente pe parcelă, construcțiile provizorii, elementele supraterane ale rețelelor pe spațiul public și terasamentele care afectează spațiul public sau parcelele vecine.",
+   "Clădirea existentă (D+P+2E) se păstrează în parametrii actuali; suplimentar se poate refuncționaliza podul, în volumetria existentă. Se păstrează retragerile clădirii existente față de aliniament și față de limitele laterale și posterioară.",
+   "Pe limita de proprietate se admit doar edicule pentru întreținere, rețele edilitare sau garaje, de cel mult 2,80 m înălțime; între clădirile de pe aceeași parcelă, alipite sau la cel puțin 3 m.",
+   "Accesul se face din str. Mircea Eliade; accesele existente se păstrează și se pot face mai multe accese auto și pietonale; accesele pietonale în clădiri sunt fără trepte sau praguri, ori cu lifturi sau platforme.",
+   "Parcarea se face în interiorul parcelei, cu necesarul calculat după Anexa 2 la R.L.U. aferent P.U.G., însumat pentru fiecare funcțiune.",
+   "Echiparea edilitară e completă pe parcelă, cu toate clădirile racordate la rețele; cablurile aeriene sunt interzise.",
+   "Cel puțin 2,50 % din parcelă rămâne spațiu liber plantat pe sol natural, cu specii fără alergeni (nu tei, mesteacăn, salcâm) și fără fructe care pun în pericol trecătorii (nu castan, dud). Împrejmuirile sunt opace, de cel mult 2,50 m; spre stradă nu sunt obligatorii pentru funcțiunile cu acces public.",
+   "R.L.U.: o parcelă e construibilă dacă are front la stradă de cel puțin 20 m și cel puțin 1000 mp. Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
