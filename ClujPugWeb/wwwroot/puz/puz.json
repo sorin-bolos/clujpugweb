@@ -28495,6 +28495,219 @@
   ]
  },
  {
+  "id": "2022-580",
+  "localitate": "cluj",
+  "hcl": "580/2022",
+  "data": "2022-08-04",
+  "titlu": "P.U.Z. restructurare platformă industrială, str. Fabricii nr. 145A-str. Sobarilor",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-580-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-580-din-4-august-2022.pdf",
+  "utr": [
+   {
+    "cod": "RiM*",
+    "denumire": "Zonă mixtă – teritorii urbane cu caracter mixt, rezultat al restructurării zonei industriale: locuire colectivă, funcțiuni terțiare, turism și administrarea afacerilor",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "(1-3S)+P+7E (planșa: 25,25 m la cornișă și total)"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public în clădiri dedicate – creșă",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "(S)+P+E"
+   }
+  ],
+  "suprafata_m2": 22486,
+  "imagine": "puz/2022-580/plansa.webp",
+  "bounds": {
+   "west": 23.6119208,
+   "south": 46.7934918,
+   "east": 23.6143022,
+   "north": 46.7952254
+  },
+  "limita": [
+   [
+    23.6141046,
+    46.7936751
+   ],
+   [
+    23.6134132,
+    46.7936162
+   ],
+   [
+    23.6122548,
+    46.7935223
+   ],
+   [
+    23.6120934,
+    46.7935085
+   ],
+   [
+    23.6120291,
+    46.7938044
+   ],
+   [
+    23.6120179,
+    46.7938686
+   ],
+   [
+    23.6120278,
+    46.7938709
+   ],
+   [
+    23.6120168,
+    46.7939705
+   ],
+   [
+    23.6119975,
+    46.7941443
+   ],
+   [
+    23.6119969,
+    46.7941497
+   ],
+   [
+    23.6119815,
+    46.7942881
+   ],
+   [
+    23.6119599,
+    46.7944826
+   ],
+   [
+    23.6120853,
+    46.7944837
+   ],
+   [
+    23.6120804,
+    46.7945529
+   ],
+   [
+    23.6121374,
+    46.7945564
+   ],
+   [
+    23.6121362,
+    46.7946283
+   ],
+   [
+    23.6122544,
+    46.79463
+   ],
+   [
+    23.6122868,
+    46.7946304
+   ],
+   [
+    23.6122451,
+    46.7950706
+   ],
+   [
+    23.612226,
+    46.7951061
+   ],
+   [
+    23.6121995,
+    46.7951263
+   ],
+   [
+    23.6122397,
+    46.7951317
+   ],
+   [
+    23.6125557,
+    46.7951582
+   ],
+   [
+    23.6125611,
+    46.7951586
+   ],
+   [
+    23.6129404,
+    46.7951947
+   ],
+   [
+    23.6129635,
+    46.795134
+   ],
+   [
+    23.6130733,
+    46.7949622
+   ],
+   [
+    23.6133414,
+    46.7950053
+   ],
+   [
+    23.6135539,
+    46.7947563
+   ],
+   [
+    23.6137534,
+    46.7945168
+   ],
+   [
+    23.613819,
+    46.7944863
+   ],
+   [
+    23.6139374,
+    46.7944826
+   ],
+   [
+    23.6142036,
+    46.7945513
+   ],
+   [
+    23.6142509,
+    46.7944831
+   ],
+   [
+    23.6139754,
+    46.7943958
+   ],
+   [
+    23.614008,
+    46.7942678
+   ],
+   [
+    23.6140378,
+    46.7940966
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.22
+  },
+  "legenda": "puz/2022-580/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2029-08-04"
+  },
+  "diferente_fata_de_plansa": [
+   "S_Is* (creșa): planșa desenează subzona doar cu retragerile laterale (min. 4,5 m) și posterioară (min. 6 m), fără indici; hotărârea (Art. 1) stabilește POT max. 60%, CUT max. 2,2, regim (S)+P+E, retragere de minimum 40 m față de str. A și laterale de H/2, dar cel puțin 4,5 m.",
+   "RiM*: hotărârea dă doar regimul (1-3S)+P+7E; caseta de pe planșă adaugă H max. 25,25 m (la cornișă și total). Hotărârea mai limitează, pentru nivelurile de locuit, aria construită la 40% din teren (50% pe parcelele de colț), ce nu apare pe planșă.",
+   "Nota c) de pe planșă spune că parcările de la sol din profilurile străzilor noi A și B rămân în proprietate privată, aferente imobilelor vecine; hotărârea prevede trecerea străzii B și a terenului pentru lărgirea străzii A în domeniul public, fără să pomenească parcările.",
+   "Planșa cuprinde în zona reglementată și 203 mp de U.T.R. RrM1 (fâșia de acces spre str. Fabricii: 179 mp circulații și 24 mp pentru lărgirea străzii Fabricii); hotărârea reglementează doar RiM* și S_Is* și nu pomenește RrM1."
+  ],
+  "conditii": [
+   "Hotărârea aprobă și contractul de restructurare dintre Consiliul local și Municipiul Cluj-Napoca, pe de o parte, și investitor (Anexa 1); Primarul e mandatat să-l semneze.",
+   "Investitorii realizează și modernizează, pe cheltuiala lor, strada nouă B la profilul de 21 m din planșa de reglementări, cu racordarea la str. A, și prelungesc, realizează și modernizează str. A la profilul din planșă, cu racordurile la strada B și la str. Marcus Aurelius (avizul Siguranței Circulației nr. 605084/446/10.12.2020 și nota internă nr. 490500/446/23.09.2021).",
+   "Intrarea și ieșirea din strada B în str. Fabricii se fac doar cu viraje la dreapta.",
+   "Lucrările cer proiecte de specialitate pentru toate domeniile (drumuri, rețele subterane, iluminat public, semnalizare, rețele pentru transportul în comun) și autorizație de construire; toate investițiile sunt suportate de beneficiari.",
+   "Etapa 1 cuprinde frontul sudic al străzii B și străzile A și B; etapa 2, frontul nordic al străzii B până la str. Sobarilor (parcela 4).",
+   "Înainte de autorizarea clădirilor de pe parcelele 3 și 5, străzile A și B se echipează edilitar complet (cu iluminat) și se asfaltează la strat de uzură, inclusiv parcările de pe carosabil; trotuarele parcelelor din etapa 1 se amenajează până la recepția construcțiilor.",
+   "Înainte de recepția construcției de pe parcela 5, creșa și terenul ei (parcela 3) trec gratuit în domeniul public.",
+   "Autorizațiile pentru etapa 2 se emit după recepția finală a lucrărilor din etapa 1, dar nu mai devreme de 2025.",
+   "Strada B, terenul pentru lărgirea străzii A (parcela 2) și cel pentru lărgirea str. Fabricii (parcela 1) trec gratuit în domeniul public înainte de recepția construcțiilor din etapa 2.",
+   "Pe parcela 5, pe latura sudică a străzii B, se amenajează un spațiu verde cu acces public nelimitat de 785 mp.",
+   "Cel puțin 75% din locurile de parcare se fac în clădiri (subsol, demisol sau parter); parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit.",
+   "Fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor pe patru fracții, accesibil din spațiul public."
+  ]
+ },
+ {
   "id": "2022-510",
   "localitate": "cluj",
   "hcl": "510/2022",

@@ -1,0 +1,333 @@
+{
+  "id": "2022-580",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 580,
+    "an": 2022,
+    "data_sedinta": "2022-08-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-580-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-580-din-4-august-2022.pdf"
+  },
+  "titlu": "P.U.Z. restructurare platformă industrială, str. Fabricii nr. 145A-str. Sobarilor",
+  "plansa": {
+    "pagina_pdf": 44,
+    "dpi": 300,
+    "denumire": "A.08 Plan reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări e de două ori în PDF: p. 26 (Anexa 3 la hotărâre, micșorată pe A4) și p. 44 (format mare 950×750 mm, color, 300 ppi); s-a folosit p. 44. Pp. 1-3 sunt hotărârea, pp. 4-11 contractul de restructurare (Anexa 1), pp. 12-25 regulamentul local de urbanism (Anexa 2), pp. 26-28 planșele A.08, A.10 și A.12 micșorate (Anexele 3-5), pp. 29-36 contractul de restructurare semnat (14.09.2022), pp. 37-40 avizul Arhitectului-șef nr. 178/15.11.2021, pp. 41-43 avizul de oportunitate nr. 513/14.06.2018, pp. 45-46 planșele A.10 (proprietatea asupra terenurilor) și A.12 (plan parcelar) în format mare, pp. 47-52 raportul informării și consultării publicului. Cartușul: proiect 1285/2017, faza P.U.Z., scara 1:500, planșa A.08 „Plan reglementări urbanistice zonificare”. Planșa e desenată culcată: nordul spre stânga (rotație -90,25° față de Stereo 70), 23,6 px/m. Legenda (rotită 90°) cuprinde nota despre spațiile verzi pe sol natural, caseta U.T.R. RiM* (POT 60%, CUT 2,8, (1-3)S+P+7, H max 25,25 m), notele a) și c) și cheia simbolurilor; au rămas afară amplasamentul și beneficiarul, bilanțul zonei reglementate (suprafețe), profilurile stradale, tabelele de coordonate, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Trei inventare de coordonate ale imobilelor de pe planșă (Stereo 70, X = Nord, Y = Est): „Puncte pe contur imobil”, „Nr Cad 261187” și „Nr Cad 23556”; limita P.U.Z.-ului e conturul exterior al celor trei imobile alăturate.",
+    "suprafata_declarata_m2": 22477,
+    "puncte": {
+      "C33": [
+        589161.55,
+        394334.06
+      ],
+      "C34": [
+        589155.93,
+        394281.17
+      ],
+      "C35": [
+        589147.04,
+        394192.57
+      ],
+      "C36": [
+        589145.72,
+        394180.23
+      ],
+      "C37": [
+        589178.69,
+        394175.9
+      ],
+      "C38": [
+        589185.84,
+        394175.17
+      ],
+      "C39": [
+        589186.09,
+        394175.93
+      ],
+      "C40": [
+        589197.17,
+        394175.28
+      ],
+      "C41": [
+        589216.51,
+        394174.15
+      ],
+      "C42": [
+        589217.11,
+        394174.11
+      ],
+      "C43": [
+        589232.51,
+        394173.21
+      ],
+      "C44": [
+        589254.16,
+        394171.94
+      ],
+      "C45": [
+        589254.11,
+        394181.51
+      ],
+      "C46": [
+        589261.81,
+        394181.27
+      ],
+      "C47": [
+        589262.12,
+        394185.63
+      ],
+      "C48": [
+        589270.11,
+        394185.68
+      ],
+      "C49": [
+        589270.14,
+        394194.7
+      ],
+      "C50": [
+        589270.15,
+        394197.18
+      ],
+      "C51": [
+        589319.12,
+        394194.85
+      ],
+      "C52": [
+        589323.1,
+        394193.46
+      ],
+      "C53": [
+        589325.37,
+        394191.48
+      ],
+      "C54": [
+        589325.92,
+        394194.56
+      ],
+      "C55": [
+        589328.44,
+        394218.73
+      ],
+      "I10": [
+        589328.48,
+        394219.14
+      ],
+      "I11": [
+        589331.99,
+        394248.16
+      ],
+      "I12": [
+        589325.21,
+        394249.81
+      ],
+      "I13": [
+        589305.97,
+        394257.85
+      ],
+      "I14": [
+        589310.4,
+        394278.4
+      ],
+      "I15": [
+        589282.44,
+        394294.13
+      ],
+      "I16": [
+        589255.56,
+        394308.89
+      ],
+      "I17": [
+        589252.08,
+        394313.84
+      ],
+      "I18": [
+        589251.51,
+        394322.87
+      ],
+      "I19": [
+        589258.79,
+        394343.32
+      ],
+      "I20": [
+        589251.15,
+        394346.8
+      ],
+      "I21": [
+        589241.81,
+        394325.6
+      ],
+      "I22": [
+        589227.54,
+        394327.84
+      ],
+      "C32": [
+        589208.48,
+        394329.78
+      ]
+    },
+    "ordine": [
+      "C33",
+      "C34",
+      "C35",
+      "C36",
+      "C37",
+      "C38",
+      "C39",
+      "C40",
+      "C41",
+      "C42",
+      "C43",
+      "C44",
+      "C45",
+      "C46",
+      "C47",
+      "C48",
+      "C49",
+      "C50",
+      "C51",
+      "C52",
+      "C53",
+      "C54",
+      "C55",
+      "I10",
+      "I11",
+      "I12",
+      "I13",
+      "I14",
+      "I15",
+      "I16",
+      "I17",
+      "I18",
+      "I19",
+      "I20",
+      "I21",
+      "I22",
+      "C32"
+    ],
+    "nota": "Planșa nu are un inventar al limitei P.U.Z., ci trei tabele de coordonate ale imobilelor (stânga sus, x≈3400-5300, y≈280-1570, text culcat): „Puncte pe contur imobil” (pct. 10-40, S=6280 mp; din coordonate 6279,7), „Nr Cad 261187” (pct. 10-56, S=15889 mp; din coordonate 15889,4) și „Nr Cad 23556” (4 puncte, fără suprafață; din coordonate 308,3 mp). Cele trei imobile se ating fără suprapuneri, iar suma lor, 22477,5 mp, e exact suprafața reglementată prin P.U.Z. din bilanțul planșei (22477 mp). Limita P.U.Z. desenată pe planșă (linia de proprietate/limita UTR) urmează conturul exterior al reuniunii lor, inclusiv fâșia spre str. Fabricii. Numele punctelor au prefixul tabelului: C = Nr Cad 261187, I = imobil; I22 coincide cu C31. Punctele comune din tabele (C10-C23 = I39-I26, C27-C29 = I25-I23, C23/C25/C26/C27 = punctele cad. 23556) au aceleași coordonate în fiecare tabel, transcrise independent. Între latura C55-C56 (cad. 261187) și latura I40-I10 (imobil) cadastrul lasă o fantă de 0,41 m lățime și 22 m lungime; conturul o închide direct C55-I10 (fără C56 și I40), de aceea aria din coordonate e 22486,4 mp (+0,04%). Planșa nu dă laturi sau perimetru. Art. 1 al hotărârii numește terenul nr. cad. 256864, 261187 și 261188; tabelele planșei, din ridicarea topografică, poartă alte numere afară de 261187, dar suprafața lor totală e cea a zonei reglementate. Puncte de control: colțurile C33 și C36 (latura de sud), I11, I14 (nord-vest), I20 (capătul fâșiei la str. Fabricii), C45 și C48 (treptele de pe latura de vest); de verificare: I13, I19, I21, C46, C47, C50. La str. Fabricii limita trece pe latura exterioară I19-I20 (8,40 m pe planșă și în tabel) a celor 24 mp pentru lărgirea străzii, nu pe linia neagră a limitei UTR de la 8,59 m. Verificare informală: clădirile OSM (extrasul din 2026-11-08) duse pe planșă prin potrivire cad peste casele desenate pe str. Fabricii, la sud și la vest, iar strada B construită cade în axul străzii B desenate; pe ortofoto, limita urmează marginea șantierului și casele de pe str. Fabricii rămân în afară."
+  },
+  "gcp_px": {
+    "C33": [
+      6114,
+      3763
+    ],
+    "C36": [
+      6493,
+      7392
+    ],
+    "I11": [
+      2106,
+      5813
+    ],
+    "I20": [
+      3993,
+      3466
+    ],
+    "C48": [
+      3561,
+      7271
+    ],
+    "I14": [
+      2602,
+      5088
+    ],
+    "C45": [
+      3943,
+      7373
+    ]
+  },
+  "verificare_px": {
+    "I13": [
+      2708,
+      5573
+    ],
+    "I21": [
+      4208,
+      3958
+    ],
+    "C50": [
+      3560,
+      7005
+    ],
+    "C46": [
+      3756,
+      7374
+    ],
+    "I19": [
+      3817,
+      3548
+    ],
+    "C47": [
+      3750,
+      7273
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2430,
+      8975,
+      3965,
+      10850,
+      90
+    ],
+    [
+      4205,
+      8975,
+      6260,
+      10850,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "RiM*",
+      "denumire": "Zonă mixtă – teritorii urbane cu caracter mixt, rezultat al restructurării zonei industriale: locuire colectivă, funcțiuni terțiare, turism și administrarea afacerilor",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "(1-3S)+P+7E (planșa: 25,25 m la cornișă și total)"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public în clădiri dedicate – creșă",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "(S)+P+E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2029-08-04"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "S_Is* (creșa): planșa desenează subzona doar cu retragerile laterale (min. 4,5 m) și posterioară (min. 6 m), fără indici; hotărârea (Art. 1) stabilește POT max. 60%, CUT max. 2,2, regim (S)+P+E, retragere de minimum 40 m față de str. A și laterale de H/2, dar cel puțin 4,5 m.",
+    "RiM*: hotărârea dă doar regimul (1-3S)+P+7E; caseta de pe planșă adaugă H max. 25,25 m (la cornișă și total). Hotărârea mai limitează, pentru nivelurile de locuit, aria construită la 40% din teren (50% pe parcelele de colț), ce nu apare pe planșă.",
+    "Nota c) de pe planșă spune că parcările de la sol din profilurile străzilor noi A și B rămân în proprietate privată, aferente imobilelor vecine; hotărârea prevede trecerea străzii B și a terenului pentru lărgirea străzii A în domeniul public, fără să pomenească parcările.",
+    "Planșa cuprinde în zona reglementată și 203 mp de U.T.R. RrM1 (fâșia de acces spre str. Fabricii: 179 mp circulații și 24 mp pentru lărgirea străzii Fabricii); hotărârea reglementează doar RiM* și S_Is* și nu pomenește RrM1."
+  ],
+  "conditii": [
+    "Hotărârea aprobă și contractul de restructurare dintre Consiliul local și Municipiul Cluj-Napoca, pe de o parte, și investitor (Anexa 1); Primarul e mandatat să-l semneze.",
+    "Investitorii realizează și modernizează, pe cheltuiala lor, strada nouă B la profilul de 21 m din planșa de reglementări, cu racordarea la str. A, și prelungesc, realizează și modernizează str. A la profilul din planșă, cu racordurile la strada B și la str. Marcus Aurelius (avizul Siguranței Circulației nr. 605084/446/10.12.2020 și nota internă nr. 490500/446/23.09.2021).",
+    "Intrarea și ieșirea din strada B în str. Fabricii se fac doar cu viraje la dreapta.",
+    "Lucrările cer proiecte de specialitate pentru toate domeniile (drumuri, rețele subterane, iluminat public, semnalizare, rețele pentru transportul în comun) și autorizație de construire; toate investițiile sunt suportate de beneficiari.",
+    "Etapa 1 cuprinde frontul sudic al străzii B și străzile A și B; etapa 2, frontul nordic al străzii B până la str. Sobarilor (parcela 4).",
+    "Înainte de autorizarea clădirilor de pe parcelele 3 și 5, străzile A și B se echipează edilitar complet (cu iluminat) și se asfaltează la strat de uzură, inclusiv parcările de pe carosabil; trotuarele parcelelor din etapa 1 se amenajează până la recepția construcțiilor.",
+    "Înainte de recepția construcției de pe parcela 5, creșa și terenul ei (parcela 3) trec gratuit în domeniul public.",
+    "Autorizațiile pentru etapa 2 se emit după recepția finală a lucrărilor din etapa 1, dar nu mai devreme de 2025.",
+    "Strada B, terenul pentru lărgirea străzii A (parcela 2) și cel pentru lărgirea str. Fabricii (parcela 1) trec gratuit în domeniul public înainte de recepția construcțiilor din etapa 2.",
+    "Pe parcela 5, pe latura sudică a străzii B, se amenajează un spațiu verde cu acces public nelimitat de 785 mp.",
+    "Cel puțin 75% din locurile de parcare se fac în clădiri (subsol, demisol sau parter); parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit.",
+    "Fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor pe patru fracții, accesibil din spațiul public."
+  ]
+}
