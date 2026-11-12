@@ -1,0 +1,190 @@
+{
+  "id": "2023-32",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Planșa A4 nu are coordonate; limita parcelei (linia roșie), trasată pe planșă și pusă pe hartă prin repere OpenStreetMap (4 intersecții de străzi, rms 1,41 m; verificare 0,48 și 1,61 m pe colțurile unei case), închide 992 mp: cu 9,2% peste cei 908 mp ai parcelei 322369 din Art. 1, din eticheta CF și din extrasul cadastral, și cu 5,6% sub cei 1050 mp din bilanț și din Regulament (poarta e 3%). Cotele laturilor de pe planșă (20,61 × 49,58 m, unghiuri aproape drepte) dau și ele ~985 mp, deci diferența e a desenului, nu a citirii. Poziția pare bună (pe terenul cu iarbă de la colțul str. Jan Hus cu str. Iris); un om ar trebui să afle conturul real al parcelei 322369 (de pildă din planul de amplasament al extrasului CF) sau să decidă care suprafață se compară cu linia desenată.",
+  "hcl": {
+    "nr": 32,
+    "an": 2023,
+    "data_sedinta": "2023-01-18",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-32-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/01/30/HCL-32.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice sau de interes public în zonă cu caracter rezidențial, strada Iris nr. 3A",
+  "plansa": {
+    "pagina_pdf": 12,
+    "dpi": 96,
+    "denumire": "A4 – Plan Reglementări",
+    "scara": "1:500",
+    "nota": "Anexa 2, p. 12: planșa color (1883×1127 px, 96 ppi), „PUZ pentru construire biserică, str. Iris fn”, proiect nr. 10/2016, data 2018, cu viza Comisiei tehnice „HCL nr. 32 din 18 ianuarie 2023” și avizul Arhitectului șef nr. 134/18.07.2022. P. 7 e aceeași planșă, alb-negru, micșorată pe A4 și culcată, ștampilată „Anexa 2 la Hotărârea nr. 32/2023”; s-a folosit p. 12, mai clară. Planșa nu are inventar de coordonate și nici caroiaj Stereo 70; extrasul cadastral lipit în partea de jos („Suprafața măsurată = 0,0908 ha”, „Sistem de proiecție Stereo 70”) are o singură bifă de caroiaj, cu eticheta citibilă doar parțial (~„…3500”, la (882, 1048)), insuficientă pentru o potrivire. Nordul e în sus (rotație 0,5° față de Stereo 70). Legenda: cheia simbolurilor și caseta „Reglementări propuse pentru S_Is / PUZ” (funcțiuni, retrageri, înălțime, POT, CUT); nu s-au pus nota despre atribuirea terenului prin HCL 239/2016, suprafața zonei studiate și bilanțul teritorial. Textele „periferic” și „situate” sunt tăiate de chenarul planșei înseși."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, extrasul din 2026-11-08): planșa nu are coordonate. Control: X_JH_S (intersecția str. Jan Hus / str. Iris, ramura de sud, lângă colțul de sud al parcelei), X_JH_N (str. Jan Hus / str. Iris, ramura de nord), X_NR_N (nodul str. Nicolae Românul / str. Postăvarul / str. Iris), X_NR_S (str. Nicolae Românul / str. Iris, ramura de sud), citite pe planșă la încrucișarea axelor dintre borduri; verificare: B1_S și B1_W, colțurile de sud și de vest ale casei existente de la nord de str. Iris (ramura de nord), la vest de str. Jan Hus (în OSM, b306013503, mai mare decât casa desenată: colțurile de nord și de est ies la 2,0-2,3 m). Ancora de pornire: X_JH_S la (895, 640), 7,25 px/m, nord 0°. Potrivirea (asemănare): 7,42 px/m, rotație 0,50°, rms 1,41 m, maxim 1,98 m (X_JH_S); verificare 0,48 m (B1_S) și 1,61 m (B1_W). Axele OSM ale străzilor Jan Hus, Iris și Nicolae Românul urmează benzile desenate. Limita e trasată (`limita_px`) pe linia roșie „Limite de proprietate parcela studiată”, cu colțul de sud rotunjit cum e desenat; laturile au fost găsite prin culoarea liniei roșii (pixeli roșii, drepte potrivite pe fiecare latură, apoi intersectate).",
+    "suprafata_declarata_m2": 908,
+    "puncte": {},
+    "nota": "Aria limitei trasate e 991,5 mp la scara potrivirii (7,42 px/m), cu 9,2% peste cei 908 mp ai parcelei cu nr. cad. 322369 din preambul și Art. 1, din eticheta planșei („908 mp CF 322369”) și din extrasul cadastral (0,0908 ha), și cu 5,6% sub cei 1050 mp din bilanțul teritorial al planșei („Total teren studiat” = S_Is propus, 100%), din caseta „Suprafața totală zona studiată = 1050 mp” și din Regulament (Anexa 1, cap. I.3). Poarta pentru o limită trasată e 3%. Cu alte seturi de puncte aria iese 984-999 mp (scara 7,39-7,45 px/m; subseturile de câte trei intersecții dau 7,34-7,47 px/m). Nici scara nu e de vină: cotele laturilor desenate (NV 20,61 m, NE 49,58 m, SV 47,14 m, SE 20,25 m) dau 7,29 / 7,34 / 7,50 / 7,77 px/m (ultimele două măsurate până la colțul virtual al rotunjirii de sud), iar patrulaterul cu aceste laturi și unghiurile desenate (~96° și ~91°) are ~985 mp. Pentru 908 mp unghiurile ar trebui să fie ~67°, ceea ce planșa nu arată. Diferența e deci a desenului (sau a cifrei de 908 mp), nu a citirii. Postul trafo (colțul de nord) și stația de gaz (sud) sunt desenate în interiorul conturului roșu, cu împrejmuiri proprii, nu decupate din el. Verificarea pe imagini (build --dry-run --force, nepublicat) pune conturul pe terenul cu iarbă de la colțul str. Jan Hus cu str. Iris, cu latura de NE la marginea parcării vecine."
+  },
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      895,
+      640
+    ],
+    "en": [
+      393546.6,
+      589029.0
+    ],
+    "px_per_m": 7.25,
+    "nord": 0
+  },
+  "gcp_px": {
+    "X_JH_S": [
+      895,
+      640
+    ],
+    "X_NR_N": [
+      272,
+      659
+    ],
+    "X_NR_S": [
+      408,
+      945
+    ],
+    "X_JH_N": [
+      719,
+      360
+    ]
+  },
+  "verificare_px": {
+    "B1_S": [
+      386,
+      504
+    ],
+    "B1_W": [
+      334,
+      417
+    ]
+  },
+  "limita_px": [
+    [
+      717,
+      296
+    ],
+    [
+      838,
+      207
+    ],
+    [
+      1027,
+      518
+    ],
+    [
+      932,
+      578
+    ],
+    [
+      920,
+      582
+    ],
+    [
+      908,
+      587
+    ],
+    [
+      896,
+      587
+    ],
+    [
+      887,
+      583
+    ],
+    [
+      878,
+      573
+    ]
+  ],
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1260,
+      60,
+      1844,
+      362
+    ],
+    [
+      1260,
+      456,
+      1814,
+      670
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzona de instituții și servicii publice și de interes public constituite în clădiri dedicate, situate în afara zonei centrale: funcțiuni de cult și activități conexe; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "18 m la cornișă"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-01-18",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (ședința din 18.01.2023); `related`: nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Suprafața: preambulul și Art. 1 privesc parcela cu nr. cad. 322369, de 908 mp (cât dau și eticheta „908 mp CF 322369” de pe planșă și extrasul cadastral lipit pe ea); bilanțul teritorial al planșei și Regulamentul (Anexa 1, cap. I.3) dau 1050 mp pentru zona studiată, toată S_Is propusă.",
+    "Planșa dă „retrageri față de limitele laterale: 4 m” (și Regulamentul: minim 4 m spre limitele laterale de proprietate); Art. 1 dă 4 m numai față de limita nordică (post trafo) și 10 m față de limita sudică (stație gaz). Planșa are și ea 4 m față de postul trafo și 10 m față de împrejmuirea stației de gaz.",
+    "Planșa dă regimul de înălțime (S)+P+4E+R; Art. 1 dă numai înălțimea maximă la cornișă, 18 m, aceeași ca pe planșă.",
+    "UTR-ul e „S_Is / PUZ” pe planșă și „S_Is*” în Art. 1. Planșa admite funcțiuni de cult, circulații pietonale și auto și dotări edilitare; Art. 1 dă „funcțiuni de cult și activități conexe”. Accesele (auto și pietonal din str. Jan Hus, pietonal din str. Iris) apar numai în text."
+  ],
+  "conditii": [
+    "Terenul reglementat e parcela cu nr. cad. 322369 (908 mp), proprietatea Municipiului Cluj-Napoca, în administrarea Consiliului local, dată în folosință pentru construirea unui lăcaș de cult (prin HCL 239/2016, după nota planșei).",
+    "Retrageri: față de aliniament min. 3 m; față de limita nordică (post trafo) min. 4 m; față de limita sudică (stație gaz) min. 10 m; față de limita posterioară 2 m.",
+    "Acces auto și pietonal din str. Jan Hus și acces pietonal din str. Iris; parcarea se face în interiorul parcelei, cu necesarul de locuri după Anexa 2 a Regulamentului P.U.G.; echipare tehnico-edilitară completă.",
+    "Lărgirea trotuarului de pe frontul la str. Jan Hus se face înainte de emiterea autorizației de construire (planșa marchează fâșia „teren dezmembrat pentru extindere trotuar”).",
+    "La faza D.T.A.C., documentația se avizează în Comisia de Estetică Urbană.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ],
+  "repere": {
+    "X_JH_S": [
+      589028.97,
+      393546.64
+    ],
+    "X_NR_N": [
+      589027.46,
+      393462.17
+    ],
+    "X_NR_S": [
+      588989.89,
+      393481.13
+    ],
+    "X_JH_N": [
+      589069.56,
+      393520.56
+    ],
+    "B1_S": [
+      589048.31,
+      393477.58
+    ],
+    "B1_W": [
+      589061.79,
+      393469.65
+    ]
+  },
+  "repere_osm": {
+    "X_JH_S": "intersecție Strada Iris / Strada Jan Hus (x31620154_31620190)",
+    "X_NR_N": "intersecție Strada Gheorghe Asachi / Strada Iris / Strada Nicolae Românul / Strada Postăvarul (x31620195_31714231)",
+    "X_NR_S": "intersecție Strada Iris / Strada Nicolae Românul (x31620154_31714273)",
+    "X_JH_N": "intersecție Strada Jan Hus / Strada Iris (x31620190_31714247)",
+    "B1_S": "colț de clădire (b306013503_3)",
+    "B1_W": "colț de clădire (b306013503_2)"
+  }
+}
