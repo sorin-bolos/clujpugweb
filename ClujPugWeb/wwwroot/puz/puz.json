@@ -27993,6 +27993,116 @@
   ]
  },
  {
+  "id": "2022-584",
+  "localitate": "cluj",
+  "hcl": "584/2022",
+  "data": "2022-08-04",
+  "titlu": "P.U.Z. de urbanizare – str. Borhanciului – latura vestică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-584-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-584.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe individuale (unifamiliale), izolate sau cuplate, pe parcele de min. 450 mp, și locuințe semicolective cu două unități locative pe parcele de min. 1000 mp; regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă, 12 m maxim; două niveluri supraterane plus o mansardă sau un nivel retras: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Va¹",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+    "h_max": "4 m la cornișă, (D)+P"
+   }
+  ],
+  "suprafata_m2": 8997,
+  "imagine": "puz/2022-584/plansa.webp",
+  "bounds": {
+   "west": 23.6487955,
+   "south": 46.7412683,
+   "east": 23.6506583,
+   "north": 46.7422132
+  },
+  "limita": [
+   [
+    23.6492241,
+    46.7421758
+   ],
+   [
+    23.6493048,
+    46.7421633
+   ],
+   [
+    23.6504095,
+    46.741993
+   ],
+   [
+    23.6506165,
+    46.7419611
+   ],
+   [
+    23.6505392,
+    46.741745
+   ],
+   [
+    23.6504612,
+    46.7415273
+   ],
+   [
+    23.6503809,
+    46.7413029
+   ],
+   [
+    23.6488393,
+    46.7414905
+   ],
+   [
+    23.6489521,
+    46.7417109
+   ],
+   [
+    23.6490732,
+    46.7419475
+   ],
+   [
+    23.6491297,
+    46.7420552
+   ],
+   [
+    23.6491938,
+    46.7421804
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.02
+  },
+  "legenda": "puz/2022-584/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-08-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Limita: pe planșă, linia punctată „Limita zonei reglementate prin P.U.Z., conform Aviz de oportunitate nr. 244/18.04.2019” cuprinde și str. Borhanciului, până la marginea ei de est; Art. 1 aprobă P.U.Z.-ul pentru terenul de 8997 mp format din imobilele nr. cad. 266773, 315721 și 315722, cât dă și bilanțul planșei. Pe hartă e limita acestor trei imobile, din inventarele de coordonate.",
+   "C.U.T. și înălțimi: planșa nu le dă (bilanțurile pe UTR dau doar zona construită, 35% în Liu* și 5% în S_Va¹, cât P.O.T.-ul); hotărârea (Art. 1) stabilește C.U.T. max. 0,9 în Liu* și 0,1 în S_Va¹, două niveluri supraterane plus mansardă sau nivel retras, 8 m la cornișă și 12 m maxim în Liu*, 4 m la cornișă, (D)+P în S_Va¹.",
+   "Locurile de parcare: bilanțul planșei socotește câte două locuri pe unitate locativă (20 pentru cele 8 parcele, dintre care parcelele 3 și 4 cu locuințe semicolective); hotărârea cere minimum un loc pentru clădirile sub 100 mp arie utilă și două peste."
+  ],
+  "conditii": [
+   "Terenul necesar regularizării str. Borhanciului la ampriza de 18 m (profil tip III B din P.U.G.; 354 mp în bilanțul planșei) se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcelele cu acces direct din ea; până la recepția construcțiilor e adus la aceeași îmbrăcăminte rutieră ca str. Borhanciului.",
+   "Strada „A” propusă (ampriza 9 m) se dezmembrează, se înscrie în CF ca „drum” și se echipează edilitar înainte de autorizațiile de construire pe parcelele cu acces din ea; până la recepția construcțiilor i se face stratul de uzură, cu iluminat stradal și mobilier urban, pe baza unui proiect de specialitate.",
+   "Spațiul verde cu acces public nelimitat S_Va¹ se amenajează pe baza unui proiect de specialitate înainte de recepția locuințelor, cu cel puțin 10 arbori cu circumferința de min. 35 cm la 1 m de colet.",
+   "Accesul dinspre Gheorgheni trece prin intersecția str. Constantin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, cu capacitatea depășită: autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară sau spații verzi) se emit numai după ce Municipalitatea reamenajează și lărgește intersecția, dar nu mai târziu de 31.12.2026.",
+   "Toate investițiile propuse prin documentație se suportă de beneficiarii ei.",
+   "Liu*: retragere de la aliniament 3-5 m, conform planșei A.04 (la parcelele de colț față de ambele aliniamente), garajele min. 6 m, ca să se poată parca o mașină în față; min. 3 m de limitele laterale (garajele, și cele din corpul clădirii, se pot alipi dacă calcanul nu trece de 2,8 m); de limita posterioară cel puțin înălțimea clădirii și min. 6 m (garajele min. 6 m); între două clădiri de pe aceeași parcelă cel puțin înălțimea celei mai înalte, min. 6 m.",
+   "Liu*: pe terenurile în pantă, locuințele semicolective (o unitate locativă pe unul sau două niveluri) pot avea cel mult patru niveluri; demisolul e numai pentru garaje și funcțiuni conexe, nu pentru locuire.",
+   "Liu*: acces din str. Borhanciului și din strada „A”; parcarea în interiorul parcelei: min. un loc pentru clădirile sub 100 mp arie utilă, două pentru cele de 100 mp sau mai mult.",
+   "Liu*: racord la rețelele publice disponibile (apă, electricitate, gaz, telefonie); apele uzate menajere se epurează în sisteme individuale (microstații) și se infiltrează în sol, în interiorul parcelei.",
+   "S_Va¹: construcțiile la min. 5 m de aliniament și de limitele laterale și posterioară; acces din str. Borhanciului, pe strada „A”."
+  ]
+ },
+ {
   "id": "2022-510",
   "localitate": "cluj",
   "hcl": "510/2022",
