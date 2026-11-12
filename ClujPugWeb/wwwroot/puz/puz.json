@@ -21261,6 +21261,116 @@
   ]
  },
  {
+  "id": "2024-24",
+  "localitate": "cluj",
+  "hcl": "24/2024",
+  "data": "2024-01-22",
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii de interes public (construire clinică medicală), Calea Moților nr. 23",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-24-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/02/01/HCL-24.pdf",
+  "utr": [
+   {
+    "cod": "SZCP_Is_H",
+    "denumire": "Subzonă de instituții și servicii de interes public în ansambluri independente, cu regim de construire deschis, adiacentă principalelor artere de trafic, destinată funcțiunilor medicale (clinică medicală pe parcela nr. cad. 252258)",
+    "pot_max": "75%",
+    "cut_max": "3,55",
+    "h_max": "cornișă la 20,5 m; (1-3S)+P+4+Eth, etajul tehnic fără personal permanent și nevizibil din spațiul public"
+   }
+  ],
+  "suprafata_m2": 606,
+  "imagine": "puz/2024-24/plansa.webp",
+  "bounds": {
+   "west": 23.5825875,
+   "south": 46.7671324,
+   "east": 23.5830402,
+   "north": 46.7675497
+  },
+  "limita": [
+   [
+    23.5827795,
+    46.7675097
+   ],
+   [
+    23.582821,
+    46.7675279
+   ],
+   [
+    23.5828368,
+    46.7675061
+   ],
+   [
+    23.5828958,
+    46.7674163
+   ],
+   [
+    23.5829218,
+    46.7673761
+   ],
+   [
+    23.58299,
+    46.7672753
+   ],
+   [
+    23.5830074,
+    46.7672466
+   ],
+   [
+    23.5830149,
+    46.7672291
+   ],
+   [
+    23.5828501,
+    46.7671554
+   ],
+   [
+    23.5828402,
+    46.7671691
+   ],
+   [
+    23.582801,
+    46.7672219
+   ],
+   [
+    23.5827985,
+    46.7672246
+   ],
+   [
+    23.5827646,
+    46.7672607
+   ],
+   [
+    23.5826166,
+    46.7674263
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.04
+  },
+  "legenda": "puz/2024-24/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2027-01-22"
+  },
+  "diferente_fata_de_plansa": [
+   "Indicii: tabelul „Situația propusă” al planșei dă POT 75% / CUT 3,55 pe parcela inițială și POT 70% / CUT 3,30 după cedarea fâșiei pentru drum (raportate la 652,325 mp = 606 mp plus jumătate din cei 92,65 mp cedați); Art. 1 aprobă POT maxim 75% și CUT maxim 3,55.",
+   "Înălțimea: planșa notează H atic = 20,5 m (+364,83) pentru corpul principal și H atic = 12,00 m (+355,12) pentru corpul de pe limita dinspre biserică; Art. 1 dă cornișa la 20,5 m și, pe limita de proprietate în dreptul calcanului parohiei ortodoxe, construirea „până la cota acestuia”, fără cifră.",
+   "Orientarea: Art. 1 pune aliniamentul la Calea Moților și la drumul de acces „spre limitele estice și sudice” și retragerea de 2 m „față de limita vestică”. După coordonate, Calea Moților trece la nord-nord-vest de parcelă, drumul de acces (nr. cad. 332094) la est-nord-est, iar latura cu retragerea de 2 m (fâșia „Acces P.G.”) și cu calcanul bisericii e la vest-sud-vest."
+  ],
+  "conditii": [
+   "Fâșia necesară lărgirii accesului de pe latura estică a parcelei (92,65 mp după planșă, hașurată ca teren grevat de servitute de utilitate publică; planșa A.3.4) se dezmembrează și se înscrie în C.F. ca „drum” înainte de autorizația de construire și trece gratuit în domeniul public până la recepția finală a construcției.",
+   "Clădirea se amplasează pe aliniament la Calea Moților și la drumul de acces, aflat în domeniul public al județului Cluj.",
+   "Retrageri laterale: 2 m față de limita vestică; pe limita de proprietate, în dreptul calcanului vecin (parohia ortodoxă), până la cota acestuia.",
+   "Accesele se fac din Calea Moților și de pe parcela nr. cad. 332094 (drumul de acces).",
+   "Parcarea se organizează exclusiv în garaje colective subterane.",
+   "Echiparea edilitară se face prin racorduri și branșamente la rețelele existente.",
+   "Pe spațiul verde propus de pe latura vestică se plantează arbuști de înălțime medie.",
+   "La faza D.T.A.C., documentația se avizează în Comisia de estetică urbană.",
+   "Toate investițiile propuse prin documentație sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",

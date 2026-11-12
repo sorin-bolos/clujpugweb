@@ -1,0 +1,196 @@
+{
+  "id": "2024-24",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 24,
+    "an": 2024,
+    "data_sedinta": "2024-01-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-24-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/02/01/HCL-24.pdf"
+  },
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii de interes public (construire clinică medicală), Calea Moților nr. 23",
+  "plansa": {
+    "pagina_pdf": 16,
+    "dpi": 200,
+    "denumire": "Planșa de reglementări urbanistice (A3.1)",
+    "scara": "1:200",
+    "nota": "PDF-ul hotărârii are 65 de pagini: hotărârea semnată (p. 1-2), Anexa 1 – regulamentul local de urbanism (p. 3-6), Anexa 2 – planșa A3.1 Reglementări urbanistice (p. 7) și Anexa 3 – planșa A3.4 Plan obiective de utilitate publică, proprietatea asupra terenurilor (p. 8), amândouă fotocopii în tonuri de gri reduse pe A4 (300 ppi), apoi avize și alte piese (p. 9-15), aceleași două planșe color pe A3 la 200 ppi (p. 16-17) și restul documentației (p. 18-65). S-a folosit p. 16: același desen ca Anexa 2, dar color, cu inventarul de coordonate lizibil. Cartușul: pr. nr. P838/2019, faza P.U.Z., planșa A3.1 „Planșa de reglementări urbanistice”, scara 1:200, 04.01.2023. Planșa iese la 39,7 px/m (1:200 la 200 ppi ar da 39,37) și e rotită: sus pe planșă e cam vest-sud-vest, iar Calea Moților, desenată în dreapta, trece la nord-nord-vest de parcelă. `legenda_px` cuprinde legenda, caseta UTR SZCP_Is_H din desen și, din tabelul „Situația propusă”, rândurile POT/CUT și înălțimile, cu nota despre calculul indicilor; au rămas afară suprafețele și calculul parcărilor din același tabel, bilanțul teritorial, inventarul, cartușul și ștampilele."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate de pe planșa A3.1 („Parcela (1Cc)”: Nr. pct. / X [m] / Y [m] / Lungimi laturi D(i,i+1), X = Nord, Y = Est), 14 puncte în ordinea conturului, S(1Cc) = 606,34 mp, P = 105,701 m; e parcela nr. cad. 252258, cei 606 mp din Art. 1 și din bilanțul teritorial. Toate cele 14 laturi și perimetrul ies ca în tabel, la sub 1 mm. Puncte de control: 9, 14, 2 și 8, cele patru colțuri ale parcelei, citite pe mijlocul conturului negru al subzonei SZCP_Is_H (linia roșie a limitei de proprietate e lipită de el pe interior). Puncte de verificare: 12 și 13, pe latura 9-14 (spre biserică): în 12 o atinge colțul clădirii vecine, în 13 marginea fâșiei verzi vecine; cotele 8,65 / 4,78 / 21,60 de deasupra laturii sunt chiar distanțele 9-12, 12-13 și 13-14. Celelalte puncte stau pe laturi aproape drepte (frângeri de 1-6°), așa că n-au fost folosite.",
+    "suprafata_declarata_m2": 606.34,
+    "puncte": {
+      "1": [
+        586296.039,
+        391891.042
+      ],
+      "2": [
+        586297.998,
+        391894.245
+      ],
+      "3": [
+        586295.559,
+        391895.41
+      ],
+      "4": [
+        586285.494,
+        391899.737
+      ],
+      "5": [
+        586280.999,
+        391901.643
+      ],
+      "6": [
+        586269.702,
+        391906.644
+      ],
+      "7": [
+        586266.483,
+        391907.915
+      ],
+      "8": [
+        586264.533,
+        391908.455
+      ],
+      "9": [
+        586256.561,
+        391895.727
+      ],
+      "10": [
+        586258.097,
+        391894.996
+      ],
+      "11": [
+        586264.028,
+        391892.106
+      ],
+      "12": [
+        586264.326,
+        391891.922
+      ],
+      "13": [
+        586268.385,
+        391889.404
+      ],
+      "14": [
+        586286.994,
+        391878.431
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 3.755,
+      "2": 2.703,
+      "3": 10.956,
+      "4": 4.882,
+      "5": 12.354,
+      "6": 3.461,
+      "7": 2.023,
+      "8": 15.018,
+      "9": 1.701,
+      "10": 6.598,
+      "11": 0.35,
+      "12": 4.777,
+      "13": 21.603,
+      "14": 15.519
+    },
+    "perimetru_declarat_m": 105.701
+  },
+  "gcp_px": {
+    "9": [
+      685,
+      628
+    ],
+    "14": [
+      2075,
+      659
+    ],
+    "2": [
+      2121,
+      1430
+    ],
+    "8": [
+      693,
+      1236
+    ]
+  },
+  "verificare_px": {
+    "12": [
+      1024,
+      654
+    ],
+    "13": [
+      1219,
+      654
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      2440,
+      515,
+      2950,
+      1350
+    ],
+    [
+      1568,
+      436,
+      1916,
+      546
+    ],
+    [
+      2420,
+      1358,
+      3008,
+      1380
+    ],
+    [
+      2420,
+      1600,
+      3008,
+      1693
+    ],
+    [
+      2420,
+      1834,
+      3008,
+      1958
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "SZCP_Is_H",
+      "denumire": "Subzonă de instituții și servicii de interes public în ansambluri independente, cu regim de construire deschis, adiacentă principalelor artere de trafic, destinată funcțiunilor medicale (clinică medicală pe parcela nr. cad. 252258)",
+      "pot_max": "75%",
+      "cut_max": "3,55",
+      "h_max": "cornișă la 20,5 m; (1-3S)+P+4+Eth, etajul tehnic fără personal permanent și nevizibil din spațiul public"
+    }
+  ],
+  "valabilitate": {
+    "ani": 3,
+    "pana_la": "2027-01-22",
+    "nota": "Art. 2: trei ani de la aprobare (22.01.2024); nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Indicii: tabelul „Situația propusă” al planșei dă POT 75% / CUT 3,55 pe parcela inițială și POT 70% / CUT 3,30 după cedarea fâșiei pentru drum (raportate la 652,325 mp = 606 mp plus jumătate din cei 92,65 mp cedați); Art. 1 aprobă POT maxim 75% și CUT maxim 3,55.",
+    "Înălțimea: planșa notează H atic = 20,5 m (+364,83) pentru corpul principal și H atic = 12,00 m (+355,12) pentru corpul de pe limita dinspre biserică; Art. 1 dă cornișa la 20,5 m și, pe limita de proprietate în dreptul calcanului parohiei ortodoxe, construirea „până la cota acestuia”, fără cifră.",
+    "Orientarea: Art. 1 pune aliniamentul la Calea Moților și la drumul de acces „spre limitele estice și sudice” și retragerea de 2 m „față de limita vestică”. După coordonate, Calea Moților trece la nord-nord-vest de parcelă, drumul de acces (nr. cad. 332094) la est-nord-est, iar latura cu retragerea de 2 m (fâșia „Acces P.G.”) și cu calcanul bisericii e la vest-sud-vest."
+  ],
+  "conditii": [
+    "Fâșia necesară lărgirii accesului de pe latura estică a parcelei (92,65 mp după planșă, hașurată ca teren grevat de servitute de utilitate publică; planșa A.3.4) se dezmembrează și se înscrie în C.F. ca „drum” înainte de autorizația de construire și trece gratuit în domeniul public până la recepția finală a construcției.",
+    "Clădirea se amplasează pe aliniament la Calea Moților și la drumul de acces, aflat în domeniul public al județului Cluj.",
+    "Retrageri laterale: 2 m față de limita vestică; pe limita de proprietate, în dreptul calcanului vecin (parohia ortodoxă), până la cota acestuia.",
+    "Accesele se fac din Calea Moților și de pe parcela nr. cad. 332094 (drumul de acces).",
+    "Parcarea se organizează exclusiv în garaje colective subterane.",
+    "Echiparea edilitară se face prin racorduri și branșamente la rețelele existente.",
+    "Pe spațiul verde propus de pe latura vestică se plantează arbuști de înălțime medie.",
+    "La faza D.T.A.C., documentația se avizează în Comisia de estetică urbană.",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiară."
+  ]
+}
