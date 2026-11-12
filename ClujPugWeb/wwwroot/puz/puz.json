@@ -20582,6 +20582,131 @@
   ]
  },
  {
+  "id": "2024-116",
+  "localitate": "cluj",
+  "hcl": "116/2024",
+  "data": "2024-03-04",
+  "titlu": "P.U.Z. de urbanizare – Construire locuințe cu regim redus de înălțime, str. Măceșului",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-116-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/03/19/HCL-116.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime, dispuse pe un parcelar de tip urban – locuințe unifamiliale izolate: patru locuințe individuale (parcelele P1, P3, P4 și P5) și o locuință semicolectivă, cu cel mult două unități locative alipite, numai pe parcela P2; regim de construire izolat. R.L.U. admite cu condiții servicii prestate de proprietari și funcțiuni de turism.",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras și 12 m la coama acoperișului sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 4787,
+  "imagine": "puz/2024-116/plansa.webp",
+  "bounds": {
+   "west": 23.6029256,
+   "south": 46.7432689,
+   "east": 23.6045977,
+   "north": 46.7438971
+  },
+  "limita": [
+   [
+    23.604334,
+    46.7437663
+   ],
+   [
+    23.604188,
+    46.7437806
+   ],
+   [
+    23.6038476,
+    46.743816
+   ],
+   [
+    23.603348,
+    46.743867
+   ],
+   [
+    23.6033436,
+    46.7438675
+   ],
+   [
+    23.6031646,
+    46.7437049
+   ],
+   [
+    23.6031391,
+    46.7436746
+   ],
+   [
+    23.6031197,
+    46.7436516
+   ],
+   [
+    23.6029676,
+    46.743471
+   ],
+   [
+    23.6032791,
+    46.7434368
+   ],
+   [
+    23.6035266,
+    46.7434097
+   ],
+   [
+    23.6037729,
+    46.7433827
+   ],
+   [
+    23.604018,
+    46.7433558
+   ],
+   [
+    23.6044919,
+    46.7433037
+   ],
+   [
+    23.6045582,
+    46.7435007
+   ],
+   [
+    23.6045668,
+    46.7435244
+   ],
+   [
+    23.6042866,
+    46.7435539
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.13
+  },
+  "legenda": "puz/2024-116/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-03-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Art. 1 numește zona U.T.R. Liu*; planșa (eticheta și bilanțul teritorial) și R.L.U. din Anexa 1 scriu Liu. Indicatorii (P.O.T. 35 %, C.U.T. 0,9), înălțimile (pe planșă h cornișă 8 m și h coamă 12 m față de CTA), regimul de înălțime ((S)+P+1+Er(M) sau (D)+P+Er(M) pe planșă), numărul de locuințe pe parcele și retragerile cotate (5 m față de aliniament, 4,5 m față de limitele laterale, 6 m față de limita posterioară, drum de 9 m) se potrivesc cu textul; textul adaugă retragerea de cel puțin 6 m a garajelor față de aliniament, care nu e desenată."
+  ],
+  "conditii": [
+   "Se reglementează 4787 mp: cinci parcele în proprietate privată (P1-P5, 3073 mp inițial; nr. topo. 13156/2/2 și 13156/2/3, nr. cad. 7152/4, 7152/2, 314407 și 291691) și tronsonul drumului de acces, cu integrarea parcelelor anterior reglementate nr. cad. 264054, 1302/2, 262068 și 264052. În P.U.G. terenul era în UTR ULiu (de urbanizare).",
+   "Înainte de autorizațiile de construire pe parcele, suprafețele necesare regularizării drumului de acces la ampriza de 9 m, pe tronsonul reglementat prin P.U.Z., se dezmembrează din parcelele inițiale și se înscriu în CF ca „drum”; până la recepția construcțiilor tronsonul se aduce la strat de uzură (dale).",
+   "Accesul se face din str. Măceșului, pe drumul de acces existent, reglementat prin P.U.D. aprobat cu HCL 278/2006 la profil de 9 m (7 m carosabil și trotuare de 1 m pe ambele părți). Pe o parcelă: un singur acces auto și unul pietonal la locuințele unifamiliale, câte două la parcela cu locuința semicolectivă (P2); R.L.U.: accesul carosabil are cel mult 3 m lățime.",
+   "Retrageri: față de aliniament cel puțin 5 m pentru locuințe și 6 m pentru garaje; față de limitele laterale cel puțin 4,5 m; față de limita posterioară cel puțin înălțimea clădirii, dar minim 6 m. R.L.U.: toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de edicule provizorii de grădină de cel mult 15 mp în total; garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m și stau la cel puțin 6 m de limita posterioară.",
+   "R.L.U.: o parcelă pentru locuințe izolate are front la stradă de cel puțin 15 m și cel puțin 360 mp.",
+   "Parcarea se face în interiorul parcelei: cel puțin un loc pentru clădiri cu A.U. sub 100 mp și două peste 100 mp; R.L.U.: la locuința semicolectivă un loc pentru fiecare unitate locativă, iar pentru servicii de proximitate două locuri.",
+   "Toate construcțiile se racordează la rețelele edilitare (apă, canalizare, electricitate, gaz). R.L.U.: cablurile nu se montează aerian, firidele se integrează în împrejmuire, apele meteorice nu se descarcă spre domeniul public sau spre vecini, iar fiecare parcelă are o platformă sau un spațiu pentru deșeuri, accesibil din spațiul public.",
+   "R.L.U.: demisolul e destinat numai garajelor și funcțiunilor conexe, nu locuirii.",
+   "R.L.U.: locuința semicolectivă (cel mult două unități locative) e admisă numai pe P2; serviciile cu acces public și cele profesionale sunt admise dacă le prestează proprietarii, se desfășoară numai în interior și nu poluează (la locuința semicolectivă numai la parter, spre stradă, cu acces separat); alimentația publică cere acordul vecinilor pe o rază de 50 m, iar turismul (fără alimentație publică) acordul vecinilor; orice alte utilizări și terasamentele care afectează spațiile publice sau parcelele vecine sunt interzise.",
+   "R.L.U.: spațiile verzi pe sol natural ocupă cel puțin 40 % din parcelă, iar în grădina de fațadă cel puțin 60 %; tăierea arborilor maturi e interzisă, cu excepția celor periculoși sau care împiedică realizarea construcțiilor.",
+   "R.L.U.: arhitectură modernă, fără pastișe; acoperișuri în două sau patru ape, cu pante egale de cel mult 60°, sau terasă; țiglă ceramică sau tablă lisă fălțuită; culori pastelate, fără culori saturate.",
+   "R.L.U.: aliniamentul se închide pe toată lungimea cu împrejmuire de cel mult 2,2 m, cu soclu opac de cel mult 80 cm și parte transparentă; spre vecini împrejmuiri de cel mult 2,2 m, transparente sau opace; porțile se deschid spre interior.",
+   "R.L.U.: clădirile existente, înscrise în CF sau autorizate, se integrează în P.U.Z. ca elemente existente; intervențiile asupra lor se autorizează direct, după regulile UTR-ului.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
