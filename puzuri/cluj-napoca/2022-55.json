@@ -1,0 +1,52 @@
+{
+  "id": "2022-55",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Aplicabilitatea P.U.Z.-ului a încetat prin HCL 463/2023 (15.05.2023, Art. 1), care aprobă pe același teren de 15.270 mp un P.U.Z. nou, deja publicat (2023-463); termenul de cinci ani al acestei hotărâri (08.02.2027) n-a trecut, dar P.U.Z.-ul nu mai e în vigoare, așa că nu se publică: pe hartă ar sta peste cel care îl înlocuiește.",
+  "hcl": {
+    "nr": 55,
+    "an": 2022,
+    "data_sedinta": "2022-02-08",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-55-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/03/04/HCL-55-din-8-02-2022-PUZ-dezv-zona-rez-Boariu-str-Aurel-Gurghianu.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă rezidențială str. Aurel Gurghianu",
+  "plansa": {
+    "pagina_pdf": 35,
+    "dpi": 96,
+    "denumire": "Planșa 03 Plan reglementări urbanistice",
+    "scara": "1:750",
+    "nota": "PDF-ul are 38 de pagini: hotărârea semnată (p. 1-4), planșa redusă pe A4 (p. 5), regulamentul local de urbanism și avizele (p. 6-34), planșa 03 pe A2 (p. 35, 2244×1589 px la 96 ppi) și raportul informării publicului (p. 36-38). Planșa de pe p. 35 e color și lizibilă: S.C. Spin Studio S.R.L., pr. nr. 28/2017, faza P.U.Z., 07.2020, format A2, scara 1/750, ștampilată „HCL nr. 55 din 8.02.2022” și „Vizat”, aviz nr. 185 din 23.11.2021; are inventar de coordonate (S = 15269,54 mp, P = 837,057 m). N-a fost georeferențiată: P.U.Z.-ul a fost înlocuit prin HCL 463/2023 (vezi `motiv`), a cărui planșă 03 (Spin Studio, 12.2022) mută drumul păstrând ampriza de 12 m."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de pe planșă (p. 35), netranscris: P.U.Z.-ul nu se publică (vezi `motiv`).",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-02-08",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (08.02.2022). `related`: nicio prelungire; HCL 463/2023 aprobă încetarea aplicabilității acestui P.U.Z. (Art. 1, verificat pe pagina hotărârii 463/2023), deci P.U.Z.-ul nu mai e în vigoare din 15.05.2023."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "463/2023",
+      "data": "2023-05-15",
+      "rezumat": "Aprobă încetarea aplicabilității acestui P.U.Z. și, în locul lui, un P.U.Z. nou pentru același teren de 15.270 mp, str. Aurel Gurghianu (cartușul planșei lui: „modificare PUZ aprobat cu nr. 55 din 08.02.2022 în vederea translatare drum cu menținerea amprizei de 12 m”); P.U.Z.-ul nou e publicat ca 2023-463, valabil până la 15.05.2028.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [],
+  "conditii": []
+}
