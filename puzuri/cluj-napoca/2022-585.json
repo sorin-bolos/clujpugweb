@@ -1,0 +1,295 @@
+{
+  "id": "2022-585",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 585,
+    "an": 2022,
+    "data_sedinta": "2022-08-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-585-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-585.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Breaza-str. Colonia Breaza – etapa I",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 96,
+    "denumire": "Plan reglementări urbanistice (planșa A.04)",
+    "scara": "1:500",
+    "nota": "PDF-ul are 23 de pagini scanate la 96 ppi: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii), Anexa 1 – planșa A.04 redusă pe A4, alb-negru și întoarsă (p. 4), Anexa 2 – regulamentul local de urbanism (p. 5-13), avizele arhitectului-șef nr. 187/2021 și nr. 30/2022 (p. 14-17), aceeași planșă A.04 color, pe A3, cu ștampila „VIZAT” a comisiei tehnice (p. 18), și raportul informării și consultării publicului (p. 19-23). E aleasă p. 18, singura copie la rezoluție dublă și color; p. 4 e același desen, mult mai mic. Nordul e spre stânga planșei. Legenda ia legenda simbolurilor (în două casete, ca să ocolească ștampila RUR), rândurile cu POT/CUT maxime din tabelul bilanțului și nota despre locurile de parcare de deasupra cartușului (în două casete, ca să se poată citi la lățimea afișată); lasă deoparte bilanțul teritorial propriu-zis, inventarul de coordonate, profilele stradale și cartușul. Lotul 38-40 desenat la sud de str. Breaza („PROPUNERE PUZ”, S_Is*/Liu*) și zonele „ULiu – perspectivă de dezvoltare pe bază de PUZ/etapa 2” sunt în afara limitei reglementate."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate „Calculul suprafeței” pe planșa A.04 (32 de puncte, 701-732, X (m) Nord / Y (m) Est, Stereo 70, în ordinea limitei, cu lungimile laturilor; S = 5338 mp, egal cu totalul bilanțului teritorial). Vârfurile sunt colțurile liniei roșii întrerupte „Limita amplasament reglementat”, care cuprinde și fâșia de lărgire a str. Breaza. Puncte de control: 701, 712, 714, 719 și 731, colțurile nete ale conturului (cele patru extreme și colțul NE al zonei verzi). Puncte de verificare: 713 (colțul interior dintre strada A și zona verde) și 717 (treapta de 0,6 m de pe latura sudică, văzută ca decalaj între două liniuțe ale limitei). Celelalte vârfuri stau pe laturi aproape drepte (frânturi sub 1°) și nu se văd pe planșă.",
+    "suprafata_declarata_m2": 5338,
+    "puncte": {
+      "701": [
+        589504.2,
+        392101.98
+      ],
+      "702": [
+        589491.858,
+        392101.692
+      ],
+      "703": [
+        589476.952,
+        392101.256
+      ],
+      "704": [
+        589470.562,
+        392101.004
+      ],
+      "705": [
+        589461.01,
+        392100.611
+      ],
+      "706": [
+        589453.108,
+        392100.358
+      ],
+      "707": [
+        589436.109,
+        392100.174
+      ],
+      "708": [
+        589427.532,
+        392100.189
+      ],
+      "709": [
+        589411.479,
+        392100.351
+      ],
+      "710": [
+        589389.562,
+        392100.86
+      ],
+      "711": [
+        589377.442,
+        392101.383
+      ],
+      "712": [
+        589372.463,
+        392101.299
+      ],
+      "713": [
+        589371.947,
+        392082.521
+      ],
+      "714": [
+        589346.869,
+        392082.108
+      ],
+      "715": [
+        589346.921,
+        392081.164
+      ],
+      "716": [
+        589347.001,
+        392080.308
+      ],
+      "717": [
+        589346.396,
+        392080.252
+      ],
+      "718": [
+        589346.53,
+        392071.34
+      ],
+      "719": [
+        589345.297,
+        392059.422
+      ],
+      "720": [
+        589363.316,
+        392062.21
+      ],
+      "721": [
+        589378.922,
+        392063.009
+      ],
+      "722": [
+        589389.396,
+        392063.527
+      ],
+      "723": [
+        589393.898,
+        392063.75
+      ],
+      "724": [
+        589412.611,
+        392063.902
+      ],
+      "725": [
+        589435.115,
+        392063.933
+      ],
+      "726": [
+        589435.102,
+        392063.479
+      ],
+      "727": [
+        589443.956,
+        392063.643
+      ],
+      "728": [
+        589452.097,
+        392063.853
+      ],
+      "729": [
+        589467.662,
+        392064.256
+      ],
+      "730": [
+        589478.578,
+        392064.536
+      ],
+      "731": [
+        589500.223,
+        392065.032
+      ],
+      "732": [
+        589502.84,
+        392085.78
+      ]
+    },
+    "laturi_declarate_m": {
+      "701": 12.35,
+      "702": 14.91,
+      "703": 6.39,
+      "704": 9.56,
+      "705": 7.91,
+      "706": 17.0,
+      "707": 8.58,
+      "708": 16.05,
+      "709": 21.92,
+      "710": 12.13,
+      "711": 4.98,
+      "712": 18.79,
+      "713": 25.08,
+      "714": 0.95,
+      "715": 0.86,
+      "716": 0.61,
+      "717": 8.91,
+      "718": 11.98,
+      "719": 18.23,
+      "720": 15.63,
+      "721": 10.49,
+      "722": 4.51,
+      "723": 18.71,
+      "724": 22.5,
+      "725": 0.45,
+      "726": 8.86,
+      "727": 8.14,
+      "728": 15.57,
+      "729": 10.92,
+      "730": 21.65,
+      "731": 20.91,
+      "732": 16.26
+    }
+  },
+  "gcp_px": {
+    "701": [
+      230,
+      143
+    ],
+    "712": [
+      1216,
+      145
+    ],
+    "714": [
+      1406,
+      290
+    ],
+    "719": [
+      1418,
+      461
+    ],
+    "731": [
+      258,
+      422
+    ]
+  },
+  "verificare_px": {
+    "713": [
+      1219,
+      287
+    ],
+    "717": [
+      1409,
+      305
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      420,
+      790,
+      744,
+      958
+    ],
+    [
+      420,
+      958,
+      776,
+      1106
+    ],
+    [
+      58,
+      818,
+      344,
+      880
+    ],
+    [
+      856,
+      926,
+      1179,
+      945
+    ],
+    [
+      1179,
+      926,
+      1522,
+      945
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe unifamiliale și familiale (cel mult două unități locative pe parcelă) și anexele lor; regim de construire izolat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; max. trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "4 m, (D)+P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-08-04",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Locurile de parcare: planșa notează că prin P.U.Z. se propun maximum 20 de locuri de parcare, amenajate exclusiv pe parcelele de locuințe; hotărârea nu reia plafonul, ci cere parcarea în interiorul parcelei, cu un minim pe locuință (un loc sub 100 mp arie utilă, două peste).",
+    "Înălțimea în Liu*: planșa nu dă înălțimi pentru zona de locuințe; hotărârea (Art. 1) limitează la trei niveluri supraterane, 8 m la cornișă și 12 m la coamă.",
+    "Regularizarea străzilor: bilanțul planșei dă 213,9 mp doar pentru lărgirea str. Breaza; hotărârea vorbește de terenul necesar regularizării str. Breaza (ampriză 9 m) și str. Colonia Breaza (ampriză 12 m), „conform planșei A04”."
+  ],
+  "conditii": [
+    "Strada „A” (ampriză 9 m, acces public nelimitat) se înscrie în CF ca „drum”, se echipează edilitar (apă-canal, electricitate, gaz) și i se face partea carosabilă la strat de uzură, pe baza unui proiect de specialitate, înainte de autorizațiile de construire pe parcelele cu acces din ea; trotuarele și iluminatul stradal se fac până la recepția construcțiilor.",
+    "Terenul pentru regularizarea str. Breaza (ampriză 9 m) și a str. Colonia Breaza (ampriză 12 m), conform planșei A.04, se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcelele cu acces din ele, și se asfaltează până la recepția construcțiilor.",
+    "Zona verde S_Va se dezmembrează, se înscrie în CF ca „spațiu verde cu acces public nelimitat” și se amenajează pe baza unui proiect de specialitate înainte de recepția ultimei construcții, cu vegetație joasă, medie și înaltă: cel puțin 9 arbori cu circumferința de min. 35 cm la 1 m de colet.",
+    "Liu*: parcele de min. 450 mp pentru o locuință unifamilială și de min. 550 mp pentru două unități locative; regim izolat.",
+    "Liu*: retragere de la aliniament min. 3 m și max. 5 m (garajele 6 m, ca să se poată parca o mașină în față; la parcelele de colț min. 3 m față de toate limitele), min. 3 m de limitele laterale (garajele se pot alipi dacă calcanul nu trece de 2,8 m) și min. 6 m de limita posterioară; toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de parcelele de colț și de ediculele provizorii din grădină.",
+    "Liu*: accesul pe parcele din str. Breaza, str. Colonia Breaza și strada „A”; pe parcelă un singur acces pietonal și un singur acces carosabil (max. 3,5 m) pentru fiecare unitate locativă; parcarea în interiorul parcelei: min. un loc pentru locuințe sub 100 mp arie utilă, două peste, și două pentru servicii de proximitate.",
+    "Liu*: racord la rețelele edilitare; apele pluviale nu se conduc spre domeniul public sau spre parcelele vecine; cablurile numai subterane, firidele integrate în împrejmuire; platformă pentru deșeuri accesibilă din spațiul public.",
+    "S_Va: retragere min. 5 m față de aliniament și de limitele laterale și posterioară; parcarea interzisă pe teritoriul zonei verzi."
+  ]
+}

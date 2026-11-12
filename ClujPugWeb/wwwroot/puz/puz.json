@@ -27805,6 +27805,194 @@
   ]
  },
  {
+  "id": "2022-585",
+  "localitate": "cluj",
+  "hcl": "585/2022",
+  "data": "2022-08-04",
+  "titlu": "P.U.Z. de urbanizare, str. Breaza-str. Colonia Breaza – etapa I",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-585-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/08/16/HCL-585.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban – locuințe unifamiliale și familiale (cel mult două unități locative pe parcelă) și anexele lor; regim de construire izolat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; max. trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzonă verde – scuar, grădină, parc cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "4 m, (D)+P"
+   }
+  ],
+  "suprafata_m2": 5338,
+  "imagine": "puz/2022-585/plansa.webp",
+  "bounds": {
+   "west": 23.5842085,
+   "south": 46.7949501,
+   "east": 23.5848485,
+   "north": 46.7964168
+  },
+  "limita": [
+   [
+    23.5847897,
+    46.7964019
+   ],
+   [
+    23.5847888,
+    46.7962908
+   ],
+   [
+    23.5847866,
+    46.7961566
+   ],
+   [
+    23.5847848,
+    46.7960991
+   ],
+   [
+    23.5847819,
+    46.7960131
+   ],
+   [
+    23.5847804,
+    46.795942
+   ],
+   [
+    23.584782,
+    46.7957891
+   ],
+   [
+    23.5847842,
+    46.7957119
+   ],
+   [
+    23.5847901,
+    46.7955676
+   ],
+   [
+    23.5848019,
+    46.7953705
+   ],
+   [
+    23.5848116,
+    46.7952616
+   ],
+   [
+    23.5848116,
+    46.7952168
+   ],
+   [
+    23.5845658,
+    46.7952091
+   ],
+   [
+    23.5845663,
+    46.7949834
+   ],
+   [
+    23.5845539,
+    46.7949838
+   ],
+   [
+    23.5845427,
+    46.7949843
+   ],
+   [
+    23.5845421,
+    46.7949789
+   ],
+   [
+    23.5844253,
+    46.7949787
+   ],
+   [
+    23.5842695,
+    46.7949657
+   ],
+   [
+    23.5843018,
+    46.7951282
+   ],
+   [
+    23.5843086,
+    46.7952687
+   ],
+   [
+    23.5843129,
+    46.795363
+   ],
+   [
+    23.5843148,
+    46.7954035
+   ],
+   [
+    23.5843124,
+    46.7955719
+   ],
+   [
+    23.5843075,
+    46.7957743
+   ],
+   [
+    23.5843016,
+    46.7957741
+   ],
+   [
+    23.5843017,
+    46.7958538
+   ],
+   [
+    23.5843025,
+    46.7959271
+   ],
+   [
+    23.5843041,
+    46.7960671
+   ],
+   [
+    23.5843052,
+    46.7961654
+   ],
+   [
+    23.5843067,
+    46.7963601
+   ],
+   [
+    23.5845778,
+    46.796387
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.06
+  },
+  "legenda": "puz/2022-585/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-08-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Locurile de parcare: planșa notează că prin P.U.Z. se propun maximum 20 de locuri de parcare, amenajate exclusiv pe parcelele de locuințe; hotărârea nu reia plafonul, ci cere parcarea în interiorul parcelei, cu un minim pe locuință (un loc sub 100 mp arie utilă, două peste).",
+   "Înălțimea în Liu*: planșa nu dă înălțimi pentru zona de locuințe; hotărârea (Art. 1) limitează la trei niveluri supraterane, 8 m la cornișă și 12 m la coamă.",
+   "Regularizarea străzilor: bilanțul planșei dă 213,9 mp doar pentru lărgirea str. Breaza; hotărârea vorbește de terenul necesar regularizării str. Breaza (ampriză 9 m) și str. Colonia Breaza (ampriză 12 m), „conform planșei A04”."
+  ],
+  "conditii": [
+   "Strada „A” (ampriză 9 m, acces public nelimitat) se înscrie în CF ca „drum”, se echipează edilitar (apă-canal, electricitate, gaz) și i se face partea carosabilă la strat de uzură, pe baza unui proiect de specialitate, înainte de autorizațiile de construire pe parcelele cu acces din ea; trotuarele și iluminatul stradal se fac până la recepția construcțiilor.",
+   "Terenul pentru regularizarea str. Breaza (ampriză 9 m) și a str. Colonia Breaza (ampriză 12 m), conform planșei A.04, se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pe parcelele cu acces din ele, și se asfaltează până la recepția construcțiilor.",
+   "Zona verde S_Va se dezmembrează, se înscrie în CF ca „spațiu verde cu acces public nelimitat” și se amenajează pe baza unui proiect de specialitate înainte de recepția ultimei construcții, cu vegetație joasă, medie și înaltă: cel puțin 9 arbori cu circumferința de min. 35 cm la 1 m de colet.",
+   "Liu*: parcele de min. 450 mp pentru o locuință unifamilială și de min. 550 mp pentru două unități locative; regim izolat.",
+   "Liu*: retragere de la aliniament min. 3 m și max. 5 m (garajele 6 m, ca să se poată parca o mașină în față; la parcelele de colț min. 3 m față de toate limitele), min. 3 m de limitele laterale (garajele se pot alipi dacă calcanul nu trece de 2,8 m) și min. 6 m de limita posterioară; toate construcțiile stau în fâșia de 25 m de la aliniament, în afară de parcelele de colț și de ediculele provizorii din grădină.",
+   "Liu*: accesul pe parcele din str. Breaza, str. Colonia Breaza și strada „A”; pe parcelă un singur acces pietonal și un singur acces carosabil (max. 3,5 m) pentru fiecare unitate locativă; parcarea în interiorul parcelei: min. un loc pentru locuințe sub 100 mp arie utilă, două peste, și două pentru servicii de proximitate.",
+   "Liu*: racord la rețelele edilitare; apele pluviale nu se conduc spre domeniul public sau spre parcelele vecine; cablurile numai subterane, firidele integrate în împrejmuire; platformă pentru deșeuri accesibilă din spațiul public.",
+   "S_Va: retragere min. 5 m față de aliniament și de limitele laterale și posterioară; parcarea interzisă pe teritoriul zonei verzi."
+  ]
+ },
+ {
   "id": "2022-510",
   "localitate": "cluj",
   "hcl": "510/2022",
