@@ -20819,6 +20819,291 @@
   ]
  },
  {
+  "id": "2024-79",
+  "localitate": "cluj",
+  "hcl": "79/2024",
+  "data": "2024-02-12",
+  "titlu": "P.U.Z. – Dezvoltare ansamblu urban „Science Campus”, str. Tiberiu Popoviciu-sud",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-79-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/02/28/HCL-79.pdf",
+  "utr": [
+   {
+    "cod": "Is_A1",
+    "denumire": "Zonă de instituții și servicii publice și de interes public constituite în ansambluri independente (Science Campus Cluj: cercetare, educație, antreprenoriat): funcțiuni de învățământ și cercetare, cultură, sport, comerț și administrative; regim de construire deschis. Reglementările sunt pentru Etapa 1 (6,67 ha); Etapa 2 (1,83 ha, în sud-vest) e zonă ulterioară de dezvoltare, fără indicatori în hotărâre.",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "44 m față de cota terenului amenajat; regim maxim 4S+Ds+P+7E (se admit subsoluri suplimentare pentru parcare, dacă terenul o permite)"
+   }
+  ],
+  "suprafata_m2": 85033,
+  "imagine": "puz/2024-79/plansa.webp",
+  "bounds": {
+   "west": 23.5764984,
+   "south": 46.8166217,
+   "east": 23.5828688,
+   "north": 46.8203521
+  },
+  "limita": [
+   [
+    23.5777011,
+    46.8180509
+   ],
+   [
+    23.5780422,
+    46.8181146
+   ],
+   [
+    23.5784084,
+    46.8182098
+   ],
+   [
+    23.5785625,
+    46.8182139
+   ],
+   [
+    23.5785245,
+    46.8183067
+   ],
+   [
+    23.5784896,
+    46.8184159
+   ],
+   [
+    23.5784746,
+    46.8185087
+   ],
+   [
+    23.5784683,
+    46.8185891
+   ],
+   [
+    23.578471,
+    46.818698
+   ],
+   [
+    23.5784727,
+    46.8188461
+   ],
+   [
+    23.5784756,
+    46.8188794
+   ],
+   [
+    23.5784803,
+    46.8190606
+   ],
+   [
+    23.5784853,
+    46.819245
+   ],
+   [
+    23.5785321,
+    46.8194974
+   ],
+   [
+    23.5785632,
+    46.8195749
+   ],
+   [
+    23.5786073,
+    46.8196566
+   ],
+   [
+    23.5786637,
+    46.819743
+   ],
+   [
+    23.5787396,
+    46.8198324
+   ],
+   [
+    23.5787878,
+    46.8198799
+   ],
+   [
+    23.5791854,
+    46.8202881
+   ],
+   [
+    23.5793334,
+    46.8202064
+   ],
+   [
+    23.5797331,
+    46.8200197
+   ],
+   [
+    23.5801197,
+    46.8198927
+   ],
+   [
+    23.5805272,
+    46.819807
+   ],
+   [
+    23.5805529,
+    46.8198043
+   ],
+   [
+    23.5807472,
+    46.8197839
+   ],
+   [
+    23.5809599,
+    46.8197616
+   ],
+   [
+    23.5813294,
+    46.8197587
+   ],
+   [
+    23.5816964,
+    46.8197881
+   ],
+   [
+    23.5822291,
+    46.8198918
+   ],
+   [
+    23.5825725,
+    46.8199926
+   ],
+   [
+    23.5825982,
+    46.8199705
+   ],
+   [
+    23.5826545,
+    46.8197699
+   ],
+   [
+    23.5823623,
+    46.8197316
+   ],
+   [
+    23.5823351,
+    46.8193726
+   ],
+   [
+    23.5823281,
+    46.8192603
+   ],
+   [
+    23.5823191,
+    46.819115
+   ],
+   [
+    23.5823088,
+    46.8189477
+   ],
+   [
+    23.5822989,
+    46.8187892
+   ],
+   [
+    23.5822894,
+    46.8186354
+   ],
+   [
+    23.5826928,
+    46.8186202
+   ],
+   [
+    23.5827458,
+    46.8186182
+   ],
+   [
+    23.5823615,
+    46.8184793
+   ],
+   [
+    23.5820557,
+    46.8183688
+   ],
+   [
+    23.5815538,
+    46.8181874
+   ],
+   [
+    23.5812621,
+    46.818082
+   ],
+   [
+    23.5809864,
+    46.8179824
+   ],
+   [
+    23.5807691,
+    46.8179039
+   ],
+   [
+    23.5805447,
+    46.8178228
+   ],
+   [
+    23.5802981,
+    46.8177337
+   ],
+   [
+    23.5799988,
+    46.8176255
+   ],
+   [
+    23.5772974,
+    46.8166492
+   ],
+   [
+    23.576595,
+    46.8175644
+   ],
+   [
+    23.5769774,
+    46.817738
+   ],
+   [
+    23.5771477,
+    46.8177471
+   ],
+   [
+    23.5773502,
+    46.8177911
+   ],
+   [
+    23.5775464,
+    46.8178398
+   ],
+   [
+    23.5777229,
+    46.8178895
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.39
+  },
+  "legenda": "puz/2024-79/legenda.webp",
+  "valabilitate": {
+   "ani": 7,
+   "pana_la": "2031-02-12"
+  },
+  "diferente_fata_de_plansa": [
+   "Codul UTR: Art. 1 și eticheta din desen scriu „Is_A1”; tabelul „Zone funcționale reglementate prin prezentul P.U.Z.” din legendă și situația comparativă scriu „IS_A*”. Indicatorii sunt aceiași.",
+   "Restul se potrivește: P.O.T. 60 %, C.U.T. 2,2 și 4S+Ds+P+7E / 44 m (tabelul din legendă; situația comparativă îi aplică pe cei 66.673 mp ai Etapei 1: 40.003,8 mp construiți, 146.680,6 mp S.C.D.), retragerile minime ale edificabilelor cotate pe planșă (E_1: 21 m sud, 16 m est, 44 m nord; E_2 și E_4: 22 m sud; E_3: 9-18 m vest, 5 m nord) și cele două etape (Etapa 2 hașurată ca „zonă ulterioară de dezvoltare”). Regimurile de înălțime desenate pe clădiri (3S+P+7E, 4S+P+4E, 3S+P+6E, 3S+Ds+P+6E, parter) sunt orientative și sub maxim. Textul adaugă subsolurile suplimentare pentru parcare și normele de parcare pe obiective, care nu sunt pe planșă."
+  ],
+  "conditii": [
+   "Se reglementează 8,5 ha, nr. cad. 317516-317519, 317529-317543, 317549-317605 și parte din 317613-317616, beneficiar Municipiul Cluj-Napoca, pentru un ansamblu urban de cercetare, educație și antreprenoriat (Science Campus Cluj).",
+   "Dezvoltarea se face în etape. Etapa 1, 6,67 ha, pentru două obiective de investiții: Obiectiv 1 – CLAS (Centre for Life, Art and Science – Centru pentru viață, artă și știință), piață urbană și bază sportivă; Obiectiv 2 – campusul Universității Babeș-Bolyai (Facultatea de Matematică și Informatică, centrul de cercetare-dezvoltare-inovare InfoBioNano4Health, cămin studențesc de 500 de locuri). Terenul se poate diviza în două loturi, câte unul pentru fiecare obiectiv.",
+   "Etapa 2, 1,83 ha în partea de sud-vest, nu primește reglementări prin hotărâre; pe planșă e „zonă ulterioară de dezvoltare”, care se va definitiva prin documentații sau studii de specialitate cerute de Primărie la faza de certificat de urbanism.",
+   "Clădirile se înscriu în edificabilele din planșa U.04.01, cu retrageri minime față de limitele terenurilor ce au generat P.U.Z.: edificabilul 1 – 21 m față de limita de sud, 16 m față de cea de est, 44 m față de cea de nord; edificabilul 2 – 22 m față de limita de sud; edificabilul 3 – între 9 și 18 m față de limita de vest și 5 m față de cea de nord; edificabilul 4 – 22 m față de limita de sud. Dacă terenul se dezmembrează pe obiective, clădirile pot sta pe noile limite laterale și posterioare, cu distanțele dintre clădiri raportate la tot ansamblul.",
+   "Accesele carosabile și pietonale se fac din str. Tiberiu Popoviciu.",
+   "Parcarea se face numai în interiorul parcelei (la sol, subsol sau suprateran), dimensionată după Anexa 5 la H.G. 525/1996 și Anexa 2 a P.U.G., cu câte un arbore la fiecare 4 locuri. Locurile de la sol sunt mai ales pentru vizitatori și drop-off/curierat, cele subterane pentru utilizatorii obiectivelor. Norme: CLAS – 1 loc la 50 mp A.U. plus 1 loc la 15 angajați, 1 loc de bicicletă la 50 mp A.U., cel puțin 4 autocare, locuri pentru persoane cu dizabilități și 6 locuri pentru personal; baza sportivă – 1 loc și 1 loc de bicicletă la 250 mp de teren; Facultatea de Matematică și Informatică – 1 loc la 40 mp A.U. și 1 loc de bicicletă la 20 mp A.U.; InfoBioNano4Health – 1 loc și 1 loc de bicicletă la 80 mp A.U.; cămine – 1 loc la 80 mp A.U. și 1 loc de bicicletă la 35 mp A.U. Parcările obiectivelor U.B.B. se tratează integrat, pe cât posibil.",
+   "Toate clădirile se racordează la rețelele edilitare publice.",
+   "Strada adiacentă laturii de vest, care se desprinde din str. Tiberiu Popoviciu, reglementată la ampriza de 16 m (profil 2-2), se echipează edilitar și se aduce la strat de uzură înainte de recepția obiectivelor din zona Is_A1.",
+   "Toate investițiile propuse prin documentație sunt suportate de beneficiarul ei, Municipiul Cluj-Napoca."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",

@@ -1,0 +1,403 @@
+{
+  "id": "2024-79",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 79,
+    "an": 2024,
+    "data_sedinta": "2024-02-12",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-79-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/02/28/HCL-79.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare ansamblu urban „Science Campus”, str. Tiberiu Popoviciu-sud",
+  "plansa": {
+    "pagina_pdf": 40,
+    "dpi": 300,
+    "denumire": "U.04.01 Reglementări urbanistice – Zonificare funcțională",
+    "scara": "1:1000",
+    "nota": "PDF-ul hotărârii are 48 de pagini, scanate la 300 ppi: hotărârea semnată (p. 1-4), planșa de reglementări redusă pe A4, în tonuri de gri, cu ștampila Anexei 1 (p. 5), Anexa 2 – Regulamentul local de urbanism (p. 6-39, cu lista parcelelor pe p. 39), planșa U.04.01 color, în format mare (p. 40), avizul Arhitectului șef nr. 159/2.10.2023 și alte acte ale Primăriei (p. 41-45) și raportul informării și consultării publicului (p. 46-48). S-a folosit p. 40: același desen ca p. 5, dar color și la scară, cu textul lizibil. Cartușul: KXL Studio S.R.L., pr. nr. 25AU/2022, faza P.U.Z., 2022, scara 1:1000, planșa U.04.01 „Reglementări urbanistice – Zonificare funcțională”. Planșa iese la 11,7 px/m (1:1000 la 300 ppi ar da 11,81), practic nord-sus (rotită cu 0,04°). Conturul publicat e „Limita terenurilor ce au generat PUZ” (linia roșie întreruptă, 8,5 ha, cât Art. 1 și bilanțul: 85.034 mp, Etapa 1 66.673 mp + Etapa 2 18.361 mp); „Limita zonei de reglementare” (portocaliu) cuprinde în plus strada adiacentă laturii de vest (ampriză 16 m, profil 2-2) și marginea de sud a str. Tiberiu Popoviciu, care rămân în afara decupajului. Legenda ia cheia simbolurilor (limite, zonificare, circulații, reglementări, propuneri cu caracter orientativ) și cele trei tabele de UTR: zonele P.U.G. din jur (Is_A, U/PUZ Lomb, UEmm/PUZ), L3a1 din P.U.Z. cartier Lomb (HCL 167/2014, modificat prin HCL 464/2014) și IS_A* din prezentul P.U.Z.; au rămas deoparte inventarul de coordonate, bilanțul teritorial, situația comparativă existent-propus, profilurile transversale ale străzilor, încadrarea în localitate, cartușul, ștampilele și semnăturile."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate de pe planșa U.04.01 („Coordonate puncte de contur Stereo 70”: Nr. pct. / X [m] / Y [m] / Lungimi laturi D(i,i+1), X = Nord, Y = Est), 58 de puncte în ordinea conturului, S(1) = 85033 mp, P = 1494,020 m; e „Limita terenurilor ce au generat PUZ” (linia roșie întreruptă), cei 8,5 ha din Art. 1. Numerele punctelor sunt scrise lângă vârfuri pe planșă. Puncte de control: 52 (colțul de sud), 53 (colțul de vest), 1 (colțul din treapta laturii de nord-vest a Etapei 2), 20 (vârful de nord, la str. Tiberiu Popoviciu), 33 (colțul de nord-est) și 40 (colțul de est, unde limita cotește spre est). Puncte de verificare: 34 (colțul de lângă 33), 58 (colțul de lângă 1) și 42 (unde latura 40-41-42 întâlnește latura lungă de sud-est). Pe laturile de sud-vest și sud-est limita e acoperită de banda neagră întreruptă a zonei studiate; punctele roșii vizibile între segmente stau pe mijlocul benzii, așa că s-a luat mijlocul ei. Punctele 5-19 și 21-30 stau pe curbe line, iar 43-51 pe latura dreaptă de sud-est, așa că n-au fost folosite.",
+    "suprafata_declarata_m2": 85033,
+    "puncte": {
+      "1": [
+        591919.871,
+        391604.231
+      ],
+      "2": [
+        591926.478,
+        391630.381
+      ],
+      "3": [
+        591936.554,
+        391658.508
+      ],
+      "4": [
+        591936.805,
+        391670.273
+      ],
+      "5": [
+        591947.169,
+        391667.558
+      ],
+      "6": [
+        591959.357,
+        391665.116
+      ],
+      "7": [
+        591969.69,
+        391664.154
+      ],
+      "8": [
+        591978.629,
+        391663.831
+      ],
+      "9": [
+        591990.733,
+        391664.259
+      ],
+      "10": [
+        592007.188,
+        391664.686
+      ],
+      "11": [
+        592010.881,
+        391664.973
+      ],
+      "12": [
+        592031.017,
+        391665.69
+      ],
+      "13": [
+        592051.503,
+        391666.441
+      ],
+      "14": [
+        592079.49,
+        391670.516
+      ],
+      "15": [
+        592088.06,
+        391673.044
+      ],
+      "16": [
+        592097.082,
+        391676.569
+      ],
+      "17": [
+        592106.6,
+        391681.046
+      ],
+      "18": [
+        592116.428,
+        391687.015
+      ],
+      "19": [
+        592121.642,
+        391690.79
+      ],
+      "20": [
+        592166.467,
+        391721.938
+      ],
+      "21": [
+        592157.185,
+        391733.06
+      ],
+      "22": [
+        592135.884,
+        391763.182
+      ],
+      "23": [
+        592121.24,
+        391792.421
+      ],
+      "24": [
+        592111.164,
+        391823.341
+      ],
+      "25": [
+        592110.83,
+        391825.291
+      ],
+      "26": [
+        592108.294,
+        391840.079
+      ],
+      "27": [
+        592105.52,
+        391856.26
+      ],
+      "28": [
+        592104.691,
+        391884.443
+      ],
+      "29": [
+        592107.456,
+        391912.498
+      ],
+      "30": [
+        592118.254,
+        391953.347
+      ],
+      "31": [
+        592128.988,
+        391979.746
+      ],
+      "32": [
+        592126.502,
+        391981.663
+      ],
+      "33": [
+        592104.128,
+        391985.554
+      ],
+      "34": [
+        592100.267,
+        391963.188
+      ],
+      "35": [
+        592060.406,
+        391960.396
+      ],
+      "36": [
+        592047.938,
+        391959.642
+      ],
+      "37": [
+        592031.808,
+        391958.666
+      ],
+      "38": [
+        592013.226,
+        391957.542
+      ],
+      "39": [
+        591995.628,
+        391956.477
+      ],
+      "40": [
+        591978.543,
+        391955.443
+      ],
+      "41": [
+        591976.303,
+        391986.187
+      ],
+      "42": [
+        591976.008,
+        391990.23
+      ],
+      "43": [
+        591961.095,
+        391960.629
+      ],
+      "44": [
+        591949.235,
+        391937.084
+      ],
+      "45": [
+        591929.763,
+        391898.428
+      ],
+      "46": [
+        591918.449,
+        391875.965
+      ],
+      "47": [
+        591907.755,
+        391854.736
+      ],
+      "48": [
+        591899.324,
+        391837.999
+      ],
+      "49": [
+        591890.617,
+        391820.713
+      ],
+      "50": [
+        591881.054,
+        391801.728
+      ],
+      "51": [
+        591869.442,
+        391778.675
+      ],
+      "52": [
+        591764.645,
+        391570.626
+      ],
+      "53": [
+        591867.324,
+        391518.868
+      ],
+      "54": [
+        591886.089,
+        391548.39
+      ],
+      "55": [
+        591886.862,
+        391561.402
+      ],
+      "56": [
+        591891.482,
+        391576.94
+      ],
+      "57": [
+        591896.618,
+        391592.003
+      ],
+      "58": [
+        591901.9,
+        391605.569
+      ]
+    },
+    "laturi_declarate_m": {
+      "1": 26.972,
+      "2": 29.877,
+      "3": 11.768,
+      "4": 10.714,
+      "5": 12.43,
+      "6": 10.378,
+      "7": 8.945,
+      "8": 12.112,
+      "9": 16.461,
+      "10": 3.704,
+      "11": 20.149,
+      "12": 20.5,
+      "13": 28.282,
+      "14": 8.935,
+      "15": 9.686,
+      "16": 10.518,
+      "17": 11.499,
+      "18": 6.437,
+      "19": 54.585,
+      "20": 14.486,
+      "21": 36.893,
+      "22": 32.701,
+      "23": 32.52,
+      "24": 1.978,
+      "25": 15.004,
+      "26": 16.417,
+      "27": 28.195,
+      "28": 28.191,
+      "29": 42.252,
+      "30": 28.498,
+      "31": 3.139,
+      "32": 22.71,
+      "33": 22.697,
+      "34": 39.959,
+      "35": 12.491,
+      "36": 16.16,
+      "37": 18.616,
+      "38": 17.63,
+      "39": 17.116,
+      "40": 30.825,
+      "41": 4.054,
+      "42": 33.145,
+      "43": 26.363,
+      "44": 43.283,
+      "45": 25.151,
+      "46": 23.77,
+      "47": 18.741,
+      "48": 19.355,
+      "49": 21.257,
+      "50": 25.812,
+      "51": 232.952,
+      "52": 114.986,
+      "53": 34.981,
+      "54": 13.035,
+      "55": 16.21,
+      "56": 15.915,
+      "57": 14.558,
+      "58": 18.021
+    },
+    "perimetru_declarat_m": 1494.02,
+    "nota": "Tabelul se citește clar pe p. 40 (300 ppi). Toate cele 58 de laturi tipărite se potrivesc la 1 cm, perimetrul la fel (1494,020 m), iar aria coordonatelor, 85032,7 mp, cu S = 85033 mp."
+  },
+  "gcp_px": {
+    "52": [
+      3895,
+      8968
+    ],
+    "53": [
+      3282,
+      7779
+    ],
+    "1": [
+      4293,
+      7160
+    ],
+    "20": [
+      5660,
+      4302
+    ],
+    "33": [
+      8746,
+      5021
+    ],
+    "40": [
+      8399,
+      6483
+    ]
+  },
+  "verificare_px": {
+    "34": [
+      8484,
+      5062
+    ],
+    "58": [
+      4305,
+      7376
+    ],
+    "42": [
+      8796,
+      6508
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      9750,
+      595,
+      11885,
+      6200
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Is_A1",
+      "denumire": "Zonă de instituții și servicii publice și de interes public constituite în ansambluri independente (Science Campus Cluj: cercetare, educație, antreprenoriat): funcțiuni de învățământ și cercetare, cultură, sport, comerț și administrative; regim de construire deschis. Reglementările sunt pentru Etapa 1 (6,67 ha); Etapa 2 (1,83 ha, în sud-vest) e zonă ulterioară de dezvoltare, fără indicatori în hotărâre.",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "44 m față de cota terenului amenajat; regim maxim 4S+Ds+P+7E (se admit subsoluri suplimentare pentru parcare, dacă terenul o permite)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 7,
+    "pana_la": "2031-02-12"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Codul UTR: Art. 1 și eticheta din desen scriu „Is_A1”; tabelul „Zone funcționale reglementate prin prezentul P.U.Z.” din legendă și situația comparativă scriu „IS_A*”. Indicatorii sunt aceiași.",
+    "Restul se potrivește: P.O.T. 60 %, C.U.T. 2,2 și 4S+Ds+P+7E / 44 m (tabelul din legendă; situația comparativă îi aplică pe cei 66.673 mp ai Etapei 1: 40.003,8 mp construiți, 146.680,6 mp S.C.D.), retragerile minime ale edificabilelor cotate pe planșă (E_1: 21 m sud, 16 m est, 44 m nord; E_2 și E_4: 22 m sud; E_3: 9-18 m vest, 5 m nord) și cele două etape (Etapa 2 hașurată ca „zonă ulterioară de dezvoltare”). Regimurile de înălțime desenate pe clădiri (3S+P+7E, 4S+P+4E, 3S+P+6E, 3S+Ds+P+6E, parter) sunt orientative și sub maxim. Textul adaugă subsolurile suplimentare pentru parcare și normele de parcare pe obiective, care nu sunt pe planșă."
+  ],
+  "conditii": [
+    "Se reglementează 8,5 ha, nr. cad. 317516-317519, 317529-317543, 317549-317605 și parte din 317613-317616, beneficiar Municipiul Cluj-Napoca, pentru un ansamblu urban de cercetare, educație și antreprenoriat (Science Campus Cluj).",
+    "Dezvoltarea se face în etape. Etapa 1, 6,67 ha, pentru două obiective de investiții: Obiectiv 1 – CLAS (Centre for Life, Art and Science – Centru pentru viață, artă și știință), piață urbană și bază sportivă; Obiectiv 2 – campusul Universității Babeș-Bolyai (Facultatea de Matematică și Informatică, centrul de cercetare-dezvoltare-inovare InfoBioNano4Health, cămin studențesc de 500 de locuri). Terenul se poate diviza în două loturi, câte unul pentru fiecare obiectiv.",
+    "Etapa 2, 1,83 ha în partea de sud-vest, nu primește reglementări prin hotărâre; pe planșă e „zonă ulterioară de dezvoltare”, care se va definitiva prin documentații sau studii de specialitate cerute de Primărie la faza de certificat de urbanism.",
+    "Clădirile se înscriu în edificabilele din planșa U.04.01, cu retrageri minime față de limitele terenurilor ce au generat P.U.Z.: edificabilul 1 – 21 m față de limita de sud, 16 m față de cea de est, 44 m față de cea de nord; edificabilul 2 – 22 m față de limita de sud; edificabilul 3 – între 9 și 18 m față de limita de vest și 5 m față de cea de nord; edificabilul 4 – 22 m față de limita de sud. Dacă terenul se dezmembrează pe obiective, clădirile pot sta pe noile limite laterale și posterioare, cu distanțele dintre clădiri raportate la tot ansamblul.",
+    "Accesele carosabile și pietonale se fac din str. Tiberiu Popoviciu.",
+    "Parcarea se face numai în interiorul parcelei (la sol, subsol sau suprateran), dimensionată după Anexa 5 la H.G. 525/1996 și Anexa 2 a P.U.G., cu câte un arbore la fiecare 4 locuri. Locurile de la sol sunt mai ales pentru vizitatori și drop-off/curierat, cele subterane pentru utilizatorii obiectivelor. Norme: CLAS – 1 loc la 50 mp A.U. plus 1 loc la 15 angajați, 1 loc de bicicletă la 50 mp A.U., cel puțin 4 autocare, locuri pentru persoane cu dizabilități și 6 locuri pentru personal; baza sportivă – 1 loc și 1 loc de bicicletă la 250 mp de teren; Facultatea de Matematică și Informatică – 1 loc la 40 mp A.U. și 1 loc de bicicletă la 20 mp A.U.; InfoBioNano4Health – 1 loc și 1 loc de bicicletă la 80 mp A.U.; cămine – 1 loc la 80 mp A.U. și 1 loc de bicicletă la 35 mp A.U. Parcările obiectivelor U.B.B. se tratează integrat, pe cât posibil.",
+    "Toate clădirile se racordează la rețelele edilitare publice.",
+    "Strada adiacentă laturii de vest, care se desprinde din str. Tiberiu Popoviciu, reglementată la ampriza de 16 m (profil 2-2), se echipează edilitar și se aduce la strat de uzură înainte de recepția obiectivelor din zona Is_A1.",
+    "Toate investițiile propuse prin documentație sunt suportate de beneficiarul ei, Municipiul Cluj-Napoca."
+  ]
+}
