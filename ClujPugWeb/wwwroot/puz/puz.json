@@ -23681,6 +23681,210 @@
   ]
  },
  {
+  "id": "2023-180",
+  "localitate": "cluj",
+  "hcl": "180/2023",
+  "data": "2023-04-04",
+  "titlu": "P.U.Z. de parcelare și construire locuințe cu regim redus de înălțime, str. Vânătorului nr. 39B-str. Rahovei nr. 38-40",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-180-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/05/23/HCL-180.pdf",
+  "utr": [
+   {
+    "cod": "Liu_*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban, accesibile din strada Vânătorului: locuințe individuale (unifamiliale), locuințe semicolective (maximum două unități locative pe parcelă, suprapuse sau alipite) și anexele lor (garaje, spații tehnice, filigorii, platforme, piscine, spații de agrement/sport); regim de construire deschis sau cuplat. Terenul se împarte în patru parcele de locuit și o alee de utilitate privată (parcela 5).",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m, 8 m la cornișă; trei niveluri supraterane, maximum (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 4577,
+  "imagine": "puz/2023-180/plansa.webp",
+  "bounds": {
+   "west": 23.5687918,
+   "south": 46.7761247,
+   "east": 23.5698796,
+   "north": 46.7774597
+  },
+  "limita": [
+   [
+    23.5693442,
+    46.7771173
+   ],
+   [
+    23.5693309,
+    46.7771423
+   ],
+   [
+    23.5692592,
+    46.7772418
+   ],
+   [
+    23.5691661,
+    46.7773367
+   ],
+   [
+    23.5690693,
+    46.7774301
+   ],
+   [
+    23.5690424,
+    46.7774138
+   ],
+   [
+    23.5689863,
+    46.777378
+   ],
+   [
+    23.5688894,
+    46.7773183
+   ],
+   [
+    23.5688202,
+    46.777245
+   ],
+   [
+    23.5688547,
+    46.7772045
+   ],
+   [
+    23.5689362,
+    46.7771171
+   ],
+   [
+    23.568961,
+    46.7770833
+   ],
+   [
+    23.5690092,
+    46.7770285
+   ],
+   [
+    23.5690558,
+    46.7769542
+   ],
+   [
+    23.5690741,
+    46.7769229
+   ],
+   [
+    23.5691226,
+    46.7768345
+   ],
+   [
+    23.5691748,
+    46.7767299
+   ],
+   [
+    23.5692089,
+    46.7766632
+   ],
+   [
+    23.5692596,
+    46.7765566
+   ],
+   [
+    23.5692916,
+    46.7764835
+   ],
+   [
+    23.5693662,
+    46.776344
+   ],
+   [
+    23.5694074,
+    46.7762838
+   ],
+   [
+    23.5694611,
+    46.776211
+   ],
+   [
+    23.5694817,
+    46.7761788
+   ],
+   [
+    23.569501,
+    46.776151
+   ],
+   [
+    23.5697573,
+    46.7762315
+   ],
+   [
+    23.5697544,
+    46.7762373
+   ],
+   [
+    23.5697229,
+    46.7762964
+   ],
+   [
+    23.569852,
+    46.7763413
+   ],
+   [
+    23.5698341,
+    46.7764026
+   ],
+   [
+    23.5698058,
+    46.7764789
+   ],
+   [
+    23.5697201,
+    46.7766956
+   ],
+   [
+    23.5696695,
+    46.7768036
+   ],
+   [
+    23.569566,
+    46.7770201
+   ],
+   [
+    23.5694122,
+    46.7769861
+   ],
+   [
+    23.5694088,
+    46.7769936
+   ],
+   [
+    23.5694051,
+    46.7769928
+   ],
+   [
+    23.5693744,
+    46.7770603
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.13
+  },
+  "legenda": "puz/2023-180/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-04-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea (Art. 1): hotărârea admite trei niveluri supraterane, maximum (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, H maxim 12 m și 8 m la cornișă; planșa A.03 nu tipărește înălțimi pentru construcțiile propuse (regimurile de pe desen, D+P+2E, D+P+M, D+P+1E, sunt ale clădirilor vecine existente).",
+   "Aleea (Art. 1): hotărârea tratează parcela 5 ca alee de utilitate privată, înscrisă în CF cu titlul de „drum”; tabelul parcelelor de pe planșa A.09 – Plan parcelar (Anexa 3) îi dă totuși o suprafață construită de circa 80 mp (P.O.T. 18,70%, C.U.T. 0,42). Indicatorii propuși acolo pentru parcelele de locuit (P.O.T. 17,10-28,20%, C.U.T. 0,65-0,85) sunt sub maximele din hotărâre."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcelele (1) și (2): terenul necesar lărgirii străzii Vânătorului la ampriza de 9 m (34 mp) se dezmembrează din parcela inițială și se înscrie în CF cu titlul de „drum”; până la recepția construcțiilor se aduce la strat de uzură.",
+   "Înainte de autorizațiile de construire pe parcelele (3) și (4): aleea de utilitate privată (parcela 5) se înscrie în CF cu titlul de „drum”, se echipează edilitar și se realizează din piatră spartă cilindrată; până la recepția construcțiilor de pe aceste parcele se aduce la strat de uzură (dalaj/asfalt).",
+   "Parcela vecină cu nr. cad. 337517 primește acces auto și pietonal din strada Vânătorului prin aleea de utilitate privată (parcela 5).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+   "Accese: parcelele (1) și (2) din strada Vânătorului, regularizată la profilul de 9 m; parcelele (3) și (4) din aleea de utilitate privată (parcela 5). Parcarea se face în interiorul parcelei: minimum un loc pentru clădirile cu arie utilă sub 100 mp și două locuri pentru cele de 100 mp sau mai mult.",
+   "Retrageri: față de aliniament minimum 6 m pentru parcelele (1) și (2), garajele tot la minimum 6 m, ca să se poată parca un autoturism în față; parcelele (3) și (4) nu au front la stradă și se pot construi lângă alee. Lateral: parcela 1 pe limita estică și pe cea vestică sau la minimum 3 m de ea; parcela 2 la minimum 3 m de limita estică și pe limita vestică; parcela 3 la minimum 3 m de limita estică, iar spre vest pe limită sau mai aproape de 3 m; parcela 4 la minimum 3 m de limita vestică, iar spre est pe limită sau mai aproape de 3 m. Garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m. Față de limita posterioară: cel puțin înălțimea clădirii, minimum 6 m.",
+   "Între două clădiri de pe aceeași parcelă: cel puțin înălțimea celei mai înalte la cornișă sau atic, minimum 3 m; minimum 6 m dacă încăperile principale (camere de zi, dormitoare) dau spre spațiul dintre ele.",
+   "Toate utilitățile se asigură prin racordare la rețelele publice."
+  ]
+ },
+ {
   "id": "2023-75",
   "localitate": "cluj",
   "hcl": "75/2023",

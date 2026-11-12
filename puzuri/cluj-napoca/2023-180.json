@@ -1,0 +1,269 @@
+{
+  "id": "2023-180",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 180,
+    "an": 2023,
+    "data_sedinta": "2023-04-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-180-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/05/23/HCL-180.pdf"
+  },
+  "titlu": "P.U.Z. de parcelare și construire locuințe cu regim redus de înălțime, str. Vânătorului nr. 39B-str. Rahovei nr. 38-40",
+  "plansa": {
+    "pagina_pdf": 17,
+    "dpi": 300,
+    "denumire": "Plan reglementări urbanistice – zonificare (planșa A.03)",
+    "scara": "1:500",
+    "nota": "Aceeași planșă A.03 apare și la p. 9 (Anexa 2, cu ștampila Consiliului Local), redusă pe A4 și așezată în lateral; p. 17 e copia A3 color a aceluiași desen (mai 2020, cu viza „HCL nr. 180 din 4 aprilie 2023”), mai clară. P. 10 (Anexa 3) și p. 18 sunt planșa A.09 – Plan parcelar."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate de pe planșa A.03 (38 de puncte, 1-38, în ordinea limitei), Nord(x) / Est(Y), Stereo 70. Punctele de control sunt colțuri ale limitei, luate pe mijlocul liniei groase; punctele de verificare sunt marcajele vârfurilor 4, 8, 14, 31 și 32.",
+    "suprafata_declarata_m2": 4577,
+    "puncte": {
+      "1": [
+        587382.225,
+        390884.385
+      ],
+      "2": [
+        587385.03,
+        390883.42
+      ],
+      "3": [
+        587396.18,
+        390878.15
+      ],
+      "4": [
+        587406.86,
+        390871.23
+      ],
+      "5": [
+        587417.372,
+        390864.024
+      ],
+      "6": [
+        587415.601,
+        390861.944
+      ],
+      "7": [
+        587411.7,
+        390857.588
+      ],
+      "8": [
+        587405.2,
+        390850.068
+      ],
+      "9": [
+        587397.15,
+        390844.634
+      ],
+      "10": [
+        587392.593,
+        390847.19
+      ],
+      "11": [
+        587382.776,
+        390853.236
+      ],
+      "12": [
+        587378.976,
+        390855.061
+      ],
+      "13": [
+        587372.82,
+        390858.63
+      ],
+      "14": [
+        587364.498,
+        390862.04
+      ],
+      "15": [
+        587360.993,
+        390863.377
+      ],
+      "16": [
+        587351.107,
+        390866.9
+      ],
+      "17": [
+        587339.411,
+        390870.674
+      ],
+      "18": [
+        587331.946,
+        390873.145
+      ],
+      "19": [
+        587320.035,
+        390876.8
+      ],
+      "20": [
+        587311.863,
+        390879.1
+      ],
+      "21": [
+        587296.259,
+        390884.514
+      ],
+      "22": [
+        587289.514,
+        390887.537
+      ],
+      "23": [
+        587281.347,
+        390891.49
+      ],
+      "24": [
+        587277.743,
+        390892.996
+      ],
+      "25": [
+        587274.626,
+        390894.421
+      ],
+      "26": [
+        587283.219,
+        390914.145
+      ],
+      "27": [
+        587283.87,
+        390913.94
+      ],
+      "28": [
+        587290.475,
+        390911.649
+      ],
+      "29": [
+        587295.284,
+        390921.598
+      ],
+      "30": [
+        587302.122,
+        390920.356
+      ],
+      "31": [
+        587310.642,
+        390918.349
+      ],
+      "32": [
+        587334.841,
+        390912.238
+      ],
+      "33": [
+        587346.921,
+        390908.593
+      ],
+      "34": [
+        587371.121,
+        390901.127
+      ],
+      "35": [
+        587367.56,
+        390889.313
+      ],
+      "36": [
+        587368.393,
+        390889.071
+      ],
+      "37": [
+        587368.31,
+        390888.788
+      ],
+      "38": [
+        587375.85,
+        390886.58
+      ]
+    },
+    "nota": "Rândul 7 al tabelului e tipărit „1” (greșeală de tipar: poziția în tabel și pe desen îl arată drept punctul 7). La punctele 37 și 38 cifra unităților de la Est e acoperită de o ștampilă în toate cele patru copii ale tabelului (p. 9, 10, 17, 18); citite 390888,788 și 390886,580: cu ele suprafața din coordonate e 4577,18 mp, exact cea tipărită (S=4577 mp), iar punctul 38 cade în aliniamentul 37-1 (la 0,2 m). Variantele 390889,788 / 390888,580 ar da 4580,9-4594,8 mp și ar scoate punctul 38 cu circa 2 m din aliniament. Tabelul nu tipărește laturi. Limita cuprinde și fâșia de 34 mp de la str. Vânătorului (punctele 5-9), care se dezmembrează pentru lărgirea străzii."
+  },
+  "gcp_px": {
+    "9": [
+      4059,
+      665
+    ],
+    "25": [
+      1187,
+      1853
+    ],
+    "5": [
+      4536,
+      1123
+    ],
+    "29": [
+      1665,
+      2495
+    ],
+    "34": [
+      3446,
+      2004
+    ],
+    "28": [
+      1551,
+      2266
+    ]
+  },
+  "verificare_px": {
+    "8": [
+      4249,
+      794
+    ],
+    "4": [
+      4287,
+      1296
+    ],
+    "14": [
+      3293,
+      1076
+    ],
+    "32": [
+      2596,
+      2274
+    ],
+    "31": [
+      2029,
+      2423
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      258,
+      175,
+      1132,
+      940
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu_*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban, accesibile din strada Vânătorului: locuințe individuale (unifamiliale), locuințe semicolective (maximum două unități locative pe parcelă, suprapuse sau alipite) și anexele lor (garaje, spații tehnice, filigorii, platforme, piscine, spații de agrement/sport); regim de construire deschis sau cuplat. Terenul se împarte în patru parcele de locuit și o alee de utilitate privată (parcela 5).",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m, 8 m la cornișă; trei niveluri supraterane, maximum (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-04-04"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea (Art. 1): hotărârea admite trei niveluri supraterane, maximum (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, H maxim 12 m și 8 m la cornișă; planșa A.03 nu tipărește înălțimi pentru construcțiile propuse (regimurile de pe desen, D+P+2E, D+P+M, D+P+1E, sunt ale clădirilor vecine existente).",
+    "Aleea (Art. 1): hotărârea tratează parcela 5 ca alee de utilitate privată, înscrisă în CF cu titlul de „drum”; tabelul parcelelor de pe planșa A.09 – Plan parcelar (Anexa 3) îi dă totuși o suprafață construită de circa 80 mp (P.O.T. 18,70%, C.U.T. 0,42). Indicatorii propuși acolo pentru parcelele de locuit (P.O.T. 17,10-28,20%, C.U.T. 0,65-0,85) sunt sub maximele din hotărâre."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcelele (1) și (2): terenul necesar lărgirii străzii Vânătorului la ampriza de 9 m (34 mp) se dezmembrează din parcela inițială și se înscrie în CF cu titlul de „drum”; până la recepția construcțiilor se aduce la strat de uzură.",
+    "Înainte de autorizațiile de construire pe parcelele (3) și (4): aleea de utilitate privată (parcela 5) se înscrie în CF cu titlul de „drum”, se echipează edilitar și se realizează din piatră spartă cilindrată; până la recepția construcțiilor de pe aceste parcele se aduce la strat de uzură (dalaj/asfalt).",
+    "Parcela vecină cu nr. cad. 337517 primește acces auto și pietonal din strada Vânătorului prin aleea de utilitate privată (parcela 5).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+    "Accese: parcelele (1) și (2) din strada Vânătorului, regularizată la profilul de 9 m; parcelele (3) și (4) din aleea de utilitate privată (parcela 5). Parcarea se face în interiorul parcelei: minimum un loc pentru clădirile cu arie utilă sub 100 mp și două locuri pentru cele de 100 mp sau mai mult.",
+    "Retrageri: față de aliniament minimum 6 m pentru parcelele (1) și (2), garajele tot la minimum 6 m, ca să se poată parca un autoturism în față; parcelele (3) și (4) nu au front la stradă și se pot construi lângă alee. Lateral: parcela 1 pe limita estică și pe cea vestică sau la minimum 3 m de ea; parcela 2 la minimum 3 m de limita estică și pe limita vestică; parcela 3 la minimum 3 m de limita estică, iar spre vest pe limită sau mai aproape de 3 m; parcela 4 la minimum 3 m de limita vestică, iar spre est pe limită sau mai aproape de 3 m. Garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m. Față de limita posterioară: cel puțin înălțimea clădirii, minimum 6 m.",
+    "Între două clădiri de pe aceeași parcelă: cel puțin înălțimea celei mai înalte la cornișă sau atic, minimum 3 m; minimum 6 m dacă încăperile principale (camere de zi, dormitoare) dau spre spațiul dintre ele.",
+    "Toate utilitățile se asigură prin racordare la rețelele publice."
+  ]
+}
