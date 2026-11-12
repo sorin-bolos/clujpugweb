@@ -19879,6 +19879,113 @@
   ]
  },
  {
+  "id": "2024-513",
+  "localitate": "cluj",
+  "hcl": "513/2024",
+  "data": "2024-06-25",
+  "titlu": "P.U.Z. – Instituire subzonă de activități economice cu caracter terțiar în zonă cu caracter rezidențial, str. Sarmisegetuza nr. 11-13 și nr. 12, de modificare a P.U.Z. aprobat prin Hotărârea nr. 406/2020",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-513-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/07/03/HCL-513.pdf",
+  "utr": [
+   {
+    "cod": "S_Et",
+    "denumire": "Subzonă de activități economice cu caracter terțiar situată în zonă cu caracter rezidențial: birouri, servicii financiar-bancare, comerț cu A.D.C. de cel mult 1000 mp, alimentație publică, servicii cu acces public, servicii profesionale și manufacturiere, cazare turistică, cercetare științifică, funcțiuni culturale, garaje, parcări etajate mecanizate; regim de construire deschis. Pe nr. cad. 340137 (nr. 11-13) clădirea propusă, pe nr. cad. 297494 (nr. 12) parcarea ei etajată mecanizată",
+    "pot_max": "40%",
+    "cut_max": "1,8",
+    "h_max": "trei niveluri supraterane ((1-2S)+P+2E, (1-2S)+P+E+M/R sau (S)+D+P+E), max. 12 m în punctul cel mai înalt"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde (partea de sud a nr. cad. 340137, spre Lacul Gheorgheni): se mențin prevederile P.U.G.; amenajarea se poate face pe baza unei documentații tehnice, fără P.U.D."
+   }
+  ],
+  "suprafata_m2": 1339,
+  "imagine": "puz/2024-513/plansa.webp",
+  "bounds": {
+   "west": 23.6228275,
+   "south": 46.774465,
+   "east": 23.6234088,
+   "north": 46.7750825
+  },
+  "limita": [
+   [
+    23.6231973,
+    46.7750548
+   ],
+   [
+    23.6232357,
+    46.7750601
+   ],
+   [
+    23.6232742,
+    46.7750654
+   ],
+   [
+    23.6233182,
+    46.7749184
+   ],
+   [
+    23.623295,
+    46.7749061
+   ],
+   [
+    23.6233834,
+    46.7745675
+   ],
+   [
+    23.6233207,
+    46.7745435
+   ],
+   [
+    23.6231827,
+    46.7745195
+   ],
+   [
+    23.6229466,
+    46.7744827
+   ],
+   [
+    23.6228863,
+    46.7746578
+   ],
+   [
+    23.6228583,
+    46.77474
+   ],
+   [
+    23.6232458,
+    46.7748926
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.16
+  },
+  "legenda": "puz/2024-513/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-06-25"
+  },
+  "diferente_fata_de_plansa": [
+   "Bilanțul teritorial al planșei socotește 1728 mp (propus: UTR S_Et* 1391 mp și UTR Ve 337 mp), adică și aleea de acces nr. cad. 311875 (296 mp), inclusă în UTR S_Et*; Art. 1 aprobă P.U.Z. pentru 1.432 mp, numai parcelele nr. cad. 340137 și 297494, iar aleea apare doar ca acces pietonal.",
+   "Planșa numește subzona „UTR S_Et*”; Art. 1 o numește U.T.R. S_Et.",
+   "Inventarul planșei pentru nr. cad. 340137 cuprinde și fâșia de ~100 mp de pe malul lacului cedată domeniului public (nr. cad. 340138), deși suprafața scrisă (1231 mp) și Art. 1 o lasă afară."
+  ],
+  "conditii": [
+   "Pe nr. cad. 340137 (str. Sarmisegetuza nr. 11-13): retrageri de cel puțin 4,5 m față de limitele de proprietate nordică, estică și vestică și de cel puțin 9,1 m față de limita sudică.",
+   "Pe nr. cad. 297494 (str. Sarmisegetuza nr. 12): clădirea existentă se desființează, pentru o parcare etajată mecanizată; retrageri de cel puțin 1 m față de limita vestică, 0,5 m față de limita nordică și 5 m față de limita estică.",
+   "Accese: pe nr. cad. 340137 numai pietonal, de pe latura sudică din domeniul public (nr. cad. 340138) și din str. Sarmisegetuza peste nr. cad. 311875 (aleea); pe nr. cad. 297494 acces auto și pietonal direct din str. Sarmisegetuza.",
+   "Parcare: în interiorul parcelei și/sau pe o rază de 200 m de limitele de proprietate, cu necesarul după Anexa 2 a Regulamentului P.U.G.; locurile clădirii de pe nr. cad. 340137 se fac pe nr. cad. 297494, în sistem de parcare mecanizat.",
+   "Pentru partea din nr. cad. 340137 încadrată în UTR Ve se mențin prevederile P.U.G.; amenajarea ei se poate face pe baza unei documentații tehnice, fără P.U.D.",
+   "La faza D.T.A.C., documentația se avizează în Comisia de estetică urbană.",
+   "Toate investițiile propuse prin documentație sunt suportate de beneficiară."
+  ],
+  "modifica": [
+   "406/2020"
+  ]
+ },
+ {
   "id": "2024-191",
   "localitate": "cluj",
   "hcl": "191/2024",
