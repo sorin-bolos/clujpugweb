@@ -1,0 +1,181 @@
+{
+  "id": "2020-631",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 631,
+    "an": 2020,
+    "data_sedinta": "2020-08-20",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-631-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/08/20/HCL-631ANEXE.pdf"
+  },
+  "titlu": "P.U.Z. de parcelare și dezvoltare zonă cu funcțiuni mixte, Bulevardul Muncii nr. 191-195",
+  "plansa": {
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/08/20/HCL-plan-vizatavizerap.-informaarii-populatiei.pdf",
+    "pagina_pdf": 7,
+    "dpi": 200,
+    "denumire": "U/P.U.Z./03 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "Planșa de reglementări nu e în PDF-ul hotărârii în forma cea mai bună: HCL-631ANEXE.pdf are la p. 3 Anexa 1 micșorată pe A4, culcată, aproape alb-negru (3508×2480 px). Al doilea PDF de pe pagina hotărârii (HCL-plan-vizatavizerap.-informaarii-populatiei.pdf: avizul arhitectului șef, avizul de oportunitate, raportul informării publicului și planul vizat) are la p. 7 aceeași planșă U/P.U.Z./03, color, 4682×3318 px la 200 ppi, cu ștampila Comisiei tehnice de amenajare a teritoriului și urbanism „VIZAT”, aviz nr. 97 din 8.04.2020, și mențiunea de mână „HCL nr. 631 din 20.08.2020” – aleasă. Cartușul: data 01.2019, sc. 1:500, nr. proiect 05/2018, format scris 420×297 mm (scanarea dă de fapt 1:500 la 200 ppi, ~15,9 px/m, pe verticală cu ~1% mai mult decât pe orizontală). Legenda: cheia simbolurilor (limite, zonificare existentă, obiective propuse), indicatorii parcelelor 1 și 3 (M3_B), ai parcelei 4 (drum) și ai S_Va_B, circulațiile și retragerile/alinierile pe parcele; s-au lăsat afară rândul „Indici”, bilanțul teritorial, necesarul de parcaje, profilurile stradale și cartușul. Pe loturi nu e scris niciun nume (nu s-a acoperit nimic); numele vecinilor scrise pe planșă și numele beneficiarei din cartuș rămân în afara suprafeței decupate. Eticheta parcelei 3 de pe desen dă 2197 mp, ca bilanțul (parcela 1 2030 mp, parcela 2 591 mp, parcela 4 686,70 mp, fâșiile pentru str. Ciucea și trotuar 143,15 mp, total 5648 mp)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabel de coordonate pe planșa U/P.U.Z./03 (X Nord / Y Est, Stereo 70, cu lungimile laturilor), punctele 201, 202, 211, 212, 213, 214, 206-210, S=5.648 mp (nr. cad. 326873); numerotarea nu urmează conturul, de aceea `ordine`. Limita e linia roșie groasă („limita de proprietate studiată”). Cotele negre ale laturilor (28,53 și 17,45 la nord, 64,99+11,44 și 45,62 la est, 122,32 la vest, 35,00 la sud) sunt trase paralel cu limita, decalate cu ~0,7 m: capetele lor dau poziția vârfurilor de-a lungul laturii, iar linia roșie poziția perpendiculară. Puncte de control: colțurile 201 (NV), 211 (NE), 213 (SE), 210 (SV) și frângerea 202 de pe latura nordică, la mijlocul liniei roșii, cu capetele cotelor; verificare: 212, frângerea de pe latura estică (capătul cotei 11,44/45,62 și linia roșie). Punctele 214, 206, 207, 208 și 209 stau pe o linie dreaptă de-a lungul Bd. Muncii (sau la 1,1 m de colțul 213) și nu pot fi citite separat.",
+    "suprafata_declarata_m2": 5648,
+    "puncte": {
+      "201": [
+        589524.905,
+        395553.419
+      ],
+      "202": [
+        589524.327,
+        395581.944
+      ],
+      "211": [
+        589527.26,
+        395599.149
+      ],
+      "212": [
+        589450.83,
+        395599.7
+      ],
+      "213": [
+        589405.217,
+        395598.921
+      ],
+      "214": [
+        589405.261,
+        395597.815
+      ],
+      "206": [
+        589404.248,
+        395580.412
+      ],
+      "207": [
+        589403.601,
+        395569.29
+      ],
+      "208": [
+        589403.177,
+        395562.01
+      ],
+      "209": [
+        589403.039,
+        395559.64
+      ],
+      "210": [
+        589402.597,
+        395552.041
+      ]
+    },
+    "ordine": [
+      "201",
+      "202",
+      "211",
+      "212",
+      "213",
+      "214",
+      "206",
+      "207",
+      "208",
+      "209",
+      "210"
+    ],
+    "laturi_declarate_m": {
+      "201": 28.53,
+      "202": 17.45,
+      "211": 76.43,
+      "212": 45.62,
+      "213": 1.11,
+      "214": 17.43,
+      "206": 11.14,
+      "207": 7.29,
+      "208": 2.37,
+      "209": 7.61,
+      "210": 122.32
+    }
+  },
+  "gcp_px": {
+    "201": [
+      1092,
+      485
+    ],
+    "202": [
+      1546,
+      494
+    ],
+    "211": [
+      1817,
+      450
+    ],
+    "213": [
+      1813,
+      2396
+    ],
+    "210": [
+      1068,
+      2435
+    ]
+  },
+  "verificare_px": {
+    "212": [
+      1825,
+      1668
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3172,
+      72,
+      4420,
+      1572
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M3_B",
+      "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic (parcelele 1 și 3): locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, terțiare, culturale, de învățământ, sănătate, turism; construcții izolate; retragere de la aliniament minim 5 m față de Bd. Muncii și minim 6 m față de str. Ciucea regularizată la 12 m; parcela 1: minim 11 m de limita nordică, 10,5 m de cea vestică, 6 m de cea estică; parcela 3: minim 10,5 m de limita vestică, 11 m de cea estică, 5 m de cea sudică (balcoanele pot depăși alinierile și retragerile cu cel mult 1,5 m); acces din Bd. Muncii pe un drum de interes local înfundat cu ampriza de 12 m (parcela 4); parcarea în interiorul parcelei",
+      "pot_max": "40%",
+      "cut_max": "2",
+      "h_max": "(1-3)S+P+5E+R; 22 m la cornișă, 25 m în total"
+    },
+    {
+      "cod": "Va_B (S_Va_B pe planșă)",
+      "denumire": "Scuaruri, grădini, parcuri cu acces public nelimitat (parcela 2): spații verzi, alei și platforme pentru pietoni și bicicliști, mobilier urban, amenajări pentru joacă, odihnă, sport, activități culturale și de alimentație publică în aer liber; construcții izolate, retrase cel puțin 5 m de la aliniament și de la limitele laterale și posterioară; acces din aleea interioară",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "parter; 3 m la cornișă"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-08-20",
+    "verificat": "2026-11-12: Art. 2, cinci ani (ședința din 20.08.2020); prelungită cu 2 ani prin HCL 467/2025 (7.07.2025), adoptată înainte de expirare, până la 20.08.2027. `related` (index actualizat 2026-11-08): o prelungire, nicio modificare."
+  },
+  "prelungiri": [
+    {
+      "hcl": "467/2025",
+      "pana_la": "2027-08-20",
+      "nota": "HCL 467 din 7 iulie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 2 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (20.08.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 7.07.2027)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "M3_B, regimul de înălțime: legenda planșei dă 2S+P+5E+ER, cu H maxim la atic 21,00 m și H maxim 25,00 m; Art. 1 permite (1-3)S+P+5E+R, cu H max. 22 m la cornișă și 25 m în total (deci până la trei subsoluri și 1 m în plus la cornișă/atic).",
+    "Parcela 1, alinierea la sud: legenda planșei („Retrageri și aliniamente”) scrie „aliniere 6.00 m față de limita sudică”; desenul scrie „aliniere de min. 5m”, iar Art. 1 cere minim 5 m față de Bulevardul Muncii.",
+    "Zona verde (parcela 2): planșa n-o încadrează la înălțime („Regim de înălțime/H max: -”); Art. 1 dă H max. 3 m la cornișă, regim parter. Codul ei e „Va_B” în hotărâre și „S_Va_B” pe planșă.",
+    "Legenda planșei adaugă la POT 40% pentru parcelele 1 și 3 că „pentru nivelele cu destinația de locuire AC maximă = 40% × St (suprafața terenului)”; hotărârea dă doar POT max. 40% și CUT max. 2."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Terenul necesar regularizării str. Ciucea (la profil de 12 m) se dezmembrează din parcela inițială și se înscrie în cartea funciară ca „drum” înainte de autorizația de construire pentru clădirea de pe parcela 3.",
+    "Aleea de interes local (parcela 4, ampriza 12 m, drum înfundat din Bd. Muncii) se înscrie în cartea funciară ca „drum”, se echipează edilitar și i se face partea carosabilă la strat de uzură înainte de autorizațiile de construire pentru clădirile de pe parcelele 1 și 3.",
+    "Înainte de recepția clădirilor de pe parcelele 1 și 3, pe cheltuiala investitorului: se reconfigurează și se reamenajează alveola stației de transport în comun de pe Bd. Muncii, de la aleea nouă până la stâlpul CTP din estul terenului, cu trotuar de 3 m lățime pe toată lungimea alveolei.",
+    "Înainte de aceeași recepție, spațiul verde cu acces public nelimitat (parcela 2) se amenajează pe baza unui proiect de specialitate, iar aleea de interes local (parcela 4) se aduce la strat de uzură.",
+    "Echiparea tehnico-edilitară e „completă pe Bulevardul Muncii”; mașinile staționează în interiorul parcelelor (M3_B)."
+  ]
+}

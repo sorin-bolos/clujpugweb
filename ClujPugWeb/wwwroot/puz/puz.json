@@ -33462,6 +33462,117 @@
   ]
  },
  {
+  "id": "2020-631",
+  "localitate": "cluj",
+  "hcl": "631/2020",
+  "data": "2020-08-20",
+  "titlu": "P.U.Z. de parcelare și dezvoltare zonă cu funcțiuni mixte, Bulevardul Muncii nr. 191-195",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-631-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2020/08/20/HCL-631ANEXE.pdf",
+  "utr": [
+   {
+    "cod": "M3_B",
+    "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic (parcelele 1 și 3): locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, terțiare, culturale, de învățământ, sănătate, turism; construcții izolate; retragere de la aliniament minim 5 m față de Bd. Muncii și minim 6 m față de str. Ciucea regularizată la 12 m; parcela 1: minim 11 m de limita nordică, 10,5 m de cea vestică, 6 m de cea estică; parcela 3: minim 10,5 m de limita vestică, 11 m de cea estică, 5 m de cea sudică (balcoanele pot depăși alinierile și retragerile cu cel mult 1,5 m); acces din Bd. Muncii pe un drum de interes local înfundat cu ampriza de 12 m (parcela 4); parcarea în interiorul parcelei",
+    "pot_max": "40%",
+    "cut_max": "2",
+    "h_max": "(1-3)S+P+5E+R; 22 m la cornișă, 25 m în total"
+   },
+   {
+    "cod": "Va_B (S_Va_B pe planșă)",
+    "denumire": "Scuaruri, grădini, parcuri cu acces public nelimitat (parcela 2): spații verzi, alei și platforme pentru pietoni și bicicliști, mobilier urban, amenajări pentru joacă, odihnă, sport, activități culturale și de alimentație publică în aer liber; construcții izolate, retrase cel puțin 5 m de la aliniament și de la limitele laterale și posterioară; acces din aleea interioară",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "parter; 3 m la cornișă"
+   }
+  ],
+  "suprafata_m2": 5648,
+  "imagine": "puz/2020-631/plansa.webp",
+  "bounds": {
+   "west": 23.629954,
+   "south": 46.7960193,
+   "east": 23.6306475,
+   "north": 46.7971793
+  },
+  "limita": [
+   [
+    23.6299929,
+    46.7971347
+   ],
+   [
+    23.6303667,
+    46.7971339
+   ],
+   [
+    23.6305914,
+    46.797163
+   ],
+   [
+    23.6306159,
+    46.7964756
+   ],
+   [
+    23.6306161,
+    46.7960651
+   ],
+   [
+    23.6306016,
+    46.7960654
+   ],
+   [
+    23.6303738,
+    46.7960535
+   ],
+   [
+    23.6302283,
+    46.796046
+   ],
+   [
+    23.630133,
+    46.796041
+   ],
+   [
+    23.630102,
+    46.7960394
+   ],
+   [
+    23.6300026,
+    46.7960343
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.06
+  },
+  "legenda": "puz/2020-631/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-08-20",
+   "initial_pana_la": "2025-08-20",
+   "prelungiri": [
+    {
+     "hcl": "467/2025",
+     "pana_la": "2027-08-20",
+     "nota": "HCL 467 din 7 iulie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 2 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (20.08.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 7.07.2027)."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "M3_B, regimul de înălțime: legenda planșei dă 2S+P+5E+ER, cu H maxim la atic 21,00 m și H maxim 25,00 m; Art. 1 permite (1-3)S+P+5E+R, cu H max. 22 m la cornișă și 25 m în total (deci până la trei subsoluri și 1 m în plus la cornișă/atic).",
+   "Parcela 1, alinierea la sud: legenda planșei („Retrageri și aliniamente”) scrie „aliniere 6.00 m față de limita sudică”; desenul scrie „aliniere de min. 5m”, iar Art. 1 cere minim 5 m față de Bulevardul Muncii.",
+   "Zona verde (parcela 2): planșa n-o încadrează la înălțime („Regim de înălțime/H max: -”); Art. 1 dă H max. 3 m la cornișă, regim parter. Codul ei e „Va_B” în hotărâre și „S_Va_B” pe planșă.",
+   "Legenda planșei adaugă la POT 40% pentru parcelele 1 și 3 că „pentru nivelele cu destinația de locuire AC maximă = 40% × St (suprafața terenului)”; hotărârea dă doar POT max. 40% și CUT max. 2."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Terenul necesar regularizării str. Ciucea (la profil de 12 m) se dezmembrează din parcela inițială și se înscrie în cartea funciară ca „drum” înainte de autorizația de construire pentru clădirea de pe parcela 3.",
+   "Aleea de interes local (parcela 4, ampriza 12 m, drum înfundat din Bd. Muncii) se înscrie în cartea funciară ca „drum”, se echipează edilitar și i se face partea carosabilă la strat de uzură înainte de autorizațiile de construire pentru clădirile de pe parcelele 1 și 3.",
+   "Înainte de recepția clădirilor de pe parcelele 1 și 3, pe cheltuiala investitorului: se reconfigurează și se reamenajează alveola stației de transport în comun de pe Bd. Muncii, de la aleea nouă până la stâlpul CTP din estul terenului, cu trotuar de 3 m lățime pe toată lungimea alveolei.",
+   "Înainte de aceeași recepție, spațiul verde cu acces public nelimitat (parcela 2) se amenajează pe baza unui proiect de specialitate, iar aleea de interes local (parcela 4) se aduce la strat de uzură.",
+   "Echiparea tehnico-edilitară e „completă pe Bulevardul Muncii”; mașinile staționează în interiorul parcelelor (M3_B)."
+  ]
+ },
+ {
   "id": "2019-883",
   "localitate": "cluj",
   "hcl": "883/2019",
