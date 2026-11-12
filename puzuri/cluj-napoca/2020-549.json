@@ -1,0 +1,228 @@
+{
+  "id": "2020-549",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 549,
+    "an": 2020,
+    "data_sedinta": "2020-08-03",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-549-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2020/08/18/HCL-549-din-3-08-2020.pdf"
+  },
+  "titlu": "P.U.Z. – restructurarea incintei Fimaro, parcelare și dezvoltare ansamblu mixt str. Corneliu Coposu nr. 167, 167A",
+  "plansa": {
+    "pagina_pdf": 62,
+    "dpi": 200,
+    "denumire": "2.1 Plan de reglementări - zonificare",
+    "scara": "1:500",
+    "nota": "P. 62: singura planșă mare din PDF (1673×3123 pt, scanată color la 200 ppi, 4648×8676 px), tipărită culcat (textul se citește în sus, nordul spre stânga; rotație -90,45°). P. 55 e aceeași planșă micșorată pe A4, alb-negru, cu mențiunea „Anexa 3 la Hotărârea nr. 549/2020” și ștampila Consiliului local; p. 62, color și la scară, e mult mai clară. Cartușul: planșa 2.1 „Plan de reglementări - zonificare”, faza P.U.Z., data 2019, sc. 1:500 (potrivirea dă 15,7 px/m, adică 1:500 la 200 ppi). Legenda (casetele rotite cu 90°): cheia simbolurilor, tabelul „Indici urbanistici – situația propusă” pe parcele (UTR, suprafață, POT, CUT, Ac, ADC, regim de înălțime, observații) și Nota 1 despre ponderea locuirii; s-au lăsat afară titlul legendei, bilanțul teritorial, tabelul ADC pe funcțiuni, tabelul proprietarilor și cartușul. Pe loturi nu e scris niciun nume de proprietar (nu s-a acoperit nimic); numele vecinilor scrise pe planșă și tabelul proprietarilor sunt departe de limită și nu intră în overlay."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate („Calculul suprafeței”, întocmit Toponet SRL), Nord X / Est Y, pe planșa 2.1",
+    "suprafata_declarata_m2": 31011,
+    "puncte": {
+      "101": [
+        588175.81,
+        390259.5
+      ],
+      "102": [
+        588177.719,
+        390267.272
+      ],
+      "103": [
+        588189.817,
+        390316.526
+      ],
+      "104": [
+        588222.07,
+        390447.83
+      ],
+      "105": [
+        588151.98,
+        390462.99
+      ],
+      "106": [
+        588151.92,
+        390461.75
+      ],
+      "107": [
+        588111.91,
+        390469.94
+      ],
+      "108": [
+        588114.56,
+        390483.25
+      ],
+      "109": [
+        588081.16,
+        390490.47
+      ],
+      "110": [
+        588067.952,
+        390492.547
+      ],
+      "111": [
+        588064.271,
+        390475.741
+      ],
+      "112": [
+        588038.38,
+        390357.51
+      ],
+      "113": [
+        588036.47,
+        390348.53
+      ],
+      "114": [
+        588033.17,
+        390334.29
+      ],
+      "115": [
+        588029.31,
+        390304.21
+      ],
+      "116": [
+        588030.46,
+        390285.5
+      ],
+      "117": [
+        588039.48,
+        390288.83
+      ]
+    },
+    "laturi_declarate_m": {
+      "101": 8.0,
+      "102": 50.72,
+      "103": 135.21,
+      "104": 71.71,
+      "105": 1.24,
+      "106": 40.84,
+      "107": 13.57,
+      "108": 34.17,
+      "109": 13.37,
+      "110": 17.2,
+      "111": 121.03,
+      "112": 9.18,
+      "113": 14.62,
+      "114": 30.33,
+      "115": 18.75,
+      "116": 9.62,
+      "117": 139.45
+    },
+    "nota": "Pct. 117: linia punctată a limitei acoperă parțial Y (se citește 39028?.?30) și prima cifră a laturii 116-117 (?.62). Y = 390288.830 e valoarea vizibilă compatibilă cu ambele laturi din tabel (9.62 și 139.45: intervalul posibil e 390288.830-390288.856)."
+  },
+  "gcp_px": {
+    "110": [
+      3320,
+      3999
+    ],
+    "108": [
+      2590,
+      4146
+    ],
+    "117": [
+      3797,
+      7206
+    ],
+    "101": [
+      1664,
+      7687
+    ],
+    "104": [
+      906,
+      4721
+    ]
+  },
+  "verificare_px": {
+    "107": [
+      2632,
+      4364
+    ],
+    "116": [
+      3943,
+      7260
+    ],
+    "105": [
+      2008,
+      4477
+    ],
+    "106": [
+      2009,
+      4495
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      192,
+      135,
+      770,
+      1478,
+      90
+    ],
+    [
+      90,
+      1488,
+      2760,
+      2940,
+      90
+    ],
+    [
+      2088,
+      95,
+      2575,
+      1475,
+      90
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M_Fimaro",
+      "denumire": "Zonă de activități urbane cu caracter mixt. Parcelele 1-4: structură funcțională mixtă – locuire colectivă (între 30 și 70% din suprafața desfășurată totală a ansamblului), activități administrative, de administrare a afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism, alimentație publică. Parcelele 5-7: căi de acces carosabile, pietonale și velo, parcări, plantații de aliniament, iluminat public, mobilier urban, rețele edilitare. Regim de construire deschis; retrageri: la aliniamentul rezultat după dezmembrare spre str. Corneliu Coposu, min. 3 m spre str. Strungarilor și spre strada interioară (clădirile cu locuințe la parter spre curțile interioare), pe parcela 4 min. 10 m de aliniamentul sudic și 6 m de cel vestic, pe parcelele 3A și 3B min. 13 m de pârâul Nadăș; retrageri laterale de 4,5-9 m, după parcelă; acces auto din str. Corneliu Coposu și str. Strungarilor; parcarea în proporție de min. 75% la subsol/demisol/parter.",
+      "pot_max": "60% (parcelele 1-4); 0% (parcelele 5-7)",
+      "cut_max": "2,8 ADC/mp (parcelele 1-4); 0 (parcelele 5-7)",
+      "h_max": "28 m: (1-3S)+P+5E+1R la clădirile comune, (1-3S)+P+5E+1R sau (1-3S)+P+6E la cele de colț; 48 m: (1-3S)+P+11E la accentele ansamblului; nivelurile tehnice pot depăși înălțimea maximă cu cel mult 3 m"
+    },
+    {
+      "cod": "Ve_Fimaro",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic și spațiu public (de-a lungul pârâului Nadăș): plantații înalte, medii și joase, alei și platforme pentru pietoni și bicicliști, mobilier urban, amenajări pentru joacă, odihnă, sport și alte activități în aer liber, edicule, lucrări hidrotehnice, poduri, pasarele, podețe, ziduri de sprijin",
+      "pot_max": "1%",
+      "cut_max": "0,01",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-08-03",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (ședința din 3.08.2020); prelungită cu 2 ani prin HCL 146/2025 (7.04.2025), adoptată înainte de expirare, până la 3.08.2027. `related` (index actualizat 2026-11-08): o prelungire, nicio modificare."
+  },
+  "prelungiri": [
+    {
+      "hcl": "146/2025",
+      "pana_la": "2027-08-03",
+      "nota": "HCL 146 din 7 aprilie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 2 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (3.08.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 7.04.2027)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime în M_Fimaro: casetele parcelelor de pe desen dau „Reg_H max: 1-3S+P+6” (pe parcelele 1, 2 și 3A și 1-3S+P+11 pentru accente verticale), iar tabelul de indici dă pe parcelele 1, 2 și 3A „1-3S+P+5+R / 1-3S+P+6” fără să lege P+6 de colțuri. Art. 1 admite P+6E numai la clădirile de colț; la cele comune, (1-3S)+P+5E+1R. Pe parcelele 3B și 4 tabelul leagă și el P+6 de clădirile de colț.",
+    "Înălțimile în metri apar doar în hotărâre: Hmax 28 m pentru clădirile comune și de colț, 48 m pentru accentele (1-3S)+P+11E, cu nivelurile tehnice până la 3 m peste; planșa dă numai regimul de înălțime. Hotărârea nu leagă accentele de anumite parcele; tabelul planșei le dă doar pe parcelele 1, 2 și 3A.",
+    "Planșa (coloana „Observații”) limitează aria construită a nivelurilor cu locuințe la 50% din suprafața parcelei (40% pe parcela 3B); hotărârea nu reia limita, dar cere ca locuirea să fie între 30 și 70% din suprafața desfășurată totală a ansamblului, ca și Nota 1 a planșei."
+  ],
+  "conditii": [
+    "Art. 1 aprobă, odată cu P.U.Z., contractul de restructurare încheiat între Consiliul local și Municipiul Cluj-Napoca, pe de o parte, și investitori, pe de alta.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Fâșia de lângă pârâul Nadăș, pe toată lungimea parcelei, se amenajează pe cheltuiala investitorului, cu dotări edilitare, ca promenadă cu acces public nelimitat, pe baza unui proiect de specialitate, până la recepția clădirilor de pe parcela 3A.",
+    "Spațiul de grădiniță/creșă de la parterul corpului P+2E de pe parcela 3B, cu terenul care îl deservește (~300 mp), trece gratuit în domeniul public înainte de recepția clădirilor de pe parcelele 3A și 3B (în afara corpului P+2E); recepția acestor clădiri vine după recepția grădiniței/creșei.",
+    "La etajele corpului P+2E cu grădinița/creșa nu se admit alimentație publică, galerii comerciale, discoteci, cluburi, locuire sau alte funcțiuni care ar putea împiedica funcționarea grădiniței/creșei.",
+    "Investiția se face în etape (planul de implementare și Avizul Arhitectului Șef nr. 158/2020): faza A – etapa 1, parcela 1 și strada de acces (parcela 5), și etapa 2, parcelele 2 și 4, în orice ordine sau concomitent; faza B – etapa 3, parcela 3B, apoi etapa 4, parcela 3A.",
+    "Parcela 5 (strada nouă, ampriză variabilă 10-13 m) se înscrie în CF ca „drum”; carosabilul la strat de uzură și echiparea edilitară, pe bază de proiect tehnic, se fac înainte de autorizația de construire pentru parcela 1, iar trotuarele înainte de recepția clădirilor de pe parcela 1.",
+    "Terenul pentru lărgirea străzilor Corneliu Coposu și Strungarilor se dezmembrează din parcelele inițiale și se înscrie în CF ca „drum” înainte de autorizațiile de construire pentru clădirile de pe parcelele 2 și 4; drumurile se fac la strat de uzură, pe bază de proiect tehnic, se recepționează și trec în domeniul public înainte de recepția finală a construcțiilor de pe parcelele 2 și 4.",
+    "Pe str. Corneliu Coposu, pe frontul dintre str. Stănescu Popa și str. Strungarilor, se face o bandă carosabilă suplimentară pentru accesul în incintă; str. Strungarilor se regularizează la 3 benzi și trotuar de 1,5 m pe latura vestică, pe 30 m de la intersecția cu str. Corneliu Coposu, cu arbori în aliniament pe latura vestică, pe tronsonul cu 2 benzi, până la str. Piatra Craiului.",
+    "Mașinile staționează în proporție de cel puțin 75% în spații amenajate la subsolul/demisolul/parterul clădirilor; restul și bicicletele, în parcări la sol. Echiparea tehnico-edilitară e completă pe str. Corneliu Coposu."
+  ]
+}
