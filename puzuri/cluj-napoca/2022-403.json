@@ -1,0 +1,437 @@
+{
+  "id": "2022-403",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 403,
+    "an": 2022,
+    "data_sedinta": "2022-05-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-403-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2022/05/04/HCL-403-din-4-mai-2022-PUZ.pdf"
+  },
+  "titlu": "P.U.Z. – Schimbare încadrare funcțională, din zona de activități economice cu catracter industrial în zonă mixtă și zonă rezidențială – str. Camil Petrescu",
+  "plansa": {
+    "pagina_pdf": 28,
+    "dpi": 200,
+    "denumire": "Reglementări urbanistice – zonificare (planșa U/PUZ/03)",
+    "scara": "1:500",
+    "nota": "PDF-ul are 119 pagini scanate: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii, fără articole adăugate), Anexa 1 – regulamentul local de urbanism (p. 4-17), Anexa 2 – planșa U/PUZ/03 redusă pe A4, alb-negru (p. 18), Anexa 3 – planul de acțiune (p. 19-20), avizul arhitectului-șef nr. 142/16.09.2021 (p. 21-23), avizul de oportunitate nr. 25/15.02.2021 (p. 24-26), un extras din P.U.G. (p. 27), planșa U/PUZ/03 color la format A1 (p. 28, 4670×6625 px la 200 ppi, cu viza „HCL nr. 403 din 4.05.2022”) și, după ea, avizele, studiile și raportul informării publicului (p. 29-119). E aleasă p. 28: e aceeași planșă de reglementări ca Anexa 2, color și la o rezoluție aproape dublă. Cartușul: „Reglementări urbanistice – zonificare”, pl. U/PUZ/03, pr. nr. 19/2017, faza P.U.Z., august 2021, scara 1:500; fitul dă 15,5 px/m față de 15,75 px/m la scară, deci planșa e tipărită cu ~1,6% mai mică. Nordul e în sus (rotație 0,3°). Legenda ia cheia simbolurilor (stânga jos), blocurile parcelelor P1-P6 din coloana din dreapta (regim de înălțime, spațiu verde minim, POT și CUT maxime), fără numărul de apartamente și calculul locurilor de parcare, și nota despre schimbarea încadrării (Ei → M3v și Lcv, Ve păstrată); au rămas afară bilanțul suprafețelor existente cu proprietarii, lista suprafețelor parcelelor, inventarul de coordonate, cele două bilanțuri teritoriale, profilul stradal al str. Camil Petrescu, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa U/PUZ/03 („Coordonate pct. de contur”, X [m] = Nord, Y [m] = Est, Stereo 70, cu lungimile laturilor D(i,i+1)): 38 de puncte, în ordinea limitei 244-280, 243, adică conturul terenului care a generat P.U.Z.-ul (linia roșie din legendă), „S(TOTAL) = 15971,44 mp, P = 747,235 m”, cât suprafața măsurată din Art. 1 (15.971 mp) și totalul bilanțului zonei reglementate. Aria, toate cele 38 de laturi și perimetrul ies exact. Conturul e un poligon cu opt colțuri (244, 245, 248/249, 254, 255, 279, 280/243); celelalte vârfuri stau pe laturi drepte (abatere sub 0,5°). Puncte de control: colțurile nete 254 (nord-vest, la str. Bună Ziua, pe colțul liniei de parcelare de lângă str. Camil Petrescu), 255 (nord-est), 244 (vârful de sud) și 279 (colțul de est, în zona verde de lângă pârâu). Puncte de verificare: 245 (colțul de pe latura de sud-vest), 280 (colțul de sud-est, lângă 243) și 248 (frântura de 1,2 m de la capătul străzii Camil Petrescu). Desenul liniei roșii urmează conturul prezis la 1-3 px de-a lungul laturii de est (vârfurile 256-278) și al celei de nord.",
+    "suprafata_declarata_m2": 15971.44,
+    "puncte": {
+      "244": [
+        583950.21,
+        393437.544
+      ],
+      "245": [
+        583983.501,
+        393425.517
+      ],
+      "246": [
+        583991.111,
+        393445.267
+      ],
+      "247": [
+        583994.738,
+        393454.598
+      ],
+      "248": [
+        583997.271,
+        393461.117
+      ],
+      "249": [
+        583998.4,
+        393460.71
+      ],
+      "250": [
+        584009.69,
+        393456.75
+      ],
+      "251": [
+        584036.664,
+        393447.286
+      ],
+      "252": [
+        584058.285,
+        393439.7
+      ],
+      "253": [
+        584067.466,
+        393436.479
+      ],
+      "254": [
+        584235.429,
+        393377.546
+      ],
+      "255": [
+        584253.54,
+        393428.62
+      ],
+      "256": [
+        584250.408,
+        393429.658
+      ],
+      "257": [
+        584248.702,
+        393430.223
+      ],
+      "258": [
+        584246.33,
+        393431.009
+      ],
+      "259": [
+        584243.957,
+        393431.795
+      ],
+      "260": [
+        584241.612,
+        393432.572
+      ],
+      "261": [
+        584222.26,
+        393438.973
+      ],
+      "262": [
+        584206.295,
+        393444.285
+      ],
+      "263": [
+        584203.681,
+        393445.155
+      ],
+      "264": [
+        584184.465,
+        393451.486
+      ],
+      "265": [
+        584169.063,
+        393456.594
+      ],
+      "266": [
+        584161.45,
+        393459.108
+      ],
+      "267": [
+        584122.87,
+        393472.02
+      ],
+      "268": [
+        584106.37,
+        393477.58
+      ],
+      "269": [
+        584101.39,
+        393479.25
+      ],
+      "270": [
+        584084.469,
+        393484.937
+      ],
+      "271": [
+        584081.78,
+        393485.84
+      ],
+      "272": [
+        584075.546,
+        393487.981
+      ],
+      "273": [
+        584061.912,
+        393492.664
+      ],
+      "274": [
+        584053.867,
+        393495.403
+      ],
+      "275": [
+        584036.05,
+        393501.47
+      ],
+      "276": [
+        584026.91,
+        393504.59
+      ],
+      "277": [
+        584025.97,
+        393504.91
+      ],
+      "278": [
+        584020.02,
+        393506.94
+      ],
+      "279": [
+        583995.381,
+        393515.344
+      ],
+      "280": [
+        583961.675,
+        393474.154
+      ],
+      "243": [
+        583964.707,
+        393472.948
+      ]
+    },
+    "ordine": [
+      "244",
+      "245",
+      "246",
+      "247",
+      "248",
+      "249",
+      "250",
+      "251",
+      "252",
+      "253",
+      "254",
+      "255",
+      "256",
+      "257",
+      "258",
+      "259",
+      "260",
+      "261",
+      "262",
+      "263",
+      "264",
+      "265",
+      "266",
+      "267",
+      "268",
+      "269",
+      "270",
+      "271",
+      "272",
+      "273",
+      "274",
+      "275",
+      "276",
+      "277",
+      "278",
+      "279",
+      "280",
+      "243"
+    ],
+    "laturi_declarate_m": {
+      "244": 35.397,
+      "245": 21.165,
+      "246": 10.011,
+      "247": 6.994,
+      "248": 1.2,
+      "249": 11.964,
+      "250": 28.586,
+      "251": 22.913,
+      "252": 9.73,
+      "253": 178.002,
+      "254": 54.19,
+      "255": 3.3,
+      "256": 1.797,
+      "257": 2.499,
+      "258": 2.5,
+      "259": 2.47,
+      "260": 20.383,
+      "261": 16.826,
+      "262": 2.755,
+      "263": 20.232,
+      "264": 16.227,
+      "265": 8.017,
+      "266": 40.683,
+      "267": 17.412,
+      "268": 5.253,
+      "269": 17.851,
+      "270": 2.837,
+      "271": 6.591,
+      "272": 14.416,
+      "273": 8.498,
+      "274": 18.822,
+      "275": 9.658,
+      "276": 0.993,
+      "277": 6.287,
+      "278": 26.033,
+      "279": 53.223,
+      "280": 3.263,
+      "243": 38.257
+    },
+    "perimetru_declarat_m": 747.235
+  },
+  "gcp_px": {
+    "254": [
+      1551,
+      970
+    ],
+    "255": [
+      2344,
+      694
+    ],
+    "244": [
+      2482,
+      5421
+    ],
+    "279": [
+      3690,
+      4722
+    ]
+  },
+  "verificare_px": {
+    "245": [
+      2296,
+      4902
+    ],
+    "280": [
+      3050,
+      5246
+    ],
+    "248": [
+      2847,
+      4692
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      186,
+      4406,
+      965,
+      5293
+    ],
+    [
+      4022,
+      552,
+      4602,
+      713
+    ],
+    [
+      4022,
+      979,
+      4602,
+      1059
+    ],
+    [
+      4022,
+      1085,
+      4602,
+      1245
+    ],
+    [
+      4022,
+      1326,
+      4602,
+      1404
+    ],
+    [
+      4022,
+      1429,
+      4602,
+      1591
+    ],
+    [
+      4022,
+      1673,
+      4602,
+      1750
+    ],
+    [
+      4022,
+      1777,
+      4602,
+      1937
+    ],
+    [
+      4022,
+      2018,
+      4602,
+      2094
+    ],
+    [
+      4022,
+      2120,
+      4602,
+      2280
+    ],
+    [
+      4022,
+      2361,
+      4602,
+      2439
+    ],
+    [
+      4022,
+      2466,
+      4602,
+      2626
+    ],
+    [
+      4022,
+      2707,
+      4602,
+      2786
+    ],
+    [
+      1960,
+      6050,
+      2610,
+      6172
+    ],
+    [
+      1960,
+      6172,
+      2940,
+      6428
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M3v",
+      "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic (parcela P1, 3885 mp, spre str. Bună Ziua): structură funcțională mixtă – locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; locuințele numai la etaje, parterul spre spațiile publice obligatoriu cu funcțiuni de interes pentru public",
+      "pot_max": "50%; la nivelurile cu locuințe A.C. max. 40% din suprafața terenului",
+      "cut_max": "2,4",
+      "h_max": "25 m, (1-3S)+P+4E+1ER sau (1-3S)+D+P+3E+1ER"
+    },
+    {
+      "cod": "Lcv",
+      "denumire": "Zonă de locuințe colective realizate după anul 1990, cu dotările aferente (parcelele P2-P6, 7623,70 mp); regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "1",
+      "h_max": "12 m, (1-2S)+P+2E"
+    },
+    {
+      "cod": "VPr",
+      "denumire": "Zonă verde de protecție față de infrastructura majoră (conducta de gaz DN 400 SRM Cluj I – SRM Cluj II), de protecție sanitară, plantații cu rol de stabilizare a versanților și de reconstrucție ecologică (2789 mp după bilanțul planșei, față de 3466 mp existent; limita nordică reconfigurată pe baza avizului Transgaz); se mențin prevederile R.L.U. al P.U.G."
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic, fâșia de 5 m de o parte și de alta a pârâului din sud (355 mp după bilanțul planșei); se mențin prevederile R.L.U. al P.U.G."
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-05-04",
+    "verificat": "2026-11-12: Art. 2, cinci ani (ședința din 4.05.2022); `related`: nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Aria construită pentru locuire: hotărârea limitează în M3v nivelurile cu locuințe la A.C. max. 40% din suprafața terenului; planșa dă pentru parcela P1 doar POT maxim 50% și CUT maxim 2,40.",
+    "Spațiul verde: planșa cere spațiu verde organizat pe sol natural de minimum 20% pe parcela P1 (M3v) și 40% pe parcelele P2-P6 (Lcv); hotărârea nu dă procente, ci cere doar arbori de aliniament pe str. Camil Petrescu și cel puțin cinci arbori pe parcelele de spațiu verde P7 și P8."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se reglementează 15.971 mp (măsurați), parcelele nr. cad. 333254, 333255, 333160, 333161, 333204, 333205 și 276613, trecute din zonă de activități economice cu caracter industrial (Ei) în zonă mixtă (M3v) și zonă de locuințe colective (Lcv); pentru terenurile din UTR VPr și Ve rămân prevederile R.L.U. al P.U.G.",
+    "Parcelare în zece parcele (planșa U07): una pentru un imobil mixt (P1), cinci pentru locuințe colective cu dotări (P2-P6), două de „spațiu verde” (P7, P8) și două de „drum”: terenul pentru regularizarea str. Camil Petrescu și cel pentru alveola stației de transport în comun de pe str. Bună Ziua.",
+    "M3v: retragere față de aliniament ca a clădirilor vecine unde există o aliniere unitară (pe cel puțin patru parcele alăturate), altfel min. 3 m; parcelele de colț se retrag față de ambele aliniamente și au doar retrageri laterale; față de limitele laterale și posterioară H cornișă/2, dar min. 4,5 m; construcțiile subterane respectă Codul civil.",
+    "Lcv: retragere min. 3 m față de str. Camil Petrescu; față de limitele laterale și posterioară H cornișă/2, dar min. 4,5 m; construcțiile subterane respectă Codul civil.",
+    "Accesul se face din str. Camil Petrescu, regularizată la ampriza de 12 m; parcarea (auto și biciclete) în interiorul parcelei, după Anexa 2 a R.L.U. al P.U.G.",
+    "Clădirile noi se racordează la rețelele publice; apele meteorice nu se descarcă spre domeniul public sau spre vecini; firidele de branșament se integrează în clădiri; cablurile nu se pozează aerian; fiecare parcelă are un spațiu pentru deșeuri, accesibil din spațiul public.",
+    "Limita dintre Lcv și VPr s-a stabilit după avizul Transgaz nr. 1432/2246/11.01.2021, care fixează distanțele față de conducta de gaz; limita nordică a UTR VPr se reconfigurează.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Terenul pentru alveola stației de transport în comun de pe str. Bună Ziua se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire a imobilului mixt și se transferă în domeniul public după amenajarea stației, înainte de recepția imobilului mixt (planșa U06).",
+    "Carosabilul str. Camil Petrescu (cu parcările de la nivelul lui) se amenajează pe baza unui proiect de specialitate înainte de orice autorizație de construire; până la recepția construcțiilor se amenajează trotuarul (iluminat stradal, mobilier urban) și se plantează arbori de aliniament, conform planului de acțiune (Anexa 3).",
+    "Arborii de aliniament de pe str. Camil Petrescu au circumferința tulpinii de min. 35 cm la 1 m de colet; pe parcelele de spațiu verde P7 și P8 se plantează cel puțin cinci arbori de aceeași mărime.",
+    "Înainte de recepția primei construcții din ansamblu se întocmește și se realizează semnalizarea rutieră a str. Camil Petrescu."
+  ]
+}

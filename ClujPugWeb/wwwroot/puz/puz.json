@@ -29626,6 +29626,229 @@
   ]
  },
  {
+  "id": "2022-403",
+  "localitate": "cluj",
+  "hcl": "403/2022",
+  "data": "2022-05-04",
+  "titlu": "P.U.Z. – Schimbare încadrare funcțională, din zona de activități economice cu catracter industrial în zonă mixtă și zonă rezidențială – str. Camil Petrescu",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-403-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2022/05/04/HCL-403-din-4-mai-2022-PUZ.pdf",
+  "utr": [
+   {
+    "cod": "M3v",
+    "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic (parcela P1, 3885 mp, spre str. Bună Ziua): structură funcțională mixtă – locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; locuințele numai la etaje, parterul spre spațiile publice obligatoriu cu funcțiuni de interes pentru public",
+    "pot_max": "50%; la nivelurile cu locuințe A.C. max. 40% din suprafața terenului",
+    "cut_max": "2,4",
+    "h_max": "25 m, (1-3S)+P+4E+1ER sau (1-3S)+D+P+3E+1ER"
+   },
+   {
+    "cod": "Lcv",
+    "denumire": "Zonă de locuințe colective realizate după anul 1990, cu dotările aferente (parcelele P2-P6, 7623,70 mp); regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "1",
+    "h_max": "12 m, (1-2S)+P+2E"
+   },
+   {
+    "cod": "VPr",
+    "denumire": "Zonă verde de protecție față de infrastructura majoră (conducta de gaz DN 400 SRM Cluj I – SRM Cluj II), de protecție sanitară, plantații cu rol de stabilizare a versanților și de reconstrucție ecologică (2789 mp după bilanțul planșei, față de 3466 mp existent; limita nordică reconfigurată pe baza avizului Transgaz); se mențin prevederile R.L.U. al P.U.G."
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic, fâșia de 5 m de o parte și de alta a pârâului din sud (355 mp după bilanțul planșei); se mențin prevederile R.L.U. al P.U.G."
+   }
+  ],
+  "suprafata_m2": 15971,
+  "imagine": "puz/2022-403/plansa.webp",
+  "bounds": {
+   "west": 23.6026864,
+   "south": 46.7466275,
+   "east": 23.6046092,
+   "north": 46.7494141
+  },
+  "limita": [
+   [
+    23.6035671,
+    46.7466555
+   ],
+   [
+    23.603402,
+    46.7469531
+   ],
+   [
+    23.6036587,
+    46.7470247
+   ],
+   [
+    23.60378,
+    46.7470588
+   ],
+   [
+    23.6038647,
+    46.7470826
+   ],
+   [
+    23.6038591,
+    46.7470927
+   ],
+   [
+    23.6038047,
+    46.7471936
+   ],
+   [
+    23.6036746,
+    46.7474348
+   ],
+   [
+    23.6035704,
+    46.7476281
+   ],
+   [
+    23.6035261,
+    46.7477101
+   ],
+   [
+    23.6027161,
+    46.7492117
+   ],
+   [
+    23.6033803,
+    46.7493827
+   ],
+   [
+    23.6033946,
+    46.7493547
+   ],
+   [
+    23.6034024,
+    46.7493394
+   ],
+   [
+    23.6034132,
+    46.7493182
+   ],
+   [
+    23.603424,
+    46.749297
+   ],
+   [
+    23.6034347,
+    46.749276
+   ],
+   [
+    23.603523,
+    46.749103
+   ],
+   [
+    23.6035962,
+    46.7489602
+   ],
+   [
+    23.6036082,
+    46.7489368
+   ],
+   [
+    23.6036955,
+    46.748765
+   ],
+   [
+    23.6037659,
+    46.7486272
+   ],
+   [
+    23.6038005,
+    46.7485591
+   ],
+   [
+    23.6039784,
+    46.7482142
+   ],
+   [
+    23.604055,
+    46.7480666
+   ],
+   [
+    23.604078,
+    46.7480221
+   ],
+   [
+    23.6041563,
+    46.7478708
+   ],
+   [
+    23.6041688,
+    46.7478467
+   ],
+   [
+    23.6041982,
+    46.747791
+   ],
+   [
+    23.6042626,
+    46.7476691
+   ],
+   [
+    23.6043003,
+    46.7475972
+   ],
+   [
+    23.6043838,
+    46.7474378
+   ],
+   [
+    23.6044268,
+    46.7473561
+   ],
+   [
+    23.6044312,
+    46.7473477
+   ],
+   [
+    23.6044591,
+    46.7472945
+   ],
+   [
+    23.6045748,
+    46.7470742
+   ],
+   [
+    23.6040435,
+    46.7467645
+   ],
+   [
+    23.6040271,
+    46.7467916
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.06
+  },
+  "legenda": "puz/2022-403/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-05-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Aria construită pentru locuire: hotărârea limitează în M3v nivelurile cu locuințe la A.C. max. 40% din suprafața terenului; planșa dă pentru parcela P1 doar POT maxim 50% și CUT maxim 2,40.",
+   "Spațiul verde: planșa cere spațiu verde organizat pe sol natural de minimum 20% pe parcela P1 (M3v) și 40% pe parcelele P2-P6 (Lcv); hotărârea nu dă procente, ci cere doar arbori de aliniament pe str. Camil Petrescu și cel puțin cinci arbori pe parcelele de spațiu verde P7 și P8."
+  ],
+  "conditii": [
+   "Prin P.U.Z. se reglementează 15.971 mp (măsurați), parcelele nr. cad. 333254, 333255, 333160, 333161, 333204, 333205 și 276613, trecute din zonă de activități economice cu caracter industrial (Ei) în zonă mixtă (M3v) și zonă de locuințe colective (Lcv); pentru terenurile din UTR VPr și Ve rămân prevederile R.L.U. al P.U.G.",
+   "Parcelare în zece parcele (planșa U07): una pentru un imobil mixt (P1), cinci pentru locuințe colective cu dotări (P2-P6), două de „spațiu verde” (P7, P8) și două de „drum”: terenul pentru regularizarea str. Camil Petrescu și cel pentru alveola stației de transport în comun de pe str. Bună Ziua.",
+   "M3v: retragere față de aliniament ca a clădirilor vecine unde există o aliniere unitară (pe cel puțin patru parcele alăturate), altfel min. 3 m; parcelele de colț se retrag față de ambele aliniamente și au doar retrageri laterale; față de limitele laterale și posterioară H cornișă/2, dar min. 4,5 m; construcțiile subterane respectă Codul civil.",
+   "Lcv: retragere min. 3 m față de str. Camil Petrescu; față de limitele laterale și posterioară H cornișă/2, dar min. 4,5 m; construcțiile subterane respectă Codul civil.",
+   "Accesul se face din str. Camil Petrescu, regularizată la ampriza de 12 m; parcarea (auto și biciclete) în interiorul parcelei, după Anexa 2 a R.L.U. al P.U.G.",
+   "Clădirile noi se racordează la rețelele publice; apele meteorice nu se descarcă spre domeniul public sau spre vecini; firidele de branșament se integrează în clădiri; cablurile nu se pozează aerian; fiecare parcelă are un spațiu pentru deșeuri, accesibil din spațiul public.",
+   "Limita dintre Lcv și VPr s-a stabilit după avizul Transgaz nr. 1432/2246/11.01.2021, care fixează distanțele față de conducta de gaz; limita nordică a UTR VPr se reconfigurează.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Terenul pentru alveola stației de transport în comun de pe str. Bună Ziua se dezmembrează și se înscrie în CF ca „drum” înainte de autorizația de construire a imobilului mixt și se transferă în domeniul public după amenajarea stației, înainte de recepția imobilului mixt (planșa U06).",
+   "Carosabilul str. Camil Petrescu (cu parcările de la nivelul lui) se amenajează pe baza unui proiect de specialitate înainte de orice autorizație de construire; până la recepția construcțiilor se amenajează trotuarul (iluminat stradal, mobilier urban) și se plantează arbori de aliniament, conform planului de acțiune (Anexa 3).",
+   "Arborii de aliniament de pe str. Camil Petrescu au circumferința tulpinii de min. 35 cm la 1 m de colet; pe parcelele de spațiu verde P7 și P8 se plantează cel puțin cinci arbori de aceeași mărime.",
+   "Înainte de recepția primei construcții din ansamblu se întocmește și se realizează semnalizarea rutieră a str. Camil Petrescu."
+  ]
+ },
+ {
   "id": "2022-400",
   "localitate": "cluj",
   "hcl": "400/2022",
