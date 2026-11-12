@@ -20707,6 +20707,118 @@
   ]
  },
  {
+  "id": "2024-115",
+  "localitate": "cluj",
+  "hcl": "115/2024",
+  "data": "2024-03-04",
+  "titlu": "P.U.Z. – Dezvoltare zonă economică, str. Frunzișului nr. 78",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-115-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/03/19/HCL-115.pdf",
+  "utr": [
+   {
+    "cod": "Em*",
+    "denumire": "Zonă de mică producție, servicii de tip industrial și cvasi-industrial, comerț en gros: mică producție și activități complementare (birouri, depozitare, transport, sociale), comerț en gros de dimensiune mică și medie, cu materiale de construcții, sedii sau puncte de lucru pentru microîntreprinderi și IMM-uri cu activități bazate pe producție de tip industrial sau cvasi-industrial; regim de construire deschis. Locuirea de orice tip e interzisă.",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "17 m la cornișă și 20 m înălțime totală; regim maxim de înălțime (1-2)S+P+3+R"
+   }
+  ],
+  "suprafata_m2": 3335,
+  "imagine": "puz/2024-115/plansa.webp",
+  "bounds": {
+   "west": 23.573036,
+   "south": 46.7480995,
+   "east": 23.5742155,
+   "north": 46.7488328
+  },
+  "limita": [
+   [
+    23.5735812,
+    46.7481252
+   ],
+   [
+    23.5730733,
+    46.7484505
+   ],
+   [
+    23.5735538,
+    46.7488086
+   ],
+   [
+    23.5735616,
+    46.7488062
+   ],
+   [
+    23.5737584,
+    46.7487457
+   ],
+   [
+    23.5739114,
+    46.7486988
+   ],
+   [
+    23.5740361,
+    46.7486561
+   ],
+   [
+    23.5740396,
+    46.7486542
+   ],
+   [
+    23.5740904,
+    46.7486235
+   ],
+   [
+    23.5741222,
+    46.7486008
+   ],
+   [
+    23.5741304,
+    46.7485949
+   ],
+   [
+    23.5741354,
+    46.7485914
+   ],
+   [
+    23.5741769,
+    46.748556
+   ],
+   [
+    23.5737134,
+    46.7482228
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.12
+  },
+  "legenda": "puz/2024-115/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2027-03-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa nu cotează înălțimi în metri, doar regimul (1-2)S+P+3E+R; Art. 1 (și R.L.U., art. 10) fixează 17 m la cornișă și 20 m înălțime totală. Avizul Arhitectului șef nr. 205/20.09.2022, din același PDF, scria 21 m la cornișă și 25 m în total; hotărârea și R.L.U. aprobat stabilesc 17 m și 20 m.",
+   "Restul se potrivește: P.O.T. 60 % și C.U.T. 1,2 (calculate pe toată parcela de 3335 mp), retragerile cotate (9 m față de aliniament, H/2 dar minim 3 m față de limitele laterale, H dar minim 6 m față de limita posterioară), spațiul verde de cel puțin 20 % (667 mp în bilanț) cu cel puțin 9 arbori și dezmembrarea suprafeței pentru lărgirea străzii (98 mp în bilanț). Textul adaugă aducerea acestei suprafețe la strat de uzură și reamenajarea pistei de biciclete și a stației de autobuz pe cheltuiala investitorului, desenate pe planșă ca propuneri."
+  ],
+  "conditii": [
+   "Se reglementează parcela nr. cad. 329657 (C.F. 329657), 3335 mp în proprietate privată, pe frontul sudic al str. Frunzișului; în P.U.G. terenul era în UTR Em. Se păstrează parcelarul existent; orice parcelare sau comasare ulterioară cere studii de specialitate (R.L.U.).",
+   "Suprafața necesară lărgirii str. Frunzișului (pentru reamenajarea stației de transport în comun de pe frontul sudic și a unei piste de biciclete pe lungimea frontului la stradă, în spatele trotuarului) se dezmembrează din parcelă și se înscrie în CF ca „drum” înainte de autorizația de construire; până la recepție se aduce la strat de uzură, pe cheltuiala investitorului.",
+   "Reamenajarea pistei de biciclete și a stației de transport în comun, înainte de recepția investiției, revine investitorului, conform Avizului nr. 276823/446/7.09.2020 și Notei interne nr. 742049/2023 ale Serviciului Siguranța Circulației.",
+   "Accesul pe parcelă se face din str. Frunzișului (nr. cad. 324764); orice acces la drumurile publice cere avizul administratorului lor. R.L.U.: în zona accesului carosabil se asigură, în afara circulațiilor publice, loc pentru vehiculele care așteaptă să intre; pentru curți se recomandă învelitori permeabile.",
+   "Parcarea se face exclusiv în interiorul parcelei, dimensionată după Anexa 2 a P.U.G.; R.L.U. și nota planșei, după Avizul Siguranța Circulației nr. 427819/07.09.2020: cel mult 50 de locuri pentru autoturisme și 25 pentru biciclete. Vehiculele de marfă și celelalte staționează numai în incintă. Parcajele la sol de lângă limitele spre zone de locuire se retrag cel puțin 5 m de ele.",
+   "Retrageri: cel puțin 9 m față de aliniament, în front discontinuu; față de limitele laterale cel puțin H/2, dar minim 3 m; față de limita posterioară cel puțin H, dar minim 6 m. R.L.U.: între două clădiri de pe parcelă cel puțin două treimi din înălțimea celei mai înalte, dar minim 4,5 m.",
+   "Toate clădirile se racordează la rețelele edilitare publice; apele meteorice nu se descarcă spre domeniul public sau spre vecini, cablurile nu se montează aerian, firidele de branșament se integrează în clădire sau în împrejmuire, iar parcela are o platformă sau un spațiu pentru deșeuri, accesibil din spațiul public.",
+   "Spațiul verde amenajat, pe sol natural, ocupă cel puțin 20 % din parcelă și are vegetație joasă, medie și înaltă, cu cel puțin 9 arbori cu circumferința de minim 35 cm la 1 m de la colet. R.L.U.: tăierea arborilor maturi e interzisă, în afară de cei periculoși sau care împiedică realizarea construcțiilor.",
+   "R.L.U.: sunt interzise locuirea de orice tip, comerțul en detail în clădiri independente de tip supermarket, hypermarket sau mall, comerțul și alimentația publică prin vitrine sau ferestre, construcțiile provizorii (și garajele în ele), depozitarea deșeurilor industriale în afara spațiilor amenajate și terasamentele care afectează spațiile publice sau parcelele vecine; infrastructura edilitară se admite numai subteran sau în afara spațiului public, iar garajele supraterane numai cu acces din străzi cu circulație redusă.",
+   "R.L.U.: nu se admit funcțiuni care poluează sau deversează substanțe periculoase; arhitectură modernă, care exprimă programul; firmele și vitrinele respectă Anexa 3 a P.U.G.",
+   "R.L.U.: împrejmuirea spre stradă are soclu opac de cel mult 80 cm și parte transparentă, în total cel mult 2,2 m, eventual dublată de gard viu; spre vecini cel mult 2,2 m, transparentă sau opacă; porțile nu se deschid spre spațiul public.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
