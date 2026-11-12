@@ -87,6 +87,10 @@ that adds it.
    `decupaj`. The overlay is the boundary plus `buffer_m`, minus any
    `exclude_px` boxes, such as tables or title blocks that the buffer reaches into.
    Use `puz.py grid <x0 y0 x1 y1>` to read box coordinates.
+   - **Owners' names on the lots.** Some plates write each owner's name on their lot
+     (590/2021). Put a tight box over each name in `decupaj.acopera_px`; `build`
+     paints it with the paper colour around it before warping, so the overlay keeps
+     the lot numbers and areas but no names. Check the result in `plansa.webp`.
    - **What goes in the legend.** The symbol key and the UTR blocks: codes, names
      and allowed POT/CUT/height. Leave out bilanțuri teritoriale, area-only
      zonificare tables, parking calculations, street profiles, the title block, and

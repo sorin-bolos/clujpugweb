@@ -1217,6 +1217,13 @@ def warp(r, pe, pn, ring):
         return p[0], p[1]
 
     cut = r.get("decupaj", {})
+    # Boxes painted over with the paper around them, before warping: owners' names
+    # written on the lots must not reach the map (590/2021).
+    for x0, y0, x1, y1 in cut.get("acopera_px", []):
+        edge = np.concatenate([img[max(y0 - 2, 0):y0, x0:x1].reshape(-1, 3), img[y1:y1 + 2, x0:x1].reshape(-1, 3),
+                               img[y0:y1, max(x0 - 2, 0):x0].reshape(-1, 3), img[y0:y1, x1:x1 + 2].reshape(-1, 3)])
+        paper = edge[edge.max(axis=1) > 110]
+        img[y0:y1, x0:x1] = np.median(paper if len(paper) else edge, axis=0).astype(np.uint8)
     clip = Polygon(ring).buffer(cut.get("buffer_m", 1.5), join_style=2)
     clip_px = shp_transform(to_px, clip)
     for b in cut.get("exclude_px", []):
