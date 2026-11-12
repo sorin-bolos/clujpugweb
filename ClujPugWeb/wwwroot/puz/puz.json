@@ -32774,5 +32774,178 @@
    "Parcarea se face în interiorul parcelelor, după Anexa 2 a Regulamentului P.U.G.; în zona verde Ve parcarea e interzisă.",
    "Toate construcțiile se racordează la rețelele edilitare existente (apă, canalizare, electricitate, gaz)."
   ]
+ },
+ {
+  "id": "2019-883",
+  "localitate": "cluj",
+  "hcl": "883/2019",
+  "data": "2019-12-10",
+  "titlu": "P.U.Z. de urbanizare – str. Reményik Sándor, latura estică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-883-din-2019/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2019/12/10/HCL-883-din-10.12.2019.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale (cu două unități locative), regim de construire izolat sau cuplat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "3 niveluri supraterane (S+P+E+M, S+P+E+R, D+P+M, D+P+R); H cornișă/atic 8 m, H max 12 m"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public (administrative, învățământ sau cercetare, sănătate și asistență socială, culte), regim de construire izolat; indicatorii după R.G.U. sau normele tehnice ale programului, fără a depăși maximele",
+    "pot_max": "75%",
+    "cut_max": "2,8",
+    "h_max": "(S)+P+2E, H max 12 m"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat (parcela 23)",
+    "pot_max": "5%",
+    "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+    "h_max": "(D)+P+E, H cornișă 9 m"
+   }
+  ],
+  "suprafata_m2": 22911,
+  "imagine": "puz/2019-883/plansa.webp",
+  "bounds": {
+   "west": 23.6444953,
+   "south": 46.7424514,
+   "east": 23.6466346,
+   "north": 46.7449843
+  },
+  "limita": [
+   [
+    23.6452718,
+    46.7449534
+   ],
+   [
+    23.6458773,
+    46.7448847
+   ],
+   [
+    23.6458828,
+    46.7447976
+   ],
+   [
+    23.6463178,
+    46.744721
+   ],
+   [
+    23.6462455,
+    46.7445063
+   ],
+   [
+    23.6462141,
+    46.7444134
+   ],
+   [
+    23.6460454,
+    46.7439183
+   ],
+   [
+    23.6460447,
+    46.7439182
+   ],
+   [
+    23.6459656,
+    46.7436816
+   ],
+   [
+    23.6459646,
+    46.7436818
+   ],
+   [
+    23.6459194,
+    46.7435473
+   ],
+   [
+    23.6465942,
+    46.7431008
+   ],
+   [
+    23.646279,
+    46.742494
+   ],
+   [
+    23.6451041,
+    46.7429589
+   ],
+   [
+    23.6447861,
+    46.7430846
+   ],
+   [
+    23.6447969,
+    46.7431218
+   ],
+   [
+    23.6447536,
+    46.743139
+   ],
+   [
+    23.6445699,
+    46.7431469
+   ],
+   [
+    23.6448689,
+    46.7436216
+   ],
+   [
+    23.6449972,
+    46.744101
+   ],
+   [
+    23.6449993,
+    46.7441006
+   ],
+   [
+    23.6451551,
+    46.7445999
+   ],
+   [
+    23.6452563,
+    46.7449082
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 7,
+   "rms_m": 0.35
+  },
+  "legenda": "puz/2019-883/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2026-12-10",
+   "initial_pana_la": "2024-12-10",
+   "prelungiri": [
+    {
+     "hcl": "766/2024",
+     "pana_la": "2026-12-10",
+     "nota": "HCL 766 din 2 decembrie 2024, Art. 1: prelungirea valabilității P.U.Z.-ului „aprobat prin Hotărârea nr. 883/2019, modificat prin Hotărârea nr. 123/2021” cu o perioadă de 24 de luni (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (10.12.2024); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii ar fi 2.12.2026)."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Limita: inventarul de coordonate (S = 60.161,36 mp) și linia galbenă cu puncte negre sunt ale zonei studiate, care cuprinde și parcelele construite sau autorizate dintre str. Reményik Sándor și str. Borhanciului (loturile 19A-19G, 11, 1A-1C etc., U.T.R. ULiu); Art. 1 aprobă P.U.Z.-ul pe terenul de 22.896 mp, iar pe hartă e doar acesta: loturile 1-4 (din vârfurile inventarului) și str. A existentă (lotul 5, trasat).",
+   "U.T.R. S_Is*: Art. 1 dă înălțimea maximă a clădirii, Hmax = 12 m; caseta „Caracteristici tehnice” a planșei scrie H max cornișă = 12 m.",
+   "Obligațiile pentru străzile „A”, „B” și „C” sunt cele din HCL 123/2021 (carosabilul înainte de autorizare, trotuarele până la recepție), nu cele din textul aprobat în 2019; planșa nu le pomenește."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. se suportă de beneficiari (Art. 1).",
+   "Terenul grevat de servitutea de utilitate publică instituită prin P.U.G. la str. Reményik Sándor (fâșia de 186 mp din bilanțul planșei, pentru modernizarea străzii) se dezmembrează din parcela inițială și se înscrie în CF ca „teren rezervat pentru servitute de utilitate publică” (art. 25 din Regulamentul Local de Urbanism, HCL 737/2017).",
+   "Străzile „A”, „B” și „C” propuse prin P.U.Z. (ampriză de 12 m) se echipează edilitar, iar partea carosabilă se realizează la strat de uzură înainte de emiterea autorizației de construire pe parcelele cu acces direct din ele; trotuarele se fac până la recepția construcțiilor (modificat prin HCL 123/2021; în 2019, străzile întregi înainte de autorizare).",
+   "Spațiul verde cu acces public nelimitat (subzona S_Va*, parcela 23) se amenajează înainte de recepția imobilelor de pe str. „C”.",
+   "Accesul se face din str. Reményik Sándor și din străzile noi, cel mult două accese auto pe parcelă; parcarea în interiorul parcelei; echipare tehnico-edilitară completă pe str. Reményik Sándor.",
+   "Retrageri în Liu*: min. 3 m față de aliniament (garajele min. 6 m, ca să se poată parca o mașină în față), min. 3 m față de limitele laterale (la locuințele cuplate calcanul are cel mult 25 m adâncime; garajele se pot alipi limitelor laterale cu calcan de cel mult 2,8 m), față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m; în S_Is* min. 6 m față de aliniament și jumătate din înălțime, dar min. 6 m, față de celelalte limite; în S_Va* 3 m față de aliniament și de limitele laterale, 6 m față de cea posterioară."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "123/2021",
+    "data": "2021-03-24",
+    "rezumat": "Înlocuiește ultimul alineat al Art. 1 (obligațiile): străzile „A”, „B” și „C” se echipează edilitar, iar înainte de autorizarea construcțiilor de pe parcelele cu acces din ele trebuie făcută doar partea carosabilă, la strat de uzură; trotuarele se fac până la recepție (textul din 2019 cerea străzile întregi înainte de autorizare). Dezmembrarea fâșiei de servitute de la str. Reményik Sándor și amenajarea spațiului verde înainte de recepția imobilelor de pe str. „C” rămân. Hotărârea n-are planșă și nici valabilitate proprie.",
+    "plansa_noua": false
+   }
+  ]
  }
 ]

@@ -1,0 +1,180 @@
+{
+  "id": "2019-883",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 883,
+    "an": 2019,
+    "data_sedinta": "2019-12-10",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-883-din-2019/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2019/12/10/HCL-883-din-10.12.2019.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – str. Reményik Sándor, latura estică",
+  "plansa": {
+    "pagina_pdf": 3,
+    "dpi": 96,
+    "denumire": "A-10 – Plan reglementări urbanistice",
+    "scara": "1:1000 (planșă de 594×801 mm, scanată în PDF la 96 ppi: 3,78 px/m; potrivirea dă 3,8 px/m)",
+    "nota": "PDF-ul are 15 pagini: pp. 1-2 hotărârea (textul de pe pagina hotărârii coincide cu cel scanat, fără articole adăugate); p. 3 planșa A-10 „Plan reglementări urbanistice”, proiect nr. 1165/2015, septembrie 2019, cu viza Arhitectului-șef, singura planșă din PDF, color, la mărimea ei reală (2239×3036 px, 96 ppi); pp. 4-5 avizul Arhitectului-șef nr. 853 din 2.09.2019; pp. 6-15 raportul informării și consultării publicului, cu observațiile vecinilor. Scanarea de 96 ppi (26 cm pe pixel) e aspră, dar cifrele inventarului și legenda se citesc. Legenda publicată cuprinde cheia simbolurilor, cele două note (cota de 10% pentru obiectivele de interes public; nivelul retras și accesul pe terasă) și caseta „Caracteristici tehnice” (POT, CUT și regim de înălțime pentru Liu*, S_Va* și S_Is*); tabelul parcelelor din teritoriul studiat (cu proprietarii), bilanțurile, indicii pe grupe de parcele, profilele stradale, secțiunile longitudinale, inventarul de coordonate și cartușul au rămas pe dinafară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („Tabel de coordonate”, dreapta-sus, x≈1990-2170, y≈330-1530 pe planșa randată; „Nr. pct.”, X [m] = Nord, Y [m] = Est, Stereo 70, cu lungimile laturilor D(i,i+1)) are două părți: punctele 300-410, conturul zonei studiate (linia galbenă cu puncte negre; sub tabel „S(1) = 60161,36 mp, P = 1614,209 m”, cât „suprafața teren studiat în PUZ – conf. Aviz de oportunitate nr. 574/30.06.2017”, 60.161 mp), și punctele roșii 6-11, latura de est a terenului reglementat (linia punctată albastră), care pleacă din linia zonei studiate la 373 și se închide în 355 (D(11) = 71,573 m e chiar latura 11-355). Terenul reglementat (22.896 mp, Art. 1 și bilanțul „Zona reglementată”) n-are inventar propriu, de aceea vârfurile sunt la `repere`, iar limita e `limita_px`, trasată pe planșă: conturul 344-374-373-6-7-8-9-10-11-355-354-353-352-351-350-349-348-347-346-345, din vârfurile inventarului puse pe planșă prin potrivire (deci la coordonatele lor), închide 22.562,2 mp, cât suma loturilor 1-4 din tabelul „Suprafața teren care a generat PUZ” al planșei (2.937 + 4.700 + 4.308 + 10.619 = 22.564 mp; avizul Arhitectului-șef nr. 853/2019 numește exact aceste patru numere cadastrale), iar latura 344-374 e linia punctată albastră din mijlocul str. A. Lotul 5 (nr. cad. 308267, 332 mp) n-are coordonate: e strada A existentă („Secțiune longitudinală A – Strada A – existentă”, 48,76 m între limita de proprietate de la str. Reményik Sándor și str. B), cu fața de 5,18 m între punctele 343 și 344 ale inventarului. Limita urcă deci din 344 în 343, merge pe marginea de nord a str. A desenate până la str. B (punctul trasat [612, 1863]) și coboară pe capătul străzii la latura 344-374 ([613, 1899,7], pe dreapta 344-374, la 48,8 m de 344); fâșia are 349 mp (+5% față de 332). Aria trasată: 22.910,9 mp față de 22.896 mp (+0,1%). Puncte de control: colțurile nete ale liniei zonei studiate 349 (SV, la str. Reményik Sándor), 354 (vârful de sud), 356 (colțul de SE), 371 și 373 (E) și, în nordul planșei, 309 și 318, toate pe mijlocul liniei; verificare: 357 (colțul de E), 11 (colțul de SE al liniei albastre) și 314 (colțul de NE).",
+    "suprafata_declarata_m2": 22896,
+    "puncte": {},
+    "nota": "Rândurile transcrise (6-11, 300-319, 326-376) s-au verificat pe laturile tipărite: laturile din jurul vârfurilor limitei (6-11 și 343-356) ies toate la 1 cm, iar 11-355 dă exact 71,573 m. Laturile 356-357 (38,004 calculat, 38,054 citit), 371-372 (8,98 / 9,01), 372-373 (19,354 / 19,335) și 374-375 (24,929 / 24,916) diferă cu 1-5 cm, la limita a ce se poate citi la 96 ppi, fără urmări la 26 cm pe pixel; rândurile 368-370 nu se potrivesc între ele și au rămas pe dinafară, ca și 312-316, ale căror laturi nu s-au putut citi; 314 (punct de verificare) e citit fără laturi de control, iar reziduul lui, 0,50 m, îl confirmă. Potrivirea afină pe toată foaia lasă reziduuri de 0,1-0,6 m: o potrivire numai pe colțurile din jurul terenului reglementat (rms 0,14 m) ducea colțurile din nordul planșei la 1,4-2,2 m, deci foaia scanată e ușor deformată; de aceea s-au luat și 309 și 318. Pe planșă, lotul propus 22 (la est de str. B) trece spre nord peste latura 344-374 cu un colț de până la ~5 m (≈100 mp, peste curtea casei de pe parcela 19A); limita urmează coordonatele inventarului (loturile 1-4), nu desenul lotului."
+  },
+  "repere": {
+    "6": [583644.423, 396691.193],
+    "7": [583589.606, 396677.38],
+    "8": [583589.624, 396677.316],
+    "9": [583563.418, 396670.817],
+    "10": [583563.447, 396670.755],
+    "11": [583548.57, 396667.04],
+    "308": [583937.16, 396736.73],
+    "309": [583928.67, 396734.72],
+    "310": [583940.92, 396718.54],
+    "314": [583966.928, 396723.964],
+    "317": [583977.795, 396678.732],
+    "318": [583978.42, 396676.307],
+    "319": [583963.745, 396672.793],
+    "339": [583805.565, 396642.117],
+    "340": [583788.567, 396638.396],
+    "341": [583736.559, 396627.01],
+    "342": [583723.144, 396624.073],
+    "343": [583705.68, 396620.25],
+    "344": [583700.664, 396618.972],
+    "345": [583666.539, 396610.656],
+    "346": [583611.251, 396597.782],
+    "347": [583611.291, 396597.634],
+    "348": [583558.176, 396586.926],
+    "349": [583505.814, 396563.182],
+    "350": [583504.702, 396577.2],
+    "351": [583502.733, 396580.486],
+    "352": [583498.626, 396579.562],
+    "353": [583484.214, 396603.636],
+    "354": [583431.02, 396692.496],
+    "355": [583498.053, 396717.743],
+    "356": [583494.22, 396721.59],
+    "357": [583530.118, 396734.064],
+    "358": [583536.206, 396731.862],
+    "359": [583565.187, 396741.459],
+    "360": [583590.531, 396749.852],
+    "361": [583593.266, 396750.754],
+    "362": [583613.663, 396758.246],
+    "363": [583636.193, 396766.517],
+    "364": [583656.845, 396774.098],
+    "365": [583677.591, 396781.714],
+    "366": [583689.326, 396760.284],
+    "367": [583686.206, 396759.404],
+    "371": [583642.567, 396719.366],
+    "372": [583646.304, 396711.2],
+    "373": [583654.701, 396693.763],
+    "374": [583678.474, 396699.713],
+    "375": [583702.649, 396705.799],
+    "376": [583703.138, 396705.92]
+  },
+  "limita_px": [
+    [437.6, 1831.9],
+    [612.0, 1863.0],
+    [613.0, 1899.7],
+    [738.1, 1933.5],
+    [715.7, 2023.7],
+    [706.0, 2062.7],
+    [653.8, 2270.7],
+    [653.6, 2270.7],
+    [629.1, 2370.1],
+    [628.8, 2370.0],
+    [614.8, 2426.5],
+    [806.6, 2617.0],
+    [711.3, 2871.5],
+    [375.2, 2671.5],
+    [284.2, 2617.4],
+    [287.6, 2601.8],
+    [275.2, 2594.4],
+    [222.2, 2590.4],
+    [311.9, 2391.5],
+    [352.3, 2190.0],
+    [352.9, 2190.2],
+    [401.4, 1980.4],
+    [432.8, 1850.9]
+  ],
+  "gcp_px": {
+    "349": [222, 2590],
+    "354": [710, 2872],
+    "356": [821, 2632],
+    "371": [813, 2068],
+    "373": [718, 2024],
+    "309": [869, 984],
+    "318": [649, 798]
+  },
+  "verificare_px": {
+    "357": [868, 2497],
+    "11": [616, 2428],
+    "314": [830, 838]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [1495, 1036, 1980, 1592],
+    [1507, 1878, 1980, 2266]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale (cu două unități locative), regim de construire izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "3 niveluri supraterane (S+P+E+M, S+P+E+R, D+P+M, D+P+R); H cornișă/atic 8 m, H max 12 m"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public (administrative, învățământ sau cercetare, sănătate și asistență socială, culte), regim de construire izolat; indicatorii după R.G.U. sau normele tehnice ale programului, fără a depăși maximele",
+      "pot_max": "75%",
+      "cut_max": "2,8",
+      "h_max": "(S)+P+2E, H max 12 m"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat (parcela 23)",
+      "pot_max": "5%",
+      "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+      "h_max": "(D)+P+E, H cornișă 9 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2024-12-10",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (ședința din 10.12.2019), prelungită cu 24 de luni prin HCL 766/2024, până la 10.12.2026. `related` (index actualizat 2026-11-08): o modificare (HCL 123/2021) și o prelungire (HCL 766/2024), nimic altceva."
+  },
+  "prelungiri": [
+    {
+      "hcl": "766/2024",
+      "pana_la": "2026-12-10",
+      "nota": "HCL 766 din 2 decembrie 2024, Art. 1: prelungirea valabilității P.U.Z.-ului „aprobat prin Hotărârea nr. 883/2019, modificat prin Hotărârea nr. 123/2021” cu o perioadă de 24 de luni (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (10.12.2024); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii ar fi 2.12.2026)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "123/2021",
+      "data": "2021-03-24",
+      "rezumat": "Înlocuiește ultimul alineat al Art. 1 (obligațiile): străzile „A”, „B” și „C” se echipează edilitar, iar înainte de autorizarea construcțiilor de pe parcelele cu acces din ele trebuie făcută doar partea carosabilă, la strat de uzură; trotuarele se fac până la recepție (textul din 2019 cerea străzile întregi înainte de autorizare). Dezmembrarea fâșiei de servitute de la str. Reményik Sándor și amenajarea spațiului verde înainte de recepția imobilelor de pe str. „C” rămân. Hotărârea n-are planșă și nici valabilitate proprie.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [
+    "Limita: inventarul de coordonate (S = 60.161,36 mp) și linia galbenă cu puncte negre sunt ale zonei studiate, care cuprinde și parcelele construite sau autorizate dintre str. Reményik Sándor și str. Borhanciului (loturile 19A-19G, 11, 1A-1C etc., U.T.R. ULiu); Art. 1 aprobă P.U.Z.-ul pe terenul de 22.896 mp, iar pe hartă e doar acesta: loturile 1-4 (din vârfurile inventarului) și str. A existentă (lotul 5, trasat).",
+    "U.T.R. S_Is*: Art. 1 dă înălțimea maximă a clădirii, Hmax = 12 m; caseta „Caracteristici tehnice” a planșei scrie H max cornișă = 12 m.",
+    "Obligațiile pentru străzile „A”, „B” și „C” sunt cele din HCL 123/2021 (carosabilul înainte de autorizare, trotuarele până la recepție), nu cele din textul aprobat în 2019; planșa nu le pomenește."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. se suportă de beneficiari (Art. 1).",
+    "Terenul grevat de servitutea de utilitate publică instituită prin P.U.G. la str. Reményik Sándor (fâșia de 186 mp din bilanțul planșei, pentru modernizarea străzii) se dezmembrează din parcela inițială și se înscrie în CF ca „teren rezervat pentru servitute de utilitate publică” (art. 25 din Regulamentul Local de Urbanism, HCL 737/2017).",
+    "Străzile „A”, „B” și „C” propuse prin P.U.Z. (ampriză de 12 m) se echipează edilitar, iar partea carosabilă se realizează la strat de uzură înainte de emiterea autorizației de construire pe parcelele cu acces direct din ele; trotuarele se fac până la recepția construcțiilor (modificat prin HCL 123/2021; în 2019, străzile întregi înainte de autorizare).",
+    "Spațiul verde cu acces public nelimitat (subzona S_Va*, parcela 23) se amenajează înainte de recepția imobilelor de pe str. „C”.",
+    "Accesul se face din str. Reményik Sándor și din străzile noi, cel mult două accese auto pe parcelă; parcarea în interiorul parcelei; echipare tehnico-edilitară completă pe str. Reményik Sándor.",
+    "Retrageri în Liu*: min. 3 m față de aliniament (garajele min. 6 m, ca să se poată parca o mașină în față), min. 3 m față de limitele laterale (la locuințele cuplate calcanul are cel mult 25 m adâncime; garajele se pot alipi limitelor laterale cu calcan de cel mult 2,8 m), față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m; în S_Is* min. 6 m față de aliniament și jumătate din înălțime, dar min. 6 m, față de celelalte limite; în S_Va* 3 m față de aliniament și de limitele laterale, 6 m față de cea posterioară."
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "id": "2021-123",
+  "localitate": "cluj",
+  "stare": "integrat",
+  "integrat_in": "2019-883",
+  "hcl": {
+    "nr": 123,
+    "an": 2021,
+    "data_sedinta": "2021-03-24",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-123-din-2021/",
+    "pdf": null
+  },
+  "titlu": "Modificarea Hotărârii nr. 883/2019 de aprobare a P.U.Z. de urbanizare – str. Reményik Sándor, latura estică",
+  "plansa": {
+    "pagina_pdf": null,
+    "dpi": 200,
+    "denumire": "",
+    "scara": "",
+    "nota": "Pagina hotărârii nu leagă niciun document (verificat la 12.11.2026), de aceea `puz.sh new` n-a putut face scheletul, iar rețeta e scrisă de mână după pagina hotărârii, care are textul integral. Hotărârea n-are anexe și nici planșă: modifică doar o obligație a P.U.Z.-ului aprobat prin HCL 883/2019, care se arată pe hartă cu planșa lui (rețeta 2019-883)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Nicio sursă de coordonate: hotărârea n-are planșă.",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "valabilitate": {
+    "nota": "Hotărârea nu are valabilitate proprie: modifică doar ultimul alineat al Art. 1 din HCL 883/2019 (Art. I) și nu atinge Art. 2 al acesteia, care dă documentației cinci ani de la 10.12.2019 (până la 10.12.2024). HCL 766/2024 prelungește cu 24 de luni valabilitatea P.U.Z.-ului „aprobat prin Hotărârea nr. 883/2019, modificat prin Hotărârea nr. 123/2021”, până la 10.12.2026; până atunci e în vigoare și modificarea. Verificat la 12.11.2026 (`related` pe 2019-883, index actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [
+    "883/2019"
+  ],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Art. I înlocuiește ultimul alineat al Art. 1 din HCL 883/2019: terenul grevat de servitutea de utilitate publică instituită prin P.U.G. la str. Reményik Sándor se dezmembrează din parcela inițială și se înscrie în CF ca „teren rezervat pentru servitute de utilitate publică” (art. 25 revizuit din Regulamentul Local de Urbanism – Dispoziții generale, HCL 737/2017) – neschimbat.",
+    "Străzile „A”, „B” și „C” propuse prin P.U.Z. se echipează edilitar, iar partea carosabilă se realizează la strat de uzură înainte de emiterea autorizației de construire pe parcelele cu acces direct din ele; partea pietonală (trotuarele) se realizează până la recepția construcțiilor. Textul din 2019 cerea străzile întregi realizate la strat de uzură înainte de autorizare.",
+    "Spațiul verde cu acces public nelimitat se amenajează înainte de recepția imobilelor de pe str. „C” – neschimbat."
+  ]
+}
