@@ -30666,6 +30666,600 @@
   ]
  },
  {
+  "id": "2022-54",
+  "localitate": "cluj",
+  "hcl": "54/2022",
+  "data": "2022-02-08",
+  "titlu": "P.U.Z. de restructurare urbană – str. Fabricii de Chibrituri nr. 5-11",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-54-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/03/04/HCL-54-din-8-02-2022-PUZ-de-restruct-urb-Geainv-Lidl-str-Fabricii-de-chibrituri-nr-5-11.pdf",
+  "utr": [
+   {
+    "cod": "RiM1",
+    "denumire": "Zonă mixtă – teritorii urbane cu caracter mixt, cu structură funcțională echilibrată, rezultat al aplicării procedurii de restructurare a zonelor cu caracter industrial (parcela nr. cad. 319313, 15.429 mp): locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, comerciale (terțiare), culturale, de învățământ, de sănătate cu caracter ambulatoriu, de turism, de sport; locuirea ocupă între 30% și 70% din suprafața construită desfășurată totală; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "40 m, (1-3S)+P+8E+R; nivelul retras cu min. 1,8 m față de fațadă și cu cel mult 60% din aria ultimului nivel plin; peste el se admite un nivel tehnic (centrale termice, pompe de căldură, case lift, instalații de producere a energiei)"
+   },
+   {
+    "cod": "S_Ec1",
+    "denumire": "Subzonă dedicată activităților comerciale de tip supermarket și terțiar (parcela nr. cad. 319312, 15.000 mp, împărțită în parcelele 1 – 12.128 mp, magazinul, 2 – 2000 mp și 3 – 872 mp, plus drumul de acces nr. cad. 272417; 19.046 mp în bilanțul planșei): comerț de tip supermarket, hipermarket, în clădiri de tip „big box” cu A.D.C. peste 1000 mp, comerț și servicii în sistem „mall”, reprezentanțe comerciale; funcțiuni terțiare, de învățământ, sănătate și asistență socială admise doar în nordul subzonei, lângă pârâul Nadăș, pe parcela 2; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "1,2",
+    "h_max": "21 m la cornișă, 25 m înălțimea totală"
+   }
+  ],
+  "suprafata_m2": 34475,
+  "imagine": "puz/2022-54/plansa.webp",
+  "bounds": {
+   "west": 23.5843793,
+   "south": 46.7850943,
+   "east": 23.5880826,
+   "north": 46.7875891
+  },
+  "limita": [
+   [
+    23.5866299,
+    46.7854321
+   ],
+   [
+    23.5866339,
+    46.7854251
+   ],
+   [
+    23.5861572,
+    46.7853049
+   ],
+   [
+    23.5859364,
+    46.7852512
+   ],
+   [
+    23.5858798,
+    46.7852406
+   ],
+   [
+    23.5858568,
+    46.7852363
+   ],
+   [
+    23.5856084,
+    46.785184
+   ],
+   [
+    23.5855967,
+    46.7851815
+   ],
+   [
+    23.5855248,
+    46.7851662
+   ],
+   [
+    23.585515,
+    46.7851643
+   ],
+   [
+    23.5855146,
+    46.7851744
+   ],
+   [
+    23.5854367,
+    46.7851594
+   ],
+   [
+    23.5852294,
+    46.7851212
+   ],
+   [
+    23.585212,
+    46.7851195
+   ],
+   [
+    23.5851938,
+    46.7851183
+   ],
+   [
+    23.5851766,
+    46.7851204
+   ],
+   [
+    23.5851601,
+    46.7851249
+   ],
+   [
+    23.585373,
+    46.7851911
+   ],
+   [
+    23.5854973,
+    46.7852179
+   ],
+   [
+    23.5855728,
+    46.7852342
+   ],
+   [
+    23.5856468,
+    46.7852502
+   ],
+   [
+    23.5856645,
+    46.7852561
+   ],
+   [
+    23.5856774,
+    46.7852616
+   ],
+   [
+    23.5856897,
+    46.7852684
+   ],
+   [
+    23.5857024,
+    46.785277
+   ],
+   [
+    23.5857119,
+    46.7852845
+   ],
+   [
+    23.5857187,
+    46.7852909
+   ],
+   [
+    23.5857286,
+    46.7853026
+   ],
+   [
+    23.585738,
+    46.7853184
+   ],
+   [
+    23.585742,
+    46.7853332
+   ],
+   [
+    23.5857433,
+    46.7853414
+   ],
+   [
+    23.5857406,
+    46.7853538
+   ],
+   [
+    23.5857235,
+    46.785398
+   ],
+   [
+    23.5856733,
+    46.7853889
+   ],
+   [
+    23.5855818,
+    46.7856204
+   ],
+   [
+    23.5856081,
+    46.7856257
+   ],
+   [
+    23.5856342,
+    46.7856369
+   ],
+   [
+    23.5856497,
+    46.785657
+   ],
+   [
+    23.5856492,
+    46.7856778
+   ],
+   [
+    23.5853599,
+    46.7864098
+   ],
+   [
+    23.5852771,
+    46.7866354
+   ],
+   [
+    23.5852396,
+    46.7866984
+   ],
+   [
+    23.5852415,
+    46.7866993
+   ],
+   [
+    23.5852259,
+    46.7867255
+   ],
+   [
+    23.5852185,
+    46.7867311
+   ],
+   [
+    23.5852163,
+    46.7867302
+   ],
+   [
+    23.5852054,
+    46.7867366
+   ],
+   [
+    23.5851936,
+    46.7867417
+   ],
+   [
+    23.5851811,
+    46.7867457
+   ],
+   [
+    23.5851583,
+    46.7867494
+   ],
+   [
+    23.5851436,
+    46.7867497
+   ],
+   [
+    23.5851291,
+    46.7867487
+   ],
+   [
+    23.5847183,
+    46.7866736
+   ],
+   [
+    23.5846222,
+    46.786656
+   ],
+   [
+    23.5846215,
+    46.7866568
+   ],
+   [
+    23.5845374,
+    46.7866414
+   ],
+   [
+    23.584538,
+    46.7866406
+   ],
+   [
+    23.5845193,
+    46.7866372
+   ],
+   [
+    23.5844267,
+    46.7867428
+   ],
+   [
+    23.5844288,
+    46.7867437
+   ],
+   [
+    23.5844429,
+    46.7867512
+   ],
+   [
+    23.5845215,
+    46.7867811
+   ],
+   [
+    23.5845385,
+    46.7867877
+   ],
+   [
+    23.5845896,
+    46.7868075
+   ],
+   [
+    23.5845984,
+    46.7867955
+   ],
+   [
+    23.5846178,
+    46.7867938
+   ],
+   [
+    23.5850628,
+    46.7869669
+   ],
+   [
+    23.5851365,
+    46.7869931
+   ],
+   [
+    23.5851772,
+    46.7870093
+   ],
+   [
+    23.5854693,
+    46.7871173
+   ],
+   [
+    23.5860394,
+    46.7873029
+   ],
+   [
+    23.5863573,
+    46.7874064
+   ],
+   [
+    23.5869397,
+    46.7875569
+   ],
+   [
+    23.58694,
+    46.787552
+   ],
+   [
+    23.5869681,
+    46.7875214
+   ],
+   [
+    23.5869822,
+    46.7875051
+   ],
+   [
+    23.5870005,
+    46.7874838
+   ],
+   [
+    23.5870017,
+    46.7874826
+   ],
+   [
+    23.5870238,
+    46.7874589
+   ],
+   [
+    23.5870246,
+    46.7874579
+   ],
+   [
+    23.5871147,
+    46.7873521
+   ],
+   [
+    23.5872303,
+    46.7872207
+   ],
+   [
+    23.5873038,
+    46.7871368
+   ],
+   [
+    23.5874081,
+    46.7870189
+   ],
+   [
+    23.5874383,
+    46.786981
+   ],
+   [
+    23.5877037,
+    46.7869767
+   ],
+   [
+    23.5876941,
+    46.7867921
+   ],
+   [
+    23.5877005,
+    46.7866972
+   ],
+   [
+    23.5876903,
+    46.7865135
+   ],
+   [
+    23.5880251,
+    46.7864937
+   ],
+   [
+    23.5880088,
+    46.7862518
+   ],
+   [
+    23.5879544,
+    46.7861033
+   ],
+   [
+    23.5879449,
+    46.7861066
+   ],
+   [
+    23.5878274,
+    46.7861416
+   ],
+   [
+    23.5877146,
+    46.7859809
+   ],
+   [
+    23.5876945,
+    46.7859876
+   ],
+   [
+    23.5876369,
+    46.7859063
+   ],
+   [
+    23.5876778,
+    46.7858834
+   ],
+   [
+    23.5876573,
+    46.7858664
+   ],
+   [
+    23.5876526,
+    46.7858689
+   ],
+   [
+    23.587598,
+    46.7858236
+   ],
+   [
+    23.5876049,
+    46.7858197
+   ],
+   [
+    23.587583,
+    46.7858019
+   ],
+   [
+    23.5876586,
+    46.785755
+   ],
+   [
+    23.587587,
+    46.7857014
+   ],
+   [
+    23.5875377,
+    46.7856715
+   ],
+   [
+    23.5873975,
+    46.7856108
+   ],
+   [
+    23.5872748,
+    46.7855692
+   ],
+   [
+    23.5872092,
+    46.785556
+   ],
+   [
+    23.5871829,
+    46.7855499
+   ],
+   [
+    23.587185,
+    46.785552
+   ],
+   [
+    23.5873168,
+    46.785687
+   ],
+   [
+    23.5874349,
+    46.7858255
+   ],
+   [
+    23.5875221,
+    46.7859657
+   ],
+   [
+    23.5875326,
+    46.7859858
+   ],
+   [
+    23.5875376,
+    46.7860059
+   ],
+   [
+    23.5875375,
+    46.7860235
+   ],
+   [
+    23.5874012,
+    46.7861801
+   ],
+   [
+    23.5872068,
+    46.7861032
+   ],
+   [
+    23.5872211,
+    46.7860859
+   ],
+   [
+    23.5868803,
+    46.7859478
+   ],
+   [
+    23.5867832,
+    46.7859084
+   ],
+   [
+    23.5867061,
+    46.7858772
+   ],
+   [
+    23.5864988,
+    46.7857932
+   ],
+   [
+    23.5865163,
+    46.7857744
+   ],
+   [
+    23.5865276,
+    46.7857612
+   ],
+   [
+    23.5866321,
+    46.7856459
+   ],
+   [
+    23.5866584,
+    46.7856167
+   ],
+   [
+    23.5867583,
+    46.7855906
+   ],
+   [
+    23.5865753,
+    46.7855304
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 22,
+   "rms_m": 0.15
+  },
+  "legenda": "puz/2022-54/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-02-08"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea în S_Ec1: planșa (secțiunea 1) dă doar „înălțimea maximă admisă 25 m”; hotărârea (Art. 1) adaugă limita de 21 m la cornișă.",
+   "Instituțiile de învățământ: blocul S_Ec1 de pe planșă dă pentru „instituții de educație/învățământ – creșe, grădinițe, școli publice și private (conform contract de restructurare)” POT maxim 25% și CUT maxim 0,5; hotărârea nu are acești indicatori: pentru toată subzona dă POT 60% și CUT 1,2, admite învățământul, sănătatea și asistența socială doar pe parcela 2 (2000 mp) și cere acolo o clădire P+E de min. 500 mp, cedată domeniului public.",
+   "Împrejmuirea: planșa notează că între parcela magazinului și parcela pentru locuire/birouri nu se face gard (secțiunea 1: „fără împrejmuire”); hotărârea nu reia nota.",
+   "Spațiul verde: hotărârea cere spațiu verde pe sol natural de min. 30% și cel puțin 30 de arbori în RiM1, respectiv min. 20% în S_Ec1; planșa nu dă procente, ci doar un arbore la trei locuri de parcare pe terenul magazinului.",
+   "Dezmembrarea din RiM1: planșa propune desprinderea a 1114,37 mp din parcela nr. cad. 319313 (fâșia de sud-est, spre str. Fabricii de Chibrituri), amenajați cu gazon și arbuști sau cu parcaje, rămânând 14.314,63 mp pentru construire; hotărârea nu pomenește această dezmembrare, ci doar pe cea a parcelei 2 din nr. cad. 319312.",
+   "Zonele de protecție: planșa desenează zona de protecție de 15 m a pârâului Nadăș (Legea apelor) de-a lungul laturii de nord și zonele de protecție (100 m) și de siguranță (20 m) ale căii ferate (OUG 12/1998); hotărârea nu le menționează."
+  ],
+  "conditii": [
+   "Prin P.U.Z. se reglementează 3,44 ha (nr. cad. 319312, 319313 și drumul nr. cad. 272417) pe frontul nordic al str. Fabricii de Chibrituri, la est de magazinul Dedeman (nr. 5): o unitate comercială, un ansamblu mixt din trei corpuri de clădire și o dotare publică/servicii de interes public. Hotărârea aprobă odată cu P.U.Z.-ul și contractul de restructurare cu investitorii (Anexa 4).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiare.",
+   "Înainte de orice autorizație de construire, din parcela nr. cad. 319312 se dezmembrează parcela 2, de 2000 mp, și i se înscrie în CF 272417 dreptul de servitute de trecere auto și pietonală; parcela 2 se cedează apoi gratuit în proprietate publică.",
+   "Pe parcela 2 (S_Ec1) investitorul ridică o clădire P+E (nivel semifinisat) cu aria construită de min. 500 mp și o transferă, cu terenul de 2000 mp, în proprietate publică (planșa A06 „Proprietatea asupra terenului”), înainte de recepția oricărei alte construcții.",
+   "Investitorul face un pod pentru biciclete și pietoni, lat de 3,5 m, peste pârâul Nadăș, în dreptul str. Papiu Ilarian (planșa A03), înainte de recepția oricărei construcții, în afară de cea de pe parcela 2.",
+   "Înainte de recepția construcțiilor din RiM1, investitorul face o trecere de pietoni pe str. Fabricii de Chibrituri lângă intersecția cu str. Gării, semaforizarea inteligentă a intersecției str. Gării – str. Fabricii de Chibrituri – drumul din incinta ansamblului mixt și două alveole pentru stații de autobuz pe str. Fabricii de Chibrituri.",
+   "Incinta ansamblului mixt se amenajează pe baza unui proiect de specialitate; spațiile verzi au mobilier urban (bănci, coșuri de gunoi, iluminat) și amenajări pentru joacă, odihnă și alte activități în aer liber.",
+   "RiM1: retragere min. 3 m față de aliniament; față de limitele laterale și posterioară H cornișă/2, dar min. 9 m; acces din str. Fabricii de Chibrituri; cel puțin 75% din locurile de parcare (auto, velo) în subsol, demisol sau parter; spațiu verde pe sol natural min. 30% din teren, cu vegetație joasă, medie și înaltă și cel puțin 30 de arbori cu circumferința de min. 35 cm la 1 m de colet.",
+   "S_Ec1: retragere min. 10 m față de aliniament; față de limitele laterale H cornișă/2, dar min. 6 m pe parcela 1 și min. 4,5 m pe parcela 2; față de limita posterioară H cornișă/2, dar min. 6 m; acces din drumul nr. cad. 272417 din vest; parcarea în incintă, de regulă la sol (necesarul după Anexa 2 a R.L.U. al P.U.G.); spațiu verde pe sol natural min. 20%, iar în parcajul magazinului, de regulă, un arbore la trei locuri de parcare, cu circumferința de min. 35 cm la 1 m de colet.",
+   "În ambele zone: racord la rețelele edilitare publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în clădiri; fără cabluri aeriene; punctul de colectare selectivă a deșeurilor, pe patru fracții, e îngropat (hidraulic).",
+   "Pentru terenul din UTR Ve (culoarul pârâului Nadăș, la nord, în afara limitei reglementate) rămân prevederile R.L.U. al P.U.G."
+  ],
+  "modificat_de": [
+   {
+    "hcl": "106/2026",
+    "data": "2026-03-20",
+    "rezumat": "Aprobă un act adițional la contractul de restructurare nr. 307597/29.02.2024 (Anexa 4 a hotărârii): drepturile și obligațiile unuia dintre cei doi investitori trec, prin contractul de cesiune din 19.04.2024, la alte două societăți. Nu schimbă indicatorii, obligațiile sau valabilitatea P.U.Z.-ului.",
+    "plansa_noua": false
+   }
+  ]
+ },
+ {
   "id": "2021-754",
   "localitate": "cluj",
   "hcl": "754/2021",

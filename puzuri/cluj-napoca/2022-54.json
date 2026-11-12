@@ -1,0 +1,1315 @@
+{
+  "id": "2022-54",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 54,
+    "an": 2022,
+    "data_sedinta": "2022-02-08",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-54-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/03/04/HCL-54-din-8-02-2022-PUZ-de-restruct-urb-Geainv-Lidl-str-Fabricii-de-chibrituri-nr-5-11.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare urbană – str. Fabricii de Chibrituri nr. 5-11",
+  "plansa": {
+    "pagina_pdf": 31,
+    "dpi": 96,
+    "denumire": "Reglementări urbanistice – zonificare (planșa A/P.U.Z./03)",
+    "scara": "1:1000",
+    "nota": "PDF-ul are 35 de pagini scanate la 96 ppi: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii, fără articole adăugate după lista anexelor), Anexa 1 – regulamentul local de urbanism (p. 4-17), Anexa 2 – planșa A03 redusă pe A4 (p. 18), Anexa 3 – planșa A06 redusă pe A4 (p. 19), Anexa 4 – contractul de restructurare (p. 20-23), avizul de oportunitate nr. 101/8.04.2020 cu planul lui (p. 24-26), avizul arhitectului-șef nr. 71/5.07.2021 (p. 27-30), planșa A03 color la format A1 (p. 31, 3171×2250 px), planșa A06 „Proprietatea asupra terenurilor” color la format A2 (p. 32) și raportul informării și consultării publicului (p. 33-35). E aleasă p. 31: e planșa de reglementări din Anexa 2, color și la format mare, cu viza comisiei tehnice „HCL nr. 54 din 8.02.2022”, aviz nr. 71 din 5.07.2021; p. 32 are același desen de bază, dar arată proprietatea terenurilor, iar p. 18 e aceeași planșă micșorată pe A4. Cartușul: „Reglementări urbanistice – zonificare”, pl. A\\P.U.Z.\\03, pr. nr. 2/2017, faza P.U.Z., martie 2021, scara 1:1000, format A1; fitul dă 3,73-3,75 px/m față de 3,78 px/m la scară, deci planșa e tipărită cu ~1% mai mică. Nordul e în sus (rotație -0,5°). Legenda ia trei casete: legenda simbolurilor (dreapta sus), blocul „Propunere” din coloana de text (UTR RiM1 și S_Ec1 cu suprafețele, parcelele, POT și CUT, plus nota despre împrejmuire) și nota despre etajul tehnic de deasupra secțiunilor; au rămas afară beneficiarii și amplasamentul din capul coloanei de text, încadrarea în P.U.G. și situația existentă, inventarul de coordonate, cele două bilanțuri teritoriale, secțiunile, ștampilele și cartușul. Din planșa publicată sunt decupate (`exclude_px`, cinci casete mici în trepte) primele două rânduri ale etichetelor „Proprietar: …” din parcela S_Ec1 și din parcela RiM1, ca să nu apară numele proprietarilor; numerele de CF și suprafețele de sub ele rămân."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A03 (tabelul „Calculul analitic al suprafeței delimitate prin P.U.Z.”, „Parcela (TOTAL) CC, DR”, Stereo 70, X (m) = Nord, Y (m) = Est): 130 de puncte (1700-1829) în ordinea limitei, nu a numerelor – 1728, 1829 → 1792, 1791, 1727 → 1704, 1703 → 1700, 1789, 1790, 1729 → 1788 – de aceea `ordine`. Tabelul dă și laturile D(i,i+1), S(TOTAL) = 34474,52 mp și P = 1173,204 m; aria coordonatelor iese 34474,52 mp, perimetrul 1173,204 m, iar toate cele 130 de laturi se potrivesc (≤ 2 mm). Limita e cea a parcelelor nr. cad. 319312 și 319313 plus drumul de acces nr. cad. 272417 din vest (34.475 mp în bilanțul zonei reglementate, 3,44 ha în Art. 1). Așezarea planșei: pe ea e desenat caroiajul Stereo 70 – cruci la fiecare 50 m, fără etichete. Etichetele au fost date de un fit prin vârfurile inventarului (fiecare cruce a căzut la cel mult 1,3 m de un nod de 50 m), iar `caroiaj`, cu ancora în vârful 1748, le confirmă (max. 1,1 m de nod). 26 de cruci, citite la subpixel pe mijlocul brațelor, intră ca repere: 22 în `gcp_px` (rms 0,15 m, max. 0,25 m) și 4 în `verificare_px` (C392100_588350, C392250_588300, C392150_588250, C392350_588350; 0,01-0,32 m). Puncte de verificare din inventar: 15 vârfuri de colț, citite pe mijlocul liniei roșii a limitei de proprietate, iar unde ea lipsește (latura de vest și sud, spre drumul de acces și str. Fabricii de Chibrituri) pe mijlocul liniei negre întrerupte a zonei reglementate: 1731, 1743, 1744, 1747, 1748, 1752, 1762, 1776, 1782, 1787, 1728, 1708, 1710, 1796, 1797 – reziduuri 0,11-1,00 m. Linia neagră e trasă pe partea exterioară a celei roșii, așa că limita din inventar cade pe marginea interioară a benzii desenate; cel mai mult (~1 m) la 1796 și 1797, pe latura de vest.",
+    "suprafata_declarata_m2": 34474.52,
+    "puncte": {
+      "1728": [
+        588282.57,
+        392220.65
+      ],
+      "1829": [
+        588281.78,
+        392220.94
+      ],
+      "1828": [
+        588269.08,
+        392184.31
+      ],
+      "1827": [
+        588263.41,
+        392167.35
+      ],
+      "1826": [
+        588262.309,
+        392163.01
+      ],
+      "1825": [
+        588261.86,
+        392161.24
+      ],
+      "1824": [
+        588256.39,
+        392142.18
+      ],
+      "1823": [
+        588256.13,
+        392141.28
+      ],
+      "1822": [
+        588254.53,
+        392135.76
+      ],
+      "1821": [
+        588254.33,
+        392135.01
+      ],
+      "1820": [
+        588255.45,
+        392135.0
+      ],
+      "1819": [
+        588253.89,
+        392129.02
+      ],
+      "1818": [
+        588249.93,
+        392113.12
+      ],
+      "1817": [
+        588249.76,
+        392111.79
+      ],
+      "1816": [
+        588249.65,
+        392110.4
+      ],
+      "1815": [
+        588249.91,
+        392109.09
+      ],
+      "1814": [
+        588250.43,
+        392107.84
+      ],
+      "1813": [
+        588257.5,
+        392124.22
+      ],
+      "1812": [
+        588260.31,
+        392133.76
+      ],
+      "1811": [
+        588262.02,
+        392139.559
+      ],
+      "1810": [
+        588263.69,
+        392145.24
+      ],
+      "1809": [
+        588264.33,
+        392146.6
+      ],
+      "1808": [
+        588264.92,
+        392147.6
+      ],
+      "1807": [
+        588265.66,
+        392148.55
+      ],
+      "1806": [
+        588266.6,
+        392149.54
+      ],
+      "1805": [
+        588267.42,
+        392150.28
+      ],
+      "1804": [
+        588268.12,
+        392150.81
+      ],
+      "1803": [
+        588269.41,
+        392151.59
+      ],
+      "1802": [
+        588271.15,
+        392152.34
+      ],
+      "1801": [
+        588272.79,
+        392152.67
+      ],
+      "1800": [
+        588273.7,
+        392152.79
+      ],
+      "1799": [
+        588275.081,
+        392152.61
+      ],
+      "1798": [
+        588280.02,
+        392151.39
+      ],
+      "1797": [
+        588279.07,
+        392147.54
+      ],
+      "1796": [
+        588304.92,
+        392141.011
+      ],
+      "1795": [
+        588305.48,
+        392143.03
+      ],
+      "1794": [
+        588306.69,
+        392145.05
+      ],
+      "1793": [
+        588308.9,
+        392146.27
+      ],
+      "1792": [
+        588311.21,
+        392146.27
+      ],
+      "1791": [
+        588392.96,
+        392125.64
+      ],
+      "1727": [
+        588418.14,
+        392119.77
+      ],
+      "1726": [
+        588425.19,
+        392117.03
+      ],
+      "1725": [
+        588425.29,
+        392117.18
+      ],
+      "1724": [
+        588428.22,
+        392116.04
+      ],
+      "1723": [
+        588428.86,
+        392115.49
+      ],
+      "1722": [
+        588428.763,
+        392115.317
+      ],
+      "1721": [
+        588429.49,
+        392114.5
+      ],
+      "1720": [
+        588430.07,
+        392113.61
+      ],
+      "1719": [
+        588430.53,
+        392112.66
+      ],
+      "1718": [
+        588430.97,
+        392110.93
+      ],
+      "1717": [
+        588431.03,
+        392109.81
+      ],
+      "1716": [
+        588430.93,
+        392108.7
+      ],
+      "1715": [
+        588423.15,
+        392077.19
+      ],
+      "1714": [
+        588421.321,
+        392069.82
+      ],
+      "1713": [
+        588421.42,
+        392069.77
+      ],
+      "1712": [
+        588419.82,
+        392063.319
+      ],
+      "1711": [
+        588419.728,
+        392063.362
+      ],
+      "1710": [
+        588419.38,
+        392061.93
+      ],
+      "1709": [
+        588431.24,
+        392055.07
+      ],
+      "1708": [
+        588431.34,
+        392055.23
+      ],
+      "1707": [
+        588432.15,
+        392056.32
+      ],
+      "1706": [
+        588435.37,
+        392062.38
+      ],
+      "1705": [
+        588436.08,
+        392063.69
+      ],
+      "1704": [
+        588438.21,
+        392067.63
+      ],
+      "1703": [
+        588436.86,
+        392068.28
+      ],
+      "1702": [
+        588436.65,
+        392069.76
+      ],
+      "1701": [
+        588455.28,
+        392104.07
+      ],
+      "1700": [
+        588458.09,
+        392109.75
+      ],
+      "1789": [
+        588459.83,
+        392112.89
+      ],
+      "1790": [
+        588471.43,
+        392135.4
+      ],
+      "1729": [
+        588491.281,
+        392179.287
+      ],
+      "1730": [
+        588502.35,
+        392203.76
+      ],
+      "1731": [
+        588518.28,
+        392248.52
+      ],
+      "1732": [
+        588517.734,
+        392248.527
+      ],
+      "1733": [
+        588514.301,
+        392250.617
+      ],
+      "1734": [
+        588512.47,
+        392251.66
+      ],
+      "1735": [
+        588510.08,
+        392253.01
+      ],
+      "1736": [
+        588509.938,
+        392253.098
+      ],
+      "1737": [
+        588507.276,
+        392254.741
+      ],
+      "1738": [
+        588507.167,
+        392254.802
+      ],
+      "1739": [
+        588495.286,
+        392261.471
+      ],
+      "1740": [
+        588480.527,
+        392270.033
+      ],
+      "1741": [
+        588471.1,
+        392275.48
+      ],
+      "1742": [
+        588457.856,
+        392283.207
+      ],
+      "1743": [
+        588453.607,
+        392285.435
+      ],
+      "1744": [
+        588452.762,
+        392305.687
+      ],
+      "1745": [
+        588432.261,
+        392304.584
+      ],
+      "1746": [
+        588421.7,
+        392304.89
+      ],
+      "1747": [
+        588401.3,
+        392303.74
+      ],
+      "1748": [
+        588398.65,
+        392329.26
+      ],
+      "1749": [
+        588371.79,
+        392327.54
+      ],
+      "1750": [
+        588355.36,
+        392323.09
+      ],
+      "1751": [
+        588355.74,
+        392322.37
+      ],
+      "1752": [
+        588359.79,
+        392313.47
+      ],
+      "1753": [
+        588342.08,
+        392304.54
+      ],
+      "1754": [
+        588342.85,
+        392303.02
+      ],
+      "1755": [
+        588333.89,
+        392298.46
+      ],
+      "1756": [
+        588331.29,
+        392301.54
+      ],
+      "1757": [
+        588329.43,
+        392299.94
+      ],
+      "1758": [
+        588329.72,
+        392299.59
+      ],
+      "1759": [
+        588324.76,
+        392295.33
+      ],
+      "1760": [
+        588324.31,
+        392295.85
+      ],
+      "1761": [
+        588322.37,
+        392294.14
+      ],
+      "1762": [
+        588317.05,
+        392299.82
+      ],
+      "1763": [
+        588311.19,
+        392294.25
+      ],
+      "1764": [
+        588307.94,
+        392290.42
+      ],
+      "1765": [
+        588301.38,
+        392279.6
+      ],
+      "1766": [
+        588296.93,
+        392270.15
+      ],
+      "1767": [
+        588295.55,
+        392265.12
+      ],
+      "1768": [
+        588294.9,
+        392263.1
+      ],
+      "1769": [
+        588295.137,
+        392263.265
+      ],
+      "1770": [
+        588309.96,
+        392273.59
+      ],
+      "1771": [
+        588325.19,
+        392282.88
+      ],
+      "1772": [
+        588340.65,
+        392289.82
+      ],
+      "1773": [
+        588342.87,
+        392290.66
+      ],
+      "1774": [
+        588345.1,
+        392291.08
+      ],
+      "1775": [
+        588347.06,
+        392291.11
+      ],
+      "1776": [
+        588364.65,
+        392281.01
+      ],
+      "1777": [
+        588356.36,
+        392266.02
+      ],
+      "1778": [
+        588354.42,
+        392267.08
+      ],
+      "1779": [
+        588339.536,
+        392240.786
+      ],
+      "1780": [
+        588335.297,
+        392233.296
+      ],
+      "1781": [
+        588331.93,
+        392227.35
+      ],
+      "1782": [
+        588322.88,
+        392211.36
+      ],
+      "1783": [
+        588320.76,
+        392212.66
+      ],
+      "1784": [
+        588319.28,
+        392213.49
+      ],
+      "1785": [
+        588306.32,
+        392221.24
+      ],
+      "1786": [
+        588303.05,
+        392223.19
+      ],
+      "1787": [
+        588300.008,
+        392230.768
+      ],
+      "1788": [
+        588293.566,
+        392216.673
+      ]
+    },
+    "perimetru_declarat_m": 1173.204,
+    "ordine": [
+      "1728",
+      "1829",
+      "1828",
+      "1827",
+      "1826",
+      "1825",
+      "1824",
+      "1823",
+      "1822",
+      "1821",
+      "1820",
+      "1819",
+      "1818",
+      "1817",
+      "1816",
+      "1815",
+      "1814",
+      "1813",
+      "1812",
+      "1811",
+      "1810",
+      "1809",
+      "1808",
+      "1807",
+      "1806",
+      "1805",
+      "1804",
+      "1803",
+      "1802",
+      "1801",
+      "1800",
+      "1799",
+      "1798",
+      "1797",
+      "1796",
+      "1795",
+      "1794",
+      "1793",
+      "1792",
+      "1791",
+      "1727",
+      "1726",
+      "1725",
+      "1724",
+      "1723",
+      "1722",
+      "1721",
+      "1720",
+      "1719",
+      "1718",
+      "1717",
+      "1716",
+      "1715",
+      "1714",
+      "1713",
+      "1712",
+      "1711",
+      "1710",
+      "1709",
+      "1708",
+      "1707",
+      "1706",
+      "1705",
+      "1704",
+      "1703",
+      "1702",
+      "1701",
+      "1700",
+      "1789",
+      "1790",
+      "1729",
+      "1730",
+      "1731",
+      "1732",
+      "1733",
+      "1734",
+      "1735",
+      "1736",
+      "1737",
+      "1738",
+      "1739",
+      "1740",
+      "1741",
+      "1742",
+      "1743",
+      "1744",
+      "1745",
+      "1746",
+      "1747",
+      "1748",
+      "1749",
+      "1750",
+      "1751",
+      "1752",
+      "1753",
+      "1754",
+      "1755",
+      "1756",
+      "1757",
+      "1758",
+      "1759",
+      "1760",
+      "1761",
+      "1762",
+      "1763",
+      "1764",
+      "1765",
+      "1766",
+      "1767",
+      "1768",
+      "1769",
+      "1770",
+      "1771",
+      "1772",
+      "1773",
+      "1774",
+      "1775",
+      "1776",
+      "1777",
+      "1778",
+      "1779",
+      "1780",
+      "1781",
+      "1782",
+      "1783",
+      "1784",
+      "1785",
+      "1786",
+      "1787",
+      "1788"
+    ],
+    "laturi_declarate_m": {
+      "1728": 0.842,
+      "1829": 38.769,
+      "1828": 17.883,
+      "1827": 4.477,
+      "1826": 1.826,
+      "1825": 19.829,
+      "1824": 0.937,
+      "1823": 5.747,
+      "1822": 0.776,
+      "1821": 1.12,
+      "1820": 6.18,
+      "1819": 16.386,
+      "1818": 1.341,
+      "1817": 1.394,
+      "1816": 1.338,
+      "1815": 1.354,
+      "1814": 17.841,
+      "1813": 9.945,
+      "1812": 6.046,
+      "1811": 5.921,
+      "1810": 1.503,
+      "1809": 1.161,
+      "1808": 1.204,
+      "1807": 1.365,
+      "1806": 1.105,
+      "1805": 0.878,
+      "1804": 1.507,
+      "1803": 1.895,
+      "1802": 1.673,
+      "1801": 0.918,
+      "1800": 1.393,
+      "1799": 5.087,
+      "1798": 3.965,
+      "1797": 26.662,
+      "1796": 2.095,
+      "1795": 2.356,
+      "1794": 2.524,
+      "1793": 2.31,
+      "1792": 84.313,
+      "1791": 25.855,
+      "1727": 7.564,
+      "1726": 0.18,
+      "1725": 3.144,
+      "1724": 0.844,
+      "1723": 0.198,
+      "1722": 1.094,
+      "1721": 1.062,
+      "1720": 1.056,
+      "1719": 1.785,
+      "1718": 1.122,
+      "1717": 1.114,
+      "1716": 32.456,
+      "1715": 7.594,
+      "1714": 0.111,
+      "1713": 6.646,
+      "1712": 0.102,
+      "1711": 1.474,
+      "1710": 13.701,
+      "1709": 0.189,
+      "1708": 1.358,
+      "1707": 6.862,
+      "1706": 1.49,
+      "1705": 4.479,
+      "1704": 1.496,
+      "1703": 1.495,
+      "1702": 39.042,
+      "1701": 6.337,
+      "1700": 3.59,
+      "1789": 25.323,
+      "1790": 48.168,
+      "1729": 26.86,
+      "1730": 47.51,
+      "1731": 0.546,
+      "1732": 4.019,
+      "1733": 2.107,
+      "1734": 2.745,
+      "1735": 0.167,
+      "1736": 3.128,
+      "1737": 0.125,
+      "1738": 13.625,
+      "1739": 17.063,
+      "1740": 10.888,
+      "1741": 15.333,
+      "1742": 4.798,
+      "1743": 20.27,
+      "1744": 20.531,
+      "1745": 10.565,
+      "1746": 20.432,
+      "1747": 25.657,
+      "1748": 26.915,
+      "1749": 17.022,
+      "1750": 0.814,
+      "1751": 9.778,
+      "1752": 19.834,
+      "1753": 1.704,
+      "1754": 10.054,
+      "1755": 4.031,
+      "1756": 2.453,
+      "1757": 0.455,
+      "1758": 6.538,
+      "1759": 0.688,
+      "1760": 2.586,
+      "1761": 7.782,
+      "1762": 8.085,
+      "1763": 5.023,
+      "1764": 12.653,
+      "1765": 10.445,
+      "1766": 5.216,
+      "1767": 2.122,
+      "1768": 0.289,
+      "1769": 18.065,
+      "1770": 17.84,
+      "1771": 16.946,
+      "1772": 2.374,
+      "1773": 2.269,
+      "1774": 1.96,
+      "1775": 20.283,
+      "1776": 17.13,
+      "1777": 2.211,
+      "1778": 30.214,
+      "1779": 8.606,
+      "1780": 6.833,
+      "1781": 18.373,
+      "1782": 2.487,
+      "1783": 1.697,
+      "1784": 15.1,
+      "1785": 3.807,
+      "1786": 8.166,
+      "1787": 15.497,
+      "1788": 11.693
+    },
+    "nota": "Scanarea la 96 ppi face greu de deosebit cifrele 3, 5, 6, 8, 9 și 0. Cifrele nesigure au fost hotărâte din cele două laturi tipărite ale fiecărui vârf (și verificate pe planșă la zoom): 1728 Y = 392220,650 (nu ,850); 1799 X = 588275,081; 1795 X = 588305,480; 1780 X = 588335,297; 1768 X = 588294,900; 1754 X = 588342,850; 1750 X = 588355,360; 1742 X = 588457,856 și 1743 X = 588453,607 (cifra zecilor 5, nu 6; latura 1741-1742 = 15,333 m); 1723 X = 588428,860; 1718 X = 588430,970; 1703 X = 588436,860; laturile de la 1797 (26,662 m), 1762 (8,085 m), 1769 (18,065 m) și 1782 (2,487 m). Cu ele aria iese 34474,52 mp, cât tabelul, perimetrul 1173,204 m, iar suma laturilor tipărite tot 1173,204 m. Un fit numai prin vârfuri citite pe banda desenată (neagră peste roșie, ~4 px) dădea reziduuri de 1,3-3,4 m, pentru că linia neagră e trasă în afara limitei; crucile caroiajului (subțiri) au dat fitul curat."
+  },
+  "repere": {
+    "C392050_588350": [
+      588350,
+      392050
+    ],
+    "C392100_588350": [
+      588350,
+      392100
+    ],
+    "C392050_588300": [
+      588300,
+      392050
+    ],
+    "C392100_588300": [
+      588300,
+      392100
+    ],
+    "C392050_588250": [
+      588250,
+      392050
+    ],
+    "C392150_588250": [
+      588250,
+      392150
+    ],
+    "C392250_588300": [
+      588300,
+      392250
+    ],
+    "C392250_588250": [
+      588250,
+      392250
+    ],
+    "C392300_588250": [
+      588250,
+      392300
+    ],
+    "C392050_588400": [
+      588400,
+      392050
+    ],
+    "C392100_588400": [
+      588400,
+      392100
+    ],
+    "C392050_588450": [
+      588450,
+      392050
+    ],
+    "C392300_588500": [
+      588500,
+      392300
+    ],
+    "C392350_588450": [
+      588450,
+      392350
+    ],
+    "C392350_588400": [
+      588400,
+      392350
+    ],
+    "C392350_588350": [
+      588350,
+      392350
+    ],
+    "C392350_588300": [
+      588300,
+      392350
+    ],
+    "C392350_588250": [
+      588250,
+      392350
+    ],
+    "C392300_588200": [
+      588200,
+      392300
+    ],
+    "C392250_588200": [
+      588200,
+      392250
+    ],
+    "C392200_588200": [
+      588200,
+      392200
+    ],
+    "C392150_588200": [
+      588200,
+      392150
+    ],
+    "C392100_588200": [
+      588200,
+      392100
+    ],
+    "C392050_588200": [
+      588200,
+      392050
+    ],
+    "C392000_588300": [
+      588300,
+      392000
+    ],
+    "C392000_588350": [
+      588350,
+      392000
+    ]
+  },
+  "caroiaj": {
+    "pas_m": 50,
+    "nord": 0,
+    "px_per_m": 3.74,
+    "ancora": {
+      "px": [
+        1983,
+        626
+      ],
+      "en": [
+        392329.26,
+        588398.65
+      ],
+      "sursa": "vârful 1748 al inventarului de coordonate (colțul de est al zonei RiM1), citit pe planșă"
+    },
+    "cruci_px": {
+      "X01": [
+        942.1,
+        816.6
+      ],
+      "X02": [
+        1127.9,
+        815.0
+      ],
+      "X03": [
+        944.1,
+        1005.0
+      ],
+      "X04": [
+        1129.9,
+        1003.3
+      ],
+      "X05": [
+        945.2,
+        1191.7
+      ],
+      "X06": [
+        1318.0,
+        1188.1
+      ],
+      "X07": [
+        1690.7,
+        999.3
+      ],
+      "X08": [
+        1691.9,
+        1185.2
+      ],
+      "X09": [
+        1878.0,
+        1184.0
+      ],
+      "X10": [
+        940.9,
+        629.0
+      ],
+      "X11": [
+        1127.2,
+        627.2
+      ],
+      "X12": [
+        939.0,
+        441.3
+      ],
+      "X13": [
+        1870.8,
+        246.0
+      ],
+      "X14": [
+        2059.0,
+        432.0
+      ],
+      "X15": [
+        2060.9,
+        620.0
+      ],
+      "X16": [
+        2062.1,
+        807.5
+      ],
+      "X17": [
+        2063.9,
+        995.8
+      ],
+      "X18": [
+        2064.8,
+        1182.3
+      ],
+      "X19": [
+        1879.1,
+        1372.6
+      ],
+      "X20": [
+        1693.8,
+        1373.8
+      ],
+      "X21": [
+        1506.3,
+        1375.3
+      ],
+      "X22": [
+        1319.3,
+        1376.7
+      ],
+      "X23": [
+        1132.3,
+        1377.7
+      ],
+      "X24": [
+        946.2,
+        1379.7
+      ],
+      "X25": [
+        756.0,
+        1006.4
+      ],
+      "X26": [
+        755.0,
+        818.3
+      ]
+    }
+  },
+  "gcp_px": {
+    "C392050_588350": [
+      942.1,
+      816.6
+    ],
+    "C392050_588300": [
+      944.1,
+      1005.0
+    ],
+    "C392100_588300": [
+      1129.9,
+      1003.3
+    ],
+    "C392050_588250": [
+      945.2,
+      1191.7
+    ],
+    "C392250_588250": [
+      1691.9,
+      1185.2
+    ],
+    "C392300_588250": [
+      1878.0,
+      1184.0
+    ],
+    "C392050_588400": [
+      940.9,
+      629.0
+    ],
+    "C392100_588400": [
+      1127.2,
+      627.2
+    ],
+    "C392050_588450": [
+      939.0,
+      441.3
+    ],
+    "C392300_588500": [
+      1870.8,
+      246.0
+    ],
+    "C392350_588450": [
+      2059.0,
+      432.0
+    ],
+    "C392350_588400": [
+      2060.9,
+      620.0
+    ],
+    "C392350_588300": [
+      2063.9,
+      995.8
+    ],
+    "C392350_588250": [
+      2064.8,
+      1182.3
+    ],
+    "C392300_588200": [
+      1879.1,
+      1372.6
+    ],
+    "C392250_588200": [
+      1693.8,
+      1373.8
+    ],
+    "C392200_588200": [
+      1506.3,
+      1375.3
+    ],
+    "C392150_588200": [
+      1319.3,
+      1376.7
+    ],
+    "C392100_588200": [
+      1132.3,
+      1377.7
+    ],
+    "C392050_588200": [
+      946.2,
+      1379.7
+    ],
+    "C392000_588300": [
+      756.0,
+      1006.4
+    ],
+    "C392000_588350": [
+      755.0,
+      818.3
+    ]
+  },
+  "verificare_px": {
+    "C392100_588350": [
+      1127.9,
+      815.0
+    ],
+    "C392250_588300": [
+      1690.7,
+      999.3
+    ],
+    "C392150_588250": [
+      1318.0,
+      1188.1
+    ],
+    "C392350_588350": [
+      2062.1,
+      807.5
+    ],
+    "1731": [
+      1680,
+      177
+    ],
+    "1744": [
+      1894.5,
+      421.8
+    ],
+    "1743": [
+      1818,
+      421
+    ],
+    "1747": [
+      1888.5,
+      616.5
+    ],
+    "1748": [
+      1983,
+      626
+    ],
+    "1752": [
+      1926,
+      773
+    ],
+    "1782": [
+      1546,
+      914
+    ],
+    "1787": [
+      1618.7,
+      998.5
+    ],
+    "1776": [
+      1804,
+      753.3
+    ],
+    "1762": [
+      1876.7,
+      932.9
+    ],
+    "1797": [
+      1305,
+      1082
+    ],
+    "1796": [
+      1280,
+      981
+    ],
+    "1708": [
+      957.5,
+      511.5
+    ],
+    "1710": [
+      982.3,
+      557.4
+    ],
+    "1728": [
+      1582,
+      1065.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [
+      [
+        1369,
+        662,
+        1405,
+        695
+      ],
+      [
+        1405,
+        650,
+        1445,
+        684
+      ],
+      [
+        1445,
+        641,
+        1485,
+        667
+      ],
+      [
+        1693,
+        583,
+        1730,
+        613
+      ],
+      [
+        1730,
+        571,
+        1772,
+        605
+      ]
+    ]
+  },
+  "legenda_px": [
+    [
+      2722,
+      95,
+      3100,
+      405
+    ],
+    [
+      2262,
+      485,
+      2699,
+      1015
+    ],
+    [
+      2195,
+      1405,
+      2675,
+      1558
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "RiM1",
+      "denumire": "Zonă mixtă – teritorii urbane cu caracter mixt, cu structură funcțională echilibrată, rezultat al aplicării procedurii de restructurare a zonelor cu caracter industrial (parcela nr. cad. 319313, 15.429 mp): locuire colectivă, activități administrative, de administrarea afacerilor, financiar-bancare, comerciale (terțiare), culturale, de învățământ, de sănătate cu caracter ambulatoriu, de turism, de sport; locuirea ocupă între 30% și 70% din suprafața construită desfășurată totală; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "40 m, (1-3S)+P+8E+R; nivelul retras cu min. 1,8 m față de fațadă și cu cel mult 60% din aria ultimului nivel plin; peste el se admite un nivel tehnic (centrale termice, pompe de căldură, case lift, instalații de producere a energiei)"
+    },
+    {
+      "cod": "S_Ec1",
+      "denumire": "Subzonă dedicată activităților comerciale de tip supermarket și terțiar (parcela nr. cad. 319312, 15.000 mp, împărțită în parcelele 1 – 12.128 mp, magazinul, 2 – 2000 mp și 3 – 872 mp, plus drumul de acces nr. cad. 272417; 19.046 mp în bilanțul planșei): comerț de tip supermarket, hipermarket, în clădiri de tip „big box” cu A.D.C. peste 1000 mp, comerț și servicii în sistem „mall”, reprezentanțe comerciale; funcțiuni terțiare, de învățământ, sănătate și asistență socială admise doar în nordul subzonei, lângă pârâul Nadăș, pe parcela 2; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "1,2",
+      "h_max": "21 m la cornișă, 25 m înălțimea totală"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-02-08",
+    "verificat": "2026-11-12: Art. 3, cinci ani (ședința din 8.02.2022); `related`: nicio prelungire; singura hotărâre ulterioară, HCL 106/2026, privește doar contractul de restructurare (indexul hotărârilor P.U.Z., actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [
+    {
+      "hcl": "106/2026",
+      "data": "2026-03-20",
+      "rezumat": "Aprobă un act adițional la contractul de restructurare nr. 307597/29.02.2024 (Anexa 4 a hotărârii): drepturile și obligațiile unuia dintre cei doi investitori trec, prin contractul de cesiune din 19.04.2024, la alte două societăți. Nu schimbă indicatorii, obligațiile sau valabilitatea P.U.Z.-ului.",
+      "plansa_noua": false
+    }
+  ],
+  "diferente_fata_de_plansa": [
+    "Înălțimea în S_Ec1: planșa (secțiunea 1) dă doar „înălțimea maximă admisă 25 m”; hotărârea (Art. 1) adaugă limita de 21 m la cornișă.",
+    "Instituțiile de învățământ: blocul S_Ec1 de pe planșă dă pentru „instituții de educație/învățământ – creșe, grădinițe, școli publice și private (conform contract de restructurare)” POT maxim 25% și CUT maxim 0,5; hotărârea nu are acești indicatori: pentru toată subzona dă POT 60% și CUT 1,2, admite învățământul, sănătatea și asistența socială doar pe parcela 2 (2000 mp) și cere acolo o clădire P+E de min. 500 mp, cedată domeniului public.",
+    "Împrejmuirea: planșa notează că între parcela magazinului și parcela pentru locuire/birouri nu se face gard (secțiunea 1: „fără împrejmuire”); hotărârea nu reia nota.",
+    "Spațiul verde: hotărârea cere spațiu verde pe sol natural de min. 30% și cel puțin 30 de arbori în RiM1, respectiv min. 20% în S_Ec1; planșa nu dă procente, ci doar un arbore la trei locuri de parcare pe terenul magazinului.",
+    "Dezmembrarea din RiM1: planșa propune desprinderea a 1114,37 mp din parcela nr. cad. 319313 (fâșia de sud-est, spre str. Fabricii de Chibrituri), amenajați cu gazon și arbuști sau cu parcaje, rămânând 14.314,63 mp pentru construire; hotărârea nu pomenește această dezmembrare, ci doar pe cea a parcelei 2 din nr. cad. 319312.",
+    "Zonele de protecție: planșa desenează zona de protecție de 15 m a pârâului Nadăș (Legea apelor) de-a lungul laturii de nord și zonele de protecție (100 m) și de siguranță (20 m) ale căii ferate (OUG 12/1998); hotărârea nu le menționează."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se reglementează 3,44 ha (nr. cad. 319312, 319313 și drumul nr. cad. 272417) pe frontul nordic al str. Fabricii de Chibrituri, la est de magazinul Dedeman (nr. 5): o unitate comercială, un ansamblu mixt din trei corpuri de clădire și o dotare publică/servicii de interes public. Hotărârea aprobă odată cu P.U.Z.-ul și contractul de restructurare cu investitorii (Anexa 4).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiare.",
+    "Înainte de orice autorizație de construire, din parcela nr. cad. 319312 se dezmembrează parcela 2, de 2000 mp, și i se înscrie în CF 272417 dreptul de servitute de trecere auto și pietonală; parcela 2 se cedează apoi gratuit în proprietate publică.",
+    "Pe parcela 2 (S_Ec1) investitorul ridică o clădire P+E (nivel semifinisat) cu aria construită de min. 500 mp și o transferă, cu terenul de 2000 mp, în proprietate publică (planșa A06 „Proprietatea asupra terenului”), înainte de recepția oricărei alte construcții.",
+    "Investitorul face un pod pentru biciclete și pietoni, lat de 3,5 m, peste pârâul Nadăș, în dreptul str. Papiu Ilarian (planșa A03), înainte de recepția oricărei construcții, în afară de cea de pe parcela 2.",
+    "Înainte de recepția construcțiilor din RiM1, investitorul face o trecere de pietoni pe str. Fabricii de Chibrituri lângă intersecția cu str. Gării, semaforizarea inteligentă a intersecției str. Gării – str. Fabricii de Chibrituri – drumul din incinta ansamblului mixt și două alveole pentru stații de autobuz pe str. Fabricii de Chibrituri.",
+    "Incinta ansamblului mixt se amenajează pe baza unui proiect de specialitate; spațiile verzi au mobilier urban (bănci, coșuri de gunoi, iluminat) și amenajări pentru joacă, odihnă și alte activități în aer liber.",
+    "RiM1: retragere min. 3 m față de aliniament; față de limitele laterale și posterioară H cornișă/2, dar min. 9 m; acces din str. Fabricii de Chibrituri; cel puțin 75% din locurile de parcare (auto, velo) în subsol, demisol sau parter; spațiu verde pe sol natural min. 30% din teren, cu vegetație joasă, medie și înaltă și cel puțin 30 de arbori cu circumferința de min. 35 cm la 1 m de colet.",
+    "S_Ec1: retragere min. 10 m față de aliniament; față de limitele laterale H cornișă/2, dar min. 6 m pe parcela 1 și min. 4,5 m pe parcela 2; față de limita posterioară H cornișă/2, dar min. 6 m; acces din drumul nr. cad. 272417 din vest; parcarea în incintă, de regulă la sol (necesarul după Anexa 2 a R.L.U. al P.U.G.); spațiu verde pe sol natural min. 20%, iar în parcajul magazinului, de regulă, un arbore la trei locuri de parcare, cu circumferința de min. 35 cm la 1 m de colet.",
+    "În ambele zone: racord la rețelele edilitare publice; apele meteorice nu se conduc spre domeniul public sau spre parcelele vecine; firidele de branșament și contorizare se integrează în clădiri; fără cabluri aeriene; punctul de colectare selectivă a deșeurilor, pe patru fracții, e îngropat (hidraulic).",
+    "Pentru terenul din UTR Ve (culoarul pârâului Nadăș, la nord, în afara limitei reglementate) rămân prevederile R.L.U. al P.U.G."
+  ]
+}
