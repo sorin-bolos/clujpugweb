@@ -21371,6 +21371,237 @@
   ]
  },
  {
+  "id": "2024-23",
+  "localitate": "cluj",
+  "hcl": "23/2024",
+  "data": "2024-01-22",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Cezar Bolliac",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-23-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/02/01/HCL-23.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (11 parcele noi): locuințe individuale (unifamiliale) izolate, pe parcele de minim 350 mp, sau semicolective (familiale) cu două unități locative, numai pe parcele de cel puțin 500 mp; regim de construire izolat. R.L.U. admite cu condiții servicii de proximitate.",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "Vpr",
+    "denumire": "Zonă verde de protecție față de infrastructura majoră, de protecție sanitară, plantații cu rol de stabilizare a versanților și de reconstrucție ecologică (partea de nord-vest, spre str. Cezar Bolliac): plantații, spații verzi cu acces public, construcții subterane, căi de acces auto și elemente de infrastructură urbană",
+    "pot_max": "0%",
+    "cut_max": "0",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 8004,
+  "imagine": "puz/2024-23/plansa.webp",
+  "bounds": {
+   "west": 23.6294067,
+   "south": 46.7482384,
+   "east": 23.6318912,
+   "north": 46.7495044
+  },
+  "limita": [
+   [
+    23.6294446,
+    46.7490981
+   ],
+   [
+    23.6296155,
+    46.7490217
+   ],
+   [
+    23.6300961,
+    46.7488166
+   ],
+   [
+    23.6301633,
+    46.7487845
+   ],
+   [
+    23.6302287,
+    46.7487546
+   ],
+   [
+    23.6302926,
+    46.7487254
+   ],
+   [
+    23.6303792,
+    46.7486857
+   ],
+   [
+    23.6304456,
+    46.7486552
+   ],
+   [
+    23.6305272,
+    46.7486183
+   ],
+   [
+    23.6305868,
+    46.7485926
+   ],
+   [
+    23.630639,
+    46.7485693
+   ],
+   [
+    23.6307156,
+    46.7485343
+   ],
+   [
+    23.6307879,
+    46.7485034
+   ],
+   [
+    23.6308407,
+    46.748479
+   ],
+   [
+    23.630936,
+    46.7484376
+   ],
+   [
+    23.6309863,
+    46.7484139
+   ],
+   [
+    23.631096,
+    46.7483634
+   ],
+   [
+    23.6311568,
+    46.7483364
+   ],
+   [
+    23.6312232,
+    46.7483056
+   ],
+   [
+    23.6312804,
+    46.7482794
+   ],
+   [
+    23.6313642,
+    46.7483583
+   ],
+   [
+    23.631466,
+    46.7484544
+   ],
+   [
+    23.6315041,
+    46.7484901
+   ],
+   [
+    23.6315454,
+    46.7485267
+   ],
+   [
+    23.6316578,
+    46.7484785
+   ],
+   [
+    23.6317422,
+    46.7484424
+   ],
+   [
+    23.6318551,
+    46.7485534
+   ],
+   [
+    23.6316132,
+    46.7486695
+   ],
+   [
+    23.6315056,
+    46.7487208
+   ],
+   [
+    23.6308802,
+    46.7490013
+   ],
+   [
+    23.6307802,
+    46.7490458
+   ],
+   [
+    23.6298454,
+    46.7494627
+   ],
+   [
+    23.6298301,
+    46.7494508
+   ],
+   [
+    23.6298467,
+    46.7494434
+   ],
+   [
+    23.630333,
+    46.7492275
+   ],
+   [
+    23.6302239,
+    46.7491256
+   ],
+   [
+    23.6299871,
+    46.7492303
+   ],
+   [
+    23.6298658,
+    46.7492838
+   ],
+   [
+    23.6298551,
+    46.7492733
+   ],
+   [
+    23.6297816,
+    46.7493071
+   ],
+   [
+    23.6297855,
+    46.749312
+   ],
+   [
+    23.6297134,
+    46.7493453
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.12
+  },
+  "legenda": "puz/2024-23/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-01-22"
+  },
+  "diferente_fata_de_plansa": [
+   "Nota planșei cere pentru locuința familială cu 2 unități locative o parcelă de minim 470 mp; Art. 1 (și R.L.U., art. 4) admite locuințe semicolective numai pe parcele de cel puțin 500 mp, iar sub 500 mp doar locuințe individuale. Parcelele 7-11, pentru care planșa propune locuințe cu 2 unități, au toate peste 500 mp (500,22-500,90 mp), deci parcelarul desenat respectă textul.",
+   "Tabelul „Regulament P.U.Z.” de pe planșă cere o retragere față de aliniament de cel puțin 2,5 m și cel mult 5 m; Art. 1 (și R.L.U., art. 5) o fixează între 3 m și 5 m.",
+   "Planșa cere, față de limita posterioară, o retragere egală cu înălțimea clădirii, dar minim 6 m, pe toate parcelele; Art. 1 păstrează regula doar pentru frontul sud-vestic al străzii „A”, iar pe frontul nord-estic cere minim 5 m.",
+   "Planșa dă doar regimul de înălțime ((S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R); Art. 1 limitează și înălțimea: 8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras."
+  ],
+  "conditii": [
+   "Se reglementează 8004 mp măsurați (7852 mp din acte), proprietate privată (nr. cad. 284903, 311939 și 303994), între str. Cezar Bolliac și Aleea Tufănelelor: 11 parcele pentru locuințe (UTR Liu*), o parcelă de spațiu verde de protecție (UTR Vpr), o parcelă construită, unde nu se intervine asupra clădirii existente, și străzile noi.",
+   "Strada „A”, cu ampriza de 9 m, pornește din str. Cezar Bolliac și se leagă de Aleea Tufănelelor printr-o alee de 5 m. Înainte de autorizațiile de construire pe parcelele cu acces din ea, se înscrie în CF ca „drum”, se echipează edilitar și i se face carosabilul la strat de uzură, după un proiect de specialitate; trotuarele și iluminatul stradal se fac până la recepția construcțiilor. Strada are acces public nelimitat.",
+   "Înainte de autorizațiile de construire, terenul necesar regularizării str. Cezar Bolliac pe tronsonul de lângă P.U.Z. se dezmembrează din parcele și se înscrie în CF ca „drum”. Până la recepția construcțiilor, drumurile se aduc la strat de uzură (asfalt) și se transferă gratuit în domeniul public, după planșa U.6 Circulația terenurilor.",
+   "În UTR Vpr se plantează cel puțin 5 arbori cu circumferința de minim 35 cm, măsurată la 1 m de la colet, înainte de recepția construcțiilor de pe frontul sud-vestic al străzii „A”.",
+   "Accesul dinspre Gheorgheni trece prin intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanci, a cărei capacitate de circulație e depășită: autorizațiile de construire (altele decât pentru rețele edilitare, spații verzi și clădiri de interes public sau servicii de proximitate) se emit după ce Municipalitatea aplică măsuri de creștere a capacității de circulație prin lucrări rutiere, „dar nu mai târziu de 31.12.2026”.",
+   "Toate investițiile propuse prin P.U.Z. se suportă de beneficiari.",
+   "Retrageri în UTR Liu*: între 3 m și 5 m față de aliniament (la parcelele de colț față de ambele aliniamente), iar toate clădirile stau în fâșia de 25 m de la aliniament, în afară de edicule de grădină de cel mult 15 mp în total; minim 3 m față de limitele laterale (garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar minim 6 m pe frontul sud-vestic al străzii „A” și minim 5 m pe frontul nord-estic. Ultimul nivel se retrage cel puțin 1,80 m față de fațada spre stradă (R.L.U.).",
+   "Pe o parcelă: un singur acces pietonal și un singur acces carosabil (lat de cel mult 3 m) pentru fiecare unitate locativă. Parcarea se face în interiorul parcelei: un loc pentru o locuință individuală cu A.U. sub 100 mp, două peste 100 mp; la locuințele semicolective, conform Art. 1, un loc pentru fiecare unitate locativă (R.L.U.: două); două locuri pentru servicii de proximitate.",
+   "Spațiile verzi pe sol natural ocupă cel puțin 40 % din fiecare parcelă, iar în grădina de fațadă cel puțin 60 % (R.L.U.).",
+   "Clădirile se racordează la rețelele edilitare (apă, canalizare, electricitate, gaz); apele pluviale nu se conduc spre domeniul public sau spre parcelele vecine; cablurile nu se pozează aerian; firidele de branșament stau în împrejmuire; fiecare parcelă are o platformă pentru deșeuri, accesibilă din spațiul public."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
