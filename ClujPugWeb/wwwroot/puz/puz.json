@@ -33711,6 +33711,307 @@
   ]
  },
  {
+  "id": "2020-404",
+  "localitate": "cluj",
+  "hcl": "404/2020",
+  "data": "2020-06-18",
+  "titlu": "P.U.Z. de restructurare platforma Tehnofrig – dezvoltare ansamblu rezidențial cu dotări, str. Fabricii de chibrituri nr. 5-11-str. Maramureșului nr. 36 și nr. 48-str. Jean Jaures f.n",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-404-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/2020/07/01/HCL-404-din-18.06.2020-1.pdf",
+  "utr": [
+   {
+    "cod": "RiM*",
+    "denumire": "Zonă industrială restructurată – structură funcțională mixtă: locuire colectivă, administrație și birouri, servicii financiar-bancare, comerț, cultură, învățământ, sănătate ambulatorie, turism; parcelare conform planșei de parcelare propusă; regim de construire deschis, izolat; retragere de min. 3 m de la aliniament și de H cornișă/2, dar min. 4,5 m, de la limitele posterioare; parcare la subsolul clădirilor și la sol",
+    "pot_max": "60%",
+    "cut_max": "2,8 ADC/mp",
+    "h_max": "de la S+P+3E+Er până la S+P+8E+Er, H max 32 m; imobilul cu funcțiuni terțiare S+P+Mez"
+   }
+  ],
+  "suprafata_m2": 40781,
+  "imagine": "puz/2020-404/plansa.webp",
+  "bounds": {
+   "west": 23.5824088,
+   "south": 46.786296,
+   "east": 23.5856891,
+   "north": 46.7900393
+  },
+  "limita": [
+   [
+    23.5825872,
+    46.7896251
+   ],
+   [
+    23.5826373,
+    46.789628
+   ],
+   [
+    23.5827584,
+    46.7893747
+   ],
+   [
+    23.5837787,
+    46.7895316
+   ],
+   [
+    23.5836301,
+    46.7899104
+   ],
+   [
+    23.5838986,
+    46.7899996
+   ],
+   [
+    23.5843612,
+    46.7889379
+   ],
+   [
+    23.5845498,
+    46.7889587
+   ],
+   [
+    23.585047,
+    46.7878412
+   ],
+   [
+    23.585064,
+    46.7878322
+   ],
+   [
+    23.5850812,
+    46.7878164
+   ],
+   [
+    23.5851183,
+    46.7878055
+   ],
+   [
+    23.5851487,
+    46.7877967
+   ],
+   [
+    23.5851757,
+    46.7877902
+   ],
+   [
+    23.5852161,
+    46.7877793
+   ],
+   [
+    23.5852431,
+    46.7877727
+   ],
+   [
+    23.5852734,
+    46.7877662
+   ],
+   [
+    23.5853003,
+    46.787762
+   ],
+   [
+    23.5853273,
+    46.7877555
+   ],
+   [
+    23.5853548,
+    46.7877307
+   ],
+   [
+    23.5853721,
+    46.7877103
+   ],
+   [
+    23.5853963,
+    46.7876809
+   ],
+   [
+    23.5854239,
+    46.7876516
+   ],
+   [
+    23.5854481,
+    46.7876222
+   ],
+   [
+    23.5854759,
+    46.7875882
+   ],
+   [
+    23.5854897,
+    46.7875724
+   ],
+   [
+    23.5855106,
+    46.7875407
+   ],
+   [
+    23.5855278,
+    46.7875249
+   ],
+   [
+    23.5855383,
+    46.787509
+   ],
+   [
+    23.5855587,
+    46.7874979
+   ],
+   [
+    23.5855758,
+    46.7874844
+   ],
+   [
+    23.5855963,
+    46.7874709
+   ],
+   [
+    23.5856134,
+    46.7874574
+   ],
+   [
+    23.5856274,
+    46.7874347
+   ],
+   [
+    23.5856346,
+    46.7874165
+   ],
+   [
+    23.5856384,
+    46.7874006
+   ],
+   [
+    23.584386,
+    46.7869477
+   ],
+   [
+    23.5844999,
+    46.7867743
+   ],
+   [
+    23.5844103,
+    46.7867458
+   ],
+   [
+    23.5842858,
+    46.7869156
+   ],
+   [
+    23.5829886,
+    46.7863258
+   ],
+   [
+    23.5829599,
+    46.7864214
+   ],
+   [
+    23.5833892,
+    46.7865599
+   ],
+   [
+    23.5828779,
+    46.787728
+   ],
+   [
+    23.5834753,
+    46.7878278
+   ],
+   [
+    23.5832604,
+    46.7883893
+   ],
+   [
+    23.5835439,
+    46.788435
+   ],
+   [
+    23.5835938,
+    46.7884471
+   ],
+   [
+    23.5836203,
+    46.7884588
+   ],
+   [
+    23.5836464,
+    46.788482
+   ],
+   [
+    23.5836557,
+    46.7885095
+   ],
+   [
+    23.5835501,
+    46.7888235
+   ],
+   [
+    23.5835164,
+    46.78883
+   ],
+   [
+    23.583477,
+    46.7889231
+   ],
+   [
+    23.5835235,
+    46.7889374
+   ],
+   [
+    23.5834921,
+    46.7890236
+   ],
+   [
+    23.5829995,
+    46.7889694
+   ],
+   [
+    23.5831322,
+    46.788685
+   ],
+   [
+    23.582724,
+    46.7886084
+   ],
+   [
+    23.5824545,
+    46.7891587
+   ],
+   [
+    23.5827327,
+    46.7892601
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 8,
+   "rms_m": 0.3
+  },
+  "legenda": "puz/2020-404/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-06-18",
+   "initial_pana_la": "2025-06-18",
+   "prelungiri": [
+    {
+     "hcl": "109/2025",
+     "pana_la": "2027-06-18",
+     "nota": "HCL 109 din 27 martie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 2 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (18.06.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 27.03.2027)."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Hotărârea reglementează un singur U.T.R., RiM*. Bilanțul teritorial al planșei mai trece 2 712 mp în UTR Lip (locuințe cu regim redus de înălțime pe parcelar periferic, POT 35%, CUT 0,9; suprafață construită propusă 0 mp) și 181 mp teren al statului român, iar caseta U.T.R. a bilanțului definește și UTR Ve (zonă verde de protecție a apelor, POT 1%, CUT 0,01); desenul nu arată unde e zona Lip. Avizul arhitectului-șef spune că terenul e încadrat în P.U.G. preponderent în UTR RiM, parțial în Lip și Ve.",
+   "Legenda planșei numește linia care închide ansamblul „Limita de proprietate propusă”; nici planșa, nici hotărârea nu desenează separat o limită a zonei reglementate."
+  ],
+  "conditii": [
+   "P.U.Z.-ul e aprobat împreună cu contractul de restructurare încheiat între Consiliul Local și Municipiul Cluj-Napoca, pe de o parte, și investitor, pe de alta (Art. 1); primarul e mandatat să-l semneze (Art. 2).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Etapa 1, înainte de orice autorizație de construire pe parcele: drumul propus între str. Maramureșului și str. Fabricii de Chibrituri echipat edilitar și realizat la strat de uzură (partea carosabilă); podul carosabil peste pârâul Nadăș; sensul giratoriu de la intersecția str. Maramureșului cu str. Nicolae Teclu; postul de transformare (TRAFO).",
+   "Etapa 2, înainte de autorizația de construire a fiecărui corp: îndeplinite condițiile etapei 1, iar aleile tronsonului din care face parte corpul echipate edilitar și realizate la strat de uzură (partea carosabilă), după planșa ARH-10 „plan etapizare propusă”, în orice ordine a tronsoanelor; până la recepție se fac trotuarele și se amenajează spațiile verzi.",
+   "Trotuarele și celelalte elemente ale profilului străzii de legătură dintre str. Maramureșului și str. Fabricii de Chibrituri (profil III G, 14 m) se realizează la strat de uzură înainte de recepția finală a primului imobil."
+  ]
+ },
+ {
   "id": "2019-883",
   "localitate": "cluj",
   "hcl": "883/2019",

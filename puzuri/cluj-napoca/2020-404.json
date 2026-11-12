@@ -1,0 +1,470 @@
+{
+  "id": "2020-404",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 404,
+    "an": 2020,
+    "data_sedinta": "2020-06-18",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-404-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2020/07/01/HCL-404-din-18.06.2020-1.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare platforma Tehnofrig – dezvoltare ansamblu rezidențial cu dotări, str. Fabricii de chibrituri nr. 5-11-str. Maramureșului nr. 36 și nr. 48-str. Jean Jaures f.n",
+  "plansa": {
+    "pagina_pdf": 7,
+    "dpi": 150,
+    "denumire": "ARH-03 Plan reglementări urbanistice",
+    "scara": "1:1500",
+    "nota": "PDF-ul are 65 de pagini scanate: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii, fără articole adăugate), avizul arhitectului-șef nr. 512 din 12.06.2019 (p. 3-5) și completarea lui nr. 50 din 24.02.2020 (p. 6), planșa ARH-03 „Plan reglementări urbanistice” (p. 7, A3 color, 1755×2482 px la 150 ppi) și documente A4 (p. 8-65, între ele raportul informării și consultării publicului, cu un plan de încadrare mic la p. 41). P. 7 e singura planșă de reglementări. Cartușul: proiect nr. 1174/2016, faza P.U.Z., scara 1:1500, 25.06.2019; desenul are 3,93 px/m, cât dă 1:1500 la 150 ppi, cu nordul în sus. Planșa nu are inventar de coordonate și nici o linie „limita P.U.Z.”: singura limită din legendă e „Limita de proprietate propusă” (puncte roșii), care înconjoară tot ansamblul, cu drumurile spre str. Maramureșului, podul peste pârâul Nadăș și fâșia de protecție a pârâului; ea e limita trasată. Legenda cuprinde cheia simbolurilor (caseta „LEGENDA”) și caseta U.T.R. din capul bilanțului teritorial (UTR RiM, Lip și Ve cu POT/CUT maxime); au rămas pe dinafară restul bilanțului (suprafețe, numere de C.F., suprafețe construite, locuri de parcare, spații verzi), cartușul, ștampilele și semnăturile. Textele mărunte ale fondului topografic (inscripții pe parcele și clădiri) sunt ilizibile la 150 ppi, și pe planșă, și în imaginea publicată; nu s-a putut citi niciun nume de proprietar, deci nu s-a acoperit nimic (`acopera_px` gol)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Caroiaj Stereo 70 fără etichete (cruci la 50 m), etichetat cu `caroiaj`: 10 cruci citite pe planșă (centrul fiecăreia luat din profilele de culoare ale brațelor), pas 50 m, 3,93 px/m, nordul în sus; ancora: intersecția axelor str. Maramureșului și str. Nicolae Teclu din OSM (extrasul din 2026-11-08), aleasă pe planșă în centrul sensului giratoriu propus de la această intersecție. Toate crucile cad la 10,9-11,9 m de nodurile de 50 m (eroarea ancorei, sub jumătatea pasului), deci etichetele sunt sigure. Control: C391900_588800, C392100_588800, C392100_588750, C391900_588650, C391950_588550, C392050_588500, C391900_588400, C392100_588400; verificare: C392050_588750 și C391950_588450. Limita e trasată (`limita_px`) pe linia „Limita de proprietate propusă” (puncte roșii): laturile drepte sunt dreptele potrivite prin pixelii roșii ai liniei (abatere standard 0,9-2,5 px), iar cele două tronsoane curbe (latura de est spre pârâul Nadăș și colțul de lângă clădirea P+3+M) sunt urmate punct cu punct. Aria trasată: 40 781 mp, față de 39 805 mp „Suprafața totală teren” din bilanțul teritorial (+2,5%; avizul arhitectului-șef dă „aprox. 3,97 ha”). Verificare independentă: clădirile și străzile din OSM (str. Maramureșului, Jean Jaures, Papiu Ilarian, clădirile vecine) se suprapun pe cele desenate pe toată planșa, cu potrivirea pe cruci.",
+    "suprafata_declarata_m2": 39805,
+    "puncte": {},
+    "nota": "Planșa nu are inventar de coordonate și nici etichete pe caroiaj. Crucile țin de desen: sunt la 196-197 px una de alta (50 m la 1:1500), cu aceeași orientare ca desenul, iar clădirile OSM cad pe cele desenate cu potrivirea lor. Suprafața totală din bilanț se citește „39 ?05 mp”; cifra a treia e 8, după suma părților: UTR RiM 36 912 mp + UTR Lip 2 712 mp + teren al statului român 181 mp = 39 805 mp."
+  },
+  "gcp_px": {
+    "C391900_588800": [
+      182.1,
+      117.1
+    ],
+    "C392100_588800": [
+      964.6,
+      116.4
+    ],
+    "C392100_588750": [
+      964.6,
+      314.4
+    ],
+    "C391900_588650": [
+      181.1,
+      708.3
+    ],
+    "C391950_588550": [
+      378.2,
+      1101.9
+    ],
+    "C392050_588500": [
+      770.5,
+      1298.7
+    ],
+    "C391900_588400": [
+      181.1,
+      1691.9
+    ],
+    "C392100_588400": [
+      961.7,
+      1692.6
+    ]
+  },
+  "verificare_px": {
+    "C392050_588750": [
+      768.4,
+      314.3
+    ],
+    "C391950_588450": [
+      378.0,
+      1494.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [],
+    "acopera_px": []
+  },
+  "legenda_px": [
+    [
+      1115,
+      1508,
+      1337,
+      1993
+    ],
+    [
+      1382,
+      57,
+      1713,
+      192
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "RiM*",
+      "denumire": "Zonă industrială restructurată – structură funcțională mixtă: locuire colectivă, administrație și birouri, servicii financiar-bancare, comerț, cultură, învățământ, sănătate ambulatorie, turism; parcelare conform planșei de parcelare propusă; regim de construire deschis, izolat; retragere de min. 3 m de la aliniament și de H cornișă/2, dar min. 4,5 m, de la limitele posterioare; parcare la subsolul clădirilor și la sol",
+      "pot_max": "60%",
+      "cut_max": "2,8 ADC/mp",
+      "h_max": "de la S+P+3E+Er până la S+P+8E+Er, H max 32 m; imobilul cu funcțiuni terțiare S+P+Mez"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-06-18",
+    "verificat": "2026-11-12: Art. 3, cinci ani de la aprobare (18.06.2025); prelungită cu 2 ani prin HCL 109/2025, până la 18.06.2027; nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [
+    {
+      "hcl": "109/2025",
+      "pana_la": "2027-06-18",
+      "nota": "HCL 109 din 27 martie 2025, Art. 1: prelungirea valabilității „cu o perioadă de 2 ani” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (18.06.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 27.03.2027)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Hotărârea reglementează un singur U.T.R., RiM*. Bilanțul teritorial al planșei mai trece 2 712 mp în UTR Lip (locuințe cu regim redus de înălțime pe parcelar periferic, POT 35%, CUT 0,9; suprafață construită propusă 0 mp) și 181 mp teren al statului român, iar caseta U.T.R. a bilanțului definește și UTR Ve (zonă verde de protecție a apelor, POT 1%, CUT 0,01); desenul nu arată unde e zona Lip. Avizul arhitectului-șef spune că terenul e încadrat în P.U.G. preponderent în UTR RiM, parțial în Lip și Ve.",
+    "Legenda planșei numește linia care închide ansamblul „Limita de proprietate propusă”; nici planșa, nici hotărârea nu desenează separat o limită a zonei reglementate."
+  ],
+  "conditii": [
+    "P.U.Z.-ul e aprobat împreună cu contractul de restructurare încheiat între Consiliul Local și Municipiul Cluj-Napoca, pe de o parte, și investitor, pe de alta (Art. 1); primarul e mandatat să-l semneze (Art. 2).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Etapa 1, înainte de orice autorizație de construire pe parcele: drumul propus între str. Maramureșului și str. Fabricii de Chibrituri echipat edilitar și realizat la strat de uzură (partea carosabilă); podul carosabil peste pârâul Nadăș; sensul giratoriu de la intersecția str. Maramureșului cu str. Nicolae Teclu; postul de transformare (TRAFO).",
+    "Etapa 2, înainte de autorizația de construire a fiecărui corp: îndeplinite condițiile etapei 1, iar aleile tronsonului din care face parte corpul echipate edilitar și realizate la strat de uzură (partea carosabilă), după planșa ARH-10 „plan etapizare propusă”, în orice ordine a tronsoanelor; până la recepție se fac trotuarele și se amenajează spațiile verzi.",
+    "Trotuarele și celelalte elemente ale profilului străzii de legătură dintre str. Maramureșului și str. Fabricii de Chibrituri (profil III G, 14 m) se realizează la strat de uzură înainte de recepția finală a primului imobil."
+  ],
+  "caroiaj": {
+    "pas_m": 50,
+    "px_per_m": 3.925,
+    "nord": 0,
+    "cruci_px": {
+      "A": [
+        182.1,
+        117.1
+      ],
+      "B": [
+        964.6,
+        116.4
+      ],
+      "C": [
+        768.4,
+        314.3
+      ],
+      "J": [
+        964.6,
+        314.4
+      ],
+      "D": [
+        181.1,
+        708.3
+      ],
+      "E": [
+        378.2,
+        1101.9
+      ],
+      "F": [
+        770.5,
+        1298.7
+      ],
+      "I": [
+        378.0,
+        1494.5
+      ],
+      "G": [
+        181.1,
+        1691.9
+      ],
+      "H": [
+        961.7,
+        1692.6
+      ]
+    },
+    "ancora": {
+      "px": [
+        603,
+        128
+      ],
+      "en": [
+        392002.0,
+        588807.2
+      ],
+      "sursa": "OSM (extrasul din 2026-11-08): intersecția axelor str. Maramureșului și str. Nicolae Teclu (geocode --streets), aleasă pe planșă la mijlocul carosabilului str. Maramureșului, pe axul str. Nicolae Teclu, unde planșa desenează sensul giratoriu propus"
+    },
+    "nota": "Zece cruci clare, răspândite pe tot desenul, citite pe planșă. `caroiaj --write` le-a pus pe toate în `gcp_px`; C392050_588750 și C391950_588450 au fost mutate apoi în `verificare_px`."
+  },
+  "repere": {
+    "C391900_588800": [
+      588800.0,
+      391900.0
+    ],
+    "C392100_588800": [
+      588800.0,
+      392100.0
+    ],
+    "C392050_588750": [
+      588750.0,
+      392050.0
+    ],
+    "C392100_588750": [
+      588750.0,
+      392100.0
+    ],
+    "C391900_588650": [
+      588650.0,
+      391900.0
+    ],
+    "C391950_588550": [
+      588550.0,
+      391950.0
+    ],
+    "C392050_588500": [
+      588500.0,
+      392050.0
+    ],
+    "C391950_588450": [
+      588450.0,
+      391950.0
+    ],
+    "C391900_588400": [
+      588400.0,
+      391900.0
+    ],
+    "C392100_588400": [
+      588400.0,
+      392100.0
+    ]
+  },
+  "limita_px": [
+    [
+      262.0,
+      298.0
+    ],
+    [
+      277.0,
+      297.0
+    ],
+    [
+      311.1,
+      408.5
+    ],
+    [
+      617.0,
+      345.3
+    ],
+    [
+      575.7,
+      178.7
+    ],
+    [
+      656.6,
+      141.1
+    ],
+    [
+      786.1,
+      608.3
+    ],
+    [
+      842.6,
+      600.2
+    ],
+    [
+      982.0,
+      1092.0
+    ],
+    [
+      987.0,
+      1096.0
+    ],
+    [
+      992.0,
+      1103.0
+    ],
+    [
+      1003.0,
+      1108.0
+    ],
+    [
+      1012.0,
+      1112.0
+    ],
+    [
+      1020.0,
+      1115.0
+    ],
+    [
+      1032.0,
+      1120.0
+    ],
+    [
+      1040.0,
+      1123.0
+    ],
+    [
+      1049.0,
+      1126.0
+    ],
+    [
+      1057.0,
+      1128.0
+    ],
+    [
+      1065.0,
+      1131.0
+    ],
+    [
+      1073.0,
+      1142.0
+    ],
+    [
+      1078.0,
+      1151.0
+    ],
+    [
+      1085.0,
+      1164.0
+    ],
+    [
+      1093.0,
+      1177.0
+    ],
+    [
+      1100.0,
+      1190.0
+    ],
+    [
+      1108.0,
+      1205.0
+    ],
+    [
+      1112.0,
+      1212.0
+    ],
+    [
+      1118.0,
+      1226.0
+    ],
+    [
+      1123.0,
+      1233.0
+    ],
+    [
+      1126.0,
+      1240.0
+    ],
+    [
+      1132.0,
+      1245.0
+    ],
+    [
+      1137.0,
+      1251.0
+    ],
+    [
+      1143.0,
+      1257.0
+    ],
+    [
+      1148.0,
+      1263.0
+    ],
+    [
+      1152.0,
+      1273.0
+    ],
+    [
+      1154.0,
+      1281.0
+    ],
+    [
+      1155.0,
+      1288.0
+    ],
+    [
+      777.4,
+      1479.5
+    ],
+    [
+      810.0,
+      1556.0
+    ],
+    [
+      783.0,
+      1568.0
+    ],
+    [
+      747.2,
+      1493.0
+    ],
+    [
+      355.1,
+      1744.2
+    ],
+    [
+      347.3,
+      1702.2
+    ],
+    [
+      476.6,
+      1643.9
+    ],
+    [
+      333.4,
+      1129.9
+    ],
+    [
+      512.6,
+      1089.4
+    ],
+    [
+      453.0,
+      842.5
+    ],
+    [
+      538.0,
+      824.0
+    ],
+    [
+      553.0,
+      819.0
+    ],
+    [
+      561.0,
+      814.0
+    ],
+    [
+      569.0,
+      804.0
+    ],
+    [
+      572.0,
+      792.0
+    ],
+    [
+      543.0,
+      654.0
+    ],
+    [
+      533.0,
+      651.0
+    ],
+    [
+      522.0,
+      610.0
+    ],
+    [
+      536.0,
+      604.0
+    ],
+    [
+      527.3,
+      566.1
+    ],
+    [
+      379.8,
+      587.2
+    ],
+    [
+      417.1,
+      712.4
+    ],
+    [
+      294.6,
+      743.7
+    ],
+    [
+      218.6,
+      501.4
+    ],
+    [
+      302.5,
+      458.5
+    ]
+  ]
+}
