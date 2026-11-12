@@ -1,0 +1,385 @@
+{
+  "id": "2020-403",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 403,
+    "an": 2020,
+    "data_sedinta": "2020-06-18",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-403-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2020/07/01/HCL-403-din-18.06.2020-1.pdf"
+  },
+  "titlu": "P.U.Z. parcelare și dezvoltare ansamblu rezidențial cu dotări – str. Valea Seacă",
+  "plansa": {
+    "pagina_pdf": 4,
+    "dpi": 200,
+    "denumire": "P2 Reglementări urbanistice – zonificare",
+    "scara": "1:500",
+    "nota": "PDF-ul are 13 pagini scanate: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii, fără articole adăugate), planșa P2 „Reglementări urbanistice – zonificare” (p. 4, singura planșă din PDF, 6586×4831 px la 200 ppi), avizul arhitectului-șef nr. 18 din 13.01.2020 (p. 5-8), avizul de oportunitate nr. 42 din 19.01.2018 (p. 9-10) și raportul informării și consultării publicului (p. 11-13). Cartușul: proiect U218CJ, faza P.U.Z., septembrie 2019, scara 1:500 (profilele 1:200); desenul are 15,7 px/m, cât dă 1:500 la 200 ppi, cu nordul în sus (rotit cu 0,2° față de caroiaj, din scanare). Planșa nu are inventar de coordonate, dar are caroiajul Stereo 70 din ridicarea topografică: cruci la 50 m, fiecare etichetată (Nord orizontal, Est vertical). Limita P.U.Z. e „Limita zonei de studiu” (linie întreruptă roșu-închis): bilanțul teritorial dă aceeași suprafață, 18 575 mp, pentru zona de studiu și pentru suma U.T.R.-urilor propuse (Liu*1 10 809 + Liu*2 879 + M3 1 837 + S_Va 969 + circulații 4 081 mp). Legenda cuprinde caseta „LEGENDĂ” cu notele de sub ea (destinația terenului, amplasarea clădirilor, studiul de însorire) și caseta „COEFICIENȚI UTR” (POT, CUT, regim de înălțime și Hmax pentru Liu*1, S_Va, Liu*2, M3); au rămas pe dinafară bilanțurile teritoriale, tabelul de parcelare cu proprietarii (sus, în afara limitei), profilele stradale, paragraful „Protecția mediului”, cartușul, ștampilele și semnăturile. În interiorul limitei și al zonei-tampon nu e scris niciun nume de proprietar (numele vecinilor, în roșu pe parcelele din jur, rămân la cel puțin 33 px, peste 2 m, de limită), deci nu s-a acoperit nimic (`acopera_px` gol)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Planșa nu are inventar de coordonate; georeferențiere pe caroiajul Stereo 70 al ridicării topografice: cruci la 50 m, fiecare etichetată pe planșă cu Nord (orizontal) și Est (vertical), centrul fiecăreia luat din profilele pixelilor întunecați ai brațelor și verificat pe decupaje mărite. Control: C389300_588600, C389400_588600, C389550_588550, C389550_588400, C389300_588400, C389350_588500, C389450_588400, C389500_588500; verificare: C389500_588550, C389400_588450, C389300_588550, C389550_588450, C389350_588450. Crucile acoperă desenul între Nord 588 400 și 588 600; colțul de nord al P.U.Z.-ului (Liu*2, S_Va) e cu până la ~45 m dincolo de ultimul rând de cruci, cele de pe rama de sus având etichetele tăiate. Limita e trasată (`limita_px`) pe linia „Limita zonei de studiu”: laturile drepte sunt dreptele potrivite prin pixelii roșu-închis ai liniei (abatere standard 2,3-3 px, fără curbură), iar latura de sud-vest, ușor arcuită, de-a lungul marginii exterioare a fâșiei de servitute de pe str. Valea Seacă, și colțurile rotunjite de lângă punctele 21-24 sunt urmate punct cu punct.",
+    "suprafata_declarata_m2": 18575,
+    "puncte": {},
+    "nota": "Bilanțul teritorial dă pentru zona de studiu a P.U.Z. 18 575 mp, egal cu suma suprafețelor propuse pe U.T.R. Vârful de sud al limitei e luat în punctul topografic 31, unde se întâlnesc prelungirile celor două laturi."
+  },
+  "gcp_px": {
+    "C389300_588600": [
+      1550.5,
+      1100.4
+    ],
+    "C389400_588600": [
+      3120.0,
+      1093.6
+    ],
+    "C389550_588550": [
+      5477.8,
+      1879.5
+    ],
+    "C389550_588400": [
+      5485.6,
+      4252.7
+    ],
+    "C389300_588400": [
+      1562.5,
+      4268.5
+    ],
+    "C389350_588500": [
+      2340.0,
+      2677.5
+    ],
+    "C389450_588400": [
+      3913.7,
+      4259.0
+    ],
+    "C389500_588500": [
+      4694.7,
+      2670.4
+    ]
+  },
+  "verificare_px": {
+    "C389500_588550": [
+      4692.7,
+      1880.5
+    ],
+    "C389400_588450": [
+      3128.1,
+      3468.5
+    ],
+    "C389300_588550": [
+      1553.9,
+      1892.5
+    ],
+    "C389550_588450": [
+      5481.5,
+      3463.0
+    ],
+    "C389350_588450": [
+      2343.6,
+      3471.7
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": [],
+    "acopera_px": []
+  },
+  "legenda_px": [
+    [
+      5745,
+      248,
+      6492,
+      3080
+    ],
+    [
+      2515,
+      3350,
+      3295,
+      4530
+    ]
+  ],
+  "repere": {
+    "C389300_588600": [
+      588600,
+      389300
+    ],
+    "C389400_588600": [
+      588600,
+      389400
+    ],
+    "C389300_588550": [
+      588550,
+      389300
+    ],
+    "C389500_588550": [
+      588550,
+      389500
+    ],
+    "C389550_588550": [
+      588550,
+      389550
+    ],
+    "C389350_588500": [
+      588500,
+      389350
+    ],
+    "C389500_588500": [
+      588500,
+      389500
+    ],
+    "C389550_588500": [
+      588500,
+      389550
+    ],
+    "C389300_588450": [
+      588450,
+      389300
+    ],
+    "C389350_588450": [
+      588450,
+      389350
+    ],
+    "C389400_588450": [
+      588450,
+      389400
+    ],
+    "C389550_588450": [
+      588450,
+      389550
+    ],
+    "C389300_588400": [
+      588400,
+      389300
+    ],
+    "C389350_588400": [
+      588400,
+      389350
+    ],
+    "C389450_588400": [
+      588400,
+      389450
+    ],
+    "C389550_588400": [
+      588400,
+      389550
+    ]
+  },
+  "limita_px": [
+    [
+      2359.9,
+      372.6
+    ],
+    [
+      2779.5,
+      655.3
+    ],
+    [
+      2563.5,
+      972.1
+    ],
+    [
+      4173.7,
+      2053.1
+    ],
+    [
+      4125.6,
+      2120.2
+    ],
+    [
+      4380.9,
+      2282.7
+    ],
+    [
+      4003.6,
+      2844.9
+    ],
+    [
+      4669.6,
+      2936.2
+    ],
+    [
+      4884.3,
+      2933.2
+    ],
+    [
+      4912,
+      2907
+    ],
+    [
+      4932,
+      2886
+    ],
+    [
+      4950,
+      2860
+    ],
+    [
+      4963,
+      2830
+    ],
+    [
+      4974.0,
+      2807.5
+    ],
+    [
+      5255.6,
+      2934.0
+    ],
+    [
+      5082.8,
+      3143.4
+    ],
+    [
+      4925.8,
+      3419.4
+    ],
+    [
+      4386.3,
+      4402.6
+    ],
+    [
+      4312,
+      4528
+    ],
+    [
+      4291.7,
+      4373.1
+    ],
+    [
+      4261.7,
+      4331.0
+    ],
+    [
+      4138.0,
+      4173.0
+    ],
+    [
+      4117.0,
+      4139.0
+    ],
+    [
+      4101.0,
+      4101.0
+    ],
+    [
+      4082.0,
+      4066.0
+    ],
+    [
+      4060.0,
+      4032.0
+    ],
+    [
+      3828.0,
+      3731.0
+    ],
+    [
+      3509.0,
+      3346.0
+    ],
+    [
+      3186.0,
+      2901.0
+    ],
+    [
+      3093.0,
+      2783.0
+    ],
+    [
+      2868.0,
+      2515.0
+    ],
+    [
+      2769.0,
+      2402.0
+    ],
+    [
+      2707.0,
+      2324.0
+    ],
+    [
+      2673.0,
+      2287.0
+    ],
+    [
+      2609.0,
+      2210.0
+    ],
+    [
+      2134.0,
+      1696.0
+    ],
+    [
+      2069.0,
+      1620.0
+    ],
+    [
+      1700.0,
+      1212.0
+    ],
+    [
+      1595.3,
+      1093.2
+    ],
+    [
+      1603.7,
+      1003.4
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*1",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale (semicolective), acestea din urmă doar pe parcele mai mari de 450 mp; regim de construire izolat sau cuplat; retragere de 3-5 m de la aliniament, alinierea clădirilor obligatorie (cu excepția parcelelor afectate de restricțiile liniilor electrice aeriene, unde retragerea se adaptează, min. 3 m); min. 3 m de la limitele laterale (izolat); de la limita posterioară cel puțin înălțimea clădirii, min. 6 m; acces din str. Valea Seacă și din străzile de interes local de 12 m și 9 m; parcare în interiorul parcelei",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+E+M/R sau D+P+M/R; H max cornișă 8 m, H max 12 m"
+    },
+    {
+      "cod": "Liu*2",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe unifamiliale și familiale (semicolective), acestea din urmă doar pe parcele mai mari de 450 mp; regim de construire izolat; retragere min. 3 m de la aliniament și de la limitele laterale; de la limita posterioară cel puțin înălțimea clădirii, min. 6 m; acces din strada de interes local de 9 m care se desprinde din str. Valea Seacă; parcare în interiorul parcelei",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "trei niveluri supraterane: (S)+P+E+M/R sau D+P+M/R; H max cornișă 8 m, H max 12 m"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Scuaruri, grădini, parcuri cu acces public nelimitat: spații verzi, alei și platforme pentru pietoni și bicicliști, mobilier urban, amenajări pentru joacă, odihnă și sport",
+      "pot_max": "5%",
+      "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+      "h_max": ""
+    },
+    {
+      "cod": "M3",
+      "denumire": "Zonă mixtă cu regim de construire deschis: locuire colectivă, activități administrative, de administrare a afacerilor, financiar-bancare, comerciale, culturale, de învățământ, de sănătate ambulatorie, de turism; retragere min. 3 m de la aliniament, de la limitele laterale jumătate din înălțimea la cornișă dar min. 4,5 m, de la limita posterioară jumătate din înălțime dar min. 6 m; acces din str. Valea Seacă; cel puțin 75% din locurile de parcare la subsolul, demisolul sau parterul clădirilor",
+      "pot_max": "40%",
+      "cut_max": "2",
+      "h_max": "(1-3S)+P+5E+R, H max 25 m"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-06-18",
+    "verificat": "2026-11-12: Art. 2, cinci ani (de la ședința din 18.06.2020); prelungită cu 24 de luni prin HCL 145/2025 (7.04.2025), adoptată înainte de expirare, până la 18.06.2027. `related` (index actualizat 2026-11-08): o prelungire, nicio modificare."
+  },
+  "prelungiri": [
+    {
+      "hcl": "145/2025",
+      "pana_la": "2027-06-18",
+      "nota": "HCL 145 din 7 aprilie 2025, Art. 1: prelungirea valabilității P.U.Z.-ului aprobat prin Hotărârea nr. 403 din 18.06.2020 „cu o perioadă de 24 luni” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (18.06.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 7.04.2027)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Pentru Liu*1 și Liu*2 textul fixează și înălțimea maximă la cornișă, 8 m; caseta „Coeficienți UTR” a planșei dă doar regimul de înălțime și Hmax propus = 12 m.",
+    "Textul admite locuințele familiale (semicolective) doar pe parcele mai mari de 450 mp; planșa desenează în Liu*1 20 de loturi „izolate și cuplate” de la 300 mp în sus (bilanțul: „mai mare sau egală cu 360 mp, respectiv 300 mp”), cele mai multe sub 450 mp, pe care sunt deci permise doar locuințe unifamiliale.",
+    "Textul trimite la planșa P4 „Proprietatea asupra terenurilor” pentru terenurile care trec în domeniul public; PDF-ul hotărârii nu o conține."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Terenul necesar lărgirii str. Valea Seacă la profilul III.F (15 m), cum cere P.U.G.-ul, se dezmembrează din parcelele inițiale și se înscrie în cartea funciară ca „drum” înainte de emiterea autorizațiilor de construire pe parcele; până la recepția construcțiilor el se aduce la aceeași îmbrăcăminte rutieră ca str. Valea Seacă.",
+    "Străzile de interes local propuse (ampriză de 9 m și de 12 m) se înscriu în cartea funciară ca „drum”, se realizează la strat de uzură și se echipează edilitar înainte de autorizația de construire pe parcelele care au acces direct din ele.",
+    "Spațiul verde cu acces public nelimitat (S_Va), lângă str. Valea Seacă, se amenajează pe baza unui proiect de specialitate până la recepția construcțiilor de pe parcelele cu front la străzile de interes local.",
+    "Înainte de certificatele de atestare a edificării construcțiilor, străzile de interes local, terenul pentru lărgirea str. Valea Seacă și spațiul verde trec în domeniul public, după planșa P4 „Proprietatea asupra terenurilor”."
+  ]
+}
