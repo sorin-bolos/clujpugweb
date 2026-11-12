@@ -1,0 +1,225 @@
+{
+  "id": "2022-401",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 401,
+    "an": 2022,
+    "data_sedinta": "2022-05-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-401-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/05/20/HCL-401-din-4-mai-2022-PUZ.pdf"
+  },
+  "titlu": "P.U.Z. – Corectare limită între UTR Liu și UTR ULiu, parcelare și construire locuințe cu regim redus de înălțime, str. Voievodul Gelu nr. 23",
+  "plansa": {
+    "pagina_pdf": 20,
+    "dpi": 300,
+    "denumire": "Reglementări urbanistice (planșa A07)",
+    "scara": "1:500",
+    "nota": "PDF-ul are 23 de pagini scanate: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii, fără articole adăugate după lista anexelor), Anexa 1 – planșa A07 redusă pe A4, alb-negru (p. 3), Anexa 2 – regulamentul local de urbanism (p. 4-12), avizul arhitectului-șef nr. 139/16.09.2021 (p. 13-16), avizul de oportunitate nr. 96/6.04.2020 cu planul lui (p. 17-19), planșa A07 color la format A3 (p. 20, 3508×4961 px la 300 ppi, cu viza CTATU și mențiunea „HCL nr. 401 din 4 mai 2022”) și raportul informării și consultării publicului (p. 21-23). E aleasă p. 20: e aceeași planșă de reglementări ca Anexa 1, color și la o scară mai mare; pe p. 3 inventarul de coordonate nu se poate citi. Cartușul: „Reglementări urbanistice”, pl. A07, pr. nr. 5/2019, faza P.U.Z., X.2020, scara 1:500; fitul dă 23,6 px/m, cât scara la 300 ppi (23,62 px/m). Planșa e rotită: nordul e la ~64° spre stânga față de sus (fitul: rotație -64,3°). Legenda ia cheia simbolurilor (jos, în stânga mijlocului), în patru casete ca să ocolească ștampila CTATU din dreapta ei (a rămas doar un fragment de text al ștampilei la capătul rândului „Zona reglementată”); au rămas afară inventarul de coordonate, tabelul locurilor de parcare, tabelul suprafețelor parcelelor, bilanțul teritorial, ștampilele și cartușul. Planșa nu are tabel cu POT/CUT: indicatorii sunt doar în hotărâre."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A07 (tabelul „Inventar de coordonate a imobilului”, Stereo 70, X (m) = Nord, Y (m) = Est), din stânga jos: 23 de puncte în ordinea limitei imobilului nr. cad. 334460, care e și zona reglementată. 1-9 e latura de sud-vest (spre str. A), 9-11 latura de sud-est (33,455 m, cât cota „33.45⁵” de pe planșă), 11-19 latura de nord-est, 19-22 crestătura din jurul parcelei vecine nr. cad. 281184 (casa nr. 23A), 23-1 frontul spre str. Voievodul Gelu (29,856 m, cât cota „29.85⁶”). „S teren = 5665 mp” pe planșă, cât totalul bilanțului teritorial și suprafața măsurată din Art. 1; laturile și perimetrul nu sunt tipărite. Aria coordonatelor: 5663,6 mp (-0,02%). Puncte de control: 1 (colțul de vest, la str. Voievodul Gelu), 9 (colțul de sud), 11 (colțul de est) și 19 (colțul de nord, unde începe crestătura), toate cu cercul vârfului desenat. Puncte de verificare: 20, 21 și 22 (colțurile crestăturii) și 17 (cercul vârfului de pe latura de nord-est). Limita prezisă cade pe linia roșie a imobilului de jur împrejur.",
+    "suprafata_declarata_m2": 5665,
+    "puncte": {
+      "1": [
+        583908.04,
+        396063.093
+      ],
+      "2": [
+        583890.13,
+        396072.498
+      ],
+      "3": [
+        583888.339,
+        396073.319
+      ],
+      "4": [
+        583871.759,
+        396080.921
+      ],
+      "5": [
+        583841.896,
+        396095.292
+      ],
+      "6": [
+        583811.992,
+        396109.683
+      ],
+      "7": [
+        583798.74,
+        396115.993
+      ],
+      "8": [
+        583782.674,
+        396123.27
+      ],
+      "9": [
+        583768.632,
+        396129.631
+      ],
+      "10": [
+        583778.397,
+        396145.386
+      ],
+      "11": [
+        583786.24,
+        396158.077
+      ],
+      "12": [
+        583812.857,
+        396148.309
+      ],
+      "13": [
+        583842.066,
+        396135.539
+      ],
+      "14": [
+        583846.603,
+        396133.334
+      ],
+      "15": [
+        583849.38,
+        396131.923
+      ],
+      "16": [
+        583875.625,
+        396118.895
+      ],
+      "17": [
+        583906.742,
+        396103.099
+      ],
+      "18": [
+        583908.682,
+        396102.114
+      ],
+      "19": [
+        583924.527,
+        396094.111
+      ],
+      "20": [
+        583919.792,
+        396085.515
+      ],
+      "21": [
+        583922.232,
+        396084.278
+      ],
+      "22": [
+        583921.527,
+        396082.857
+      ],
+      "23": [
+        583935.947,
+        396073.701
+      ]
+    },
+    "nota": "Punctul 17: X se citește „583905,742” sau „583906,742” (a șasea cifră e neclară în scanare). Cu 583905,742 limita face un pinten de 0,45 m spre interior între 16 și 18, latura 17-18 iese 3,10 m, iar aria 5655,2 mp (-0,17%). Cu 583906,742 punctul cade exact pe dreapta 16-18 (abatere 0,00 m, ca punctele intermediare 3, 5 și 8), aria iese 5663,6 mp (-0,02%), iar latura 17-18 iese 2,18 m, cât distanța dintre cercurile vârfurilor 17 și 18 de pe planșă (~55 px = 2,3 m). S-a luat 583906,742; cercul desenat al punctului 17, ales ca punct de verificare, cade la 0,06 m de poziția prezisă."
+  },
+  "gcp_px": {
+    "11": [
+      4565,
+      780
+    ],
+    "9": [
+      4641,
+      1563
+    ],
+    "19": [
+      973,
+      724
+    ],
+    "1": [
+      996,
+      1548
+    ]
+  },
+  "verificare_px": {
+    "20": [
+      978,
+      956
+    ],
+    "21": [
+      915,
+      956
+    ],
+    "22": [
+      915,
+      994
+    ],
+    "17": [
+      1442,
+      716
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1330,
+      2135,
+      1725,
+      2268
+    ],
+    [
+      1330,
+      2268,
+      2112,
+      2325
+    ],
+    [
+      1330,
+      2325,
+      1720,
+      2500
+    ],
+    [
+      1330,
+      2500,
+      2320,
+      3410
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu",
+      "denumire": "Locuințe cu regim redus de înălțime, dispuse pe un parcelar de tip urban (șapte parcele, P1-P7): locuințe individuale (unifamiliale) pe parcele de min. 330 mp și locuințe semicolective cu două unități locative pe parcele de min. 500 mp; regim de construire deschis. Prin corectarea limitei dintre Liu și ULiu, tot imobilul nr. cad. 334460 trece în Liu.",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la coamă (H cornișă max. 8 m); două niveluri supraterane plus mansardă sau nivel retras: D+P+M, D+P+R, (S)+P+E+R sau (S)+P+E+M"
+    },
+    {
+      "cod": "S_Va*",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat (trei suprafețe de-a lungul str. A, 219 mp pe bilanțul planșei): spații verzi (plantații înalte, medii și joase), mobilier urban; acces din str. A.",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-05-04",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (ședința din 4.05.2022); `related`: nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Pentru Liu planșa notează doar „Hmax = 12 m”; hotărârea (Art. 1) mai dă H cornișă max. 8 m, regimul de înălțime (două niveluri supraterane plus mansardă sau nivel retras: D+P+M, D+P+R, (S)+P+E+R, (S)+P+E+M) și indicatorii POT max. 35%, CUT max. 0,9, care nu apar pe planșă.",
+    "Suprafețele minime ale parcelelor apar doar în hotărâre: 330 mp pentru locuințe individuale și 500 mp pentru semicolective cu două unități locative. Parcelele de pe planșă le respectă: P1 (individuală, cu locuința P+E+Er autorizată prin A.C. nr. 1115/14.08.2020) are 364 mp, P2-P7 (semicolective) au între 522 și 863 mp."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se corectează limita dintre UTR Liu și UTR ULiu, astfel încât tot imobilul nr. cad. 334460 (5665 mp măsurați) trece în Liu, și se parcelează în șapte parcele de locuințe (P1-P7), str. A și trei suprafețe de spațiu verde public (S_Va*).",
+    "Liu: construcțiile noi se retrag 5 m de la aliniamentul str. A, alinierea fiind obligatorie; garajele se retrag min. 6 m de la aliniament, ca să se poată parca un autoturism în față.",
+    "Liu: min. 3 m față de limitele laterale (garajele, și cele din corpul clădirii, pot fi alipite, cu calcan de max. 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m (garajele min. 6 m); între două clădiri de pe aceeași parcelă cel puțin înălțimea celei mai înalte, dar min. 6 m.",
+    "Accesul: parcela P1 din str. Voievodul Gelu, regularizată prin P.U.G. la profilul III E de 16 m; parcelele P2-P7 din str. A, cu ampriza de 9,5 m (carosabil 6 m, trotuare de 1,5 m și 1 m, bandă verde 1 m).",
+    "Parcarea în interiorul parcelei: min. un loc pentru clădiri cu A.U. sub 100 mp și două pentru A.U. de 100 mp sau mai mult.",
+    "Utilitățile se asigură prin racordare la rețelele publice disponibile (apă, electricitate, gaz, telefonie); apele uzate menajere se epurează în sisteme individuale (microstație) și se infiltrează în sol, în interiorul parcelei.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Înainte de autorizațiile de construire pe parcele: terenul pentru regularizarea str. Voievodul Gelu la 16 m (67 mp pe bilanțul planșei) se dezmembrează și se înscrie în CF ca „drum”; str. A se înscrie în CF ca „drum”, se echipează edilitar și i se realizează carosabilul la strat de uzură, pe baza unui proiect de specialitate.",
+    "Înainte de recepția construcțiilor: se amenajează partea pietonală și fâșia verde a str. A (mobilier urban, iluminat stradal, semnalizare rutieră orizontală și verticală) și cele trei subzone verzi S_Va* cu acces public nelimitat, pe baza unor proiecte de specialitate.",
+    "Autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară) se emit după ce municipalitatea reamenajează și lărgește intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanciului, dar nu mai târziu de 2026."
+  ]
+}

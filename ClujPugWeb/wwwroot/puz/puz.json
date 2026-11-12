@@ -30100,6 +30100,159 @@
   ]
  },
  {
+  "id": "2022-401",
+  "localitate": "cluj",
+  "hcl": "401/2022",
+  "data": "2022-05-04",
+  "titlu": "P.U.Z. – Corectare limită între UTR Liu și UTR ULiu, parcelare și construire locuințe cu regim redus de înălțime, str. Voievodul Gelu nr. 23",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-401-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/05/20/HCL-401-din-4-mai-2022-PUZ.pdf",
+  "utr": [
+   {
+    "cod": "Liu",
+    "denumire": "Locuințe cu regim redus de înălțime, dispuse pe un parcelar de tip urban (șapte parcele, P1-P7): locuințe individuale (unifamiliale) pe parcele de min. 330 mp și locuințe semicolective cu două unități locative pe parcele de min. 500 mp; regim de construire deschis. Prin corectarea limitei dintre Liu și ULiu, tot imobilul nr. cad. 334460 trece în Liu.",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la coamă (H cornișă max. 8 m); două niveluri supraterane plus mansardă sau nivel retras: D+P+M, D+P+R, (S)+P+E+R sau (S)+P+E+M"
+   },
+   {
+    "cod": "S_Va*",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat (trei suprafețe de-a lungul str. A, 219 mp pe bilanțul planșei): spații verzi (plantații înalte, medii și joase), mobilier urban; acces din str. A.",
+    "pot_max": "nu e cazul",
+    "cut_max": "nu e cazul",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 5664,
+  "imagine": "puz/2022-401/plansa.webp",
+  "bounds": {
+   "west": 23.6379069,
+   "south": 46.7454137,
+   "east": 23.6392344,
+   "north": 46.7469838
+  },
+  "limita": [
+   [
+    23.6379355,
+    46.7466878
+   ],
+   [
+    23.6380626,
+    46.7465282
+   ],
+   [
+    23.6380737,
+    46.7465122
+   ],
+   [
+    23.6381769,
+    46.7463642
+   ],
+   [
+    23.6383717,
+    46.7460978
+   ],
+   [
+    23.6385668,
+    46.745831
+   ],
+   [
+    23.6386523,
+    46.7457128
+   ],
+   [
+    23.6387512,
+    46.7455694
+   ],
+   [
+    23.6388376,
+    46.7454441
+   ],
+   [
+    23.6390415,
+    46.7455344
+   ],
+   [
+    23.6392059,
+    46.7456069
+   ],
+   [
+    23.639072,
+    46.7458448
+   ],
+   [
+    23.6388984,
+    46.7461056
+   ],
+   [
+    23.6388685,
+    46.746146
+   ],
+   [
+    23.6388494,
+    46.7461708
+   ],
+   [
+    23.638673,
+    46.7464049
+   ],
+   [
+    23.6384593,
+    46.7466823
+   ],
+   [
+    23.638446,
+    46.7466996
+   ],
+   [
+    23.6383377,
+    46.7468409
+   ],
+   [
+    23.6382262,
+    46.746797
+   ],
+   [
+    23.6382095,
+    46.7468188
+   ],
+   [
+    23.6381911,
+    46.7468122
+   ],
+   [
+    23.638068,
+    46.7469405
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.03
+  },
+  "legenda": "puz/2022-401/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-05-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Pentru Liu planșa notează doar „Hmax = 12 m”; hotărârea (Art. 1) mai dă H cornișă max. 8 m, regimul de înălțime (două niveluri supraterane plus mansardă sau nivel retras: D+P+M, D+P+R, (S)+P+E+R, (S)+P+E+M) și indicatorii POT max. 35%, CUT max. 0,9, care nu apar pe planșă.",
+   "Suprafețele minime ale parcelelor apar doar în hotărâre: 330 mp pentru locuințe individuale și 500 mp pentru semicolective cu două unități locative. Parcelele de pe planșă le respectă: P1 (individuală, cu locuința P+E+Er autorizată prin A.C. nr. 1115/14.08.2020) are 364 mp, P2-P7 (semicolective) au între 522 și 863 mp."
+  ],
+  "conditii": [
+   "Prin P.U.Z. se corectează limita dintre UTR Liu și UTR ULiu, astfel încât tot imobilul nr. cad. 334460 (5665 mp măsurați) trece în Liu, și se parcelează în șapte parcele de locuințe (P1-P7), str. A și trei suprafețe de spațiu verde public (S_Va*).",
+   "Liu: construcțiile noi se retrag 5 m de la aliniamentul str. A, alinierea fiind obligatorie; garajele se retrag min. 6 m de la aliniament, ca să se poată parca un autoturism în față.",
+   "Liu: min. 3 m față de limitele laterale (garajele, și cele din corpul clădirii, pot fi alipite, cu calcan de max. 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar min. 6 m (garajele min. 6 m); între două clădiri de pe aceeași parcelă cel puțin înălțimea celei mai înalte, dar min. 6 m.",
+   "Accesul: parcela P1 din str. Voievodul Gelu, regularizată prin P.U.G. la profilul III E de 16 m; parcelele P2-P7 din str. A, cu ampriza de 9,5 m (carosabil 6 m, trotuare de 1,5 m și 1 m, bandă verde 1 m).",
+   "Parcarea în interiorul parcelei: min. un loc pentru clădiri cu A.U. sub 100 mp și două pentru A.U. de 100 mp sau mai mult.",
+   "Utilitățile se asigură prin racordare la rețelele publice disponibile (apă, electricitate, gaz, telefonie); apele uzate menajere se epurează în sisteme individuale (microstație) și se infiltrează în sol, în interiorul parcelei.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Înainte de autorizațiile de construire pe parcele: terenul pentru regularizarea str. Voievodul Gelu la 16 m (67 mp pe bilanțul planșei) se dezmembrează și se înscrie în CF ca „drum”; str. A se înscrie în CF ca „drum”, se echipează edilitar și i se realizează carosabilul la strat de uzură, pe baza unui proiect de specialitate.",
+   "Înainte de recepția construcțiilor: se amenajează partea pietonală și fâșia verde a str. A (mobilier urban, iluminat stradal, semnalizare rutieră orizontală și verticală) și cele trei subzone verzi S_Va* cu acces public nelimitat, pe baza unor proiecte de specialitate.",
+   "Autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară) se emit după ce municipalitatea reamenajează și lărgește intersecția str. C-tin Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanciului, dar nu mai târziu de 2026."
+  ]
+ },
+ {
   "id": "2022-400",
   "localitate": "cluj",
   "hcl": "400/2022",
