@@ -24144,6 +24144,349 @@
   ]
  },
  {
+  "id": "2023-76",
+  "localitate": "cluj",
+  "hcl": "76/2023",
+  "data": "2023-02-02",
+  "titlu": "P.U.Z. de urbanizare, str. Colonia Breaza – sud",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-76-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2023/02/02/HCL-76.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și familiale (cel mult două unități locative pe parcelă, suprapuse sau alipite), regim de construire deschis; 36 de parcele de 400-700 mp",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișă sau atic, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public: învățământ (grădiniță) și sănătate (creșă), regim de construire deschis; lotul 36 (1.500 mp), la str. Colonia Breaza",
+    "pot_max": "25%",
+    "cut_max": "0,5",
+    "h_max": "8 m la cornișă sau atic, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Et*",
+    "denumire": "Subzonă de activități economice cu caracter terțiar: alimentație publică, servicii, dotări sportive, birouri, comerț (cel mult 1.000 mp ADC), cazare turistică, sănătate, cultură; regim de construire deschis; loturile 37 și 39 (1.588 mp), la colțul străzilor Colonia Breaza și Breaza",
+    "pot_max": "40%",
+    "cut_max": "1,2",
+    "h_max": "pe parcelele de peste 1.000 mp: 12 m la cornișă, 16 m la coamă, patru niveluri supraterane – (S)+P+2E+R, (S)+P+2E+M sau D+P+2E; pe cele mai mici: 8 m la cornișă, 12 m la coamă, trei niveluri – (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzonă verde – scuar, parc cu acces public nelimitat: plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule; lotul 17 (933 mp), pe strada „A”; parcarea interzisă",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "5 m la cornișă, regim P"
+   }
+  ],
+  "suprafata_m2": 27530,
+  "imagine": "puz/2023-76/plansa.webp",
+  "bounds": {
+   "west": 23.5804444,
+   "south": 46.7947914,
+   "east": 23.5842695,
+   "north": 46.796378
+  },
+  "limita": [
+   [
+    23.580803,
+    46.7948142
+   ],
+   [
+    23.5804871,
+    46.7955888
+   ],
+   [
+    23.5806602,
+    46.7956418
+   ],
+   [
+    23.5807029,
+    46.7956545
+   ],
+   [
+    23.5808104,
+    46.7956861
+   ],
+   [
+    23.5809178,
+    46.7957182
+   ],
+   [
+    23.5809793,
+    46.7957365
+   ],
+   [
+    23.5811191,
+    46.7958053
+   ],
+   [
+    23.5811892,
+    46.7958551
+   ],
+   [
+    23.5812883,
+    46.7959142
+   ],
+   [
+    23.5814272,
+    46.7959679
+   ],
+   [
+    23.5815548,
+    46.7960047
+   ],
+   [
+    23.5816217,
+    46.7960178
+   ],
+   [
+    23.5817278,
+    46.7960274
+   ],
+   [
+    23.581834,
+    46.796037
+   ],
+   [
+    23.5819805,
+    46.7960489
+   ],
+   [
+    23.5822492,
+    46.7960709
+   ],
+   [
+    23.5822542,
+    46.7960581
+   ],
+   [
+    23.582429,
+    46.7960842
+   ],
+   [
+    23.582539,
+    46.7961009
+   ],
+   [
+    23.5825312,
+    46.7961206
+   ],
+   [
+    23.5826859,
+    46.7961377
+   ],
+   [
+    23.5828406,
+    46.7961548
+   ],
+   [
+    23.5829946,
+    46.7961717
+   ],
+   [
+    23.5829932,
+    46.7961751
+   ],
+   [
+    23.5834812,
+    46.7962408
+   ],
+   [
+    23.5834696,
+    46.7962682
+   ],
+   [
+    23.5837115,
+    46.7962989
+   ],
+   [
+    23.5838692,
+    46.7963189
+   ],
+   [
+    23.5840269,
+    46.7963389
+   ],
+   [
+    23.5842087,
+    46.7963618
+   ],
+   [
+    23.5842048,
+    46.7960901
+   ],
+   [
+    23.5841954,
+    46.7958958
+   ],
+   [
+    23.5841932,
+    46.7958518
+   ],
+   [
+    23.5838549,
+    46.7958195
+   ],
+   [
+    23.5836441,
+    46.7957983
+   ],
+   [
+    23.583689,
+    46.7956852
+   ],
+   [
+    23.5837541,
+    46.7955211
+   ],
+   [
+    23.5837813,
+    46.7954526
+   ],
+   [
+    23.5838378,
+    46.7952936
+   ],
+   [
+    23.5838485,
+    46.7952634
+   ],
+   [
+    23.5838721,
+    46.7951902
+   ],
+   [
+    23.5834187,
+    46.7951433
+   ],
+   [
+    23.5834176,
+    46.795146
+   ],
+   [
+    23.5832574,
+    46.7951264
+   ],
+   [
+    23.5830987,
+    46.795107
+   ],
+   [
+    23.5829405,
+    46.7950876
+   ],
+   [
+    23.58294,
+    46.7950888
+   ],
+   [
+    23.5828251,
+    46.7950824
+   ],
+   [
+    23.5826535,
+    46.7950562
+   ],
+   [
+    23.5825636,
+    46.7952816
+   ],
+   [
+    23.5821729,
+    46.7952064
+   ],
+   [
+    23.5820708,
+    46.795187
+   ],
+   [
+    23.5820149,
+    46.7951764
+   ],
+   [
+    23.5819708,
+    46.7951624
+   ],
+   [
+    23.5819728,
+    46.7951576
+   ],
+   [
+    23.5818272,
+    46.7951132
+   ],
+   [
+    23.5816543,
+    46.7950626
+   ],
+   [
+    23.5816552,
+    46.7950567
+   ],
+   [
+    23.5814508,
+    46.7949926
+   ],
+   [
+    23.5814504,
+    46.7949937
+   ],
+   [
+    23.5813983,
+    46.7949767
+   ],
+   [
+    23.581238,
+    46.794933
+   ],
+   [
+    23.5811299,
+    46.7949035
+   ],
+   [
+    23.5810212,
+    46.7948738
+   ],
+   [
+    23.5810209,
+    46.7948745
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 7,
+   "rms_m": 0.24
+  },
+  "legenda": "puz/2023-76/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-02-02"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime în S_Et*, pe parcelele de peste 1.000 mp: hotărârea (Art. 1) admite (S)+P+2E+R, (S)+P+2E+M sau D+P+2E; planșa scrie doar (S)+P+2+M și (S)+P+2+R. Înălțimile (12 m la cornișă, 16 m la coamă; 8 m și 12 m pentru lotul 39, sub 1.000 mp) coincid.",
+   "S_Va: hotărârea dă regim P și cel mult 5 m la cornișă, pe care planșa nu le scrie (dă doar P.O.T. 5% și C.U.T. 0,1). Titlul subzonei din Art. 1 spune „parcuri cu acces public limitat”, dar condițiile din același articol și planșa spun „spațiu verde cu acces public nelimitat”."
+  ],
+  "conditii": [
+   "Se reglementează 27.530 mp de teren proprietate privată (nr. cad. 281233, 292600, 292598, 292601, 316129, 337104, 332556, 331224, 288002, 288003, 288004, 297022, 314929, 332557, 253159, 316190, 311937 și 311943): 36 de parcele de locuințe (Liu*), o parcelă pentru creșă/grădiniță (S_Is*), două pentru activități terțiare (S_Et*), un spațiu verde cu acces public nelimitat (S_Va) și circulațiile.",
+   "Liu*: parcela construibilă are cel puțin 400 mp; pe parcelele sub 500 mp se construiesc numai locuințe unifamiliale, de la 500 mp și locuințe familiale cu două unități.",
+   "Liu*: retragere de 3-5 m de la aliniament (după planșa A.5), garajele la cel puțin 6 m; clădirile stau în fâșia de 25 m de la aliniament (în rest doar edicule de grădină, cel mult 15 mp în total); cel puțin 3 m față de limitele laterale (garajele pot fi alipite, cu calcan de cel mult 2,8 m) și cât înălțimea clădirii, dar cel puțin 6 m, față de limita posterioară.",
+   "S_Is*: retragere de 5-8 m de la aliniament, cel puțin 5 m față de limita laterală estică și 13 m față de cea sudică; accesele din str. Colonia Breaza și strada „A”; cel puțin două locuri de parcare.",
+   "S_Et*: retragere de 5-8 m de la aliniament (garajele la cel puțin 6 m), clădirile în fâșia de 35 m de la aliniament; față de limitele laterale jumătate din înălțime, dar cel puțin 3 m, iar față de cea posterioară jumătate din înălțime, dar cel puțin 6 m; accesele din str. Colonia Breaza și str. Breaza.",
+   "S_Va: retrageri de cel puțin 5 m față de toate limitele; accesul din strada „A”; parcarea interzisă.",
+   "Parcarea se face numai pe parcele: la locuințe, un loc sub 100 mp arie utilă și două peste; două locuri pentru serviciile de proximitate; la S_Et*, după Anexa 2 a R.L.U. al P.U.G.",
+   "Toate clădirile se racordează la rețelele publice; apele pluviale nu se duc spre domeniul public sau spre vecini, cablurile nu se montează aerian, firidele de branșament se integrează în împrejmuire, iar fiecare parcelă are o platformă pentru deșeuri accesibilă din spațiul public.",
+   "Terenul pentru regularizarea str. Colonia Breaza (inclusiv o alveolă de transport în comun pe frontul sudic, de cel puțin 30 × 3 m, după un proiect de specialitate) se dezmembrează și se înscrie în cartea funciară ca „drum” înainte de orice autorizație de construire și se aduce la strat de uzură până la recepție; alveola o fac beneficiarii.",
+   "Înainte de orice autorizație de construire se extind rețelele edilitare pe str. Colonia Breaza, pe porțiunea de lângă P.U.Z., iar strada se aduce la piatră spartă cilindrată; până la recepția oricărei construcții se asfaltează tot tronsonul nordic, până la intersecția cu str. Breaza (avizul Serviciului Siguranța Circulației nr. 104139/446/6.08.2020): profil de 12 m lângă P.U.Z., iar spre tronsonul vestic asfalt în ampriza existentă.",
+   "Strada „A” (9 m, sens unic, acces public nelimitat) se echipează edilitar, iar carosabilul de 6 m, cu locurile de vizitatori, se face la strat de uzură înainte de autorizațiile pe parcelele cu acces din ea; până la recepția construcțiilor: trotuare, mobilier urban, iluminat și arbori de aliniament (unul la trei locuri de parcare, cu circumferința de cel puțin 35 cm).",
+   "Spațiul verde S_Va se amenajează, după un proiect de specialitate, înainte de recepția ultimei construcții de pe frontul nordic al străzii „A” (loturile 7-16).",
+   "Creșa/grădinița din S_Is* se recepționează înainte de recepția oricărei construcții din Liu*.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-75",
   "localitate": "cluj",
   "hcl": "75/2023",

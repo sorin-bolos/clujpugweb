@@ -1,0 +1,607 @@
+{
+  "id": "2023-76",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 76,
+    "an": 2023,
+    "data_sedinta": "2023-02-02",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-76-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2023/02/02/HCL-76.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Colonia Breaza – sud",
+  "plansa": {
+    "pagina_pdf": 33,
+    "dpi": 96,
+    "denumire": "Planșa A.5 – Reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul are 37 de pagini: hotărârea (pp. 1-4, același text ca pe pagina hotărârii, fără articole adăugate), Anexa 1 – regulamentul local de urbanism (de la p. 5), Anexele 2 și 3 – planșele A.5 și A.7 reduse pe A4, alb-negru și culcate (pp. 23-24), avizul arhitectului-șef nr. 122/4.07.2022 (de la p. 25) și alte acte, extrasul din P.U.G. (p. 32), planșa A.5 – Reglementări urbanistice, color, la format mare (p. 33, 96 ppi, aleasă: singura copie color, cu inventarul de coordonate lizibil mărit de 4 ori), planșa A.7 – Circulația terenurilor la format mare (p. 34, aceeași bază topografică) și alte acte (pp. 35-37). Cartușul: proiectant CSC Construction SRL, pr. nr. 209/2019, faza P.U.Z., planșa A5, mai 2022; scrie „scara 1:1000”, dar antetul planșei scrie „SC. 1:500”, iar fitul dă 7,6 px/m, cât are 1:500 la 96 ppi (7,56): planșa e la 1:500. Nordul e în sus (rotație 0,2°). Limita zonei reglementate (linie roșie întreruptă) e desenată spre interior, iar limita terenului studiat (linie albastră punctată) spre exterior, de-o parte și de alta a liniei negre a limitei, pe laturile lor comune. Legenda are două casete: coloana din dreapta („Legenda”: limite, utilizare funcțională cu UTR-urile din P.U.Z. și din jur, nota despre străzile Colonia Breaza și Breaza) și coloana din mijloc („Indici urbanistici propuși pe parcele”, cu P.O.T., C.U.T., regim de înălțime și înălțimi pentru Liu*, S_Is*, S_Et* și S_Va, plus cheia căilor de circulație). Au rămas afară „Propunerea urbanistică” (suprafețele loturilor), lista „Parcelar propus”, estimarea traficului, tabelul „Zonificare funcțională” (bilanțul), profilele transversale, inventarul de coordonate, cartușul, semnătura digitală și ștampilele. Ștampila rotundă de pe legendă acoperă puțin capătul rândului S_Et*."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de coordonate al planșei („Parcela delimitata prin PUZ – Coordonate pct. de contur”, X [m] = Nord, Y [m] = Est, cu lungimile laturilor D(i,i+1); sub tabel „S=30630.48mp P=904.606m”; tabelul din stânga-jos, x≈75-300, y≈760-1540 pe planșa randată), 75 de puncte numerotate 1-75 în ordinea conturului. Inventarul e limita terenului studiat (linia albastră punctată, „Teren studiat prin PUZ – 30 630,00 mp”), care cuprinde la vest și parcela nr. cad. 284093 (S = 3100 mp, „UTR ULiu/PUZ”), nelistată în Art. 1. Terenul reglementat (linia roșie întreruptă, „Teren reglementat prin PUZ – 27 530,00 mp”; 27.530 mp și în Art. 1, și în tabelul de zonificare) e același contur fără parcela aceasta: latura lui de vest e dreapta 1-11 (89,41 m), de-a lungul loturilor 1-6, iar vârfurile 2-10 stau doar pe limita terenului studiat. Pe hartă e deci inelul 1, 11, 12, …, 75: aria lui e 27.530,13 mp, cât terenul reglementat, iar poligonul 1-2-…-11 are 3.100,35 mp, cât parcela 284093; linia roșie de pe planșă cade pe dreapta 1-11. Vârfurile 2-10 sunt la `repere`, iar datele întregului inventar la `inventar_zona_studiata`. Puncte de control: 1 (colțul de sud-vest al zonei reglementate), 4 și 9 (colțurile de sud-vest și de nord-vest ale terenului studiat), 40 (colțul de nord-est, la str. Breaza), 43 (colțul de est), 51 (colțul de sud-est) și 60 (colțul interior de la lotul 28). Puncte de verificare: 2, 3, 5 (frângerile laturii de vest a terenului studiat), 45 (colțul interior de lângă nr. cad. 282715) și 59 (colțul de sud-vest al lotului 28).",
+    "suprafata_declarata_m2": 27530,
+    "puncte": {
+      "1": [
+        589333.211,
+        391794.54
+      ],
+      "11": [
+        589419.726,
+        391771.975
+      ],
+      "12": [
+        589425.38,
+        391785.29
+      ],
+      "13": [
+        589426.725,
+        391788.577
+      ],
+      "14": [
+        589430.093,
+        391796.847
+      ],
+      "15": [
+        589433.516,
+        391805.105
+      ],
+      "16": [
+        589435.46,
+        391809.84
+      ],
+      "17": [
+        589442.917,
+        391820.644
+      ],
+      "18": [
+        589448.362,
+        391826.09
+      ],
+      "19": [
+        589454.793,
+        391833.774
+      ],
+      "20": [
+        589460.568,
+        391844.483
+      ],
+      "21": [
+        589464.486,
+        391854.295
+      ],
+      "22": [
+        589465.853,
+        391859.428
+      ],
+      "23": [
+        589466.769,
+        391867.546
+      ],
+      "24": [
+        589467.687,
+        391875.668
+      ],
+      "25": [
+        589468.815,
+        391886.872
+      ],
+      "26": [
+        589470.885,
+        391907.423
+      ],
+      "27": [
+        589469.462,
+        391907.785
+      ],
+      "28": [
+        589472.124,
+        391921.173
+      ],
+      "29": [
+        589473.825,
+        391929.606
+      ],
+      "30": [
+        589476.029,
+        391929.049
+      ],
+      "31": [
+        589477.715,
+        391940.89
+      ],
+      "32": [
+        589479.4,
+        391952.731
+      ],
+      "33": [
+        589481.077,
+        391964.519
+      ],
+      "34": [
+        589481.458,
+        391964.419
+      ],
+      "35": [
+        589488.087,
+        392001.791
+      ],
+      "36": [
+        589491.148,
+        392000.964
+      ],
+      "37": [
+        589494.23,
+        392019.49
+      ],
+      "38": [
+        589496.238,
+        392031.565
+      ],
+      "39": [
+        589498.247,
+        392043.641
+      ],
+      "40": [
+        589500.54,
+        392057.562
+      ],
+      "41": [
+        589470.35,
+        392056.721
+      ],
+      "42": [
+        589448.77,
+        392055.614
+      ],
+      "43": [
+        589443.883,
+        392055.363
+      ],
+      "44": [
+        589440.755,
+        392029.478
+      ],
+      "45": [
+        589438.693,
+        392013.347
+      ],
+      "46": [
+        589426.057,
+        392016.549
+      ],
+      "47": [
+        589407.732,
+        392021.193
+      ],
+      "48": [
+        589400.085,
+        392023.131
+      ],
+      "49": [
+        589382.33,
+        392027.125
+      ],
+      "50": [
+        589378.957,
+        392027.886
+      ],
+      "51": [
+        589370.795,
+        392029.541
+      ],
+      "52": [
+        589366.202,
+        391994.84
+      ],
+      "53": [
+        589366.499,
+        391994.761
+      ],
+      "54": [
+        589364.541,
+        391982.495
+      ],
+      "55": [
+        589362.602,
+        391970.342
+      ],
+      "56": [
+        589360.668,
+        391958.232
+      ],
+      "57": [
+        589360.803,
+        391958.198
+      ],
+      "58": [
+        589360.242,
+        391949.409
+      ],
+      "59": [
+        589357.568,
+        391936.259
+      ],
+      "60": [
+        589382.746,
+        391929.852
+      ],
+      "61": [
+        589374.923,
+        391899.883
+      ],
+      "62": [
+        589372.907,
+        391892.047
+      ],
+      "63": [
+        589371.805,
+        391887.763
+      ],
+      "64": [
+        589370.304,
+        391884.369
+      ],
+      "65": [
+        589369.764,
+        391884.51
+      ],
+      "66": [
+        589365.038,
+        391873.312
+      ],
+      "67": [
+        589359.651,
+        391860.009
+      ],
+      "68": [
+        589358.993,
+        391860.072
+      ],
+      "69": [
+        589352.141,
+        391844.342
+      ],
+      "70": [
+        589352.265,
+        391844.31
+      ],
+      "71": [
+        589350.45,
+        391840.3
+      ],
+      "72": [
+        589345.809,
+        391827.98
+      ],
+      "73": [
+        589342.679,
+        391819.671
+      ],
+      "74": [
+        589339.532,
+        391811.318
+      ],
+      "75": [
+        589339.612,
+        391811.297
+      ]
+    },
+    "laturi_declarate_m": {
+      "11": 14.466,
+      "12": 3.552,
+      "13": 8.93,
+      "14": 8.939,
+      "15": 5.119,
+      "16": 13.128,
+      "17": 7.701,
+      "18": 10.02,
+      "19": 12.167,
+      "20": 10.565,
+      "21": 5.312,
+      "22": 8.17,
+      "23": 8.174,
+      "24": 11.261,
+      "25": 20.655,
+      "26": 1.468,
+      "27": 13.65,
+      "28": 8.603,
+      "29": 2.273,
+      "30": 11.96,
+      "31": 11.96,
+      "32": 11.907,
+      "33": 0.394,
+      "34": 37.955,
+      "35": 3.171,
+      "36": 18.781,
+      "37": 12.241,
+      "38": 12.242,
+      "39": 14.109,
+      "40": 30.202,
+      "41": 21.608,
+      "42": 4.893,
+      "43": 26.073,
+      "44": 16.262,
+      "45": 13.035,
+      "46": 18.904,
+      "47": 7.889,
+      "48": 18.199,
+      "49": 3.458,
+      "50": 8.328,
+      "51": 35.004,
+      "52": 0.307,
+      "53": 12.421,
+      "54": 12.307,
+      "55": 12.263,
+      "56": 0.139,
+      "57": 8.807,
+      "58": 13.419,
+      "59": 25.98,
+      "60": 30.973,
+      "61": 8.091,
+      "62": 4.423,
+      "63": 3.711,
+      "64": 0.558,
+      "65": 12.154,
+      "66": 14.352,
+      "67": 0.661,
+      "68": 17.158,
+      "69": 0.128,
+      "70": 4.402,
+      "71": 13.165,
+      "72": 8.879,
+      "73": 8.926,
+      "74": 0.083,
+      "75": 17.938
+    },
+    "inventar_zona_studiata": {
+      "titlu": "Parcela delimitata prin PUZ – Coordonate pct. de contur (limita terenului studiat)",
+      "puncte": 75,
+      "suprafata_declarata_m2": 30630.48,
+      "perimetru_declarat_m": 904.606,
+      "laturi_declarate_m": {
+        "1": 19.279,
+        "2": 4.114,
+        "3": 18.843,
+        "4": 22.673,
+        "5": 15.679,
+        "6": 2.239,
+        "7": 16.136,
+        "8": 29.275,
+        "9": 12.549,
+        "10": 19.846,
+        "11": 14.466,
+        "12": 3.552,
+        "13": 8.93,
+        "14": 8.939,
+        "15": 5.119,
+        "16": 13.128,
+        "17": 7.701,
+        "18": 10.02,
+        "19": 12.167,
+        "20": 10.565,
+        "21": 5.312,
+        "22": 8.17,
+        "23": 8.174,
+        "24": 11.261,
+        "25": 20.655,
+        "26": 1.468,
+        "27": 13.65,
+        "28": 8.603,
+        "29": 2.273,
+        "30": 11.96,
+        "31": 11.96,
+        "32": 11.907,
+        "33": 0.394,
+        "34": 37.955,
+        "35": 3.171,
+        "36": 18.781,
+        "37": 12.241,
+        "38": 12.242,
+        "39": 14.109,
+        "40": 30.202,
+        "41": 21.608,
+        "42": 4.893,
+        "43": 26.073,
+        "44": 16.262,
+        "45": 13.035,
+        "46": 18.904,
+        "47": 7.889,
+        "48": 18.199,
+        "49": 3.458,
+        "50": 8.328,
+        "51": 35.004,
+        "52": 0.307,
+        "53": 12.421,
+        "54": 12.307,
+        "55": 12.263,
+        "56": 0.139,
+        "57": 8.807,
+        "58": 13.419,
+        "59": 25.98,
+        "60": 30.973,
+        "61": 8.091,
+        "62": 4.423,
+        "63": 3.711,
+        "64": 0.558,
+        "65": 12.154,
+        "66": 14.352,
+        "67": 0.661,
+        "68": 17.158,
+        "69": 0.128,
+        "70": 4.402,
+        "71": 13.165,
+        "72": 8.879,
+        "73": 8.926,
+        "74": 0.083,
+        "75": 17.938
+      }
+    },
+    "nota": "Toate cele 75 de laturi tipărite se potrivesc la 1 cm, iar aria (30.630,48 mp) și perimetrul (904,606 m) ale întregului inventar ca pe planșă. Rândul 36 e tipărit șters: Y se citește 392000,964 doar pe jumătate; din laturile 35-36 (3,171 m) și 36-37 (18,781 m) iese 392000,963, respectiv 392000,964, deci s-a luat 392000,964. Cifrele tabelului au ~8 px la 96 ppi, dar se citesc mărite de 4 ori. Vârfurile s-au citit pe linia neagră a limitei acolo unde se vede (1, 2, 3, 4, 5, 9, 45, 60), altfel pe marginea dinspre exterior a liniei roșii, unde ea atinge linia albastră (40, 43, 51, 59). Laturile tipărite sunt verificate pe inelul publicat (65, toate în afară de 1-11, care nu e în tabel); perimetrul tipărit e al terenului studiat, deci nu se verifică pe inel."
+  },
+  "repere": {
+    "2": [
+      589325.839,
+      391776.726
+    ],
+    "3": [
+      589329.83,
+      391775.728
+    ],
+    "4": [
+      589325.048,
+      391757.502
+    ],
+    "5": [
+      589347.7,
+      391756.52
+    ],
+    "6": [
+      589361.097,
+      391748.374
+    ],
+    "7": [
+      589363.01,
+      391747.21
+    ],
+    "8": [
+      589378.96,
+      391744.77
+    ],
+    "9": [
+      589408.08,
+      391741.76
+    ],
+    "10": [
+      589412.18,
+      391753.62
+    ]
+  },
+  "gcp_px": {
+    "1": [
+      894,
+      1427
+    ],
+    "4": [
+      617,
+      1487
+    ],
+    "9": [
+      501,
+      860
+    ],
+    "40": [
+      2899,
+      166
+    ],
+    "43": [
+      2880,
+      598
+    ],
+    "51": [
+      2681,
+      1150
+    ],
+    "60": [
+      1924,
+      1054
+    ]
+  },
+  "verificare_px": {
+    "2": [
+      760,
+      1480
+    ],
+    "3": [
+      752,
+      1453
+    ],
+    "5": [
+      612,
+      1317
+    ],
+    "45": [
+      2561,
+      635
+    ],
+    "59": [
+      1970,
+      1250
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3966,
+      166,
+      4286,
+      1172
+    ],
+    [
+      3652,
+      197,
+      3968,
+      1068
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale (unifamiliale) și familiale (cel mult două unități locative pe parcelă, suprapuse sau alipite), regim de construire deschis; 36 de parcele de 400-700 mp",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișă sau atic, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Is*",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public: învățământ (grădiniță) și sănătate (creșă), regim de construire deschis; lotul 36 (1.500 mp), la str. Colonia Breaza",
+      "pot_max": "25%",
+      "cut_max": "0,5",
+      "h_max": "8 m la cornișă sau atic, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Et*",
+      "denumire": "Subzonă de activități economice cu caracter terțiar: alimentație publică, servicii, dotări sportive, birouri, comerț (cel mult 1.000 mp ADC), cazare turistică, sănătate, cultură; regim de construire deschis; loturile 37 și 39 (1.588 mp), la colțul străzilor Colonia Breaza și Breaza",
+      "pot_max": "40%",
+      "cut_max": "1,2",
+      "h_max": "pe parcelele de peste 1.000 mp: 12 m la cornișă, 16 m la coamă, patru niveluri supraterane – (S)+P+2E+R, (S)+P+2E+M sau D+P+2E; pe cele mai mici: 8 m la cornișă, 12 m la coamă, trei niveluri – (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzonă verde – scuar, parc cu acces public nelimitat: plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule; lotul 17 (933 mp), pe strada „A”; parcarea interzisă",
+      "pot_max": "5%",
+      "cut_max": "0,1",
+      "h_max": "5 m la cornișă, regim P"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-02-02",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (ședința din 2.02.2023); `related`: nicio prelungire și nicio modificare (index actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (pp. 1-4 din PDF): coincid, fără articole adăugate."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime în S_Et*, pe parcelele de peste 1.000 mp: hotărârea (Art. 1) admite (S)+P+2E+R, (S)+P+2E+M sau D+P+2E; planșa scrie doar (S)+P+2+M și (S)+P+2+R. Înălțimile (12 m la cornișă, 16 m la coamă; 8 m și 12 m pentru lotul 39, sub 1.000 mp) coincid.",
+    "S_Va: hotărârea dă regim P și cel mult 5 m la cornișă, pe care planșa nu le scrie (dă doar P.O.T. 5% și C.U.T. 0,1). Titlul subzonei din Art. 1 spune „parcuri cu acces public limitat”, dar condițiile din același articol și planșa spun „spațiu verde cu acces public nelimitat”."
+  ],
+  "conditii": [
+    "Se reglementează 27.530 mp de teren proprietate privată (nr. cad. 281233, 292600, 292598, 292601, 316129, 337104, 332556, 331224, 288002, 288003, 288004, 297022, 314929, 332557, 253159, 316190, 311937 și 311943): 36 de parcele de locuințe (Liu*), o parcelă pentru creșă/grădiniță (S_Is*), două pentru activități terțiare (S_Et*), un spațiu verde cu acces public nelimitat (S_Va) și circulațiile.",
+    "Liu*: parcela construibilă are cel puțin 400 mp; pe parcelele sub 500 mp se construiesc numai locuințe unifamiliale, de la 500 mp și locuințe familiale cu două unități.",
+    "Liu*: retragere de 3-5 m de la aliniament (după planșa A.5), garajele la cel puțin 6 m; clădirile stau în fâșia de 25 m de la aliniament (în rest doar edicule de grădină, cel mult 15 mp în total); cel puțin 3 m față de limitele laterale (garajele pot fi alipite, cu calcan de cel mult 2,8 m) și cât înălțimea clădirii, dar cel puțin 6 m, față de limita posterioară.",
+    "S_Is*: retragere de 5-8 m de la aliniament, cel puțin 5 m față de limita laterală estică și 13 m față de cea sudică; accesele din str. Colonia Breaza și strada „A”; cel puțin două locuri de parcare.",
+    "S_Et*: retragere de 5-8 m de la aliniament (garajele la cel puțin 6 m), clădirile în fâșia de 35 m de la aliniament; față de limitele laterale jumătate din înălțime, dar cel puțin 3 m, iar față de cea posterioară jumătate din înălțime, dar cel puțin 6 m; accesele din str. Colonia Breaza și str. Breaza.",
+    "S_Va: retrageri de cel puțin 5 m față de toate limitele; accesul din strada „A”; parcarea interzisă.",
+    "Parcarea se face numai pe parcele: la locuințe, un loc sub 100 mp arie utilă și două peste; două locuri pentru serviciile de proximitate; la S_Et*, după Anexa 2 a R.L.U. al P.U.G.",
+    "Toate clădirile se racordează la rețelele publice; apele pluviale nu se duc spre domeniul public sau spre vecini, cablurile nu se montează aerian, firidele de branșament se integrează în împrejmuire, iar fiecare parcelă are o platformă pentru deșeuri accesibilă din spațiul public.",
+    "Terenul pentru regularizarea str. Colonia Breaza (inclusiv o alveolă de transport în comun pe frontul sudic, de cel puțin 30 × 3 m, după un proiect de specialitate) se dezmembrează și se înscrie în cartea funciară ca „drum” înainte de orice autorizație de construire și se aduce la strat de uzură până la recepție; alveola o fac beneficiarii.",
+    "Înainte de orice autorizație de construire se extind rețelele edilitare pe str. Colonia Breaza, pe porțiunea de lângă P.U.Z., iar strada se aduce la piatră spartă cilindrată; până la recepția oricărei construcții se asfaltează tot tronsonul nordic, până la intersecția cu str. Breaza (avizul Serviciului Siguranța Circulației nr. 104139/446/6.08.2020): profil de 12 m lângă P.U.Z., iar spre tronsonul vestic asfalt în ampriza existentă.",
+    "Strada „A” (9 m, sens unic, acces public nelimitat) se echipează edilitar, iar carosabilul de 6 m, cu locurile de vizitatori, se face la strat de uzură înainte de autorizațiile pe parcelele cu acces din ea; până la recepția construcțiilor: trotuare, mobilier urban, iluminat și arbori de aliniament (unul la trei locuri de parcare, cu circumferința de cel puțin 35 cm).",
+    "Spațiul verde S_Va se amenajează, după un proiect de specialitate, înainte de recepția ultimei construcții de pe frontul nordic al străzii „A” (loturile 7-16).",
+    "Creșa/grădinița din S_Is* se recepționează înainte de recepția oricărei construcții din Liu*.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
