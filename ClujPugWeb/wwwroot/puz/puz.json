@@ -23355,6 +23355,125 @@
   ]
  },
  {
+  "id": "2023-182",
+  "localitate": "cluj",
+  "hcl": "182/2023",
+  "data": "2023-04-04",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime – str. Oașului nr. 357A",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-182-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/05/23/HCL-182.pdf",
+  "utr": [
+   {
+    "cod": "Lir",
+    "denumire": "Locuințe cu regim redus de înălțime cu caracter rural: locuințe individuale și anexele lor, locuințe semicolective (maximum două unități locative pe parcelă); pe o parcelă de cel puțin 700 mp pot fi, alternativ, două locuințe individuale izolate, cu P.U.D.; regim de construire deschis. Terenul se împarte în 3 parcele de locuit de minimum 500 mp și o parcelă de alee de utilitate privată.",
+    "pot_max": "30%",
+    "cut_max": "0,6",
+    "h_max": "10 m, 6,5 m la cornișă; două niveluri supraterane, maximum (S)+P+E"
+   }
+  ],
+  "suprafata_m2": 2498,
+  "imagine": "puz/2023-182/plansa.webp",
+  "bounds": {
+   "west": 23.6005144,
+   "south": 46.8140691,
+   "east": 23.6016834,
+   "north": 46.8146995
+  },
+  "limita": [
+   [
+    23.6005555,
+    46.8140931
+   ],
+   [
+    23.6008009,
+    46.8141774
+   ],
+   [
+    23.600838,
+    46.8141895
+   ],
+   [
+    23.6008488,
+    46.814193
+   ],
+   [
+    23.6008437,
+    46.8141998
+   ],
+   [
+    23.6011989,
+    46.814326
+   ],
+   [
+    23.6012264,
+    46.81433
+   ],
+   [
+    23.6012529,
+    46.8143236
+   ],
+   [
+    23.6012708,
+    46.8143087
+   ],
+   [
+    23.6013808,
+    46.8141396
+   ],
+   [
+    23.6014855,
+    46.8141772
+   ],
+   [
+    23.6013582,
+    46.814373
+   ],
+   [
+    23.6016475,
+    46.8144679
+   ],
+   [
+    23.601612,
+    46.8145225
+   ],
+   [
+    23.6014991,
+    46.8146796
+   ],
+   [
+    23.6011408,
+    46.8145616
+   ],
+   [
+    23.6006303,
+    46.814429
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.17
+  },
+  "legenda": "puz/2023-182/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-04-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Indicatorii (Art. 1): hotărârea fixează pentru UTR Lir P.O.T. maxim 30% și C.U.T. maxim 0,6; planșa dă, în tabelul „Parcelar propus”, indicatori propuși pe parcele: P2 16,92% / 0,338, P3 29,27% / 0,585, P4 16,61% / 0,332, iar pentru aleea P1 0 / 0. Valorile planșei sunt sub maximele din hotărâre.",
+   "Înălțimea și numărul de locuințe (Art. 1): hotărârea admite maximum (S)+P+E, H maxim 10 m și 6,5 m la cornișă, și două locuințe individuale pe parcelele de cel puțin 700 mp (cu P.U.D.); planșa nu tipărește înălțimi pentru construcțiile propuse (regimurile de înălțime de pe desen sunt ale clădirilor existente din vecinătate) și nici această variantă."
+  ],
+  "conditii": [
+   "Înainte de autorizațiile de construire pe parcele: aleea de utilitate privată propusă prin P.U.Z. se echipează edilitar și se realizează la strat de piatră spartă cilindrată.",
+   "Înainte de orice autorizație de construire: se înscrie în CF nr. 330648 destinația de „drum” pentru imobilul cu nr. cad. 330648.",
+   "Înainte de recepția construcțiilor: aleea de utilitate privată și drumul de acces la amplasament, care se desprinde din str. Oașului în dreptul nr. 351, se aduc la strat de uzură până la amplasament.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+   "Accesul se face din aleea de utilitate privată reglementată prin P.U.Z., cu ampriza de 9 m pe tronsonul perpendicular pe drumul de acces și de 6 m în rest, conform planșei; parcarea se face în interiorul parcelei: un loc pentru fiecare locuință, de preferință în clădire sau într-un garaj, plus un loc pentru un autovehicul de marfă de mic tonaj.",
+   "Retrageri: minimum 3 m față de alee (aliniament) și față de limitele laterale (garajele pot fi lipite de limita laterală dacă calcanul nu depășește 2,8 m); față de limita posterioară, înălțimea clădirii, dar minimum 6 m (garajele, minimum 6 m).",
+   "Toate utilitățile se asigură prin racordare la rețelele publice."
+  ]
+ },
+ {
   "id": "2023-75",
   "localitate": "cluj",
   "hcl": "75/2023",

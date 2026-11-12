@@ -1,0 +1,182 @@
+{
+  "id": "2023-182",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 182,
+    "an": 2023,
+    "data_sedinta": "2023-04-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-182-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/05/23/HCL-182.pdf"
+  },
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime – str. Oașului nr. 357A",
+  "plansa": {
+    "pagina_pdf": 19,
+    "dpi": 300,
+    "denumire": "Reglementări urbanistice – zonificare (U-02)",
+    "scara": "1:500",
+    "nota": "Aceeași planșă apare și la p. 12 (Anexa 2, cu ștampila Consiliului Local), dar redusă pe A4 și așezată în lateral; p. 19 e copia A3 a aceluiași desen (U-02, aprilie 2022), mai clară."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate de pe planșa U-02 (17 puncte, 149-165, în ordinea limitei), Nord(x) / Est(Y), Stereo 70",
+    "suprafata_declarata_m2": 2498.05,
+    "puncte": {
+      "149": [
+        591448.913,
+        393340.052
+      ],
+      "150": [
+        591457.95,
+        393358.94
+      ],
+      "151": [
+        591459.246,
+        393361.795
+      ],
+      "152": [
+        591459.621,
+        393362.625
+      ],
+      "153": [
+        591460.385,
+        393362.252
+      ],
+      "154": [
+        591473.931,
+        393389.598
+      ],
+      "155": [
+        591474.333,
+        393391.705
+      ],
+      "156": [
+        591473.589,
+        393393.716
+      ],
+      "157": [
+        591471.912,
+        393395.055
+      ],
+      "158": [
+        591452.967,
+        393403.112
+      ],
+      "159": [
+        591457.004,
+        393411.175
+      ],
+      "160": [
+        591478.932,
+        393401.849
+      ],
+      "161": [
+        591489.097,
+        393424.104
+      ],
+      "162": [
+        591495.213,
+        393421.504
+      ],
+      "163": [
+        591512.824,
+        393413.201
+      ],
+      "164": [
+        591500.19,
+        393385.634
+      ],
+      "165": [
+        591486.139,
+        393346.422
+      ]
+    },
+    "nota": "Tabelul nu are antet de coloane; valorile 591xxx sunt Nord, 393xxx Est, ca etichetele caroiajului de pe planșă. Suprafața din coordonate, 2498,05 mp, e totalul bilanțului (2 498,05 mp; „Suprafața = 2498 mp”). Tabelul nu tipărește laturi; cotele de pe desen (20,93; 30,51; 20,58; 9,01; 23,82; 24,46; 6,64; 19,47; 30,32; 41,65; 37,76 m) coincid cu laturile calculate trunchiate la cm."
+  },
+  "gcp_px": {
+    "149": [
+      757,
+      2452
+    ],
+    "165": [
+      956,
+      1314
+    ],
+    "163": [
+      2977,
+      506
+    ],
+    "161": [
+      3291,
+      1237
+    ],
+    "159": [
+      2897,
+      2226
+    ],
+    "158": [
+      2652,
+      2332
+    ]
+  },
+  "verificare_px": {
+    "160": [
+      2623,
+      1538
+    ],
+    "162": [
+      3217,
+      1047
+    ],
+    "154": [
+      2251,
+      1695
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      3520,
+      1398,
+      4720,
+      1605
+    ],
+    [
+      3785,
+      1995,
+      4785,
+      2538
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lir",
+      "denumire": "Locuințe cu regim redus de înălțime cu caracter rural: locuințe individuale și anexele lor, locuințe semicolective (maximum două unități locative pe parcelă); pe o parcelă de cel puțin 700 mp pot fi, alternativ, două locuințe individuale izolate, cu P.U.D.; regim de construire deschis. Terenul se împarte în 3 parcele de locuit de minimum 500 mp și o parcelă de alee de utilitate privată.",
+      "pot_max": "30%",
+      "cut_max": "0,6",
+      "h_max": "10 m, 6,5 m la cornișă; două niveluri supraterane, maximum (S)+P+E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-04-04"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Indicatorii (Art. 1): hotărârea fixează pentru UTR Lir P.O.T. maxim 30% și C.U.T. maxim 0,6; planșa dă, în tabelul „Parcelar propus”, indicatori propuși pe parcele: P2 16,92% / 0,338, P3 29,27% / 0,585, P4 16,61% / 0,332, iar pentru aleea P1 0 / 0. Valorile planșei sunt sub maximele din hotărâre.",
+    "Înălțimea și numărul de locuințe (Art. 1): hotărârea admite maximum (S)+P+E, H maxim 10 m și 6,5 m la cornișă, și două locuințe individuale pe parcelele de cel puțin 700 mp (cu P.U.D.); planșa nu tipărește înălțimi pentru construcțiile propuse (regimurile de înălțime de pe desen sunt ale clădirilor existente din vecinătate) și nici această variantă."
+  ],
+  "conditii": [
+    "Înainte de autorizațiile de construire pe parcele: aleea de utilitate privată propusă prin P.U.Z. se echipează edilitar și se realizează la strat de piatră spartă cilindrată.",
+    "Înainte de orice autorizație de construire: se înscrie în CF nr. 330648 destinația de „drum” pentru imobilul cu nr. cad. 330648.",
+    "Înainte de recepția construcțiilor: aleea de utilitate privată și drumul de acces la amplasament, care se desprinde din str. Oașului în dreptul nr. 351, se aduc la strat de uzură până la amplasament.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+    "Accesul se face din aleea de utilitate privată reglementată prin P.U.Z., cu ampriza de 9 m pe tronsonul perpendicular pe drumul de acces și de 6 m în rest, conform planșei; parcarea se face în interiorul parcelei: un loc pentru fiecare locuință, de preferință în clădire sau într-un garaj, plus un loc pentru un autovehicul de marfă de mic tonaj.",
+    "Retrageri: minimum 3 m față de alee (aliniament) și față de limitele laterale (garajele pot fi lipite de limita laterală dacă calcanul nu depășește 2,8 m); față de limita posterioară, înălțimea clădirii, dar minimum 6 m (garajele, minimum 6 m).",
+    "Toate utilitățile se asigură prin racordare la rețelele publice."
+  ]
+}
