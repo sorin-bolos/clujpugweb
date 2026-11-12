@@ -44,8 +44,11 @@ checklist; the README is the reference.
   folder (see "Amending decisions"). Do not edit the tools, the site code or other
   recipes. If a tool is in your way, say so in your report.
 - **No beneficiaries' names**: not in the recipe, not in conditions, not in the
-  commit message. Companies and public bodies named as the PUZ's purpose (for
-  example "Spitalul ...") are fine; owners are not.
+  commit message, and not in the published images. Companies and public bodies
+  named as the PUZ's purpose (for example "Spitalul ...") are fine; owners are
+  not. Names written on the lots of the plate are covered with
+  `decupaj.acopera_px` (step 6). The audit reads only text, so check the images
+  yourself.
 - Shell: use the Bash tool. Run the pipeline as `tools/puz/puz.sh`. It picks
   `py -3.13` on the laptop and `python3` elsewhere; both have rasterio/GDAL,
   shapely, pyproj and pillow. `pdfinfo`, `pdfimages` and `pdftoppm` are on PATH.
@@ -164,6 +167,19 @@ where `<id>` is `<an>-<nr>`.
      say why in `plansa.nota`. An unreadable image doesn't help anyone.
    - `decupaj.exclude_px`: tables or title blocks that the boundary buffer reaches
      into.
+   - `decupaj.acopera_px`: owners' names inside the overlay (the boundary plus
+     its buffer). Some plates write the owner's name on each lot, often between
+     "PARCELA <n>" and its area (590/2021: 31 lots). Neighbours' names written
+     outside the buffer don't reach the map; owners' tables and title blocks go in
+     `exclude_px` when the buffer reaches them.
+     - Put one tight box `[x0, y0, x1, y1]` over each name. `build` paints it with
+       the paper colour around it, so the lot number and area beside it stay.
+       Read the boxes off zoomed `grid` crops: a text line is only ~10 px wide at
+       150 ppi, so a box placed by eye easily lands on the line next to it.
+     - After `build`, look at the whole `plansa.webp` at full size: no name, and no
+       initial or stray letter left at the end of a box. Look at `legenda.webp`
+       too: a name there means a legend box reaches too far.
+     - Say in `plansa.nota` and in your report how many names you covered.
 7. **Decision text.** Run `hcl` and `related`, and read the full text in
    `puzuri/cluj-napoca/documente/<id>/hotarare.txt`. If the decision's page had no
    text, the file says so. Then transcribe the decision from the scanned PDF into
