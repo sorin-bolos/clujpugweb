@@ -1,0 +1,65 @@
+{
+  "id": "2021-258",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 22.06.2026 (5 ani de la ședința din 22.06.2021, Art. 2 din hotărâre: „cinci ani de la aprobare”); nicio prelungire în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 258,
+    "an": 2021,
+    "data_sedinta": "2021-06-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-258-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/06/22/HCL-258-din-22.06.2021-PUZ-UTCN-Complex-studențesc-Observator-nr-32-compilat.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare complex studențesc „Observator”, str. Observatorului nr. 32-36",
+  "plansa": {
+    "pagina_pdf": 18,
+    "dpi": 200,
+    "denumire": "Planșa U02 – Reglementări urbanistice",
+    "scara": "1:1000",
+    "nota": "Citit înainte de marcarea ca expirat: planșa e pe p. 18 (format mare, 200 ppi), singura de acest fel din PDF; nu a fost georeferențiată."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "Lcs Observator",
+      "denumire": "Zona căminelor studențești „Observator”",
+      "pot_max": "35%",
+      "cut_max": "1,44 ADC/mp (pe parcelă)",
+      "h_max": "construcții noi: (1-3S)+P+5E, H cornișă max. 20 m; căminele existente își păstrează regimul de înălțime, cu cel mult un nivel în plus din structuri ușoare"
+    },
+    {
+      "cod": "S_Is_A Observator",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public (învățământ, cercetare, cultură, cantină studențească)",
+      "pot_max": "60%",
+      "cut_max": "2,2 ADC/mp (pe parcelă)",
+      "h_max": "stabilită prin P.U.D., pe baza unui studiu de altimetrie, fără a depăși (1-3S)+P+10E, H cornișă max. 35 m"
+    }
+  ],
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "Pentru terenul încadrat în U.T.R. Is_A se mențin prevederile P.U.G.; extinderea, supraetajarea construcțiilor existente și construcțiile noi se fac pe baza unui P.U.D.",
+    "Subzona S_Is_A Observator va fi reglementată specific printr-un P.U.D., într-o fază ulterioară.",
+    "Înainte de autorizația de construire pentru noul cămin, împrejmuirea de la strada Republicii se retrage cu 4 m în dreptul parcării existente, pentru lărgirea trotuarului, pe cheltuiala inițiatorului P.U.Z. (aviz Siguranța Circulației).",
+    "Se interzice parcarea autoturismelor la sol în interiorul cvartalelor, în spatele căminelor.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar."
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-06-22"
+  }
+}
