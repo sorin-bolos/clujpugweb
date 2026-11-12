@@ -27615,6 +27615,196 @@
   ]
  },
  {
+  "id": "2022-586",
+  "localitate": "cluj",
+  "hcl": "586/2022",
+  "data": "2022-08-04",
+  "titlu": "P.U.Z. dezvoltare ansamblu mixt și funcțiuni complementare locuirii, str. Cosașilor nr. 47-49",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-586-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-586-din-4-august-2022.pdf",
+  "utr": [
+   {
+    "cod": "M5",
+    "denumire": "Zonă mixtă – locuire colectivă, activități administrative, de afaceri, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; regim de construire deschis",
+    "pot_max": "60% (pentru nivelurile cu locuințe, aria construită max. 40% din suprafața terenului)",
+    "cut_max": "3",
+    "h_max": "35 m, regim (1-3)S+P+9E+R; în plus un etaj tehnic, cu înălțimea totală max. 40 m"
+   },
+   {
+    "cod": "Is_A",
+    "denumire": "Subzonă de instituții și servicii publice sau de interes public – grădiniță (învățământ preșcolar); regim de construire deschis",
+    "pot_max": "25%",
+    "cut_max": "0,5",
+    "h_max": "12 m (cornișă max. 8 m), regim (1-2S)+P+E plus un nivel retras"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic, de-a lungul canalului Morii (se mențin prevederile R.L.U. aferent P.U.G.)"
+   }
+  ],
+  "suprafata_m2": 8640,
+  "imagine": "puz/2022-586/plansa.webp",
+  "bounds": {
+   "west": 23.612572,
+   "south": 46.7878618,
+   "east": 23.6139215,
+   "north": 46.7891569
+  },
+  "limita": [
+   [
+    23.6128236,
+    46.7891283
+   ],
+   [
+    23.6130258,
+    46.7890983
+   ],
+   [
+    23.6137286,
+    46.7889689
+   ],
+   [
+    23.6137211,
+    46.7889038
+   ],
+   [
+    23.6138302,
+    46.7888642
+   ],
+   [
+    23.6138762,
+    46.7887837
+   ],
+   [
+    23.6138435,
+    46.7887055
+   ],
+   [
+    23.6137678,
+    46.788665
+   ],
+   [
+    23.6136909,
+    46.7886524
+   ],
+   [
+    23.6136921,
+    46.7886047
+   ],
+   [
+    23.6137786,
+    46.7886048
+   ],
+   [
+    23.6137648,
+    46.7885264
+   ],
+   [
+    23.6136913,
+    46.7885341
+   ],
+   [
+    23.6136536,
+    46.7884693
+   ],
+   [
+    23.6135828,
+    46.7884207
+   ],
+   [
+    23.6135152,
+    46.7882476
+   ],
+   [
+    23.613704,
+    46.78819
+   ],
+   [
+    23.6136797,
+    46.7881496
+   ],
+   [
+    23.6135444,
+    46.7882076
+   ],
+   [
+    23.613502,
+    46.7881645
+   ],
+   [
+    23.6137088,
+    46.7880702
+   ],
+   [
+    23.6136668,
+    46.7880069
+   ],
+   [
+    23.6133829,
+    46.7881459
+   ],
+   [
+    23.6130611,
+    46.7880433
+   ],
+   [
+    23.6128906,
+    46.7879565
+   ],
+   [
+    23.6127209,
+    46.7878922
+   ],
+   [
+    23.612707,
+    46.7878788
+   ],
+   [
+    23.6126255,
+    46.7878865
+   ],
+   [
+    23.6126931,
+    46.7884116
+   ],
+   [
+    23.6127124,
+    46.7886494
+   ],
+   [
+    23.6127222,
+    46.7889458
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.11
+  },
+  "legenda": "puz/2022-586/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-08-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimea în M5: planșa dă H max. 35 m și spune că etajele tehnice sunt admise și nu intră în calculul înălțimii maxime; hotărârea (Art. 1) admite suplimentar un etaj tehnic și limitează înălțimea totală, cu etaje tehnice, la 40 m.",
+   "Grădinița (Is_A): planșa încadrează în subzona Is_A 1500 mp, suprafața de referință pentru POT/CUT; hotărârea cere ca grădinița și terenul aferent ei, de 1100 mp, să treacă în domeniul public.",
+   "Denumirea zonelor: legenda simbolurilor de pe planșă le numește „UTR Rim – zona mixtă” și „UTR Lip – subzona Is_A”; hotărârea, desenul și tabelul de indici le numesc M5 și Is_A."
+  ],
+  "conditii": [
+   "Odată cu P.U.Z.-ul se aprobă un contract de restructurare între Consiliul local și Municipiul Cluj-Napoca, pe de o parte, și investitori, pe de alta (Anexa 2).",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+   "Înainte de autorizația de construire pentru ansamblul mixt (corpurile A, B și C): terenul de lângă canalul Morii, încadrat în U.T.R. Ve, se dezmembrează și se înscrie în CF ca „spațiu verde cu acces public”; se dezmembrează și 45,30 mp pentru regularizarea circulației (planșa A9).",
+   "Înainte de recepția ansamblului mixt: grădinița și terenul ei de 1100 mp trec gratuit în domeniul public, iar municipiul primește un drept de trecere pe aleea privată din sud.",
+   "Înainte de recepția ansamblului mixt: se amenajează o stație ClujBike la str. Cosașilor, transferată gratuit în domeniul public, și se construiește o traversare pietonală și velo a canalului Morii.",
+   "Înainte de recepția ansamblului mixt: terenul de 547,70 mp de lângă culoarul Morii, amenajat ca spațiu verde și de promenadă pe baza unui proiect de specialitate, trece gratuit în domeniul public.",
+   "Înainte de recepția ansamblului mixt: se aplică condițiile Avizului Siguranța Circulației nr. 556013/446/25.02.2021 – reamenajarea intersecției str. Câmpul Pâinii – str. Cosașilor și semnalizarea rutieră din zonă.",
+   "M5: clădirile stau la min. 3 m de circulația propusă în nordul parcelei (prelungirea drumului din P.U.Z. HCL 466/2007), la Hcornișă/2 dar min. 9 m de limitele vestică și nordică, și la distanța din Codul civil de limitele sudică și estică.",
+   "M5: accesul se face din str. Cosașilor și din str. Fabricii, pe drumul reglementat prin P.U.Z. HCL 466/2007; min. 75% din locurile de parcare în subsol, demisol sau parter; parcajele la sol la min. 5 m de ferestrele camerelor de locuit; punct îngropat de colectare selectivă pe patru fracții, accesibil din spațiul public.",
+   "Is_A: grădinița stă la min. 3 m de limitele vestică și sudică, min. 10 m de limita nordică și min. 5 m de aleea de incintă din est; accesul din str. Cosașilor pe o alee de incintă, parcarea în interiorul parcelei."
+  ]
+ },
+ {
   "id": "2022-510",
   "localitate": "cluj",
   "hcl": "510/2022",

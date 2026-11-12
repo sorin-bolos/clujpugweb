@@ -1,0 +1,306 @@
+{
+  "id": "2022-586",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 586,
+    "an": 2022,
+    "data_sedinta": "2022-08-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-586-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/10/04/HCL-586-din-4-august-2022.pdf"
+  },
+  "titlu": "P.U.Z. dezvoltare ansamblu mixt și funcțiuni complementare locuirii, str. Cosașilor nr. 47-49",
+  "plansa": {
+    "pagina_pdf": 35,
+    "dpi": 96,
+    "denumire": "Plan reglementări urbanistice (planșa A6)",
+    "scara": "1:500",
+    "nota": "PDF-ul are 40 de pagini scanate la 96 ppi: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii), regulamentul, contractul de restructurare, avizele și celelalte acte (p. 3-34 și 38-40, format A4, cu planuri reduse pe p. 21-23) și trei planșe color în format mare, toate la 1:500: A6 „Plan reglementări urbanistice” (p. 35, Anexa 3), A7 „Plan reglementări urbanistice – posibilități de mobilare urbanistică” (p. 36, Anexa 4) și A9 „Plan proprietate asupra terenurilor” (p. 37, Anexa 5). E aleasă A6, singura planșă de reglementări propriu-zisă, într-un singur exemplar; A7 arată o mobilare posibilă. Planșa arată două limite: albastră, a zonei studiate (care cuprinde și ansamblul deja construit din est, U.T.R. CV2), și punctată roșie, a parcelei reglementate prin P.U.Z. (8640 mp), cea din inventar; pe hartă e doar a doua. Legenda ia, în patru casete, legenda simbolurilor și cele trei coloane ale tabelului „Indici urbanistici” (M5, M5 subzona Is_A, Ve), puse una sub alta ca să se poată citi la lățimea afișată; lasă deoparte tabelul „Zona reglementată” (doar suprafețe), bilanțurile, profilul stradal, schema de zonificare, inventarul de coordonate și cartușul. În legenda simbolurilor, zonele apar ca „UTR Rim – zona mixtă” și „UTR Lip – subzona Is_A”, deși desenul, tabelul de indici și hotărârea le numesc M5 și Is_A."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A6 (31 de puncte, 301-331, X [m] Nord / Y [m] Est, Stereo 70, în ordinea limitei, cu lungimile laturilor; S = 8640 mp). Vârfurile sunt colțurile liniei punctate roșii „Limita parcelă/zona reglementată prin P.U.Z.”. Puncte de control: 303, 310, 316, 321, 328 și 331, colțuri clare răspândite pe tot conturul (latura vestică, lângă canalul Morii, e aproape dreaptă: la 329 și 330 nu se vede niciun colț, 331 e o frântură de ~20°). Puncte de verificare: 304, 312, 317, 319 și 327. Colțul NV (301-302) e acoperit de hașura roșie a terenului propus pentru dezmembrare.",
+    "suprafata_declarata_m2": 8640,
+    "puncte": {
+      "301": [
+        588657.951,
+        394227.424
+      ],
+      "302": [
+        588654.346,
+        394242.802
+      ],
+      "303": [
+        588639.027,
+        394296.199
+      ],
+      "304": [
+        588631.8,
+        394295.5
+      ],
+      "305": [
+        588627.25,
+        394303.75
+      ],
+      "306": [
+        588618.25,
+        394307.1
+      ],
+      "307": [
+        588609.6,
+        394304.45
+      ],
+      "308": [
+        588605.2,
+        394298.6
+      ],
+      "309": [
+        588603.9,
+        394292.7
+      ],
+      "310": [
+        588598.6,
+        394292.7
+      ],
+      "311": [
+        588598.5,
+        394299.3
+      ],
+      "312": [
+        588589.8,
+        394298.1
+      ],
+      "313": [
+        588590.75,
+        394292.5
+      ],
+      "314": [
+        588583.6,
+        394289.5
+      ],
+      "315": [
+        588578.3,
+        394284.0
+      ],
+      "316": [
+        588559.15,
+        394278.5
+      ],
+      "317": [
+        588552.5,
+        394292.8
+      ],
+      "318": [
+        588548.04,
+        394290.87
+      ],
+      "319": [
+        588554.67,
+        394280.65
+      ],
+      "320": [
+        588549.933,
+        394277.331
+      ],
+      "321": [
+        588539.174,
+        394292.938
+      ],
+      "322": [
+        588532.202,
+        394289.606
+      ],
+      "323": [
+        588548.029,
+        394268.208
+      ],
+      "324": [
+        588537.051,
+        394243.441
+      ],
+      "325": [
+        588527.632,
+        394230.254
+      ],
+      "326": [
+        588520.718,
+        394217.179
+      ],
+      "327": [
+        588519.245,
+        394216.089
+      ],
+      "328": [
+        588520.213,
+        394209.887
+      ],
+      "329": [
+        588578.474,
+        394216.07
+      ],
+      "330": [
+        588604.882,
+        394218.003
+      ],
+      "331": [
+        588637.8,
+        394219.326
+      ]
+    },
+    "laturi_declarate_m": {
+      "301": 15.79,
+      "302": 55.55,
+      "303": 7.26,
+      "304": 9.42,
+      "305": 9.6,
+      "306": 9.05,
+      "307": 7.32,
+      "308": 6.04,
+      "309": 5.3,
+      "310": 6.6,
+      "311": 8.78,
+      "312": 5.68,
+      "313": 7.75,
+      "314": 7.64,
+      "315": 19.92,
+      "316": 15.77,
+      "317": 4.86,
+      "318": 12.18,
+      "319": 5.78,
+      "320": 18.96,
+      "321": 7.73,
+      "322": 26.62,
+      "323": 27.09,
+      "324": 16.21,
+      "325": 14.79,
+      "326": 1.83,
+      "327": 6.28,
+      "328": 58.59,
+      "329": 26.48,
+      "330": 32.94,
+      "331": 21.72
+    }
+  },
+  "gcp_px": {
+    "303": [
+      930,
+      304
+    ],
+    "328": [
+      287,
+      1189
+    ],
+    "331": [
+      361,
+      309
+    ],
+    "321": [
+      902,
+      1052
+    ],
+    "316": [
+      798,
+      901
+    ],
+    "310": [
+      904,
+      606
+    ]
+  },
+  "verificare_px": {
+    "312": [
+      944,
+      671
+    ],
+    "319": [
+      811,
+      934
+    ],
+    "304": [
+      923,
+      358
+    ],
+    "327": [
+      334,
+      1198
+    ],
+    "317": [
+      904,
+      951
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1850,
+      244,
+      2214,
+      584
+    ],
+    [
+      898,
+      1371,
+      1117,
+      1582
+    ],
+    [
+      1117,
+      1393,
+      1390,
+      1582
+    ],
+    [
+      1390,
+      1393,
+      1569,
+      1525
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M5",
+      "denumire": "Zonă mixtă – locuire colectivă, activități administrative, de afaceri, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; regim de construire deschis",
+      "pot_max": "60% (pentru nivelurile cu locuințe, aria construită max. 40% din suprafața terenului)",
+      "cut_max": "3",
+      "h_max": "35 m, regim (1-3)S+P+9E+R; în plus un etaj tehnic, cu înălțimea totală max. 40 m"
+    },
+    {
+      "cod": "Is_A",
+      "denumire": "Subzonă de instituții și servicii publice sau de interes public – grădiniță (învățământ preșcolar); regim de construire deschis",
+      "pot_max": "25%",
+      "cut_max": "0,5",
+      "h_max": "12 m (cornișă max. 8 m), regim (1-2S)+P+E plus un nivel retras"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic, de-a lungul canalului Morii (se mențin prevederile R.L.U. aferent P.U.G.)"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-08-04",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimea în M5: planșa dă H max. 35 m și spune că etajele tehnice sunt admise și nu intră în calculul înălțimii maxime; hotărârea (Art. 1) admite suplimentar un etaj tehnic și limitează înălțimea totală, cu etaje tehnice, la 40 m.",
+    "Grădinița (Is_A): planșa încadrează în subzona Is_A 1500 mp, suprafața de referință pentru POT/CUT; hotărârea cere ca grădinița și terenul aferent ei, de 1100 mp, să treacă în domeniul public.",
+    "Denumirea zonelor: legenda simbolurilor de pe planșă le numește „UTR Rim – zona mixtă” și „UTR Lip – subzona Is_A”; hotărârea, desenul și tabelul de indici le numesc M5 și Is_A."
+  ],
+  "conditii": [
+    "Odată cu P.U.Z.-ul se aprobă un contract de restructurare între Consiliul local și Municipiul Cluj-Napoca, pe de o parte, și investitori, pe de alta (Anexa 2).",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar.",
+    "Înainte de autorizația de construire pentru ansamblul mixt (corpurile A, B și C): terenul de lângă canalul Morii, încadrat în U.T.R. Ve, se dezmembrează și se înscrie în CF ca „spațiu verde cu acces public”; se dezmembrează și 45,30 mp pentru regularizarea circulației (planșa A9).",
+    "Înainte de recepția ansamblului mixt: grădinița și terenul ei de 1100 mp trec gratuit în domeniul public, iar municipiul primește un drept de trecere pe aleea privată din sud.",
+    "Înainte de recepția ansamblului mixt: se amenajează o stație ClujBike la str. Cosașilor, transferată gratuit în domeniul public, și se construiește o traversare pietonală și velo a canalului Morii.",
+    "Înainte de recepția ansamblului mixt: terenul de 547,70 mp de lângă culoarul Morii, amenajat ca spațiu verde și de promenadă pe baza unui proiect de specialitate, trece gratuit în domeniul public.",
+    "Înainte de recepția ansamblului mixt: se aplică condițiile Avizului Siguranța Circulației nr. 556013/446/25.02.2021 – reamenajarea intersecției str. Câmpul Pâinii – str. Cosașilor și semnalizarea rutieră din zonă.",
+    "M5: clădirile stau la min. 3 m de circulația propusă în nordul parcelei (prelungirea drumului din P.U.Z. HCL 466/2007), la Hcornișă/2 dar min. 9 m de limitele vestică și nordică, și la distanța din Codul civil de limitele sudică și estică.",
+    "M5: accesul se face din str. Cosașilor și din str. Fabricii, pe drumul reglementat prin P.U.Z. HCL 466/2007; min. 75% din locurile de parcare în subsol, demisol sau parter; parcajele la sol la min. 5 m de ferestrele camerelor de locuit; punct îngropat de colectare selectivă pe patru fracții, accesibil din spațiul public.",
+    "Is_A: grădinița stă la min. 3 m de limitele vestică și sudică, min. 10 m de limita nordică și min. 5 m de aleea de incintă din est; accesul din str. Cosașilor pe o alee de incintă, parcarea în interiorul parcelei."
+  ]
+}
