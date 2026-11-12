@@ -20185,6 +20185,185 @@
   ]
  },
  {
+  "id": "2024-184",
+  "localitate": "cluj",
+  "hcl": "184/2024",
+  "data": "2024-04-15",
+  "titlu": "P.U.Z. – de restructurare, Calea Dorobanților – str. Episcop Nicolae Ivan",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-184-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2024/04/15/HCL_184.pdf",
+  "utr": [
+   {
+    "cod": "M5",
+    "denumire": "Zonă mixtă (restructurarea zonelor cu caracter industrial) – structură funcțională mixtă: locuire colectivă, activități administrative, de administrare a afacerilor, financiar-bancare, terțiare, culturale, de învățământ, de sănătate, de turism; regim de construire deschis; ansamblu cu două corpuri de clădire",
+    "pot_max": "60% (pentru nivelurile cu locuințe, aria construită cel mult 40% din suprafața terenului)",
+    "cut_max": "2,8",
+    "h_max": "cornișa la cel mult 37 m, Hmax 40 m; corp A (1-3S)+P+7E+R, corp B (1-3S)+P+9E"
+   }
+  ],
+  "suprafata_m2": 5447,
+  "imagine": "puz/2024-184/plansa.webp",
+  "bounds": {
+   "west": 23.6107755,
+   "south": 46.7742478,
+   "east": 23.6126934,
+   "north": 46.7757061
+  },
+  "limita": [
+   [
+    23.6108097,
+    46.7754286
+   ],
+   [
+    23.6108742,
+    46.7754722
+   ],
+   [
+    23.6109134,
+    46.775498
+   ],
+   [
+    23.6109738,
+    46.7755365
+   ],
+   [
+    23.6110606,
+    46.7755975
+   ],
+   [
+    23.6110695,
+    46.7756031
+   ],
+   [
+    23.6111748,
+    46.7756685
+   ],
+   [
+    23.6112369,
+    46.7756142
+   ],
+   [
+    23.6113281,
+    46.7755425
+   ],
+   [
+    23.6116106,
+    46.7753413
+   ],
+   [
+    23.6117304,
+    46.7752577
+   ],
+   [
+    23.6116427,
+    46.7752012
+   ],
+   [
+    23.6116335,
+    46.7751952
+   ],
+   [
+    23.6119659,
+    46.7749639
+   ],
+   [
+    23.6121515,
+    46.7748323
+   ],
+   [
+    23.6122387,
+    46.7747719
+   ],
+   [
+    23.6124631,
+    46.7746089
+   ],
+   [
+    23.6125534,
+    46.7745493
+   ],
+   [
+    23.6126621,
+    46.7744685
+   ],
+   [
+    23.612579,
+    46.7744007
+   ],
+   [
+    23.6124271,
+    46.7742871
+   ],
+   [
+    23.612233,
+    46.7744155
+   ],
+   [
+    23.6120853,
+    46.7745193
+   ],
+   [
+    23.6119112,
+    46.7746458
+   ],
+   [
+    23.6118711,
+    46.7746749
+   ],
+   [
+    23.6117711,
+    46.7747506
+   ],
+   [
+    23.6117395,
+    46.7747729
+   ],
+   [
+    23.6116885,
+    46.7748088
+   ],
+   [
+    23.6111892,
+    46.7751604
+   ],
+   [
+    23.6110257,
+    46.7752778
+   ],
+   [
+    23.6109741,
+    46.775313
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.35
+  },
+  "legenda": "puz/2024-184/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-04-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa desenează pe latura de sud-vest, spre blocurile de pe Calea Dorobanților nr. 112, retragerea „min. 5 m” pe toată lungimea. Art. 1 dă retrageri laterale de „min. 4,5 m și min. 6 m, conform Planșei A6”, iar R.L.U. 4,5 m spre Calea Dorobanților și, spre str. Episcop Nicolae Ivan, 4,5 m pe latura vestică și 6 m pe cea estică; valoarea de 5 m nu apare în text. Pe latura de nord-est planșa dă 4,5 m în partea dinspre Calea Dorobanților și 6 m în cea dinspre str. Episcop Nicolae Ivan, ca R.L.U."
+  ],
+  "conditii": [
+   "P.U.Z. de restructurare pentru un teren de 5.447 mp măsurați, în proprietate privată, între Calea Dorobanților și str. Episcop Nicolae Ivan (13 imobile, până acum în UTR RiM); parcelele se alipesc într-o singură parcelă, în UTR M5, pentru un ansamblu cu funcțiuni mixte în două corpuri de clădire (A și B).",
+   "Hotărârea aprobă și contractul de restructurare dintre Consiliul local și Municipiu, pe de o parte, și investitori (Anexa 1): durează până la recepția tuturor lucrărilor prevăzute de P.U.Z., obligațiile trec și asupra viitorilor proprietari, iar obiectivele publice se fac exclusiv din investiții private (valoarea investiției: 158.138.900 lei).",
+   "Investitorul realizează la parterul corpului B, la stadiul de semifinisat, un spațiu de servicii (administrativ) de aprox. 150 mp utili și trei locuințe sociale/pentru tineri, apartamente cu 2 camere; după recepția corpului B și înainte de recepția corpului A le trece gratuit în domeniul public al Municipiului.",
+   "Înainte de recepția corpului A investitorul realizează și: legătura pietonală între Calea Dorobanților și str. Episcop Nicolae Ivan; o parcare cu stație de reîncărcare pentru 2 mașini electrice la Calea Dorobanților și una pentru 3 mașini la str. Episcop Nicolae Ivan; o stație de bike sharing ClujBike la Calea Dorobanților.",
+   "Retrageri: cel puțin 3 m față de aliniament; față de limitele laterale cel puțin 4,5 m, respectiv 6 m, după planșa A6; retragerea în trepte e admisă dacă fiecare cornișă sau atic intermediar respectă regula; între două clădiri de pe parcelă cel puțin jumătate din înălțimea celei mai înalte, dar minim 10 m (R.L.U.).",
+   "Accesul auto se face din Calea Dorobanților; accese pietonale din Calea Dorobanților și din str. Episcop Nicolae Ivan.",
+   "Cel puțin 75 % din locurile de parcare sunt în spații specializate (subsol, demisol sau parterul clădirilor), cu necesarul după Anexa 2 la R.L.U. al P.U.G. R.L.U.: tubulatură pentru stații de reîncărcare la un loc din cinci; parcajele la sol stau la cel puțin 5 m de ferestrele camerelor de locuit.",
+   "Echiparea edilitară completă e condiție pentru autorizarea oricărei construcții, iar toate clădirile se racordează la rețelele publice. R.L.U.: utilitățile sunt subterane, fără cabluri aeriene; centralele individuale pe gaz sunt interzise (încălzire centralizată sau de scară/bloc); apele meteorice nu se descarcă spre domeniul public sau spre vecini; puncte de colectare selectivă a deșeurilor îngropate, pe patru fracții, accesibile din spațiul public.",
+   "R.L.U.: spațiile verzi pe sol natural ocupă cel puțin 30 % din parcelă, iar scuarurile și grădinile au acces public nelimitat; se plantează cel puțin 20 de arbori (paltin, jugastru, mesteacăn) cu circumferința de 35 cm la 1 m de colet; spre spațiul public nu se fac împrejmuiri.",
+   "R.L.U.: parterele spre spațiile publice au funcțiuni de interes public. Sunt interzise activitățile industriale, poluante sau care generează trafic incomod, garajele independente în interiorul parcelei, locuințele individuale noi, instalațiile pe fațada spre spațiul public și terasamentele care afectează spațiile publice sau parcelele vecine; instalațiile exterioare (climatizare, pompe de căldură) nu trebuie să se audă la ferestrele vecinilor.",
+   "R.L.U.: arhitectură modernă, fără pastișe; acoperișuri plate (terasă sau pante sub 10 %); balcoane și bow-window-uri de la 4 m peste trotuar, spre limitele laterale numai logii; culori pastelate, fără culori saturate.",
+   "Toate investițiile propuse prin documentația de urbanism sunt suportate de beneficiari (avizul arhitectului șef nr. 192/2022)."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
