@@ -20002,6 +20002,147 @@
   ]
  },
  {
+  "id": "2024-187",
+  "localitate": "cluj",
+  "hcl": "187/2024",
+  "data": "2024-04-15",
+  "titlu": "P.U.Z. – Dezvoltare facilități dedicate agrementului pentru public, str. Făgetului nr. 33b provizoriu",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-187-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/187.pdf",
+  "utr": [
+   {
+    "cod": "Aapp*",
+    "denumire": "Zonă de agrement pentru public: alimentație publică, cazare turistică (pensiuni, vile turistice, camping), picnic, sport în aer liber, echitație, amenajări pentru activități în aer liber (terenuri de sport, platforme, alei, parcaje), edicule; regim de construire deschis; pe parcelă sunt admise 4 corpuri (clădiri) de cazare turistică, cu dotări conexe",
+    "pot_max": "10%",
+    "cut_max": "0,25",
+    "h_max": "8 m la cornișa superioară sau la aticul etajului neretras, 12 m la coamă sau la aticul etajului retras, în punctul cel mai înalt; cel mult trei niveluri supraterane: (S)+P+E+M, (S)+P+E+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 4065,
+  "imagine": "puz/2024-187/plansa.webp",
+  "bounds": {
+   "west": 23.5744035,
+   "south": 46.7154294,
+   "east": 23.5760374,
+   "north": 46.7166442
+  },
+  "limita": [
+   [
+    23.5760018,
+    46.7157209
+   ],
+   [
+    23.5758202,
+    46.7154679
+   ],
+   [
+    23.5755516,
+    46.7156014
+   ],
+   [
+    23.5753127,
+    46.7157126
+   ],
+   [
+    23.5750421,
+    46.7158418
+   ],
+   [
+    23.5747928,
+    46.7159671
+   ],
+   [
+    23.5747404,
+    46.7161074
+   ],
+   [
+    23.5746322,
+    46.7163027
+   ],
+   [
+    23.5744337,
+    46.7166109
+   ],
+   [
+    23.5746937,
+    46.7166108
+   ],
+   [
+    23.5747361,
+    46.7163624
+   ],
+   [
+    23.5748031,
+    46.7163295
+   ],
+   [
+    23.5749726,
+    46.716249
+   ],
+   [
+    23.5751408,
+    46.7161673
+   ],
+   [
+    23.5753876,
+    46.7160399
+   ],
+   [
+    23.5754662,
+    46.715994
+   ],
+   [
+    23.5755881,
+    46.7159172
+   ],
+   [
+    23.5757125,
+    46.7158425
+   ],
+   [
+    23.5757758,
+    46.7158063
+   ],
+   [
+    23.5758478,
+    46.7157779
+   ],
+   [
+    23.5759032,
+    46.7157579
+   ],
+   [
+    23.5759751,
+    46.7157295
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "caroiaj Stereo70, limită trasată pe planșă",
+   "puncte": 12,
+   "rms_m": 0.18
+  },
+  "legenda": "puz/2024-187/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-04-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa propune 8 locuri de parcare (6 pentru cazarea turistică, 2 pentru alimentația publică) și 20 pentru biciclete; Art. 1 nu fixează un număr, ci cere parcajele în interiorul parcelei, calculate după Anexa 2 la R.L.U. aferent P.U.G., pentru agrement pentru public."
+  ],
+  "conditii": [
+   "Se reglementează o singură parcelă proprietate privată, nr. cad. 338717 (4282 mp după planșă), cu acces auto și pietonal din str. Făgetului; construcțiile se autorizează numai dacă există acces direct la drumul public.",
+   "Retrageri: cel puțin 8 m față de aliniament, 9 m față de limita laterală nordică și 3 m față de limita laterală sudică.",
+   "Între două clădiri de pe parcelă distanța e cel puțin înălțimea celei mai înalte, dar minim 4,5 m, sau 6 m când încăperi principale dau spre spațiul dintre ele; sunt admise cel mult 4 corpuri de cazare turistică, cu dotări conexe.",
+   "Parcarea se face numai în interiorul parcelei, cu necesarul calculat după Anexa 2 la R.L.U. aferent P.U.G.; R.L.U. cere parcaje la sol pe terenul unității de agrement și recomandă învelitori permeabile pentru căile din parcelă.",
+   "Racordarea la rețelele publice e obligatorie; unde nu există canalizare publică, apele uzate se pot epura individual și folosi sau infiltra în parcelă. Apele pluviale se gestionează prin acumulare sau retenție și se evacuează în emisari locali cu debitele din avizul Apele Române (A.B.A. Someș-Tisa), niciodată spre domeniul public sau spre vecini.",
+   "Cablurile nu se montează aerian, firidele de branșament se integrează în împrejmuire, iar parcela are o platformă sau un spațiu pentru deșeuri, accesibil din domeniul public.",
+   "R.L.U.: spațiile verzi pe sol natural ocupă cel puțin 60% din parcelă și cel puțin 60% din grădina de fațadă; tăierea arborilor maturi e interzisă, cu excepția celor periculoși sau care împiedică realizarea construcțiilor.",
+   "R.L.U.: o parcelă e construibilă cu front la stradă de cel puțin 20 m și cel puțin 2000 mp (diviziunile trebuie să respecte aceleași condiții); terasamentele care afectează spațiile publice sau parcelele vecine sunt interzise.",
+   "R.L.U.: aliniamentul se închide pe toată lungimea cu împrejmuire din materiale naturale (lemn, piatră) sau vegetație, iar spre vecini împrejmuirile au cel mult 2,20 m și sunt transparente; arhitectura e modernă, subordonată încadrării în peisaj.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-185",
   "localitate": "cluj",
   "hcl": "185/2024",
