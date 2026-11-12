@@ -16,35 +16,38 @@
     "dpi": 200,
     "denumire": "U/P.U.Z./03 Plan reglementări urbanistice",
     "scara": "1:500",
-    "nota": "PDF-ul hotărârii are 10 pagini A4 scanate la 200 ppi: hotărârea semnată (p. 1-2), Anexa 1 R.L.U. aferent P.U.Z. (p. 3-8), Anexa 2, planșa U/P.U.Z./03 Plan reglementări urbanistice (p. 9, singura copie) și Anexa 3, planșa U/P.U.Z./05 Proprietatea asupra terenurilor (p. 10, același desen de bază). Cartușul p. 9: proiectant SC Bogart Construct SRL, pr. nr. 31/2019, faza P.U.Z., 11.2023, scara 1:500. Planșa e redusă pe A4: cam 5,4 px/m (cota „31,99” pe limita dintre P.3 și P.2 are 173 px), față de 15,7 px/m cât ar avea la 1:500 și 200 ppi (cam 34 %). Nordul e în sus. Literele legendei au 7-8 px: titlurile UTR, P.O.T. 35 %, C.U.T. 0,9, regimul de înălțime și retragerile se citesc mărite, cifrele mici (parcelarul, bilanțurile) doar parțial. Planșa n-are caroiaj Stereo 70. Legenda nu s-a decupat, pentru că P.U.Z.-ul nu s-a construit."
+    "nota": "PDF-ul hotărârii are 10 pagini A4 scanate la 200 ppi: hotărârea semnată (p. 1-2), Anexa 1 R.L.U. aferent P.U.Z. (p. 3-8), Anexa 2, planșa U/P.U.Z./03 Plan reglementări urbanistice (p. 9, singura copie) și Anexa 3, planșa U/P.U.Z./05 Proprietatea asupra terenurilor (p. 10, același desen de bază). Cartușul p. 9: proiectant SC Bogart Construct SRL, pr. nr. 31/2019, faza P.U.Z., 11.2023, scara 1:500. Planșa e redusă pe A4: cam 5,4 px/m (cota „31,99” pe limita dintre P.3 și P.2 are 173 px), față de 15,7 px/m cât ar avea la 1:500 și 200 ppi (cam 34 %). Nordul e în sus. Literele legendei au 7-8 px: titlurile UTR, P.O.T. 35 %, C.U.T. 0,9, regimul de înălțime și retragerile se citesc mărite, cifrele mici (parcelarul, bilanțurile) doar parțial. Planșa n-are caroiaj Stereo 70. Varianta de verificat (2026-11-12, branch puz-verificare): legenda e decupată în trei casete (x 1150-1578): „Limite” (y 130-213, fără antetul „Anexa 2 la Hotărârea nr.” cu numărul scris de mână), zonificarea, circulațiile, obiectivele propuse cu P.O.T./C.U.T./regimul de înălțime și aliniamentele/retragerile (y 213-744) și nota despre etapizare (y 917-951); s-au lăsat afară „Indici” și „Parcele propuse” (doar suprafețe: S total 4.822,90 mp, fâșiile de 153,71 și 13,86 mp, parcelele 1-7, P.7 = 160,7 mp), parcările, bilanțurile, inventarul și cartușul. Literele au 7-8 px, deci legenda se citește doar mărită. Pe loturile din zonă nu e scris niciun nume de proprietar (doar P.1-P.7, codurile UTR, cote, „Stâlp de înaltă tensiune”, „LEA”): 0 nume acoperite, `acopera_px` gol."
   },
   "coordonate": {
     "crs": "EPSG:3844",
     "sursa": "Tabelul „Coordonate pct de contur” din dreapta-jos (x 1160-1360, y 1460-1830 pe planșa randată) are 46 de rânduri (Nr. pct., X, Y, Z; punctele 307, 383, 382, 381, 380, 379, 162, 435, 434…, cote Z de 543-552 m), dar cifrele au 6-7 px și se topesc chiar mărite de 5-6 ori: nici măcar metrii nu se citesc sigur (prima coloană pare 5826xx sau 5828xx). Numerele punctelor nu se văd lângă colțurile limitei. Am încercat metoda OpenStreetMap: ancora de pornire e intersecția str. Făgetului / Aleea Hortensiei (E 392272,3 N 582746,7 din extrasul OSM din 2026-11-08), la (505, 1790), cu 5,4 px/m și nordul în sus; str. Făgetului, str. Eugen Ionesco, str. Gherase Dendrino, Aleea Hortensiei și pista de biciclete (banda gri închis de lângă perle) cad atunci la câțiva metri de cele desenate, deci planșa s-ar putea pune pe hartă prin intersecții de străzi (clădirile existente sunt desenate foarte șters). Piedica e limita. Linia cu perle e „zona studiată” (18.157,79 mp în bilanț), nu zona reglementată. Zona reglementată, de 4.823 mp (4.822,90 mp în R.L.U.: P1 1000,17, P2 1570,19, P3 595,80, P4 523,39, P5 451,77, P6 353,06 mp, P7 cu S_Va, plus 153,71 mp pentru str. Făgetului și 13,86 mp pentru str. Eugen Ionesco), e fâșia dintre cele două străzi, de la P.1 până la P.7, iar conturul ei nu e desenat cu o linie proprie. Se văd sigur: P.1 (Liu*, hașurat), cu laturile (588, 1100)-(515, 1248) și (588, 1100)-(720, 1167); latura vestică a P.2, linia întreruptă (512, 1250)-(478, 1320)-(330, 1362); latura dinspre str. Eugen Ionesco, linia subțire de la x 330-345 (y 1362-1900); limita P.3, (338, 1462)-(405, 1460)-(565, 1525). Nu se pot alege: latura dinspre str. Făgetului (între y 1180 și 1950 sunt 5-7 linii întrerupte paralele, la 15 px unele de altele, iar o linie greșită schimbă aria cu 300-400 mp, adică 6-8 %) și capătul sudic al P.7 (în jur de y 1895-1925, printre cote și hașuri).",
     "suprafata_declarata_m2": 4823.0,
     "puncte": {},
-    "nota": "Ce ar debloca P.U.Z.-ul: o copie lizibilă a planșei U/P.U.Z./03 (originalul de la Direcția Generală de Urbanism sau documentația din etapa de consultare a publicului, dacă e aceeași planșă), din care se citește inventarul, sau conturul celor trei parcele cadastrale (nr. cad. 350773, 334857 și 332536), care împreună dau zona reglementată."
+    "nota": "Ce ar debloca P.U.Z.-ul: o copie lizibilă a planșei U/P.U.Z./03 (originalul de la Direcția Generală de Urbanism sau documentația din etapa de consultare a publicului, dacă e aceeași planșă), din care se citește inventarul, sau conturul celor trei parcele cadastrale (nr. cad. 350773, 334857 și 332536), care împreună dau zona reglementată. Varianta de verificat (2026-11-12, branch puz-verificare, publicată cu `build --force` deși rămâne „oprit”): Plasare: metoda OpenStreetMap (similaritate), cu două intersecții de străzi ca puncte de control, HORT = str. Făgetului / Aleea Hortensiei la (505, 1790) și DEND = str. Făgetului / str. Gherase Dendrino la (697, 1289), și una de verificare, WEST = str. Eugen Ionesco / strada fără nume spre vest, la (260, 1346): 4,61 m (limita OSM e 5 m). Scara rezultată, 5,40 px/m, se potrivește cu cota „31,99” de pe planșă (5,41 px/m); rotația iese -1,3°, deși chenarul scanării e înclinat cu +0,3...+0,45°, deci planșa poate fi rotită cu ~1,5° prea mult. Cu toate trei intersecțiile ca puncte de control (rotație +0,16°, 5,43 px/m, reziduuri 1,4-1,8 m) limita s-ar muta cu 1-2,7 m (în medie 1,8 m), mai ales pe latura vestică și la colțuri. Planșa nu desenează clădiri existente care să se poată lega de OSM (casele din zonă lipsesc, cele din jur sunt șterse sau altfel conturate), deci nu există un al patrulea punct. Limita e trasată (`limita_px`): latura nordică a P.1 (588, 1103)-(719, 1168)-(734, 1176); latura estică a P.1, linia plină până la (699, 1238); pe latura dinspre str. Făgetului, din cele trei linii întrerupte continue paralele cu strada (la ~25, ~37 și ~45-50 px vest de linia cu perle, adică ~2 m una de alta, de urmărit pe planșă de la y 1290 la y 1940), cea mai dinspre vest, care conține și latura plină estică a P.2, (597, 1449)-(567, 1523), și continuă până la P.7; latura sudică a P.7, linia punctată (353, 1899)-(418, 1921); latura vestică, linia întreruptă la 3-5 m est de perlele de pe str. Eugen Ionesco; colțul nord-vestic, latura vestică a P.2 (514, 1251)-(481, 1319) și linia întreruptă până la (320, 1371). Aria: 4.756 mp, -1,4 % față de 4.823 mp; partea de la nord de limita P.2/P.3 are 2.614 mp (P.1 + P.2 = 2.570,36 mp în R.L.U.), cea de la sud 2.143 mp (P.3-P.7 = 2.084,7 mp). Linia următoare spre stradă ar da ~5.070 mp (+5 %), iar a treia ~5.380 mp (+11 %), deci nu se potrivesc. Imaginea satelitară: limita estică stă pe marginea vestică a carosabilului str. Făgetului, cea vestică pe marginea estică a str. Eugen Ionesco, latura nordică pe drumul de acces de la nord de P.1. Nesigur: (1) dacă linia aleasă e limita de proprietate sau aliniamentul nou; textul „Teren rezervat pt realizare profil str. Făgetului 153,71 mp” e scris în fâșia dintre linii, iar fâșia face parte din zona reglementată, deci limita reală poate fi cu până la ~1 m mai spre est (aria ar crește cu ~150 mp, la ~+1,7 %); (2) capătul sudic al P.7; (3) poziția, ±3-5 m (OSM) și rotația de mai sus; (4) colțurile nu sunt verificate de niciun punct din inventar."
   },
   "georef_metoda": "osm",
   "osm_ancora": {
-    "px": [
-      505,
-      1790
-    ],
-    "en": [
-      392272.3,
-      582746.7
-    ],
+    "px": [505, 1790],
+    "en": [392272.3, 582746.7],
     "px_per_m": 5.4,
     "nord": 0
   },
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "HORT": [505, 1790],
+    "DEND": [697, 1289]
+  },
+  "verificare_px": {
+    "WEST": [260, 1346]
+  },
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
   },
-  "legenda_px": [],
+  "legenda_px": [
+    [1150, 130, 1400, 213],
+    [1150, 213, 1578, 744],
+    [1150, 917, 1578, 951]
+  ],
   "utr": [
     {
       "cod": "Liu*",
@@ -88,5 +91,80 @@
     "Retrageri în UTR Liu*: 3 m față de aliniament (la parcelele de colț față de ambele aliniamente), garajele la minim 6 m de aliniament, ca să se poată parca un autoturism în față; minim 3 m față de limitele laterale (garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar minim 6 m (garajele minim 6 m); între două clădiri de pe aceeași parcelă cel puțin înălțimea celei mai înalte, la cornișă sau atic, dar minim 6 m.",
     "Accesul se face din str. Făgetului și din str. Eugen Ionesco; parcarea se face în interiorul parcelei: un loc pentru clădiri cu aria utilă sub 100 mp și două pentru cele de cel puțin 100 mp. Echiparea tehnico-edilitară e completă pe cele două străzi.",
     "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "repere": {
+    "HORT": [582746.75, 392272.27],
+    "DEND": [582838.68, 392309.91],
+    "WEST": [582825.47, 392227.74]
+  },
+  "repere_osm": {
+    "HORT": "intersecție Aleea Hortensiei / Strada Făgetului (x439038686_439038726)",
+    "DEND": "intersecție Strada Gherase Dendrino / Strada Făgetului (x362763767_439038686)",
+    "WEST": "intersecție Strada Eugen Ionesco / residential (x359622941_1034719366)"
+  },
+  "limita_px": [
+    [588, 1103],
+    [719, 1168],
+    [734, 1176],
+    [699, 1238],
+    [690, 1253],
+    [681, 1270],
+    [672, 1286],
+    [663, 1305],
+    [654, 1323],
+    [646, 1342],
+    [638, 1360],
+    [630, 1377],
+    [621, 1395],
+    [612, 1415],
+    [604, 1434],
+    [595, 1453],
+    [587, 1472],
+    [580, 1490],
+    [573, 1511],
+    [566, 1528],
+    [560, 1544],
+    [552, 1565],
+    [545, 1586],
+    [538, 1604],
+    [532, 1622],
+    [527, 1635],
+    [519, 1653],
+    [510, 1673],
+    [501, 1696],
+    [494, 1716],
+    [488, 1735],
+    [481, 1754],
+    [475, 1772],
+    [469, 1789],
+    [462, 1807],
+    [455, 1825],
+    [447, 1844],
+    [440, 1863],
+    [433, 1882],
+    [426, 1901],
+    [419, 1920],
+    [418, 1921],
+    [353, 1899],
+    [354, 1889],
+    [357, 1859],
+    [359, 1827],
+    [359, 1797],
+    [359, 1767],
+    [360, 1738],
+    [361, 1707],
+    [359, 1677],
+    [358, 1647],
+    [357, 1617],
+    [355, 1585],
+    [350, 1554],
+    [346, 1524],
+    [342, 1495],
+    [337, 1465],
+    [332, 1436],
+    [326, 1406],
+    [320, 1371],
+    [481, 1319],
+    [514, 1251]
   ]
 }
