@@ -20364,6 +20364,224 @@
   ]
  },
  {
+  "id": "2024-117",
+  "localitate": "cluj",
+  "hcl": "117/2024",
+  "data": "2024-03-04",
+  "titlu": "P.U.Z. – Parcelare și construire locuințe cu regim redus de înălțime, str. Căpitan Grigore Ignat nr. 16-16A",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-117-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/03/19/HCL-117.pdf",
+  "utr": [
+   {
+    "cod": "Lir*",
+    "denumire": "Locuințe cu regim redus de înălțime cu caracter rural – locuințe individuale (unifamiliale) sau semicolective (familiale), cu cel mult două unități locative pe parcelă; alternativ două locuințe individuale izolate pe o parcelă de cel puțin 700 mp; regim de construire deschis. R.L.U. admite cu condiții servicii de proximitate și creșe, grădinițe sau școli.",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "10,5 m la coama acoperișului sau la aticul nivelului retras și 6,5 m la cornișă sau la aticul ultimului nivel neretras; cel mult trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   }
+  ],
+  "suprafata_m2": 4613,
+  "imagine": "puz/2024-117/plansa.webp",
+  "bounds": {
+   "west": 23.6566866,
+   "south": 46.7872254,
+   "east": 23.6588613,
+   "north": 46.7877474
+  },
+  "limita": [
+   [
+    23.6567069,
+    46.7877085
+   ],
+   [
+    23.656716,
+    46.7877085
+   ],
+   [
+    23.6568263,
+    46.7877029
+   ],
+   [
+    23.6568698,
+    46.7877029
+   ],
+   [
+    23.6570417,
+    46.7876886
+   ],
+   [
+    23.6571089,
+    46.7876839
+   ],
+   [
+    23.6572284,
+    46.7876645
+   ],
+   [
+    23.657261,
+    46.78766
+   ],
+   [
+    23.6574736,
+    46.78763
+   ],
+   [
+    23.6577447,
+    46.7875989
+   ],
+   [
+    23.657865,
+    46.7875893
+   ],
+   [
+    23.6580462,
+    46.7875803
+   ],
+   [
+    23.6582186,
+    46.7875804
+   ],
+   [
+    23.6583929,
+    46.7875856
+   ],
+   [
+    23.6585773,
+    46.7876004
+   ],
+   [
+    23.6587034,
+    46.7876212
+   ],
+   [
+    23.6587755,
+    46.7876323
+   ],
+   [
+    23.6588031,
+    46.7875608
+   ],
+   [
+    23.6588315,
+    46.7874948
+   ],
+   [
+    23.6585835,
+    46.7874147
+   ],
+   [
+    23.658546,
+    46.7873996
+   ],
+   [
+    23.6583285,
+    46.787332
+   ],
+   [
+    23.6583017,
+    46.7872668
+   ],
+   [
+    23.6582284,
+    46.7872639
+   ],
+   [
+    23.6581504,
+    46.7872577
+   ],
+   [
+    23.6580597,
+    46.7872552
+   ],
+   [
+    23.6579647,
+    46.7872571
+   ],
+   [
+    23.6576407,
+    46.7873232
+   ],
+   [
+    23.6574934,
+    46.7873386
+   ],
+   [
+    23.6573111,
+    46.7873598
+   ],
+   [
+    23.6572306,
+    46.7873792
+   ],
+   [
+    23.6571765,
+    46.7873999
+   ],
+   [
+    23.657129,
+    46.7874295
+   ],
+   [
+    23.6570808,
+    46.7874552
+   ],
+   [
+    23.6570041,
+    46.7874774
+   ],
+   [
+    23.6569808,
+    46.7874823
+   ],
+   [
+    23.6568612,
+    46.7874943
+   ],
+   [
+    23.6567156,
+    46.7875077
+   ],
+   [
+    23.6567134,
+    46.7875985
+   ],
+   [
+    23.6567102,
+    46.7876384
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 6,
+   "rms_m": 0.09
+  },
+  "legenda": "puz/2024-117/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-03-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Blocul UTR de pe planșă dă doar P.O.T. 35 %, C.U.T. 0,9 și, pe desen, „Hmax. = 10,5 m”; Art. 1 (și R.L.U., art. 10) limitează în plus înălțimea la cornișă sau la aticul ultimului nivel neretras la 6,5 m și regimul de înălțime la trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R), cu ultimul nivel retras cel puțin 1,80 m față de fațada spre stradă. Indicatorii și retragerile cotate pe planșă (3 m, la P4 6 m spre nord, 4,5 m spre sud și 20 m spre limita posterioară) se potrivesc cu textul."
+  ],
+  "conditii": [
+   "Se reglementează parcela de 4613 mp, proprietate privată (nr. cad. 346118), cu front la str. Căpitan Grigore Ignat: patru parcele construibile, P1-P4, toate în UTR Lir* (P1 păstrează casa existentă D+P+E), strada nouă „A”, care pornește din str. Căpitan Grigore Ignat spre est, și o fâșie „drum” pentru regularizarea str. Căpitan Grigore Ignat (26 mp pe planșă).",
+   "Înainte de autorizațiile de construire pe parcele, strada „A” (ampriza 7,5 m: 6 m carosabil și 1,5 m trotuar) se înscrie în CF ca „drum”, se echipează edilitar și se realizează din piatră spartă cilindrată; până la recepția construcțiilor se aduce la strat de uzură (dalaj sau asfalt), după un proiect de specialitate. Strada are acces public nelimitat.",
+   "Înainte de autorizațiile de construire, terenul pentru regularizarea str. Căpitan Grigore Ignat (după planșa 05 Plan circulația terenurilor) se dezmembrează din parcelă și se înscrie în CF ca „drum”; până la recepția construcțiilor se aduce la aceeași îmbrăcăminte rutieră ca str. Căpitan Grigore Ignat.",
+   "Retrageri: față de aliniament cel puțin 3 m (la parcela de colț față de ambele aliniamente), garajele cel puțin 6 m, ca să încapă un autoturism în față; față de limitele laterale cel puțin 3 m la P1, P2 și P3, iar la P4 cel puțin 4,5 m față de limita sudică și 6 m față de cea nordică; dacă pe o limită laterală există calcanul unui garaj, clădirea se alipește de el și se retrage cel puțin 3 m de limita opusă; față de limita posterioară cel puțin înălțimea clădirii, dar minim 6 m la P1-P3 și 20 m la P4; garajele stau la cel puțin 6 m de limitele posterioare și se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m.",
+   "Între două clădiri de pe aceeași parcelă: cel puțin jumătate din înălțimea celei mai înalte (la cornișă sau atic), dar minim 3 m, și minim 6 m dacă spre spațiul dintre ele dau camere de zi sau dormitoare.",
+   "Clădirile existente care nu se încadrează în reglementări pot fi menținute, fără a li se modifica regimul de înălțime; extinderea, etajarea sau mansardarea lor respectă aceleași reguli, iar mansardarea se face în geometria acoperișului actual.",
+   "Accesul se face din str. Căpitan Grigore Ignat și din strada „A”; accesul carosabil are lățimea recomandată de 4 m (R.L.U.: orice acces la drumurile publice cu avizul administratorului lor).",
+   "Parcarea se face în interiorul parcelei: la locuințe cel puțin un loc pentru clădiri cu A.U. sub 100 mp și două peste 100 mp; un loc pentru servicii de proximitate; la creșe, grădinițe și școli un loc la 5 angajați, dar minim două.",
+   "Toate utilitățile se racordează la rețelele publice. R.L.U.: firidele se integrează în împrejmuire, cablurile nu se montează aerian, apele meteorice nu se descarcă spre domeniul public sau spre vecini, iar fiecare parcelă are o platformă sau un spațiu pentru deșeuri, accesibil din spațiul public.",
+   "R.L.U.: o parcelă e construibilă dacă are front la stradă de cel puțin 10 m și cel puțin 500 mp.",
+   "R.L.U.: spațiile verzi pe sol natural ocupă cel puțin 40 % din parcelă, iar în grădina de fațadă cel puțin 60 %; tăierea arborilor maturi e interzisă, cu excepția celor periculoși sau care împiedică realizarea construcțiilor.",
+   "R.L.U.: serviciile de proximitate sunt admise dacă le prestează mai ales proprietarii, se adresează locuitorilor zonei, se desfășoară numai în interior și nu poluează; creșele, grădinițele și școlile numai pe baza unui P.U.D. și fără alte funcțiuni pe parcelă; sunt interzise depozitarea și comerțul en gros, creșterea comercială a animalelor și terasamentele care afectează spațiile publice sau parcelele vecine.",
+   "R.L.U.: acoperișuri în două sau patru ape, cu pante egale de cel mult 60°, sau terasă; țiglă ceramică sau tablă lisă fălțuită, culori pastelate; mansarda are cel mult 60 % din suprafața nivelului curent.",
+   "R.L.U.: aliniamentul se închide pe toată lungimea cu împrejmuire de cel mult 2,2 m, cu soclu opac de cel mult 80 cm și parte transparentă; spre vecini împrejmuiri de cel mult 2,2 m, transparente sau opace; porțile de la aliniament se deschid spre interior.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2023-827",
   "localitate": "cluj",
   "hcl": "827/2023",
