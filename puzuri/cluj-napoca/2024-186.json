@@ -1,0 +1,92 @@
+{
+  "id": "2024-186",
+  "localitate": "cluj",
+  "stare": "oprit",
+  "motiv": "Inventarul de coordonate („Coordonate pct de contur”, 46 de puncte) e ilizibil pe planșa redusă pe A4, iar limita zonei reglementate (4.823 mp) nu se poate trasa sigur: pe latura dinspre str. Făgetului e una din 5-7 linii întrerupte paralele, la 2-3 m una de alta (aliniament, fâșia de 153,71 mp pentru lărgirea străzii, retrageri, zona de siguranță a magistralei de gaz), iar capătul sudic al P.7 nu e desenat distinct; o linie aleasă după arie n-ar mai fi verificată de nimic.",
+  "hcl": {
+    "nr": 186,
+    "an": 2024,
+    "data_sedinta": "2024-04-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-186-din-2024/",
+    "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/186.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare, str. Făgetului nr. 10",
+  "plansa": {
+    "pagina_pdf": 9,
+    "dpi": 200,
+    "denumire": "U/P.U.Z./03 Plan reglementări urbanistice",
+    "scara": "1:500",
+    "nota": "PDF-ul hotărârii are 10 pagini A4 scanate la 200 ppi: hotărârea semnată (p. 1-2), Anexa 1 R.L.U. aferent P.U.Z. (p. 3-8), Anexa 2, planșa U/P.U.Z./03 Plan reglementări urbanistice (p. 9, singura copie) și Anexa 3, planșa U/P.U.Z./05 Proprietatea asupra terenurilor (p. 10, același desen de bază). Cartușul p. 9: proiectant SC Bogart Construct SRL, pr. nr. 31/2019, faza P.U.Z., 11.2023, scara 1:500. Planșa e redusă pe A4: cam 5,4 px/m (cota „31,99” pe limita dintre P.3 și P.2 are 173 px), față de 15,7 px/m cât ar avea la 1:500 și 200 ppi (cam 34 %). Nordul e în sus. Literele legendei au 7-8 px: titlurile UTR, P.O.T. 35 %, C.U.T. 0,9, regimul de înălțime și retragerile se citesc mărite, cifrele mici (parcelarul, bilanțurile) doar parțial. Planșa n-are caroiaj Stereo 70. Legenda nu s-a decupat, pentru că P.U.Z.-ul nu s-a construit."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Tabelul „Coordonate pct de contur” din dreapta-jos (x 1160-1360, y 1460-1830 pe planșa randată) are 46 de rânduri (Nr. pct., X, Y, Z; punctele 307, 383, 382, 381, 380, 379, 162, 435, 434…, cote Z de 543-552 m), dar cifrele au 6-7 px și se topesc chiar mărite de 5-6 ori: nici măcar metrii nu se citesc sigur (prima coloană pare 5826xx sau 5828xx). Numerele punctelor nu se văd lângă colțurile limitei. Am încercat metoda OpenStreetMap: ancora de pornire e intersecția str. Făgetului / Aleea Hortensiei (E 392272,3 N 582746,7 din extrasul OSM din 2026-11-08), la (505, 1790), cu 5,4 px/m și nordul în sus; str. Făgetului, str. Eugen Ionesco, str. Gherase Dendrino, Aleea Hortensiei și pista de biciclete (banda gri închis de lângă perle) cad atunci la câțiva metri de cele desenate, deci planșa s-ar putea pune pe hartă prin intersecții de străzi (clădirile existente sunt desenate foarte șters). Piedica e limita. Linia cu perle e „zona studiată” (18.157,79 mp în bilanț), nu zona reglementată. Zona reglementată, de 4.823 mp (4.822,90 mp în R.L.U.: P1 1000,17, P2 1570,19, P3 595,80, P4 523,39, P5 451,77, P6 353,06 mp, P7 cu S_Va, plus 153,71 mp pentru str. Făgetului și 13,86 mp pentru str. Eugen Ionesco), e fâșia dintre cele două străzi, de la P.1 până la P.7, iar conturul ei nu e desenat cu o linie proprie. Se văd sigur: P.1 (Liu*, hașurat), cu laturile (588, 1100)-(515, 1248) și (588, 1100)-(720, 1167); latura vestică a P.2, linia întreruptă (512, 1250)-(478, 1320)-(330, 1362); latura dinspre str. Eugen Ionesco, linia subțire de la x 330-345 (y 1362-1900); limita P.3, (338, 1462)-(405, 1460)-(565, 1525). Nu se pot alege: latura dinspre str. Făgetului (între y 1180 și 1950 sunt 5-7 linii întrerupte paralele, la 15 px unele de altele, iar o linie greșită schimbă aria cu 300-400 mp, adică 6-8 %) și capătul sudic al P.7 (în jur de y 1895-1925, printre cote și hașuri).",
+    "suprafata_declarata_m2": 4823.0,
+    "puncte": {},
+    "nota": "Ce ar debloca P.U.Z.-ul: o copie lizibilă a planșei U/P.U.Z./03 (originalul de la Direcția Generală de Urbanism sau documentația din etapa de consultare a publicului, dacă e aceeași planșă), din care se citește inventarul, sau conturul celor trei parcele cadastrale (nr. cad. 350773, 334857 și 332536), care împreună dau zona reglementată."
+  },
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      505,
+      1790
+    ],
+    "en": [
+      392272.3,
+      582746.7
+    ],
+    "px_per_m": 5.4,
+    "nord": 0
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (P.1, parțial, și P.3-P.6): locuințe individuale izolate, pe parcele de minim 350 mp, sau semicolective cu două unități locative, pe parcele de minim 450 mp; regim de construire deschis",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: D+P+M, D+P+R, (S)+P+E+R, (S)+P+E+M"
+    },
+    {
+      "cod": "S_Va¹",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat (P.7): spații verzi, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, grupuri sanitare",
+      "pot_max": "nu e cazul",
+      "cut_max": "nu e cazul",
+      "h_max": "nu e cazul"
+    },
+    {
+      "cod": "Vpr",
+      "denumire": "Zonă verde de protecție față de infrastructura majoră, de protecție sanitară, plantații cu rol de stabilizare a versanților și de reconstrucție ecologică (P.2 și o parte din P.1): se mențin prevederile R.L.U. aferent P.U.G.",
+      "pot_max": "conform R.L.U. aferent P.U.G.",
+      "cut_max": "conform R.L.U. aferent P.U.G.",
+      "h_max": "conform R.L.U. aferent P.U.G."
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2029-04-15",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (15.04.2024); nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Planșa dă doar „H maxim = 12,00 m” și regimul (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R; Art. 1 limitează și înălțimea la cornișa superioară sau la aticul ultimului nivel neretras, la 8 m, iar cei 12 m se măsoară la coamă sau la aticul nivelului retras.",
+    "Art. 1 trimite, pentru retragerea de 3 m față de aliniament, la planșa „A 04 – Reglementări urbanistice”; planșa anexată (Anexa 2) e U/P.U.Z./03 Plan reglementări urbanistice."
+  ],
+  "conditii": [
+    "Se reglementează 4.823 mp în proprietate privată (nr. cad. 350773, 334857 și 332536), între str. Eugen Ionesco și str. Făgetului: cinci parcele pentru locuințe (P.1, P.3-P.6, UTR Liu*), P.2 și o parte din P.1 rămân în UTR Vpr după P.U.G., iar P.7 devine spațiu verde cu acces public nelimitat (UTR S_Va¹).",
+    "Faza 1, locuințele de pe parcelele 1, 3, 4 și 5: înainte de autorizațiile de construire, terenul pentru regularizarea str. Făgetului (profil III C, 18 m) și a str. Eugen Ionesco (profil III B, 16 m), după planșa U/P.U.Z./05, se dezmembrează și se înscrie în CF ca „drum” (153,71 mp și 13,86 mp după R.L.U.); până la recepția locuințelor se aduce la aceeași îmbrăcăminte rutieră ca str. Făgetului.",
+    "Faza 2, spațiul verde S_Va¹ și locuința de pe parcela 6: înainte de recepția locuinței de pe P.6, terenul dezmembrat pentru cele două străzi se aduce la strat de uzură, iar spațiul verde cu acces public nelimitat se amenajează (plantații, mobilier urban) după un proiect de specialitate autorizat.",
+    "Pe spațiul verde pe sol natural se plantează cel puțin 25 de arbori cu circumferința de minim 35 cm, măsurată la 1 m de la colet.",
+    "Retrageri în UTR Liu*: 3 m față de aliniament (la parcelele de colț față de ambele aliniamente), garajele la minim 6 m de aliniament, ca să se poată parca un autoturism în față; minim 3 m față de limitele laterale (garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar minim 6 m (garajele minim 6 m); între două clădiri de pe aceeași parcelă cel puțin înălțimea celei mai înalte, la cornișă sau atic, dar minim 6 m.",
+    "Accesul se face din str. Făgetului și din str. Eugen Ionesco; parcarea se face în interiorul parcelei: un loc pentru clădiri cu aria utilă sub 100 mp și două pentru cele de cel puțin 100 mp. Echiparea tehnico-edilitară e completă pe cele două străzi.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+}
