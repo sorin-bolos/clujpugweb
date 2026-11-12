@@ -1,0 +1,270 @@
+{
+  "id": "2022-509",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 509,
+    "an": 2022,
+    "data_sedinta": "2022-07-07",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-509-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/2022/07/15/HCL-509-din-7-iulie-2022-PUZ-Napoca-City-str-Borhanci.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare str. Borhanci",
+  "plansa": {
+    "pagina_pdf": 22,
+    "dpi": 96,
+    "denumire": "Reglementări urbanistice (planșa A.3)",
+    "scara": "1:1000",
+    "nota": "PDF-ul are 30 de pagini scanate la 96 ppi: hotărârea semnată (p. 1-2, același text ca pe pagina hotărârii, fără articole adăugate), Anexa 1 – regulamentul local de urbanism (p. 3-13), Anexele 2 și 3 – planșele A.3 și A.5 reduse pe A4, culcate (p. 14-15), avizul arhitectului-șef nr. 53/10.03.2022 (p. 16-18), avizul de oportunitate nr. 106/21.07.2021 (p. 19-20), un extras din P.U.G. (p. 21), planșa A.3 „Reglementări urbanistice” color la format mare (p. 22, 2829×1593 px, cu viza comisiei tehnice „HCL nr. 509 din 7 iulie 2022”), planșa A.5 „Circulația terenurilor” la același format (p. 23) și raportul informării și consultării publicului (p. 24-30). E aleasă p. 22: e planșa de reglementări, color și la o rezoluție de peste două ori mai mare decât copia de pe p. 14; p. 23 are același desen de bază, dar arată proprietatea terenurilor. Cartușul: „Reglementări urbanistice”, pl. A.3, pr. nr. 120, faza P.U.Z., 01.04.2022, scara 1:1000; la 96 ppi fitul dă 3,7 px/m, adică planșa e la scară. Planșa e rotită: nordul e spre dreapta-sus, la ~46,5° de verticală. Legenda ia două casete: legenda simbolurilor (stânga sus, fără inventarul de coordonate de lângă ea) și blocul „Indicatori urbanistici” din dreapta, de la UTR 1 la UTR 3, cu nota scrisă de mână „Nr. locuri parcare max. 603”; rămân pe dinafară suprafețele terenului din capul blocului, inventarul de coordonate, profilul drumului TR35, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.3 („Coordonate pct. de contur”, X [m] = Nord, Y [m] = Est, Stereo 70, cu lungimile laturilor D(i,i+1)): 24 de puncte, în ordinea limitei 36-42, 1, 2, 43-57, adică parcela studiată conform CF (nr. cad. 342959), „S(Lot1) = 27331,85 mp, P = 1021,056 m”, cât Art. 1 (27.332 mp). Aria, toate laturile și perimetrul ies exact. Linia roșie punctată „zona studiată prin PUZ”, mai largă (cuprinde și pârâul și ampriza TR35), nu are coordonate și nu e limita reglementată. Puncte de control: colțurile nete ale limitei roșii a parcelei: 2 (colțul SV al capătului vestic), 43 (colțul NV, deasupra lui 2), 40 (colțul de lângă str. Borhanciului, la sud) și 57 (vârful ascuțit al UTR 3 de la sensul giratoriu). Puncte de verificare: 44 (frântura de ~20° de la capătul vestic al laturii nordice) și 36 (frântura de ~10° de pe latura de est, sub vârful 57; citită mai slab în lungul liniei). Celelalte vârfuri stau pe laturi drepte (41-42-1, 46-47-48-49, 36-40) sau pe arcul 50-57 de lângă sensul giratoriu, din 5 în 5 m, și nu au mărci pe planșă; desenul limitei urmează arcul și frânturile prezise la un pixel. Verificare informală: cu potrivirea finală, clădirile și străzile din extrasul OSM din 2026-11-08 cad peste casele desenate de pe str. Erich Bergel și str. Antim Ivireanu și peste str. Romul Ladea, str. Erich Bergel și str. Borhanciului, la 1-2 m; pe ortofoto Esri limita stă pe terenul liber dintre pârâu și spatele parcelelor de pe str. Erich Bergel, cu latura de est pe marginea str. Borhanciului.",
+    "suprafata_declarata_m2": 27331.85,
+    "puncte": {
+      "36": [
+        584970.678,
+        395147.073
+      ],
+      "37": [
+        584943.576,
+        395173.034
+      ],
+      "38": [
+        584912.29,
+        395202.144
+      ],
+      "39": [
+        584881.837,
+        395230.539
+      ],
+      "40": [
+        584877.838,
+        395234.281
+      ],
+      "41": [
+        584876.984,
+        395233.479
+      ],
+      "42": [
+        584636.887,
+        395008.037
+      ],
+      "1": [
+        584574.427,
+        394949.39
+      ],
+      "2": [
+        584573.868,
+        394948.852
+      ],
+      "43": [
+        584580.111,
+        394942.37
+      ],
+      "44": [
+        584590.908,
+        394952.507
+      ],
+      "45": [
+        584598.775,
+        394955.84
+      ],
+      "46": [
+        584621.539,
+        394966.617
+      ],
+      "47": [
+        584848.063,
+        395085.587
+      ],
+      "48": [
+        584864.375,
+        395094.347
+      ],
+      "49": [
+        584897.244,
+        395113.417
+      ],
+      "50": [
+        584939.826,
+        395136.792
+      ],
+      "51": [
+        584944.523,
+        395138.869
+      ],
+      "52": [
+        584949.505,
+        395140.114
+      ],
+      "53": [
+        584954.626,
+        395140.492
+      ],
+      "54": [
+        584959.737,
+        395139.99
+      ],
+      "55": [
+        584970.597,
+        395137.974
+      ],
+      "56": [
+        584975.674,
+        395136.561
+      ],
+      "57": [
+        584980.425,
+        395134.282
+      ]
+    },
+    "ordine": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "1",
+      "2",
+      "43",
+      "44",
+      "45",
+      "46",
+      "47",
+      "48",
+      "49",
+      "50",
+      "51",
+      "52",
+      "53",
+      "54",
+      "55",
+      "56",
+      "57"
+    ],
+    "laturi_declarate_m": {
+      "36": 37.53,
+      "37": 42.734,
+      "38": 41.637,
+      "39": 5.477,
+      "40": 1.172,
+      "41": 329.349,
+      "42": 85.678,
+      "1": 0.776,
+      "2": 9.0,
+      "43": 14.81,
+      "44": 8.544,
+      "45": 25.186,
+      "46": 255.865,
+      "47": 18.515,
+      "48": 38.0,
+      "49": 48.576,
+      "50": 5.136,
+      "51": 5.135,
+      "52": 5.135,
+      "53": 5.136,
+      "54": 11.046,
+      "55": 5.27,
+      "56": 5.269,
+      "57": 16.081
+    },
+    "perimetru_declarat_m": 1021.056
+  },
+  "gcp_px": {
+    "2": [
+      296,
+      1186
+    ],
+    "40": [
+      1846.5,
+      1178.5
+    ],
+    "57": [
+      1866,
+      647
+    ],
+    "43": [
+      296,
+      1153.3
+    ]
+  },
+  "verificare_px": {
+    "44": [
+      350,
+      1153
+    ],
+    "36": [
+      1873,
+      704
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      405,
+      130,
+      692,
+      558
+    ],
+    [
+      2183,
+      708,
+      2606,
+      1338
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "UTR 1",
+      "denumire": "Zonă mixtă adiacentă principalelor artere de trafic – locuire colectivă, administrație, birouri, servicii financiar-bancare, comerț, alimentație publică, cultură, învățământ, turism, sănătate cu caracter ambulatoriu; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,4",
+      "h_max": "35 m, (1-3S)+P+6E; clădirile în poziții privilegiate/dominante, lângă nodul propus al centurii metropolitane: (1-3S)+P+10E, max. 50 m în punctul cel mai înalt"
+    },
+    {
+      "cod": "UTR 2",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public, în clădiri dedicate, în afara zonei centrale – învățământ (grădiniță) și sănătate (creșă); regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,2",
+      "h_max": "12 m la aticul ultimului nivel neretras, (1-3S)+P+2E"
+    },
+    {
+      "cod": "UTR 3",
+      "denumire": "Zonă de circulație rutieră și amenajări aferente (regularizarea str. Borhanciului și strada nouă dintre str. Romul Ladea și str. Borhanciului)",
+      "pot_max": "–",
+      "cut_max": "–",
+      "h_max": "–"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-07-07",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare; nicio prelungire sau modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Înălțimile: planșa dă doar regimul de înălțime, (1-3S)+P+6E cu accent (1-3S)+P+10E în UTR 1 și (1-3S)+P+2E în UTR 2; hotărârea (Art. 1) adaugă plafoanele în metri: 35 m în UTR 1, 50 m în punctul cel mai înalt pentru clădirile de accent, pe care le așază lângă nodul propus al centurii metropolitane, și 12 m la aticul ultimului nivel neretras în UTR 2.",
+    "Spațiul verde: planșa cere minimum 5% în UTR 1 și 10% în UTR 2; hotărârea nu dă procente, doar plantarea (cel puțin un arbore la 30 mp de spațiu verde).",
+    "Parcarea: pe planșă e scris de mână „Nr. locuri parcare max. 603”; hotărârea nu reia plafonul, ci cere dimensionarea după Anexa 2 a R.L.U. și, în UTR 1, cel puțin 75% din locuri în subsol, demisol sau parter.",
+    "Aria construită pentru locuire: hotărârea limitează nivelurile cu locuințe din UTR 1 la A.C. max. 40% din suprafața terenului; planșa nu are această limită."
+  ],
+  "conditii": [
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară.",
+    "Înainte de autorizațiile de construire, terenul din UTR 3, necesar regularizării str. Borhanciului și străzii noi dintre str. Romul Ladea și str. Borhanciului, se dezmembrează din parcela inițială și se înscrie în CF ca „drum”.",
+    "Înainte de recepția oricărei clădiri, terenul din UTR 3 se amenajează ca stradă (carosabil, trotuar, pistă de biciclete, plantații de aliniament) pe baza unui proiect de specialitate și se transferă gratuit în domeniul public, conform planșei A.5 „Circulația terenurilor”.",
+    "Înainte de recepția oricărei clădiri se lărgesc la trei benzi str. Borhanciului și str. Romul Ladea, în zona de influență a P.U.Z., conform avizului Serviciului Siguranța Circulației nr. 55502/446/7.02.2022.",
+    "Părțile de clădire cu destinația locuire/birouri (după text, cel mult 30% din suprafața utilă a imobilului mixt) se recepționează după 2026, conform H.G. 343/2017, sau după executarea lucrărilor de infrastructură care măresc capacitatea de circulație din zonă.",
+    "Spațiul verde amenajat are vegetație joasă, medie și înaltă: cel puțin un arbore la 30 mp de spațiu verde, cu circumferința de min. 35 cm la 1 m de colet.",
+    "Corpul C1 (partea funcțională A) are acoperiș verde; la faza D.T.A.C. documentația trece prin Comisia de Estetică Urbană.",
+    "UTR 1: retragere min. 2 m de la aliniament și min. 5 m de la limita UTR 3, min. 9 m de la limita estică, pe limita sudică (cu UTR 2); acces din str. Borhanciului și din strada nouă; cel puțin 75% din locurile de parcare în subsol, demisol sau parter.",
+    "UTR 2: retragere min. 2 m de la strada nouă, min. 9 m de la limita estică, pe limita nordică (cu UTR 1); parcarea în interiorul parcelei, la sol sau în garaje subterane.",
+    "Clădirile se racordează la rețelele publice; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor pe patru fracții, accesibil din spațiul public; clădirile noi cu peste șase locuințe se racordează la încălzirea centralizată sau la instalații de scară, bloc ori cvartal."
+  ]
+}

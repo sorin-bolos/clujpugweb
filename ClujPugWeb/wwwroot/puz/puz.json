@@ -29460,6 +29460,172 @@
   ]
  },
  {
+  "id": "2022-509",
+  "localitate": "cluj",
+  "hcl": "509/2022",
+  "data": "2022-07-07",
+  "titlu": "P.U.Z. de urbanizare str. Borhanci",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-509-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/2022/07/15/HCL-509-din-7-iulie-2022-PUZ-Napoca-City-str-Borhanci.pdf",
+  "utr": [
+   {
+    "cod": "UTR 1",
+    "denumire": "Zonă mixtă adiacentă principalelor artere de trafic – locuire colectivă, administrație, birouri, servicii financiar-bancare, comerț, alimentație publică, cultură, învățământ, turism, sănătate cu caracter ambulatoriu; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "2,4",
+    "h_max": "35 m, (1-3S)+P+6E; clădirile în poziții privilegiate/dominante, lângă nodul propus al centurii metropolitane: (1-3S)+P+10E, max. 50 m în punctul cel mai înalt"
+   },
+   {
+    "cod": "UTR 2",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public, în clădiri dedicate, în afara zonei centrale – învățământ (grădiniță) și sănătate (creșă); regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "12 m la aticul ultimului nivel neretras, (1-3S)+P+2E"
+   },
+   {
+    "cod": "UTR 3",
+    "denumire": "Zonă de circulație rutieră și amenajări aferente (regularizarea str. Borhanciului și strada nouă dintre str. Romul Ladea și str. Borhanciului)",
+    "pot_max": "–",
+    "cut_max": "–",
+    "h_max": "–"
+   }
+  ],
+  "suprafata_m2": 27332,
+  "imagine": "puz/2022-509/plansa.webp",
+  "bounds": {
+   "west": 23.6229964,
+   "south": 46.7524822,
+   "east": 23.6269665,
+   "north": 46.7562506
+  },
+  "limita": [
+   [
+    23.6257066,
+    46.7561043
+   ],
+   [
+    23.6260526,
+    46.7558645
+   ],
+   [
+    23.6264407,
+    46.7555877
+   ],
+   [
+    23.6268192,
+    46.7553182
+   ],
+   [
+    23.6268691,
+    46.7552828
+   ],
+   [
+    23.6268588,
+    46.755275
+   ],
+   [
+    23.6239628,
+    46.75308
+   ],
+   [
+    23.6232095,
+    46.7525089
+   ],
+   [
+    23.6232025,
+    46.7525038
+   ],
+   [
+    23.6231163,
+    46.752559
+   ],
+   [
+    23.6232465,
+    46.7526577
+   ],
+   [
+    23.6232883,
+    46.752729
+   ],
+   [
+    23.6234242,
+    46.7529354
+   ],
+   [
+    23.6249297,
+    46.7549917
+   ],
+   [
+    23.6250407,
+    46.7551398
+   ],
+   [
+    23.6252828,
+    46.7554385
+   ],
+   [
+    23.6255791,
+    46.7558252
+   ],
+   [
+    23.6256052,
+    46.7558677
+   ],
+   [
+    23.6256203,
+    46.7559127
+   ],
+   [
+    23.6256241,
+    46.7559589
+   ],
+   [
+    23.6256164,
+    46.7560048
+   ],
+   [
+    23.6255875,
+    46.7561021
+   ],
+   [
+    23.6255679,
+    46.7561476
+   ],
+   [
+    23.625537,
+    46.75619
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 4,
+   "rms_m": 0.07
+  },
+  "legenda": "puz/2022-509/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-07-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Înălțimile: planșa dă doar regimul de înălțime, (1-3S)+P+6E cu accent (1-3S)+P+10E în UTR 1 și (1-3S)+P+2E în UTR 2; hotărârea (Art. 1) adaugă plafoanele în metri: 35 m în UTR 1, 50 m în punctul cel mai înalt pentru clădirile de accent, pe care le așază lângă nodul propus al centurii metropolitane, și 12 m la aticul ultimului nivel neretras în UTR 2.",
+   "Spațiul verde: planșa cere minimum 5% în UTR 1 și 10% în UTR 2; hotărârea nu dă procente, doar plantarea (cel puțin un arbore la 30 mp de spațiu verde).",
+   "Parcarea: pe planșă e scris de mână „Nr. locuri parcare max. 603”; hotărârea nu reia plafonul, ci cere dimensionarea după Anexa 2 a R.L.U. și, în UTR 1, cel puțin 75% din locuri în subsol, demisol sau parter.",
+   "Aria construită pentru locuire: hotărârea limitează nivelurile cu locuințe din UTR 1 la A.C. max. 40% din suprafața terenului; planșa nu are această limită."
+  ],
+  "conditii": [
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară.",
+   "Înainte de autorizațiile de construire, terenul din UTR 3, necesar regularizării str. Borhanciului și străzii noi dintre str. Romul Ladea și str. Borhanciului, se dezmembrează din parcela inițială și se înscrie în CF ca „drum”.",
+   "Înainte de recepția oricărei clădiri, terenul din UTR 3 se amenajează ca stradă (carosabil, trotuar, pistă de biciclete, plantații de aliniament) pe baza unui proiect de specialitate și se transferă gratuit în domeniul public, conform planșei A.5 „Circulația terenurilor”.",
+   "Înainte de recepția oricărei clădiri se lărgesc la trei benzi str. Borhanciului și str. Romul Ladea, în zona de influență a P.U.Z., conform avizului Serviciului Siguranța Circulației nr. 55502/446/7.02.2022.",
+   "Părțile de clădire cu destinația locuire/birouri (după text, cel mult 30% din suprafața utilă a imobilului mixt) se recepționează după 2026, conform H.G. 343/2017, sau după executarea lucrărilor de infrastructură care măresc capacitatea de circulație din zonă.",
+   "Spațiul verde amenajat are vegetație joasă, medie și înaltă: cel puțin un arbore la 30 mp de spațiu verde, cu circumferința de min. 35 cm la 1 m de colet.",
+   "Corpul C1 (partea funcțională A) are acoperiș verde; la faza D.T.A.C. documentația trece prin Comisia de Estetică Urbană.",
+   "UTR 1: retragere min. 2 m de la aliniament și min. 5 m de la limita UTR 3, min. 9 m de la limita estică, pe limita sudică (cu UTR 2); acces din str. Borhanciului și din strada nouă; cel puțin 75% din locurile de parcare în subsol, demisol sau parter.",
+   "UTR 2: retragere min. 2 m de la strada nouă, min. 9 m de la limita estică, pe limita nordică (cu UTR 1); parcarea în interiorul parcelei, la sol sau în garaje subterane.",
+   "Clădirile se racordează la rețelele publice; fiecare parcelă are un spațiu pentru colectarea selectivă a deșeurilor pe patru fracții, accesibil din spațiul public; clădirile noi cu peste șase locuințe se racordează la încălzirea centralizată sau la instalații de scară, bloc ori cvartal."
+  ]
+ },
+ {
   "id": "2022-400",
   "localitate": "cluj",
   "hcl": "400/2022",
