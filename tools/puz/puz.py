@@ -833,10 +833,12 @@ SITE_WIDE_PDF = re.compile(r"Politica-Anti-Mita", re.I)
 
 def decision_documents(r):
     """The recipe's PDF plus every other PDF linked from the decision's page, and the
-    PDF of an amending decision whose plate replaced the original."""
-    urls = [r["hcl"]["pdf"]]
-    if plate_pdf_url(r) not in urls:
-        urls.append(plate_pdf_url(r))
+    PDF of an amending decision whose plate replaced the original. Some decision pages
+    link no PDF at all (5/2020, 123/2021): the recipe's `pdf` is then null."""
+    urls = []
+    for u in (r["hcl"]["pdf"], plate_pdf_url(r)):
+        if u and u not in urls:
+            urls.append(u)
     page = r["hcl"].get("pagina")
     if page:
         try:
