@@ -1,0 +1,52 @@
+{
+  "id": "2021-257",
+  "localitate": "cluj",
+  "stare": "expirat",
+  "motiv": "Valabilitate expirată la 22.06.2026 (5 ani de la ședința din 22.06.2021, Art. 2 din hotărâre: „cinci ani de la aprobare”); prelungiri: niciuna în lista hotărârilor (actualizată 08.11.2026).",
+  "hcl": {
+    "nr": 257,
+    "an": 2021,
+    "data_sedinta": "2021-06-22",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-257-din-2021/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2021/06/22/0905e9f099e443236b2aafdaaf3300eb.pdf"
+  },
+  "titlu": "P.U.Z. – Modernizare și dezvoltare circulație Calea Moților–Calea Mănăștur–str. Uzinei Electrice–str. Mărginașă",
+  "plansa": {
+    "pagina_pdf": 3,
+    "dpi": 300,
+    "denumire": "Planșa 3.0 – Reglementări urbanistice",
+    "scara": "1:2000",
+    "nota": "Citit înainte de marcarea ca expirat: planșa (Anexa 1) e pe p. 3, singura din PDF, redusă pe A4 și așezată pe lat (scan 300 ppi); nu a fost georeferențiată. Bilanțul teritorial de pe planșă: total 27,25 ha. Restul PDF-ului (p. 4-59) e regulamentul de urbanism."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate, Nord(x) / Est(Y)",
+    "suprafata_declarata_m2": null,
+    "puncte": {}
+  },
+  "gcp_px": {},
+  "verificare_px": {},
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [],
+  "utr": [],
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [],
+  "conditii": [
+    "P.U.Z. de circulație: reglementează ampriza străzilor; parcelele adiacente străzilor reglementate își mențin încadrarea funcțională stabilită prin P.U.G.",
+    "Calea Mănăștur: tronsonul str. Câmpului–str. Govora își menține ampriza existentă; tronsonul str. Govora–Calea Mănăștur nr. 5: patru benzi auto, două benzi de biciclete la nivelul carosabilului, trotuare cu lățime variabilă, spații verzi plantate, iar în zona campusului U.S.A.M.V. o stație de transport public retrasă față de circulație; tronsonul Calea Mănăștur nr. 5–nr. 1: cinci benzi auto, două benzi de biciclete, trotuare cu lățime variabilă.",
+    "Calea Moților: nr. 118–124: cinci benzi auto, o bandă de biciclete, trotuare cu lățime variabilă, spații verzi plantate; nr. 100–118: patru benzi auto, o bandă de biciclete, trotuare, spații verzi și alveolă de stație de transport public pe latura nordică (în dreptul nr. 104-108); nr. 94–98: patru benzi auto, o bandă de biciclete, trotuare, spații verzi; nr. 86–92: patru benzi auto, trotuare cu lățime variabilă.",
+    "Str. Mărginașă: nr. 1–3: trei benzi auto, trotuare cu lățime variabilă; nr. 5–17: două benzi auto, trotuare cu lățime variabilă. Pe str. Uzinei Electrice se menține ampriza existentă.",
+    "Arteră nouă de legătură între Calea Moților și str. Uzinei Electrice: patru benzi auto (cinci spre intersecția cu Calea Moților), două benzi de biciclete, trotuare cu lățime variabilă și spații verzi plantate, cu o piațetă publică pe latura estică.",
+    "Pentru legătura cu str. Uzinei Electrice e propusă o străpungere care afectează fondul construit de pe str. Ilie Măcelaru nr. 37 și 39A; piațeta afectează fondul construit de pe Calea Moților nr. 120-124 și parțial de pe Calea Moților nr. 118.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiar (Municipiul Cluj-Napoca)."
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2026-06-22"
+  }
+}
