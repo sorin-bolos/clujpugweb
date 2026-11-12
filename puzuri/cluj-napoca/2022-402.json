@@ -1,0 +1,408 @@
+{
+  "id": "2022-402",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 402,
+    "an": 2022,
+    "data_sedinta": "2022-05-04",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-402-din-2022/",
+    "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2022/05/04/HCL-402-din-4-mai-2022-PUZ.pdf"
+  },
+  "titlu": "P.U.Z. de urbanizare – Str. Borhanciului – latura nordică",
+  "plansa": {
+    "pagina_pdf": 25,
+    "dpi": 200,
+    "denumire": "Reglementări urbanistice – zonificare (planșa A.04)",
+    "scara": "1:500",
+    "nota": "PDF-ul are 36 de pagini scanate: hotărârea semnată (p. 1-3, același text ca pe pagina hotărârii, fără articole adăugate după lista anexelor), Anexa 1 – regulamentul local de urbanism (p. 4-15), Anexa 2 – planșa A.04 redusă pe A4, alb-negru (p. 16), Anexa 3 – planșa A.06 „Proprietatea asupra terenurilor” redusă pe A4 (p. 17), avizul arhitectului-șef nr. 149/20.09.2021 și completarea lui nr. 40/8.03.2022 (p. 18-21), avizul de oportunitate nr. 563/25.06.2019 cu planul lui (p. 22-24), planșa A.04 color la format A2 (p. 25, 4660×3323 px la 200 ppi, cu viza „HCL nr. 402 din 4 mai 2022”), planșa A.06 color (p. 26) și raportul informării și consultării publicului (p. 27-36). E aleasă p. 25: e aceeași planșă de reglementări ca Anexa 2, color și la o rezoluție mult mai bună. Cartușul: „Reglementări urbanistice – zonificare”, pl. A.04, pr. nr. 205/15, faza P.U.Z., 09.03.2022, scara 1:500; fitul dă 15,7 px/m, cât scara la 200 ppi (15,75 px/m). Planșa e rotită: nordul e la ~35° spre stânga față de sus (fitul: rotație -35,0°). Legenda ia cheia simbolurilor (sus, la mijloc) și rândurile cu POT/CUT maxime pentru Liu* și S_Is de sub bilanțul teritorial; au rămas afară profilurile stradale din stânga sus, profilul terenului 6-6, rândurile cu suprafețe ale bilanțului, inventarul de coordonate, ștampilele și cartușul."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventar de coordonate pe planșa A.04 (tabelul „Coordonate Stereo'70”, X [m] = Nord, Y [m] = Est, cu lungimile laturilor D(i,i+1)), din dreapta jos: 45 de puncte în ordinea limitei, numerotate neconsecutiv (768, 769, 770, 790, 791, 785, …, 838), de aceea e dată `ordine`. Numărul 131 apare de două ori, cu coordonate diferite: al doilea (între 820 și 132) e trecut aici ca „131b”. „S=23717mp”, cât totalul bilanțului teritorial și „aproximativ 2,3 ha” din Art. 1; perimetrul nu e tipărit. Aria și toate cele 45 de laturi ies. Puncte de control: 132 (colțul de nord-vest al părții de vest, lângă str. A), 137 (colțul de sud-vest, la str. Borhanciului), 131 (vârful de nord), 834 (vârful de est, lângă str. D) și 836 (capătul sudic al crestăturii de la „Acces auto”, pe marginea fâșiei de lărgire a str. Borhanciului). Puncte de verificare: 118 și 764 (colțurile de est ale lobului de nord), 820 (colțul interior dintre partea de vest și lobul de nord) și 835 (capătul nordic al crestăturii). Latura de sud (768-825) urmează marginea fâșiei de lărgire a străzii, fără colțuri nete, deci n-are puncte; limita prezisă cade pe linia roșie întreruptă de jur împrejur.",
+    "suprafata_declarata_m2": 23717,
+    "puncte": {
+      "768": [
+        584259.959,
+        396312.477
+      ],
+      "769": [
+        584259.974,
+        396313.041
+      ],
+      "770": [
+        584258.278,
+        396327.981
+      ],
+      "790": [
+        584257.848,
+        396331.774
+      ],
+      "791": [
+        584257.826,
+        396332.546
+      ],
+      "785": [
+        584257.685,
+        396337.329
+      ],
+      "789": [
+        584257.329,
+        396349.417
+      ],
+      "783": [
+        584256.398,
+        396358.29
+      ],
+      "800": [
+        584254.583,
+        396375.594
+      ],
+      "805": [
+        584253.999,
+        396381.165
+      ],
+      "822": [
+        584252.335,
+        396385.621
+      ],
+      "823": [
+        584251.574,
+        396387.658
+      ],
+      "824": [
+        584253.327,
+        396389.442
+      ],
+      "825": [
+        584255.32,
+        396391.832
+      ],
+      "826": [
+        584265.481,
+        396405.222
+      ],
+      "827": [
+        584270.404,
+        396408.864
+      ],
+      "828": [
+        584279.984,
+        396418.606
+      ],
+      "829": [
+        584288.221,
+        396426.772
+      ],
+      "830": [
+        584299.462,
+        396437.529
+      ],
+      "831": [
+        584303.825,
+        396441.672
+      ],
+      "832": [
+        584312.623,
+        396450.01
+      ],
+      "833": [
+        584314.214,
+        396451.539
+      ],
+      "834": [
+        584314.503,
+        396451.928
+      ],
+      "794": [
+        584316.454,
+        396448.347
+      ],
+      "793": [
+        584318.556,
+        396444.487
+      ],
+      "468": [
+        584331.133,
+        396421.394
+      ],
+      "772": [
+        584344.028,
+        396397.717
+      ],
+      "771": [
+        584345.953,
+        396394.182
+      ],
+      "765": [
+        584347.878,
+        396390.647
+      ],
+      "764": [
+        584357.97,
+        396372.118
+      ],
+      "118": [
+        584379.719,
+        396386.883
+      ],
+      "131": [
+        584412.431,
+        396333.756
+      ],
+      "821": [
+        584409.757,
+        396332.238
+      ],
+      "233": [
+        584350.745,
+        396293.7
+      ],
+      "820": [
+        584347.245,
+        396291.495
+      ],
+      "131b": [
+        584349.345,
+        396288.091
+      ],
+      "132": [
+        584385.302,
+        396229.726
+      ],
+      "137": [
+        584316.442,
+        396186.352
+      ],
+      "100": [
+        584303.726,
+        396204.283
+      ],
+      "136": [
+        584296.255,
+        396215.13
+      ],
+      "134": [
+        584278.617,
+        396243.002
+      ],
+      "835": [
+        584275.942,
+        396247.23
+      ],
+      "836": [
+        584272.481,
+        396245.515
+      ],
+      "837": [
+        584264.461,
+        396265.968
+      ],
+      "838": [
+        584262.129,
+        396284.865
+      ]
+    },
+    "ordine": [
+      "768",
+      "769",
+      "770",
+      "790",
+      "791",
+      "785",
+      "789",
+      "783",
+      "800",
+      "805",
+      "822",
+      "823",
+      "824",
+      "825",
+      "826",
+      "827",
+      "828",
+      "829",
+      "830",
+      "831",
+      "832",
+      "833",
+      "834",
+      "794",
+      "793",
+      "468",
+      "772",
+      "771",
+      "765",
+      "764",
+      "118",
+      "131",
+      "821",
+      "233",
+      "820",
+      "131b",
+      "132",
+      "137",
+      "100",
+      "136",
+      "134",
+      "835",
+      "836",
+      "837",
+      "838"
+    ],
+    "laturi_declarate_m": {
+      "768": 0.564,
+      "769": 15.036,
+      "770": 3.817,
+      "790": 0.772,
+      "791": 4.785,
+      "785": 12.093,
+      "789": 8.922,
+      "783": 17.399,
+      "800": 5.602,
+      "805": 4.757,
+      "822": 2.175,
+      "823": 2.501,
+      "824": 3.112,
+      "825": 16.809,
+      "826": 6.124,
+      "827": 13.663,
+      "828": 11.599,
+      "829": 15.559,
+      "830": 6.017,
+      "831": 12.121,
+      "832": 2.207,
+      "833": 0.485,
+      "834": 4.078,
+      "794": 4.395,
+      "793": 26.296,
+      "468": 26.961,
+      "772": 4.025,
+      "771": 4.025,
+      "765": 21.099,
+      "764": 26.287,
+      "118": 62.39,
+      "131": 3.075,
+      "821": 70.481,
+      "233": 4.137,
+      "820": 4.0,
+      "131b": 68.552,
+      "132": 81.382,
+      "137": 21.982,
+      "100": 13.171,
+      "136": 32.984,
+      "134": 5.003,
+      "835": 3.863,
+      "836": 21.969,
+      "837": 19.04,
+      "838": 27.697
+    }
+  },
+  "gcp_px": {
+    "132": [
+      467,
+      1495
+    ],
+    "137": [
+      527,
+      2783
+    ],
+    "131": [
+      1563,
+      199
+    ],
+    "834": [
+      3965,
+      399
+    ],
+    "836": [
+      1682,
+      2811
+    ]
+  },
+  "verificare_px": {
+    "118": [
+      2540,
+      144
+    ],
+    "764": [
+      2544,
+      553
+    ],
+    "820": [
+      1606,
+      1429
+    ],
+    "835": [
+      1679,
+      2757
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      690,
+      50,
+      1545,
+      875
+    ],
+    [
+      3410,
+      2758,
+      4140,
+      2916
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Liu*",
+      "denumire": "Zonă de locuințe cu regim redus de înălțime, pe un parcelar de tip urban (34 de parcele): locuințe unifamiliale și semicolective (cel mult două unități locative, alipite sau suprapuse) cu anexele lor; pe parcele de peste 700 mp se admit două locuințe individuale izolate; regim de construire izolat sau cuplat",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m (H cornișă max. 8 m), 3 niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "S_Is",
+      "denumire": "Subzonă de instituții și servicii publice și de interes public constituite în ansambluri independente (o parcelă): funcțiuni administrative, de cultură, de învățământ și cercetare, de sănătate și asistență socială, de cult; regim de construire izolat",
+      "pot_max": "60% (în limita R.G.U. sau a normelor programului arhitectural)",
+      "cut_max": "2,2 (idem)",
+      "h_max": "16 m, (S)+P+2E+R"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat (două parcele, în nordul și în estul zonei): plantații, mobilier urban, joacă, odihnă, sport, edicule, construcții pentru activități culturale și alimentație publică; regim de construire izolat",
+      "pot_max": "5%",
+      "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+      "h_max": "H cornișă max. 9 m, (D)+P+E"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2027-05-04",
+    "verificat": "2026-11-12: Art. 2, cinci ani (ședința din 4.05.2022); `related`: nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)"
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Regimul de înălțime nu apare pe planșă: hotărârea dă pentru Liu* 3 niveluri supraterane, H cornișă max. 8 m și H max. 12 m, iar pentru S_Is H max. 16 m, (S)+P+2E+R.",
+    "Pentru S_Va planșa nu dă indicatori; hotărârea: POT max. 5%, CUT max. 0,1 (doar pentru clădiri cu spații interioare), (D)+P+E, H cornișă max. 9 m.",
+    "Pentru S_Is planșa dă POT 60% și CUT 2,2; hotărârea le dă doar ca plafon: valorile sunt cele din R.G.U. sau din normele specifice programului arhitectural, fără a depăși 60% și 2,2."
+  ],
+  "conditii": [
+    "Prin P.U.Z. se urbanizează un teren de circa 2,3 ha (23.717 mp pe planșă), parcelele cu nr. cad. 312349, 312350, 341813, 313497, 313496, 310067, 310076, 310077, 309097, 309003, 305632, 308331, 308330, 307128 și 309002: 34 de parcele de locuințe (Liu*), o parcelă de instituții și servicii (S_Is) și două parcele de spațiu verde public (S_Va).",
+    "Liu*: retragere de la aliniament de min. 3 m și max. 5 m (recomandat 5 m; parcelele de colț min. 3 m față de ambele aliniamente), garajele la min. 6 m; toate construcțiile stau în fâșia de 30 m de la aliniament, în afară de ediculele provizorii de grădină.",
+    "Liu*: min. 3 m față de limitele laterale (garajele pot fi alipite, cu calcan de max. 2,8 m) și min. 6 m față de limita posterioară (parcelele de colț min. 3 m față de toate laturile); între clădirile de pe aceeași parcelă jumătate din înălțimea celei mai înalte, dar min. 3 m (6 m dacă încăperile principale dau spre spațiul dintre ele).",
+    "Liu*: parcarea în interiorul parcelei – min. un loc pentru locuințe cu A.U. sub 100 mp, două peste 100 mp, două pentru servicii de proximitate; pe o parcelă un singur acces auto și unul pietonal pentru fiecare unitate locativă; spațiile verzi pe sol natural ocupă min. 40% din parcelă (regulamentul, Anexa 1).",
+    "S_Is: retragere de la aliniament de min. 3 m și max. 5 m, min. 3 m față de limitele laterale și 6 m față de cea posterioară (colț: 3 m față de toate); parcarea în parcelă, după Anexa 2 a R.L.U. al P.U.G. S_Va: retragere min. 3 m de la aliniament, 3 m față de limitele laterale și 6 m față de cea posterioară.",
+    "Circulații: str. A profil III.H de 12 m, str. B profil de 6 m, str. C profil IV.2 de 9 m, str. D profil de 9 m; str. Borhanciului se regularizează la profilul III.B de 18 m.",
+    "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+    "Terenul pentru regularizarea str. Borhanciului la 18 m se dezmembrează și se înscrie în CF ca „drum” înainte de autorizarea străzilor propuse, se aduce la strat de uzură și se transferă gratuit în domeniul public înainte de recepția oricărei construcții (planșa A.06).",
+    "Alveola pentru transportul în comun de pe str. Borhanciului se realizează înainte de recepția construcțiilor de pe frontul nordic al str. Borhanciului, între str. A și str. C.",
+    "Străzile propuse se echipează edilitar și se realizează la strat de uzură înainte de autorizarea construcțiilor de pe parcelele cu acces direct din ele, și se cedează gratuit (planșa A.06) înainte de recepția ultimei construcții de pe acele parcele; au acces public nelimitat, iar la D.T.A.C. pentru drumuri se prezintă planul de semnalizare rutieră.",
+    "Spațiul verde public din nordul zonei se amenajează înainte de recepția imobilelor de pe str. C, cel din est înainte de recepția imobilelor de pe str. D.",
+    "Intersecția str. C. Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanciului are capacitatea depășită: autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară și servicii de proximitate/dotări de cartier) se emit după reamenajarea și lărgirea ei de către municipalitate, dar nu mai târziu de 31 decembrie 2026."
+  ]
+}

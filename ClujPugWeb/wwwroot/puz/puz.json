@@ -29849,6 +29849,257 @@
   ]
  },
  {
+  "id": "2022-402",
+  "localitate": "cluj",
+  "hcl": "402/2022",
+  "data": "2022-05-04",
+  "titlu": "P.U.Z. de urbanizare – Str. Borhanciului – latura nordică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-402-din-2022/",
+  "pdf": "https://files.primariaclujnapoca.ro/hotarare_consiliu/2022/05/04/HCL-402-din-4-mai-2022-PUZ.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime, pe un parcelar de tip urban (34 de parcele): locuințe unifamiliale și semicolective (cel mult două unități locative, alipite sau suprapuse) cu anexele lor; pe parcele de peste 700 mp se admit două locuințe individuale izolate; regim de construire izolat sau cuplat",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m (H cornișă max. 8 m), 3 niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "S_Is",
+    "denumire": "Subzonă de instituții și servicii publice și de interes public constituite în ansambluri independente (o parcelă): funcțiuni administrative, de cultură, de învățământ și cercetare, de sănătate și asistență socială, de cult; regim de construire izolat",
+    "pot_max": "60% (în limita R.G.U. sau a normelor programului arhitectural)",
+    "cut_max": "2,2 (idem)",
+    "h_max": "16 m, (S)+P+2E+R"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat (două parcele, în nordul și în estul zonei): plantații, mobilier urban, joacă, odihnă, sport, edicule, construcții pentru activități culturale și alimentație publică; regim de construire izolat",
+    "pot_max": "5%",
+    "cut_max": "0,1 (doar pentru clădiri cu spații interioare)",
+    "h_max": "H cornișă max. 9 m, (D)+P+E"
+   }
+  ],
+  "suprafata_m2": 23717,
+  "imagine": "puz/2022-402/plansa.webp",
+  "bounds": {
+   "west": 23.639408,
+   "south": 46.7497807,
+   "east": 23.6429839,
+   "north": 46.7513044
+  },
+  "limita": [
+   [
+    23.6411199,
+    46.7498921
+   ],
+   [
+    23.6411273,
+    46.7498923
+   ],
+   [
+    23.6413232,
+    46.7498794
+   ],
+   [
+    23.6413729,
+    46.7498761
+   ],
+   [
+    23.641383,
+    46.749876
+   ],
+   [
+    23.6414457,
+    46.7498755
+   ],
+   [
+    23.6416039,
+    46.7498741
+   ],
+   [
+    23.6417203,
+    46.7498671
+   ],
+   [
+    23.6419471,
+    46.7498535
+   ],
+   [
+    23.6420202,
+    46.7498491
+   ],
+   [
+    23.6420789,
+    46.7498348
+   ],
+   [
+    23.6421057,
+    46.7498283
+   ],
+   [
+    23.6421287,
+    46.7498443
+   ],
+   [
+    23.6421595,
+    46.7498626
+   ],
+   [
+    23.6423324,
+    46.7499561
+   ],
+   [
+    23.642379,
+    46.7500009
+   ],
+   [
+    23.6425043,
+    46.7500886
+   ],
+   [
+    23.6426094,
+    46.750164
+   ],
+   [
+    23.6427476,
+    46.7502667
+   ],
+   [
+    23.6428009,
+    46.7503066
+   ],
+   [
+    23.642908,
+    46.7503871
+   ],
+   [
+    23.6429277,
+    46.7504016
+   ],
+   [
+    23.6429327,
+    46.7504043
+   ],
+   [
+    23.6428854,
+    46.7504213
+   ],
+   [
+    23.6428344,
+    46.7504396
+   ],
+   [
+    23.6425293,
+    46.7505491
+   ],
+   [
+    23.6422166,
+    46.7506615
+   ],
+   [
+    23.6421699,
+    46.7506783
+   ],
+   [
+    23.6421232,
+    46.750695
+   ],
+   [
+    23.6418784,
+    46.750783
+   ],
+   [
+    23.6420668,
+    46.7509809
+   ],
+   [
+    23.6413641,
+    46.7512669
+   ],
+   [
+    23.6413449,
+    46.7512426
+   ],
+   [
+    23.6408538,
+    46.7507058
+   ],
+   [
+    23.6408257,
+    46.750674
+   ],
+   [
+    23.6407807,
+    46.7506924
+   ],
+   [
+    23.6400087,
+    46.7510068
+   ],
+   [
+    23.6394566,
+    46.7503807
+   ],
+   [
+    23.6396941,
+    46.7502691
+   ],
+   [
+    23.6398377,
+    46.7502035
+   ],
+   [
+    23.6402065,
+    46.7500492
+   ],
+   [
+    23.6402624,
+    46.7500258
+   ],
+   [
+    23.6402408,
+    46.7499944
+   ],
+   [
+    23.6405102,
+    46.7499254
+   ],
+   [
+    23.6407581,
+    46.7499073
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.12
+  },
+  "legenda": "puz/2022-402/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-05-04"
+  },
+  "diferente_fata_de_plansa": [
+   "Regimul de înălțime nu apare pe planșă: hotărârea dă pentru Liu* 3 niveluri supraterane, H cornișă max. 8 m și H max. 12 m, iar pentru S_Is H max. 16 m, (S)+P+2E+R.",
+   "Pentru S_Va planșa nu dă indicatori; hotărârea: POT max. 5%, CUT max. 0,1 (doar pentru clădiri cu spații interioare), (D)+P+E, H cornișă max. 9 m.",
+   "Pentru S_Is planșa dă POT 60% și CUT 2,2; hotărârea le dă doar ca plafon: valorile sunt cele din R.G.U. sau din normele specifice programului arhitectural, fără a depăși 60% și 2,2."
+  ],
+  "conditii": [
+   "Prin P.U.Z. se urbanizează un teren de circa 2,3 ha (23.717 mp pe planșă), parcelele cu nr. cad. 312349, 312350, 341813, 313497, 313496, 310067, 310076, 310077, 309097, 309003, 305632, 308331, 308330, 307128 și 309002: 34 de parcele de locuințe (Liu*), o parcelă de instituții și servicii (S_Is) și două parcele de spațiu verde public (S_Va).",
+   "Liu*: retragere de la aliniament de min. 3 m și max. 5 m (recomandat 5 m; parcelele de colț min. 3 m față de ambele aliniamente), garajele la min. 6 m; toate construcțiile stau în fâșia de 30 m de la aliniament, în afară de ediculele provizorii de grădină.",
+   "Liu*: min. 3 m față de limitele laterale (garajele pot fi alipite, cu calcan de max. 2,8 m) și min. 6 m față de limita posterioară (parcelele de colț min. 3 m față de toate laturile); între clădirile de pe aceeași parcelă jumătate din înălțimea celei mai înalte, dar min. 3 m (6 m dacă încăperile principale dau spre spațiul dintre ele).",
+   "Liu*: parcarea în interiorul parcelei – min. un loc pentru locuințe cu A.U. sub 100 mp, două peste 100 mp, două pentru servicii de proximitate; pe o parcelă un singur acces auto și unul pietonal pentru fiecare unitate locativă; spațiile verzi pe sol natural ocupă min. 40% din parcelă (regulamentul, Anexa 1).",
+   "S_Is: retragere de la aliniament de min. 3 m și max. 5 m, min. 3 m față de limitele laterale și 6 m față de cea posterioară (colț: 3 m față de toate); parcarea în parcelă, după Anexa 2 a R.L.U. al P.U.G. S_Va: retragere min. 3 m de la aliniament, 3 m față de limitele laterale și 6 m față de cea posterioară.",
+   "Circulații: str. A profil III.H de 12 m, str. B profil de 6 m, str. C profil IV.2 de 9 m, str. D profil de 9 m; str. Borhanciului se regularizează la profilul III.B de 18 m.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Terenul pentru regularizarea str. Borhanciului la 18 m se dezmembrează și se înscrie în CF ca „drum” înainte de autorizarea străzilor propuse, se aduce la strat de uzură și se transferă gratuit în domeniul public înainte de recepția oricărei construcții (planșa A.06).",
+   "Alveola pentru transportul în comun de pe str. Borhanciului se realizează înainte de recepția construcțiilor de pe frontul nordic al str. Borhanciului, între str. A și str. C.",
+   "Străzile propuse se echipează edilitar și se realizează la strat de uzură înainte de autorizarea construcțiilor de pe parcelele cu acces direct din ele, și se cedează gratuit (planșa A.06) înainte de recepția ultimei construcții de pe acele parcele; au acces public nelimitat, iar la D.T.A.C. pentru drumuri se prezintă planul de semnalizare rutieră.",
+   "Spațiul verde public din nordul zonei se amenajează înainte de recepția imobilelor de pe str. C, cel din est înainte de recepția imobilelor de pe str. D.",
+   "Intersecția str. C. Brâncuși – str. Fagului – str. Romul Ladea – str. Borhanciului are capacitatea depășită: autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară și servicii de proximitate/dotări de cartier) se emit după reamenajarea și lărgirea ei de către municipalitate, dar nu mai târziu de 31 decembrie 2026."
+  ]
+ },
+ {
   "id": "2022-400",
   "localitate": "cluj",
   "hcl": "400/2022",
