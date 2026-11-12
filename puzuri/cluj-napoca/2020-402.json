@@ -1,0 +1,219 @@
+{
+  "id": "2020-402",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 402,
+    "an": 2020,
+    "data_sedinta": "2020-06-18",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-402-din-2020/",
+    "pdf": "https://files.primariaclujnapoca.ro/2020/07/01/HCL-402-din-18.06.2020-1.pdf"
+  },
+  "titlu": "P.U.Z. de restructurare – Calea Dorobanților-Str. Ep. Nicolae Ivan",
+  "plansa": {
+    "pagina_pdf": 8,
+    "dpi": 150,
+    "denumire": "A03 – Reglementări urbanistice (plan de situație propus)",
+    "scara": "1:1000 în cartuș; scanarea la 150 ppi are ≈5,9 px/m (1:1000 ar da 5,91 px/m): lungimea parcelei din secțiunea 1-1 (9,00 + 159,55 + 4,50 = 173,05 m, cotă repetată pe plan) măsoară ≈1015 px",
+    "nota": "PDF-ul are 11 pagini scanate: pp. 1-2 hotărârea semnată (același text ca pe pagina hotărârii, fără articole adăugate), pp. 3-5 avizul Arhitectului-șef nr. 35 din 10.02.2020, pp. 6-7 avizul de oportunitate nr. 169 din 28.02.2018, p. 8 planșa A03 „Reglementări urbanistice” (color, 1192×1036 pt, 150 ppi, 2484×2159 px), pp. 9-11 raportul informării și consultării publicului. P. 8 e singura planșă; poartă viza Comisiei tehnice de amenajare a teritoriului și urbanism „HCL nr. 402 din 18.06.2020 – VIZAT” (aviz 35 din 10.02.2020). Cartușul: proiect nr. 02/2019, 08/2019, faza P.U.Z., scara 1:1000. Desenul e pe fondul topografic (clădiri existente hașurate, cu înălțimi și numere cadastrale), cu nordul în sus; nu are inventar de coordonate și nici caroiaj Stereo 70. Parcela reglementată e hașurată portocaliu și închisă de linia roz „Limita de proprietate”; linia neagră punctată „Limita zona studiata” încadrează tot desenul. Legenda publicată are cheia simbolurilor, abrevierile P.T./P.G. și tabelul „Indici urbanistici” (UTR RiM existent, UTR MDacia propus, POT/CUT); bilanțul teritorial, secțiunea 1-1 și cartușul sunt lăsate deoparte. În zona suprapunerii planșa scrie doar numere cadastrale, cote și înălțimi, niciun nume de proprietar, deci nu s-a acoperit nimic (`acopera_px` gol)."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Repere OpenStreetMap (georef_metoda osm, extrasul OSM din repo, date din 2026-11-08): planșa nu are inventar de coordonate și nici caroiaj Stereo 70. Toate punctele sunt colțuri de clădiri existente, desenate hașurat pe fondul topografic al planșei și prezente în OSM, în jurul parcelei. Control: NV_bloc_V (colțul de vest al blocului H=29,80 m de peste Calea Dorobanților, la nord-vest), NE_U_SV (colțul de sud-vest al clădirii în U din colțul de nord-est al planșei, zona Lc_A), SV_bloc_V (colțul de vest al blocului de locuințe H=39,75 m de la sud-vest, spre str. Năsăud), SE_casa_NV (colțul de nord-vest al casei de la sud de str. Baladei, la sud-est); verificare: V_P10_V și V_P10_N (colțurile de vest și de nord ale blocului „locuire P+10” de la sud-vest de parcelă), N_P8_E (colțul de est al blocului „locuire P+8+R” de la nord-est), SE_casa2_NV (colțul de nord-vest al unei case de la sud de str. Baladei, în colțul de sud-est al planșei) și E_P12_V (colțul de vest al blocului „locuire P+12” de la est; conturul lui din OSM e deplasat cu ~3 m față de cel desenat, de aici reziduul cel mai mare). Ancora de pornire: centrul blocului P+12 din OSM (E 394232,4, N 587139,0) pus pe centrul blocului desenat (1542, 760), cu 5,906 px/m (1:1000 la 150 ppi) și nordul în sus; intersecția Calea Dorobanților / str. Ep. Nicolae Ivan nu se putea folosi (în OSM străzile nu se întâlnesc). Potrivirea dă 5,9 px/m și o rotație de 0,01°; scara e confirmată de secțiunea 1-1 (lungimea parcelei, 9,00 + 159,55 + 4,50 = 173,05 m, măsoară ≈1015 px) și de arie. Cu potrivirea, clădirile OSM cad peste cele desenate pe toată planșa, la 0-2 m. Limita e trasată (`limita_px`) pe linia roz „Limita de proprietate”: fiecare latură e dreapta ajustată pe pixelii roz ai liniei (abatere standard 0,4-1,1 px), iar vârfurile sunt intersecțiile laturilor vecine; latura de nord-est are o mică frântură la (979, 583)-(994, 587), iar latura de sud-vest un intrând de ~10 m la postul trafo și punctul gospodăresc. Aria trasată, 9.124 mp, față de 9.042 mp din bilanțul planșei și din avizul arhitectului-șef („9042 mp din acte”), +0,9%.",
+    "suprafata_declarata_m2": 9042,
+    "puncte": {},
+    "nota": "Poziționare aproximativă (±3-5 m): planșa nu are coordonate, iar contururile clădirilor din OSM sunt trasate pe acoperișuri. Ar fi exactă cu coordonatele cadastrale ale imobilelor (nr. cad. 263110, 264752, 311463, 311528, 261102, 261102-C, din avizul arhitectului-șef)."
+  },
+  "gcp_px": {
+    "NV_bloc_V": [
+      333,
+      513
+    ],
+    "NE_U_SV": [
+      1518,
+      254
+    ],
+    "SV_bloc_V": [
+      478,
+      1315
+    ],
+    "SE_casa_NV": [
+      1527,
+      1548
+    ]
+  },
+  "verificare_px": {
+    "V_P10_V": [
+      501,
+      1043
+    ],
+    "V_P10_N": [
+      576,
+      971
+    ],
+    "N_P8_E": [
+      1352,
+      683
+    ],
+    "SE_casa2_NV": [
+      1930,
+      1578
+    ],
+    "E_P12_V": [
+      1420,
+      720
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      1986,
+      88,
+      2438,
+      548
+    ],
+    [
+      1986,
+      818,
+      2438,
+      978
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "M-Dacia",
+      "denumire": "Restructurarea zonelor cu caracter industrial – zonă mixtă: locuire colectivă, birouri și sedii de companii, servicii financiar-bancare, comerț, alimentație publică, învățământ, servicii cu acces public și profesionale, cultură, cazare turistică, sănătate, parcaj colectiv, garaje; regim de construire deschis",
+      "pot_max": "60%",
+      "cut_max": "2,8",
+      "h_max": "corp A (1-3S)+P+7E+R, corp B (1-2S)+4D+P+9E; H max 45 m de la CTA"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2025-06-18",
+    "verificat": "2026-11-12: Art. 3, cinci ani de la aprobare (ședința din 18.06.2020, deci până la 18.06.2025); prelungită cu 24 de luni prin HCL 110/2025, până la 18.06.2027; `related`: nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08)."
+  },
+  "prelungiri": [
+    {
+      "hcl": "110/2025",
+      "pana_la": "2027-06-18",
+      "nota": "HCL 110 din 27 martie 2025, Art. 1: prelungirea valabilității P.U.Z.-ului aprobat prin Hotărârea nr. 402 din 18.06.2020 „cu o perioadă de 24 luni” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (18.06.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 27.03.2027)."
+    }
+  ],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Art. 1 trimite la „planșa A06” pentru amplasarea postului trafo și a punctului gospodăresc; PDF-ul are doar planșa A03 „Reglementări urbanistice”, care le desenează (P.T. și P.G.) în intrândul laturii de sud-vest, plus un al doilea P.G. la capătul dinspre str. Ep. Nicolae Ivan.",
+    "Pe latura de nord-est, linia albastră „Alinierea minimă a construcțiilor” e cotată pe planșă la 3,50 m de limita de proprietate pe la mijlocul laturii (4,50 m spre capătul dinspre str. Ep. Nicolae Ivan); Art. 1 cere față de limita laterală nord-estică min. 4,5 m pentru nivelurile supraterane și min. 2 m pentru cele subterane.",
+    "Planșa dă pentru U.T.R. doar POT max 60% și CUT max 2,8 (aceiași ca în text) și, în bilanț, o suprafață construită propusă de 4.500/5.400 mp (50/60%) și 1.810 mp (20%) spații verzi amenajate; regimul de înălțime al corpurilor A și B, H max 45 m, cele 75 de locuri de parcare cu acces public și calea de trecere pietonală spre str. Ep. Nicolae Ivan vin numai din text.",
+    "Planșa scrie codul U.T.R. „MDacia”, textul „M-Dacia”."
+  ],
+  "conditii": [
+    "P.U.Z.-ul e aprobat împreună cu contractul de restructurare încheiat între Consiliul Local și Municipiul Cluj-Napoca, pe de o parte, și investitor, pe de alta (Art. 1); primarul e mandatat să-l semneze (Art. 2).",
+    "Retrageri față de aliniament: min. 9 m față de str. Ep. Nicolae Ivan (cu excepția punctului gospodăresc); min. 4,5 m la nivelul parterului față de Calea Dorobanților, păstrând alinierea imobilelor înalte de la sud-vest; subsolul poate merge până la aliniamentul străzii.",
+    "Retrageri față de limitele laterale: min. 4,5 m față de limita de sud-vest (cu excepția postului trafo și a punctului gospodăresc); față de limita de nord-est, min. 4,5 m pentru nivelurile supraterane și min. 2 m pentru cele subterane.",
+    "Accese din Calea Dorobanților și din str. Ep. Nicolae Ivan; e obligatoriu cel puțin un acces auto și pietonal din circulația publică, direct din Calea Dorobanților sau prin servitute de trecere.",
+    "Parcarea se face în interiorul parcelei, la subsol, demisol sau parter, după Anexa 2 a Regulamentului local de urbanism (bicicletele pot sta și la sol); în plus se asigură 75 de locuri de parcare cu acces public, în interiorul clădirilor.",
+    "Investitorul realizează pe cheltuiala sa calea de trecere pietonală (trotuar, scări și iluminat public) dintre ansamblul de pe Calea Dorobanților și str. Episcop Nicolae Ivan (în text: „în suprafață de 195 m”); după recepția lucrărilor de construcție, dar înainte de certificatul de atestare a imobilelor din ansamblu, o cedează gratuit Consiliului Local.",
+    "Accesul la promenada și la spațiile verzi din interiorul ansamblului rămâne neîngrădit.",
+    "Echiparea tehnico-edilitară e completă în zonă; toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ],
+  "georef_metoda": "osm",
+  "osm_ancora": {
+    "px": [
+      1542,
+      760
+    ],
+    "en": [
+      394232.4,
+      587139.0
+    ],
+    "px_per_m": 5.906,
+    "nord": 0
+  },
+  "repere": {
+    "NV_bloc_V": [
+      587180.31,
+      394028.33
+    ],
+    "NE_U_SV": [
+      587224.49,
+      394228.52
+    ],
+    "SV_bloc_V": [
+      587044.59,
+      394052.37
+    ],
+    "SE_casa_NV": [
+      587005.35,
+      394229.95
+    ],
+    "V_P10_V": [
+      587090.76,
+      394056.92
+    ],
+    "V_P10_N": [
+      587103.43,
+      394070.05
+    ],
+    "N_P8_E": [
+      587151.47,
+      394201.96
+    ],
+    "SE_casa2_NV": [
+      587000.48,
+      394298.22
+    ],
+    "E_P12_V": [
+      587146.34,
+      394209.05
+    ]
+  },
+  "repere_osm": {
+    "NV_bloc_V": "colț de clădire (b217334605_0)",
+    "NE_U_SV": "colț de clădire (b241082873_9)",
+    "SV_bloc_V": "colț de clădire (b241082867_0)",
+    "SE_casa_NV": "colț de clădire (b306003397_7)",
+    "V_P10_V": "colț de clădire (b241082865_0)",
+    "V_P10_N": "colț de clădire (b241082865_1)",
+    "N_P8_E": "colț de clădire (b241082869_2)",
+    "SE_casa2_NV": "colț de clădire (b276967644_0)",
+    "E_P12_V": "colț de clădire (b241082870_0)"
+  },
+  "limita_px": [
+    [
+      620,
+      603
+    ],
+    [
+      837,
+      430
+    ],
+    [
+      979,
+      583
+    ],
+    [
+      994,
+      587
+    ],
+    [
+      1504,
+      1178
+    ],
+    [
+      1284,
+      1408
+    ],
+    [
+      826,
+      915
+    ],
+    [
+      872,
+      876
+    ]
+  ]
+}

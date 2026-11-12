@@ -34251,6 +34251,102 @@
   ]
  },
  {
+  "id": "2020-402",
+  "localitate": "cluj",
+  "hcl": "402/2020",
+  "data": "2020-06-18",
+  "titlu": "P.U.Z. de restructurare – Calea Dorobanților-Str. Ep. Nicolae Ivan",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-402-din-2020/",
+  "pdf": "https://files.primariaclujnapoca.ro/2020/07/01/HCL-402-din-18.06.2020-1.pdf",
+  "utr": [
+   {
+    "cod": "M-Dacia",
+    "denumire": "Restructurarea zonelor cu caracter industrial – zonă mixtă: locuire colectivă, birouri și sedii de companii, servicii financiar-bancare, comerț, alimentație publică, învățământ, servicii cu acces public și profesionale, cultură, cazare turistică, sănătate, parcaj colectiv, garaje; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "2,8",
+    "h_max": "corp A (1-3S)+P+7E+R, corp B (1-2S)+4D+P+9E; H max 45 m de la CTA"
+   }
+  ],
+  "suprafata_m2": 9124,
+  "imagine": "puz/2020-402/plansa.webp",
+  "bounds": {
+   "west": 23.6111554,
+   "south": 46.7744305,
+   "east": 23.6132082,
+   "north": 46.7759823
+  },
+  "limita": [
+   [
+    23.6111913,
+    46.7756767
+   ],
+   [
+    23.6116653,
+    46.7759458
+   ],
+   [
+    23.6119858,
+    46.7757168
+   ],
+   [
+    23.6120192,
+    46.7757111
+   ],
+   [
+    23.6131721,
+    46.7748253
+   ],
+   [
+    23.6126937,
+    46.7744694
+   ],
+   [
+    23.6116599,
+    46.7752074
+   ],
+   [
+    23.6117602,
+    46.775268
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.24,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2020-402/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2027-06-18",
+   "initial_pana_la": "2025-06-18",
+   "prelungiri": [
+    {
+     "hcl": "110/2025",
+     "pana_la": "2027-06-18",
+     "nota": "HCL 110 din 27 martie 2025, Art. 1: prelungirea valabilității P.U.Z.-ului aprobat prin Hotărârea nr. 402 din 18.06.2020 „cu o perioadă de 24 luni” (art. 28 alin. 3 din Ordinul 233/2016). Adoptată înainte de expirarea termenului inițial (18.06.2025); termenul e socotit, ca la celelalte prelungiri, de la expirarea inițială (socotit de la data hotărârii de prelungire ar fi 27.03.2027)."
+    }
+   ]
+  },
+  "diferente_fata_de_plansa": [
+   "Art. 1 trimite la „planșa A06” pentru amplasarea postului trafo și a punctului gospodăresc; PDF-ul are doar planșa A03 „Reglementări urbanistice”, care le desenează (P.T. și P.G.) în intrândul laturii de sud-vest, plus un al doilea P.G. la capătul dinspre str. Ep. Nicolae Ivan.",
+   "Pe latura de nord-est, linia albastră „Alinierea minimă a construcțiilor” e cotată pe planșă la 3,50 m de limita de proprietate pe la mijlocul laturii (4,50 m spre capătul dinspre str. Ep. Nicolae Ivan); Art. 1 cere față de limita laterală nord-estică min. 4,5 m pentru nivelurile supraterane și min. 2 m pentru cele subterane.",
+   "Planșa dă pentru U.T.R. doar POT max 60% și CUT max 2,8 (aceiași ca în text) și, în bilanț, o suprafață construită propusă de 4.500/5.400 mp (50/60%) și 1.810 mp (20%) spații verzi amenajate; regimul de înălțime al corpurilor A și B, H max 45 m, cele 75 de locuri de parcare cu acces public și calea de trecere pietonală spre str. Ep. Nicolae Ivan vin numai din text.",
+   "Planșa scrie codul U.T.R. „MDacia”, textul „M-Dacia”."
+  ],
+  "conditii": [
+   "P.U.Z.-ul e aprobat împreună cu contractul de restructurare încheiat între Consiliul Local și Municipiul Cluj-Napoca, pe de o parte, și investitor, pe de alta (Art. 1); primarul e mandatat să-l semneze (Art. 2).",
+   "Retrageri față de aliniament: min. 9 m față de str. Ep. Nicolae Ivan (cu excepția punctului gospodăresc); min. 4,5 m la nivelul parterului față de Calea Dorobanților, păstrând alinierea imobilelor înalte de la sud-vest; subsolul poate merge până la aliniamentul străzii.",
+   "Retrageri față de limitele laterale: min. 4,5 m față de limita de sud-vest (cu excepția postului trafo și a punctului gospodăresc); față de limita de nord-est, min. 4,5 m pentru nivelurile supraterane și min. 2 m pentru cele subterane.",
+   "Accese din Calea Dorobanților și din str. Ep. Nicolae Ivan; e obligatoriu cel puțin un acces auto și pietonal din circulația publică, direct din Calea Dorobanților sau prin servitute de trecere.",
+   "Parcarea se face în interiorul parcelei, la subsol, demisol sau parter, după Anexa 2 a Regulamentului local de urbanism (bicicletele pot sta și la sol); în plus se asigură 75 de locuri de parcare cu acces public, în interiorul clădirilor.",
+   "Investitorul realizează pe cheltuiala sa calea de trecere pietonală (trotuar, scări și iluminat public) dintre ansamblul de pe Calea Dorobanților și str. Episcop Nicolae Ivan (în text: „în suprafață de 195 m”); după recepția lucrărilor de construcție, dar înainte de certificatul de atestare a imobilelor din ansamblu, o cedează gratuit Consiliului Local.",
+   "Accesul la promenada și la spațiile verzi din interiorul ansamblului rămâne neîngrădit.",
+   "Echiparea tehnico-edilitară e completă în zonă; toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2019-883",
   "localitate": "cluj",
   "hcl": "883/2019",
