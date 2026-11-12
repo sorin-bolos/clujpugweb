@@ -22889,6 +22889,247 @@
   ]
  },
  {
+  "id": "2023-463",
+  "localitate": "cluj",
+  "hcl": "463/2023",
+  "data": "2023-05-15",
+  "titlu": "P.U.Z. – Dezvoltare zonă rezidențială, str. Aurel Gurghianu, cu încetarea aplicabilității P.U.Z. aprobat prin Hotărârea nr. 55/2022",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-463-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/05/22/HCL-463.pdf",
+  "utr": [
+   {
+    "cod": "Lic_a",
+    "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe unifamiliale și familiale (cel mult două unități locative) și anexele lor; regim de construire izolat sau cuplat. Pe planșă: 8 parcele (o casă individuală, 3 case cu câte 2 unități, 4 case cuplate).",
+    "pot_max": "35% (25% pentru instituții de educație/învățământ)",
+    "cut_max": "0,9 (0,5 pentru instituții de educație/învățământ)",
+    "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+   },
+   {
+    "cod": "Lic_b",
+    "denumire": "Locuințe colective mici, cel mult șase unități locative pe clădire; o parcelă poate avea o clădire sau un grup de clădiri cu câte 6 unități, cu cel puțin 100 mp de parcelă pentru fiecare unitate locativă și cel puțin 600 mp pentru un imobil; regim de construire izolat. Pe planșă: 2 parcele (una cu 2 imobile, una cu 3).",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m la atic sau la coamă; trei niveluri supraterane, plus un demisol doar pentru garaje sau alte funcțiuni decât locuirea: cel mult (S)+P+1+M/R, D+P+1+M/R, S+P+2 sau D+P+2"
+   },
+   {
+    "cod": "Lic_c",
+    "denumire": "Locuințe colective cu alte funcțiuni (terțiare) la parter; regim de construire izolat. Pe planșă: un imobil, la colțul str. Aurel Gurghianu cu str. Miko Imre.",
+    "pot_max": "40%",
+    "cut_max": "1,1",
+    "h_max": "15 m la cornișă sau la atic; patru niveluri supraterane, plus un demisol doar pentru garaje sau alte funcțiuni decât locuirea: cel mult (S)D+P+3E"
+   },
+   {
+    "cod": "S_Is",
+    "denumire": "Instituții și servicii publice și de interes public: administrative, cultură, învățământ și cercetare, sănătate și asistență socială; regim de construire izolat. Pe planșă: o parcelă, de 1080 mp.",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "12 m; (S)/D+P+2E"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Spații verzi – scuaruri, grădini, parcuri: plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport; parcarea interzisă. Două parcele cu acces public nelimitat (606 mp în total pe planșă).",
+    "pot_max": "0%",
+    "cut_max": "0",
+    "h_max": "nu e cazul"
+   },
+   {
+    "cod": "Ve",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: plantații, alei pietonale și velo, circulații auto existente, mobilier urban; utilizările actuale se păstrează și pot fi modernizate; parcarea interzisă. Bilanțul planșei o trece ca „Ve (drum existent)”, 459 mp: drumul existent din marginea de est a teritoriului (str. Miko Imre), încadrat ca Ve în P.U.G.",
+    "pot_max": "1%",
+    "cut_max": "0,01",
+    "h_max": "nu e cazul"
+   }
+  ],
+  "suprafata_m2": 15270,
+  "imagine": "puz/2023-463/plansa.webp",
+  "bounds": {
+   "west": 23.586712,
+   "south": 46.7477589,
+   "east": 23.5887176,
+   "north": 46.7491631
+  },
+  "limita": [
+   [
+    23.5871832,
+    46.7484253
+   ],
+   [
+    23.5874628,
+    46.7484293
+   ],
+   [
+    23.5874639,
+    46.7483936
+   ],
+   [
+    23.5872689,
+    46.7483908
+   ],
+   [
+    23.5872689,
+    46.7483905
+   ],
+   [
+    23.5872692,
+    46.7483905
+   ],
+   [
+    23.587357,
+    46.747855
+   ],
+   [
+    23.5871018,
+    46.7478692
+   ],
+   [
+    23.5868681,
+    46.7478757
+   ],
+   [
+    23.5868187,
+    46.7481349
+   ],
+   [
+    23.5867758,
+    46.748361
+   ],
+   [
+    23.586772,
+    46.7483811
+   ],
+   [
+    23.5867506,
+    46.7484162
+   ],
+   [
+    23.5867547,
+    46.7485073
+   ],
+   [
+    23.5867608,
+    46.7486232
+   ],
+   [
+    23.5867642,
+    46.7487463
+   ],
+   [
+    23.5867675,
+    46.7488771
+   ],
+   [
+    23.5867734,
+    46.749028
+   ],
+   [
+    23.5867785,
+    46.7491251
+   ],
+   [
+    23.5868188,
+    46.7491233
+   ],
+   [
+    23.5871976,
+    46.7491061
+   ],
+   [
+    23.5879196,
+    46.749077
+   ],
+   [
+    23.5879264,
+    46.7484336
+   ],
+   [
+    23.5886798,
+    46.7484405
+   ],
+   [
+    23.5886802,
+    46.7484045
+   ],
+   [
+    23.5886855,
+    46.7477987
+   ],
+   [
+    23.5886043,
+    46.7478022
+   ],
+   [
+    23.5873632,
+    46.7478547
+   ],
+   [
+    23.5873571,
+    46.747855
+   ],
+   [
+    23.5872693,
+    46.7483905
+   ],
+   [
+    23.5874643,
+    46.7483933
+   ],
+   [
+    23.5874632,
+    46.7484293
+   ],
+   [
+    23.5874634,
+    46.7484383
+   ],
+   [
+    23.5874701,
+    46.7487444
+   ],
+   [
+    23.5871901,
+    46.7487403
+   ],
+   [
+    23.5871834,
+    46.7484357
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "inventar de coordonate Stereo70",
+   "puncte": 5,
+   "rms_m": 0.25
+  },
+  "legenda": "puz/2023-463/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-05-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Codurile UTR: hotărârea scrie Lic_a, Lic_b, Lic_c, planșa Li/c_a, Li/c_b, Li/c_c (în blocul de indici „Li/c c”).",
+   "Lic_a: planșa dă regimul „(S/D)+P+1+(Er/M)” și h max 12 m; Art. 1 limitează la trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, deci nu D+P+1+M) și adaugă 8 m la cornișă sau la aticul ultimului nivel neretras. Tot Art. 1 adaugă, pentru instituții de educație/învățământ, P.O.T. maxim 25% și C.U.T. maxim 0,5, pe care planșa nu le are.",
+   "Lic_b: Art. 1 cere cel puțin 100 mp de parcelă pe unitate locativă și cel puțin 600 mp pentru un imobil de locuințe colective mici; planșa nu dă suprafețe minime. Regimul de înălțime al planșei, S/D+P+2E, Art. 1 îl scrie (S)+P+1+M/R, D+P+1+M/R, S+P+2 sau D+P+2.",
+   "Lic_c: legenda planșei are numai retragerile generale (3,5 m față de aliniament, 3 m la str. Miko Imre, 6 m posterior, 3 m lateral); Art. 1 cere în Lic_c retrageri laterale de H/2, dar minim 6 m, și posterioare de H/2, dar minim 9 m, iar cel puțin 75% din parcare la subsol/demisol.",
+   "S_Va: titlul UTR din Art. 1 spune „parcuri cu acces public limitat”, dar mai jos același articol vorbește de „spațiile verzi cu acces public nelimitat propuse (UTR S_Va)”, iar planșa le numește „zonă verde cu acces public nelimitat”.",
+   "Ve: planșa nu dă indicatori pentru Ve; Art. 1 fixează P.O.T. 1% și C.U.T. 0,01.",
+   "Nota planșei „parcela destinată S_Is va avea suprafața minimă de 1000 mp” nu apare în hotărâre."
+  ],
+  "conditii": [
+   "Art. 1 aprobă încetarea aplicabilității P.U.Z.-ului aprobat prin HCL 55/2022 și, în locul lui, acest P.U.Z. pentru un teren măsurat de 15.270 mp, proprietate privată, parcelele cu nr. cad. 346331, 335375, 281360, 270795, 276391 și 281358; P.U.Z.-ul propune parcelarea terenului.",
+   "Terenul necesar regularizării la ampriza de 12 m a str. Aurel Gurghianu și a str. Miko Imre, pe tronsonul de lângă P.U.Z., se dezmembrează din parcele și se înscrie în CF ca „drum”.",
+   "Străzile se echipează edilitar complet, iar carosabilul se aduce la strat de uzură (asfalt) înainte de autorizațiile de construire pentru locuințe; până la recepția construcțiilor se amenajează trotuarele (cu stâlpi de iluminat), fâșiile verzi plantate și locurile de staționare pentru vizitatori.",
+   "Aleea rezidențială propusă (ampriză 7,5 m, cu loc de întoarcere) se înscrie în CF ca „drum”, se echipează edilitar și se face la strat de uzură (asfalt sau dalaj) înainte de autorizațiile de construire pe parcelele cu acces din ea.",
+   "Înainte de autorizațiile de construire pe parcele, beneficiarii fac pe cheltuiala lor un covor asfaltic pe ampriza existentă a str. Miko Imre, de la Calea Turzii până la str. Aurel Gurghianu.",
+   "Cele două spații verzi cu acces public nelimitat (UTR S_Va) se amenajează după proiecte de specialitate înainte de recepția locuințelor colective, cu mobilier urban (bănci, coșuri de gunoi, iluminat) și cel puțin 3 arbori cu circumferința de minim 35 cm (la 1 m de la colet) pe fiecare.",
+   "Pe frontul nordic al str. Aurel Gurghianu și pe frontul vestic al str. Miko Imre se plantează cel puțin 8 arbori cu circumferința de minim 35 cm la 1 m de la colet.",
+   "Toate investițiile propuse prin P.U.Z. se suportă de beneficiari.",
+   "Retrageri față de aliniament: 3,5 m față de str. Aurel Gurghianu în toate UTR-urile, minim 3,5 m față de aleea rezidențială (Lic_a, unde garajele se retrag minim 6 m, ca să încapă o mașină în față), 3 m față de str. Miko Imre (Lic_c).",
+   "Lic_a: retrageri laterale de minim 3 m la regim izolat; regimul cuplat e admis după planșa 03, cu minim 3 m față de latura opusă calcanului; garajele se pot alipi limitelor laterale dacă calcanul nu trece de 2,8 m; retragerea posterioară cel puțin înălțimea clădirii, minim 6 m. Accesul din str. Aurel Gurghianu sau din alee, câte un acces pietonal și unul carosabil pe parcelă; parcarea pe parcelă, după art. 9 din regulamentul P.U.G. pentru UTR Uli/c.",
+   "Lic_b și S_Is: retrageri laterale de minim 3 m și posterioare cel puțin înălțimea clădirii, minim 6 m; acces din str. Aurel Gurghianu. În Lic_b parcarea mai ales la subsol/demisol: un loc pe unitate locativă, două pentru servicii de proximitate; se recomandă pavimente permeabile pe parcelă.",
+   "Lic_c: retrageri laterale de H/2, dar minim 6 m, și posterioare de H/2, dar minim 9 m; accesele auto din str. Miko Imre, cele pietonale din str. Aurel Gurghianu și str. Miko Imre; cel puțin 75% din locurile de parcare la subsol/demisol, iar parcajele de la sol la minim 5 m de ferestrele camerelor de locuit.",
+   "Toate construcțiile se racordează la rețelele edilitare (apă, canalizare, electricitate, gaz). În S_Va și Ve parcarea e interzisă."
+  ]
+ },
+ {
   "id": "2023-75",
   "localitate": "cluj",
   "hcl": "75/2023",

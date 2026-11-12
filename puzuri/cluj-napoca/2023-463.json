@@ -1,0 +1,398 @@
+{
+  "id": "2023-463",
+  "localitate": "cluj",
+  "hcl": {
+    "nr": 463,
+    "an": 2023,
+    "data_sedinta": "2023-05-15",
+    "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-463-din-2023/",
+    "pdf": "https://files.primariaclujnapoca.ro/2023/05/22/HCL-463.pdf"
+  },
+  "titlu": "P.U.Z. – Dezvoltare zonă rezidențială, str. Aurel Gurghianu, cu încetarea aplicabilității P.U.Z. aprobat prin Hotărârea nr. 55/2022",
+  "plansa": {
+    "pagina_pdf": 31,
+    "dpi": 96,
+    "denumire": "Planșa 03 Plan reglementări urbanistice",
+    "scara": "1:750",
+    "nota": "PDF-ul hotărârii are 33 de pagini: hotărârea semnată (p. 1-4), planșa de reglementări redusă pe A4 (p. 5), Anexa 2 R.L.U. (p. 6-22), avizul de oportunitate nr. 145/3.06.2020 (p. 23-24) cu extrasul din P.U.G. (p. 25), avizul arhitectului-șef nr. 246/9.11.2022 (p. 26-30), planșa 03 pe A2 (p. 31) și raportul informării și consultării publicului (p. 32-33). S-a folosit p. 31: aceeași planșă ca p. 5, color, la mărimea ei, scanată la 96 ppi (desenul iese la ~4,9 px/m, adică 1:750 tipărit la ~97%); ștampilată „HCL nr. 463 din 15 mai 2023” și „Vizat spre neschimbare”, aviz nr. 246 din 9.11.2022. Cartușul: S.C. Spin Studio S.R.L., pr. nr. 28/2017, faza P.U.Z., 12.2022, format A2, planșa nr. 03 „Plan reglementări urbanistice”, scara 1/750; obiectivul e scris „modificare PUZ aprobat cu nr. 55 din 08.02.2022 în vederea translatare drum cu menținerea amprizei de 12 m”, iar hotărârea aprobă încetarea aplicabilității acelui P.U.Z. și un P.U.Z. nou pe același teren. Nordul e în sus (rotația fitului e 0,3°). Planșa poartă caroiajul Stereo 70 al ridicării topografice (liniile etichetate 584100, 584200, 392200, 392300); o cruce, E 392200 / N 584100, e folosită ca punct de verificare. Legenda ia cheia simbolurilor, blocurile „Indici urbanistici” ale celor cinci UTR-uri, nota „parcela destinată S_Is va avea suprafața minimă de 1000 mp” și nota din dreapta desenului despre str. Miko Imre (profil de 12 m); au rămas deoparte tabelul parcelelor (nr. cad. și suprafețe), inventarul de coordonate, bilanțurile teritoriale, calculul locurilor de parcare, cartușul (cu numele proprietarului), ștampilele și semnăturile."
+  },
+  "coordonate": {
+    "crs": "EPSG:3844",
+    "sursa": "Inventarul de pe planșă („Coordonate pct. de contur”, X [m] = Nord, Y [m] = Est, cu „Lungimi laturi D(i,i+1)”), 36 de puncte în ordinea conturului, dar nu în ordinea numerelor (35, 46, 36, 37, 47, 250, 251, 100, 200, 201, 202, 39, 11-34), S = 15269,54 mp, P = 837,057 m; 15.270 mp e și suprafața din Art. 1 și totalul bilanțului teritorial. Puncte de control: 17 (colțul de nord-vest), 20 (colțul de nord-est), 200 (colțul de sud-vest), 32 și 33 (colțurile de nord ale enclavei nr. cad. 273923, la marginea de sud a spațiului verde S_Va). Puncte de verificare: crucea de caroiaj Stereo 70 E 392200 / N 584100 (pe liniile etichetate „392200” și „584100” ale planșei, sub latura de sud, lângă punctul 251) și 11 (frântura limitei de vest la str. Aurel Gurghianu, pe linia neagră groasă). Colțurile s-au luat pe muchia hașurii roz a zonelor (pe vest, pe axul liniei negre groase cu care coincide), iar 32-33 pe muchia de jos a verdelui S_Va; desenat peste planșă, conturul calculat urmează aceste muchii pe toată lungimea lor.",
+    "suprafata_declarata_m2": 15269.54,
+    "puncte": {
+      "35": [
+        584169.1,
+        392189.45
+      ],
+      "46": [
+        584169.17,
+        392210.82
+      ],
+      "36": [
+        584165.2,
+        392210.833
+      ],
+      "37": [
+        584165.151,
+        392195.925
+      ],
+      "47": [
+        584165.121,
+        392195.928
+      ],
+      "250": [
+        584165.121,
+        392195.948
+      ],
+      "251": [
+        584105.487,
+        392201.596
+      ],
+      "100": [
+        584107.417,
+        392182.129
+      ],
+      "200": [
+        584108.455,
+        392164.286
+      ],
+      "201": [
+        584137.332,
+        392161.031
+      ],
+      "202": [
+        584162.515,
+        392158.201
+      ],
+      "39": [
+        584164.755,
+        392157.949
+      ],
+      "11": [
+        584168.688,
+        392156.384
+      ],
+      "12": [
+        584178.803,
+        392156.882
+      ],
+      "13": [
+        584191.673,
+        392157.574
+      ],
+      "14": [
+        584205.35,
+        392158.08
+      ],
+      "15": [
+        584219.887,
+        392158.594
+      ],
+      "16": [
+        584236.643,
+        392159.338
+      ],
+      "17": [
+        584247.431,
+        392159.922
+      ],
+      "18": [
+        584247.173,
+        392163.0
+      ],
+      "19": [
+        584244.75,
+        392191.9
+      ],
+      "20": [
+        584240.521,
+        392246.998
+      ],
+      "21": [
+        584169.015,
+        392246.239
+      ],
+      "22": [
+        584168.755,
+        392303.808
+      ],
+      "23": [
+        584164.755,
+        392303.766
+      ],
+      "24": [
+        584097.42,
+        392302.97
+      ],
+      "25": [
+        584097.923,
+        392296.771
+      ],
+      "26": [
+        584105.449,
+        392202.069
+      ],
+      "27": [
+        584105.486,
+        392201.606
+      ],
+      "28": [
+        584165.121,
+        392195.958
+      ],
+      "29": [
+        584165.17,
+        392210.863
+      ],
+      "30": [
+        584169.17,
+        392210.85
+      ],
+      "31": [
+        584170.166,
+        392210.883
+      ],
+      "32": [
+        584204.18,
+        392212.0
+      ],
+      "33": [
+        584204.1,
+        392190.6
+      ],
+      "34": [
+        584170.264,
+        392189.488
+      ]
+    },
+    "ordine": [
+      "35",
+      "46",
+      "36",
+      "37",
+      "47",
+      "250",
+      "251",
+      "100",
+      "200",
+      "201",
+      "202",
+      "39",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34"
+    ],
+    "laturi_declarate_m": {
+      "35": 21.37,
+      "46": 3.97,
+      "36": 14.908,
+      "37": 0.03,
+      "47": 0.02,
+      "250": 59.901,
+      "251": 19.562,
+      "100": 17.873,
+      "200": 29.06,
+      "201": 25.342,
+      "202": 2.254,
+      "39": 4.233,
+      "11": 10.127,
+      "12": 12.889,
+      "13": 13.686,
+      "14": 14.546,
+      "15": 16.773,
+      "16": 10.804,
+      "17": 3.089,
+      "18": 29.001,
+      "19": 55.26,
+      "20": 71.51,
+      "21": 57.57,
+      "22": 4.0,
+      "23": 67.34,
+      "24": 6.219,
+      "25": 95.001,
+      "26": 0.464,
+      "27": 59.902,
+      "28": 14.905,
+      "29": 4.0,
+      "30": 0.997,
+      "31": 34.032,
+      "32": 21.4,
+      "33": 33.854,
+      "34": 1.165
+    },
+    "perimetru_declarat_m": 837.057,
+    "nota": "Cifrele tabelului au ~7 px la 96 ppi, dar se citesc mărite de 5-6 ori; toate cele 36 de laturi tipărite se potrivesc la 1 cm, perimetrul la fel, iar aria coordonatelor, 15269,5 mp, cu S = 15269,54 mp. Conturul e un singur inel care ocolește parcela nr. cad. 273923 (clădirea existentă D+P+2, care nu face parte din P.U.Z.): de la latura de sud (26-27 / 251) urcă aproximativ pe limita dintre Li/c_a și Li/c_b până în str. Aurel Gurghianu (27-28 și 251-250, la 1 cm una de alta), apoi pe 28-29-30 și 46-36-37 (la 3-4 cm) până la enclava 31-32-33-34-35-46, pe care o înconjoară. De aceea limita de pe hartă are o tăietură subțire de la latura de sud până la enclavă: e chiar inventarul, iar aria nu se schimbă. Pe stradă (21-22-23, 11-39-202, 28-30, 31-35) limita trece prin carosabilul desenat, pe limitele de proprietate de acum, nu pe noile aliniamente. Linia punctată albastră „zona studiată conform SO” e desenată la 1-2 m în afara limitei pe laturile de nord, vest și est."
+  },
+  "gcp_px": {
+    "17": [
+      1007,
+      95
+    ],
+    "20": [
+      1424.5,
+      127
+    ],
+    "200": [
+      1026,
+      775
+    ],
+    "32": [
+      1259,
+      305
+    ],
+    "33": [
+      1155.5,
+      306.5
+    ]
+  },
+  "verificare_px": {
+    "C392200_584100": [
+      1201.5,
+      815.5
+    ],
+    "11": [
+      990,
+      478.5
+    ]
+  },
+  "decupaj": {
+    "buffer_m": 1.5,
+    "exclude_px": []
+  },
+  "legenda_px": [
+    [
+      100,
+      872,
+      520,
+      1320
+    ],
+    [
+      525,
+      870,
+      845,
+      1490
+    ],
+    [
+      850,
+      858,
+      1172,
+      1131
+    ],
+    [
+      850,
+      1262,
+      1172,
+      1304
+    ],
+    [
+      1850,
+      785,
+      2125,
+      955
+    ]
+  ],
+  "utr": [
+    {
+      "cod": "Lic_a",
+      "denumire": "Locuințe cu regim redus de înălțime pe un parcelar de tip urban: locuințe unifamiliale și familiale (cel mult două unități locative) și anexele lor; regim de construire izolat sau cuplat. Pe planșă: 8 parcele (o casă individuală, 3 case cu câte 2 unități, 4 case cuplate).",
+      "pot_max": "35% (25% pentru instituții de educație/învățământ)",
+      "cut_max": "0,9 (0,5 pentru instituții de educație/învățământ)",
+      "h_max": "8 m la cornișă sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; trei niveluri supraterane: (S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R"
+    },
+    {
+      "cod": "Lic_b",
+      "denumire": "Locuințe colective mici, cel mult șase unități locative pe clădire; o parcelă poate avea o clădire sau un grup de clădiri cu câte 6 unități, cu cel puțin 100 mp de parcelă pentru fiecare unitate locativă și cel puțin 600 mp pentru un imobil; regim de construire izolat. Pe planșă: 2 parcele (una cu 2 imobile, una cu 3).",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m la atic sau la coamă; trei niveluri supraterane, plus un demisol doar pentru garaje sau alte funcțiuni decât locuirea: cel mult (S)+P+1+M/R, D+P+1+M/R, S+P+2 sau D+P+2"
+    },
+    {
+      "cod": "Lic_c",
+      "denumire": "Locuințe colective cu alte funcțiuni (terțiare) la parter; regim de construire izolat. Pe planșă: un imobil, la colțul str. Aurel Gurghianu cu str. Miko Imre.",
+      "pot_max": "40%",
+      "cut_max": "1,1",
+      "h_max": "15 m la cornișă sau la atic; patru niveluri supraterane, plus un demisol doar pentru garaje sau alte funcțiuni decât locuirea: cel mult (S)D+P+3E"
+    },
+    {
+      "cod": "S_Is",
+      "denumire": "Instituții și servicii publice și de interes public: administrative, cultură, învățământ și cercetare, sănătate și asistență socială; regim de construire izolat. Pe planșă: o parcelă, de 1080 mp.",
+      "pot_max": "35%",
+      "cut_max": "0,9",
+      "h_max": "12 m; (S)/D+P+2E"
+    },
+    {
+      "cod": "S_Va",
+      "denumire": "Spații verzi – scuaruri, grădini, parcuri: plantații, alei și platforme pietonale și velo, mobilier urban, amenajări pentru joacă, odihnă și sport; parcarea interzisă. Două parcele cu acces public nelimitat (606 mp în total pe planșă).",
+      "pot_max": "0%",
+      "cut_max": "0",
+      "h_max": "nu e cazul"
+    },
+    {
+      "cod": "Ve",
+      "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic: plantații, alei pietonale și velo, circulații auto existente, mobilier urban; utilizările actuale se păstrează și pot fi modernizate; parcarea interzisă. Bilanțul planșei o trece ca „Ve (drum existent)”, 459 mp: drumul existent din marginea de est a teritoriului (str. Miko Imre), încadrat ca Ve în P.U.G.",
+      "pot_max": "1%",
+      "cut_max": "0,01",
+      "h_max": "nu e cazul"
+    }
+  ],
+  "valabilitate": {
+    "ani": 5,
+    "pana_la": "2028-05-15",
+    "verificat": "2026-11-12: Art. 2, cinci ani de la aprobare (15.05.2023); `related`: nicio prelungire și nicio modificare în indexul hotărârilor P.U.Z. (actualizat 2026-11-08). Textul de pe pagina hotărârii s-a comparat cu hotărârea scanată (p. 1-4 din PDF): coincid, fără articole adăugate; adoptată cu 21 de voturi."
+  },
+  "prelungiri": [],
+  "modifica": [],
+  "modificat_de": [],
+  "diferente_fata_de_plansa": [
+    "Codurile UTR: hotărârea scrie Lic_a, Lic_b, Lic_c, planșa Li/c_a, Li/c_b, Li/c_c (în blocul de indici „Li/c c”).",
+    "Lic_a: planșa dă regimul „(S/D)+P+1+(Er/M)” și h max 12 m; Art. 1 limitează la trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+M sau D+P+R, deci nu D+P+1+M) și adaugă 8 m la cornișă sau la aticul ultimului nivel neretras. Tot Art. 1 adaugă, pentru instituții de educație/învățământ, P.O.T. maxim 25% și C.U.T. maxim 0,5, pe care planșa nu le are.",
+    "Lic_b: Art. 1 cere cel puțin 100 mp de parcelă pe unitate locativă și cel puțin 600 mp pentru un imobil de locuințe colective mici; planșa nu dă suprafețe minime. Regimul de înălțime al planșei, S/D+P+2E, Art. 1 îl scrie (S)+P+1+M/R, D+P+1+M/R, S+P+2 sau D+P+2.",
+    "Lic_c: legenda planșei are numai retragerile generale (3,5 m față de aliniament, 3 m la str. Miko Imre, 6 m posterior, 3 m lateral); Art. 1 cere în Lic_c retrageri laterale de H/2, dar minim 6 m, și posterioare de H/2, dar minim 9 m, iar cel puțin 75% din parcare la subsol/demisol.",
+    "S_Va: titlul UTR din Art. 1 spune „parcuri cu acces public limitat”, dar mai jos același articol vorbește de „spațiile verzi cu acces public nelimitat propuse (UTR S_Va)”, iar planșa le numește „zonă verde cu acces public nelimitat”.",
+    "Ve: planșa nu dă indicatori pentru Ve; Art. 1 fixează P.O.T. 1% și C.U.T. 0,01.",
+    "Nota planșei „parcela destinată S_Is va avea suprafața minimă de 1000 mp” nu apare în hotărâre."
+  ],
+  "conditii": [
+    "Art. 1 aprobă încetarea aplicabilității P.U.Z.-ului aprobat prin HCL 55/2022 și, în locul lui, acest P.U.Z. pentru un teren măsurat de 15.270 mp, proprietate privată, parcelele cu nr. cad. 346331, 335375, 281360, 270795, 276391 și 281358; P.U.Z.-ul propune parcelarea terenului.",
+    "Terenul necesar regularizării la ampriza de 12 m a str. Aurel Gurghianu și a str. Miko Imre, pe tronsonul de lângă P.U.Z., se dezmembrează din parcele și se înscrie în CF ca „drum”.",
+    "Străzile se echipează edilitar complet, iar carosabilul se aduce la strat de uzură (asfalt) înainte de autorizațiile de construire pentru locuințe; până la recepția construcțiilor se amenajează trotuarele (cu stâlpi de iluminat), fâșiile verzi plantate și locurile de staționare pentru vizitatori.",
+    "Aleea rezidențială propusă (ampriză 7,5 m, cu loc de întoarcere) se înscrie în CF ca „drum”, se echipează edilitar și se face la strat de uzură (asfalt sau dalaj) înainte de autorizațiile de construire pe parcelele cu acces din ea.",
+    "Înainte de autorizațiile de construire pe parcele, beneficiarii fac pe cheltuiala lor un covor asfaltic pe ampriza existentă a str. Miko Imre, de la Calea Turzii până la str. Aurel Gurghianu.",
+    "Cele două spații verzi cu acces public nelimitat (UTR S_Va) se amenajează după proiecte de specialitate înainte de recepția locuințelor colective, cu mobilier urban (bănci, coșuri de gunoi, iluminat) și cel puțin 3 arbori cu circumferința de minim 35 cm (la 1 m de la colet) pe fiecare.",
+    "Pe frontul nordic al str. Aurel Gurghianu și pe frontul vestic al str. Miko Imre se plantează cel puțin 8 arbori cu circumferința de minim 35 cm la 1 m de la colet.",
+    "Toate investițiile propuse prin P.U.Z. se suportă de beneficiari.",
+    "Retrageri față de aliniament: 3,5 m față de str. Aurel Gurghianu în toate UTR-urile, minim 3,5 m față de aleea rezidențială (Lic_a, unde garajele se retrag minim 6 m, ca să încapă o mașină în față), 3 m față de str. Miko Imre (Lic_c).",
+    "Lic_a: retrageri laterale de minim 3 m la regim izolat; regimul cuplat e admis după planșa 03, cu minim 3 m față de latura opusă calcanului; garajele se pot alipi limitelor laterale dacă calcanul nu trece de 2,8 m; retragerea posterioară cel puțin înălțimea clădirii, minim 6 m. Accesul din str. Aurel Gurghianu sau din alee, câte un acces pietonal și unul carosabil pe parcelă; parcarea pe parcelă, după art. 9 din regulamentul P.U.G. pentru UTR Uli/c.",
+    "Lic_b și S_Is: retrageri laterale de minim 3 m și posterioare cel puțin înălțimea clădirii, minim 6 m; acces din str. Aurel Gurghianu. În Lic_b parcarea mai ales la subsol/demisol: un loc pe unitate locativă, două pentru servicii de proximitate; se recomandă pavimente permeabile pe parcelă.",
+    "Lic_c: retrageri laterale de H/2, dar minim 6 m, și posterioare de H/2, dar minim 9 m; accesele auto din str. Miko Imre, cele pietonale din str. Aurel Gurghianu și str. Miko Imre; cel puțin 75% din locurile de parcare la subsol/demisol, iar parcajele de la sol la minim 5 m de ferestrele camerelor de locuit.",
+    "Toate construcțiile se racordează la rețelele edilitare (apă, canalizare, electricitate, gaz). În S_Va și Ve parcarea e interzisă."
+  ],
+  "repere": {
+    "C392200_584100": [
+      584100.0,
+      392200.0
+    ]
+  }
+}
