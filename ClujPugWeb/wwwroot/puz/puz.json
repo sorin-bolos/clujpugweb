@@ -16820,6 +16820,207 @@
   ]
  },
  {
+  "id": "2025-147",
+  "localitate": "cluj",
+  "hcl": "147/2025",
+  "data": "2025-04-07",
+  "titlu": "P.U.Z. – de urbanizare, str. Măceșului",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-147-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/04/10/147.pdf",
+  "utr": [
+   {
+    "cod": "Liu*Măceșului",
+    "denumire": "Zonă de locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe individuale și semicolective (două unități locative pe parcelă), izolate; parcela minimă 400 mp (individuale), 580 mp (semicolective), 1500 mp (două locuințe individuale pe parcelă)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "3 niveluri supraterane ((S)+P+1+M/R, D+P+M/R); H cornișă 8 m, H max 12 m"
+   },
+   {
+    "cod": "S_Is",
+    "denumire": "Subzona instituțiilor și serviciilor publice și de interes public, în clădiri dedicate, în afara zonei centrale",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "4 niveluri supraterane ((1-2)S+P+2+R/M, S+D+P+1+R/M), max 18 m"
+   },
+   {
+    "cod": "S_Et",
+    "denumire": "Subzona de activități economice cu caracter terțiar în zone cu caracter rezidențial (comerț cu ADC de cel mult 1000 mp, birouri, servicii, cazare, sănătate, sport, educație)",
+    "pot_max": "50%",
+    "cut_max": "2,4",
+    "h_max": "4 niveluri supraterane ((1-2)S+P+2+R/M, S+D+P+1+R/M), max 18 m"
+   },
+   {
+    "cod": "S_Va",
+    "denumire": "Subzona verde – scuar, grădină, parc cu acces public nelimitat",
+    "pot_max": "5%",
+    "cut_max": "0,1",
+    "h_max": "parter, H max 4 m"
+   }
+  ],
+  "suprafata_m2": 56735,
+  "imagine": "puz/2025-147/plansa.webp",
+  "bounds": {
+   "west": 23.6038053,
+   "south": 46.7435133,
+   "east": 23.6091039,
+   "north": 46.7461585
+  },
+  "limita": [
+   [
+    23.6088493,
+    46.7452324
+   ],
+   [
+    23.6090022,
+    46.7450471
+   ],
+   [
+    23.6090415,
+    46.7450218
+   ],
+   [
+    23.6090495,
+    46.7448582
+   ],
+   [
+    23.6090102,
+    46.7448446
+   ],
+   [
+    23.6082665,
+    46.7448434
+   ],
+   [
+    23.6081898,
+    46.7443117
+   ],
+   [
+    23.6080842,
+    46.7443064
+   ],
+   [
+    23.6079739,
+    46.7435773
+   ],
+   [
+    23.60602,
+    46.743574
+   ],
+   [
+    23.6063313,
+    46.744398
+   ],
+   [
+    23.6061767,
+    46.7443809
+   ],
+   [
+    23.6038682,
+    46.7446756
+   ],
+   [
+    23.6039291,
+    46.7447938
+   ],
+   [
+    23.60399,
+    46.7449205
+   ],
+   [
+    23.6040137,
+    46.7451737
+   ],
+   [
+    23.6040376,
+    46.7453424
+   ],
+   [
+    23.6041036,
+    46.7454269
+   ],
+   [
+    23.6042454,
+    46.7455959
+   ],
+   [
+    23.6043872,
+    46.7457311
+   ],
+   [
+    23.6045145,
+    46.7458495
+   ],
+   [
+    23.6046613,
+    46.7459678
+   ],
+   [
+    23.6048327,
+    46.7460863
+   ],
+   [
+    23.6050052,
+    46.7459009
+   ],
+   [
+    23.6051282,
+    46.7458421
+   ],
+   [
+    23.6062946,
+    46.7457226
+   ],
+   [
+    23.6066925,
+    46.745676
+   ],
+   [
+    23.6065757,
+    46.7453721
+   ],
+   [
+    23.6067009,
+    46.745379
+   ],
+   [
+    23.6082724,
+    46.7452433
+   ],
+   [
+    23.6082847,
+    46.7452349
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 3,
+   "rms_m": 1.32,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-04-07"
+  },
+  "diferente_fata_de_plansa": [
+   "Legenda planșei U.03 (UTR-urile, indicatorii POT/CUT pe subzone) și bilanțul teritorial sunt ilizibile în copia din PDF, așa că indicatorii din textul hotărârii n-au putut fi comparați cu planșa.",
+   "Între textul hotărârii și Anexa 1 (regulamentul local de urbanism, p. 10, art. 14 la S_Va): regulamentul dă pentru S_Va CUT max 0,05 și înălțimea „parter”, textul hotărârii CUT max 0,1 și P, H max 4 m. POT max 5% e același."
+  ],
+  "conditii": [
+   "Condițiile vin din avizul Serviciului Siguranța Circulației nr. 502057/446/19.05.2023, preluat în Art. 1.",
+   "Terenul necesar lărgirii str. Măceșului și str. Paradisul Verde și cel pentru aleile propuse (A, B și C) se dezmembrează din parcele și se înscrie în CF ca „drum” înainte de autorizarea lucrărilor de infrastructură rutieră.",
+   "Înainte de autorizația pentru primul imobil se realizează, pe proiecte autorizate: lărgirea și reamenajarea str. Măceșului după planșa U.03, cu marcaje și indicatoare și, dacă e cazul, refacerea iluminatului public; terenul dezmembrat pentru lărgire trece gratuit în domeniul public (după planșa U.05).",
+   "Tot înainte de primul imobil: str. Paradisul Verde se echipează edilitar (rețele noi sau redimensionate, inclusiv canalizare pluvială), iar carosabilul se lărgește după planșa U.03 și se aduce la strat de uzură.",
+   "Tot înainte de primul imobil: aleile A, B și C, cu acces public nelimitat, se echipează edilitar (inclusiv pluvial), cu carosabil de 6 m asfaltat.",
+   "Înainte de recepția locuințelor din UTR Liu*Măceșului se fac trotuarele aleilor și ale str. Paradisul Verde, cu iluminat stradal, și se amenajează spațiul verde public S_Va, care trece gratuit în domeniul public (după planșa U.05).",
+   "Etapizare: în etapa I se fac investițiile din S_Is, S_Et și S_Va; în etapa a II-a, după anul 2026, locuințele din Liu*Măceșului.",
+   "Autorizații pentru locuințe înainte de 2026 se pot da numai dacă s-au făcut lucrări rutiere care cresc capacitatea de circulație din zonă sau după ce Consiliul local aprobă declanșarea exproprierii pentru lărgirea str. Fagului.",
+   "Recepția locuințelor se face numai după terminarea lărgirii str. Fagului.",
+   "Parcarea se face numai în interiorul parcelelor, după Anexa 2 a RLU aferent PUG, iar construcțiile se racordează la toate rețelele edilitare publice.",
+   "Toate investițiile propuse prin PUZ sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2025-105",
   "localitate": "cluj",
   "hcl": "105/2025",
