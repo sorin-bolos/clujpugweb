@@ -20002,6 +20002,325 @@
   ]
  },
  {
+  "id": "2024-186",
+  "localitate": "cluj",
+  "hcl": "186/2024",
+  "data": "2024-04-15",
+  "titlu": "P.U.Z. de urbanizare, str. Făgetului nr. 10",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-186-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/04/30/186.pdf",
+  "utr": [
+   {
+    "cod": "Liu*",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban (P.1, parțial, și P.3-P.6): locuințe individuale izolate, pe parcele de minim 350 mp, sau semicolective cu două unități locative, pe parcele de minim 450 mp; regim de construire deschis",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "8 m la cornișa superioară sau la aticul ultimului nivel neretras, 12 m la coamă sau la aticul nivelului retras; cel mult trei niveluri supraterane: D+P+M, D+P+R, (S)+P+E+R, (S)+P+E+M"
+   },
+   {
+    "cod": "S_Va¹",
+    "denumire": "Subzonă verde – scuaruri, grădini, parcuri cu acces public nelimitat (P.7): spații verzi, mobilier urban, amenajări pentru joacă, odihnă și sport, edicule, grupuri sanitare",
+    "pot_max": "nu e cazul",
+    "cut_max": "nu e cazul",
+    "h_max": "nu e cazul"
+   },
+   {
+    "cod": "Vpr",
+    "denumire": "Zonă verde de protecție față de infrastructura majoră, de protecție sanitară, plantații cu rol de stabilizare a versanților și de reconstrucție ecologică (P.2 și o parte din P.1): se mențin prevederile R.L.U. aferent P.U.G.",
+    "pot_max": "conform R.L.U. aferent P.U.G.",
+    "cut_max": "conform R.L.U. aferent P.U.G.",
+    "h_max": "conform R.L.U. aferent P.U.G."
+   }
+  ],
+  "suprafata_m2": 4756,
+  "imagine": "puz/2024-186/plansa.webp",
+  "bounds": {
+   "west": 23.588122,
+   "south": 46.7354068,
+   "east": 23.5892213,
+   "north": 46.7368105
+  },
+  "limita": [
+   [
+    23.5888081,
+    46.7367877
+   ],
+   [
+    23.5891247,
+    46.7366784
+   ],
+   [
+    23.589161,
+    46.7366649
+   ],
+   [
+    23.5890755,
+    46.7365619
+   ],
+   [
+    23.5890535,
+    46.736537
+   ],
+   [
+    23.5890315,
+    46.7365088
+   ],
+   [
+    23.5890095,
+    46.7364822
+   ],
+   [
+    23.5889875,
+    46.7364506
+   ],
+   [
+    23.5889654,
+    46.7364207
+   ],
+   [
+    23.5889458,
+    46.7363891
+   ],
+   [
+    23.5889262,
+    46.7363592
+   ],
+   [
+    23.5889067,
+    46.7363309
+   ],
+   [
+    23.5888847,
+    46.736301
+   ],
+   [
+    23.5888626,
+    46.7362678
+   ],
+   [
+    23.588843,
+    46.7362362
+   ],
+   [
+    23.588821,
+    46.7362046
+   ],
+   [
+    23.5888014,
+    46.736173
+   ],
+   [
+    23.5887842,
+    46.7361431
+   ],
+   [
+    23.588767,
+    46.7361082
+   ],
+   [
+    23.5887498,
+    46.7360799
+   ],
+   [
+    23.5887351,
+    46.7360533
+   ],
+   [
+    23.5887155,
+    46.7360184
+   ],
+   [
+    23.5886983,
+    46.7359835
+   ],
+   [
+    23.5886811,
+    46.7359536
+   ],
+   [
+    23.5886664,
+    46.7359236
+   ],
+   [
+    23.5886541,
+    46.735902
+   ],
+   [
+    23.5886345,
+    46.7358721
+   ],
+   [
+    23.5886125,
+    46.7358389
+   ],
+   [
+    23.5885904,
+    46.7358006
+   ],
+   [
+    23.5885732,
+    46.7357674
+   ],
+   [
+    23.5885585,
+    46.7357358
+   ],
+   [
+    23.5885413,
+    46.7357042
+   ],
+   [
+    23.5885265,
+    46.7356742
+   ],
+   [
+    23.5885118,
+    46.735646
+   ],
+   [
+    23.5884946,
+    46.735616
+   ],
+   [
+    23.5884775,
+    46.7355861
+   ],
+   [
+    23.5884579,
+    46.7355545
+   ],
+   [
+    23.5884407,
+    46.7355229
+   ],
+   [
+    23.5884235,
+    46.7354913
+   ],
+   [
+    23.5884063,
+    46.7354597
+   ],
+   [
+    23.5883891,
+    46.7354282
+   ],
+   [
+    23.5883867,
+    46.7354265
+   ],
+   [
+    23.5882295,
+    46.7354637
+   ],
+   [
+    23.588232,
+    46.7354803
+   ],
+   [
+    23.5882396,
+    46.7355303
+   ],
+   [
+    23.5882448,
+    46.7355835
+   ],
+   [
+    23.5882452,
+    46.7356335
+   ],
+   [
+    23.5882455,
+    46.7356835
+   ],
+   [
+    23.5882483,
+    46.7357318
+   ],
+   [
+    23.5882511,
+    46.7357834
+   ],
+   [
+    23.5882466,
+    46.7358334
+   ],
+   [
+    23.5882445,
+    46.7358834
+   ],
+   [
+    23.5882425,
+    46.7359334
+   ],
+   [
+    23.588238,
+    46.7359867
+   ],
+   [
+    23.5882262,
+    46.7360384
+   ],
+   [
+    23.5882169,
+    46.7360884
+   ],
+   [
+    23.5882075,
+    46.7361367
+   ],
+   [
+    23.5881958,
+    46.7361867
+   ],
+   [
+    23.588184,
+    46.7362351
+   ],
+   [
+    23.5881698,
+    46.7362851
+   ],
+   [
+    23.5881557,
+    46.7363434
+   ],
+   [
+    23.5885464,
+    46.7364287
+   ],
+   [
+    23.5886271,
+    46.7365418
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 2,
+   "rms_m": 0.0,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2024-186/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2029-04-15"
+  },
+  "diferente_fata_de_plansa": [
+   "Planșa dă doar „H maxim = 12,00 m” și regimul (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R; Art. 1 limitează și înălțimea la cornișa superioară sau la aticul ultimului nivel neretras, la 8 m, iar cei 12 m se măsoară la coamă sau la aticul nivelului retras.",
+   "Art. 1 trimite, pentru retragerea de 3 m față de aliniament, la planșa „A 04 – Reglementări urbanistice”; planșa anexată (Anexa 2) e U/P.U.Z./03 Plan reglementări urbanistice."
+  ],
+  "conditii": [
+   "Se reglementează 4.823 mp în proprietate privată (nr. cad. 350773, 334857 și 332536), între str. Eugen Ionesco și str. Făgetului: cinci parcele pentru locuințe (P.1, P.3-P.6, UTR Liu*), P.2 și o parte din P.1 rămân în UTR Vpr după P.U.G., iar P.7 devine spațiu verde cu acces public nelimitat (UTR S_Va¹).",
+   "Faza 1, locuințele de pe parcelele 1, 3, 4 și 5: înainte de autorizațiile de construire, terenul pentru regularizarea str. Făgetului (profil III C, 18 m) și a str. Eugen Ionesco (profil III B, 16 m), după planșa U/P.U.Z./05, se dezmembrează și se înscrie în CF ca „drum” (153,71 mp și 13,86 mp după R.L.U.); până la recepția locuințelor se aduce la aceeași îmbrăcăminte rutieră ca str. Făgetului.",
+   "Faza 2, spațiul verde S_Va¹ și locuința de pe parcela 6: înainte de recepția locuinței de pe P.6, terenul dezmembrat pentru cele două străzi se aduce la strat de uzură, iar spațiul verde cu acces public nelimitat se amenajează (plantații, mobilier urban) după un proiect de specialitate autorizat.",
+   "Pe spațiul verde pe sol natural se plantează cel puțin 25 de arbori cu circumferința de minim 35 cm, măsurată la 1 m de la colet.",
+   "Retrageri în UTR Liu*: 3 m față de aliniament (la parcelele de colț față de ambele aliniamente), garajele la minim 6 m de aliniament, ca să se poată parca un autoturism în față; minim 3 m față de limitele laterale (garajele se pot alipi limitelor laterale dacă calcanul nu depășește 2,8 m); față de limita posterioară cel puțin înălțimea clădirii, dar minim 6 m (garajele minim 6 m); între două clădiri de pe aceeași parcelă cel puțin înălțimea celei mai înalte, la cornișă sau atic, dar minim 6 m.",
+   "Accesul se face din str. Făgetului și din str. Eugen Ionesco; parcarea se face în interiorul parcelei: un loc pentru clădiri cu aria utilă sub 100 mp și două pentru cele de cel puțin 100 mp. Echiparea tehnico-edilitară e completă pe cele două străzi.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-185",
   "localitate": "cluj",
   "hcl": "185/2024",
