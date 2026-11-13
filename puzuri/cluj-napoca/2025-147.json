@@ -1,8 +1,7 @@
 {
   "id": "2025-147",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Planșa U.03 (p. 11) e o fotocopie redusă pe A4, fără inventar de coordonate și fără caroiaj Stereo 70, cu legenda și bilanțul ilizibile, iar metoda cu repere OpenStreetMap n-are niciun punct de control sau de verificare: clădirile existente apar pe planșă doar ca etichete (P+1, P+E, P+M) fără contur lizibil, iar străzile desenate (str. Măceșului și str. Paradisul Verde) nu dau intersecții în extrasul OSM (Paradisul Verde e drum de serviciu, ramificațiile poartă tot numele Măceșului); planșa se poate așeza doar aproximativ (±5-10 m) după axele celor două străzi, iar etichetele caselor de la sud și de la vest cad la 7-15 m de casele din OSM, deci o persoană trebuie să confirme poziția pe ortofoto.",
+  "verificare_umana": "2026-11-13: aprobat manual de proprietarul hărții, după ce l-a văzut pe hartă (publicat de probă pe branch-ul puz-verificare); așezată după străzile din OSM, iar casele desenate cad la 11-18 m de cele reale (punctul de verificare B1: 17,9 m).",
   "hcl": {
     "nr": 147,
     "an": 2025,
@@ -16,14 +15,14 @@
     "dpi": 300,
     "denumire": "U.03 – Reglementări urbanistice (PUZ de parcelare)",
     "scara": "abia lizibilă în cartuș (pare 1:1000); imaginea are ≈5,3 px/m la 300 ppi (≈1:2200 pe foaia A4, planul original e redus)",
-    "nota": "PDF-ul are 12 pagini A4 scanate la 300 ppi (3508×2480 px, JPEG): pp. 1-4 hotărârea, pp. 5-10 Anexa 1 – regulamentul local de urbanism (6 pagini), p. 11 Anexa 2 – planșa U.03 „Reglementări urbanistice”, p. 12 Anexa 3 – planșa U.05 „Circulația terenurilor”. Ambele planșe sunt fotocopii alb-negru (raster de puncte, fără nicio culoare în afara scrisului de mână albastru), reduse pe A4 și tipărite culcat: textul se citește de jos în sus, nordul e spre stânga foii (≈268° după potrivirea aproximativă pe str. Măceșului și str. Paradisul Verde). Se citesc titlul, ștampila „Anexa 2 la Hotărârea nr. 147/2025”, rândurile mari din cartuș („PUZ de Parcelare”, „REGLEMENTĂRI URBANISTICE”, Pl. nr. U.03) și forma desenului; legenda (simboluri, UTR, indicatorii pe subzone), bilanțul teritorial și tabelele de parcele (sus, x≈200-1050, y≈80-540) și profilele stradale (jos, y≈3050-3450) au cifre și litere înecate în raster, ilizibile chiar mărite și netezite, așa că legenda_px e gol. Pe planșă nu se văd cruci de caroiaj și nici inventar de coordonate. Zona reglementată (lotizarea hașurată) cuprinde: la vest de str. Măceșului cele două insule de loturi înconjurate de aleile A, B și C, loturile dinspre valea împădurită de la nord-vest și rândul de loturi de la sud; la est de str. Măceșului insula dintre str. Măceșului, ramura est-vest și ramura nord-sud a str. Paradisul Verde, o prelungire la est de ramura nord-sud (în nord) și partea de sud până la x≈1790, mărginită spre est de linia groasă de la y≈1125 (x 1575-1800). Inelul de stradă desenat la sud-vest (x≈1340-1700, y≈1990-2680) e în afara zonei și nu corespunde străzilor construite azi (în locul lui sunt case noi)."
+    "nota": "PDF-ul are 12 pagini A4 scanate la 300 ppi (3508×2480 px, JPEG): pp. 1-4 hotărârea, pp. 5-10 Anexa 1 – regulamentul local de urbanism (6 pagini), p. 11 Anexa 2 – planșa U.03 „Reglementări urbanistice”, p. 12 Anexa 3 – planșa U.05 „Circulația terenurilor”. Ambele planșe sunt fotocopii alb-negru (raster de puncte, fără nicio culoare în afara scrisului de mână albastru), reduse pe A4 și tipărite culcat: textul se citește de jos în sus, nordul e spre stânga foii (≈268° după potrivirea aproximativă pe str. Măceșului și str. Paradisul Verde). Se citesc titlul, ștampila „Anexa 2 la Hotărârea nr. 147/2025”, rândurile mari din cartuș („PUZ de Parcelare”, „REGLEMENTĂRI URBANISTICE”, Pl. nr. U.03) și forma desenului; legenda (simboluri, UTR, indicatorii pe subzone), bilanțul teritorial și tabelele de parcele (sus, x≈200-1050, y≈80-540) și profilele stradale (jos, y≈3050-3450) au cifre și litere înecate în raster, ilizibile chiar mărite și netezite, așa că legenda_px e gol. Pe planșă nu se văd cruci de caroiaj și nici inventar de coordonate. Zona reglementată (lotizarea hașurată) cuprinde: la vest de str. Măceșului cele două insule de loturi înconjurate de aleile A, B și C, loturile dinspre valea împădurită de la nord-vest și rândul de loturi de la sud; la est de str. Măceșului insula dintre str. Măceșului, ramura est-vest și ramura nord-sud a str. Paradisul Verde, o prelungire la est de ramura nord-sud (în nord) și partea de sud până la x≈1790, mărginită spre est de linia groasă de la y≈1125 (x 1575-1800). Inelul de stradă desenat la sud-vest (x≈1340-1700, y≈1990-2680) e în afara zonei și nu corespunde străzilor construite azi (în locul lui sunt case noi). Nume de proprietari: niciunul lizibil în zona publicată (scrisul de pe loturi e înecat în raster), așa că `decupaj.acopera_px` nu e folosit."
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "Nicio sursă de coordonate sigură. Planșa nu are inventar de coordonate și nici caroiaj Stereo 70. S-a încercat metoda cu repere OpenStreetMap (extrasul din 2026-11-08): (1) intersecții de străzi – în raza planșei osm-snap nu are niciuna, fiindcă str. Paradisul Verde e „service” în OSM, iar ramificațiile de pe ambele părți ale str. Măceșului se numesc tot „Strada Măceșului” (intersecțiile cu numele lor, Măceșului/Rákóczi Ferenc II la nord și Măceșului/Eta Boeriu la sud, cad în afara foii); (2) colțuri de clădiri – fondul topografic al planșei nu are contururi de clădiri lizibile: casele existente apar doar ca etichete („P+1” la nord-vest, x≈380-440, y≈1700-1950; „P+1”, „P+1E”, „S+P+1” la vest, x≈1300-1390, y≈1850-2650; „P+E”, „P+M”, „2” la sud, x≈1800-1860, y≈1430-1660), cu cel mult un contur punctat abia ghicit în jurul lui „P+E” (x 1783-1872, y 1623-1700). Cu ancora aproximativă din osm_ancora, casele OSM cad la 7-15 m spre sud de aceste etichete, deci nici potrivirea etichetelor cu casele nu e sigură. Ancora aproximativă (osm_ancora) vine din axele străzilor: intersecția str. Măceșului / str. Paradisul Verde (OSM, `geocode`: E 393669,0 N 583800,0) la (745, 1675) pe planșă; colțul str. Paradisul Verde (ortofoto: E ≈393786,6 N ≈583784) la ≈(798, 1045); 5,27 px/m; nordul la 268°. Cu ea, str. Măceșului și ambele ramuri ale str. Paradisul Verde din OSM cad peste străzile desenate cu câțiva metri abatere. De verificat de o persoană: poziția lotizării pe ortofoto, între str. Măceșului, str. Paradisul Verde și valea de la nord-vest (terenul liber de la ~46,7435-46,7460 N, 23,6038-23,6083 E).",
+    "sursa": "Nicio sursă de coordonate sigură. Planșa nu are inventar de coordonate și nici caroiaj Stereo 70. S-a încercat metoda cu repere OpenStreetMap (extrasul din 2026-11-08): (1) intersecții de străzi – în raza planșei osm-snap nu are niciuna, fiindcă str. Paradisul Verde e „service” în OSM, iar ramificațiile de pe ambele părți ale str. Măceșului se numesc tot „Strada Măceșului” (intersecțiile cu numele lor, Măceșului/Rákóczi Ferenc II la nord și Măceșului/Eta Boeriu la sud, cad în afara foii); (2) colțuri de clădiri – fondul topografic al planșei nu are contururi de clădiri lizibile: casele existente apar doar ca etichete („P+1” la nord-vest, x≈380-440, y≈1700-1950; „P+1”, „P+1E”, „S+P+1” la vest, x≈1300-1390, y≈1850-2650; „P+E”, „P+M”, „2” la sud, x≈1800-1860, y≈1430-1660), cu cel mult un contur punctat abia ghicit în jurul lui „P+E” (x 1783-1872, y 1623-1700). Cu ancora aproximativă din osm_ancora, casele OSM cad la 7-15 m spre sud de aceste etichete, deci nici potrivirea etichetelor cu casele nu e sigură. Ancora aproximativă (osm_ancora) vine din axele străzilor: intersecția str. Măceșului / str. Paradisul Verde (OSM, `geocode`: E 393669,0 N 583800,0) la (745, 1675) pe planșă; colțul str. Paradisul Verde (ortofoto: E ≈393786,6 N ≈583784) la ≈(798, 1045); 5,27 px/m; nordul la 268°. Cu ea, str. Măceșului și ambele ramuri ale str. Paradisul Verde din OSM cad peste străzile desenate cu câțiva metri abatere. De verificat de o persoană: poziția lotizării pe ortofoto, între str. Măceșului, str. Paradisul Verde și valea de la nord-vest (terenul liber de la ~46,7435-46,7460 N, 23,6038-23,6083 E). Plasare de verificat, cu efort maxim (2026-11-13, branch-ul puz-verificare; publicată cu `build --force` doar ca să fie văzută pe hartă, rețeta rămâne oprită): metoda OSM, similaritate pe trei repere de stradă din extrasul OSM din 2026-11-08, scrise de mână în `repere`/`gcp_px`/`repere_osm`, fiindcă `osm-snap` nu oferă intersecții cu drumuri de serviciu. J1 – intersecția str. Măceșului / str. Paradisul Verde (nodul OSM comun, E 393669,0 N 583800,0), pe planșă la încrucișarea axelor desenate (745, 1668); C1 – colțul str. Paradisul Verde, încrucișarea axelor celor două ramuri (E 393791,1 N 583783,7), pe planșă (831, 1014); J2 – gura aleii de serviciu de la ~40 m nord de J1 (în OSM tot „Strada Măceșului”, way 169155296) în str. Măceșului (E 393679,7 N 583838,7), pe planșă (554, 1618). Rezultat: 5,33 px/m, nordul la ≈269°, rms 1,32 m (J1 1,58 m, C1 0,47 m, J2 1,57 m). Teste independente: cu doar J1 și C1, J2 cade la 3,3 m; axele desenate ale str. Măceșului (~300 m pe planșă), ale ramurii est-vest și ale ramurii nord-sud a str. Paradisul Verde cad la 0,1-1,8 m de axele OSM; pe ortofoto Esri (adus în cadrul planșei cu aceeași potrivire) banda ramurii est-vest se suprapune cu liniile desenate la 1-2 m, iar linia groasă punctată de lângă aleea de la J2 cade pe marginea aleii reale. Punctul de verificare B1 (colțul de sud-est al casei existente din insula de la est de str. Măceșului, OSM way 444273437, pe planșă la (1515, 1313)) iese la 17,9 m și pică poarta de 5 m: casa desenată are aceeași lungime (~14,6 m) și orientare ca cea din OSM și de pe ortofoto, dar cade cu ~16-18 m mai la nord; la fel, casele de la sud (etichetele P+E, P+M și contururile punctate) cad cu ~11-15 m la nord de casele reale. Pe direcția str. Măceșului poziția e fixată de două drumuri perpendiculare pe ea (ramura est-vest a str. Paradisul Verde și aleea de la J2), care se potrivesc cu ortofoto, așa că planșa e așezată după străzi; fondul cu case pare luat dintr-o sursă decalată (de ex. planul cadastral). B1 rămâne în `verificare_px` ca dovadă a acestei nepotriviri; dacă o persoană confirmă așezarea după străzi, B1 se scoate (din `verificare_px`, `repere` și `repere_osm`) și se pune `verificare_umana`.",
     "suprafata_declarata_m2": 58000,
     "puncte": {},
-    "nota": "Suprafața vine din textul hotărârii („teren în suprafață de 5,8 ha”, rotunjit la 0,1 ha); bilanțul de pe planșă (S teren, existent și propus) e ilizibil."
+    "nota": "Suprafața vine din textul hotărârii („teren în suprafață de 5,8 ha”, rotunjit la 0,1 ha); bilanțul de pe planșă (S teren, existent și propus) e ilizibil. Limita trasată (`limita_px`, 31 de vârfuri, 2026-11-13) urmează marginile zonei hașurate: insula de la est de str. Măceșului cu prelungirea de la est de capătul nordic al ramurii nord-sud a str. Paradisul Verde, și zona de la vest de str. Măceșului până la rândul de loturi dinspre valea de la vest/nord-vest. Aria trasată: 56.735 mp față de 5,8 ha (−2,2%, sub toleranța de 3%; cu doar J1 și C1 ar ieși 56.217 mp, −3,1%). Incertitudini de trasare: latura de sud a insulei de la est (am luat linia de la x≈1800, unde se termină linia groasă de la y≈1125; loturile hașurate se opresc la x≈1762, o fâșie de ~7 m și ~1.000 mp); saltul de pe ramura nord-sud a str. Paradisul Verde la x≈1365 (la nord de el limita merge pe marginea de est a drumului, incluzându-l, la sud pe marginea de vest); str. Măceșului e inclusă doar între cele două zone (x 731-1322); latura dinspre vale urmează o linie abia vizibilă. Eroarea așteptată: ±3-5 m pe laturile de-a lungul străzilor, ±5 m pe celelalte; harta afișează ±3 m, minimul pe care îl scrie `build` pentru metoda OSM. Riscul principal, nerezolvat, e decalajul de 15-18 m dintre casele desenate și cele reale: dacă limitele de proprietate de pe laturile fără stradă (spre vale și spre casele de la sud) vin din aceeași sursă ca și casele, ele ar fi decalate la fel, iar dacă planșa ar trebui așezată după case, toată suprapunerea s-ar muta cu ~15 m spre sud, de-a lungul str. Măceșului."
   },
   "georef_metoda": "osm",
   "osm_ancora": {
@@ -32,8 +31,59 @@
     "px_per_m": 5.27,
     "nord": 268
   },
-  "gcp_px": {},
-  "verificare_px": {},
+  "gcp_px": {
+    "J1": [745, 1668],
+    "C1": [831, 1014],
+    "J2": [554, 1618]
+  },
+  "verificare_px": {
+    "B1": [1515, 1313]
+  },
+  "repere": {
+    "J1": [583800.0, 393669.03],
+    "C1": [583783.71, 393791.1],
+    "J2": [583838.72, 393679.65],
+    "B1": [583638.71, 393737.41]
+  },
+  "repere_osm": {
+    "J1": "intersecție str. Măceșului / str. Paradisul Verde (nodul comun al căilor OSM 169149938 și 169155293)",
+    "C1": "colțul str. Paradisul Verde: încrucișarea axelor celor două ramuri (segmentele OSM 169155293 J1-est și colț-sud)",
+    "J2": "intersecție str. Măceșului / aleea de serviciu „Strada Măceșului” spre est (nodul comun al căilor OSM 169149938 și 169155296)",
+    "B1": "colț de clădire (b444273437_1)"
+  },
+  "limita_px": [
+    [820, 765],
+    [930, 703],
+    [945, 687],
+    [1042, 684],
+    [1050, 700],
+    [1050, 1003],
+    [1365, 1035],
+    [1368, 1078],
+    [1800, 1124],
+    [1800, 1920],
+    [1312, 1792],
+    [1322, 1855],
+    [1145, 2795],
+    [1075, 2770],
+    [1000, 2745],
+    [850, 2735],
+    [750, 2725],
+    [700, 2698],
+    [600, 2640],
+    [520, 2582],
+    [450, 2530],
+    [380, 2470],
+    [310, 2400],
+    [420, 2330],
+    [455, 2280],
+    [527, 1805],
+    [555, 1643],
+    [735, 1691],
+    [731, 1640],
+    [813, 1000],
+    [818, 995]
+  ],
   "decupaj": {
     "buffer_m": 1.5,
     "exclude_px": []
