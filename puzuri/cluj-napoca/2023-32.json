@@ -1,8 +1,7 @@
 {
   "id": "2023-32",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Planșa A4 nu are coordonate; limita parcelei (linia roșie), trasată pe planșă și pusă pe hartă prin repere OpenStreetMap (4 intersecții de străzi, rms 1,41 m; verificare 0,48 și 1,61 m pe colțurile unei case), închide 992 mp: cu 9,2% peste cei 908 mp ai parcelei 322369 din Art. 1, din eticheta CF și din extrasul cadastral, și cu 5,6% sub cei 1050 mp din bilanț și din Regulament (poarta e 3%). Cotele laturilor de pe planșă (20,61 × 49,58 m, unghiuri aproape drepte) dau și ele ~985 mp, deci diferența e a desenului, nu a citirii. Poziția pare bună (pe terenul cu iarbă de la colțul str. Jan Hus cu str. Iris); un om ar trebui să afle conturul real al parcelei 322369 (de pildă din planul de amplasament al extrasului CF) sau să decidă care suprafață se compară cu linia desenată.",
+  "verificare_umana": "2026-11-13: aprobat manual de proprietarul hărții, după ce l-a văzut pe hartă (publicat de probă pe branch-ul puz-verificare); limita desenată dă 992 mp, cu 9,2% peste cei 908 mp din CF (cotele planșei dau și ele ~985 mp); așezată pe repere OSM.",
   "hcl": {
     "nr": 32,
     "an": 2023,

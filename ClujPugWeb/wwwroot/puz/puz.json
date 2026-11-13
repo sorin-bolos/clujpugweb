@@ -24701,6 +24701,96 @@
   ]
  },
  {
+  "id": "2023-32",
+  "localitate": "cluj",
+  "hcl": "32/2023",
+  "data": "2023-01-18",
+  "titlu": "P.U.Z. – Instituire subzonă de instituții și servicii publice sau de interes public în zonă cu caracter rezidențial, strada Iris nr. 3A",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-32-din-2023/",
+  "pdf": "https://files.primariaclujnapoca.ro/2023/01/30/HCL-32.pdf",
+  "utr": [
+   {
+    "cod": "S_Is*",
+    "denumire": "Subzona de instituții și servicii publice și de interes public constituite în clădiri dedicate, situate în afara zonei centrale: funcțiuni de cult și activități conexe; regim de construire deschis",
+    "pot_max": "60%",
+    "cut_max": "2,2",
+    "h_max": "18 m la cornișă"
+   }
+  ],
+  "suprafata_m2": 992,
+  "imagine": "puz/2023-32/plansa.webp",
+  "bounds": {
+   "west": 23.6034531,
+   "south": 46.7924204,
+   "east": 23.6040705,
+   "north": 46.7929218
+  },
+  "limita": [
+   [
+    23.6034823,
+    46.792786
+   ],
+   [
+    23.6036918,
+    46.7928978
+   ],
+   [
+    23.6040399,
+    46.7925267
+   ],
+   [
+    23.603875,
+    46.7924509
+   ],
+   [
+    23.603854,
+    46.7924457
+   ],
+   [
+    23.603833,
+    46.7924393
+   ],
+   [
+    23.6038119,
+    46.7924389
+   ],
+   [
+    23.6037958,
+    46.7924434
+   ],
+   [
+    23.6037794,
+    46.7924553
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 1.41,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2023-32/legenda.webp",
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2028-01-18"
+  },
+  "diferente_fata_de_plansa": [
+   "Suprafața: preambulul și Art. 1 privesc parcela cu nr. cad. 322369, de 908 mp (cât dau și eticheta „908 mp CF 322369” de pe planșă și extrasul cadastral lipit pe ea); bilanțul teritorial al planșei și Regulamentul (Anexa 1, cap. I.3) dau 1050 mp pentru zona studiată, toată S_Is propusă.",
+   "Planșa dă „retrageri față de limitele laterale: 4 m” (și Regulamentul: minim 4 m spre limitele laterale de proprietate); Art. 1 dă 4 m numai față de limita nordică (post trafo) și 10 m față de limita sudică (stație gaz). Planșa are și ea 4 m față de postul trafo și 10 m față de împrejmuirea stației de gaz.",
+   "Planșa dă regimul de înălțime (S)+P+4E+R; Art. 1 dă numai înălțimea maximă la cornișă, 18 m, aceeași ca pe planșă.",
+   "UTR-ul e „S_Is / PUZ” pe planșă și „S_Is*” în Art. 1. Planșa admite funcțiuni de cult, circulații pietonale și auto și dotări edilitare; Art. 1 dă „funcțiuni de cult și activități conexe”. Accesele (auto și pietonal din str. Jan Hus, pietonal din str. Iris) apar numai în text."
+  ],
+  "conditii": [
+   "Terenul reglementat e parcela cu nr. cad. 322369 (908 mp), proprietatea Municipiului Cluj-Napoca, în administrarea Consiliului local, dată în folosință pentru construirea unui lăcaș de cult (prin HCL 239/2016, după nota planșei).",
+   "Retrageri: față de aliniament min. 3 m; față de limita nordică (post trafo) min. 4 m; față de limita sudică (stație gaz) min. 10 m; față de limita posterioară 2 m.",
+   "Acces auto și pietonal din str. Jan Hus și acces pietonal din str. Iris; parcarea se face în interiorul parcelei, cu necesarul de locuri după Anexa 2 a Regulamentului P.U.G.; echipare tehnico-edilitară completă.",
+   "Lărgirea trotuarului de pe frontul la str. Jan Hus se face înainte de emiterea autorizației de construire (planșa marchează fâșia „teren dezmembrat pentru extindere trotuar”).",
+   "La faza D.T.A.C., documentația se avizează în Comisia de Estetică Urbană.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiară."
+  ]
+ },
+ {
   "id": "2023-31",
   "localitate": "cluj",
   "hcl": "31/2023",
