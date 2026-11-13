@@ -1,8 +1,7 @@
 {
   "id": "2024-187",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Planșa U.03 n-are inventar de coordonate, iar limita zonei, trasată pe linia gri a zonei reglementate și pusă pe hartă prin caroiajul Stereo 70 (cruci etichetate, rms 0,18 m, verificare 0,12 și 0,22 m), închide 4.065 mp, cu 5,1% sub cei 4.282 mp din bilanț și din eticheta parcelei (poarta e 3%). Cotele de 9 m și 3 m de pe planșă confirmă și scara, și linia trasată, iar diferența s-ar acoperi doar prin citiri nesusținute de planșă: fâșia de ~300 mp până la limita UTR Ve, pe latura sud-vestică, sau tot atât până la limita UTR a străzii, pe front.",
+  "verificare_umana": "2026-11-13: aprobat manual de proprietarul hărții, după ce l-a văzut pe hartă (publicat de probă pe branch-ul puz-verificare); limita trasată dă 4.065 mp, cu 5,1% sub cei 4.282 mp declarați.",
   "hcl": {
     "nr": 187,
     "an": 2024,
