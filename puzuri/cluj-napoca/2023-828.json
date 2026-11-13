@@ -1,8 +1,7 @@
 {
   "id": "2023-828",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Hotărârea aprobă numai etapa 1 (nr. cad. 263693, 7.087 mp), a cărei limită (bulinele albastre) planșa U03 o desenează fără coordonate; trasată pe planșă și pusă pe hartă prin vârfurile inventarului și crucile caroiajului, ea închide 7.882 mp, cu 11,2% peste cei 7.087 mp din legendă, bilanț și Art. 1 (poarta e 3%), iar inventarul planșei (S=20.011,82 mp) e limita întregii zone, cu etapa 2 neaprobată și străzile.",
+  "verificare_umana": "2026-11-13: aprobat manual de proprietarul hărții, după ce l-a văzut pe hartă (publicat de probă pe branch-ul puz-verificare); limita etapei 1, trasată, dă 7.882 mp, cu 11,2% peste cei 7.087 mp declarați.",
   "hcl": {
     "nr": 828,
     "an": 2023,
