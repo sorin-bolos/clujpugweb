@@ -19342,6 +19342,73 @@
   ]
  },
  {
+  "id": "2024-557",
+  "localitate": "cluj",
+  "hcl": "557/2024",
+  "data": "2024-07-22",
+  "titlu": "P.U.Z. de urbanizare – Construire imobil locuință semicolectivă, str. Regina Maria nr. 11",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-557-din-2024/",
+  "pdf": "https://files.primariaclujnapoca.ro/2024/08/01/HCL-557.pdf",
+  "utr": [
+   {
+    "cod": "Liu",
+    "denumire": "Locuințe cu regim redus de înălțime dispuse pe un parcelar de tip urban: locuințe semicolective (familiale), cu două unități locative pe parcelă, și anexele lor; regim de construire izolat; retrageri: 5 m de la aliniament, cel puțin 3 m de la limitele laterale, cel puțin 21 m de la limita posterioară",
+    "pot_max": "35%",
+    "cut_max": "0,9 ADC/mp",
+    "h_max": "trei niveluri supraterane ((S)+P+1+M, (S)+P+1+R, D+P+R); max. 8 m la cornișa superioară sau la aticul ultimului nivel, 12 m la coamă"
+   }
+  ],
+  "suprafata_m2": 740,
+  "imagine": "puz/2024-557/plansa.webp",
+  "bounds": {
+   "west": 23.6282328,
+   "south": 46.7528812,
+   "east": 23.6288999,
+   "north": 46.7533077
+  },
+  "limita": [
+   [
+    23.6283795,
+    46.7532824
+   ],
+   [
+    23.6288688,
+    46.7530242
+   ],
+   [
+    23.6287393,
+    46.7529066
+   ],
+   [
+    23.6282629,
+    46.7531727
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 4,
+   "rms_m": 0.96,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "legenda": "puz/2024-557/legenda.webp",
+  "valabilitate": {
+   "ani": 3,
+   "pana_la": "2027-07-22"
+  },
+  "diferente_fata_de_plansa": [
+   "Legenda planșei admite regimurile (S)+P+1+M, (S)+P+1+R, D+P+M și D+P+R; Art. 1 le numește doar pe (S)+P+1+M, (S)+P+1+R și D+P+R (fără D+P+M).",
+   "Secțiunile planșei desenează clădirea propusă P+1E+Er cu cornișa etajului 1 la +7,50 m și aticul etajului retras la +9,70 m; Art. 1 limitează înălțimea la cornișa superioară sau la aticul ultimului nivel la 8 m (12 m la coamă)."
+  ],
+  "conditii": [
+   "Suprafața dezmembrată pentru lărgirea str. Regina Maria (CF nr. 342969, 58 mp după planșă) se aduce la strat de uzură (asfalt) înainte de recepția construcției.",
+   "Pe parcelă se construiește o locuință semicolectivă cu cel mult două unități locative; accesul se face direct din str. Regina Maria, cu cel mult două accese auto și două accese pietonale.",
+   "Parcarea se face în interiorul parcelei: patru locuri, câte două pentru fiecare unitate locativă.",
+   "Toate utilitățile se asigură prin racordare la rețelele edilitare publice.",
+   "Toate investițiile propuse prin documentație sunt suportate de beneficiari."
+  ]
+ },
+ {
   "id": "2024-514",
   "localitate": "cluj",
   "hcl": "514/2024",

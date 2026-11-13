@@ -1,8 +1,7 @@
 {
   "id": "2024-557",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Planșa n-are inventar de coordonate și nici caroiaj Stereo 70 (doar o etichetă de Est, „395350”, pe rama de jos, care contrazice și OSM, și imaginea satelitară), iar clădirile OSM din jur (way 818680306, 189640832, 189640814) stau la 8-10 m spre nord-vest de acoperișurile din imaginea Esri, care se potrivește cu PUZ-ul 2026-547 georeferențiat din inventar la 150 m distanță: potrivirea pe OSM trece porțile (rms 0,96 m, max 2,85 m, aria +1,9%), dar pune limita cu ~5-8 m în str. Regina Maria și peste curtea vecinului de la nr. 11A/11B.",
+  "verificare_umana": "2026-11-13: aprobat manual de proprietarul hărții, după ce l-a văzut pe hartă (publicat de probă pe branch-ul puz-verificare); așezată pe repere OSM, care stau la 8-10 m de acoperișurile din imaginea satelitară.",
   "hcl": {
     "nr": 557,
     "an": 2024,
