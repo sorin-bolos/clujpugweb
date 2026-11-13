@@ -1500,7 +1500,10 @@ def cmd_build(r, args):
     ring = ring_en(r, pe, pn)
     ok_area, area = check_area(r, ring)
     if not (ok_area and ok_fit) and not args.force:
-        sys.exit("quality gate failed - fix the recipe (or --force to build anyway)")
+        if not r.get("verificare_umana"):
+            sys.exit("quality gate failed - fix the recipe (or --force to build anyway)")
+        # A person looked at the result on the map and accepted it as it is.
+        print("quality gate failed, published on a person's approval: %s" % r["verificare_umana"])
     overlay, bounds, boundary, merc = warp(r, pe, pn, ring)
     legend = legend_image(r)
     print("overlay %dx%d px, bounds %s" % (overlay.width, overlay.height, bounds))
@@ -1745,7 +1748,10 @@ def cmd_audit(r, args):
         checks.append("porți: potrivire %s (rms %.2f m), arie %s" % (
             "OK" if ok_fit else "EȘUAT", rms, "OK" if ok_area else "EȘUAT"))
         if not (ok_fit and ok_area):
-            problems.append("porțile de calitate nu trec")
+            if r.get("verificare_umana"):
+                notes.append("porțile nu trec; publicat cu aprobarea unui om: %s" % r["verificare_umana"])
+            else:
+                problems.append("porțile de calitate nu trec")
         if not independent_checks(r):
             if not fit_places_boundary(r):
                 notes.append("niciun punct de verificare: limita vine din inventar, dar așezarea planșei nu e verificată")

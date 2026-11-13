@@ -41,7 +41,10 @@ it in the recipe as `verificare_umana` (a date and what was checked), and the ga
 lets it through, showing that line. Agents never set it, and `audit` flags a commit
 that adds it.
 
-`build` refuses to publish if either check fails.
+`build` refuses to publish if either check fails, unless `verificare_umana` is set:
+the owner may look at a PUZ published with `build --force` (on a review branch such
+as `puz-verificare`) and accept it as it is, area or fit outside the gates included.
+`verificare_umana` then says when, and what was off (HCL 513/2024, 147/2025).
 
 ## Steps for one PUZ
 
@@ -343,7 +346,8 @@ The batch uses these commands:
     nothing published);
   - the quality gates pass, and `puz.json` is up to date. A traced boundary needs
     a check point or a person's `verificare_umana`, and the commit must not be the
-    one adding `verificare_umana`;
+    one adding `verificare_umana`. Gates that fail under a `verificare_umana` are
+    only noted;
   - the commit touches only that PUZ's files (and a base or amendment folded in);
   - the tree is clean;
   - no owner is named. The names after "beneficiar(i):" in the decision's text are
