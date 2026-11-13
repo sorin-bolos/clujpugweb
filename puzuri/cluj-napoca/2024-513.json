@@ -16,34 +16,13 @@
     "dpi": 200,
     "denumire": "A03 Reglementări urbanistice",
     "scara": "1:1000",
-    "nota": "Planșa de reglementări, Anexa 2 la hotărâre: HCL-513.pdf, p. 18, A3 color la 200 ppi, ștampilată „HCL nr. 513 din 25.06.2024” și „Vizat spre neschimbare – Anexă la Avizul Arhitectului șef nr. 83 din 24.05.2023”. Cartușul: proiect 03/2022, apr. 2022, planșa A03 „Reglementări urbanistice”, scara 1:1000, „PUZ modificator pentru PUZ aprobat cu HCL nr. 406/2020”, str. Sarmisegetuza nr. 11-13; desenul e la ~7,9 px/m, rotit cu ~3,7° față de caroiajul Stereo 70. Aceeași planșă e și la p. 6, ca fotocopie alb-negru redusă pe A4, pe care cifrele inventarelor nu se citesc; p. 19 e planșa A.06 Mobilare urbanistică (Anexa 3). Restul PDF-ului: hotărârea (pp. 1-2), regulamentul (pp. 3-5), avizele (pp. 8-14), HCL 406/2020 (pp. 15-16), HCL 821/2020 (p. 17), informarea publicului (pp. 20-23). `legenda_px` cuprinde caseta „Indici urbanistici” și cheia simbolurilor; au rămas afară bilanțul teritorial, inventarele, secțiunea N-S, cartușul și ștampilele. Varianta de verificat (2026-11-12, branch puz-verificare): legenda e decupajul din rețetă, neschimbat. Pe porțiunea de planșă care ajunge pe hartă (parcela 340137 cu 1,5 m în jur) nu e scris niciun nume de proprietar, doar „cad 340137”, „UTR S_Et*”, cote și etichetele vârfurilor: 0 nume acoperite, fără `acopera_px`. Cartușul și inscripțiile de la sud-est de parcelă, spre lac, rămân în afara decupajului."
+    "nota": "Planșa de reglementări, Anexa 2 la hotărâre: HCL-513.pdf, p. 18, A3 color la 200 ppi, ștampilată „HCL nr. 513 din 25.06.2024” și „Vizat spre neschimbare – Anexă la Avizul Arhitectului șef nr. 83 din 24.05.2023”. Cartușul: proiect 03/2022, apr. 2022, planșa A03 „Reglementări urbanistice”, scara 1:1000, „PUZ modificator pentru PUZ aprobat cu HCL nr. 406/2020”, str. Sarmisegetuza nr. 11-13; desenul e la ~7,9 px/m, rotit cu ~3,7° față de caroiajul Stereo 70. Aceeași planșă e și la p. 6, ca fotocopie alb-negru redusă pe A4, pe care cifrele inventarelor nu se citesc; p. 19 e planșa A.06 Mobilare urbanistică (Anexa 3). Restul PDF-ului: hotărârea (pp. 1-2), regulamentul (pp. 3-5), avizele (pp. 8-14), HCL 406/2020 (pp. 15-16), HCL 821/2020 (p. 17), informarea publicului (pp. 20-23). `legenda_px` cuprinde caseta „Indici urbanistici” și cheia simbolurilor; au rămas afară bilanțul teritorial, inventarele, secțiunea N-S, cartușul și ștampilele. Varianta de verificat (2026-11-13, branch puz-verificare): legenda e decupajul din rețetă, neschimbat. Pe hartă ajung cele două parcele și aleea cu 1,5 m în jur, fără fâșia străzii din jurul punții dintre ele (`decupaj.exclude_px`). Pe porțiunea asta de planșă nu e scris niciun nume de proprietar, doar numere cadastrale („cad 340137”, „cad 311875”), numere poștale („nr.12”, „nr.11-13”), „UTR S_Et*”, cote și etichetele vârfurilor: 0 nume acoperite, fără `acopera_px`. Cartușul și inscripțiile de la sud de parcelă, spre lac, rămân în afara decupajului."
   },
   "coordonate": {
     "crs": "EPSG:3844",
-    "sursa": "Trei inventare pe planșa A03, Stereo 70, fără lungimi de laturi: „Puncte pe contur 340137” (21, 22, 23, 10-18, S = 1231 mp; capetele „X(m)”/„Y(m)” sunt inversate, prima coloană are Estul), „Puncte pe contur 311875” (aleea de acces: 24, 25, 23, 21, S = 296 mp; nu face parte din teritoriul aprobat) și „Puncte pe contur 297494 – Inventar de coordonate” (Nord(X)/Est(Y), 1-6, S = 201 mp).",
+    "sursa": "Trei inventare pe planșa A03, Stereo 70, fără lungimi de laturi: „Puncte pe contur 340137” (21, 22, 23, 10-18, S = 1231 mp; capetele „X(m)”/„Y(m)” sunt inversate, prima coloană are Estul), „Puncte pe contur 311875” (aleea de acces: 24, 25, 23, 21, S = 296 mp) și „Puncte pe contur 297494 – Inventar de coordonate” (Nord(X)/Est(Y), 1-6, S = 201 mp). Limita publicată e linia pe care legenda planșei o numește „Limita de proprietate” (banda roz; planșa nu desenează o limită de P.U.Z.), iar inventarele n-o descriu peste tot: latura sudică a lui 340137 și vârfurile 11 și 24 sunt desenate altfel (vezi nota). De aceea punctele inventarelor sunt la `repere`, ca puncte de control și de verificare, iar limita e `limita_px`, trasată pe planșă: mijlocul benzii roz, măsurat pe profile perpendiculare la fiecare 1-2 px de-a lungul fiecărei laturi (12-241 de profile pe latură, abatere rms 0,1-0,9 px, 1,35 px pe latura sudică), o dreaptă potrivită pe fiecare latură și vârfurile la intersecția laturilor vecine. Vârfurile trasate sunt notate în notă cu numele punctului de inventar cel mai apropiat, cu apostrof (24', 6' …).",
     "suprafata_declarata_m2": 1432,
-    "puncte": {
-      "1": [587141.301, 394981.624],
-      "2": [587155.24, 394978.651],
-      "3": [587158.201, 394991.742],
-      "4": [587158.249, 394991.953],
-      "5": [587142.624, 394994.175],
-      "6": [587140.579, 394981.77],
-      "10": [587064.74, 395001.03],
-      "11": [587063.41, 394999.23],
-      "12": [587025.66, 395005.33],
-      "13": [587023.07, 395000.49],
-      "14": [587020.59, 394989.91],
-      "15": [587016.81, 394971.81],
-      "16": [587036.36, 394967.55],
-      "17": [587045.53, 394965.57],
-      "18": [587061.97, 394995.45],
-      "21": [587080.06, 394992.06],
-      "22": [587080.6, 394995.0],
-      "23": [587081.14, 394997.95],
-      "24": [587129.66, 394992.92],
-      "25": [587129.73, 394988.62]
-    },
+    "puncte": {},
     "contururi": {
       "297494": [
         "1",
@@ -53,7 +32,7 @@
         "5",
         "6"
       ],
-      "340137 (după inventar: conturul vechii parcele 330506, vezi nota)": [
+      "340137 (inventarul: conturul vechii parcele 330506, cu fâșia cedată; vezi nota)": [
         "21",
         "22",
         "23",
@@ -67,30 +46,53 @@
         "17",
         "18"
       ],
-      "311875 (aleea, în afara teritoriului aprobat)": [
+      "311875 (aleea, în ordinea tabelului; 24 tipărit cu Estul 394992,92, desenat la ~394982,9, vezi nota)": [
         "24",
         "25",
         "23",
-        "22",
         "21"
       ]
     },
-    "ordine": [
-      "21",
-      "22",
-      "23",
-      "10",
-      "11",
-      "12",
-      "13",
-      "14",
-      "15",
-      "16",
-      "17",
-      "18"
-    ],
-    "nota": "Teritoriul aprobat (Art. 1: 1.432 mp = 1231 + 201, nr. cad. 340137 și 297494) sunt două inele disjuncte: 297494 pe frontul nordic al str. Sarmisegetuza (nr. 12, pe planșă la y 245-385 px), 340137 în spatele frontului sudic (nr. 11-13), legată de stradă prin aleea 311875; între capătul aleii (24-25, N 587129,7) și latura sudică a lui 297494 (6-5, N 587140,6-587142,6) e strada, ~11 m. Transcrierile încercării din 2026-11-11 au fost recitite cifră cu cifră (`grid --scale 4`) și sunt aceleași; cifre nesigure la 200 ppi: Nordul lui 15 (…16,81 / …18,81) și al lui 17 (…45,53 / …49,53). Verificări: 297494 iese 201,3 mp (S = 201), cu laturile 4-5 = 15,78 m și 5-6 = 12,57 m ca cotele planșei. 340137 iese 1339,3 mp față de S = 1231, dar +0,6% față de 1.331 mp, parcela nr. cad. 330506 aprobată prin HCL 406/2020, din care ~100 mp de pe malul lacului au fost dezmembrați și trecuți în domeniul public (nr. cad. 340138, HCL 821/2020). O potrivire afină numai pe puncte departe de latura sudică (2 [1398, 255], 3 [1510, 245], 5 [1520, 378], 6 [1411, 384], 17 [1294, 1120], 21 [1497, 857], 23 [1547, 852]; reziduuri ≤ 1,3 m, picking grosier, nefolosite ca puncte de control) arată că laturile de nord, vest și est ale inventarului urmează linia roșie a planșei, iar punctele sudice 15-14-13-12 cad pe marginea exterioară a fâșiei cedate (~2-3,8 m lățime, la y ~1290-1355 px), nu pe linia roșie din interiorul ei (de la (1340, 1340) la (1590, 1270) px), care e limita sudică actuală și față de care e cotată retragerea de 9,10 m (de la linia albastră a retragerii, y ~1202 px, la y ~1274 px; continuată cu cota „3,8” până la marginea exterioară). Linia retragerii n-a mutat-o nimeni: 9,1 m plus ~2,9 m de fâșie cedată fac cei 12 m ceruți în 2020 față de vechea limită sudică. Deci inventarul „340137” e de fapt conturul lui 330506, iar latura sudică actuală a lui 340137 n-are coordonate pe planșă. Etichetele vârfurilor de pe planșă nu urmează numerotarea tabelului (de pildă „16” la colțul de NV, unde tabelul are 17, „20” la colțul gâtului, unde are 18). Aleea 311875 iese 252,3 mp față de 296: punctul 24 cade la ~4 m est de fâșia desenată, care are cota 6,00 m la capătul dinspre stradă (tabelul dă 4,30 m între 24 și 25); cu Estul lui 24 = 394982,92 ar ieși 289,8 mp, deci nici așa; aleea nu face parte din teritoriul aprobat. Cine reia: are nevoie de unelte care știu limite din mai multe inele și, pentru 340137, de latura sudică trasată pe planșă (linia roșie interioară), cu punct de verificare. Varianta de verificat (2026-11-12, branch puz-verificare, publicată cu `build --force` deși rețeta rămâne „oprit”): pe hartă e un singur inel, parcela 340137 după inventarul planșei (`ordine`: 21, 22, 23, 10-18), adică conturul vechii parcele 330506, cu tot cu fâșia cedată; 297494 (201 mp, nr. 12) și aleea 311875 nu sunt desenate, iar planșa e decupată numai în jurul lui 340137 (1,5 m). Am ales 340137 pentru că e parcela mare (1231 din 1432 mp), cea pe care stă clădirea propusă, și pentru că inventarul ei sunt coordonatele scrise pe planșă; un singur inel care să cuprindă ambele parcele ar trece peste stradă și peste alee, care nu fac parte din teritoriul aprobat. Plasarea: potrivire afină pe colțuri din inventar ale ambelor parcele, citite pe mijlocul liniei roșii „Limita de proprietate” (centrul benzii roșii măsurat pe profile perpendiculare pe fiecare latură, apoi laturile intersectate): control 2, 5, 6 (297494) și 17, 18, 23, 10 (340137); verificare 4 (297494) și 21 (340137). Reziduuri: rms 0,16 m, maxim 0,24 m (la 4), limita 1 m; 7,7-7,8 px/m, rotație 1,5° (forfecare ~1°), deci nu ~3,7° cât spune nota planșei. Potrivirea numai pe cinci colțuri ale lui 340137 (17, 18, 21, 23, 10) pune colțurile lui 297494 la 0,5-0,6 m de cele desenate: poziția reciprocă a celor două parcele din inventar se potrivește cu planșa. Scos din potrivire, 17 cade la 0,56 m de colțul desenat, deci Nordul lui e …45,53 (cu …49,53 ar fi ~4 m). Nefolosite: 1 și 3 (pe laturi, la 0,7 și 0,2 m de colțurile 6 și 4), 16 (pe latura vestică, coliniar cu 15 și 17), 22 și 24-25 (aleea), 12-15 (pe marginea exterioară a fâșiei cedate, ștearsă pe planșă) și 11 (vezi mai jos). Aria inelului: 1339,3 mp, față de 1432 mp declarați pentru teritoriu (-6,5 %; poarta de arie pică, de aceea `--force`), 1231 mp pentru 340137 (+8,8 %) și 1331 mp pentru vechea parcelă 330506 (+0,6 %). Verificarea interpretării (nepublicată): linia roșie interioară, măsurată pe 118 profile (dreaptă, abatere tipică 0,24 m) și dusă în Stereo 70 cu aceeași potrivire, taie latura vestică 16-15 la E 394971,64 N 587017,58 (0,79 m de 15) și latura estică 11-12 la E 395004,89 N 587028,41 (2,79 m de 12); cu ea ca latură sudică, 340137 ar avea 1253 mp (+1,8 % față de 1231), iar fâșia 86 mp, lată de 0,8 m la 15, 2,8 m la 14, 3,7 m la 13 (unde planșa scrie cota „3,8”) și 2,75 m la 12. Un inel amestecat (laturi din inventar plus o latură trasată) puz.py nu-l știe și ar fi cerut puncte derivate scrise printre cele din inventar, așa că n-am publicat-o. Nesigur: (1) latura sudică publicată e cea veche, cu 0,8-3,7 m mai la sud decât limita actuală, adică ~86-100 mp de domeniu public în plus; (2) vârful 11, colțul interior al cotului 10-11 de pe latura estică, e desenat la 1,1 m vest de coordonatele lui; a șasea cifră a Estului (394999,23) poate fi și 8: cu 394998,23 ar cădea la 0,1 m de desen, latura 10-11 ar avea 3,1 m în loc de 2,24 m, iar aria 1319,8 mp (-0,8 % față de 1331); la 200 ppi cifra nu se poate hotărî, așa că a rămas citirea anterioară; (3) Nordul lui 15 (…16,81) nu e verificat de niciun punct citit pe planșă: așa, 15 cade la 0,8 m sud de capătul liniei roșii interioare; cu …18,81 ar cădea la 1,2 m nord de ea, în parcela actuală, iar aria ar fi 1317 mp (-1,05 % față de 1331), deci …16,81 rămâne mai probabil; (4) 297494 lipsește de pe hartă. Imaginea satelitară: inelul stă între panta împădurită și aleea de pe malul Lacului Gheorgheni; pe o verificare mai largă, cu toată planșa, str. Sarmisegetuza, blocurile P+6 și P+7 de la vest și casele de pe frontul nordic cad pe cele reale la câțiva metri, iar inelul lui 297494 cade pe lotul nr. 12."
+    "nota": "Teritoriul aprobat (Art. 1: 1.432 mp = 1231 + 201, nr. cad. 340137 și 297494) sunt două parcele despărțite de str. Sarmisegetuza: 297494 pe frontul nordic (nr. 12), 340137 în spatele frontului sudic (nr. 11-13), legată de stradă prin aleea 311875. Varianta de verificat din 2026-11-13 (branch puz-verificare, publicată cu `build --force` deși rețeta rămâne „oprit”) urmează decizia proprietarului site-ului: limita e linia „Limita de proprietate” a planșei, pe toate laturile, inclusiv pe ambele laturi ale aleii până la str. Sarmisegetuza, iar cele două parcele sunt un singur contur, ca la HCL 196/2025. Inventarele (la `repere`, cum sunt tipărite) au fost recitite cifră cu cifră în 2026-11-11 și 2026-11-12; din ele 297494 iese 201,3 mp (S = 201), cu laturile 4-5 = 15,78 m și 5-6 = 12,57 m, cât cotele planșei. Etichetele vârfurilor de pe planșă nu urmează numerotarea tabelelor (de pildă „16” la colțul de NV, unde tabelul are 17, „20” la colțul gâtului, unde are 18). Conturul (`limita_px`, 14 vârfuri, toate în sensul acelor de ceasornic): aleea și 340137 împreună, de la colțul de vest al aleii la stradă, 24', 25', 10', 11', 12', 15', 17', 18' și înapoi la 24'; de acolo puntea peste stradă la colțul de sud-vest al lui 297494, 6', ocolul lui 297494 în același sens, 6', 2', 4', 5', 6', și înapoi pe punte la 24'. Puntea are lățime zero și e parcursă dus-întors, deci nu adaugă arie; are 11,1 m și e aproape perpendiculară pe stradă. E perechea cea mai scurtă dintre capătul aleii (24-25) și latura sudică a lui 297494 (5-6): 25'-5' ar avea 14,4 m. Fâșia de planșă din jurul punții (strada) e scoasă cu `decupaj.exclude_px` [1400, 395, 1450, 457]. Linia de demarcație 21-22-23 dintre 340137 și alee (există pe planșă, dar nu e limită de proprietate a teritoriului) nu mai e latură: laturile aleii continuă drept în cele ale lui 340137 (18-21-24 și 10-23-25 sunt coliniare și în inventar). Tot coliniare sau aproape și deci nefolosite ca vârfuri: 1 și 3 (pe laturile lui 297494, la 0,7 m de 6 și la 0,2 m de 4) și 16 (pe latura vestică). Unde linia desenată se potrivește cu inventarul: laturile lui 297494 la cel mult 0,2 m de cele din inventar, latura de est a aleii și laturile 23-10, 16-17, 17-18 și 18-21 ale lui 340137 la cel mult 0,06 m, latura de vest a aleii la 0,26 m spre vest, constant; vârfurile trasate cad la 0,06 m (2'), 0,07 m (17'), 0,10 m (25'), 0,11 m (6'), 0,19 m (18'), 0,26 m (4', între 3 și 4), 0,34 m (10') și 0,35 m (5') de punctele inventarului. Unde linia desenată diferă de inventar, s-a urmat linia: (a) latura sudică a lui 340137 e linia roșie interioară, dreaptă (105 profile), limita de azi după ce fâșia de pe malul lacului a fost dată domeniului public (nr. cad. 340138, HCL 821/2020); ea taie latura vestică în 15' (E 394971,54, N 587017,74), la 0,97 m nord de 15, și latura estică în 12' (E 395004,99, N 587028,30), la 2,66 m nord de 12. Punctele 12-13-14-15 ale inventarului „340137” sunt pe marginea exterioară a fâșiei cedate, adică pe conturul vechii parcele 330506 (1.331 mp, HCL 406/2020); pe planșă marginea aceea nu are linie roz. Retragerea minimă de 9,10 m e cotată de la linia albastră a retragerii până la linia interioară, iar cota „3,8” o continuă până la marginea exterioară: 9,1 m plus fâșia fac cei 12 m ceruți în 2020 față de vechea limită. Porțiunea de jos a laturii vestice (~110 px) e sub linia mov a limitei de UTR, așa că latura vestică e potrivită pe partea ei de sus și prelungită până la linia sudică. Încercarea din 2026-11-12 a măsurat independent aceeași linie și a găsit capetele la 0,79 m de 15 și 2,79 m de 12, adică la 0,2 m de cele de acum. (b) Vârful 11, colțul interior al cotului 10-11 de pe latura estică, e desenat la E 394998,25, N 587063,02, la 1,05 m vest de coordonatele tipărite (E 394999,23); latura estică desenată (97 de profile) merge de acolo până la 12'. Se potrivește cu o a șasea cifră 8 în loc de 9 (394998,23, la 0,39 m), pe care scanarea la 200 ppi n-o poate hotărî. (c) Vârful 24, colțul de vest al aleii la stradă, are tipărit Estul 394992,92, dar cu el inelul aleii 24, 25, 23, 21 se încrucișează (laturile 25-23 și 21-24 se taie), iar latura de vest desenată (241 de profile) e paralelă, la 0,26 m, cu dreapta dintre 21 și E 394982,92 / N 587129,66, pe toată lungimea ei; colțul trasat 24' (E 394982,55, N 587129,56) e la 0,38 m de acest punct. Probabil a cincea cifră e 8; comparată cu celelalte cifre din tabel, glifa nu se poate hotărî. În `repere` 24 rămâne cum e tipărit și nu e folosit. (d) Latura aleii de la stradă: banda roz e acolo groasă de ~10 px (1,3 m), cu o treaptă de ~0,6 m la mijloc; latura e luată paralelă cu 24-25, pe mijlocul jumătății de est a benzii, unde e și colțul 25 al inventarului (la 0,10 m). Arii (contur dus pe hartă prin potrivire; alee și 340137 despărțite pe linia de demarcație 21-23): 297494 198,5 mp (S = 201 mp, -1,3 %), aleea 311875 301,5 mp (S = 296 mp, +1,9 %), 340137 1237,5 mp (S = 1231 mp, +0,5 %); total 1737,5 mp. Art. 1 aprobă 1.432 mp, fără alee: +21,3 %, de aceea poarta de arie pică (`--force`). Bilanțul teritorial al planșei („S teren” 1728 mp = 1231 + 296 + 201) se potrivește la +0,55 %. Cele 1237,5 mp ale lui 340137 confirmă interpretarea: cu latura sudică veche ar fi 1339 mp, cu linia interioară dar cu 11 cum e tipărit, ~1253 mp. Pentru comparație, numai din inventar: 297494 201,3 mp, aleea 289,8 mp (cu 24 la 394982,92). Plasarea e cea din 2026-11-12, neschimbată: potrivire afină pe colțuri din inventar ale ambelor parcele, citite pe mijlocul liniei roz (centrul benzii măsurat pe profile perpendiculare pe fiecare latură, apoi laturile intersectate): control 2, 5, 6 (297494) și 17, 18, 23, 10 (340137); verificare 4 (297494) și 21 (340137). Reziduuri: rms 0,16 m, maxim 0,24 m (la 4), limita 1 m; 7,7-7,8 px/m, rotație 1,5° (forfecare ~1°), deci nu ~3,7° cât spune nota planșei. Cu limita trasată, potrivirea pune pe hartă chiar limita, deci punctele de verificare 4 și 21 sunt cele care o testează. Potrivirea numai pe cinci colțuri ale lui 340137 pune colțurile lui 297494 la 0,5-0,6 m de cele desenate, deci poziția reciprocă a celor două parcele se potrivește cu planșa. Scos din potrivire, 17 cade la 0,56 m de colțul desenat, deci Nordul lui e …45,53 (cu …49,53 ar fi ~4 m). Cifre nesigure la 200 ppi, fără efect acum asupra limitei: Nordul lui 15 (…16,81 / …18,81; 15 nu mai e vârf). Pe harta site-ului metoda apare ca „caroiaj Stereo70, limită trasată pe planșă”, eticheta pe care unealta o pune oricărei limite trasate; aici punctele de control sunt colțuri din inventar, nu cruci de caroiaj. Nesigur: (1) capetele liniei sudice, 15' și 12', depind de prelungirea laturii vestice sub linia mov și de latura estică desenată; (2) latura aleii de la stradă, ±0,6 m (d); (3) 24 și 11 sunt luate după desen, nu după cifrele tipărite. Imaginea satelitară (Esri, z18): 297494 cade pe lotul nr. 12, de pe frontul nordic al străzii, puntea traversează strada, aleea coboară pe lângă casa de pe lotul vecin de est, iar 340137 stă între panta împădurită și aleea de pe malul Lacului Gheorgheni, cu latura sudică la câțiva metri de alee."
   },
+  "repere": {
+    "1": [587141.301, 394981.624],
+    "2": [587155.24, 394978.651],
+    "3": [587158.201, 394991.742],
+    "4": [587158.249, 394991.953],
+    "5": [587142.624, 394994.175],
+    "6": [587140.579, 394981.77],
+    "10": [587064.74, 395001.03],
+    "11": [587063.41, 394999.23],
+    "12": [587025.66, 395005.33],
+    "13": [587023.07, 395000.49],
+    "14": [587020.59, 394989.91],
+    "15": [587016.81, 394971.81],
+    "16": [587036.36, 394967.55],
+    "17": [587045.53, 394965.57],
+    "18": [587061.97, 394995.45],
+    "21": [587080.06, 394992.06],
+    "22": [587080.6, 394995.0],
+    "23": [587081.14, 394997.95],
+    "24": [587129.66, 394992.92],
+    "25": [587129.73, 394988.62]
+  },
+  "limita_px": [
+    [1427.3, 469.1],
+    [1474.2, 469.8],
+    [1566.7, 977.5],
+    [1544.9, 993.0],
+    [1595.0, 1266.1],
+    [1335.5, 1341.7],
+    [1290.5, 1122.7],
+    [1522.7, 1002.1],
+    [1427.3, 469.1],
+    [1421.2, 382.2],
+    [1398.4, 267.7],
+    [1500.1, 245.4],
+    [1517.0, 366.8],
+    [1421.2, 382.2]
+  ],
   "gcp_px": {
     "2": [1399.9, 268.7],
     "5": [1517.6, 368.9],
@@ -106,7 +108,9 @@
   },
   "decupaj": {
     "buffer_m": 1.5,
-    "exclude_px": []
+    "exclude_px": [
+      [1400, 395, 1450, 457]
+    ]
   },
   "legenda_px": [
     [2046, 1450, 3246, 1998]
