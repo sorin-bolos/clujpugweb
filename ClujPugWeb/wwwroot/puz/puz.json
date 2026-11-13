@@ -16625,6 +16625,96 @@
   ]
  },
  {
+  "id": "2025-105",
+  "localitate": "cluj",
+  "hcl": "105/2025",
+  "data": "2025-03-27",
+  "titlu": "P.U.Z. de urbanizare – str. Bună Ziua, latura sudică",
+  "pagina": "https://primariaclujnapoca.ro/consiliu-local/hotarare-de-consiliu/hotararea-105-din-2025/",
+  "pdf": "https://files.primariaclujnapoca.ro/2025/04/03/105.pdf",
+  "utr": [
+   {
+    "cod": "M3*",
+    "denumire": "Zonă mixtă cu regim de construire deschis, adiacentă principalelor artere de trafic: locuire colectivă, birouri și administrație, servicii financiar-bancare, comerț, cultură, învățământ, sănătate ambulatorie, turism (o parcelă, la str. Bună Ziua)",
+    "pot_max": "40%",
+    "cut_max": "2,0",
+    "h_max": "18,80 m la cornișă, 22,30 m maxim; (1-3)S+P+4E+1R"
+   },
+   {
+    "cod": "Li/c_a*",
+    "denumire": "Locuințe cu regim redus de înălțime, individuale și semicolective (cel mult două unități locative pe parcelă), în regim izolat sau cuplat (13 parcele)",
+    "pot_max": "35%",
+    "cut_max": "0,9",
+    "h_max": "trei niveluri supraterane (P+E+M/R sau D+P+M/R; cel mult (S)+P+1+M, (S)+P+1+R, D+P+M, D+P+R); 8 m la cornișă, 12 m la coamă"
+   },
+   {
+    "cod": "Ve / VPr",
+    "denumire": "Zonă verde de protecție a apelor sau cu rol de culoar ecologic (lângă pârâul Becaș) și zonă verde de protecție față de infrastructura majoră (rămân ca în PUG)"
+   }
+  ],
+  "suprafata_m2": 14924,
+  "imagine": "puz/2025-105/plansa.webp",
+  "bounds": {
+   "west": 23.6046798,
+   "south": 46.7478394,
+   "east": 23.6065583,
+   "north": 46.750005
+  },
+  "limita": [
+   [
+    23.6055526,
+    46.7499773
+   ],
+   [
+    23.6058527,
+    46.7493364
+   ],
+   [
+    23.6062182,
+    46.7485989
+   ],
+   [
+    23.6065103,
+    46.7480886
+   ],
+   [
+    23.6065296,
+    46.7480433
+   ],
+   [
+    23.6056966,
+    46.747868
+   ],
+   [
+    23.6047092,
+    46.7498214
+   ]
+  ],
+  "georeferentiere": {
+   "metoda": "repere OpenStreetMap, limită trasată pe planșă",
+   "puncte": 6,
+   "rms_m": 1.54,
+   "aproximativ": true,
+   "precizie_m": 3
+  },
+  "valabilitate": {
+   "ani": 5,
+   "pana_la": "2030-03-27"
+  },
+  "conditii": [
+   "Investițiile se fac în două etape (avizul Serviciului Siguranța Circulației nr. 129845/446/21.02.2024). Etapa 1 – zona M3*: înainte de autorizația de construire pentru imobilul mixt, terenul necesar lărgirii str. Bună Ziua (conform planșei) se dezmembrează și se înscrie în CF ca „drum”; str. Bună Ziua se lărgește pe frontul P.U.Z.-ului cu o bandă de decelerare, iar trotuarul se amenajează la cel puțin 2,5 m pe tot frontul la stradă.",
+   "Tot în etapa 1: lucrările edilitare cerute de noua configurație a str. Bună Ziua (mutarea stâlpilor de iluminat, refacerea iluminatului public, rețeaua pluvială și celelalte rețele, marcaje și indicatoare rutiere).",
+   "Strada „A” propusă, pe tronsonul de lângă zona M3*, se amenajează după un proiect de specialitate și se asfaltează odată cu celelalte investiții din M3* (imobilul mixt, amenajările exterioare), cu o singură autorizație de construire.",
+   "Etapa 2 – zona Li/c_a*: autorizațiile de construire (altele decât pentru infrastructura tehnico-edilitară) se emit după recepția finală a lucrărilor din etapa 1 și după anul 2026; termenul poate fi devansat dacă se fac lucrări rutiere care cresc capacitatea de circulație în zonă, dovedite printr-un studiu de trafic actualizat.",
+   "Toate investițiile propuse prin P.U.Z. sunt suportate de beneficiari.",
+   "Punctele gospodărești de colectare selectivă a deșeurilor sunt pe 5 fracții.",
+   "Spațiul verde de lângă pârâul Becaș e deschis tuturor; aleea de acces spre el se proiectează accesibilă persoanelor cu dizabilități motorii.",
+   "M3*: retragere de cel puțin 6 m față de str. Bună Ziua (regularizată), H/2 dar cel puțin 4,5 m față de limitele laterale și H/2 dar cel puțin 9 m față de cea posterioară; acces auto din strada A propusă, iar la estul zonei mixte o stradă cu ampriza de 16 m deservește ansamblul și zona de locuințe; parcarea în subsolul/parterul clădirilor, conform Anexei 2 a R.L.U.; spațiu verde de cel puțin 30% din parcelă.",
+   "Li/c_a*: retragere de 3 m de la aliniament, de cel puțin 3 m față de limitele laterale (pe parcela 7, la vest, cel puțin înălțimea clădirii și minimum 6 m) și cel puțin înălțimea clădirii, minimum 6 m, față de limita posterioară; garajele se pot alipi limitelor laterale cu calcan de cel mult 2,80 m și se retrag cel puțin 6 m de la limita posterioară; acces din strada A; parcarea numai pe parcelă (1 loc sub 100 mp AU, 2 peste; servicii cu acces public cel puțin 2).",
+   "Toate clădirile se racordează la rețelele publice; cablurile aeriene de orice fel sunt interzise."
+  ]
+ },
+ {
   "id": "2025-104",
   "localitate": "cluj",
   "hcl": "104/2025",

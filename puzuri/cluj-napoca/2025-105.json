@@ -1,8 +1,7 @@
 {
   "id": "2025-105",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Inventarul de coordonate de pe planșa 03a (p. 15, planșă A1L la 1:500 redusă pe A4) e ilizibil și planșa n-are caroiaj Stereo 70, iar reperele OpenStreetMap nu trec porțile: cu 6 colțuri de clădiri la nord și sud-est potrivirea (6,9 px/m, rms 1,54 m) dă aria trasată 14.924 mp față de 13.224 mp declarați (+12,9%), iar cu încă o clădire din sud-vest reziduurile urcă la 7,75 m (> 5 m), deci planșa redusă nu se lasă așezată pe OSM printr-o similaritate.",
+  "verificare_umana": "2026-11-13: aprobat manual de proprietarul hărții, după ce l-a văzut pe hartă (publicat de probă pe branch-ul puz-verificare); așezată pe 6 colțuri de clădiri OSM, aria iese cu 12,9% peste cea declarată (14.924 față de 13.224 mp).",
   "hcl": {
     "nr": 105,
     "an": 2025,
