@@ -1,8 +1,7 @@
 {
   "id": "2026-554",
   "localitate": "cluj",
-  "stare": "oprit",
-  "motiv": "Planșa n-are coordonate utilizabile (inventar lizibil doar parțial, fără caroiaj), iar din OSM are o singură clădire existentă (5 colțuri pe 6 × 24 m) și str. Voroneț fără nicio intersecție: potrivirea pe aceste repere iese la 13,6 px/m în loc de ~12,9 (aria trasată −10%, poarta de 3% picată), iar adăugând vârfurile citite din inventar la 13,3 px/m (−5%).",
+  "verificare_umana": "2026-11-13: aprobat manual de proprietarul hărții, după ce l-a văzut pe hartă (publicat de probă pe branch-ul puz-verificare); așezată pe singura clădire OSM, aria iese cu 10% sub cea declarată (6.146 față de 6.838 mp).",
   "hcl": {
     "nr": 554,
     "an": 2026,
